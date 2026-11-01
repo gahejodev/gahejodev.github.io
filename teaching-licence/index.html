@@ -324,7 +324,7 @@ const bankSeeds=[
 ['Which sequence best supports the writing process?',['Plan, draft, revise, edit and publish','Copy, memorise and stop','Grade, punish and repeat','Read aloud without composing'],0,'The writing process develops ideas through planning, drafting, revision and editing.','language']
 ];
 const variantFrames=[s=>s,s=>`In a classroom decision, ${s.charAt(0).toLowerCase()+s.slice(1)}`,s=>`A teacher is reviewing practice. ${s}`,s=>`For effective learning, consider this question: ${s}`,s=>`Which response is most appropriate? ${s}`,s=>`A trainee teacher is asked: ${s}`,s=>`During lesson planning, the teacher asks: ${s}`,s=>`Which option provides the strongest evidence-based answer? ${s}`,s=>`In the context of Sindh schools, ${s.charAt(0).toLowerCase()+s.slice(1)}`,s=>`Choose the most educationally sound option: ${s}`];
-const expandedQuestions=bankSeeds.flatMap((s,i)=>variantFrames.map((frame,v)=>[`${frame(s[0])} [Practice variation ${v+1}]`,s[1],s[2],s[3],s[4]]));
+const expandedQuestions=bankSeeds.flatMap((s,i)=>variantFrames.map((frame,v)=>{const shift=(i+v)%4,opts=s[1].slice(shift).concat(s[1].slice(0,shift));return [`${frame(s[0])} [Practice variation ${v+1}]`,opts,(s[2]-shift+4)%4,s[3],s[4]];}));
 const bank=questions.map(q=>[...q,'pedagogy']).concat(extraQuestions,bonusQuestions,expandedQuestions);
 const extendedCRQs=[
 ['Lesson planning','Write a lesson plan outline for teaching equivalent fractions to Grade 5. Include measurable outcomes, prior knowledge, activities, differentiation and assessment.','State an observable outcome; diagnose prior understanding; use fraction strips or paper folding; move from models to symbols; provide guided and extension tasks; use an exit ticket aligned to the outcome.'],
