@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sindh Teaching Licence Prep</title>
+<style>
+:root{
+ --site-primary:#123d35;--site-on-primary:#ffffff;
+ --site-secondary:#e5b85c;--site-on-secondary:#17221e;
+ --site-background:#f4f6f1;--site-on-background:#17221e;
+ --site-font-body:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+ --site-font-heading:Inter,ui-sans-serif,system-ui,sans-serif;
+ --site-heading-scale:1;--site-spacing-scale:1;--site-radius-scale:1;--site-decoration-opacity:1;
+ color-scheme:light dark;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--site-font-body);background:light-dark(#f4f6f1,#101916);color:light-dark(#17221e,#e9f0eb)}
+#app{min-height:100vh;background-color:var(--site-background);color:var(--site-on-background);border-radius:0}
+.hero{background:var(--site-primary);color:var(--site-on-primary);padding:clamp(28px,6vw,64px) max(22px,calc((100vw - 1120px)/2));position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:360px;height:360px;border:1px solid #ffffff25;border-radius:50%;right:-90px;top:-180px;box-shadow:0 0 0 40px #ffffff0b,0 0 0 80px #ffffff08;opacity:var(--site-decoration-opacity);pointer-events:none}
+.kicker{text-transform:uppercase;letter-spacing:.14em;font-size:12px;font-weight:800;color:#e5c77f}
+h1,h2,h3{font-family:var(--site-font-heading);line-height:1.15}
+h1{font-size:calc(clamp(34px,6vw,58px)*var(--site-heading-scale));max-width:780px;margin:14px 0}
+.hero p{max-width:740px;line-height:1.7;color:#e2eee8}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+button,.btn{font:inherit;cursor:pointer;border:0;border-radius:calc(12px*var(--site-radius-scale));padding:11px 16px;font-weight:750}
+.primary{background:var(--site-secondary);color:var(--site-on-secondary)}
+.ghost{background:#ffffff18;color:white;border:1px solid #ffffff45}
+nav{position:sticky;top:0;z-index:5;background:light-dark(#fff,#17231f);border-bottom:1px solid light-dark(#dce4dd,#34433d);display:flex;gap:6px;padding:10px max(14px,calc((100vw - 1120px)/2));overflow:auto}
+nav button{background:transparent;color:inherit;white-space:nowrap;padding:10px 13px}
+nav button.active{background:var(--site-primary);color:white}
+main{max-width:1120px;margin:auto;padding:28px 18px 70px}
+.notice{border-left:4px solid #d29c32;background:light-dark(#fff6df,#30291a);padding:15px 17px;border-radius:10px;line-height:1.6;margin:0 0 22px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:20px 0}
+.stat,.panel,.topic,.day{background:light-dark(#fff,#1a2722);border:1px solid light-dark(#e0e7e0,#35443d);border-radius:16px;padding:18px}
+.stat strong{font-size:25px;display:block;color:light-dark(#123d35,#a9d8c4)}
+.stat span,.muted{font-size:13px;color:light-dark(#617068,#b3c2b9)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+h2{font-size:calc(27px*var(--site-heading-scale));margin:8px 0 16px}
+h3{font-size:18px;margin:5px 0 10px}
+p,li{line-height:1.65}
+ul{padding-left:20px}
+.tag{display:inline-block;background:light-dark(#e9f1eb,#263a31);color:light-dark(#174c3e,#bce3d0);padding:5px 9px;border-radius:99px;font-size:12px;font-weight:800}
+.section{display:none}.section.active{display:block}
+.topic{margin:10px 0}
+.topic summary{cursor:pointer;font-weight:800;font-size:17px}
+.topic ul{margin-bottom:0}
+a{color:light-dark(#11614c,#a6ddc4);font-weight:700}
+table{width:100%;border-collapse:collapse;margin:12px 0}
+td,th{text-align:left;padding:10px;border-bottom:1px solid light-dark(#e1e8e2,#35443d);vertical-align:top}
+th{font-size:13px;color:light-dark(#52645a,#b7c7bd)}
+.day{margin:10px 0}
+.day label{display:flex;gap:10px;align-items:flex-start;line-height:1.5;cursor:pointer}
+.day input{margin-top:5px;accent-color:#26775d}
+.progress{height:9px;background:light-dark(#e2e9e3,#35443d);border-radius:99px;overflow:hidden;margin:12px 0}
+.progress span{display:block;height:100%;width:0;background:#2e8b68;transition:width .2s}
+.q{padding:17px 0;border-bottom:1px solid light-dark(#e1e8e2,#35443d)}
+.q p{font-weight:750;margin:0 0 10px}
+.option{display:block;padding:9px 12px;border:1px solid light-dark(#dce5dd,#405249);border-radius:9px;margin:7px 0;cursor:pointer}
+.option:has(input:checked){border-color:#2b8b69;background:light-dark(#edf8f1,#20382d)}
+.result{padding:14px;border-radius:12px;background:light-dark(#e8f3eb,#20382d);margin-top:14px}
+input[type=text],textarea{width:100%;padding:12px;border:1px solid light-dark(#cbd8ce,#46574d);border-radius:10px;background:transparent;color:inherit;font:inherit}
+footer{background:var(--site-primary);color:white;padding:28px 20px;text-align:center}
+.small{font-size:13px}
+@media(max-width:720px){.stats{grid-template-columns:1fr 1fr}.grid2,.grid3{grid-template-columns:1fr}.hero{padding:32px 20px}main{padding:22px 14px 50px}table{font-size:13px}}
+</style></head>
+<body><div id="app">
+<header class="hero">
+ <div class="kicker">Free • Open study resource • Sindh, Pakistan</div>
+ <h1>Teaching Licence Test<br>Preparation Hub</h1>
+ <p>A structured, student-friendly preparation space for the Sindh Teaching Licence. Study pedagogy, educational psychology, assessment, classroom practice and school subjects — then test yourself.</p>
+ <div class="hero-actions"><button class="primary" onclick="show('syllabus')">Explore syllabus ↓</button><button class="ghost" onclick="show('practice')">Start free mock test</button></div>
+</header>
+<nav>
+ <button class="active" data-tab="home" onclick="show('home')">Overview</button>
+ <button data-tab="syllabus" onclick="show('syllabus')">Complete syllabus</button>
+ <button data-tab="plan" onclick="show('plan')">30-day plan</button>
+ <button data-tab="practice" onclick="show('practice')">Practice test</button>
+ <button data-tab="notes" onclick="show('notes')">Study notes</button>
+ <button data-tab="resources" onclick="show('resources')">Official resources</button>
+</nav>
+<main>
+<section id="home" class="section active">
+ <div class="notice"><strong>Important exam update:</strong> STEDA’s published FAQ describes a 100-mark test framework: 30% Content Knowledge, 20% Psychometric Assessment and 50% Pedagogical Content Knowledge (PCK). The separately published 2024 Elementary syllabus and older model paper are useful preparation references, but do not assume the older model-paper format is the confirmed Phase-II pattern. Always follow the latest STEDA/STS notice.</div>
+ <div class="stats">
+  <div class="stat"><strong>50%</strong><span>Pedagogical Content Knowledge</span></div>
+  <div class="stat"><strong>30%</strong><span>Content Knowledge</span></div>
+  <div class="stat"><strong>20%</strong><span>Psychometric assessment</span></div>
+  <div class="stat"><strong>30 days</strong><span>Suggested preparation roadmap</span></div>
+ </div>
+ <div class="grid2">
+  <article class="panel"><span class="tag">What to prepare</span><h3>Professional teaching knowledge</h3><p>Teaching methods, lesson planning, child development, learning theories, classroom management, inclusive education, assessment, ethics and school-community relationships.</p></article>
+  <article class="panel"><span class="tag">Content knowledge</span><h3>School curriculum foundations</h3><p>Mathematics, Science, Social Studies, English and Urdu or Sindhi. The 2024 Elementary syllabus specifies Classes 1–8 curriculum.</p></article>
+  <article class="panel"><span class="tag">Question approach</span><h3>Think like a teacher</h3><p>Practise applying ideas to realistic classrooms: mixed ability, low resources, language differences, learning gaps, student safety and fair assessment.</p></article>
+  <article class="panel"><span class="tag">Free learning</span><h3>Learn, revise, practise</h3><p>Use the topic checklist, 30-day plan, quick notes and practice quiz. Your checklist and notes are saved on this device only.</p></article>
+ </div>
+ <h2 style="margin-top:28px">Licence categories at a glance</h2>
+ <div class="panel"><table><tr><th>Category</th><th>Qualification route in policy</th><th>Teaching classes</th></tr>
+ <tr><td>Primary</td><td>ADE; in-service route includes 2 years' experience</td><td>1–5</td></tr>
+ <tr><td>Elementary</td><td>B.Ed. Elementary (4-year/2.5-year), M.Ed./M.A. Education or equivalent; in-service route includes 3 years' experience</td><td>1–8</td></tr>
+ <tr><td>Secondary</td><td>B.Ed. Secondary (4-year/1.5-year), M.Ed./M.A. Education or equivalent; in-service route includes 3 years' experience</td><td>6–12</td></tr></table><p class="small muted">Eligibility wording summarises the 2023 policy. Confirm current category-specific rules in the Phase-II advertisement before applying.</p></div>
+</section>
+<section id="syllabus" class="section">
+ <h2>Complete preparation syllabus</h2><p class="muted">The first five pedagogy domains below follow the official 2024 Elementary syllabus themes. Expanded subtopics are a study guide, not a claim that every item is a separately prescribed exam question.</p>
+ <details class="topic" open><summary>1. Methods of Teaching & Foundations of Education</summary><ul>
+ <li>Instructional approaches: teacher-centred, learner-centred, activity-based, inquiry-based, problem-based and experiential learning.</li><li>Effective questioning: open/closed questions, probing, wait-time, higher-order questions and checking understanding.</li><li>Cooperative learning: group roles, peer tutoring, think-pair-share, jigsaw and collaborative tasks.</li><li>Bloom’s Taxonomy: Remember, Understand, Apply, Analyse, Evaluate, Create; write measurable learning outcomes.</li><li>Lesson planning: objectives, prior knowledge, introduction, teaching-learning activities, resources, differentiation, assessment, closure and reflection.</li><li>Foundations: ideological, philosophical, sociological, psychological and historical foundations of education.</li><li>National Professional Standards for Teachers in Pakistan: subject knowledge, human growth, instructional planning/strategies, assessment, learning environment, communication, collaboration, professional development and ethics.</li></ul></details>
+ <details class="topic"><summary>2. Child Development & Educational Psychology</summary><ul>
+ <li>Domains of development: physical, cognitive, language, social, emotional and moral.</li><li>Developmental principles: continuity, sequence, individual pace, heredity-environment interaction and readiness.</li><li>Piaget: cognitive development and stages; Vygotsky: ZPD and scaffolding; Erikson: psychosocial development; Kohlberg: moral development; Bruner: discovery learning; Bandura: observational learning.</li><li>Learning theories: behaviourism (Pavlov, Skinner, reinforcement), cognitivism, constructivism (Piaget/Vygotsky) and humanism (Maslow/Rogers).</li><li>Motivation: intrinsic/extrinsic, needs, goals, reinforcement, self-efficacy and supportive feedback.</li><li>Individual differences, prior knowledge, language, disability, giftedness, socio-economic context and special educational needs.</li><li>Age-appropriate strategies, inclusive practices, Universal Design for Learning (UDL) and referral/support pathways.</li></ul></details>
+ <details class="topic"><summary>3. Classroom Management</summary><ul>
+ <li>Positive classroom climate, routines, rules, expectations and time management.</li><li>Physical environment: seating, visibility, ventilation, learning corners, displays and safe movement.</li><li>Social environment: respect, belonging, shared values, cultural responsiveness and student voice.</li><li>Preventive management, positive reinforcement, restorative responses, conflict resolution and behaviour support.</li><li>Managing large and multi-grade classes; low-cost teaching aids and peer learning.</li><li>Classroom observation, anecdotal records, attendance/participation data and reflective practice.</li><li>Differentiated learning: adapt content, process, product and learning environment; flexible grouping.</li></ul></details>
+ <details class="topic"><summary>4. Classroom Assessment, Test Development & Evaluation</summary><ul>
+ <li>Assessment, measurement, testing and evaluation: definitions and differences.</li><li>Diagnostic, formative and summative assessment; assessment for/as/of learning.</li><li>Feedback: timely, specific, actionable, respectful and linked to learning goals.</li><li>Assessment-embedded lesson plans, exit tickets, observation, oral questioning and peer/self-assessment.</li><li>MCQs, short answers, constructed responses, essays, performance tasks, projects and portfolios.</li><li>Rubrics, criteria, marking schemes, test blueprints/table of specifications and item analysis.</li><li>Validity, reliability, fairness, objectivity, practicality and accessibility.</li><li>Teacher-made tests, standards, learning domains and Bloom-aligned questions.</li></ul></details>
+ <details class="topic"><summary>5. School, Community & Teacher</summary><ul>
+ <li>School and community structures/functions in Pakistan; school as a social institution.</li><li>Education and social development; family, religious institutions and other social institutions.</li><li>Culture, cultural elements, language diversity, inclusion and cultural competency.</li><li>School-community partnership, parent engagement, SMC/community participation and communication.</li><li>Working context of Pakistani teachers, professional identity, collaboration and ethical responsibilities.</li><li>Confidentiality, child protection, non-discrimination, professional boundaries and responsible use of student data.</li></ul></details>
+ <details class="topic"><summary>6. Pedagogical Content Knowledge (PCK) — subject teaching</summary><ul>
+ <li><b>Mathematics:</b> number sense, place value, operations, fractions, decimals, percentages, ratio, geometry, measurement, data handling; diagnose misconceptions and use concrete → pictorial → abstract progression.</li><li><b>Science:</b> living things, plants, human body, matter, force, energy, environment, earth/space; inquiry, observation, fair tests, prediction and evidence-based explanation.</li><li><b>Social Studies:</b> geography, history, civics, citizenship, maps, local community, culture, rights/responsibilities; use timelines, maps, discussion and local examples.</li><li><b>English:</b> listening, speaking, reading, writing, vocabulary, grammar, comprehension and phonics; scaffold language and integrate the four skills.</li><li><b>Urdu/Sindhi:</b> reading fluency, comprehension, vocabulary, grammar, writing, oral expression and mother-tongue support.</li><li>For every subject, practise: identify misconception → choose teaching strategy → plan activity → check learning → give feedback.</li></ul></details>
+ <details class="topic"><summary>7. Psychometric Assessment — preparation guidance</summary><ul>
+ <li>Practise careful reading, consistency, situational judgement and professional decision-making.</li><li>Choose responses that prioritise student safety, fairness, inclusion, honesty, confidentiality and evidence-based action.</li><li>Do not try to guess a hidden personality profile or fake a preferred persona. Answer honestly and consistently.</li><li>STEDA's public FAQ assigns 20% to psychometric assessment; the exact Phase-II instrument and scoring details must be confirmed from the official test notice/RFP.</li></ul></details>
+ <details class="topic"><summary>8. Content Knowledge — school subjects</summary><ul>
+ <li>Revise core concepts from the relevant Sindh/DCAR school curriculum for the licence category and level announced.</li><li>Mathematics: arithmetic, fractions, decimals, percentages, ratio, geometry, measurement, patterns and basic statistics.</li><li>Science: biology, physical science, earth/environmental science, scientific method and everyday applications.</li><li>Social Studies: Pakistan/Sindh geography and history, citizenship, society, culture and map skills.</li><li>English and mother tongue: grammar, vocabulary, comprehension, sentence construction and language use.</li><li>Use the prescribed textbook/curriculum, not random advanced material. The published 2024 Elementary syllabus specifically names Classes 1–8.</li></ul></details>
+ <div class="notice"><b>Do not confuse two published formats:</b> STEDA’s FAQ states a 100-mark framework of 30/20/50. The older IBA model paper shows a 300-mark practice structure: one case-study ERQ (100), ten CRQs (150 total) and 50 MCQs (50 total), with 25/50/25 weightage. Use the latter to practise written reasoning, not as a confirmed Phase-II paper blueprint.</div>
+</section>
+<section id="plan" class="section">
+ <h2>30-day preparation plan</h2><p>Suggested daily study time: 2–3 focused hours. Tick off tasks as you complete them; progress is stored locally in this browser.</p>
+ <div class="panel"><b id="progressText">0% completed</b><div class="progress"><span id="progressBar"></span></div><button class="primary" onclick="resetPlan()">Reset checklist</button></div>
+ <div id="days"></div>
+</section>
+<section id="practice" class="section">
+ <h2>Free practice test</h2><div class="notice">This is an original learning quiz, not an official STEDA paper. It samples pedagogy, educational psychology, assessment and subject teaching. Attempt without notes, then review explanations.</div>
+ <div class="toolbar"><select class="filter" id="quizMode" aria-label="Practice mode"><option value="mixed">Mixed mock • 20 questions</option><option value="pedagogy">Pedagogy practice</option><option value="psychology">Educational psychology</option><option value="assessment">Assessment & evaluation</option><option value="math">Mathematics PCK</option><option value="science">Science PCK</option><option value="language">Language PCK</option><option value="social">Social Studies PCK</option></select><span class="timer" id="timer">20:00</span><button class="primary" onclick="newQuiz()">Start new test</button></div>
+ <div class="challenge"><b>Daily teaching challenge</b><p id="dailyChallenge" style="margin-bottom:0"></p></div>
+ <div class="panel"><div id="quiz"></div><button class="primary" onclick="gradeQuiz()">Submit answers</button><div id="quizResult"></div><button onclick="newQuiz()" style="margin-left:8px">Try again</button></div>
+</section>
+<section id="notes" class="section">
+ <h2>Quick revision notes</h2><div class="grid2">
+ <article class="panel"><h3>Bloom’s Taxonomy</h3><p>Remember → Understand → Apply → Analyse → Evaluate → Create. Use observable verbs: list, explain, solve, compare, justify, design.</p></article>
+ <article class="panel"><h3>Assessment types</h3><p>Diagnostic: before teaching. Formative: during learning to improve it. Summative: at the end to judge achievement.</p></article>
+ <article class="panel"><h3>Constructivism</h3><p>Learners actively build understanding using prior knowledge, experience, discussion and reflection. Teacher facilitates and scaffolds.</p></article>
+ <article class="panel"><h3>Scaffolding & ZPD</h3><p>Vygotsky’s Zone of Proximal Development is the space between independent performance and what a learner can do with guidance. Gradually remove support.</p></article>
+ <article class="panel"><h3>Validity & reliability</h3><p>Validity: does the assessment measure what it intends to measure? Reliability: are results consistent? Fairness and accessibility also matter.</p></article>
+ <article class="panel"><h3>Differentiated instruction</h3><p>Adjust content, process, product or environment to learner readiness, interests and needs while keeping meaningful learning goals.</p></article>
+ <article class="panel"><h3>Cooperative learning</h3><p>Structured small-group learning with positive interdependence, individual accountability, interaction and group reflection.</p></article>
+ <article class="panel"><h3>Effective feedback</h3><p>Specific, timely and actionable: explain what was done well, what needs improvement and the next step.</p></article>
+ </div>
+ <div class="panel" style="margin-top:16px"><h3>Your personal study notes</h3><p class="muted">Write your own summaries, difficult concepts or questions. Notes stay in this browser/device.</p><textarea id="myNotes" rows="7" placeholder="Example: Difference between formative and summative assessment..."></textarea><button class="primary" onclick="saveNotes()" style="margin-top:10px">Save notes</button><span id="saved" class="muted" style="margin-left:10px"></span></div>
+</section>
+<section id="resources" class="section">
+ <h2>Official resources & exam alerts</h2>
+ <div class="panel"><h3>1. STEDA Teaching Licence page</h3><p>Policy, 2024 Elementary syllabus, model test papers and licence information.</p><a href="https://www.steda.gos.pk/tlicense.aspx" target="_blank" rel="noopener">Open official STEDA Teaching Licence page ↗</a></div>
+ <div class="panel"><h3>2. Official 2024 Elementary syllabus (PDF)</h3><p>Part I Content Knowledge and Part II Pedagogical Content Knowledge.</p><a href="https://www.steda.gos.pk/Downloads/Teaching_Licence_Test_2024.pdf" target="_blank" rel="noopener">Download / read syllabus ↗</a></div>
+ <div class="panel"><h3>3. Official sample paper (PDF)</h3><p>Includes case study, constructed response questions, MCQs and marking rubrics.</p><a href="https://www.steda.gos.pk/Downloads/model_papers_iba.pdf" target="_blank" rel="noopener">Open model paper ↗</a></div>
+ <div class="panel"><h3>4. STEDA downloads & notices</h3><p>Check the newest RFP, notices, course outlines and official documents. A Phase-II consultant procurement RFP was listed on 23 October 2026.</p><a href="https://steda.gos.pk/downloads.aspx" target="_blank" rel="noopener">Open STEDA downloads ↗</a></div>
+ <div class="panel"><h3>5. School Education & Literacy Department, Sindh</h3><a href="https://sindheducation.gov.pk/" target="_blank" rel="noopener">Open official department website ↗</a></div>
+ <div class="notice"><b>Exam date warning:</b> The material reviewed confirms a Phase-II procurement/RFP listing, and a September 2026 target was reported in April 2026 news coverage. I could not verify a final current date, registration opening, fee, testing agency or roll-number-slip schedule from the official documents reviewed. Check STEDA and STS before relying on any social-media announcement.</div>
+ <p><b>STEDA contact shown on its website:</b> +92-21-99332718, 19-21 • steda.info@gmail.com</p>
+ <p class="small muted">Prepared as an independent, free study aid. Not affiliated with STEDA/SE&LD and not an official examination document. Content is educational guidance; official notices always prevail.</p>
+</section>
+</main>
+<footer><b>Sindh Teaching Licence Prep</b><p class="small">Free learning resource • Learn deeply. Teach confidently. Serve every learner.</p></footer>
+</div>
+<script>
+const plan=[
+["Days 1–3 • Foundations","Read ideological, philosophical, sociological, psychological and historical foundations. Make a one-page comparison sheet.","Write 10 measurable learning outcomes using Bloom’s verbs.","Review National Professional Standards for Teachers and professional ethics."],
+["Days 4–6 • Learning & development","Study Piaget, Vygotsky, Erikson, Kohlberg, Bruner and Bandura.","Compare behaviourism, cognitivism, constructivism and humanism.","Practise 15 classroom scenarios involving motivation and individual differences."],
+["Days 7–9 • Teaching methods","Revise learner-centred, inquiry, activity-based and cooperative strategies.","Practise questioning, wait-time, scaffolding and peer learning.","Prepare two lesson plans with objectives, activities and assessment."],
+["Days 10–12 • Classroom management","Study routines, positive discipline, classroom climate and time management.","Plan for large classes, multi-grade teaching and low-resource settings.","Write solutions to five behaviour and inclusion scenarios."],
+["Days 13–15 • Assessment","Compare diagnostic, formative and summative assessment.","Study rubrics, portfolios, MCQs, validity, reliability and fairness.","Create a 10-question test blueprint and feedback examples."],
+["Days 16–18 • School & community","Study culture, family, community, school partnerships and teacher ethics.","Prepare a parent-engagement plan for a rural/low-resource context.","Practise confidentiality, child safety and inclusion scenarios."],
+["Days 19–21 • Subject PCK","Revise Mathematics and Science concepts from the relevant school curriculum.","Revise Social Studies and map/timeline-based teaching.","Revise English and Urdu/Sindhi language teaching and comprehension."],
+["Days 22–24 • Content knowledge","Revise core curriculum concepts by grade and subject.","Solve mixed MCQs and keep an error log.","Teach one difficult concept aloud using concrete examples."],
+["Days 25–27 • Applied practice","Practise case-study answers using problem → evidence → strategy → assessment → reflection.","Attempt constructed-response questions under time limits.","Complete one full mixed mock and review every wrong answer."],
+["Days 28–30 • Final revision","Revisit weak areas and quick notes; do not start large new topics.","Attempt a timed mock; practise calm, consistent situational judgement.","Final review: documents, exam instructions, sleep and time management."]
+];
+function show(id){document.querySelectorAll('.section').forEach(s=>s.classList.toggle('active',s.id===id));document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===id));if(id==='practice'){newQuiz();}else if(typeof timerHandle!=='undefined'){clearInterval(timerHandle);}window.scrollTo({top:0,behavior:'smooth'});}
+function renderPlan(){let el=document.getElementById('days');el.innerHTML='';let saved=JSON.parse(localStorage.getItem('tlplan')||'{}');plan.forEach((d,i)=>{let box=document.createElement('div');box.className='day';let tasks=d.slice(1).map((t,j)=>{let k=i+'-'+j;return `<label><input type="checkbox" data-key="${k}" ${saved[k]?'checked':''}><span>${t}</span></label>`}).join('');box.innerHTML=`<h3>${d[0]}</h3>${tasks}`;el.appendChild(box)});el.querySelectorAll('input').forEach(x=>x.addEventListener('change',savePlan));updateProgress();}
+function savePlan(){let obj={};document.querySelectorAll('#days input').forEach(x=>obj[x.dataset.key]=x.checked);localStorage.setItem('tlplan',JSON.stringify(obj));updateProgress();}
+function updateProgress(){let all=[...document.querySelectorAll('#days input')],n=all.filter(x=>x.checked).length,p=all.length?Math.round(n/all.length*100):0;document.getElementById('progressText').textContent=`${n} of ${all.length} tasks completed • ${p}%`;document.getElementById('progressBar').style.width=p+'%';}
+function resetPlan(){if(confirm('Reset all preparation checkboxes?')){localStorage.removeItem('tlplan');renderPlan();}}
+const questions=[
+["A teacher wants to check prior knowledge before starting fractions. Which assessment is most suitable?",["Summative test","Diagnostic assessment","Final examination","Portfolio grading"],1,"Diagnostic assessment identifies learners’ existing knowledge and misconceptions before instruction."],
+["Which sequence correctly represents the revised Bloom’s cognitive process?",["Remember, Understand, Apply, Analyse, Evaluate, Create","Know, Copy, Repeat, Memorise, Test, Pass","Observe, Listen, Read, Write, Speak, Draw","Plan, Teach, Punish, Grade, Rank, Promote"],0,"The revised taxonomy progresses from Remember to Create."],
+["A learner can solve a problem with hints but not independently. This best illustrates:",["Classical conditioning","Zone of Proximal Development","Summative evaluation","Fixed intelligence"],1,"Vygotsky’s ZPD concerns what a learner can achieve with guidance."],
+["Which is the strongest example of formative assessment?",["Annual examination","Exit ticket used to adjust tomorrow’s lesson","Board examination","Final report card"],1,"Formative assessment informs teaching and learning while they are happening."],
+["A class has mixed reading abilities. The teacher gives texts at different reading levels but keeps the same learning goal. This is:",["Differentiated instruction","Punitive discipline","Norm-referenced testing","Rote learning"],0,"Differentiation adapts the route or resources to learner needs."],
+["Which question best promotes higher-order thinking?",["What is the definition?","Repeat the date.","Why do you think this happened, and what evidence supports your view?","Copy paragraph two."],2,"It requires analysis, reasoning and evidence."],
+["A test gives consistent results but does not measure the intended learning outcome. It is:",["Valid and reliable","Reliable but not valid","Valid but unreliable","Neither measurable nor scorable"],1,"Reliability is consistency; validity concerns whether the intended construct is measured."],
+["Which approach best supports cooperative learning?",["One student completes all work","Groups have shared goals and individual accountability","Students sit together but work separately","Teacher gives no task structure"],1,"Cooperative learning requires positive interdependence and individual accountability."],
+["A student repeatedly disrupts a lesson. What should the teacher do first?",["Publicly shame the student","Use calm, proportionate response and investigate triggers","Immediately expel the student","Ignore all behaviour"],1,"Positive management is respectful, preventive and responsive to the cause."],
+["To teach place value effectively, a teacher should first:",["Start with abstract algebra","Use bundles/objects or place-value materials, then drawings and symbols","Ask students to memorise without examples","Skip prerequisite concepts"],1,"Concrete-to-pictorial-to-abstract progression builds conceptual understanding."],
+["Which feedback is most useful?",["Wrong. Try harder.","You are weak at maths.","Your method is correct up to step two; regroup the tens in step three.","Good."],2,"Specific feedback identifies progress and a clear next action."],
+["A teacher shares a learner’s private family information in a public group. This mainly breaches:",["Confidentiality and professional ethics","Lesson timing","Curriculum alignment","Cooperative learning"],0,"Teachers should protect student privacy and share sensitive information only through appropriate channels."]
+];
+function renderQuiz(){let q=document.getElementById('quiz');q.innerHTML=questions.map((x,i)=>`<div class="q"><p>${i+1}. ${x[0]}</p>${x[1].map((o,j)=>`<label class="option"><input type="radio" name="q${i}" value="${j}"> ${String.fromCharCode(65+j)}. ${o}</label>`).join('')}<div id="ex${i}"></div></div>`).join('');document.getElementById('quizResult').innerHTML='';}
+function gradeQuiz(){let score=0,answered=0;questions.forEach((q,i)=>{let a=document.querySelector(`input[name=q${i}]:checked`),ex=document.getElementById('ex'+i);if(a){answered++;if(+a.value===q[2])score++;}ex.innerHTML=`<div class="small" style="color:${a&&+a.value===q[2]?'#238354':'#b46c24'}">${a&&+a.value===q[2]?'Correct':'Review'} — ${q[3]}</div>`});document.getElementById('quizResult').innerHTML=`<div class="result"><b>Your score: ${score}/${questions.length} (${Math.round(score/questions.length*100)}%)</b><br>${answered} answered. Review explanations and retry to improve.</div>`;}
+function newQuiz(){renderQuiz();window.scrollTo({top:0,behavior:'smooth'});}
+function saveNotes(){localStorage.setItem('tlnote',document.getElementById('myNotes').value);document.getElementById('saved').textContent='Saved on this device.';}
+const extraQuestions=[
+['A teacher asks learners to predict, observe and explain what happens when ice melts. Which method is this?', ['Lecture method','Scientific inquiry','Dictation','Memorisation'],1,'Prediction, observation and explanation are core inquiry-learning steps.','science'],
+['A learner writes 3/4 as 0.34. What should the teacher do first?', ['Give punishment','Use fraction strips or a number line to address the misconception','Move to algebra','Ask the learner to copy the answer'],1,'Concrete and visual representations help learners connect fractions and decimals.','math'],
+['Which classroom task best develops map-reading skills?', ['Memorise a paragraph','Use a map key and scale to locate places','Copy a map without labels','Read a poem'],1,'Learners need to interpret symbols, keys, direction and scale.','social'],
+['Which activity best develops reading comprehension?', ['Copy each sentence','Predict, question, summarise and cite evidence from the text','Memorise page numbers','Only practise handwriting'],1,'Active comprehension strategies support meaning-making and evidence use.','language'],
+['A learner can solve a problem with hints but not independently. This best illustrates:', ['Classical conditioning','Zone of Proximal Development','Summative evaluation','Fixed intelligence'],1,'Vygotsky’s ZPD concerns what a learner can achieve with guidance.','psychology'],
+['Which is the clearest example of intrinsic motivation?', ['Learning only to avoid punishment','Reading because the topic is personally interesting','Studying only for a prize','Completing work to avoid a fine'],1,'Intrinsic motivation comes from interest or satisfaction in the activity itself.','psychology'],
+['A good learning outcome should be:', ['Vague and broad','Observable and measurable','Unrelated to assessment','Only about teacher activity'],1,'Measurable outcomes describe what learners will know or do.','pedagogy'],
+['Which is the best use of an exit ticket?', ['Rank students publicly','Identify what learners understood and what needs reteaching','Replace all examinations','Record attendance only'],1,'Exit tickets provide quick formative evidence for instructional decisions.','assessment'],
+['A test blueprint mainly helps a teacher to:', ['Decorate the paper','Align questions, content areas and cognitive levels','Increase test length','Avoid learning outcomes'],1,'A table of specifications supports balanced content and skill coverage.','assessment'],
+['Which practice supports an inclusive classroom?', ['One method for every learner regardless of need','Offer accessible materials and more than one way to participate','Exclude learners who need support','Lower expectations for a whole group'],1,'Inclusion removes barriers while maintaining meaningful learning expectations.','pedagogy'],
+['In a cooperative group, individual accountability means:', ['Only the group leader is assessed','Each learner is responsible for contributing and learning','No one knows their role','The teacher does all the work'],1,'Each learner remains responsible for their own learning and contribution.','pedagogy'],
+['A child learns a new word more easily when it is connected to a familiar home-language word. This uses:', ['Prior knowledge and linguistic resources','Punishment','Random grouping','Summative grading'],0,'Connecting new learning with familiar language supports comprehension.','language'],
+['Which is the clearest feature of a reliable assessment?', ['Scores vary wildly for equivalent performance','Consistent scoring using clear criteria','Questions unrelated to the lesson','Different rules for each student'],1,'Reliability is improved through consistent administration and scoring criteria.','assessment'],
+['A learner is frequently absent. What is the most constructive first response?', ['Assume laziness','Privately understand barriers and coordinate appropriate support','Announce family details to the class','Immediately remove the learner'],1,'A respectful conversation can identify barriers and guide support.','pedagogy'],
+['Which teaching aid is most useful to introduce place value?', ['Unrelated poster','Bundles of sticks or base-ten blocks','A long lecture only','A spelling list'],1,'Manipulatives make tens and ones visible before abstract notation.','math'],
+['Which question asks learners to evaluate?', ['List three planets','Explain the word orbit','Which solution is strongest? Justify using evidence','Copy the diagram'],2,'Evaluation requires judging against criteria and supporting the judgement.','pedagogy'],
+['In a fair science investigation, which factor should generally be changed deliberately?', ['Every variable at once','One independent variable while controlling others','The recorded result','The conclusion after seeing data'],1,'A fair test changes one independent variable and controls other relevant factors.','science'],
+['A timeline is especially useful for teaching:', ['Chronological sequence in history','Decimal multiplication','Pronunciation only','Laboratory safety only'],0,'Timelines help learners organise events in chronological order.','social'],
+['Which strategy best checks whether all learners are following a lesson?', ['Ask only the fastest learner','Use mini-whiteboards or all-student response checks','Wait until the annual exam','Assume silence means understanding'],1,'All-student response techniques reveal understanding across the class.','assessment'],
+['A learner can explain orally but struggles to write. A useful adjustment is:', ['Ignore the strength','Allow oral rehearsal, sentence frames and gradual writing support','Remove the learning goal','Stop assessing learning'],1,'Build on oral language and scaffold the written expression skill.','language'],
+['Which teacher action best demonstrates reflective practice?', ['Repeat the same lesson regardless of results','Review learner evidence and adapt the next lesson','Blame learners for every difficulty','Avoid feedback'],1,'Reflection uses evidence to improve teaching decisions.','pedagogy'],
+['A learner is being bullied. The teacher should first:', ['Treat it as harmless teasing','Ensure immediate safety, listen, document and follow safeguarding procedures','Ask the learner to fight back','Share the story publicly'],1,'Safety and established child-protection procedures take priority.','pedagogy'],
+['Which is a formative use of homework?', ['Give a grade and never discuss it','Review errors and use them to plan follow-up teaching','Use it only to punish','Count pages without checking learning'],1,'Homework can provide evidence that informs next instructional steps.','assessment'],
+['Which activity best supports speaking skills in a language class?', ['Silent copying only','Structured pair discussion with clear roles and feedback','Memorising punctuation','Only multiple-choice grammar drills'],1,'Purposeful interaction gives learners meaningful speaking practice.','language']
+];
+const bank=questions.map(q=>[...q,'pedagogy']).concat(extraQuestions);
+let activeQuiz=[],timerHandle=null,secondsLeft=1200;
+function shuffle(items){return [...items].sort(()=>Math.random()-.5)}
+function renderQuiz(){document.getElementById('quiz').innerHTML=activeQuiz.map((x,i)=>`<div class="q"><p>${i+1}. ${x[0]}</p>${x[1].map((o,j)=>`<label class="option"><input type="radio" name="q${i}" value="${j}"> ${String.fromCharCode(65+j)}. ${o}</label>`).join('')}<div id="ex${i}"></div></div>`).join('');document.getElementById('quizResult').innerHTML='';}
+function updateTimer(){document.getElementById('timer').textContent=`${String(Math.floor(secondsLeft/60)).padStart(2,'0')}:${String(secondsLeft%60).padStart(2,'0')}`;}
+function newQuiz(){clearInterval(timerHandle);let mode=document.getElementById('quizMode').value;let pool=mode==='mixed'?bank:bank.filter(q=>q[4]===mode);activeQuiz=shuffle(pool).slice(0,Math.min(mode==='mixed'?20:15,pool.length));secondsLeft=1200;updateTimer();renderQuiz();timerHandle=setInterval(()=>{secondsLeft--;updateTimer();if(secondsLeft<=0){clearInterval(timerHandle);gradeQuiz();}},1000);}
+function gradeQuiz(){clearInterval(timerHandle);let score=0,answered=0;activeQuiz.forEach((q,i)=>{let a=document.querySelector(`input[name=q${i}]:checked`),ex=document.getElementById('ex'+i);if(a){answered++;if(+a.value===q[2])score++;}ex.innerHTML=`<div class="small" style="color:${a&&+a.value===q[2]?'#238354':'#b46c24'}">${a&&+a.value===q[2]?'Correct':'Review'} — ${q[3]}</div>`});document.getElementById('quizResult').innerHTML=`<div class="result"><b>Your score: ${score}/${activeQuiz.length} (${Math.round(score/activeQuiz.length*100)}%)</b><br>${answered} answered. Review explanations and retry to improve.</div>`;}
+function dailyChallenge(){let prompts=['A student understands a concept orally but cannot write it. What two supports would you try first?','Your class has 50 learners and few textbooks. Design a 10-minute cooperative activity.','A quick quiz shows half the class has the same misconception. What will you change in tomorrow’s lesson?','A group task is dominated by two learners. How will you create individual accountability?','A learner gives an incorrect answer but shows a useful idea. How will you respond?','How can you assess understanding during a practical science activity without stopping the investigation?'];document.getElementById('dailyChallenge').textContent=prompts[Math.floor(Date.now()/86400000)%prompts.length];}
+function downloadNotes(){let blob=new Blob([document.getElementById('myNotes').value],{type:'text/plain;charset=utf-8'}),a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='my-teaching-licence-notes.txt';a.click();URL.revokeObjectURL(a.href);}
+function printNotes(){let w=window.open('','_blank');if(!w){alert('Allow pop-ups to print your notes.');return;}let safe=document.getElementById('myNotes').value.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));w.document.write('<title>Teaching Licence Notes</title><pre style="white-space:pre-wrap;font:16px/1.6 Arial;padding:24px">'+safe+'</pre>');w.document.close();w.print();}
+renderPlan();document.getElementById('myNotes').value=localStorage.getItem('tlnote')||'';dailyChallenge();
+</script></body></html>
