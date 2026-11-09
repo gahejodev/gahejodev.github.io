@@ -88,6 +88,13 @@ footer{background:var(--site-primary);color:white;padding:28px 20px;text-align:c
 .small{font-size:13px}
 .toolbar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:14px 0}.filter,.timer{padding:10px 12px;border:1px solid light-dark(#cbd8ce,#46574d);border-radius:10px;background:light-dark(#fff,#1a2722);color:inherit;font:inherit}.timer{font-weight:850;font-variant-numeric:tabular-nums;min-width:76px;text-align:center}.challenge{background:light-dark(#edf4ed,#20382d);border:1px solid light-dark(#d7e5d9,#3d5748);border-radius:14px;padding:15px;margin:14px 0}.secondary{background:light-dark(#e9f1eb,#263a31);color:inherit}.answer{border-left:3px solid #2e8b68;padding:10px 13px;margin:12px 0;background:light-dark(#f0f6f1,#1e3028);border-radius:8px}.metric-row{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:12px 0}.metric{padding:12px;border-radius:10px;background:light-dark(#edf3ee,#24352d)}.metric b{display:block;font-size:20px}.case-box{border:1px solid light-dark(#dce5dd,#405249);border-radius:12px;padding:16px;margin:12px 0}.case-box textarea{margin-top:10px}.toolbar button{white-space:nowrap}
 @media(max-width:720px){.stats{grid-template-columns:1fr 1fr}.grid2,.grid3{grid-template-columns:1fr}.hero{padding:32px 20px}main{padding:22px 14px 50px}table{font-size:13px}}
+
+/* Stable one-page two-column navigation; keep buttons light */
+.explore-nav{display:block!important;width:100%;max-width:1120px;margin:0 auto!important;padding:26px 18px 8px!important;box-sizing:border-box}
+.explore-grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:12px!important;width:100%}
+.explore-grid button{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:flex-start!important;width:100%!important;min-width:0!important;white-space:normal!important;background:#fff!important;color:#17221e!important;border:1px solid #dce5dd!important}
+.explore-grid button.active{background:#123d35!important;color:#fff!important;border-color:#123d35!important}
+@media(max-width:420px){.explore-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}.explore-grid button{padding:13px 10px!important;font-size:14px!important;min-height:70px!important}}
 </style></head>
 <body><div id="app">
 <header class="hero">
