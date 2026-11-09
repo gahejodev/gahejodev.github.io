@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gahejodev.github.io/sitemap.xml
