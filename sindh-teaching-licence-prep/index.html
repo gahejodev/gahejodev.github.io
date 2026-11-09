@@ -43,6 +43,15 @@ button,.btn{font:inherit;cursor:pointer;border:0;border-radius:calc(12px*var(--s
 nav{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid #dce4dd;display:flex;gap:6px;padding:10px max(14px,calc((100vw - 1120px)/2));overflow:auto}
 nav button{background:transparent;color:#17221e;white-space:nowrap;padding:10px 13px}
 nav button.active{background:var(--site-primary);color:white}
+.explore-nav{max-width:1120px;margin:0 auto;padding:26px 18px 8px;background:#f4f6f1;color:#17221e}
+.explore-nav h2{margin:0 0 16px;font-size:27px}
+.explore-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.explore-grid button{display:flex;align-items:center;gap:13px;min-height:76px;text-align:left;background:#1b2b26;color:#f6f8f5;border:1px solid #35443d;border-radius:20px;padding:16px 18px;font-size:16px;font-weight:750;box-shadow:0 5px 14px #17221e12}
+.explore-grid button.active{background:#123d35;color:#fff;border-color:#123d35}
+.nav-dot{width:13px;height:13px;flex:0 0 13px;border-radius:50%;background:#e5b85c}
+.explore-grid button:focus-visible{outline:3px solid #d29c32;outline-offset:3px}
+@media(max-width:420px){.explore-nav{padding:22px 14px 6px}.explore-grid{gap:9px}.explore-grid button{min-height:70px;padding:13px 11px;gap:9px;font-size:14px;border-radius:16px}}
+
 main{max-width:1120px;margin:auto;padding:28px 18px 70px}
 .notice{border-left:4px solid #d29c32;background:#fff6df;color:#382b12;padding:15px 17px;border-radius:10px;line-height:1.6;margin:0 0 22px}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:20px 0}
@@ -87,18 +96,21 @@ footer{background:var(--site-primary);color:white;padding:28px 20px;text-align:c
  <p>A structured, student-friendly preparation space for the Sindh Teaching Licence. Study pedagogy, educational psychology, assessment, classroom practice and school subjects — then test yourself.</p>
  <div class="hero-actions"><button class="primary" onclick="show('syllabus')">Explore syllabus ↓</button><button class="ghost" onclick="show('practice')">Start free mock test</button></div>
 </header>
-<nav>
- <button class="active" data-tab="home" onclick="show('home')">Overview</button>
- <button data-tab="syllabus" onclick="show('syllabus')">Complete syllabus</button>
- <button data-tab="plan" onclick="show('plan')">30-day plan</button>
- <button data-tab="practice" onclick="show('practice')">Practice test</button>
- <button data-tab="casework" onclick="show('casework')">Case Studies & CRQs</button>
- <button data-tab="casework" onclick="show('casework');document.getElementById('extendedCRQs').scrollIntoView({behavior:'smooth'})">30 CRQs</button>
- <button data-tab="erqs" onclick="show('erqs')">ERQs</button>
- <button data-tab="answers" onclick="show('answers')">CRQ & ERQ Answers</button>
- <button data-tab="notes" onclick="show('notes')">Study notes</button>
- <button data-tab="resources" onclick="show('resources')">Official resources</button>
-</nav>
+<div class="explore-nav">
+ <h2>Explore all preparation sections</h2>
+ <div class="explore-grid">
+  <button class="active" data-tab="home" onclick="show('home')"><span class="nav-dot"></span>Overview</button>
+  <button data-tab="syllabus" onclick="show('syllabus')"><span class="nav-dot"></span>Complete syllabus</button>
+  <button data-tab="plan" onclick="show('plan')"><span class="nav-dot"></span>30-day plan</button>
+  <button data-tab="practice" onclick="show('practice')"><span class="nav-dot"></span>Practice test</button>
+  <button data-tab="casework" onclick="show('casework')"><span class="nav-dot"></span>Case studies</button>
+  <button data-tab="casework" onclick="show('casework');setTimeout(()=>document.getElementById('extendedCRQs')?.scrollIntoView({behavior:'smooth'}),80)"><span class="nav-dot"></span>30 CRQs</button>
+  <button data-tab="erqs" onclick="show('erqs')"><span class="nav-dot"></span>ERQs</button>
+  <button data-tab="answers" onclick="show('answers')"><span class="nav-dot"></span>CRQ &amp; ERQ Answers</button>
+  <button data-tab="notes" onclick="show('notes')"><span class="nav-dot"></span>Study notes</button>
+  <button data-tab="resources" onclick="show('resources')"><span class="nav-dot"></span>Official resources</button>
+ </div>
+</div>
 <main>
 <section id="home" class="section active">
  <div class="notice"><strong>Important exam update:</strong> STEDA’s published FAQ describes a 100-mark test framework: 30% Content Knowledge, 20% Psychometric Assessment and 50% Pedagogical Content Knowledge (PCK). The separately published 2024 Elementary syllabus and older model paper are useful preparation references, but do not assume the older model-paper format is the confirmed Phase-II pattern. Always follow the latest STEDA/STS notice.</div>
@@ -215,7 +227,7 @@ const plan=[
 ["Days 25–27 • Applied practice","Practise case-study answers using problem → evidence → strategy → assessment → reflection.","Attempt constructed-response questions under time limits.","Complete one full mixed mock and review every wrong answer."],
 ["Days 28–30 • Final revision","Revisit weak areas and quick notes; do not start large new topics.","Attempt a timed mock; practise calm, consistent situational judgement.","Final review: documents, exam instructions, sleep and time management."]
 ];
-function show(id){document.querySelectorAll('.section').forEach(s=>s.classList.toggle('active',s.id===id));document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.tab===id));if(id==='practice'){newQuiz();}else if(typeof timerHandle!=='undefined'){clearInterval(timerHandle);}window.scrollTo({top:0,behavior:'smooth'});}
+function show(id){document.querySelectorAll('.section').forEach(s=>s.classList.toggle('active',s.id===id));document.querySelectorAll('.explore-grid button').forEach(b=>b.classList.toggle('active',b.dataset.tab===id));if(id==='practice'){newQuiz();}else if(typeof timerHandle!=='undefined'){clearInterval(timerHandle);}window.scrollTo({top:0,behavior:'smooth'});}
 function renderPlan(){let el=document.getElementById('days');el.innerHTML='';let saved=JSON.parse(localStorage.getItem('tlplan')||'{}');plan.forEach((d,i)=>{let box=document.createElement('div');box.className='day';let tasks=d.slice(1).map((t,j)=>{let k=i+'-'+j;return `<label><input type="checkbox" data-key="${k}" ${saved[k]?'checked':''}><span>${t}</span></label>`}).join('');box.innerHTML=`<h3>${d[0]}</h3>${tasks}`;el.appendChild(box)});el.querySelectorAll('input').forEach(x=>x.addEventListener('change',savePlan));updateProgress();}
 function savePlan(){let obj={};document.querySelectorAll('#days input').forEach(x=>obj[x.dataset.key]=x.checked);localStorage.setItem('tlplan',JSON.stringify(obj));updateProgress();}
 function updateProgress(){let all=[...document.querySelectorAll('#days input')],n=all.filter(x=>x.checked).length,p=all.length?Math.round(n/all.length*100):0;document.getElementById('progressText').textContent=`${n} of ${all.length} tasks completed • ${p}%`;document.getElementById('progressBar').style.width=p+'%';}
