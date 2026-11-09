@@ -46,10 +46,28 @@ section{padding:76px 0}.section-head{text-align:center;max-width:680px;margin:0 
 @media(max-width:760px){.brand-stage{min-height:330px}.interactive-brand{width:290px}.orbit-letters span{transform:rotate(var(--a)) translateY(-108px) rotate(calc(var(--a)*-1))}.academy-emblem{width:205px}.academy-emblem svg{width:112px;height:94px}.academy-emblem strong{font-size:22px}}
 @media(prefers-reduced-motion:reduce){.orbit-letters,.brand-halo{animation:none}.orbit-letters span,.academy-emblem{transition:none}}
 
+
+/* Academy learning hub upgrade */
+.hub-tools{background:#f5f7fc}
+.path-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.path-card{border:1px solid var(--line);border-radius:17px;padding:20px;background:#fff;display:flex;flex-direction:column;min-height:205px}
+.path-card .ico{margin-bottom:4px}.path-card h3{margin:12px 0 6px}.path-card p{font-size:13px;color:var(--muted);margin:0 0 14px}.path-card a{margin-top:auto;color:var(--blue);font-weight:800;font-size:13px}
+.tool-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.tool-card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}
+.tool-card h3{margin:0 0 8px;color:var(--navy)}.tool-card p{font-size:13px;color:var(--muted)}
+.tool-card input{width:100%;padding:11px 12px;border:1px solid #d8e0ee;border-radius:10px;font:inherit;margin:5px 0 10px;color:var(--ink);background:#fff}
+.tool-action{border:0;background:var(--blue);color:white;padding:10px 14px;border-radius:10px;font-weight:800;cursor:pointer}
+.tool-result{min-height:25px;margin-top:12px;font-weight:800;color:#176c62;font-size:14px}
+.timer-display{font-size:38px;font-weight:900;color:var(--navy);font-variant-numeric:tabular-nums;margin:10px 0}
+.faq-list{max-width:850px;margin:auto}.faq-list details{border-bottom:1px solid var(--line);padding:17px 4px}.faq-list summary{font-weight:800;color:var(--navy);cursor:pointer}.faq-list p{color:var(--muted);font-size:14px;margin-bottom:0}
+.site-search{width:min(100%,520px);padding:13px 16px;border:1px solid var(--line);border-radius:12px;font:inherit;margin:0 auto 22px;display:block}
+@media(max-width:850px){.path-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tool-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.path-grid,.tool-grid{grid-template-columns:1fr}.path-card{min-height:0}}
+
 </style>
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="#home"><span class="mark">Z</span><span>ZEEROZ ACADEMY<small>LEARN • GROW • SUCCEED</small></span></a><button class="menu" aria-label="Open menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button><nav class="links"><a href="#programs">Learning</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="#home"><span class="mark">Z</span><span>ZEEROZ ACADEMY<small>LEARN • GROW • SUCCEED</small></span></a><button class="menu" aria-label="Open menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button><nav class="links"><a href="#programs">Learning</a><a href="#pathways">Classes & Jobs</a><a href="#study-desk">Study Desk</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header>
 <main id="home">
 <section class="hero"><div class="wrap hero-grid"><div><span class="eyebrow">Your learning journey starts here</span><h1>Learn Today.<br><span>Lead Tomorrow.</span></h1><p>One growing platform for school education, competitive exam preparation and practical digital learning resources.</p><div class="actions"><a class="btn primary" href="https://gahejodev.github.io/sindh-teaching-licence-prep/" target="_blank" rel="noopener">Teaching Licence Preparation ↗</a><a class="btn secondary" href="#programs">Explore all learning</a><a class="btn secondary" href="https://youtube.com/@zeerozacademy" target="_blank" rel="noopener">Visit YouTube channel ↗</a></div></div><div class="hero-art brand-stage" aria-label="Interactive Zeeroz Academy 3D logo">
   <div class="brand-halo"></div>
@@ -77,6 +95,30 @@ section{padding:76px 0}.section-head{text-align:center;max-width:680px;margin:0 
   </button>
   <span class="float f1">School Learning</span><span class="float f2">Exam Preparation</span><span class="float f3">Digital Skills</span>
 </div></div></section>
+
+<section id="pathways"><div class="wrap"><div class="section-head"><span class="kicker">Choose your pathway</span><h2>Learning for school, exams and careers</h2><p>Start from the goal that matters to you. New class-wise and job-wise study material will be published here as it is prepared and verified.</p></div><input class="site-search" id="academySearch" type="search" placeholder="Search learning pathways…" aria-label="Search learning pathways"><div class="path-grid" id="pathGrid">
+<article class="path-card" data-search="class ix 9 secondary school science mathematics english sindhi"><div class="ico">📘</div><h3>Class IX</h3><p>Class-wise notes, subject explanations, exercises and revision material.</p><span class="status">Content being prepared</span></article>
+<article class="path-card" data-search="class x 10 secondary school board exam science mathematics english sindhi"><div class="ico">📗</div><h3>Class X</h3><p>Board-exam revision, topic practice and subject-wise learning resources.</p><span class="status">Content being prepared</span></article>
+<article class="path-card" data-search="class xi 11 intermediate college science commerce arts"><div class="ico">📙</div><h3>Class XI</h3><p>Intermediate-level subject support, explanations and practice resources.</p><span class="status">Content being prepared</span></article>
+<article class="path-card" data-search="class xii 12 intermediate college board exam science commerce arts"><div class="ico">📕</div><h3>Class XII</h3><p>Higher-secondary revision, exam preparation and subject-wise practice.</p><span class="status">Content being prepared</span></article>
+<article class="path-card" data-search="sindh teaching licence test pedagogy mcq crq erq case study"><div class="ico">🎓</div><h3>Sindh Teaching Licence</h3><p>MCQs, mock tests, CRQs, ERQs, case studies and study guidance.</p><a href="https://gahejodev.github.io/sindh-teaching-licence-prep/">Open free preparation portal ↗</a></article>
+<article class="path-card" data-search="jobs job preparation recruitment tests government jobs interview"><div class="ico">🧭</div><h3>Job Preparation</h3><p>Recruitment-test practice, general knowledge and career preparation resources.</p><span class="status">Content being prepared</span></article>
+<article class="path-card" data-search="digital skills technology apps tools productivity"><div class="ico">💡</div><h3>Digital Skills & Tools</h3><p>Useful digital learning projects, practical tools and technology guides.</p><a href="#products">Explore the Zeeroz ecosystem ↗</a></article>
+<article class="path-card" data-search="video lessons youtube tutorials lectures"><div class="ico">▶️</div><h3>Video Learning</h3><p>Watch lessons, explainers and updates from the Zeeroz Academy channel.</p><a href="https://youtube.com/@zeerozacademy" target="_blank" rel="noopener">Visit YouTube ↗</a></article>
+</div></div></section>
+<section class="hub-tools" id="study-desk"><div class="wrap"><div class="section-head"><span class="kicker">Free student tools</span><h2>Your Study Desk</h2><p>Simple tools that work in your browser. Your study goal is saved on this device only; no account is required.</p></div><div class="tool-grid">
+<div class="tool-card"><h3>🎯 Daily study goal</h3><p>Set a target and tick it off when you complete today's study session.</p><input id="studyGoal" maxlength="90" placeholder="e.g. Revise Biology Chapter 2"><button class="tool-action" id="saveGoal">Save my goal</button><div class="tool-result" id="goalStatus" aria-live="polite">No goal set yet.</div><button class="tool-action" id="completeGoal" style="margin-top:8px;background:#176c62">Mark completed</button></div>
+<div class="tool-card"><h3>⏱️ Focus timer</h3><p>Use a focused 25-minute study session, then take a short break.</p><div class="timer-display" id="timerDisplay">25:00</div><button class="tool-action" id="timerStart">Start</button> <button class="tool-action" id="timerReset" style="background:#65718a">Reset</button><div class="tool-result" id="timerStatus" aria-live="polite">Ready when you are.</div></div>
+<div class="tool-card"><h3>🧮 Marks percentage</h3><p>Calculate your result percentage from obtained and total marks.</p><label for="obtainedMarks">Obtained marks</label><input id="obtainedMarks" type="number" min="0" step="any" placeholder="e.g. 425"><label for="totalMarks">Total marks</label><input id="totalMarks" type="number" min="1" step="any" placeholder="e.g. 500"><button class="tool-action" id="calculateMarks">Calculate result</button><div class="tool-result" id="marksResult" aria-live="polite"></div></div>
+</div></div></section>
+<section id="faq"><div class="wrap"><div class="section-head"><span class="kicker">Help centre</span><h2>Frequently asked questions</h2><p>Quick answers about using Zeeroz Academy.</p></div><div class="faq-list">
+<details><summary>Is Zeeroz Academy free to use?</summary><p>Public learning pages and the Sindh Teaching Licence preparation portal are available free. Any future paid product or service will be clearly identified before use.</p></details>
+<details><summary>Where can I prepare for the Sindh Teaching Licence test?</summary><p>Open the dedicated preparation portal for practice MCQs, mock tests, CRQs, ERQs, case studies and study resources.</p></details>
+<details><summary>Are Class IX–XII resources available now?</summary><p>These pathways are part of the academy plan. Their subject-wise resources are being prepared; the website will link to them when they are ready rather than showing empty or unverified lessons.</p></details>
+<details><summary>Do I need to create an account?</summary><p>No account is required for the public pages and browser tools currently provided. The Study Desk goal is stored locally on the device you use.</p></details>
+<details><summary>How can I suggest a topic or report an issue?</summary><p>Email <a href="mailto:zeerozacademy@gmail.com">zeerozacademy@gmail.com</a> with the page name and your suggestion or issue.</p></details>
+</div></div></section>
+
 <section id="programs"><div class="wrap"><div class="section-head"><span class="kicker">Explore our learning areas</span><h2>Knowledge for every next step</h2><p>Start with the learning resource you need. More courses and resources will be added as the academy grows.</p></div><div class="cards">
 <article class="card"><div class="ico">🎓</div><h3>Teaching Licence Preparation</h3><p>Practice MCQs, explore case studies, and prepare with CRQs, ERQs and study resources.</p><a class="more" href="https://gahejodev.github.io/sindh-teaching-licence-prep/">Open preparation portal ↗</a></article>
 <article class="card"><div class="ico">📚</div><h3>Classes IX–XII</h3><p>School learning resources, subject support, notes and practice material for secondary and higher secondary students.</p><span class="status">Coming soon</span></article>
@@ -112,5 +154,45 @@ section{padding:76px 0}.section-head{text-align:center;max-width:680px;margin:0 
   logo.addEventListener("pointerleave",()=>{logo.style.transform=""});
   if(window.matchMedia("(hover: hover) and (pointer: fine)").matches) setTimeout(assemble,1800);
 })();
+
+/* Search, study desk tools and offline-friendly local preferences */
+(()=>{
+ const search=document.getElementById('academySearch');
+ if(search) search.addEventListener('input',()=>{
+  const q=search.value.trim().toLowerCase();
+  document.querySelectorAll('#pathGrid .path-card').forEach(card=>{
+   card.hidden=!!q&&!((card.dataset.search+' '+card.innerText).toLowerCase().includes(q));
+  });
+ });
+ const goal=document.getElementById('studyGoal'),goalStatus=document.getElementById('goalStatus');
+ try{
+  const saved=localStorage.getItem('zeeroz-study-goal');
+  if(saved&&goal&&goalStatus){const data=JSON.parse(saved);goal.value=data.text||'';goalStatus.textContent=data.done?'✓ Completed today: '+data.text:(data.text||'No goal set yet.')}
+ }catch(e){}
+ document.getElementById('saveGoal')?.addEventListener('click',()=>{
+  const value=goal.value.trim();if(!value){goalStatus.textContent='Please enter a study goal first.';return}
+  try{localStorage.setItem('zeeroz-study-goal',JSON.stringify({text:value,done:false}));goalStatus.textContent='Goal saved on this device.'}catch(e){goalStatus.textContent='Goal set for this session.'}
+ });
+ document.getElementById('completeGoal')?.addEventListener('click',()=>{
+  const value=goal.value.trim();if(!value){goalStatus.textContent='Set a goal first.';return}
+  try{localStorage.setItem('zeeroz-study-goal',JSON.stringify({text:value,done:true}))}catch(e){}
+  goalStatus.textContent='✓ Completed: '+value;
+ });
+ let remaining=1500,interval=null;
+ const display=document.getElementById('timerDisplay'),status=document.getElementById('timerStatus');
+ const paint=()=>{display.textContent=String(Math.floor(remaining/60)).padStart(2,'0')+':'+String(remaining%60).padStart(2,'0')};
+ document.getElementById('timerStart')?.addEventListener('click',()=>{
+  if(interval){clearInterval(interval);interval=null;document.getElementById('timerStart').textContent='Resume';status.textContent='Paused.';return}
+  document.getElementById('timerStart').textContent='Pause';status.textContent='Focus time — you can do it!';
+  interval=setInterval(()=>{remaining--;paint();if(remaining<=0){clearInterval(interval);interval=null;status.textContent='Session complete. Take a 5-minute break!';document.getElementById('timerStart').textContent='Start again';remaining=1500;paint()}},1000);
+ });
+ document.getElementById('timerReset')?.addEventListener('click',()=>{if(interval)clearInterval(interval);interval=null;remaining=1500;paint();status.textContent='Timer reset.';document.getElementById('timerStart').textContent='Start'});
+ document.getElementById('calculateMarks')?.addEventListener('click',()=>{
+  const a=Number(document.getElementById('obtainedMarks').value),b=Number(document.getElementById('totalMarks').value),out=document.getElementById('marksResult');
+  if(!Number.isFinite(a)||!Number.isFinite(b)||b<=0||a<0||a>b){out.textContent='Enter valid marks (obtained cannot exceed total).';return}
+  out.textContent='Your percentage: '+(a/b*100).toFixed(2)+'%';
+ });
+})();
+
 </script>
 </body></html>
