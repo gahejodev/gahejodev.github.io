@@ -1,0 +1,8 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Storage is intentionally closed until a specific upload feature is implemented.
+    // Add narrowly scoped paths and size/type validation before enabling uploads.
+    match /{allPaths=**} { allow read, write: if false; }
+  }
+}

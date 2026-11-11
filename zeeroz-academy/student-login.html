@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101b3d"><title>Student Access | Zeeroz Academy</title>
+<style>
+:root{--navy:#101b3d;--blue:#3157d5;--cyan:#22c3c8;--ink:#17213b;--muted:#65718a;--line:#e5eaf4}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 10% 5%,#dff8fb,transparent 35%),linear-gradient(135deg,#f5f7fc,#eaf0ff);font-family:Inter,system-ui,Arial,sans-serif;color:var(--ink);display:grid;place-items:center;padding:24px}
+.shell{width:min(980px,100%);display:grid;grid-template-columns:1fr 1fr;background:#fff;border:1px solid var(--line);border-radius:26px;overflow:hidden;box-shadow:0 24px 70px #14244a18}
+.intro{padding:48px;background:linear-gradient(145deg,#101b3d,#2449a0 75%,#147b91);color:white;display:flex;flex-direction:column;justify-content:space-between;min-height:580px}
+.brand{font-weight:900;letter-spacing:.5px;font-size:17px}.brand span{display:inline-grid;place-items:center;background:linear-gradient(135deg,#fff,#8de8e4);color:#14244a;width:42px;height:42px;border-radius:13px;margin-right:10px}
+.intro h1{font-size:clamp(32px,4vw,48px);line-height:1.08;letter-spacing:-1.5px;margin:48px 0 16px}.intro p{color:#dce8ff;line-height:1.7}.intro small{color:#c2d7ff}
+.panel{padding:42px;align-self:center}.tabs{display:flex;gap:8px;background:#f1f4fa;border-radius:12px;padding:5px;margin-bottom:26px}.tabs button{flex:1;border:0;padding:12px;border-radius:9px;background:transparent;color:var(--muted);font-weight:800;cursor:pointer}.tabs button.active{background:#fff;color:var(--blue);box-shadow:0 2px 8px #10204b12}
+h2{margin:0 0 7px;color:var(--navy);font-size:27px}.sub{margin:0 0 24px;color:var(--muted);font-size:14px}
+label{display:block;font-size:13px;font-weight:800;margin:14px 0 6px}input{width:100%;padding:13px 14px;border:1px solid #d8e0ee;border-radius:11px;font:inherit;outline:none}input:focus{border-color:var(--blue);box-shadow:0 0 0 3px #3157d51a}
+.action{width:100%;border:0;border-radius:11px;padding:14px;background:var(--blue);color:#fff;font-weight:850;font-size:14px;margin-top:20px;cursor:pointer}.action:disabled{opacity:.6;cursor:wait}
+.note{font-size:12px;color:var(--muted);line-height:1.6;margin-top:16px}.message{padding:12px 14px;border-radius:10px;background:#eef8ff;color:#24527c;font-size:13px;margin-top:16px;display:none}.message.error{background:#fff0f0;color:#a52d36}.back{display:inline-block;margin-top:20px;color:var(--blue);font-size:13px;font-weight:800}
+@media(max-width:720px){.shell{grid-template-columns:1fr}.intro{min-height:230px;padding:28px}.intro h1{margin:26px 0 8px;font-size:32px}.intro p{margin:0}.intro small{margin-top:22px}.panel{padding:28px 22px}}
+</style></head>
+<body><main class="shell">
+<section class="intro"><div><div class="brand"><span>Z</span> ZEEROZ ACADEMY</div><h1>Your next chapter starts here.</h1><p>Access your learning space, follow published courses and keep your study journey organised.</p></div><small>LEARN • PREPARE • EXCEL</small></section>
+<section class="panel">
+<div class="tabs"><button id="loginTab" class="active" type="button">Sign in</button><button id="registerTab" type="button">Create account</button></div>
+<h2 id="formTitle">Welcome back</h2><p class="sub" id="formSub">Sign in to continue learning.</p>
+<form id="authForm">
+<div id="nameWrap" hidden><label for="fullName">Full name</label><input id="fullName" autocomplete="name" maxlength="80" placeholder="Your full name"></div>
+<label for="email">Email address</label><input id="email" type="email" autocomplete="email" required maxlength="254" placeholder="name@example.com">
+<label for="password">Password</label><input id="password" type="password" autocomplete="current-password" required minlength="8" placeholder="At least 8 characters">
+<button class="action" id="submitBtn" type="submit">Sign in securely</button>
+</form><div class="message" id="message" role="status" aria-live="polite"></div>
+<p class="note">Your account is protected by Firebase Authentication. Never share your password or verification link. Registration creates a student account only; it cannot grant administrator access.</p>
+<a class="back" href="./index.html">← Back to Zeeroz Academy</a>
+</section></main>
+<script type="module" src="./firebase-init.js"></script><script type="module" src="./student-auth.js"></script>
+</body></html>
