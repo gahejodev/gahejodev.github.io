@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "title": "Zeeroz Academy Academic Coverage Master Plan",
+  "updated": "2026-11-12",
+  "scope": {
+    "region": "Sindh, Pakistan",
+    "grades": ["IX", "X", "XI", "XII"],
+    "mediums": ["English", "Urdu", "Sindhi"],
+    "principle": "Use the current applicable Sindh curriculum, official scheme of studies and available Sindh Textbook Board books. Distinguish verified compulsory subjects, group/elective subjects and Academy enrichment. Do not mark planned content as published."
+  },
+  "official_sources": [
+    {
+      "name": "Directorate of Curriculum, Assessment and Research Sindh — Curriculum Library",
+      "url": "https://dcar.gos.pk/Sindh%20Curriculum.html",
+      "use": "Subject curriculum documents and grade-band learning outcomes."
+    },
+    {
+      "name": "Sindh Textbook Board — eBooks",
+      "url": "https://portal.stbb.edu.pk/ebooks/",
+      "use": "Current textbooks by grade and medium; confirm edition and subject availability before chapter sequencing."
+    },
+    {
+      "name": "DCAR — Other Downloads",
+      "url": "https://www.dcar.gos.pk/Other_Download.html",
+      "use": "Schemes of studies, teaching licence policy and assessment frameworks."
+    },
+    {
+      "name": "Sindh School Education & Literacy Department — Curriculum Notifications",
+      "url": "https://www.sindheducation.gov.pk/notifications?id=0&key=curri&pageNumber=2",
+      "use": "Notifications, approvals and NOCs for revised curricula."
+    }
+  ],
+  "subject_families": [
+    {
+      "family": "Languages and communication",
+      "subjects": ["English", "Sindhi", "Urdu", "English Literature"],
+      "course_components": ["reading comprehension", "grammar in context", "vocabulary", "writing", "literature and textual analysis", "speaking and listening practice"]
+    },
+    {
+      "family": "Science",
+      "subjects": ["Physics", "Chemistry", "Biology", "General Science"],
+      "course_components": ["concept lessons", "labelled diagrams", "worked examples and numericals where relevant", "scientific vocabulary", "practical/laboratory concepts", "MCQs", "CRQs", "ERQs"]
+    },
+    {
+      "family": "Mathematics and quantitative reasoning",
+      "subjects": ["Mathematics", "General Mathematics", "Business Mathematics and Statistics", "Statistics"],
+      "course_components": ["step-by-step solved examples", "formula explanations", "practice problems", "worked solutions", "application questions", "MCQs", "CRQs", "ERQs"]
+    },
+    {
+      "family": "Computing and technology",
+      "subjects": ["Computer Science", "Computer Studies", "Computer Science and Entrepreneurship"],
+      "course_components": ["concept lessons", "algorithms and flowcharts", "code examples where syllabus requires", "digital safety", "practical activities", "MCQs", "CRQs", "ERQs"]
+    },
+    {
+      "family": "Social sciences and citizenship",
+      "subjects": ["Pakistan Studies", "Geography of Pakistan", "Geography", "Civics", "Economics", "Education", "Commercial Geography"],
+      "course_components": ["maps and timelines where relevant", "case studies", "key concepts", "source-based questions", "local and national examples", "MCQs", "CRQs", "ERQs"]
+    },
+    {
+      "family": "Religion, ethics and society",
+      "subjects": ["Islamiat", "Religious Studies", "Ethics"],
+      "course_components": ["concept explanations", "textual understanding", "ethical application", "short and extended responses", "respectful and accurate treatment"]
+    },
+    {
+      "family": "Commerce and business",
+      "subjects": ["Principles of Commerce", "Accounting", "Banking", "Business Mathematics and Statistics", "Commercial Geography", "Economics"],
+      "course_components": ["definitions and principles", "worked calculations", "business scenarios", "tables and formats", "case-based questions", "MCQs", "CRQs", "ERQs"]
+    },
+    {
+      "family": "Humanities and electives",
+      "subjects": ["Library Science", "Physical Education", "Food and Nutrition", "Essentials of Home Economics", "Physiology and Hygiene", "other currently approved electives"],
+      "course_components": ["verified unit outlines", "visual explanations", "practical examples", "scenario-based practice", "MCQs", "CRQs", "ERQs"]
+    }
+  ],
+  "pathways": [
+    {
+      "grades": ["IX", "X"],
+      "pathways": ["Science", "General/Humanities"],
+      "note": "Confirm the current notified scheme and board-specific subject combination before assigning a subject to a grade or group."
+    },
+    {
+      "grades": ["XI", "XII"],
+      "pathways": ["Pre-Medical", "Pre-Engineering", "Computer Science/General Science", "Commerce", "Humanities/General"],
+      "note": "These are planning pathways, not a claim that every college offers every group or elective. Verify current scheme, college availability and the relevant board."
+    }
+  ],
+  "standard_course_blueprint": {
+    "chapter": [
+      "Chapter overview and measurable learning outcomes",
+      "Original, student-friendly lesson notes aligned to the verified syllabus",
+      "Relevant labelled diagrams, maps, tables or illustrations with attribution",
+      "Key terms and common misconceptions",
+      "Worked examples, numericals or real-life applications where appropriate",
+      "Practice MCQs with four options, answer key and explanation",
+      "CRQs with model answers and marking points",
+      "ERQs with structured model answers and marking rubrics",
+      "Chapter review, mixed practice and assessment"
+    ],
+    "assessment": {
+      "mcq": "Four plausible options, one defensible correct answer, explanation and topic tag.",
+      "crq": "Short constructed-response question, model answer and marks/marking points.",
+      "erq": "Extended response, structured model answer, expected evidence and marking rubric.",
+      "quality": "Check factual accuracy, syllabus relevance, grade suitability, answer-key correctness, duplication and accessibility."
+    }
+  },
+  "publishing_rules": [
+    "A subject is not complete until every verified syllabus unit has lessons and all required question types.",
+    "Keep each GitHub course package within the existing safe importer record limit; split large subjects into chapter-wise courses when needed.",
+    "Do not copy full copyrighted textbook passages. Write original explanations and link to official books.",
+    "Only use educational images with a checked source and suitable reuse terms; include attribution.",
+    "Do not invent official syllabus references, page numbers, marks distributions or examination patterns.",
+    "GitHub deployment and Firebase import are separate steps. Firebase course sync requires an authorised administrator session unless a verified free automation path is implemented.",
+    "The free Firebase Spark plan remains the target; do not enable paid billing or rely on paid APIs."
+  ],
+  "current_published_content": [
+    {
+      "id": "biology-ix-chapter-1-introduction",
+      "title": "Biology IX — Chapter 1: Introduction to Biology",
+      "status": "published package in GitHub registry; Firebase import/refresh depends on administrator sync",
+      "coverage": "One introductory chapter, three lessons and twelve MCQs. This is not the complete Biology IX course."
+    }
+  ],
+  "status_legend": {
+    "published": "Available as a course package and deployed.",
+    "in_progress": "Content is being authored or checked.",
+    "planned": "Included in the coverage scope but not yet published.",
+    "needs_verification": "Current official subject/group/edition details must be checked before content production."
+  }
+}
