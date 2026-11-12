@@ -66,7 +66,11 @@ function validateCoursePackage(raw){
    if((l.type==="video"||l.type==="pdf")&&!/^https:\/\//i.test(l.content))throw new Error("Video/PDF lesson links must use HTTPS.");
    writes++;lessons++;
   });
-  (c.writtenQuestions||[]).forEach((q,j)=>{\n   if(!["crq","erq"].includes(q.type)||!q.question||q.question.trim().length>2000||!Number.isInteger(q.marks)||q.marks<1||q.marks>30||!q.modelAnswer||q.modelAnswer.length>12000||!Array.isArray(q.rubric)||!q.rubric.length)throw new Error("Chapter "+(i+1)+", written question "+(j+1)+" needs type crq/erq, question, marks, model answer and marking rubric.");\n   writes++;writtenQuestions++;\n  });\n  (c.questions||[]).forEach((q,j)=>{
+  (c.writtenQuestions||[]).forEach((q,j)=>{
+   if(!["crq","erq"].includes(q.type)||!q.question||q.question.trim().length>2000||!Number.isInteger(q.marks)||q.marks<1||q.marks>30||!q.modelAnswer||q.modelAnswer.length>12000||!Array.isArray(q.rubric)||!q.rubric.length)throw new Error("Chapter "+(i+1)+", written question "+(j+1)+" needs type crq/erq, question, marks, model answer and marking rubric.");
+   writes++;writtenQuestions++;
+  });
+  (c.questions||[]).forEach((q,j)=>{
    if(!q.question||q.question.trim().length>1200||!q.options||!["A","B","C","D"].every(k=>typeof q.options[k]==="string"&&q.options[k].trim()))throw new Error("Chapter "+(i+1)+", MCQ "+(j+1)+" must include a question and four options.");
    if(!["A","B","C","D"].includes(q.correctOption))throw new Error("Chapter "+(i+1)+", MCQ "+(j+1)+" has an invalid correctOption.");
    writes++;questions++;
@@ -103,7 +107,11 @@ $("publishCoursePackage").addEventListener("click",async()=>{
     const lessonRef=doc(collection(db(),"courses",courseRef.id,"chapters",chapterRef.id,"lessons"));
     batch.set(lessonRef,{title:lesson.title.trim(),type:lesson.type||"text",content:lesson.content.trim(),order:li+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
    });
-   (chapter.writtenQuestions||[]).forEach((q,qi)=>{\n    const writtenRef=doc(collection(db(),"courses",courseRef.id,"chapters",chapterRef.id,"writtenQuestions"));\n    batch.set(writtenRef,{type:q.type,question:q.question.trim(),marks:q.marks,modelAnswer:q.modelAnswer.trim(),rubric:q.rubric,order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});\n   });\n   (chapter.questions||[]).forEach((q,qi)=>{
+   (chapter.writtenQuestions||[]).forEach((q,qi)=>{
+    const writtenRef=doc(collection(db(),"courses",courseRef.id,"chapters",chapterRef.id,"writtenQuestions"));
+    batch.set(writtenRef,{type:q.type,question:q.question.trim(),marks:q.marks,modelAnswer:q.modelAnswer.trim(),rubric:q.rubric,order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+   });
+   (chapter.questions||[]).forEach((q,qi)=>{
     const questionRef=doc(collection(db(),"courses",courseRef.id,"chapters",chapterRef.id,"questions"));
     batch.set(questionRef,{question:q.question.trim(),options:{A:q.options.A.trim(),B:q.options.B.trim(),C:q.options.C.trim(),D:q.options.D.trim()},correctOption:q.correctOption,explanation:(q.explanation||"").trim(),order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
    });
@@ -240,7 +248,8 @@ async function publishGitHubPackage(item) {
     getDocs(collection(db(),"courses",courseId,"chapters",oldChapter.id,"questions"))
    ]);
    oldLessons.docs.forEach(d=>batch.delete(d.ref));
-   oldQuestions.docs.forEach(d=>batch.delete(d.ref));\n   oldWritten.docs.forEach(d=>batch.delete(d.ref));
+   oldQuestions.docs.forEach(d=>batch.delete(d.ref));
+   oldWritten.docs.forEach(d=>batch.delete(d.ref));
    batch.delete(oldChapter.ref);
   }
  }
