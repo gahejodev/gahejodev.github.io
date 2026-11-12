@@ -1,0 +1,325 @@
+{
+  "id": "biology-ix-chapter-9-form-functions-plants",
+  "title": "Biology IX — Chapter 9: Form and Functions of Plants",
+  "description": "Sindh DCAR Biology Curriculum 2024 aligned course on plant mineral nutrition, water uptake, transport, gaseous exchange and reproduction.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 9: Form and Functions of Plants",
+      "description": "How roots, stems, leaves and reproductive structures enable plants to survive and reproduce.",
+      "lessons": [
+        {
+          "title": "9.1 Plant Mineral Nutrition",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain why plants need mineral nutrients and distinguish macronutrients from micronutrients.\n\n## Plant nutrition\nPlants make organic food by photosynthesis, but they also require mineral elements from their surroundings to build molecules and maintain cell processes. Most mineral nutrients are absorbed by roots as dissolved ions in soil water.\n\n## Macronutrients\nMacronutrients are required in relatively large amounts. Important examples include:\n- **Nitrogen:** needed to make amino acids, proteins and nucleic acids.\n- **Phosphorus:** part of ATP, nucleic acids and phospholipids.\n- **Potassium:** helps regulate enzymes, water balance and stomatal function.\n- **Magnesium:** part of the chlorophyll molecule and needed for enzyme activity.\n- **Calcium:** important in cell walls, membranes and cell signalling.\n- **Sulfur:** part of certain amino acids and proteins.\n\n## Micronutrients\nMicronutrients are needed in small quantities but are still essential. Examples include iron, zinc, copper, manganese, boron, molybdenum, chlorine and nickel. Iron is important for electron-transfer proteins, while zinc is a cofactor for many enzymes.\n\n## Deficiency symptoms\nA shortage of a mineral nutrient can cause poor growth, yellowing of leaves (chlorosis), dead patches (necrosis) or poor root development. Symptoms vary with the nutrient and plant species. Nitrogen deficiency often causes yellowing of older leaves because nitrogen can be moved to younger tissues.\n\n## Sustainable plant nutrition\nFarmers may use organic matter and fertilisers to replace nutrients removed during harvest. Excess fertiliser can run into waterways and contribute to eutrophication, so application should be based on soil needs and responsible practice."
+        },
+        {
+          "title": "9.2 Water and Mineral Uptake by Roots",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe root adaptations and explain osmosis and the movement of water through a plant.\n\n## Root structure and absorption\nRoots anchor the plant and absorb water and mineral ions. Root hair cells have long extensions that increase surface area in contact with soil water. Their thin walls and large surface area help water enter efficiently.\n\n## Osmosis\nOsmosis is the net movement of water molecules across a selectively permeable membrane from a region of higher water potential to a region of lower water potential. Water enters root hair cells when the water potential of the soil solution is higher than that of the cell sap.\n\n## Mineral ion uptake\nMineral ions may enter root cells by diffusion or through transport proteins. When ions move against their concentration or electrochemical gradient, active transport is required and uses energy, often indirectly supplied by ATP.\n\n## Pathways through the root\nWater can move through cell walls and spaces (apoplast pathway) or through cytoplasm connected by plasmodesmata (symplast pathway). The endodermis and Casparian strip help regulate entry into the vascular tissue.\n\n## Water movement to leaves\nWater moves through xylem from roots to leaves. Evaporation from leaf surfaces and diffusion of water vapour through stomata create transpiration pull. Cohesion between water molecules and adhesion to xylem walls help maintain a continuous water column. Root pressure may contribute in some plants but is not the main driving force for water transport in tall trees.\n\n## Check your understanding\nExplain why root hairs increase water uptake and why mineral ions may require active transport."
+        },
+        {
+          "title": "9.3 Transport in Plants: Xylem, Phloem and Transpiration",
+          "type": "text",
+          "content": "## Learning outcomes\nCompare xylem and phloem and explain transpiration and translocation.\n\n## Xylem transport\nXylem conducts water and dissolved mineral ions mainly from roots towards stems and leaves. Vessel elements and tracheids are generally dead at maturity and have lignified walls that support the plant and resist collapse. Water movement is driven largely by transpiration pull, supported by cohesion and adhesion.\n\n## Transpiration\nTranspiration is the loss of water vapour from aerial parts of a plant, mainly through stomata. It helps cool leaves and contributes to the upward movement of water. The rate is influenced by light, temperature, humidity, wind and water availability.\n\n- Higher temperature often increases evaporation.\n- Higher humidity reduces the water-vapour gradient and usually lowers transpiration.\n- Wind can remove moist air around leaves and increase transpiration, although very strong conditions can cause stomata to close.\n- Water shortage often causes stomata to close, reducing water loss and also limiting carbon dioxide entry.\n\n## Phloem transport (translocation)\nPhloem transports sucrose and other organic substances from sources to sinks. A source is a region where sugars are produced or released, such as a photosynthesising leaf or storage organ. A sink is a region where sugars are used or stored, such as a growing root, fruit or developing seed.\n\nSieve-tube elements are living cells with reduced contents and are supported by companion cells. The pressure-flow model explains translocation: loading sugar into phloem draws water in from xylem, raising pressure; sap moves towards a lower-pressure sink where sugars are unloaded.\n\n## Compare\nXylem mainly transports water and mineral ions; phloem transports organic solutes. Xylem conducting cells are dead at maturity, while phloem sieve-tube elements are living."
+        },
+        {
+          "title": "9.4 Gaseous Exchange in Plants",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain how stomata and other plant surfaces allow gaseous exchange for photosynthesis and respiration.\n\n## Why plants exchange gases\nPlants need carbon dioxide for photosynthesis and oxygen for aerobic respiration. Photosynthesis releases oxygen. Respiration releases carbon dioxide. Which gas has a net movement into or out of a leaf depends on the balance of these processes and environmental conditions.\n\n## Stomata\nStomata are pores, usually in the epidermis of leaves, surrounded by guard cells. Guard cells change their turgor to open or close the pore. When guard cells take up water and become turgid, the pore usually opens; when they lose water and become flaccid, it closes.\n\nStomata allow carbon dioxide to diffuse into the leaf and oxygen and water vapour to diffuse out, depending on concentration gradients. Closing stomata conserves water but also limits carbon dioxide entry.\n\n## Other pathways\nGases can diffuse through intercellular air spaces and across moist cell surfaces. Woody stems may exchange gases through lenticels. Roots exchange gases with air spaces in soil; waterlogged soil can reduce oxygen availability.\n\n## Balancing carbon gain and water loss\nPlants face a trade-off: opening stomata supports carbon dioxide uptake but increases water loss through transpiration. Plants regulate stomata in response to light, internal carbon dioxide, water status and other signals.\n\n## Review\nExplain why a plant may close its stomata during water stress even though this can reduce photosynthesis."
+        },
+        {
+          "title": "9.5 Reproduction in Plants",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe sexual reproduction in flowering plants and explain the roles of flowers, pollination, fertilisation, seeds and fruits.\n\n## Flower structure\nA typical flower has sepals, petals, stamens and carpels. The stamen is the male reproductive structure; its anther produces pollen. The carpel (pistil) includes a stigma, style and ovary containing ovules.\n\n## Pollination\nPollination is the transfer of pollen from anther to stigma. It may occur within the same flower or plant (self-pollination) or between different plants of the same species (cross-pollination). Agents include insects, birds, bats, wind and water. Flower features such as colour, scent, nectar and pollen structure may be associated with pollination method.\n\n## Fertilisation\nAfter compatible pollen lands on a stigma, it may germinate and grow a pollen tube down the style towards an ovule. A male gamete travels through the tube and fuses with the egg cell to form a zygote. In flowering plants, a second fertilisation event contributes to formation of endosperm, which nourishes the developing embryo.\n\n## Seeds and fruits\nAfter fertilisation, the ovule develops into a seed containing an embryo and food store or tissue; the ovary usually develops into a fruit. Seeds can be dispersed by wind, water, animals or explosive mechanisms. Suitable conditions such as water, oxygen and an appropriate temperature allow germination.\n\n## Asexual reproduction\nSome plants reproduce asexually through runners, bulbs, tubers, rhizomes or cuttings. Asexual reproduction can produce genetically similar offspring and allow rapid spread, but it generally creates less genetic variation than sexual reproduction."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Plants need mineral nutrients because they:",
+          "options": {
+            "A": "Build molecules and support cell processes",
+            "B": "Replace the need for photosynthesis",
+            "C": "Make sunlight",
+            "D": "Do not contain water"
+          },
+          "correctOption": "A",
+          "explanation": "Mineral elements are needed for proteins, nucleic acids, chlorophyll and many cell processes."
+        },
+        {
+          "question": "Which mineral is a component of chlorophyll?",
+          "options": {
+            "A": "Magnesium",
+            "B": "Sodium",
+            "C": "Iodine",
+            "D": "Lead"
+          },
+          "correctOption": "A",
+          "explanation": "Magnesium is part of the chlorophyll molecule."
+        },
+        {
+          "question": "Nitrogen is required by plants to make:",
+          "options": {
+            "A": "Amino acids and nucleic acids",
+            "B": "Cellulose only",
+            "C": "Oxygen gas only",
+            "D": "Water vapour"
+          },
+          "correctOption": "A",
+          "explanation": "Nitrogen is a component of amino acids, proteins and nucleic acids."
+        },
+        {
+          "question": "A nutrient required in very small amounts is called a:",
+          "options": {
+            "A": "Macronutrient",
+            "B": "Micronutrient",
+            "C": "Polysaccharide",
+            "D": "Hormone"
+          },
+          "correctOption": "B",
+          "explanation": "Micronutrients are essential but required in small quantities."
+        },
+        {
+          "question": "Osmosis is the net movement of:",
+          "options": {
+            "A": "Water across a selectively permeable membrane down a water-potential gradient",
+            "B": "Mineral salts through any wall",
+            "C": "Proteins into the nucleus",
+            "D": "Oxygen against its gradient using ATP"
+          },
+          "correctOption": "A",
+          "explanation": "Osmosis describes net water movement across a selectively permeable membrane."
+        },
+        {
+          "question": "Root hair cells are adapted for absorption because they:",
+          "options": {
+            "A": "Have long projections increasing surface area",
+            "B": "Have no membrane",
+            "C": "Contain many chloroplasts",
+            "D": "Are made of bone"
+          },
+          "correctOption": "A",
+          "explanation": "Root hairs increase the surface area in contact with soil water."
+        },
+        {
+          "question": "Mineral ions moving against their electrochemical gradient require:",
+          "options": {
+            "A": "Active transport",
+            "B": "Osmosis only",
+            "C": "Transpiration",
+            "D": "Pollination"
+          },
+          "correctOption": "A",
+          "explanation": "Active transport uses energy to move ions against a gradient."
+        },
+        {
+          "question": "The Casparian strip is found in the:",
+          "options": {
+            "A": "Endodermis of roots",
+            "B": "Leaf cuticle",
+            "C": "Flower petal",
+            "D": "Fruit wall"
+          },
+          "correctOption": "A",
+          "explanation": "The Casparian strip helps regulate movement of water and solutes into the vascular cylinder."
+        },
+        {
+          "question": "Xylem mainly transports:",
+          "options": {
+            "A": "Water and mineral ions",
+            "B": "Sucrose from leaves to roots only",
+            "C": "Pollen grains",
+            "D": "Oxygen in red blood cells"
+          },
+          "correctOption": "A",
+          "explanation": "Xylem conducts water and dissolved mineral ions."
+        },
+        {
+          "question": "Transpiration is:",
+          "options": {
+            "A": "Loss of water vapour from aerial plant parts",
+            "B": "Movement of sugars in phloem",
+            "C": "Absorption of pollen",
+            "D": "Formation of seeds"
+          },
+          "correctOption": "A",
+          "explanation": "Transpiration is mainly water-vapour loss through stomata."
+        },
+        {
+          "question": "The main driving force for water movement up tall plants is:",
+          "options": {
+            "A": "Transpiration pull",
+            "B": "Pollen pressure",
+            "C": "Photosynthesis alone",
+            "D": "Gravity pulling water upwards"
+          },
+          "correctOption": "A",
+          "explanation": "Evaporation from leaves creates tension that pulls water through xylem."
+        },
+        {
+          "question": "Phloem transports mainly:",
+          "options": {
+            "A": "Organic substances such as sucrose",
+            "B": "Only water",
+            "C": "Only mineral ions",
+            "D": "Oxygen from roots"
+          },
+          "correctOption": "A",
+          "explanation": "Phloem translocates sugars and other organic solutes between sources and sinks."
+        },
+        {
+          "question": "A source in phloem transport is a region where:",
+          "options": {
+            "A": "Sugars are produced or released",
+            "B": "Sugars are only consumed",
+            "C": "Water evaporates",
+            "D": "Pollen is formed"
+          },
+          "correctOption": "A",
+          "explanation": "Sources load sugars into phloem, often photosynthesising leaves or storage tissues."
+        },
+        {
+          "question": "Which condition usually decreases transpiration?",
+          "options": {
+            "A": "High humidity",
+            "B": "High wind in moderate conditions",
+            "C": "Higher temperature",
+            "D": "Strong light with open stomata"
+          },
+          "correctOption": "A",
+          "explanation": "High humidity reduces the water-vapour gradient between leaf and air."
+        },
+        {
+          "question": "Stomata are surrounded by:",
+          "options": {
+            "A": "Guard cells",
+            "B": "Root hairs",
+            "C": "Xylem vessels",
+            "D": "Pollen tubes"
+          },
+          "correctOption": "A",
+          "explanation": "Guard cells control the opening and closing of stomatal pores."
+        },
+        {
+          "question": "Pollination is the transfer of pollen from:",
+          "options": {
+            "A": "Anther to stigma",
+            "B": "Ovary to root",
+            "C": "Seed to fruit",
+            "D": "Stigma to anther only"
+          },
+          "correctOption": "A",
+          "explanation": "Pollination is the transfer of pollen grains from anther to stigma."
+        },
+        {
+          "question": "The male reproductive structure of a typical flower is the:",
+          "options": {
+            "A": "Stamen",
+            "B": "Carpel",
+            "C": "Sepal",
+            "D": "Petal"
+          },
+          "correctOption": "A",
+          "explanation": "The stamen includes anther and filament and produces pollen."
+        },
+        {
+          "question": "After fertilisation in a flowering plant, the ovule usually develops into a:",
+          "options": {
+            "A": "Seed",
+            "B": "Leaf",
+            "C": "Root hair",
+            "D": "Stigma"
+          },
+          "correctOption": "A",
+          "explanation": "The ovule develops into a seed, while the ovary generally develops into a fruit."
+        },
+        {
+          "question": "A pollen tube grows from the:",
+          "options": {
+            "A": "Pollen grain towards an ovule",
+            "B": "Root towards the leaf",
+            "C": "Seed towards the fruit",
+            "D": "Anther into the soil"
+          },
+          "correctOption": "A",
+          "explanation": "The pollen tube delivers male gametes to the ovule."
+        },
+        {
+          "question": "Asexual reproduction in plants usually produces offspring that are:",
+          "options": {
+            "A": "Genetically very similar to the parent",
+            "B": "Always genetically unrelated",
+            "C": "Produced by fusion of gametes",
+            "D": "Always haploid"
+          },
+          "correctOption": "A",
+          "explanation": "Asexual reproduction usually produces clones, except for mutations."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "question": "Name four mineral nutrients required by plants and state one function of each.",
+          "marks": 5,
+          "modelAnswer": "Nitrogen is needed for amino acids and nucleic acids; phosphorus is part of ATP and nucleic acids; magnesium is part of chlorophyll; potassium helps regulate enzymes and stomata; calcium supports cell walls and signalling. Any four correct examples.",
+          "rubric": [
+            "Four minerals named (2 marks)",
+            "Accurate function for each (3 marks)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Define osmosis and explain how root hair cells help plants absorb water.",
+          "marks": 5,
+          "modelAnswer": "Osmosis is the net movement of water across a selectively permeable membrane from higher water potential to lower water potential. Root hair cells have long extensions that increase surface area, thin walls and cell sap that can have lower water potential than the soil solution, allowing water to enter by osmosis.",
+          "rubric": [
+            "Osmosis definition (2 marks)",
+            "Root hair adaptation/surface area (1 mark)",
+            "Water potential gradient and water entry (2 marks)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Differentiate between xylem and phloem in terms of transported substances and conducting cells.",
+          "marks": 5,
+          "modelAnswer": "Xylem transports water and mineral ions; its vessel elements and tracheids are usually dead at maturity and have strengthened walls. Phloem transports sugars and other organic substances; its sieve-tube elements are living and supported by companion cells.",
+          "rubric": [
+            "Xylem transport (1 mark)",
+            "Xylem structure (1 mark)",
+            "Phloem transport (1 mark)",
+            "Phloem structure (1 mark)",
+            "Clear contrast (1 mark)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Explain how water and mineral ions enter roots and are transported to leaves. Include osmosis, active transport, xylem and transpiration pull.",
+          "marks": 10,
+          "modelAnswer": "Root hair cells provide a large surface area. Water enters when it moves by osmosis from higher water potential in soil solution to lower water potential in root cells across selectively permeable membranes. Mineral ions may enter by diffusion or active transport when moved against gradients. Water and ions pass through root tissues into xylem. Evaporation from leaf surfaces and diffusion through stomata create transpiration pull, which draws a continuous water column upwards. Cohesion between water molecules and adhesion to xylem walls support the column.",
+          "rubric": [
+            "Root hair adaptation (1 mark)",
+            "Osmosis and water potential (2 marks)",
+            "Mineral ion uptake including active transport (2 marks)",
+            "Movement into xylem (1 mark)",
+            "Transpiration and stomatal evaporation (2 marks)",
+            "Cohesion/adhesion and upward movement (2 marks)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Describe sexual reproduction in a flowering plant from pollination to seed and fruit formation. Add a comparison with asexual reproduction.",
+          "marks": 10,
+          "modelAnswer": "Pollen is transferred from anther to stigma during pollination. A compatible pollen grain germinates and forms a pollen tube down the style to an ovule. A male gamete travels through the tube and fuses with the egg to form a zygote; a second fertilisation event in flowering plants contributes to endosperm formation. The ovule develops into a seed and the ovary usually develops into a fruit. Seeds disperse and germinate under suitable conditions. Asexual reproduction occurs through structures such as runners, bulbs or tubers without gamete fusion and usually produces genetically similar offspring; sexual reproduction creates more genetic variation.",
+          "rubric": [
+            "Pollination definition (1 mark)",
+            "Pollen germination and tube growth (2 marks)",
+            "Fertilisation and zygote formation (2 marks)",
+            "Seed and fruit development (2 marks)",
+            "Seed dispersal/germination (1 mark)",
+            "Asexual comparison and variation (2 marks)"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "id": "biology-ix-chapter-10-evolution",
+  "title": "Biology IX — Chapter 10: Evolution",
+  "description": "Sindh DCAR Biology Curriculum 2024 aligned course on evolution, natural selection, adaptation, speciation and evidence from fossils, anatomy, biogeography and selective breeding.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 10: Evolution",
+      "description": "How populations change over generations and how evidence supports common ancestry and biological diversity.",
+      "lessons": [
+        {
+          "title": "10.1 Evolution and Variation",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine evolution and explain the importance of inherited variation in populations.\n\n## What is evolution?\nBiological evolution is change in the inherited characteristics of populations over successive generations. It can involve changes in allele frequencies and the appearance of new adaptations and species over long periods.\n\nIndividuals do not evolve genetically during their lifetime in the population sense; populations evolve across generations. Evolution does not mean that every organism becomes more complex or that change always represents progress.\n\n## Sources of variation\nVariation is the difference in characteristics among individuals. Genetic variation can arise through mutation, crossing over and independent assortment during meiosis, and random fertilisation. Gene flow between populations can also introduce alleles. Environmental factors influence many characteristics, so not all variation is inherited.\n\n## Why variation matters\nIf a heritable characteristic affects survival or reproductive success in a particular environment, individuals carrying associated alleles may leave more offspring. Over generations, those alleles can become more common. The direction of selection depends on the environment and can change if conditions change.\n\n## Adaptation\nAn adaptation is an inherited feature that improves survival or reproductive success in a particular environment. Adaptations are not planned by organisms; they arise through evolutionary processes acting on heritable variation over many generations.\n\n## Key terms\n- **Population:** members of the same species living in an area and capable of interbreeding.\n- **Allele:** an alternative form of a gene.\n- **Mutation:** a change in genetic material that can create new alleles.\n- **Fitness:** relative reproductive success in a particular environment."
+        },
+        {
+          "title": "10.2 Natural Selection and Darwin's Explanation",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe natural selection and outline the main ideas associated with Darwin's explanation of evolution.\n\n## Natural selection\nNatural selection occurs when individuals in a population vary in inherited traits and those differences lead to unequal survival or reproduction in a particular environment. Heritable traits associated with greater reproductive success tend to become more common over generations.\n\n## Main steps\n1. Individuals in a population show variation.\n2. More offspring are produced than can all survive and reproduce; resources and other pressures create competition.\n3. Individuals with certain heritable traits may survive or reproduce more successfully in that environment.\n4. They pass associated alleles to some of their offspring.\n5. Over many generations, the frequency of those alleles may increase and the population may become better adapted to that environment.\n\n## Example: antibiotic resistance\nA bacterial population may contain rare variants with resistance to an antibiotic. When the antibiotic is used, susceptible bacteria are more likely to die, while resistant bacteria may survive and reproduce. Resistance becomes more common. Antibiotics do not cause bacteria to deliberately develop resistance because they need it; selection changes the frequency of existing variants, while new mutations can also arise.\n\n## Darwin and Wallace\nCharles Darwin and Alfred Russel Wallace independently developed explanations of evolution by natural selection. Darwin presented extensive evidence and arguments in *On the Origin of Species* (1859). Modern evolutionary biology combines natural selection with genetics and other evidence.\n\n## Important clarification\nNatural selection acts on existing phenotypic variation, while mutation and recombination contribute to the genetic variation on which selection can act. Individuals with traits that are advantageous in one environment may not be advantaged in another."
+        },
+        {
+          "title": "10.3 Speciation and Patterns of Evolution",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain how new species may form and describe the role of reproductive isolation.\n\n## What is speciation?\nSpeciation is the evolutionary process by which one lineage gives rise to two or more distinct species. It usually involves populations becoming genetically different and developing reproductive isolation.\n\n## Allopatric speciation\nAllopatric speciation occurs when a physical barrier, such as a mountain range, river or distance, separates populations and reduces gene flow. Mutations, natural selection and genetic drift can cause the populations to diverge. If they become reproductively isolated, they may be considered separate species.\n\n## Sympatric speciation\nSympatric speciation occurs without a geographic barrier. It may happen through changes in chromosome number, host or habitat preferences, or differences in mating behaviour that reduce gene flow within the same area. Polyploidy is an important mechanism in plants.\n\n## Reproductive isolation\nPrezygotic barriers prevent mating or fertilisation, for example different breeding seasons or courtship behaviours. Postzygotic barriers act after fertilisation, such as hybrid inviability or sterility.\n\n## Evolutionary patterns\nEvolution can occur through gradual changes or, in some lineages, relatively rapid changes over geological intervals. Convergent evolution occurs when unrelated lineages independently evolve similar features under similar selective pressures. Divergent evolution occurs when related lineages become increasingly different as they adapt to different environments.\n\n## Review\nExplain how geographic isolation can reduce gene flow and contribute to the formation of new species."
+        },
+        {
+          "title": "10.4 Evidence for Evolution: Fossils, Anatomy and Biogeography",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe how fossils, comparative anatomy, embryology, molecular evidence and biogeography support explanations of evolution.\n\n## Fossil evidence\nFossils are preserved remains, impressions or traces of past organisms. Fossils in rock layers provide evidence of organisms that lived in different geological periods. The fossil record is incomplete because fossilisation is rare and many fossils have been destroyed or not yet discovered. Transitional fossils show combinations of features that help document evolutionary change.\n\n## Comparative anatomy\n- **Homologous structures:** share an underlying structural pattern due to common ancestry, even if they perform different functions. The forelimbs of humans, whales, bats and cats have similar basic bone arrangements.\n- **Analogous structures:** perform similar functions but evolved independently and do not indicate the same underlying structure from recent common ancestry. Bird wings and insect wings are analogous as flight structures.\n- **Vestigial structures:** reduced features inherited from ancestors that have lost much or all of their original function, although some may retain secondary functions.\n\n## Embryology and molecular evidence\nSimilarities in early development can provide evidence of shared ancestry. Comparisons of DNA and protein sequences are powerful tools for inferring evolutionary relationships; more similar sequences often indicate a more recent common ancestor, though interpretation requires appropriate analysis.\n\n## Biogeography\nBiogeography studies the geographic distribution of organisms. Island species often resemble species on nearby continents but have distinctive adaptations, consistent with colonisation and subsequent evolution. Continental drift and geographic barriers also influence distributions.\n\n## Evidence works together\nNo single observation is the entire case for evolution. Fossils, anatomy, embryology, molecular biology and biogeography provide independent lines of evidence that can be compared and tested."
+        },
+        {
+          "title": "10.5 Selective Breeding and Human Influence on Evolution",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain selective breeding and distinguish artificial selection from natural selection.\n\n## Selective breeding\nSelective breeding (artificial selection) occurs when humans choose organisms with desired inherited traits to reproduce. Over many generations, selected characteristics may become more common in a population.\n\nExamples include crop varieties selected for yield, disease resistance or drought tolerance; dairy cattle selected for milk production; and domestic dogs selected for size, behaviour or appearance.\n\n## How it works\n1. Identify individuals with desired heritable characteristics.\n2. Select them as parents for the next generation.\n3. Breed and assess offspring.\n4. Repeat selection over many generations.\n\n## Natural and artificial selection compared\nNatural selection results from differences in reproductive success under environmental conditions. Artificial selection results from human choices about which organisms reproduce. Both can change inherited characteristics in populations over generations.\n\n## Benefits and risks\nSelective breeding can improve food production and useful traits. However, repeated breeding from a narrow gene pool can reduce genetic diversity and increase the risk of inherited disorders. Maintaining genetic diversity and evaluating welfare are important.\n\n## Human-driven evolutionary change\nHumans also influence evolution unintentionally through habitat change, pollution, fishing pressure, pesticide use and antibiotic use. Responsible management can reduce harmful selection pressures and help conserve genetic diversity.\n\n## Check your understanding\nExplain how farmers can select for drought tolerance and identify one possible risk of breeding from too few parent plants."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Biological evolution is:",
+          "options": {
+            "A": "Change in inherited characteristics of populations over generations",
+            "B": "A change in an individual's height during one day",
+            "C": "Every organism becoming more complex",
+            "D": "Only the extinction of species"
+          },
+          "correctOption": "A",
+          "explanation": "Evolution describes inherited population change across generations."
+        },
+        {
+          "question": "Which process can create a new allele?",
+          "options": {
+            "A": "Mutation",
+            "B": "Pollination only",
+            "C": "Digestion",
+            "D": "Respiration"
+          },
+          "correctOption": "A",
+          "explanation": "Mutation changes genetic material and can create new alleles."
+        },
+        {
+          "question": "Natural selection requires:",
+          "options": {
+            "A": "Heritable variation and differences in reproductive success",
+            "B": "All individuals to be identical",
+            "C": "Organisms to choose their mutations",
+            "D": "No environmental pressures"
+          },
+          "correctOption": "A",
+          "explanation": "Natural selection changes trait and allele frequencies when heritable differences affect reproductive success."
+        },
+        {
+          "question": "Fitness in evolutionary biology refers to:",
+          "options": {
+            "A": "Relative reproductive success in a particular environment",
+            "B": "Physical strength only",
+            "C": "The ability to run fastest in every species",
+            "D": "A healthy diet"
+          },
+          "correctOption": "A",
+          "explanation": "Evolutionary fitness is measured by contribution of offspring to future generations."
+        },
+        {
+          "question": "In natural selection, advantageous inherited traits tend to:",
+          "options": {
+            "A": "Become more common over generations",
+            "B": "Disappear immediately",
+            "C": "Change every individual's DNA by intention",
+            "D": "Have no effect on reproduction"
+          },
+          "correctOption": "A",
+          "explanation": "Traits linked to greater reproductive success may increase in frequency."
+        },
+        {
+          "question": "Antibiotic resistance becomes common mainly because:",
+          "options": {
+            "A": "Antibiotics teach bacteria to choose resistance",
+            "B": "Resistant variants survive and reproduce more under antibiotic selection",
+            "C": "All bacteria become identical",
+            "D": "Antibiotics create a need for evolution"
+          },
+          "correctOption": "B",
+          "explanation": "Antibiotic use selects for resistant bacteria that already carry resistance traits or acquire them."
+        },
+        {
+          "question": "Darwin and Wallace are associated with the development of:",
+          "options": {
+            "A": "Evolution by natural selection",
+            "B": "Cell theory only",
+            "C": "The three-domain system",
+            "D": "The discovery of DNA structure"
+          },
+          "correctOption": "A",
+          "explanation": "Darwin and Wallace independently developed explanations based on natural selection."
+        },
+        {
+          "question": "Allopatric speciation usually begins with:",
+          "options": {
+            "A": "Geographic separation reducing gene flow",
+            "B": "All populations living together with unrestricted gene flow",
+            "C": "No genetic variation",
+            "D": "The disappearance of DNA"
+          },
+          "correctOption": "A",
+          "explanation": "A geographic barrier can separate populations and reduce gene flow."
+        },
+        {
+          "question": "Sympatric speciation occurs:",
+          "options": {
+            "A": "Without geographic separation",
+            "B": "Only across oceans",
+            "C": "Only in fossils",
+            "D": "Only in mammals"
+          },
+          "correctOption": "A",
+          "explanation": "Sympatric speciation develops reproductive isolation within the same geographic area."
+        },
+        {
+          "question": "A prezygotic barrier acts:",
+          "options": {
+            "A": "Before fertilisation",
+            "B": "Only after birth",
+            "C": "After a fossil forms",
+            "D": "Only during digestion"
+          },
+          "correctOption": "A",
+          "explanation": "Prezygotic barriers prevent mating or fertilisation."
+        },
+        {
+          "question": "Homologous structures provide evidence of:",
+          "options": {
+            "A": "Common ancestry",
+            "B": "Identical current function in all organisms",
+            "C": "No evolutionary relationship",
+            "D": "Only artificial selection"
+          },
+          "correctOption": "A",
+          "explanation": "Homologous structures share an underlying pattern inherited from a common ancestor."
+        },
+        {
+          "question": "Bird wings and insect wings are commonly considered:",
+          "options": {
+            "A": "Analogous structures",
+            "B": "Identical homologous structures",
+            "C": "Vestigial organs only",
+            "D": "Chromosomes"
+          },
+          "correctOption": "A",
+          "explanation": "They perform similar functions but evolved independently."
+        },
+        {
+          "question": "Fossils are:",
+          "options": {
+            "A": "Preserved remains, impressions or traces of past life",
+            "B": "Only living organisms",
+            "C": "Only minerals made by plants",
+            "D": "Modern DNA sequences"
+          },
+          "correctOption": "A",
+          "explanation": "Fossils preserve evidence of ancient organisms and their activity."
+        },
+        {
+          "question": "Biogeography studies:",
+          "options": {
+            "A": "Geographic distribution of organisms",
+            "B": "Chemical reactions in cells",
+            "C": "Only body structure",
+            "D": "The movement of blood"
+          },
+          "correctOption": "A",
+          "explanation": "Biogeography investigates where organisms live and why they occur there."
+        },
+        {
+          "question": "DNA sequence similarities can help scientists infer:",
+          "options": {
+            "A": "Evolutionary relationships",
+            "B": "The exact age of every organism",
+            "C": "Only an organism's weight",
+            "D": "The colour of all fossils"
+          },
+          "correctOption": "A",
+          "explanation": "Molecular comparisons help estimate relatedness and common ancestry."
+        },
+        {
+          "question": "Selective breeding is also called:",
+          "options": {
+            "A": "Artificial selection",
+            "B": "Natural mutation",
+            "C": "Genetic drift only",
+            "D": "Photosynthesis"
+          },
+          "correctOption": "A",
+          "explanation": "Humans choose which organisms reproduce to increase desired inherited traits."
+        },
+        {
+          "question": "Which is an example of artificial selection?",
+          "options": {
+            "A": "Breeding crop plants for drought tolerance",
+            "B": "A storm changing a habitat",
+            "C": "A predator catching prey",
+            "D": "Random water evaporation"
+          },
+          "correctOption": "A",
+          "explanation": "Farmers select parent plants with inherited drought-tolerant traits."
+        },
+        {
+          "question": "A risk of repeatedly breeding from a small number of parents is:",
+          "options": {
+            "A": "Reduced genetic diversity",
+            "B": "Unlimited variation",
+            "C": "No inherited traits",
+            "D": "Instant speciation"
+          },
+          "correctOption": "A",
+          "explanation": "A narrow breeding population can increase inbreeding and reduce genetic variation."
+        },
+        {
+          "question": "Convergent evolution occurs when:",
+          "options": {
+            "A": "Unrelated lineages independently evolve similar features",
+            "B": "All species become one species",
+            "C": "A single individual changes its genes by choice",
+            "D": "Fossils turn into living organisms"
+          },
+          "correctOption": "A",
+          "explanation": "Similar selective pressures can lead unrelated lineages to evolve analogous features."
+        },
+        {
+          "question": "Which statement is correct about evolution?",
+          "options": {
+            "A": "Individuals evolve genetically during their lifetime because they need to",
+            "B": "Populations evolve over generations",
+            "C": "Evolution always means progress towards complexity",
+            "D": "Natural selection creates only perfect organisms"
+          },
+          "correctOption": "B",
+          "explanation": "Evolution is population-level change in inherited characteristics across generations."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "question": "Define evolution and name two sources of inherited genetic variation.",
+          "marks": 4,
+          "modelAnswer": "Evolution is change in inherited characteristics or allele frequencies in populations over generations. Sources of variation include mutation, crossing over, independent assortment and random fertilisation; gene flow can also introduce alleles.",
+          "rubric": [
+            "Definition (2 marks)",
+            "Two valid sources (2 marks)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Explain natural selection using antibiotic resistance in bacteria as an example.",
+          "marks": 5,
+          "modelAnswer": "A bacterial population contains heritable variation; some bacteria may already have resistance or acquire resistance genes. Antibiotic use kills more susceptible bacteria. Resistant bacteria survive and reproduce, passing resistance to offspring. Over generations, resistance becomes more common in the population.",
+          "rubric": [
+            "Variation in population (1 mark)",
+            "Antibiotic selection pressure (1 mark)",
+            "Differential survival (1 mark)",
+            "Reproduction and inheritance (1 mark)",
+            "Population frequency change (1 mark)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Differentiate between homologous and analogous structures, giving one example of each.",
+          "marks": 5,
+          "modelAnswer": "Homologous structures share an underlying anatomical pattern due to common ancestry, although their functions may differ; examples include vertebrate forelimbs. Analogous structures perform similar functions but evolved independently; bird wings and insect wings are examples as flight structures.",
+          "rubric": [
+            "Homologous definition (2 marks)",
+            "Homologous example (1 mark)",
+            "Analogous definition (1 mark)",
+            "Analogous example (1 mark)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Describe the main steps of natural selection and explain how it can lead to adaptation over many generations.",
+          "marks": 10,
+          "modelAnswer": "Individuals in a population show heritable variation. More offspring are produced than can all survive and reproduce, so environmental pressures create differences in reproductive success. Individuals with certain inherited traits may leave more offspring. Those offspring inherit associated alleles. Over generations, allele frequencies change and traits that improve reproductive success in that environment may become more common. The population can become adapted to that environment. Mutation and recombination provide variation; selection does not occur because organisms intentionally change.",
+          "rubric": [
+            "Heritable variation (2 marks)",
+            "Competition/environmental pressure (2 marks)",
+            "Differential survival/reproduction (2 marks)",
+            "Inheritance of traits (2 marks)",
+            "Population change/adaptation over generations (2 marks)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Discuss evidence for evolution using fossils, comparative anatomy, molecular evidence and biogeography. Explain selective breeding as an example of evolution influenced by humans.",
+          "marks": 10,
+          "modelAnswer": "Fossils document organisms from different geological periods and can show transitional combinations of features. Homologous structures support common ancestry, while analogous structures reflect independent evolution under similar pressures. DNA and protein sequence comparisons help infer evolutionary relationships. Biogeography shows patterns such as island species resembling nearby mainland ancestors but developing distinctive traits. Selective breeding is artificial selection: humans choose parents with desired heritable traits, changing trait frequencies over generations. It can improve crops or livestock but may reduce genetic diversity if the breeding pool is narrow.",
+          "rubric": [
+            "Fossil evidence (2 marks)",
+            "Comparative anatomy (2 marks)",
+            "Molecular evidence (1 mark)",
+            "Biogeography (1 mark)",
+            "Selective breeding mechanism/example (2 marks)",
+            "Benefits and genetic-diversity risk (2 marks)"
+          ]
+        }
+      ]
+    }
+  ]
+}

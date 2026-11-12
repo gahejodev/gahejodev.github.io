@@ -49,6 +49,18 @@
       "title": "Biology IX — Chapter 8: Biodiversity",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-8-biodiversity.json",
       "version": "1"
+    },
+    {
+      "id": "biology-ix-chapter-9-form-functions-plants",
+      "title": "Biology IX — Chapter 9: Form and Functions of Plants",
+      "path": "zeeroz-academy/content/courses/biology-ix-chapter-9-form-functions-plants.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-ix-chapter-10-evolution",
+      "title": "Biology IX — Chapter 10: Evolution",
+      "path": "zeeroz-academy/content/courses/biology-ix-chapter-10-evolution.json",
+      "version": "1"
     }
   ]
 }
