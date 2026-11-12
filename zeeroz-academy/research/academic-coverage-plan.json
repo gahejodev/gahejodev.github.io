@@ -1,11 +1,20 @@
 {
   "schemaVersion": 1,
   "title": "Zeeroz Academy Academic Coverage Master Plan",
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "scope": {
     "region": "Sindh, Pakistan",
-    "grades": ["IX", "X", "XI", "XII"],
-    "mediums": ["English", "Urdu", "Sindhi"],
+    "grades": [
+      "IX",
+      "X",
+      "XI",
+      "XII"
+    ],
+    "mediums": [
+      "English",
+      "Urdu",
+      "Sindhi"
+    ],
     "principle": "Use the current applicable Sindh curriculum, official scheme of studies and available Sindh Textbook Board books. Distinguish verified compulsory subjects, group/elective subjects and Academy enrichment. Do not mark planned content as published."
   },
   "official_sources": [
@@ -33,54 +42,180 @@
   "subject_families": [
     {
       "family": "Languages and communication",
-      "subjects": ["English", "Sindhi", "Urdu", "English Literature"],
-      "course_components": ["reading comprehension", "grammar in context", "vocabulary", "writing", "literature and textual analysis", "speaking and listening practice"]
+      "subjects": [
+        "English",
+        "Sindhi",
+        "Urdu",
+        "English Literature"
+      ],
+      "course_components": [
+        "reading comprehension",
+        "grammar in context",
+        "vocabulary",
+        "writing",
+        "literature and textual analysis",
+        "speaking and listening practice"
+      ]
     },
     {
       "family": "Science",
-      "subjects": ["Physics", "Chemistry", "Biology", "General Science"],
-      "course_components": ["concept lessons", "labelled diagrams", "worked examples and numericals where relevant", "scientific vocabulary", "practical/laboratory concepts", "MCQs", "CRQs", "ERQs"]
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "General Science"
+      ],
+      "course_components": [
+        "concept lessons",
+        "labelled diagrams",
+        "worked examples and numericals where relevant",
+        "scientific vocabulary",
+        "practical/laboratory concepts",
+        "MCQs",
+        "CRQs",
+        "ERQs"
+      ]
     },
     {
       "family": "Mathematics and quantitative reasoning",
-      "subjects": ["Mathematics", "General Mathematics", "Business Mathematics and Statistics", "Statistics"],
-      "course_components": ["step-by-step solved examples", "formula explanations", "practice problems", "worked solutions", "application questions", "MCQs", "CRQs", "ERQs"]
+      "subjects": [
+        "Mathematics",
+        "General Mathematics",
+        "Business Mathematics and Statistics",
+        "Statistics"
+      ],
+      "course_components": [
+        "step-by-step solved examples",
+        "formula explanations",
+        "practice problems",
+        "worked solutions",
+        "application questions",
+        "MCQs",
+        "CRQs",
+        "ERQs"
+      ]
     },
     {
       "family": "Computing and technology",
-      "subjects": ["Computer Science", "Computer Studies", "Computer Science and Entrepreneurship"],
-      "course_components": ["concept lessons", "algorithms and flowcharts", "code examples where syllabus requires", "digital safety", "practical activities", "MCQs", "CRQs", "ERQs"]
+      "subjects": [
+        "Computer Science",
+        "Computer Studies",
+        "Computer Science and Entrepreneurship"
+      ],
+      "course_components": [
+        "concept lessons",
+        "algorithms and flowcharts",
+        "code examples where syllabus requires",
+        "digital safety",
+        "practical activities",
+        "MCQs",
+        "CRQs",
+        "ERQs"
+      ]
     },
     {
       "family": "Social sciences and citizenship",
-      "subjects": ["Pakistan Studies", "Geography of Pakistan", "Geography", "Civics", "Economics", "Education", "Commercial Geography"],
-      "course_components": ["maps and timelines where relevant", "case studies", "key concepts", "source-based questions", "local and national examples", "MCQs", "CRQs", "ERQs"]
+      "subjects": [
+        "Pakistan Studies",
+        "Geography of Pakistan",
+        "Geography",
+        "Civics",
+        "Economics",
+        "Education",
+        "Commercial Geography"
+      ],
+      "course_components": [
+        "maps and timelines where relevant",
+        "case studies",
+        "key concepts",
+        "source-based questions",
+        "local and national examples",
+        "MCQs",
+        "CRQs",
+        "ERQs"
+      ]
     },
     {
       "family": "Religion, ethics and society",
-      "subjects": ["Islamiat", "Religious Studies", "Ethics"],
-      "course_components": ["concept explanations", "textual understanding", "ethical application", "short and extended responses", "respectful and accurate treatment"]
+      "subjects": [
+        "Islamiat",
+        "Religious Studies",
+        "Ethics"
+      ],
+      "course_components": [
+        "concept explanations",
+        "textual understanding",
+        "ethical application",
+        "short and extended responses",
+        "respectful and accurate treatment"
+      ]
     },
     {
       "family": "Commerce and business",
-      "subjects": ["Principles of Commerce", "Accounting", "Banking", "Business Mathematics and Statistics", "Commercial Geography", "Economics"],
-      "course_components": ["definitions and principles", "worked calculations", "business scenarios", "tables and formats", "case-based questions", "MCQs", "CRQs", "ERQs"]
+      "subjects": [
+        "Principles of Commerce",
+        "Accounting",
+        "Banking",
+        "Business Mathematics and Statistics",
+        "Commercial Geography",
+        "Economics"
+      ],
+      "course_components": [
+        "definitions and principles",
+        "worked calculations",
+        "business scenarios",
+        "tables and formats",
+        "case-based questions",
+        "MCQs",
+        "CRQs",
+        "ERQs"
+      ]
     },
     {
       "family": "Humanities and electives",
-      "subjects": ["Library Science", "Physical Education", "Food and Nutrition", "Essentials of Home Economics", "Physiology and Hygiene", "other currently approved electives"],
-      "course_components": ["verified unit outlines", "visual explanations", "practical examples", "scenario-based practice", "MCQs", "CRQs", "ERQs"]
+      "subjects": [
+        "Library Science",
+        "Physical Education",
+        "Food and Nutrition",
+        "Essentials of Home Economics",
+        "Physiology and Hygiene",
+        "other currently approved electives"
+      ],
+      "course_components": [
+        "verified unit outlines",
+        "visual explanations",
+        "practical examples",
+        "scenario-based practice",
+        "MCQs",
+        "CRQs",
+        "ERQs"
+      ]
     }
   ],
   "pathways": [
     {
-      "grades": ["IX", "X"],
-      "pathways": ["Science", "General/Humanities"],
+      "grades": [
+        "IX",
+        "X"
+      ],
+      "pathways": [
+        "Science",
+        "General/Humanities"
+      ],
       "note": "Confirm the current notified scheme and board-specific subject combination before assigning a subject to a grade or group."
     },
     {
-      "grades": ["XI", "XII"],
-      "pathways": ["Pre-Medical", "Pre-Engineering", "Computer Science/General Science", "Commerce", "Humanities/General"],
+      "grades": [
+        "XI",
+        "XII"
+      ],
+      "pathways": [
+        "Pre-Medical",
+        "Pre-Engineering",
+        "Computer Science/General Science",
+        "Commerce",
+        "Humanities/General"
+      ],
       "note": "These are planning pathways, not a claim that every college offers every group or elective. Verify current scheme, college availability and the relevant board."
     }
   ],
@@ -125,5 +260,121 @@
     "in_progress": "Content is being authored or checked.",
     "planned": "Included in the coverage scope but not yet published.",
     "needs_verification": "Current official subject/group/edition details must be checked before content production."
-  }
+  },
+  "verified_curriculum_maps": [
+    {
+      "subject": "Biology",
+      "grades": [
+        "IX",
+        "X"
+      ],
+      "curriculum": "Curriculum of Biology for Sindh Grades IX-XII (DCAR Sindh, 2024; aligned with NCP 2022-23)",
+      "official_url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf",
+      "evidence": "Contents section, printed pages 107-126 (PDF pages 106-125).",
+      "grade_IX_chapters": [
+        "01 Nature of Science in Biology",
+        "02 Molecular Biology",
+        "03 Enzymes",
+        "04 Cell",
+        "05 Cell Cycle",
+        "06 Tissues, Organs and Systems",
+        "07 Bioenergetics",
+        "08 Biodiversity",
+        "09 Form and Functions of Plants",
+        "10 Evolution"
+      ],
+      "grade_X_chapters": [
+        "11 Holozoic Nutrition",
+        "12 Gaseous Exchange",
+        "13 Circulation",
+        "14 Excretory System",
+        "15 Coordination and Control",
+        "16 Reproduction",
+        "17 Inheritance",
+        "18 Diseases and Immunity"
+      ],
+      "implementation_note": "The existing Biology IX Chapter 1 package is not fully aligned to this 2024 chapter outline: its current lessons cover biology introduction, branches and interdisciplinary science but must be expanded to include the curriculum's Quranic view on development of life, careers in biological sciences and biological methods. The 2024 chapter sequence takes precedence over legacy textbook chapter ordering; verify STBB book edition and board exam notification before finalising exam-specific claims."
+    }
+  ],
+  "verified_subject_curricula": [
+    {
+      "subject": "Biology",
+      "grades": "IX-XII",
+      "year": 2024,
+      "official_url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+    },
+    {
+      "subject": "Chemistry",
+      "grades": "IX-XII",
+      "year": 2024,
+      "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
+    },
+    {
+      "subject": "Physics",
+      "grades": "IX-XII",
+      "year": 2024,
+      "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
+    },
+    {
+      "subject": "Mathematics",
+      "grades": "IX-XII",
+      "year": 2024,
+      "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
+    },
+    {
+      "subject": "English Language",
+      "grades": "IX-XII",
+      "year": 2024,
+      "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
+    },
+    {
+      "subject": "Computer Science",
+      "grades": "IX-XIII",
+      "year": 2024,
+      "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
+    },
+    {
+      "subject": "Education",
+      "grades": "IX-XII",
+      "year": 2025,
+      "official_url": "https://www.dcar.gos.pk/Sindh-Curriculum/Education%20Curriculum-2024%2011%20June%202025.pdf"
+    },
+    {
+      "subject": "Accounting",
+      "grades": "XI-XII",
+      "year": 2025,
+      "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
+    },
+    {
+      "subject": "Economics",
+      "grades": "XI",
+      "year": 2025,
+      "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
+    },
+    {
+      "subject": "Principles of Commerce",
+      "grades": "XI",
+      "year": 2025,
+      "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
+    },
+    {
+      "subject": "Business Mathematics and Statistics",
+      "grades": "XI-XII",
+      "year": 2026,
+      "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
+    },
+    {
+      "subject": "Commercial Geography",
+      "grades": "XII",
+      "year": 2026,
+      "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
+    },
+    {
+      "subject": "Banking (Principles of Commerce-II)",
+      "grades": "XII",
+      "year": 2026,
+      "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
+    }
+  ],
+  "important_scope_correction": "Do not assume every subject family is offered in every grade or every intermediate group. The current DCAR curriculum library and notified Scheme of Studies must determine the actual grade/group coverage. The STBB portal's book counts and editions differ by grade and language, so verify each title and edition individually."
 }
