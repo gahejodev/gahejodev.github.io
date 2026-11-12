@@ -1,0 +1,322 @@
+{
+  "id": "biology-ix-chapter-7-bioenergetics",
+  "title": "Biology IX — Chapter 7: Bioenergetics",
+  "description": "Sindh DCAR Biology Curriculum 2024 aligned course on energy transformations, ATP, photosynthesis, aerobic respiration and anaerobic respiration.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 7: Bioenergetics",
+      "description": "How organisms capture, transfer and use energy to sustain life.",
+      "lessons": [
+        {
+          "title": "7.1 Energy and Bioenergetics",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine bioenergetics and explain why living organisms need a continuous supply of usable energy.\n\n## What is bioenergetics?\nBioenergetics is the study of energy flow and energy transformations in living systems. Organisms need energy to build molecules, move substances across membranes, grow, move, reproduce and maintain internal conditions.\n\nEnergy is not created by cells. It is transferred and transformed from one form to another. Green plants and other photosynthetic organisms capture light energy and store some of it in chemical bonds. Consumers obtain chemical energy by eating other organisms or organic matter.\n\n## ATP: the cell's immediate energy currency\nAdenosine triphosphate (ATP) consists of adenine, ribose and three phosphate groups. When ATP is hydrolysed to ADP and inorganic phosphate, usable free energy is released and can be coupled to cellular work:\n\n**ATP + H₂O → ADP + Pi + energy**\n\nCells use ATP for active transport, muscle contraction, biosynthesis and many other processes. ATP is continually regenerated from ADP using energy from respiration or, in photosynthetic cells, light-driven processes.\n\n## Energy coupling\nAn energy-releasing reaction can be linked to an energy-requiring reaction through ATP. For example, ATP hydrolysis can help power the movement of ions against a concentration gradient.\n\n## Check your understanding\nGive three examples of cellular activities that require energy and explain why ATP is useful for transferring energy between reactions."
+        },
+        {
+          "title": "7.2 Photosynthesis: Capturing Light Energy",
+          "type": "text",
+          "content": "## Learning outcomes\nState the overall word equation for photosynthesis and identify its site and main requirements.\n\n## What is photosynthesis?\nPhotosynthesis is the process by which plants, algae and some bacteria use light energy to make organic molecules from carbon dioxide and water. In green plants, it occurs mainly in chloroplasts, where chlorophyll and other pigments absorb light.\n\n**Carbon dioxide + water —light energy→ glucose (or carbohydrate) + oxygen**\n\nA balanced simplified symbol equation is:\n**6CO₂ + 6H₂O —light→ C₆H₁₂O₆ + 6O₂**\n\nThe oxygen released by oxygenic photosynthesis comes from water molecules, not from carbon dioxide.\n\n## Requirements and factors\nPhotosynthesis requires light, chlorophyll-containing photosynthetic membranes, carbon dioxide and water. Its rate can be affected by light intensity, carbon dioxide concentration, temperature, water availability and the condition of the plant.\n\n## Importance\nPhotosynthesis stores energy in organic molecules, provides food for most food webs and releases oxygen that supports aerobic life. It also removes carbon dioxide from the atmosphere, although global carbon balance depends on many other processes.\n\n## Leaf adaptations\nLeaves are often broad and thin, providing a large surface for light capture and short diffusion distances. Palisade cells contain many chloroplasts. Stomata allow gas exchange, and veins supply water and transport sugars.\n\n## Check your understanding\nWhy does a plant need both light and carbon dioxide for photosynthesis? Identify the gas released during oxygenic photosynthesis."
+        },
+        {
+          "title": "7.3 Light-Dependent and Carbon-Fixation Reactions",
+          "type": "text",
+          "content": "## Learning outcomes\nOutline the two linked stages of photosynthesis and describe the roles of chlorophyll, ATP and NADPH.\n\n## Light-dependent reactions\nIn the thylakoid membranes of chloroplasts, pigments absorb light energy. This energy drives electron transfer. Water is split (photolysis), releasing oxygen, electrons and hydrogen ions. Electron transport helps build a proton gradient that powers ATP synthesis. Electrons ultimately help reduce NADP⁺ to NADPH.\n\nThe main products are ATP, NADPH and oxygen. ATP and NADPH provide energy and reducing power for the next stage.\n\n## Carbon fixation reactions (Calvin cycle)\nThe Calvin cycle takes place in the stroma. Carbon dioxide is fixed to a five-carbon acceptor molecule, RuBP, by the enzyme rubisco. The resulting compounds are converted into molecules that can be used to make carbohydrate, using ATP and NADPH. The carbon acceptor is regenerated so the cycle can continue.\n\nThe Calvin cycle does not directly require light, but it depends on ATP and NADPH produced by the light-dependent reactions. It is therefore linked to light availability.\n\n## Avoiding a common misconception\nPlants do not photosynthesise only during the day and respire only at night. Plant cells carry out cellular respiration day and night; photosynthesis requires light.\n\n## Summary flow\nLight → excited electrons → ATP and NADPH formation; water splitting → oxygen; carbon dioxide + ATP + NADPH → carbohydrate-building intermediates."
+        },
+        {
+          "title": "7.4 Cellular Respiration and Aerobic Respiration",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine cellular respiration and describe the overall equation and main stages of aerobic respiration.\n\n## Cellular respiration\nCellular respiration is a series of enzyme-controlled reactions that transfer energy from organic molecules to ATP. It is not the same as breathing. Breathing moves air in and out of lungs or gas-exchange surfaces; cellular respiration occurs inside cells.\n\n## Aerobic respiration\nAerobic respiration uses oxygen as the final electron acceptor in the electron transport chain. A simplified overall equation for glucose oxidation is:\n\n**Glucose + oxygen → carbon dioxide + water + energy (captured in ATP)**\n\n**C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + energy**\n\n## Main stages in eukaryotic cells\n1. **Glycolysis:** occurs in the cytoplasm. Glucose is split into two pyruvate molecules; a small amount of ATP and NADH is produced.\n2. **Pyruvate oxidation and Krebs cycle:** occur in the mitochondrial matrix. Carbon dioxide is released and electron carriers such as NADH and FADH₂ are produced; a small amount of ATP (or equivalent) is made.\n3. **Electron transport and oxidative phosphorylation:** occur at the inner mitochondrial membrane. Electrons pass along carriers; energy pumps protons and the gradient drives ATP synthase. Oxygen accepts electrons and hydrogen ions to form water.\n\nThe exact ATP yield varies with cell type and conditions. Avoid treating one fixed textbook number as universal.\n\n## Importance\nATP from respiration powers active transport, movement, synthesis and maintenance. Plants, animals, fungi and many microorganisms carry out cellular respiration."
+        },
+        {
+          "title": "7.5 Anaerobic Respiration and Comparing Pathways",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe anaerobic pathways and compare them with aerobic respiration.\n\n## Anaerobic energy release\nWhen oxygen is unavailable or cannot be used by a pathway, some cells and microorganisms regenerate NAD⁺ through fermentation pathways so glycolysis can continue. Glycolysis itself produces a net gain of two ATP per glucose molecule.\n\n## Lactic acid fermentation\nIn animal muscle cells under conditions where oxygen supply is insufficient for demand, pyruvate can be converted to lactate. This regenerates NAD⁺, allowing glycolysis to continue for a short time. Lactate can later be used by the body in metabolism; it is not simply a waste that must remain in muscles.\n\n## Alcoholic fermentation\nYeast and some microorganisms convert pyruvate into ethanol and carbon dioxide. This process is used in bread-making and the production of some fermented drinks. Carbon dioxide released by yeast helps dough rise.\n\n## Comparison\n| Feature | Aerobic respiration | Anaerobic fermentation pathways |\n|---|---|---|\n| Oxygen | Used as final electron acceptor | Does not use oxygen in the pathway |\n| ATP from glycolysis | 2 ATP net | 2 ATP net per glucose overall in fermentation |\n| Further processing | Krebs cycle and electron transport in eukaryotes | Pyruvate converted to lactate or ethanol + CO₂ |\n| Energy transfer | Much more ATP per glucose | Much less ATP per glucose |\n\n## Review\nExplain why fermentation allows glycolysis to continue without oxygen, and give one useful application of yeast fermentation."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Bioenergetics is the study of:",
+          "options": {
+            "A": "Energy transformations in living systems",
+            "B": "Only body temperature",
+            "C": "Only inheritance",
+            "D": "Only classification"
+          },
+          "correctOption": "A",
+          "explanation": "Bioenergetics examines how energy is transferred and transformed in organisms."
+        },
+        {
+          "question": "ATP is commonly described as:",
+          "options": {
+            "A": "The cell's immediate energy currency",
+            "B": "A cell wall polymer",
+            "C": "A hereditary chromosome",
+            "D": "A digestive enzyme"
+          },
+          "correctOption": "A",
+          "explanation": "ATP transfers usable energy to many cellular processes."
+        },
+        {
+          "question": "ATP hydrolysis commonly produces:",
+          "options": {
+            "A": "ADP and inorganic phosphate",
+            "B": "DNA and RNA",
+            "C": "Glucose and oxygen",
+            "D": "Amino acids and lipid"
+          },
+          "correctOption": "A",
+          "explanation": "ATP can be hydrolysed to ADP and phosphate, releasing free energy."
+        },
+        {
+          "question": "Photosynthesis in green plant cells mainly occurs in:",
+          "options": {
+            "A": "Mitochondria",
+            "B": "Chloroplasts",
+            "C": "Ribosomes",
+            "D": "Lysosomes"
+          },
+          "correctOption": "B",
+          "explanation": "Chloroplasts contain photosynthetic pigments and thylakoid membranes."
+        },
+        {
+          "question": "The raw materials for the simplified photosynthesis equation are:",
+          "options": {
+            "A": "Glucose and oxygen",
+            "B": "Carbon dioxide and water",
+            "C": "ATP and protein",
+            "D": "Nitrogen and starch"
+          },
+          "correctOption": "B",
+          "explanation": "Photosynthesis uses carbon dioxide and water to build carbohydrates."
+        },
+        {
+          "question": "The oxygen released during oxygenic photosynthesis comes from:",
+          "options": {
+            "A": "Carbon dioxide",
+            "B": "Water",
+            "C": "Glucose",
+            "D": "Chlorophyll"
+          },
+          "correctOption": "B",
+          "explanation": "Water splitting during the light-dependent reactions releases oxygen."
+        },
+        {
+          "question": "The green pigment that absorbs light energy in plants is:",
+          "options": {
+            "A": "Haemoglobin",
+            "B": "Chlorophyll",
+            "C": "Keratin",
+            "D": "Insulin"
+          },
+          "correctOption": "B",
+          "explanation": "Chlorophyll and associated pigments absorb light in photosystems."
+        },
+        {
+          "question": "The light-dependent reactions take place in the:",
+          "options": {
+            "A": "Thylakoid membranes",
+            "B": "Nucleus",
+            "C": "Cytoplasm only",
+            "D": "Cell wall"
+          },
+          "correctOption": "A",
+          "explanation": "Photosystems and electron transport components are located in thylakoid membranes."
+        },
+        {
+          "question": "The Calvin cycle occurs in the chloroplast:",
+          "options": {
+            "A": "Stroma",
+            "B": "Thylakoid lumen only",
+            "C": "Outer membrane",
+            "D": "Nucleus"
+          },
+          "correctOption": "A",
+          "explanation": "Carbon fixation reactions occur in the stroma."
+        },
+        {
+          "question": "Which molecules produced in light-dependent reactions help power the Calvin cycle?",
+          "options": {
+            "A": "ATP and NADPH",
+            "B": "DNA and RNA",
+            "C": "Lactate and ethanol",
+            "D": "Urea and ammonia"
+          },
+          "correctOption": "A",
+          "explanation": "ATP and NADPH supply energy and reducing power for carbon fixation."
+        },
+        {
+          "question": "Cellular respiration is best defined as:",
+          "options": {
+            "A": "Movement of air in and out of lungs",
+            "B": "Enzyme-controlled transfer of energy from organic molecules to ATP",
+            "C": "Only photosynthesis",
+            "D": "Only digestion"
+          },
+          "correctOption": "B",
+          "explanation": "Cellular respiration occurs in cells and transfers chemical energy into ATP."
+        },
+        {
+          "question": "Glycolysis takes place in the:",
+          "options": {
+            "A": "Cytoplasm",
+            "B": "Mitochondrial matrix only",
+            "C": "Chloroplast stroma",
+            "D": "Nucleus"
+          },
+          "correctOption": "A",
+          "explanation": "Glycolysis occurs in the cytoplasm of cells."
+        },
+        {
+          "question": "In aerobic respiration, oxygen acts as the final:",
+          "options": {
+            "A": "Electron acceptor",
+            "B": "Carbon source",
+            "C": "Enzyme",
+            "D": "Glucose molecule"
+          },
+          "correctOption": "A",
+          "explanation": "Oxygen accepts electrons and hydrogen ions at the end of the electron transport chain."
+        },
+        {
+          "question": "The Krebs cycle in eukaryotic cells occurs mainly in the:",
+          "options": {
+            "A": "Mitochondrial matrix",
+            "B": "Cell wall",
+            "C": "Nucleus",
+            "D": "Golgi apparatus"
+          },
+          "correctOption": "A",
+          "explanation": "Krebs cycle enzymes are located in the mitochondrial matrix."
+        },
+        {
+          "question": "The electron transport chain for aerobic respiration in eukaryotes is located in the:",
+          "options": {
+            "A": "Inner mitochondrial membrane",
+            "B": "Outer cell wall",
+            "C": "Nuclear envelope",
+            "D": "Ribosome"
+          },
+          "correctOption": "A",
+          "explanation": "Electron carriers and ATP synthase are embedded in the inner mitochondrial membrane."
+        },
+        {
+          "question": "The net ATP produced directly by glycolysis per glucose molecule is:",
+          "options": {
+            "A": "2",
+            "B": "12",
+            "C": "30",
+            "D": "36"
+          },
+          "correctOption": "A",
+          "explanation": "Glycolysis has a net yield of two ATP per glucose molecule."
+        },
+        {
+          "question": "Lactic acid fermentation in animal cells helps regenerate:",
+          "options": {
+            "A": "NAD⁺",
+            "B": "DNA",
+            "C": "Oxygen",
+            "D": "Chlorophyll"
+          },
+          "correctOption": "A",
+          "explanation": "Regenerating NAD+ allows glycolysis to continue when oxygen-dependent processing is limited."
+        },
+        {
+          "question": "Alcoholic fermentation by yeast produces:",
+          "options": {
+            "A": "Ethanol and carbon dioxide",
+            "B": "Lactate and oxygen",
+            "C": "Urea and water",
+            "D": "Glucose and starch"
+          },
+          "correctOption": "A",
+          "explanation": "Yeast converts pyruvate to ethanol and carbon dioxide."
+        },
+        {
+          "question": "Compared with fermentation, aerobic respiration generally transfers:",
+          "options": {
+            "A": "More ATP energy per glucose",
+            "B": "No energy to ATP",
+            "C": "Less ATP per glucose",
+            "D": "Exactly the same ATP in all conditions"
+          },
+          "correctOption": "A",
+          "explanation": "Aerobic respiration includes further oxidation and oxidative phosphorylation, yielding much more ATP."
+        },
+        {
+          "question": "Which statement is correct?",
+          "options": {
+            "A": "Plants respire only at night",
+            "B": "Plants carry out cellular respiration day and night",
+            "C": "Only animals use ATP",
+            "D": "Breathing and cellular respiration are identical"
+          },
+          "correctOption": "B",
+          "explanation": "Plant cells respire continuously; photosynthesis requires light."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "question": "Define ATP and explain why it is important for cellular activities.",
+          "marks": 5,
+          "modelAnswer": "ATP (adenosine triphosphate) is a nucleotide-like molecule containing adenine, ribose and three phosphate groups. Hydrolysis to ADP and inorganic phosphate releases usable free energy that can be coupled to active transport, muscle contraction and biosynthesis. ATP is continually regenerated from ADP.",
+          "rubric": [
+            "Definition/components (2 marks)",
+            "Hydrolysis and energy transfer (1 mark)",
+            "Two cellular uses (2 marks)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Write the word equation for photosynthesis and name two factors that can affect its rate.",
+          "marks": 4,
+          "modelAnswer": "Carbon dioxide + water, using light energy, produce carbohydrate (often represented as glucose) + oxygen. Factors include light intensity, carbon dioxide concentration, temperature and water availability.",
+          "rubric": [
+            "Correct word equation (2 marks)",
+            "Two valid rate factors (2 marks)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "State two differences between aerobic respiration and fermentation.",
+          "marks": 4,
+          "modelAnswer": "Aerobic respiration uses oxygen as the final electron acceptor and yields much more ATP per glucose after glycolysis. Fermentation does not use oxygen in the pathway, regenerates NAD+ by converting pyruvate to lactate or ethanol and carbon dioxide, and yields only the net two ATP from glycolysis.",
+          "rubric": [
+            "Oxygen use (1 mark)",
+            "Products/pathway difference (1 mark)",
+            "ATP yield comparison (2 marks)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Describe the light-dependent reactions and the Calvin cycle in photosynthesis and explain how the two stages are linked.",
+          "marks": 10,
+          "modelAnswer": "Pigments in thylakoid membranes absorb light, exciting electrons. Water is split, releasing oxygen, electrons and hydrogen ions. Electron transport helps create a proton gradient that drives ATP synthesis, and electrons help reduce NADP+ to NADPH. In the stroma, rubisco fixes carbon dioxide to RuBP; the resulting compounds are reduced using ATP and NADPH to produce carbohydrate-building molecules, while RuBP is regenerated. ATP and NADPH link the two stages by supplying energy and reducing power to carbon fixation.",
+          "rubric": [
+            "Location and light absorption (2 marks)",
+            "Water splitting and oxygen release (2 marks)",
+            "Electron transport/proton gradient and ATP formation (2 marks)",
+            "NADPH production (1 mark)",
+            "Carbon fixation and use of ATP/NADPH (2 marks)",
+            "Regeneration of carbon acceptor/link between stages (1 mark)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Compare aerobic respiration with lactic acid and alcoholic fermentation, including the role of glycolysis and the importance of ATP.",
+          "marks": 10,
+          "modelAnswer": "Glycolysis occurs in the cytoplasm and breaks glucose into pyruvate, producing a net two ATP and NADH. In aerobic respiration, pyruvate is further oxidised; the Krebs cycle and electron transport chain transfer energy to ATP, with oxygen as the final electron acceptor. In fermentation, pyruvate is converted to lactate in some animal cells or ethanol and carbon dioxide in yeast, regenerating NAD+ so glycolysis can continue. Fermentation yields much less ATP per glucose. ATP powers transport, movement, synthesis and maintenance.",
+          "rubric": [
+            "Glycolysis location, products and net ATP (2 marks)",
+            "Aerobic further oxidation and oxygen role (3 marks)",
+            "Lactic fermentation and NAD+ regeneration (2 marks)",
+            "Alcoholic fermentation products (1 mark)",
+            "ATP yield comparison and cellular importance (2 marks)"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "id": "biology-ix-chapter-8-biodiversity",
+  "title": "Biology IX — Chapter 8: Biodiversity",
+  "description": "Sindh DCAR Biology Curriculum 2024 aligned course on biodiversity, classification, taxonomic hierarchy, binomial nomenclature, domains of life and viruses.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 8: Biodiversity",
+      "description": "Understanding the variety of life and how scientists identify, name and classify organisms.",
+      "lessons": [
+        {
+          "title": "8.1 Biodiversity and Its Importance",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine biodiversity and explain its importance at genetic, species and ecosystem levels.\n\n## What is biodiversity?\nBiodiversity is the variety of life. It can be considered at several levels:\n- **Genetic diversity:** differences in genes and inherited characteristics among individuals and populations of the same species.\n- **Species diversity:** the variety of species in an area and their relative abundance.\n- **Ecosystem diversity:** the variety of habitats, communities and ecological processes.\n\nBiodiversity occurs in forests, grasslands, deserts, rivers, wetlands, oceans, farms and urban environments. Pakistan contains diverse habitats, from mountains and forests to deserts, rivers, coastal ecosystems and the Arabian Sea.\n\n## Why biodiversity matters\nBiodiversity supports food webs and ecosystem processes such as pollination, nutrient cycling, soil formation, water purification and climate regulation. It provides food, medicines, fibres, fuel and genetic resources. It also has cultural, educational, recreational and ethical value.\n\n## Threats\nMajor threats include habitat loss and fragmentation, pollution, overexploitation, invasive species and climate change. These pressures can reduce populations and cause extinction.\n\n## Conservation\nConservation strategies include protected areas, habitat restoration, sustainable resource use, control of invasive species, pollution reduction, seed banks and captive-breeding programmes where appropriate. Local communities and scientific monitoring are important for long-term success.\n\n## Check your understanding\nGive one example of genetic, species and ecosystem diversity and explain one threat to biodiversity in your area."
+        },
+        {
+          "title": "8.2 Classification and Taxonomy",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain why organisms are classified and distinguish identification, nomenclature and classification.\n\n## Why classify organisms?\nBiologists classify organisms to organise the enormous variety of life, make identification easier, communicate accurately and understand evolutionary relationships. Classification systems are updated when new evidence becomes available, including DNA and molecular data.\n\n## Taxonomy\nTaxonomy is the branch of biology concerned with identifying, naming and classifying organisms.\n- **Identification:** determining what an organism is.\n- **Nomenclature:** giving organisms scientific names according to agreed rules.\n- **Classification:** arranging organisms into groups based on shared characteristics and relationships.\n\n## Taxonomic hierarchy\nA common hierarchy from broad to specific is:\n**Domain → Kingdom → Phylum (Division in plants) → Class → Order → Family → Genus → Species**\n\nA species is commonly treated as a group of organisms that can interbreed naturally and produce fertile offspring, although this definition does not apply equally well to all organisms, especially asexual and fossil species.\n\n## Evidence used in classification\nScientists use observable structures, development, cell type, physiology, biochemistry and DNA sequence comparisons. Modern classification aims to reflect evolutionary history, so groups should represent common ancestry.\n\n## Historical systems\nEarly systems grouped organisms mainly by visible similarities. Modern systems use multiple lines of evidence. The three-domain system recognises Bacteria, Archaea and Eukarya, reflecting major differences in cell organisation and molecular evidence."
+        },
+        {
+          "title": "8.3 The Three Domains and Major Groups of Life",
+          "type": "text",
+          "content": "## Learning outcomes\nName the three domains and describe broad characteristics of organisms within them.\n\n## Domain Bacteria\nBacteria are prokaryotic organisms. They lack a membrane-bound nucleus and membrane-bound organelles. Many have cell walls containing peptidoglycan. Bacteria are extremely diverse: some are decomposers, some live in symbiosis, some cause disease and others are important in food production and nutrient cycling.\n\n## Domain Archaea\nArchaea are also prokaryotic, but their cell chemistry and molecular features differ from bacteria. Their cell walls do not contain bacterial peptidoglycan. Some archaea live in extreme environments, but many occur in ordinary soils, oceans and animal digestive systems.\n\n## Domain Eukarya\nEukaryotes have cells with a membrane-bound nucleus and organelles. This domain includes:\n- **Protists:** a diverse group of mostly simple eukaryotes, including many unicellular organisms and algae; the group is not a single natural evolutionary branch in modern classification.\n- **Fungi:** absorb nutrients from their surroundings; many have cell walls containing chitin. They include yeasts, moulds and mushrooms.\n- **Plants:** multicellular photosynthetic organisms with cellulose cell walls and chloroplasts in photosynthetic tissues.\n- **Animals:** multicellular organisms that obtain nutrients by ingestion and lack cell walls.\n\n## Why domains matter\nThe three-domain system groups organisms using deep evolutionary relationships and molecular evidence, especially comparisons of ribosomal RNA. It highlights that Archaea are distinct from Bacteria even though both are prokaryotic."
+        },
+        {
+          "title": "8.4 Binomial Nomenclature and Scientific Names",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the two-part scientific naming system and write a scientific name correctly.\n\n## Binomial nomenclature\nBinomial nomenclature gives each species a two-part Latinised scientific name: the genus name followed by the specific epithet. For example, the human scientific name is *Homo sapiens*.\n\n## Writing rules\n- The genus name begins with a capital letter.\n- The specific epithet begins with a lower-case letter.\n- Both words are italicised when typed: *Homo sapiens*.\n- When handwritten, each word is usually underlined separately.\n- After the first full use, the genus may be abbreviated if the meaning remains clear, for example *H. sapiens*.\n\n## Why use scientific names?\nCommon names vary between languages and regions, and one species may have several common names. Scientific names provide a standard method of communication among scientists worldwide.\n\n## Taxonomic groups and names\nThe genus groups closely related species. The specific epithet alone is not the full species name; the two words together identify the species. Scientific names follow international codes of nomenclature, with rules differing among groups of organisms.\n\n## Practice\nCorrect the format of these examples: homo Sapiens; *mangifera Indica*; *escherichia coli*. Correct forms: *Homo sapiens*, *Mangifera indica* and *Escherichia coli*."
+        },
+        {
+          "title": "8.5 Viruses and the Question of Classification",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe the basic structure of viruses and explain why they are not placed within the three domains of cellular life.\n\n## What are viruses?\nViruses are acellular infectious agents. A virus particle contains genetic material (DNA or RNA) enclosed in a protein coat called a capsid. Some viruses also have a lipid envelope derived from host-cell membranes and containing viral proteins.\n\nViruses do not have their own ribosomes or independent energy-generating metabolism. They reproduce only by using the machinery of a living host cell. Outside a host cell, a virus particle cannot carry out cellular reproduction.\n\n## Why viruses are not in the three-domain system\nThe three domains classify cellular organisms based on features of cells and evolutionary relationships. Viruses are not cells, so they are not assigned to Bacteria, Archaea or Eukarya. Scientists classify viruses separately using features such as genome type, replication strategy, capsid structure and evolutionary relationships.\n\n## Effects of viruses\nSome viruses cause diseases in humans, animals and plants. Others are used in research, vaccine development, gene delivery and biotechnology. Antibiotics act against bacteria, not viruses; antiviral medicines target particular stages of viral infection.\n\n## Compare viruses and cells\nCells have cellular organisation, ribosomes and metabolism. Viruses are acellular and depend on host cells for replication. Both contain genetic material, but their organisation and life processes differ greatly."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Biodiversity includes diversity at which levels?",
+          "options": {
+            "A": "Only species",
+            "B": "Genetic, species and ecosystem",
+            "C": "Only ecosystem",
+            "D": "Only individual size"
+          },
+          "correctOption": "B",
+          "explanation": "Biodiversity is considered at genetic, species and ecosystem levels."
+        },
+        {
+          "question": "Genetic diversity means:",
+          "options": {
+            "A": "Differences in inherited genetic variation within a species or population",
+            "B": "The number of ecosystems only",
+            "C": "The variety of planets",
+            "D": "Only the number of animal species"
+          },
+          "correctOption": "A",
+          "explanation": "Genetic diversity describes variation in genes and inherited traits."
+        },
+        {
+          "question": "Which is an ecosystem service supported by biodiversity?",
+          "options": {
+            "A": "Pollination",
+            "B": "Plastic production",
+            "C": "Metal smelting",
+            "D": "Road construction"
+          },
+          "correctOption": "A",
+          "explanation": "Many plants depend on animal pollinators, and pollination supports food production and ecosystem function."
+        },
+        {
+          "question": "Which is a major threat to biodiversity?",
+          "options": {
+            "A": "Habitat destruction",
+            "B": "Habitat restoration",
+            "C": "Sustainable fishing",
+            "D": "Protected areas"
+          },
+          "correctOption": "A",
+          "explanation": "Habitat loss and fragmentation are major drivers of biodiversity decline."
+        },
+        {
+          "question": "Taxonomy is concerned with:",
+          "options": {
+            "A": "Identifying, naming and classifying organisms",
+            "B": "Only measuring temperature",
+            "C": "Only studying rocks",
+            "D": "Only treating disease"
+          },
+          "correctOption": "A",
+          "explanation": "Taxonomy includes identification, nomenclature and classification."
+        },
+        {
+          "question": "Which sequence shows taxonomic ranks from broad to specific?",
+          "options": {
+            "A": "Species, genus, family, order",
+            "B": "Domain, kingdom, phylum, class, order, family, genus, species",
+            "C": "Genus, domain, species, kingdom",
+            "D": "Family, species, domain, order"
+          },
+          "correctOption": "B",
+          "explanation": "The hierarchy moves from broad domains to increasingly specific groups."
+        },
+        {
+          "question": "The three domains are:",
+          "options": {
+            "A": "Plants, animals and fungi",
+            "B": "Bacteria, Archaea and Eukarya",
+            "C": "Producers, consumers and decomposers",
+            "D": "Protists, viruses and bacteria"
+          },
+          "correctOption": "B",
+          "explanation": "The three-domain system recognises Bacteria, Archaea and Eukarya."
+        },
+        {
+          "question": "Bacteria are generally:",
+          "options": {
+            "A": "Prokaryotic",
+            "B": "Eukaryotic with nuclei",
+            "C": "Acellular viruses",
+            "D": "Multicellular animals"
+          },
+          "correctOption": "A",
+          "explanation": "Bacteria are prokaryotes and lack a membrane-bound nucleus."
+        },
+        {
+          "question": "Archaea differ from bacteria in part because:",
+          "options": {
+            "A": "Their cell walls do not contain bacterial peptidoglycan",
+            "B": "They all have chloroplasts",
+            "C": "They are all multicellular",
+            "D": "They have no genetic material"
+          },
+          "correctOption": "A",
+          "explanation": "Archaeal cell walls and molecular systems differ from those of bacteria."
+        },
+        {
+          "question": "Which domain includes plants, animals, fungi and protists?",
+          "options": {
+            "A": "Bacteria",
+            "B": "Archaea",
+            "C": "Eukarya",
+            "D": "Viruses"
+          },
+          "correctOption": "C",
+          "explanation": "All these groups are eukaryotic organisms."
+        },
+        {
+          "question": "Fungal cell walls commonly contain:",
+          "options": {
+            "A": "Chitin",
+            "B": "Peptidoglycan",
+            "C": "Cellulose only",
+            "D": "Silica"
+          },
+          "correctOption": "A",
+          "explanation": "Chitin is a major component of many fungal cell walls."
+        },
+        {
+          "question": "The correct format of the human scientific name is:",
+          "options": {
+            "A": "homo Sapiens",
+            "B": "Homo sapiens",
+            "C": "HOMO SAPIENS",
+            "D": "Homo Sapiens"
+          },
+          "correctOption": "B",
+          "explanation": "The genus begins with a capital letter and the specific epithet is lower-case; both are italicised."
+        },
+        {
+          "question": "In binomial nomenclature, a species name consists of:",
+          "options": {
+            "A": "Genus and specific epithet",
+            "B": "Family and order",
+            "C": "Domain and kingdom",
+            "D": "Two common names"
+          },
+          "correctOption": "A",
+          "explanation": "The binomial has two parts: genus name and specific epithet."
+        },
+        {
+          "question": "After first writing *Escherichia coli*, an acceptable shortened form is:",
+          "options": {
+            "A": "e. Coli",
+            "B": "E. coli",
+            "C": "Escherichia C.",
+            "D": "E COLI"
+          },
+          "correctOption": "B",
+          "explanation": "The genus may be abbreviated to a capital initial followed by a full stop, with the epithet lower-case."
+        },
+        {
+          "question": "Modern classification uses which important source of evidence?",
+          "options": {
+            "A": "DNA sequence comparisons",
+            "B": "Only body colour",
+            "C": "Only habitat",
+            "D": "Only common names"
+          },
+          "correctOption": "A",
+          "explanation": "Molecular evidence helps infer evolutionary relationships."
+        },
+        {
+          "question": "Viruses are not placed in the three-domain system mainly because they are:",
+          "options": {
+            "A": "Acellular and not cellular organisms",
+            "B": "Too small to see",
+            "C": "All harmless",
+            "D": "Made only of protein"
+          },
+          "correctOption": "A",
+          "explanation": "The three domains classify cellular life; viruses are acellular infectious agents."
+        },
+        {
+          "question": "A typical virus particle contains:",
+          "options": {
+            "A": "Genetic material and a protein capsid",
+            "B": "A nucleus and mitochondria",
+            "C": "Ribosomes and cytoplasm",
+            "D": "Cellulose cell wall and chloroplast"
+          },
+          "correctOption": "A",
+          "explanation": "A virus has a DNA or RNA genome enclosed in a protein capsid; some also have envelopes."
+        },
+        {
+          "question": "Viruses reproduce by:",
+          "options": {
+            "A": "Dividing independently like bacteria",
+            "B": "Using the machinery of host cells",
+            "C": "Photosynthesis",
+            "D": "Making their own ribosomes"
+          },
+          "correctOption": "B",
+          "explanation": "Viruses rely on host-cell machinery for replication."
+        },
+        {
+          "question": "Antibiotics are generally ineffective against viruses because:",
+          "options": {
+            "A": "Viruses are plants",
+            "B": "Antibiotics target bacterial structures or processes not found in viruses",
+            "C": "Viruses have thick cell walls",
+            "D": "Antibiotics only work in water"
+          },
+          "correctOption": "B",
+          "explanation": "Antibiotics target bacterial cell structures or metabolism; viruses lack these cellular targets."
+        },
+        {
+          "question": "Conservation of biodiversity can include:",
+          "options": {
+            "A": "Habitat restoration and protected areas",
+            "B": "Increasing pollution",
+            "C": "Unregulated overhunting",
+            "D": "Introducing invasive species"
+          },
+          "correctOption": "A",
+          "explanation": "Conservation uses habitat protection, restoration and sustainable management."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "question": "Define biodiversity and name its three main levels.",
+          "marks": 4,
+          "modelAnswer": "Biodiversity is the variety of life. Its levels include genetic diversity within populations, species diversity among species in an area and ecosystem diversity among habitats and ecological communities.",
+          "rubric": [
+            "Definition (1 mark)",
+            "Genetic diversity (1 mark)",
+            "Species diversity (1 mark)",
+            "Ecosystem diversity (1 mark)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Write the taxonomic hierarchy from domain to species.",
+          "marks": 4,
+          "modelAnswer": "Domain, Kingdom, Phylum (or Division in plants), Class, Order, Family, Genus, Species.",
+          "rubric": [
+            "Correct order from domain to species (4 marks)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "State four differences between viruses and cellular organisms.",
+          "marks": 5,
+          "modelAnswer": "Viruses are acellular, contain DNA or RNA in a capsid, lack ribosomes and independent metabolism, and replicate only inside host cells. Cellular organisms have cells, ribosomes and metabolism and can reproduce as cells, though many depend on resources from their environment.",
+          "rubric": [
+            "Any four accurate contrasts (4 marks)",
+            "Clear scientific terminology (1 mark)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Explain why organisms are classified and describe the three-domain system with the major features of Bacteria, Archaea and Eukarya.",
+          "marks": 10,
+          "modelAnswer": "Classification organises biodiversity, supports identification and communication, and helps represent evolutionary relationships. The three domains are Bacteria, Archaea and Eukarya. Bacteria are prokaryotes, usually with peptidoglycan cell walls. Archaea are prokaryotes but differ in cell chemistry and lack bacterial peptidoglycan. Eukarya have cells with a membrane-bound nucleus and organelles and include protists, fungi, plants and animals. Molecular evidence, especially ribosomal RNA comparisons, helped establish the three-domain framework.",
+          "rubric": [
+            "Reasons for classification (2 marks)",
+            "Bacteria features (2 marks)",
+            "Archaea features and distinction (2 marks)",
+            "Eukarya features and groups (2 marks)",
+            "Molecular/evolutionary evidence (2 marks)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Discuss the importance of biodiversity, major threats to it and practical conservation measures.",
+          "marks": 10,
+          "modelAnswer": "Biodiversity supports ecosystem processes such as pollination, nutrient cycling, soil formation and water purification. It provides food, medicines, fibres, genetic resources and cultural value. Threats include habitat loss and fragmentation, pollution, overexploitation, invasive species and climate change. Conservation measures include protected areas, habitat restoration, sustainable harvesting, pollution reduction, control of invasive species, seed banks and community participation. Effective conservation uses monitoring and long-term management.",
+          "rubric": [
+            "Ecological importance/services (3 marks)",
+            "Resources and social value (1 mark)",
+            "Major threats (3 marks)",
+            "Practical conservation measures (3 marks)"
+          ]
+        }
+      ]
+    }
+  ]
+}
