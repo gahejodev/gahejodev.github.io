@@ -1,9 +1,50 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "Not generated yet",
-  "description": "Run the Refresh official education source catalogue workflow to populate this index.",
-  "pages": [],
-  "resources": [],
+  "generatedAt": "Initial catalogue — awaiting first scheduled refresh",
+  "description": "Official Sindh education source entry points. Automated refresh will discover and index resource titles and links.",
+  "pages": [
+    {
+      "label": "Sindh Textbook Board eBooks",
+      "kind": "textbooks",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "page_title": "Free textbooks for ECCE/Katchi to Class XII in Sindhi, Urdu and English",
+      "status": "official source"
+    },
+    {
+      "label": "DCAR official downloads",
+      "kind": "curriculum",
+      "url": "https://www.dcar.gos.pk/Other_Download.html",
+      "page_title": "Schemes of studies, curriculum frameworks and learning outcomes",
+      "status": "official source"
+    },
+    {
+      "label": "DCAR Sindh",
+      "kind": "official",
+      "url": "https://dcar.gos.pk/",
+      "page_title": "Directorate of Curriculum, Assessment and Research Sindh",
+      "status": "official source"
+    }
+  ],
+  "resources": [
+    {
+      "title": "Sindh Textbook Board — Free eBooks (Classes IX–XII)",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "DCAR — Official downloads and schemes of studies",
+      "url": "https://www.dcar.gos.pk/Other_Download.html",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "DCAR — Sindh curriculum and assessment",
+      "url": "https://dcar.gos.pk/",
+      "source": "DCAR Sindh",
+      "kind": "official"
+    }
+  ],
   "errors": [],
-  "notice": "Links and titles only; no textbook files or copyrighted text are copied."
+  "notice": "This catalogue stores links and titles only. It does not copy or redistribute textbook files. Follow each source's terms and copyright/licence."
 }
