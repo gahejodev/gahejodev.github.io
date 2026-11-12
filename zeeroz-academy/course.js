@@ -24,8 +24,7 @@ function inlineFormat(parent,text){
 
 function renderMarkdown(container,source){
  container.replaceChildren();
- const lines=String(source||"").replace(/\r/g,"").split("
-");
+ const lines=String(source||"").replace(/\r/g,"").split("\n");
  let i=0;
  while(i<lines.length){
   const line=lines[i].trim();
