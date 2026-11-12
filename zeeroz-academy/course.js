@@ -20,6 +20,7 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
    const lessons=lessonSnap.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.order||0)-(b.order||0));
    if(!lessons.length)card.append(node("p","muted","Lessons will be added soon."));
    lessons.forEach((lesson,j)=>{const item=node("section","lesson");item.append(node("strong","",`Lesson ${lesson.order||j+1}: ${lesson.title||"Untitled lesson"}`));if(lesson.type==="text")item.append(node("p","lesson-content",lesson.content||""));else if(lesson.type==="video"){const a=node("a","","Open video lesson");a.href=lesson.content;a.target="_blank";a.rel="noopener noreferrer";item.append(node("p","","Video lesson: "),a)}else if(lesson.type==="pdf"){const a=node("a","","Open PDF / notes");a.href=lesson.content;a.target="_blank";a.rel="noopener noreferrer";item.append(node("p","","Study material: "),a)}else item.append(node("p","muted",lesson.content||""));card.append(item)});
+   const quizLink=node("a","btn","Start chapter quiz");quizLink.href="./quiz.html?courseId="+encodeURIComponent(id)+"&chapterId="+encodeURIComponent(chapter.id);quizLink.style.marginTop="12px";card.append(quizLink);
    host.append(card)
   }
  }catch(error){console.error(error);host.className="empty";host.textContent="Unable to load course content. Please check your connection or contact the Academy administrator."}

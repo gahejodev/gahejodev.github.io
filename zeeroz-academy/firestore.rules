@@ -55,6 +55,31 @@ service cloud.firestore {
       allow update, delete: if isAdmin();
     }
 
+    match /courses/{courseId}/chapters/{chapterId}/questions/{questionId} {
+      allow read: if isAdmin() || (parentCoursePublished(courseId)
+        && get(/databases/$(database)/documents/courses/$(courseId)/chapters/$(chapterId)).data.published == true
+        && resource.data.published == true);
+      allow create: if isAdmin()
+        && request.resource.data.keys().hasOnly(['question','options','correctOption','explanation','order','published','createdAt','updatedAt','createdBy'])
+        && request.resource.data.correctOption in ['A','B','C','D']
+        && request.resource.data.options.keys().hasOnly(['A','B','C','D']);
+      allow update, delete: if isAdmin();
+    }
+
+    match /students/{uid}/quizAttempts/{attemptId} {
+      allow read: if isOwner(uid) || isAdmin();
+      allow create: if isOwner(uid)
+        && request.resource.data.uid == uid
+        && request.resource.data.keys().hasOnly(['uid','courseId','chapterId','courseTitle','chapterTitle','totalQuestions','correctAnswers','score','percentage','answers','createdAt'])
+        && request.resource.data.totalQuestions is int
+        && request.resource.data.correctAnswers is int
+        && request.resource.data.score is int
+        && request.resource.data.percentage is number
+        && request.resource.data.answers is map;
+      allow update: if false;
+      allow delete: if isOwner(uid) || isAdmin();
+    }
+
     match /students/{uid}/progress/{progressId} {
       allow read, create, update: if isOwner(uid);
       allow delete: if isOwner(uid) || isAdmin();
