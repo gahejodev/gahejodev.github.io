@@ -16,4 +16,18 @@
 <label for="correctOption">Correct answer</label><select id="correctOption"><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option></select>
 <label for="questionExplanation">Explanation (optional)</label><textarea id="questionExplanation" maxlength="1200"></textarea>
 <button class="btn">Publish MCQ</button></form></section>
+<section class="card"><h2>4. Create a timed assessment</h2><form id="assessmentForm">
+<label for="assessmentTitle">Assessment title</label><input id="assessmentTitle" maxlength="160" required placeholder="e.g. Biology Chapter 1 Test">
+<label for="assessmentCourseTitle">Course / class</label><input id="assessmentCourseTitle" maxlength="120" required placeholder="e.g. Biology – Class IX">
+<label for="assessmentDuration">Time limit (minutes)</label><input id="assessmentDuration" type="number" min="1" max="240" value="30" required>
+<label for="assessmentInstructions">Instructions</label><textarea id="assessmentInstructions" maxlength="1500"></textarea>
+<button class="btn">Create assessment (draft)</button></form><p class="hint">After creating it, add questions below. Publish only when the paper is ready.</p></section>
+<section class="card"><h2>5. Add assessment questions</h2><form id="assessmentQuestionForm">
+<label for="assessmentSelect">Select assessment</label><select id="assessmentSelect" required><option value="">Loading assessments…</option></select>
+<label for="assessmentQuestionType">Question type</label><select id="assessmentQuestionType"><option value="mcq">MCQ (auto-check during teacher review)</option><option value="crq">CRQ (short written answer)</option><option value="erq">ERQ (extended written answer)</option></select>
+<label for="assessmentQuestionText">Question</label><textarea id="assessmentQuestionText" maxlength="2500" required></textarea>
+<label for="assessmentQuestionMarks">Marks</label><input id="assessmentQuestionMarks" type="number" min="1" max="100" value="1" required>
+<div id="assessmentMcqFields"><label for="assessmentOptionA">Option A</label><input id="assessmentOptionA" maxlength="300"><label for="assessmentOptionB">Option B</label><input id="assessmentOptionB" maxlength="300"><label for="assessmentOptionC">Option C</label><input id="assessmentOptionC" maxlength="300"><label for="assessmentOptionD">Option D</label><input id="assessmentOptionD" maxlength="300"><label for="assessmentCorrect">Correct option (private teacher key)</label><select id="assessmentCorrect"><option>A</option><option>B</option><option>C</option><option>D</option></select></div>
+<button class="btn">Add question</button></form></section>
+<section class="card"><h2>Assessment controls</h2><p class="hint">Publish or unpublish an assessment after reviewing its questions. Student submissions are reviewed here:</p><a class="btn" href="./exam-review.html">Open teacher review & reports</a><div id="assessmentAdminList" class="hint"></div></section>
 </div><p class="status" id="status" role="status" aria-live="polite"></p></main><script type="module" src="./firebase-init.js"></script><script type="module" src="./admin.js"></script></body></html>
