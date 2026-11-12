@@ -267,6 +267,10 @@ async function publishGitHubPackage(item) {
    const lessonRef=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"lessons"));
    batch.set(lessonRef,{title:lesson.title.trim(),type:lesson.type||"text",content:lesson.content.trim(),order:li+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
   });
+  (chapter.writtenQuestions||[]).forEach((q,qi)=>{
+   const writtenRef=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"writtenQuestions"));
+   batch.set(writtenRef,{type:q.type,question:q.question.trim(),marks:q.marks,modelAnswer:q.modelAnswer.trim(),rubric:q.rubric,order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+  });
   (chapter.questions||[]).forEach((q,qi)=>{
    const questionRef=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"questions"));
    batch.set(questionRef,{question:q.question.trim(),options:{A:q.options.A.trim(),B:q.options.B.trim(),C:q.options.C.trim(),D:q.options.D.trim()},correctOption:q.correctOption,explanation:(q.explanation||"").trim(),order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
