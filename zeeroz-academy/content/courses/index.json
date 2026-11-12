@@ -1,0 +1,5 @@
+{
+  "schemaVersion": 1,
+  "description": "Zeeroz Academy course package registry. New packages listed here are automatically imported into Firebase when an authorised administrator opens the Admin Console.",
+  "packages": []
+}
