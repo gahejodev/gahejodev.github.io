@@ -25,6 +25,18 @@
       "title": "Biology IX — Chapter 4: Cell",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-4-cell.json",
       "version": "1"
+    },
+    {
+      "id": "biology-ix-chapter-5-cell-cycle",
+      "title": "Biology IX — Chapter 5: Cell Cycle",
+      "path": "zeeroz-academy/content/courses/biology-ix-chapter-5-cell-cycle.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-ix-chapter-6-tissues-organs-systems",
+      "title": "Biology IX — Chapter 6: Tissues, Organs and Systems",
+      "path": "zeeroz-academy/content/courses/biology-ix-chapter-6-tissues-organs-systems.json",
+      "version": "1"
     }
   ]
 }

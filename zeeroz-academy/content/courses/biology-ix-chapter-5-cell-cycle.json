@@ -1,0 +1,326 @@
+{
+  "id": "biology-ix-chapter-5-cell-cycle",
+  "title": "Biology IX — Chapter 5: Cell Cycle",
+  "description": "Sindh DCAR Biology Curriculum 2024 aligned course on the cell cycle, chromosome behaviour, mitosis, meiosis and their biological significance.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 5: Cell Cycle",
+      "description": "How cells grow, copy their DNA and divide to support growth, repair and reproduction.",
+      "lessons": [
+        {
+          "title": "5.1 The Cell Cycle and Its Importance",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine the cell cycle and explain why cells divide.\n\n## What is the cell cycle?\nThe cell cycle is the ordered series of events through which a cell grows, copies its DNA and divides. In many eukaryotic body cells, it includes interphase followed by the mitotic (M) phase.\n\n## Why cells divide\n- Growth: increasing cell number allows a multicellular organism to grow.\n- Repair and replacement: damaged or worn-out cells can be replaced.\n- Asexual reproduction: many unicellular organisms reproduce by cell division.\n- Formation of reproductive cells: meiosis produces haploid cells in organisms with sexual reproduction.\n\n## Interphase\nInterphase is an active period, not a resting stage. It includes:\n- **G1 phase:** the cell grows, carries out normal functions and makes proteins and organelles.\n- **S phase:** DNA is replicated so each chromosome consists of two sister chromatids joined at a centromere region.\n- **G2 phase:** the cell continues to grow, checks copied DNA and prepares for division.\n\nSome cells may enter a non-dividing state called G0, temporarily or permanently, depending on the cell type and conditions.\n\n## M phase\nThe M phase includes nuclear division (mitosis in ordinary somatic cell division) and usually cytokinesis, when the cytoplasm divides to form daughter cells.\n\n## Cell-cycle control\nCheckpoints help ensure that DNA is sufficiently intact and replicated and that chromosomes are correctly attached before separation. Loss of normal cell-cycle control can contribute to uncontrolled cell division and cancer."
+        },
+        {
+          "title": "5.2 Chromosomes and DNA Replication",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe chromosome structure and explain why DNA must be replicated before cell division.\n\n## Chromosomes\nDNA molecules are extremely long, so eukaryotic cells package DNA with proteins called histones. This DNA-protein material is called chromatin. Before division, chromatin becomes more condensed and chromosomes are easier to see under a microscope.\n\nAfter DNA replication, each replicated chromosome contains two genetically similar sister chromatids joined at a centromere region. The chromatids are separated during cell division so each daughter cell receives a copy.\n\n## DNA replication\nDuring S phase, DNA is copied by a semi-conservative process. The two original strands separate and each acts as a template for a new complementary strand. The result is two DNA molecules, each containing one original strand and one newly synthesised strand.\n\nComplementary base pairing helps maintain accuracy: A pairs with T, and C pairs with G. Enzymes including DNA polymerase build new DNA strands; other enzymes help unwind and join DNA.\n\n## Why replication matters\nWithout DNA replication, daughter cells would not receive the full genetic information required for their functions. Cells also use repair systems and checkpoints to reduce the chance that errors are passed on.\n\n## Vocabulary\n- **Chromatin:** DNA associated with proteins.\n- **Chromosome:** an organised DNA-protein structure carrying genes.\n- **Sister chromatids:** the two copies of a replicated chromosome.\n- **Centromere:** the region that holds sister chromatids together and supports attachment to spindle fibres.\n- **Semi-conservative replication:** each new DNA molecule contains one old strand and one new strand."
+        },
+        {
+          "title": "5.3 Mitosis and Cytokinesis",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe the main stages of mitosis and explain how cytokinesis produces two daughter cells.\n\n## Mitosis\nMitosis is nuclear division that usually produces two daughter nuclei with the same chromosome number as the parent nucleus. The familiar stages are prophase, metaphase, anaphase and telophase.\n\n1. **Prophase:** chromatin condenses into visible chromosomes. Each replicated chromosome has two sister chromatids. The spindle begins to form and the nuclear envelope breaks down as mitosis progresses.\n2. **Metaphase:** chromosomes attach to spindle microtubules and line up near the cell equator.\n3. **Anaphase:** sister chromatids separate and move towards opposite poles. Once separated, each chromatid is considered a chromosome.\n4. **Telophase:** chromosomes reach the poles, begin to decondense and new nuclear envelopes form.\n\n## Cytokinesis\nCytokinesis divides the cytoplasm. In animal cells, a contractile ring creates a cleavage furrow that pinches the cell into two. In plant cells, vesicles gather at the centre and form a cell plate, which develops into new membranes and a cell wall between daughter cells.\n\n## Result\nThe usual outcome is two daughter cells genetically very similar to each other and to the parent cell, assuming DNA replication and chromosome separation occur normally. Mitosis is important in growth, repair and asexual reproduction.\n\n## Scientific note\nSome organisms and cell types have variations in division patterns. The stages above describe the standard textbook model of mitosis in a typical eukaryotic cell."
+        },
+        {
+          "title": "5.4 Meiosis: Reduction Division",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain why meiosis is called reduction division and outline meiosis I and meiosis II.\n\n## Purpose of meiosis\nMeiosis is a specialised type of cell division that reduces the chromosome number by half and helps produce haploid reproductive cells or spores, depending on the organism. In animals, meiosis produces gametes. Fertilisation restores the diploid chromosome number when two haploid gametes fuse.\n\n## Before meiosis\nDNA replicates once during interphase before meiosis begins. There are two nuclear divisions, meiosis I and meiosis II, but no second round of DNA replication between them.\n\n## Meiosis I\n- **Prophase I:** homologous chromosomes pair. Non-sister chromatids may exchange corresponding DNA segments in crossing over, creating new combinations of alleles.\n- **Metaphase I:** homologous pairs line up at the equator. Their orientation is random, contributing to independent assortment.\n- **Anaphase I:** homologous chromosomes separate; sister chromatids remain joined.\n- **Telophase I and cytokinesis:** two haploid cells form, each chromosome still consisting of two chromatids.\n\n## Meiosis II\nThe chromosomes line up individually, sister chromatids separate, and nuclei form. Cytokinesis usually produces four haploid cells, each genetically different from the others.\n\n## Sources of variation\nCrossing over and independent assortment create new combinations of genetic material. Random fertilisation adds further variation in sexually reproducing organisms.\n\n## Mitosis compared with meiosis\nMitosis generally produces two similar daughter cells and maintains chromosome number. Meiosis generally produces four genetically varied haploid cells and halves chromosome number."
+        },
+        {
+          "title": "5.5 Significance and Comparison of Mitosis and Meiosis",
+          "type": "text",
+          "content": "## Learning outcomes\nCompare mitosis and meiosis and relate each process to growth, repair and sexual reproduction.\n\n## Main differences\n| Feature | Mitosis | Meiosis |\n|---|---|---|\n| Nuclear divisions | One | Two |\n| DNA replication | Once before division | Once before meiosis I only |\n| Typical products | Two daughter cells | Usually four haploid products |\n| Chromosome number | Maintained | Halved |\n| Genetic similarity | Usually similar | Usually varied |\n| Main roles | Growth, repair, asexual reproduction | Formation of haploid reproductive cells/spores |\n\n## Biological significance of mitosis\nMitosis allows a fertilised egg to develop into a multicellular organism, replaces damaged cells and supports tissue renewal. It also enables asexual reproduction in many organisms.\n\n## Biological significance of meiosis\nMeiosis helps maintain a stable chromosome number across generations in sexual reproduction. It also generates genetic variation through crossing over and independent assortment. Variation contributes to differences among individuals in a population.\n\n## Errors in division\nIf chromosomes fail to separate correctly (non-disjunction), cells may receive abnormal chromosome numbers. Such errors can affect development and fertility. Checkpoints and spindle attachment controls help reduce these errors.\n\n## Review task\nMake a two-column comparison of mitosis and meiosis, then explain why meiosis is necessary in a sexually reproducing organism."
+        }
+      ],
+      "questions": [
+        {
+          "question": "The cell cycle includes:",
+          "options": {
+            "A": "Only mitosis",
+            "B": "Growth, DNA replication and cell division",
+            "C": "Only cytokinesis",
+            "D": "Only protein digestion"
+          },
+          "correctOption": "B",
+          "explanation": "The cell cycle includes interphase and the M phase."
+        },
+        {
+          "question": "DNA replication takes place during:",
+          "options": {
+            "A": "G1 phase",
+            "B": "S phase",
+            "C": "G2 phase",
+            "D": "Telophase"
+          },
+          "correctOption": "B",
+          "explanation": "The S phase is the DNA synthesis phase of interphase."
+        },
+        {
+          "question": "Interphase is best described as:",
+          "options": {
+            "A": "A period of inactivity",
+            "B": "A period of growth, DNA replication and preparation",
+            "C": "The same as cytokinesis",
+            "D": "A stage only in meiosis"
+          },
+          "correctOption": "B",
+          "explanation": "Interphase is metabolically active and includes G1, S and G2."
+        },
+        {
+          "question": "A replicated chromosome normally consists of:",
+          "options": {
+            "A": "Two sister chromatids",
+            "B": "Four nuclei",
+            "C": "Two unrelated chromosomes",
+            "D": "Only one DNA base"
+          },
+          "correctOption": "A",
+          "explanation": "After replication, two sister chromatids are joined at the centromere region."
+        },
+        {
+          "question": "DNA replication is called semi-conservative because:",
+          "options": {
+            "A": "Both strands are completely new",
+            "B": "Each new DNA molecule has one original and one new strand",
+            "C": "No original DNA is retained",
+            "D": "Only half the genes are copied"
+          },
+          "correctOption": "B",
+          "explanation": "Each daughter DNA double helix retains one parental strand."
+        },
+        {
+          "question": "The stage when chromosomes line up at the equator in mitosis is:",
+          "options": {
+            "A": "Prophase",
+            "B": "Metaphase",
+            "C": "Anaphase",
+            "D": "Telophase"
+          },
+          "correctOption": "B",
+          "explanation": "During metaphase chromosomes align at the metaphase plate."
+        },
+        {
+          "question": "Sister chromatids separate during mitosis in:",
+          "options": {
+            "A": "Prophase",
+            "B": "Metaphase",
+            "C": "Anaphase",
+            "D": "Telophase"
+          },
+          "correctOption": "C",
+          "explanation": "Anaphase separates sister chromatids towards opposite poles."
+        },
+        {
+          "question": "Cytokinesis in a typical animal cell occurs by:",
+          "options": {
+            "A": "Formation of a cell plate",
+            "B": "A cleavage furrow",
+            "C": "Formation of chloroplasts",
+            "D": "DNA replication"
+          },
+          "correctOption": "B",
+          "explanation": "A contractile ring forms a cleavage furrow in animal cells."
+        },
+        {
+          "question": "In plant cells, cytokinesis usually involves formation of a:",
+          "options": {
+            "A": "Cleavage furrow",
+            "B": "Cell plate",
+            "C": "Centromere",
+            "D": "Nucleoid"
+          },
+          "correctOption": "B",
+          "explanation": "Vesicles form a cell plate that develops into the new partition."
+        },
+        {
+          "question": "Mitosis generally produces:",
+          "options": {
+            "A": "Four haploid cells",
+            "B": "Two daughter cells with the same chromosome number",
+            "C": "Four genetically unrelated cells",
+            "D": "One gamete"
+          },
+          "correctOption": "B",
+          "explanation": "Mitosis maintains chromosome number and usually produces two similar daughter cells."
+        },
+        {
+          "question": "Meiosis is called reduction division because it:",
+          "options": {
+            "A": "Doubles chromosome number",
+            "B": "Halves chromosome number",
+            "C": "Stops DNA replication",
+            "D": "Produces only diploid cells"
+          },
+          "correctOption": "B",
+          "explanation": "Meiosis reduces chromosome number from diploid to haploid."
+        },
+        {
+          "question": "Homologous chromosomes pair during:",
+          "options": {
+            "A": "Prophase I",
+            "B": "Metaphase II",
+            "C": "Anaphase II",
+            "D": "Cytokinesis"
+          },
+          "correctOption": "A",
+          "explanation": "Homologous chromosomes pair during prophase I."
+        },
+        {
+          "question": "Crossing over occurs between:",
+          "options": {
+            "A": "Sister chromatids only",
+            "B": "Non-sister chromatids of homologous chromosomes",
+            "C": "Two unrelated cells",
+            "D": "Centrioles"
+          },
+          "correctOption": "B",
+          "explanation": "Crossing over exchanges DNA segments between non-sister chromatids of homologous chromosomes."
+        },
+        {
+          "question": "Homologous chromosomes separate in:",
+          "options": {
+            "A": "Anaphase I",
+            "B": "Anaphase II",
+            "C": "Prophase II",
+            "D": "Metaphase of mitosis"
+          },
+          "correctOption": "A",
+          "explanation": "Meiosis I separates homologous chromosomes."
+        },
+        {
+          "question": "Sister chromatids separate in meiosis during:",
+          "options": {
+            "A": "Anaphase I only",
+            "B": "Anaphase II",
+            "C": "Prophase I",
+            "D": "Metaphase I"
+          },
+          "correctOption": "B",
+          "explanation": "Meiosis II separates sister chromatids."
+        },
+        {
+          "question": "The number of DNA replications before meiosis is normally:",
+          "options": {
+            "A": "Zero",
+            "B": "One",
+            "C": "Two",
+            "D": "Four"
+          },
+          "correctOption": "B",
+          "explanation": "DNA replicates once before meiosis I; there is no replication before meiosis II."
+        },
+        {
+          "question": "Independent assortment results from:",
+          "options": {
+            "A": "Random orientation of homologous pairs at metaphase I",
+            "B": "The cell wall breaking",
+            "C": "Protein denaturation",
+            "D": "Cytokinesis only"
+          },
+          "correctOption": "A",
+          "explanation": "Random orientation of homologous chromosome pairs creates different combinations."
+        },
+        {
+          "question": "Meiosis contributes to genetic variation through:",
+          "options": {
+            "A": "Crossing over and independent assortment",
+            "B": "Only cell growth",
+            "C": "Only DNA repair",
+            "D": "Only cytokinesis"
+          },
+          "correctOption": "A",
+          "explanation": "Crossing over and independent assortment create new allele combinations."
+        },
+        {
+          "question": "If a diploid cell has 12 chromosomes, its haploid cells normally have:",
+          "options": {
+            "A": "24",
+            "B": "12",
+            "C": "6",
+            "D": "3"
+          },
+          "correctOption": "C",
+          "explanation": "Haploid cells have half the diploid chromosome number."
+        },
+        {
+          "question": "A failure of chromosomes to separate correctly is called:",
+          "options": {
+            "A": "Transcription",
+            "B": "Non-disjunction",
+            "C": "Translation",
+            "D": "Osmosis"
+          },
+          "correctOption": "B",
+          "explanation": "Non-disjunction can produce cells with abnormal chromosome numbers."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "question": "Name the three stages of interphase and state what occurs in each.",
+          "marks": 5,
+          "modelAnswer": "G1: cell growth and normal activity. S: DNA replication. G2: further growth, DNA checking and preparation for division.",
+          "rubric": [
+            "G1 with function (2 marks)",
+            "S with DNA replication (1 mark)",
+            "G2 with preparation/checking (2 marks)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Differentiate between mitosis and meiosis in terms of divisions, products and chromosome number.",
+          "marks": 5,
+          "modelAnswer": "Mitosis has one nuclear division and usually produces two genetically similar daughter cells with the same chromosome number as the parent. Meiosis has two nuclear divisions and usually produces four genetically varied haploid cells with half the chromosome number.",
+          "rubric": [
+            "One versus two divisions (1 mark)",
+            "Two versus usually four products (1 mark)",
+            "Same versus halved chromosome number (2 marks)",
+            "Genetic similarity/variation (1 mark)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "What is crossing over and how does it contribute to genetic variation?",
+          "marks": 4,
+          "modelAnswer": "Crossing over is the exchange of corresponding DNA segments between non-sister chromatids of homologous chromosomes during prophase I of meiosis. It creates new combinations of alleles in the resulting cells.",
+          "rubric": [
+            "Occurs in prophase I (1 mark)",
+            "Between non-sister chromatids of homologues (1 mark)",
+            "Exchange of DNA segments (1 mark)",
+            "New allele combinations/variation (1 mark)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Describe the stages of mitosis and cytokinesis and explain their importance in growth and repair.",
+          "marks": 10,
+          "modelAnswer": "Before mitosis, DNA is replicated during S phase. In prophase chromosomes condense and the spindle forms; the nuclear envelope breaks down. In metaphase chromosomes align at the equator and attach to spindle fibres. In anaphase sister chromatids separate to opposite poles. In telophase new nuclear envelopes form and chromosomes decondense. Cytokinesis divides the cytoplasm: a cleavage furrow forms in animal cells, while a cell plate forms in plant cells. Mitosis produces two similar daughter cells and supports growth, tissue repair and cell replacement.",
+          "rubric": [
+            "Prophase (2 marks)",
+            "Metaphase (2 marks)",
+            "Anaphase (1 mark)",
+            "Telophase (1 mark)",
+            "Cytokinesis in animal and plant cells (2 marks)",
+            "Importance/result (2 marks)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Explain meiosis I and meiosis II and discuss how meiosis maintains chromosome number and produces genetic variation.",
+          "marks": 10,
+          "modelAnswer": "DNA replicates once before meiosis. In prophase I homologous chromosomes pair and crossing over may occur. At metaphase I pairs align randomly; homologues separate in anaphase I, reducing chromosome number. After cytokinesis, meiosis II separates sister chromatids, producing usually four haploid cells. Fertilisation later restores diploid number. Crossing over and independent assortment generate genetic variation.",
+          "rubric": [
+            "DNA replication once before meiosis (1 mark)",
+            "Pairing and crossing over in prophase I (2 marks)",
+            "Metaphase I alignment and anaphase I separation (2 marks)",
+            "Meiosis II and chromatid separation (2 marks)",
+            "Haploid products and chromosome maintenance after fertilisation (1 mark)",
+            "Variation from crossing over and independent assortment (2 marks)"
+          ]
+        }
+      ]
+    }
+  ]
+}

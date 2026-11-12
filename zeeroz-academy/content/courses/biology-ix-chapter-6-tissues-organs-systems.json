@@ -1,0 +1,324 @@
+{
+  "id": "biology-ix-chapter-6-tissues-organs-systems",
+  "title": "Biology IX — Chapter 6: Tissues, Organs and Systems",
+  "description": "Sindh DCAR Biology Curriculum 2024 aligned course on levels of organisation, plant and animal tissues, organs, organ systems and homeostasis.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 6: Tissues, Organs and Systems",
+      "description": "How specialised cells cooperate to form tissues, organs and systems and maintain stable internal conditions.",
+      "lessons": [
+        {
+          "title": "6.1 Levels of Organisation in Living Organisms",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe the levels of organisation in multicellular organisms and explain how they are related.\n\n## From cells to organisms\nMulticellular organisms have several levels of organisation:\n1. **Cell:** the basic structural and functional unit of life.\n2. **Tissue:** a group of similar or coordinated cells performing a particular function.\n3. **Organ:** a structure made of different tissues working together.\n4. **Organ system:** a group of organs cooperating to perform major functions.\n5. **Organism:** an individual living thing made of interacting organ systems.\n\nFor example, muscle cells form muscle tissue. Muscle tissue, connective tissue, nervous tissue and epithelial tissue work together in the heart, an organ. The heart works with blood vessels and blood as part of the circulatory system.\n\n## Division of labour\nSpecialisation allows different cells and organs to perform tasks efficiently. However, specialised parts depend on one another. The digestive system supplies nutrients, the respiratory system supplies oxygen, and the circulatory system transports materials to cells.\n\n## Plant organisation\nIn plants, tissues such as dermal, ground and vascular tissues work together in organs including roots, stems and leaves. These organs cooperate to absorb water, transport materials, support the plant and carry out photosynthesis and reproduction.\n\n## Key idea\nOrganisation is not simply a list of parts. It is the coordinated interaction of parts at different levels."
+        },
+        {
+          "title": "6.2 Animal Tissues",
+          "type": "text",
+          "content": "## Learning outcomes\nIdentify the four major types of animal tissue and describe their functions and examples.\n\n## Epithelial tissue\nEpithelial tissue covers body surfaces, lines cavities and forms glands. Cells are closely packed and rest on a basement membrane. Functions include protection, absorption, secretion and exchange. Examples include the epidermis of skin and the lining of the intestine.\n\n## Connective tissue\nConnective tissue supports, binds and protects other tissues. Cells are often separated by an extracellular matrix. Examples include:\n- **Bone:** hard matrix supports the body and protects organs.\n- **Cartilage:** flexible support at joints and in structures such as the nose.\n- **Blood:** fluid connective tissue that transports gases, nutrients, wastes and immune cells.\n- **Adipose tissue:** stores fat, cushions organs and provides insulation.\n- **Tendons and ligaments:** dense connective tissues; tendons attach muscle to bone, while ligaments connect bone to bone.\n\n## Muscle tissue\nMuscle tissue contracts to produce movement. Skeletal muscle is usually under voluntary control and moves bones. Smooth muscle is found in walls of organs such as the intestine and blood vessels. Cardiac muscle forms the heart wall and contracts rhythmically.\n\n## Nervous tissue\nNervous tissue contains neurons and supporting cells. Neurons receive and transmit electrical signals; supporting cells protect, nourish and insulate neurons. Nervous tissue helps coordinate responses to changes inside and outside the body.\n\n## Review\nMatch each tissue type with a function: lining/protection, support/transport, contraction or communication."
+        },
+        {
+          "title": "6.3 Plant Tissues",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe major plant tissue systems and explain how they support plant functions.\n\n## Meristematic tissue\nMeristems contain actively dividing cells responsible for plant growth. Apical meristems at root and shoot tips increase length. Lateral meristems, such as cambium in many plants, increase thickness.\n\n## Dermal tissue\nThe epidermis forms the outer protective covering of young plant parts. A waxy cuticle on many aerial surfaces reduces water loss. Root hairs are extensions of epidermal cells that increase the surface area for absorption. Guard cells regulate stomatal openings.\n\n## Ground tissue\nGround tissue includes parenchyma, collenchyma and sclerenchyma. Parenchyma cells often carry out storage and photosynthesis. Collenchyma provides flexible support in growing parts. Sclerenchyma has thick, strengthened walls and provides rigid support; many mature sclerenchyma cells are dead.\n\n## Vascular tissue\n- **Xylem:** transports water and mineral ions mainly from roots towards the rest of the plant; vessel elements and tracheids are usually dead at maturity and have strengthened walls.\n- **Phloem:** transports sugars and other organic substances between sources and sinks. Its conducting sieve-tube elements are living but lack a nucleus at maturity and are supported by companion cells.\n\n## Tissue cooperation\nIn a leaf, dermal tissue protects the surface, ground tissue carries out photosynthesis and vascular bundles deliver water and transport sugars away. These tissues cooperate to support the whole plant."
+        },
+        {
+          "title": "6.4 Organs and Organ Systems",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain how different tissues combine to form organs and how organs cooperate in systems.\n\n## Animal organs\nThe stomach is an organ containing epithelial tissue for secretion and protection, smooth muscle to churn food, connective tissue for support and blood vessels, and nervous tissue to coordinate activity. The heart contains cardiac muscle, connective tissue, epithelial lining and nervous tissue.\n\n## Animal organ systems\n- **Digestive system:** breaks food into absorbable molecules and absorbs nutrients.\n- **Respiratory system:** exchanges oxygen and carbon dioxide.\n- **Circulatory system:** transports gases, nutrients, hormones and wastes.\n- **Excretory/urinary system:** removes metabolic wastes and helps regulate water and ion balance.\n- **Nervous and endocrine systems:** coordinate body activities using electrical signals and hormones.\n- **Musculoskeletal system:** supports the body and enables movement.\n\n## Plant organs\nRoots anchor plants and absorb water and minerals. Stems support leaves and transport substances. Leaves are major sites of photosynthesis and gas exchange. Flowers or cones are involved in reproduction in seed plants.\n\n## Systems in plants\nThe root and shoot systems work together. Roots absorb water and minerals; stems transport them; leaves manufacture sugars by photosynthesis. Phloem moves organic materials to growing or storage tissues.\n\n## Interdependence\nNo organ system works entirely alone. During exercise, muscles require more oxygen and glucose, so breathing and heart rate increase and blood flow is adjusted."
+        },
+        {
+          "title": "6.5 Homeostasis",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine homeostasis and explain how negative feedback helps maintain a relatively stable internal environment.\n\n## What is homeostasis?\nHomeostasis is the regulation of internal conditions within suitable limits despite changes in the external environment. Cells need conditions such as temperature, water balance, pH and glucose concentration to remain within ranges that allow enzymes and other processes to function.\n\n## Negative feedback\nA typical negative-feedback system includes:\n1. **Receptor:** detects a change from the normal range.\n2. **Control centre:** compares information with a set point or acceptable range and coordinates a response.\n3. **Effector:** carries out a response that opposes the original change.\n\nNegative feedback reduces the initial disturbance. It does not mean the condition never changes; it keeps it within a regulated range.\n\n## Example: body temperature\nIf body temperature rises, thermoreceptors signal the control centre in the brain. Sweat production increases and skin blood vessels widen, helping heat loss. If temperature falls, sweating decreases and muscles may shiver to generate heat; skin blood vessels narrow to reduce heat loss.\n\n## Example: blood glucose\nAfter a meal, blood glucose rises. The pancreas releases insulin, which helps body cells take up glucose and promotes storage of glucose as glycogen in liver and muscle. When blood glucose falls, glucagon helps raise it by stimulating the release of glucose from liver stores. This is a simplified account; several hormones and organs contribute to glucose regulation.\n\n## Why homeostasis matters\nStable internal conditions support enzyme activity, cell function and survival. Failure of regulation can cause illness, such as dangerously high or low blood glucose or overheating.\n\n## Check your understanding\nIdentify the receptor, control centre and effector in a temperature-control response."
+        }
+      ],
+      "questions": [
+        {
+          "question": "The correct order of organisation from simplest to more complex is:",
+          "options": {
+            "A": "Organ, cell, tissue, organism",
+            "B": "Cell, tissue, organ, organ system, organism",
+            "C": "Tissue, cell, organ system, organ",
+            "D": "Organism, organ system, organ, cell"
+          },
+          "correctOption": "B",
+          "explanation": "Cells form tissues, tissues form organs, organs form systems and systems make an organism."
+        },
+        {
+          "question": "A tissue is:",
+          "options": {
+            "A": "A group of cells working together for a function",
+            "B": "A group of unrelated organisms",
+            "C": "A single organ system",
+            "D": "A chemical molecule"
+          },
+          "correctOption": "A",
+          "explanation": "Tissues consist of cells organised to perform particular functions."
+        },
+        {
+          "question": "Which is one of the four major animal tissue types?",
+          "options": {
+            "A": "Epithelial",
+            "B": "Xylem",
+            "C": "Phloem",
+            "D": "Meristematic"
+          },
+          "correctOption": "A",
+          "explanation": "The four major animal tissue types are epithelial, connective, muscle and nervous."
+        },
+        {
+          "question": "Blood is classified as:",
+          "options": {
+            "A": "Epithelial tissue",
+            "B": "Connective tissue",
+            "C": "Muscle tissue",
+            "D": "Nervous tissue"
+          },
+          "correctOption": "B",
+          "explanation": "Blood is a fluid connective tissue with cells suspended in plasma."
+        },
+        {
+          "question": "Tendons connect:",
+          "options": {
+            "A": "Bone to bone",
+            "B": "Muscle to bone",
+            "C": "Nerve to skin",
+            "D": "Two glands"
+          },
+          "correctOption": "B",
+          "explanation": "Tendons attach muscles to bones."
+        },
+        {
+          "question": "Ligaments generally connect:",
+          "options": {
+            "A": "Bone to bone",
+            "B": "Muscle to bone",
+            "C": "Blood to bone",
+            "D": "Neuron to neuron"
+          },
+          "correctOption": "A",
+          "explanation": "Ligaments connect bones, especially around joints."
+        },
+        {
+          "question": "Which animal tissue contracts to produce movement?",
+          "options": {
+            "A": "Muscle tissue",
+            "B": "Epithelial tissue",
+            "C": "Nervous tissue",
+            "D": "Adipose tissue"
+          },
+          "correctOption": "A",
+          "explanation": "Muscle tissue contains contractile proteins."
+        },
+        {
+          "question": "Nervous tissue is specialised for:",
+          "options": {
+            "A": "Receiving and transmitting signals",
+            "B": "Storing starch",
+            "C": "Water absorption in roots",
+            "D": "Making cellulose cell walls"
+          },
+          "correctOption": "A",
+          "explanation": "Neurons transmit electrical signals and supporting cells maintain nervous tissue."
+        },
+        {
+          "question": "Plant growth in length mainly occurs through:",
+          "options": {
+            "A": "Apical meristems",
+            "B": "Sclerenchyma",
+            "C": "Mature xylem",
+            "D": "Cuticle"
+          },
+          "correctOption": "A",
+          "explanation": "Apical meristems at root and shoot tips drive primary growth."
+        },
+        {
+          "question": "The main function of xylem is to transport:",
+          "options": {
+            "A": "Water and mineral ions",
+            "B": "Only hormones",
+            "C": "Oxygen in red blood cells",
+            "D": "Starch from animals"
+          },
+          "correctOption": "A",
+          "explanation": "Xylem transports water and mineral ions, mainly from roots upwards."
+        },
+        {
+          "question": "Phloem mainly transports:",
+          "options": {
+            "A": "Sugars and other organic substances",
+            "B": "Only water from roots",
+            "C": "Carbon dioxide into mitochondria",
+            "D": "Bone minerals"
+          },
+          "correctOption": "A",
+          "explanation": "Phloem moves assimilates such as sucrose between sources and sinks."
+        },
+        {
+          "question": "Which plant tissue provides flexible support in growing regions?",
+          "options": {
+            "A": "Collenchyma",
+            "B": "Xylem vessel",
+            "C": "Sieve tube",
+            "D": "Epidermal cuticle"
+          },
+          "correctOption": "A",
+          "explanation": "Collenchyma cells support growing plant parts while allowing flexibility."
+        },
+        {
+          "question": "The waxy cuticle on many leaves helps:",
+          "options": {
+            "A": "Reduce water loss",
+            "B": "Absorb minerals from soil",
+            "C": "Make blood cells",
+            "D": "Transport sugars through phloem"
+          },
+          "correctOption": "A",
+          "explanation": "The cuticle limits evaporation from aerial plant surfaces."
+        },
+        {
+          "question": "The stomach is an organ because it:",
+          "options": {
+            "A": "Contains different tissues working together",
+            "B": "Contains only one cell",
+            "C": "Is made only of bone",
+            "D": "Is an organ system itself"
+          },
+          "correctOption": "A",
+          "explanation": "An organ consists of multiple tissue types that cooperate in a function."
+        },
+        {
+          "question": "The respiratory system is mainly responsible for:",
+          "options": {
+            "A": "Gas exchange",
+            "B": "Filtering blood to make urine",
+            "C": "Producing gametes only",
+            "D": "Breaking bones"
+          },
+          "correctOption": "A",
+          "explanation": "The respiratory system exchanges oxygen and carbon dioxide with the environment."
+        },
+        {
+          "question": "Homeostasis means:",
+          "options": {
+            "A": "Keeping internal conditions within suitable limits",
+            "B": "Keeping all body conditions completely unchanged",
+            "C": "Stopping metabolism",
+            "D": "Avoiding all external stimuli"
+          },
+          "correctOption": "A",
+          "explanation": "Homeostasis regulates internal variables within ranges compatible with life."
+        },
+        {
+          "question": "A typical negative feedback pathway includes:",
+          "options": {
+            "A": "Receptor, control centre and effector",
+            "B": "Only a muscle",
+            "C": "Only a hormone",
+            "D": "Only a nucleus"
+          },
+          "correctOption": "A",
+          "explanation": "A receptor detects change, a control centre coordinates response and an effector acts."
+        },
+        {
+          "question": "When body temperature rises, sweating helps:",
+          "options": {
+            "A": "Increase heat loss",
+            "B": "Stop all evaporation",
+            "C": "Increase heat production",
+            "D": "Raise blood glucose"
+          },
+          "correctOption": "A",
+          "explanation": "Evaporation of sweat removes heat from the body."
+        },
+        {
+          "question": "After a meal, insulin generally helps to:",
+          "options": {
+            "A": "Lower blood glucose",
+            "B": "Raise blood glucose sharply",
+            "C": "Stop all cell respiration",
+            "D": "Break down DNA"
+          },
+          "correctOption": "A",
+          "explanation": "Insulin promotes glucose uptake and storage, lowering blood glucose."
+        },
+        {
+          "question": "When blood glucose falls, glucagon helps to:",
+          "options": {
+            "A": "Raise blood glucose",
+            "B": "Stop liver function",
+            "C": "Convert glucose into cellulose",
+            "D": "Lower body temperature"
+          },
+          "correctOption": "A",
+          "explanation": "Glucagon stimulates the liver to release glucose, helping raise blood glucose."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "question": "Define tissue, organ and organ system, and give one example of each.",
+          "marks": 5,
+          "modelAnswer": "A tissue is a group of cells working together for a function, such as muscle tissue. An organ contains different tissues working together, such as the heart. An organ system is a group of organs cooperating, such as the circulatory system.",
+          "rubric": [
+            "Tissue definition and example (1 mark)",
+            "Organ definition and example (2 marks)",
+            "Organ system definition and example (2 marks)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Name the four major animal tissue types and state one function of each.",
+          "marks": 5,
+          "modelAnswer": "Epithelial tissue covers and lines surfaces; connective tissue supports, binds and transports; muscle tissue contracts to produce movement; nervous tissue receives and transmits signals.",
+          "rubric": [
+            "Four tissue types named (2 marks)",
+            "Accurate function for each (3 marks)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Differentiate between xylem and phloem.",
+          "marks": 5,
+          "modelAnswer": "Xylem transports water and mineral ions mainly from roots to shoots; its conducting elements are usually dead at maturity and have strengthened walls. Phloem transports sugars and other organic substances from sources to sinks; sieve-tube elements are living and work with companion cells.",
+          "rubric": [
+            "Xylem transport role (1 mark)",
+            "Xylem conducting structure (1 mark)",
+            "Phloem transport role (1 mark)",
+            "Phloem conducting structure (1 mark)",
+            "Clear comparison (1 mark)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Explain the levels of organisation in a multicellular animal, using the heart and circulatory system as an example.",
+          "marks": 10,
+          "modelAnswer": "Cells such as cardiac muscle cells form cardiac muscle tissue. The heart contains cardiac muscle, connective tissue, epithelial tissue and nervous tissue, which work together as an organ. The heart works with blood and blood vessels to form the circulatory system. This system transports oxygen, nutrients, hormones and wastes around the body. The levels are cell, tissue, organ, organ system and organism, and each level depends on the others.",
+          "rubric": [
+            "Correct levels in order (2 marks)",
+            "Cell and tissue example (2 marks)",
+            "Heart as organ with multiple tissues (2 marks)",
+            "Circulatory system components and role (2 marks)",
+            "Interdependence/explanation (2 marks)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Define homeostasis and explain how negative feedback regulates body temperature and blood glucose.",
+          "marks": 10,
+          "modelAnswer": "Homeostasis maintains internal conditions within suitable limits. Negative feedback uses receptors to detect change, a control centre to coordinate a response and effectors to oppose the change. When body temperature rises, the brain coordinates sweating and widening of skin blood vessels to increase heat loss; when temperature falls, shivering and narrowing of skin vessels help conserve or produce heat. After a meal, raised blood glucose stimulates insulin release, promoting glucose uptake and storage. When blood glucose falls, glucagon stimulates glucose release from the liver. These responses return variables towards a regulated range.",
+          "rubric": [
+            "Definition of homeostasis (1 mark)",
+            "Negative feedback components (2 marks)",
+            "Temperature rise response (2 marks)",
+            "Temperature fall response (1 mark)",
+            "Insulin response to high glucose (2 marks)",
+            "Glucagon response to low glucose (2 marks)"
+          ]
+        }
+      ]
+    }
+  ]
+}
