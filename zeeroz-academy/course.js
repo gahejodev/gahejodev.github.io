@@ -24,7 +24,8 @@ function inlineFormat(parent,text){
 
 function renderMarkdown(container,source){
  container.replaceChildren();
- const lines=String(source||"").replace(/\r/g,"").split("\n");
+ const lines=String(source||"").replace(/\r/g,"").split("
+");
  let i=0;
  while(i<lines.length){
   const line=lines[i].trim();
@@ -94,7 +95,10 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
     }else{const body=node("div","lesson-content");renderMarkdown(body,lesson.content||"");item.append(body);}
     card.append(item);
    });
-   const writtenSnap=await getDocs(query(collection(db(),"courses",id,"chapters",chapter.id,"writtenQuestions"),where("published","==",true)));\n   const written=writtenSnap.docs.map(d=>d.data()).sort((a,b)=>(a.order||0)-(b.order||0));\n   if(written.length){const practice=node("section","written-practice");practice.append(node("h3","chapter-title","Written practice — CRQs and ERQs"));written.forEach((q,qi)=>{const block=node("article","written-question");block.append(node("h4","lesson-title",(q.type||"").toUpperCase()+" "+(qi+1)+" · "+(q.marks||0)+" marks"));block.append(node("p","lesson-paragraph",q.question));const details=node("details","answer-details");details.append(node("summary","","View model answer and marking guide"));const answer=node("div","lesson-content");renderMarkdown(answer,q.modelAnswer||"");details.append(answer);if(Array.isArray(q.rubric)&&q.rubric.length){const rubric=node("ul","lesson-list");q.rubric.forEach(item=>rubric.append(node("li","",item)));details.append(node("h4","lesson-title","Marking guide"),rubric)}block.append(details);practice.append(block)});card.append(practice)}\n   const quizLink=node("a","quiz-button","Practice this chapter");quizLink.href="./quiz.html?courseId="+encodeURIComponent(id)+"&chapterId="+encodeURIComponent(chapter.id);card.append(quizLink);
+   const writtenSnap=await getDocs(query(collection(db(),"courses",id,"chapters",chapter.id,"writtenQuestions"),where("published","==",true)));
+   const written=writtenSnap.docs.map(d=>d.data()).sort((a,b)=>(a.order||0)-(b.order||0));
+   if(written.length){const practice=node("section","written-practice");practice.append(node("h3","chapter-title","Written practice — CRQs and ERQs"));written.forEach((q,qi)=>{const block=node("article","written-question");block.append(node("h4","lesson-title",(q.type||"").toUpperCase()+" "+(qi+1)+" · "+(q.marks||0)+" marks"));block.append(node("p","lesson-paragraph",q.question));const details=node("details","answer-details");details.append(node("summary","","View model answer and marking guide"));const answer=node("div","lesson-content");renderMarkdown(answer,q.modelAnswer||"");details.append(answer);if(Array.isArray(q.rubric)&&q.rubric.length){const rubric=node("ul","lesson-list");q.rubric.forEach(item=>rubric.append(node("li","",item)));details.append(node("h4","lesson-title","Marking guide"),rubric)}block.append(details);practice.append(block)});card.append(practice)}
+   const quizLink=node("a","quiz-button","Practice this chapter");quizLink.href="./quiz.html?courseId="+encodeURIComponent(id)+"&chapterId="+encodeURIComponent(chapter.id);card.append(quizLink);
    host.append(card);
   });
  }catch(error){console.error(error);host.className="empty";host.textContent="Unable to load course content. Please check your connection or contact the Academy administrator.";}

@@ -245,7 +245,8 @@ async function publishGitHubPackage(item) {
   for(const oldChapter of oldChapters.docs){
    const [oldLessons,oldQuestions,oldWritten]=await Promise.all([
     getDocs(collection(db(),"courses",courseId,"chapters",oldChapter.id,"lessons")),
-    getDocs(collection(db(),"courses",courseId,"chapters",oldChapter.id,"questions"))
+    getDocs(collection(db(),"courses",courseId,"chapters",oldChapter.id,"questions")),
+    getDocs(collection(db(),"courses",courseId,"chapters",oldChapter.id,"writtenQuestions"))
    ]);
    oldLessons.docs.forEach(d=>batch.delete(d.ref));
    oldQuestions.docs.forEach(d=>batch.delete(d.ref));
