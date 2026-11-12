@@ -52,8 +52,9 @@ $("assessmentQuestionForm").addEventListener("submit",async e=>{e.preventDefault
 
 let validatedCoursePackage=null;
 function validateCoursePackage(raw){
- const p=JSON.parse(raw);
- if(!p||typeof p!=="object"||!p.title||!p.description||!Array.isArray(p.chapters)||!p.chapters.length)throw new Error("Package must include title, description and at least one chapter.");
+ if(typeof raw!=="string"||!raw.trim())throw new Error("Pehle Course package box mein AI-prepared JSON paste karein. Khali box validate nahi ho sakta.");
+ let p;try{p=JSON.parse(raw)}catch(error){throw new Error("JSON format ghalat hai. Brackets, commas aur quotation marks check karein. Details: "+error.message)}
+ if(!p||typeof p!=="object"||Array.isArray(p)||typeof p.title!=="string"||!p.title.trim()||typeof p.description!=="string"||!p.description.trim()||!Array.isArray(p.chapters)||!p.chapters.length)throw new Error("Package mein course title, description aur kam az kam aik chapter lazmi hai.");
  if(p.title.trim().length>120||p.description.trim().length>1200)throw new Error("Course title/description exceeds allowed length.");
  let writes=1,lessons=0,questions=0;
  p.chapters.forEach((c,i)=>{
