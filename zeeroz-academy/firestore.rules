@@ -27,7 +27,7 @@ service cloud.firestore {
     match /courses/{courseId} {
       allow read: if resource.data.published == true || isAdmin();
       allow create: if isAdmin()
-        && request.resource.data.keys().hasOnly(['title','description','published','createdAt','updatedAt','createdBy']);
+        && request.resource.data.keys().hasOnly(['title','description','published','createdAt','updatedAt','createdBy','sourcePackageId','sourceVersion']);
       allow update, delete: if isAdmin();
 
       match /chapters/{chapterId} {
@@ -52,6 +52,22 @@ service cloud.firestore {
       allow read: if resource.data.published == true || isAdmin();
       allow create: if isAdmin()
         && request.resource.data.keys().hasOnly(['title','message','published','createdAt','updatedAt','createdBy']);
+      allow update, delete: if isAdmin();
+    }
+
+    match /courses/{courseId}/chapters/{chapterId}/writtenQuestions/{questionId} {
+      allow read: if isAdmin() || (parentCoursePublished(courseId)
+        && get(/databases/$(database)/documents/courses/$(courseId)/chapters/$(chapterId)).data.published == true
+        && resource.data.published == true);
+      allow create: if isAdmin()
+        && request.resource.data.keys().hasOnly(['type','question','marks','modelAnswer','rubric','order','published','createdAt','updatedAt','createdBy'])
+        && request.resource.data.type in ['crq','erq']
+        && request.resource.data.marks is int
+        && request.resource.data.marks >= 1
+        && request.resource.data.marks <= 30
+        && request.resource.data.question is string
+        && request.resource.data.modelAnswer is string
+        && request.resource.data.rubric is list;
       allow update, delete: if isAdmin();
     }
 

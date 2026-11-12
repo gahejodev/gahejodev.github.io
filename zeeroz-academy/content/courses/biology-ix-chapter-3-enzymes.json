@@ -1,0 +1,330 @@
+{
+  "id": "biology-ix-chapter-3-enzymes",
+  "title": "Biology IX — Chapter 3: Enzymes",
+  "description": "Sindh DCAR Biology Curriculum 2024 aligned course covering metabolism, enzyme properties, mechanism of action, factors affecting activity and enzyme inhibition.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 3: Enzymes",
+      "description": "Enzymes control the chemical reactions that keep cells alive.",
+      "lessons": [
+        {
+          "title": "3.1 Metabolism and the Role of Enzymes",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine metabolism and distinguish anabolism from catabolism. Explain why cells need enzymes.\n\n## Metabolism\nMetabolism is the sum of all chemical reactions taking place in a cell or organism. These reactions obtain energy, build cell materials, break down substances and maintain life.\n\nTwo broad categories are:\n- **Anabolism:** reactions that build complex molecules from simpler substances. They generally require an input of energy. Examples include protein synthesis and the formation of glycogen from glucose.\n- **Catabolism:** reactions that break complex molecules into simpler substances. They often release energy. Examples include digestion and cellular respiration.\n\nThe two types are linked: energy released by catabolic pathways can support anabolic processes.\n\n## Why enzymes are essential\nMost cellular reactions would proceed too slowly at normal cell temperatures without catalysts. Enzymes are biological catalysts that increase reaction rates by lowering the activation energy needed to start a reaction. They are not used up permanently in the reaction and can be used again, provided they remain functional.\n\nMost enzymes are proteins, although some RNA molecules can also act as catalysts; these catalytic RNA molecules are called ribozymes.\n\n## Examples\n- Amylase helps break starch into smaller sugars.\n- Proteases break proteins into peptides and amino acids.\n- Lipases break fats into fatty acids and glycerol-related products.\n- Catalase breaks hydrogen peroxide into water and oxygen.\n\n## Check your understanding\nExplain why digestion is catabolic and why building a new protein is anabolic."
+        },
+        {
+          "title": "3.2 Characteristics and Specificity of Enzymes",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe the main characteristics of enzymes and explain enzyme-substrate specificity.\n\n## Important characteristics\n1. Enzymes increase reaction rates by lowering activation energy.\n2. They are not permanently consumed by the reactions they catalyse.\n3. Each enzyme has an active site where its substrate binds.\n4. Enzymes are selective: their active-site properties make them act on particular substrates or closely related groups of substrates.\n5. Their activity depends on conditions such as temperature, pH and substrate concentration.\n6. Many enzymes require helper substances called cofactors; organic cofactors are often called coenzymes.\n\n## Substrate and active site\nThe substance on which an enzyme acts is called its substrate. The substrate binds at the enzyme's active site, forming an enzyme-substrate complex. Chemical bonds may be broken or formed, products are released and the enzyme can catalyse another reaction.\n\nThe active site is not always a rigid shape. In the **induced-fit model**, binding of the substrate causes a small change in the enzyme's shape that helps the reaction proceed.\n\n## Specificity\nAn enzyme's three-dimensional structure and chemical properties help determine which substrate can bind and which reaction can be catalysed. For example, amylase acts on starch, while lipase acts on lipids. Enzyme specificity is important because cells contain many reactions that must occur in an organised way.\n\n## Cofactors and coenzymes\nSome enzymes work only when a non-protein helper is present. A cofactor may be an inorganic ion such as magnesium or zinc. A coenzyme is an organic helper molecule; many are derived from vitamins. The exact requirement depends on the enzyme."
+        },
+        {
+          "title": "3.3 Mechanism of Enzyme Action",
+          "type": "text",
+          "content": "## Learning outcomes\nOutline how an enzyme catalyses a reaction using the active site and activation energy.\n\n## Basic sequence\n**Enzyme + substrate ⇌ enzyme-substrate complex → enzyme + product(s)**\n\n1. Substrate molecules move into the enzyme's active site.\n2. Temporary interactions hold the substrate in position; the active site may adjust shape through induced fit.\n3. The enzyme provides a reaction pathway with lower activation energy, helping bonds break or form.\n4. Product molecules leave the active site.\n5. The enzyme remains available to catalyse another reaction.\n\n## Activation energy\nActivation energy is the minimum energy barrier that reactants must overcome for a reaction to proceed. Enzymes lower this barrier. They do not change the overall energy difference between reactants and products, and they do not change the final equilibrium position of a reversible reaction; they help equilibrium be reached faster.\n\n## Enzyme-substrate models\nThe lock-and-key model describes a complementary fit between substrate and active site. The induced-fit model adds that the active site can change shape slightly when the substrate binds. The induced-fit model better represents the flexibility of many enzymes.\n\n## Example: catalase\nCatalase catalyses the breakdown of hydrogen peroxide, a potentially harmful substance formed in cells:\n\n**2H₂O₂ → 2H₂O + O₂**\n\nBubbles of oxygen may be observed when catalase is added to hydrogen peroxide. Appropriate laboratory safety precautions are essential; students should not handle concentrated hydrogen peroxide."
+        },
+        {
+          "title": "3.4 Factors Affecting Enzyme Activity",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain how temperature, pH, substrate concentration and enzyme concentration affect enzyme activity.\n\n## Temperature\nAs temperature rises, molecules generally move faster and collide more frequently, so enzyme activity often increases up to an optimum temperature. Above the optimum, bonds maintaining the enzyme's shape may be disrupted. The active site changes shape and activity falls; this is denaturation. Low temperature usually slows activity without permanently denaturing the enzyme.\n\n## pH\nEach enzyme has a pH range in which it works best. Changes in pH can alter charges and interactions within the enzyme, affecting its active site and structure. For example, pepsin works best in the strongly acidic conditions of the stomach, while many enzymes in the small intestine work best in alkaline or near-alkaline conditions.\n\n## Substrate concentration\nWhen enzyme concentration is fixed, increasing substrate concentration usually increases reaction rate because more active sites are occupied. Eventually the enzymes become saturated: nearly all active sites are busy, so the rate approaches a maximum (Vmax). Adding more substrate then has little effect.\n\n## Enzyme concentration\nIf sufficient substrate is available, increasing enzyme concentration generally increases the reaction rate because more active sites are available.\n\n## Interpreting an experiment\nA fair test changes one independent variable at a time and controls other factors. Measure reaction rate consistently, repeat trials and calculate a mean. A graph of rate against temperature commonly rises to an optimum and then falls sharply; a graph against substrate concentration rises and then levels off."
+        },
+        {
+          "title": "3.5 Enzyme Inhibition: Competitive and Non-competitive",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine enzyme inhibition and distinguish competitive from non-competitive inhibition.\n\n## What is inhibition?\nAn inhibitor is a substance that reduces or prevents enzyme activity. Inhibitors help regulate metabolic pathways, and some are medicines or toxins.\n\n## Competitive inhibition\nA competitive inhibitor binds to the enzyme's active site and competes with the substrate. It often resembles the substrate in shape or chemical properties. Increasing substrate concentration can reduce the inhibitor's effect because substrate molecules are more likely to occupy the active site. In the simple reversible model, apparent Km increases while Vmax can remain unchanged.\n\n## Non-competitive inhibition\nA non-competitive inhibitor binds at a site other than the active site and changes enzyme activity by altering the enzyme's shape or function. In the simple pure non-competitive model, adding more substrate does not overcome inhibition; Vmax decreases while Km remains unchanged. Real inhibitors may show more complex behaviour.\n\n## Reversible and irreversible inhibition\nSome inhibitors bind temporarily and can detach (reversible inhibition). Others bind very strongly or permanently damage an enzyme (irreversible inhibition). The effect depends on the inhibitor and enzyme.\n\n## Importance\nInhibition can regulate metabolic pathways through feedback, protect cells from excessive product formation, and provide a way for medicines to block specific enzymes. The effect of a medicine depends on its target, dose and the rest of the body's biology.\n\n## Review\nCompare competitive and non-competitive inhibition, and explain why increasing substrate concentration may help in one case but not the other."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Metabolism refers to:",
+          "options": {
+            "A": "All chemical reactions in a cell or organism",
+            "B": "Only the process of breathing",
+            "C": "Only digestion in the stomach",
+            "D": "Only the movement of muscles"
+          },
+          "correctOption": "A",
+          "explanation": "Metabolism includes all anabolic and catabolic reactions in living systems."
+        },
+        {
+          "question": "A reaction that builds a protein from amino acids is an example of:",
+          "options": {
+            "A": "Catabolism",
+            "B": "Anabolism",
+            "C": "Diffusion",
+            "D": "Excretion"
+          },
+          "correctOption": "B",
+          "explanation": "Protein synthesis builds a complex molecule and is anabolic."
+        },
+        {
+          "question": "A biological catalyst that increases reaction rate is called a/an:",
+          "options": {
+            "A": "Antibody",
+            "B": "Enzyme",
+            "C": "Lipid",
+            "D": "Nucleotide"
+          },
+          "correctOption": "B",
+          "explanation": "Enzymes are biological catalysts that lower activation energy."
+        },
+        {
+          "question": "The substance on which an enzyme acts is its:",
+          "options": {
+            "A": "Product",
+            "B": "Substrate",
+            "C": "Cofactor",
+            "D": "Inhibitor"
+          },
+          "correctOption": "B",
+          "explanation": "The substrate binds to the enzyme's active site."
+        },
+        {
+          "question": "The region of an enzyme where the substrate binds is the:",
+          "options": {
+            "A": "Cell wall",
+            "B": "Active site",
+            "C": "Nucleus",
+            "D": "Peptide bond"
+          },
+          "correctOption": "B",
+          "explanation": "The active site has chemical and structural properties that enable substrate binding and catalysis."
+        },
+        {
+          "question": "The induced-fit model proposes that:",
+          "options": {
+            "A": "An enzyme is completely rigid",
+            "B": "The active site may change shape slightly when substrate binds",
+            "C": "The substrate becomes an enzyme",
+            "D": "Enzymes are consumed during reactions"
+          },
+          "correctOption": "B",
+          "explanation": "Induced fit recognises flexibility in the active site during binding."
+        },
+        {
+          "question": "Enzymes speed reactions mainly by:",
+          "options": {
+            "A": "Increasing activation energy",
+            "B": "Lowering activation energy",
+            "C": "Changing products into atoms",
+            "D": "Increasing the final energy difference"
+          },
+          "correctOption": "B",
+          "explanation": "Lower activation energy allows more reactant molecules to reach the transition state."
+        },
+        {
+          "question": "Which statement about an enzyme after a reaction is generally correct?",
+          "options": {
+            "A": "It is permanently used up",
+            "B": "It can often catalyse another reaction",
+            "C": "It becomes a carbohydrate",
+            "D": "It always changes into the product"
+          },
+          "correctOption": "B",
+          "explanation": "Enzymes are catalysts and are not permanently consumed in the reaction."
+        },
+        {
+          "question": "Which enzyme helps digest starch?",
+          "options": {
+            "A": "Lipase",
+            "B": "Amylase",
+            "C": "Protease",
+            "D": "Catalase"
+          },
+          "correctOption": "B",
+          "explanation": "Amylase catalyses the breakdown of starch."
+        },
+        {
+          "question": "Catalase acts on:",
+          "options": {
+            "A": "Hydrogen peroxide",
+            "B": "Cellulose",
+            "C": "Haemoglobin",
+            "D": "DNA"
+          },
+          "correctOption": "A",
+          "explanation": "Catalase converts hydrogen peroxide into water and oxygen."
+        },
+        {
+          "question": "A cofactor is:",
+          "options": {
+            "A": "A helper substance required by some enzymes",
+            "B": "The final product of every enzyme reaction",
+            "C": "A type of carbohydrate",
+            "D": "A cell organelle"
+          },
+          "correctOption": "A",
+          "explanation": "Some enzymes need non-protein helper substances to function."
+        },
+        {
+          "question": "As temperature rises above an enzyme's optimum, activity often falls because:",
+          "options": {
+            "A": "The substrate becomes DNA",
+            "B": "The enzyme may denature and its active site changes",
+            "C": "The enzyme becomes a lipid",
+            "D": "All collisions stop"
+          },
+          "correctOption": "B",
+          "explanation": "High temperatures can disrupt the interactions maintaining the enzyme's structure."
+        },
+        {
+          "question": "At very low temperature, enzyme reactions are usually slower because:",
+          "options": {
+            "A": "Molecules have less kinetic energy and collide less often",
+            "B": "All enzymes are instantly destroyed",
+            "C": "The active site always melts",
+            "D": "The substrate turns into an inhibitor"
+          },
+          "correctOption": "A",
+          "explanation": "Lower temperature slows molecular movement and reduces successful collisions."
+        },
+        {
+          "question": "Each enzyme has a pH at which it works best called its:",
+          "options": {
+            "A": "Optimum pH",
+            "B": "Maximum mass",
+            "C": "Boiling point",
+            "D": "Melting point"
+          },
+          "correctOption": "A",
+          "explanation": "Enzyme structure and active-site chemistry are best suited to a particular pH range."
+        },
+        {
+          "question": "At fixed enzyme concentration, adding more substrate eventually causes the reaction rate to:",
+          "options": {
+            "A": "Become unlimited",
+            "B": "Reach a plateau as active sites become saturated",
+            "C": "Fall to zero immediately",
+            "D": "Change into anabolism"
+          },
+          "correctOption": "B",
+          "explanation": "Once most active sites are occupied, the enzyme concentration limits the rate."
+        },
+        {
+          "question": "Increasing enzyme concentration when enough substrate is available generally:",
+          "options": {
+            "A": "Increases reaction rate",
+            "B": "Always stops the reaction",
+            "C": "Has no possible effect",
+            "D": "Destroys all substrate"
+          },
+          "correctOption": "A",
+          "explanation": "More enzyme molecules provide more active sites."
+        },
+        {
+          "question": "A competitive inhibitor usually binds to the:",
+          "options": {
+            "A": "Active site",
+            "B": "Cell membrane",
+            "C": "Ribosome",
+            "D": "Product only"
+          },
+          "correctOption": "A",
+          "explanation": "Competitive inhibitors compete with substrate for the enzyme's active site."
+        },
+        {
+          "question": "The effect of a simple competitive inhibitor may be reduced by:",
+          "options": {
+            "A": "Increasing substrate concentration",
+            "B": "Removing all enzyme",
+            "C": "Increasing acidity without control",
+            "D": "Cooling to absolute zero"
+          },
+          "correctOption": "A",
+          "explanation": "More substrate can outcompete a reversible competitive inhibitor for active-site binding."
+        },
+        {
+          "question": "A pure non-competitive inhibitor binds:",
+          "options": {
+            "A": "Only to the substrate",
+            "B": "At a site other than the active site",
+            "C": "Only to DNA",
+            "D": "To the cell wall"
+          },
+          "correctOption": "B",
+          "explanation": "It binds at another site and reduces enzyme activity by changing function or conformation."
+        },
+        {
+          "question": "In the simple pure non-competitive inhibition model, which parameter decreases?",
+          "options": {
+            "A": "Vmax",
+            "B": "The number of DNA bases",
+            "C": "The substrate's molecular mass",
+            "D": "The enzyme's gene length"
+          },
+          "correctOption": "A",
+          "explanation": "Pure non-competitive inhibition lowers Vmax; Km remains unchanged in the ideal model."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "question": "Define metabolism and distinguish between anabolism and catabolism, giving one example of each.",
+          "marks": 5,
+          "modelAnswer": "Metabolism is the sum of chemical reactions in a cell or organism. Anabolism builds complex molecules from simpler ones and generally requires energy; protein synthesis is an example. Catabolism breaks complex molecules into simpler ones and often releases energy; cellular respiration or digestion is an example.",
+          "rubric": [
+            "Definition of metabolism (1 mark)",
+            "Anabolism correctly explained (1 mark)",
+            "Suitable anabolic example (1 mark)",
+            "Catabolism correctly explained (1 mark)",
+            "Suitable catabolic example (1 mark)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Explain how an enzyme-substrate complex forms and how the enzyme is available for reuse.",
+          "marks": 5,
+          "modelAnswer": "The substrate binds to a complementary active site, often with a small induced-fit adjustment, forming an enzyme-substrate complex. The enzyme lowers activation energy and helps convert substrate into product. Products leave the active site and the enzyme remains available to catalyse another reaction.",
+          "rubric": [
+            "Substrate binds active site (1 mark)",
+            "Enzyme-substrate complex identified (1 mark)",
+            "Catalysis/lower activation energy (1 mark)",
+            "Products released (1 mark)",
+            "Enzyme available for reuse (1 mark)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "State how temperature and pH can affect enzyme activity.",
+          "marks": 5,
+          "modelAnswer": "Increasing temperature usually raises activity to an optimum because molecular collisions become more frequent. Above the optimum, the enzyme may denature and activity falls. Each enzyme also has an optimum pH; a pH change can alter charges and interactions, changing the active site and reducing activity.",
+          "rubric": [
+            "Temperature rise to optimum (1 mark)",
+            "High-temperature denaturation (1 mark)",
+            "Enzyme-specific optimum pH (1 mark)",
+            "pH changes affect active-site structure/charges (1 mark)",
+            "Correct link to rate/activity (1 mark)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Describe the mechanism of enzyme action and explain the effects of temperature, pH and substrate concentration on enzyme activity.",
+          "marks": 10,
+          "modelAnswer": "A substrate binds at an enzyme's active site, forming an enzyme-substrate complex. Induced fit may adjust the active site. The enzyme lowers activation energy, converts substrate to product and releases the product while remaining available. Temperature increases rate up to an optimum; excessive heat can denature the enzyme. Each enzyme has an optimum pH; deviation can change charges and active-site shape. At fixed enzyme concentration, increasing substrate concentration increases rate until active sites are saturated and the rate approaches a maximum.",
+          "rubric": [
+            "Active site and substrate binding (2 marks)",
+            "Enzyme-substrate complex and induced fit (1 mark)",
+            "Lower activation energy and product release (1 mark)",
+            "Temperature effect and denaturation (2 marks)",
+            "pH optimum and effect of deviation (2 marks)",
+            "Substrate saturation/maximum rate (2 marks)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Compare competitive and non-competitive enzyme inhibition and explain why their effects differ when substrate concentration increases.",
+          "marks": 10,
+          "modelAnswer": "A competitive inhibitor binds at the active site and competes with substrate. Increasing substrate concentration can reduce its effect by making substrate binding more likely. A non-competitive inhibitor binds at a different site and reduces enzyme activity by changing its function or shape. In the simple pure non-competitive model, adding more substrate does not overcome inhibition because the inhibitor does not compete for the active site; Vmax decreases. Real inhibitor mechanisms may be more complex.",
+          "rubric": [
+            "Definition of inhibition (1 mark)",
+            "Competitive binding site and competition (2 marks)",
+            "Effect of increasing substrate in competitive inhibition (2 marks)",
+            "Non-competitive binding at another site (2 marks)",
+            "Why extra substrate does not overcome pure non-competitive inhibition (2 marks)",
+            "Clear comparison / ideal-model qualification (1 mark)"
+          ]
+        }
+      ]
+    }
+  ]
+}

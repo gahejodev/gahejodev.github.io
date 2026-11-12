@@ -1,0 +1,322 @@
+{
+  "id": "biology-ix-chapter-4-cell",
+  "title": "Biology IX — Chapter 4: Cell",
+  "description": "Sindh DCAR Biology Curriculum 2024 aligned course on the cell as the basic unit of life, plant and animal cell structures, organelles, cell specialisation, division of labour and stem cells.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 4: Cell",
+      "description": "The cell is the basic structural and functional unit of living organisms.",
+      "lessons": [
+        {
+          "title": "4.1 Cell Theory and the Cell as the Basic Unit of Life",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain why the cell is the basic unit of life and state the main ideas of cell theory.\n\n## What is a cell?\nA cell is the smallest unit that can carry out the essential processes of life. Some organisms, such as bacteria and many protists, consist of one cell. Plants, animals and fungi are multicellular and contain many specialised cells.\n\n## Cell theory\nThe modern cell theory includes three central ideas:\n1. All living organisms are made of one or more cells.\n2. The cell is the basic structural and functional unit of life.\n3. New cells arise from pre-existing cells through cell division.\n\nCell theory developed through observations by many scientists using microscopes. Cells are often too small to see clearly without magnification.\n\n## Common features of cells\nMost cells have a cell membrane, cytoplasm, genetic material and ribosomes. Eukaryotic cells have a nucleus and membrane-bound organelles. Prokaryotic cells, such as bacteria, do not have a membrane-bound nucleus; their DNA is located in a nucleoid region.\n\n## Size and surface area\nCells are usually small because a high surface-area-to-volume ratio helps exchange materials with the environment. As a cell grows, its volume increases faster than its surface area, which can make exchange less efficient. Cells may divide or develop specialised shapes to meet their needs.\n\n## Microscopy\nA light microscope uses visible light and lenses to magnify specimens. Magnification tells how many times larger an image is than the specimen. Resolution is the ability to distinguish two close points as separate; greater magnification does not automatically mean greater resolution."
+        },
+        {
+          "title": "4.2 Plant and Animal Cells",
+          "type": "text",
+          "content": "## Learning outcomes\nIdentify major structures in plant and animal cells and compare their features.\n\n## Structures found in both typical plant and animal cells\n- **Cell membrane:** controls movement of substances into and out of the cell.\n- **Cytoplasm:** site of many metabolic reactions; contains organelles.\n- **Nucleus:** contains most of the cell's DNA and helps control cell activities through gene expression.\n- **Mitochondria:** site of most aerobic respiration and ATP production in eukaryotic cells.\n- **Ribosomes:** sites of protein synthesis.\n- **Rough endoplasmic reticulum:** has ribosomes and helps make/process proteins for membranes or secretion.\n- **Smooth endoplasmic reticulum:** involved in lipid synthesis and other processes.\n- **Golgi apparatus:** modifies, sorts and packages proteins and lipids.\n\n## Structures especially associated with plant cells\n- **Cell wall:** mainly cellulose in plants; provides support and protection.\n- **Chloroplasts:** contain chlorophyll and are the main sites of photosynthesis in green plant cells.\n- **Large central vacuole:** contains cell sap and helps maintain turgor pressure.\n\n## Animal cell features\nAnimal cells do not have a cellulose cell wall or chloroplasts. They often have small vesicles and vacuoles. Centrioles are present in many animal cells and help organise microtubules during cell division.\n\n## Comparison table\n| Feature | Typical plant cell | Typical animal cell |\n|---|---|---|\n| Cell membrane | Present | Present |\n| Cell wall | Usually present | Absent |\n| Chloroplasts | Present in many photosynthetic cells | Absent |\n| Large central vacuole | Common | Not typical |\n| Nucleus, mitochondria, ribosomes | Present | Present |\n\nNot every plant cell contains chloroplasts; for example, most root cells do not photosynthesise. Plant and animal cells both vary according to their function."
+        },
+        {
+          "title": "4.3 Cell Organelles and Their Functions",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe the functions of major eukaryotic cell organelles and explain how their activities work together.\n\n## Nucleus and genetic control\nThe nucleus is surrounded by a double membrane called the nuclear envelope, which has pores. It contains chromosomes made of DNA and proteins. Genes influence cell activities by directing the production of RNA and proteins.\n\n## Mitochondria\nMitochondria have a double membrane. The inner membrane is folded into cristae, increasing surface area for reactions involved in aerobic respiration. Mitochondria help transfer energy from food molecules into ATP, which cells use for many activities.\n\n## Ribosomes and endoplasmic reticulum\nRibosomes build polypeptides by translating mRNA. Ribosomes may be free in the cytoplasm or attached to rough endoplasmic reticulum. Rough ER helps process proteins destined for membranes or secretion. Smooth ER is involved in lipid synthesis and detoxification in some cells.\n\n## Golgi apparatus and vesicles\nThe Golgi apparatus receives materials from the ER, modifies and sorts them, then packages them into vesicles for transport to other locations or secretion.\n\n## Lysosomes and vacuoles\nLysosomes contain digestive enzymes that break down materials and worn-out cell components. Vacuoles store water, ions, nutrients or wastes; the large central vacuole in plant cells helps maintain turgor.\n\n## Chloroplasts\nChloroplasts contain chlorophyll and internal membrane structures called thylakoids, often arranged in stacks called grana. They capture light energy for photosynthesis in plants and algae.\n\n## Organelles work together\nA cell is an organised system. For example, the nucleus provides genetic instructions, ribosomes make a protein, rough ER and Golgi apparatus process and package it, and vesicles can carry it to the cell membrane for secretion."
+        },
+        {
+          "title": "4.4 Cell Specialisation and Division of Labour",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain cell specialisation and describe how specialised cells contribute to division of labour in multicellular organisms.\n\n## Specialised cells\nIn multicellular organisms, cells develop structures suited to particular functions. This process is called cell differentiation. Different cell types usually contain the same genome, but different genes are switched on or off, so they make different proteins and develop different structures.\n\n## Examples in animals\n- **Red blood cell:** has a biconcave shape and is packed with haemoglobin for oxygen transport; mature human red blood cells lack a nucleus.\n- **Nerve cell (neuron):** has a long axon and branched connections to transmit electrical signals.\n- **Muscle cell:** contains contractile proteins and many mitochondria to support contraction.\n- **Ciliated epithelial cell:** has cilia that move mucus or other material along a surface.\n\n## Examples in plants\n- **Root hair cell:** has a long projection that increases surface area for water and mineral uptake.\n- **Palisade mesophyll cell:** contains many chloroplasts and is adapted for photosynthesis.\n- **Xylem vessel element:** forms part of a water-conducting tube; mature vessel elements are dead and have thickened walls.\n- **Guard cells:** change shape to control the opening and closing of stomata.\n\n## Division of labour\nSpecialised cells work together in tissues, organs and organ systems. This division of labour makes complex organisms more efficient. Cells depend on one another, so damage to one tissue can affect the function of the whole organism.\n\n## Check your understanding\nChoose one specialised cell and explain how two of its structural features help it perform its function."
+        },
+        {
+          "title": "4.5 Stem Cells and Their Importance",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine stem cells, distinguish major types and describe their potential uses and limitations.\n\n## What are stem cells?\nStem cells are cells that can self-renew by cell division and can differentiate into one or more specialised cell types. Their ability to produce specialised cells makes them important in growth, development and tissue repair.\n\n## Main types\n- **Embryonic stem cells:** obtained from an early-stage embryo and can develop into almost all body cell types (pluripotent).\n- **Adult or tissue stem cells:** found in some tissues, such as bone marrow; they usually form a more limited range of related cell types.\n- **Induced pluripotent stem cells (iPSCs):** adult body cells that have been reprogrammed in a laboratory to behave like pluripotent stem cells.\n\n## Potential medical uses\nStem-cell research may help scientists understand development and disease, test medicines and develop treatments for damaged tissues. Established examples include blood-forming stem-cell transplants used in treating certain blood disorders and cancers. Many other proposed regenerative treatments remain under research and should not be described as proven cures.\n\n## Limitations and ethical considerations\nChallenges include controlling differentiation, preventing immune rejection, avoiding tumour formation, ensuring safety and demonstrating long-term benefit. Embryonic stem-cell research raises ethical questions about embryo use. Laws, consent and professional guidance vary between countries.\n\n## Key message\nStem cells offer important research and medical possibilities, but each proposed treatment needs reliable clinical evidence. Patients should be cautious of clinics advertising unproven stem-cell cures."
+        }
+      ],
+      "questions": [
+        {
+          "question": "The smallest unit that can carry out the essential processes of life is the:",
+          "options": {
+            "A": "Tissue",
+            "B": "Cell",
+            "C": "Organ",
+            "D": "Organ system"
+          },
+          "correctOption": "B",
+          "explanation": "A cell is the basic structural and functional unit of life."
+        },
+        {
+          "question": "Which statement is part of cell theory?",
+          "options": {
+            "A": "All cells arise spontaneously from non-living matter",
+            "B": "All living organisms consist of one or more cells",
+            "C": "Only animals are made of cells",
+            "D": "Cells do not divide"
+          },
+          "correctOption": "B",
+          "explanation": "Cell theory states that organisms are made of cells and new cells arise from pre-existing cells."
+        },
+        {
+          "question": "Which structure is present in both typical plant and animal cells?",
+          "options": {
+            "A": "Cellulose cell wall",
+            "B": "Chloroplast",
+            "C": "Cell membrane",
+            "D": "Large central vacuole"
+          },
+          "correctOption": "C",
+          "explanation": "Both plant and animal cells have a cell membrane."
+        },
+        {
+          "question": "The main function of the cell membrane is to:",
+          "options": {
+            "A": "Control movement of substances into and out of the cell",
+            "B": "Store all hereditary information",
+            "C": "Make cellulose",
+            "D": "Carry out photosynthesis in every cell"
+          },
+          "correctOption": "A",
+          "explanation": "The cell membrane is selectively permeable and regulates exchange."
+        },
+        {
+          "question": "Which organelle contains most of the DNA in a typical eukaryotic cell?",
+          "options": {
+            "A": "Golgi apparatus",
+            "B": "Nucleus",
+            "C": "Lysosome",
+            "D": "Ribosome"
+          },
+          "correctOption": "B",
+          "explanation": "The nucleus contains most of a eukaryotic cell's genetic material."
+        },
+        {
+          "question": "The main site of aerobic respiration in eukaryotic cells is the:",
+          "options": {
+            "A": "Mitochondrion",
+            "B": "Chloroplast",
+            "C": "Vacuole",
+            "D": "Cell wall"
+          },
+          "correctOption": "A",
+          "explanation": "Mitochondria carry out most aerobic respiration and ATP production."
+        },
+        {
+          "question": "Ribosomes are responsible for:",
+          "options": {
+            "A": "Protein synthesis",
+            "B": "Lipid storage only",
+            "C": "Photosynthesis",
+            "D": "DNA packaging only"
+          },
+          "correctOption": "A",
+          "explanation": "Ribosomes translate mRNA to build polypeptides."
+        },
+        {
+          "question": "Which organelle modifies, sorts and packages many proteins?",
+          "options": {
+            "A": "Golgi apparatus",
+            "B": "Nucleus",
+            "C": "Cell wall",
+            "D": "Centriole"
+          },
+          "correctOption": "A",
+          "explanation": "The Golgi apparatus processes and sorts proteins and lipids received from the ER."
+        },
+        {
+          "question": "Which structure is mainly made of cellulose in plant cells?",
+          "options": {
+            "A": "Cell wall",
+            "B": "Cell membrane",
+            "C": "Nuclear envelope",
+            "D": "Ribosome"
+          },
+          "correctOption": "A",
+          "explanation": "Plant cell walls contain cellulose microfibrils."
+        },
+        {
+          "question": "Chloroplasts are the main sites of:",
+          "options": {
+            "A": "Aerobic respiration",
+            "B": "Photosynthesis",
+            "C": "Protein digestion",
+            "D": "Cell division in animals"
+          },
+          "correctOption": "B",
+          "explanation": "Chloroplasts capture light energy for photosynthesis."
+        },
+        {
+          "question": "The large central vacuole in many plant cells helps maintain:",
+          "options": {
+            "A": "Turgor pressure",
+            "B": "The genetic code",
+            "C": "The peptide bond",
+            "D": "Nerve impulses"
+          },
+          "correctOption": "A",
+          "explanation": "Water in the central vacuole helps keep plant cells firm."
+        },
+        {
+          "question": "Which cell type is specialised for transmitting electrical signals?",
+          "options": {
+            "A": "Neuron",
+            "B": "Root hair cell",
+            "C": "Red blood cell",
+            "D": "Palisade cell"
+          },
+          "correctOption": "A",
+          "explanation": "Neurons have structures adapted to receive and transmit signals."
+        },
+        {
+          "question": "A root hair cell is adapted for water and mineral uptake mainly because it has:",
+          "options": {
+            "A": "A long projection increasing surface area",
+            "B": "Many chloroplasts",
+            "C": "A thick waxy cuticle",
+            "D": "No cell membrane"
+          },
+          "correctOption": "A",
+          "explanation": "The long root-hair projection increases the surface area for absorption."
+        },
+        {
+          "question": "Which specialised plant cell controls the opening of a stoma?",
+          "options": {
+            "A": "Guard cell",
+            "B": "Xylem vessel element",
+            "C": "Root cap cell",
+            "D": "Palisade cell"
+          },
+          "correctOption": "A",
+          "explanation": "Guard cells change shape to regulate stomatal opening."
+        },
+        {
+          "question": "Cell differentiation means:",
+          "options": {
+            "A": "Cells become specialised in structure and function",
+            "B": "Cells lose all their DNA",
+            "C": "Cells turn into minerals",
+            "D": "Cells stop carrying out metabolism"
+          },
+          "correctOption": "A",
+          "explanation": "Differentiation produces specialised cell types through regulated gene expression."
+        },
+        {
+          "question": "Division of labour in multicellular organisms means:",
+          "options": {
+            "A": "All cells do exactly the same task",
+            "B": "Different specialised cells perform different functions",
+            "C": "Only one cell performs every function",
+            "D": "Organs work independently of cells"
+          },
+          "correctOption": "B",
+          "explanation": "Specialised cells cooperate, making complex organisms more efficient."
+        },
+        {
+          "question": "Stem cells are characterised by their ability to:",
+          "options": {
+            "A": "Self-renew and differentiate",
+            "B": "Only carry oxygen",
+            "C": "Always form a complete adult organism",
+            "D": "Never divide"
+          },
+          "correctOption": "A",
+          "explanation": "Stem cells can make more stem cells and produce specialised cell types."
+        },
+        {
+          "question": "Embryonic stem cells are generally described as:",
+          "options": {
+            "A": "Pluripotent",
+            "B": "Only able to form red blood cells",
+            "C": "Non-living",
+            "D": "Fully differentiated"
+          },
+          "correctOption": "A",
+          "explanation": "Embryonic stem cells can form almost all body cell types."
+        },
+        {
+          "question": "Induced pluripotent stem cells are:",
+          "options": {
+            "A": "Adult cells reprogrammed to a pluripotent-like state",
+            "B": "Bacterial spores",
+            "C": "Mature red blood cells",
+            "D": "Cells with no DNA"
+          },
+          "correctOption": "A",
+          "explanation": "iPSCs are produced by reprogramming adult body cells."
+        },
+        {
+          "question": "Which is an important limitation of proposed stem-cell treatments?",
+          "options": {
+            "A": "There are no ethical or safety issues",
+            "B": "Risk of tumour formation and immune rejection must be addressed",
+            "C": "All treatments are already proven cures",
+            "D": "Stem cells cannot divide"
+          },
+          "correctOption": "B",
+          "explanation": "Safety, immune compatibility and controlled differentiation are important challenges."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "question": "State the three main principles of cell theory.",
+          "marks": 3,
+          "modelAnswer": "All living organisms are made of one or more cells; the cell is the basic structural and functional unit of life; and new cells arise from pre-existing cells by cell division.",
+          "rubric": [
+            "Organisms consist of cells (1 mark)",
+            "Cell is basic unit (1 mark)",
+            "New cells arise from existing cells (1 mark)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Give four differences between typical plant and animal cells.",
+          "marks": 5,
+          "modelAnswer": "Typical plant cells have a cellulose cell wall, may contain chloroplasts in photosynthetic tissues and commonly have a large central vacuole. Animal cells lack a cellulose cell wall and chloroplasts and do not usually have a large central vacuole. Both have a cell membrane, cytoplasm, nucleus, mitochondria and ribosomes.",
+          "rubric": [
+            "Any four accurate contrasts (4 marks)",
+            "One correct shared feature or qualification (1 mark)"
+          ]
+        },
+        {
+          "type": "crq",
+          "question": "Define stem cells and name two types, giving one potential use and one limitation of stem-cell research.",
+          "marks": 5,
+          "modelAnswer": "Stem cells can self-renew and differentiate into specialised cells. Types include embryonic, adult/tissue and induced pluripotent stem cells. Potential uses include research into disease and development of treatments for certain damaged tissues. Limitations include tumour risk, immune rejection, difficulty controlling differentiation and ethical concerns.",
+          "rubric": [
+            "Definition including self-renewal and differentiation (2 marks)",
+            "Two types named (1 mark)",
+            "Potential use (1 mark)",
+            "Limitation (1 mark)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Describe the structure and functions of the major organelles in a eukaryotic cell, explaining how at least four organelles work together to make and secrete a protein.",
+          "marks": 10,
+          "modelAnswer": "The nucleus contains DNA and regulates gene expression. Ribosomes translate mRNA into polypeptides. Ribosomes on rough ER make proteins that enter the ER for folding and initial processing. Transport vesicles carry proteins to the Golgi apparatus, where they are modified, sorted and packaged. Secretory vesicles move to the cell membrane and release the protein by exocytosis. Mitochondria provide ATP for energy-demanding processes; the cell membrane controls exchange. Other organelles include lysosomes for intracellular digestion and vacuoles for storage.",
+          "rubric": [
+            "Nucleus and genetic instructions (2 marks)",
+            "Ribosome/protein synthesis (2 marks)",
+            "Rough ER role (1 mark)",
+            "Vesicle transport and Golgi processing (2 marks)",
+            "Secretion at cell membrane (1 mark)",
+            "Other organelles and accurate functions (2 marks)"
+          ]
+        },
+        {
+          "type": "erq",
+          "question": "Explain cell specialisation and division of labour in multicellular organisms. Use examples from both plants and animals.",
+          "marks": 10,
+          "modelAnswer": "Cell differentiation produces specialised cells with structures suited to particular functions. Different genes are expressed in different cell types. In animals, red blood cells have a biconcave shape and haemoglobin for oxygen transport; neurons have long axons for signalling; muscle cells contain contractile proteins. In plants, root hair cells have projections for absorption; palisade cells contain many chloroplasts for photosynthesis; xylem vessel elements form water-conducting tubes; guard cells control stomata. These cells work together in tissues, organs and organ systems, creating division of labour and greater efficiency.",
+          "rubric": [
+            "Meaning of differentiation and gene expression (2 marks)",
+            "Two accurate animal cell examples (3 marks)",
+            "Two accurate plant cell examples (3 marks)",
+            "Explanation of division of labour/cooperation (2 marks)"
+          ]
+        }
+      ]
+    }
+  ]
+}

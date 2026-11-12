@@ -7,6 +7,24 @@
       "title": "Biology IX — Chapter 1: Introduction to Biology",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-1-introduction.json",
       "version": "2"
+    },
+    {
+      "id": "biology-ix-chapter-2-molecular-biology",
+      "title": "Biology IX — Chapter 2: Molecular Biology",
+      "path": "zeeroz-academy/content/courses/biology-ix-chapter-2-molecular-biology.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-ix-chapter-3-enzymes",
+      "title": "Biology IX — Chapter 3: Enzymes",
+      "path": "zeeroz-academy/content/courses/biology-ix-chapter-3-enzymes.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-ix-chapter-4-cell",
+      "title": "Biology IX — Chapter 4: Cell",
+      "path": "zeeroz-academy/content/courses/biology-ix-chapter-4-cell.json",
+      "version": "1"
     }
   ]
 }
