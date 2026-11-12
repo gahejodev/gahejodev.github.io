@@ -4,6 +4,9 @@ service cloud.firestore {
     function signedIn() { return request.auth != null; }
     function isAdmin() { return signedIn() && request.auth.token.admin == true; }
     function isOwner(uid) { return signedIn() && request.auth.uid == uid; }
+    function parentCoursePublished(courseId) {
+      return get(/databases/$(database)/documents/courses/$(courseId)).data.published == true;
+    }
 
     match /profiles/{uid} {
       allow get: if isOwner(uid) || isAdmin();
@@ -26,6 +29,23 @@ service cloud.firestore {
       allow create: if isAdmin()
         && request.resource.data.keys().hasOnly(['title','description','published','createdAt','updatedAt','createdBy']);
       allow update, delete: if isAdmin();
+
+      match /chapters/{chapterId} {
+        allow read: if isAdmin() || (parentCoursePublished(courseId) && resource.data.published == true);
+        allow create: if isAdmin()
+          && request.resource.data.keys().hasOnly(['title','description','order','published','createdAt','updatedAt','createdBy']);
+        allow update, delete: if isAdmin();
+
+        match /lessons/{lessonId} {
+          allow read: if isAdmin() || (parentCoursePublished(courseId)
+            && get(/databases/$(database)/documents/courses/$(courseId)/chapters/$(chapterId)).data.published == true
+            && resource.data.published == true);
+          allow create: if isAdmin()
+            && request.resource.data.keys().hasOnly(['title','type','content','order','published','createdAt','updatedAt','createdBy'])
+            && request.resource.data.type in ['text','video','pdf'];
+          allow update, delete: if isAdmin();
+        }
+      }
     }
 
     match /announcements/{announcementId} {
@@ -40,7 +60,6 @@ service cloud.firestore {
       allow delete: if isOwner(uid) || isAdmin();
     }
 
-    // All other collections are denied unless explicitly added above.
     match /{document=**} { allow read, write: if false; }
   }
 }
