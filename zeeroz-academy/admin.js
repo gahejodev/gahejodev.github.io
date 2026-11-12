@@ -1,4 +1,5 @@
 import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-functions.js";
 import { addDoc, collection, getDocs, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 const $=id=>document.getElementById(id);let allowed=false;let courses=[];const db=()=>window.ZeerozFirebase.db;
 function status(message){$("status").textContent=message}
@@ -115,3 +116,45 @@ $("publishCoursePackage").addEventListener("click",async()=>{
   status("Complete course package published successfully.");
  }catch(e){$("coursePackagePreview").textContent="Publish failed: "+e.message;status(e.message);button.disabled=!validatedCoursePackage}
 });
+
+
+const generateAiCourseButton = $("generateAiCourse");
+if (generateAiCourseButton) {
+ generateAiCourseButton.addEventListener("click", async () => {
+  const output = $("aiCourseStatus");
+  const button = generateAiCourseButton;
+  try {
+   if (!allowed) throw new Error("Administrator permission is required.");
+   const payload = {
+    className: $("aiClass").value.trim(),
+    subject: $("aiSubject").value.trim(),
+    title: $("aiTitle").value.trim(),
+    topic: $("aiTopic").value.trim(),
+    syllabusNotes: $("aiSyllabusNotes").value.trim(),
+    chapterCount: Number($("aiChapterCount").value),
+    lessonsPerChapter: Number($("aiLessonsPerChapter").value),
+    mcqsPerChapter: Number($("aiMcqsPerChapter").value)
+   };
+   if (!payload.className || !payload.subject || !payload.title || !payload.topic) {
+    throw new Error("Class, subject, course title aur topic/outline fill karein.");
+   }
+   button.disabled = true;
+   output.textContent = "Gemini AI draft tayyar kar raha hai. Please wait…";
+   const functions = getFunctions(window.ZeerozFirebase.app, "us-central1");
+   const generate = httpsCallable(functions, "generateCoursePackage", { timeout: 120000 });
+   const result = await generate(payload);
+   const packageText = JSON.stringify(result.data.coursePackage, null, 2);
+   $("coursePackage").value = packageText;
+   $("publishCoursePackage").disabled = true;
+   validatedCoursePackage = null;
+   $("coursePackagePreview").textContent = "AI draft loaded. Review the JSON, then tap Validate & preview. Publishing is a separate manual approval step.";
+   output.textContent = result.data.reviewNotice || "AI draft generated. Review before publishing.";
+   $("coursePackage").scrollIntoView({ behavior: "smooth", block: "center" });
+  } catch (error) {
+   console.error("AI course draft generation failed", error);
+   output.textContent = "AI draft error: " + (error.message || "Unknown error");
+  } finally {
+   button.disabled = false;
+  }
+ });
+}
