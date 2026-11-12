@@ -213,17 +213,43 @@ async function publishGitHubPackage(item) {
  }
  const courseRef = doc(db(),"courses",courseId);
  const existing = await getDoc(courseRef);
- if (existing.exists()) return {status:"already",title:existing.data().title||item.title||courseId};
  const response = await fetch(GITHUB_COURSE_BASE + item.path + "?v=" + encodeURIComponent(item.version||"1"),{cache:"no-store"});
  if (!response.ok) throw new Error("Could not download course package: "+item.path+" ("+response.status+")");
  const parsed = validateCoursePackage(await response.text());
  const p = parsed.package;
+ const version = String(item.version||"1");
+ if (existing.exists()) {
+  const old = existing.data();
+  if (String(old.sourceVersion||"") === version && old.sourcePackageId === courseId) {
+   return {status:"already",title:old.title||p.title};
+  }
+  if ((old.title||"").trim().toLowerCase() !== p.title.trim().toLowerCase()) {
+   return {status:"duplicate",title:p.title};
+  }
+ }
  const allCourses = await getDocs(collection(db(),"courses"));
- if (allCourses.docs.some(d=>(d.data().title||"").trim().toLowerCase()===p.title.trim().toLowerCase())) {
+ if (allCourses.docs.some(d=>d.id!==courseId&&(d.data().title||"").trim().toLowerCase()===p.title.trim().toLowerCase())) {
   return {status:"duplicate",title:p.title};
  }
  const batch=writeBatch(db()),uid=window.ZeerozFirebase.auth.currentUser.uid,stamp=serverTimestamp();
- batch.set(courseRef,{title:p.title.trim(),description:p.description.trim(),published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+ if(existing.exists()){
+  const oldChapters=await getDocs(collection(db(),"courses",courseId,"chapters"));
+  for(const oldChapter of oldChapters.docs){
+   const [oldLessons,oldQuestions]=await Promise.all([
+    getDocs(collection(db(),"courses",courseId,"chapters",oldChapter.id,"lessons")),
+    getDocs(collection(db(),"courses",courseId,"chapters",oldChapter.id,"questions"))
+   ]);
+   oldLessons.docs.forEach(d=>batch.delete(d.ref));
+   oldQuestions.docs.forEach(d=>batch.delete(d.ref));
+   batch.delete(oldChapter.ref);
+  }
+ }
+ batch.set(courseRef,{
+  title:p.title.trim(),description:p.description.trim(),published:true,
+  createdAt:existing.exists()?(existing.data().createdAt||stamp):stamp,
+  updatedAt:stamp,createdBy:existing.exists()?(existing.data().createdBy||uid):uid,
+  sourcePackageId:courseId,sourceVersion:version
+ });
  p.chapters.forEach((chapter,ci)=>{
   const chapterRef=doc(collection(db(),"courses",courseId,"chapters"));
   batch.set(chapterRef,{title:chapter.title.trim(),description:(chapter.description||"").trim(),order:ci+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
@@ -236,8 +262,9 @@ async function publishGitHubPackage(item) {
    batch.set(questionRef,{question:q.question.trim(),options:{A:q.options.A.trim(),B:q.options.B.trim(),C:q.options.C.trim(),D:q.options.D.trim()},correctOption:q.correctOption,explanation:(q.explanation||"").trim(),order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
   });
  });
+ if(parsed.writes + (existing.exists()?parsed.writes:0) > 450) throw new Error("Course refresh is larger than the safe Firestore batch limit.");
  await batch.commit();
- return {status:"published",title:p.title};
+ return {status:existing.exists()?"updated":"published",title:p.title};
 }
 
 async function syncGitHubCourses() {
@@ -252,17 +279,18 @@ async function syncGitHubCourses() {
   const index=await response.json();
   if(index.schemaVersion!==1 || !Array.isArray(index.packages))throw new Error("GitHub course index format invalid hai.");
   if(!index.packages.length){out.textContent="GitHub sync ready hai. Abhi repository mein koi course package listed nahi; naya package aate hi auto-publish hoga.";return}
-  let published=0,already=0,duplicates=0,failed=[];
+  let published=0,updated=0,already=0,duplicates=0,failed=[];
   for(const item of index.packages){
    try{
     const result=await publishGitHubPackage(item);
     if(result.status==="published")published++;
+    else if(result.status==="updated")updated++;
     else if(result.status==="already")already++;
     else duplicates++;
    }catch(error){failed.push((item.title||item.id||"Course")+": "+error.message)}
   }
   await loadCourses();await loadManagedCourses();
-  out.textContent="GitHub sync complete — "+published+" new course(s) published, "+already+" already imported, "+duplicates+" duplicate title(s) skipped."+(failed.length?" Errors: "+failed.join(" | "):"");
+  out.textContent="GitHub sync complete — "+published+" new course(s) published, "+updated+" existing course(s) refreshed, "+already+" unchanged, "+duplicates+" duplicate title(s) skipped."+(failed.length?" Errors: "+failed.join(" | "):"");
  } catch(error) {
   out.textContent="GitHub sync issue: "+error.message+" Existing courses are safe; press Sync now to retry.";
  } finally {
