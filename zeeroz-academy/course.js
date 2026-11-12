@@ -71,12 +71,12 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
    const chapter=chapters[i];
    const lessonSnap=await getDocs(query(collection(db(),"courses",id,"chapters",chapter.id,"lessons"),where("published","==",true)));
    const lessons=lessonSnap.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.order||0)-(b.order||0));
-   lessonTotal+=lessons.length;prepared.push({chapter,lessons});
+   lessonTotal+=lessons.length;prepared.push({chapter,lessons,written});
   }
   const stats=node("div","course-stats");
   [["CHAPTERS",chapters.length],["LESSONS",lessonTotal],["YOUR STUDY SPACE","Ready"]].forEach(([label,value])=>{const box=node("div","course-stat");box.append(node("span","",label),node("strong","",String(value)));stats.append(box)});
   host.append(stats);
-  prepared.forEach(({chapter,lessons},i)=>{
+  prepared.forEach(({chapter,lessons,written},i)=>{
    const card=node("article","chapter");
    const top=node("div","chapter-top");
    top.append(node("span","chapter-number","CHAPTER "+String(chapter.order||i+1).padStart(2,"0")),node("span","chapter-count",lessons.length+" learning "+(lessons.length===1?"lesson":"lessons")));
