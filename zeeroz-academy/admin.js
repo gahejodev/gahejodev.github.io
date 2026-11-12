@@ -5,7 +5,7 @@ function status(message){$("status").textContent=message}
 function fillCourseSelects(){["chapterCourse","lessonCourse","questionCourse"].forEach(id=>{const s=$(id);s.replaceChildren(new Option("Choose a course",""));courses.forEach(c=>s.add(new Option(c.title,c.id)))})}
 async function loadCourses(){const snap=await getDocs(collection(db(),"courses"));courses=snap.docs.map(d=>({id:d.id,...d.data()})).filter(c=>c.published===true).sort((a,b)=>(a.title||"").localeCompare(b.title||""));fillCourseSelects()}
 async function loadChapters(courseId){const s=$("lessonChapter");s.replaceChildren(new Option(courseId?"Choose a chapter":"Choose a course first",""));if(!courseId)return;const snap=await getDocs(collection(db(),"courses",courseId,"chapters"));snap.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.order||0)-(b.order||0)).forEach(c=>s.add(new Option(c.title,c.id)))}
-onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{if(!user){location.href="./student-login.html";return}const token=await user.getIdTokenResult(true);if(token.claims.admin!==true){document.body.innerHTML="<main style='font:16px system-ui;max-width:600px;margin:12vh auto;padding:24px'><h1>Access denied</h1><p>This account is not authorised as an Academy administrator.</p><a href='./student-dashboard.html'>Return to Student Desk</a></main>";return}allowed=true;try{await loadCourses();await loadAssessments()}catch(e){status("Could not load admin data: "+e.message)}});
+onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{if(!user){location.href="./student-login.html";return}const token=await user.getIdTokenResult(true);if(token.claims.admin!==true){document.body.innerHTML="<main style='font:16px system-ui;max-width:600px;margin:12vh auto;padding:24px'><h1>Access denied</h1><p>This account is not authorised as an Academy administrator.</p><a href='./student-dashboard.html'>Return to Student Desk</a></main>";return}allowed=true;try{await loadCourses();await loadAssessments();await loadManagedCourses();await syncGitHubCourses()}catch(e){status("Could not load admin data: "+e.message)}});
 $("logout").addEventListener("click",async()=>{await signOut(window.ZeerozFirebase.auth);location.href="./student-login.html"});
 async function publish(name,data){if(!allowed)throw new Error("Administrator permission is required.");await addDoc(collection(db(),name),{...data,published:true,createdAt:serverTimestamp(),updatedAt:serverTimestamp(),createdBy:window.ZeerozFirebase.auth.currentUser.uid});status("Published successfully.")}
 $("courseForm").addEventListener("submit",async e=>{e.preventDefault();try{await publish("courses",{title:$("courseTitle").value.trim(),description:$("courseDescription").value.trim()});e.target.reset();await loadCourses()}catch(err){status(err.message)}});
@@ -36,7 +36,7 @@ $("questionForm").addEventListener("submit",async e=>{
  }catch(err){status(err.message)}
 });
 
-import { updateDoc, doc, setDoc, writeBatch } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+import { updateDoc, doc, setDoc, writeBatch, getDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 let assessments=[];
 async function loadAssessments(){
  const snap=await getDocs(collection(db(),"assessments"));
@@ -112,6 +112,7 @@ $("publishCoursePackage").addEventListener("click",async()=>{
   $("coursePackagePreview").textContent="Published successfully: "+p.title+". Course, chapters, lessons and MCQs are now in Firestore.";
   $("coursePackage").value="";validatedCoursePackage=null;
   await loadCourses();
+  await loadManagedCourses();
   status("Complete course package published successfully.");
  }catch(e){$("coursePackagePreview").textContent="Publish failed: "+e.message;status(e.message);button.disabled=!validatedCoursePackage}
 });
@@ -190,3 +191,106 @@ if (copyAiPromptButton) copyAiPromptButton.addEventListener("click", async () =>
   $("aiCourseStatus").textContent = "Auto-copy unavailable. Prompt select ho gaya hai; Copy command use karein.";
  }
 });
+
+
+// GitHub -> Firebase automatic course publisher.
+// Public GitHub files are read-only source material; Firestore writes use the signed-in
+// administrator's Firebase Auth token and existing admin-only Firestore rules.
+const GITHUB_COURSE_INDEX = "https://raw.githubusercontent.com/gahejodev/zeeroz-academy-source/main/zeeroz-academy/content/courses/index.json";
+const GITHUB_COURSE_BASE = "https://raw.githubusercontent.com/gahejodev/zeeroz-academy-source/main/";
+let githubSyncRunning = false;
+
+function safeCourseId(value) {
+ const id = String(value || "").toLowerCase().replace(/[^a-z0-9-]+/g,"-").replace(/-+/g,"-").replace(/^-|-$/g,"");
+ if (!/^[a-z0-9][a-z0-9-]{1,79}$/.test(id)) throw new Error("GitHub course index contains an invalid course id.");
+ return id;
+}
+
+async function publishGitHubPackage(item) {
+ const courseId = safeCourseId(item.id);
+ if (typeof item.path !== "string" || !item.path.startsWith("zeeroz-academy/content/courses/") || !item.path.endsWith(".json") || item.path.includes("..")) {
+  throw new Error("GitHub course index contains an unsafe package path.");
+ }
+ const courseRef = doc(db(),"courses",courseId);
+ const existing = await getDoc(courseRef);
+ if (existing.exists()) return {status:"already",title:existing.data().title||item.title||courseId};
+ const response = await fetch(GITHUB_COURSE_BASE + item.path + "?v=" + encodeURIComponent(item.version||"1"),{cache:"no-store"});
+ if (!response.ok) throw new Error("Could not download course package: "+item.path+" ("+response.status+")");
+ const parsed = validateCoursePackage(await response.text());
+ const p = parsed.package;
+ const allCourses = await getDocs(collection(db(),"courses"));
+ if (allCourses.docs.some(d=>(d.data().title||"").trim().toLowerCase()===p.title.trim().toLowerCase())) {
+  return {status:"duplicate",title:p.title};
+ }
+ const batch=writeBatch(db()),uid=window.ZeerozFirebase.auth.currentUser.uid,stamp=serverTimestamp();
+ batch.set(courseRef,{title:p.title.trim(),description:p.description.trim(),published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+ p.chapters.forEach((chapter,ci)=>{
+  const chapterRef=doc(collection(db(),"courses",courseId,"chapters"));
+  batch.set(chapterRef,{title:chapter.title.trim(),description:(chapter.description||"").trim(),order:ci+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+  (chapter.lessons||[]).forEach((lesson,li)=>{
+   const lessonRef=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"lessons"));
+   batch.set(lessonRef,{title:lesson.title.trim(),type:lesson.type||"text",content:lesson.content.trim(),order:li+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+  });
+  (chapter.questions||[]).forEach((q,qi)=>{
+   const questionRef=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"questions"));
+   batch.set(questionRef,{question:q.question.trim(),options:{A:q.options.A.trim(),B:q.options.B.trim(),C:q.options.C.trim(),D:q.options.D.trim()},correctOption:q.correctOption,explanation:(q.explanation||"").trim(),order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+  });
+ });
+ await batch.commit();
+ return {status:"published",title:p.title};
+}
+
+async function syncGitHubCourses() {
+ const out=$("githubSyncStatus");
+ if (!out || !allowed || githubSyncRunning) return;
+ githubSyncRunning=true;
+ const button=$("syncGitHubCourses");if(button)button.disabled=true;
+ out.textContent="GitHub course index check ho raha hai…";
+ try {
+  const response=await fetch(GITHUB_COURSE_INDEX+"?t="+Date.now(),{cache:"no-store"});
+  if(!response.ok)throw new Error("Course index load nahi hua ("+response.status+").");
+  const index=await response.json();
+  if(index.schemaVersion!==1 || !Array.isArray(index.packages))throw new Error("GitHub course index format invalid hai.");
+  if(!index.packages.length){out.textContent="GitHub sync ready hai. Abhi repository mein koi course package listed nahi; naya package aate hi auto-publish hoga.";return}
+  let published=0,already=0,duplicates=0,failed=[];
+  for(const item of index.packages){
+   try{
+    const result=await publishGitHubPackage(item);
+    if(result.status==="published")published++;
+    else if(result.status==="already")already++;
+    else duplicates++;
+   }catch(error){failed.push((item.title||item.id||"Course")+": "+error.message)}
+  }
+  await loadCourses();await loadManagedCourses();
+  out.textContent="GitHub sync complete — "+published+" new course(s) published, "+already+" already imported, "+duplicates+" duplicate title(s) skipped."+(failed.length?" Errors: "+failed.join(" | "):"");
+ } catch(error) {
+  out.textContent="GitHub sync issue: "+error.message+" Existing courses are safe; press Sync now to retry.";
+ } finally {
+  githubSyncRunning=false;if(button)button.disabled=false;
+ }
+}
+const syncButton=$("syncGitHubCourses");
+if(syncButton)syncButton.addEventListener("click",syncGitHubCourses);
+
+// Administrator course review and maintenance tools.
+async function loadManagedCourses() {
+ const host=$("courseManagementList");if(!host||!allowed)return;
+ const snap=await getDocs(collection(db(),"courses"));
+ const items=snap.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.title||"").localeCompare(b.title||""));
+ host.replaceChildren();
+ if(!items.length){host.textContent="Abhi koi course nahi hai.";return}
+ items.forEach(course=>{
+  const card=document.createElement("article");card.style.cssText="border:1px solid #e5eaf4;border-radius:12px;padding:14px;margin:10px 0;background:#fbfcff";
+  const title=document.createElement("input");title.value=course.title||"";title.maxLength=120;title.setAttribute("aria-label","Course title");
+  const description=document.createElement("textarea");description.value=course.description||"";description.maxLength=1200;description.rows=2;description.setAttribute("aria-label","Course description");
+  const meta=document.createElement("p");meta.className="hint";meta.textContent=(course.published?"Visible to students":"Hidden from students")+" · ID: "+course.id;
+  const actions=document.createElement("div");actions.style.cssText="display:flex;gap:8px;flex-wrap:wrap";
+  const save=document.createElement("button");save.className="btn";save.textContent="Save changes";
+  save.addEventListener("click",async()=>{try{if(!title.value.trim()||!description.value.trim())throw new Error("Title aur description khali nahi ho sakte.");await updateDoc(doc(db(),"courses",course.id),{title:title.value.trim(),description:description.value.trim(),updatedAt:serverTimestamp()});status("Course updated.");await loadCourses();await loadManagedCourses()}catch(e){status("Update failed: "+e.message)}});
+  const visibility=document.createElement("button");visibility.className="btn";visibility.textContent=course.published?"Hide from students":"Publish to students";
+  visibility.addEventListener("click",async()=>{try{await updateDoc(doc(db(),"courses",course.id),{published:!course.published,updatedAt:serverTimestamp()});status(course.published?"Course hidden from students.":"Course published to students.");await loadCourses();await loadManagedCourses()}catch(e){status("Status update failed: "+e.message)}});
+  const remove=document.createElement("button");remove.className="btn";remove.style.background="#a83232";remove.textContent="Delete course";
+  remove.addEventListener("click",async()=>{if(!window.confirm("Permanently delete "+(course.title||"this course")+" and all its chapters, lessons and MCQs?"))return;remove.disabled=true;try{const refs=[];const chapters=await getDocs(collection(db(),"courses",course.id,"chapters"));for(const ch of chapters.docs){const [lessons,questions]=await Promise.all([getDocs(collection(db(),"courses",course.id,"chapters",ch.id,"lessons")),getDocs(collection(db(),"courses",course.id,"chapters",ch.id,"questions"))]);lessons.docs.forEach(d=>refs.push(d.ref));questions.docs.forEach(d=>refs.push(d.ref));refs.push(ch.ref)}refs.push(doc(db(),"courses",course.id));for(let i=0;i<refs.length;i+=400){const batch=writeBatch(db());refs.slice(i,i+400).forEach(ref=>batch.delete(ref));await batch.commit()}status("Course and all its content deleted.");await loadCourses();await loadManagedCourses()}catch(e){status("Delete failed: "+e.message);remove.disabled=false}});
+  actions.append(save,visibility,remove);card.append(title,description,meta,actions);host.append(card);
+ });
+}
