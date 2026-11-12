@@ -196,8 +196,8 @@ if (copyAiPromptButton) copyAiPromptButton.addEventListener("click", async () =>
 // GitHub -> Firebase automatic course publisher.
 // Public GitHub files are read-only source material; Firestore writes use the signed-in
 // administrator's Firebase Auth token and existing admin-only Firestore rules.
-const GITHUB_COURSE_INDEX = "https://raw.githubusercontent.com/gahejodev/zeeroz-academy-source/main/zeeroz-academy/content/courses/index.json";
-const GITHUB_COURSE_BASE = "https://raw.githubusercontent.com/gahejodev/zeeroz-academy-source/main/";
+const GITHUB_COURSE_INDEX = "https://gahejodev.github.io/zeeroz-academy/content/courses/index.json";
+const GITHUB_COURSE_BASE = "https://gahejodev.github.io/";
 let githubSyncRunning = false;
 
 function safeCourseId(value) {
