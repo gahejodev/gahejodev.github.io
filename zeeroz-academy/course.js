@@ -71,8 +71,6 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
    const chapter=chapters[i];
    const lessonSnap=await getDocs(query(collection(db(),"courses",id,"chapters",chapter.id,"lessons"),where("published","==",true)));
    const lessons=lessonSnap.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.order||0)-(b.order||0));
-   const writtenSnap=await getDocs(query(collection(db(),"courses",id,"chapters",chapter.id,"writtenQuestions"),where("published","==",true)));
-   const written=writtenSnap.docs.map(d=>d.data()).sort((a,b)=>(a.order||0)-(b.order||0));
    lessonTotal+=lessons.length;prepared.push({chapter,lessons,written});
   }
   const stats=node("div","course-stats");
