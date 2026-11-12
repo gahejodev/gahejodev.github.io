@@ -208,7 +208,7 @@ function safeCourseId(value) {
 
 async function publishGitHubPackage(item) {
  const courseId = safeCourseId(item.id);
- if (typeof item.path !== "string" || !item.path.startsWith("zeeroz-academy/content/courses/") || !item.path.endsWith(".json") || item.path.includes("..")) {
+ if (typeof item.path !== "string" || !/^zeeroz-academy\/content\/courses\/[a-z0-9-]+\.json$/.test(item.path)) {
   throw new Error("GitHub course index contains an unsafe package path.");
  }
  const courseRef = doc(db(),"courses",courseId);
