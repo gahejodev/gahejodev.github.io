@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Course Details | Zeeroz Academy</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f7fc;color:#17213b;font-family:Inter,system-ui,Arial}
+.top{background:#101b3d;color:#fff;padding:20px 5%;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.wrap{width:min(850px,92%);margin:35px auto}.panel{background:#fff;border:1px solid #e5eaf4;border-radius:18px;padding:26px;box-shadow:0 8px 28px #17213b0b}
+.muted{color:#65718a;line-height:1.7}.btn{display:inline-block;border:0;background:#3157d5;color:white;padding:11px 16px;border-radius:10px;font-weight:800;text-decoration:none;cursor:pointer}
+h1{margin:12px 0;color:#101b3d}.tag{display:inline-block;background:#eaf0ff;color:#3157d5;padding:6px 10px;border-radius:20px;font-size:12px;font-weight:800}
+.section{margin-top:24px;padding-top:20px;border-top:1px solid #e5eaf4}
+</style>
+</head>
+<body>
+<header class="top"><strong>ZEEROZ ACADEMY · COURSE</strong><a class="btn" href="./student-dashboard.html">Back to Dashboard</a></header>
+<main class="wrap"><section class="panel">
+<span class="tag">PUBLISHED COURSE</span>
+<h1 id="courseTitle">Loading course…</h1>
+<p id="courseDescription" class="muted">Please wait while course details load.</p>
+<div class="section"><h2>Course learning content</h2><p id="courseStatus" class="muted">Course details are loading…</p></div>
+</section></main>
+<script type="module" src="./firebase-init.js"></script>
+<script type="module" src="./course.js"></script>
+</body></html>
