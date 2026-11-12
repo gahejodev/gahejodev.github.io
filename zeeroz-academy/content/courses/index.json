@@ -1,5 +1,12 @@
 {
   "schemaVersion": 1,
   "description": "Zeeroz Academy course package registry. New packages listed here are automatically imported into Firebase when an authorised administrator opens the Admin Console.",
-  "packages": []
+  "packages": [
+    {
+      "id": "biology-ix-chapter-1-introduction",
+      "title": "Biology IX — Chapter 1: Introduction to Biology",
+      "path": "zeeroz-academy/content/courses/biology-ix-chapter-1-introduction.json",
+      "version": "1"
+    }
+  ]
 }

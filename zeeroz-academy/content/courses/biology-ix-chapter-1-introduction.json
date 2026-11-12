@@ -1,0 +1,161 @@
+{
+  "title": "Biology IX — Chapter 1: Introduction to Biology",
+  "description": "Sindh Board Class IX Biology learning unit covering the meaning and scope of biology, major branches, and relationships between biology and other sciences. Original explanatory notes and practice MCQs.",
+  "chapters": [
+    {
+      "title": "Chapter 1: Introduction to Biology",
+      "description": "Understand biology as the scientific study of life, explore its major branches, and explain how biology connects with other fields of science.",
+      "lessons": [
+        {
+          "title": "1.1 Meaning, Scope and Importance of Biology",
+          "type": "text",
+          "content": "## Learning outcomes\nBy the end of this lesson, you should be able to define biology, identify its subject matter, and explain why the study of living organisms matters.\n\n## What is Biology?\nBiology is the scientific study of life and living organisms. The word is formed from two Greek roots: bios, meaning life, and logos, meaning study or knowledge. Biology investigates living things, their structures, functions, growth, reproduction, inheritance, evolution, interactions and relationships with their environment.\n\nLiving organisms include bacteria, fungi, plants and animals. They vary greatly in size and complexity, but all are studied using evidence, observation and scientific reasoning.\n\n## Why study biology?\nBiology helps us understand our own bodies, health and nutrition; improve agriculture and food production; understand diseases and their prevention; protect biodiversity; and make informed decisions about environmental issues. Biological knowledge is important in medicine, public health, biotechnology, conservation and many everyday choices.\n\n## Biology is evidence-based\nBiologists ask questions, make observations, collect data and test explanations. A scientific explanation must be supported by evidence and can be revised when stronger evidence becomes available.\n\n## Key terms\n- **Organism:** an individual living thing.\n- **Biodiversity:** the variety of living organisms in an area or on Earth.\n- **Environment:** the living and non-living surroundings of an organism.\n- **Scientific evidence:** observations or data used to support or evaluate an explanation.\n\n## Check your understanding\nExplain in your own words how biology can help a farmer, a doctor and a conservation worker."
+        },
+        {
+          "title": "1.2 Major Branches of Biology",
+          "type": "text",
+          "content": "## Learning outcomes\nIdentify important branches of biology and match each branch with the type of questions it investigates.\n\nBiology is a broad subject. Scientists specialise in different areas so that living systems can be studied in detail.\n\n- **Botany:** study of plants, including their structure, growth, reproduction and classification.\n- **Zoology:** study of animals, including their structure, behaviour, development and diversity.\n- **Microbiology:** study of microscopic organisms and other microscopic biological agents, including bacteria and many fungi and protists.\n- **Anatomy:** study of the internal structure of organisms.\n- **Morphology:** study of the external form and structural features of organisms.\n- **Physiology:** study of how body parts and organisms function.\n- **Cell biology:** study of cells, their structures and activities.\n- **Genetics:** study of heredity and variation.\n- **Ecology:** study of relationships among organisms and between organisms and their environment.\n- **Taxonomy:** identification, naming and classification of organisms.\n- **Embryology:** study of development of an organism from the earliest stages.\n- **Palaeontology:** study of ancient life through fossils.\n\n## Applying the branches\nA scientist investigating how a plant makes food may use plant physiology. A scientist identifying an unknown insect may use zoology and taxonomy. A scientist studying how traits pass from parents to offspring may work in genetics.\n\nBranches often overlap. A study of how pollution affects fish populations may involve zoology, physiology and ecology together.\n\n## Key distinction\nA branch is a specialised area of biology; it is not a separate kind of living organism. Several branches may be used to investigate one biological problem."
+        },
+        {
+          "title": "1.3 Relationship of Biology with Other Sciences",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe how biology combines with chemistry, physics, mathematics, computer science and geography to answer scientific questions.\n\nModern scientific problems often need knowledge from more than one subject. Biology therefore connects closely with other sciences.\n\n- **Biochemistry (biology + chemistry):** explains the chemical substances and reactions in living organisms, such as digestion and cellular respiration.\n- **Biophysics (biology + physics):** applies physical principles to living systems, such as movement, hearing, vision and the flow of blood.\n- **Biometry / Biostatistics (biology + mathematics and statistics):** uses measurement and statistical methods to analyse biological data, such as population size or the results of a health study.\n- **Bioinformatics (biology + computing and information science):** uses computers and data-analysis methods to organise and study biological information, including DNA sequences.\n- **Biogeography (biology + geography):** studies the distribution of organisms across different places and how environmental and historical factors influence that distribution.\n- **Biotechnology:** uses organisms, cells or biological processes to develop useful products and processes; it draws on biology, chemistry and engineering.\n\n## Examples from daily life\nA medical laboratory may use chemistry to measure substances in blood. A sports scientist may use physics to study forces acting on the body. Conservation researchers may combine biological surveys with maps and statistical analysis to plan habitat protection.\n\n## Remember\nThe names of interdisciplinary fields often indicate the subjects they combine. For example, biochemistry connects biology with chemistry. The combined approach helps scientists understand complex questions more completely.\n\n## Review activity\nChoose one local issue—such as crop disease, clean drinking water or loss of trees. Write two questions about it and identify which branches of biology and other sciences could help investigate them."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Biology is best defined as the scientific study of:",
+          "options": {
+            "A": "Rocks and minerals",
+            "B": "Life and living organisms",
+            "C": "Weather and climate only",
+            "D": "Stars and planets"
+          },
+          "correctOption": "B",
+          "explanation": "Biology investigates living organisms and life processes."
+        },
+        {
+          "question": "Which Greek root is associated with the meaning 'life' in the word biology?",
+          "options": {
+            "A": "Logos",
+            "B": "Geo",
+            "C": "Bios",
+            "D": "Hydro"
+          },
+          "correctOption": "C",
+          "explanation": "Bios means life; logos means study or knowledge."
+        },
+        {
+          "question": "The branch of biology that studies plants is:",
+          "options": {
+            "A": "Zoology",
+            "B": "Botany",
+            "C": "Ecology",
+            "D": "Anatomy"
+          },
+          "correctOption": "B",
+          "explanation": "Botany is the scientific study of plants."
+        },
+        {
+          "question": "A scientist studying the behaviour and structure of animals is mainly working in:",
+          "options": {
+            "A": "Zoology",
+            "B": "Botany",
+            "C": "Biochemistry",
+            "D": "Palaeontology"
+          },
+          "correctOption": "A",
+          "explanation": "Zoology focuses on animals, including their structure and behaviour."
+        },
+        {
+          "question": "Which branch studies heredity and variation?",
+          "options": {
+            "A": "Taxonomy",
+            "B": "Morphology",
+            "C": "Genetics",
+            "D": "Embryology"
+          },
+          "correctOption": "C",
+          "explanation": "Genetics investigates inheritance and variation."
+        },
+        {
+          "question": "The study of relationships between organisms and their environment is called:",
+          "options": {
+            "A": "Ecology",
+            "B": "Anatomy",
+            "C": "Physiology",
+            "D": "Cytology"
+          },
+          "correctOption": "A",
+          "explanation": "Ecology examines interactions among organisms and with their environment."
+        },
+        {
+          "question": "Which branch is most directly concerned with naming and classifying organisms?",
+          "options": {
+            "A": "Physiology",
+            "B": "Taxonomy",
+            "C": "Embryology",
+            "D": "Biophysics"
+          },
+          "correctOption": "B",
+          "explanation": "Taxonomy deals with identification, naming and classification."
+        },
+        {
+          "question": "Biochemistry combines biology with:",
+          "options": {
+            "A": "Geography",
+            "B": "Physics",
+            "C": "Chemistry",
+            "D": "Astronomy"
+          },
+          "correctOption": "C",
+          "explanation": "Biochemistry studies chemical substances and reactions in living organisms."
+        },
+        {
+          "question": "Using physical principles to understand blood flow is an example of:",
+          "options": {
+            "A": "Biophysics",
+            "B": "Botany",
+            "C": "Taxonomy",
+            "D": "Palaeontology"
+          },
+          "correctOption": "A",
+          "explanation": "Biophysics applies physics to biological systems, including circulation."
+        },
+        {
+          "question": "A researcher uses statistical methods to compare the growth of two plant groups. Which combined field is especially relevant?",
+          "options": {
+            "A": "Biometry",
+            "B": "Embryology",
+            "C": "Zoology",
+            "D": "Morphology"
+          },
+          "correctOption": "A",
+          "explanation": "Biometry or biostatistics applies mathematical and statistical methods to biological data."
+        },
+        {
+          "question": "The use of computer methods to analyse DNA sequence information is associated with:",
+          "options": {
+            "A": "Biogeography",
+            "B": "Bioinformatics",
+            "C": "Anatomy",
+            "D": "Botany only"
+          },
+          "correctOption": "B",
+          "explanation": "Bioinformatics uses computing and data analysis to study biological information."
+        },
+        {
+          "question": "Why do scientists combine biology with other sciences?",
+          "options": {
+            "A": "Because biological questions are always simple",
+            "B": "To avoid collecting evidence",
+            "C": "Because many real-world problems require knowledge from several fields",
+            "D": "To replace observation with guesses"
+          },
+          "correctOption": "C",
+          "explanation": "Interdisciplinary approaches help investigate complex biological problems more completely."
+        }
+      ]
+    }
+  ]
+}
