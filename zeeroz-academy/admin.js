@@ -1,5 +1,4 @@
 import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
-import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-functions.js";
 import { addDoc, collection, getDocs, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 const $=id=>document.getElementById(id);let allowed=false;let courses=[];const db=()=>window.ZeerozFirebase.db;
 function status(message){$("status").textContent=message}
@@ -120,41 +119,74 @@ $("publishCoursePackage").addEventListener("click",async()=>{
 
 const generateAiCourseButton = $("generateAiCourse");
 if (generateAiCourseButton) {
- generateAiCourseButton.addEventListener("click", async () => {
+ generateAiCourseButton.addEventListener("click", () => {
   const output = $("aiCourseStatus");
-  const button = generateAiCourseButton;
   try {
    if (!allowed) throw new Error("Administrator permission is required.");
-   const payload = {
-    className: $("aiClass").value.trim(),
-    subject: $("aiSubject").value.trim(),
-    title: $("aiTitle").value.trim(),
-    topic: $("aiTopic").value.trim(),
-    syllabusNotes: $("aiSyllabusNotes").value.trim(),
-    chapterCount: Number($("aiChapterCount").value),
-    lessonsPerChapter: Number($("aiLessonsPerChapter").value),
-    mcqsPerChapter: Number($("aiMcqsPerChapter").value)
-   };
-   if (!payload.className || !payload.subject || !payload.title || !payload.topic) {
-    throw new Error("Class, subject, course title aur topic/outline fill karein.");
-   }
-   button.disabled = true;
-   output.textContent = "Gemini AI draft tayyar kar raha hai. Please wait…";
-   const functions = getFunctions(window.ZeerozFirebase.app, "us-central1");
-   const generate = httpsCallable(functions, "generateCoursePackage", { timeout: 120000 });
-   const result = await generate(payload);
-   const packageText = JSON.stringify(result.data.coursePackage, null, 2);
-   $("coursePackage").value = packageText;
-   $("publishCoursePackage").disabled = true;
-   validatedCoursePackage = null;
-   $("coursePackagePreview").textContent = "AI draft loaded. Review the JSON, then tap Validate & preview. Publishing is a separate manual approval step.";
-   output.textContent = result.data.reviewNotice || "AI draft generated. Review before publishing.";
-   $("coursePackage").scrollIntoView({ behavior: "smooth", block: "center" });
+   const className = $("aiClass").value.trim();
+   const subject = $("aiSubject").value.trim();
+   const title = $("aiTitle").value.trim();
+   const topic = $("aiTopic").value.trim();
+   const syllabusNotes = $("aiSyllabusNotes").value.trim();
+   const chapters = Math.min(5, Math.max(1, Number($("aiChapterCount").value) || 1));
+   const lessons = Math.min(4, Math.max(1, Number($("aiLessonsPerChapter").value) || 2));
+   const mcqs = Math.min(8, Math.max(1, Number($("aiMcqsPerChapter").value) || 5));
+   if (!className || !subject || !title || !topic) throw new Error("Class, subject, course title aur topic/outline fill karein.");
+   const prompt = `Act as an expert Pakistan/Sindh school curriculum teacher and assessment designer. Create an original course package as STRICT JSON only for the Zeeroz Academy admin importer.
+
+CLASS: ${className}
+SUBJECT: ${subject}
+COURSE TITLE: ${title}
+TOPICS / CHAPTER OUTLINE: ${topic}
+OFFICIAL SYLLABUS NOTES: ${syllabusNotes || "Not supplied. Do not claim verified official syllabus alignment. Stay within the given topics."}
+
+REQUIREMENTS:
+- Create exactly ${chapters} chapter(s).
+- Each chapter must contain exactly ${lessons} original text lesson(s) and exactly ${mcqs} MCQs.
+- Lessons must be age-appropriate, clear, accurate, detailed enough to teach the topic, and include examples and key terms.
+- MCQs must have four plausible options A-D, one correctOption, and a short explanation.
+- Do not fabricate official references, textbook page numbers, source URLs, or quotations. If facts are uncertain, say so.
+- Use original wording. Do not reproduce copyrighted textbook passages.
+- Return valid JSON only: no markdown fences, no introduction, no trailing comments.
+- Match this exact schema:
+{
+  "title": "string",
+  "description": "string",
+  "chapters": [
+    {
+      "title": "string",
+      "description": "string",
+      "lessons": [
+        {"title": "string", "type": "text", "content": "string"}
+      ],
+      "questions": [
+        {
+          "question": "string",
+          "options": {"A": "string", "B": "string", "C": "string", "D": "string"},
+          "correctOption": "A",
+          "explanation": "string"
+        }
+      ]
+    }
+  ]
+}
+Ensure all JSON strings are correctly escaped and the response can be parsed by JSON.parse().`;
+   $("aiPromptOutput").value = prompt;
+   $("copyAiPrompt").disabled = false;
+   output.textContent = "Prompt tayyar hai. Copy karein, Gemini website par paste karein, phir uska JSON result Bulk course publisher mein paste karein.";
   } catch (error) {
-   console.error("AI course draft generation failed", error);
-   output.textContent = "AI draft error: " + (error.message || "Unknown error");
-  } finally {
-   button.disabled = false;
+   output.textContent = "Prompt error: " + error.message;
   }
  });
 }
+const copyAiPromptButton = $("copyAiPrompt");
+if (copyAiPromptButton) copyAiPromptButton.addEventListener("click", async () => {
+ try {
+  await navigator.clipboard.writeText($("aiPromptOutput").value);
+  $("aiCourseStatus").textContent = "Prompt copied. Ab Gemini open karke paste karein.";
+ } catch (error) {
+  $("aiPromptOutput").focus();
+  $("aiPromptOutput").select();
+  $("aiCourseStatus").textContent = "Auto-copy unavailable. Prompt select ho gaya hai; Copy command use karein.";
+ }
+});
