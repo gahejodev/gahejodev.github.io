@@ -36,7 +36,7 @@ $("questionForm").addEventListener("submit",async e=>{
  }catch(err){status(err.message)}
 });
 
-import { updateDoc, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+import { updateDoc, doc, setDoc, writeBatch } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 let assessments=[];
 async function loadAssessments(){
  const snap=await getDocs(collection(db(),"assessments"));
@@ -49,3 +49,68 @@ async function loadAssessments(){
 $("assessmentForm").addEventListener("submit",async e=>{e.preventDefault();try{if(!allowed)throw new Error("Administrator permission is required.");const duration=Number($("assessmentDuration").value);if(!Number.isInteger(duration)||duration<1||duration>240)throw new Error("Time limit must be 1–240 minutes.");await addDoc(collection(db(),"assessments"),{title:$("assessmentTitle").value.trim(),courseTitle:$("assessmentCourseTitle").value.trim(),durationMinutes:duration,instructions:$("assessmentInstructions").value.trim(),published:false,createdAt:serverTimestamp(),updatedAt:serverTimestamp(),createdBy:window.ZeerozFirebase.auth.currentUser.uid});e.target.reset();status("Draft assessment created. Now add its questions.");await loadAssessments()}catch(err){status(err.message)}});
 $("assessmentQuestionType").addEventListener("change",e=>{$("assessmentMcqFields").style.display=e.target.value==="mcq"?"block":"none"});
 $("assessmentQuestionForm").addEventListener("submit",async e=>{e.preventDefault();try{if(!allowed)throw new Error("Administrator permission is required.");const aid=$("assessmentSelect").value,type=$("assessmentQuestionType").value,marks=Number($("assessmentQuestionMarks").value);if(!aid)throw new Error("Select an assessment.");if(!Number.isInteger(marks)||marks<1)throw new Error("Enter valid marks.");const old=await getDocs(collection(db(),"assessments",aid,"questions"));const qref=doc(collection(db(),"assessments",aid,"questions"));const data={type,question:$("assessmentQuestionText").value.trim(),marks,order:old.size+1,createdAt:serverTimestamp()};if(type==="mcq"){const options={A:$("assessmentOptionA").value.trim(),B:$("assessmentOptionB").value.trim(),C:$("assessmentOptionC").value.trim(),D:$("assessmentOptionD").value.trim()};if(Object.values(options).some(x=>!x))throw new Error("Fill all four MCQ options.");data.options=options;await setDoc(doc(db(),"assessments",aid,"answerKeys",qref.id),{correctOption:$("assessmentCorrect").value,marks})}await setDoc(qref,data);e.target.reset();$("assessmentMcqFields").style.display="block";status("Assessment question added successfully.")}catch(err){status(err.message)}});
+
+let validatedCoursePackage=null;
+function validateCoursePackage(raw){
+ const p=JSON.parse(raw);
+ if(!p||typeof p!=="object"||!p.title||!p.description||!Array.isArray(p.chapters)||!p.chapters.length)throw new Error("Package must include title, description and at least one chapter.");
+ if(p.title.trim().length>120||p.description.trim().length>1200)throw new Error("Course title/description exceeds allowed length.");
+ let writes=1,lessons=0,questions=0;
+ p.chapters.forEach((c,i)=>{
+  if(!c.title||c.title.trim().length>160)throw new Error("Chapter "+(i+1)+" needs a valid title (maximum 160 characters).");
+  writes++;
+  (c.lessons||[]).forEach((l,j)=>{
+   if(!l.title||!l.content||!["text","video","pdf"].includes(l.type||"text"))throw new Error("Chapter "+(i+1)+", lesson "+(j+1)+" is incomplete or has an invalid type.");
+   if(l.title.trim().length>160||l.content.length>12000)throw new Error("Lesson title/content is too long.");
+   if((l.type==="video"||l.type==="pdf")&&!/^https:\/\//i.test(l.content))throw new Error("Video/PDF lesson links must use HTTPS.");
+   writes++;lessons++;
+  });
+  (c.questions||[]).forEach((q,j)=>{
+   if(!q.question||q.question.trim().length>1200||!q.options||!["A","B","C","D"].every(k=>typeof q.options[k]==="string"&&q.options[k].trim()))throw new Error("Chapter "+(i+1)+", MCQ "+(j+1)+" must include a question and four options.");
+   if(!["A","B","C","D"].includes(q.correctOption))throw new Error("Chapter "+(i+1)+", MCQ "+(j+1)+" has an invalid correctOption.");
+   writes++;questions++;
+  });
+ });
+ if(writes>450)throw new Error("This package contains "+writes+" records. Split it into smaller courses (maximum 450 records per import).");
+ return {package:p,writes,lessons,questions,chapters:p.chapters.length};
+}
+$("previewCoursePackage").addEventListener("click",()=>{
+ try{
+  if(!allowed)throw new Error("Administrator permission is required.");
+  validatedCoursePackage=validateCoursePackage($("coursePackage").value);
+  const x=validatedCoursePackage;
+  $("coursePackagePreview").textContent="Valid: "+x.package.title+" · "+x.chapters+" chapters · "+x.lessons+" lessons · "+x.questions+" MCQs · "+x.writes+" Firestore records. Existing courses will not be overwritten.";
+  $("publishCoursePackage").disabled=false;
+ }catch(e){validatedCoursePackage=null;$("publishCoursePackage").disabled=true;$("coursePackagePreview").textContent="Validation error: "+e.message}
+});
+$("coursePackage").addEventListener("input",()=>{$("publishCoursePackage").disabled=true;validatedCoursePackage=null;$("coursePackagePreview").textContent="Package changed. Validate it again before publishing."});
+$("publishCoursePackage").addEventListener("click",async()=>{
+ const button=$("publishCoursePackage");
+ try{
+  if(!allowed||!validatedCoursePackage)throw new Error("Validate a course package first.");
+  button.disabled=true;
+  const p=validatedCoursePackage.package;
+  const existing=await getDocs(collection(db(),"courses"));
+  if(existing.docs.some(d=>(d.data().title||"").trim().toLowerCase()===p.title.trim().toLowerCase()))throw new Error("A course with this title already exists. Nothing was changed.");
+  const batch=writeBatch(db()),uid=window.ZeerozFirebase.auth.currentUser.uid,stamp=serverTimestamp();
+  const courseRef=doc(collection(db(),"courses"));
+  batch.set(courseRef,{title:p.title.trim(),description:p.description.trim(),published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+  p.chapters.forEach((chapter,ci)=>{
+   const chapterRef=doc(collection(db(),"courses",courseRef.id,"chapters"));
+   batch.set(chapterRef,{title:chapter.title.trim(),description:(chapter.description||"").trim(),order:ci+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+   (chapter.lessons||[]).forEach((lesson,li)=>{
+    const lessonRef=doc(collection(db(),"courses",courseRef.id,"chapters",chapterRef.id,"lessons"));
+    batch.set(lessonRef,{title:lesson.title.trim(),type:lesson.type||"text",content:lesson.content.trim(),order:li+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+   });
+   (chapter.questions||[]).forEach((q,qi)=>{
+    const questionRef=doc(collection(db(),"courses",courseRef.id,"chapters",chapterRef.id,"questions"));
+    batch.set(questionRef,{question:q.question.trim(),options:{A:q.options.A.trim(),B:q.options.B.trim(),C:q.options.C.trim(),D:q.options.D.trim()},correctOption:q.correctOption,explanation:(q.explanation||"").trim(),order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+   });
+  });
+  await batch.commit();
+  $("coursePackagePreview").textContent="Published successfully: "+p.title+". Course, chapters, lessons and MCQs are now in Firestore.";
+  $("coursePackage").value="";validatedCoursePackage=null;
+  await loadCourses();
+  status("Complete course package published successfully.");
+ }catch(e){$("coursePackagePreview").textContent="Publish failed: "+e.message;status(e.message);button.disabled=!validatedCoursePackage}
+});
