@@ -58,7 +58,8 @@ footer{background:#0d1734;color:#dbe4ff;padding:24px 0;font-size:12px}footer a{c
    const registry=await response.json(),packages=Array.isArray(registry.packages)?registry.packages:[];
    const loaded=await Promise.all(packages.map(async item=>{
     try{
-     const path=String(item.path||'').replace(/^zeeroz-academy\\//,'./');
+     const rawPath=String(item.path||'');
+     const path=rawPath.startsWith('zeeroz-academy/')?'./'+rawPath.slice('zeeroz-academy/'.length):rawPath;
      const res=await fetch(path,{cache:'no-store'});if(!res.ok)throw new Error('package unavailable');
      const data=await res.json(),chapters=Array.isArray(data.chapters)?data.chapters:[];
      const levelName=classOf(item);if(!levelName)return null;
