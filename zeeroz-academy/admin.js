@@ -16,7 +16,7 @@ $("questionCourse").addEventListener("change",async e=>{try{await loadQuestionCh
 async function loadQuestionChapters(courseId){const s=$("questionChapter");s.replaceChildren(new Option(courseId?"Choose a chapter":"Choose a course first",""));if(!courseId)return;const snap=await getDocs(collection(db(),"courses",courseId,"chapters"));snap.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.order||0)-(b.order||0)).forEach(c=>s.add(new Option(c.title,c.id)))}
 
 $("chapterForm").addEventListener("submit",async e=>{e.preventDefault();try{if(!allowed)throw new Error("Administrator permission is required.");const id=$("chapterCourse").value;if(!id)throw new Error("Select a course.");const old=await getDocs(collection(db(),"courses",id,"chapters"));await addDoc(collection(db(),"courses",id,"chapters"),{title:$("chapterTitle").value.trim(),description:$("chapterDescription").value.trim(),order:old.size+1,published:true,createdAt:serverTimestamp(),updatedAt:serverTimestamp(),createdBy:window.ZeerozFirebase.auth.currentUser.uid});e.target.reset();status("Chapter saved successfully.");if($("lessonCourse").value===id)await loadChapters(id)}catch(err){status(err.message)}});
-$("lessonForm").addEventListener("submit",async e=>{e.preventDefault();try{if(!allowed)throw new Error("Administrator permission is required.");const courseId=$("lessonCourse").value,chapterId=$("lessonChapter").value,type=$("lessonType").value,content=$("lessonContent").value.trim();if(!courseId||!chapterId)throw new Error("Select a course and chapter.");if(type!=="text"&&!/^https:\/\//i.test(content))throw new Error("Video/PDF link must start with https://");const old=await getDocs(collection(db(),"courses",courseId,"chapters",chapterId,"lessons"));await addDoc(collection(db(),"courses",courseId,"chapters",chapterId,"lessons"),{title:$("lessonTitle").value.trim(),type,content,order:old.size+1,published:true,createdAt:serverTimestamp(),updatedAt:serverTimestamp(),createdBy:window.ZeerozFirebase.auth.currentUser.uid});e.target.reset();await loadChapters(courseId);status("Lesson saved successfully.")}catch(err){status(err.message)}});
+$("lessonForm").addEventListener("submit",async e=>{e.preventDefault();try{if(!allowed)throw new Error("Administrator permission is required.");const courseId=$("lessonCourse").value,chapterId=$("lessonChapter").value,type=$("lessonType").value,content=$("lessonContent").value.trim();if(!courseId||!chapterId)throw new Error("Select a course and chapter.");if(type!=="text"&&!/^https:\/\//i.test(content))throw new Error("Video/PDF link must start with https://");const old=await getDocs(collection(db(),"courses",courseId,"chapters",chapterId,"lessons"));const explanations={en:content,ur:$("lessonUrdu").value.trim(),sd:$("lessonSindhi").value.trim()};await addDoc(collection(db(),"courses",courseId,"chapters",chapterId,"lessons"),{title:$("lessonTitle").value.trim(),type,content,explanations,order:old.size+1,published:true,createdAt:serverTimestamp(),updatedAt:serverTimestamp(),createdBy:window.ZeerozFirebase.auth.currentUser.uid});e.target.reset();await loadChapters(courseId);status("Lesson saved successfully.")}catch(err){status(err.message)}});
 
 $("questionForm").addEventListener("submit",async e=>{
  e.preventDefault();
@@ -63,6 +63,7 @@ function validateCoursePackage(raw){
   (c.lessons||[]).forEach((l,j)=>{
    if(!l.title||!l.content||!["text","video","pdf"].includes(l.type||"text"))throw new Error("Chapter "+(i+1)+", lesson "+(j+1)+" is incomplete or has an invalid type.");
    if(l.title.trim().length>160||l.content.length>12000)throw new Error("Lesson title/content is too long.");
+   if(l.explanations!==undefined&&(!l.explanations||typeof l.explanations!=="object"||["ur","sd"].some(k=>l.explanations[k]!==undefined&&(typeof l.explanations[k]!=="string"||l.explanations[k].length>12000))))throw new Error("Lesson Urdu/Sindhi explanations must be text under 12,000 characters.");
    if((l.type==="video"||l.type==="pdf")&&!/^https:\/\//i.test(l.content))throw new Error("Video/PDF lesson links must use HTTPS.");
    writes++;lessons++;
   });
@@ -105,7 +106,7 @@ $("publishCoursePackage").addEventListener("click",async()=>{
    batch.set(chapterRef,{title:chapter.title.trim(),description:(chapter.description||"").trim(),order:ci+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
    (chapter.lessons||[]).forEach((lesson,li)=>{
     const lessonRef=doc(collection(db(),"courses",courseRef.id,"chapters",chapterRef.id,"lessons"));
-    batch.set(lessonRef,{title:lesson.title.trim(),type:lesson.type||"text",content:lesson.content.trim(),order:li+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+    batch.set(lessonRef,{title:lesson.title.trim(),type:lesson.type||"text",content:lesson.content.trim(),explanations:{en:lesson.content.trim(),ur:(lesson.explanations?.ur||"").trim(),sd:(lesson.explanations?.sd||"").trim()},order:li+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
    });
    (chapter.writtenQuestions||[]).forEach((q,qi)=>{
     const writtenRef=doc(collection(db(),"courses",courseRef.id,"chapters",chapterRef.id,"writtenQuestions"));
@@ -265,7 +266,7 @@ async function publishGitHubPackage(item) {
   batch.set(chapterRef,{title:chapter.title.trim(),description:(chapter.description||"").trim(),order:ci+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
   (chapter.lessons||[]).forEach((lesson,li)=>{
    const lessonRef=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"lessons"));
-   batch.set(lessonRef,{title:lesson.title.trim(),type:lesson.type||"text",content:lesson.content.trim(),order:li+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+   batch.set(lessonRef,{title:lesson.title.trim(),type:lesson.type||"text",content:lesson.content.trim(),explanations:{en:lesson.content.trim(),ur:(lesson.explanations?.ur||"").trim(),sd:(lesson.explanations?.sd||"").trim()},order:li+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
   });
   (chapter.writtenQuestions||[]).forEach((q,qi)=>{
    const writtenRef=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"writtenQuestions"));
