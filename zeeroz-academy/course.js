@@ -5,7 +5,7 @@ const $=id=>document.getElementById(id),db=()=>window.ZeerozFirebase.db;
 function node(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;}
 
 function inlineFormat(parent,text){
- const pattern=/(!\[([^\]]*)\]\((https:\/\/[^\s)]+)\))|(\*\*([^*]+)\*\*)|(`([^`]+)`)|(\*([^*]+)\*)/g;
+ const pattern=/(!\[([^\]]*)\]\(((?:https:\/\/|\.\.\/|\.\/|\/)?[^\s)]+)\))|(\*\*([^*]+)\*\*)|(`([^`]+)`)|(\*([^*]+)\*)/g;
  let last=0,match;
  while((match=pattern.exec(text))){
   if(match.index>last)parent.append(document.createTextNode(text.slice(last,match.index)));
