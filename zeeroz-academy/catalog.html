@@ -42,6 +42,7 @@ footer{background:#0d1734;color:#dbe4ff;padding:24px 0;font-size:12px}footer a{c
  const titleMap={IX:'Class IX courses',X:'Class X courses',XI:'Class XI courses',XII:'Class XII courses',JOBS:'Job preparation',ALL:'Published school courses'};
  if(level==='JOBS'){$('pageTitle').textContent='Job preparation';$('pageIntro').textContent='Explore active recruitment and professional preparation programmes.';$('schoolCatalogue').hidden=true;$('jobPrograms').hidden=false;$('publicNotice').hidden=true;return}
  $('pageTitle').textContent=titleMap[level]||titleMap.ALL;
+ document.querySelectorAll('.filter').forEach(btn=>btn.classList.toggle('active',btn.dataset.level.toUpperCase()===level));
  let records=[];
  const classOf=item=>{const t=(item.title||item.id||'').toUpperCase();for(const x of ['XII','XI','IX','X'])if(new RegExp('\\b'+x+'\\b').test(t))return x;return ''};
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
