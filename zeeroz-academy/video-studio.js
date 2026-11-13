@@ -115,7 +115,7 @@ let ttsAudioUrl=null,ttsBusy=false,ttsEngineCache={},ttsGeneration=0,ttsScriptsR
 const ttsStatus=$("ttsStatus"),ttsButton=$("ttsGenerate"),ttsAudio=$("ttsAudio"),ttsDownload=$("ttsDownload");
 function currentLessonNarration(){
  if(!scenes.length)return "";
- return scenes.map(s=>s.narration.trim()).filter(Boolean).join("\\n\\n");
+ return scenes.map(s=>s.narration.trim()).filter(Boolean).join("\n\n");
 }
 function setGeneratedVoiceFile(blob){
  const file=new File([blob],"zeeroz-lesson-voice.wav",{type:"audio/wav"});
