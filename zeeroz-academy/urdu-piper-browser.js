@@ -29,26 +29,39 @@ function getPhonemizer() {
 }
 
 async function createEngine(onnxUrl, cfgUrl, onProgress) {
-  const [modelResponse, configResponse] = await Promise.all([fetch(onnxUrl), fetch(cfgUrl)]);
+  // Avoid retaining every streamed chunk and then allocating a second full-size
+  // model buffer. On mobile browsers that doubled peak memory while ONNX opened.
+  let modelResponse, configResponse;
+  try {
+    [modelResponse, configResponse] = await Promise.all([fetch(onnxUrl), fetch(cfgUrl)]);
+  } catch (e) {
+    throw new Error("Urdu voice download could not connect: " + (e?.message || String(e)));
+  }
   if (!modelResponse.ok) throw new Error("Urdu ONNX model download failed (HTTP " + modelResponse.status + ").");
   if (!configResponse.ok) throw new Error("Urdu voice configuration download failed (HTTP " + configResponse.status + ").");
-  const total = Number(modelResponse.headers.get("Content-Length")) || 0;
   let modelBuffer;
-  if (modelResponse.body && total && onProgress) {
-    const reader = modelResponse.body.getReader(), chunks = [];
-    let loaded = 0;
-    while (true) {
-      const {done,value}=await reader.read(); if(done) break;
-      chunks.push(value); loaded += value.byteLength;
-      onProgress({loaded,total});
-    }
-    const bytes = new Uint8Array(loaded); let offset=0;
-    for (const chunk of chunks) { bytes.set(chunk,offset); offset+=chunk.byteLength; }
-    modelBuffer = bytes.buffer;
-  } else modelBuffer = await modelResponse.arrayBuffer();
-  const cfg = await configResponse.json();
-  onProgress?.({loaded:total||modelBuffer.byteLength,total:total||modelBuffer.byteLength});
-  const session = await ort.InferenceSession.create(modelBuffer,{executionProviders:["wasm"]});
+  try {
+    modelBuffer = await modelResponse.arrayBuffer();
+  } catch (e) {
+    throw new Error("Urdu ONNX model download/read failed: " + (e?.message || String(e)));
+  }
+  if (modelBuffer.byteLength < 1024 * 1024) {
+    throw new Error("Urdu ONNX model file is incomplete or too small (" + modelBuffer.byteLength + " bytes).");
+  }
+  let cfg;
+  try {
+    cfg = await configResponse.json();
+  } catch (e) {
+    throw new Error("Urdu voice configuration is not valid JSON: " + (e?.message || String(e)));
+  }
+  onProgress?.({loaded:modelBuffer.byteLength,total:modelBuffer.byteLength});
+  let session;
+  try {
+    session = await ort.InferenceSession.create(modelBuffer,{executionProviders:["wasm"]});
+  } catch (e) {
+    const detail = typeof e === "number" ? "WASM error code " + e : (e?.message || String(e));
+    throw new Error("ONNX Runtime could not open the downloaded Urdu model: " + detail);
+  }
   const inf=cfg.inference||{}, sampleRate=cfg.audio?.sample_rate||22050, lang=cfg.espeak?.voice||"ur";
   return {
     cfg,sampleRate,
