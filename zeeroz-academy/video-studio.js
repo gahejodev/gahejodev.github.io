@@ -108,30 +108,48 @@ async function initStudioAvatar(){
   });
  }catch(e){avatarStatus("Could not load the 3D avatar engine. Check internet and refresh. "+e.message)}
 }
-// Text-to-speech helpers: browser voice preview plus handoff to free Urdu neural WAV generator.
-const ttsText=$("ttsText"),ttsStatus=$("ttsStatus");
-$("ttsCopyScript")?.addEventListener("click",()=>{
- const script=$("scriptOutput")?.value||scenes.map(s=>s.narration).join("\n\n");
- if(!script.trim()){ttsStatus.textContent="Pehle storyboard generate karein.";return}
- ttsText.value=script;ttsStatus.textContent="Lesson script TTS box mein copy ho gaya.";
+// Automatic local neural TTS: lesson script is read directly from the current storyboard.
+let ttsModule=null,ttsAudioUrl=null,ttsBusy=false;
+const ttsStatus=$("ttsStatus"),ttsButton=$("ttsGenerate"),ttsAudio=$("ttsAudio"),ttsDownload=$("ttsDownload");
+function currentLessonNarration(){
+ if(!scenes.length)return "";
+ return scenes.map((s,i)=>s.narration.trim()).filter(Boolean).join("\n\n");
+}
+function setGeneratedVoiceFile(blob){
+ const file=new File([blob],"zeeroz-lesson-voice.wav",{type:"audio/wav"});
+ const transfer=new DataTransfer();transfer.items.add(file);
+ $("voiceTrack").files=transfer.files;
+ $("voiceTrack").dispatchEvent(new Event("change",{bubbles:true}));
+}
+$("ttsGenerate")?.addEventListener("click",async()=>{
+ if(ttsBusy)return;
+ const text=currentLessonNarration();
+ if(!text){ttsStatus.textContent="Pehle lesson select karke Generate storyboard press karein.";return}
+ ttsBusy=true;ttsButton.disabled=true;
+ try{
+  ttsStatus.textContent="Neural voice engine load ho raha hai. First time model/WASM download hoga…";
+  if(!ttsModule)ttsModule=await import("https://esm.sh/@realtimex/piper-tts-web@1.1.1");
+  const voiceId=$("ttsVoice").value==="female"?"ur_PK-aegis_female-medium":"ur_PK-fasih-medium";
+  const available=await ttsModule.voices();
+  if(!available||!Object.prototype.hasOwnProperty.call(available,voiceId)){
+   throw new Error("Is TTS engine ki available voice list mein selected Urdu model nahi mila. Abhi koi audio generate nahi hua.");
+  }
+  ttsStatus.textContent="Urdu voice model download/load aur audio synthesis chal rahi hai. App ko band na karein…";
+  const wav=await ttsModule.predict({text,voiceId},p=>{
+   if(p&&p.total)ttsStatus.textContent="Voice model/audio load: "+Math.round(p.loaded*100/p.total)+"%";
+  });
+  if(!(wav instanceof Blob)||!wav.size)throw new Error("TTS engine ne valid WAV audio return nahi ki.");
+  if(ttsAudioUrl)URL.revokeObjectURL(ttsAudioUrl);
+  ttsAudioUrl=URL.createObjectURL(wav);
+  ttsAudio.src=ttsAudioUrl;ttsAudio.style.display="block";
+  ttsDownload.href=ttsAudioUrl;ttsDownload.hidden=false;
+  setGeneratedVoiceFile(wav);
+  ttsStatus.textContent="Audio ready! WAV generate ho gaya aur 3D teacher/video export ke liye automatically attach kar diya gaya.";
+  try{await ttsAudio.play()}catch(e){}
+ }catch(e){ttsStatus.textContent="Audio generate nahi ho saka: "+(e?.message||e)+". Is phone/browser par model support ya memory issue ho sakta hai."}
+ finally{ttsBusy=false;ttsButton.disabled=false}
 });
-$("ttsSpeak")?.addEventListener("click",()=>{
- if(!("speechSynthesis" in window)){ttsStatus.textContent="Is browser mein device speech voice available nahi.";return}
- const text=ttsText.value.trim();if(!text){ttsStatus.textContent="Pehle text enter ya copy karein.";return}
- speechSynthesis.cancel();
- const lang=$("ttsLanguage").value;
- const utterance=new SpeechSynthesisUtterance(text);
- utterance.lang=lang==="ur"?"ur-PK":lang==="sd"?"sd-PK":"en-US";
- utterance.rate=0.92;
- const voices=speechSynthesis.getVoices();
- const matching=voices.filter(v=>v.lang.toLowerCase().startsWith(lang));
- if(matching.length){const preferred=matching.find(v=>/pakistan|urdu|sindhi/i.test(v.name))||matching[0];utterance.voice=preferred;ttsStatus.textContent="Device voice preview: "+preferred.name+" ("+preferred.lang+").";}
- else{ttsStatus.textContent="Aapke phone mein is language ki device voice install nahi. Urdu neural WAV ke liye upar free generator kholein.";}
- utterance.onend=()=>{ttsStatus.textContent="Device voice preview finished."};
- utterance.onerror=e=>{ttsStatus.textContent="Voice preview error: "+(e.error||"unknown")};
- speechSynthesis.speak(utterance);
-});
-$("ttsStop")?.addEventListener("click",()=>{speechSynthesis.cancel();ttsStatus.textContent="Voice preview stopped."});
+$("ttsStop")?.addEventListener("click",()=>{if(ttsAudio){ttsAudio.pause();ttsAudio.currentTime=0}ttsStatus.textContent="Audio playback stopped."});
 initStudioAvatar();
 
 /* Record the real 3D avatar canvas together with the lesson narration. */
