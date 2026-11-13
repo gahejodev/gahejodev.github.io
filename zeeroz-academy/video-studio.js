@@ -139,7 +139,7 @@ async function ensureUrduPiper(){
   ttsStatus.textContent="Browser ONNX runtime aur Urdu phonemizer load ho rahe hain…";
   await loadClassicScript("https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0/dist/ort.wasm.min.js");
   await loadClassicScript("https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.js");
-  await loadClassicScript("./urdu-piper-browser.js?v=tts-fp32-1");
+  await loadClassicScript("./urdu-piper-browser.js?v=tts-stage-2");
   if(!window.ZeerozPiper)throw new Error("Urdu Piper browser engine did not initialize.");
   await window.ZeerozPiper.getPhonemizer();
   return window.ZeerozPiper;
@@ -179,7 +179,9 @@ async function getUrduEngine(engine,voiceId){
  const selected=urls[voiceId];if(!selected)throw new Error("Unknown Urdu voice selected.");
  ttsStatus.textContent="Urdu voice model download ho raha hai (taqreeban 64 MB). Pehli dafa kuch waqt lag sakta hai…";
  const enginePromise=engine.createEngine(selected.model,selected.config,p=>{
-  if(p?.total)ttsStatus.textContent="Urdu model download: "+Math.round(p.loaded*100/p.total)+"%";
+  if(p?.stage==="opening")ttsStatus.textContent="Urdu model 100% download ho gaya. Ab phone voice engine open kar raha hai — 64 MB model ko load hone mein waqt lag sakta hai; is stage par screen rukti hui lag sakti hai. Browser band na karein.";
+  else if(p?.stage==="ready")ttsStatus.textContent="Urdu voice engine ready. Ab narration generate ho rahi hai…";
+  else if(p?.total)ttsStatus.textContent="Urdu model download: "+Math.round(p.loaded*100/p.total)+"%";
  });
  ttsEngineCache[voiceId]=enginePromise;
  try{return await enginePromise}catch(e){delete ttsEngineCache[voiceId];throw e}
@@ -194,7 +196,7 @@ $("ttsGenerate")?.addEventListener("click",async()=>{
   ttsPhase="loading Urdu phonemizer and ONNX runtime";
   const engine=await ensureUrduPiper();
   const voiceId=$("ttsVoice").value==="female"?"ur_PK-aegis_female-medium":"ur_PK-fasih-medium";
-  ttsPhase="downloading and opening compact Urdu voice model";
+  ttsPhase="opening the downloaded Urdu voice model in phone memory";
   const model=await getUrduEngine(engine,voiceId);
   const parts=splitUrduNarration(text),pcmParts=[];
   for(let i=0;i<parts.length;i++){
