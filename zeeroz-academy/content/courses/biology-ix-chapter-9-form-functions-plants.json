@@ -64,7 +64,29 @@
             "D": "Do not contain water"
           },
           "correctOption": "A",
-          "explanation": "Mineral elements are needed for proteins, nucleic acids, chlorophyll and many cell processes."
+          "explanation": "Mineral elements are needed for proteins, nucleic acids, chlorophyll and many cell processes.",
+          "translations": {
+            "ur": {
+              "question": "پودوں کو معدنی غذائی اجزا کی ضرورت کیوں ہوتی ہے؟",
+              "options": {
+                "A": "سالمات بنانے اور خلوی عمل میں مدد دینے کے لیے",
+                "B": "ضیائی تالیف کی ضرورت ختم کرنے کے لیے",
+                "C": "سورج کی روشنی بنانے کے لیے",
+                "D": "کیونکہ ان میں پانی نہیں ہوتا"
+              },
+              "explanation": "معدنی عناصر پروٹین، نیوکلیک ایسڈ، کلوروفل اور کئی خلوی عملوں کے لیے ضروری ہیں۔"
+            },
+            "sd": {
+              "question": "ٻوٽن کي معدني غذائي جزن جي ضرورت ڇو پوي ٿي؟",
+              "options": {
+                "A": "ماليڪيول ٺاهڻ ۽ خلوي عملن ۾ مدد لاءِ",
+                "B": "ضيائي ترڪيب جي ضرورت ختم ڪرڻ لاءِ",
+                "C": "سج جي روشني ٺاهڻ لاءِ",
+                "D": "ڇاڪاڻ ته انهن ۾ پاڻي ناهي"
+              },
+              "explanation": "معدني عنصر پروٽين، نيوڪليڪ ايسڊ، ڪلوروفل ۽ ڪيترن خلوي عملن لاءِ ضروري آهن."
+            }
+          }
         },
         {
           "question": "Which mineral is a component of chlorophyll?",
@@ -75,7 +97,29 @@
             "D": "Lead"
           },
           "correctOption": "A",
-          "explanation": "Magnesium is part of the chlorophyll molecule."
+          "explanation": "Magnesium is part of the chlorophyll molecule.",
+          "translations": {
+            "ur": {
+              "question": "کلوروفل کا کون سا معدنی جزو ہے؟",
+              "options": {
+                "A": "میگنیشیم",
+                "B": "سوڈیم",
+                "C": "آیوڈین",
+                "D": "سیسہ"
+              },
+              "explanation": "میگنیشیم کلوروفل کے سالمے کا حصہ ہے۔"
+            },
+            "sd": {
+              "question": "ڪلوروفل جو ڪهڙو معدني جزو آهي؟",
+              "options": {
+                "A": "ميگنيشيم",
+                "B": "سوڊيم",
+                "C": "آيوڊين",
+                "D": "ليڊ"
+              },
+              "explanation": "ميگنيشيم ڪلوروفل جي ماليڪيول جو حصو آهي."
+            }
+          }
         },
         {
           "question": "Nitrogen is required by plants to make:",
@@ -86,7 +130,29 @@
             "D": "Water vapour"
           },
           "correctOption": "A",
-          "explanation": "Nitrogen is a component of amino acids, proteins and nucleic acids."
+          "explanation": "Nitrogen is a component of amino acids, proteins and nucleic acids.",
+          "translations": {
+            "ur": {
+              "question": "پودوں کو نائٹروجن کس چیز کی تیاری کے لیے درکار ہوتی ہے؟",
+              "options": {
+                "A": "امینو ایسڈ اور نیوکلیک ایسڈ",
+                "B": "صرف سیلولوز",
+                "C": "صرف آکسیجن گیس",
+                "D": "آبی بخارات"
+              },
+              "explanation": "نائٹروجن امینو ایسڈ، پروٹین اور نیوکلیک ایسڈ کا جزو ہے۔"
+            },
+            "sd": {
+              "question": "ٻوٽن کي نائٽروجن ڪهڙيون شيون ٺاهڻ لاءِ گهرجي؟",
+              "options": {
+                "A": "امينو ايسڊ ۽ نيوڪليڪ ايسڊ",
+                "B": "رڳو سيلولوز",
+                "C": "رڳو آڪسيجن گئس",
+                "D": "پاڻيءَ جا بخار"
+              },
+              "explanation": "نائٽروجن امينو ايسڊ، پروٽين ۽ نيوڪليڪ ايسڊ جو جزو آهي."
+            }
+          }
         },
         {
           "question": "A nutrient required in very small amounts is called a:",
@@ -97,7 +163,29 @@
             "D": "Hormone"
           },
           "correctOption": "B",
-          "explanation": "Micronutrients are essential but required in small quantities."
+          "explanation": "Micronutrients are essential but required in small quantities.",
+          "translations": {
+            "ur": {
+              "question": "بہت کم مقدار میں درکار غذائی عنصر کیا کہلاتا ہے؟",
+              "options": {
+                "A": "میکرو نیوٹرینٹ",
+                "B": "مائیکرو نیوٹرینٹ",
+                "C": "پولی سیکرائیڈ",
+                "D": "ہارمون"
+              },
+              "explanation": "مائیکرو نیوٹرینٹس لازمی ہوتے ہیں مگر بہت کم مقدار میں درکار ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "تمام ٿوري مقدار ۾ گهربل غذائي عنصر ڇا سڏجي ٿو؟",
+              "options": {
+                "A": "ميڪرو نيوٽرينٽ",
+                "B": "مائڪرو نيوٽرينٽ",
+                "C": "پولي سيڪرائيڊ",
+                "D": "هارمون"
+              },
+              "explanation": "مائڪرو نيوٽرينٽ لازمي هوندا آهن پر تمام ٿوري مقدار ۾ گهرجن ٿا."
+            }
+          }
         },
         {
           "question": "Osmosis is the net movement of:",
@@ -108,7 +196,29 @@
             "D": "Oxygen against its gradient using ATP"
           },
           "correctOption": "A",
-          "explanation": "Osmosis describes net water movement across a selectively permeable membrane."
+          "explanation": "Osmosis describes net water movement across a selectively permeable membrane.",
+          "translations": {
+            "ur": {
+              "question": "اوسموسس کس چیز کی خالص حرکت ہے؟",
+              "options": {
+                "A": "منتخب نفوذ پذیر جھلی کے پار پانی کی حرکت، واٹر پوٹینشل کے فرق کے ساتھ",
+                "B": "کسی بھی دیوار سے معدنی نمکیات کی حرکت",
+                "C": "پروٹین کا مرکزے میں داخل ہونا",
+                "D": "ATP استعمال کر کے آکسیجن کا اپنے فرق کے خلاف جانا"
+              },
+              "explanation": "اوسموسس منتخب نفوذ پذیر جھلی کے پار پانی کی خالص حرکت کو کہتے ہیں۔"
+            },
+            "sd": {
+              "question": "اوسموسس ڪهڙي شيءِ جي خالص حرڪت آهي؟",
+              "options": {
+                "A": "چونڊيل نفوذپذير جھلي پار پاڻيءَ جي حرڪت، واٽر پوٽينشل جي فرق موجب",
+                "B": "ڪنهن به ڀت پار معدني لوڻن جي حرڪت",
+                "C": "پروٽين جو مرڪز ۾ داخل ٿيڻ",
+                "D": "ATP سان آڪسيجن جو پنهنجي فرق جي ابتڙ وڃڻ"
+              },
+              "explanation": "اوسموسس چونڊيل نفوذپذير جھلي پار پاڻيءَ جي خالص حرڪت آهي."
+            }
+          }
         },
         {
           "question": "Root hair cells are adapted for absorption because they:",
@@ -119,7 +229,29 @@
             "D": "Are made of bone"
           },
           "correctOption": "A",
-          "explanation": "Root hairs increase the surface area in contact with soil water."
+          "explanation": "Root hairs increase the surface area in contact with soil water.",
+          "translations": {
+            "ur": {
+              "question": "جڑ کے بال والے خلیے جذب کے لیے موزوں کیوں ہیں؟",
+              "options": {
+                "A": "ان کے لمبے ابھار سطحی رقبہ بڑھاتے ہیں",
+                "B": "ان میں جھلی نہیں ہوتی",
+                "C": "ان میں بہت سے کلوروپلاسٹ ہوتے ہیں",
+                "D": "وہ ہڈی سے بنے ہوتے ہیں"
+              },
+              "explanation": "جڑ کے بال مٹی کے پانی سے رابطے کا سطحی رقبہ بڑھاتے ہیں۔"
+            },
+            "sd": {
+              "question": "پاڙ جا وار جذب لاءِ مناسب ڇو آهن؟",
+              "options": {
+                "A": "انهن جا ڊگها واڌارا مٿاڇري وارو رقبو وڌائين ٿا",
+                "B": "انهن ۾ جھلي ناهي",
+                "C": "انهن ۾ گهڻا ڪلوروپلاسٽ آهن",
+                "D": "اهي هڏي مان ٺهيل آهن"
+              },
+              "explanation": "پاڙ جا وار مٽيءَ جي پاڻيءَ سان رابطي جو مٿاڇري وارو رقبو وڌائين ٿا."
+            }
+          }
         },
         {
           "question": "Mineral ions moving against their electrochemical gradient require:",
@@ -130,7 +262,29 @@
             "D": "Pollination"
           },
           "correctOption": "A",
-          "explanation": "Active transport uses energy to move ions against a gradient."
+          "explanation": "Active transport uses energy to move ions against a gradient.",
+          "translations": {
+            "ur": {
+              "question": "معدنی آئن اپنے الیکٹروکیمیائی فرق کے خلاف حرکت کریں تو کیا درکار ہوتا ہے؟",
+              "options": {
+                "A": "فعال نقل و حمل",
+                "B": "صرف اوسموسس",
+                "C": "ٹرانسپائریشن",
+                "D": "زیرگی"
+              },
+              "explanation": "فعال نقل و حمل توانائی استعمال کر کے آئنوں کو ارتکاز کے فرق کے خلاف منتقل کرتی ہے۔"
+            },
+            "sd": {
+              "question": "معدني آئن پنهنجي اليڪٽروڪيميائي فرق جي ابتڙ هلن ته ڇا گهربل آهي؟",
+              "options": {
+                "A": "فعال منتقلي",
+                "B": "رڳو اوسموسس",
+                "C": "ٽرانسپائريشن",
+                "D": "زرپاشي"
+              },
+              "explanation": "فعال منتقلي توانائي استعمال ڪري آئنن کي ارتڪاز جي فرق جي ابتڙ منتقل ڪري ٿي."
+            }
+          }
         },
         {
           "question": "The Casparian strip is found in the:",
@@ -141,7 +295,29 @@
             "D": "Fruit wall"
           },
           "correctOption": "A",
-          "explanation": "The Casparian strip helps regulate movement of water and solutes into the vascular cylinder."
+          "explanation": "The Casparian strip helps regulate movement of water and solutes into the vascular cylinder.",
+          "translations": {
+            "ur": {
+              "question": "کیسپیرین پٹی کہاں پائی جاتی ہے؟",
+              "options": {
+                "A": "جڑوں کی اینڈوڈرمیس میں",
+                "B": "پتے کی کٹیکل میں",
+                "C": "پھول کی پنکھڑی میں",
+                "D": "پھل کی دیوار میں"
+              },
+              "explanation": "کیسپیرین پٹی پانی اور حل شدہ مادوں کے عروقی سلنڈر میں داخلے کو منظم کرنے میں مدد دیتی ہے۔"
+            },
+            "sd": {
+              "question": "ڪيسپيرين پٽي ڪٿي ملي ٿي؟",
+              "options": {
+                "A": "پاڙن جي اينڊوڊرمس ۾",
+                "B": "پن جي ڪٽيڪل ۾",
+                "C": "گل جي پنکڙيءَ ۾",
+                "D": "ميوي جي ڀت ۾"
+              },
+              "explanation": "ڪيسپيرين پٽي پاڻي ۽ حل ٿيل مادن جي ويسڪيولر سلنڊر ۾ داخلا کي ضابطي ۾ رکڻ ۾ مدد ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Xylem mainly transports:",
@@ -152,7 +328,29 @@
             "D": "Oxygen in red blood cells"
           },
           "correctOption": "A",
-          "explanation": "Xylem conducts water and dissolved mineral ions."
+          "explanation": "Xylem conducts water and dissolved mineral ions.",
+          "translations": {
+            "ur": {
+              "question": "زائلم بنیادی طور پر کیا منتقل کرتا ہے؟",
+              "options": {
+                "A": "پانی اور معدنی آئن",
+                "B": "صرف پتوں سے جڑوں تک سکروز",
+                "C": "پولن کے دانے",
+                "D": "سرخ خون کے خلیوں میں آکسیجن"
+              },
+              "explanation": "زائلم پانی اور حل شدہ معدنی آئن منتقل کرتا ہے۔"
+            },
+            "sd": {
+              "question": "زائلم بنيادي طور ڇا منتقل ڪري ٿو؟",
+              "options": {
+                "A": "پاڻي ۽ معدني آئن",
+                "B": "رڳو پنن کان پاڙن تائين سکروز",
+                "C": "پولن جا داڻا",
+                "D": "ڳاڙهن رت جي خلين ۾ آڪسيجن"
+              },
+              "explanation": "زائلم پاڻي ۽ حل ٿيل معدني آئن منتقل ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Transpiration is:",
@@ -163,7 +361,29 @@
             "D": "Formation of seeds"
           },
           "correctOption": "A",
-          "explanation": "Transpiration is mainly water-vapour loss through stomata."
+          "explanation": "Transpiration is mainly water-vapour loss through stomata.",
+          "translations": {
+            "ur": {
+              "question": "ٹرانسپائریشن سے کیا مراد ہے؟",
+              "options": {
+                "A": "پودے کے ہوائی حصوں سے پانی کے بخارات کا ضیاع",
+                "B": "فلوئم میں شکر کی حرکت",
+                "C": "پولن کا جذب",
+                "D": "بیج بننے کا عمل"
+              },
+              "explanation": "ٹرانسپائریشن زیادہ تر اسٹوماٹا کے ذریعے پانی کے بخارات کے اخراج کو کہتے ہیں۔"
+            },
+            "sd": {
+              "question": "ٽرانسپائريشن مان ڇا مراد آهي؟",
+              "options": {
+                "A": "ٻوٽي جي هوائي حصن مان پاڻيءَ جا بخار نڪرڻ",
+                "B": "فلوئم ۾ کنڊ جي حرڪت",
+                "C": "پولن جو جذب",
+                "D": "ٻج ٺهڻ"
+              },
+              "explanation": "ٽرانسپائريشن گهڻو ڪري اسٽوماٽا وسيلي پاڻيءَ جا بخار خارج ٿيڻ آهي."
+            }
+          }
         },
         {
           "question": "The main driving force for water movement up tall plants is:",
@@ -174,7 +394,29 @@
             "D": "Gravity pulling water upwards"
           },
           "correctOption": "A",
-          "explanation": "Evaporation from leaves creates tension that pulls water through xylem."
+          "explanation": "Evaporation from leaves creates tension that pulls water through xylem.",
+          "translations": {
+            "ur": {
+              "question": "لمبے پودوں میں پانی کو اوپر لے جانے والی بنیادی قوت کیا ہے؟",
+              "options": {
+                "A": "ٹرانسپائریشن پل",
+                "B": "پولن کا دباؤ",
+                "C": "صرف ضیائی تالیف",
+                "D": "کششِ ثقل کا پانی کو اوپر کھینچنا"
+              },
+              "explanation": "پتوں سے پانی کے بخارات بننے سے تناؤ پیدا ہوتا ہے جو زائلم میں پانی کو اوپر کھینچتا ہے۔"
+            },
+            "sd": {
+              "question": "ڊگهن ٻوٽن ۾ پاڻي مٿي کڻڻ واري بنيادي قوت ڪهڙي آهي؟",
+              "options": {
+                "A": "ٽرانسپائريشن پل",
+                "B": "پولن جو دٻاءُ",
+                "C": "رڳو ضيائي ترڪيب",
+                "D": "ڪشش ثقل جو پاڻي مٿي ڇڪڻ"
+              },
+              "explanation": "پنن مان پاڻيءَ جا بخار نڪرڻ سان ڇڪ پيدا ٿئي ٿي، جيڪا زائلم ۾ پاڻي مٿي کڻي ٿي."
+            }
+          }
         },
         {
           "question": "Phloem transports mainly:",
@@ -185,7 +427,29 @@
             "D": "Oxygen from roots"
           },
           "correctOption": "A",
-          "explanation": "Phloem translocates sugars and other organic solutes between sources and sinks."
+          "explanation": "Phloem translocates sugars and other organic solutes between sources and sinks.",
+          "translations": {
+            "ur": {
+              "question": "فلوئم بنیادی طور پر کیا منتقل کرتا ہے؟",
+              "options": {
+                "A": "سکروز جیسے نامیاتی مادے",
+                "B": "صرف پانی",
+                "C": "صرف معدنی آئن",
+                "D": "جڑوں سے آکسیجن"
+              },
+              "explanation": "فلوئم سورس اور سنک کے درمیان شکر اور دوسرے نامیاتی حل شدہ مادے منتقل کرتا ہے۔"
+            },
+            "sd": {
+              "question": "فلوئم بنيادي طور ڇا منتقل ڪري ٿو؟",
+              "options": {
+                "A": "سکروز جهڙا نامياتي مادا",
+                "B": "رڳو پاڻي",
+                "C": "رڳو معدني آئن",
+                "D": "پاڙن مان آڪسيجن"
+              },
+              "explanation": "فلوئم سورس ۽ سنڪ وچ ۾ کنڊ ۽ ٻيا نامياتي حل ٿيل مادا منتقل ڪري ٿو."
+            }
+          }
         },
         {
           "question": "A source in phloem transport is a region where:",
@@ -196,7 +460,29 @@
             "D": "Pollen is formed"
           },
           "correctOption": "A",
-          "explanation": "Sources load sugars into phloem, often photosynthesising leaves or storage tissues."
+          "explanation": "Sources load sugars into phloem, often photosynthesising leaves or storage tissues.",
+          "translations": {
+            "ur": {
+              "question": "فلوئم کی ترسیل میں سورس وہ حصہ ہے جہاں:",
+              "options": {
+                "A": "شکر بنتی یا خارج ہوتی ہے",
+                "B": "شکر صرف استعمال ہوتی ہے",
+                "C": "پانی بخارات بنتا ہے",
+                "D": "پولن بنتا ہے"
+              },
+              "explanation": "سورس فلوئم میں شکر داخل کرتا ہے، اکثر ضیائی تالیف کرنے والے پتے یا ذخیرہ کرنے والے حصے۔"
+            },
+            "sd": {
+              "question": "فلوئم جي منتقليءَ ۾ سورس اهو حصو آهي جتي:",
+              "options": {
+                "A": "کنڊ ٺهي يا خارج ٿئي ٿي",
+                "B": "کنڊ رڳو استعمال ٿئي ٿي",
+                "C": "پاڻي بخار بڻجي ٿو",
+                "D": "پولن ٺهي ٿو"
+              },
+              "explanation": "سورس فلوئم ۾ کنڊ داخل ڪري ٿو، اڪثر ضيائي ترڪيب ڪندڙ پن يا ذخيرو ڪندڙ حصا."
+            }
+          }
         },
         {
           "question": "Which condition usually decreases transpiration?",
@@ -207,7 +493,29 @@
             "D": "Strong light with open stomata"
           },
           "correctOption": "A",
-          "explanation": "High humidity reduces the water-vapour gradient between leaf and air."
+          "explanation": "High humidity reduces the water-vapour gradient between leaf and air.",
+          "translations": {
+            "ur": {
+              "question": "کون سی حالت عموماً ٹرانسپائریشن کم کرتی ہے؟",
+              "options": {
+                "A": "زیادہ نمی",
+                "B": "معتدل حالات میں تیز ہوا",
+                "C": "زیادہ درجہ حرارت",
+                "D": "کھلے اسٹوماٹا کے ساتھ تیز روشنی"
+              },
+              "explanation": "زیادہ نمی پتے اور ہوا کے درمیان آبی بخارات کے فرق کو کم کرتی ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙي حالت عام طور ٽرانسپائريشن گهٽائي ٿي؟",
+              "options": {
+                "A": "وڌيڪ نمي",
+                "B": "مناسب حالتن ۾ تيز هوا",
+                "C": "وڌيڪ گرمي پد",
+                "D": "کليل اسٽوماٽا سان تيز روشني"
+              },
+              "explanation": "وڌيڪ نمي پن ۽ هوا جي وچ ۾ پاڻيءَ جي بخارن جو فرق گهٽائي ٿي."
+            }
+          }
         },
         {
           "question": "Stomata are surrounded by:",
@@ -218,7 +526,29 @@
             "D": "Pollen tubes"
           },
           "correctOption": "A",
-          "explanation": "Guard cells control the opening and closing of stomatal pores."
+          "explanation": "Guard cells control the opening and closing of stomatal pores.",
+          "translations": {
+            "ur": {
+              "question": "اسٹوماٹا کے گرد کون سے خلیے ہوتے ہیں؟",
+              "options": {
+                "A": "گارڈ سیلز",
+                "B": "جڑ کے بال",
+                "C": "زائلم ویسلز",
+                "D": "پولن ٹیوبز"
+              },
+              "explanation": "گارڈ سیلز اسٹومیٹل سوراخوں کے کھلنے اور بند ہونے کو کنٹرول کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "اسٽوماٽا جي چوڌاري ڪهڙا خليا هوندا آهن؟",
+              "options": {
+                "A": "گارڊ سيلز",
+                "B": "پاڙ جا وار",
+                "C": "زائلم ويسلز",
+                "D": "پولن ٽيوبز"
+              },
+              "explanation": "گارڊ سيلز اسٽوميٽل سوراخن جي کلڻ ۽ بند ٿيڻ کي ڪنٽرول ڪن ٿا."
+            }
+          }
         },
         {
           "question": "Pollination is the transfer of pollen from:",
@@ -229,7 +559,29 @@
             "D": "Stigma to anther only"
           },
           "correctOption": "A",
-          "explanation": "Pollination is the transfer of pollen grains from anther to stigma."
+          "explanation": "Pollination is the transfer of pollen grains from anther to stigma.",
+          "translations": {
+            "ur": {
+              "question": "زیرگی میں پولن کس جگہ سے کس جگہ منتقل ہوتا ہے؟",
+              "options": {
+                "A": "اینتھر سے اسٹگما تک",
+                "B": "اووری سے جڑ تک",
+                "C": "بیج سے پھل تک",
+                "D": "صرف اسٹگما سے اینتھر تک"
+              },
+              "explanation": "زیرگی میں پولن کے دانے اینتھر سے اسٹگما تک منتقل ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "زرپاشي ۾ پولن ڪٿان ڪٿي منتقل ٿئي ٿو؟",
+              "options": {
+                "A": "اينٿر کان اسٽگما تائين",
+                "B": "اووري کان پاڙ تائين",
+                "C": "ٻج کان ميوي تائين",
+                "D": "رڳو اسٽگما کان اينٿر تائين"
+              },
+              "explanation": "زرپاشي ۾ پولن جا داڻا اينٿر کان اسٽگما تائين منتقل ٿين ٿا."
+            }
+          }
         },
         {
           "question": "The male reproductive structure of a typical flower is the:",
@@ -240,7 +592,29 @@
             "D": "Petal"
           },
           "correctOption": "A",
-          "explanation": "The stamen includes anther and filament and produces pollen."
+          "explanation": "The stamen includes anther and filament and produces pollen.",
+          "translations": {
+            "ur": {
+              "question": "عام پھول کا نر تولیدی حصہ کون سا ہے؟",
+              "options": {
+                "A": "اسٹیمن",
+                "B": "کارپل",
+                "C": "سیپل",
+                "D": "پنکھڑی"
+              },
+              "explanation": "اسٹیمن میں اینتھر اور فلامنٹ شامل ہوتے ہیں اور یہ پولن بناتا ہے۔"
+            },
+            "sd": {
+              "question": "عام گل جو نر توليدي حصو ڪهڙو آهي؟",
+              "options": {
+                "A": "اسٽيمن",
+                "B": "ڪارپل",
+                "C": "سيپل",
+                "D": "پنکڙي"
+              },
+              "explanation": "اسٽيمن ۾ اينٿر ۽ فلامنٽ شامل آهن ۽ اهو پولن ٺاهي ٿو."
+            }
+          }
         },
         {
           "question": "After fertilisation in a flowering plant, the ovule usually develops into a:",
@@ -251,7 +625,29 @@
             "D": "Stigma"
           },
           "correctOption": "A",
-          "explanation": "The ovule develops into a seed, while the ovary generally develops into a fruit."
+          "explanation": "The ovule develops into a seed, while the ovary generally develops into a fruit.",
+          "translations": {
+            "ur": {
+              "question": "بارآوری کے بعد پھول دار پودے میں اوویول عموماً کس میں تبدیل ہوتا ہے؟",
+              "options": {
+                "A": "بیج",
+                "B": "پتہ",
+                "C": "جڑ کا بال",
+                "D": "اسٹگما"
+              },
+              "explanation": "اوویول بیج بنتا ہے جبکہ اووری عموماً پھل بن جاتی ہے۔"
+            },
+            "sd": {
+              "question": "بارآوري کان پوءِ گلدار ٻوٽي ۾ اوويول عام طور ڇا بڻجي ٿو؟",
+              "options": {
+                "A": "ٻج",
+                "B": "پن",
+                "C": "پاڙ جو وار",
+                "D": "اسٽگما"
+              },
+              "explanation": "اوويول ٻج بڻجي ٿو، جڏهن ته اووري عام طور ميوو بڻجي ٿي."
+            }
+          }
         },
         {
           "question": "A pollen tube grows from the:",
@@ -262,7 +658,29 @@
             "D": "Anther into the soil"
           },
           "correctOption": "A",
-          "explanation": "The pollen tube delivers male gametes to the ovule."
+          "explanation": "The pollen tube delivers male gametes to the ovule.",
+          "translations": {
+            "ur": {
+              "question": "پولن ٹیوب کہاں سے کہاں بڑھتی ہے؟",
+              "options": {
+                "A": "پولن دانے سے اوویول کی طرف",
+                "B": "جڑ سے پتے کی طرف",
+                "C": "بیج سے پھل کی طرف",
+                "D": "اینتھر سے مٹی میں"
+              },
+              "explanation": "پولن ٹیوب نر گیمیٹس کو اوویول تک پہنچاتی ہے۔"
+            },
+            "sd": {
+              "question": "پولن ٽيوب ڪٿان ڪيڏانهن وڌي ٿي؟",
+              "options": {
+                "A": "پولن جي داڻي کان اوويول ڏانهن",
+                "B": "پاڙ کان پن ڏانهن",
+                "C": "ٻج کان ميوي ڏانهن",
+                "D": "اينٿر کان مٽيءَ ۾"
+              },
+              "explanation": "پولن ٽيوب نر گيميٽ کي اوويول تائين پهچائي ٿي."
+            }
+          }
         },
         {
           "question": "Asexual reproduction in plants usually produces offspring that are:",
@@ -273,7 +691,29 @@
             "D": "Always haploid"
           },
           "correctOption": "A",
-          "explanation": "Asexual reproduction usually produces clones, except for mutations."
+          "explanation": "Asexual reproduction usually produces clones, except for mutations.",
+          "translations": {
+            "ur": {
+              "question": "پودوں میں غیر جنسی افزائش سے بننے والی اولاد عموماً کیسی ہوتی ہے؟",
+              "options": {
+                "A": "والدین سے جینیاتی طور پر بہت ملتی جلتی",
+                "B": "ہمیشہ جینیاتی طور پر غیر متعلق",
+                "C": "گیمیٹس کے ملاپ سے پیدا",
+                "D": "ہمیشہ ہیپلوئڈ"
+              },
+              "explanation": "غیر جنسی افزائش عموماً کلون بناتی ہے، سوائے ان تبدیلیوں کے جو میوٹیشن سے پیدا ہوں۔"
+            },
+            "sd": {
+              "question": "ٻوٽن ۾ غير جنسي افزائش سان ٺهندڙ اولاد عام طور ڪيئن هوندي آهي؟",
+              "options": {
+                "A": "والدين سان جينياتي طور تمام گهڻي ملندڙ",
+                "B": "هميشه جينياتي طور غير لاڳاپيل",
+                "C": "گيميٽن جي ميلاپ سان پيدا ٿيل",
+                "D": "هميشه هيپلوئڊ"
+              },
+              "explanation": "غير جنسي افزائش عام طور ڪلون پيدا ڪري ٿي، سواءِ ميوٽيشن جي تبديلين جي."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -285,7 +725,25 @@
           "rubric": [
             "Four minerals named (2 marks)",
             "Accurate function for each (3 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "پودوں کے لیے ضروری چار معدنی غذائی اجزا کے نام لکھیں اور ہر ایک کا ایک کام بیان کریں۔",
+              "modelAnswer": "نائٹروجن امینو ایسڈ اور نیوکلیک ایسڈ کے لیے ضروری ہے؛ فاسفورس ATP اور نیوکلیک ایسڈ کا حصہ ہے؛ میگنیشیم کلوروفل میں شامل ہے؛ پوٹاشیم خامروں اور اسٹوماٹا کے ضابطے میں مدد دیتا ہے؛ کیلشیم خلوی دیوار اور سگنلنگ میں کردار ادا کرتا ہے۔ کوئی چار درست مثالیں قابلِ قبول ہیں۔",
+              "rubric": [
+                "چار معدنی عناصر کے نام (2 نمبر)",
+                "ہر ایک کا درست کام (3 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ٻوٽن لاءِ ضروري چئن معدني غذائي جزن جا نالا لکو ۽ هر هڪ جو هڪ ڪم بيان ڪريو.",
+              "modelAnswer": "نائٽروجن امينو ايسڊ ۽ نيوڪليڪ ايسڊ لاءِ ضروري آهي؛ فاسفورس ATP ۽ نيوڪليڪ ايسڊ جو حصو آهي؛ ميگنيشيم ڪلوروفل ۾ شامل آهي؛ پوٽاشيم انزائمن ۽ اسٽوماٽا جي ضابطي ۾ مدد ڪري ٿو؛ ڪيلشيم خلوي ڀت ۽ سگنلنگ ۾ ڪردار ادا ڪري ٿو. ڪي به چار صحيح مثال قبول آهن.",
+              "rubric": [
+                "چئن معدني عنصرن جا نالا (2 نمبر)",
+                "هر هڪ جو صحيح ڪم (3 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -296,7 +754,27 @@
             "Osmosis definition (2 marks)",
             "Root hair adaptation/surface area (1 mark)",
             "Water potential gradient and water entry (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اوسموسس کی تعریف کریں اور وضاحت کریں کہ جڑ کے بال والے خلیے پودوں کو پانی جذب کرنے میں کیسے مدد دیتے ہیں۔",
+              "modelAnswer": "اوسموسس منتخب نفوذ پذیر جھلی کے پار پانی کی خالص حرکت ہے جو زیادہ واٹر پوٹینشل سے کم واٹر پوٹینشل کی طرف ہوتی ہے۔ جڑ کے بال والے خلیوں کے لمبے ابھار سطحی رقبہ بڑھاتے ہیں، ان کی دیوار پتلی ہوتی ہے اور خلوی رس کا واٹر پوٹینشل مٹی کے محلول سے کم ہو سکتا ہے، جس سے پانی اوسموسس کے ذریعے داخل ہوتا ہے۔",
+              "rubric": [
+                "اوسموسس کی تعریف (2 نمبر)",
+                "جڑ کے بال کی ساخت/سطحی رقبہ (1 نمبر)",
+                "واٹر پوٹینشل کا فرق اور پانی کا داخلہ (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "اوسموسس جي وصف ڏيو ۽ ٻڌايو ته پاڙ جا وار وارا خليا ٻوٽن کي پاڻي جذب ڪرڻ ۾ ڪيئن مدد ڪن ٿا.",
+              "modelAnswer": "اوسموسس چونڊيل نفوذپذير جھلي پار پاڻيءَ جي خالص حرڪت آهي، جيڪا وڌيڪ واٽر پوٽينشل کان گهٽ واٽر پوٽينشل ڏانهن ٿئي ٿي. پاڙ جي وار وارن خلين جا ڊگها واڌارا مٿاڇري وارو رقبو وڌائين ٿا، ڀت سنهي هوندي آهي ۽ خلوي رس جو واٽر پوٽينشل مٽيءَ جي محلول کان گهٽ ٿي سگهي ٿو، جنهن سان پاڻي اوسموسس وسيلي داخل ٿئي ٿو.",
+              "rubric": [
+                "اوسموسس جي وصف (2 نمبر)",
+                "پاڙ جي وار جي بناوت/مٿاڇري وارو رقبو (1 نمبر)",
+                "واٽر پوٽينشل جو فرق ۽ پاڻيءَ جي داخلا (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -309,7 +787,31 @@
             "Phloem transport (1 mark)",
             "Phloem structure (1 mark)",
             "Clear contrast (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "زائلم اور فلوئم میں منتقل ہونے والے مادوں اور ترسیلی خلیوں کے لحاظ سے فرق بیان کریں۔",
+              "modelAnswer": "زائلم پانی اور معدنی آئن منتقل کرتا ہے؛ اس کے ویسل عناصر اور ٹریکیڈز عموماً پختگی پر مردہ اور مضبوط دیواروں والے ہوتے ہیں۔ فلوئم شکر اور دوسرے نامیاتی مادے منتقل کرتا ہے؛ اس کے سیو ٹیوب عناصر زندہ ہوتے ہیں اور کمپینین سیلز ان کی مدد کرتے ہیں۔",
+              "rubric": [
+                "زائلم کی ترسیل (1 نمبر)",
+                "زائلم کی ساخت (1 نمبر)",
+                "فلوئم کی ترسیل (1 نمبر)",
+                "فلوئم کی ساخت (1 نمبر)",
+                "واضح فرق (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "زائلم ۽ فلوئم ۾ منتقل ٿيندڙ مادن ۽ منتقلي ڪندڙ خلين جي لحاظ کان فرق بيان ڪريو.",
+              "modelAnswer": "زائلم پاڻي ۽ معدني آئن منتقل ڪري ٿو؛ ان جا ويسل عنصر ۽ ٽريڪيڊ عام طور پختگيءَ تي مئل ۽ مضبوط ڀتين وارا هوندا آهن. فلوئم کنڊ ۽ ٻيا نامياتي مادا منتقل ڪري ٿو؛ ان جا سيئو ٽيوب عنصر زنده هوندا آهن ۽ ڪمپينين سيلز انهن جي مدد ڪن ٿا.",
+              "rubric": [
+                "زائلم جي منتقلي (1 نمبر)",
+                "زائلم جي بناوت (1 نمبر)",
+                "فلوئم جي منتقلي (1 نمبر)",
+                "فلوئم جي بناوت (1 نمبر)",
+                "واضح فرق (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -323,7 +825,33 @@
             "Movement into xylem (1 mark)",
             "Transpiration and stomatal evaporation (2 marks)",
             "Cohesion/adhesion and upward movement (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "وضاحت کریں کہ پانی اور معدنی آئن جڑوں میں کیسے داخل ہوتے اور پتوں تک کیسے پہنچتے ہیں۔ جواب میں اوسموسس، فعال نقل و حمل، زائلم اور ٹرانسپائریشن پل شامل کریں۔",
+              "modelAnswer": "جڑ کے بال سطحی رقبہ بڑھاتے ہیں۔ پانی مٹی کے محلول کے زیادہ واٹر پوٹینشل سے جڑ کے خلیوں کے کم واٹر پوٹینشل کی طرف منتخب جھلی کے پار اوسموسس سے داخل ہوتا ہے۔ معدنی آئن انتشار یا فعال نقل و حمل سے داخل ہو سکتے ہیں، خاص طور پر جب انہیں فرق کے خلاف منتقل کیا جائے۔ پانی اور آئن جڑ کے بافتوں سے گزر کر زائلم تک پہنچتے ہیں۔ پتوں کی سطح سے بخارات بننے اور اسٹوماٹا سے پھیلاؤ کے باعث ٹرانسپائریشن پل بنتا ہے جو پانی کے مسلسل ستون کو اوپر کھینچتا ہے۔ پانی کے سالمات کی باہمی کشش اور زائلم کی دیواروں سے چپکاؤ ستون کو سہارا دیتے ہیں۔",
+              "rubric": [
+                "جڑ کے بال کی موافقت (1 نمبر)",
+                "اوسموسس اور واٹر پوٹینشل (2 نمبر)",
+                "معدنی آئن کا جذب، فعال نقل و حمل سمیت (2 نمبر)",
+                "زائلم تک حرکت (1 نمبر)",
+                "ٹرانسپائریشن اور اسٹوماٹا سے بخارات (2 نمبر)",
+                "پانی کی باہمی کشش/چپکاؤ اور اوپر حرکت (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "وضاحت ڪريو ته پاڻي ۽ معدني آئن پاڙن ۾ ڪيئن داخل ٿين ٿا ۽ پنن تائين ڪيئن پهچن ٿا. جواب ۾ اوسموسس، فعال منتقلي، زائلم ۽ ٽرانسپائريشن پل شامل ڪريو.",
+              "modelAnswer": "پاڙ جا وار مٿاڇري وارو رقبو وڌائين ٿا. پاڻي مٽيءَ جي محلول جي وڌيڪ واٽر پوٽينشل کان پاڙ جي خلين جي گهٽ واٽر پوٽينشل ڏانهن چونڊيل جھلي پار اوسموسس سان داخل ٿئي ٿو. معدني آئن ڦهلاءَ يا فعال منتقليءَ سان داخل ٿي سگهن ٿا، خاص طور جڏهن انهن کي فرق جي ابتڙ منتقل ڪيو وڃي. پاڻي ۽ آئن پاڙ جي بافتن مان گذري زائلم تائين پهچن ٿا. پنن جي سطح تان بخار ٿيڻ ۽ اسٽوماٽا وسيلي ڦهلاءَ سبب ٽرانسپائريشن پل ٺهي ٿي، جيڪا پاڻيءَ جي لڳاتار ستون کي مٿي ڇڪي ٿي. پاڻيءَ جي ماليڪيولن جي پاڻ ۾ ڪشش ۽ زائلم جي ڀتين سان چنبڙڻ ستون کي سهارو ڏين ٿا.",
+              "rubric": [
+                "پاڙ جي وار جي موافقت (1 نمبر)",
+                "اوسموسس ۽ واٽر پوٽينشل (2 نمبر)",
+                "معدني آئن جذب، فعال منتقلي سميت (2 نمبر)",
+                "زائلم تائين حرڪت (1 نمبر)",
+                "ٽرانسپائريشن ۽ اسٽوماٽا مان بخار (2 نمبر)",
+                "پاڻيءَ جي پاڻ ۾ ڪشش/چنبڙڻ ۽ مٿي حرڪت (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -337,7 +865,33 @@
             "Seed and fruit development (2 marks)",
             "Seed dispersal/germination (1 mark)",
             "Asexual comparison and variation (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "پھول دار پودے میں زیرگی سے بیج اور پھل بننے تک جنسی افزائش بیان کریں۔ غیر جنسی افزائش سے موازنہ بھی کریں۔",
+              "modelAnswer": "زیرگی کے دوران پولن اینتھر سے اسٹگما تک منتقل ہوتا ہے۔ موزوں پولن دانہ اگ کر اسٹائل میں پولن ٹیوب بناتا ہے جو اوویول تک پہنچتی ہے۔ نر گیمیٹ ٹیوب کے ذریعے آ کر بیضہ سے مل کر زائیگوٹ بناتا ہے؛ پھول دار پودوں میں دوسری بارآوری اینڈوسپرم بنانے میں حصہ لیتی ہے۔ اوویول بیج اور اووری عموماً پھل بن جاتی ہے۔ بیج پھیلتے اور مناسب حالات میں اگتے ہیں۔ غیر جنسی افزائش رنرز، بلب یا ٹیوبرز جیسے حصوں سے گیمیٹس کے ملاپ کے بغیر ہوتی ہے اور عموماً جینیاتی طور پر ملتی جلتی اولاد بناتی ہے؛ جنسی افزائش زیادہ جینیاتی تنوع پیدا کرتی ہے۔",
+              "rubric": [
+                "زیرگی کی تعریف (1 نمبر)",
+                "پولن کا اگنا اور ٹیوب بننا (2 نمبر)",
+                "بارآوری اور زائیگوٹ (2 نمبر)",
+                "بیج اور پھل کی تشکیل (2 نمبر)",
+                "بیج کا پھیلاؤ/اگنا (1 نمبر)",
+                "غیر جنسی موازنہ اور تنوع (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "گلدار ٻوٽي ۾ زرپاشي کان ٻج ۽ ميوو ٺهڻ تائين جنسي افزائش بيان ڪريو. غير جنسي افزائش سان مقابلو به ڪريو.",
+              "modelAnswer": "زرپاشي دوران پولن اينٿر کان اسٽگما تائين منتقل ٿئي ٿو. مناسب پولن داڻو ڦٽي اسٽائل ۾ پولن ٽيوب ٺاهي ٿو، جيڪا اوويول تائين پهچي ٿي. نر گيميٽ ٽيوب وسيلي اچي بيضي سان ملي زائگوٽ ٺاهي ٿو؛ گلدار ٻوٽن ۾ ٻي بارآوري اينڊوسپرم ٺاهڻ ۾ حصو وٺي ٿي. اوويول ٻج ۽ اووري عام طور ميوو بڻجي ٿي. ٻج پکڙجن ٿا ۽ مناسب حالتن ۾ ڦٽن ٿا. غير جنسي افزائش رنرز، بلب يا ٽيوبرز جهڙن حصن وسيلي گيميٽن جي ميلاپ کان سواءِ ٿئي ٿي ۽ عام طور جينياتي طور ملندڙ اولاد ٺاهي ٿي؛ جنسي افزائش وڌيڪ جينياتي تنوع پيدا ڪري ٿي.",
+              "rubric": [
+                "زرپاشي جي وصف (1 نمبر)",
+                "پولن جو ڦٽڻ ۽ ٽيوب ٺهڻ (2 نمبر)",
+                "بارآوري ۽ زائگوٽ (2 نمبر)",
+                "ٻج ۽ ميوي جي ٺهڻ (2 نمبر)",
+                "ٻج پکڙجڻ/ڦٽڻ (1 نمبر)",
+                "غير جنسي مقابلو ۽ تنوع (2 نمبر)"
+              ]
+            }
+          }
         }
       ]
     }
