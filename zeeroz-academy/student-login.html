@@ -14,6 +14,7 @@
 h2{margin:0 0 7px;color:var(--navy);font-size:27px}.sub{margin:0 0 24px;color:var(--muted);font-size:14px}
 label{display:block;font-size:13px;font-weight:800;margin:14px 0 6px}input{width:100%;padding:13px 14px;border:1px solid #d8e0ee;border-radius:11px;font:inherit;outline:none}input:focus{border-color:var(--blue);box-shadow:0 0 0 3px #3157d51a}
 .action{width:100%;border:0;border-radius:11px;padding:14px;background:var(--blue);color:#fff;font-weight:850;font-size:14px;margin-top:20px;cursor:pointer}.action:disabled{opacity:.6;cursor:wait}
+.google-action{width:100%;border:1px solid #d8e0ee;border-radius:11px;padding:13px;background:#fff;color:#26334f;font-weight:850;font-size:14px;margin-top:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px}.google-action:disabled{opacity:.6;cursor:wait}.or-divider{display:flex;align-items:center;gap:12px;color:#8a94a8;font-size:11px;font-weight:800;margin:16px 0 2px}.or-divider:before,.or-divider:after{content:'';height:1px;background:#e5eaf4;flex:1}
 .note{font-size:12px;color:var(--muted);line-height:1.6;margin-top:16px}.message{padding:12px 14px;border-radius:10px;background:#eef8ff;color:#24527c;font-size:13px;margin-top:16px;display:none}.message.error{background:#fff0f0;color:#a52d36}.back{display:inline-block;margin-top:20px;color:var(--blue);font-size:13px;font-weight:800}
 @media(max-width:720px){.shell{grid-template-columns:1fr}.intro{min-height:230px;padding:28px}.intro h1{margin:26px 0 8px;font-size:32px}.intro p{margin:0}.intro small{margin-top:22px}.panel{padding:28px 22px}}
 </style></head>
@@ -27,6 +28,8 @@ label{display:block;font-size:13px;font-weight:800;margin:14px 0 6px}input{width
 <label for="email">Email address</label><input id="email" type="email" autocomplete="email" required maxlength="254" placeholder="name@example.com">
 <label for="password">Password</label><input id="password" type="password" autocomplete="current-password" required minlength="8" placeholder="At least 8 characters">
 <button class="action" id="submitBtn" type="submit">Sign in securely</button>
+<div class="or-divider">OR CONTINUE WITH</div>
+<button class="google-action" id="googleSignIn" type="button"><span aria-hidden="true" style="font-size:18px;font-weight:900;color:#4285f4">G</span> Continue with Google</button>
 </form><div class="message" id="message" role="status" aria-live="polite"></div>
 <p class="note">Your account is protected by Firebase Authentication. Never share your password or verification link. Registration creates a student account only; it cannot grant administrator access.</p>
 <a class="back" href="./index.html">← Back to Zeeroz Academy</a>
