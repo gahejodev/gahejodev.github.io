@@ -64,7 +64,29 @@
             "D": "Organism, organ system, organ, cell"
           },
           "correctOption": "B",
-          "explanation": "Cells form tissues, tissues form organs, organs form systems and systems make an organism."
+          "explanation": "Cells form tissues, tissues form organs, organs form systems and systems make an organism.",
+          "translations": {
+            "ur": {
+              "question": "سادہ سے پیچیدہ تنظیم کی درست ترتیب کون سی ہے؟",
+              "options": {
+                "A": "عضو، خلیہ، بافت، جاندار",
+                "B": "خلیہ، بافت، عضو، عضوی نظام، جاندار",
+                "C": "بافت، خلیہ، عضوی نظام، عضو",
+                "D": "جاندار، عضوی نظام، عضو، خلیہ"
+              },
+              "explanation": "خلیے بافتیں، بافتیں اعضا، اعضا نظام اور نظام مکمل جاندار بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "سادي کان پيچيده تنظيم جي صحيح ترتيب ڪهڙي آهي؟",
+              "options": {
+                "A": "عضو، خلو، بافت، جاندار",
+                "B": "خلو، بافت، عضو، عضوي نظام، جاندار",
+                "C": "بافت، خلو، عضوي نظام، عضو",
+                "D": "جاندار، عضوي نظام، عضو، خلو"
+              },
+              "explanation": "خليا بافتون، بافتون عضوا، عضوا نظام ۽ نظام مڪمل جاندار ٺاهين ٿا."
+            }
+          }
         },
         {
           "question": "A tissue is:",
@@ -75,7 +97,29 @@
             "D": "A chemical molecule"
           },
           "correctOption": "A",
-          "explanation": "Tissues consist of cells organised to perform particular functions."
+          "explanation": "Tissues consist of cells organised to perform particular functions.",
+          "translations": {
+            "ur": {
+              "question": "بافت کسے کہتے ہیں؟",
+              "options": {
+                "A": "ایسے خلیوں کا گروہ جو مل کر کوئی کام انجام دے",
+                "B": "غیر متعلقہ جانداروں کا گروہ",
+                "C": "ایک عضوی نظام",
+                "D": "ایک کیمیائی سالمہ"
+              },
+              "explanation": "بافت مخصوص کام کے لیے منظم خلیوں پر مشتمل ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "بافت ڇا آهي؟",
+              "options": {
+                "A": "اهڙن خلين جو گروهه جيڪي گڏجي ڪم ڪن",
+                "B": "غير لاڳاپيل جاندارن جو گروهه",
+                "C": "هڪ عضوي نظام",
+                "D": "هڪ ڪيميائي ماليڪيول"
+              },
+              "explanation": "بافت مخصوص ڪم لاءِ منظم خلين تي مشتمل هوندي آهي."
+            }
+          }
         },
         {
           "question": "Which is one of the four major animal tissue types?",
@@ -86,7 +130,29 @@
             "D": "Meristematic"
           },
           "correctOption": "A",
-          "explanation": "The four major animal tissue types are epithelial, connective, muscle and nervous."
+          "explanation": "The four major animal tissue types are epithelial, connective, muscle and nervous.",
+          "translations": {
+            "ur": {
+              "question": "جانوروں میں اپی تھیلیل بافت کا اہم کام کیا ہے؟",
+              "options": {
+                "A": "سطحوں کو ڈھانپنا اور اندرونی جگہوں کو لائن کرنا",
+                "B": "صرف حرکت پیدا کرنا",
+                "C": "صرف خون بنانا",
+                "D": "ہڈیوں کو معدنیات دینا"
+              },
+              "explanation": "اپی تھیلیل بافت جسم کی سطحوں کو ڈھانپتی اور اندرونی راستوں کو لائن کرتی ہے۔"
+            },
+            "sd": {
+              "question": "جانورن ۾ ايپيٿيليل بافت جو اهم ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "سطحن کي ڍڪڻ ۽ اندروني جڳهن کي استر ڏيڻ",
+                "B": "رڳو حرڪت پيدا ڪرڻ",
+                "C": "رڳو رت ٺاهڻ",
+                "D": "هڏن کي معدنيات ڏيڻ"
+              },
+              "explanation": "ايپيٿيليل بافت جسم جي سطحن کي ڍڪي ۽ اندروني رستن کي استر ڏئي ٿي."
+            }
+          }
         },
         {
           "question": "Blood is classified as:",
@@ -97,7 +163,29 @@
             "D": "Nervous tissue"
           },
           "correctOption": "B",
-          "explanation": "Blood is a fluid connective tissue with cells suspended in plasma."
+          "explanation": "Blood is a fluid connective tissue with cells suspended in plasma.",
+          "translations": {
+            "ur": {
+              "question": "کنیکٹو بافت کا بنیادی کردار کیا ہے؟",
+              "options": {
+                "A": "اعضا کو جوڑنا، سہارا دینا اور بعض اوقات مادے منتقل کرنا",
+                "B": "صرف اعصابی پیغام بنانا",
+                "C": "صرف سکڑنا",
+                "D": "روشنی جذب کرنا"
+              },
+              "explanation": "کنیکٹو بافت جسم کو سہارا دیتی، حصوں کو جوڑتی اور خون جیسی صورتوں میں مادے منتقل کرتی ہے۔"
+            },
+            "sd": {
+              "question": "ڪنيڪٽو بافت جو بنيادي ڪردار ڪهڙو آهي؟",
+              "options": {
+                "A": "عضون کي ڳنڍڻ، سهارو ڏيڻ ۽ ڪڏهن مادا منتقل ڪرڻ",
+                "B": "رڳو عصبي پيغام ٺاهڻ",
+                "C": "رڳو سڪڙجڻ",
+                "D": "روشني جذب ڪرڻ"
+              },
+              "explanation": "ڪنيڪٽو بافت جسم کي سهارو ڏئي، حصن کي ڳنڍي ۽ رت وانگر مادن کي منتقل ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Tendons connect:",
@@ -108,7 +196,29 @@
             "D": "Two glands"
           },
           "correctOption": "B",
-          "explanation": "Tendons attach muscles to bones."
+          "explanation": "Tendons attach muscles to bones.",
+          "translations": {
+            "ur": {
+              "question": "کون سی بافت سکڑ کر حرکت پیدا کرتی ہے؟",
+              "options": {
+                "A": "عصبی",
+                "B": "عضلاتی",
+                "C": "اپی تھیلیل",
+                "D": "ہڈی کی معدنی بافت"
+              },
+              "explanation": "عضلاتی بافت کے خلیے سکڑ کر قوت اور حرکت پیدا کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "ڪهڙي بافت سڪيڙي حرڪت پيدا ڪري ٿي؟",
+              "options": {
+                "A": "عصبي",
+                "B": "عضلاتي",
+                "C": "ايپيٿيليل",
+                "D": "هڏي جي معدني بافت"
+              },
+              "explanation": "عضلاتي بافت جا خليا سڪيڙي قوت ۽ حرڪت پيدا ڪن ٿا."
+            }
+          }
         },
         {
           "question": "Ligaments generally connect:",
@@ -119,7 +229,29 @@
             "D": "Neuron to neuron"
           },
           "correctOption": "A",
-          "explanation": "Ligaments connect bones, especially around joints."
+          "explanation": "Ligaments connect bones, especially around joints.",
+          "translations": {
+            "ur": {
+              "question": "عصبی بافت کا بنیادی کام کیا ہے؟",
+              "options": {
+                "A": "پیغامات وصول اور منتقل کرنا",
+                "B": "خوراک ذخیرہ کرنا",
+                "C": "آکسیجن بنانا",
+                "D": "ہڈی بنانا"
+              },
+              "explanation": "عصبی بافت نیورونز کے ذریعے برقی اور کیمیائی پیغامات منتقل کرتی ہے۔"
+            },
+            "sd": {
+              "question": "عصبي بافت جو بنيادي ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "پيغام وصول ۽ منتقل ڪرڻ",
+                "B": "خوراڪ ذخيرو ڪرڻ",
+                "C": "آڪسيجن ٺاهڻ",
+                "D": "هڏي ٺاهڻ"
+              },
+              "explanation": "عصبي بافت نيورون وسيلي برقي ۽ ڪيميائي پيغام منتقل ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Which animal tissue contracts to produce movement?",
@@ -130,7 +262,29 @@
             "D": "Adipose tissue"
           },
           "correctOption": "A",
-          "explanation": "Muscle tissue contains contractile proteins."
+          "explanation": "Muscle tissue contains contractile proteins.",
+          "translations": {
+            "ur": {
+              "question": "خون کو کس قسم کی بافت سمجھا جاتا ہے؟",
+              "options": {
+                "A": "اپی تھیلیل",
+                "B": "کنیکٹو",
+                "C": "عضلاتی",
+                "D": "عصبی"
+              },
+              "explanation": "خون ایک مائع کنیکٹو بافت ہے جو مادوں کی ترسیل کرتا ہے۔"
+            },
+            "sd": {
+              "question": "رت کي ڪهڙي قسم جي بافت سمجهيو وڃي ٿو؟",
+              "options": {
+                "A": "ايپيٿيليل",
+                "B": "ڪنيڪٽو",
+                "C": "عضلاتي",
+                "D": "عصبي"
+              },
+              "explanation": "رت هڪ پاڻياٺ واري ڪنيڪٽو بافت آهي، جيڪا مادا منتقل ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Nervous tissue is specialised for:",
@@ -141,7 +295,29 @@
             "D": "Making cellulose cell walls"
           },
           "correctOption": "A",
-          "explanation": "Neurons transmit electrical signals and supporting cells maintain nervous tissue."
+          "explanation": "Neurons transmit electrical signals and supporting cells maintain nervous tissue.",
+          "translations": {
+            "ur": {
+              "question": "ہموار عضلات کہاں پائے جاتے ہیں؟",
+              "options": {
+                "A": "صرف ہڈیوں سے جڑے ہوتے ہیں",
+                "B": "آنت اور خون کی نالیوں کی دیواروں میں",
+                "C": "صرف دل میں",
+                "D": "جلد کی بیرونی تہہ میں"
+              },
+              "explanation": "ہموار عضلات اندرونی اعضا مثلاً آنتوں اور خون کی نالیوں کی دیواروں میں ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "هموار عضلات ڪٿي ملن ٿا؟",
+              "options": {
+                "A": "رڳو هڏن سان ڳنڍيل",
+                "B": "آنڊن ۽ رت جي نالين جي ڀتين ۾",
+                "C": "رڳو دل ۾",
+                "D": "چمڙيءَ جي ٻاهرين تهه ۾"
+              },
+              "explanation": "هموار عضلات اندروني عضون، جهڙوڪ آنڊن ۽ رت جي نالين جي ڀتين ۾ هوندا آهن."
+            }
+          }
         },
         {
           "question": "Plant growth in length mainly occurs through:",
@@ -152,7 +328,29 @@
             "D": "Cuticle"
           },
           "correctOption": "A",
-          "explanation": "Apical meristems at root and shoot tips drive primary growth."
+          "explanation": "Apical meristems at root and shoot tips drive primary growth.",
+          "translations": {
+            "ur": {
+              "question": "کارڈیک عضلات کہاں پائے جاتے ہیں؟",
+              "options": {
+                "A": "دل میں",
+                "B": "بازوؤں میں",
+                "C": "آنتوں میں",
+                "D": "ہڈیوں میں"
+              },
+              "explanation": "کارڈیک عضلات دل کی دیوار بناتے ہیں اور غیر ارادی طور پر سکڑتے ہیں۔"
+            },
+            "sd": {
+              "question": "ڪارڊيڪ عضلات ڪٿي ملن ٿا؟",
+              "options": {
+                "A": "دل ۾",
+                "B": "ٻانهن ۾",
+                "C": "آنڊن ۾",
+                "D": "هڏن ۾"
+              },
+              "explanation": "ڪارڊيڪ عضلات دل جي ڀت ٺاهين ٿا ۽ پاڻمرادو سڪڙجن ٿا."
+            }
+          }
         },
         {
           "question": "The main function of xylem is to transport:",
@@ -163,7 +361,29 @@
             "D": "Starch from animals"
           },
           "correctOption": "A",
-          "explanation": "Xylem transports water and mineral ions, mainly from roots upwards."
+          "explanation": "Xylem transports water and mineral ions, mainly from roots upwards.",
+          "translations": {
+            "ur": {
+              "question": "پودوں میں اپیکل میرِسٹم کا کام کیا ہے؟",
+              "options": {
+                "A": "جڑ اور ٹہنی کی لمبائی بڑھانا",
+                "B": "صرف موٹائی بڑھانا",
+                "C": "شکر کو منتقل کرنا",
+                "D": "پانی کو بخارات بنانا"
+              },
+              "explanation": "اپیکل میرِسٹم جڑوں اور ٹہنیوں کے سروں پر لمبائی میں اضافہ کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ٻوٽن ۾ اپيڪل ميرسٽم جو ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "پاڙ ۽ ٽاريءَ جي ڊيگهه وڌائڻ",
+                "B": "رڳو ٿولهه وڌائڻ",
+                "C": "کنڊ منتقل ڪرڻ",
+                "D": "پاڻيءَ کي بخار بڻائڻ"
+              },
+              "explanation": "اپيڪل ميرسٽم پاڙن ۽ ٽارين جي چوٽين تي ڊيگهه وڌائي ٿو."
+            }
+          }
         },
         {
           "question": "Phloem mainly transports:",
@@ -174,7 +394,29 @@
             "D": "Bone minerals"
           },
           "correctOption": "A",
-          "explanation": "Phloem moves assimilates such as sucrose between sources and sinks."
+          "explanation": "Phloem moves assimilates such as sucrose between sources and sinks.",
+          "translations": {
+            "ur": {
+              "question": "لیٹرل میرِسٹم بنیادی طور پر کیا بڑھاتا ہے؟",
+              "options": {
+                "A": "پودے کی موٹائی",
+                "B": "پتے کی رنگت",
+                "C": "پھولوں کی تعداد لازماً",
+                "D": "جڑ کے بالوں کی لمبائی"
+              },
+              "explanation": "لیٹرل میرِسٹم تنوں اور جڑوں کی موٹائی یا ثانوی نشوونما میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "ليٽرل ميرسٽم بنيادي طور ڇا وڌائي ٿو؟",
+              "options": {
+                "A": "ٻوٽي جي ٿولهه",
+                "B": "پنن جو رنگ",
+                "C": "گلَن جو تعداد لازمي",
+                "D": "پاڙ جي وارن جي ڊيگهه"
+              },
+              "explanation": "ليٽرل ميرسٽم ٿڙن ۽ پاڙن جي ٿولهه يا ثانوي واڌ ۾ مدد ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Which plant tissue provides flexible support in growing regions?",
@@ -185,7 +427,29 @@
             "D": "Epidermal cuticle"
           },
           "correctOption": "A",
-          "explanation": "Collenchyma cells support growing plant parts while allowing flexibility."
+          "explanation": "Collenchyma cells support growing plant parts while allowing flexibility.",
+          "translations": {
+            "ur": {
+              "question": "زائلم کا بنیادی کام کیا ہے؟",
+              "options": {
+                "A": "پانی اور معدنیات منتقل کرنا",
+                "B": "شکر کو پتوں سے جڑوں تک پہنچانا",
+                "C": "پولن بنانا",
+                "D": "پروٹین ہضم کرنا"
+              },
+              "explanation": "زائلم جڑوں سے پانی اور معدنی آئن پودے کے اوپری حصوں تک پہنچاتا ہے۔"
+            },
+            "sd": {
+              "question": "زائلم جو بنيادي ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "پاڻي ۽ معدنيات منتقل ڪرڻ",
+                "B": "کنڊ پنن کان پاڙن تائين پهچائڻ",
+                "C": "پولن ٺاهڻ",
+                "D": "پروٽين هضم ڪرڻ"
+              },
+              "explanation": "زائلم پاڙن مان پاڻي ۽ معدني آئن ٻوٽي جي مٿين حصن تائين پهچائي ٿو."
+            }
+          }
         },
         {
           "question": "The waxy cuticle on many leaves helps:",
@@ -196,7 +460,29 @@
             "D": "Transport sugars through phloem"
           },
           "correctOption": "A",
-          "explanation": "The cuticle limits evaporation from aerial plant surfaces."
+          "explanation": "The cuticle limits evaporation from aerial plant surfaces.",
+          "translations": {
+            "ur": {
+              "question": "فلوئم کیا منتقل کرتا ہے؟",
+              "options": {
+                "A": "صرف پانی",
+                "B": "شکر اور دوسرے نامیاتی مادے",
+                "C": "صرف آکسیجن",
+                "D": "معدنی مٹی"
+              },
+              "explanation": "فلوئم سورس سے سنک تک سکروز اور دیگر نامیاتی مادے منتقل کرتا ہے۔"
+            },
+            "sd": {
+              "question": "فلوئم ڇا منتقل ڪري ٿو؟",
+              "options": {
+                "A": "رڳو پاڻي",
+                "B": "کنڊ ۽ ٻيا نامياتي مادا",
+                "C": "رڳو آڪسيجن",
+                "D": "معدني مٽي"
+              },
+              "explanation": "فلوئم سورس کان سنڪ تائين سکروز ۽ ٻيا نامياتي مادا منتقل ڪري ٿو."
+            }
+          }
         },
         {
           "question": "The stomach is an organ because it:",
@@ -207,7 +493,29 @@
             "D": "Is an organ system itself"
           },
           "correctOption": "A",
-          "explanation": "An organ consists of multiple tissue types that cooperate in a function."
+          "explanation": "An organ consists of multiple tissue types that cooperate in a function.",
+          "translations": {
+            "ur": {
+              "question": "پودوں کی ایپی ڈرمس اور کٹیکل کا اہم فائدہ کیا ہے؟",
+              "options": {
+                "A": "پانی کے ضیاع کو کم کرنا اور حفاظت کرنا",
+                "B": "ضیائی تالیف بند کرنا",
+                "C": "جڑوں کو مٹی سے الگ کرنا",
+                "D": "تمام گیسوں کا اخراج روکنا"
+              },
+              "explanation": "ایپی ڈرمس اور مومی کٹیکل بیرونی حفاظت اور پانی کے ضیاع میں کمی کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "ٻوٽي جي ايپيڊرمس ۽ ڪٽيڪل جو اهم فائدو ڪهڙو آهي؟",
+              "options": {
+                "A": "پاڻيءَ جو ضايع ٿيڻ گهٽائڻ ۽ حفاظت ڪرڻ",
+                "B": "ضيائي ترڪيب بند ڪرڻ",
+                "C": "پاڙن کي مٽيءَ کان ڌار ڪرڻ",
+                "D": "سڀ گيسون ٻاهر وڃڻ بند ڪرڻ"
+              },
+              "explanation": "ايپيڊرمس ۽ مومي ڪٽيڪل ٻاهرين حفاظت ۽ پاڻيءَ جي نقصان ۾ گهٽتائي ڪن ٿا."
+            }
+          }
         },
         {
           "question": "The respiratory system is mainly responsible for:",
@@ -218,7 +526,29 @@
             "D": "Breaking bones"
           },
           "correctOption": "A",
-          "explanation": "The respiratory system exchanges oxygen and carbon dioxide with the environment."
+          "explanation": "The respiratory system exchanges oxygen and carbon dioxide with the environment.",
+          "translations": {
+            "ur": {
+              "question": "پودے کے پتے میں گارڈ سیلز کس چیز کو کنٹرول کرتے ہیں؟",
+              "options": {
+                "A": "اسٹوماٹا کا کھلنا اور بند ہونا",
+                "B": "زائلم کی لمبائی",
+                "C": "جڑوں کی شاخیں",
+                "D": "پھل کا ذائقہ"
+              },
+              "explanation": "گارڈ سیلز پانی کی مقدار بدل کر اسٹوماٹا کے سوراخ کو کھولتے یا بند کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "ٻوٽي جي پن ۾ گارڊ سيلز ڪهڙي شيءِ کي ضابطي ۾ رکن ٿا؟",
+              "options": {
+                "A": "اسٽوماٽا جو کلڻ ۽ بند ٿيڻ",
+                "B": "زائلم جي ڊيگهه",
+                "C": "پاڙن جون ٽاريون",
+                "D": "ميوي جو ذائقو"
+              },
+              "explanation": "گارڊ سيلز پاڻيءَ جي مقدار بدلائي اسٽوماٽا جو سوراخ کولين يا بند ڪن ٿا."
+            }
+          }
         },
         {
           "question": "Homeostasis means:",
@@ -229,7 +559,29 @@
             "D": "Avoiding all external stimuli"
           },
           "correctOption": "A",
-          "explanation": "Homeostasis regulates internal variables within ranges compatible with life."
+          "explanation": "Homeostasis regulates internal variables within ranges compatible with life.",
+          "translations": {
+            "ur": {
+              "question": "عضو کس طرح بنتا ہے؟",
+              "options": {
+                "A": "مختلف بافتیں مل کر مخصوص کام انجام دیتی ہیں",
+                "B": "ایک ہی سالمہ کئی خلیے بناتا ہے",
+                "C": "صرف ایک خلیہ ہمیشہ عضو ہوتا ہے",
+                "D": "اعضا کسی بافت کے بغیر بنتے ہیں"
+              },
+              "explanation": "عضو میں مختلف بافتیں باہمی تعاون سے ایک یا زیادہ مخصوص افعال انجام دیتی ہیں۔"
+            },
+            "sd": {
+              "question": "عضو ڪيئن ٺهي ٿو؟",
+              "options": {
+                "A": "مختلف بافتون گڏجي مخصوص ڪم ڪن ٿيون",
+                "B": "هڪ ماليڪيول ڪيترائي خليا ٺاهي ٿو",
+                "C": "رڳو هڪ خلو هميشه عضو هوندو آهي",
+                "D": "عضوا بنا بافت جي ٺهن ٿا"
+              },
+              "explanation": "عضوي ۾ مختلف بافتون گڏجي هڪ يا وڌيڪ مخصوص ڪم ڪن ٿيون."
+            }
+          }
         },
         {
           "question": "A typical negative feedback pathway includes:",
@@ -240,7 +592,29 @@
             "D": "Only a nucleus"
           },
           "correctOption": "A",
-          "explanation": "A receptor detects change, a control centre coordinates response and an effector acts."
+          "explanation": "A receptor detects change, a control centre coordinates response and an effector acts.",
+          "translations": {
+            "ur": {
+              "question": "نظامِ ہاضمہ کا بنیادی کام کیا ہے؟",
+              "options": {
+                "A": "خوراک کو قابلِ جذب سالمات میں تبدیل کرنا",
+                "B": "آکسیجن بنانا",
+                "C": "خون پمپ کرنا",
+                "D": "اعصابی پیغام بھیجنا"
+              },
+              "explanation": "نظامِ ہاضمہ خوراک کو توڑ کر غذائی اجزا جذب کرنے کے قابل بناتا ہے۔"
+            },
+            "sd": {
+              "question": "هاضمي جي نظام جو بنيادي ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "خوراڪ کي جذب لائق ماليڪيولن ۾ تبديل ڪرڻ",
+                "B": "آڪسيجن ٺاهڻ",
+                "C": "رت پمپ ڪرڻ",
+                "D": "عصبي پيغام موڪلڻ"
+              },
+              "explanation": "هاضمي جو نظام خوراڪ کي ٽوڙي غذائي جزا جذب ڪرڻ لائق بڻائي ٿو."
+            }
+          }
         },
         {
           "question": "When body temperature rises, sweating helps:",
@@ -251,7 +625,29 @@
             "D": "Raise blood glucose"
           },
           "correctOption": "A",
-          "explanation": "Evaporation of sweat removes heat from the body."
+          "explanation": "Evaporation of sweat removes heat from the body.",
+          "translations": {
+            "ur": {
+              "question": "ہومیوسٹیسس سے کیا مراد ہے؟",
+              "options": {
+                "A": "اندرونی ماحول کو مناسب حدود میں برقرار رکھنا",
+                "B": "تمام جسمانی عمل روک دینا",
+                "C": "صرف جسمانی حرکت",
+                "D": "خلیوں کی تعداد بڑھانا"
+              },
+              "explanation": "ہومیوسٹیسس بیرونی تبدیلیوں کے باوجود اندرونی حالات کو نسبتاً مستحکم رکھتا ہے۔"
+            },
+            "sd": {
+              "question": "هوميوسٽيسس مان ڇا مراد آهي؟",
+              "options": {
+                "A": "اندروني ماحول کي مناسب حدن ۾ برقرار رکڻ",
+                "B": "سڀ جسماني عمل بند ڪرڻ",
+                "C": "رڳو جسماني حرڪت",
+                "D": "خلين جو تعداد وڌائڻ"
+              },
+              "explanation": "هوميوسٽيسس ٻاهرين تبديلين باوجود اندروني حالتن کي نسبتاً مستحڪم رکي ٿو."
+            }
+          }
         },
         {
           "question": "After a meal, insulin generally helps to:",
@@ -262,7 +658,29 @@
             "D": "Break down DNA"
           },
           "correctOption": "A",
-          "explanation": "Insulin promotes glucose uptake and storage, lowering blood glucose."
+          "explanation": "Insulin promotes glucose uptake and storage, lowering blood glucose.",
+          "translations": {
+            "ur": {
+              "question": "منفی فیڈبیک میں ردعمل کیا کرتا ہے؟",
+              "options": {
+                "A": "ابتدائی تبدیلی کو مزید بڑھاتا ہے",
+                "B": "ابتدائی تبدیلی کو کم کرنے میں مدد دیتا ہے",
+                "C": "کنٹرول سینٹر کو ختم کرتا ہے",
+                "D": "ہمیشہ جسمانی درجہ حرارت بڑھاتا ہے"
+              },
+              "explanation": "منفی فیڈبیک تبدیلی کی مخالفت کر کے اندرونی حالت کو معمول کی حد کی طرف لاتا ہے۔"
+            },
+            "sd": {
+              "question": "نيگيٽو فيڊبيڪ ۾ ردعمل ڇا ڪري ٿو؟",
+              "options": {
+                "A": "شروعاتي تبديلي وڌيڪ وڌائي ٿو",
+                "B": "شروعاتي تبديلي گهٽائڻ ۾ مدد ڪري ٿو",
+                "C": "ڪنٽرول سينٽر ختم ڪري ٿو",
+                "D": "هميشه جسم جو گرمي پد وڌائي ٿو"
+              },
+              "explanation": "نيگيٽو فيڊبيڪ تبديليءَ جي ابتڙ ڪم ڪري اندروني حالت کي معمول ڏانهن آڻي ٿو."
+            }
+          }
         },
         {
           "question": "When blood glucose falls, glucagon helps to:",
@@ -273,7 +691,29 @@
             "D": "Lower body temperature"
           },
           "correctOption": "A",
-          "explanation": "Glucagon stimulates the liver to release glucose, helping raise blood glucose."
+          "explanation": "Glucagon stimulates the liver to release glucose, helping raise blood glucose.",
+          "translations": {
+            "ur": {
+              "question": "گرمی میں جسم کو ٹھنڈا کرنے میں کون سا ردعمل مدد دیتا ہے؟",
+              "options": {
+                "A": "پسینہ کم ہونا اور خون کی نالیاں سکڑنا",
+                "B": "پسینہ بڑھنا اور جلد کی خون کی نالیاں پھیلنا",
+                "C": "کپکپی بڑھنا",
+                "D": "انسولین بند ہونا"
+              },
+              "explanation": "پسینہ بخارات بن کر حرارت خارج کرتا ہے اور جلد کی نالیاں پھیلنے سے حرارت کا اخراج بڑھتا ہے۔"
+            },
+            "sd": {
+              "question": "گرميءَ ۾ جسم کي ٿڌو ڪرڻ لاءِ ڪهڙو ردعمل مدد ڪري ٿو؟",
+              "options": {
+                "A": "پگهر گهٽجڻ ۽ رت جون ناليون سوڙهيون ٿيڻ",
+                "B": "پگهر وڌڻ ۽ چمڙيءَ جون رت جون ناليون ڦهلجڻ",
+                "C": "ڏڪڻي وڌڻ",
+                "D": "انسولين بند ٿيڻ"
+              },
+              "explanation": "پگهر بخار بڻجي گرمي ٻاهر ڪڍي ٿو ۽ چمڙيءَ جون ناليون ڦهلجڻ سان گرميءَ جو اخراج وڌي ٿو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -286,7 +726,27 @@
             "Tissue definition and example (1 mark)",
             "Organ definition and example (2 marks)",
             "Organ system definition and example (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "بافت، عضو اور عضوی نظام کی تعریف کریں اور ہر ایک کی ایک مثال دیں۔",
+              "modelAnswer": "بافت ایسے خلیوں کا گروہ ہے جو مل کر کوئی کام کرتے ہیں، مثلاً عضلاتی بافت۔ عضو مختلف بافتوں سے مل کر بنتا ہے، مثلاً دل۔ عضوی نظام کئی اعضا کا مجموعہ ہے جو مل کر کام کرتے ہیں، مثلاً دورانِ خون کا نظام۔",
+              "rubric": [
+                "بافت کی تعریف اور مثال (1 نمبر)",
+                "عضو کی تعریف اور مثال (2 نمبر)",
+                "عضوی نظام کی تعریف اور مثال (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "بافت، عضو ۽ عضوي نظام جي وصف ڏيو ۽ هر هڪ جو هڪ مثال ڏيو.",
+              "modelAnswer": "بافت اهڙن خلين جو گروهه آهي، جيڪي گڏجي ڪم ڪن، مثال طور عضلاتي بافت. عضو مختلف بافتن مان ٺهي ٿو، مثال طور دل. عضوي نظام ڪيترن عضون جو مجموعو آهي، جيڪي گڏجي ڪم ڪن ٿا، مثال طور رت جي گردش وارو نظام.",
+              "rubric": [
+                "بافت جي وصف ۽ مثال (1 نمبر)",
+                "عضو جي وصف ۽ مثال (2 نمبر)",
+                "عضوي نظام جي وصف ۽ مثال (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -296,7 +756,25 @@
           "rubric": [
             "Four tissue types named (2 marks)",
             "Accurate function for each (3 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "جانوروں کی چار بڑی بافتوں کے نام لکھیں اور ہر ایک کا ایک کام بیان کریں۔",
+              "modelAnswer": "اپی تھیلیل بافت سطحوں کو ڈھانپتی اور اندرونی جگہوں کو لائن کرتی ہے؛ کنیکٹو بافت سہارا دیتی، جوڑتی اور ترسیل کرتی ہے؛ عضلاتی بافت سکڑ کر حرکت پیدا کرتی ہے؛ عصبی بافت پیغامات وصول اور منتقل کرتی ہے۔",
+              "rubric": [
+                "چار اقسام کے نام (2 نمبر)",
+                "ہر ایک کا درست کام (3 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "جانورن جي چئن وڏين بافتن جا نالا لکو ۽ هر هڪ جو هڪ ڪم بيان ڪريو.",
+              "modelAnswer": "ايپيٿيليل بافت سطحن کي ڍڪي ۽ اندروني جڳهن کي استر ڏئي ٿي؛ ڪنيڪٽو بافت سهارو ڏئي، ڳنڍي ۽ منتقلي ڪري ٿي؛ عضلاتي بافت سڪيڙي حرڪت پيدا ڪري ٿي؛ عصبي بافت پيغام وصول ۽ منتقل ڪري ٿي.",
+              "rubric": [
+                "چئن قسمن جا نالا (2 نمبر)",
+                "هر هڪ جو صحيح ڪم (3 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -309,7 +787,29 @@
             "Phloem transport role (1 mark)",
             "Phloem conducting structure (1 mark)",
             "Clear comparison (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "ہومیوسٹیسس کی تعریف کریں اور جسمانی درجہ حرارت کو منظم رکھنے میں منفی فیڈبیک کی وضاحت کریں۔",
+              "modelAnswer": "ہومیوسٹیسس جسم کے اندرونی حالات کو مناسب حدود میں برقرار رکھنے کا عمل ہے۔ درجہ حرارت بڑھنے پر دماغ کا کنٹرول سینٹر پسینہ بڑھاتا اور جلد کی خون کی نالیاں پھیلاتا ہے، جس سے حرارت خارج ہوتی ہے۔ سردی میں پسینہ کم اور کپکپی بڑھ سکتی ہے۔ ردعمل ابتدائی تبدیلی کو کم کرتا ہے، اسی لیے اسے منفی فیڈبیک کہتے ہیں۔",
+              "rubric": [
+                "ہومیوسٹیسس کی تعریف (1 نمبر)",
+                "ریسیپٹر/کنٹرول سینٹر کا کردار (1 نمبر)",
+                "گرمی میں پسینہ اور ویزوڈائلیشن (2 نمبر)",
+                "سردی میں ردعمل اور منفی فیڈبیک کی وضاحت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "هوميوسٽيسس جي وصف ڏيو ۽ جسم جي گرمي پد کي ضابطي ۾ رکڻ لاءِ نيگيٽو فيڊبيڪ سمجهايو.",
+              "modelAnswer": "هوميوسٽيسس جسم جي اندروني حالتن کي مناسب حدن ۾ برقرار رکڻ جو عمل آهي. گرمي پد وڌڻ تي دماغ جو ڪنٽرول سينٽر پگهر وڌائي ۽ چمڙيءَ جون رت جون ناليون ڦهلائي ٿو، جنهن سان گرمي ٻاهر نڪري ٿي. ٿڌ ۾ پگهر گهٽجي ۽ ڏڪڻي وڌي سگهي ٿي. ردعمل شروعاتي تبديلي گهٽائي ٿو، تنهنڪري ان کي نيگيٽو فيڊبيڪ چئبو آهي.",
+              "rubric": [
+                "هوميوسٽيسس جي وصف (1 نمبر)",
+                "ريسيپٽر/ڪنٽرول سينٽر جو ڪردار (1 نمبر)",
+                "گرميءَ ۾ پگهر ۽ ويسوڊائليشن (2 نمبر)",
+                "ٿڌ ۾ ردعمل ۽ نيگيٽو فيڊبيڪ جي وضاحت (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -322,7 +822,29 @@
             "Heart as organ with multiple tissues (2 marks)",
             "Circulatory system components and role (2 marks)",
             "Interdependence/explanation (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "پودوں کی بافتوں کی اقسام بیان کریں اور زائلم اور فلوئم کے افعال کا موازنہ کریں۔",
+              "modelAnswer": "پودوں میں میرِسٹیمیٹک بافت تقسیم ہو کر نشوونما کرتی ہے؛ ڈرمل بافت حفاظت کرتی ہے؛ گراؤنڈ بافت ذخیرہ، ضیائی تالیف اور سہارا دیتی ہے؛ ویسکیولر بافت ترسیل کرتی ہے۔ زائلم پانی اور معدنیات زیادہ تر جڑوں سے اوپر لے جاتا ہے جبکہ فلوئم شکر اور دوسرے نامیاتی مادے سورس سے سنک تک پہنچاتا ہے۔",
+              "rubric": [
+                "اہم بافتوں کی اقسام اور افعال (4 نمبر)",
+                "زائلم کا کام (2 نمبر)",
+                "فلوئم کا کام (2 نمبر)",
+                "واضح موازنہ (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ٻوٽن جي بافتن جا قسم بيان ڪريو ۽ زائلم توڙي فلوئم جي ڪمن جو مقابلو ڪريو.",
+              "modelAnswer": "ٻوٽن ۾ ميرسٽيميٽڪ بافت ورهائجي واڌ ڪري ٿي؛ ڊرمل بافت حفاظت ڪري ٿي؛ گرائونڊ بافت ذخيرو، ضيائي ترڪيب ۽ سهارو ڏئي ٿي؛ ويسڪيولر بافت منتقلي ڪري ٿي. زائلم پاڻي ۽ معدنيات گهڻو ڪري پاڙن کان مٿي کڻي وڃي ٿو، جڏهن ته فلوئم کنڊ ۽ ٻيا نامياتي مادا سورس کان سنڪ تائين پهچائي ٿو.",
+              "rubric": [
+                "اهم بافتن جا قسم ۽ ڪم (4 نمبر)",
+                "زائلم جو ڪم (2 نمبر)",
+                "فلوئم جو ڪم (2 نمبر)",
+                "واضح مقابلو (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -336,7 +858,29 @@
             "Temperature fall response (1 mark)",
             "Insulin response to high glucose (2 marks)",
             "Glucagon response to low glucose (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "انسانی جسم میں مختلف عضوی نظاموں کے باہمی تعاون کی وضاحت کریں۔ ورزش کے دوران تنفسی اور دورانِ خون کے نظام کی مثال دیں۔",
+              "modelAnswer": "عضوی نظام الگ الگ کام کرتے ہوئے ایک دوسرے پر انحصار کرتے ہیں۔ ورزش میں عضلات کو زیادہ آکسیجن اور گلوکوز درکار ہوتے ہیں۔ تنفسی نظام سانس کی رفتار بڑھا کر آکسیجن مہیا اور کاربن ڈائی آکسائیڈ خارج کرتا ہے۔ دورانِ خون کا نظام دل کی رفتار اور خون کے بہاؤ میں اضافہ کر کے آکسیجن اور غذائی اجزا عضلات تک پہنچاتا اور فضلات دور کرتا ہے۔",
+              "rubric": [
+                "نظاموں کے باہمی انحصار کی وضاحت (2 نمبر)",
+                "عضلات کی بڑھتی ضرورت (2 نمبر)",
+                "تنفسی نظام کا کردار (3 نمبر)",
+                "دورانِ خون کا کردار (3 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "انساني جسم ۾ مختلف عضوي نظامن جي گڏيل ڪم جي وضاحت ڪريو. ورزش دوران تنفسي ۽ رت جي گردش واري نظام جو مثال ڏيو.",
+              "modelAnswer": "عضوي نظام الڳ الڳ ڪم ڪندي هڪ ٻئي تي ڀاڙين ٿا. ورزش دوران عضلن کي وڌيڪ آڪسيجن ۽ گلوڪوز گهرجن. تنفسي نظام ساهه جي رفتار وڌائي آڪسيجن مهيا ۽ ڪاربان ڊاءِ آڪسائيڊ خارج ڪري ٿو. رت جي گردش وارو نظام دل جي رفتار ۽ رت جي وهڪري ۾ واڌ ڪري آڪسيجن ۽ غذائي جزا عضلن تائين پهچائي ٿو ۽ فضلو پري ڪري ٿو.",
+              "rubric": [
+                "نظامن جي گڏيل انحصار جي وضاحت (2 نمبر)",
+                "عضلن جي وڌندڙ ضرورت (2 نمبر)",
+                "تنفسي نظام جو ڪردار (3 نمبر)",
+                "رت جي گردش واري نظام جو ڪردار (3 نمبر)"
+              ]
+            }
+          }
         }
       ]
     }
