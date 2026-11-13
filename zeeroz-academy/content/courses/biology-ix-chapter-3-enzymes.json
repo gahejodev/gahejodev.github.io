@@ -64,7 +64,29 @@
             "D": "Only the movement of muscles"
           },
           "correctOption": "A",
-          "explanation": "Metabolism includes all anabolic and catabolic reactions in living systems."
+          "explanation": "Metabolism includes all anabolic and catabolic reactions in living systems.",
+          "translations": {
+            "ur": {
+              "question": "میٹابولزم سے کیا مراد ہے؟",
+              "options": {
+                "A": "خلیے یا جاندار میں ہونے والے تمام کیمیائی تعاملات",
+                "B": "صرف سانس لینے کا عمل",
+                "C": "صرف معدے میں ہاضمہ",
+                "D": "صرف عضلات کی حرکت"
+              },
+              "explanation": "میٹابولزم میں جاندار نظاموں کے تمام انابولک اور کیٹابولک تعاملات شامل ہیں۔"
+            },
+            "sd": {
+              "question": "ميٽابولزم مان ڇا مراد آهي؟",
+              "options": {
+                "A": "خاني يا جاندار ۾ ٿيندڙ سڀ ڪيميائي عمل",
+                "B": "رڳو ساهه کڻڻ جو عمل",
+                "C": "رڳو معدي ۾ هاضمو",
+                "D": "رڳو عضلن جي حرڪت"
+              },
+              "explanation": "ميٽابولزم ۾ جاندار نظامن جا سڀ اينابولڪ ۽ ڪيٽابولڪ عمل شامل آهن."
+            }
+          }
         },
         {
           "question": "A reaction that builds a protein from amino acids is an example of:",
@@ -75,7 +97,29 @@
             "D": "Excretion"
           },
           "correctOption": "B",
-          "explanation": "Protein synthesis builds a complex molecule and is anabolic."
+          "explanation": "Protein synthesis builds a complex molecule and is anabolic.",
+          "translations": {
+            "ur": {
+              "question": "امینو ایسڈ سے پروٹین بننے والا تعامل کس کی مثال ہے؟",
+              "options": {
+                "A": "کیٹابولزم",
+                "B": "انابولزم",
+                "C": "انتشار",
+                "D": "اخراج"
+              },
+              "explanation": "پروٹین کی تیاری ایک پیچیدہ سالمہ بناتی ہے، اس لیے یہ انابولک عمل ہے۔"
+            },
+            "sd": {
+              "question": "امينو ايسڊ مان پروٽين ٺهڻ وارو عمل ڪهڙي شيءِ جو مثال آهي؟",
+              "options": {
+                "A": "ڪيٽابولزم",
+                "B": "اينابولزم",
+                "C": "ڦهلاءُ",
+                "D": "اخراج"
+              },
+              "explanation": "پروٽين ٺاهڻ سان پيچيده ماليڪيول ٺهي ٿو، تنهنڪري اهو اينابولڪ عمل آهي."
+            }
+          }
         },
         {
           "question": "A biological catalyst that increases reaction rate is called a/an:",
@@ -86,7 +130,29 @@
             "D": "Nucleotide"
           },
           "correctOption": "B",
-          "explanation": "Enzymes are biological catalysts that lower activation energy."
+          "explanation": "Enzymes are biological catalysts that lower activation energy.",
+          "translations": {
+            "ur": {
+              "question": "وہ حیاتیاتی عامل جو تعامل کی رفتار بڑھاتا ہے، کیا کہلاتا ہے؟",
+              "options": {
+                "A": "اینٹی باڈی",
+                "B": "خامرہ (Enzyme)",
+                "C": "لپڈ",
+                "D": "نیوکلیوٹائڈ"
+              },
+              "explanation": "خامرے حیاتیاتی محرک ہیں جو ایکٹیویشن انرجی کم کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "اهڙو حياتياتي عامل جيڪو عمل جي رفتار وڌائي ٿو، ڇا سڏجي ٿو؟",
+              "options": {
+                "A": "اينٽي باڊي",
+                "B": "انزائم",
+                "C": "لپڊ",
+                "D": "نيوڪليوٽائڊ"
+              },
+              "explanation": "انزائم حياتياتي ڪيٽالسٽ آهن، جيڪي ايڪٽيويشن انرجي گهٽائين ٿا."
+            }
+          }
         },
         {
           "question": "The substance on which an enzyme acts is its:",
@@ -97,7 +163,29 @@
             "D": "Inhibitor"
           },
           "correctOption": "B",
-          "explanation": "The substrate binds to the enzyme's active site."
+          "explanation": "The substrate binds to the enzyme's active site.",
+          "translations": {
+            "ur": {
+              "question": "وہ مادہ جس پر خامرہ عمل کرتا ہے، کیا کہلاتا ہے؟",
+              "options": {
+                "A": "مصنوعہ",
+                "B": "سبسٹریٹ",
+                "C": "کوفیکٹر",
+                "D": "روکنے والا مادہ"
+              },
+              "explanation": "سبسٹریٹ خامرے کے فعال مقام سے جڑتا ہے۔"
+            },
+            "sd": {
+              "question": "اهو مادو جنهن تي انزائم عمل ڪري ٿو، ڇا سڏجي ٿو؟",
+              "options": {
+                "A": "پيداوار",
+                "B": "سبسٽريٽ",
+                "C": "ڪوفيڪٽر",
+                "D": "روڪيندڙ مادو"
+              },
+              "explanation": "سبسٽريٽ انزائم جي فعال جاءِ سان ڳنڍجي ٿو."
+            }
+          }
         },
         {
           "question": "The region of an enzyme where the substrate binds is the:",
@@ -108,7 +196,29 @@
             "D": "Peptide bond"
           },
           "correctOption": "B",
-          "explanation": "The active site has chemical and structural properties that enable substrate binding and catalysis."
+          "explanation": "The active site has chemical and structural properties that enable substrate binding and catalysis.",
+          "translations": {
+            "ur": {
+              "question": "خامرے کا وہ حصہ جہاں سبسٹریٹ جڑتا ہے، کیا کہلاتا ہے؟",
+              "options": {
+                "A": "خلوی دیوار",
+                "B": "فعال مقام",
+                "C": "مرکزہ",
+                "D": "پیپٹائڈ بند"
+              },
+              "explanation": "فعال مقام کی کیمیائی اور ساختی خصوصیات سبسٹریٹ کے جڑنے اور تعامل میں مدد دیتی ہیں۔"
+            },
+            "sd": {
+              "question": "انزائم جو اهو حصو جتي سبسٽريٽ ڳنڍجي ٿو، ڇا سڏجي ٿو؟",
+              "options": {
+                "A": "خلوي ڀت",
+                "B": "فعال جاءِ",
+                "C": "مرڪز",
+                "D": "پيپٽائڊ بند"
+              },
+              "explanation": "فعال جاءِ جون ڪيميائي ۽ بناوتي خاصيتون سبسٽريٽ جي ڳانڍاپي ۽ عمل ۾ مدد ڪن ٿيون."
+            }
+          }
         },
         {
           "question": "The induced-fit model proposes that:",
@@ -119,7 +229,29 @@
             "D": "Enzymes are consumed during reactions"
           },
           "correctOption": "B",
-          "explanation": "Induced fit recognises flexibility in the active site during binding."
+          "explanation": "Induced fit recognises flexibility in the active site during binding.",
+          "translations": {
+            "ur": {
+              "question": "انڈیوسڈ فٹ ماڈل کے مطابق کیا ہوتا ہے؟",
+              "options": {
+                "A": "خامرہ مکمل طور پر سخت اور غیر لچکدار ہوتا ہے",
+                "B": "سبسٹریٹ جڑنے پر فعال مقام اپنی شکل میں معمولی تبدیلی لا سکتا ہے",
+                "C": "سبسٹریٹ خامرہ بن جاتا ہے",
+                "D": "تعامل کے دوران خامرے استعمال ہو کر ختم ہو جاتے ہیں"
+              },
+              "explanation": "انڈیوسڈ فٹ ماڈل سبسٹریٹ کے جڑنے کے دوران فعال مقام کی لچک کو تسلیم کرتا ہے۔"
+            },
+            "sd": {
+              "question": "انڊيوسڊ فٽ ماڊل موجب ڇا ٿئي ٿو؟",
+              "options": {
+                "A": "انزائم مڪمل طور سخت هوندو آهي",
+                "B": "سبسٽريٽ ڳنڍجڻ تي فعال جاءِ پنهنجي شڪل ۾ ٿوري تبديلي آڻي سگهي ٿي",
+                "C": "سبسٽريٽ انزائم بڻجي وڃي ٿو",
+                "D": "عمل دوران انزائم ختم ٿي وڃن ٿا"
+              },
+              "explanation": "انڊيوسڊ فٽ ماڊل سبسٽريٽ ڳنڍجڻ وقت فعال جاءِ جي لچڪ کي ظاهر ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Enzymes speed reactions mainly by:",
@@ -130,7 +262,29 @@
             "D": "Increasing the final energy difference"
           },
           "correctOption": "B",
-          "explanation": "Lower activation energy allows more reactant molecules to reach the transition state."
+          "explanation": "Lower activation energy allows more reactant molecules to reach the transition state.",
+          "translations": {
+            "ur": {
+              "question": "خامرے تعاملات کی رفتار بنیادی طور پر کیسے بڑھاتے ہیں؟",
+              "options": {
+                "A": "ایکٹیویشن انرجی بڑھا کر",
+                "B": "ایکٹیویشن انرجی کم کر کے",
+                "C": "مصنوعات کو ایٹموں میں بدل کر",
+                "D": "آخری توانائی کا فرق بڑھا کر"
+              },
+              "explanation": "کم ایکٹیویشن انرجی زیادہ ری ایکٹنٹ سالمات کو عبوری حالت تک پہنچنے دیتی ہے۔"
+            },
+            "sd": {
+              "question": "انزائم عمل جي رفتار بنيادي طور ڪيئن وڌائين ٿا؟",
+              "options": {
+                "A": "ايڪٽيويشن انرجي وڌائي",
+                "B": "ايڪٽيويشن انرجي گهٽائي",
+                "C": "پيداوارن کي ايٽم ۾ بدلائي",
+                "D": "آخري توانائيءَ جو فرق وڌائي"
+              },
+              "explanation": "گهٽ ايڪٽيويشن انرجي وڌيڪ ري ايڪٽنٽ ماليڪيولن کي عبوري حالت تائين پهچڻ ڏئي ٿي."
+            }
+          }
         },
         {
           "question": "Which statement about an enzyme after a reaction is generally correct?",
@@ -141,7 +295,29 @@
             "D": "It always changes into the product"
           },
           "correctOption": "B",
-          "explanation": "Enzymes are catalysts and are not permanently consumed in the reaction."
+          "explanation": "Enzymes are catalysts and are not permanently consumed in the reaction.",
+          "translations": {
+            "ur": {
+              "question": "تعامل کے بعد خامرے کے بارے میں عام طور پر کون سا بیان درست ہے؟",
+              "options": {
+                "A": "وہ ہمیشہ کے لیے استعمال ہو جاتا ہے",
+                "B": "وہ اکثر ایک اور تعامل کو تیز کر سکتا ہے",
+                "C": "وہ کاربوہائیڈریٹ بن جاتا ہے",
+                "D": "وہ لازماً مصنوعہ میں بدل جاتا ہے"
+              },
+              "explanation": "خامرے محرک ہوتے ہیں اور تعامل میں مستقل طور پر استعمال نہیں ہوتے۔"
+            },
+            "sd": {
+              "question": "عمل کان پوءِ انزائم بابت عام طور ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "اهو هميشه لاءِ استعمال ٿي ختم ٿي وڃي ٿو",
+                "B": "اهو اڪثر ٻيو عمل به تيز ڪري سگهي ٿو",
+                "C": "اهو ڪاربوهائيڊريٽ بڻجي وڃي ٿو",
+                "D": "اهو لازمي پيداوار ۾ بدلجي وڃي ٿو"
+              },
+              "explanation": "انزائم ڪيٽالسٽ آهن ۽ عمل دوران مستقل طور استعمال نٿا ٿين."
+            }
+          }
         },
         {
           "question": "Which enzyme helps digest starch?",
@@ -152,7 +328,29 @@
             "D": "Catalase"
           },
           "correctOption": "B",
-          "explanation": "Amylase catalyses the breakdown of starch."
+          "explanation": "Amylase catalyses the breakdown of starch.",
+          "translations": {
+            "ur": {
+              "question": "نشاستے کے ہاضمے میں کون سا خامرہ مدد دیتا ہے؟",
+              "options": {
+                "A": "لائپیز",
+                "B": "ایمائلیز",
+                "C": "پروٹیز",
+                "D": "کیٹالیز"
+              },
+              "explanation": "ایمائلیز نشاستے کو توڑنے کا عمل تیز کرتا ہے۔"
+            },
+            "sd": {
+              "question": "نشاستي جي هاضمي ۾ ڪهڙو انزائم مدد ڪري ٿو؟",
+              "options": {
+                "A": "لائپيز",
+                "B": "ايمائليز",
+                "C": "پروٽيز",
+                "D": "ڪيٽالِيز"
+              },
+              "explanation": "ايمائليز نشاستي کي ٽوڙڻ جو عمل تيز ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Catalase acts on:",
@@ -163,7 +361,29 @@
             "D": "DNA"
           },
           "correctOption": "A",
-          "explanation": "Catalase converts hydrogen peroxide into water and oxygen."
+          "explanation": "Catalase converts hydrogen peroxide into water and oxygen.",
+          "translations": {
+            "ur": {
+              "question": "کیٹالیز کس مادے پر عمل کرتا ہے؟",
+              "options": {
+                "A": "ہائیڈروجن پرآکسائیڈ",
+                "B": "سیلولوز",
+                "C": "ہیموگلوبن",
+                "D": "DNA"
+              },
+              "explanation": "کیٹالیز ہائیڈروجن پرآکسائیڈ کو پانی اور آکسیجن میں تبدیل کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪيٽالِيز ڪهڙي مادي تي عمل ڪري ٿو؟",
+              "options": {
+                "A": "هائيڊروجن پرآڪسائيڊ",
+                "B": "سيلولوز",
+                "C": "هيموگلوبن",
+                "D": "DNA"
+              },
+              "explanation": "ڪيٽالِيز هائيڊروجن پرآڪسائيڊ کي پاڻي ۽ آڪسيجن ۾ تبديل ڪري ٿو."
+            }
+          }
         },
         {
           "question": "A cofactor is:",
@@ -174,7 +394,29 @@
             "D": "A cell organelle"
           },
           "correctOption": "A",
-          "explanation": "Some enzymes need non-protein helper substances to function."
+          "explanation": "Some enzymes need non-protein helper substances to function.",
+          "translations": {
+            "ur": {
+              "question": "کوفیکٹر کیا ہوتا ہے؟",
+              "options": {
+                "A": "کچھ خامروں کے کام کے لیے درکار مددگار مادہ",
+                "B": "ہر خامری تعامل کی آخری پیداوار",
+                "C": "کاربوہائیڈریٹ کی ایک قسم",
+                "D": "خلوی عضیہ"
+              },
+              "explanation": "کچھ خامروں کو کام کرنے کے لیے غیر پروٹینی مددگار مادوں کی ضرورت ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "ڪوفيڪٽر ڇا آهي؟",
+              "options": {
+                "A": "ڪجهه انزائمن جي ڪم لاءِ گهربل مددگار مادو",
+                "B": "هر انزائمي عمل جي آخري پيداوار",
+                "C": "ڪاربوهائيڊريٽ جو هڪ قسم",
+                "D": "خلوي عضيو"
+              },
+              "explanation": "ڪجهه انزائمن کي ڪم ڪرڻ لاءِ غير پروٽيني مددگار مادن جي ضرورت هوندي آهي."
+            }
+          }
         },
         {
           "question": "As temperature rises above an enzyme's optimum, activity often falls because:",
@@ -185,7 +427,29 @@
             "D": "All collisions stop"
           },
           "correctOption": "B",
-          "explanation": "High temperatures can disrupt the interactions maintaining the enzyme's structure."
+          "explanation": "High temperatures can disrupt the interactions maintaining the enzyme's structure.",
+          "translations": {
+            "ur": {
+              "question": "درجہ حرارت خامرے کے بہترین درجے سے بڑھ جائے تو سرگرمی اکثر کیوں کم ہوتی ہے؟",
+              "options": {
+                "A": "سبسٹریٹ DNA بن جاتا ہے",
+                "B": "خامرہ ڈی نیچر ہو سکتا ہے اور اس کا فعال مقام بدل جاتا ہے",
+                "C": "خامرہ لپڈ بن جاتا ہے",
+                "D": "تمام سالماتی ٹکراؤ رک جاتے ہیں"
+              },
+              "explanation": "زیادہ درجہ حرارت خامرے کی ساخت برقرار رکھنے والے تعاملات کو متاثر کر سکتا ہے۔"
+            },
+            "sd": {
+              "question": "انزائم جي بهترين گرمي پد کان مٿي گرمي وڌڻ تي سرگرمي اڪثر ڇو گهٽجي ٿي؟",
+              "options": {
+                "A": "سبسٽريٽ DNA بڻجي ٿو",
+                "B": "انزائم ڊي نيچر ٿي سگهي ٿو ۽ ان جي فعال جاءِ بدلجي ٿي",
+                "C": "انزائم لپڊ بڻجي ٿو",
+                "D": "سڀ ماليڪيولي ٽڪراءَ بند ٿين ٿا"
+              },
+              "explanation": "وڌيڪ گرمي انزائم جي بناوت برقرار رکندڙ لاڳاپن کي متاثر ڪري سگهي ٿي."
+            }
+          }
         },
         {
           "question": "At very low temperature, enzyme reactions are usually slower because:",
@@ -196,7 +460,29 @@
             "D": "The substrate turns into an inhibitor"
           },
           "correctOption": "A",
-          "explanation": "Lower temperature slows molecular movement and reduces successful collisions."
+          "explanation": "Lower temperature slows molecular movement and reduces successful collisions.",
+          "translations": {
+            "ur": {
+              "question": "بہت کم درجہ حرارت پر خامری تعاملات عموماً سست کیوں ہوتے ہیں؟",
+              "options": {
+                "A": "سالمات کی حرکی توانائی کم اور مؤثر ٹکراؤ کم ہوتے ہیں",
+                "B": "تمام خامرے فوراً تباہ ہو جاتے ہیں",
+                "C": "فعال مقام ہمیشہ پگھل جاتا ہے",
+                "D": "سبسٹریٹ روکنے والا مادہ بن جاتا ہے"
+              },
+              "explanation": "کم درجہ حرارت سالمات کی حرکت اور کامیاب ٹکراؤ کی تعداد کم کرتا ہے۔"
+            },
+            "sd": {
+              "question": "تمام گهٽ گرمي پد تي انزائمي عمل عام طور سست ڇو ٿين ٿا؟",
+              "options": {
+                "A": "ماليڪيولن جي حرڪي توانائي ۽ اثرائتا ٽڪراءَ گهٽ ٿين ٿا",
+                "B": "سڀ انزائم فوراً تباهه ٿين ٿا",
+                "C": "فعال جاءِ هميشه ڳري وڃي ٿي",
+                "D": "سبسٽريٽ روڪيندڙ مادو بڻجي ٿو"
+              },
+              "explanation": "گهٽ گرمي ماليڪيولن جي حرڪت ۽ ڪامياب ٽڪراءَ جو تعداد گهٽائي ٿي."
+            }
+          }
         },
         {
           "question": "Each enzyme has a pH at which it works best called its:",
@@ -207,7 +493,29 @@
             "D": "Melting point"
           },
           "correctOption": "A",
-          "explanation": "Enzyme structure and active-site chemistry are best suited to a particular pH range."
+          "explanation": "Enzyme structure and active-site chemistry are best suited to a particular pH range.",
+          "translations": {
+            "ur": {
+              "question": "ہر خامرے کا وہ pH جس پر وہ بہترین کام کرتا ہے، کیا کہلاتا ہے؟",
+              "options": {
+                "A": "بہترین pH",
+                "B": "زیادہ سے زیادہ کمیت",
+                "C": "نقطۂ ابال",
+                "D": "نقطۂ پگھلاؤ"
+              },
+              "explanation": "خامرے کی ساخت اور فعال مقام کی کیمیائی خصوصیات ایک مخصوص pH پر بہترین ہوتی ہیں۔"
+            },
+            "sd": {
+              "question": "هر انزائم جو اهو pH جنهن تي اهو بهترين ڪم ڪري ٿو، ڇا سڏجي ٿو؟",
+              "options": {
+                "A": "بهترين pH",
+                "B": "وڌ ۾ وڌ وزن",
+                "C": "اُبال جو نقطو",
+                "D": "ڳرڻ جو نقطو"
+              },
+              "explanation": "انزائم جي بناوت ۽ فعال جاءِ جون ڪيميائي خاصيتون مخصوص pH تي بهترين هونديون آهن."
+            }
+          }
         },
         {
           "question": "At fixed enzyme concentration, adding more substrate eventually causes the reaction rate to:",
@@ -218,7 +526,29 @@
             "D": "Change into anabolism"
           },
           "correctOption": "B",
-          "explanation": "Once most active sites are occupied, the enzyme concentration limits the rate."
+          "explanation": "Once most active sites are occupied, the enzyme concentration limits the rate.",
+          "translations": {
+            "ur": {
+              "question": "خامرے کی مقدار مقرر ہو تو مزید سبسٹریٹ ڈالنے سے آخرکار تعامل کی رفتار کیا ہوتی ہے؟",
+              "options": {
+                "A": "لامحدود بڑھتی رہتی ہے",
+                "B": "فعال مقامات بھر جانے پر ایک سطح پر پہنچ جاتی ہے",
+                "C": "فوراً صفر ہو جاتی ہے",
+                "D": "انابولزم میں بدل جاتی ہے"
+              },
+              "explanation": "جب زیادہ تر فعال مقامات مصروف ہو جائیں تو خامرے کی مقدار رفتار کو محدود کرتی ہے۔"
+            },
+            "sd": {
+              "question": "انزائم جي مقدار مقرر هجي ته وڌيڪ سبسٽريٽ وجهڻ سان آخرڪار عمل جي رفتار ڇا ٿيندي؟",
+              "options": {
+                "A": "لامحدود وڌندي رهندي",
+                "B": "فعال جايون ڀرجي وڃڻ تي هڪ سطح تي پهچي ويندي",
+                "C": "فوراً صفر ٿي ويندي",
+                "D": "اينابولزم ۾ بدلجي ويندي"
+              },
+              "explanation": "جڏهن گهڻيون فعال جايون ڀرجي وڃن ته انزائم جي مقدار رفتار کي محدود ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Increasing enzyme concentration when enough substrate is available generally:",
@@ -229,7 +559,29 @@
             "D": "Destroys all substrate"
           },
           "correctOption": "A",
-          "explanation": "More enzyme molecules provide more active sites."
+          "explanation": "More enzyme molecules provide more active sites.",
+          "translations": {
+            "ur": {
+              "question": "اگر کافی سبسٹریٹ موجود ہو تو خامرے کی مقدار بڑھانے سے عموماً کیا ہوتا ہے؟",
+              "options": {
+                "A": "تعامل کی رفتار بڑھتی ہے",
+                "B": "تعامل ہمیشہ رک جاتا ہے",
+                "C": "کوئی اثر ممکن نہیں",
+                "D": "تمام سبسٹریٹ تباہ ہو جاتا ہے"
+              },
+              "explanation": "خامرے کے سالمات زیادہ ہوں تو فعال مقامات کی تعداد بڑھ جاتی ہے۔"
+            },
+            "sd": {
+              "question": "جيڪڏهن ڪافي سبسٽريٽ موجود هجي ته انزائم جي مقدار وڌائڻ سان عام طور ڇا ٿيندو؟",
+              "options": {
+                "A": "عمل جي رفتار وڌندي",
+                "B": "عمل هميشه بند ٿيندو",
+                "C": "ڪو اثر ممڪن ناهي",
+                "D": "سڀ سبسٽريٽ تباهه ٿيندو"
+              },
+              "explanation": "وڌيڪ انزائم ماليڪيولن سان فعال جايون وڌيڪ ٿين ٿيون."
+            }
+          }
         },
         {
           "question": "A competitive inhibitor usually binds to the:",
@@ -240,7 +592,29 @@
             "D": "Product only"
           },
           "correctOption": "A",
-          "explanation": "Competitive inhibitors compete with substrate for the enzyme's active site."
+          "explanation": "Competitive inhibitors compete with substrate for the enzyme's active site.",
+          "translations": {
+            "ur": {
+              "question": "مسابقتی روکنے والا مادہ عموماً کہاں جڑتا ہے؟",
+              "options": {
+                "A": "فعال مقام پر",
+                "B": "خلوی جھلی پر",
+                "C": "رائبوسوم پر",
+                "D": "صرف مصنوعہ سے"
+              },
+              "explanation": "مسابقتی روکنے والے مادے فعال مقام کے لیے سبسٹریٹ سے مقابلہ کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "مقابلي وارو روڪيندڙ مادو عام طور ڪٿي ڳنڍجي ٿو؟",
+              "options": {
+                "A": "فعال جاءِ تي",
+                "B": "خلوي جھليءَ تي",
+                "C": "رائبوسوم تي",
+                "D": "رڳو پيداوار سان"
+              },
+              "explanation": "مقابلي وارا روڪيندڙ مادا فعال جاءِ لاءِ سبسٽريٽ سان مقابلو ڪن ٿا."
+            }
+          }
         },
         {
           "question": "The effect of a simple competitive inhibitor may be reduced by:",
@@ -251,7 +625,29 @@
             "D": "Cooling to absolute zero"
           },
           "correctOption": "A",
-          "explanation": "More substrate can outcompete a reversible competitive inhibitor for active-site binding."
+          "explanation": "More substrate can outcompete a reversible competitive inhibitor for active-site binding.",
+          "translations": {
+            "ur": {
+              "question": "سادہ مسابقتی روکنے والے مادے کا اثر کس طرح کم کیا جا سکتا ہے؟",
+              "options": {
+                "A": "سبسٹریٹ کی مقدار بڑھا کر",
+                "B": "تمام خامرہ ختم کر کے",
+                "C": "بغیر قابو تیزابیت بڑھا کر",
+                "D": "درجہ حرارت مطلق صفر کر کے"
+              },
+              "explanation": "زیادہ سبسٹریٹ فعال مقام سے جڑنے کے لیے قابلِ واپسی مسابقتی روکنے والے مادے پر غالب آ سکتا ہے۔"
+            },
+            "sd": {
+              "question": "سادو مقابلي وارو روڪيندڙ مادو جو اثر ڪيئن گهٽائي سگهجي ٿو؟",
+              "options": {
+                "A": "سبسٽريٽ جي مقدار وڌائي",
+                "B": "سڀ انزائم ختم ڪري",
+                "C": "بنا ضابطي تيزابيت وڌائي",
+                "D": "گرمي پد مطلق صفر ڪري"
+              },
+              "explanation": "وڌيڪ سبسٽريٽ فعال جاءِ تي ڳنڍجڻ لاءِ قابلِ واپسي مقابلي واري روڪيندڙ تي غالب اچي سگهي ٿو."
+            }
+          }
         },
         {
           "question": "A pure non-competitive inhibitor binds:",
@@ -262,7 +658,29 @@
             "D": "To the cell wall"
           },
           "correctOption": "B",
-          "explanation": "It binds at another site and reduces enzyme activity by changing function or conformation."
+          "explanation": "It binds at another site and reduces enzyme activity by changing function or conformation.",
+          "translations": {
+            "ur": {
+              "question": "خالص غیر مسابقتی روکنے والا مادہ کہاں جڑتا ہے؟",
+              "options": {
+                "A": "صرف سبسٹریٹ سے",
+                "B": "فعال مقام کے علاوہ کسی دوسرے مقام پر",
+                "C": "صرف DNA سے",
+                "D": "خلوی دیوار سے"
+              },
+              "explanation": "یہ دوسرے مقام پر جڑ کر خامرے کی ساخت یا فعالیت بدلتا اور سرگرمی کم کرتا ہے۔"
+            },
+            "sd": {
+              "question": "خالص غير مقابلي وارو روڪيندڙ مادو ڪٿي ڳنڍجي ٿو؟",
+              "options": {
+                "A": "رڳو سبسٽريٽ سان",
+                "B": "فعال جاءِ کان سواءِ ٻي جاءِ تي",
+                "C": "رڳو DNA سان",
+                "D": "خلوي ڀت سان"
+              },
+              "explanation": "اهو ٻي جاءِ تي ڳنڍجي انزائم جي بناوت يا ڪم کي بدلائي سرگرمي گهٽائي ٿو."
+            }
+          }
         },
         {
           "question": "In the simple pure non-competitive inhibition model, which parameter decreases?",
@@ -273,7 +691,29 @@
             "D": "The enzyme's gene length"
           },
           "correctOption": "A",
-          "explanation": "Pure non-competitive inhibition lowers Vmax; Km remains unchanged in the ideal model."
+          "explanation": "Pure non-competitive inhibition lowers Vmax; Km remains unchanged in the ideal model.",
+          "translations": {
+            "ur": {
+              "question": "سادہ خالص غیر مسابقتی روک تھام کے ماڈل میں کون سا پیمانہ کم ہوتا ہے؟",
+              "options": {
+                "A": "Vmax",
+                "B": "DNA کی اساسوں کی تعداد",
+                "C": "سبسٹریٹ کی سالماتی کمیت",
+                "D": "خامرے کے جین کی لمبائی"
+              },
+              "explanation": "خالص غیر مسابقتی روک تھام Vmax کم کرتی ہے؛ مثالی ماڈل میں Km تبدیل نہیں ہوتا۔"
+            },
+            "sd": {
+              "question": "سادو خالص غير مقابلي واري روڪٿام واري ماڊل ۾ ڪهڙو قدر گهٽجي ٿو؟",
+              "options": {
+                "A": "Vmax",
+                "B": "DNA جي اساسن جو تعداد",
+                "C": "سبسٽريٽ جو ماليڪيولي وزن",
+                "D": "انزائم جين جي ڊيگهه"
+              },
+              "explanation": "خالص غير مقابلي واري روڪٿام Vmax گهٽائي ٿي؛ مثالي ماڊل ۾ Km ساڳيو رهي ٿو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -288,7 +728,31 @@
             "Suitable anabolic example (1 mark)",
             "Catabolism correctly explained (1 mark)",
             "Suitable catabolic example (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "میٹابولزم کی تعریف کریں اور انابولزم اور کیٹابولزم میں فرق بتاتے ہوئے ہر ایک کی ایک مثال دیں۔",
+              "modelAnswer": "میٹابولزم خلیے یا جاندار میں ہونے والے تمام کیمیائی تعاملات کا مجموعہ ہے۔ انابولزم سادہ سالمات سے پیچیدہ سالمات بناتا ہے اور عموماً توانائی استعمال کرتا ہے؛ پروٹین سازی اس کی مثال ہے۔ کیٹابولزم پیچیدہ سالمات کو سادہ سالمات میں توڑتا ہے اور اکثر توانائی خارج کرتا ہے؛ خلوی تنفس یا ہاضمہ اس کی مثال ہے۔",
+              "rubric": [
+                "میٹابولزم کی تعریف (1 نمبر)",
+                "انابولزم کی درست وضاحت (1 نمبر)",
+                "انابولزم کی مناسب مثال (1 نمبر)",
+                "کیٹابولزم کی درست وضاحت (1 نمبر)",
+                "کیٹابولزم کی مناسب مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ميٽابولزم جي وصف ڏيو ۽ اينابولزم ۽ ڪيٽابولزم ۾ فرق ٻڌائيندي هر هڪ جو مثال ڏيو.",
+              "modelAnswer": "ميٽابولزم خاني يا جاندار ۾ ٿيندڙ سڀني ڪيميائي عملن جو مجموعو آهي. اينابولزم سادن ماليڪيولن مان پيچيده ماليڪيول ٺاهي ٿو ۽ عام طور توانائي استعمال ڪري ٿو؛ پروٽين ٺاهڻ ان جو مثال آهي. ڪيٽابولزم پيچيده ماليڪيولن کي سادن ماليڪيولن ۾ ٽوڙي ٿو ۽ اڪثر توانائي خارج ڪري ٿو؛ خلوي تنفس يا هاضمو ان جو مثال آهي.",
+              "rubric": [
+                "ميٽابولزم جي وصف (1 نمبر)",
+                "اينابولزم جي صحيح وضاحت (1 نمبر)",
+                "اينابولزم جو مناسب مثال (1 نمبر)",
+                "ڪيٽابولزم جي صحيح وضاحت (1 نمبر)",
+                "ڪيٽابولزم جو مناسب مثال (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -301,7 +765,31 @@
             "Catalysis/lower activation energy (1 mark)",
             "Products released (1 mark)",
             "Enzyme available for reuse (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "وضاحت کریں کہ خامرہ-سبسٹریٹ کمپلیکس کیسے بنتا ہے اور خامرہ دوبارہ استعمال کے لیے کیسے دستیاب رہتا ہے۔",
+              "modelAnswer": "سبسٹریٹ خامرے کے موزوں فعال مقام سے جڑتا ہے؛ اکثر انڈیوسڈ فٹ کے تحت فعال مقام میں معمولی تبدیلی آتی ہے اور خامرہ-سبسٹریٹ کمپلیکس بنتا ہے۔ خامرہ ایکٹیویشن انرجی کم کر کے سبسٹریٹ کو مصنوعہ میں تبدیل کرنے میں مدد دیتا ہے۔ مصنوعہ الگ ہو جاتی ہے اور خامرہ دوسرے تعامل کے لیے دستیاب رہتا ہے۔",
+              "rubric": [
+                "سبسٹریٹ کا فعال مقام سے جڑنا (1 نمبر)",
+                "خامرہ-سبسٹریٹ کمپلیکس کی شناخت (1 نمبر)",
+                "تحریک/ایکٹیویشن انرجی میں کمی (1 نمبر)",
+                "مصنوعات کا خارج ہونا (1 نمبر)",
+                "خامرے کا دوبارہ استعمال کے لیے دستیاب ہونا (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "وضاحت ڪريو ته انزائم-سبسٽريٽ ڪمپليڪس ڪيئن ٺهي ٿو ۽ انزائم ٻيهر استعمال لاءِ ڪيئن موجود رهي ٿو.",
+              "modelAnswer": "سبسٽريٽ انزائم جي مناسب فعال جاءِ سان ڳنڍجي ٿو؛ اڪثر انڊيوسڊ فٽ تحت فعال جاءِ ۾ ٿوري تبديلي اچي ٿي ۽ انزائم-سبسٽريٽ ڪمپليڪس ٺهي ٿو. انزائم ايڪٽيويشن انرجي گهٽائي سبسٽريٽ کي پيداوار ۾ تبديل ڪرڻ ۾ مدد ڪري ٿو. پيداوار ڌار ٿي وڃي ٿي ۽ انزائم ٻئي عمل لاءِ موجود رهي ٿو.",
+              "rubric": [
+                "سبسٽريٽ جو فعال جاءِ سان ڳنڍجڻ (1 نمبر)",
+                "انزائم-سبسٽريٽ ڪمپليڪس جي سڃاڻپ (1 نمبر)",
+                "عمل/ايڪٽيويشن انرجي گهٽجڻ (1 نمبر)",
+                "پيداوار جو آزاد ٿيڻ (1 نمبر)",
+                "انزائم جو ٻيهر استعمال لاءِ موجود رهڻ (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -314,7 +802,31 @@
             "Enzyme-specific optimum pH (1 mark)",
             "pH changes affect active-site structure/charges (1 mark)",
             "Correct link to rate/activity (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "درجہ حرارت اور pH خامرے کی سرگرمی کو کیسے متاثر کرتے ہیں؟",
+              "modelAnswer": "درجہ حرارت بڑھنے سے عموماً بہترین حد تک سرگرمی بڑھتی ہے کیونکہ سالمات کے ٹکراؤ زیادہ ہوتے ہیں۔ بہترین حد سے اوپر خامرہ ڈی نیچر ہو سکتا ہے اور سرگرمی کم ہو جاتی ہے۔ ہر خامرے کا ایک بہترین pH ہوتا ہے؛ pH میں تبدیلی بار، چارج اور فعال مقام کی ساخت بدل کر سرگرمی کم کر سکتی ہے۔",
+              "rubric": [
+                "بہترین حد تک درجہ حرارت بڑھنے کا اثر (1 نمبر)",
+                "زیادہ درجہ حرارت پر ڈی نیچریشن (1 نمبر)",
+                "ہر خامرے کا مخصوص بہترین pH (1 نمبر)",
+                "pH سے فعال مقام/چارج متاثر ہونا (1 نمبر)",
+                "سرگرمی کی رفتار سے درست تعلق (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "گرمي پد ۽ pH انزائم جي سرگرميءَ تي ڪيئن اثر وجهن ٿا؟",
+              "modelAnswer": "گرمي پد وڌڻ سان عام طور بهترين حد تائين سرگرمي وڌي ٿي، ڇاڪاڻ⁠تہ ماليڪيولن جا ٽڪراءَ وڌن ٿا. بهترين حد کان مٿي انزائم ڊي نيچر ٿي سگهي ٿو ۽ سرگرمي گهٽجي ٿي. هر انزائم جو هڪ بهترين pH هوندو آهي؛ pH جي تبديلي چارج، بندن ۽ فعال جاءِ جي بناوت بدلائي سرگرمي گهٽائي سگهي ٿي.",
+              "rubric": [
+                "بهترين حد تائين گرمي وڌڻ جو اثر (1 نمبر)",
+                "وڌيڪ گرميءَ تي ڊي نيچريشن (1 نمبر)",
+                "هر انزائم جو مخصوص بهترين pH (1 نمبر)",
+                "pH سان فعال جاءِ/چارج متاثر ٿيڻ (1 نمبر)",
+                "سرگرميءَ جي رفتار سان صحيح تعلق (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -328,7 +840,33 @@
             "Temperature effect and denaturation (2 marks)",
             "pH optimum and effect of deviation (2 marks)",
             "Substrate saturation/maximum rate (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "خامرے کے عمل کا طریقۂ کار بیان کریں اور درجہ حرارت، pH اور سبسٹریٹ کی مقدار کے اثرات واضح کریں۔",
+              "modelAnswer": "سبسٹریٹ خامرے کے فعال مقام سے جڑ کر خامرہ-سبسٹریٹ کمپلیکس بناتا ہے۔ انڈیوسڈ فٹ میں فعال مقام معمولی طور پر ڈھل سکتا ہے۔ خامرہ ایکٹیویشن انرجی کم کرتا، سبسٹریٹ کو مصنوعہ میں بدلتا اور خود دستیاب رہتا ہے۔ درجہ حرارت بہترین حد تک رفتار بڑھاتا ہے؛ حد سے زیادہ حرارت خامرے کو ڈی نیچر کر سکتی ہے۔ ہر خامرے کا بہترین pH ہوتا ہے؛ اس سے انحراف چارج اور فعال مقام کی شکل بدل سکتا ہے۔ خامرے کی مقدار مقرر ہو تو سبسٹریٹ بڑھانے سے رفتار بڑھتی ہے، یہاں تک کہ فعال مقامات بھر جائیں اور رفتار زیادہ سے زیادہ سطح کے قریب پہنچ جائے۔",
+              "rubric": [
+                "فعال مقام اور سبسٹریٹ کا جڑنا (2 نمبر)",
+                "کمپلیکس اور انڈیوسڈ فٹ (1 نمبر)",
+                "ایکٹیویشن انرجی میں کمی اور مصنوعہ کا اخراج (1 نمبر)",
+                "درجہ حرارت اور ڈی نیچریشن (2 نمبر)",
+                "بہترین pH اور تبدیلی کا اثر (2 نمبر)",
+                "سبسٹریٹ کی مقدار اور فعال مقامات کا بھرنا (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "انزائم جي عمل جو طريقو بيان ڪريو ۽ گرمي پد، pH ۽ سبسٽريٽ جي مقدار جا اثر واضح ڪريو.",
+              "modelAnswer": "سبسٽريٽ انزائم جي فعال جاءِ سان ڳنڍجي انزائم-سبسٽريٽ ڪمپليڪس ٺاهي ٿو. انڊيوسڊ فٽ ۾ فعال جاءِ ٿوري تبديل ٿي سگهي ٿي. انزائم ايڪٽيويشن انرجي گهٽائي، سبسٽريٽ کي پيداوار ۾ بدلائي ۽ پاڻ ٻيهر موجود رهي ٿو. گرمي پد بهترين حد تائين رفتار وڌائي ٿو؛ حد کان وڌيڪ گرمي انزائم کي ڊي نيچر ڪري سگهي ٿي. هر انزائم جو بهترين pH هوندو آهي؛ ان کان هٽڻ سان چارج ۽ فعال جاءِ جي شڪل بدلجي سگهي ٿي. انزائم جي مقدار مقرر هجي ته سبسٽريٽ وڌائڻ سان رفتار وڌي ٿي، جيستائين فعال جايون ڀرجي وڃن ۽ رفتار وڌ ۾ وڌ سطح تي پهچي.",
+              "rubric": [
+                "فعال جاءِ ۽ سبسٽريٽ جو ڳنڍجڻ (2 نمبر)",
+                "ڪمپليڪس ۽ انڊيوسڊ فٽ (1 نمبر)",
+                "ايڪٽيويشن انرجي گهٽجڻ ۽ پيداوار آزاد ٿيڻ (1 نمبر)",
+                "گرمي پد ۽ ڊي نيچريشن (2 نمبر)",
+                "بهترين pH ۽ تبديليءَ جو اثر (2 نمبر)",
+                "سبسٽريٽ جي مقدار ۽ فعال جايون ڀرجڻ (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -342,7 +880,33 @@
             "Non-competitive binding at another site (2 marks)",
             "Why extra substrate does not overcome pure non-competitive inhibition (2 marks)",
             "Clear comparison / ideal-model qualification (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "مسابقتی اور غیر مسابقتی خامری روک تھام کا موازنہ کریں اور واضح کریں کہ سبسٹریٹ بڑھانے پر ان کے اثرات مختلف کیوں ہوتے ہیں۔",
+              "modelAnswer": "مسابقتی روکنے والا مادہ فعال مقام پر جڑ کر سبسٹریٹ سے مقابلہ کرتا ہے۔ سبسٹریٹ کی مقدار بڑھانے سے اس کا اثر کم ہو سکتا ہے کیونکہ سبسٹریٹ کے جڑنے کا امکان بڑھ جاتا ہے۔ غیر مسابقتی روکنے والا مادہ دوسرے مقام پر جڑتا اور خامرے کی ساخت یا فعالیت بدل کر سرگرمی کم کرتا ہے۔ خالص غیر مسابقتی ماڈل میں مزید سبسٹریٹ روک تھام ختم نہیں کرتا کیونکہ روکنے والا مادہ فعال مقام کے لیے مقابلہ نہیں کرتا؛ Vmax کم ہو جاتی ہے۔ حقیقی طریقۂ کار زیادہ پیچیدہ بھی ہو سکتے ہیں۔",
+              "rubric": [
+                "روک تھام کی تعریف (1 نمبر)",
+                "مسابقتی مادے کا مقام اور مقابلہ (2 نمبر)",
+                "مسابقتی روک تھام میں سبسٹریٹ بڑھانے کا اثر (2 نمبر)",
+                "غیر مسابقتی مادے کا دوسرے مقام پر جڑنا (2 نمبر)",
+                "خالص غیر مسابقتی روک تھام میں اضافی سبسٹریٹ بے اثر کیوں (2 نمبر)",
+                "واضح موازنہ/مثالی ماڈل کی وضاحت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "مقابلي واري ۽ غير مقابلي واري انزائم روڪٿام جو مقابلو ڪريو ۽ ٻڌايو ته سبسٽريٽ وڌائڻ سان انهن جا اثر مختلف ڇو ٿين ٿا.",
+              "modelAnswer": "مقابلي وارو روڪيندڙ مادو فعال جاءِ تي ڳنڍجي سبسٽريٽ سان مقابلو ڪري ٿو. سبسٽريٽ جي مقدار وڌائڻ سان ان جو اثر گهٽجي سگهي ٿو، ڇاڪاڻ⁠تہ سبسٽريٽ جي ڳنڍجڻ جو امڪان وڌي ٿو. غير مقابلي وارو روڪيندڙ مادو ٻي جاءِ تي ڳنڍجي انزائم جي بناوت يا ڪم بدلائي سرگرمي گهٽائي ٿو. خالص غير مقابلي واري ماڊل ۾ وڌيڪ سبسٽريٽ روڪٿام ختم نٿو ڪري، ڇاڪاڻ⁠تہ روڪيندڙ فعال جاءِ لاءِ مقابلو نٿو ڪري؛ Vmax گهٽجي ٿو. حقيقي طريقا وڌيڪ پيچيده به ٿي سگهن ٿا.",
+              "rubric": [
+                "روڪٿام جي وصف (1 نمبر)",
+                "مقابلي واري مادي جي جاءِ ۽ مقابلو (2 نمبر)",
+                "مقابلي واري روڪٿام ۾ سبسٽريٽ وڌائڻ جو اثر (2 نمبر)",
+                "غير مقابلي واري مادي جو ٻي جاءِ تي ڳنڍجڻ (2 نمبر)",
+                "خالص غير مقابلي واري روڪٿام ۾ اضافي سبسٽريٽ اثرائتو ڇو ناهي (2 نمبر)",
+                "واضح مقابلو/مثالي ماڊل جي وضاحت (1 نمبر)"
+              ]
+            }
+          }
         }
       ]
     }
