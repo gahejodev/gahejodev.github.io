@@ -64,7 +64,29 @@
             "D": "Only protein digestion"
           },
           "correctOption": "B",
-          "explanation": "The cell cycle includes interphase and the M phase."
+          "explanation": "The cell cycle includes interphase and the M phase.",
+          "translations": {
+            "ur": {
+              "question": "خلوی چکر میں کیا کیا شامل ہوتا ہے؟",
+              "options": {
+                "A": "صرف مائیٹوسس",
+                "B": "نشوونما، DNA کی نقل اور خلوی تقسیم",
+                "C": "صرف سائٹو کائنیسس",
+                "D": "صرف پروٹین کا ہاضمہ"
+              },
+              "explanation": "خلوی چکر میں انٹرفیز اور M مرحلہ شامل ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "خلوي چڪر ۾ ڪهڙا عمل شامل آهن؟",
+              "options": {
+                "A": "رڳو مائٽوسس",
+                "B": "واڌ، DNA جي نقل ۽ خلوي ورهاست",
+                "C": "رڳو سائٽوڪائنيزس",
+                "D": "رڳو پروٽين جو هاضمو"
+              },
+              "explanation": "خلوي چڪر ۾ انٽرفيز ۽ M مرحلو شامل آهن."
+            }
+          }
         },
         {
           "question": "DNA replication takes place during:",
@@ -75,7 +97,29 @@
             "D": "Telophase"
           },
           "correctOption": "B",
-          "explanation": "The S phase is the DNA synthesis phase of interphase."
+          "explanation": "The S phase is the DNA synthesis phase of interphase.",
+          "translations": {
+            "ur": {
+              "question": "DNA کی نقل کس مرحلے میں ہوتی ہے؟",
+              "options": {
+                "A": "G1 مرحلہ",
+                "B": "S مرحلہ",
+                "C": "G2 مرحلہ",
+                "D": "ٹیلوفیز"
+              },
+              "explanation": "انٹرفیز کا S مرحلہ DNA کی تیاری یا نقل کا مرحلہ ہے۔"
+            },
+            "sd": {
+              "question": "DNA جي نقل ڪهڙي مرحلي ۾ ٿئي ٿي؟",
+              "options": {
+                "A": "G1 مرحلو",
+                "B": "S مرحلو",
+                "C": "G2 مرحلو",
+                "D": "ٽيلوفيس"
+              },
+              "explanation": "انٽرفيز جو S مرحلو DNA جي نقل جو مرحلو آهي."
+            }
+          }
         },
         {
           "question": "Interphase is best described as:",
@@ -86,7 +130,29 @@
             "D": "A stage only in meiosis"
           },
           "correctOption": "B",
-          "explanation": "Interphase is metabolically active and includes G1, S and G2."
+          "explanation": "Interphase is metabolically active and includes G1, S and G2.",
+          "translations": {
+            "ur": {
+              "question": "انٹرفیز کے دوران خلیہ عموماً کیا کرتا ہے؟",
+              "options": {
+                "A": "صرف تقسیم ہوتا ہے",
+                "B": "بڑھتا ہے، معمول کے افعال انجام دیتا ہے اور تقسیم کی تیاری کرتا ہے",
+                "C": "فوراً مر جاتا ہے",
+                "D": "اپنا تمام DNA خارج کرتا ہے"
+              },
+              "explanation": "انٹرفیز میں G1، S اور G2 مراحل کے دوران نشوونما، DNA کی نقل اور تیاری ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "انٽرفيز دوران خلو عام طور ڇا ڪري ٿو؟",
+              "options": {
+                "A": "رڳو ورهائجي ٿو",
+                "B": "وڌي ٿو، معمول جا ڪم ڪري ٿو ۽ ورهاست جي تياري ڪري ٿو",
+                "C": "فوراً مري وڃي ٿو",
+                "D": "پنهنجو سمورو DNA خارج ڪري ٿو"
+              },
+              "explanation": "انٽرفيز ۾ G1، S ۽ G2 مرحلن دوران واڌ، DNA جي نقل ۽ تياري ٿئي ٿي."
+            }
+          }
         },
         {
           "question": "A replicated chromosome normally consists of:",
@@ -97,7 +163,29 @@
             "D": "Only one DNA base"
           },
           "correctOption": "A",
-          "explanation": "After replication, two sister chromatids are joined at the centromere region."
+          "explanation": "After replication, two sister chromatids are joined at the centromere region.",
+          "translations": {
+            "ur": {
+              "question": "G1 مرحلے میں بنیادی طور پر کیا ہوتا ہے؟",
+              "options": {
+                "A": "DNA کی نقل",
+                "B": "خلوی نشوونما اور معمول کی سرگرمیاں",
+                "C": "کروموسوم کا الگ ہونا",
+                "D": "سائٹوپلازم کی تقسیم"
+              },
+              "explanation": "G1 میں خلیہ بڑھتا اور پروٹین و عضیات بناتا ہے۔"
+            },
+            "sd": {
+              "question": "G1 مرحلي ۾ بنيادي طور ڇا ٿئي ٿو؟",
+              "options": {
+                "A": "DNA جي نقل",
+                "B": "خلوي واڌ ۽ معمول جون سرگرميون",
+                "C": "ڪروموسومن جو ڌار ٿيڻ",
+                "D": "سائٽوپلازم جي ورهاست"
+              },
+              "explanation": "G1 ۾ خلو وڌي ٿو ۽ پروٽين توڙي عضيا ٺاهي ٿو."
+            }
+          }
         },
         {
           "question": "DNA replication is called semi-conservative because:",
@@ -108,7 +196,29 @@
             "D": "Only half the genes are copied"
           },
           "correctOption": "B",
-          "explanation": "Each daughter DNA double helix retains one parental strand."
+          "explanation": "Each daughter DNA double helix retains one parental strand.",
+          "translations": {
+            "ur": {
+              "question": "S مرحلے کا اہم واقعہ کیا ہے؟",
+              "options": {
+                "A": "DNA کی نقل",
+                "B": "خلوی جھلی کا ٹوٹنا",
+                "C": "کروموسوم کا مرکزے سے باہر نکلنا",
+                "D": "صرف سائٹوپلازم کی تقسیم"
+              },
+              "explanation": "S مرحلے میں DNA کی نقل ہوتی ہے تاکہ ہر نئی بیٹی خلیے کو مکمل جینیاتی مواد ملے۔"
+            },
+            "sd": {
+              "question": "S مرحلي جو اهم واقعو ڪهڙو آهي؟",
+              "options": {
+                "A": "DNA جي نقل",
+                "B": "خلوي جھلي ٽٽڻ",
+                "C": "ڪروموسوم جو مرڪز کان ٻاهر نڪرڻ",
+                "D": "رڳو سائٽوپلازم جي ورهاست"
+              },
+              "explanation": "S مرحلي ۾ DNA جي نقل ٿئي ٿي ته جيئن هر نئين خاني کي مڪمل جينياتي مادو ملي."
+            }
+          }
         },
         {
           "question": "The stage when chromosomes line up at the equator in mitosis is:",
@@ -119,7 +229,29 @@
             "D": "Telophase"
           },
           "correctOption": "B",
-          "explanation": "During metaphase chromosomes align at the metaphase plate."
+          "explanation": "During metaphase chromosomes align at the metaphase plate.",
+          "translations": {
+            "ur": {
+              "question": "G2 مرحلے میں خلیہ کیا کرتا ہے؟",
+              "options": {
+                "A": "مزید بڑھتا اور تقسیم کی تیاری کرتا ہے",
+                "B": "DNA ختم کرتا ہے",
+                "C": "فوری طور پر دو خلیوں میں تقسیم ہوتا ہے",
+                "D": "ضیائی تالیف شروع کرتا ہے"
+              },
+              "explanation": "G2 میں خلیہ مزید بڑھتا، DNA کی جانچ کرتا اور تقسیم کے لیے ضروری اجزا تیار کرتا ہے۔"
+            },
+            "sd": {
+              "question": "G2 مرحلي ۾ خلو ڇا ڪري ٿو؟",
+              "options": {
+                "A": "وڌيڪ وڌي ورهاست جي تياري ڪري ٿو",
+                "B": "DNA ختم ڪري ٿو",
+                "C": "فوراً ٻن خلين ۾ ورهائجي ٿو",
+                "D": "ضيائي ترڪيب شروع ڪري ٿو"
+              },
+              "explanation": "G2 ۾ خلو وڌيڪ وڌي ٿو، DNA جي جاچ ڪري ٿو ۽ ورهاست لاءِ ضروري جزا تيار ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Sister chromatids separate during mitosis in:",
@@ -130,7 +262,29 @@
             "D": "Telophase"
           },
           "correctOption": "C",
-          "explanation": "Anaphase separates sister chromatids towards opposite poles."
+          "explanation": "Anaphase separates sister chromatids towards opposite poles.",
+          "translations": {
+            "ur": {
+              "question": "مائیٹوسس کا بنیادی نتیجہ کیا ہے؟",
+              "options": {
+                "A": "چار ہیپلوئڈ خلیے",
+                "B": "دو عموماً جینیاتی طور پر ملتے جلتے بیٹی خلیے",
+                "C": "ایک خلیہ جس میں DNA نہ ہو",
+                "D": "صرف گیمیٹس"
+              },
+              "explanation": "مائیٹوسس عموماً دو بیٹی خلیے بناتا ہے جن میں کروموسوم کی تعداد والدین خلیے جیسی ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "مائٽوسس جو بنيادي نتيجو ڪهڙو آهي؟",
+              "options": {
+                "A": "چار هيپلوئڊ خليا",
+                "B": "ٻه عام طور جينياتي طور ملندڙ جلندڙ ڌيئر خليا",
+                "C": "هڪ خلو جنهن ۾ DNA نه هجي",
+                "D": "رڳو گيميٽ"
+              },
+              "explanation": "مائٽوسس عام طور ٻه ڌيئر خليا ٺاهي ٿو، جن ۾ ڪروموسومن جو تعداد والدين خاني جيترو هوندو آهي."
+            }
+          }
         },
         {
           "question": "Cytokinesis in a typical animal cell occurs by:",
@@ -141,7 +295,29 @@
             "D": "DNA replication"
           },
           "correctOption": "B",
-          "explanation": "A contractile ring forms a cleavage furrow in animal cells."
+          "explanation": "A contractile ring forms a cleavage furrow in animal cells.",
+          "translations": {
+            "ur": {
+              "question": "مائیٹوسس میں کروموسوم کب خلیے کے وسط میں قطار بناتے ہیں؟",
+              "options": {
+                "A": "پروفیز",
+                "B": "میٹافیز",
+                "C": "اینافیز",
+                "D": "ٹیلوفیز"
+              },
+              "explanation": "میٹافیز میں کروموسوم استوائی سطح پر قطار بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "مائٽوسس ۾ ڪروموسوم ڪڏهن خاني جي وچ ۾ قطار ٺاهين ٿا؟",
+              "options": {
+                "A": "پروفيس",
+                "B": "ميٽافيس",
+                "C": "اينافيس",
+                "D": "ٽيلوفيس"
+              },
+              "explanation": "ميٽافيس ۾ ڪروموسوم وچ واري استوائي سطح تي قطار ٺاهين ٿا."
+            }
+          }
         },
         {
           "question": "In plant cells, cytokinesis usually involves formation of a:",
@@ -152,7 +328,29 @@
             "D": "Nucleoid"
           },
           "correctOption": "B",
-          "explanation": "Vesicles form a cell plate that develops into the new partition."
+          "explanation": "Vesicles form a cell plate that develops into the new partition.",
+          "translations": {
+            "ur": {
+              "question": "اینافیز میں کیا ہوتا ہے؟",
+              "options": {
+                "A": "کروموسوم کی نقل شروع ہوتی ہے",
+                "B": "سسٹر کرومیٹڈز الگ ہو کر مخالف قطبین کی طرف جاتے ہیں",
+                "C": "مرکزہ دوبارہ بنتا ہے",
+                "D": "DNA ختم ہو جاتا ہے"
+              },
+              "explanation": "اینافیز میں سسٹر کرومیٹڈز الگ ہو کر مخالف قطبین کی طرف کھنچتے ہیں۔"
+            },
+            "sd": {
+              "question": "اينافيس ۾ ڇا ٿئي ٿو؟",
+              "options": {
+                "A": "ڪروموسوم جي نقل شروع ٿئي ٿي",
+                "B": "سسٽر ڪروميٽڊ ڌار ٿي مخالف قطبن ڏانهن وڃن ٿا",
+                "C": "مرڪز ٻيهر ٺهي ٿو",
+                "D": "DNA ختم ٿي وڃي ٿو"
+              },
+              "explanation": "اينافيس ۾ سسٽر ڪروميٽڊ ڌار ٿي مخالف قطبن ڏانهن ڇڪجن ٿا."
+            }
+          }
         },
         {
           "question": "Mitosis generally produces:",
@@ -163,7 +361,29 @@
             "D": "One gamete"
           },
           "correctOption": "B",
-          "explanation": "Mitosis maintains chromosome number and usually produces two similar daughter cells."
+          "explanation": "Mitosis maintains chromosome number and usually produces two similar daughter cells.",
+          "translations": {
+            "ur": {
+              "question": "ٹیلوفیز میں کیا واقع ہوتا ہے؟",
+              "options": {
+                "A": "کروموسوم مزید گاڑھے ہوتے ہیں",
+                "B": "دو نئے مرکزے بننے لگتے ہیں",
+                "C": "DNA کی پہلی بار نقل ہوتی ہے",
+                "D": "خلیہ ہمیشہ رک جاتا ہے"
+              },
+              "explanation": "ٹیلوفیز میں کروموسوم قطبین پر پہنچتے ہیں اور نئے مرکزے کی جھلیاں بننے لگتی ہیں۔"
+            },
+            "sd": {
+              "question": "ٽيلوفيس ۾ ڇا ٿئي ٿو؟",
+              "options": {
+                "A": "ڪروموسوم وڌيڪ ڳاڙها ٿين ٿا",
+                "B": "ٻه نوان مرڪز ٺهڻ لڳن ٿا",
+                "C": "DNA جي پهريون ڀيرو نقل ٿئي ٿي",
+                "D": "خلو هميشه لاءِ رڪجي وڃي ٿو"
+              },
+              "explanation": "ٽيلوفيس ۾ ڪروموسوم قطبن تائين پهچن ٿا ۽ نئين مرڪز جون جھليون ٺهڻ لڳن ٿيون."
+            }
+          }
         },
         {
           "question": "Meiosis is called reduction division because it:",
@@ -174,7 +394,29 @@
             "D": "Produces only diploid cells"
           },
           "correctOption": "B",
-          "explanation": "Meiosis reduces chromosome number from diploid to haploid."
+          "explanation": "Meiosis reduces chromosome number from diploid to haploid.",
+          "translations": {
+            "ur": {
+              "question": "سائٹو کائنیسس سے کیا مراد ہے؟",
+              "options": {
+                "A": "مرکزے کی تقسیم",
+                "B": "سائٹوپلازم کی تقسیم",
+                "C": "DNA کی نقل",
+                "D": "کروموسوم کی نقل"
+              },
+              "explanation": "سائٹو کائنیسس سائٹوپلازم کو تقسیم کر کے بیٹی خلیوں کو الگ کرتی ہے۔"
+            },
+            "sd": {
+              "question": "سائٽوڪائنيزس مان ڇا مراد آهي؟",
+              "options": {
+                "A": "مرڪز جي ورهاست",
+                "B": "سائٽوپلازم جي ورهاست",
+                "C": "DNA جي نقل",
+                "D": "ڪروموسوم جي نقل"
+              },
+              "explanation": "سائٽوڪائنيزس سائٽوپلازم ورهائي ڌيئر خلين کي الڳ ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Homologous chromosomes pair during:",
@@ -185,7 +427,29 @@
             "D": "Cytokinesis"
           },
           "correctOption": "A",
-          "explanation": "Homologous chromosomes pair during prophase I."
+          "explanation": "Homologous chromosomes pair during prophase I.",
+          "translations": {
+            "ur": {
+              "question": "پودوں کے خلیے میں سائٹو کائنیسس عموماً کیسے ہوتی ہے؟",
+              "options": {
+                "A": "کلیویج فرو سے",
+                "B": "سیل پلیٹ بننے سے",
+                "C": "فلیجیلم کے ذریعے",
+                "D": "خلوی دیوار ختم ہونے سے"
+              },
+              "explanation": "پودوں کے خلیوں میں درمیان میں سیل پلیٹ بنتی ہے جو نئی خلوی دیوار بناتی ہے۔"
+            },
+            "sd": {
+              "question": "ٻوٽي جي خاني ۾ سائٽوڪائنيزس عام طور ڪيئن ٿئي ٿي؟",
+              "options": {
+                "A": "ڪليويج فرو سان",
+                "B": "سيل پليٽ ٺهڻ سان",
+                "C": "فليجيليم وسيلي",
+                "D": "خلوي ڀت ختم ٿيڻ سان"
+              },
+              "explanation": "ٻوٽي جي خاني جي وچ ۾ سيل پليٽ ٺهي ٿي، جيڪا نئين خلوي ڀت بڻائي ٿي."
+            }
+          }
         },
         {
           "question": "Crossing over occurs between:",
@@ -196,7 +460,29 @@
             "D": "Centrioles"
           },
           "correctOption": "B",
-          "explanation": "Crossing over exchanges DNA segments between non-sister chromatids of homologous chromosomes."
+          "explanation": "Crossing over exchanges DNA segments between non-sister chromatids of homologous chromosomes.",
+          "translations": {
+            "ur": {
+              "question": "میوسس میں کتنی مسلسل جوہری تقسیمیں ہوتی ہیں؟",
+              "options": {
+                "A": "ایک",
+                "B": "دو",
+                "C": "تین",
+                "D": "چار"
+              },
+              "explanation": "میوسس I اور میوسس II دو مسلسل جوہری تقسیمیں ہیں۔"
+            },
+            "sd": {
+              "question": "ميئوسس ۾ لڳاتار ڪيتريون مرڪزي ورهاستون ٿين ٿيون؟",
+              "options": {
+                "A": "هڪ",
+                "B": "ٻه",
+                "C": "ٽي",
+                "D": "چار"
+              },
+              "explanation": "ميئوسس I ۽ ميئوسس II ٻه لڳاتار مرڪزي ورهاستون آهن."
+            }
+          }
         },
         {
           "question": "Homologous chromosomes separate in:",
@@ -207,7 +493,29 @@
             "D": "Metaphase of mitosis"
           },
           "correctOption": "A",
-          "explanation": "Meiosis I separates homologous chromosomes."
+          "explanation": "Meiosis I separates homologous chromosomes.",
+          "translations": {
+            "ur": {
+              "question": "میوسس کا نتیجہ عموماً کیا ہوتا ہے؟",
+              "options": {
+                "A": "دو ڈپلائیڈ یکساں خلیے",
+                "B": "چار جینیاتی طور پر مختلف ہیپلوئڈ خلیے",
+                "C": "ایک بڑا جسمانی خلیہ",
+                "D": "دو ایسے خلیے جن میں کروموسوم دوگنے ہوں"
+              },
+              "explanation": "میوسس عموماً چار جینیاتی طور پر مختلف ہیپلوئڈ خلیے پیدا کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ميئوسس جو عام نتيجو ڪهڙو آهي؟",
+              "options": {
+                "A": "ٻه ڊپلوئڊ هڪجهڙا خليا",
+                "B": "چار جينياتي طور مختلف هيپلوئڊ خليا",
+                "C": "هڪ وڏو جسماني خلو",
+                "D": "ٻه اهڙا خليا جن ۾ ڪروموسوم ٻيڻا هجن"
+              },
+              "explanation": "ميئوسس عام طور چار جينياتي طور مختلف هيپلوئڊ خليا پيدا ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Sister chromatids separate in meiosis during:",
@@ -218,7 +526,29 @@
             "D": "Metaphase I"
           },
           "correctOption": "B",
-          "explanation": "Meiosis II separates sister chromatids."
+          "explanation": "Meiosis II separates sister chromatids.",
+          "translations": {
+            "ur": {
+              "question": "کراسنگ اوور عموماً کب ہوتا ہے؟",
+              "options": {
+                "A": "مائیٹوسس کے ٹیلوفیز میں",
+                "B": "میوسس I کے پروفیز I میں",
+                "C": "میوسس II کے اینافیز میں",
+                "D": "انٹرفیز کے G1 میں"
+              },
+              "explanation": "کراسنگ اوور پروفیز I میں ہم شکل کروموسومز کے درمیان ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪراسنگ اوور عام طور ڪڏهن ٿئي ٿو؟",
+              "options": {
+                "A": "مائٽوسس جي ٽيلوفيس ۾",
+                "B": "ميئوسس I جي پروفيس I ۾",
+                "C": "ميئوسس II جي اينافيس ۾",
+                "D": "انٽرفيز جي G1 ۾"
+              },
+              "explanation": "ڪراسنگ اوور پروفيس I ۾ هم شڪل ڪروموسومن جي وچ ۾ ٿئي ٿو."
+            }
+          }
         },
         {
           "question": "The number of DNA replications before meiosis is normally:",
@@ -229,7 +559,29 @@
             "D": "Four"
           },
           "correctOption": "B",
-          "explanation": "DNA replicates once before meiosis I; there is no replication before meiosis II."
+          "explanation": "DNA replicates once before meiosis I; there is no replication before meiosis II.",
+          "translations": {
+            "ur": {
+              "question": "کراسنگ اوور کا اہم نتیجہ کیا ہے؟",
+              "options": {
+                "A": "جینیاتی تنوع میں اضافہ",
+                "B": "تمام خلیوں کا یکساں ہونا",
+                "C": "DNA کا مکمل خاتمہ",
+                "D": "کروموسوم کی تعداد دوگنی ہونا"
+              },
+              "explanation": "کراسنگ اوور کروموسومز کے درمیان DNA کے حصوں کا تبادلہ کر کے نئی جینیاتی ترکیبیں بناتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪراسنگ اوور جو اهم نتيجو ڪهڙو آهي؟",
+              "options": {
+                "A": "جينياتي تنوع وڌڻ",
+                "B": "سڀني خلين جو هڪجهڙو ٿيڻ",
+                "C": "DNA مڪمل ختم ٿيڻ",
+                "D": "ڪروموسومن جو تعداد ٻيڻو ٿيڻ"
+              },
+              "explanation": "ڪراسنگ اوور ڪروموسومن جي وچ ۾ DNA جا حصا مٽائي نيون جينياتي ترتيبون ٺاهي ٿو."
+            }
+          }
         },
         {
           "question": "Independent assortment results from:",
@@ -240,7 +592,29 @@
             "D": "Cytokinesis only"
           },
           "correctOption": "A",
-          "explanation": "Random orientation of homologous chromosome pairs creates different combinations."
+          "explanation": "Random orientation of homologous chromosome pairs creates different combinations.",
+          "translations": {
+            "ur": {
+              "question": "مائیٹوسس جسم میں کس کام کے لیے اہم ہے؟",
+              "options": {
+                "A": "گیمیٹس بنانا",
+                "B": "نشوونما اور بافتوں کی مرمت",
+                "C": "کروموسوم کی تعداد نصف کرنا",
+                "D": "صرف جینیاتی تنوع پیدا کرنا"
+              },
+              "explanation": "مائیٹوسس جسم کی نشوونما اور خراب یا پرانے خلیوں کی جگہ نئے خلیے بنانے میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "مائٽوسس جسم ۾ ڪهڙي ڪم لاءِ اهم آهي؟",
+              "options": {
+                "A": "گيميٽ ٺاهڻ",
+                "B": "واڌ ۽ بافتن جي مرمت",
+                "C": "ڪروموسومن جو تعداد اڌ ڪرڻ",
+                "D": "رڳو جينياتي تنوع پيدا ڪرڻ"
+              },
+              "explanation": "مائٽوسس جسم جي واڌ ۽ خراب يا پراڻن خلين جي جاءِ تي نوان خليا ٺاهڻ ۾ مدد ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Meiosis contributes to genetic variation through:",
@@ -251,7 +625,29 @@
             "D": "Only cytokinesis"
           },
           "correctOption": "A",
-          "explanation": "Crossing over and independent assortment create new allele combinations."
+          "explanation": "Crossing over and independent assortment create new allele combinations.",
+          "translations": {
+            "ur": {
+              "question": "میوسس میں کروموسوم کی تعداد نصف کیوں ہوتی ہے؟",
+              "options": {
+                "A": "تاکہ بارآوری کے بعد نوع کی مخصوص تعداد برقرار رہے",
+                "B": "تاکہ خلیہ DNA کھو دے",
+                "C": "تاکہ تمام بیٹی خلیے ڈپلائیڈ ہوں",
+                "D": "تاکہ پروٹین نہ بنیں"
+              },
+              "explanation": "ہیپلوئڈ گیمیٹس کے ملنے سے بارآوری کے بعد ڈپلائیڈ کروموسوم تعداد بحال ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "ميئوسس ۾ ڪروموسومن جو تعداد اڌ ڇو ٿئي ٿو؟",
+              "options": {
+                "A": "ته جيئن بارآوري کان پوءِ نوع جو مخصوص تعداد برقرار رهي",
+                "B": "ته جيئن خلو DNA وڃائي",
+                "C": "ته جيئن سڀ ڌيئر خليا ڊپلوئڊ ٿين",
+                "D": "ته جيئن پروٽين نه ٺهن"
+              },
+              "explanation": "هيپلوئڊ گيميٽن جي ملڻ سان بارآوري کان پوءِ ڊپلوئڊ ڪروموسوم تعداد بحال ٿئي ٿو."
+            }
+          }
         },
         {
           "question": "If a diploid cell has 12 chromosomes, its haploid cells normally have:",
@@ -262,7 +658,29 @@
             "D": "3"
           },
           "correctOption": "C",
-          "explanation": "Haploid cells have half the diploid chromosome number."
+          "explanation": "Haploid cells have half the diploid chromosome number.",
+          "translations": {
+            "ur": {
+              "question": "خلوی چکر کے چیک پوائنٹس کا بنیادی کردار کیا ہے؟",
+              "options": {
+                "A": "ہر خلیے کو فوراً تقسیم کرنا",
+                "B": "تقسیم سے پہلے DNA اور حالات کی جانچ کرنا",
+                "C": "تمام خامرے ختم کرنا",
+                "D": "خلوی دیوار بنانا"
+              },
+              "explanation": "چیک پوائنٹس DNA کے نقصان، نقل کی تکمیل اور تقسیم کے لیے مناسب حالات کی جانچ کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "خلوي چڪر جي چيڪ پوائنٽن جو بنيادي ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "هر خاني کي فوراً ورهائڻ",
+                "B": "ورهاست کان اڳ DNA ۽ حالتن جي جاچ ڪرڻ",
+                "C": "سڀ انزائم ختم ڪرڻ",
+                "D": "خلوي ڀت ٺاهڻ"
+              },
+              "explanation": "چيڪ پوائنٽ DNA جي نقصان، نقل جي مڪمل ٿيڻ ۽ ورهاست لاءِ مناسب حالتن جي جاچ ڪن ٿا."
+            }
+          }
         },
         {
           "question": "A failure of chromosomes to separate correctly is called:",
@@ -273,7 +691,29 @@
             "D": "Osmosis"
           },
           "correctOption": "B",
-          "explanation": "Non-disjunction can produce cells with abnormal chromosome numbers."
+          "explanation": "Non-disjunction can produce cells with abnormal chromosome numbers.",
+          "translations": {
+            "ur": {
+              "question": "خلوی چکر کا بے قابو ہونا کس بیماری سے متعلق ہو سکتا ہے؟",
+              "options": {
+                "A": "ذیابیطس",
+                "B": "کینسر",
+                "C": "ملیریا",
+                "D": "اسکوروی"
+              },
+              "explanation": "خلوی چکر کے کنٹرول میں خرابی خلیوں کی بے قابو تقسیم اور کینسر کا سبب بن سکتی ہے۔"
+            },
+            "sd": {
+              "question": "خلوي چڪر جو بي قابو ٿيڻ ڪهڙي بيماريءَ سان لاڳاپيل ٿي سگهي ٿو؟",
+              "options": {
+                "A": "ذیابيطس",
+                "B": "ڪينسر",
+                "C": "مليريا",
+                "D": "اسڪروي"
+              },
+              "explanation": "خلوي چڪر جي ضابطي ۾ خرابي خلين جي بي قابو ورهاست ۽ ڪينسر جو سبب بڻجي سگهي ٿي."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -286,7 +726,27 @@
             "G1 with function (2 marks)",
             "S with DNA replication (1 mark)",
             "G2 with preparation/checking (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "انٹرفیز کے تین مراحل کے نام لکھیں اور ہر ایک میں ہونے والا عمل بیان کریں۔",
+              "modelAnswer": "G1: خلیے کی نشوونما اور معمول کی سرگرمیاں۔ S: DNA کی نقل۔ G2: مزید نشوونما، DNA کی جانچ اور تقسیم کی تیاری۔",
+              "rubric": [
+                "G1 اور اس کا کام (2 نمبر)",
+                "S اور DNA کی نقل (1 نمبر)",
+                "G2 اور تیاری/جانچ (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "انٽرفيز جي ٽن مرحلن جا نالا لکو ۽ هر هڪ ۾ ٿيندڙ عمل بيان ڪريو.",
+              "modelAnswer": "G1: خاني جي واڌ ۽ معمول جون سرگرميون. S: DNA جي نقل. G2: وڌيڪ واڌ، DNA جي جاچ ۽ ورهاست جي تياري.",
+              "rubric": [
+                "G1 ۽ ان جو ڪم (2 نمبر)",
+                "S ۽ DNA جي نقل (1 نمبر)",
+                "G2 ۽ تياري/جاچ (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -298,7 +758,29 @@
             "Two versus usually four products (1 mark)",
             "Same versus halved chromosome number (2 marks)",
             "Genetic similarity/variation (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "مائیٹوسس اور میوسس میں تقسیموں کی تعداد، بننے والے خلیوں اور کروموسوم کی تعداد کے لحاظ سے فرق بیان کریں۔",
+              "modelAnswer": "مائیٹوسس میں ایک جوہری تقسیم ہوتی ہے اور عموماً دو جینیاتی طور پر ملتے جلتے بیٹی خلیے بنتے ہیں جن میں کروموسوم کی تعداد والدین خلیے جیسی ہوتی ہے۔ میوسس میں دو جوہری تقسیمیں ہوتی ہیں اور عموماً چار جینیاتی طور پر مختلف ہیپلوئڈ خلیے بنتے ہیں جن میں کروموسوم کی تعداد نصف ہوتی ہے۔",
+              "rubric": [
+                "ایک بمقابلہ دو تقسیمیں (1 نمبر)",
+                "دو بمقابلہ عموماً چار خلیے (1 نمبر)",
+                "یکساں بمقابلہ نصف کروموسوم تعداد (2 نمبر)",
+                "جینیاتی مماثلت/تنوع (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "مائٽوسس ۽ ميئوسس ۾ ورهاستن جي تعداد، ٺهندڙ خلين ۽ ڪروموسومن جي تعداد جي لحاظ کان فرق بيان ڪريو.",
+              "modelAnswer": "مائٽوسس ۾ هڪ مرڪزي ورهاست ٿئي ٿي ۽ عام طور ٻه جينياتي طور ملندڙ جلندڙ ڌيئر خليا ٺهن ٿا، جن ۾ ڪروموسومن جو تعداد والدين خاني جيترو هوندو آهي. ميئوسس ۾ ٻه مرڪزي ورهاستون ٿين ٿيون ۽ عام طور چار جينياتي طور مختلف هيپلوئڊ خليا ٺهن ٿا، جن ۾ ڪروموسومن جو تعداد اڌ هوندو آهي.",
+              "rubric": [
+                "هڪ ۽ ٻه ورهاستون (1 نمبر)",
+                "ٻه ۽ عام طور چار خليا (1 نمبر)",
+                "ساڳيو ۽ اڌ ڪروموسوم تعداد (2 نمبر)",
+                "جينياتي هڪجهڙائي/تنوع (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -310,7 +792,31 @@
             "Between non-sister chromatids of homologues (1 mark)",
             "Exchange of DNA segments (1 mark)",
             "New allele combinations/variation (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "مائیٹوسس کے مراحل کو ترتیب سے بیان کریں اور ہر مرحلے کا ایک اہم واقعہ لکھیں۔",
+              "modelAnswer": "پروفیز میں کروموسوم گاڑھے ہوتے اور سپنڈل بنتا ہے؛ میٹافیز میں کروموسوم خلیے کے وسط میں قطار بناتے ہیں؛ اینافیز میں سسٹر کرومیٹڈز الگ ہوتے ہیں؛ ٹیلوفیز میں نئے مرکزے بنتے ہیں۔ اس کے بعد سائٹو کائنیسس سائٹوپلازم تقسیم کرتی ہے۔",
+              "rubric": [
+                "پروفیز (1 نمبر)",
+                "میٹافیز (1 نمبر)",
+                "اینافیز (1 نمبر)",
+                "ٹیلوفیز (1 نمبر)",
+                "سائٹو کائنیسس (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "مائٽوسس جا مرحلا ترتيب سان بيان ڪريو ۽ هر مرحلي جو هڪ اهم واقعو لکو.",
+              "modelAnswer": "پروفيس ۾ ڪروموسوم ڳاڙها ٿين ٿا ۽ اسپنڊل ٺهي ٿو؛ ميٽافيس ۾ ڪروموسوم خاني جي وچ ۾ قطار ٺاهين ٿا؛ اينافيس ۾ سسٽر ڪروميٽڊ ڌار ٿين ٿا؛ ٽيلوفيس ۾ نوان مرڪز ٺهن ٿا. ان کان پوءِ سائٽوڪائنيزس سائٽوپلازم ورهائي ٿي.",
+              "rubric": [
+                "پروفيس (1 نمبر)",
+                "ميٽافيس (1 نمبر)",
+                "اينافيس (1 نمبر)",
+                "ٽيلوفيس (1 نمبر)",
+                "سائٽوڪائنيزس (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -324,7 +830,27 @@
             "Telophase (1 mark)",
             "Cytokinesis in animal and plant cells (2 marks)",
             "Importance/result (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "میوسس میں جینیاتی تنوع پیدا ہونے کے دو طریقے بیان کریں۔",
+              "modelAnswer": "پروفیز I میں کراسنگ اوور ہم شکل کروموسومز کے درمیان DNA کے حصوں کا تبادلہ کرتا ہے۔ میوسس I میں ہم شکل کروموسومز کی آزادانہ اور بے ترتیب تقسیم مختلف کروموسومی مجموعے بناتی ہے۔ بارآوری کے دوران گیمیٹس کا بے ترتیب ملاپ بھی تنوع بڑھاتا ہے۔",
+              "rubric": [
+                "کراسنگ اوور کی وضاحت (2 نمبر)",
+                "آزادانہ تقسیم کی وضاحت (2 نمبر)",
+                "بے ترتیب بارآوری کا ذکر (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ميئوسس ۾ جينياتي تنوع پيدا ٿيڻ جا ٻه طريقا بيان ڪريو.",
+              "modelAnswer": "پروفيس I ۾ ڪراسنگ اوور هم شڪل ڪروموسومن جي وچ ۾ DNA جا حصا مٽائي ٿو. ميئوسس I ۾ هم شڪل ڪروموسومن جي آزادانه ۽ اتفاقي ورهاست مختلف ڪروموسومي مجموعا ٺاهي ٿي. بارآوري دوران گيميٽن جو اتفاقي ملڻ به تنوع وڌائي ٿو.",
+              "rubric": [
+                "ڪراسنگ اوور جي وضاحت (2 نمبر)",
+                "آزادانه ورهاست جي وضاحت (2 نمبر)",
+                "اتفاقي بارآوري جو ذڪر (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -338,7 +864,31 @@
             "Meiosis II and chromatid separation (2 marks)",
             "Haploid products and chromosome maintenance after fertilisation (1 mark)",
             "Variation from crossing over and independent assortment (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "خلوی چکر کے کنٹرول کی اہمیت بیان کریں اور واضح کریں کہ اس کے چیک پوائنٹس کی خرابی کینسر کا سبب کیسے بن سکتی ہے۔",
+              "modelAnswer": "چیک پوائنٹس DNA کی سالمیت، نقل کی تکمیل اور خلیے کی تقسیم کے لیے موزوں حالات کی جانچ کرتے ہیں۔ خراب DNA والے خلیے کو عموماً مرمت کے لیے روکا جاتا ہے یا اسے ختم کیا جاتا ہے۔ اگر کنٹرول نظام میں تبدیلی آ جائے تو غیر معمولی خلیے مسلسل تقسیم کر سکتے ہیں، جس سے رسولی اور کینسر بننے کا خطرہ بڑھتا ہے۔",
+              "rubric": [
+                "چیک پوائنٹس کا کردار (2 نمبر)",
+                "DNA کی جانچ/مرمت (2 نمبر)",
+                "کنٹرول کی خرابی اور بے قابو تقسیم (2 نمبر)",
+                "کینسر/رسولی سے تعلق (2 نمبر)",
+                "واضح اور مربوط وضاحت (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "خلوي چڪر جي ضابطي جي اهميت بيان ڪريو ۽ ٻڌايو ته چيڪ پوائنٽن جي خرابي ڪينسر جو سبب ڪيئن بڻجي سگهي ٿي.",
+              "modelAnswer": "چيڪ پوائنٽ DNA جي سلامتي، نقل جي مڪمل ٿيڻ ۽ خاني جي ورهاست لاءِ مناسب حالتن جي جاچ ڪن ٿا. خراب DNA واري خاني کي عام طور مرمت لاءِ روڪيو وڃي ٿو يا ختم ڪيو وڃي ٿو. جيڪڏهن ضابطي وارو نظام خراب ٿي وڃي ته غير معمولي خليا لڳاتار ورهائجي سگهن ٿا، جنهن سان رسولِي ۽ ڪينسر جو خطرو وڌي ٿو.",
+              "rubric": [
+                "چيڪ پوائنٽن جو ڪردار (2 نمبر)",
+                "DNA جي جاچ/مرمت (2 نمبر)",
+                "ضابطي جي خرابي ۽ بي قابو ورهاست (2 نمبر)",
+                "ڪينسر/رسولي سان تعلق (2 نمبر)",
+                "واضح ۽ ڳنڍيل وضاحت (2 نمبر)"
+              ]
+            }
+          }
         }
       ]
     }
