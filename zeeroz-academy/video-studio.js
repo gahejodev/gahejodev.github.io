@@ -137,9 +137,9 @@ async function ensureUrduPiper(){
  if(ttsScriptsReady)return ttsScriptsReady;
  ttsScriptsReady=(async()=>{
   ttsStatus.textContent="Browser ONNX runtime aur Urdu phonemizer load ho rahe hain…";
-  await loadClassicScript("https://cdn.jsdelivr.net/npm/onnxruntime-web@1.17.3/dist/ort.wasm.min.js");
+  await loadClassicScript("https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0/dist/ort.wasm.min.js");
   await loadClassicScript("https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.js");
-  await loadClassicScript("./urdu-piper-browser.js?v=tts-int8-3");
+  await loadClassicScript("./urdu-piper-browser.js?v=tts-fp32-1");
   if(!window.ZeerozPiper)throw new Error("Urdu Piper browser engine did not initialize.");
   await window.ZeerozPiper.getPhonemizer();
   return window.ZeerozPiper;
@@ -168,16 +168,16 @@ async function getUrduEngine(engine,voiceId){
  if(ttsEngineCache[voiceId])return ttsEngineCache[voiceId];
  const urls={
   "ur_PK-fasih-medium":{
-   model:"https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/main/ur/ur_PK/fasih/medium/ur_PK-fasih-medium.int8.onnx",
-   config:"https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/main/ur/ur_PK/fasih/medium/ur_PK-fasih-medium.onnx.json"
+   model:"https://huggingface.co/IhorShevchuk/piper-voice-ur-fasih/resolve/main/ur_PK-fasih-medium-model.onnx",
+   config:"https://huggingface.co/IhorShevchuk/piper-voice-ur-fasih/resolve/main/ur_PK-fasih-medium-model.onnx.json"
   },
   "ur_PK-aegis_female-medium":{
-   model:"https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/main/ur/ur_PK/aegis_female/medium/ur_PK-aegis_female-medium.int8.onnx",
-   config:"https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/main/ur/ur_PK/aegis_female/medium/ur_PK-aegis_female-medium.onnx.json"
+   model:"https://huggingface.co/mahwizzzz/piper-voice-ur-aegis-female/resolve/main/ur_PK-aegis_female-medium.onnx",
+   config:"https://huggingface.co/mahwizzzz/piper-voice-ur-aegis-female/resolve/main/ur_PK-aegis_female-medium.onnx.json"
   }
  };
  const selected=urls[voiceId];if(!selected)throw new Error("Unknown Urdu voice selected.");
- ttsStatus.textContent="Compact Urdu voice model download ho raha hai (taqreeban 20 MB). Pehli dafa kuch waqt lag sakta hai…";
+ ttsStatus.textContent="Urdu voice model download ho raha hai (taqreeban 64 MB). Pehli dafa kuch waqt lag sakta hai…";
  const enginePromise=engine.createEngine(selected.model,selected.config,p=>{
   if(p?.total)ttsStatus.textContent="Urdu model download: "+Math.round(p.loaded*100/p.total)+"%";
  });
