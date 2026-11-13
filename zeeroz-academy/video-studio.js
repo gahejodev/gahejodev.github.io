@@ -216,7 +216,7 @@ $("ttsGenerate")?.addEventListener("click",async()=>{
   if(token===ttsGeneration)ttsStatus.textContent="Audio generate nahi ho saka: "+(e?.message||e)+". Internet connection, model URL aur browser console check karna hoga.";
  }finally{if(token===ttsGeneration){ttsBusy=false;ttsButton.disabled=false}}
 });
-$("ttsStop")?.addEventListener("click",()=>{if(ttsAudio){ttsAudio.pause();ttsAudio.currentTime=0}ttsStatus.textContent="Audio playback stopped."});
+$("ttsStop")?.addEventListener("click",()=>{ttsGeneration++;ttsBusy=false;if(ttsButton)ttsButton.disabled=false;if(ttsAudio){ttsAudio.pause();ttsAudio.currentTime=0}ttsStatus.textContent="Audio generation/playback stopped.";});
 initStudioAvatar();
 
 /* Record the real 3D avatar canvas together with the lesson narration. */
