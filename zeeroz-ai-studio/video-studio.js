@@ -186,7 +186,7 @@ function splitUrduNarration(text,maxChars=360){
  if(current)chunks.push(current);
  return chunks;
 }
-async function getUrduEngine(engine,voiceId){
+async function getPiperVoiceEngine(engine,voiceId){
  if(ttsEngineCache[voiceId])return ttsEngineCache[voiceId];
  const urls={
   "ur_PK-fasih-medium":{
@@ -196,30 +196,38 @@ async function getUrduEngine(engine,voiceId){
   "ur_PK-aegis_female-medium":{
    model:"https://huggingface.co/mahwizzzz/piper-voice-ur-aegis-female/resolve/main/ur_PK-aegis_female-medium.onnx",
    config:"https://huggingface.co/mahwizzzz/piper-voice-ur-aegis-female/resolve/main/ur_PK-aegis_female-medium.onnx.json"
+  },
+  "en_US-ryan-medium":{
+   model:"https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/medium/en_US-ryan-medium.onnx",
+   config:"https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/medium/en_US-ryan-medium.onnx.json"
+  },
+  "en_US-amy-medium":{
+   model:"https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx",
+   config:"https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx.json"
   }
  };
- const selected=urls[voiceId];if(!selected)throw new Error("Unknown Urdu voice selected.");
- ttsStatus.textContent="Urdu voice model download ho raha hai (taqreeban 64 MB). Pehli dafa kuch waqt lag sakta hai…";
+ const selected=urls[voiceId];if(!selected)throw new Error("Unknown neural voice selected.");
+ ttsStatus.textContent="Selected neural voice model download ho raha hai (taqreeban 64 MB). Pehli dafa kuch waqt lag sakta hai…";
  const enginePromise=engine.createEngine(selected.model,selected.config,p=>{
-  if(p?.stage==="opening")ttsStatus.textContent="Urdu model 100% download ho gaya. Ab phone voice engine open kar raha hai — 64 MB model ko load hone mein waqt lag sakta hai; is stage par screen rukti hui lag sakti hai. Browser band na karein.";
-  else if(p?.stage==="ready")ttsStatus.textContent="Urdu voice engine ready. Ab narration generate ho rahi hai…";
+  if(p?.stage==="opening")ttsStatus.textContent="Voice model 100% download ho gaya. Ab phone voice engine open kar raha hai — 64 MB model ko load hone mein waqt lag sakta hai; is stage par screen rukti hui lag sakti hai. Browser band na karein.";
+  else if(p?.stage==="ready")ttsStatus.textContent="Neural voice engine ready. Ab narration generate ho rahi hai…";
   else if(p?.total)ttsStatus.textContent="Urdu model download: "+Math.round(p.loaded*100/p.total)+"%";
  });
  ttsEngineCache[voiceId]=enginePromise;
  try{return await enginePromise}catch(e){delete ttsEngineCache[voiceId];throw e}
 }
-async function generateUrduAudio(){
+async function generateLessonAudio(){
  if(ttsBusy)return;
  const text=currentLessonNarration();
  if(!text){ttsStatus.textContent="Pehle lesson select karke Generate storyboard press karein.";return}
- if($("language").value!=="ur"){ttsStatus.textContent="Abhi downloadable neural WAV sirf Urdu ke liye available hai. Sindhi storyboard supported hai, lekin local Sindhi voice abhi verified nahi.";return}
+ const lessonLanguage=$("language").value;if(lessonLanguage==="sd")throw new Error("Sindhi neural voice model abhi verified nahi. Filhal English ya Urdu lesson explanation select karein.");
  ttsBusy=true;ttsButton.disabled=true;const token=++ttsGeneration;let ttsPhase="initializing browser audio engine";
  try{
-  ttsPhase="loading Urdu phonemizer and ONNX runtime";
+  ttsPhase="loading browser phonemizer and ONNX runtime";
   const engine=await ensureUrduPiper();
-  const voiceId=$("ttsVoice").value==="female"?"ur_PK-aegis_female-medium":"ur_PK-fasih-medium";
-  ttsPhase="opening the downloaded Urdu voice model in phone memory";
-  const model=await getUrduEngine(engine,voiceId);
+  const voiceId=lessonLanguage==="ur"?($("ttsVoice").value==="female"?"ur_PK-aegis_female-medium":"ur_PK-fasih-medium"):($("ttsVoice").value==="female"?"en_US-amy-medium":"en_US-ryan-medium");
+  ttsPhase="opening the downloaded neural voice model in phone memory";
+  const model=await getPiperVoiceEngine(engine,voiceId);
   // Synthesize storyboard scenes separately for exact audio-to-scene timing.
   const pcmParts=[],sceneTimeline=[],silence=new Float32Array(Math.round(model.sampleRate*.22));
   let sampleCursor=0,totalChunks=scenes.reduce((n,sc)=>n+splitUrduNarration(sc.narration,300).length,0),chunkNumber=0;
@@ -227,7 +235,7 @@ async function generateUrduAudio(){
    const chunks=splitUrduNarration(scenes[sceneNo].narration,300),sceneParts=[];
    for(let ci=0;ci<chunks.length;ci++){
     if(token!==ttsGeneration)throw new Error("Audio generation user ne stop kar di.");
-    chunkNumber++;ttsStatus.textContent="Urdu voice generate ho rahi hai · Scene "+(sceneNo+1)+"/"+scenes.length+" · Part "+chunkNumber+"/"+totalChunks+"…";
+    chunkNumber++;ttsStatus.textContent=(lessonLanguage==="ur"?"Urdu":"English")+" voice generate ho rahi hai · Scene "+(sceneNo+1)+"/"+scenes.length+" · Part "+chunkNumber+"/"+totalChunks+"…";
     ttsPhase="synthesizing scene "+(sceneNo+1)+" audio part "+(ci+1)+"/"+chunks.length;
     sceneParts.push(await model.speak(chunks[ci]));
    }
@@ -248,16 +256,16 @@ async function generateUrduAudio(){
   if(ttsAudioUrl)URL.revokeObjectURL(ttsAudioUrl);
   ttsAudioUrl=URL.createObjectURL(wav);ttsAudio.src=ttsAudioUrl;ttsAudio.style.display="block";
   ttsDownload.href=ttsAudioUrl;ttsDownload.hidden=false;setGeneratedVoiceFile(wav);
-  ttsStatus.textContent="Urdu audio ready! Audio player se sun sakte hain, ya Create full lesson video se lip-sync ke saath final video bana sakte hain.";
+  ttsStatus.textContent=(lessonLanguage==="ur"?"Urdu":"English")+" audio ready! Audio player se sun sakte hain, ya Create full lesson video se lip-sync ke saath final video bana sakte hain.";
   ttsAudio.pause();ttsAudio.currentTime=0;
  }catch(e){
   const detail=typeof e==="number"?"WASM/ONNX error code "+e:(e?.message||String(e));
-  console.error("[Zeeroz Urdu TTS]",{phase:ttsPhase,error:e,stack:e?.stack});
+  console.error("[Zeeroz neural TTS]",{phase:ttsPhase,error:e,stack:e?.stack});
   if(token===ttsGeneration)ttsStatus.textContent="Audio failed during "+ttsPhase+": "+detail+". Agar ye dobara aaye to ye exact stage/error share karein.";
   throw e;
  }finally{if(token===ttsGeneration){ttsBusy=false;ttsButton.disabled=false}}
 }
-$("ttsGenerate")?.addEventListener("click",()=>generateUrduAudio().catch(()=>{}));
+$("ttsGenerate")?.addEventListener("click",()=>generateLessonAudio().catch(()=>{}));
 $("ttsStop")?.addEventListener("click",()=>{ttsGeneration++;ttsBusy=false;if(ttsButton)ttsButton.disabled=false;if(ttsAudio){ttsAudio.pause();ttsAudio.currentTime=0}ttsStatus.textContent="Audio generation/playback stopped.";});
 initStudioAvatar();
 
@@ -369,7 +377,7 @@ $("export3DVideo")?.addEventListener("click",exportReal3DTeacher);
 async function generateCompleteLessonVideo(){
  const button=$("generateCompleteVideo");
  if(!scenes.length){status("Pehle lesson select karke storyboard generate karein.");return}
- if($("language").value!=="ur"){$("ttsStatus").textContent="Complete automatic voice+video export filhal Urdu narration ke saath available hai. Sindhi voice model abhi verified nahi.";return}
+ if($("language").value==="sd"){$("ttsStatus").textContent="Sindhi neural voice abhi verified nahi. Urdu ya English explanation select karein.";return}
  if(!studioAvatarReady||!studioAvatar){avatarStatus("3D teacher abhi load ho raha hai. Ready hone ke baad dobara try karein.");return}
  button.disabled=true;
  try{
@@ -377,7 +385,7 @@ async function generateCompleteLessonVideo(){
   $("voiceTrack").value="";
   $("voiceTrack").dispatchEvent(new Event("change",{bubbles:true}));
   $("ttsAudio")?.pause();
-  await generateUrduAudio();
+  await generateLessonAudio();
   const generated=$("voiceTrack").files?.[0];
   if(!generated||!ttsAudioUrl||ttsAudioUrl===previousGeneratedUrl)throw new Error("Fresh Urdu narration WAV tayyar nahi hui; TTS status check karein.");
   $("ttsAudio")?.pause();
