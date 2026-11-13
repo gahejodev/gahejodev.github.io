@@ -23,7 +23,7 @@ async function initLesson3D(){
   if(loading)loading.textContent="Loading the animated Biology model…";
   const mod=await import("./lesson-3d-engine.js?v=biology-pilot-2");
   const engine=await mod.createLesson3D(host);
-  lesson3D={renderer:{domElement:engine.getCanvas()},setScene:engine.setScene,reset:engine.reset,dispose:engine.dispose};
+  lesson3D={renderer:{domElement:engine.getCanvas()},setScene:engine.setScene,setProgress:engine.setProgress,reset:engine.reset,dispose:engine.dispose};
   if(loading)loading.style.display="none";
   if(label)label.textContent="3D model ready · drag to rotate · pinch/scroll to zoom";
   return lesson3D;
@@ -220,18 +220,29 @@ async function generateUrduAudio(){
   const voiceId=$("ttsVoice").value==="female"?"ur_PK-aegis_female-medium":"ur_PK-fasih-medium";
   ttsPhase="opening the downloaded Urdu voice model in phone memory";
   const model=await getUrduEngine(engine,voiceId);
-  const parts=splitUrduNarration(text),pcmParts=[];
-  for(let i=0;i<parts.length;i++){
-   if(token!==ttsGeneration)throw new Error("Audio generation user ne stop kar di.");
-   ttsStatus.textContent="Urdu narration generate ho rahi hai: "+(i+1)+"/"+parts.length+"…";
-   ttsPhase="phonemizing and synthesizing Urdu audio chunk "+(i+1)+"/"+parts.length;
-   pcmParts.push(await model.speak(parts[i]));
+  // Synthesize storyboard scenes separately for exact audio-to-scene timing.
+  const pcmParts=[],sceneTimeline=[],silence=new Float32Array(Math.round(model.sampleRate*.22));
+  let sampleCursor=0,totalChunks=scenes.reduce((n,sc)=>n+splitUrduNarration(sc.narration,300).length,0),chunkNumber=0;
+  for(let sceneNo=0;sceneNo<scenes.length;sceneNo++){
+   const chunks=splitUrduNarration(scenes[sceneNo].narration,300),sceneParts=[];
+   for(let ci=0;ci<chunks.length;ci++){
+    if(token!==ttsGeneration)throw new Error("Audio generation user ne stop kar di.");
+    chunkNumber++;ttsStatus.textContent="Urdu voice generate ho rahi hai · Scene "+(sceneNo+1)+"/"+scenes.length+" · Part "+chunkNumber+"/"+totalChunks+"…";
+    ttsPhase="synthesizing scene "+(sceneNo+1)+" audio part "+(ci+1)+"/"+chunks.length;
+    sceneParts.push(await model.speak(chunks[ci]));
+   }
+   const sceneSamples=sceneParts.reduce((n,p)=>n+p.length,0);
+   if(!sceneSamples)throw new Error("Scene "+(sceneNo+1)+" mein narration text nahi mila.");
+   const scenePcm=new Float32Array(sceneSamples);let sceneOffset=0;
+   sceneParts.forEach(part=>{scenePcm.set(part,sceneOffset);sceneOffset+=part.length});
+   sceneTimeline.push({index:sceneNo,start:sampleCursor/model.sampleRate,end:(sampleCursor+sceneSamples)/model.sampleRate,duration:sceneSamples/model.sampleRate});
+   pcmParts.push(scenePcm);sampleCursor+=sceneSamples;
+   if(sceneNo<scenes.length-1){pcmParts.push(silence);sampleCursor+=silence.length}
   }
   if(token!==ttsGeneration)return;
-  const silence=new Float32Array(Math.round(model.sampleRate*.18));
-  const total=pcmParts.reduce((n,p)=>n+p.length,0)+silence.length*Math.max(0,pcmParts.length-1);
-  const pcm=new Float32Array(total);let offset=0;
-  pcmParts.forEach((part,i)=>{pcm.set(part,offset);offset+=part.length;if(i<pcmParts.length-1){pcm.set(silence,offset);offset+=silence.length}});
+  const pcm=new Float32Array(sampleCursor);let offset=0;
+  pcmParts.forEach(part=>{pcm.set(part,offset);offset+=part.length});
+  window.zeerozAudioTimeline=sceneTimeline;window.zeerozAudioDuration=pcm.length/model.sampleRate;
   const wav=engine.toWav(pcm,model.sampleRate);
   if(!(wav instanceof Blob)||!wav.size)throw new Error("Urdu voice engine ne valid WAV file return nahi ki.");
   if(ttsAudioUrl)URL.revokeObjectURL(ttsAudioUrl);
@@ -243,9 +254,10 @@ async function generateUrduAudio(){
   const detail=typeof e==="number"?"WASM/ONNX error code "+e:(e?.message||String(e));
   console.error("[Zeeroz Urdu TTS]",{phase:ttsPhase,error:e,stack:e?.stack});
   if(token===ttsGeneration)ttsStatus.textContent="Audio failed during "+ttsPhase+": "+detail+". Agar ye dobara aaye to ye exact stage/error share karein.";
+  throw e;
  }finally{if(token===ttsGeneration){ttsBusy=false;ttsButton.disabled=false}}
 }
-$("ttsGenerate")?.addEventListener("click",generateUrduAudio);
+$("ttsGenerate")?.addEventListener("click",()=>generateUrduAudio().catch(()=>{}));
 $("ttsStop")?.addEventListener("click",()=>{ttsGeneration++;ttsBusy=false;if(ttsButton)ttsButton.disabled=false;if(ttsAudio){ttsAudio.pause();ttsAudio.currentTime=0}ttsStatus.textContent="Audio generation/playback stopped.";});
 initStudioAvatar();
 
@@ -281,37 +293,45 @@ async function exportReal3DTeacher(){
   recorder.ondataavailable=e=>{if(e.data?.size)chunks.push(e.data)};
   const finished=new Promise((resolve,reject)=>{recorder.onstop=resolve;recorder.onerror=()=>reject(new Error("Recording failed."))});
   const title=$("videoTitle").value||window.currentLesson?.lesson?.title||"Zeeroz Academy Lesson";
-  const sceneAt=(seconds)=>{
-   let remaining=seconds,idx=0;
-   for(let i=0;i<scenes.length;i++){const d=Math.max(1.5,audioBuffer.duration*Math.max(1,scenes[i].narration.length)/scenes.reduce((n,s)=>n+Math.max(1,s.narration.length),0));if(remaining<d){idx=i;break}remaining-=d;idx=i}
-   return scenes[idx]||{title,narration:"Welcome to Zeeroz Academy"};
+  const scenePositionAt=(seconds)=>{
+   const timeline=window.zeerozAudioTimeline||[];
+   const active=timeline.find(t=>seconds>=t.start&&seconds<t.end);
+   if(active)return {scene:scenes[active.index],index:active.index,progress:Math.max(0,Math.min(1,(seconds-active.start)/Math.max(.01,active.duration)))};
+   const previous=[...timeline].reverse().find(t=>seconds>=t.end);
+   if(previous)return {scene:scenes[previous.index],index:previous.index,progress:1};
+   if(timeline.length&&seconds<timeline[0].start)return {scene:scenes[0],index:0,progress:0};
+   let remaining=Math.max(0,seconds),idx=0;
+   for(let i=0;i<scenes.length;i++){const d=Math.max(1.5,audioBuffer.duration*Math.max(1,scenes[i].narration.length)/scenes.reduce((n,x)=>n+Math.max(1,x.narration.length),0));if(remaining<d)return {scene:scenes[i],index:i,progress:remaining/d};remaining-=d;idx=i}
+   return {scene:scenes[idx]||{title,narration:"Welcome to Zeeroz Academy"},index:idx,progress:1};
   };
   const draw=()=>{
-   ctx.fillStyle="#101b3d";ctx.fillRect(0,0,1280,720);
-   const glow=ctx.createRadialGradient(300,270,20,300,300,520);glow.addColorStop(0,"#344d88");glow.addColorStop(1,"#101b3d");ctx.fillStyle=glow;ctx.fillRect(0,0,610,720);
-   ctx.save();ctx.beginPath();ctx.rect(25,25,560,670);ctx.clip();
-   try{const sourceRatio=avatarCanvas.width/Math.max(1,avatarCanvas.height);let drawW=550,drawH=640;if(drawW/drawH>sourceRatio)drawW=drawH*sourceRatio;else drawH=drawW/sourceRatio;ctx.drawImage(avatarCanvas,30+(550-drawW)/2,35+(640-drawH)/2,drawW,drawH)}catch(e){}
-   ctx.restore();
-   ctx.fillStyle="#ffffff";ctx.font="bold 23px system-ui";ctx.fillText("ZEEROZ ACADEMY",650,78);
-   ctx.fillStyle="#f2ce60";ctx.font="bold 16px system-ui";ctx.fillText("AI TEACHER · 3D LECTURE",650,112);
-   const sc=sceneAt(audioContext.currentTime-startedAt);if(lesson3D&&sc.title!==lastExport3DScene){lesson3D.setScene(sc);lastExport3DScene=sc.title;}
-   ctx.fillStyle="#ffffff";ctx.font="bold 38px system-ui";
-   const wrap=(txt,x,y,max,lineH,maxLines)=>{const words=String(txt||"").split(/\s+/);let line="",count=0;for(const w of words){const test=line?line+" "+w:w;if(ctx.measureText(test).width>max&&line){ctx.fillText(line,x,y+count*lineH);line=w;if(++count>=maxLines)return}else line=test}if(line&&count<maxLines)ctx.fillText(line,x,y+count*lineH)};
-   wrap(sc.title,650,190,570,48,3);
-   ctx.fillStyle="#dce6ff";ctx.font="22px system-ui";wrap(sc.narration,650,340,560,31,4);
-   const activeSceneIndex=Math.max(0,scenes.indexOf(sc)),sceneImage=sceneImages[activeSceneIndex];
+   const position=scenePositionAt(audioContext.currentTime-startedAt),sc=position.scene;
+   const sceneKey=sc.title+"|"+sc.narration;if(lesson3D&&sceneKey!==lastExport3DScene){lesson3D.setScene(sc);lastExport3DScene=sceneKey}
+   lesson3D?.setProgress?.(position.progress);
+   const w=1280,h=720,bg=ctx.createLinearGradient(0,0,w,h);bg.addColorStop(0,"#0d1835");bg.addColorStop(.55,"#172c58");bg.addColorStop(1,"#101b3d");
+   ctx.fillStyle=bg;ctx.fillRect(0,0,w,h);
+   ctx.fillStyle="rgba(255,255,255,.055)";ctx.beginPath();ctx.roundRect(18,22,365,676,24);ctx.fill();
+   try{const ratio=avatarCanvas.width/Math.max(1,avatarCanvas.height);let dw=335,dh=590;if(dw/dh>ratio)dw=dh*ratio;else dh=dw/ratio;ctx.drawImage(avatarCanvas,32+(335-dw)/2,42+(590-dh)/2,dw,dh)}catch(e){}
+   ctx.fillStyle="#ffffff";ctx.textAlign="center";ctx.font="bold 18px system-ui";ctx.fillText("ZEEROZ AI TEACHER",200,665);ctx.textAlign="left";
+   ctx.fillStyle="#f2ce60";ctx.font="bold 15px system-ui";ctx.fillText("ZEEROZ AI STUDIO",414,48);
+   ctx.fillStyle="#ffffff";ctx.font="bold 34px system-ui";
+   const wrap=(txt,x,y,max,lineH,maxLines)=>{const words=String(txt||"").split(/\\s+/);let line="",count=0;for(const word of words){const test=line?line+" "+word:word;if(ctx.measureText(test).width>max&&line){ctx.fillText(line,x,y+count*lineH);line=word;if(++count>=maxLines)return}else line=test}if(line&&count<maxLines)ctx.fillText(line,x,y+count*lineH)};
+   wrap(sc.title,414,96,820,42,1);
+   ctx.fillStyle="rgba(255,255,255,.08)";ctx.beginPath();ctx.roundRect(405,120,855,445,20);ctx.fill();
    const subject3D=lesson3D?.renderer?.domElement;
-   if(subject3D&&subject3D.width&&subject3D.height){ctx.save();ctx.beginPath();ctx.roundRect(650,455,560,175,18);ctx.clip();ctx.drawImage(subject3D,650,455,560,175);ctx.restore();ctx.fillStyle="#ffffff";ctx.font="bold 15px system-ui";ctx.fillText("LIVE 3D SCIENCE MODEL",665,475)}
-   
-   if(!subject3D&&sceneImage){const maxW=530,maxH=145,scale=Math.min(maxW/sceneImage.width,maxH/sceneImage.height);ctx.drawImage(sceneImage,665,490,sceneImage.width*scale,sceneImage.height*scale)}
-   else if(!subject3D){const labels=sc.narration.split(/[,;:،۔]|\b(?:then|next|finally|and)\b/i).map(v=>v.trim()).filter(v=>v.length>3).slice(0,4);let bx=650,by=505;ctx.font="bold 17px system-ui";labels.forEach((v,i)=>{const label=v.slice(0,28),bw=Math.min(255,Math.max(125,ctx.measureText(label).width+26));ctx.fillStyle=i%2?"#e4f4ed":"#e7efff";ctx.fillRect(bx,by,bw,42);ctx.fillStyle="#18366f";ctx.fillText(label,bx+12,by+27);bx+=bw+10;if(bx>1190){bx=650;by+=52}})}
-   ctx.fillStyle="#d6e1f5";ctx.fillRect(650,650,560,7);ctx.fillStyle="#20b982";ctx.fillRect(650,650,560*Math.min(1,(audioContext.currentTime-startedAt)/audioBuffer.duration),7);
-   ctx.fillStyle="#d6e1f5";ctx.font="16px system-ui";ctx.fillText("Scene "+(scenes.indexOf(sc)+1)+" / "+Math.max(1,scenes.length),650,685);
+   if(subject3D&&subject3D.width&&subject3D.height){ctx.save();ctx.beginPath();ctx.roundRect(414,129,837,427,15);ctx.clip();ctx.drawImage(subject3D,414,129,837,427);ctx.restore()}
+   const sceneImage=sceneImages[position.index];
+   if(!subject3D&&sceneImage){const scale=Math.min(810/sceneImage.width,405/sceneImage.height);ctx.drawImage(sceneImage,430,140,sceneImage.width*scale,sceneImage.height*scale)}
+   ctx.fillStyle="#e6edff";ctx.font="21px system-ui";wrap(sc.narration,416,605,825,29,2);
+   ctx.fillStyle="rgba(255,255,255,.16)";ctx.fillRect(414,672,830,7);ctx.fillStyle="#20c997";ctx.fillRect(414,672,830*Math.min(1,(audioContext.currentTime-startedAt)/audioBuffer.duration),7);
+   ctx.fillStyle="#d6e1f5";ctx.font="15px system-ui";ctx.fillText("SCENE "+(position.index+1)+" / "+Math.max(1,scenes.length),414,700);
+   ctx.textAlign="right";ctx.fillText("3D SCIENCE VISUAL",1245,700);ctx.textAlign="left";
    progress.style.width=Math.min(100,(audioContext.currentTime-startedAt)/audioBuffer.duration*100)+"%";
    raf=requestAnimationFrame(draw);
   };
   recorder.start(500);
-  status3D.textContent="Starting 3D teacher lip-sync and recording…";
+  lastExport3DScene="";lesson3D?.reset?.();
+  status3D.textContent="Starting synchronized 3D teacher, animated science scene and audio recording…";
   await studioAvatar.attachStream(sourceStream.stream);
   const startedAt=audioContext.currentTime;
   source.onended=()=>{if(recorder&&recorder.state!=="inactive")recorder.stop()};
@@ -327,10 +347,12 @@ async function exportReal3DTeacher(){
   a.href=url;a.download=(title.replace(/[^a-z0-9-_]+/gi,"-").replace(/^-|-$/g,"")||"zeeroz-3d-lesson")+"-3d.webm";a.click();
   setTimeout(()=>URL.revokeObjectURL(url),60000);
   progress.style.width="100%";
-  status3D.textContent="Real 3D teacher video exported successfully ("+(blob.size/1048576).toFixed(1)+" MB).";
+  status3D.textContent="Complete lesson video exported successfully ("+(blob.size/1048576).toFixed(1)+" MB).";
+  return true;
  }catch(e){
   status3D.textContent="3D export could not finish: "+e.message;
   if(recorder&&recorder.state!=="inactive")try{recorder.stop()}catch(_){}
+  return false;
  }finally{
   if(raf)cancelAnimationFrame(raf);
   try{source?.stop()}catch(e){}
@@ -359,7 +381,8 @@ async function generateCompleteLessonVideo(){
   const generated=$("voiceTrack").files?.[0];
   if(!generated||!ttsAudioUrl||ttsAudioUrl===previousGeneratedUrl)throw new Error("Fresh Urdu narration WAV tayyar nahi hui; TTS status check karein.");
   $("ttsAudio")?.pause();
-  await exportReal3DTeacher();
+  const exported=await exportReal3DTeacher();
+  if(!exported)throw new Error("Video export failed. See the detailed 3D export status below.");
  }catch(e){status("Complete video could not be generated: "+(e?.message||String(e)))}
  finally{button.disabled=false}
 }
