@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, updateProfile } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, updateProfile, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { doc, getDoc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 const $ = (id) => document.getElementById(id);
@@ -22,6 +22,30 @@ function friendly(error){
  if(code.includes("operation-not-allowed"))return "Email/Password sign-in is not enabled yet in Firebase Console.";
  return error?.message||"Something went wrong. Please try again.";
 }
+$("googleSignIn").addEventListener("click",async()=>{
+ const button=$("googleSignIn");
+ button.disabled=true;message.style.display="none";
+ try{
+  const fb=window.ZeerozFirebase;if(!fb)throw new Error("Firebase is still loading. Please try again.");
+  const provider=new GoogleAuthProvider();
+  provider.setCustomParameters({prompt:"select_account"});
+  const result=await signInWithPopup(fb.auth,provider);
+  const user=result.user;
+  const profileRef=doc(fb.db,"profiles",user.uid);
+  const profile=await getDoc(profileRef);
+  if(!profile.exists()){
+   await setDoc(profileRef,{uid:user.uid,email:user.email||"",displayName:user.displayName||"",role:"student",createdAt:serverTimestamp(),updatedAt:serverTimestamp()});
+  }
+  const token=await user.getIdTokenResult(true);
+  location.href=token.claims.admin===true?"./admin.html":"./student-dashboard.html";
+ }catch(error){
+  const code=error?.code||"";
+  if(code.includes("popup-closed-by-user"))show("Google sign-in was closed. Please try again.",true);
+  else if(code.includes("unauthorized-domain"))show("This website domain is not authorised in Firebase Authentication. Add the current site domain in Firebase Console → Authentication → Settings → Authorized domains.",true);
+  else if(code.includes("operation-not-allowed"))show("Google sign-in is not enabled in Firebase Authentication → Sign-in method.",true);
+  else show(friendly(error),true);
+ }finally{button.disabled=false}
+});
 form.addEventListener("submit",async(e)=>{
  e.preventDefault();submit.disabled=true;message.style.display="none";
  try{
