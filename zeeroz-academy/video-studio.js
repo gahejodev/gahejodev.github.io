@@ -130,11 +130,9 @@ $("ttsGenerate")?.addEventListener("click",async()=>{
   ttsStatus.textContent="Neural voice engine load ho raha hai. First time model/WASM download hoga…";
   if(!ttsModule)ttsModule=await import("https://esm.sh/@realtimex/piper-tts-web@1.1.1");
   const voiceId=$("ttsVoice").value==="female"?"ur_PK-aegis_female-medium":"ur_PK-fasih-medium";
-  const available=await ttsModule.voices();
-  if(!available||!Object.prototype.hasOwnProperty.call(available,voiceId)){
-   throw new Error("Is TTS engine ki available voice list mein selected Urdu model nahi mila. Abhi koi audio generate nahi hua.");
-  }
   ttsStatus.textContent="Urdu voice model download/load aur audio synthesis chal rahi hai. App ko band na karein…";
+  // The library's voices() catalogue is incomplete for newly added community voices.
+  // Ask the synthesizer to resolve the official Piper model ID directly.
   const wav=await ttsModule.predict({text,voiceId},p=>{
    if(p&&p.total)ttsStatus.textContent="Voice model/audio load: "+Math.round(p.loaded*100/p.total)+"%";
   });
