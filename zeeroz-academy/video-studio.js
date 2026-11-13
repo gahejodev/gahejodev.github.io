@@ -147,13 +147,13 @@ async function ensureUrduPiper(){
  return ttsScriptsReady;
 }
 function splitUrduNarration(text,maxChars=360){
- const sentences=String(text).split(/(?<=[۔.!؟?])\\s+|\\n+/).map(x=>x.trim()).filter(Boolean),chunks=[];
+ const sentences=String(text).split(/(?<=[۔.!؟?])\s+|\n+/).map(x=>x.trim()).filter(Boolean),chunks=[];
  let current="";
  for(const sentence of sentences){
   if(sentence.length>maxChars){
    if(current){chunks.push(current);current=""}
    let part="";
-   for(const word of sentence.split(/\\s+/)){
+   for(const word of sentence.split(/\s+/)){
     if(part&&part.length+word.length+1>maxChars){chunks.push(part);part=""}
     part+=(part?" ":"")+word;
    }
