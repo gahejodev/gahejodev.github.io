@@ -325,10 +325,13 @@ async function generateCompleteLessonVideo(){
  if(!studioAvatarReady||!studioAvatar){avatarStatus("3D teacher abhi load ho raha hai. Ready hone ke baad dobara try karein.");return}
  button.disabled=true;
  try{
+  const previousGeneratedUrl=ttsAudioUrl;
+  $("voiceTrack").value="";
+  $("voiceTrack").dispatchEvent(new Event("change",{bubbles:true}));
   $("ttsAudio")?.pause();
   await generateUrduAudio();
   const generated=$("voiceTrack").files?.[0];
-  if(!generated)throw new Error("Urdu narration WAV tayyar nahi hui; status check karein.");
+  if(!generated||!ttsAudioUrl||ttsAudioUrl===previousGeneratedUrl)throw new Error("Fresh Urdu narration WAV tayyar nahi hui; TTS status check karein.");
   $("ttsAudio")?.pause();
   await exportReal3DTeacher();
  }catch(e){status("Complete video could not be generated: "+(e?.message||String(e)))}
