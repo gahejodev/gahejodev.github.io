@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101b3d">
+<title>Published Courses | Zeeroz Academy</title>
+<meta name="description" content="Browse real published courses and chapter previews at Zeeroz Academy. Student sign-in is required to access full lessons and assessments.">
+<link rel="canonical" href="https://gahejodev.github.io/zeeroz-academy/catalog.html">
+<style>
+:root{--navy:#101b3d;--blue:#3157d5;--teal:#147b78;--ink:#17213b;--muted:#65718a;--paper:#f5f7fc;--line:#e5eaf4}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1050px,92%);margin:auto}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:4}.nav{height:68px;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{font-weight:900;color:var(--navy);letter-spacing:.3px}.brand small{display:block;color:var(--muted);font-size:9px;letter-spacing:2px}.navlinks{display:flex;gap:16px;align-items:center;font-size:13px;font-weight:800;color:#4c5871}.navlinks a:hover{color:var(--blue)}
+.hero{background:radial-gradient(circle at 85% 10%,#3157d5 0,transparent 28%),linear-gradient(120deg,#101b3d,#1d3470 72%,#147b91);color:white;padding:52px 0}.eyebrow{font-size:11px;font-weight:850;letter-spacing:1.7px;color:#c9fbf7;text-transform:uppercase}.hero h1{font-size:clamp(32px,5vw,48px);line-height:1.12;letter-spacing:-1.2px;margin:10px 0}.hero p{color:#dce7ff;max-width:720px;margin:0}
+main{padding:32px 0 65px}.toolbar{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:20px}.filters{display:flex;gap:8px;flex-wrap:wrap}.filter{border:1px solid var(--line);background:white;border-radius:999px;padding:9px 14px;font:inherit;font-size:12px;font-weight:850;color:#47536c;cursor:pointer}.filter.active{background:var(--navy);color:#fff;border-color:var(--navy)}.search{width:min(100%,310px);padding:11px 13px;border:1px solid var(--line);border-radius:11px;font:inherit;background:white}
+.summary{color:var(--muted);font-size:13px;margin:0 0 18px}.course-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.course{background:white;border:1px solid var(--line);border-radius:18px;padding:21px;box-shadow:0 8px 24px #13264d08;display:flex;flex-direction:column}.course h2{font-size:19px;line-height:1.3;color:var(--navy);margin:9px 0}.course p{color:var(--muted);font-size:13px;margin:0 0 12px}.tag{display:inline-flex;align-self:flex-start;background:#e9f0ff;color:#3157d5;border-radius:30px;padding:5px 10px;font-size:10px;font-weight:900;letter-spacing:.8px}.stats{display:flex;gap:13px;flex-wrap:wrap;color:#53617a;font-size:11px;font-weight:750;padding:11px 0;border-top:1px solid #edf0f6;border-bottom:1px solid #edf0f6}.chapters{padding-left:19px;margin:11px 0 16px;color:#4d5a72;font-size:12px}.chapters li{margin:3px 0}.actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:auto}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:10px;padding:10px 13px;font-size:12px;font-weight:850;background:var(--blue);color:white}.btn.secondary{background:#eef2fb;color:var(--navy)}.empty,.notice{background:#fff;border:1px solid var(--line);border-radius:16px;padding:23px;color:var(--muted)}.notice{margin-bottom:20px;background:#f0fbf9;border-color:#ccebe5;color:#235d58;font-size:13px}.job-card{background:white;border:1px solid var(--line);border-radius:17px;padding:22px;margin:12px 0}.job-card h2{color:var(--navy);margin:0 0 7px}.job-card p{color:var(--muted);font-size:14px}
+footer{background:#0d1734;color:#dbe4ff;padding:24px 0;font-size:12px}footer a{color:white;text-decoration:underline}
+@media(max-width:650px){.course-grid{grid-template-columns:1fr}.navlinks{gap:10px;font-size:11px}.hero{padding:42px 0}.toolbar{align-items:stretch}.search{width:100%}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="./index.html">ZEEROZ ACADEMY<small>LEARN • PREPARE • EXCEL</small></a><nav class="navlinks"><a href="./index.html">Home</a><a href="./student-login.html">Student Login</a></nav></div></header>
+<section class="hero"><div class="wrap"><span class="eyebrow">Real courses · Real availability</span><h1 id="pageTitle">Published course catalogue</h1><p id="pageIntro">Browse the courses that are actually published. Preview course and chapter information before signing in to learn.</p></div></section>
+<main class="wrap">
+<div id="publicNotice" class="notice">This catalogue is public so visitors can see what is available. Full lessons, quizzes and written assessments remain inside the student portal after sign-in.</div>
+<div id="jobPrograms" hidden>
+ <article class="job-card"><span class="tag">AVAILABLE NOW</span><h2>Sindh Teaching Licence Preparation</h2><p>Open the dedicated free preparation portal for study resources, practice questions, case studies and mock tests.</p><a class="btn" href="https://gahejodev.github.io/sindh-teaching-licence-prep/" target="_blank" rel="noopener">Open preparation portal ↗</a></article>
+ <article class="job-card"><span class="tag">IN DEVELOPMENT</span><h2>Other recruitment-test programmes</h2><p>Additional SPSC, STS and general recruitment preparation courses will appear here only after their content has been published and checked.</p></article>
+</div>
+<div id="schoolCatalogue">
+ <div class="toolbar"><div class="filters" aria-label="Filter by class">
+  <button class="filter" data-level="IX">Class IX</button><button class="filter" data-level="X">Class X</button><button class="filter" data-level="XI">Class XI</button><button class="filter" data-level="XII">Class XII</button><button class="filter active" data-level="all">All classes</button>
+ </div><input id="courseSearch" class="search" type="search" placeholder="Search subject or chapter…" aria-label="Search courses"></div>
+ <p id="catalogSummary" class="summary" aria-live="polite">Loading published course registry…</p>
+ <div id="courseGrid" class="course-grid"><div class="empty">Loading published courses…</div></div>
+</div>
+</main>
+<footer><div class="wrap">© 2026 Zeeroz Academy · <a href="./index.html">Academy Home</a> · <a href="./student-login.html">Student Login</a></div></footer>
+<script>
+(()=>{
+ const params=new URLSearchParams(location.search);let level=(params.get('level')||'all').toUpperCase();if(!['IX','X','XI','XII','JOBS','ALL'].includes(level))level='all';
+ const $=id=>document.getElementById(id),grid=$('courseGrid'),summary=$('catalogSummary'),search=$('courseSearch');
+ const titleMap={IX:'Class IX courses',X:'Class X courses',XI:'Class XI courses',XII:'Class XII courses',JOBS:'Job preparation',ALL:'Published school courses'};
+ if(level==='JOBS'){$('pageTitle').textContent='Job preparation';$('pageIntro').textContent='Explore active recruitment and professional preparation programmes.';$('schoolCatalogue').hidden=true;$('jobPrograms').hidden=false;$('publicNotice').hidden=true;return}
+ $('pageTitle').textContent=titleMap[level]||titleMap.ALL;
+ let records=[];
+ const classOf=item=>{const t=(item.title||item.id||'').toUpperCase();for(const x of ['XII','XI','IX','X'])if(new RegExp('\\b'+x+'\\b').test(t))return x;return ''};
+ const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ function draw(){
+  const q=search.value.trim().toLowerCase();
+  const list=records.filter(r=>(level==='ALL'||level==='all'||r.level===level)&&(!q||(r.title+' '+r.description+' '+r.chapterNames.join(' ')).toLowerCase().includes(q)));
+  summary.textContent=list.length+' published course package'+(list.length===1?'':'s')+(level==='all'||level==='ALL'?' across all available classes':' for Class '+level)+'.';
+  if(!list.length){grid.innerHTML='<div class="empty">No published course packages are available for this class yet. We will list them here after the lessons and assessments have been prepared, checked and published. <a href="./student-login.html" style="color:#3157d5;font-weight:800">Student sign-in ↗</a></div>';return}
+  grid.innerHTML=list.map(r=>'<article class="course"><span class="tag">'+esc(r.level)+' · '+esc(r.subject)+'</span><h2>'+esc(r.title)+'</h2><p>'+esc(r.description)+'</p><div class="stats"><span>'+r.chapters+' chapter(s)</span><span>'+r.lessons+' lessons</span><span>'+r.mcqs+' MCQs</span><span>'+r.written+' written questions</span></div><ol class="chapters">'+r.chapterNames.slice(0,6).map(x=>'<li>'+esc(x)+'</li>').join('')+(r.chapterNames.length>6?'<li>… and '+(r.chapterNames.length-6)+' more</li>':'')+'</ol><div class="actions"><a class="btn" href="./student-login.html">Student login to learn →</a><a class="btn secondary" href="./student-login.html">Create free account</a></div></article>').join('');
+ }
+ async function load(){
+  try{
+   const response=await fetch('./content/courses/index.json',{cache:'no-store'});if(!response.ok)throw new Error('Registry request failed ('+response.status+')');
+   const registry=await response.json(),packages=Array.isArray(registry.packages)?registry.packages:[];
+   const loaded=await Promise.all(packages.map(async item=>{
+    try{
+     const path=String(item.path||'').replace(/^zeeroz-academy\\//,'./');
+     const res=await fetch(path,{cache:'no-store'});if(!res.ok)throw new Error('package unavailable');
+     const data=await res.json(),chapters=Array.isArray(data.chapters)?data.chapters:[];
+     const levelName=classOf(item);if(!levelName)return null;
+     const chapterNames=chapters.map(c=>c.title||'Chapter');
+     const lessons=chapters.reduce((n,c)=>n+(Array.isArray(c.lessons)?c.lessons.length:0),0);
+     const mcqs=chapters.reduce((n,c)=>n+(Array.isArray(c.questions)?c.questions.length:0),0);
+     const written=chapters.reduce((n,c)=>n+(Array.isArray(c.writtenQuestions)?c.writtenQuestions.length:0),0);
+     const title=String(data.title||item.title||'Published course');
+     const subject=(title.split(/[—-]/)[0]||'Course').trim();
+     return {id:item.id,title,description:data.description||'Published learning package.',level:levelName,subject,chapters:chapters.length,lessons,mcqs,written,chapterNames};
+    }catch(error){console.warn('Could not load course package',item.id,error);return null}
+   }));
+   records=loaded.filter(Boolean).sort((a,b)=>a.level.localeCompare(b.level)||a.title.localeCompare(b.title));
+   draw();
+  }catch(error){summary.textContent='The published course list could not be loaded right now.';grid.innerHTML='<div class="empty">Please try again in a moment. The course catalogue could not reach its public registry.</div>';console.error(error)}
+ }
+ document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{level=btn.dataset.level;document.querySelectorAll('.filter').forEach(b=>b.classList.toggle('active',b===btn));$('pageTitle').textContent=titleMap[level]||titleMap.ALL;draw()}));
+ search.addEventListener('input',draw);load();
+})();
+</script>
+</body></html>
