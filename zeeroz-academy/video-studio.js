@@ -109,12 +109,13 @@ async function initStudioAvatar(){
   });
  }catch(e){avatarStatus("Could not load the 3D avatar engine. Check internet and refresh. "+e.message)}
 }
-// Automatic local neural TTS: lesson script is read directly from the current storyboard.
-let ttsModule=null,ttsAudioUrl=null,ttsBusy=false;
+// Local Urdu neural TTS: uses the selected lesson storyboard directly.
+// The browser Piper engine accepts explicit Hugging Face model/config URLs; no PATH_MAP registry.
+let ttsAudioUrl=null,ttsBusy=false,ttsEngineCache={},ttsGeneration=0,ttsScriptsReady=null;
 const ttsStatus=$("ttsStatus"),ttsButton=$("ttsGenerate"),ttsAudio=$("ttsAudio"),ttsDownload=$("ttsDownload");
 function currentLessonNarration(){
  if(!scenes.length)return "";
- return scenes.map((s,i)=>s.narration.trim()).filter(Boolean).join("\n\n");
+ return scenes.map(s=>s.narration.trim()).filter(Boolean).join("\\n\\n");
 }
 function setGeneratedVoiceFile(blob){
  const file=new File([blob],"zeeroz-lesson-voice.wav",{type:"audio/wav"});
@@ -122,32 +123,98 @@ function setGeneratedVoiceFile(blob){
  $("voiceTrack").files=transfer.files;
  $("voiceTrack").dispatchEvent(new Event("change",{bubbles:true}));
 }
+function loadClassicScript(src){
+ return new Promise((resolve,reject)=>{
+  const existing=[...document.scripts].find(x=>x.src===src);
+  if(existing){if(existing.dataset.loaded==="yes")return resolve();existing.addEventListener("load",resolve,{once:true});existing.addEventListener("error",()=>reject(new Error("Required audio engine script failed: "+src)),{once:true});return}
+  const script=document.createElement("script");script.src=src;script.async=false;
+  script.onload=()=>{script.dataset.loaded="yes";resolve()};
+  script.onerror=()=>reject(new Error("Required audio engine script could not load: "+src));
+  document.head.append(script);
+ });
+}
+async function ensureUrduPiper(){
+ if(ttsScriptsReady)return ttsScriptsReady;
+ ttsScriptsReady=(async()=>{
+  ttsStatus.textContent="Browser ONNX runtime aur Urdu phonemizer load ho rahe hain…";
+  await loadClassicScript("https://cdn.jsdelivr.net/npm/onnxruntime-web@1.17.3/dist/ort.wasm.min.js");
+  await loadClassicScript("https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.js");
+  await loadClassicScript("./urdu-piper-browser.js");
+  if(!window.ZeerozPiper)throw new Error("Urdu Piper browser engine did not initialize.");
+  await window.ZeerozPiper.getPhonemizer();
+  return window.ZeerozPiper;
+ })().catch(e=>{ttsScriptsReady=null;throw e});
+ return ttsScriptsReady;
+}
+function splitUrduNarration(text,maxChars=360){
+ const sentences=String(text).split(/(?<=[۔.!؟?])\\s+|\\n+/).map(x=>x.trim()).filter(Boolean),chunks=[];
+ let current="";
+ for(const sentence of sentences){
+  if(sentence.length>maxChars){
+   if(current){chunks.push(current);current=""}
+   let part="";
+   for(const word of sentence.split(/\\s+/)){
+    if(part&&part.length+word.length+1>maxChars){chunks.push(part);part=""}
+    part+=(part?" ":"")+word;
+   }
+   if(part)chunks.push(part);
+  }else if(current&&current.length+sentence.length+1>maxChars){chunks.push(current);current=sentence}
+  else current+=(current?" ":"")+sentence;
+ }
+ if(current)chunks.push(current);
+ return chunks;
+}
+async function getUrduEngine(engine,voiceId){
+ if(ttsEngineCache[voiceId])return ttsEngineCache[voiceId];
+ const urls={
+  "ur_PK-fasih-medium":{
+   model:"https://huggingface.co/rhasspy/piper-voices/resolve/main/ur/ur_PK/fasih/medium/ur_PK-fasih-medium.onnx",
+   config:"https://huggingface.co/rhasspy/piper-voices/resolve/main/ur/ur_PK/fasih/medium/ur_PK-fasih-medium.onnx.json"
+  },
+  "ur_PK-aegis_female-medium":{
+   model:"https://huggingface.co/rhasspy/piper-voices/resolve/main/ur/ur_PK/aegis_female/medium/ur_PK-aegis_female-medium.onnx",
+   config:"https://huggingface.co/rhasspy/piper-voices/resolve/main/ur/ur_PK/aegis_female/medium/ur_PK-aegis_female-medium.onnx.json"
+  }
+ };
+ const selected=urls[voiceId];if(!selected)throw new Error("Unknown Urdu voice selected.");
+ ttsStatus.textContent="Urdu voice model download ho raha hai (taqreeban 60–70 MB). Pehli dafa kuch waqt lag sakta hai…";
+ const enginePromise=engine.createEngine(selected.model,selected.config,p=>{
+  if(p?.total)ttsStatus.textContent="Urdu model download: "+Math.round(p.loaded*100/p.total)+"%";
+ });
+ ttsEngineCache[voiceId]=enginePromise;
+ try{return await enginePromise}catch(e){delete ttsEngineCache[voiceId];throw e}
+}
 $("ttsGenerate")?.addEventListener("click",async()=>{
  if(ttsBusy)return;
  const text=currentLessonNarration();
  if(!text){ttsStatus.textContent="Pehle lesson select karke Generate storyboard press karein.";return}
- if($("language").value!=="ur"){ttsStatus.textContent="Downloadable neural audio is currently available for Urdu only. Urdu WAV ke liye storyboard language Urdu select karein. Sindhi playback phone ke installed Sindhi voice par depend karta hai.";return}
- ttsBusy=true;ttsButton.disabled=true;
+ if($("language").value!=="ur"){ttsStatus.textContent="Abhi downloadable neural WAV sirf Urdu ke liye available hai. Sindhi storyboard supported hai, lekin local Sindhi voice abhi verified nahi.";return}
+ ttsBusy=true;ttsButton.disabled=true;const token=++ttsGeneration;
  try{
-  ttsStatus.textContent="Neural voice engine load ho raha hai. First time model/WASM download hoga…";
-  if(!ttsModule)ttsModule=await import("https://esm.sh/@realtimex/piper-tts-web@1.1.1");
+  const engine=await ensureUrduPiper();
   const voiceId=$("ttsVoice").value==="female"?"ur_PK-aegis_female-medium":"ur_PK-fasih-medium";
-  ttsStatus.textContent="Urdu voice model download/load aur audio synthesis chal rahi hai. App ko band na karein…";
-  // The library's voices() catalogue is incomplete for newly added community voices.
-  // Ask the synthesizer to resolve the official Piper model ID directly.
-  const wav=await ttsModule.predict({text,voiceId},p=>{
-   if(p&&p.total)ttsStatus.textContent="Voice model/audio load: "+Math.round(p.loaded*100/p.total)+"%";
-  });
-  if(!(wav instanceof Blob)||!wav.size)throw new Error("TTS engine ne valid WAV audio return nahi ki.");
+  const model=await getUrduEngine(engine,voiceId);
+  const parts=splitUrduNarration(text),pcmParts=[];
+  for(let i=0;i<parts.length;i++){
+   if(token!==ttsGeneration)throw new Error("Audio generation user ne stop kar di.");
+   ttsStatus.textContent="Urdu narration generate ho rahi hai: "+(i+1)+"/"+parts.length+"…";
+   pcmParts.push(await model.speak(parts[i]));
+  }
+  if(token!==ttsGeneration)return;
+  const silence=new Float32Array(Math.round(model.sampleRate*.18));
+  const total=pcmParts.reduce((n,p)=>n+p.length,0)+silence.length*Math.max(0,pcmParts.length-1);
+  const pcm=new Float32Array(total);let offset=0;
+  pcmParts.forEach((part,i)=>{pcm.set(part,offset);offset+=part.length;if(i<pcmParts.length-1){pcm.set(silence,offset);offset+=silence.length}});
+  const wav=engine.toWav(pcm,model.sampleRate);
+  if(!(wav instanceof Blob)||!wav.size)throw new Error("Urdu voice engine ne valid WAV file return nahi ki.");
   if(ttsAudioUrl)URL.revokeObjectURL(ttsAudioUrl);
-  ttsAudioUrl=URL.createObjectURL(wav);
-  ttsAudio.src=ttsAudioUrl;ttsAudio.style.display="block";
-  ttsDownload.href=ttsAudioUrl;ttsDownload.hidden=false;
-  setGeneratedVoiceFile(wav);
-  ttsStatus.textContent="Audio ready! WAV generate ho gaya aur 3D teacher/video export ke liye automatically attach kar diya gaya.";
+  ttsAudioUrl=URL.createObjectURL(wav);ttsAudio.src=ttsAudioUrl;ttsAudio.style.display="block";
+  ttsDownload.href=ttsAudioUrl;ttsDownload.hidden=false;setGeneratedVoiceFile(wav);
+  ttsStatus.textContent="Urdu audio ready! WAV download, 3D teacher lip-sync aur video export ke liye attach ho gaya.";
   try{await ttsAudio.play()}catch(e){}
- }catch(e){ttsStatus.textContent="Audio generate nahi ho saka: "+(e?.message||e)+". Is phone/browser par model support ya memory issue ho sakta hai."}
- finally{ttsBusy=false;ttsButton.disabled=false}
+ }catch(e){
+  if(token===ttsGeneration)ttsStatus.textContent="Audio generate nahi ho saka: "+(e?.message||e)+". Internet connection, model URL aur browser console check karna hoga.";
+ }finally{if(token===ttsGeneration){ttsBusy=false;ttsButton.disabled=false}}
 });
 $("ttsStop")?.addEventListener("click",()=>{if(ttsAudio){ttsAudio.pause();ttsAudio.currentTime=0}ttsStatus.textContent="Audio playback stopped."});
 initStudioAvatar();
