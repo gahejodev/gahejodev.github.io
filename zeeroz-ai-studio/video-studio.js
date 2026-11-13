@@ -315,7 +315,7 @@ async function exportReal3DTeacher(){
    ctx.fillStyle="#ffffff";ctx.textAlign="center";ctx.font="bold 18px system-ui";ctx.fillText("ZEEROZ AI TEACHER",200,665);ctx.textAlign="left";
    ctx.fillStyle="#f2ce60";ctx.font="bold 15px system-ui";ctx.fillText("ZEEROZ AI STUDIO",414,48);
    ctx.fillStyle="#ffffff";ctx.font="bold 34px system-ui";
-   const wrap=(txt,x,y,max,lineH,maxLines)=>{const words=String(txt||"").split(/\\s+/);let line="",count=0;for(const word of words){const test=line?line+" "+word:word;if(ctx.measureText(test).width>max&&line){ctx.fillText(line,x,y+count*lineH);line=word;if(++count>=maxLines)return}else line=test}if(line&&count<maxLines)ctx.fillText(line,x,y+count*lineH)};
+   const wrap=(txt,x,y,max,lineH,maxLines)=>{const words=String(txt||"").split(/\s+/);let line="",count=0;for(const word of words){const test=line?line+" "+word:word;if(ctx.measureText(test).width>max&&line){ctx.fillText(line,x,y+count*lineH);line=word;if(++count>=maxLines)return}else line=test}if(line&&count<maxLines)ctx.fillText(line,x,y+count*lineH)};
    wrap(sc.title,414,96,820,42,1);
    ctx.fillStyle="rgba(255,255,255,.08)";ctx.beginPath();ctx.roundRect(405,120,855,445,20);ctx.fill();
    const subject3D=lesson3D?.renderer?.domElement;
