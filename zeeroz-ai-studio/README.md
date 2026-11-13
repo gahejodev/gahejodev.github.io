@@ -15,7 +15,7 @@ https://gahejodev.github.io/zeeroz-ai-studio/
 1. Select a course, chapter and lesson from Academy.
 2. Choose the saved lesson explanation language (English, Urdu or Sindhi).
 3. Build and review a storyboard from that selected lesson; no manual text paste is needed.
-4. For the current one-click narration pipeline, select Urdu and a male Fasih or female Aegis neural voice.
+4. For the current one-click narration pipeline, select English or Urdu and a male/female neural voice (Urdu: Fasih/Aegis; English: Ryan/Amy).
 5. The browser synthesizes narration scene by scene, retaining exact audio timing for scene transitions.
 6. The 3D teacher lip-syncs to the generated audio while the science visual changes with the matching scene.
 7. The browser records a single combined WebM file for download.
@@ -31,7 +31,7 @@ The models are rule-based visual aids. They are not yet a universal AI model tha
 
 ## Current limits
 - Teacher avatar: open-source 3D face/shoulders avatar with audio-driven lip-sync; no full-body gestures or custom Zeeroz rig yet.
-- Neural TTS: verified Urdu male/female models only. Sindhi/English neural voice generation is not yet included.
+- Neural TTS: Urdu male/female (Fasih/Aegis) and English male/female (Ryan/Amy) models. Sindhi neural voice is not yet verified.
 - Export: browser WebM; MP4 conversion and direct YouTube publishing are not included.
 - Requires a modern browser with WebGL, Web Audio and MediaRecorder; the first Urdu voice use downloads a model of roughly 64 MB. Keep the tab open during generation.
 
