@@ -186,7 +186,7 @@ async function getUrduEngine(engine,voiceId){
  ttsEngineCache[voiceId]=enginePromise;
  try{return await enginePromise}catch(e){delete ttsEngineCache[voiceId];throw e}
 }
-$("ttsGenerate")?.addEventListener("click",async()=>{
+async function generateUrduAudio(){
  if(ttsBusy)return;
  const text=currentLessonNarration();
  if(!text){ttsStatus.textContent="Pehle lesson select karke Generate storyboard press karein.";return}
@@ -222,7 +222,8 @@ $("ttsGenerate")?.addEventListener("click",async()=>{
   console.error("[Zeeroz Urdu TTS]",{phase:ttsPhase,error:e,stack:e?.stack});
   if(token===ttsGeneration)ttsStatus.textContent="Audio failed during "+ttsPhase+": "+detail+". Agar ye dobara aaye to ye exact stage/error share karein.";
  }finally{if(token===ttsGeneration){ttsBusy=false;ttsButton.disabled=false}}
-});
+}
+$("ttsGenerate")?.addEventListener("click",generateUrduAudio);
 $("ttsStop")?.addEventListener("click",()=>{ttsGeneration++;ttsBusy=false;if(ttsButton)ttsButton.disabled=false;if(ttsAudio){ttsAudio.pause();ttsAudio.currentTime=0}ttsStatus.textContent="Audio generation/playback stopped.";});
 initStudioAvatar();
 
@@ -308,6 +309,28 @@ async function exportReal3DTeacher(){
   button.disabled=!studioAvatarReady||!$("voiceTrack").files?.[0];
  }
 }
+
 $("export3DVideo")?.addEventListener("click",exportReal3DTeacher);
+
+// One-click lesson production: generate fresh Urdu narration from the current
+// storyboard, attach it to the 3D teacher, then export one combined WebM.
+async function generateCompleteLessonVideo(){
+ const button=$("generateCompleteVideo");
+ if(!scenes.length){status("Pehle lesson select karke storyboard generate karein.");return}
+ if($("language").value!=="ur"){$("ttsStatus").textContent="Complete automatic voice+video export filhal Urdu narration ke saath available hai. Sindhi voice model abhi verified nahi.";return}
+ if(!studioAvatarReady||!studioAvatar){avatarStatus("3D teacher abhi load ho raha hai. Ready hone ke baad dobara try karein.");return}
+ button.disabled=true;
+ try{
+  $("ttsAudio")?.pause();
+  await generateUrduAudio();
+  const generated=$("voiceTrack").files?.[0];
+  if(!generated)throw new Error("Urdu narration WAV tayyar nahi hui; status check karein.");
+  $("ttsAudio")?.pause();
+  await exportReal3DTeacher();
+ }catch(e){status("Complete video could not be generated: "+(e?.message||String(e)))}
+ finally{button.disabled=false}
+}
+$("generateCompleteVideo")?.addEventListener("click",generateCompleteLessonVideo);
+
 $("voiceTrack")?.addEventListener("change",()=>{const b=$("export3DVideo");if(b)b.disabled=!studioAvatarReady||!$("voiceTrack").files?.[0]});
 window.addEventListener("beforeunload",()=>{if(studioAudioUrl)URL.revokeObjectURL(studioAudioUrl);try{studioAvatar?.dispose()}catch(e){}});
