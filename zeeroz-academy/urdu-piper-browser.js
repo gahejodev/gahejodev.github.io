@@ -54,10 +54,11 @@ async function createEngine(onnxUrl, cfgUrl, onProgress) {
   } catch (e) {
     throw new Error("Urdu voice configuration is not valid JSON: " + (e?.message || String(e)));
   }
-  onProgress?.({loaded:modelBuffer.byteLength,total:modelBuffer.byteLength});
+  onProgress?.({stage:"opening",loaded:modelBuffer.byteLength,total:modelBuffer.byteLength});
   let session;
   try {
     session = await ort.InferenceSession.create(modelBuffer,{executionProviders:["wasm"]});
+    onProgress?.({stage:"ready",loaded:modelBuffer.byteLength,total:modelBuffer.byteLength});
   } catch (e) {
     const detail = typeof e === "number" ? "WASM error code " + e : (e?.message || String(e));
     throw new Error("ONNX Runtime could not open the downloaded Urdu model: " + detail);
