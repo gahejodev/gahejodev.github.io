@@ -3,8 +3,11 @@ import {collection,doc,getDoc,getDocs,query,where,addDoc,serverTimestamp} from "
 const $=id=>document.getElementById(id),db=()=>window.ZeerozFirebase.db;
 const params=new URLSearchParams(location.search),courseId=params.get("courseId"),chapterId=params.get("chapterId");
 let user=null,questions=[],courseTitle="",chapterTitle="";
+const language=localStorage.getItem("zeerozCourseLanguage")||"en";
+const translated=(q,field)=>language==="en"?(q[field]||""):(q.translations?.[language]?.[field]||q[field]||"");
 function el(tag,cls,txt){const n=document.createElement(tag);if(cls)n.className=cls;if(txt!==undefined)n.textContent=txt;return n}
 onAuthStateChanged(window.ZeerozFirebase.auth,async u=>{
+ const languageSelect=$("quizLanguage");if(languageSelect){languageSelect.value=language;languageSelect.addEventListener("change",()=>{localStorage.setItem("zeerozCourseLanguage",languageSelect.value);location.reload()});}
  if(!u){location.href="./student-login.html";return}user=u;
  if(!courseId||!chapterId){$("quizTitle").textContent="Quiz not found";$("quizInfo").textContent="Open a quiz from a course chapter.";return}
  try{
@@ -18,8 +21,8 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async u=>{
   const host=$("questions");host.replaceChildren();
   if(!questions.length){host.append(el("p","status","No published MCQs are available for this chapter yet."));$("submitQuiz").disabled=true;return}
   questions.forEach((q,i)=>{
-   const card=el("section","question");card.append(el("h3","",(i+1)+". "+(q.question||"Question")));
-   ["A","B","C","D"].forEach(k=>{const label=el("label","option");const input=document.createElement("input");input.type="radio";input.name=q.id;input.value=k;input.required=true;label.append(input,document.createTextNode(k+". "+(q.options?.[k]||"")));card.append(label)});
+   const card=el("section","question");card.append(el("h3","",(i+1)+". "+(translated(q,"question")||"Question")));
+   ["A","B","C","D"].forEach(k=>{const label=el("label","option");const input=document.createElement("input");input.type="radio";input.name=q.id;input.value=k;input.required=true;label.append(input,document.createTextNode(k+". "+(language==="en"?(q.options?.[k]||""):(q.translations?.[language]?.options?.[k]||q.options?.[k]||"")) ));card.append(label)});
    host.append(card);
   });
  }catch(e){$("quizInfo").textContent=e.message;$("submitQuiz").disabled=true}
@@ -33,7 +36,7 @@ $("quizForm").addEventListener("submit",async e=>{
  try{
   await addDoc(collection(db(),"students",user.uid,"quizAttempts"),{uid:user.uid,courseId,chapterId,courseTitle,chapterTitle,totalQuestions:total,correctAnswers:correct,score:correct,percentage,answers,createdAt:serverTimestamp()});
   const panel=el("section","result");panel.append(el("h2","","Quiz completed!"),el("p","","Your score: "+correct+" / "+total),el("p","","Percentage: "+percentage+"%"));
-  questions.forEach((q,i)=>panel.append(el("p","",(i+1)+". "+(answers[q.id]===q.correctOption?"Correct":"Incorrect")+" — Correct answer: "+q.correctOption+(q.explanation?" · "+q.explanation:""))));
+  questions.forEach((q,i)=>panel.append(el("p","",(i+1)+". "+(answers[q.id]===q.correctOption?"Correct":"Incorrect")+" — Correct answer: "+q.correctOption+(translated(q,"explanation")?" · "+translated(q,"explanation"):""))));
   const link=el("a","btn","View all results");link.href="./results.html";panel.append(link);result.replaceChildren(panel);
  }catch(err){$("submitQuiz").disabled=false;result.textContent="Could not save your result: "+err.message}
 });

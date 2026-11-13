@@ -3,6 +3,7 @@ import { collection, doc, getDoc, getDocs, query, where } from "https://www.gsta
 
 const $=id=>document.getElementById(id),db=()=>window.ZeerozFirebase.db;
 const selectedLanguage=localStorage.getItem("zeerozCourseLanguage")||"en";
+document.documentElement.lang=selectedLanguage;document.documentElement.dir=selectedLanguage==="ur"?"rtl":"ltr";
 const languageNames={en:"English",ur:"اردو",sd:"سنڌي"};
 function localizedText(record,field,lang){const translated=record?.translations?.[lang]?.[field];return typeof translated==="string"&&translated.trim()?translated:record?.[field]||"";}
 function node(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;}
