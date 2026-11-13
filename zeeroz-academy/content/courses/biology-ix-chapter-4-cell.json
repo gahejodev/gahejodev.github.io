@@ -64,7 +64,29 @@
             "D": "Organ system"
           },
           "correctOption": "B",
-          "explanation": "A cell is the basic structural and functional unit of life."
+          "explanation": "A cell is the basic structural and functional unit of life.",
+          "translations": {
+            "ur": {
+              "question": "زندگی کے ضروری افعال انجام دینے والی سب سے چھوٹی اکائی کون سی ہے؟",
+              "options": {
+                "A": "بافت",
+                "B": "خلیہ",
+                "C": "عضو",
+                "D": "عضوی نظام"
+              },
+              "explanation": "خلیہ زندگی کی بنیادی ساختی اور فعلی اکائی ہے۔"
+            },
+            "sd": {
+              "question": "زندگيءَ جا ضروري ڪم ڪرڻ واري سڀ کان ننڍي ايڪائي ڪهڙي آهي؟",
+              "options": {
+                "A": "بافت",
+                "B": "خلو",
+                "C": "عضو",
+                "D": "عضوي نظام"
+              },
+              "explanation": "خلو زندگيءَ جي بنيادي بناوتي ۽ فعلي ايڪائي آهي."
+            }
+          }
         },
         {
           "question": "Which statement is part of cell theory?",
@@ -75,7 +97,29 @@
             "D": "Cells do not divide"
           },
           "correctOption": "B",
-          "explanation": "Cell theory states that organisms are made of cells and new cells arise from pre-existing cells."
+          "explanation": "Cell theory states that organisms are made of cells and new cells arise from pre-existing cells.",
+          "translations": {
+            "ur": {
+              "question": "خلوی نظریے کا کون سا بیان درست ہے؟",
+              "options": {
+                "A": "تمام خلیے بے جان مادے سے خود بخود بنتے ہیں",
+                "B": "تمام جاندار ایک یا زیادہ خلیوں پر مشتمل ہوتے ہیں",
+                "C": "صرف جانور خلیوں سے بنے ہیں",
+                "D": "خلیے تقسیم نہیں ہوتے"
+              },
+              "explanation": "خلوی نظریہ بتاتا ہے کہ جاندار خلیوں سے بنتے ہیں اور نئے خلیے پہلے سے موجود خلیوں سے بنتے ہیں۔"
+            },
+            "sd": {
+              "question": "خلوي نظريي جو ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "سڀ خليا بي جان مادي مان پاڻمرادو ٺهن ٿا",
+                "B": "سڀ جاندار هڪ يا وڌيڪ خلين مان ٺهيل آهن",
+                "C": "رڳو جانور خلين مان ٺهيل آهن",
+                "D": "خليا ورهائجن نٿا"
+              },
+              "explanation": "خلوي نظريو ٻڌائي ٿو ته جاندار خلين مان ٺهن ٿا ۽ نوان خليا اڳ موجود خلين مان ٺهن ٿا."
+            }
+          }
         },
         {
           "question": "Which structure is present in both typical plant and animal cells?",
@@ -86,7 +130,29 @@
             "D": "Large central vacuole"
           },
           "correctOption": "C",
-          "explanation": "Both plant and animal cells have a cell membrane."
+          "explanation": "Both plant and animal cells have a cell membrane.",
+          "translations": {
+            "ur": {
+              "question": "پروکاریوٹک خلیے کی ایک اہم خصوصیت کیا ہے؟",
+              "options": {
+                "A": "جھلی سے گھرا مرکزہ موجود ہوتا ہے",
+                "B": "جھلی سے گھرا مرکزہ موجود نہیں ہوتا",
+                "C": "اس میں DNA نہیں ہوتا",
+                "D": "اس میں سائٹوپلازم نہیں ہوتا"
+              },
+              "explanation": "پروکاریوٹک خلیوں میں جھلی سے گھرا مرکزہ نہیں ہوتا۔"
+            },
+            "sd": {
+              "question": "پروڪريوٽڪ خاني جي هڪ اهم خاصيت ڪهڙي آهي؟",
+              "options": {
+                "A": "جھلي سان گهيريل مرڪز موجود هوندو آهي",
+                "B": "جھلي سان گهيريل مرڪز موجود نه هوندو آهي",
+                "C": "ان ۾ DNA نه هوندو آهي",
+                "D": "ان ۾ سائٽوپلازم نه هوندو آهي"
+              },
+              "explanation": "پروڪريوٽڪ خلين ۾ جھلي سان گهيريل مرڪز نه هوندو آهي."
+            }
+          }
         },
         {
           "question": "The main function of the cell membrane is to:",
@@ -97,7 +163,29 @@
             "D": "Carry out photosynthesis in every cell"
           },
           "correctOption": "A",
-          "explanation": "The cell membrane is selectively permeable and regulates exchange."
+          "explanation": "The cell membrane is selectively permeable and regulates exchange.",
+          "translations": {
+            "ur": {
+              "question": "یوکاریوٹک خلیے میں DNA زیادہ تر کہاں موجود ہوتا ہے؟",
+              "options": {
+                "A": "مرکزے میں",
+                "B": "خلوی دیوار میں",
+                "C": "ویکیول کے اندر",
+                "D": "صرف رائبوسوم پر"
+              },
+              "explanation": "یوکاریوٹک خلیے کا زیادہ تر جینیاتی مادہ مرکزے میں ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "يوڪريوٽڪ خاني ۾ DNA گهڻو ڪري ڪٿي هوندو آهي؟",
+              "options": {
+                "A": "مرڪز ۾",
+                "B": "خلوي ڀت ۾",
+                "C": "ويڪيول اندر",
+                "D": "رڳو رائبوسوم تي"
+              },
+              "explanation": "يوڪريوٽڪ خاني جو گهڻو جينياتي مادو مرڪز ۾ هوندو آهي."
+            }
+          }
         },
         {
           "question": "Which organelle contains most of the DNA in a typical eukaryotic cell?",
@@ -108,7 +196,29 @@
             "D": "Ribosome"
           },
           "correctOption": "B",
-          "explanation": "The nucleus contains most of a eukaryotic cell's genetic material."
+          "explanation": "The nucleus contains most of a eukaryotic cell's genetic material.",
+          "translations": {
+            "ur": {
+              "question": "خلوی جھلی کا بنیادی کام کیا ہے؟",
+              "options": {
+                "A": "خلیے کو مکمل طور پر بند کر کے تمام مادوں کی آمدورفت روکنا",
+                "B": "خلیے میں مادوں کے داخلے اور اخراج کو منظم کرنا",
+                "C": "DNA بنانا",
+                "D": "تمام توانائی ذخیرہ کرنا"
+              },
+              "explanation": "خلوی جھلی منتخب نفوذ پذیری کے ذریعے مادوں کی آمدورفت کو کنٹرول کرتی ہے۔"
+            },
+            "sd": {
+              "question": "خلوي جھليءَ جو بنيادي ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "سڀني مادن جي اچ وڃ مڪمل بند ڪرڻ",
+                "B": "خاني ۾ مادن جي داخلا ۽ نيڪال کي ضابطي ۾ رکڻ",
+                "C": "DNA ٺاهڻ",
+                "D": "سڀ توانائي ذخيرو ڪرڻ"
+              },
+              "explanation": "خلوي جھلي چونڊيل نفوذپذيري وسيلي مادن جي اچ وڃ کي ڪنٽرول ڪري ٿي."
+            }
+          }
         },
         {
           "question": "The main site of aerobic respiration in eukaryotic cells is the:",
@@ -119,7 +229,29 @@
             "D": "Cell wall"
           },
           "correctOption": "A",
-          "explanation": "Mitochondria carry out most aerobic respiration and ATP production."
+          "explanation": "Mitochondria carry out most aerobic respiration and ATP production.",
+          "translations": {
+            "ur": {
+              "question": "سائٹوپلازم کیا ہے؟",
+              "options": {
+                "A": "خلیے کے اندر جھلی اور مرکزے کے درمیان موجود مادہ",
+                "B": "صرف خلوی دیوار",
+                "C": "DNA کی دوہری لڑی",
+                "D": "خلیے کے باہر موجود سیال"
+              },
+              "explanation": "سائٹوپلازم میں سائٹوسول اور مختلف عضیات شامل ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "سائٽوپلازم ڇا آهي؟",
+              "options": {
+                "A": "خاني اندر جھلي ۽ مرڪز جي وچ وارو مادو",
+                "B": "رڳو خلوي ڀت",
+                "C": "DNA جي ٻٽي تند",
+                "D": "خاني کان ٻاهر موجود پاڻياٺ"
+              },
+              "explanation": "سائٽوپلازم ۾ سائٽوسول ۽ مختلف عضيا شامل آهن."
+            }
+          }
         },
         {
           "question": "Ribosomes are responsible for:",
@@ -130,7 +262,29 @@
             "D": "DNA packaging only"
           },
           "correctOption": "A",
-          "explanation": "Ribosomes translate mRNA to build polypeptides."
+          "explanation": "Ribosomes translate mRNA to build polypeptides.",
+          "translations": {
+            "ur": {
+              "question": "رائبوسوم کا بنیادی کام کیا ہے؟",
+              "options": {
+                "A": "پروٹین بنانا",
+                "B": "چکنائی ذخیرہ کرنا",
+                "C": "روشنی جذب کرنا",
+                "D": "DNA کو لپیٹنا"
+              },
+              "explanation": "رائبوسوم پروٹین سازی کی جگہ ہے۔"
+            },
+            "sd": {
+              "question": "رائبوسوم جو بنيادي ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "پروٽين ٺاهڻ",
+                "B": "چرٻي ذخيرو ڪرڻ",
+                "C": "روشني جذب ڪرڻ",
+                "D": "DNA ويڙهڻ"
+              },
+              "explanation": "رائبوسوم پروٽين ٺاهڻ جي جاءِ آهي."
+            }
+          }
         },
         {
           "question": "Which organelle modifies, sorts and packages many proteins?",
@@ -141,7 +295,29 @@
             "D": "Centriole"
           },
           "correctOption": "A",
-          "explanation": "The Golgi apparatus processes and sorts proteins and lipids received from the ER."
+          "explanation": "The Golgi apparatus processes and sorts proteins and lipids received from the ER.",
+          "translations": {
+            "ur": {
+              "question": "مائٹوکانڈریا کا بنیادی کردار کیا ہے؟",
+              "options": {
+                "A": "ATP کی تیاری میں مدد",
+                "B": "پودوں میں سیلولوز بنانا",
+                "C": "DNA کو خارج کرنا",
+                "D": "پروٹین کو ہضم کرنا"
+              },
+              "explanation": "مائٹوکانڈریا میں ایروبک تنفس کے اہم مراحل سے ATP بنتا ہے۔"
+            },
+            "sd": {
+              "question": "مائٽوڪانڊريا جو بنيادي ڪردار ڪهڙو آهي؟",
+              "options": {
+                "A": "ATP ٺاهڻ ۾ مدد",
+                "B": "ٻوٽن ۾ سيلولوز ٺاهڻ",
+                "C": "DNA خارج ڪرڻ",
+                "D": "پروٽين هضم ڪرڻ"
+              },
+              "explanation": "مائٽوڪانڊريا ۾ ايروبڪ تنفس جي اهم مرحلن سان ATP ٺهي ٿو."
+            }
+          }
         },
         {
           "question": "Which structure is mainly made of cellulose in plant cells?",
@@ -152,7 +328,29 @@
             "D": "Ribosome"
           },
           "correctOption": "A",
-          "explanation": "Plant cell walls contain cellulose microfibrils."
+          "explanation": "Plant cell walls contain cellulose microfibrils.",
+          "translations": {
+            "ur": {
+              "question": "کلوروپلاسٹ میں کون سا رنگ دار مادہ روشنی جذب کرتا ہے؟",
+              "options": {
+                "A": "ہیموگلوبن",
+                "B": "کلوروفل",
+                "C": "میلانن",
+                "D": "کیراٹن"
+              },
+              "explanation": "کلوروفل روشنی جذب کر کے ضیائی تالیف میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪلوروپلاسٽ ۾ ڪهڙو رنگدار مادو روشني جذب ڪري ٿو؟",
+              "options": {
+                "A": "هيموگلوبن",
+                "B": "ڪلوروفل",
+                "C": "ميلانن",
+                "D": "ڪيراٽين"
+              },
+              "explanation": "ڪلوروفل روشني جذب ڪري ضيائي ترڪيب ۾ مدد ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Chloroplasts are the main sites of:",
@@ -163,7 +361,29 @@
             "D": "Cell division in animals"
           },
           "correctOption": "B",
-          "explanation": "Chloroplasts capture light energy for photosynthesis."
+          "explanation": "Chloroplasts capture light energy for photosynthesis.",
+          "translations": {
+            "ur": {
+              "question": "گولجی باڈی کا اہم کام کیا ہے؟",
+              "options": {
+                "A": "پروٹین اور لپڈز کی ترمیم، ترتیب اور پیکنگ",
+                "B": "DNA کی نقل بنانا",
+                "C": "ATP کو توڑنا",
+                "D": "خلیے کو حرکت دینا"
+              },
+              "explanation": "گولجی باڈی سالمات میں ترمیم کر کے انہیں چھانٹتی اور پیک کرتی ہے۔"
+            },
+            "sd": {
+              "question": "گولجي باڊي جو اهم ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "پروٽين ۽ لپڊز ۾ تبديلي، ترتيب ۽ پيڪنگ",
+                "B": "DNA جي نقل ٺاهڻ",
+                "C": "ATP ٽوڙڻ",
+                "D": "خاني کي حرڪت ڏيڻ"
+              },
+              "explanation": "گولجي باڊي ماليڪيولن ۾ تبديلي ڪري انهن کي ڇنڊي ۽ پيڪ ڪري ٿي."
+            }
+          }
         },
         {
           "question": "The large central vacuole in many plant cells helps maintain:",
@@ -174,7 +394,29 @@
             "D": "Nerve impulses"
           },
           "correctOption": "A",
-          "explanation": "Water in the central vacuole helps keep plant cells firm."
+          "explanation": "Water in the central vacuole helps keep plant cells firm.",
+          "translations": {
+            "ur": {
+              "question": "لائسوسوم میں عموماً کیا پایا جاتا ہے؟",
+              "options": {
+                "A": "ہاضم خامرے",
+                "B": "کلوروفل",
+                "C": "سیلولوز",
+                "D": "DNA کروموسوم"
+              },
+              "explanation": "لائسوسوم میں ایسے خامرے ہوتے ہیں جو مادوں اور پرانے عضیات کو توڑتے ہیں۔"
+            },
+            "sd": {
+              "question": "لائيسوسوم ۾ عام طور ڇا هوندو آهي؟",
+              "options": {
+                "A": "هاضمي وارا انزائم",
+                "B": "ڪلوروفل",
+                "C": "سيلولوز",
+                "D": "DNA ڪروموسوم"
+              },
+              "explanation": "لائيسوسوم ۾ اهڙا انزائم هوندا آهن، جيڪي مادن ۽ پراڻن عضين کي ٽوڙين ٿا."
+            }
+          }
         },
         {
           "question": "Which cell type is specialised for transmitting electrical signals?",
@@ -185,7 +427,29 @@
             "D": "Palisade cell"
           },
           "correctOption": "A",
-          "explanation": "Neurons have structures adapted to receive and transmit signals."
+          "explanation": "Neurons have structures adapted to receive and transmit signals.",
+          "translations": {
+            "ur": {
+              "question": "اینڈوپلازمک ریٹیکولم کی کھردری سطح پر کیا موجود ہوتا ہے؟",
+              "options": {
+                "A": "رائبوسوم",
+                "B": "کلوروپلاسٹ",
+                "C": "خلوی دیوار",
+                "D": "سینٹریول"
+              },
+              "explanation": "کھردرے اینڈوپلازمک ریٹیکولم پر رائبوسوم موجود ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "اينڊوپلازمي ريٽيڪولم جي کُردري سطح تي ڇا هوندو آهي؟",
+              "options": {
+                "A": "رائبوسوم",
+                "B": "ڪلوروپلاسٽ",
+                "C": "خلوي ڀت",
+                "D": "سينٽريول"
+              },
+              "explanation": "کُردري اينڊوپلازمي ريٽيڪولم تي رائبوسوم هوندا آهن."
+            }
+          }
         },
         {
           "question": "A root hair cell is adapted for water and mineral uptake mainly because it has:",
@@ -196,7 +460,29 @@
             "D": "No cell membrane"
           },
           "correctOption": "A",
-          "explanation": "The long root-hair projection increases the surface area for absorption."
+          "explanation": "The long root-hair projection increases the surface area for absorption.",
+          "translations": {
+            "ur": {
+              "question": "ہموار اینڈوپلازمک ریٹیکولم کا ایک اہم کام کیا ہے؟",
+              "options": {
+                "A": "لپڈز کی تیاری",
+                "B": "پروٹین کی نقل بنانا",
+                "C": "کروموسوم تقسیم کرنا",
+                "D": "روشنی جذب کرنا"
+              },
+              "explanation": "ہموار اینڈوپلازمک ریٹیکولم لپڈز کی تیاری اور بعض مادوں کے زہر کو کم کرنے میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "هموار اينڊوپلازمي ريٽيڪولم جو هڪ اهم ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "لپڊز ٺاهڻ",
+                "B": "پروٽين جي نقل ٺاهڻ",
+                "C": "ڪروموسوم ورهائڻ",
+                "D": "روشني جذب ڪرڻ"
+              },
+              "explanation": "هموار اينڊوپلازمي ريٽيڪولم لپڊز ٺاهڻ ۽ ڪجهه زهريلي مادن کي بي اثر ڪرڻ ۾ مدد ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Which specialised plant cell controls the opening of a stoma?",
@@ -207,7 +493,29 @@
             "D": "Palisade cell"
           },
           "correctOption": "A",
-          "explanation": "Guard cells change shape to regulate stomatal opening."
+          "explanation": "Guard cells change shape to regulate stomatal opening.",
+          "translations": {
+            "ur": {
+              "question": "پودوں کی خلوی دیوار بنیادی طور پر کس مادے سے بنتی ہے؟",
+              "options": {
+                "A": "سیلولوز",
+                "B": "گلیکوجن",
+                "C": "کولیسٹرول",
+                "D": "ہیموگلوبن"
+              },
+              "explanation": "پودوں کی خلوی دیوار کا اہم ساختی جز سیلولوز ہے۔"
+            },
+            "sd": {
+              "question": "ٻوٽن جي خلوي ڀت بنيادي طور ڪهڙي مادي مان ٺهي ٿي؟",
+              "options": {
+                "A": "سيلولوز",
+                "B": "گلائڪوجن",
+                "C": "ڪوليسٽرول",
+                "D": "هيموگلوبن"
+              },
+              "explanation": "ٻوٽن جي خلوي ڀت جو اهم بناوتي جزو سيلولوز آهي."
+            }
+          }
         },
         {
           "question": "Cell differentiation means:",
@@ -218,7 +526,29 @@
             "D": "Cells stop carrying out metabolism"
           },
           "correctOption": "A",
-          "explanation": "Differentiation produces specialised cell types through regulated gene expression."
+          "explanation": "Differentiation produces specialised cell types through regulated gene expression.",
+          "translations": {
+            "ur": {
+              "question": "بڑی مرکزی ویکیول پودے کے خلیے میں کیا کردار ادا کرتی ہے؟",
+              "options": {
+                "A": "پانی اور حل شدہ مادے ذخیرہ کر کے تورگر دباؤ برقرار رکھنا",
+                "B": "پروٹین سازی",
+                "C": "DNA کی نقل",
+                "D": "روشنی جذب"
+              },
+              "explanation": "مرکزی ویکیول پانی ذخیرہ کرتی اور خلیے کی سختی/تورگر برقرار رکھنے میں مدد دیتی ہے۔"
+            },
+            "sd": {
+              "question": "وڏي مرڪزي ويڪيول ٻوٽي جي خاني ۾ ڪهڙو ڪم ڪري ٿي؟",
+              "options": {
+                "A": "پاڻي ۽ حل ٿيل مادا ذخيرو ڪري ٽرگر دٻاءُ برقرار رکڻ",
+                "B": "پروٽين ٺاهڻ",
+                "C": "DNA جي نقل",
+                "D": "روشني جذب ڪرڻ"
+              },
+              "explanation": "مرڪزي ويڪيول پاڻي ذخيرو ڪري خاني جي سختي ۽ ٽرگر برقرار رکڻ ۾ مدد ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Division of labour in multicellular organisms means:",
@@ -229,7 +559,29 @@
             "D": "Organs work independently of cells"
           },
           "correctOption": "B",
-          "explanation": "Specialised cells cooperate, making complex organisms more efficient."
+          "explanation": "Specialised cells cooperate, making complex organisms more efficient.",
+          "translations": {
+            "ur": {
+              "question": "منتشر مادے کی زیادہ ارتکاز سے کم ارتکاز کی طرف خالص حرکت کیا کہلاتی ہے؟",
+              "options": {
+                "A": "انتشار",
+                "B": "فعال نقل و حمل",
+                "C": "اینڈوسائٹوسس",
+                "D": "تخمیر"
+              },
+              "explanation": "انتشار ارتکاز کے فرق کے باعث ذرات کی خالص حرکت ہے۔"
+            },
+            "sd": {
+              "question": "مادي جي وڌيڪ ارتڪاز کان گهٽ ارتڪاز ڏانهن خالص حرڪت ڇا سڏجي ٿي؟",
+              "options": {
+                "A": "ڦهلاءُ",
+                "B": "فعال منتقلي",
+                "C": "اينڊوسائٽوسس",
+                "D": "فرمينٽيشن"
+              },
+              "explanation": "ڦهلاءُ ارتڪاز جي فرق سبب ذرڙن جي خالص حرڪت آهي."
+            }
+          }
         },
         {
           "question": "Stem cells are characterised by their ability to:",
@@ -240,7 +592,29 @@
             "D": "Never divide"
           },
           "correctOption": "A",
-          "explanation": "Stem cells can make more stem cells and produce specialised cell types."
+          "explanation": "Stem cells can make more stem cells and produce specialised cell types.",
+          "translations": {
+            "ur": {
+              "question": "اوسموسس میں بنیادی طور پر کس چیز کی حرکت ہوتی ہے؟",
+              "options": {
+                "A": "پانی",
+                "B": "پروٹین",
+                "C": "DNA",
+                "D": "نشاستہ"
+              },
+              "explanation": "اوسموسس منتخب نفوذ پذیر جھلی کے پار پانی کی خالص حرکت ہے۔"
+            },
+            "sd": {
+              "question": "اوسموسس ۾ بنيادي طور ڪهڙي شيءِ حرڪت ڪري ٿي؟",
+              "options": {
+                "A": "پاڻي",
+                "B": "پروٽين",
+                "C": "DNA",
+                "D": "نشاستو"
+              },
+              "explanation": "اوسموسس چونڊيل نفوذپذير جھلي پار پاڻيءَ جي خالص حرڪت آهي."
+            }
+          }
         },
         {
           "question": "Embryonic stem cells are generally described as:",
@@ -251,7 +625,29 @@
             "D": "Fully differentiated"
           },
           "correctOption": "A",
-          "explanation": "Embryonic stem cells can form almost all body cell types."
+          "explanation": "Embryonic stem cells can form almost all body cell types.",
+          "translations": {
+            "ur": {
+              "question": "فعال نقل و حمل کے لیے کیا درکار ہوتا ہے؟",
+              "options": {
+                "A": "توانائی",
+                "B": "ہمیشہ روشنی",
+                "C": "صرف آکسیجن",
+                "D": "کوئی جھلی نہیں"
+              },
+              "explanation": "فعال نقل و حمل ارتکاز کے فرق کے خلاف مادے منتقل کر سکتی ہے، اس لیے توانائی درکار ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "فعال منتقلي لاءِ ڇا ضروري آهي؟",
+              "options": {
+                "A": "توانائي",
+                "B": "هميشه روشني",
+                "C": "رڳو آڪسيجن",
+                "D": "ڪا جھلي نه"
+              },
+              "explanation": "فعال منتقلي ارتڪاز جي فرق جي ابتڙ مادا منتقل ڪري سگهي ٿي، تنهنڪري توانائي کپي ٿي."
+            }
+          }
         },
         {
           "question": "Induced pluripotent stem cells are:",
@@ -262,7 +658,29 @@
             "D": "Cells with no DNA"
           },
           "correctOption": "A",
-          "explanation": "iPSCs are produced by reprogramming adult body cells."
+          "explanation": "iPSCs are produced by reprogramming adult body cells.",
+          "translations": {
+            "ur": {
+              "question": "پودوں کے خلیوں کو جانوروں کے خلیوں سے ممتاز کرنے والی ساخت کون سی ہے؟",
+              "options": {
+                "A": "خلوی دیوار",
+                "B": "خلوی جھلی",
+                "C": "سائٹوپلازم",
+                "D": "رائبوسوم"
+              },
+              "explanation": "پودوں کے خلیوں میں سیلولوز کی خلوی دیوار ہوتی ہے جبکہ جانوروں کے خلیوں میں نہیں۔"
+            },
+            "sd": {
+              "question": "ڪهڙي بناوت ٻوٽن جي خلين کي جانورن جي خلين کان الڳ ڪري ٿي؟",
+              "options": {
+                "A": "خلوي ڀت",
+                "B": "خلوي جھلي",
+                "C": "سائٽوپلازم",
+                "D": "رائبوسوم"
+              },
+              "explanation": "ٻوٽن جي خلين ۾ سيلولوز جي خلوي ڀت هوندي آهي، جڏهن ته جانورن جي خلين ۾ نه هوندي آهي."
+            }
+          }
         },
         {
           "question": "Which is an important limitation of proposed stem-cell treatments?",
@@ -273,7 +691,29 @@
             "D": "Stem cells cannot divide"
           },
           "correctOption": "B",
-          "explanation": "Safety, immune compatibility and controlled differentiation are important challenges."
+          "explanation": "Safety, immune compatibility and controlled differentiation are important challenges.",
+          "translations": {
+            "ur": {
+              "question": "الیکٹران مائیکروسکوپ روشنی کے مائیکروسکوپ کے مقابلے میں زیادہ تفصیل کیوں دکھا سکتا ہے؟",
+              "options": {
+                "A": "اس میں الیکٹران کی کم طول موج استعمال ہوتی ہے",
+                "B": "یہ ہمیشہ بڑا نمونہ استعمال کرتا ہے",
+                "C": "اس میں عدسے نہیں ہوتے",
+                "D": "یہ صرف زندہ خلیے دیکھتا ہے"
+              },
+              "explanation": "الیکٹران کی بہت کم طول موج زیادہ تفصیلی مشاہدے اور بہتر ریزولوشن کی اجازت دیتی ہے۔"
+            },
+            "sd": {
+              "question": "اليڪٽران مائيڪرو اسڪوپ روشنيءَ واري مائيڪرو اسڪوپ کان وڌيڪ تفصيل ڇو ڏيکاري سگهي ٿو؟",
+              "options": {
+                "A": "ان ۾ اليڪٽران جي گهٽ طول موج استعمال ٿئي ٿي",
+                "B": "اهو هميشه وڏو نمونو استعمال ڪري ٿو",
+                "C": "ان ۾ لينس ناهن",
+                "D": "اهو رڳو زنده خليا ڏسي ٿو"
+              },
+              "explanation": "اليڪٽران جي تمام گهٽ طول موج وڌيڪ تفصيلي مشاهدي ۽ بهتر ريزوليوشن جي اجازت ڏئي ٿي."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -286,7 +726,27 @@
             "Organisms consist of cells (1 mark)",
             "Cell is basic unit (1 mark)",
             "New cells arise from existing cells (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "خلوی نظریے کے تین بنیادی اصول بیان کریں۔",
+              "modelAnswer": "تمام جاندار ایک یا زیادہ خلیوں سے بنے ہیں؛ خلیہ زندگی کی بنیادی ساختی اور فعلی اکائی ہے؛ اور نئے خلیے پہلے سے موجود خلیوں کی تقسیم سے بنتے ہیں۔",
+              "rubric": [
+                "جاندار خلیوں سے بنتے ہیں (1 نمبر)",
+                "خلیہ بنیادی اکائی ہے (1 نمبر)",
+                "نئے خلیے پہلے سے موجود خلیوں سے بنتے ہیں (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "خلوي نظريي جا ٽي بنيادي اصول بيان ڪريو.",
+              "modelAnswer": "سڀ جاندار هڪ يا وڌيڪ خلين مان ٺهيل آهن؛ خلو زندگيءَ جي بنيادي بناوتي ۽ فعلي ايڪائي آهي؛ ۽ نوان خليا اڳ موجود خلين جي ورهاست مان ٺهن ٿا.",
+              "rubric": [
+                "جاندار خلين مان ٺهن ٿا (1 نمبر)",
+                "خلو بنيادي ايڪائي آهي (1 نمبر)",
+                "نوان خليا اڳ موجود خلين مان ٺهن ٿا (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -296,7 +756,25 @@
           "rubric": [
             "Any four accurate contrasts (4 marks)",
             "One correct shared feature or qualification (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "عام پودوں اور جانوروں کے خلیوں میں چار فرق بیان کریں۔",
+              "modelAnswer": "عام پودوں کے خلیوں میں سیلولوز کی خلوی دیوار، ضیائی تالیف کرنے والے بافتوں میں کلوروپلاسٹ اور عموماً بڑی مرکزی ویکیول ہوتی ہے۔ جانوروں کے خلیوں میں سیلولوز کی خلوی دیوار اور کلوروپلاسٹ نہیں ہوتے اور عموماً بڑی مرکزی ویکیول بھی نہیں ہوتی۔ دونوں میں خلوی جھلی، سائٹوپلازم، مرکزہ، مائٹوکانڈریا اور رائبوسوم ہوتے ہیں۔",
+              "rubric": [
+                "کوئی چار درست فرق (4 نمبر)",
+                "ایک درست مشترک خصوصیت یا وضاحت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "عام ٻوٽن ۽ جانورن جي خلين ۾ چار فرق بيان ڪريو.",
+              "modelAnswer": "عام ٻوٽن جي خلين ۾ سيلولوز جي خلوي ڀت، ضيائي ترڪيب ڪندڙ بافتن ۾ ڪلوروپلاسٽ ۽ عام طور وڏي مرڪزي ويڪيول هوندي آهي. جانورن جي خلين ۾ سيلولوز جي خلوي ڀت ۽ ڪلوروپلاسٽ ناهن ۽ عام طور وڏي مرڪزي ويڪيول به نه هوندي آهي. ٻنهي ۾ خلوي جھلي، سائٽوپلازم، مرڪز، مائٽوڪانڊريا ۽ رائبوسوم هوندا آهن.",
+              "rubric": [
+                "ڪو به چار صحيح فرق (4 نمبر)",
+                "هڪ صحيح گڏيل خاصيت يا وضاحت (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -308,7 +786,27 @@
             "Two types named (1 mark)",
             "Potential use (1 mark)",
             "Limitation (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "خلوی جھلی کے منتخب نفوذ پذیر ہونے کا مطلب بیان کریں اور اس کی اہمیت واضح کریں۔",
+              "modelAnswer": "منتخب نفوذ پذیری کا مطلب ہے کہ خلوی جھلی بعض مادوں کو گزرنے دیتی ہے جبکہ دوسرے مادوں کی آمدورفت کو محدود یا منظم کرتی ہے۔ اس سے خلیہ غذائی اجزا حاصل کرتا، فضلات خارج کرتا، پانی اور آئنوں کا توازن برقرار رکھتا اور اندرونی ماحول کو قابو میں رکھتا ہے۔",
+              "rubric": [
+                "منتخب نفوذ پذیری کی وضاحت (2 نمبر)",
+                "مادوں کی آمدورفت/غذائی اجزا یا فضلات (1 نمبر)",
+                "اندرونی توازن کی اہمیت (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "خلوي جھليءَ جي چونڊيل نفوذپذيريءَ جو مطلب بيان ڪريو ۽ ان جي اهميت واضح ڪريو.",
+              "modelAnswer": "چونڊيل نفوذپذيريءَ جو مطلب آهي ته خلوي جھلي ڪجهه مادن کي گذرڻ ڏئي ٿي، جڏهن ته ٻين مادن جي اچ وڃ کي محدود يا ضابطي ۾ رکي ٿي. ان سان خلو غذائي جزا حاصل ڪري ٿو، فضلو خارج ڪري ٿو، پاڻي ۽ آئنن جو توازن برقرار رکي ٿو ۽ اندروني ماحول کي سنڀالي ٿو.",
+              "rubric": [
+                "چونڊيل نفوذپذيريءَ جي وضاحت (2 نمبر)",
+                "مادن جي اچ وڃ/غذائي جزا يا فضلو (1 نمبر)",
+                "اندروني توازن جي اهميت (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -322,7 +820,31 @@
             "Vesicle transport and Golgi processing (2 marks)",
             "Secretion at cell membrane (1 mark)",
             "Other organelles and accurate functions (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "خلیے کے اہم عضیات کے افعال بیان کریں: مرکزہ، رائبوسوم، مائٹوکانڈریا، گولجی باڈی اور اینڈوپلازمک ریٹیکولم۔",
+              "modelAnswer": "مرکزہ DNA رکھتا اور خلوی سرگرمیوں کو منظم کرتا ہے۔ رائبوسوم پروٹین بناتے ہیں۔ مائٹوکانڈریا ایروبک تنفس سے ATP بنانے میں مدد دیتے ہیں۔ گولجی باڈی پروٹین اور لپڈز میں ترمیم، چھانٹی اور پیکنگ کرتی ہے۔ کھردرا اینڈوپلازمک ریٹیکولم پروٹین سازی اور ترسیل میں، جبکہ ہموار حصہ لپڈ سازی اور زہریلے مادوں کے اثر کو کم کرنے میں مدد دیتا ہے۔",
+              "rubric": [
+                "مرکزہ (1 نمبر)",
+                "رائبوسوم (1 نمبر)",
+                "مائٹوکانڈریا (1 نمبر)",
+                "گولجی باڈی (1 نمبر)",
+                "اینڈوپلازمک ریٹیکولم (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "خاني جي اهم عضين جا ڪم بيان ڪريو: مرڪز، رائبوسوم، مائٽوڪانڊريا، گولجي باڊي ۽ اينڊوپلازمي ريٽيڪولم.",
+              "modelAnswer": "مرڪز DNA رکي ٿو ۽ خلوي سرگرمين کي ضابطي ۾ رکي ٿو. رائبوسوم پروٽين ٺاهين ٿا. مائٽوڪانڊريا ايروبڪ تنفس وسيلي ATP ٺاهڻ ۾ مدد ڪن ٿا. گولجي باڊي پروٽين ۽ لپڊز ۾ تبديلي، ڇنڊڇاڻ ۽ پيڪنگ ڪري ٿي. کُردرو اينڊوپلازمي ريٽيڪولم پروٽين ٺاهڻ ۽ منتقل ڪرڻ ۾، جڏهن ته هموار حصو لپڊ ٺاهڻ ۽ زهريلي مادن جو اثر گهٽائڻ ۾ مدد ڪري ٿو.",
+              "rubric": [
+                "مرڪز (1 نمبر)",
+                "رائبوسوم (1 نمبر)",
+                "مائٽوڪانڊريا (1 نمبر)",
+                "گولجي باڊي (1 نمبر)",
+                "اينڊوپلازمي ريٽيڪولم (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -334,7 +856,29 @@
             "Two accurate animal cell examples (3 marks)",
             "Two accurate plant cell examples (3 marks)",
             "Explanation of division of labour/cooperation (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "انتشار، اوسموسس اور فعال نقل و حمل کا موازنہ کریں اور ہر ایک کی حیاتیاتی اہمیت بیان کریں۔",
+              "modelAnswer": "انتشار میں ذرات زیادہ ارتکاز سے کم ارتکاز کی طرف حرکت کرتے ہیں۔ اوسموسس منتخب نفوذ پذیر جھلی کے پار پانی کی خالص حرکت ہے، زیادہ واٹر پوٹینشل سے کم واٹر پوٹینشل کی طرف۔ فعال نقل و حمل میں جھلی کے پروٹین اور توانائی استعمال کر کے مادے ارتکاز کے فرق کے خلاف منتقل کیے جا سکتے ہیں۔ انتشار گیسوں کے تبادلے میں، اوسموسس جڑوں کے ذریعے پانی جذب کرنے میں، اور فعال نقل و حمل معدنی آئن جذب کرنے میں اہم ہے۔",
+              "rubric": [
+                "انتشار کی تعریف اور رخ (2 نمبر)",
+                "اوسموسس کی تعریف (2 نمبر)",
+                "فعال نقل و حمل اور توانائی (2 نمبر)",
+                "تینوں کی مناسب حیاتیاتی مثال/اہمیت (4 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ڦهلاءُ، اوسموسس ۽ فعال منتقليءَ جو مقابلو ڪريو ۽ هر هڪ جي حياتياتي اهميت بيان ڪريو.",
+              "modelAnswer": "ڦهلاءَ ۾ ذرڙا وڌيڪ ارتڪاز کان گهٽ ارتڪاز ڏانهن هلن ٿا. اوسموسس چونڊيل نفوذپذير جھلي پار پاڻيءَ جي خالص حرڪت آهي، وڌيڪ واٽر پوٽينشل کان گهٽ واٽر پوٽينشل ڏانهن. فعال منتقليءَ ۾ جھليءَ جا پروٽين ۽ توانائي استعمال ڪري مادا ارتڪاز جي فرق جي ابتڙ منتقل ڪري سگهجن ٿا. ڦهلاءُ گيسن جي ڏي وٺ، اوسموسس پاڙن وسيلي پاڻي جذب ڪرڻ ۽ فعال منتقلي معدني آئن جذب ڪرڻ لاءِ اهم آهي.",
+              "rubric": [
+                "ڦهلاءَ جي وصف ۽ رخ (2 نمبر)",
+                "اوسموسس جي وصف (2 نمبر)",
+                "فعال منتقلي ۽ توانائي (2 نمبر)",
+                "ٽنهي جا مناسب حياتياتي مثال/اهميت (4 نمبر)"
+              ]
+            }
+          }
         }
       ]
     }
