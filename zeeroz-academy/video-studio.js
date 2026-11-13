@@ -168,16 +168,16 @@ async function getUrduEngine(engine,voiceId){
  if(ttsEngineCache[voiceId])return ttsEngineCache[voiceId];
  const urls={
   "ur_PK-fasih-medium":{
-   model:"https://huggingface.co/rhasspy/piper-voices/resolve/main/ur/ur_PK/fasih/medium/ur_PK-fasih-medium.onnx",
-   config:"https://huggingface.co/rhasspy/piper-voices/resolve/main/ur/ur_PK/fasih/medium/ur_PK-fasih-medium.onnx.json"
+   model:"https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/main/ur/ur_PK/fasih/medium/ur_PK-fasih-medium.int8.onnx",
+   config:"https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/main/ur/ur_PK/fasih/medium/ur_PK-fasih-medium.onnx.json"
   },
   "ur_PK-aegis_female-medium":{
-   model:"https://huggingface.co/rhasspy/piper-voices/resolve/main/ur/ur_PK/aegis_female/medium/ur_PK-aegis_female-medium.onnx",
-   config:"https://huggingface.co/rhasspy/piper-voices/resolve/main/ur/ur_PK/aegis_female/medium/ur_PK-aegis_female-medium.onnx.json"
+   model:"https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/main/ur/ur_PK/aegis_female/medium/ur_PK-aegis_female-medium.int8.onnx",
+   config:"https://huggingface.co/IhorShevchuk/piper1-voices-fp16-quantized/resolve/main/ur/ur_PK/aegis_female/medium/ur_PK-aegis_female-medium.onnx.json"
   }
  };
  const selected=urls[voiceId];if(!selected)throw new Error("Unknown Urdu voice selected.");
- ttsStatus.textContent="Urdu voice model download ho raha hai (taqreeban 60–70 MB). Pehli dafa kuch waqt lag sakta hai…";
+ ttsStatus.textContent="Compact Urdu voice model download ho raha hai (taqreeban 20 MB). Pehli dafa kuch waqt lag sakta hai…";
  const enginePromise=engine.createEngine(selected.model,selected.config,p=>{
   if(p?.total)ttsStatus.textContent="Urdu model download: "+Math.round(p.loaded*100/p.total)+"%";
  });
@@ -189,15 +189,18 @@ $("ttsGenerate")?.addEventListener("click",async()=>{
  const text=currentLessonNarration();
  if(!text){ttsStatus.textContent="Pehle lesson select karke Generate storyboard press karein.";return}
  if($("language").value!=="ur"){ttsStatus.textContent="Abhi downloadable neural WAV sirf Urdu ke liye available hai. Sindhi storyboard supported hai, lekin local Sindhi voice abhi verified nahi.";return}
- ttsBusy=true;ttsButton.disabled=true;const token=++ttsGeneration;
+ ttsBusy=true;ttsButton.disabled=true;const token=++ttsGeneration;let ttsPhase="initializing browser audio engine";
  try{
+  ttsPhase="loading Urdu phonemizer and ONNX runtime";
   const engine=await ensureUrduPiper();
   const voiceId=$("ttsVoice").value==="female"?"ur_PK-aegis_female-medium":"ur_PK-fasih-medium";
+  ttsPhase="downloading and opening compact Urdu voice model";
   const model=await getUrduEngine(engine,voiceId);
   const parts=splitUrduNarration(text),pcmParts=[];
   for(let i=0;i<parts.length;i++){
    if(token!==ttsGeneration)throw new Error("Audio generation user ne stop kar di.");
    ttsStatus.textContent="Urdu narration generate ho rahi hai: "+(i+1)+"/"+parts.length+"…";
+   ttsPhase="phonemizing and synthesizing Urdu audio chunk "+(i+1)+"/"+parts.length;
    pcmParts.push(await model.speak(parts[i]));
   }
   if(token!==ttsGeneration)return;
@@ -213,7 +216,9 @@ $("ttsGenerate")?.addEventListener("click",async()=>{
   ttsStatus.textContent="Urdu audio ready! WAV download, 3D teacher lip-sync aur video export ke liye attach ho gaya.";
   try{await ttsAudio.play()}catch(e){}
  }catch(e){
-  if(token===ttsGeneration)ttsStatus.textContent="Audio generate nahi ho saka: "+(e?.message||e)+". Internet connection, model URL aur browser console check karna hoga.";
+  const detail=typeof e==="number"?"WASM/ONNX error code "+e:(e?.message||String(e));
+  console.error("[Zeeroz Urdu TTS]",{phase:ttsPhase,error:e,stack:e?.stack});
+  if(token===ttsGeneration)ttsStatus.textContent="Audio failed during "+ttsPhase+": "+detail+". Agar ye dobara aaye to ye exact stage/error share karein.";
  }finally{if(token===ttsGeneration){ttsBusy=false;ttsButton.disabled=false}}
 });
 $("ttsStop")?.addEventListener("click",()=>{ttsGeneration++;ttsBusy=false;if(ttsButton)ttsButton.disabled=false;if(ttsAudio){ttsAudio.pause();ttsAudio.currentTime=0}ttsStatus.textContent="Audio generation/playback stopped.";});
