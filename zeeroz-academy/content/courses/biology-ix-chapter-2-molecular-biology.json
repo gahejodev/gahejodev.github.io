@@ -64,7 +64,29 @@
             "D": "Only the level of populations"
           },
           "correctOption": "B",
-          "explanation": "Molecular biology explains biological processes through molecules and their interactions."
+          "explanation": "Molecular biology explains biological processes through molecules and their interactions.",
+          "translations": {
+            "ur": {
+              "question": "مالیکیولی حیاتیات بنیادی طور پر زندگی کے عمل کو کس سطح پر دیکھتی ہے؟",
+              "options": {
+                "A": "صرف مکمل ماحولیاتی نظام کی سطح پر",
+                "B": "مالیکیولی سطح پر، جس میں DNA، RNA اور پروٹین شامل ہیں",
+                "C": "صرف اعضا کی سطح پر",
+                "D": "صرف آبادیوں کی سطح پر"
+              },
+              "explanation": "مالیکیولی حیاتیات سالمات اور ان کے باہمی تعاملات کے ذریعے حیاتیاتی عمل سمجھاتی ہے۔"
+            },
+            "sd": {
+              "question": "ماليڪيولي حياتيات بنيادي طور زندگيءَ جي عملن کي ڪهڙي سطح تي جاچي ٿي؟",
+              "options": {
+                "A": "رڳو مڪمل ماحولياتي نظام جي سطح تي",
+                "B": "ماليڪيولي سطح تي، جنهن ۾ DNA، RNA ۽ پروٽين شامل آهن",
+                "C": "رڳو عضون جي سطح تي",
+                "D": "رڳو آبادين جي سطح تي"
+              },
+              "explanation": "ماليڪيولي حياتيات ماليڪيولن ۽ انهن جي پاڻ ۾ عملن وسيلي حياتياتي عمل سمجهائي ٿي."
+            }
+          }
         },
         {
           "question": "Which group of biomolecules is made from amino-acid subunits?",
@@ -75,7 +97,29 @@
             "D": "Triglycerides"
           },
           "correctOption": "A",
-          "explanation": "Amino acids join by peptide bonds to form polypeptides and proteins."
+          "explanation": "Amino acids join by peptide bonds to form polypeptides and proteins.",
+          "translations": {
+            "ur": {
+              "question": "حیاتی سالمات کا کون سا گروہ امینو ایسڈ کی اکائیوں سے بنتا ہے؟",
+              "options": {
+                "A": "پروٹین",
+                "B": "نیوکلک ایسڈ",
+                "C": "کاربوہائیڈریٹس",
+                "D": "ٹرائی گلیسرائیڈز"
+              },
+              "explanation": "امینو ایسڈ پیپٹائڈ بند کے ذریعے جڑ کر پولی پیپٹائڈ اور پروٹین بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "حياتياتي ماليڪيولن جو ڪهڙو گروهه امينو ايسڊ جي ايڪن مان ٺهي ٿو؟",
+              "options": {
+                "A": "پروٽين",
+                "B": "نيوڪليڪ ايسڊ",
+                "C": "ڪاربوهائيڊريٽ",
+                "D": "ٽرائي گليسيرائيڊ"
+              },
+              "explanation": "امينو ايسڊ پيپٽائڊ بندن سان ملي پولي پيپٽائڊ ۽ پروٽين ٺاهين ٿا."
+            }
+          }
         },
         {
           "question": "The main storage carbohydrate in plants is:",
@@ -86,7 +130,29 @@
             "D": "Lactose"
           },
           "correctOption": "C",
-          "explanation": "Plants store glucose in the form of starch."
+          "explanation": "Plants store glucose in the form of starch.",
+          "translations": {
+            "ur": {
+              "question": "پودوں میں ذخیرہ ہونے والا اہم کاربوہائیڈریٹ کون سا ہے؟",
+              "options": {
+                "A": "گلائیکوجن",
+                "B": "سیلولوز",
+                "C": "نشاستہ",
+                "D": "لیکٹوز"
+              },
+              "explanation": "پودے گلوکوز کو نشاستے کی صورت میں ذخیرہ کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "ٻوٽن ۾ ذخيرو ٿيندڙ اهم ڪاربوهائيڊريٽ ڪهڙو آهي؟",
+              "options": {
+                "A": "گلائڪوجن",
+                "B": "سيلولوز",
+                "C": "نشاستو",
+                "D": "ليڪٽوز"
+              },
+              "explanation": "ٻوٽا گلوڪوز کي نشاستي جي صورت ۾ ذخيرو ڪن ٿا."
+            }
+          }
         },
         {
           "question": "Which carbohydrate forms much of the plant cell wall?",
@@ -97,7 +163,29 @@
             "D": "Glucose"
           },
           "correctOption": "B",
-          "explanation": "Cellulose is a structural polysaccharide that strengthens plant cell walls."
+          "explanation": "Cellulose is a structural polysaccharide that strengthens plant cell walls.",
+          "translations": {
+            "ur": {
+              "question": "پودوں کی خلوی دیوار کا بڑا حصہ کون سا کاربوہائیڈریٹ بناتا ہے؟",
+              "options": {
+                "A": "سکروز",
+                "B": "سیلولوز",
+                "C": "گلائیکوجن",
+                "D": "گلوکوز"
+              },
+              "explanation": "سیلولوز ایک ساختی پولی سیکرائیڈ ہے جو خلوی دیوار کو مضبوط بناتا ہے۔"
+            },
+            "sd": {
+              "question": "ٻوٽن جي خلوي ڀت جو وڏو حصو ڪهڙو ڪاربوهائيڊريٽ ٺاهي ٿو؟",
+              "options": {
+                "A": "سڪروز",
+                "B": "سيلولوز",
+                "C": "گلائڪوجن",
+                "D": "گلوڪوز"
+              },
+              "explanation": "سيلولوز هڪ بناوتي پولي سيڪرائيڊ آهي، جيڪو خلوي ڀت مضبوط ڪري ٿو."
+            }
+          }
         },
         {
           "question": "A triglyceride contains:",
@@ -108,7 +196,29 @@
             "D": "Two glucose molecules"
           },
           "correctOption": "B",
-          "explanation": "A common fat molecule is made from glycerol and three fatty acids."
+          "explanation": "A common fat molecule is made from glycerol and three fatty acids.",
+          "translations": {
+            "ur": {
+              "question": "ٹرائی گلیسرائیڈ کن اجزا سے بنتا ہے؟",
+              "options": {
+                "A": "تین امینو ایسڈ اور ایک شکر",
+                "B": "گلیسرول کے ساتھ جڑے تین فیٹی ایسڈ",
+                "C": "تین نیوکلیوٹائڈ",
+                "D": "گلوکوز کے دو سالمات"
+              },
+              "explanation": "عام چکنائی کا سالمہ گلیسرول اور تین فیٹی ایسڈ سے بنتا ہے۔"
+            },
+            "sd": {
+              "question": "ٽرائي گليسيرائيڊ ڪهڙن جزن مان ٺهي ٿو؟",
+              "options": {
+                "A": "ٽي امينو ايسڊ ۽ هڪ کنڊ",
+                "B": "گليسيرول سان ڳنڍيل ٽي فيٽي ايسڊ",
+                "C": "ٽي نيوڪليوٽائڊ",
+                "D": "گلوڪوز جا ٻه ماليڪيول"
+              },
+              "explanation": "عام چرٻيءَ جو ماليڪيول گليسيرول ۽ ٽن فيٽي ايسڊن مان ٺهي ٿو."
+            }
+          }
         },
         {
           "question": "Which is a major function of phospholipids?",
@@ -119,7 +229,29 @@
             "D": "Making cellulose fibres"
           },
           "correctOption": "A",
-          "explanation": "Phospholipids form bilayers with hydrophilic heads and hydrophobic tails."
+          "explanation": "Phospholipids form bilayers with hydrophilic heads and hydrophobic tails.",
+          "translations": {
+            "ur": {
+              "question": "فاسفولیپڈز کا اہم کام کیا ہے؟",
+              "options": {
+                "A": "خلوی جھلی کی بنیادی دوہری تہہ بنانا",
+                "B": "کروموسوم میں جینیاتی کوڈ محفوظ کرنا",
+                "C": "ہر تعامل کو تیز کرنا",
+                "D": "سیلولوز کے ریشے بنانا"
+              },
+              "explanation": "فاسفولیپڈز پانی دوست سروں اور پانی سے گریزاں دُموں کے ساتھ دوہری تہہ بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "فاسفوليپڊز جو اهم ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "خلوي جھليءَ جي بنيادي ٻٽي تهه ٺاهڻ",
+                "B": "ڪروموسوم ۾ جينياتي ڪوڊ محفوظ ڪرڻ",
+                "C": "هر عمل کي تيز ڪرڻ",
+                "D": "سيلولوز جا ريشا ٺاهڻ"
+              },
+              "explanation": "فاسفوليپڊز پاڻي دوست مٿن ۽ پاڻي کان پاسو ڪندڙ پڇن سان ٻٽي تهه ٺاهين ٿا."
+            }
+          }
         },
         {
           "question": "A peptide bond joins:",
@@ -130,7 +262,29 @@
             "D": "Two monosaccharides"
           },
           "correctOption": "B",
-          "explanation": "Peptide bonds link amino acids in a polypeptide chain."
+          "explanation": "Peptide bonds link amino acids in a polypeptide chain.",
+          "translations": {
+            "ur": {
+              "question": "پیپٹائڈ بند کن دو اکائیوں کو جوڑتا ہے؟",
+              "options": {
+                "A": "دو فیٹی ایسڈ",
+                "B": "دو امینو ایسڈ",
+                "C": "دو فاسفیٹ گروپ",
+                "D": "دو مونو سیکرائیڈ"
+              },
+              "explanation": "پیپٹائڈ بند پولی پیپٹائڈ زنجیر میں امینو ایسڈ کو جوڑتے ہیں۔"
+            },
+            "sd": {
+              "question": "پيپٽائڊ بند ڪهڙين ٻن ايڪن کي ڳنڍي ٿو؟",
+              "options": {
+                "A": "ٻه فيٽي ايسڊ",
+                "B": "ٻه امينو ايسڊ",
+                "C": "ٻه فاسفيٽ گروپ",
+                "D": "ٻه مونو سيڪرائيڊ"
+              },
+              "explanation": "پيپٽائڊ بند پولي پيپٽائڊ زنجير ۾ امينو ايسڊ ڳنڍين ٿا."
+            }
+          }
         },
         {
           "question": "Which protein transports oxygen in human blood?",
@@ -141,7 +295,29 @@
             "D": "Amylase"
           },
           "correctOption": "B",
-          "explanation": "Haemoglobin in red blood cells binds and transports oxygen."
+          "explanation": "Haemoglobin in red blood cells binds and transports oxygen.",
+          "translations": {
+            "ur": {
+              "question": "انسانی خون میں آکسیجن کون سا پروٹین منتقل کرتا ہے؟",
+              "options": {
+                "A": "سیلولوز",
+                "B": "ہیموگلوبن",
+                "C": "صرف انسولین رسیپٹر",
+                "D": "ایمائلیز"
+              },
+              "explanation": "سرخ خون کے خلیوں میں موجود ہیموگلوبن آکسیجن سے جڑ کر اسے منتقل کرتا ہے۔"
+            },
+            "sd": {
+              "question": "انساني رت ۾ آڪسيجن ڪهڙو پروٽين کڻي وڃي ٿو؟",
+              "options": {
+                "A": "سيلولوز",
+                "B": "هيموگلوبن",
+                "C": "رڳو انسولين ري سيپٽر",
+                "D": "ايمائليز"
+              },
+              "explanation": "ڳاڙهن رت جي خلين ۾ هيموگلوبن آڪسيجن سان ڳنڍجي ان کي منتقل ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Why can high temperature cause a protein to lose its function?",
@@ -152,7 +328,29 @@
             "D": "It removes all peptide bonds instantly"
           },
           "correctOption": "B",
-          "explanation": "Heat can disrupt the protein's three-dimensional structure, causing denaturation."
+          "explanation": "Heat can disrupt the protein's three-dimensional structure, causing denaturation.",
+          "translations": {
+            "ur": {
+              "question": "زیادہ درجہ حرارت پروٹین کو اپنا کام کھونے پر کیوں مجبور کر سکتا ہے؟",
+              "options": {
+                "A": "یہ ہمیشہ تمام امینو ایسڈ کو شکر میں بدل دیتا ہے",
+                "B": "یہ پروٹین کی ساخت برقرار رکھنے والے تعاملات کو متاثر کر سکتا ہے",
+                "C": "یہ پروٹین کو DNA میں بدل دیتا ہے",
+                "D": "یہ فوراً تمام پیپٹائڈ بند توڑ دیتا ہے"
+              },
+              "explanation": "حرارت پروٹین کی سہ جہتی ساخت کو متاثر کر کے اسے ڈی نیچر کر سکتی ہے۔"
+            },
+            "sd": {
+              "question": "وڌيڪ گرمي پد پروٽين کي پنهنجو ڪم وڃائڻ تي ڇو مجبور ڪري سگهي ٿو؟",
+              "options": {
+                "A": "اهو هميشه سڀ امينو ايسڊ کنڊ ۾ بدلائي ٿو",
+                "B": "اهو پروٽين جي بناوت برقرار رکندڙ لاڳاپن کي متاثر ڪري سگهي ٿو",
+                "C": "اهو پروٽين کي DNA ۾ بدلائي ٿو",
+                "D": "اهو فوراً سڀ پيپٽائڊ بند ٽوڙي ٿو"
+              },
+              "explanation": "گرمي پروٽين جي ٽي پاسائين بناوت کي متاثر ڪري ان کي ڊي نيچر ڪري سگهي ٿي."
+            }
+          }
         },
         {
           "question": "A nucleotide is composed of:",
@@ -163,7 +361,29 @@
             "D": "Three nitrogenous bases only"
           },
           "correctOption": "B",
-          "explanation": "Each nucleotide contains a pentose sugar, phosphate group and nitrogenous base."
+          "explanation": "Each nucleotide contains a pentose sugar, phosphate group and nitrogenous base.",
+          "translations": {
+            "ur": {
+              "question": "نیوکلیوٹائڈ کن اجزا سے بنتا ہے؟",
+              "options": {
+                "A": "امینو ایسڈ، گلیسرول اور فیٹی ایسڈ",
+                "B": "شکر، فاسفیٹ اور نائٹروجنی اساس",
+                "C": "گلوکوز، نشاستہ اور سیلولوز",
+                "D": "صرف تین نائٹروجنی اساسیں"
+              },
+              "explanation": "ہر نیوکلیوٹائڈ میں پینٹوز شکر، فاسفیٹ گروپ اور نائٹروجنی اساس ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "نيوڪليوٽائڊ ڪهڙن جزن مان ٺهي ٿو؟",
+              "options": {
+                "A": "امينو ايسڊ، گليسيرول ۽ فيٽي ايسڊ",
+                "B": "کنڊ، فاسفيٽ ۽ نائٽروجني اساس",
+                "C": "گلوڪوز، نشاستو ۽ سيلولوز",
+                "D": "رڳو ٽي نائٽروجني اساسون"
+              },
+              "explanation": "هر نيوڪليوٽائڊ ۾ پينٽوز کنڊ، فاسفيٽ گروپ ۽ نائٽروجني اساس هوندي آهي."
+            }
+          }
         },
         {
           "question": "Which base is present in RNA but not normally in DNA?",
@@ -174,7 +394,29 @@
             "D": "Cytosine"
           },
           "correctOption": "C",
-          "explanation": "RNA uses uracil in place of thymine."
+          "explanation": "RNA uses uracil in place of thymine.",
+          "translations": {
+            "ur": {
+              "question": "RNA میں کون سی اساس ہوتی ہے جو عام طور پر DNA میں نہیں ہوتی؟",
+              "options": {
+                "A": "تھائمین",
+                "B": "گوانین",
+                "C": "یوراسل",
+                "D": "سائٹوسین"
+              },
+              "explanation": "RNA میں تھائمین کی جگہ یوراسل استعمال ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "RNA ۾ ڪهڙي اساس هوندي آهي جيڪا عام طور DNA ۾ نه هوندي آهي؟",
+              "options": {
+                "A": "ٿائمين",
+                "B": "گوانين",
+                "C": "يوراسل",
+                "D": "سائٽوسين"
+              },
+              "explanation": "RNA ۾ ٿائمين جي بدران يوراسل هوندو آهي."
+            }
+          }
         },
         {
           "question": "In DNA, adenine pairs with:",
@@ -185,7 +427,29 @@
             "D": "Uracil"
           },
           "correctOption": "B",
-          "explanation": "Complementary DNA base pairing is A–T and C–G."
+          "explanation": "Complementary DNA base pairing is A–T and C–G.",
+          "translations": {
+            "ur": {
+              "question": "DNA میں ایڈینین کس اساس کے ساتھ جوڑا بناتا ہے؟",
+              "options": {
+                "A": "گوانین",
+                "B": "تھائمین",
+                "C": "سائٹوسین",
+                "D": "یوراسل"
+              },
+              "explanation": "DNA میں تکمیلی اساسوں کے جوڑے A–T اور C–G ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "DNA ۾ ايڊينين ڪهڙي اساس سان جوڙو ٺاهي ٿو؟",
+              "options": {
+                "A": "گوانين",
+                "B": "ٿائمين",
+                "C": "سائٽوسين",
+                "D": "يوراسل"
+              },
+              "explanation": "DNA ۾ مڪمل ڪندڙ اساسن جا جوڙا A–T ۽ C–G آهن."
+            }
+          }
         },
         {
           "question": "Which type of RNA carries genetic instructions from DNA to a ribosome?",
@@ -196,7 +460,29 @@
             "D": "All lipids"
           },
           "correctOption": "A",
-          "explanation": "Messenger RNA carries the copied genetic message to the ribosome."
+          "explanation": "Messenger RNA carries the copied genetic message to the ribosome.",
+          "translations": {
+            "ur": {
+              "question": "DNA سے رائبوسوم تک جینیاتی ہدایات کون سا RNA لے جاتا ہے؟",
+              "options": {
+                "A": "mRNA",
+                "B": "tRNA",
+                "C": "rRNA",
+                "D": "تمام لپڈز"
+              },
+              "explanation": "میسنجر RNA جینیاتی پیغام کی نقل رائبوسوم تک پہنچاتا ہے۔"
+            },
+            "sd": {
+              "question": "DNA کان رائبوسوم تائين جينياتي هدايتون ڪهڙو RNA کڻي وڃي ٿو؟",
+              "options": {
+                "A": "mRNA",
+                "B": "tRNA",
+                "C": "rRNA",
+                "D": "سڀ لپڊز"
+              },
+              "explanation": "ميسينجر RNA جينياتي پيغام جي نقل رائبوسوم تائين پهچائي ٿو."
+            }
+          }
         },
         {
           "question": "The main role of tRNA during translation is to:",
@@ -207,7 +493,29 @@
             "D": "Copy DNA into DNA"
           },
           "correctOption": "B",
-          "explanation": "Transfer RNA brings amino acids to the ribosome and matches anticodons to codons."
+          "explanation": "Transfer RNA brings amino acids to the ribosome and matches anticodons to codons.",
+          "translations": {
+            "ur": {
+              "question": "ترجمہ (Translation) کے دوران tRNA کا بنیادی کردار کیا ہے؟",
+              "options": {
+                "A": "موروثی معلومات مستقل محفوظ کرنا",
+                "B": "امینو ایسڈ لانا اور اپنے اینٹی کوڈون کو mRNA کے کوڈون سے ملانا",
+                "C": "مرکزی جھلی بنانا",
+                "D": "DNA کی DNA میں نقل بنانا"
+              },
+              "explanation": "ٹرانسفر RNA امینو ایسڈ رائبوسوم تک لاتا اور اینٹی کوڈون کو کوڈون سے ملاتا ہے۔"
+            },
+            "sd": {
+              "question": "ترجمي (Translation) دوران tRNA جو بنيادي ڪردار ڪهڙو آهي؟",
+              "options": {
+                "A": "موروثي ڄاڻ هميشه لاءِ محفوظ ڪرڻ",
+                "B": "امينو ايسڊ کڻي اچڻ ۽ اينٽي ڪوڊون کي mRNA جي ڪوڊون سان ملائڻ",
+                "C": "مرڪزي جھلي ٺاهڻ",
+                "D": "DNA جي DNA ۾ نقل ٺاهڻ"
+              },
+              "explanation": "ٽرانسفر RNA امينو ايسڊ رائبوسوم تائين آڻي اينٽي ڪوڊون کي ڪوڊون سان ملائي ٿو."
+            }
+          }
         },
         {
           "question": "Transcription is the process of:",
@@ -218,7 +526,29 @@
             "D": "Breaking starch into glucose"
           },
           "correctOption": "A",
-          "explanation": "RNA polymerase uses DNA as a template to synthesise RNA."
+          "explanation": "RNA polymerase uses DNA as a template to synthesise RNA.",
+          "translations": {
+            "ur": {
+              "question": "ٹرانسکرپشن کا عمل کیا ہے؟",
+              "options": {
+                "A": "DNA کے سانچے سے RNA بنانا",
+                "B": "پروٹین سے DNA بنانا",
+                "C": "فیٹی ایسڈ جوڑنا",
+                "D": "نشاستے کو گلوکوز میں توڑنا"
+              },
+              "explanation": "RNA پولیمریز DNA کو سانچے کے طور پر استعمال کر کے RNA بناتا ہے۔"
+            },
+            "sd": {
+              "question": "ٽرانسڪرپشن جو عمل ڇا آهي؟",
+              "options": {
+                "A": "DNA جي سانچي مان RNA ٺاهڻ",
+                "B": "پروٽين مان DNA ٺاهڻ",
+                "C": "فيٽي ايسڊ ڳنڍڻ",
+                "D": "نشاستي کي گلوڪوز ۾ ٽوڙڻ"
+              },
+              "explanation": "RNA پوليمريز DNA کي سانچي طور استعمال ڪري RNA ٺاهي ٿو."
+            }
+          }
         },
         {
           "question": "Translation takes place at:",
@@ -229,7 +559,29 @@
             "D": "Chlorophyll molecules"
           },
           "correctOption": "A",
-          "explanation": "Ribosomes read mRNA codons and assemble amino acids into a polypeptide."
+          "explanation": "Ribosomes read mRNA codons and assemble amino acids into a polypeptide.",
+          "translations": {
+            "ur": {
+              "question": "ترجمہ (Translation) کہاں ہوتا ہے؟",
+              "options": {
+                "A": "رائبوسومز",
+                "B": "صرف لائسوسومز",
+                "C": "خلوی دیوار",
+                "D": "کلوروفل کے سالمات"
+              },
+              "explanation": "رائبوسوم mRNA کے کوڈون پڑھ کر امینو ایسڈ کو پولی پیپٹائڈ میں جوڑتا ہے۔"
+            },
+            "sd": {
+              "question": "ترجمو (Translation) ڪٿي ٿئي ٿو؟",
+              "options": {
+                "A": "رائبوسومز",
+                "B": "رڳو لائيسوسومز",
+                "C": "خلوي ڀت",
+                "D": "ڪلوروفل جا ماليڪيول"
+              },
+              "explanation": "رائبوسوم mRNA جا ڪوڊون پڙهي امينو ايسڊ کي پولي پيپٽائڊ ۾ ڳنڍي ٿو."
+            }
+          }
         },
         {
           "question": "A codon consists of:",
@@ -240,7 +592,29 @@
             "D": "Three proteins"
           },
           "correctOption": "C",
-          "explanation": "A codon is a sequence of three nucleotides in mRNA."
+          "explanation": "A codon is a sequence of three nucleotides in mRNA.",
+          "translations": {
+            "ur": {
+              "question": "ایک کوڈون کتنی اکائیوں پر مشتمل ہوتا ہے؟",
+              "options": {
+                "A": "ایک امینو ایسڈ",
+                "B": "دو شکریں",
+                "C": "mRNA کی تین اساسیں",
+                "D": "تین پروٹین"
+              },
+              "explanation": "کوڈون mRNA میں تین نیوکلیوٹائڈز کی ترتیب ہے۔"
+            },
+            "sd": {
+              "question": "هڪ ڪوڊون ڪهڙين ايڪن تي مشتمل هوندو آهي؟",
+              "options": {
+                "A": "هڪ امينو ايسڊ",
+                "B": "ٻه شڪريون",
+                "C": "mRNA جون ٽي اساسون",
+                "D": "ٽي پروٽين"
+              },
+              "explanation": "ڪوڊون mRNA ۾ ٽن نيوڪليوٽائڊن جي ترتيب آهي."
+            }
+          }
         },
         {
           "question": "Which mRNA codon commonly acts as a start codon?",
@@ -251,7 +625,29 @@
             "D": "UAG"
           },
           "correctOption": "B",
-          "explanation": "AUG usually signals the start of translation and codes for methionine."
+          "explanation": "AUG usually signals the start of translation and codes for methionine.",
+          "translations": {
+            "ur": {
+              "question": "کون سا mRNA کوڈون عام طور پر آغاز کا کوڈون ہوتا ہے؟",
+              "options": {
+                "A": "UAA",
+                "B": "AUG",
+                "C": "UGA",
+                "D": "UAG"
+              },
+              "explanation": "AUG عموماً ترجمے کے آغاز کا اشارہ دیتا اور میتھیونین کے لیے کوڈ کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو mRNA ڪوڊون عام طور شروعاتي ڪوڊون هوندو آهي؟",
+              "options": {
+                "A": "UAA",
+                "B": "AUG",
+                "C": "UGA",
+                "D": "UAG"
+              },
+              "explanation": "AUG عام طور ترجمي جي شروعات جو اشارو ڏئي ٿو ۽ ميٿيونين لاءِ ڪوڊ ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Which statement about a scientific protein is most accurate?",
@@ -262,7 +658,29 @@
             "D": "Proteins are made from nucleotides"
           },
           "correctOption": "B",
-          "explanation": "A protein's amino-acid sequence influences folding and therefore its structure and function."
+          "explanation": "A protein's amino-acid sequence influences folding and therefore its structure and function.",
+          "translations": {
+            "ur": {
+              "question": "پروٹین کے بارے میں کون سا بیان زیادہ درست ہے؟",
+              "options": {
+                "A": "اس کا کام اس کی شکل سے غیر متعلق ہے",
+                "B": "امینو ایسڈ کی ترتیب اس کی سہ جہتی ساخت متعین کرنے میں مدد دیتی ہے",
+                "C": "تمام پروٹین کی ترتیب یکساں ہوتی ہے",
+                "D": "پروٹین نیوکلیوٹائڈز سے بنتے ہیں"
+              },
+              "explanation": "امینو ایسڈ کی ترتیب پروٹین کے تہہ ہونے، ساخت اور کام پر اثر انداز ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "پروٽين بابت ڪهڙو بيان وڌيڪ صحيح آهي؟",
+              "options": {
+                "A": "ان جو ڪم بناوت کان غير لاڳاپيل آهي",
+                "B": "امينو ايسڊ جي ترتيب ان جي ٽي پاسائين بناوت طئي ڪرڻ ۾ مدد ڪري ٿي",
+                "C": "سڀني پروٽينن جون ترتيبون ساڳيون آهن",
+                "D": "پروٽين نيوڪليوٽائڊن مان ٺهن ٿا"
+              },
+              "explanation": "امينو ايسڊ جي ترتيب پروٽين جي ويڙهجڻ، بناوت ۽ ڪم تي اثر وجهي ٿي."
+            }
+          }
         },
         {
           "question": "Which pair is correctly matched?",
@@ -273,7 +691,29 @@
             "D": "tRNA—fat storage; lipid—codon reading"
           },
           "correctOption": "A",
-          "explanation": "DNA stores hereditary information while different RNAs participate in gene expression."
+          "explanation": "DNA stores hereditary information while different RNAs participate in gene expression.",
+          "translations": {
+            "ur": {
+              "question": "کون سا جوڑا درست طور پر ملایا گیا ہے؟",
+              "options": {
+                "A": "DNA—طویل مدتی موروثی معلومات؛ RNA—جینیاتی معلومات کے اظہار میں مدد",
+                "B": "نشاستہ—جینیاتی کوڈ؛ DNA—خلوی جھلی کی تہہ",
+                "C": "ہیموگلوبن—پودے کی خلوی دیوار؛ سیلولوز—آکسیجن کی ترسیل",
+                "D": "tRNA—چکنائی کا ذخیرہ؛ لپڈ—کوڈون پڑھنا"
+              },
+              "explanation": "DNA موروثی معلومات محفوظ کرتا ہے جبکہ مختلف اقسام کے RNA جین کے اظہار میں حصہ لیتے ہیں۔"
+            },
+            "sd": {
+              "question": "ڪهڙو جوڙو صحيح نموني ملائي لکيل آهي؟",
+              "options": {
+                "A": "DNA—ڊگهي مدي واري موروثي ڄاڻ؛ RNA—جينياتي ڄاڻ جي اظهار ۾ مدد",
+                "B": "نشاستو—جينياتي ڪوڊ؛ DNA—خلوي جھليءَ جي تهه",
+                "C": "هيموگلوبن—ٻوٽي جي خلوي ڀت؛ سيلولوز—آڪسيجن جي منتقلي",
+                "D": "tRNA—چرٻيءَ جو ذخيرو؛ لپڊ—ڪوڊون پڙهڻ"
+              },
+              "explanation": "DNA موروثي ڄاڻ محفوظ ڪري ٿو، جڏهن ته مختلف RNA جين جي اظهار ۾ حصو وٺن ٿا."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -285,7 +725,25 @@
           "rubric": [
             "All four groups named (2 marks)",
             "One accurate function for each group (3 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "نامیاتی حیاتی سالمات کے چار بڑے گروہوں کے نام لکھیں اور ہر ایک کا ایک اہم کام بیان کریں۔",
+              "modelAnswer": "چار گروہ کاربوہائیڈریٹس (توانائی فراہم کرنا اور بعض ساختی کردار)، لپڈز (طویل مدتی توانائی ذخیرہ، جھلیاں اور حرارت سے تحفظ)، پروٹین (خامرے، ساخت، ترسیل اور دفاع) اور نیوکلیک ایسڈ (جینیاتی معلومات کا ذخیرہ اور اظہار) ہیں۔",
+              "rubric": [
+                "چاروں گروہوں کے نام (2 نمبر)",
+                "ہر گروہ کا ایک درست کام (3 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "نامياتي حياتياتي ماليڪيولن جا چار وڏا گروهه لکو ۽ هر هڪ جو هڪ اهم ڪم ٻڌايو.",
+              "modelAnswer": "چار گروهه ڪاربوهائيڊريٽ (توانائي مهيا ڪرڻ ۽ ڪجهه بناوتي ڪم)، لپڊز (ڊگهي مدي لاءِ توانائي ذخيرو، جھليون ۽ گرميءَ کان بچاءُ)، پروٽين (انزائم، بناوت، منتقلي ۽ بچاءُ) ۽ نيوڪليڪ ايسڊ (جينياتي ڄاڻ جو ذخيرو ۽ اظهار) آهن.",
+              "rubric": [
+                "چئني گروهن جا نالا (2 نمبر)",
+                "هر گروهه جو هڪ صحيح ڪم (3 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -297,7 +755,29 @@
             "Base difference (1 mark)",
             "Typical strand structure (1 mark)",
             "Functional difference (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "DNA اور RNA میں ساخت یا کام کے لحاظ سے چار فرق بیان کریں۔",
+              "modelAnswer": "DNA میں ڈی آکسی رائبوز جبکہ RNA میں رائبوز ہوتا ہے۔ DNA میں تھائمین جبکہ RNA میں یوراسل ہوتا ہے۔ DNA عموماً دو لڑیوں پر مشتمل اور RNA عموماً ایک لڑی والا ہوتا ہے۔ DNA بنیادی طور پر موروثی معلومات محفوظ کرتا ہے جبکہ RNA معلومات کی ترسیل، ترجمے اور ضابطے میں کردار ادا کرتا ہے۔",
+              "rubric": [
+                "شکر کا فرق (1 نمبر)",
+                "اساس کا فرق (1 نمبر)",
+                "عام لڑیوں کی ساخت (1 نمبر)",
+                "فعلی فرق (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "DNA ۽ RNA ۾ بناوت يا ڪم جي لحاظ کان چار فرق بيان ڪريو.",
+              "modelAnswer": "DNA ۾ ڊي آڪسي رائبوز جڏهن ته RNA ۾ رائبوز هوندو آهي. DNA ۾ ٿائمين ۽ RNA ۾ يوراسل هوندو آهي. DNA عام طور ٻن تارن وارو ۽ RNA هڪ تاري وارو هوندو آهي. DNA بنيادي طور موروثي ڄاڻ محفوظ ڪري ٿو، جڏهن ته RNA ڄاڻ جي منتقلي، ترجمي ۽ ضابطي ۾ ڪم ڪري ٿو.",
+              "rubric": [
+                "کنڊ جو فرق (1 نمبر)",
+                "اساس جو فرق (1 نمبر)",
+                "عام تارن جي بناوت (1 نمبر)",
+                "ڪم جو فرق (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -308,7 +788,27 @@
             "mRNA role (2 marks)",
             "tRNA role (2 marks)",
             "rRNA role (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "پروٹین سازی میں mRNA، tRNA اور rRNA کے کردار بیان کریں۔",
+              "modelAnswer": "mRNA، DNA سے نقل کیا گیا جینیاتی پیغام رائبوسوم تک پہنچاتا ہے۔ tRNA مخصوص امینو ایسڈ لاتا اور اپنا اینٹی کوڈون mRNA کے کوڈون سے ملاتا ہے۔ rRNA رائبوسوم کا اہم حصہ ہے، سالمات کو درست جگہ رکھنے اور پیپٹائڈ بند بنانے میں مدد دیتا ہے۔",
+              "rubric": [
+                "mRNA کا کردار (2 نمبر)",
+                "tRNA کا کردار (2 نمبر)",
+                "rRNA کا کردار (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "پروٽين ٺاهڻ ۾ mRNA، tRNA ۽ rRNA جا ڪردار بيان ڪريو.",
+              "modelAnswer": "mRNA، DNA مان نقل ٿيل جينياتي پيغام رائبوسوم تائين پهچائي ٿو. tRNA مخصوص امينو ايسڊ کڻي اچي ٿو ۽ پنهنجو اينٽي ڪوڊون mRNA جي ڪوڊون سان ملائي ٿو. rRNA رائبوسوم جو اهم حصو آهي، ماليڪيولن کي صحيح جاءِ تي رکڻ ۽ پيپٽائڊ بند ٺاهڻ ۾ مدد ڪري ٿو.",
+              "rubric": [
+                "mRNA جو ڪردار (2 نمبر)",
+                "tRNA جو ڪردار (2 نمبر)",
+                "rRNA جو ڪردار (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -322,7 +822,33 @@
             "tRNA anticodon and amino-acid delivery (2 marks)",
             "Peptide bonds and chain growth (1 mark)",
             "Stop codon, release and folding (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "DNA کے ایک جین سے پولی پیپٹائڈ بننے تک پروٹین سازی کا عمل بیان کریں۔ جواب میں ٹرانسکرپشن اور ٹرانسلیشن شامل کریں۔",
+              "modelAnswer": "ٹرانسکرپشن کے دوران RNA پولیمریز DNA کی سانچے والی لڑی سے تکمیلی RNA بناتا ہے۔ یوکاریوٹک خلیوں میں ابتدائی RNA کی پروسیسنگ ہوتی ہے اور پختہ mRNA مرکزے سے باہر آتا ہے۔ رائبوسوم پر ترجمہ آغاز کے کوڈون سے شروع ہوتا ہے۔ رائبوسوم mRNA کے کوڈون پڑھتا ہے؛ تکمیلی اینٹی کوڈون والے tRNA متعلقہ امینو ایسڈ لاتے ہیں۔ رائبوسوم امینو ایسڈ کو پیپٹائڈ بندوں سے جوڑتا ہے۔ اختتامی کوڈون پر ترجمہ رک جاتا ہے، پولی پیپٹائڈ آزاد ہوتا ہے، تہہ بنتا ہے اور ضرورت کے مطابق تبدیل ہو کر فعال پروٹین بن سکتا ہے۔",
+              "rubric": [
+                "ٹرانسکرپشن میں DNA سانچہ اور RNA پولیمریز (2 نمبر)",
+                "mRNA کی تشکیل اور جہاں مناسب ہو پروسیسنگ/اخراج (2 نمبر)",
+                "رائبوسوم کا کوڈون پڑھنا (1 نمبر)",
+                "tRNA اینٹی کوڈون اور امینو ایسڈ لانا (2 نمبر)",
+                "پیپٹائڈ بند اور زنجیر کی بڑھوتری (1 نمبر)",
+                "اختتامی کوڈون، اخراج اور تہہ بننا (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "DNA جي هڪ جين مان پولي پيپٽائڊ ٺهڻ تائين پروٽين ٺاهڻ جو عمل بيان ڪريو. جواب ۾ ٽرانسڪرپشن ۽ ٽرانسليشن شامل ڪريو.",
+              "modelAnswer": "ٽرانسڪرپشن دوران RNA پوليمريز، DNA جي سانچي واري تند مان مڪمل ڪندڙ RNA ٺاهي ٿو. يوڪريوٽڪ خلين ۾ شروعاتي RNA جي پروسيسنگ ٿئي ٿي ۽ پختو mRNA مرڪز کان ٻاهر اچي ٿو. رائبوسوم تي ترجمو شروعاتي ڪوڊون کان شروع ٿئي ٿو. رائبوسوم mRNA جا ڪوڊون پڙهي ٿو؛ مڪمل ڪندڙ اينٽي ڪوڊون وارا tRNA لاڳاپيل امينو ايسڊ کڻي اچن ٿا. رائبوسوم امينو ايسڊ کي پيپٽائڊ بندن سان ڳنڍي ٿو. آخري ڪوڊون تي ترجمو بند ٿئي ٿو، پولي پيپٽائڊ آزاد ٿئي ٿو ۽ ويڙهجي فعال پروٽين بڻجي سگهي ٿو.",
+              "rubric": [
+                "ٽرانسڪرپشن ۾ DNA سانچو ۽ RNA پوليمريز (2 نمبر)",
+                "mRNA جي ٺهڻ ۽ مناسب هجي ته پروسيسنگ/اخراج (2 نمبر)",
+                "رائبوسوم جو ڪوڊون پڙهڻ (1 نمبر)",
+                "tRNA اينٽي ڪوڊون ۽ امينو ايسڊ کڻي اچڻ (2 نمبر)",
+                "پيپٽائڊ بند ۽ زنجير وڌڻ (1 نمبر)",
+                "آخري ڪوڊون، اخراج ۽ ويڙهڻ (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -336,7 +862,33 @@
             "Lipid functions (1 mark)",
             "Protein building units and example (2 marks)",
             "Protein functions and clear comparison (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "کاربوہائیڈریٹس، لپڈز اور پروٹین کا ان کی بنیادی اکائیوں، مثالوں اور جانداروں میں افعال کے لحاظ سے موازنہ کریں۔",
+              "modelAnswer": "کاربوہائیڈریٹس مونو سیکرائیڈز سے بنتے ہیں؛ مثالیں گلوکوز، نشاستہ، گلائیکوجن اور سیلولوز ہیں۔ یہ توانائی دیتے اور ساختی کام بھی کرتے ہیں۔ بہت سے لپڈز گلیسرول اور فیٹی ایسڈ پر مشتمل ہوتے ہیں؛ مثالیں ٹرائی گلیسرائیڈز اور فاسفولیپڈز ہیں۔ یہ توانائی ذخیرہ، حرارت سے تحفظ اور خلوی جھلیاں بناتے ہیں۔ پروٹین امینو ایسڈ کے پولیمر ہیں؛ مثالیں خامرے، ہیموگلوبن، اینٹی باڈیز اور کولیجن ہیں۔ یہ تعاملات تیز کرتے، مادے منتقل کرتے، دفاع کرتے اور ساخت فراہم کرتے ہیں۔",
+              "rubric": [
+                "کاربوہائیڈریٹ کی اکائیاں اور مثال (2 نمبر)",
+                "کاربوہائیڈریٹ کے افعال (1 نمبر)",
+                "لپڈز کے اجزا اور مثال (2 نمبر)",
+                "لپڈز کے افعال (1 نمبر)",
+                "پروٹین کی اکائیاں اور مثال (2 نمبر)",
+                "پروٹین کے افعال اور واضح موازنہ (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ڪاربوهائيڊريٽ، لپڊز ۽ پروٽين جو بنيادي ايڪن، مثالن ۽ جاندارن ۾ ڪمن جي لحاظ کان مقابلو ڪريو.",
+              "modelAnswer": "ڪاربوهائيڊريٽ مونو سيڪرائيڊز مان ٺهن ٿا؛ مثال گلوڪوز، نشاستو، گلائڪوجن ۽ سيلولوز آهن. اهي توانائي ڏين ٿا ۽ بناوتي ڪم به ڪن ٿا. ڪيترائي لپڊ گليسيرول ۽ فيٽي ايسڊن تي مشتمل آهن؛ مثال ٽرائي گليسيرائيڊ ۽ فاسفوليپڊ آهن. اهي توانائي ذخيرو ڪن ٿا، گرميءَ کان بچائين ٿا ۽ خلوي جھليون ٺاهين ٿا. پروٽين امينو ايسڊن جا پوليمر آهن؛ مثال انزائم، هيموگلوبن، اينٽي باڊيز ۽ ڪوليجن آهن. اهي عمل تيز ڪن ٿا، مادا منتقل ڪن ٿا، بچاءُ ڪن ٿا ۽ بناوت ڏين ٿا.",
+              "rubric": [
+                "ڪاربوهائيڊريٽ جون ايڪون ۽ مثال (2 نمبر)",
+                "ڪاربوهائيڊريٽ جا ڪم (1 نمبر)",
+                "لپڊز جا جزا ۽ مثال (2 نمبر)",
+                "لپڊز جا ڪم (1 نمبر)",
+                "پروٽين جون ايڪون ۽ مثال (2 نمبر)",
+                "پروٽين جا ڪم ۽ واضح مقابلو (2 نمبر)"
+              ]
+            }
+          }
         }
       ]
     }
