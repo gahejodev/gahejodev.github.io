@@ -108,6 +108,30 @@ async function initStudioAvatar(){
   });
  }catch(e){avatarStatus("Could not load the 3D avatar engine. Check internet and refresh. "+e.message)}
 }
+// Text-to-speech helpers: browser voice preview plus handoff to free Urdu neural WAV generator.
+const ttsText=$("ttsText"),ttsStatus=$("ttsStatus");
+$("ttsCopyScript")?.addEventListener("click",()=>{
+ const script=$("scriptOutput")?.value||scenes.map(s=>s.narration).join("\\n\\n");
+ if(!script.trim()){ttsStatus.textContent="Pehle storyboard generate karein.";return}
+ ttsText.value=script;ttsStatus.textContent="Lesson script TTS box mein copy ho gaya.";
+});
+$("ttsSpeak")?.addEventListener("click",()=>{
+ if(!("speechSynthesis" in window)){ttsStatus.textContent="Is browser mein device speech voice available nahi.";return}
+ const text=ttsText.value.trim();if(!text){ttsStatus.textContent="Pehle text enter ya copy karein.";return}
+ speechSynthesis.cancel();
+ const lang=$("ttsLanguage").value;
+ const utterance=new SpeechSynthesisUtterance(text);
+ utterance.lang=lang==="ur"?"ur-PK":lang==="sd"?"sd-PK":"en-US";
+ utterance.rate=0.92;
+ const voices=speechSynthesis.getVoices();
+ const matching=voices.filter(v=>v.lang.toLowerCase().startsWith(lang));
+ if(matching.length){const preferred=matching.find(v=>/pakistan|urdu|sindhi/i.test(v.name))||matching[0];utterance.voice=preferred;ttsStatus.textContent="Device voice preview: "+preferred.name+" ("+preferred.lang+").";}
+ else{ttsStatus.textContent="Aapke phone mein is language ki device voice install nahi. Urdu neural WAV ke liye upar free generator kholein.";}
+ utterance.onend=()=>{ttsStatus.textContent="Device voice preview finished."};
+ utterance.onerror=e=>{ttsStatus.textContent="Voice preview error: "+(e.error||"unknown")};
+ speechSynthesis.speak(utterance);
+});
+$("ttsStop")?.addEventListener("click",()=>{speechSynthesis.cancel();ttsStatus.textContent="Voice preview stopped."});
 initStudioAvatar();
 
 /* Record the real 3D avatar canvas together with the lesson narration. */
