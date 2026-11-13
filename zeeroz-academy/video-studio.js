@@ -111,7 +111,7 @@ async function initStudioAvatar(){
 // Text-to-speech helpers: browser voice preview plus handoff to free Urdu neural WAV generator.
 const ttsText=$("ttsText"),ttsStatus=$("ttsStatus");
 $("ttsCopyScript")?.addEventListener("click",()=>{
- const script=$("scriptOutput")?.value||scenes.map(s=>s.narration).join("\\n\\n");
+ const script=$("scriptOutput")?.value||scenes.map(s=>s.narration).join("\n\n");
  if(!script.trim()){ttsStatus.textContent="Pehle storyboard generate karein.";return}
  ttsText.value=script;ttsStatus.textContent="Lesson script TTS box mein copy ho gaya.";
 });
