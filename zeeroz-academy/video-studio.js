@@ -27,12 +27,35 @@ $("stopVoice").addEventListener("click",()=>{playbackToken++;if("speechSynthesis
 // 720p browser-side WebM export. A supplied voice-over file is mixed into the final recording.
 function wrapCanvasText(ctx,text,x,y,maxWidth,lineHeight,maxLines=5){const words=String(text||"").split(/\s+/);let line="",lines=[];for(const word of words){const test=line?line+" "+word:word;if(ctx.measureText(test).width>maxWidth&&line){lines.push(line);line=word}else line=test}if(line)lines.push(line);lines.slice(0,maxLines).forEach((v,i)=>ctx.fillText(v,x,y+i*lineHeight))}
 function loadSceneImage(path){return new Promise(resolve=>{if(!path||!path.startsWith("assets/images/biology/")||path.includes(".."))return resolve(null);const img=new Image();img.onload=()=>resolve(img);img.onerror=()=>resolve(null);img.src="./"+path})}
-function drawExportFrame(ctx,s,index,total,img,seconds){ctx.fillStyle="#f4f7fc";ctx.fillRect(0,0,1280,720);ctx.fillStyle="#12234e";ctx.fillRect(0,0,310,720);
-ctx.fillStyle="#e9bd9a";ctx.beginPath();ctx.arc(155,235,94,0,Math.PI*2);ctx.fill();ctx.fillStyle="#33253c";ctx.beginPath();ctx.arc(155,190,96,Math.PI,Math.PI*2);ctx.lineTo(247,220);ctx.quadraticCurveTo(155,178,63,220);ctx.fill();ctx.fillStyle="#17213b";ctx.beginPath();ctx.arc(122,245,8,0,Math.PI*2);ctx.arc(188,245,8,0,Math.PI*2);ctx.fill();ctx.fillStyle="#9e4c50";ctx.beginPath();ctx.ellipse(155,285,17,9+Math.abs(Math.sin(seconds*13))*5,0,0,Math.PI*2);ctx.fill();
-ctx.fillStyle="#fff";ctx.textAlign="center";ctx.font="bold 26px system-ui";ctx.fillText("ZEEROZ TEACHER",155,405);ctx.fillStyle="#f2ce60";ctx.font="bold 18px system-ui";ctx.fillText("LEARN • PRACTICE • EXCEL",155,442);ctx.textAlign="left";
-ctx.fillStyle="#3157d5";ctx.font="bold 20px system-ui";ctx.fillText("ZEEROZ ACADEMY",365,82);ctx.fillStyle="#10234d";ctx.font="bold 42px system-ui";wrapCanvasText(ctx,s.title,365,150,850,52,2);ctx.fillStyle="#26334f";ctx.font="26px system-ui";wrapCanvasText(ctx,s.narration,365,260,830,38,6);
-if(img){const scale=Math.min(650/img.width,190/img.height);ctx.drawImage(img,365,490,img.width*scale,img.height*scale)}else{const labels=s.narration.split(/[,;:]|\b(?:then|next|finally|and)\b/i).map(x=>x.trim()).filter(x=>x.length>3).slice(0,5);let x=365,y=510;ctx.font="bold 19px system-ui";labels.forEach(v=>{const label=v.slice(0,34),w=Math.min(240,ctx.measureText(label).width+34);ctx.fillStyle="#e7efff";ctx.fillRect(x,y,w,48);ctx.fillStyle="#18366f";ctx.fillText(label,x+14,y+31);x+=w+12;if(x>1120){x=365;y+=62}})}
-ctx.fillStyle="#dce5f5";ctx.fillRect(365,650,830,7);ctx.fillStyle="#15966b";ctx.fillRect(365,650,830*(index+1)/total,7);ctx.fillStyle="#56627a";ctx.font="18px system-ui";ctx.fillText("Scene "+(index+1)+" / "+total,365,690)}
+function drawExportFrame(ctx,s,index,total,img,seconds){ctx.fillStyle="#f4f7fc";ctx.fillRect(0,0,1280,720);ctx.fillStyle="#14264d";ctx.fillRect(0,0,310,720);
+ // Warm, dimensional illustrated teacher: hair, face, ears, eyes, nose, mouth, shirt and blazer.
+ ctx.save();ctx.translate(0,Math.sin(seconds*2)*2);
+ // shoulders and jacket
+ ctx.fillStyle="#263f70";ctx.beginPath();ctx.moveTo(35,620);ctx.quadraticCurveTo(48,440,155,430);ctx.quadraticCurveTo(265,440,278,620);ctx.closePath();ctx.fill();
+ ctx.fillStyle="#f2f4f8";ctx.beginPath();ctx.moveTo(118,448);ctx.lineTo(155,505);ctx.lineTo(192,448);ctx.lineTo(179,620);ctx.lineTo(131,620);ctx.closePath();ctx.fill();
+ ctx.fillStyle="#d7a17e";ctx.fillRect(133,390,44,65);
+ // ears
+ ctx.fillStyle="#c98d6b";ctx.beginPath();ctx.ellipse(67,280,16,27,0,0,Math.PI*2);ctx.ellipse(243,280,16,27,0,0,Math.PI*2);ctx.fill();
+ // face
+ const face=ctx.createRadialGradient(125,225,12,155,280,125);face.addColorStop(0,"#f4c9a7");face.addColorStop(1,"#c98d6b");ctx.fillStyle=face;ctx.beginPath();ctx.ellipse(155,275,91,116,0,0,Math.PI*2);ctx.fill();
+ // hair silhouette and side locks
+ ctx.fillStyle="#30272a";ctx.beginPath();ctx.moveTo(65,258);ctx.quadraticCurveTo(46,130,151,139);ctx.quadraticCurveTo(242,126,247,238);ctx.quadraticCurveTo(215,203,194,195);ctx.quadraticCurveTo(143,220,91,196);ctx.quadraticCurveTo(88,233,65,258);ctx.fill();
+ // eyebrows and eyes
+ ctx.strokeStyle="#49312d";ctx.lineWidth=7;ctx.lineCap="round";ctx.beginPath();ctx.moveTo(103,253);ctx.quadraticCurveTo(122,242,137,252);ctx.moveTo(174,252);ctx.quadraticCurveTo(191,242,208,253);ctx.stroke();
+ ctx.fillStyle="#fff";ctx.beginPath();ctx.ellipse(121,270,15,10,0,0,Math.PI*2);ctx.ellipse(190,270,15,10,0,0,Math.PI*2);ctx.fill();ctx.fillStyle="#49352e";ctx.beginPath();ctx.arc(124,271,6,0,Math.PI*2);ctx.arc(187,271,6,0,Math.PI*2);ctx.fill();
+ // nose and friendly animated smile
+ ctx.strokeStyle="#b9785e";ctx.lineWidth=4;ctx.beginPath();ctx.moveTo(155,275);ctx.quadraticCurveTo(145,306,158,309);ctx.stroke();
+ ctx.fillStyle="#874b4b";ctx.beginPath();ctx.ellipse(155,337,17,5+Math.abs(Math.sin(seconds*12))*6,0,0,Math.PI*2);ctx.fill();
+ // subtle beard shadow
+ ctx.strokeStyle="rgba(91,57,48,.25)";ctx.lineWidth=3;ctx.beginPath();ctx.arc(155,310,65,.3,2.8);ctx.stroke();
+ // lapels and tie
+ ctx.fillStyle="#172b50";ctx.beginPath();ctx.moveTo(116,449);ctx.lineTo(145,485);ctx.lineTo(128,540);ctx.lineTo(93,466);ctx.fill();ctx.beginPath();ctx.moveTo(194,449);ctx.lineTo(165,485);ctx.lineTo(182,540);ctx.lineTo(217,466);ctx.fill();
+ ctx.fillStyle="#d6b35b";ctx.beginPath();ctx.moveTo(155,485);ctx.lineTo(167,505);ctx.lineTo(155,574);ctx.lineTo(143,505);ctx.closePath();ctx.fill();ctx.restore();
+ ctx.fillStyle="#fff";ctx.textAlign="center";ctx.font="bold 23px system-ui";ctx.fillText("ZEEROZ TEACHER",155,655);ctx.fillStyle="#f2ce60";ctx.font="bold 15px system-ui";ctx.fillText("YOUR FRIENDLY GUIDE",155,682);ctx.textAlign="left";
+ ctx.fillStyle="#3157d5";ctx.font="bold 20px system-ui";ctx.fillText("ZEEROZ ACADEMY",365,82);ctx.fillStyle="#10234d";ctx.font="bold 42px system-ui";wrapCanvasText(ctx,s.title,365,150,850,52,2);ctx.fillStyle="#26334f";ctx.font="26px system-ui";wrapCanvasText(ctx,s.narration,365,260,830,38,6);
+ if(img){const scale=Math.min(650/img.width,190/img.height);ctx.drawImage(img,365,490,img.width*scale,img.height*scale)}else{const labels=s.narration.split(/[,;:]|\\b(?:then|next|finally|and)\\b/i).map(x=>x.trim()).filter(x=>x.length>3).slice(0,5);let x=365,y=510;ctx.font="bold 19px system-ui";labels.forEach(v=>{const label=v.slice(0,34),w=Math.min(240,ctx.measureText(label).width+34);ctx.fillStyle="#e7efff";ctx.fillRect(x,y,w,48);ctx.fillStyle="#18366f";ctx.fillText(label,x+14,y+31);x+=w+12;if(x>1120){x=365;y+=62}})}
+ ctx.fillStyle="#dce5f5";ctx.fillRect(365,650,830,7);ctx.fillStyle="#15966b";ctx.fillRect(365,650,830*(index+1)/total,7);ctx.fillStyle="#56627a";ctx.font="18px system-ui";ctx.fillText("Scene "+(index+1)+" / "+total,365,690)}
+
 async function exportLessonVideo(){if(!scenes.length){status("Generate the storyboard before exporting.");return}if(!window.MediaRecorder||!HTMLCanvasElement.prototype.captureStream){status("Video export is not supported by this browser. Please use the latest Chrome.");return}
 const button=$("exportVideo");button.disabled=true;$("exportProgress").style.width="0%";const canvas=document.createElement("canvas");canvas.width=1280;canvas.height=720;const ctx=canvas.getContext("2d"),stream=canvas.captureStream(25);let audioContext=null,audioElement=null,audioUrl=null,recorder=null;
 try{const file=$("voiceTrack").files?.[0];if(file){audioUrl=URL.createObjectURL(file);audioElement=new Audio(audioUrl);audioElement.preload="auto";await new Promise((resolve,reject)=>{audioElement.onloadedmetadata=resolve;audioElement.onerror=()=>reject(new Error("Voice-over audio could not be opened."))});audioContext=new(window.AudioContext||window.webkitAudioContext)();await audioContext.resume();const source=audioContext.createMediaElementSource(audioElement),dest=audioContext.createMediaStreamDestination();source.connect(dest);source.connect(audioContext.destination);dest.stream.getAudioTracks().forEach(t=>stream.addTrack(t))}
