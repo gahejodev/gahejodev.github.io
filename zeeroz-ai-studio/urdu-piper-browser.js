@@ -35,24 +35,24 @@ async function createEngine(onnxUrl, cfgUrl, onProgress) {
   try {
     [modelResponse, configResponse] = await Promise.all([fetch(onnxUrl), fetch(cfgUrl)]);
   } catch (e) {
-    throw new Error("Urdu voice download could not connect: " + (e?.message || String(e)));
+    throw new Error("Neural voice download could not connect: " + (e?.message || String(e)));
   }
-  if (!modelResponse.ok) throw new Error("Urdu ONNX model download failed (HTTP " + modelResponse.status + ").");
-  if (!configResponse.ok) throw new Error("Urdu voice configuration download failed (HTTP " + configResponse.status + ").");
+  if (!modelResponse.ok) throw new Error("Neural voice ONNX model download failed (HTTP " + modelResponse.status + ").");
+  if (!configResponse.ok) throw new Error("Voice configuration download failed (HTTP " + configResponse.status + ").");
   let modelBuffer;
   try {
     modelBuffer = await modelResponse.arrayBuffer();
   } catch (e) {
-    throw new Error("Urdu ONNX model download/read failed: " + (e?.message || String(e)));
+    throw new Error("Neural voice ONNX model download/read failed: " + (e?.message || String(e)));
   }
   if (modelBuffer.byteLength < 1024 * 1024) {
-    throw new Error("Urdu ONNX model file is incomplete or too small (" + modelBuffer.byteLength + " bytes).");
+    throw new Error("Neural voice ONNX model file is incomplete or too small (" + modelBuffer.byteLength + " bytes).");
   }
   let cfg;
   try {
     cfg = await configResponse.json();
   } catch (e) {
-    throw new Error("Urdu voice configuration is not valid JSON: " + (e?.message || String(e)));
+    throw new Error("Voice configuration is not valid JSON: " + (e?.message || String(e)));
   }
   onProgress?.({stage:"opening",loaded:modelBuffer.byteLength,total:modelBuffer.byteLength});
   let session;
