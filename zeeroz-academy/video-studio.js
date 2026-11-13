@@ -252,7 +252,7 @@ initStudioAvatar();
 /* Record the real 3D avatar canvas together with the lesson narration. */
 async function exportReal3DTeacher(){
  const button=$("export3DVideo"),status3D=$("export3DStatus"),progress=$("export3DProgress");
- await initLesson3D();
+ try{await initLesson3D()}catch(e){status3D.textContent="3D science model unavailable: "+e.message;return}
  const file=$("voiceTrack").files?.[0];
  if(!studioAvatar||!studioAvatarReady){status3D.textContent="3D teacher is not ready yet.";return}
  if(!file){status3D.textContent="Upload the complete narration audio first.";return}
@@ -303,8 +303,8 @@ async function exportReal3DTeacher(){
    const subject3D=lesson3D?.renderer?.domElement;
    if(subject3D&&subject3D.width&&subject3D.height){ctx.save();ctx.beginPath();ctx.roundRect(650,455,560,175,18);ctx.clip();ctx.drawImage(subject3D,650,455,560,175);ctx.restore();ctx.fillStyle="#ffffff";ctx.font="bold 15px system-ui";ctx.fillText("LIVE 3D SCIENCE MODEL",665,475)}
    
-   if(sceneImage){const maxW=530,maxH=145,scale=Math.min(maxW/sceneImage.width,maxH/sceneImage.height);ctx.drawImage(sceneImage,665,490,sceneImage.width*scale,sceneImage.height*scale)}
-   else{const labels=sc.narration.split(/[,;:،۔]|\b(?:then|next|finally|and)\b/i).map(v=>v.trim()).filter(v=>v.length>3).slice(0,4);let bx=650,by=505;ctx.font="bold 17px system-ui";labels.forEach((v,i)=>{const label=v.slice(0,28),bw=Math.min(255,Math.max(125,ctx.measureText(label).width+26));ctx.fillStyle=i%2?"#e4f4ed":"#e7efff";ctx.fillRect(bx,by,bw,42);ctx.fillStyle="#18366f";ctx.fillText(label,bx+12,by+27);bx+=bw+10;if(bx>1190){bx=650;by+=52}})}
+   if(!subject3D&&sceneImage){const maxW=530,maxH=145,scale=Math.min(maxW/sceneImage.width,maxH/sceneImage.height);ctx.drawImage(sceneImage,665,490,sceneImage.width*scale,sceneImage.height*scale)}
+   else if(!subject3D){const labels=sc.narration.split(/[,;:،۔]|\b(?:then|next|finally|and)\b/i).map(v=>v.trim()).filter(v=>v.length>3).slice(0,4);let bx=650,by=505;ctx.font="bold 17px system-ui";labels.forEach((v,i)=>{const label=v.slice(0,28),bw=Math.min(255,Math.max(125,ctx.measureText(label).width+26));ctx.fillStyle=i%2?"#e4f4ed":"#e7efff";ctx.fillRect(bx,by,bw,42);ctx.fillStyle="#18366f";ctx.fillText(label,bx+12,by+27);bx+=bw+10;if(bx>1190){bx=650;by+=52}})}
    ctx.fillStyle="#d6e1f5";ctx.fillRect(650,650,560,7);ctx.fillStyle="#20b982";ctx.fillRect(650,650,560*Math.min(1,(audioContext.currentTime-startedAt)/audioBuffer.duration),7);
    ctx.fillStyle="#d6e1f5";ctx.font="16px system-ui";ctx.fillText("Scene "+(scenes.indexOf(sc)+1)+" / "+Math.max(1,scenes.length),650,685);
    progress.style.width=Math.min(100,(audioContext.currentTime-startedAt)/audioBuffer.duration*100)+"%";
