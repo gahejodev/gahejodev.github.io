@@ -2,7 +2,7 @@
 // Based on the MIT-licensed piper-tts.github.io browser implementation.
 // Runtime assets are loaded from jsDelivr; voice models/configs from Hugging Face.
 const PH_CFG = { pad: "_", bos: "^", eos: "$", interspersePad: true, addBos: true, addEos: true };
-const ORT_BASE = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.17.3/dist/";
+const ORT_BASE = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0/dist/";
 const PHONEMIZER_BASE = "https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/";
 ort.env.wasm.wasmPaths = ORT_BASE;
 ort.env.wasm.numThreads = 1;
