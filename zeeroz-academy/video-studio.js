@@ -64,3 +64,46 @@ const totalWeight=scenes.reduce((n,s)=>n+Math.max(1,s.narration.length),0);let e
 if(audioElement){audioElement.pause();audioElement.currentTime=0}recorder.stop();await done;const blob=new Blob(chunks,{type:"video/webm"});if(!blob.size)throw new Error("The exported video was empty.");const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=(($("videoTitle").value||"zeeroz-lesson").replace(/[^a-z0-9-_]+/gi,"-").replace(/^-|-$/g,"")||"zeeroz-lesson")+".webm";a.click();setTimeout(()=>URL.revokeObjectURL(url),60000);status("Video exported ("+(blob.size/1048576).toFixed(1)+" MB). "+(file?"Uploaded narration included.":"This export has no voice-over; upload narration audio to include sound."));$("exportProgress").style.width="100%"
 }catch(e){if(recorder&&recorder.state!=="inactive")recorder.stop();status("Export error: "+e.message)}finally{stream.getTracks().forEach(t=>t.stop());if(audioContext)await audioContext.close().catch(()=>{});if(audioUrl)URL.revokeObjectURL(audioUrl);button.disabled=false}}
 $("exportVideo").addEventListener("click",exportLessonVideo);
+
+
+/* Real 3D teacher integrated into the lesson studio. Reuses the narration file selected above. */
+let studioAvatar=null,studioAudioUrl=null,studioAvatarReady=false;
+const avatarStatus=m=>{const el=$("avatarStatus");if(el)el.textContent=m};
+async function initStudioAvatar(){
+ const play=$("play3DVoice"),style=$("studioAvatarStyle"),host=$("studioAvatar");
+ if(!play||!host)return;
+ try{
+  const mod=await import("https://esm.sh/@interviewflowai/talking-avatar?bundle");
+  const {AVATARS,TalkingAvatar}=mod;
+  const create=()=>{
+   try{studioAvatar?.dispose()}catch(e){}
+   studioAvatar=null;studioAvatarReady=false;play.disabled=true;
+   avatarStatus("Loading selected 3D teacher…");
+   studioAvatar=new TalkingAvatar({container:host,avatarUrl:style.value==="male"?AVATARS.male:undefined,onError:e=>avatarStatus("3D avatar error: "+(e?.message||e))});
+   studioAvatarReady=true;
+   const file=$("voiceTrack").files?.[0];
+   play.disabled=!file;
+   avatarStatus(file?"3D teacher ready. Play the selected lesson narration.":"3D teacher ready. Upload narration audio above.");
+  };
+  style.addEventListener("change",create);create();
+  $("voiceTrack").addEventListener("change",()=>{
+   const file=$("voiceTrack").files?.[0];
+   play.disabled=!studioAvatarReady||!file;
+   avatarStatus(file?"Narration selected: "+file.name+". Ready for 3D lip-sync.":"Upload a narration audio file.");
+  });
+  play.addEventListener("click",async()=>{
+   const file=$("voiceTrack").files?.[0];if(!studioAvatar||!file)return;
+   play.disabled=true;
+   try{
+    if(studioAudioUrl)URL.revokeObjectURL(studioAudioUrl);
+    studioAudioUrl=URL.createObjectURL(file);
+    avatarStatus("3D teacher is speaking. Lip-sync follows the uploaded narration.");
+    await studioAvatar.speak(studioAudioUrl);
+    avatarStatus("Narration finished.");
+   }catch(e){avatarStatus("3D playback error: "+e.message)}
+   finally{play.disabled=!$("voiceTrack").files?.[0]}
+  });
+ }catch(e){avatarStatus("Could not load the 3D avatar engine. Check internet and refresh. "+e.message)}
+}
+initStudioAvatar();
+window.addEventListener("beforeunload",()=>{if(studioAudioUrl)URL.revokeObjectURL(studioAudioUrl);try{studioAvatar?.dispose()}catch(e){}});
