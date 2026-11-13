@@ -64,6 +64,8 @@ section{padding:76px 0}.section-head{text-align:center;max-width:680px;margin:0 
 @media(max-width:850px){.path-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.tool-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.path-grid,.tool-grid{grid-template-columns:1fr}.path-card{min-height:0}}
 
+
+.path-card{color:inherit;text-decoration:none;cursor:pointer;transition:transform .2s,box-shadow .2s,border-color .2s}.path-card:hover,.path-card:focus-visible{transform:translateY(-4px);box-shadow:0 16px 35px #13264d12;border-color:#b9c9f4;outline:none}.path-action{margin-top:auto;color:var(--blue);font-size:13px;font-weight:850;padding-top:10px}
 </style>
 </head>
 <body>
@@ -97,12 +99,12 @@ section{padding:76px 0}.section-head{text-align:center;max-width:680px;margin:0 
 </div></div></section>
 
 <section id="pathways"><div class="wrap"><div class="section-head"><span class="kicker">Choose your pathway</span><h2>Learning for school, exams and careers</h2><p>Start from the goal that matters to you. New class-wise and job-wise study material will be published here as it is prepared and verified.</p></div><input class="site-search" id="academySearch" type="search" placeholder="Search learning pathways…" aria-label="Search learning pathways"><div class="path-grid" id="pathGrid">
-<article class="path-card" data-search="class ix 9 secondary school science mathematics english sindhi"><div class="ico">📘</div><h3>Class IX</h3><p>Class-wise notes, subject explanations, exercises and revision material.</p><span class="status">Content being prepared</span></article>
-<article class="path-card" data-search="class x 10 secondary school board exam science mathematics english sindhi"><div class="ico">📗</div><h3>Class X</h3><p>Board-exam revision, topic practice and subject-wise learning resources.</p><span class="status">Content being prepared</span></article>
-<article class="path-card" data-search="class xi 11 intermediate college science commerce arts"><div class="ico">📙</div><h3>Class XI</h3><p>Intermediate-level subject support, explanations and practice resources.</p><span class="status">Content being prepared</span></article>
-<article class="path-card" data-search="class xii 12 intermediate college board exam science commerce arts"><div class="ico">📕</div><h3>Class XII</h3><p>Higher-secondary revision, exam preparation and subject-wise practice.</p><span class="status">Content being prepared</span></article>
+<a class="path-card" href="catalog.html?level=IX" data-search="class ix 9 secondary school science mathematics english sindhi"><div class="ico">📘</div><h3>Class IX</h3><p>Explore the published subject and chapter resources for Class IX.</p><span class="status live-count" data-level="IX">Checking published courses…</span><span class="path-action">Explore Class IX →</span></a>
+<a class="path-card" href="catalog.html?level=X" data-search="class x 10 secondary school board exam science mathematics english sindhi"><div class="ico">📗</div><h3>Class X</h3><p>See the subjects and chapters published for Class X.</p><span class="status live-count" data-level="X">Checking published courses…</span><span class="path-action">Explore Class X →</span></a>
+<a class="path-card" href="catalog.html?level=XI" data-search="class xi 11 intermediate college science commerce arts"><div class="ico">📙</div><h3>Class XI</h3><p>See the subjects and chapters published for Class XI.</p><span class="status live-count" data-level="XI">Checking published courses…</span><span class="path-action">Explore Class XI →</span></a>
+<a class="path-card" href="catalog.html?level=XII" data-search="class xii 12 intermediate college board exam science commerce arts"><div class="ico">📕</div><h3>Class XII</h3><p>See the subjects and chapters published for Class XII.</p><span class="status live-count" data-level="XII">Checking published courses…</span><span class="path-action">Explore Class XII →</span></a>
 <article class="path-card" data-search="sindh teaching licence test pedagogy mcq crq erq case study"><div class="ico">🎓</div><h3>Sindh Teaching Licence</h3><p>MCQs, mock tests, CRQs, ERQs, case studies and study guidance.</p><a href="https://gahejodev.github.io/sindh-teaching-licence-prep/">Open free preparation portal ↗</a></article>
-<article class="path-card" data-search="jobs job preparation recruitment tests government jobs interview"><div class="ico">🧭</div><h3>Job Preparation</h3><p>Recruitment-test practice, general knowledge and career preparation resources.</p><span class="status">Content being prepared</span></article>
+<a class="path-card" href="catalog.html?level=jobs" data-search="jobs job preparation recruitment tests government jobs interview"><div class="ico">🧭</div><h3>Job Preparation</h3><p>Open active preparation portals and see which career courses are published.</p><span class="status">Explore available programs</span><span class="path-action">Explore job preparation →</span></a>
 <article class="path-card" data-search="digital skills technology apps tools productivity"><div class="ico">💡</div><h3>Digital Skills & Tools</h3><p>Useful digital learning projects, practical tools and technology guides.</p><a href="#products">Explore the Zeeroz ecosystem ↗</a></article>
 <article class="path-card" data-search="video lessons youtube tutorials lectures"><div class="ico">▶️</div><h3>Video Learning</h3><p>Watch lessons, explainers and updates from the Zeeroz Academy channel.</p><a href="https://youtube.com/@zeerozacademy" target="_blank" rel="noopener">Visit YouTube ↗</a></article>
 <article class="path-card" data-search="coding programming technology computer science artificial intelligence AI python web development cybersecurity data science robotics"><div class="ico">💻</div><h3>Coding, Tech & AI</h3><p>Step-by-step digital skills, programming, AI literacy and project-based technology courses.</p><a href="curriculum.html">Explore the full curriculum ↗</a></article>
@@ -122,7 +124,7 @@ section{padding:76px 0}.section-head{text-align:center;max-width:680px;margin:0 
 
 <section id="programs"><div class="wrap"><div class="section-head"><span class="kicker">Explore our learning areas</span><h2>Knowledge for every next step</h2><p>Start with the learning resource you need. More courses and resources will be added as the academy grows.</p></div><div class="cards">
 <article class="card"><div class="ico">🎓</div><h3>Teaching Licence Preparation</h3><p>Practice MCQs, explore case studies, and prepare with CRQs, ERQs and study resources.</p><a class="more" href="https://gahejodev.github.io/sindh-teaching-licence-prep/">Open preparation portal ↗</a></article>
-<article class="card"><div class="ico">📚</div><h3>Classes IX–XII</h3><p>School learning resources, subject support, notes and practice material for secondary and higher secondary students.</p><span class="status">Coming soon</span></article>
+<article class="card"><div class="ico">📚</div><h3>Class-wise School Courses</h3><p>Browse the live course catalogue. Only published subjects and chapters are shown; protected lessons open after student sign-in.</p><a class="more" href="catalog.html">Browse published school courses ↗</a></article>
 <article class="card"><div class="ico">🧭</div><h3>Job Preparation</h3><p>Structured preparation resources for teaching recruitment and other competitive examinations.</p><span class="status">Coming soon</span></article>
 </div></div></section>
 <section class="feature" id="products"><div class="wrap feature-grid"><div><span class="kicker">Beyond the classroom</span><h2 style="font-size:36px;line-height:1.2;color:#101b3d;margin:10px 0 14px">Learning meets useful technology.</h2><p style="color:#65718a">Zeeroz Academy will bring educational apps, digital tools and learning projects together under one trusted identity.</p><div class="checklist" style="margin-top:24px"><div class="check"><span class="tick">✓</span><div><b>Educational apps & tools</b><span>Practical digital products for everyday learning.</span></div></div><div class="check"><span class="tick">✓</span><div><b>Video lessons</b><span>Short explanations, tutorials and learning videos.</span></div></div><div class="check"><span class="tick">✓</span><div><b>New projects</b><span>More useful products and resources over time.</span></div></div></div></div><div class="feature-panel"><div><span class="eyebrow">The Zeeroz ecosystem</span><h3>One brand.<br>Many possibilities.</h3><p>Discover learning resources and digital projects in one place.</p></div><div style="font-size:13px;font-weight:800;color:#bdeefa">ZEEROZ ACADEMY · EST. 2026</div></div></div></section>
@@ -195,6 +197,28 @@ section{padding:76px 0}.section-head{text-align:center;max-width:680px;margin:0 
  });
 })();
 
+
+/* Live course availability: homepage cards reflect the actual published registry. */
+(async()=>{
+ const badges=[...document.querySelectorAll('.live-count[data-level]')];
+ if(!badges.length)return;
+ try{
+  const response=await fetch('./content/courses/index.json',{cache:'no-store'});
+  if(!response.ok)throw new Error('Course registry unavailable');
+  const registry=await response.json();
+  const packages=Array.isArray(registry.packages)?registry.packages:[];
+  for(const badge of badges){
+   const level=badge.dataset.level;
+   const matches=packages.filter(item=>new RegExp('\\b'+level+'\\b','i').test(item.title||item.id||''));
+   badge.textContent=matches.length?matches.length+' published course'+(matches.length===1?'':'s'):'Courses being prepared';
+   badge.style.background=matches.length?'#e7f8f3':'#f1f4fa';
+   badge.style.color=matches.length?'#176c62':'#69758b';
+  }
+ }catch(error){
+  badges.forEach(b=>b.textContent='View course catalogue');
+  console.warn('Live course availability could not be loaded.',error);
+ }
+})();
 </script>
   <script type="module" src="./firebase-init.js"></script>
 </body></html>
