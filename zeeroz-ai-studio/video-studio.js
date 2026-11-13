@@ -248,8 +248,8 @@ async function generateUrduAudio(){
   if(ttsAudioUrl)URL.revokeObjectURL(ttsAudioUrl);
   ttsAudioUrl=URL.createObjectURL(wav);ttsAudio.src=ttsAudioUrl;ttsAudio.style.display="block";
   ttsDownload.href=ttsAudioUrl;ttsDownload.hidden=false;setGeneratedVoiceFile(wav);
-  ttsStatus.textContent="Urdu audio ready! WAV download, 3D teacher lip-sync aur video export ke liye attach ho gaya.";
-  try{await ttsAudio.play()}catch(e){}
+  ttsStatus.textContent="Urdu audio ready! Audio player se sun sakte hain, ya Create full lesson video se lip-sync ke saath final video bana sakte hain.";
+  ttsAudio.pause();ttsAudio.currentTime=0;
  }catch(e){
   const detail=typeof e==="number"?"WASM/ONNX error code "+e:(e?.message||String(e));
   console.error("[Zeeroz Urdu TTS]",{phase:ttsPhase,error:e,stack:e?.stack});
