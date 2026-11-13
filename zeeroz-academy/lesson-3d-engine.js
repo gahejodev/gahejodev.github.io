@@ -1,7 +1,7 @@
 // Zeeroz Academy procedural Biology 3D scene engine (Three.js, browser-side).
 export async function createLesson3D(container){
  const THREE=await import("https://esm.sh/three@0.170.0");
- const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,powerPreference:"low-power"});
+ const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,preserveDrawingBuffer:true,powerPreference:"low-power"});
  renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,1.5));renderer.setSize(container.clientWidth||640,container.clientHeight||360);
  renderer.outputColorSpace=THREE.SRGBColorSpace;container.replaceChildren(renderer.domElement);
  renderer.domElement.style.cssText="width:100%;height:100%;display:block;touch-action:none";
