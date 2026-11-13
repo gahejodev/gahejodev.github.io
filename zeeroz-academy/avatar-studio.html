@@ -13,7 +13,7 @@ const status=document.getElementById("status"),voice=document.getElementById("vo
 let engine=null,objectUrl=null,ready=false;
 try{
  const {AVATARS,TalkingAvatar}=await import("https://esm.sh/@interviewflowai/talking-avatar?bundle");
- const create=()=>{if(engine){engine.dispose();engine=null}ready=false;speak.disabled=true;status.textContent="Loading 3D teacher model…";engine=new TalkingAvatar({container:document.getElementById("avatar"),avatarUrl:style.value==="male"?AVATARS.male:undefined,onError:e=>{status.textContent="Avatar error: "+(e?.message||e)}});ready=true;status.textContent="3D teacher ready. Upload a narration audio file to test lip-sync.";speak.disabled=!voice.files?.[0]};
+ const create=async()=>{if(engine){engine.dispose();engine=null}ready=false;speak.disabled=true;status.textContent="Loading 3D teacher model…";try{engine=new TalkingAvatar({container:document.getElementById("avatar"),avatarUrl:style.value==="male"?AVATARS.male:undefined,onError:e=>{status.textContent="Avatar error: "+(e?.message||e)}});await engine.ready;ready=true;status.textContent="3D teacher ready. Upload a narration audio file to test lip-sync.";speak.disabled=!voice.files?.[0]}catch(e){status.textContent="3D teacher failed to load: "+(e?.message||e);try{engine?.dispose()}catch(_){}engine=null}};
  style.addEventListener("change",create);create();
 }catch(e){status.textContent="Could not load the free 3D engine. Please refresh on a stable internet connection. "+e.message}
 voice.addEventListener("change",()=>{speak.disabled=!ready||!voice.files?.[0];if(voice.files?.[0])status.textContent="Audio selected: "+voice.files[0].name});
