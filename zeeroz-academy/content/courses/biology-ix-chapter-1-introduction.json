@@ -71,7 +71,29 @@
             "D": "Stars and planets"
           },
           "correctOption": "B",
-          "explanation": "Biology investigates living organisms and life processes."
+          "explanation": "Biology investigates living organisms and life processes.",
+          "translations": {
+            "ur": {
+              "question": "حیاتیات کی بہترین تعریف کیا ہے؟",
+              "options": {
+                "A": "چٹانوں اور معدنیات کا مطالعہ",
+                "B": "زندگی اور جانداروں کا سائنسی مطالعہ",
+                "C": "صرف موسم اور آب و ہوا کا مطالعہ",
+                "D": "ستاروں اور سیاروں کا مطالعہ"
+              },
+              "explanation": "حیاتیات جانداروں اور زندگی کے عمل کا سائنسی مطالعہ کرتی ہے۔"
+            },
+            "sd": {
+              "question": "حياتيات جي بهترين وصف ڪهڙي آهي؟",
+              "options": {
+                "A": "پٿرن ۽ معدنيات جو مطالعو",
+                "B": "زندگي ۽ جاندارن جو سائنسي مطالعو",
+                "C": "رڳو موسم ۽ آبهوا جو مطالعو",
+                "D": "ستارن ۽ سيارن جو مطالعو"
+              },
+              "explanation": "حياتيات جاندارن ۽ زندگيءَ جي عملن جو سائنسي مطالعو ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Which Greek root is associated with the meaning 'life' in the word biology?",
@@ -82,7 +104,29 @@
             "D": "Hydro"
           },
           "correctOption": "C",
-          "explanation": "Bios means life; logos means study or knowledge."
+          "explanation": "Bios means life; logos means study or knowledge.",
+          "translations": {
+            "ur": {
+              "question": "لفظ Biology میں کون سا یونانی لفظ 'زندگی' کے معنی دیتا ہے؟",
+              "options": {
+                "A": "لوگوس",
+                "B": "جیو",
+                "C": "بایوس",
+                "D": "ہائیڈرو"
+              },
+              "explanation": "بایوس کے معنی زندگی اور لوگوس کے معنی مطالعہ یا علم ہیں۔"
+            },
+            "sd": {
+              "question": "Biology لفظ ۾ ڪهڙو يوناني لفظ 'زندگي' جي معنيٰ ڏئي ٿو؟",
+              "options": {
+                "A": "لوگوس",
+                "B": "جيو",
+                "C": "بايوس",
+                "D": "هائيڊرو"
+              },
+              "explanation": "بايوس جي معنيٰ زندگي ۽ لوگوس جي معنيٰ مطالعو يا علم آهي."
+            }
+          }
         },
         {
           "question": "The branch of biology that studies plants is:",
@@ -93,7 +137,29 @@
             "D": "Anatomy"
           },
           "correctOption": "B",
-          "explanation": "Botany is the scientific study of plants."
+          "explanation": "Botany is the scientific study of plants.",
+          "translations": {
+            "ur": {
+              "question": "حیاتیات کی وہ شاخ جو پودوں کا مطالعہ کرتی ہے، کیا کہلاتی ہے؟",
+              "options": {
+                "A": "حیوانیات",
+                "B": "نباتیات",
+                "C": "ماحولیات",
+                "D": "تشریح الاعضا"
+              },
+              "explanation": "نباتیات پودوں کا سائنسی مطالعہ ہے۔"
+            },
+            "sd": {
+              "question": "حياتيات جي اها شاخ جيڪا ٻوٽن جو مطالعو ڪري ٿي، ڇا سڏجي ٿي؟",
+              "options": {
+                "A": "حيوانيات",
+                "B": "نباتيات",
+                "C": "ماحوليات",
+                "D": "تشريح الاعضا"
+              },
+              "explanation": "نباتيات ٻوٽن جو سائنسي مطالعو آهي."
+            }
+          }
         },
         {
           "question": "A scientist studying the behaviour and structure of animals is mainly working in:",
@@ -104,7 +170,29 @@
             "D": "Palaeontology"
           },
           "correctOption": "A",
-          "explanation": "Zoology focuses on animals, including their structure and behaviour."
+          "explanation": "Zoology focuses on animals, including their structure and behaviour.",
+          "translations": {
+            "ur": {
+              "question": "جانوروں کے رویے اور ساخت کا مطالعہ کرنے والا سائنس دان بنیادی طور پر کس شعبے سے تعلق رکھتا ہے؟",
+              "options": {
+                "A": "حیوانیات",
+                "B": "نباتیات",
+                "C": "حیاتی کیمیا",
+                "D": "قدیم حیاتیات"
+              },
+              "explanation": "حیوانیات میں جانوروں کی ساخت اور رویے کا مطالعہ کیا جاتا ہے۔"
+            },
+            "sd": {
+              "question": "جانورن جي رويي ۽ بناوت جو مطالعو ڪندڙ سائنسدان بنيادي طور ڪهڙي شعبي ۾ ڪم ڪري ٿو؟",
+              "options": {
+                "A": "حيوانيات",
+                "B": "نباتيات",
+                "C": "حياتياتي ڪيميا",
+                "D": "قديم حياتيات"
+              },
+              "explanation": "حيوانيات ۾ جانورن جي بناوت ۽ رويي جو مطالعو ڪيو وڃي ٿو."
+            }
+          }
         },
         {
           "question": "Which branch studies heredity and variation?",
@@ -115,7 +203,29 @@
             "D": "Embryology"
           },
           "correctOption": "C",
-          "explanation": "Genetics investigates inheritance and variation."
+          "explanation": "Genetics investigates inheritance and variation.",
+          "translations": {
+            "ur": {
+              "question": "وراثت اور تغیرات کا مطالعہ کس شاخ میں کیا جاتا ہے؟",
+              "options": {
+                "A": "درجہ بندی",
+                "B": "شکلِ اعضا کا مطالعہ",
+                "C": "جینیات",
+                "D": "جنینیات"
+              },
+              "explanation": "جینیات وراثت اور موروثی تغیرات کا مطالعہ کرتی ہے۔"
+            },
+            "sd": {
+              "question": "وراثت ۽ تبديلين جو مطالعو ڪهڙي شاخ ۾ ٿئي ٿو؟",
+              "options": {
+                "A": "درجابندي",
+                "B": "شڪل ۽ بناوت جو مطالعو",
+                "C": "جينيات",
+                "D": "جنينيات"
+              },
+              "explanation": "جينيات وراثت ۽ موروثي تبديلين جو مطالعو ڪري ٿي."
+            }
+          }
         },
         {
           "question": "The study of relationships between organisms and their environment is called:",
@@ -126,7 +236,29 @@
             "D": "Cytology"
           },
           "correctOption": "A",
-          "explanation": "Ecology examines interactions among organisms and with their environment."
+          "explanation": "Ecology examines interactions among organisms and with their environment.",
+          "translations": {
+            "ur": {
+              "question": "جانداروں اور ان کے ماحول کے باہمی تعلقات کا مطالعہ کیا کہلاتا ہے؟",
+              "options": {
+                "A": "ماحولیات",
+                "B": "تشریح الاعضا",
+                "C": "فعلیات",
+                "D": "خلویات"
+              },
+              "explanation": "ماحولیات جانداروں کے باہمی اور ماحول کے ساتھ تعلقات کا مطالعہ ہے۔"
+            },
+            "sd": {
+              "question": "جاندارن ۽ انهن جي ماحول جي لاڳاپن جو مطالعو ڇا سڏجي ٿو؟",
+              "options": {
+                "A": "ماحوليات",
+                "B": "تشريح الاعضا",
+                "C": "فعليات",
+                "D": "خلويات"
+              },
+              "explanation": "ماحوليات جاندارن جي پاڻ ۾ ۽ ماحول سان لاڳاپن جو مطالعو آهي."
+            }
+          }
         },
         {
           "question": "Which branch is most directly concerned with naming and classifying organisms?",
@@ -137,7 +269,29 @@
             "D": "Biophysics"
           },
           "correctOption": "B",
-          "explanation": "Taxonomy deals with identification, naming and classification."
+          "explanation": "Taxonomy deals with identification, naming and classification.",
+          "translations": {
+            "ur": {
+              "question": "جانداروں کے نام رکھنے اور درجہ بندی سے سب سے زیادہ متعلقہ شاخ کون سی ہے؟",
+              "options": {
+                "A": "فعلیات",
+                "B": "ٹیکسانومی (علمِ درجہ بندی)",
+                "C": "جنینیات",
+                "D": "حیاتی طبیعیات"
+              },
+              "explanation": "ٹیکسانومی جانداروں کی شناخت، نام گذاری اور درجہ بندی کرتی ہے۔"
+            },
+            "sd": {
+              "question": "جاندارن جا نالا رکڻ ۽ درجابندي ڪرڻ سان سڀ کان وڌيڪ لاڳاپيل شاخ ڪهڙي آهي؟",
+              "options": {
+                "A": "فعليات",
+                "B": "ٽيڪسانومي (علمِ درجابندي)",
+                "C": "جنينيات",
+                "D": "حياتياتي طبعيات"
+              },
+              "explanation": "ٽيڪسانومي جاندارن جي سڃاڻپ، ناليڪاري ۽ درجابندي ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Biochemistry combines biology with:",
@@ -148,7 +302,29 @@
             "D": "Astronomy"
           },
           "correctOption": "C",
-          "explanation": "Biochemistry studies chemical substances and reactions in living organisms."
+          "explanation": "Biochemistry studies chemical substances and reactions in living organisms.",
+          "translations": {
+            "ur": {
+              "question": "حیاتی کیمیا، حیاتیات کو کس علم کے ساتھ ملاتی ہے؟",
+              "options": {
+                "A": "جغرافیہ",
+                "B": "طبیعیات",
+                "C": "کیمیا",
+                "D": "فلکیات"
+              },
+              "explanation": "حیاتی کیمیا جانداروں میں کیمیائی مادوں اور تعاملات کا مطالعہ کرتی ہے۔"
+            },
+            "sd": {
+              "question": "حياتياتي ڪيميا، حياتيات کي ڪهڙي علم سان ملائي ٿي؟",
+              "options": {
+                "A": "جاگرافي",
+                "B": "طبعيات",
+                "C": "ڪيميا",
+                "D": "فلڪيات"
+              },
+              "explanation": "حياتياتي ڪيميا جاندارن ۾ ڪيميائي مادن ۽ عملن جو مطالعو ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Using physical principles to understand blood flow is an example of:",
@@ -159,7 +335,29 @@
             "D": "Palaeontology"
           },
           "correctOption": "A",
-          "explanation": "Biophysics applies physics to biological systems, including circulation."
+          "explanation": "Biophysics applies physics to biological systems, including circulation.",
+          "translations": {
+            "ur": {
+              "question": "خون کے بہاؤ کو سمجھنے کے لیے طبیعی اصول استعمال کرنا کس کی مثال ہے؟",
+              "options": {
+                "A": "حیاتی طبیعیات",
+                "B": "نباتیات",
+                "C": "ٹیکسانومی",
+                "D": "قدیم حیاتیات"
+              },
+              "explanation": "حیاتی طبیعیات، طبیعیات کے اصولوں کو حیاتیاتی نظاموں مثلاً دورانِ خون پر لاگو کرتی ہے۔"
+            },
+            "sd": {
+              "question": "رت جي وهڪري کي سمجهڻ لاءِ طبعياتي اصول استعمال ڪرڻ ڪهڙي ڳالهه جو مثال آهي؟",
+              "options": {
+                "A": "حياتياتي طبعيات",
+                "B": "نباتيات",
+                "C": "ٽيڪسانومي",
+                "D": "قديم حياتيات"
+              },
+              "explanation": "حياتياتي طبعيات، طبعيات جا اصول حياتياتي نظامن، جهڙوڪ رت جي گردش، تي لاڳو ڪري ٿي."
+            }
+          }
         },
         {
           "question": "A researcher uses statistical methods to compare the growth of two plant groups. Which combined field is especially relevant?",
@@ -170,7 +368,29 @@
             "D": "Morphology"
           },
           "correctOption": "A",
-          "explanation": "Biometry or biostatistics applies mathematical and statistical methods to biological data."
+          "explanation": "Biometry or biostatistics applies mathematical and statistical methods to biological data.",
+          "translations": {
+            "ur": {
+              "question": "دو گروہوں کے پودوں کی افزائش کا شماریاتی موازنہ کرنے کے لیے کون سا مشترکہ شعبہ موزوں ہے؟",
+              "options": {
+                "A": "بایومیٹری (حیاتی پیمائش)",
+                "B": "جنینیات",
+                "C": "حیوانیات",
+                "D": "شکلِ اعضا کا مطالعہ"
+              },
+              "explanation": "بایومیٹری یا حیاتی شماریات، حیاتیاتی اعداد و شمار کے تجزیے میں ریاضی اور شماریات استعمال کرتی ہے۔"
+            },
+            "sd": {
+              "question": "ٻن گروهن جي ٻوٽن جي واڌ جو شمارياتي مقابلو ڪرڻ لاءِ ڪهڙو گڏيل شعبو لاڳاپيل آهي؟",
+              "options": {
+                "A": "بايوميٽري (حياتي ماپ)",
+                "B": "جنينيات",
+                "C": "حيوانيات",
+                "D": "شڪل ۽ بناوت جو مطالعو"
+              },
+              "explanation": "بايوميٽري يا حياتياتي شماريات، حياتياتي انگن اکرن جي تجزيي لاءِ رياضي ۽ شماريات استعمال ڪري ٿي."
+            }
+          }
         },
         {
           "question": "The use of computer methods to analyse DNA sequence information is associated with:",
@@ -181,7 +401,29 @@
             "D": "Botany only"
           },
           "correctOption": "B",
-          "explanation": "Bioinformatics uses computing and data analysis to study biological information."
+          "explanation": "Bioinformatics uses computing and data analysis to study biological information.",
+          "translations": {
+            "ur": {
+              "question": "DNA کی ترتیب کے تجزیے کے لیے کمپیوٹر استعمال کرنا کس شعبے سے متعلق ہے؟",
+              "options": {
+                "A": "حیاتی جغرافیہ",
+                "B": "بایوانفارمیٹکس",
+                "C": "تشریح الاعضا",
+                "D": "صرف نباتیات"
+              },
+              "explanation": "بایوانفارمیٹکس حیاتیاتی معلومات کے مطالعے کے لیے کمپیوٹنگ اور ڈیٹا تجزیہ استعمال کرتی ہے۔"
+            },
+            "sd": {
+              "question": "DNA جي ترتيبن جو تجزيو ڪرڻ لاءِ ڪمپيوٽر استعمال ڪرڻ ڪهڙي شعبي سان لاڳاپيل آهي؟",
+              "options": {
+                "A": "حياتي جاگرافي",
+                "B": "بايو انفارميٽڪس",
+                "C": "تشريح الاعضا",
+                "D": "رڳو نباتيات"
+              },
+              "explanation": "بايو انفارميٽڪس حياتياتي معلومات جي مطالعي لاءِ ڪمپيوٽر ۽ ڊيٽا جو تجزيو استعمال ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Why do scientists combine biology with other sciences?",
@@ -192,7 +434,29 @@
             "D": "To replace observation with guesses"
           },
           "correctOption": "C",
-          "explanation": "Interdisciplinary approaches help investigate complex biological problems more completely."
+          "explanation": "Interdisciplinary approaches help investigate complex biological problems more completely.",
+          "translations": {
+            "ur": {
+              "question": "سائنس دان حیاتیات کو دوسرے علوم کے ساتھ کیوں ملاتے ہیں؟",
+              "options": {
+                "A": "کیونکہ حیاتیاتی سوالات ہمیشہ آسان ہوتے ہیں",
+                "B": "شواہد جمع کرنے سے بچنے کے لیے",
+                "C": "کیونکہ حقیقی مسائل کے حل کے لیے کئی شعبوں کا علم درکار ہوتا ہے",
+                "D": "مشاہدے کی جگہ اندازے استعمال کرنے کے لیے"
+              },
+              "explanation": "کئی علوم کا مشترکہ طریقہ پیچیدہ حیاتیاتی مسائل کو بہتر طور پر سمجھنے میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "سائنسدان حياتيات کي ٻين علمن سان ڇو ملائين ٿا؟",
+              "options": {
+                "A": "ڇاڪاڻ ته حياتياتي سوال هميشه سولا هوندا آهن",
+                "B": "ثبوت گڏ ڪرڻ کان بچڻ لاءِ",
+                "C": "ڇاڪاڻ ته حقيقي مسئلن لاءِ ڪيترن علمن جي ڄاڻ گهربل هوندي آهي",
+                "D": "مشاهدي بدران اندازا استعمال ڪرڻ لاءِ"
+              },
+              "explanation": "مختلف علمن جو گڏيل طريقو پيچيده حياتياتي مسئلن کي بهتر سمجهڻ ۾ مدد ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Which sequence best represents a basic scientific investigation?",
@@ -203,7 +467,29 @@
             "D": "Theory, conclusion, observation, no testing"
           },
           "correctOption": "B",
-          "explanation": "A biological investigation begins with a problem and uses observations, a testable hypothesis, predictions, experiments and evidence-based conclusions."
+          "explanation": "A biological investigation begins with a problem and uses observations, a testable hypothesis, predictions, experiments and evidence-based conclusions.",
+          "translations": {
+            "ur": {
+              "question": "بنیادی سائنسی تحقیق کے مراحل کی درست ترتیب کون سی ہے؟",
+              "options": {
+                "A": "نتیجہ، اندازہ، مشاہدہ، مسئلہ",
+                "B": "مسئلہ، مشاہدہ، مفروضہ، پیش گوئی، تجربہ، نتائج اور نتیجہ اخذ کرنا",
+                "C": "تجربہ، رائے، قانون، اندازہ",
+                "D": "نظریہ، نتیجہ، مشاہدہ، بغیر آزمائش"
+              },
+              "explanation": "تحقیق مسئلے سے شروع ہوتی ہے اور قابلِ آزمائش مفروضے، پیش گوئی، تجربے اور شواہد پر مبنی نتیجے تک پہنچتی ہے۔"
+            },
+            "sd": {
+              "question": "بنيادي سائنسي جاچ جي مرحلن جي صحيح ترتيب ڪهڙي آهي؟",
+              "options": {
+                "A": "نتيجو، اندازو، مشاهدو، مسئلو",
+                "B": "مسئلو، مشاهدو، مفروضو، اڳڪٿي، تجربو، نتيجا ۽ نتيجو ڪڍڻ",
+                "C": "تجربو، راءِ، قانون، اندازو",
+                "D": "نظريو، نتيجو، مشاهدو، جاچ کان سواءِ"
+              },
+              "explanation": "تحقيق مسئلي سان شروع ٿئي ٿي ۽ قابلِ آزمائش مفروضي، اڳڪٿي، تجربي ۽ ثبوتن تي ٻڌل نتيجي تائين پهچي ٿي."
+            }
+          }
         },
         {
           "question": "A testable tentative explanation for an observation is called a:",
@@ -214,7 +500,29 @@
             "D": "Control variable"
           },
           "correctOption": "B",
-          "explanation": "A hypothesis is a proposed explanation that can be tested."
+          "explanation": "A hypothesis is a proposed explanation that can be tested.",
+          "translations": {
+            "ur": {
+              "question": "مشاہدے کی قابلِ آزمائش عارضی وضاحت کو کیا کہتے ہیں؟",
+              "options": {
+                "A": "سائنسی قانون",
+                "B": "مفروضہ",
+                "C": "نتیجہ",
+                "D": "مستقل متغیر"
+              },
+              "explanation": "مفروضہ ایک مجوزہ وضاحت ہے جسے تجربے کے ذریعے جانچا جا سکتا ہے۔"
+            },
+            "sd": {
+              "question": "مشاهدي جي قابلِ آزمائش عارضي وضاحت کي ڇا چئبو آهي؟",
+              "options": {
+                "A": "سائنسي قانون",
+                "B": "مفروضو",
+                "C": "نتيجو",
+                "D": "ڪنٽرول متغير"
+              },
+              "explanation": "مفروضو هڪ تجويز ڪيل وضاحت آهي، جنهن کي تجربي سان پرکي سگهجي ٿو."
+            }
+          }
         },
         {
           "question": "In an experiment testing the effect of light on plant growth, light intensity is the:",
@@ -225,7 +533,29 @@
             "D": "Constant result"
           },
           "correctOption": "B",
-          "explanation": "The independent variable is the factor deliberately changed by the investigator."
+          "explanation": "The independent variable is the factor deliberately changed by the investigator.",
+          "translations": {
+            "ur": {
+              "question": "پودوں کی افزائش پر روشنی کے اثرات کے تجربے میں روشنی کی شدت کیا ہوگی؟",
+              "options": {
+                "A": "تابع متغیر",
+                "B": "آزاد متغیر",
+                "C": "نتیجہ",
+                "D": "مستقل نتیجہ"
+              },
+              "explanation": "آزاد متغیر وہ عامل ہے جسے محقق جان بوجھ کر تبدیل کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ٻوٽن جي واڌ تي روشنيءَ جي اثر واري تجربي ۾ روشنيءَ جي شدت ڪهڙو متغير آهي؟",
+              "options": {
+                "A": "تابع متغير",
+                "B": "آزاد متغير",
+                "C": "نتيجو",
+                "D": "مستقل نتيجو"
+              },
+              "explanation": "آزاد متغير اهو عامل آهي، جنهن کي محقق ڄاڻي واڻي تبديل ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Which statement about scientific theories and laws is correct?",
@@ -236,7 +566,29 @@
             "D": "Theories are opinions without evidence"
           },
           "correctOption": "C",
-          "explanation": "Scientific theories and laws have different roles; one does not simply turn into the other."
+          "explanation": "Scientific theories and laws have different roles; one does not simply turn into the other.",
+          "translations": {
+            "ur": {
+              "question": "سائنسی نظریات اور قوانین کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ہر نظریہ آخرکار قانون بن جاتا ہے",
+                "B": "قانون ہمیشہ ایک غیر آزمودہ اندازہ ہوتا ہے",
+                "C": "نظریات مظاہر کی وضاحت کرتے ہیں جبکہ قوانین مستقل تعلقات بیان کرتے ہیں",
+                "D": "نظریات بے ثبوت آرا ہوتے ہیں"
+              },
+              "explanation": "سائنسی نظریات اور قوانین کے کردار مختلف ہیں؛ نظریہ خود بخود قانون نہیں بنتا۔"
+            },
+            "sd": {
+              "question": "سائنسي نظرين ۽ قانونن بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "هر نظريو آخرڪار قانون بڻجي ٿو",
+                "B": "قانون هميشه اڻ آزمودل اندازو هوندو آهي",
+                "C": "نظريا واقعن جي وضاحت ڪن ٿا، جڏهن ته قانون مستقل لاڳاپا بيان ڪن ٿا",
+                "D": "نظريا بنا ثبوت راءِ هوندا آهن"
+              },
+              "explanation": "سائنسي نظرين ۽ قانونن جا ڪم مختلف آهن؛ نظريو پاڻمرادو قانون نٿو بڻجي."
+            }
+          }
         },
         {
           "question": "Which career is most directly concerned with animal health?",
@@ -247,7 +599,29 @@
             "D": "Botany"
           },
           "correctOption": "A",
-          "explanation": "Veterinary professionals diagnose, treat and help prevent diseases in animals."
+          "explanation": "Veterinary professionals diagnose, treat and help prevent diseases in animals.",
+          "translations": {
+            "ur": {
+              "question": "جانوروں کی صحت سے براہِ راست متعلقہ پیشہ کون سا ہے؟",
+              "options": {
+                "A": "ویٹرنری سائنس",
+                "B": "قدیم حیاتیات",
+                "C": "حیاتی جغرافیہ",
+                "D": "نباتیات"
+              },
+              "explanation": "ویٹرنری ماہرین جانوروں کی بیماریوں کی تشخیص، علاج اور روک تھام کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "جانورن جي صحت سان سڌو لاڳاپيل پيشو ڪهڙو آهي؟",
+              "options": {
+                "A": "ويٽرنري سائنس",
+                "B": "قديم حياتيات",
+                "C": "حياتي جاگرافي",
+                "D": "نباتيات"
+              },
+              "explanation": "ويٽرنري ماهر جانورن جي بيمارين جي تشخيص، علاج ۽ روڪٿام ڪن ٿا."
+            }
+          }
         },
         {
           "question": "Which field uses biological evidence in legal investigations?",
@@ -258,7 +632,29 @@
             "D": "Marine biology"
           },
           "correctOption": "A",
-          "explanation": "Forensic biology applies biological methods to evidence relevant to investigations."
+          "explanation": "Forensic biology applies biological methods to evidence relevant to investigations.",
+          "translations": {
+            "ur": {
+              "question": "قانونی تحقیقات میں حیاتیاتی شواہد کون سا شعبہ استعمال کرتا ہے؟",
+              "options": {
+                "A": "فارنزک حیاتیات",
+                "B": "جنگلات",
+                "C": "حیاتی پیمائش",
+                "D": "سمندری حیاتیات"
+              },
+              "explanation": "فارنزک حیاتیات تحقیقات سے متعلق شواہد کے تجزیے میں حیاتیاتی طریقے استعمال کرتی ہے۔"
+            },
+            "sd": {
+              "question": "قانوني جاچ ۾ حياتياتي ثبوت ڪهڙو شعبو استعمال ڪري ٿو؟",
+              "options": {
+                "A": "فارنزڪ حياتيات",
+                "B": "ٻيلا",
+                "C": "حياتي ماپ",
+                "D": "سامونڊي حياتيات"
+              },
+              "explanation": "فارنزڪ حياتيات جاچ سان لاڳاپيل ثبوتن جي تجزيي لاءِ حياتياتي طريقا استعمال ڪري ٿي."
+            }
+          }
         },
         {
           "question": "The Qur'anic verses cited in this lesson are used to encourage:",
@@ -269,7 +665,29 @@
             "D": "Treating every interpretation as a laboratory result"
           },
           "correctOption": "B",
-          "explanation": "The lesson distinguishes respectful religious reflection from evidence-based scientific investigation."
+          "explanation": "The lesson distinguishes respectful religious reflection from evidence-based scientific investigation.",
+          "translations": {
+            "ur": {
+              "question": "اس سبق میں قرآنی آیات کا حوالہ کس بات کی ترغیب دیتا ہے؟",
+              "options": {
+                "A": "تمام تجربات ترک کرنے کی",
+                "B": "زندگی اور پانی پر غور و فکر اور احترام کی",
+                "C": "حیاتیاتی شواہد نظر انداز کرنے کی",
+                "D": "ہر تشریح کو تجربہ گاہ کا نتیجہ سمجھنے کی"
+              },
+              "explanation": "سبق مذہبی غور و فکر اور شواہد پر مبنی سائنسی تحقیق کے فرق کو واضح کرتا ہے۔"
+            },
+            "sd": {
+              "question": "هن سبق ۾ قرآني آيتن جا حوالا ڪهڙي ڳالهه جي ترغيب ڏين ٿا؟",
+              "options": {
+                "A": "سڀ تجربا ڇڏڻ جي",
+                "B": "زندگي ۽ پاڻيءَ بابت احترام سان غور فڪر ڪرڻ جي",
+                "C": "حياتياتي ثبوتن کي نظرانداز ڪرڻ جي",
+                "D": "هر تشريح کي ليبارٽريءَ جو نتيجو سمجهڻ جي"
+              },
+              "explanation": "سبق مذهبي غور فڪر ۽ ثبوتن تي ٻڌل سائنسي تحقيق جي فرق کي واضح ڪري ٿو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -281,7 +699,25 @@
           "rubric": [
             "Correct definition (1 mark)",
             "Four relevant uses with brief explanation (1 mark each)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "حیاتیات کی تعریف کریں اور روزمرہ زندگی میں حیاتیاتی علم کے استعمال کے کوئی چار طریقے بیان کریں۔",
+              "modelAnswer": "حیاتیات زندگی اور جانداروں کا سائنسی مطالعہ ہے۔ یہ انسانی صحت اور غذائیت سمجھنے، بیماریوں کی روک تھام اور علاج، فصلوں اور مویشیوں کی بہتری، حیاتیاتی تنوع کے تحفظ اور ماحولیاتی مسائل کے انتظام میں مدد دیتی ہے۔ ان میں سے کوئی چار درست وضاحتیں قابلِ قبول ہیں۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "چار متعلقہ استعمالات، ہر ایک کی مختصر وضاحت (ہر ایک 1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "حياتيات جي وصف ڏيو ۽ روزاني زندگيءَ ۾ حياتياتي ڄاڻ جا ڪي چار استعمال بيان ڪريو.",
+              "modelAnswer": "حياتيات زندگي ۽ جاندارن جو سائنسي مطالعو آهي. اها انساني صحت ۽ خوراڪ سمجهڻ، بيمارين جي روڪٿام ۽ علاج، فصلن ۽ چوپائي مال جي بهتري، حياتياتي تنوع جي حفاظت ۽ ماحولياتي مسئلن جي انتظام ۾ مدد ڪري ٿي. انهن مان ڪي به چار صحيح وضاحتون قبول آهن.",
+              "rubric": [
+                "صحيح وصف (1 نمبر)",
+                "چار لاڳاپيل استعمال، هر هڪ جي مختصر وضاحت (هر هڪ 1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -293,7 +729,29 @@
             "Theory explained (2 marks)",
             "Law explained (1 mark)",
             "Clarifies that theory does not become law (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "مفروضے، سائنسی نظریے اور سائنسی قانون میں فرق واضح کریں۔",
+              "modelAnswer": "مفروضہ ایک عارضی اور قابلِ آزمائش وضاحت ہے۔ سائنسی نظریہ ایک وسیع وضاحت ہے جسے مضبوط شواہد کی تائید حاصل ہوتی ہے اور جو متعدد مشاہدات کی وضاحت کر سکتی ہے۔ سائنسی قانون فطرت میں کسی مستقل نمونے یا تعلق کو بیان کرتا ہے۔ نظریہ محض ترقی کر کے قانون نہیں بن جاتا۔",
+              "rubric": [
+                "مفروضے کی وضاحت (1 نمبر)",
+                "نظریے کی وضاحت (2 نمبر)",
+                "قانون کی وضاحت (1 نمبر)",
+                "واضح کرے کہ نظریہ قانون نہیں بنتا (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "مفروضي، سائنسي نظريي ۽ سائنسي قانون ۾ فرق واضح ڪريو.",
+              "modelAnswer": "مفروضو هڪ عارضي ۽ قابلِ آزمائش وضاحت آهي. سائنسي نظريو هڪ وسيع وضاحت آهي، جنهن کي مضبوط ثبوتن جي حمايت حاصل هوندي آهي ۽ جيڪا ڪيترن مشاهدن جي وضاحت ڪري سگهي ٿي. سائنسي قانون فطرت ۾ ڪنهن مستقل نموني يا لاڳاپي کي بيان ڪري ٿو. نظريو رڳو ترقي ڪري قانون نٿو بڻجي.",
+              "rubric": [
+                "مفروضي جي وضاحت (1 نمبر)",
+                "نظريي جي وضاحت (2 نمبر)",
+                "قانون جي وضاحت (1 نمبر)",
+                "واضح ڪري ته نظريو قانون نٿو بڻجي (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -302,7 +760,23 @@
           "modelAnswer": "Examples: doctor—diagnoses and treats human disease; veterinarian—cares for animal health; microbiologist—studies microorganisms; agricultural scientist—improves crops and manages plant diseases; conservation scientist—protects habitats and biodiversity. Any four correct pairs.",
           "rubric": [
             "One mark for each correct career and responsibility pair"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "حیاتیاتی علوم کے چار پیشوں کے نام لکھیں اور ہر ایک کی ایک ذمہ داری بیان کریں۔",
+              "modelAnswer": "مثالیں: ڈاکٹر—انسانی بیماری کی تشخیص اور علاج؛ ویٹرنری ڈاکٹر—جانوروں کی صحت کی دیکھ بھال؛ خرد حیاتیات دان—خوردبینی جانداروں کا مطالعہ؛ زرعی سائنس دان—فصلوں کی بہتری اور پودوں کی بیماریوں کا انتظام؛ تحفظِ ماحول کا سائنس دان—مسکن اور حیاتیاتی تنوع کا تحفظ۔ کوئی بھی چار درست جوڑے قابلِ قبول ہیں۔",
+              "rubric": [
+                "ہر درست پیشے اور اس کی ذمہ داری کا ایک نمبر"
+              ]
+            },
+            "sd": {
+              "question": "حياتياتي علمن سان لاڳاپيل چئن پيشن جا نالا لکو ۽ هر هڪ جي هڪ ذميواري بيان ڪريو.",
+              "modelAnswer": "مثال: ڊاڪٽر—انساني بيمارين جي تشخيص ۽ علاج؛ ويٽرنري ڊاڪٽر—جانورن جي صحت جي سنڀال؛ خوردبيني حياتيات جو ماهر—خوردبيني جاندارن جو مطالعو؛ زرعي سائنسدان—فصلن جي بهتري ۽ ٻوٽن جي بيمارين جو انتظام؛ ماحولياتي تحفظ جو ماهر—رهائشن ۽ حياتياتي تنوع جي حفاظت. ڪو به چار صحيح جوڙا قبول آهن.",
+              "rubric": [
+                "هر صحيح پيشو ۽ ان جي ذميواري لاءِ هڪ نمبر"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -315,7 +789,31 @@
             "Independent and dependent variables (2 marks)",
             "Controlled variables and fair test (1 mark)",
             "Results, conclusion and reliability/limitations (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "حیاتیاتی طریقۂ تحقیق کے اہم مراحل بیان کریں۔ مثال کے ذریعے وضاحت کریں کہ ماہرِ حیاتیات یہ کیسے جانچ سکتا ہے کہ روشنی پودوں کے ننھے پودوں کی افزائش پر اثر انداز ہوتی ہے یا نہیں۔",
+              "modelAnswer": "ماہرِ حیاتیات مسئلہ شناخت کرتا ہے، مشاہدات کرتا ہے، قابلِ آزمائش مفروضہ پیش کرتا ہے، پیش گوئی بناتا ہے، کنٹرول شدہ تجربہ ترتیب دیتا ہے، نتائج ریکارڈ کرتا ہے اور نتیجہ اخذ کرتا ہے۔ مثال میں مفروضہ یہ ہو سکتا ہے کہ مناسب حد تک زیادہ روشنی افزائش بڑھاتی ہے۔ روشنی کی شدت تبدیل کی جائے اور ایک مقررہ مدت میں افزائش ناپی جائے۔ بیج کی قسم، مٹی، پانی، درجہ حرارت اور گملے کا سائز یکساں رکھے جائیں۔ کئی پودے استعمال کیے جائیں، پیمائش جدول یا گراف میں درج کی جائے اور شواہد سے مفروضے کی تائید یا تردید کی جائے۔ حدود اور دوبارہ تجربے کی ضرورت بھی بیان کی جائے۔",
+              "rubric": [
+                "حیاتیاتی طریقے کے مراحل درست ترتیب سے (4 نمبر)",
+                "قابلِ آزمائش مفروضہ اور پیش گوئی (1 نمبر)",
+                "آزاد اور تابع متغیرات (2 نمبر)",
+                "کنٹرول شدہ متغیرات اور منصفانہ تجربہ (1 نمبر)",
+                "نتائج، نتیجہ اخذ کرنا، اعتبار/حدود (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "حياتياتي طريقي جا اهم مرحلا بيان ڪريو. مثال سان سمجهايو ته حياتيات جو ماهر ڪيئن جاچي سگهي ٿو ته روشني ٻوٽن جي ننڍن ٻوٽن جي واڌ تي اثر ڪري ٿي يا نه.",
+              "modelAnswer": "حياتيات جو ماهر مسئلو سڃاڻي ٿو، مشاهدا ڪري ٿو، قابلِ آزمائش مفروضو پيش ڪري ٿو، اڳڪٿي ڪري ٿو، ڪنٽرول ٿيل تجربو ترتيب ڏئي ٿو، نتيجا لکي ٿو ۽ نتيجو ڪڍي ٿو. مثال طور مفروضو ٿي سگهي ٿو ته مناسب حد تائين وڌيڪ روشني واڌ وڌائي ٿي. روشنيءَ جي شدت تبديل ڪئي وڃي ۽ مقرر وقت ۾ واڌ ماپي وڃي. ٻج جو قسم، مٽي، پاڻي، گرمي پد ۽ ٿانوَ جو ماپ ساڳيو رکجن. ڪيترائي ٻوٽا استعمال ڪجن، ماپون جدول يا گراف ۾ لکجن ۽ ثبوتن مان فيصلو ڪجي ته مفروضو درست آهي يا نه. تجربن جون حدون ۽ ورجاءُ به بيان ڪجي.",
+              "rubric": [
+                "حياتياتي طريقي جا مرحلا صحيح ترتيب سان (4 نمبر)",
+                "قابلِ آزمائش مفروضو ۽ اڳڪٿي (1 نمبر)",
+                "آزاد ۽ تابع متغير (2 نمبر)",
+                "ڪنٽرول ٿيل متغير ۽ منصفاڻو تجربو (1 نمبر)",
+                "نتيجا، نتيجو ڪڍڻ، اعتبار/حدون (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -326,7 +824,27 @@
             "Four societal contributions explained (4 marks)",
             "Four accurate interdisciplinary connections/examples (4 marks)",
             "Clear organisation and relevant terminology (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "معاشرے میں حیاتیات کی اہمیت پر بحث کریں اور کم از کم چار مثالوں سے واضح کریں کہ اس کا دوسرے علوم سے کیا تعلق ہے۔",
+              "modelAnswer": "حیاتیات صحت، زراعت، غذائی تحفظ، بیماریوں کے کنٹرول، قدرتی ماحول کے تحفظ اور حیاتی ٹیکنالوجی میں مدد دیتی ہے۔ اس کا کیمیا سے تعلق حیاتی کیمیا، طبیعیات سے حیاتی طبیعیات، ریاضی سے بایومیٹری/حیاتی شماریات، کمپیوٹنگ سے بایوانفارمیٹکس اور جغرافیہ سے حیاتی جغرافیہ کے ذریعے ہے۔ مثالوں میں خون کا کیمیائی تجزیہ، خون کے بہاؤ کی طبیعیات، فصلوں کے تجربات کا شماریاتی تجزیہ اور DNA ترتیبوں کا کمپیوٹر سے تجزیہ شامل ہیں۔",
+              "rubric": [
+                "معاشرتی فوائد میں سے چار کی وضاحت (4 نمبر)",
+                "چار درست بین العلومی تعلقات/مثالیں (4 نمبر)",
+                "واضح ترتیب اور متعلقہ اصطلاحات (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "سماج ۾ حياتيات جي اهميت تي بحث ڪريو ۽ گهٽ ۾ گهٽ چئن مثالن سان ٻڌايو ته ان جو ٻين علمن سان ڪهڙو تعلق آهي.",
+              "modelAnswer": "حياتيات صحت، زراعت، خوراڪ جي تحفظ، بيمارين جي ڪنٽرول، قدرتي ماحول جي حفاظت ۽ حياتياتي ٽيڪنالاجيءَ ۾ مدد ڪري ٿي. ان جو ڪيميا سان تعلق حياتياتي ڪيميا، طبعيات سان حياتياتي طبعيات، رياضيءَ سان بايوميٽري/حياتي شماريات، ڪمپيوٽر سان بايو انفارميٽڪس ۽ جاگرافيءَ سان حياتي جاگرافي وسيلي آهي. مثالن ۾ رت جو ڪيميائي تجزيو، رت جي وهڪري جي طبعيات، فصلن جي تجربن جو شمارياتي تجزيو ۽ DNA ترتيبن جو ڪمپيوٽر سان تجزيو شامل آهن.",
+              "rubric": [
+                "سماجي فائدن مان چئن جي وضاحت (4 نمبر)",
+                "چار صحيح بين العلومي لاڳاپا/مثال (4 نمبر)",
+                "واضح ترتيب ۽ لاڳاپيل اصطلاح (2 نمبر)"
+              ]
+            }
+          }
         }
       ]
     }
