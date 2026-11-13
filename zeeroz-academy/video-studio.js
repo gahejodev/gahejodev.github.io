@@ -80,15 +80,18 @@ async function initStudioAvatar(){
    studioAvatar=null;studioAvatarReady=false;play.disabled=true;
    avatarStatus("Loading selected 3D teacher…");
    studioAvatar=new TalkingAvatar({container:host,avatarUrl:style.value==="male"?AVATARS.male:undefined,onError:e=>avatarStatus("3D avatar error: "+(e?.message||e))});
+   try{await studioAvatar.ready}catch(e){studioAvatarReady=false;avatarStatus("3D teacher failed to load: "+e.message);return}
    studioAvatarReady=true;
    const file=$("voiceTrack").files?.[0];
    play.disabled=!file;
+   if($("export3DVideo"))$("export3DVideo").disabled=!file;
    avatarStatus(file?"3D teacher ready. Play the selected lesson narration.":"3D teacher ready. Upload narration audio above.");
   };
   style.addEventListener("change",create);create();
   $("voiceTrack").addEventListener("change",()=>{
    const file=$("voiceTrack").files?.[0];
    play.disabled=!studioAvatarReady||!file;
+   if($("export3DVideo"))$("export3DVideo").disabled=!studioAvatarReady||!file;
    avatarStatus(file?"Narration selected: "+file.name+". Ready for 3D lip-sync.":"Upload a narration audio file.");
   });
   play.addEventListener("click",async()=>{
@@ -106,4 +109,89 @@ async function initStudioAvatar(){
  }catch(e){avatarStatus("Could not load the 3D avatar engine. Check internet and refresh. "+e.message)}
 }
 initStudioAvatar();
+
+/* Record the real 3D avatar canvas together with the lesson narration. */
+async function exportReal3DTeacher(){
+ const button=$("export3DVideo"),status3D=$("export3DStatus"),progress=$("export3DProgress");
+ const file=$("voiceTrack").files?.[0];
+ if(!studioAvatar||!studioAvatarReady){status3D.textContent="3D teacher is not ready yet.";return}
+ if(!file){status3D.textContent="Upload the complete narration audio first.";return}
+ const avatarCanvas=$("studioAvatar").querySelector("canvas");
+ if(!avatarCanvas){status3D.textContent="3D render canvas was not found. Refresh and try again.";return}
+ if(!window.MediaRecorder||!HTMLCanvasElement.prototype.captureStream){status3D.textContent="This browser does not support video recording. Use the latest Chrome.";return}
+ button.disabled=true;progress.style.width="0%";
+ let audioContext=null,source=null,recorder=null,raf=0,recordStream=null;
+ try{
+  status3D.textContent="Preparing narration and 3D recording…";
+  audioContext=new(window.AudioContext||window.webkitAudioContext)();
+  await audioContext.resume();
+  const bytes=await file.arrayBuffer();
+  const audioBuffer=await audioContext.decodeAudioData(bytes.slice(0));
+  const sourceStream=audioContext.createMediaStreamDestination();
+  source=audioContext.createBufferSource();source.buffer=audioBuffer;source.connect(sourceStream);
+  const out=document.createElement("canvas");out.width=1280;out.height=720;
+  const ctx=out.getContext("2d");
+  const videoStream=out.captureStream(25);recordStream=videoStream;
+  sourceStream.stream.getAudioTracks().forEach(t=>videoStream.addTrack(t));
+  const mime=["video/webm;codecs=vp9,opus","video/webm;codecs=vp8,opus","video/webm"].find(x=>MediaRecorder.isTypeSupported(x));
+  if(!mime)throw new Error("WebM recording format is unavailable in this browser.");
+  const chunks=[];
+  recorder=new MediaRecorder(videoStream,{mimeType:mime,videoBitsPerSecond:3500000,audioBitsPerSecond:128000});
+  recorder.ondataavailable=e=>{if(e.data?.size)chunks.push(e.data)};
+  const finished=new Promise((resolve,reject)=>{recorder.onstop=resolve;recorder.onerror=()=>reject(new Error("Recording failed."))});
+  const title=$("videoTitle").value||window.currentLesson?.lesson?.title||"Zeeroz Academy Lesson";
+  const sceneAt=(seconds)=>{
+   let remaining=seconds,idx=0;
+   for(let i=0;i<scenes.length;i++){const d=Math.max(1.5,audioBuffer.duration*Math.max(1,scenes[i].narration.length)/scenes.reduce((n,s)=>n+Math.max(1,s.narration.length),0));if(remaining<d){idx=i;break}remaining-=d;idx=i}
+   return scenes[idx]||{title,narration:"Welcome to Zeeroz Academy"};
+  };
+  const draw=()=>{
+   ctx.fillStyle="#101b3d";ctx.fillRect(0,0,1280,720);
+   const glow=ctx.createRadialGradient(300,270,20,300,300,520);glow.addColorStop(0,"#344d88");glow.addColorStop(1,"#101b3d");ctx.fillStyle=glow;ctx.fillRect(0,0,610,720);
+   ctx.save();ctx.beginPath();ctx.rect(25,25,560,670);ctx.clip();
+   try{ctx.drawImage(avatarCanvas,30,35,550,640)}catch(e){}
+   ctx.restore();
+   ctx.fillStyle="#ffffff";ctx.font="bold 23px system-ui";ctx.fillText("ZEEROZ ACADEMY",650,78);
+   ctx.fillStyle="#f2ce60";ctx.font="bold 16px system-ui";ctx.fillText("AI TEACHER · 3D LECTURE",650,112);
+   const sc=sceneAt(audioContext.currentTime-startedAt);
+   ctx.fillStyle="#ffffff";ctx.font="bold 38px system-ui";
+   const wrap=(txt,x,y,max,lineH,maxLines)=>{const words=String(txt||"").split(/\\s+/);let line="",count=0;for(const w of words){const test=line?line+" "+w:w;if(ctx.measureText(test).width>max&&line){ctx.fillText(line,x,y+count*lineH);line=w;if(++count>=maxLines)return}else line=test}if(line&&count<maxLines)ctx.fillText(line,x,y+count*lineH)};
+   wrap(sc.title,650,190,570,48,3);
+   ctx.fillStyle="#dce6ff";ctx.font="24px system-ui";wrap(sc.narration,650,360,560,36,7);
+   ctx.fillStyle="#d6e1f5";ctx.fillRect(650,650,560,7);ctx.fillStyle="#20b982";ctx.fillRect(650,650,560*Math.min(1,(audioContext.currentTime-startedAt)/audioBuffer.duration),7);
+   ctx.fillStyle="#d6e1f5";ctx.font="16px system-ui";ctx.fillText("Scene "+(scenes.indexOf(sc)+1)+" / "+Math.max(1,scenes.length),650,685);
+   progress.style.width=Math.min(100,(audioContext.currentTime-startedAt)/audioBuffer.duration*100)+"%";
+   raf=requestAnimationFrame(draw);
+  };
+  recorder.start(500);
+  status3D.textContent="Starting 3D teacher lip-sync and recording…";
+  await studioAvatar.attachStream(sourceStream.stream);
+  const startedAt=audioContext.currentTime;
+  source.onended=()=>{if(recorder&&recorder.state!=="inactive")recorder.stop()};
+  source.start();
+  draw();
+  await new Promise((resolve,reject)=>{source.addEventListener("ended",resolve,{once:true});setTimeout(()=>reject(new Error("Recording timed out before the narration finished.")),Math.max(30000,audioBuffer.duration*1000+15000))});
+  if(recorder.state!=="inactive")recorder.stop();
+  await finished;
+  cancelAnimationFrame(raf);raf=0;
+  const blob=new Blob(chunks,{type:mime});
+  if(!blob.size)throw new Error("The recorded video is empty.");
+  const url=URL.createObjectURL(blob),a=document.createElement("a");
+  a.href=url;a.download=(title.replace(/[^a-z0-9-_]+/gi,"-").replace(/^-|-$/g,"")||"zeeroz-3d-lesson")+"-3d.webm";a.click();
+  setTimeout(()=>URL.revokeObjectURL(url),60000);
+  progress.style.width="100%";
+  status3D.textContent="Real 3D teacher video exported successfully ("+(blob.size/1048576).toFixed(1)+" MB).";
+ }catch(e){
+  status3D.textContent="3D export could not finish: "+e.message;
+  if(recorder&&recorder.state!=="inactive")try{recorder.stop()}catch(_){}
+ }finally{
+  if(raf)cancelAnimationFrame(raf);
+  try{source?.stop()}catch(e){}
+  recordStream?.getTracks().forEach(t=>t.stop());
+  if(audioContext)await audioContext.close().catch(()=>{});
+  button.disabled=!studioAvatarReady||!$("voiceTrack").files?.[0];
+ }
+}
+$("export3DVideo")?.addEventListener("click",exportReal3DTeacher);
+$("voiceTrack")?.addEventListener("change",()=>{const b=$("export3DVideo");if(b)b.disabled=!studioAvatarReady||!$("voiceTrack").files?.[0]});
 window.addEventListener("beforeunload",()=>{if(studioAudioUrl)URL.revokeObjectURL(studioAudioUrl);try{studioAvatar?.dispose()}catch(e){}});
