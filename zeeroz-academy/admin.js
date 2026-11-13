@@ -156,6 +156,9 @@ REQUIREMENTS:
 - Create exactly ${chapters} chapter(s).
 - Each chapter must contain exactly ${lessons} original text lesson(s) and exactly ${mcqs} MCQs.
 - Lessons must be age-appropriate, clear, accurate, detailed enough to teach the topic, and include examples and key terms.
+- For every lesson, provide complete teacher-style Urdu and Sindhi explanations in explanations.ur and explanations.sd. Do not use word-for-word translation; explain concepts naturally for Pakistani school students.
+- For every MCQ, provide localized question, all four options, and explanation in translations.ur and translations.sd.
+- For every CRQ/ERQ, provide localized question, modelAnswer, and rubric in translations.ur and translations.sd.
 - MCQs must have four plausible options A-D, one correctOption, and a short explanation.
 - Do not fabricate official references, textbook page numbers, source URLs, or quotations. If facts are uncertain, say so.
 - Use original wording. Do not reproduce copyrighted textbook passages.
@@ -169,14 +172,15 @@ REQUIREMENTS:
       "title": "string",
       "description": "string",
       "lessons": [
-        {"title": "string", "type": "text", "content": "string"}
+        {"title": "string", "type": "text", "content": "string", "explanations": {"ur": "complete Urdu explanation", "sd": "complete Sindhi explanation"}}
       ],
       "questions": [
         {
           "question": "string",
           "options": {"A": "string", "B": "string", "C": "string", "D": "string"},
           "correctOption": "A",
-          "explanation": "string"
+          "explanation": "string",
+          "translations": {"ur": {"question": "string", "options": {"A": "string", "B": "string", "C": "string", "D": "string"}, "explanation": "string"}, "sd": {"question": "string", "options": {"A": "string", "B": "string", "C": "string", "D": "string"}, "explanation": "string"}}
         }
       ]
     }
