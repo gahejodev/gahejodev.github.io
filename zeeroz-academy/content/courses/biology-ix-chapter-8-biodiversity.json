@@ -64,7 +64,29 @@
             "D": "Only individual size"
           },
           "correctOption": "B",
-          "explanation": "Biodiversity is considered at genetic, species and ecosystem levels."
+          "explanation": "Biodiversity is considered at genetic, species and ecosystem levels.",
+          "translations": {
+            "ur": {
+              "question": "حیاتیاتی تنوع کن سطحوں پر پایا جاتا ہے؟",
+              "options": {
+                "A": "صرف انواع",
+                "B": "جینیاتی، انواع اور ماحولیاتی نظام",
+                "C": "صرف ماحولیاتی نظام",
+                "D": "صرف انفرادی جسامت"
+              },
+              "explanation": "حیاتیاتی تنوع کو جینیاتی، انواع اور ماحولیاتی نظام کی سطحوں پر دیکھا جاتا ہے۔"
+            },
+            "sd": {
+              "question": "حياتياتي تنوع ڪهڙين سطحن تي هوندو آهي؟",
+              "options": {
+                "A": "رڳو نوعن ۾",
+                "B": "جينياتي، نوعن ۽ ماحولياتي نظام جي سطح تي",
+                "C": "رڳو ماحولياتي نظام ۾",
+                "D": "رڳو فرد جي جسامت ۾"
+              },
+              "explanation": "حياتياتي تنوع کي جينياتي، نوعن ۽ ماحولياتي نظام جي سطحن تي ڏٺو وڃي ٿو."
+            }
+          }
         },
         {
           "question": "Genetic diversity means:",
@@ -75,7 +97,29 @@
             "D": "Only the number of animal species"
           },
           "correctOption": "A",
-          "explanation": "Genetic diversity describes variation in genes and inherited traits."
+          "explanation": "Genetic diversity describes variation in genes and inherited traits.",
+          "translations": {
+            "ur": {
+              "question": "جینیاتی تنوع سے کیا مراد ہے؟",
+              "options": {
+                "A": "ایک نوع یا آبادی میں موروثی جینیاتی فرق",
+                "B": "صرف ماحولیاتی نظاموں کی تعداد",
+                "C": "سیاروں کی اقسام",
+                "D": "صرف جانوروں کی انواع کی تعداد"
+              },
+              "explanation": "جینیاتی تنوع جینز اور موروثی خصوصیات میں پائے جانے والے فرق کو بیان کرتا ہے۔"
+            },
+            "sd": {
+              "question": "جينياتي تنوع مان ڇا مراد آهي؟",
+              "options": {
+                "A": "هڪ نوع يا آباديءَ اندر موروثي جينياتي فرق",
+                "B": "رڳو ماحولياتي نظامن جو تعداد",
+                "C": "سيارن جا قسم",
+                "D": "رڳو جانورن جي نوعن جو تعداد"
+              },
+              "explanation": "جينياتي تنوع جينن ۽ موروثي خاصيتن ۾ موجود فرق بيان ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Which is an ecosystem service supported by biodiversity?",
@@ -86,7 +130,29 @@
             "D": "Road construction"
           },
           "correctOption": "A",
-          "explanation": "Many plants depend on animal pollinators, and pollination supports food production and ecosystem function."
+          "explanation": "Many plants depend on animal pollinators, and pollination supports food production and ecosystem function.",
+          "translations": {
+            "ur": {
+              "question": "انواع کا تنوع کس چیز کو ظاہر کرتا ہے؟",
+              "options": {
+                "A": "کسی علاقے میں انواع کی اقسام اور تعداد",
+                "B": "ایک ہی نوع کے افراد کی جسامت",
+                "C": "صرف جینیاتی کوڈ",
+                "D": "مٹی کی معدنیات"
+              },
+              "explanation": "انواع کا تنوع کسی علاقے میں موجود انواع کی اقسام اور ان کی کثرت سے متعلق ہے۔"
+            },
+            "sd": {
+              "question": "نوعن جو تنوع ڇا ظاهر ڪري ٿو؟",
+              "options": {
+                "A": "ڪنهن علائقي ۾ نوعن جا قسم ۽ تعداد",
+                "B": "هڪ ئي نوع جي فردن جي جسامت",
+                "C": "رڳو جينياتي ڪوڊ",
+                "D": "مٽيءَ جون معدنيات"
+              },
+              "explanation": "نوعن جو تنوع ڪنهن علائقي ۾ موجود نوعن جي قسمن ۽ انهن جي گهڻائيءَ سان لاڳاپيل آهي."
+            }
+          }
         },
         {
           "question": "Which is a major threat to biodiversity?",
@@ -97,7 +163,29 @@
             "D": "Protected areas"
           },
           "correctOption": "A",
-          "explanation": "Habitat loss and fragmentation are major drivers of biodiversity decline."
+          "explanation": "Habitat loss and fragmentation are major drivers of biodiversity decline.",
+          "translations": {
+            "ur": {
+              "question": "ماحولیاتی نظام کے تنوع کی مثال کون سی ہے؟",
+              "options": {
+                "A": "جنگلات، صحرا اور سمندر",
+                "B": "ایک نوع کے اندر مختلف جینز",
+                "C": "ایک جانور کے جسم کے اعضا",
+                "D": "ایک خلیے کے عضیات"
+              },
+              "explanation": "مختلف مسکن اور ماحولیاتی نظام، مثلاً جنگلات، صحرا اور سمندر، ماحولیاتی تنوع کی مثال ہیں۔"
+            },
+            "sd": {
+              "question": "ماحولياتي نظام جي تنوع جو مثال ڪهڙو آهي؟",
+              "options": {
+                "A": "ٻيلا، ريگستان ۽ سمنڊ",
+                "B": "هڪ نوع اندر مختلف جين",
+                "C": "هڪ جانور جي جسم جا عضوا",
+                "D": "هڪ خاني جا عضيا"
+              },
+              "explanation": "مختلف رهائشون ۽ ماحولياتي نظام، جهڙوڪ ٻيلا، ريگستان ۽ سمنڊ، ماحولياتي تنوع جا مثال آهن."
+            }
+          }
         },
         {
           "question": "Taxonomy is concerned with:",
@@ -108,7 +196,29 @@
             "D": "Only treating disease"
           },
           "correctOption": "A",
-          "explanation": "Taxonomy includes identification, nomenclature and classification."
+          "explanation": "Taxonomy includes identification, nomenclature and classification.",
+          "translations": {
+            "ur": {
+              "question": "درجہ بندی کا بنیادی مقصد کیا ہے؟",
+              "options": {
+                "A": "جانداروں کو منظم گروہوں میں رکھنا اور شناخت آسان بنانا",
+                "B": "تمام جانداروں کو ایک نوع بنانا",
+                "C": "ارتقا روکنا",
+                "D": "صرف جانوروں کے نام بدلنا"
+              },
+              "explanation": "درجہ بندی جانداروں کی شناخت، مطالعے اور باہمی تعلقات سمجھنے میں مدد دیتی ہے۔"
+            },
+            "sd": {
+              "question": "درجابنديءَ جو بنيادي مقصد ڪهڙو آهي؟",
+              "options": {
+                "A": "جاندارن کي منظم گروهن ۾ رکڻ ۽ سڃاڻپ آسان ڪرڻ",
+                "B": "سڀني جاندارن کي هڪ نوع بڻائڻ",
+                "C": "ارتقا روڪڻ",
+                "D": "رڳو جانورن جا نالا بدلائڻ"
+              },
+              "explanation": "درجابندي جاندارن جي سڃاڻپ، مطالعي ۽ پاڻ ۾ لاڳاپن کي سمجهڻ ۾ مدد ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Which sequence shows taxonomic ranks from broad to specific?",
@@ -119,7 +229,29 @@
             "D": "Family, species, domain, order"
           },
           "correctOption": "B",
-          "explanation": "The hierarchy moves from broad domains to increasingly specific groups."
+          "explanation": "The hierarchy moves from broad domains to increasingly specific groups.",
+          "translations": {
+            "ur": {
+              "question": "ٹیکسانومی میں کون سے کام شامل ہیں؟",
+              "options": {
+                "A": "شناخت، نام گذاری اور درجہ بندی",
+                "B": "صرف خوراک بنانا",
+                "C": "صرف افزائش",
+                "D": "صرف تنفس"
+              },
+              "explanation": "ٹیکسانومی جانداروں کی شناخت، سائنسی نام رکھنے اور درجہ بندی سے متعلق ہے۔"
+            },
+            "sd": {
+              "question": "ٽيڪسانومي ۾ ڪهڙا ڪم شامل آهن؟",
+              "options": {
+                "A": "سڃاڻپ، ناليڪاري ۽ درجابندي",
+                "B": "رڳو خوراڪ ٺاهڻ",
+                "C": "رڳو افزائش",
+                "D": "رڳو تنفس"
+              },
+              "explanation": "ٽيڪسانومي جاندارن جي سڃاڻپ، سائنسي نالو رکڻ ۽ درجابنديءَ سان لاڳاپيل آهي."
+            }
+          }
         },
         {
           "question": "The three domains are:",
@@ -130,7 +262,29 @@
             "D": "Protists, viruses and bacteria"
           },
           "correctOption": "B",
-          "explanation": "The three-domain system recognises Bacteria, Archaea and Eukarya."
+          "explanation": "The three-domain system recognises Bacteria, Archaea and Eukarya.",
+          "translations": {
+            "ur": {
+              "question": "درجہ بندی کا سب سے بڑا عام درجہ کون سا ہے؟",
+              "options": {
+                "A": "نوع",
+                "B": "جینس",
+                "C": "ڈومین",
+                "D": "فیملی"
+              },
+              "explanation": "ڈومین درجہ بندی کے درجات میں سب سے وسیع سطح ہے۔"
+            },
+            "sd": {
+              "question": "درجابنديءَ جو سڀ کان وڏو عام درجو ڪهڙو آهي؟",
+              "options": {
+                "A": "نوع",
+                "B": "جينس",
+                "C": "ڊومين",
+                "D": "فيملي"
+              },
+              "explanation": "ڊومين درجابنديءَ جي درجن ۾ سڀ کان وسيع سطح آهي."
+            }
+          }
         },
         {
           "question": "Bacteria are generally:",
@@ -141,7 +295,29 @@
             "D": "Multicellular animals"
           },
           "correctOption": "A",
-          "explanation": "Bacteria are prokaryotes and lack a membrane-bound nucleus."
+          "explanation": "Bacteria are prokaryotes and lack a membrane-bound nucleus.",
+          "translations": {
+            "ur": {
+              "question": "درجہ بندی کے درجات کی درست ترتیب کون سی ہے؟",
+              "options": {
+                "A": "ڈومین، کنگڈم، فائلم، کلاس، آرڈر، فیملی، جینس، اسپیشیز",
+                "B": "اسپیشیز، جینس، فیملی، ڈومین",
+                "C": "کلاس، ڈومین، نوع، کنگڈم",
+                "D": "فیملی، آرڈر، ڈومین، جینس"
+              },
+              "explanation": "درجات بڑے سے چھوٹے کی طرف ڈومین سے اسپیشیز تک جاتے ہیں۔"
+            },
+            "sd": {
+              "question": "درجابنديءَ جي درجن جي صحيح ترتيب ڪهڙي آهي؟",
+              "options": {
+                "A": "ڊومين، ڪنگڊم، فائلم، ڪلاس، آرڊر، فيملي، جينس، اسپيشيز",
+                "B": "اسپيشيز، جينس، فيملي، ڊومين",
+                "C": "ڪلاس، ڊومين، نوع، ڪنگڊم",
+                "D": "فيملي، آرڊر، ڊومين، جينس"
+              },
+              "explanation": "وڏي کان ننڍي ترتيب ڊومين کان اسپيشيز تائين آهي."
+            }
+          }
         },
         {
           "question": "Archaea differ from bacteria in part because:",
@@ -152,7 +328,29 @@
             "D": "They have no genetic material"
           },
           "correctOption": "A",
-          "explanation": "Archaeal cell walls and molecular systems differ from those of bacteria."
+          "explanation": "Archaeal cell walls and molecular systems differ from those of bacteria.",
+          "translations": {
+            "ur": {
+              "question": "تین ڈومین نظام میں کون سے گروہ شامل ہیں؟",
+              "options": {
+                "A": "بیکٹیریا، آرکیا، یوکاریا",
+                "B": "پودے، جانور، فنجائی",
+                "C": "پروٹوزوا، وائرس، پودے",
+                "D": "مچھلیاں، پرندے، ممالیہ"
+              },
+              "explanation": "تین ڈومین بیکٹیریا، آرکیا اور یوکاریا ہیں۔"
+            },
+            "sd": {
+              "question": "ٽن ڊومين واري نظام ۾ ڪهڙا گروهه شامل آهن؟",
+              "options": {
+                "A": "بيڪٽيريا، آرڪيا، يوڪريا",
+                "B": "ٻوٽا، جانور، فنجائي",
+                "C": "پروٽوزوا، وائرس، ٻوٽا",
+                "D": "مڇيون، پکي، ٿڻائتا"
+              },
+              "explanation": "ٽي ڊومين بيڪٽيريا، آرڪيا ۽ يوڪريا آهن."
+            }
+          }
         },
         {
           "question": "Which domain includes plants, animals, fungi and protists?",
@@ -163,7 +361,29 @@
             "D": "Viruses"
           },
           "correctOption": "C",
-          "explanation": "All these groups are eukaryotic organisms."
+          "explanation": "All these groups are eukaryotic organisms.",
+          "translations": {
+            "ur": {
+              "question": "بیکٹیریا کس قسم کے جاندار ہیں؟",
+              "options": {
+                "A": "پروکاریوٹک",
+                "B": "یوکاریوٹک",
+                "C": "غیر خلوی",
+                "D": "ہمیشہ کثیر خلوی"
+              },
+              "explanation": "بیکٹیریا پروکاریوٹک ہوتے ہیں اور ان میں جھلی سے گھرا مرکزہ نہیں ہوتا۔"
+            },
+            "sd": {
+              "question": "بيڪٽيريا ڪهڙي قسم جا جاندار آهن؟",
+              "options": {
+                "A": "پروڪريوٽڪ",
+                "B": "يوڪريوٽڪ",
+                "C": "غيرخلوي",
+                "D": "هميشه گهڻ خلوي"
+              },
+              "explanation": "بيڪٽيريا پروڪريوٽڪ آهن ۽ انهن ۾ جھلي سان گهيريل مرڪز نه هوندو آهي."
+            }
+          }
         },
         {
           "question": "Fungal cell walls commonly contain:",
@@ -174,7 +394,29 @@
             "D": "Silica"
           },
           "correctOption": "A",
-          "explanation": "Chitin is a major component of many fungal cell walls."
+          "explanation": "Chitin is a major component of many fungal cell walls.",
+          "translations": {
+            "ur": {
+              "question": "آرکیا اور بیکٹیریا میں ایک اہم فرق کیا ہے؟",
+              "options": {
+                "A": "ان کی جھلی اور جینیاتی مشینری میں فرق ہوتا ہے",
+                "B": "آرکیا میں DNA نہیں ہوتا",
+                "C": "تمام آرکیا کثیر خلوی ہیں",
+                "D": "بیکٹیریا میں خلیہ نہیں ہوتا"
+              },
+              "explanation": "آرکیا کی جھلی اور جینیاتی مشینری بیکٹیریا سے مختلف ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "آرڪيا ۽ بيڪٽيريا ۾ هڪ اهم فرق ڪهڙو آهي؟",
+              "options": {
+                "A": "انهن جي جھلي ۽ جينياتي نظام ۾ فرق آهي",
+                "B": "آرڪيا ۾ DNA ناهي",
+                "C": "سڀ آرڪيا گهڻ خلوي آهن",
+                "D": "بيڪٽيريا ۾ خلو ناهي"
+              },
+              "explanation": "آرڪيا جي جھلي ۽ جينياتي نظام بيڪٽيريا کان مختلف آهن."
+            }
+          }
         },
         {
           "question": "The correct format of the human scientific name is:",
@@ -185,7 +427,29 @@
             "D": "Homo Sapiens"
           },
           "correctOption": "B",
-          "explanation": "The genus begins with a capital letter and the specific epithet is lower-case; both are italicised."
+          "explanation": "The genus begins with a capital letter and the specific epithet is lower-case; both are italicised.",
+          "translations": {
+            "ur": {
+              "question": "یوکاریا ڈومین میں کون سے جاندار شامل ہیں؟",
+              "options": {
+                "A": "جانور، پودے، فنجائی اور پروٹسٹس",
+                "B": "صرف بیکٹیریا",
+                "C": "صرف آرکیا",
+                "D": "صرف وائرس"
+              },
+              "explanation": "یوکاریا میں مرکزہ رکھنے والے خلیوں والے جاندار شامل ہیں۔"
+            },
+            "sd": {
+              "question": "يوڪريا ڊومين ۾ ڪهڙا جاندار شامل آهن؟",
+              "options": {
+                "A": "جانور، ٻوٽا، فنجائي ۽ پروٽسٽ",
+                "B": "رڳو بيڪٽيريا",
+                "C": "رڳو آرڪيا",
+                "D": "رڳو وائرس"
+              },
+              "explanation": "يوڪريا ۾ مرڪز رکندڙ خلين وارا جاندار شامل آهن."
+            }
+          }
         },
         {
           "question": "In binomial nomenclature, a species name consists of:",
@@ -196,7 +460,29 @@
             "D": "Two common names"
           },
           "correctOption": "A",
-          "explanation": "The binomial has two parts: genus name and specific epithet."
+          "explanation": "The binomial has two parts: genus name and specific epithet.",
+          "translations": {
+            "ur": {
+              "question": "بائنومیل نام گذاری میں ہر نوع کا نام کتنے حصوں پر مشتمل ہوتا ہے؟",
+              "options": {
+                "A": "ایک",
+                "B": "دو",
+                "C": "تین",
+                "D": "چار"
+              },
+              "explanation": "دو نامی نظام میں جینس اور مخصوص وصف کے دو حصے ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "بائينوميل ناليڪاري ۾ هر نوع جو نالو ڪيترا حصا رکي ٿو؟",
+              "options": {
+                "A": "هڪ",
+                "B": "ٻه",
+                "C": "ٽي",
+                "D": "چار"
+              },
+              "explanation": "ٻن لفظن واري نظام ۾ جينس ۽ مخصوص وصف جا ٻه حصا هوندا آهن."
+            }
+          }
         },
         {
           "question": "After first writing *Escherichia coli*, an acceptable shortened form is:",
@@ -207,7 +493,29 @@
             "D": "E COLI"
           },
           "correctOption": "B",
-          "explanation": "The genus may be abbreviated to a capital initial followed by a full stop, with the epithet lower-case."
+          "explanation": "The genus may be abbreviated to a capital initial followed by a full stop, with the epithet lower-case.",
+          "translations": {
+            "ur": {
+              "question": "سائنسی نام میں جینس کے نام کا پہلا حرف کیسے لکھا جاتا ہے؟",
+              "options": {
+                "A": "بڑا حرف",
+                "B": "چھوٹا حرف",
+                "C": "عدد",
+                "D": "علامت"
+              },
+              "explanation": "جینس کا پہلا حرف بڑا اور مخصوص وصف چھوٹے حرف سے شروع ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "سائنسي نالي ۾ جينس جو پهريون اکر ڪيئن لکبو آهي؟",
+              "options": {
+                "A": "وڏو اکر",
+                "B": "ننڍو اکر",
+                "C": "عدد",
+                "D": "علامت"
+              },
+              "explanation": "جينس جو پهريون اکر وڏو ۽ مخصوص وصف ننڍي اکر سان شروع ٿئي ٿي."
+            }
+          }
         },
         {
           "question": "Modern classification uses which important source of evidence?",
@@ -218,7 +526,29 @@
             "D": "Only common names"
           },
           "correctOption": "A",
-          "explanation": "Molecular evidence helps infer evolutionary relationships."
+          "explanation": "Molecular evidence helps infer evolutionary relationships.",
+          "translations": {
+            "ur": {
+              "question": "انسان کا سائنسی نام کون سا ہے؟",
+              "options": {
+                "A": "Homo sapiens",
+                "B": "Panthera leo",
+                "C": "Canis lupus",
+                "D": "Felis catus"
+              },
+              "explanation": "انسان کا دو نامی سائنسی نام Homo sapiens ہے۔"
+            },
+            "sd": {
+              "question": "انسان جو سائنسي نالو ڪهڙو آهي؟",
+              "options": {
+                "A": "Homo sapiens",
+                "B": "Panthera leo",
+                "C": "Canis lupus",
+                "D": "Felis catus"
+              },
+              "explanation": "انسان جو ٻن لفظن وارو سائنسي نالو Homo sapiens آهي."
+            }
+          }
         },
         {
           "question": "Viruses are not placed in the three-domain system mainly because they are:",
@@ -229,7 +559,29 @@
             "D": "Made only of protein"
           },
           "correctOption": "A",
-          "explanation": "The three domains classify cellular life; viruses are acellular infectious agents."
+          "explanation": "The three domains classify cellular life; viruses are acellular infectious agents.",
+          "translations": {
+            "ur": {
+              "question": "وائرس کو تین ڈومینز میں کیوں شامل نہیں کیا جاتا؟",
+              "options": {
+                "A": "وہ خلوی جاندار نہیں ہیں",
+                "B": "ان میں ہمیشہ مرکزہ ہوتا ہے",
+                "C": "وہ پودے ہیں",
+                "D": "وہ صرف پانی میں رہتے ہیں"
+              },
+              "explanation": "وائرس خلیوں سے بنے نہیں ہوتے، اس لیے انہیں خلوی زندگی کے تین ڈومینز میں نہیں رکھا جاتا۔"
+            },
+            "sd": {
+              "question": "وائرس کي ٽن ڊومينن ۾ ڇو شامل نٿو ڪيو وڃي؟",
+              "options": {
+                "A": "اهي خلوي جاندار ناهن",
+                "B": "انهن ۾ هميشه مرڪز هوندو آهي",
+                "C": "اهي ٻوٽا آهن",
+                "D": "اهي رڳو پاڻيءَ ۾ رهن ٿا"
+              },
+              "explanation": "وائرس خلين مان ٺهيل ناهن، تنهنڪري انهن کي خلوي زندگيءَ جي ٽن ڊومينن ۾ نٿو رکيو وڃي."
+            }
+          }
         },
         {
           "question": "A typical virus particle contains:",
@@ -240,7 +592,29 @@
             "D": "Cellulose cell wall and chloroplast"
           },
           "correctOption": "A",
-          "explanation": "A virus has a DNA or RNA genome enclosed in a protein capsid; some also have envelopes."
+          "explanation": "A virus has a DNA or RNA genome enclosed in a protein capsid; some also have envelopes.",
+          "translations": {
+            "ur": {
+              "question": "وائرس کے جینیاتی مادے کے گرد پروٹین کا خول کیا کہلاتا ہے؟",
+              "options": {
+                "A": "کیپسڈ",
+                "B": "رائبوسوم",
+                "C": "سیل وال",
+                "D": "مائٹوکانڈریا"
+              },
+              "explanation": "وائرل کیپسڈ پروٹین کا خول ہے جو DNA یا RNA کو گھیرتا ہے۔"
+            },
+            "sd": {
+              "question": "وائرس جي جينياتي مادي جي چوڌاري پروٽين جو خول ڇا سڏجي ٿو؟",
+              "options": {
+                "A": "ڪيپسڊ",
+                "B": "رائبوسوم",
+                "C": "سيل وال",
+                "D": "مائٽوڪانڊريا"
+              },
+              "explanation": "وائرل ڪيپسڊ پروٽين جو خول آهي، جيڪو DNA يا RNA کي گهيري ٿو."
+            }
+          }
         },
         {
           "question": "Viruses reproduce by:",
@@ -251,7 +625,29 @@
             "D": "Making their own ribosomes"
           },
           "correctOption": "B",
-          "explanation": "Viruses rely on host-cell machinery for replication."
+          "explanation": "Viruses rely on host-cell machinery for replication.",
+          "translations": {
+            "ur": {
+              "question": "وائرس افزائش کے لیے کیا کرتے ہیں؟",
+              "options": {
+                "A": "میزبان خلیے کی مشینری استعمال کرتے ہیں",
+                "B": "اپنے رائبوسوم سے خود خوراک بناتے ہیں",
+                "C": "بغیر خلیے کے آزادانہ تقسیم ہوتے ہیں",
+                "D": "صرف ضیائی تالیف کرتے ہیں"
+              },
+              "explanation": "وائرس میزبان خلیے میں داخل ہو کر اسی کی مشینری سے نئے وائرس بنواتے ہیں۔"
+            },
+            "sd": {
+              "question": "وائرس افزائش لاءِ ڇا ڪن ٿا؟",
+              "options": {
+                "A": "ميزبان خاني جي مشينري استعمال ڪن ٿا",
+                "B": "پنهنجن رائبوسومن سان پاڻ خوراڪ ٺاهين ٿا",
+                "C": "خاني کان سواءِ آزاد ورهائجن ٿا",
+                "D": "رڳو ضيائي ترڪيب ڪن ٿا"
+              },
+              "explanation": "وائرس ميزبان خاني ۾ داخل ٿي ان جي مشينريءَ سان نوان وائرس ٺهرائين ٿا."
+            }
+          }
         },
         {
           "question": "Antibiotics are generally ineffective against viruses because:",
@@ -262,7 +658,29 @@
             "D": "Antibiotics only work in water"
           },
           "correctOption": "B",
-          "explanation": "Antibiotics target bacterial cell structures or metabolism; viruses lack these cellular targets."
+          "explanation": "Antibiotics target bacterial cell structures or metabolism; viruses lack these cellular targets.",
+          "translations": {
+            "ur": {
+              "question": "حیاتیاتی تنوع کو سب سے زیادہ خطرہ کس سے ہو سکتا ہے؟",
+              "options": {
+                "A": "مسکن کی تباہی اور آلودگی",
+                "B": "قدرتی مسکن کا تحفظ",
+                "C": "پائیدار استعمال",
+                "D": "قومی پارکوں کا قیام"
+              },
+              "explanation": "مسکن کی تباہی، آلودگی، حد سے زیادہ استعمال اور موسمیاتی تبدیلی تنوع کے بڑے خطرات ہیں۔"
+            },
+            "sd": {
+              "question": "حياتياتي تنوع کي سڀ کان وڏو خطرو ڪهڙي شيءِ مان ٿي سگهي ٿو؟",
+              "options": {
+                "A": "رهائش جي تباهي ۽ آلودگي",
+                "B": "قدرتي رهائش جو تحفظ",
+                "C": "پائيدار استعمال",
+                "D": "قومي پارڪ ٺاهڻ"
+              },
+              "explanation": "رهائش جي تباهي، آلودگي، حد کان وڌيڪ استعمال ۽ موسمياتي تبديلي وڏا خطرا آهن."
+            }
+          }
         },
         {
           "question": "Conservation of biodiversity can include:",
@@ -273,7 +691,29 @@
             "D": "Introducing invasive species"
           },
           "correctOption": "A",
-          "explanation": "Conservation uses habitat protection, restoration and sustainable management."
+          "explanation": "Conservation uses habitat protection, restoration and sustainable management.",
+          "translations": {
+            "ur": {
+              "question": "حیاتیاتی تنوع کے تحفظ کا مؤثر طریقہ کون سا ہے؟",
+              "options": {
+                "A": "محفوظ علاقے اور مسکن کی بحالی",
+                "B": "غیر قانونی شکار",
+                "C": "جنگلات کی کٹائی",
+                "D": "آلودگی بڑھانا"
+              },
+              "explanation": "محفوظ علاقے، مسکن کی بحالی اور پائیدار استعمال تحفظ کے اہم طریقے ہیں۔"
+            },
+            "sd": {
+              "question": "حياتياتي تنوع جي حفاظت جو اثرائتو طريقو ڪهڙو آهي؟",
+              "options": {
+                "A": "محفوظ علائقا ۽ رهائش جي بحالي",
+                "B": "غيرقانوني شڪار",
+                "C": "ٻيلن جي ڪٽائي",
+                "D": "آلودگي وڌائڻ"
+              },
+              "explanation": "محفوظ علائقا، رهائش جي بحالي ۽ پائيدار استعمال تحفظ جا اهم طريقا آهن."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -287,7 +727,29 @@
             "Genetic diversity (1 mark)",
             "Species diversity (1 mark)",
             "Ecosystem diversity (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "حیاتیاتی تنوع کی تعریف کریں اور اس کی تین بنیادی سطحوں کے نام لکھیں۔",
+              "modelAnswer": "حیاتیاتی تنوع زندگی کی مختلف اقسام کا نام ہے۔ اس کی سطحوں میں آبادیوں کے اندر جینیاتی تنوع، کسی علاقے میں انواع کا تنوع، اور مسکنوں و ماحولیاتی برادریوں کا ماحولیاتی نظامی تنوع شامل ہیں۔",
+              "rubric": [
+                "تعریف (1 نمبر)",
+                "جینیاتی تنوع (1 نمبر)",
+                "انواع کا تنوع (1 نمبر)",
+                "ماحولیاتی نظام کا تنوع (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "حياتياتي تنوع جي وصف ڏيو ۽ ان جي ٽن بنيادي سطحن جا نالا لکو.",
+              "modelAnswer": "حياتياتي تنوع زندگيءَ جي مختلف قسمن کي چئبو آهي. ان جي سطحن ۾ آبادين اندر جينياتي تنوع، ڪنهن علائقي ۾ نوعن جو تنوع ۽ رهائشن توڙي ماحولياتي برادرين جو ماحولياتي نظام وارو تنوع شامل آهن.",
+              "rubric": [
+                "وصف (1 نمبر)",
+                "جينياتي تنوع (1 نمبر)",
+                "نوعن جو تنوع (1 نمبر)",
+                "ماحولياتي نظام جو تنوع (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -296,7 +758,23 @@
           "modelAnswer": "Domain, Kingdom, Phylum (or Division in plants), Class, Order, Family, Genus, Species.",
           "rubric": [
             "Correct order from domain to species (4 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "ڈومین سے اسپیشیز تک درجہ بندی کے درجات ترتیب سے لکھیں۔",
+              "modelAnswer": "ڈومین، کنگڈم، فائلم (پودوں میں ڈویژن بھی کہا جاتا ہے)، کلاس، آرڈر، فیملی، جینس، اسپیشیز۔",
+              "rubric": [
+                "ڈومین سے اسپیشیز تک درست ترتیب (4 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ڊومين کان اسپيشيز تائين درجابنديءَ جا درجا ترتيب سان لکو.",
+              "modelAnswer": "ڊومين، ڪنگڊم، فائلم (ٻوٽن ۾ ڊويزن به چئبو آهي)، ڪلاس، آرڊر، فيملي، جينس، اسپيشيز.",
+              "rubric": [
+                "ڊومين کان اسپيشيز تائين صحيح ترتيب (4 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -306,7 +784,27 @@
           "rubric": [
             "Any four accurate contrasts (4 marks)",
             "Clear scientific terminology (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "بیکٹیریا، آرکیا اور یوکاریا ڈومینز میں فرق بیان کریں۔",
+              "modelAnswer": "بیکٹیریا پروکاریوٹک ہیں اور ان کی خلوی دیوار میں اکثر پیپٹائیڈوگلائیکن ہوتا ہے۔ آرکیا بھی پروکاریوٹک ہیں مگر ان کی جھلی اور جینیاتی مشینری مختلف ہوتی ہے۔ یوکاریا میں مرکزہ اور جھلی والے عضیات موجود ہوتے ہیں؛ اس میں جانور، پودے، فنجائی اور پروٹسٹس شامل ہیں۔",
+              "rubric": [
+                "بیکٹیریا کی خصوصیات (2 نمبر)",
+                "آرکیا کی خصوصیات اور فرق (2 نمبر)",
+                "یوکاریا کی خصوصیات اور مثالیں (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "بيڪٽيريا، آرڪيا ۽ يوڪريا ڊومينن ۾ فرق بيان ڪريو.",
+              "modelAnswer": "بيڪٽيريا پروڪريوٽڪ آهن ۽ انهن جي خلوي ڀت ۾ اڪثر پيپٽائيڊوگلائڪين هوندو آهي. آرڪيا به پروڪريوٽڪ آهن، پر انهن جي جھلي ۽ جينياتي نظام مختلف آهن. يوڪريا ۾ مرڪز ۽ جھلي وارا عضيا هوندا آهن؛ ان ۾ جانور، ٻوٽا، فنجائي ۽ پروٽسٽ شامل آهن.",
+              "rubric": [
+                "بيڪٽيريا جون خاصيتون (2 نمبر)",
+                "آرڪيا جون خاصيتون ۽ فرق (2 نمبر)",
+                "يوڪريا جون خاصيتون ۽ مثال (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -319,7 +817,27 @@
             "Archaea features and distinction (2 marks)",
             "Eukarya features and groups (2 marks)",
             "Molecular/evolutionary evidence (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو نامی سائنسی نام گذاری کے اصول بیان کریں اور اس کے فوائد واضح کریں۔",
+              "modelAnswer": "ہر نوع کا سائنسی نام دو حصوں پر مشتمل ہوتا ہے: جینس اور مخصوص وصف۔ جینس کا پہلا حرف بڑا، مخصوص وصف چھوٹے حرف سے لکھا جاتا ہے اور دونوں الفاظ ترچھے ہوتے ہیں؛ ہاتھ سے لکھتے وقت الگ الگ خط کشیدہ کیے جاتے ہیں۔ یہ نظام دنیا بھر میں ایک ہی نوع کے لیے واضح اور مشترکہ نام فراہم کرتا ہے۔",
+              "rubric": [
+                "دو حصوں کی وضاحت (2 نمبر)",
+                "بڑے/چھوٹے حروف اور اٹالک کے اصول (2 نمبر)",
+                "عالمی شناخت کا فائدہ (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ٻن لفظن واري سائنسي ناليڪاري جا اصول بيان ڪريو ۽ ان جا فائدا واضح ڪريو.",
+              "modelAnswer": "هر نوع جو سائنسي نالو ٻن حصن تي مشتمل هوندو آهي: جينس ۽ مخصوص وصف. جينس جو پهريون اکر وڏو ۽ مخصوص وصف ننڍي اکر سان لکبي آهي، ٻئي لفظ ترڇا لکبا آهن؛ هٿ سان لکڻ وقت ٻنهي هيٺ الڳ ليڪ ڏبي آهي. هي نظام سڄي دنيا ۾ هڪ نوع لاءِ واضح ۽ گڏيل نالو مهيا ڪري ٿو.",
+              "rubric": [
+                "ٻن حصن جي وضاحت (2 نمبر)",
+                "وڏن/ننڍن اکرن ۽ اٽالڪ جا اصول (2 نمبر)",
+                "عالمي سڃاڻپ جو فائدو (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -331,7 +849,27 @@
             "Resources and social value (1 mark)",
             "Major threats (3 marks)",
             "Practical conservation measures (3 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "حیاتیاتی تنوع کے لیے بڑے خطرات بیان کریں اور اس کے تحفظ کے طریقے تجویز کریں۔",
+              "modelAnswer": "بڑے خطرات میں مسکن کی تباہی، آلودگی، ضرورت سے زیادہ شکار یا استعمال، بیرونی حملہ آور انواع اور موسمیاتی تبدیلی شامل ہیں۔ تحفظ کے لیے محفوظ علاقے بنانا، مسکن بحال کرنا، قدرتی وسائل کا پائیدار استعمال، آلودگی کم کرنا، بیجوں کے ذخیرے قائم کرنا اور مقامی آبادی کو شامل کرنا مفید ہے۔",
+              "rubric": [
+                "تین یا زیادہ خطرات (4 نمبر)",
+                "تین یا زیادہ تحفظی طریقے (4 نمبر)",
+                "پائیدار استعمال/عوامی شمولیت کی اہمیت (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "حياتياتي تنوع لاءِ وڏا خطرا بيان ڪريو ۽ ان جي حفاظت جا طريقا تجويز ڪريو.",
+              "modelAnswer": "وڏن خطرن ۾ رهائش جي تباهي، آلودگي، حد کان وڌيڪ شڪار يا استعمال، ٻاهريون حملو ڪندڙ نوعون ۽ موسمياتي تبديلي شامل آهن. حفاظت لاءِ محفوظ علائقا ٺاهڻ، رهائش بحال ڪرڻ، قدرتي وسيلن جو پائيدار استعمال، آلودگي گهٽائڻ، ٻج جا ذخيرا قائم ڪرڻ ۽ مقامي ماڻهن کي شامل ڪرڻ فائديمند آهي.",
+              "rubric": [
+                "ٽي يا وڌيڪ خطرا (4 نمبر)",
+                "ٽي يا وڌيڪ حفاظتي طريقا (4 نمبر)",
+                "پائيدار استعمال/عوامي شرڪت جي اهميت (2 نمبر)"
+              ]
+            }
+          }
         }
       ]
     }
