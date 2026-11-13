@@ -244,6 +244,7 @@ async function exportReal3DTeacher(){
   await audioContext.resume();
   const bytes=await file.arrayBuffer();
   const audioBuffer=await audioContext.decodeAudioData(bytes.slice(0));
+  const sceneImages=await Promise.all(scenes.map(s=>loadSceneImage(s.image)));
   const sourceStream=audioContext.createMediaStreamDestination();
   source=audioContext.createBufferSource();source.buffer=audioBuffer;source.connect(sourceStream);
   const out=document.createElement("canvas");out.width=1280;out.height=720;
@@ -266,7 +267,7 @@ async function exportReal3DTeacher(){
    ctx.fillStyle="#101b3d";ctx.fillRect(0,0,1280,720);
    const glow=ctx.createRadialGradient(300,270,20,300,300,520);glow.addColorStop(0,"#344d88");glow.addColorStop(1,"#101b3d");ctx.fillStyle=glow;ctx.fillRect(0,0,610,720);
    ctx.save();ctx.beginPath();ctx.rect(25,25,560,670);ctx.clip();
-   try{ctx.drawImage(avatarCanvas,30,35,550,640)}catch(e){}
+   try{const sourceRatio=avatarCanvas.width/Math.max(1,avatarCanvas.height);let drawW=550,drawH=640;if(drawW/drawH>sourceRatio)drawW=drawH*sourceRatio;else drawH=drawW/sourceRatio;ctx.drawImage(avatarCanvas,30+(550-drawW)/2,35+(640-drawH)/2,drawW,drawH)}catch(e){}
    ctx.restore();
    ctx.fillStyle="#ffffff";ctx.font="bold 23px system-ui";ctx.fillText("ZEEROZ ACADEMY",650,78);
    ctx.fillStyle="#f2ce60";ctx.font="bold 16px system-ui";ctx.fillText("AI TEACHER · 3D LECTURE",650,112);
@@ -274,7 +275,10 @@ async function exportReal3DTeacher(){
    ctx.fillStyle="#ffffff";ctx.font="bold 38px system-ui";
    const wrap=(txt,x,y,max,lineH,maxLines)=>{const words=String(txt||"").split(/\\s+/);let line="",count=0;for(const w of words){const test=line?line+" "+w:w;if(ctx.measureText(test).width>max&&line){ctx.fillText(line,x,y+count*lineH);line=w;if(++count>=maxLines)return}else line=test}if(line&&count<maxLines)ctx.fillText(line,x,y+count*lineH)};
    wrap(sc.title,650,190,570,48,3);
-   ctx.fillStyle="#dce6ff";ctx.font="24px system-ui";wrap(sc.narration,650,360,560,36,7);
+   ctx.fillStyle="#dce6ff";ctx.font="22px system-ui";wrap(sc.narration,650,340,560,31,4);
+   const activeSceneIndex=Math.max(0,scenes.indexOf(sc)),sceneImage=sceneImages[activeSceneIndex];
+   if(sceneImage){const maxW=530,maxH=145,scale=Math.min(maxW/sceneImage.width,maxH/sceneImage.height);ctx.drawImage(sceneImage,665,490,sceneImage.width*scale,sceneImage.height*scale)}
+   else{const labels=sc.narration.split(/[,;:،۔]|\\b(?:then|next|finally|and)\\b/i).map(v=>v.trim()).filter(v=>v.length>3).slice(0,4);let bx=650,by=505;ctx.font="bold 17px system-ui";labels.forEach((v,i)=>{const label=v.slice(0,28),bw=Math.min(255,Math.max(125,ctx.measureText(label).width+26));ctx.fillStyle=i%2?"#e4f4ed":"#e7efff";ctx.fillRect(bx,by,bw,42);ctx.fillStyle="#18366f";ctx.fillText(label,bx+12,by+27);bx+=bw+10;if(bx>1190){bx=650;by+=52}})}
    ctx.fillStyle="#d6e1f5";ctx.fillRect(650,650,560,7);ctx.fillStyle="#20b982";ctx.fillRect(650,650,560*Math.min(1,(audioContext.currentTime-startedAt)/audioBuffer.duration),7);
    ctx.fillStyle="#d6e1f5";ctx.font="16px system-ui";ctx.fillText("Scene "+(scenes.indexOf(sc)+1)+" / "+Math.max(1,scenes.length),650,685);
    progress.style.width=Math.min(100,(audioContext.currentTime-startedAt)/audioBuffer.duration*100)+"%";
