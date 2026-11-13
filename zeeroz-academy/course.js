@@ -2,6 +2,9 @@ import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/f
 import { collection, doc, getDoc, getDocs, query, where } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 const $=id=>document.getElementById(id),db=()=>window.ZeerozFirebase.db;
+const selectedLanguage=localStorage.getItem("zeerozCourseLanguage")||"en";
+const languageNames={en:"English",ur:"اردو",sd:"سنڌي"};
+function localizedText(record,field,lang){const translated=record?.translations?.[lang]?.[field];return typeof translated==="string"&&translated.trim()?translated:record?.[field]||"";}
 function node(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text!==undefined)el.textContent=text;return el;}
 
 function inlineFormat(parent,text){
@@ -54,6 +57,7 @@ function renderMarkdown(container,source){
 }
 
 onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
+ const languageSelect=$("courseLanguage");if(languageSelect){languageSelect.value=selectedLanguage;languageSelect.addEventListener("change",()=>{localStorage.setItem("zeerozCourseLanguage",languageSelect.value);location.reload()});}
  if(!user){location.href="./student-login.html";return;}
  const id=new URLSearchParams(location.search).get("id"),host=$("learningContent");
  if(!id){$("courseTitle").textContent="Course not found";$("courseDescription").textContent="No course was selected. Return to the Student Dashboard.";host.textContent="Please open a course from your dashboard.";return;}
@@ -90,13 +94,13 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
     lessonHead.append(node("span","lesson-index",String(lesson.order||j+1).padStart(2,"0")),node("div","lesson-head-copy"));
     lessonHead.lastChild.append(node("span","lesson-label","LEARNING LESSON"),node("h3","lesson-title",lesson.title||"Untitled lesson"));
     item.append(lessonHead);
-    if(lesson.type==="text"){const body=node("div","lesson-content");renderMarkdown(body,lesson.content||"");item.append(body);}
+    if(lesson.type==="text"){const body=node("div","lesson-content");const translated=lesson.explanations?.[selectedLanguage];if(selectedLanguage!=="en"&&(!translated||!String(translated).trim())){const note=node("aside","lesson-callout",selectedLanguage==="ur"?"اس سبق کی اردو وضاحت ابھی شامل نہیں کی گئی؛ فی الحال اصل انگریزی متن دکھایا جا رہا ہے۔":"هن سبق جي سنڌي وضاحت اڃا شامل نه ڪئي وئي آهي؛ في الحال اصل انگريزي متن ڏيکاريو پيو وڃي.");body.append(note);renderMarkdown(body,lesson.content||"");}else renderMarkdown(body,selectedLanguage==="en"?(lesson.content||""):translated);item.append(body);}
     else if(lesson.type==="video"||lesson.type==="pdf"){
      const a=node("a","resource-link",lesson.type==="video"?"Watch video lesson":"Open study PDF");a.href=lesson.content;a.target="_blank";a.rel="noopener noreferrer";item.append(a);
-    }else{const body=node("div","lesson-content");renderMarkdown(body,lesson.content||"");item.append(body);}
+    }else{const body=node("div","lesson-content");const translated=lesson.explanations?.[selectedLanguage];if(selectedLanguage!=="en"&&(!translated||!String(translated).trim())){body.append(node("aside","lesson-callout",selectedLanguage==="ur"?"ترجمہ دستیاب نہیں؛ اصل انگریزی مواد دکھایا جا رہا ہے۔":"ترجمو موجود ناهي؛ اصل انگريزي مواد ڏيکاريو پيو وڃي."));renderMarkdown(body,lesson.content||"");}else renderMarkdown(body,selectedLanguage==="en"?(lesson.content||""):translated);item.append(body);}
     card.append(item);
    });
-   if(written.length){const practice=node("section","written-practice");practice.append(node("h3","chapter-title","Written practice — CRQs and ERQs"));written.forEach((q,qi)=>{const block=node("article","written-question");block.append(node("h4","lesson-title",(q.type||"").toUpperCase()+" "+(qi+1)+" · "+(q.marks||0)+" marks"));block.append(node("p","lesson-paragraph",q.question));const details=node("details","answer-details");details.append(node("summary","","View model answer and marking guide"));const answer=node("div","lesson-content");renderMarkdown(answer,q.modelAnswer||"");details.append(answer);if(Array.isArray(q.rubric)&&q.rubric.length){const rubric=node("ul","lesson-list");q.rubric.forEach(item=>rubric.append(node("li","",item)));details.append(node("h4","lesson-title","Marking guide"),rubric)}block.append(details);practice.append(block)});card.append(practice)}
+   if(written.length){const practice=node("section","written-practice");practice.append(node("h3","chapter-title","Written practice — CRQs and ERQs"));written.forEach((q,qi)=>{const block=node("article","written-question");block.append(node("h4","lesson-title",(q.type||"").toUpperCase()+" "+(qi+1)+" · "+(q.marks||0)+" marks"));const tq=q.translations?.[selectedLanguage]||{};const questionText=selectedLanguage==="en"?(q.question||""):(tq.question||q.question||"");block.append(node("p","lesson-paragraph",questionText));const details=node("details","answer-details");details.append(node("summary","",selectedLanguage==="ur"?"ماڈل جواب اور مارکنگ گائیڈ دیکھیں":selectedLanguage==="sd"?"ماڊل جواب ۽ مارڪنگ گائيڊ ڏسو":"View model answer and marking guide"));const answer=node("div","lesson-content");renderMarkdown(answer,selectedLanguage==="en"?(q.modelAnswer||""):(tq.modelAnswer||q.modelAnswer||""));details.append(answer);const rubricItems=selectedLanguage==="en"?(q.rubric||[]):(tq.rubric||q.rubric||[]);if(Array.isArray(rubricItems)&&rubricItems.length){const rubric=node("ul","lesson-list");rubricItems.forEach(item=>rubric.append(node("li","",item)));details.append(node("h4","lesson-title",selectedLanguage==="ur"?"مارکنگ گائیڈ":selectedLanguage==="sd"?"مارڪنگ گائيڊ":"Marking guide"),rubric)}block.append(details);practice.append(block)});card.append(practice)}
    const quizLink=node("a","quiz-button","Practice this chapter");quizLink.href="./quiz.html?courseId="+encodeURIComponent(id)+"&chapterId="+encodeURIComponent(chapter.id);card.append(quizLink);
    host.append(card);
   });
