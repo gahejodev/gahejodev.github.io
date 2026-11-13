@@ -64,7 +64,29 @@
             "D": "Only classification"
           },
           "correctOption": "A",
-          "explanation": "Bioenergetics examines how energy is transferred and transformed in organisms."
+          "explanation": "Bioenergetics examines how energy is transferred and transformed in organisms.",
+          "translations": {
+            "ur": {
+              "question": "بایوانرجیٹکس کس چیز کا مطالعہ ہے؟",
+              "options": {
+                "A": "جاندار نظاموں میں توانائی کی تبدیلیوں کا",
+                "B": "صرف جسمانی درجہ حرارت کا",
+                "C": "صرف وراثت کا",
+                "D": "صرف درجہ بندی کا"
+              },
+              "explanation": "بایوانرجیٹکس جانداروں میں توانائی کی منتقلی اور تبدیلی کا مطالعہ کرتی ہے۔"
+            },
+            "sd": {
+              "question": "بايو انرجيٽڪس ڪهڙي شيءِ جو مطالعو آهي؟",
+              "options": {
+                "A": "جاندار نظامن ۾ توانائيءَ جي تبديلين جو",
+                "B": "رڳو جسم جي گرمي پد جو",
+                "C": "رڳو وراثت جو",
+                "D": "رڳو درجابنديءَ جو"
+              },
+              "explanation": "بايو انرجيٽڪس جاندارن ۾ توانائيءَ جي منتقلي ۽ تبديليءَ جو مطالعو ڪري ٿي."
+            }
+          }
         },
         {
           "question": "ATP is commonly described as:",
@@ -75,7 +97,29 @@
             "D": "A digestive enzyme"
           },
           "correctOption": "A",
-          "explanation": "ATP transfers usable energy to many cellular processes."
+          "explanation": "ATP transfers usable energy to many cellular processes.",
+          "translations": {
+            "ur": {
+              "question": "ATP کو عام طور پر کیا کہا جاتا ہے؟",
+              "options": {
+                "A": "خلیے کی فوری توانائی کی کرنسی",
+                "B": "خلوی دیوار کا پولیمر",
+                "C": "موروثی کروموسوم",
+                "D": "ہاضم خامرہ"
+              },
+              "explanation": "ATP بہت سے خلوی عملوں کو قابلِ استعمال توانائی فراہم کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ATP کي عام طور ڇا چيو ويندو آهي؟",
+              "options": {
+                "A": "خاني جي فوري توانائيءَ جي ڪرنسي",
+                "B": "خلوي ڀت جو پوليمر",
+                "C": "موروثي ڪروموسوم",
+                "D": "هاضمي وارو انزائم"
+              },
+              "explanation": "ATP ڪيترن خلوي عملن کي استعمال لائق توانائي ڏئي ٿو."
+            }
+          }
         },
         {
           "question": "ATP hydrolysis commonly produces:",
@@ -86,7 +130,29 @@
             "D": "Amino acids and lipid"
           },
           "correctOption": "A",
-          "explanation": "ATP can be hydrolysed to ADP and phosphate, releasing free energy."
+          "explanation": "ATP can be hydrolysed to ADP and phosphate, releasing free energy.",
+          "translations": {
+            "ur": {
+              "question": "ضیائی تالیف میں توانائی کا بنیادی ذریعہ کیا ہے؟",
+              "options": {
+                "A": "روشنی",
+                "B": "حرارت صرف",
+                "C": "آواز",
+                "D": "مٹی"
+              },
+              "explanation": "پودے روشنی کی توانائی جذب کر کے اسے کیمیائی توانائی میں محفوظ کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "ضيائي ترڪيب ۾ توانائيءَ جو بنيادي ذريعو ڪهڙو آهي؟",
+              "options": {
+                "A": "روشني",
+                "B": "رڳو گرمي",
+                "C": "آواز",
+                "D": "مٽي"
+              },
+              "explanation": "ٻوٽا روشنيءَ جي توانائي جذب ڪري ان کي ڪيميائي توانائيءَ طور محفوظ ڪن ٿا."
+            }
+          }
         },
         {
           "question": "Photosynthesis in green plant cells mainly occurs in:",
@@ -97,7 +163,29 @@
             "D": "Lysosomes"
           },
           "correctOption": "B",
-          "explanation": "Chloroplasts contain photosynthetic pigments and thylakoid membranes."
+          "explanation": "Chloroplasts contain photosynthetic pigments and thylakoid membranes.",
+          "translations": {
+            "ur": {
+              "question": "ضیائی تالیف زیادہ تر پودے کے کس عضیے میں ہوتی ہے؟",
+              "options": {
+                "A": "مائٹوکانڈریا",
+                "B": "کلوروپلاسٹ",
+                "C": "رائبوسوم",
+                "D": "گولجی باڈی"
+              },
+              "explanation": "کلوروپلاسٹ میں کلوروفل روشنی جذب کرتا ہے اور ضیائی تالیف کے مراحل ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "ضيائي ترڪيب گهڻو ڪري ٻوٽي جي ڪهڙي عضيي ۾ ٿئي ٿي؟",
+              "options": {
+                "A": "مائٽوڪانڊريا",
+                "B": "ڪلوروپلاسٽ",
+                "C": "رائبوسوم",
+                "D": "گولجي باڊي"
+              },
+              "explanation": "ڪلوروپلاسٽ ۾ ڪلوروفل روشني جذب ڪري ٿو ۽ ضيائي ترڪيب جا مرحلا ٿين ٿا."
+            }
+          }
         },
         {
           "question": "The raw materials for the simplified photosynthesis equation are:",
@@ -108,7 +196,29 @@
             "D": "Nitrogen and starch"
           },
           "correctOption": "B",
-          "explanation": "Photosynthesis uses carbon dioxide and water to build carbohydrates."
+          "explanation": "Photosynthesis uses carbon dioxide and water to build carbohydrates.",
+          "translations": {
+            "ur": {
+              "question": "کلوروفل کا بنیادی کام کیا ہے؟",
+              "options": {
+                "A": "روشنی جذب کرنا",
+                "B": "پروٹین ہضم کرنا",
+                "C": "پانی منتقل کرنا",
+                "D": "DNA کی نقل بنانا"
+              },
+              "explanation": "کلوروفل ضیائی تالیف کے لیے روشنی جذب کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪلوروفل جو بنيادي ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "روشني جذب ڪرڻ",
+                "B": "پروٽين هضم ڪرڻ",
+                "C": "پاڻي منتقل ڪرڻ",
+                "D": "DNA جي نقل ٺاهڻ"
+              },
+              "explanation": "ڪلوروفل ضيائي ترڪيب لاءِ روشني جذب ڪري ٿو."
+            }
+          }
         },
         {
           "question": "The oxygen released during oxygenic photosynthesis comes from:",
@@ -119,7 +229,29 @@
             "D": "Chlorophyll"
           },
           "correctOption": "B",
-          "explanation": "Water splitting during the light-dependent reactions releases oxygen."
+          "explanation": "Water splitting during the light-dependent reactions releases oxygen.",
+          "translations": {
+            "ur": {
+              "question": "ضیائی تالیف میں خارج ہونے والی آکسیجن کس مادے سے بنتی ہے؟",
+              "options": {
+                "A": "کاربن ڈائی آکسائیڈ",
+                "B": "پانی",
+                "C": "گلوکوز",
+                "D": "کلوروفل"
+              },
+              "explanation": "روشنی والے مرحلے میں پانی کے ٹوٹنے سے آکسیجن خارج ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "ضيائي ترڪيب دوران خارج ٿيندڙ آڪسيجن ڪهڙي مادي مان ٺهي ٿي؟",
+              "options": {
+                "A": "ڪاربان ڊاءِ آڪسائيڊ",
+                "B": "پاڻي",
+                "C": "گلوڪوز",
+                "D": "ڪلوروفل"
+              },
+              "explanation": "روشنيءَ واري مرحلي ۾ پاڻي ٽٽڻ سان آڪسيجن خارج ٿئي ٿي."
+            }
+          }
         },
         {
           "question": "The green pigment that absorbs light energy in plants is:",
@@ -130,7 +262,29 @@
             "D": "Insulin"
           },
           "correctOption": "B",
-          "explanation": "Chlorophyll and associated pigments absorb light in photosystems."
+          "explanation": "Chlorophyll and associated pigments absorb light in photosystems.",
+          "translations": {
+            "ur": {
+              "question": "ضیائی تالیف کا کیلون سائیکل کہاں ہوتا ہے؟",
+              "options": {
+                "A": "کلوروپلاسٹ کے اسٹروما میں",
+                "B": "مائٹوکانڈریا میں",
+                "C": "سائٹوپلازم میں",
+                "D": "خلوی مرکزے میں"
+              },
+              "explanation": "کیلون سائیکل کلوروپلاسٹ کے اسٹروما میں کاربن ڈائی آکسائیڈ کو نامیاتی مرکبات میں شامل کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ضيائي ترڪيب جو ڪيلون سائيڪل ڪٿي ٿئي ٿو؟",
+              "options": {
+                "A": "ڪلوروپلاسٽ جي اسٽروما ۾",
+                "B": "مائٽوڪانڊريا ۾",
+                "C": "سائٽوپلازم ۾",
+                "D": "خلوي مرڪز ۾"
+              },
+              "explanation": "ڪيلون سائيڪل ڪلوروپلاسٽ جي اسٽروما ۾ ڪاربان ڊاءِ آڪسائيڊ کي نامياتي مرڪبن ۾ شامل ڪري ٿو."
+            }
+          }
         },
         {
           "question": "The light-dependent reactions take place in the:",
@@ -141,7 +295,29 @@
             "D": "Cell wall"
           },
           "correctOption": "A",
-          "explanation": "Photosystems and electron transport components are located in thylakoid membranes."
+          "explanation": "Photosystems and electron transport components are located in thylakoid membranes.",
+          "translations": {
+            "ur": {
+              "question": "روشنی پر منحصر تعاملات میں کون سے توانائی بردار سالمات بنتے ہیں؟",
+              "options": {
+                "A": "ATP اور NADPH",
+                "B": "ADP اور NADP+ صرف",
+                "C": "DNA اور RNA",
+                "D": "گلوکوز اور نشاستہ"
+              },
+              "explanation": "روشنی والے تعاملات ATP اور NADPH بناتے ہیں جو کیلون سائیکل میں استعمال ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "روشنيءَ تي دارومدار رکندڙ عملن ۾ ڪهڙا توانائي کڻندڙ ماليڪيول ٺهن ٿا؟",
+              "options": {
+                "A": "ATP ۽ NADPH",
+                "B": "رڳو ADP ۽ NADP+",
+                "C": "DNA ۽ RNA",
+                "D": "گلوڪوز ۽ نشاستو"
+              },
+              "explanation": "روشنيءَ وارا عمل ATP ۽ NADPH ٺاهين ٿا، جيڪي ڪيلون سائيڪل ۾ استعمال ٿين ٿا."
+            }
+          }
         },
         {
           "question": "The Calvin cycle occurs in the chloroplast:",
@@ -152,7 +328,29 @@
             "D": "Nucleus"
           },
           "correctOption": "A",
-          "explanation": "Carbon fixation reactions occur in the stroma."
+          "explanation": "Carbon fixation reactions occur in the stroma.",
+          "translations": {
+            "ur": {
+              "question": "ضیائی تالیف میں کاربن ڈائی آکسائیڈ کا بنیادی کردار کیا ہے؟",
+              "options": {
+                "A": "کاربن فراہم کرنا",
+                "B": "آکسیجن کا واحد ذریعہ ہونا",
+                "C": "کلوروفل بنانا",
+                "D": "روشنی جذب کرنا"
+              },
+              "explanation": "کاربن ڈائی آکسائیڈ کاربوہائیڈریٹ بنانے کے لیے کاربن فراہم کرتی ہے۔"
+            },
+            "sd": {
+              "question": "ضيائي ترڪيب ۾ ڪاربان ڊاءِ آڪسائيڊ جو بنيادي ڪردار ڪهڙو آهي؟",
+              "options": {
+                "A": "ڪاربان مهيا ڪرڻ",
+                "B": "آڪسيجن جو اڪيلو ذريعو هجڻ",
+                "C": "ڪلوروفل ٺاهڻ",
+                "D": "روشني جذب ڪرڻ"
+              },
+              "explanation": "ڪاربان ڊاءِ آڪسائيڊ ڪاربوهائيڊريٽ ٺاهڻ لاءِ ڪاربان مهيا ڪري ٿي."
+            }
+          }
         },
         {
           "question": "Which molecules produced in light-dependent reactions help power the Calvin cycle?",
@@ -163,7 +361,29 @@
             "D": "Urea and ammonia"
           },
           "correctOption": "A",
-          "explanation": "ATP and NADPH supply energy and reducing power for carbon fixation."
+          "explanation": "ATP and NADPH supply energy and reducing power for carbon fixation.",
+          "translations": {
+            "ur": {
+              "question": "خلوی تنفس کا بنیادی مقصد کیا ہے؟",
+              "options": {
+                "A": "خوراک کی توانائی ATP میں منتقل کرنا",
+                "B": "روشنی جذب کرنا",
+                "C": "DNA کی نقل",
+                "D": "پولن بنانا"
+              },
+              "explanation": "خلوی تنفس نامیاتی خوراک کی کیمیائی توانائی کو ATP میں منتقل کرتا ہے۔"
+            },
+            "sd": {
+              "question": "خلوي تنفس جو بنيادي مقصد ڪهڙو آهي؟",
+              "options": {
+                "A": "خوراڪ جي توانائي ATP ۾ منتقل ڪرڻ",
+                "B": "روشني جذب ڪرڻ",
+                "C": "DNA جي نقل",
+                "D": "پولن ٺاهڻ"
+              },
+              "explanation": "خلوي تنفس نامياتي خوراڪ جي ڪيميائي توانائي ATP ۾ منتقل ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Cellular respiration is best defined as:",
@@ -174,7 +394,29 @@
             "D": "Only digestion"
           },
           "correctOption": "B",
-          "explanation": "Cellular respiration occurs in cells and transfers chemical energy into ATP."
+          "explanation": "Cellular respiration occurs in cells and transfers chemical energy into ATP.",
+          "translations": {
+            "ur": {
+              "question": "گلائیکولائسز کہاں ہوتی ہے؟",
+              "options": {
+                "A": "سائٹوپلازم میں",
+                "B": "مائٹوکانڈریا کے میٹرکس میں",
+                "C": "مرکزے میں",
+                "D": "کلوروپلاسٹ میں"
+              },
+              "explanation": "گلائیکولائسز سائٹوپلازم میں گلوکوز کو دو پائروویٹ میں توڑتی ہے۔"
+            },
+            "sd": {
+              "question": "گلائڪولائسس ڪٿي ٿئي ٿي؟",
+              "options": {
+                "A": "سائٽوپلازم ۾",
+                "B": "مائٽوڪانڊريا جي ميٽرڪس ۾",
+                "C": "مرڪز ۾",
+                "D": "ڪلوروپلاسٽ ۾"
+              },
+              "explanation": "گلائڪولائسس سائٽوپلازم ۾ گلوڪوز کي ٻن پائروويٽ ۾ ٽوڙي ٿي."
+            }
+          }
         },
         {
           "question": "Glycolysis takes place in the:",
@@ -185,7 +427,29 @@
             "D": "Nucleus"
           },
           "correctOption": "A",
-          "explanation": "Glycolysis occurs in the cytoplasm of cells."
+          "explanation": "Glycolysis occurs in the cytoplasm of cells.",
+          "translations": {
+            "ur": {
+              "question": "ایروبک تنفس میں آکسیجن کا کردار کیا ہے؟",
+              "options": {
+                "A": "آخری الیکٹران قبول کرنے والا",
+                "B": "پہلا خامرہ",
+                "C": "گلوکوز کا ذخیرہ",
+                "D": "پروٹین بنانے والا"
+              },
+              "explanation": "آکسیجن الیکٹران ٹرانسپورٹ چین میں آخری الیکٹران قبول کرنے والے کے طور پر کام کرتی ہے۔"
+            },
+            "sd": {
+              "question": "ايروبڪ تنفس ۾ آڪسيجن جو ڪردار ڪهڙو آهي؟",
+              "options": {
+                "A": "آخري اليڪٽران قبول ڪندڙ",
+                "B": "پهريون انزائم",
+                "C": "گلوڪوز جو ذخيرو",
+                "D": "پروٽين ٺاهيندڙ"
+              },
+              "explanation": "آڪسيجن اليڪٽران ٽرانسپورٽ چين ۾ آخري اليڪٽران قبول ڪندڙ طور ڪم ڪري ٿي."
+            }
+          }
         },
         {
           "question": "In aerobic respiration, oxygen acts as the final:",
@@ -196,7 +460,29 @@
             "D": "Glucose molecule"
           },
           "correctOption": "A",
-          "explanation": "Oxygen accepts electrons and hydrogen ions at the end of the electron transport chain."
+          "explanation": "Oxygen accepts electrons and hydrogen ions at the end of the electron transport chain.",
+          "translations": {
+            "ur": {
+              "question": "کربس سائیکل یوکاریوٹک خلیے میں کہاں ہوتا ہے؟",
+              "options": {
+                "A": "مائٹوکانڈریا کے میٹرکس میں",
+                "B": "سائٹوپلازم میں",
+                "C": "خلوی جھلی میں",
+                "D": "رائبوسوم پر"
+              },
+              "explanation": "یوکاریوٹک خلیوں میں کربس سائیکل مائٹوکانڈریا کے میٹرکس میں ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "يوڪريوٽڪ خاني ۾ ڪربس سائيڪل ڪٿي ٿئي ٿو؟",
+              "options": {
+                "A": "مائٽوڪانڊريا جي ميٽرڪس ۾",
+                "B": "سائٽوپلازم ۾",
+                "C": "خلوي جھليءَ ۾",
+                "D": "رائبوسوم تي"
+              },
+              "explanation": "يوڪريوٽڪ خلين ۾ ڪربس سائيڪل مائٽوڪانڊريا جي ميٽرڪس ۾ ٿئي ٿو."
+            }
+          }
         },
         {
           "question": "The Krebs cycle in eukaryotic cells occurs mainly in the:",
@@ -207,7 +493,29 @@
             "D": "Golgi apparatus"
           },
           "correctOption": "A",
-          "explanation": "Krebs cycle enzymes are located in the mitochondrial matrix."
+          "explanation": "Krebs cycle enzymes are located in the mitochondrial matrix.",
+          "translations": {
+            "ur": {
+              "question": "الیکٹران ٹرانسپورٹ چین کا اہم نتیجہ کیا ہے؟",
+              "options": {
+                "A": "زیادہ ATP کی تیاری میں مدد",
+                "B": "DNA کی نقل",
+                "C": "نشاستے کی تیاری",
+                "D": "خلوی دیوار بنانا"
+              },
+              "explanation": "الیکٹران ٹرانسپورٹ اور آکسیڈیٹو فاسفوریلیشن زیادہ تر ATP بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "اليڪٽران ٽرانسپورٽ چين جو اهم نتيجو ڪهڙو آهي؟",
+              "options": {
+                "A": "وڌيڪ ATP ٺاهڻ ۾ مدد",
+                "B": "DNA جي نقل",
+                "C": "نشاستي ٺاهڻ",
+                "D": "خلوي ڀت ٺاهڻ"
+              },
+              "explanation": "اليڪٽران ٽرانسپورٽ ۽ آڪسائيڊيٽو فاسفورائليشن گهڻو ATP ٺاهين ٿا."
+            }
+          }
         },
         {
           "question": "The electron transport chain for aerobic respiration in eukaryotes is located in the:",
@@ -218,7 +526,29 @@
             "D": "Ribosome"
           },
           "correctOption": "A",
-          "explanation": "Electron carriers and ATP synthase are embedded in the inner mitochondrial membrane."
+          "explanation": "Electron carriers and ATP synthase are embedded in the inner mitochondrial membrane.",
+          "translations": {
+            "ur": {
+              "question": "ایروبک تنفس کے آخری مراحل میں پانی کیسے بنتا ہے؟",
+              "options": {
+                "A": "آکسیجن الیکٹران اور ہائیڈروجن آئن قبول کرتی ہے",
+                "B": "گلوکوز براہ راست پانی بن جاتا ہے",
+                "C": "کلوروفل پانی خارج کرتا ہے",
+                "D": "پروٹین ٹوٹ کر پانی بناتا ہے"
+              },
+              "explanation": "آکسیجن الیکٹران اور پروٹون قبول کر کے پانی بناتی ہے۔"
+            },
+            "sd": {
+              "question": "ايروبڪ تنفس جي آخري مرحلن ۾ پاڻي ڪيئن ٺهي ٿو؟",
+              "options": {
+                "A": "آڪسيجن اليڪٽران ۽ هائيڊروجن آئن قبول ڪري ٿي",
+                "B": "گلوڪوز سڌو پاڻي بڻجي ٿو",
+                "C": "ڪلوروفل پاڻي خارج ڪري ٿو",
+                "D": "پروٽين ٽٽي پاڻي بڻائي ٿو"
+              },
+              "explanation": "آڪسيجن اليڪٽران ۽ پروٽان قبول ڪري پاڻي ٺاهي ٿي."
+            }
+          }
         },
         {
           "question": "The net ATP produced directly by glycolysis per glucose molecule is:",
@@ -229,7 +559,29 @@
             "D": "36"
           },
           "correctOption": "A",
-          "explanation": "Glycolysis has a net yield of two ATP per glucose molecule."
+          "explanation": "Glycolysis has a net yield of two ATP per glucose molecule.",
+          "translations": {
+            "ur": {
+              "question": "فرمینٹیشن میں خلیہ NAD+ کیوں دوبارہ بناتا ہے؟",
+              "options": {
+                "A": "تاکہ گلائیکولائسز جاری رہ سکے",
+                "B": "تاکہ DNA بن سکے",
+                "C": "تاکہ ضیائی تالیف ہو",
+                "D": "تاکہ مائٹوکانڈریا بنیں"
+              },
+              "explanation": "NAD+ کی بحالی گلائیکولائسز کو آکسیجن کے بغیر جاری رکھنے دیتی ہے۔"
+            },
+            "sd": {
+              "question": "فرمينٽيشن ۾ خلو NAD+ ٻيهر ڇو ٺاهي ٿو؟",
+              "options": {
+                "A": "ته جيئن گلائڪولائسس جاري رهي سگهي",
+                "B": "ته جيئن DNA ٺهي",
+                "C": "ته جيئن ضيائي ترڪيب ٿئي",
+                "D": "ته جيئن مائٽوڪانڊريا ٺهن"
+              },
+              "explanation": "NAD+ جي بحالي گلائڪولائسس کي آڪسيجن کان سواءِ جاري رکڻ ڏئي ٿي."
+            }
+          }
         },
         {
           "question": "Lactic acid fermentation in animal cells helps regenerate:",
@@ -240,7 +592,29 @@
             "D": "Chlorophyll"
           },
           "correctOption": "A",
-          "explanation": "Regenerating NAD+ allows glycolysis to continue when oxygen-dependent processing is limited."
+          "explanation": "Regenerating NAD+ allows glycolysis to continue when oxygen-dependent processing is limited.",
+          "translations": {
+            "ur": {
+              "question": "جانوروں کے عضلات میں آکسیجن کی کمی پر پائروویٹ کس میں بدل سکتا ہے؟",
+              "options": {
+                "A": "لیکٹیٹ",
+                "B": "نشاستہ",
+                "C": "سیلولوز",
+                "D": "ہیموگلوبن"
+              },
+              "explanation": "عضلات میں آکسیجن کم ہو تو پائروویٹ لیکٹیٹ میں تبدیل ہو سکتا ہے۔"
+            },
+            "sd": {
+              "question": "جانورن جي عضلن ۾ آڪسيجن گهٽ ٿيڻ تي پائروويٽ ڪهڙي مادي ۾ بدلجي سگهي ٿو؟",
+              "options": {
+                "A": "ليڪٽِيٽ",
+                "B": "نشاستو",
+                "C": "سيلولوز",
+                "D": "هيموگلوبن"
+              },
+              "explanation": "عضلن ۾ آڪسيجن گهٽ هجي ته پائروويٽ ليڪٽِيٽ ۾ تبديل ٿي سگهي ٿو."
+            }
+          }
         },
         {
           "question": "Alcoholic fermentation by yeast produces:",
@@ -251,7 +625,29 @@
             "D": "Glucose and starch"
           },
           "correctOption": "A",
-          "explanation": "Yeast converts pyruvate to ethanol and carbon dioxide."
+          "explanation": "Yeast converts pyruvate to ethanol and carbon dioxide.",
+          "translations": {
+            "ur": {
+              "question": "خمیر میں الکحلک فرمینٹیشن سے کون سی گیس خارج ہوتی ہے؟",
+              "options": {
+                "A": "کاربن ڈائی آکسائیڈ",
+                "B": "نائٹروجن",
+                "C": "ہائیڈروجن",
+                "D": "کلورین"
+              },
+              "explanation": "خمیر پائروویٹ سے ایتھانول اور کاربن ڈائی آکسائیڈ بنا سکتا ہے۔"
+            },
+            "sd": {
+              "question": "خمير ۾ الڪوحلي فرمينٽيشن سان ڪهڙي گئس خارج ٿئي ٿي؟",
+              "options": {
+                "A": "ڪاربان ڊاءِ آڪسائيڊ",
+                "B": "نائٽروجن",
+                "C": "هائيڊروجن",
+                "D": "ڪلورين"
+              },
+              "explanation": "خمير پائروويٽ مان ايٿانول ۽ ڪاربان ڊاءِ آڪسائيڊ ٺاهي سگهي ٿو."
+            }
+          }
         },
         {
           "question": "Compared with fermentation, aerobic respiration generally transfers:",
@@ -262,7 +658,29 @@
             "D": "Exactly the same ATP in all conditions"
           },
           "correctOption": "A",
-          "explanation": "Aerobic respiration includes further oxidation and oxidative phosphorylation, yielding much more ATP."
+          "explanation": "Aerobic respiration includes further oxidation and oxidative phosphorylation, yielding much more ATP.",
+          "translations": {
+            "ur": {
+              "question": "ایک گلوکوز سے گلائیکولائسز میں خالص کتنے ATP حاصل ہوتے ہیں؟",
+              "options": {
+                "A": "دو",
+                "B": "چار",
+                "C": "تیس",
+                "D": "صفر"
+              },
+              "explanation": "گلائیکولائسز میں چار ATP بنتے ہیں مگر دو استعمال ہوتے ہیں، اس لیے خالص فائدہ دو ATP ہے۔"
+            },
+            "sd": {
+              "question": "هڪ گلوڪوز مان گلائڪولائسس ۾ خالص ڪيترا ATP ملن ٿا؟",
+              "options": {
+                "A": "ٻه",
+                "B": "چار",
+                "C": "ٽيهه",
+                "D": "صفر"
+              },
+              "explanation": "گلائڪولائسس ۾ چار ATP ٺهن ٿا پر ٻه استعمال ٿين ٿا، تنهنڪري خالص ٻه ATP ملن ٿا."
+            }
+          }
         },
         {
           "question": "Which statement is correct?",
@@ -273,7 +691,29 @@
             "D": "Breathing and cellular respiration are identical"
           },
           "correctOption": "B",
-          "explanation": "Plant cells respire continuously; photosynthesis requires light."
+          "explanation": "Plant cells respire continuously; photosynthesis requires light.",
+          "translations": {
+            "ur": {
+              "question": "ایروبک تنفس، فرمینٹیشن کے مقابلے میں زیادہ ATP کیوں بناتا ہے؟",
+              "options": {
+                "A": "گلوکوز کی مکمل آکسیڈیشن اور الیکٹران ٹرانسپورٹ چین کی وجہ سے",
+                "B": "کیونکہ اس میں کوئی خامرہ نہیں ہوتا",
+                "C": "کیونکہ یہ آکسیجن استعمال نہیں کرتا",
+                "D": "کیونکہ یہ صرف سائٹوپلازم میں ہوتا ہے"
+              },
+              "explanation": "ایروبک تنفس میں گلوکوز زیادہ مکمل طور پر ٹوٹتا ہے اور الیکٹران ٹرانسپورٹ چین بڑی مقدار میں ATP بناتی ہے۔"
+            },
+            "sd": {
+              "question": "ايروبڪ تنفس فرمينٽيشن جي ڀيٽ ۾ وڌيڪ ATP ڇو ٺاهي ٿو؟",
+              "options": {
+                "A": "گلوڪوز جي مڪمل آڪسائيڊيشن ۽ اليڪٽران ٽرانسپورٽ چين سبب",
+                "B": "ڇاڪاڻ ته ان ۾ ڪو انزائم ناهي",
+                "C": "ڇاڪاڻ ته اهو آڪسيجن استعمال نٿو ڪري",
+                "D": "ڇاڪاڻ ته اهو رڳو سائٽوپلازم ۾ ٿئي ٿو"
+              },
+              "explanation": "ايروبڪ تنفس ۾ گلوڪوز وڌيڪ مڪمل طور ٽٽي ٿو ۽ اليڪٽران ٽرانسپورٽ چين گهڻو ATP ٺاهي ٿي."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -286,7 +726,27 @@
             "Definition/components (2 marks)",
             "Hydrolysis and energy transfer (1 mark)",
             "Two cellular uses (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "ATP کی تعریف کریں اور خلوی سرگرمیوں میں اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "ATP (ایڈینوسین ٹرائی فاسفیٹ) ایک نیوکلیوٹائڈ نما سالمہ ہے جس میں ایڈینین، رائبوز اور تین فاسفیٹ گروپ ہوتے ہیں۔ ADP اور غیر نامیاتی فاسفیٹ میں ٹوٹنے پر قابلِ استعمال توانائی خارج ہوتی ہے، جسے فعال نقل و حمل، عضلاتی سکڑاؤ اور سالمات کی تیاری جیسے کاموں سے جوڑا جا سکتا ہے۔ ATP مسلسل دوبارہ بنتا رہتا ہے۔",
+              "rubric": [
+                "تعریف/اجزا (2 نمبر)",
+                "ہائیڈرولائسز اور توانائی کی منتقلی (1 نمبر)",
+                "خلوی استعمالات میں سے دو (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ATP جي وصف ڏيو ۽ خلوي سرگرمين ۾ ان جي اهميت بيان ڪريو.",
+              "modelAnswer": "ATP (ايڊينوسين ٽرائي فاسفيٽ) نيوڪليوٽائڊ جهڙو ماليڪيول آهي، جنهن ۾ ايڊينين، رائبوز ۽ ٽي فاسفيٽ گروپ هوندا آهن. ADP ۽ غير نامياتي فاسفيٽ ۾ ٽٽڻ تي استعمال لائق توانائي خارج ٿئي ٿي، جيڪا فعال منتقلي، عضلات جي سڪڙجڻ ۽ ماليڪيول ٺاهڻ جهڙن ڪمن سان ڳنڍجي ٿي. ATP مسلسل ٻيهر ٺهندو رهي ٿو.",
+              "rubric": [
+                "وصف/جزا (2 نمبر)",
+                "هائيڊرولائسس ۽ توانائيءَ جي منتقلي (1 نمبر)",
+                "خلوي استعمالن مان ٻه (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -296,7 +756,25 @@
           "rubric": [
             "Correct word equation (2 marks)",
             "Two valid rate factors (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "ضیائی تالیف کی لفظی مساوات لکھیں اور اس کی رفتار پر اثر انداز ہونے والے دو عوامل بتائیں۔",
+              "modelAnswer": "کاربن ڈائی آکسائیڈ + پانی، روشنی کی توانائی کی موجودگی میں، کاربوہائیڈریٹ (عموماً گلوکوز) + آکسیجن بناتے ہیں۔ رفتار پر روشنی کی شدت، کاربن ڈائی آکسائیڈ کا ارتکاز، درجہ حرارت اور پانی کی دستیابی اثر انداز ہوتے ہیں۔",
+              "rubric": [
+                "درست لفظی مساوات (2 نمبر)",
+                "رفتار کے دو درست عوامل (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ضيائي ترڪيب جي لفظي مساوات لکو ۽ ان جي رفتار تي اثر ڪندڙ ٻه عنصر ٻڌايو.",
+              "modelAnswer": "ڪاربان ڊاءِ آڪسائيڊ + پاڻي، روشنيءَ جي توانائيءَ جي موجودگيءَ ۾، ڪاربوهائيڊريٽ (عام طور گلوڪوز) + آڪسيجن ٺاهين ٿا. رفتار تي روشنيءَ جي شدت، ڪاربان ڊاءِ آڪسائيڊ جو ارتڪاز، گرمي پد ۽ پاڻيءَ جي موجودگي اثر وجهن ٿا.",
+              "rubric": [
+                "صحيح لفظي مساوات (2 نمبر)",
+                "رفتار جا ٻه صحيح عنصر (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -307,7 +785,27 @@
             "Oxygen use (1 mark)",
             "Products/pathway difference (1 mark)",
             "ATP yield comparison (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "ایروبک تنفس اور فرمینٹیشن میں فرق بیان کریں۔",
+              "modelAnswer": "ایروبک تنفس آکسیجن استعمال کرتا ہے، گلوکوز کو زیادہ مکمل طور پر توڑتا ہے اور بہت زیادہ ATP بناتا ہے؛ اس کی آخری مصنوعات کاربن ڈائی آکسائیڈ اور پانی ہیں۔ فرمینٹیشن آکسیجن کے بغیر ہوتی ہے، صرف گلائیکولائسز سے خالص دو ATP حاصل ہوتے ہیں اور جانوروں میں لیکٹیٹ یا خمیر میں ایتھانول اور کاربن ڈائی آکسائیڈ بن سکتے ہیں۔",
+              "rubric": [
+                "آکسیجن کے استعمال کا فرق (1 نمبر)",
+                "ATP کی مقدار کا فرق (2 نمبر)",
+                "آخری مصنوعات (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ايروبڪ تنفس ۽ فرمينٽيشن ۾ فرق بيان ڪريو.",
+              "modelAnswer": "ايروبڪ تنفس آڪسيجن استعمال ڪري ٿو، گلوڪوز کي وڌيڪ مڪمل طور ٽوڙي ٿو ۽ گهڻو ATP ٺاهي ٿو؛ آخري پيداوار ڪاربان ڊاءِ آڪسائيڊ ۽ پاڻي آهن. فرمينٽيشن آڪسيجن کان سواءِ ٿئي ٿي، رڳو گلائڪولائسس مان خالص ٻه ATP ملن ٿا ۽ جانورن ۾ ليڪٽِيٽ يا خمير ۾ ايٿانول ۽ ڪاربان ڊاءِ آڪسائيڊ ٺهي سگهن ٿا.",
+              "rubric": [
+                "آڪسيجن جي استعمال جو فرق (1 نمبر)",
+                "ATP جي مقدار جو فرق (2 نمبر)",
+                "آخري پيداوارون (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -321,7 +819,29 @@
             "NADPH production (1 mark)",
             "Carbon fixation and use of ATP/NADPH (2 marks)",
             "Regeneration of carbon acceptor/link between stages (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "ضیائی تالیف کے روشنی والے تعاملات اور کیلون سائیکل کی وضاحت کریں۔",
+              "modelAnswer": "روشنی والے تعاملات تھائلاکوئڈ جھلیوں میں ہوتے ہیں۔ کلوروفل روشنی جذب کرتا ہے، پانی ٹوٹ کر آکسیجن، الیکٹران اور پروٹون بناتا ہے؛ الیکٹران ٹرانسپورٹ سے ATP اور NADPH بنتے ہیں۔ کیلون سائیکل اسٹروما میں ہوتا ہے، جہاں روبسکو CO2 کو RuBP کے ساتھ جوڑتا ہے اور ATP و NADPH کی مدد سے کاربن مرکبات کو کاربوہائیڈریٹ بنانے کے قابل بناتا ہے۔",
+              "rubric": [
+                "روشنی والے تعاملات کا مقام اور روشنی جذب (2 نمبر)",
+                "پانی کا ٹوٹنا اور آکسیجن (2 نمبر)",
+                "ATP/NADPH کی تشکیل (2 نمبر)",
+                "کیلون سائیکل، CO2 تثبیت اور مصنوعات (4 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ضيائي ترڪيب جي روشنيءَ وارن عملن ۽ ڪيلون سائيڪل جي وضاحت ڪريو.",
+              "modelAnswer": "روشنيءَ وارا عمل ٿائلاڪوئڊ جھلين ۾ ٿين ٿا. ڪلوروفل روشني جذب ڪري ٿو، پاڻي ٽٽي آڪسيجن، اليڪٽران ۽ پروٽان ٺاهي ٿو؛ اليڪٽران ٽرانسپورٽ سان ATP ۽ NADPH ٺهن ٿا. ڪيلون سائيڪل اسٽروما ۾ ٿئي ٿو، جتي روبسڪو CO2 کي RuBP سان ڳنڍي ٿو ۽ ATP توڙي NADPH جي مدد سان ڪاربان مرڪبن کي ڪاربوهائيڊريٽ ٺاهڻ جي قابل بڻائي ٿو.",
+              "rubric": [
+                "روشنيءَ وارن عملن جي جاءِ ۽ روشني جذب (2 نمبر)",
+                "پاڻيءَ جو ٽٽڻ ۽ آڪسيجن (2 نمبر)",
+                "ATP/NADPH ٺهڻ (2 نمبر)",
+                "ڪيلون سائيڪل، CO2 جي تثبيت ۽ پيداوارون (4 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -334,7 +854,31 @@
             "Lactic fermentation and NAD+ regeneration (2 marks)",
             "Alcoholic fermentation products (1 mark)",
             "ATP yield comparison and cellular importance (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "خلوی تنفس کے اہم مراحل بیان کریں اور وضاحت کریں کہ آکسیجن اس عمل میں کیا کردار ادا کرتی ہے۔",
+              "modelAnswer": "گلائیکولائسز سائٹوپلازم میں گلوکوز کو دو پائروویٹ میں توڑتی ہے اور تھوڑا ATP و NADH بناتی ہے۔ آکسیجن کی موجودگی میں پائروویٹ مائٹوکانڈریا میں داخل ہو کر آکسیڈیٹ ہوتا ہے، پھر کربس سائیکل CO2 اور الیکٹران بردار سالمات بناتا ہے۔ الیکٹران ٹرانسپورٹ چین میں آکسیجن آخری الیکٹران قبول کرنے والا ہے اور پانی بنتا ہے؛ پروٹون گریڈینٹ سے آکسیڈیٹو فاسفوریلیشن کے ذریعے زیادہ ATP بنتا ہے۔",
+              "rubric": [
+                "گلائیکولائسز (2 نمبر)",
+                "پائروویٹ آکسیڈیشن اور کربس سائیکل (3 نمبر)",
+                "الیکٹران ٹرانسپورٹ چین (2 نمبر)",
+                "آکسیجن کا آخری قبول کنندہ کردار اور پانی (2 نمبر)",
+                "ATP پیداوار کا تعلق (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "خلوي تنفس جا اهم مرحلا بيان ڪريو ۽ ٻڌايو ته آڪسيجن هن عمل ۾ ڪهڙو ڪردار ادا ڪري ٿي.",
+              "modelAnswer": "گلائڪولائسس سائٽوپلازم ۾ گلوڪوز کي ٻن پائروويٽ ۾ ٽوڙي ٿورو ATP ۽ NADH ٺاهي ٿي. آڪسيجن موجود هجي ته پائروويٽ مائٽوڪانڊريا ۾ داخل ٿي آڪسائيڊ ٿئي ٿو، پوءِ ڪربس سائيڪل CO2 ۽ اليڪٽران کڻندڙ ماليڪيول ٺاهي ٿو. اليڪٽران ٽرانسپورٽ چين ۾ آڪسيجن آخري اليڪٽران قبول ڪندڙ آهي ۽ پاڻي ٺهي ٿو؛ پروٽان گريڊينٽ وسيلي آڪسائيڊيٽو فاسفورائليشن ۾ وڌيڪ ATP ٺهي ٿو.",
+              "rubric": [
+                "گلائڪولائسس (2 نمبر)",
+                "پائروويٽ آڪسائيڊيشن ۽ ڪربس سائيڪل (3 نمبر)",
+                "اليڪٽران ٽرانسپورٽ چين (2 نمبر)",
+                "آڪسيجن جو آخري قبول ڪندڙ ڪردار ۽ پاڻي (2 نمبر)",
+                "ATP ٺهڻ سان تعلق (1 نمبر)"
+              ]
+            }
+          }
         }
       ]
     }
