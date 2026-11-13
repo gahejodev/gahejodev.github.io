@@ -24,8 +24,8 @@ https://gahejodev.github.io/zeeroz-ai-studio/
 The procedural Three.js engine currently recognizes selected topics and provides reusable animated templates for:
 - Biology: cell, chloroplast, mitochondrion and DNA
 - Chemistry: atom and simple water-molecule model
-- Physics: travelling wave and electric circuit
-- Mathematics: basic 3D geometry
+- Physics: force/motion vectors, travelling wave and electric circuit
+- Mathematics: basic 3D geometry; unmatched lessons use a neutral concept visual instead of an unrelated Biology model
 
 The models are rule-based visual aids. They are not yet a universal AI model that understands every lesson or produces scientifically exact animations for all topics.
 
