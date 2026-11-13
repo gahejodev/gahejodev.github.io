@@ -155,6 +155,7 @@ OFFICIAL SYLLABUS NOTES: ${syllabusNotes || "Not supplied. Do not claim verified
 REQUIREMENTS:
 - Create exactly ${chapters} chapter(s).
 - Each chapter must contain exactly ${lessons} original text lesson(s) and exactly ${mcqs} MCQs.
+- Each chapter must also contain at least two writtenQuestions: one CRQ and one ERQ, with marks, detailed modelAnswer, marking rubric, and Urdu/Sindhi translations.
 - Lessons must be age-appropriate, clear, accurate, detailed enough to teach the topic, and include examples and key terms.
 - For every lesson, provide complete teacher-style Urdu and Sindhi explanations in explanations.ur and explanations.sd. Do not use word-for-word translation; explain concepts naturally for Pakistani school students.
 - For every MCQ, provide localized question, all four options, and explanation in translations.ur and translations.sd.
@@ -182,6 +183,10 @@ REQUIREMENTS:
           "explanation": "string",
           "translations": {"ur": {"question": "string", "options": {"A": "string", "B": "string", "C": "string", "D": "string"}, "explanation": "string"}, "sd": {"question": "string", "options": {"A": "string", "B": "string", "C": "string", "D": "string"}, "explanation": "string"}}
         }
+      ],
+      "writtenQuestions": [
+        {"type": "crq", "question": "string", "marks": 5, "modelAnswer": "string", "rubric": ["string"], "translations": {"ur": {"question": "string", "modelAnswer": "string", "rubric": ["string"]}, "sd": {"question": "string", "modelAnswer": "string", "rubric": ["string"]}}},
+        {"type": "erq", "question": "string", "marks": 10, "modelAnswer": "string", "rubric": ["string"], "translations": {"ur": {"question": "string", "modelAnswer": "string", "rubric": ["string"]}, "sd": {"question": "string", "modelAnswer": "string", "rubric": ["string"]}}
       ]
     }
   ]
