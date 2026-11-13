@@ -13,6 +13,28 @@ $("course").addEventListener("change",async()=>{const p=packages[Number($("cours
 $("chapter").addEventListener("change",()=>{const ch=courseData?.chapters?.[Number($("chapter").value)];fill($("lesson"),(ch?.lessons||[]).map(l=>({label:l.title})),"Choose a lesson");$("loadLesson").disabled=!ch?.lessons?.length});
 function makeSceneList(markdown){const sections=[];let heading="Lesson introduction",lines=[],image="";for(const raw of markdown.split(/\r?\n/)){const line=raw.trim();if(!line||line==="---")continue;const im=line.match(/^!\[[^\]]*\]\(([^)]+)\)/);if(im){image=im[1];continue}const m=line.match(/^#{1,3}\s+(.+)$/);if(m){if(lines.length)sections.push({title:heading,body:lines.join(" "),image});heading=clean(m[1]);lines=[];image=""}else{const t=clean(line);if(t)lines.push(t)}}if(lines.length)sections.push({title:heading,body:lines.join(" "),image});const result=[];sections.forEach(s=>{const sentences=s.body.match(/[^.!?]+[.!?]?/g)||[s.body];let buf="";sentences.forEach(part=>{const t=part.trim();if(!t)return;if(buf&&buf.length+t.length>420){result.push({title:s.title,narration:buf.trim(),image:s.image});buf=""}buf+=(buf?" ":"")+t});if(buf)result.push({title:s.title,narration:buf.trim(),image:s.image})});return result}
 $("loadLesson").addEventListener("click",()=>{if(!allowed)return;const chapter=courseData.chapters[Number($("chapter").value)],lesson=chapter.lessons[Number($("lesson").value)];window.currentLesson={course:courseData.title,chapter:chapter.title,lesson};$("videoTitle").value=lesson.title+" | "+courseData.title;$("editor").hidden=false;$("previewCard").hidden=true;scenes=[];$("sceneList").replaceChildren();$("scriptOutput").value="";status("Lesson ready. Generate the storyboard when ready.")});
+let lesson3D=null,lesson3DLoading=null,lastExport3DScene="";
+async function initLesson3D(){
+ if(lesson3D)return lesson3D;
+ if(lesson3DLoading)return lesson3DLoading;
+ lesson3DLoading=(async()=>{
+  const host=$("lesson3DStage");if(!host)throw new Error("3D stage is missing.");
+  const loading=$("lesson3DLoading"),label=$("scene3DLabel");
+  if(loading)loading.textContent="Loading the animated Biology model…";
+  const mod=await import("./lesson-3d-engine.js?v=biology-pilot-2");
+  const engine=await mod.createLesson3D(host);
+  lesson3D={renderer:{domElement:engine.getCanvas()},setScene:engine.setScene,reset:engine.reset,dispose:engine.dispose};
+  if(loading)loading.style.display="none";
+  if(label)label.textContent="3D model ready · drag to rotate · pinch/scroll to zoom";
+  return lesson3D;
+ })().catch(e=>{lesson3DLoading=null;const loading=$("lesson3DLoading"),label=$("scene3DLabel");if(loading)loading.textContent="3D model could not load: "+e.message;if(label)label.textContent="3D preview unavailable: "+e.message;throw e});
+ return lesson3DLoading;
+}
+function updateLesson3D(){
+ const s=scenes[sceneIndex];if(!s)return;
+ initLesson3D().then(engine=>{const kind=engine.setScene(s);const label=$("scene3DLabel");if(label)label.textContent=({cell:"Cell structure · organelles",chloroplast:"Chloroplast · photosynthesis",mitochondrion:"Mitochondrion · ATP and respiration",dna:"DNA · double helix"})[kind]||"3D science model"}).catch(()=>{});
+}
+$("reset3DView")?.addEventListener("click",()=>lesson3D?.reset());
 function drawScene(){const s=scenes[sceneIndex];if(!s)return;updateLesson3D();$("slideKicker").textContent=(courseData?.title||"ZEEROZ ACADEMY").toUpperCase();$("slideTitle").textContent=s.title;const pts=s.narration.match(/.{1,115}(?:\s|$)/g)||[s.narration];$("slidePoints").replaceChildren(...pts.slice(0,4).map(t=>{const p=document.createElement("p");p.textContent="• "+t.trim();return p}));const visual=$("slideVisual");visual.replaceChildren();if(s.image&&s.image.startsWith("assets/images/biology/")&&!s.image.includes("..")){const img=document.createElement("img");img.src="./"+s.image;img.alt=s.title+" teaching diagram";img.loading="lazy";img.onerror=()=>{visual.textContent="Diagram unavailable for this lesson section."};visual.append(img)}else{const steps=s.narration.split(/[,;:]|\b(?:then|next|finally|and)\b/i).map(x=>x.trim()).filter(x=>x.length>3).slice(0,5);const flow=document.createElement("div");flow.className="diagram";steps.forEach((x,i)=>{const node=document.createElement("span");node.textContent=x.slice(0,42);if(i===sceneIndex%Math.max(steps.length,1))node.classList.add("active");flow.append(node)});visual.append(flow)}$("sceneNarration").value=s.narration;$("sceneCounter").textContent="Scene "+(sceneIndex+1)+" of "+scenes.length;$("prevScene").disabled=sceneIndex===0;$("nextScene").disabled=sceneIndex===scenes.length-1;$("progress").style.width=((sceneIndex+1)/scenes.length*100)+"%"}
 function renderList(){const host=$("sceneList");host.replaceChildren();scenes.forEach((s,i)=>{const card=document.createElement("article");card.className="scene";const title=document.createElement("strong");title.textContent=(i+1)+". "+s.title;const p=document.createElement("p");p.textContent=s.narration;const edit=document.createElement("button");edit.className="secondary";edit.textContent="Preview this scene";edit.addEventListener("click",()=>{sceneIndex=i;drawScene()});card.append(title,p,edit);host.append(card)});$("speakAll").disabled=!scenes.length;$("previewCard").hidden=!scenes.length;$("scriptOutput").value=scenes.map((x,n)=>"SCENE "+(n+1)+": "+x.title+"\n"+x.narration).join("\n\n");sceneIndex=0;drawScene()}
 function getSelectedLessonContent(){const lesson=window.currentLesson?.lesson;if(!lesson)return "";const lang=$("language").value||"en";if(lang!=="en"){const translated=lesson.explanations?.[lang];if(typeof translated==="string"&&translated.trim())return translated;status((lang==="ur"?"Urdu":"Sindhi")+" explanation is not available for this lesson; English content will be used.");}return lesson.content||""}
@@ -272,7 +294,7 @@ async function exportReal3DTeacher(){
    ctx.restore();
    ctx.fillStyle="#ffffff";ctx.font="bold 23px system-ui";ctx.fillText("ZEEROZ ACADEMY",650,78);
    ctx.fillStyle="#f2ce60";ctx.font="bold 16px system-ui";ctx.fillText("AI TEACHER · 3D LECTURE",650,112);
-   const sc=sceneAt(audioContext.currentTime-startedAt);
+   const sc=sceneAt(audioContext.currentTime-startedAt);if(lesson3D&&sc.title!==lastExport3DScene){lesson3D.setScene(sc);lastExport3DScene=sc.title;}
    ctx.fillStyle="#ffffff";ctx.font="bold 38px system-ui";
    const wrap=(txt,x,y,max,lineH,maxLines)=>{const words=String(txt||"").split(/\s+/);let line="",count=0;for(const w of words){const test=line?line+" "+w:w;if(ctx.measureText(test).width>max&&line){ctx.fillText(line,x,y+count*lineH);line=w;if(++count>=maxLines)return}else line=test}if(line&&count<maxLines)ctx.fillText(line,x,y+count*lineH)};
    wrap(sc.title,650,190,570,48,3);
