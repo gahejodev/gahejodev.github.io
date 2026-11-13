@@ -64,7 +64,29 @@
             "D": "Only the extinction of species"
           },
           "correctOption": "A",
-          "explanation": "Evolution describes inherited population change across generations."
+          "explanation": "Evolution describes inherited population change across generations.",
+          "translations": {
+            "ur": {
+              "question": "حیاتیاتی ارتقا سے کیا مراد ہے؟",
+              "options": {
+                "A": "نسل در نسل آبادیوں کی موروثی خصوصیات میں تبدیلی",
+                "B": "ایک دن میں فرد کے قد میں تبدیلی",
+                "C": "ہر جاندار کا زیادہ پیچیدہ ہو جانا",
+                "D": "صرف انواع کا معدوم ہونا"
+              },
+              "explanation": "ارتقا کئی نسلوں میں آبادی کی موروثی خصوصیات میں تبدیلی کو کہتے ہیں۔"
+            },
+            "sd": {
+              "question": "حياتياتي ارتقا مان ڇا مراد آهي؟",
+              "options": {
+                "A": "نسل در نسل آبادين جي موروثي خاصيتن ۾ تبديلي",
+                "B": "هڪ ڏينهن ۾ فرد جي قد ۾ تبديلي",
+                "C": "هر جاندار جو وڌيڪ پيچيده ٿيڻ",
+                "D": "رڳو نوعن جو ختم ٿيڻ"
+              },
+              "explanation": "ارتقا ڪيترين نسلن دوران آباديءَ جي موروثي خاصيتن ۾ تبديلي آهي."
+            }
+          }
         },
         {
           "question": "Which process can create a new allele?",
@@ -75,7 +97,29 @@
             "D": "Respiration"
           },
           "correctOption": "A",
-          "explanation": "Mutation changes genetic material and can create new alleles."
+          "explanation": "Mutation changes genetic material and can create new alleles.",
+          "translations": {
+            "ur": {
+              "question": "کون سا عمل نیا ایلیل پیدا کر سکتا ہے؟",
+              "options": {
+                "A": "میوٹیشن",
+                "B": "صرف زیرگی",
+                "C": "ہاضمہ",
+                "D": "تنفس"
+              },
+              "explanation": "میوٹیشن جینیاتی مادے میں تبدیلی لا کر نیا ایلیل پیدا کر سکتی ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو عمل نئون ايليل پيدا ڪري سگهي ٿو؟",
+              "options": {
+                "A": "ميوٽيشن",
+                "B": "رڳو زرپاشي",
+                "C": "هاضمو",
+                "D": "تنفس"
+              },
+              "explanation": "ميوٽيشن جينياتي مادي ۾ تبديلي آڻي نئون ايليل پيدا ڪري سگهي ٿي."
+            }
+          }
         },
         {
           "question": "Natural selection requires:",
@@ -86,7 +130,29 @@
             "D": "No environmental pressures"
           },
           "correctOption": "A",
-          "explanation": "Natural selection changes trait and allele frequencies when heritable differences affect reproductive success."
+          "explanation": "Natural selection changes trait and allele frequencies when heritable differences affect reproductive success.",
+          "translations": {
+            "ur": {
+              "question": "قدرتی انتخاب کے لیے کیا ضروری ہے؟",
+              "options": {
+                "A": "موروثی تنوع اور افزائش میں کامیابی کا فرق",
+                "B": "تمام افراد کا یکساں ہونا",
+                "C": "جانداروں کا اپنی میوٹیشن خود چننا",
+                "D": "ماحولیاتی دباؤ کا نہ ہونا"
+              },
+              "explanation": "قدرتی انتخاب اس وقت ایلیلز کی شرح بدلتا ہے جب موروثی فرق افزائشی کامیابی پر اثر انداز ہوں۔"
+            },
+            "sd": {
+              "question": "قدرتي چونڊ لاءِ ڇا ضروري آهي؟",
+              "options": {
+                "A": "موروثي تنوع ۽ افزائش ۾ ڪاميابيءَ جو فرق",
+                "B": "سڀني فردن جو هڪجهڙو هجڻ",
+                "C": "جاندارن جو پنهنجي ميوٽيشن پاڻ چونڊڻ",
+                "D": "ماحولياتي دٻاءُ نه هجڻ"
+              },
+              "explanation": "قدرتي چونڊ تڏهن ايليلن جو تناسب بدلائي ٿي، جڏهن موروثي فرق افزائشي ڪاميابيءَ تي اثر وجهن ٿا."
+            }
+          }
         },
         {
           "question": "Fitness in evolutionary biology refers to:",
@@ -97,7 +163,29 @@
             "D": "A healthy diet"
           },
           "correctOption": "A",
-          "explanation": "Evolutionary fitness is measured by contribution of offspring to future generations."
+          "explanation": "Evolutionary fitness is measured by contribution of offspring to future generations.",
+          "translations": {
+            "ur": {
+              "question": "ارتقائی حیاتیات میں فٹنس سے کیا مراد ہے؟",
+              "options": {
+                "A": "کسی خاص ماحول میں نسبتی افزائشی کامیابی",
+                "B": "صرف جسمانی طاقت",
+                "C": "ہر نوع میں سب سے تیز دوڑنے کی صلاحیت",
+                "D": "صحت مند غذا"
+              },
+              "explanation": "ارتقائی فٹنس کو آئندہ نسلوں میں اولاد کے ذریعے جینز کی شراکت سے ناپا جاتا ہے۔"
+            },
+            "sd": {
+              "question": "ارتقائي حياتيات ۾ فٽنيس مان ڇا مراد آهي؟",
+              "options": {
+                "A": "ڪنهن خاص ماحول ۾ نسبتي افزائشي ڪاميابي",
+                "B": "رڳو جسماني طاقت",
+                "C": "هر نوع ۾ تيز ڊوڙڻ جي صلاحيت",
+                "D": "صحتمند خوراڪ"
+              },
+              "explanation": "ارتقائي فٽنيس ايندڙ نسلن ۾ اولاد وسيلي جينن جي حصيداريءَ سان ماپي وڃي ٿي."
+            }
+          }
         },
         {
           "question": "In natural selection, advantageous inherited traits tend to:",
@@ -108,7 +196,29 @@
             "D": "Have no effect on reproduction"
           },
           "correctOption": "A",
-          "explanation": "Traits linked to greater reproductive success may increase in frequency."
+          "explanation": "Traits linked to greater reproductive success may increase in frequency.",
+          "translations": {
+            "ur": {
+              "question": "قدرتی انتخاب میں فائدہ مند موروثی خصوصیات عموماً کیا ہوتی ہیں؟",
+              "options": {
+                "A": "نسلوں کے دوران زیادہ عام ہو جاتی ہیں",
+                "B": "فوراً ختم ہو جاتی ہیں",
+                "C": "ہر فرد کا DNA ارادے سے بدل دیتی ہیں",
+                "D": "افزائش پر کوئی اثر نہیں ڈالتیں"
+              },
+              "explanation": "زیادہ افزائشی کامیابی سے وابستہ خصوصیات کی شرح آبادی میں بڑھ سکتی ہے۔"
+            },
+            "sd": {
+              "question": "قدرتي چونڊ ۾ فائديمند موروثي خاصيتون عام طور ڇا ٿين ٿيون؟",
+              "options": {
+                "A": "نسلن دوران وڌيڪ عام ٿين ٿيون",
+                "B": "فوراً ختم ٿين ٿيون",
+                "C": "هر فرد جو DNA ارادي سان بدلائين ٿيون",
+                "D": "افزائش تي ڪو اثر نٿيون وجهن"
+              },
+              "explanation": "وڌيڪ افزائشي ڪاميابيءَ سان لاڳاپيل خاصيتن جو تناسب آباديءَ ۾ وڌي سگهي ٿو."
+            }
+          }
         },
         {
           "question": "Antibiotic resistance becomes common mainly because:",
@@ -119,7 +229,29 @@
             "D": "Antibiotics create a need for evolution"
           },
           "correctOption": "B",
-          "explanation": "Antibiotic use selects for resistant bacteria that already carry resistance traits or acquire them."
+          "explanation": "Antibiotic use selects for resistant bacteria that already carry resistance traits or acquire them.",
+          "translations": {
+            "ur": {
+              "question": "اینٹی بایوٹک مزاحمت عام طور پر کیوں بڑھتی ہے؟",
+              "options": {
+                "A": "اینٹی بایوٹک بیکٹیریا کو مزاحمت چننا سکھاتی ہے",
+                "B": "مزاحم اقسام اینٹی بایوٹک کے انتخابی دباؤ میں زندہ رہ کر زیادہ افزائش کرتی ہیں",
+                "C": "تمام بیکٹیریا یکساں ہو جاتے ہیں",
+                "D": "اینٹی بایوٹک ارتقا کی ضرورت پیدا کرتی ہے"
+              },
+              "explanation": "اینٹی بایوٹک مزاحم بیکٹیریا کو منتخب کرتی ہے جو پہلے سے مزاحم خصوصیات رکھتے یا حاصل کر چکے ہوں۔"
+            },
+            "sd": {
+              "question": "اينٽي بايوٽڪ مزاحمت عام طور ڇو وڌي ٿي؟",
+              "options": {
+                "A": "اينٽي بايوٽڪ بيڪٽيريا کي مزاحمت چونڊڻ سيکاري ٿي",
+                "B": "مزاحم جراثيم چونڊ جي دٻاءَ ۾ بچي وڌيڪ افزائش ڪن ٿا",
+                "C": "سڀ بيڪٽيريا هڪجهڙا ٿي وڃن ٿا",
+                "D": "اينٽي بايوٽڪ ارتقا جي ضرورت پيدا ڪري ٿي"
+              },
+              "explanation": "اينٽي بايوٽڪ انهن بيڪٽيريا کي چونڊي ٿي، جيڪي اڳ ئي مزاحمت رکن ٿا يا حاصل ڪري چڪا آهن."
+            }
+          }
         },
         {
           "question": "Darwin and Wallace are associated with the development of:",
@@ -130,7 +262,29 @@
             "D": "The discovery of DNA structure"
           },
           "correctOption": "A",
-          "explanation": "Darwin and Wallace independently developed explanations based on natural selection."
+          "explanation": "Darwin and Wallace independently developed explanations based on natural selection.",
+          "translations": {
+            "ur": {
+              "question": "ڈارون اور والیس کس تصور کی ترقی سے وابستہ ہیں؟",
+              "options": {
+                "A": "قدرتی انتخاب کے ذریعے ارتقا",
+                "B": "صرف خلوی نظریہ",
+                "C": "تین ڈومین نظام",
+                "D": "DNA کی ساخت کی دریافت"
+              },
+              "explanation": "ڈارون اور والیس نے آزادانہ طور پر قدرتی انتخاب پر مبنی ارتقائی وضاحت پیش کی۔"
+            },
+            "sd": {
+              "question": "ڊارون ۽ والس ڪهڙي تصور جي ترقيءَ سان لاڳاپيل آهن؟",
+              "options": {
+                "A": "قدرتي چونڊ وسيلي ارتقا",
+                "B": "رڳو خلوي نظريو",
+                "C": "ٽن ڊومينن وارو نظام",
+                "D": "DNA جي بناوت جي دريافت"
+              },
+              "explanation": "ڊارون ۽ والس آزادانه طور قدرتي چونڊ تي ٻڌل ارتقائي وضاحت پيش ڪئي."
+            }
+          }
         },
         {
           "question": "Allopatric speciation usually begins with:",
@@ -141,7 +295,29 @@
             "D": "The disappearance of DNA"
           },
           "correctOption": "A",
-          "explanation": "A geographic barrier can separate populations and reduce gene flow."
+          "explanation": "A geographic barrier can separate populations and reduce gene flow.",
+          "translations": {
+            "ur": {
+              "question": "ایلوپیٹرک اسپیشی ایشن عموماً کس سے شروع ہوتی ہے؟",
+              "options": {
+                "A": "جغرافیائی علیحدگی جس سے جین کا تبادلہ کم ہو",
+                "B": "تمام آبادیوں کا بغیر رکاوٹ ساتھ رہنا",
+                "C": "جینیاتی تنوع کا نہ ہونا",
+                "D": "DNA کا ختم ہو جانا"
+              },
+              "explanation": "جغرافیائی رکاوٹ آبادیوں کو الگ کر کے جین کے تبادلے کو کم کر سکتی ہے۔"
+            },
+            "sd": {
+              "question": "ايلوپيٽرڪ اسپيشيئيشن عام طور ڪهڙي شيءِ سان شروع ٿئي ٿي؟",
+              "options": {
+                "A": "جاگرافيائي جدائي، جنهن سان جين جي ڏي وٺ گهٽجي",
+                "B": "سڀ آبادين جو بنا رڪاوٽ گڏ رهڻ",
+                "C": "جينياتي تنوع نه هجڻ",
+                "D": "DNA ختم ٿيڻ"
+              },
+              "explanation": "جاگرافيائي رڪاوٽ آباديون ڌار ڪري جين جي ڏي وٺ گهٽائي سگهي ٿي."
+            }
+          }
         },
         {
           "question": "Sympatric speciation occurs:",
@@ -152,7 +328,29 @@
             "D": "Only in mammals"
           },
           "correctOption": "A",
-          "explanation": "Sympatric speciation develops reproductive isolation within the same geographic area."
+          "explanation": "Sympatric speciation develops reproductive isolation within the same geographic area.",
+          "translations": {
+            "ur": {
+              "question": "سمپیٹرک اسپیشی ایشن کہاں ہوتی ہے؟",
+              "options": {
+                "A": "جغرافیائی علیحدگی کے بغیر",
+                "B": "صرف سمندروں کے پار",
+                "C": "صرف فوسلز میں",
+                "D": "صرف ممالیہ میں"
+              },
+              "explanation": "سمپیٹرک اسپیشی ایشن ایک ہی جغرافیائی علاقے میں تولیدی علیحدگی کے نتیجے میں ہو سکتی ہے۔"
+            },
+            "sd": {
+              "question": "سمپيٽرڪ اسپيشيئيشن ڪٿي ٿئي ٿي؟",
+              "options": {
+                "A": "جاگرافيائي جدائي کان سواءِ",
+                "B": "رڳو سمنڊن جي پار",
+                "C": "رڳو فوسلز ۾",
+                "D": "رڳو ٿڻائتن ۾"
+              },
+              "explanation": "سمپيٽرڪ اسپيشيئيشن ساڳئي جاگرافيائي علائقي ۾ توليدي جدائي سبب ٿي سگهي ٿي."
+            }
+          }
         },
         {
           "question": "A prezygotic barrier acts:",
@@ -163,7 +361,29 @@
             "D": "Only during digestion"
           },
           "correctOption": "A",
-          "explanation": "Prezygotic barriers prevent mating or fertilisation."
+          "explanation": "Prezygotic barriers prevent mating or fertilisation.",
+          "translations": {
+            "ur": {
+              "question": "پری زائیگوٹک رکاوٹ کب اثر کرتی ہے؟",
+              "options": {
+                "A": "بارآوری سے پہلے",
+                "B": "صرف پیدائش کے بعد",
+                "C": "فوسل بننے کے بعد",
+                "D": "صرف ہاضمے کے دوران"
+              },
+              "explanation": "پری زائیگوٹک رکاوٹیں ملاپ یا بارآوری کو ہونے سے روکتی ہیں۔"
+            },
+            "sd": {
+              "question": "پري زائگوٽڪ رڪاوٽ ڪڏهن اثر ڪري ٿي؟",
+              "options": {
+                "A": "بارآوري کان اڳ",
+                "B": "رڳو ڄمڻ کان پوءِ",
+                "C": "فوسل ٺهڻ کان پوءِ",
+                "D": "رڳو هاضمي دوران"
+              },
+              "explanation": "پري زائگوٽڪ رڪاوٽون ميلاپ يا بارآوري ٿيڻ کان روڪين ٿيون."
+            }
+          }
         },
         {
           "question": "Homologous structures provide evidence of:",
@@ -174,7 +394,29 @@
             "D": "Only artificial selection"
           },
           "correctOption": "A",
-          "explanation": "Homologous structures share an underlying pattern inherited from a common ancestor."
+          "explanation": "Homologous structures share an underlying pattern inherited from a common ancestor.",
+          "translations": {
+            "ur": {
+              "question": "ہم شکل ساختیں کس چیز کا ثبوت دیتی ہیں؟",
+              "options": {
+                "A": "مشترکہ آباؤ اجداد",
+                "B": "تمام جانداروں میں موجودہ کام کا یکساں ہونا",
+                "C": "ارتقائی تعلق نہ ہونا",
+                "D": "صرف مصنوعی انتخاب"
+              },
+              "explanation": "ہم شکل ساختیں مشترکہ آباؤ اجداد سے وراثت میں ملنے والی بنیادی ساختی ترتیب رکھتی ہیں۔"
+            },
+            "sd": {
+              "question": "هم ساختي عضوا ڪهڙي شيءِ جو ثبوت ڏين ٿا؟",
+              "options": {
+                "A": "گڏيل ابن ڏاڏن جو",
+                "B": "سڀني جاندارن ۾ موجوده ڪم هڪجهڙو هجڻ جو",
+                "C": "ارتقائي لاڳاپو نه هجڻ جو",
+                "D": "رڳو مصنوعي چونڊ جو"
+              },
+              "explanation": "هم ساختي عضون جي بنيادي بناوت گڏيل ابن ڏاڏن کان ورثي ۾ ملي ٿي."
+            }
+          }
         },
         {
           "question": "Bird wings and insect wings are commonly considered:",
@@ -185,7 +427,29 @@
             "D": "Chromosomes"
           },
           "correctOption": "A",
-          "explanation": "They perform similar functions but evolved independently."
+          "explanation": "They perform similar functions but evolved independently.",
+          "translations": {
+            "ur": {
+              "question": "پرندوں اور حشرات کے پر عموماً کس قسم کی ساختیں سمجھے جاتے ہیں؟",
+              "options": {
+                "A": "مشابہ ساختیں",
+                "B": "بالکل یکساں ہم شکل ساختیں",
+                "C": "صرف باقی ماندہ اعضا",
+                "D": "کروموسوم"
+              },
+              "explanation": "یہ یکساں کام کرتے ہیں مگر الگ الگ ارتقائی طور پر وجود میں آئے۔"
+            },
+            "sd": {
+              "question": "پکين ۽ جيتن جا پر عام طور ڪهڙي قسم جون بناوتون سمجهيا وڃن ٿا؟",
+              "options": {
+                "A": "مشابه بناوتون",
+                "B": "بلڪل هڪجهڙيون هم ساختي بناوتون",
+                "C": "رڳو باقي بچيل عضوا",
+                "D": "ڪروموسوم"
+              },
+              "explanation": "اهي ساڳيو ڪم ڪن ٿا، پر الڳ الڳ ارتقائي نموني پيدا ٿيا آهن."
+            }
+          }
         },
         {
           "question": "Fossils are:",
@@ -196,7 +460,29 @@
             "D": "Modern DNA sequences"
           },
           "correctOption": "A",
-          "explanation": "Fossils preserve evidence of ancient organisms and their activity."
+          "explanation": "Fossils preserve evidence of ancient organisms and their activity.",
+          "translations": {
+            "ur": {
+              "question": "فوسلز کیا ہوتے ہیں؟",
+              "options": {
+                "A": "ماضی کی زندگی کے محفوظ باقیات، نقوش یا آثار",
+                "B": "صرف زندہ جاندار",
+                "C": "صرف پودوں سے بنے معدنیات",
+                "D": "جدید DNA ترتیبیں"
+              },
+              "explanation": "فوسلز قدیم جانداروں اور ان کی سرگرمیوں کے شواہد محفوظ کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "فوسلز ڇا آهن؟",
+              "options": {
+                "A": "ماضيءَ جي زندگيءَ جا محفوظ باقيات، ڇاپون يا نشان",
+                "B": "رڳو زنده جاندار",
+                "C": "رڳو ٻوٽن مان ٺهيل معدنيات",
+                "D": "جديد DNA ترتيبون"
+              },
+              "explanation": "فوسلز قديم جاندارن ۽ انهن جي سرگرمين جا ثبوت محفوظ ڪن ٿا."
+            }
+          }
         },
         {
           "question": "Biogeography studies:",
@@ -207,7 +493,29 @@
             "D": "The movement of blood"
           },
           "correctOption": "A",
-          "explanation": "Biogeography investigates where organisms live and why they occur there."
+          "explanation": "Biogeography investigates where organisms live and why they occur there.",
+          "translations": {
+            "ur": {
+              "question": "بایوجیوگرافی کس چیز کا مطالعہ کرتی ہے؟",
+              "options": {
+                "A": "جانداروں کی جغرافیائی تقسیم",
+                "B": "خلیوں میں کیمیائی تعاملات",
+                "C": "صرف جسمانی ساخت",
+                "D": "خون کی حرکت"
+              },
+              "explanation": "بایوجیوگرافی یہ دیکھتی ہے کہ جاندار کہاں رہتے ہیں اور وہاں کیوں پائے جاتے ہیں۔"
+            },
+            "sd": {
+              "question": "بايوجاگرافي ڪهڙي شيءِ جو مطالعو ڪري ٿي؟",
+              "options": {
+                "A": "جاندارن جي جاگرافيائي ورڇ",
+                "B": "خلين ۾ ڪيميائي عمل",
+                "C": "رڳو جسماني بناوت",
+                "D": "رت جي حرڪت"
+              },
+              "explanation": "بايوجاگرافي ڏسي ٿي ته جاندار ڪٿي رهن ٿا ۽ اتي ڇو ملن ٿا."
+            }
+          }
         },
         {
           "question": "DNA sequence similarities can help scientists infer:",
@@ -218,7 +526,29 @@
             "D": "The colour of all fossils"
           },
           "correctOption": "A",
-          "explanation": "Molecular comparisons help estimate relatedness and common ancestry."
+          "explanation": "Molecular comparisons help estimate relatedness and common ancestry.",
+          "translations": {
+            "ur": {
+              "question": "DNA کی ترتیب میں مماثلت سائنس دانوں کو کیا معلوم کرنے میں مدد دیتی ہے؟",
+              "options": {
+                "A": "ارتقائی تعلقات",
+                "B": "ہر جاندار کی بالکل درست عمر",
+                "C": "صرف جاندار کا وزن",
+                "D": "تمام فوسلز کا رنگ"
+              },
+              "explanation": "مالیکیولی موازنہ جانداروں کے باہمی تعلق اور مشترکہ آباؤ اجداد کا اندازہ لگانے میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "DNA جي ترتيبن ۾ هڪجهڙائي سائنسدانن کي ڇا معلوم ڪرڻ ۾ مدد ڏئي ٿي؟",
+              "options": {
+                "A": "ارتقائي لاڳاپا",
+                "B": "هر جاندار جي بلڪل صحيح عمر",
+                "C": "رڳو جاندار جو وزن",
+                "D": "سڀني فوسلن جو رنگ"
+              },
+              "explanation": "ماليڪيولي مقابلو جاندارن جي لاڳاپن ۽ گڏيل ابن ڏاڏن جو اندازو لڳائڻ ۾ مدد ڪري ٿو."
+            }
+          }
         },
         {
           "question": "Selective breeding is also called:",
@@ -229,7 +559,29 @@
             "D": "Photosynthesis"
           },
           "correctOption": "A",
-          "explanation": "Humans choose which organisms reproduce to increase desired inherited traits."
+          "explanation": "Humans choose which organisms reproduce to increase desired inherited traits.",
+          "translations": {
+            "ur": {
+              "question": "سلیکٹو بریڈنگ کو اور کس نام سے جانا جاتا ہے؟",
+              "options": {
+                "A": "مصنوعی انتخاب",
+                "B": "قدرتی میوٹیشن",
+                "C": "صرف جینیاتی ڈرفٹ",
+                "D": "ضیائی تالیف"
+              },
+              "explanation": "انسان مطلوبہ موروثی خصوصیات بڑھانے کے لیے افزائش کرنے والے جاندار منتخب کرتا ہے۔"
+            },
+            "sd": {
+              "question": "سليڪٽو بريڊنگ کي ٻئي ڪهڙي نالي سان سڏجي ٿو؟",
+              "options": {
+                "A": "مصنوعي چونڊ",
+                "B": "قدرتي ميوٽيشن",
+                "C": "رڳو جينياتي ڊرفٽ",
+                "D": "ضيائي ترڪيب"
+              },
+              "explanation": "انسان گهربل موروثي خاصيتون وڌائڻ لاءِ افزائش ڪندڙ جاندار چونڊي ٿو."
+            }
+          }
         },
         {
           "question": "Which is an example of artificial selection?",
@@ -240,7 +592,29 @@
             "D": "Random water evaporation"
           },
           "correctOption": "A",
-          "explanation": "Farmers select parent plants with inherited drought-tolerant traits."
+          "explanation": "Farmers select parent plants with inherited drought-tolerant traits.",
+          "translations": {
+            "ur": {
+              "question": "مصنوعی انتخاب کی مثال کون سی ہے؟",
+              "options": {
+                "A": "خشک سالی برداشت کرنے والی فصلوں کی افزائش",
+                "B": "طوفان سے مسکن کی تبدیلی",
+                "C": "شکاری کا شکار پکڑنا",
+                "D": "پانی کا بخارات بننا"
+              },
+              "explanation": "کسان خشک سالی برداشت کرنے والی موروثی خصوصیات رکھنے والے والدین پودوں کا انتخاب کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "مصنوعي چونڊ جو مثال ڪهڙو آهي؟",
+              "options": {
+                "A": "ڏڪار برداشت ڪندڙ فصلن جي افزائش",
+                "B": "طوفان سبب رهائش جي تبديلي",
+                "C": "شڪاريءَ جو شڪار پڪڙڻ",
+                "D": "پاڻيءَ جو بخار ٿيڻ"
+              },
+              "explanation": "هاري ڏڪار برداشت ڪندڙ موروثي خاصيتن وارا والدين ٻوٽا چونڊين ٿا."
+            }
+          }
         },
         {
           "question": "A risk of repeatedly breeding from a small number of parents is:",
@@ -251,7 +625,29 @@
             "D": "Instant speciation"
           },
           "correctOption": "A",
-          "explanation": "A narrow breeding population can increase inbreeding and reduce genetic variation."
+          "explanation": "A narrow breeding population can increase inbreeding and reduce genetic variation.",
+          "translations": {
+            "ur": {
+              "question": "تھوڑی تعداد میں والدین سے بار بار افزائش کا ایک خطرہ کیا ہے؟",
+              "options": {
+                "A": "جینیاتی تنوع میں کمی",
+                "B": "لامحدود تنوع",
+                "C": "موروثی خصوصیات کا ختم ہونا",
+                "D": "فوری طور پر نئی نوع بننا"
+              },
+              "explanation": "چھوٹی افزائشی آبادی میں قریبی رشتہ داروں کی افزائش بڑھ سکتی ہے اور جینیاتی تنوع کم ہو سکتا ہے۔"
+            },
+            "sd": {
+              "question": "ٿورن والدين مان بار بار افزائش ڪرائڻ جو هڪ خطرو ڪهڙو آهي؟",
+              "options": {
+                "A": "جينياتي تنوع گهٽجڻ",
+                "B": "لامحدود تنوع",
+                "C": "موروثي خاصيتن جو ختم ٿيڻ",
+                "D": "فوري نئين نوع ٺهڻ"
+              },
+              "explanation": "ننڍڙي افزائشي آباديءَ ۾ ويجهن مائٽن جي افزائش وڌي ۽ جينياتي تنوع گهٽجي سگهي ٿو."
+            }
+          }
         },
         {
           "question": "Convergent evolution occurs when:",
@@ -262,7 +658,29 @@
             "D": "Fossils turn into living organisms"
           },
           "correctOption": "A",
-          "explanation": "Similar selective pressures can lead unrelated lineages to evolve analogous features."
+          "explanation": "Similar selective pressures can lead unrelated lineages to evolve analogous features.",
+          "translations": {
+            "ur": {
+              "question": "کنورجنٹ ارتقا کب ہوتا ہے؟",
+              "options": {
+                "A": "غیر متعلقہ ارتقائی گروہوں میں آزادانہ طور پر ملتی جلتی خصوصیات پیدا ہوں",
+                "B": "تمام انواع ایک نوع بن جائیں",
+                "C": "ایک فرد اپنی مرضی سے جین بدل لے",
+                "D": "فوسلز زندہ جاندار بن جائیں"
+              },
+              "explanation": "ملتے جلتے انتخابی دباؤ غیر متعلقہ گروہوں میں مشابہ خصوصیات پیدا کر سکتے ہیں۔"
+            },
+            "sd": {
+              "question": "ڪنورجنٽ ارتقا ڪڏهن ٿئي ٿي؟",
+              "options": {
+                "A": "غير لاڳاپيل ارتقائي گروهن ۾ پاڻمرادو ملندڙ جلندڙ خاصيتون پيدا ٿين",
+                "B": "سڀ نوعون هڪ نوع بڻجي وڃن",
+                "C": "هڪ فرد پنهنجي مرضيءَ سان جين بدلائي",
+                "D": "فوسلز زنده جاندار بڻجي وڃن"
+              },
+              "explanation": "ملندڙ چونڊ واري دٻاءَ سبب غير لاڳاپيل گروهن ۾ مشابه خاصيتون پيدا ٿي سگهن ٿيون."
+            }
+          }
         },
         {
           "question": "Which statement is correct about evolution?",
@@ -273,7 +691,29 @@
             "D": "Natural selection creates only perfect organisms"
           },
           "correctOption": "B",
-          "explanation": "Evolution is population-level change in inherited characteristics across generations."
+          "explanation": "Evolution is population-level change in inherited characteristics across generations.",
+          "translations": {
+            "ur": {
+              "question": "ارتقا کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "افراد ضرورت کے باعث اپنی زندگی میں جینیاتی طور پر ارتقا کرتے ہیں",
+                "B": "آبادیاں نسلوں کے دوران ارتقا کرتی ہیں",
+                "C": "ارتقا ہمیشہ پیچیدگی کی طرف پیش رفت ہے",
+                "D": "قدرتی انتخاب صرف کامل جاندار بناتا ہے"
+              },
+              "explanation": "ارتقا کئی نسلوں کے دوران آبادی کی موروثی خصوصیات میں تبدیلی ہے۔"
+            },
+            "sd": {
+              "question": "ارتقا بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "فرد ضرورت سبب پنهنجي زندگيءَ ۾ جينياتي طور ارتقا ڪن ٿا",
+                "B": "آباديون نسلن دوران ارتقا ڪن ٿيون",
+                "C": "ارتقا هميشه پيچيدگيءَ ڏانهن اڳڀرائي آهي",
+                "D": "قدرتي چونڊ رڳو مڪمل جاندار ٺاهي ٿي"
+              },
+              "explanation": "ارتقا ڪيترين نسلن دوران آباديءَ جي موروثي خاصيتن ۾ تبديلي آهي."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -285,7 +725,25 @@
           "rubric": [
             "Definition (2 marks)",
             "Two valid sources (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "ارتقا کی تعریف کریں اور موروثی جینیاتی تنوع کے دو ذرائع کے نام لکھیں۔",
+              "modelAnswer": "ارتقا کئی نسلوں کے دوران آبادیوں کی موروثی خصوصیات یا ایلیلز کی شرح میں تبدیلی ہے۔ تنوع کے ذرائع میں میوٹیشن، کراسنگ اوور، آزادانہ تقسیم اور بے ترتیب بارآوری شامل ہیں؛ جین کا بہاؤ بھی نئے ایلیلز لا سکتا ہے۔",
+              "rubric": [
+                "تعریف (2 نمبر)",
+                "دو درست ذرائع (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ارتقا جي وصف ڏيو ۽ موروثي جينياتي تنوع جا ٻه ذريعا لکو.",
+              "modelAnswer": "ارتقا ڪيترين نسلن دوران آبادين جي موروثي خاصيتن يا ايليلن جي تناسب ۾ تبديلي آهي. تنوع جا ذريعا ميوٽيشن، ڪراسنگ اوور، آزادانه ورهاست ۽ اتفاقي بارآوري آهن؛ جين جو وهڪرو به نوان ايليل آڻي سگهي ٿو.",
+              "rubric": [
+                "وصف (2 نمبر)",
+                "ٻه صحيح ذريعا (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -298,7 +756,31 @@
             "Differential survival (1 mark)",
             "Reproduction and inheritance (1 mark)",
             "Population frequency change (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "بیکٹیریا میں اینٹی بایوٹک مزاحمت کی مثال استعمال کرتے ہوئے قدرتی انتخاب کی وضاحت کریں۔",
+              "modelAnswer": "بیکٹیریا کی آبادی میں موروثی فرق موجود ہوتا ہے؛ بعض بیکٹیریا پہلے سے مزاحمت رکھتے یا مزاحمت کے جین حاصل کر سکتے ہیں۔ اینٹی بایوٹک حساس بیکٹیریا کو زیادہ ہلاک کرتی ہے۔ مزاحم بیکٹیریا زندہ رہ کر افزائش کرتے اور مزاحمت اولاد کو منتقل کرتے ہیں۔ کئی نسلوں میں آبادی میں مزاحمت عام ہو جاتی ہے۔",
+              "rubric": [
+                "آبادی میں تنوع (1 نمبر)",
+                "اینٹی بایوٹک کا انتخابی دباؤ (1 نمبر)",
+                "مختلف بقا (1 نمبر)",
+                "افزائش اور وراثت (1 نمبر)",
+                "آبادی میں شرح کی تبدیلی (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "بيڪٽيريا ۾ اينٽي بايوٽڪ مزاحمت جو مثال استعمال ڪري قدرتي چونڊ سمجهايو.",
+              "modelAnswer": "بيڪٽيريا جي آباديءَ ۾ موروثي فرق هوندو آهي؛ ڪجهه بيڪٽيريا اڳ ئي مزاحمت رکن ٿا يا مزاحمت جا جين حاصل ڪري سگهن ٿا. اينٽي بايوٽڪ حساس بيڪٽيريا کي وڌيڪ ماري ٿي. مزاحم بيڪٽيريا زنده رهي افزائش ڪن ٿا ۽ مزاحمت اولاد ڏانهن منتقل ڪن ٿا. ڪيترين نسلن ۾ آباديءَ اندر مزاحمت عام ٿي وڃي ٿي.",
+              "rubric": [
+                "آباديءَ ۾ تنوع (1 نمبر)",
+                "اينٽي بايوٽڪ جو چونڊ وارو دٻاءُ (1 نمبر)",
+                "بقا ۾ فرق (1 نمبر)",
+                "افزائش ۽ وراثت (1 نمبر)",
+                "آباديءَ ۾ تناسب جي تبديلي (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -310,7 +792,29 @@
             "Homologous example (1 mark)",
             "Analogous definition (1 mark)",
             "Analogous example (1 mark)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "ہم شکل اور مشابہ ساختوں میں فرق بیان کریں اور ہر ایک کی ایک مثال دیں۔",
+              "modelAnswer": "ہم شکل ساختوں کی بنیادی جسمانی ترتیب مشترکہ آباؤ اجداد کی وجہ سے ملتی ہے، اگرچہ ان کے افعال مختلف ہو سکتے ہیں؛ مثال فقاری جانوروں کے اگلے اعضا ہیں۔ مشابہ ساختیں ایک جیسا کام کرتی ہیں مگر الگ الگ ارتقائی طور پر بنی ہیں؛ پرندوں اور حشرات کے پر مثال ہیں۔",
+              "rubric": [
+                "ہم شکل کی تعریف (2 نمبر)",
+                "ہم شکل مثال (1 نمبر)",
+                "مشابہ کی تعریف (1 نمبر)",
+                "مشابہ مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "هم ساختي ۽ مشابه بناوتن ۾ فرق بيان ڪريو ۽ هر هڪ جو هڪ مثال ڏيو.",
+              "modelAnswer": "هم ساختي بناوتن جي بنيادي جسماني ترتيب گڏيل ابن ڏاڏن سبب ملندڙ هوندي آهي، جيتوڻيڪ انهن جا ڪم مختلف ٿي سگهن ٿا؛ مثال فقاري جانورن جا اڳيان عضوا آهن. مشابه بناوتون ساڳيو ڪم ڪن ٿيون پر الڳ ارتقائي نموني ٺهيون آهن؛ پکين ۽ جيتن جا پر مثال آهن.",
+              "rubric": [
+                "هم ساختي جي وصف (2 نمبر)",
+                "هم ساختي مثال (1 نمبر)",
+                "مشابه جي وصف (1 نمبر)",
+                "مشابه مثال (1 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -323,7 +827,31 @@
             "Differential survival/reproduction (2 marks)",
             "Inheritance of traits (2 marks)",
             "Population change/adaptation over generations (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "قدرتی انتخاب کے اہم مراحل بیان کریں اور واضح کریں کہ یہ کئی نسلوں میں موافقت کیسے پیدا کر سکتا ہے۔",
+              "modelAnswer": "آبادی کے افراد میں موروثی تنوع ہوتا ہے۔ ضرورت سے زیادہ اولاد پیدا ہوتی ہے اور سب زندہ رہ کر افزائش نہیں کر سکتے، اس لیے ماحول افزائشی کامیابی میں فرق پیدا کرتا ہے۔ بعض موروثی خصوصیات رکھنے والے افراد زیادہ اولاد چھوڑ سکتے ہیں۔ ان کی اولاد متعلقہ ایلیلز وراثت میں لیتی ہے۔ کئی نسلوں میں ایلیلز کی شرح بدلتی ہے اور ماحول میں فائدہ دینے والی خصوصیات عام ہو سکتی ہیں۔ میوٹیشن اور جینیاتی امتزاج تنوع فراہم کرتے ہیں؛ جاندار جان بوجھ کر تبدیل نہیں ہوتے۔",
+              "rubric": [
+                "موروثی تنوع (2 نمبر)",
+                "مقابلہ/ماحولیاتی دباؤ (2 نمبر)",
+                "بقا اور افزائش میں فرق (2 نمبر)",
+                "خصوصیات کی وراثت (2 نمبر)",
+                "نسلوں میں آبادی کی تبدیلی/موافقت (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "قدرتي چونڊ جا اهم مرحلا بيان ڪريو ۽ ٻڌايو ته اها ڪيترين نسلن ۾ موافقت ڪيئن پيدا ڪري سگهي ٿي.",
+              "modelAnswer": "آباديءَ جي فردن ۾ موروثي تنوع هوندو آهي. ضرورت کان وڌيڪ اولاد پيدا ٿئي ٿو ۽ سڀ زنده رهي افزائش نٿا ڪري سگهن، تنهنڪري ماحول افزائشي ڪاميابيءَ ۾ فرق پيدا ڪري ٿو. ڪجهه موروثي خاصيتن وارا فرد وڌيڪ اولاد ڇڏي سگهن ٿا. انهن جو اولاد لاڳاپيل ايليل ورثي ۾ وٺي ٿو. ڪيترين نسلن ۾ ايليلن جو تناسب بدلجي ٿو ۽ ماحول ۾ فائدو ڏيندڙ خاصيتون عام ٿي سگهن ٿيون. ميوٽيشن ۽ جينياتي ميلاپ تنوع مهيا ڪن ٿا؛ جاندار ڄاڻي واڻي تبديل نٿا ٿين.",
+              "rubric": [
+                "موروثي تنوع (2 نمبر)",
+                "مقابلو/ماحولياتي دٻاءُ (2 نمبر)",
+                "بقا ۽ افزائش ۾ فرق (2 نمبر)",
+                "خاصيتن جي وراثت (2 نمبر)",
+                "نسلن دوران آباديءَ جي تبديلي/موافقت (2 نمبر)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -337,7 +865,33 @@
             "Biogeography (1 mark)",
             "Selective breeding mechanism/example (2 marks)",
             "Benefits and genetic-diversity risk (2 marks)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "فوسلز، تقابلی تشریح الاعضا، سالماتی شواہد اور حیاتی جغرافیہ کی مدد سے ارتقا کے شواہد پر بحث کریں۔ انسانی اثر سے ہونے والی ارتقا کی مثال کے طور پر مصنوعی انتخاب بھی بیان کریں۔",
+              "modelAnswer": "فوسلز مختلف ارضیاتی ادوار کے جانداروں کا ریکارڈ دیتے ہیں اور درمیانی خصوصیات دکھا سکتے ہیں۔ ہم شکل ساختیں مشترکہ آباؤ اجداد کی تائید کرتی ہیں، جبکہ مشابہ ساختیں ملتے جلتے انتخابی دباؤ کے تحت آزادانہ ارتقا دکھاتی ہیں۔ DNA اور پروٹین کی ترتیب کا موازنہ ارتقائی تعلقات سمجھنے میں مدد دیتا ہے۔ حیاتی جغرافیہ میں جزائر کی انواع اکثر قریبی براعظموں کے آباؤ اجداد سے ملتی جلتی مگر منفرد ہوتی ہیں۔ مصنوعی انتخاب میں انسان مطلوبہ موروثی خصوصیات والے والدین چنتا ہے، جس سے نسلوں میں خصوصیات کی شرح بدلتی ہے۔ اس سے فصلوں اور مویشیوں کی بہتری ہو سکتی ہے، مگر محدود افزائشی ذخیرے سے جینیاتی تنوع کم ہو سکتا ہے۔",
+              "rubric": [
+                "فوسل شواہد (2 نمبر)",
+                "تقابلی تشریح الاعضا (2 نمبر)",
+                "سالماتی شواہد (1 نمبر)",
+                "حیاتی جغرافیہ (1 نمبر)",
+                "مصنوعی انتخاب کا طریقہ/مثال (2 نمبر)",
+                "فوائد اور جینیاتی تنوع کا خطرہ (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "فوسلز، تقابلي تشريح، ماليڪيولي ثبوتن ۽ حياتي جاگرافيءَ جي مدد سان ارتقا جي ثبوتن تي بحث ڪريو. انساني اثر هيٺ ارتقا جي مثال طور مصنوعي چونڊ به بيان ڪريو.",
+              "modelAnswer": "فوسلز مختلف ارضياتي دورن جي جاندارن جو رڪارڊ ڏين ٿا ۽ وچ وارين خاصيتن کي ظاهر ڪري سگهن ٿا. هم ساختي بناوتون گڏيل ابن ڏاڏن جي حمايت ڪن ٿيون، جڏهن ته مشابه بناوتون ملندڙ چونڊ واري دٻاءَ هيٺ آزاد ارتقا ڏيکارين ٿيون. DNA ۽ پروٽين جي ترتيب جو مقابلو ارتقائي لاڳاپا سمجهڻ ۾ مدد ڪري ٿو. حياتي جاگرافيءَ ۾ ٻيٽن جون نوعون اڪثر ويجهن کنڊن جي ابن ڏاڏن سان ملندڙ پر منفرد هونديون آهن. مصنوعي چونڊ ۾ انسان گهربل موروثي خاصيتن وارا والدين چونڊي ٿو، جنهن سان نسلن دوران خاصيتن جو تناسب بدلجي ٿو. ان سان فصلن ۽ چوپائي مال جي بهتري ٿي سگهي ٿي، پر محدود افزائشي ذخيري سان جينياتي تنوع گهٽجي سگهي ٿو.",
+              "rubric": [
+                "فوسل ثبوت (2 نمبر)",
+                "تقابلي تشريح (2 نمبر)",
+                "ماليڪيولي ثبوت (1 نمبر)",
+                "حياتي جاگرافي (1 نمبر)",
+                "مصنوعي چونڊ جو طريقو/مثال (2 نمبر)",
+                "فائدا ۽ جينياتي تنوع جو خطرو (2 نمبر)"
+              ]
+            }
+          }
         }
       ]
     }
