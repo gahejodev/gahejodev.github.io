@@ -75,7 +75,7 @@ async function initStudioAvatar(){
  try{
   const mod=await import("https://esm.sh/@interviewflowai/talking-avatar?bundle");
   const {AVATARS,TalkingAvatar}=mod;
-  const create=()=>{
+  const create=async()=>{
    try{studioAvatar?.dispose()}catch(e){}
    studioAvatar=null;studioAvatarReady=false;play.disabled=true;
    avatarStatus("Loading selected 3D teacher…");
