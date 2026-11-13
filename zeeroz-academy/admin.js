@@ -69,11 +69,13 @@ function validateCoursePackage(raw){
   });
   (c.writtenQuestions||[]).forEach((q,j)=>{
    if(!["crq","erq"].includes(q.type)||!q.question||q.question.trim().length>2000||!Number.isInteger(q.marks)||q.marks<1||q.marks>30||!q.modelAnswer||q.modelAnswer.length>12000||!Array.isArray(q.rubric)||!q.rubric.length)throw new Error("Chapter "+(i+1)+", written question "+(j+1)+" needs type crq/erq, question, marks, model answer and marking rubric.");
+   if(q.translations!==undefined&&(!q.translations||typeof q.translations!=="object"))throw new Error("Written-question translations must be an object with ur/sd entries.");
    writes++;writtenQuestions++;
   });
   (c.questions||[]).forEach((q,j)=>{
    if(!q.question||q.question.trim().length>1200||!q.options||!["A","B","C","D"].every(k=>typeof q.options[k]==="string"&&q.options[k].trim()))throw new Error("Chapter "+(i+1)+", MCQ "+(j+1)+" must include a question and four options.");
    if(!["A","B","C","D"].includes(q.correctOption))throw new Error("Chapter "+(i+1)+", MCQ "+(j+1)+" has an invalid correctOption.");
+   if(q.translations!==undefined&&(!q.translations||typeof q.translations!=="object"))throw new Error("MCQ translations must be an object with ur/sd entries.");
    writes++;questions++;
   });
  });
@@ -110,11 +112,11 @@ $("publishCoursePackage").addEventListener("click",async()=>{
    });
    (chapter.writtenQuestions||[]).forEach((q,qi)=>{
     const writtenRef=doc(collection(db(),"courses",courseRef.id,"chapters",chapterRef.id,"writtenQuestions"));
-    batch.set(writtenRef,{type:q.type,question:q.question.trim(),marks:q.marks,modelAnswer:q.modelAnswer.trim(),rubric:q.rubric,order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+    batch.set(writtenRef,{type:q.type,question:q.question.trim(),marks:q.marks,modelAnswer:q.modelAnswer.trim(),rubric:q.rubric,translations:q.translations||{},order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
    });
    (chapter.questions||[]).forEach((q,qi)=>{
     const questionRef=doc(collection(db(),"courses",courseRef.id,"chapters",chapterRef.id,"questions"));
-    batch.set(questionRef,{question:q.question.trim(),options:{A:q.options.A.trim(),B:q.options.B.trim(),C:q.options.C.trim(),D:q.options.D.trim()},correctOption:q.correctOption,explanation:(q.explanation||"").trim(),order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
+    batch.set(questionRef,{question:q.question.trim(),options:{A:q.options.A.trim(),B:q.options.B.trim(),C:q.options.C.trim(),D:q.options.D.trim()},correctOption:q.correctOption,explanation:(q.explanation||"").trim(),translations:q.translations||{},order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid});
    });
   });
   await batch.commit();
