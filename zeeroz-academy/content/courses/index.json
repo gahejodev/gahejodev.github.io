@@ -91,6 +91,12 @@
       "title": "Biology X — Chapter 15: Coordination and Control",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-15-coordination-control.json",
       "version": "1"
+    },
+    {
+      "id": "biology-x-chapter-16-reproduction",
+      "title": "Biology X — Chapter 16: Reproduction",
+      "path": "zeeroz-academy/content/courses/biology-x-chapter-16-reproduction.json",
+      "version": "1"
     }
   ]
 }
