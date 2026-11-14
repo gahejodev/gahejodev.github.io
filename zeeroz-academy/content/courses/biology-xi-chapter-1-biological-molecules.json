@@ -1,0 +1,719 @@
+{
+  "id": "biology-xi-chapter-1-biological-molecules",
+  "title": "Biology XI — Chapter 1: Biological Molecules",
+  "description": "Grade XI Biology — DCAR Sindh Curriculum 2024, Chapter 1: Biological Molecules (25 periods). Covers biochemistry, chemical interactions, water, carbohydrates, proteins, lipids, nucleic acids and conjugated molecules. Original lessons, 15 explained MCQs and written practice with Urdu and Sindhi explanations, model answers and marking rubrics.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 1: Biological Molecules",
+      "description": "DCAR Sindh Biology XI (2024), Chapter 1 — 25 periods. Core biomolecules, their chemical structure, properties and biological functions.",
+      "lessons": [
+        {
+          "title": "1.1 Biochemistry, Levels of Organisation and Chemical Bonds",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain biochemistry, place biological molecules within levels of organisation, and distinguish important chemical interactions found in living systems.\n\n## Biochemistry and organisation\nBiochemistry studies the chemical substances and reactions that make life possible. Atoms combine to form molecules; molecules assemble into macromolecules and cellular structures; these contribute to organelles, cells, tissues, organs and whole organisms. Biological activity emerges from interactions across these levels.\n\n## Bonds and interactions\n- **Covalent bonds** form when atoms share electron pairs. They hold the atoms within water, sugars, amino acids and the backbone of many biological molecules.\n- **Ionic interactions** arise from attraction between oppositely charged ions or groups. They are important in salts and in stabilising some protein structures.\n- **Hydrogen bonds** are relatively weak attractions involving a hydrogen attached to an electronegative atom and another electronegative atom. They help stabilise DNA base pairing and protein structure.\n- **Hydrophobic interactions** cause non-polar parts of molecules to associate away from water. They help drive phospholipid bilayer formation and protein folding.\n- **Hydrophilic groups** interact favourably with water, often through charge or polarity.\n\nMany weak interactions acting together can give a biological structure stability while still allowing it to change when needed.\n\n## Why this matters\nThe shape and behaviour of a biological molecule depend on its chemical structure and its surroundings. For example, hydrogen bonding helps water molecules cohere, while hydrophobic interactions help membrane lipids organise into a bilayer.\n\n## Check your understanding\nWhy can many weak hydrogen bonds together be biologically important even though one hydrogen bond is weaker than a covalent bond?",
+          "explanations": {
+            "ur": "## سبق جا مقصد\nبايو ڪيمسٽري جي وضاحت ڪريو، حياتياتي ماليڪيولن کي تنظيم جي درجن ۾ جاءِ ڏيو ۽ جاندارن ۾ اهم ڪيميائي لاڳاپن ۾ فرق سمجهو.\n\n## بايو ڪيمسٽري ۽ تنظيم\nبايو ڪيمسٽري زندگيءَ کي ممڪن بڻائيندڙ ڪيميائي مادن ۽ عملن جو مطالعو آهي. ايٽم ملي ماليڪيول ٺاهين ٿا؛ ماليڪيول وڏا ماليڪيول ۽ خلوي بناوتون ٺاهين ٿا؛ اهي عضون، خلين، بافتن، عضون جي نظامن ۽ مڪمل جاندار جي جوڙجڪ ۾ حصو وٺن ٿا.\n\n## بند ۽ لاڳاپا\n- **ڪوويلنٽ بند:** ايٽم اليڪٽرانن جا جوڙا پاڻ ۾ ونڊين ٿا. اهو پاڻي، کنڊن ۽ امينو ايسڊن جي ايٽمن کي ڳنڍي ٿو.\n- **آئوني لاڳاپو:** ابتڙ چارج وارن آئنن يا گروهن جي وچ ۾ ڪشش. اهو لوڻن ۽ ڪجهه پروٽينن جي بناوت کي مستحڪم ڪري ٿو.\n- **هائيڊروجن بند:** نسبتاً ڪمزور ڪشش، جيڪا DNA جي بنيادن جي جوڙجڪ ۽ پروٽين جي بناوت ۾ مدد ڪري ٿي.\n- **هائيڊروفوبڪ لاڳاپا:** پاڻيءَ کان پاسو ڪندڙ غير قطبي حصا پاڻ ۾ گڏ ٿين ٿا؛ ان سان خلوي جھليءَ جي ٻٽي تهه ٺهڻ ۾ مدد ملي ٿي.\n- **هائيڊروفيلڪ گروهه:** پاڻيءَ سان سٺو لاڳاپو رکن ٿا، اڪثر چارج يا قطبيت سبب.\n\nگهڻا ڪمزور لاڳاپا گڏجي حياتياتي بناوت کي مضبوطي ڏين ٿا، پر ضرورت وقت تبديليءَ جي گنجائش به رکن ٿا.\n\n## اهميت\nحياتياتي ماليڪيول جي شڪل ۽ عمل ان جي ڪيميائي بناوت ۽ ماحول تي دارومدار رکن ٿا. مثال طور هائيڊروجن بند پاڻيءَ جي ماليڪيولن کي گڏ رکڻ ۾ مدد ڪن ٿا، جڏهن ته هائيڊروفوبڪ لاڳاپا لپڊن کي جھليءَ جي صورت ۾ ترتيب ڏين ٿا.\n\n## پنهنجي سمجهه پرکيو\nهڪ هائيڊروجن بند ڪمزور هوندي به ڪيترائي هائيڊروجن بند گڏجي حياتياتي طور اهم ڇو ٿين ٿا؟",
+            "sd": "## هن سبق جا مقصد\nبايو ڪيمسٽري جي وضاحت ڪريو، حياتياتي ماليڪيولن کي تنظيم جي درجن ۾ سمجهو ۽ جاندارن ۾ اهم ڪيميائي لاڳاپن ۾ فرق ڪريو.\n\n## بايو ڪيمسٽري ۽ تنظيم\nبايو ڪيمسٽري زندگيءَ کي ممڪن بڻائيندڙ ڪيميائي مادن ۽ عملن جو مطالعو آهي. ايٽم ملي ماليڪيول ٺاهين ٿا؛ ماليڪيول وڏيون ماليڪيولي بناوتون ۽ خلوي حصا ٺاهين ٿا؛ اهي عضون، خلين، بافتن، عضوي نظامن ۽ مڪمل جاندار جي بناوت ۾ حصو وٺن ٿا.\n\n## بند ۽ لاڳاپا\n- **ڪوويلنٽ بند:** ايٽم اليڪٽرانن جا جوڙا ونڊين ٿا. اهو پاڻي، کنڊن ۽ امينو ايسڊن جي ايٽمن کي ڳنڍي ٿو.\n- **آئوني لاڳاپو:** ابتڙ چارج وارن آئنن يا گروهن جي وچ ۾ ڪشش.\n- **هائيڊروجن بند:** نسبتاً ڪمزور ڪشش، جيڪا DNA جي بنيادن جي جوڙجڪ ۽ پروٽين جي بناوت کي مستحڪم ڪرڻ ۾ مدد ڪري ٿي.\n- **هائيڊروفوبڪ لاڳاپا:** پاڻيءَ کان پاسو ڪندڙ غير قطبي حصا پاڻ ۾ گڏ ٿين ٿا؛ ان سان خلوي جھليءَ جي ٻٽي تهه ٺهڻ ۾ مدد ملي ٿي.\n- **هائيڊروفيلڪ گروهه:** پاڻيءَ سان لاڳاپو رکن ٿا، اڪثر چارج يا قطبيت سبب.\n\nگهڻا ڪمزور لاڳاپا گڏجي حياتياتي بناوت کي مضبوطي ڏين ٿا، پر تبديليءَ جي گنجائش به رکن ٿا.\n\n## اهميت\nحياتياتي ماليڪيول جي شڪل ۽ عمل ان جي ڪيميائي بناوت ۽ ماحول تي دارومدار رکن ٿا. هائيڊروجن بند پاڻيءَ جي ماليڪيولن کي گڏ رکڻ ۾ مدد ڪن ٿا، جڏهن ته هائيڊروفوبڪ لاڳاپا لپڊن کي جھليءَ جي صورت ۾ ترتيب ڏين ٿا.\n\n## پنهنجي سمجهه پرکيو\nهڪ هائيڊروجن بند ڪمزور هوندي به ڪيترائي بند گڏجي حياتياتي طور اهم ڇو ٿين ٿا؟"
+          }
+        },
+        {
+          "title": "1.2 Water and the Chemistry of Life",
+          "type": "text",
+          "content": "## Learning outcomes\nRelate the physical and chemical properties of water to its roles in cells and organisms.\n\n## Water is polar\nA water molecule has a bent shape. Oxygen attracts shared electrons more strongly than hydrogen, giving oxygen a partial negative charge and the hydrogen atoms partial positive charges. This polarity allows water molecules to form hydrogen bonds with one another and with other polar substances.\n\n## Properties and biological importance\n- **High specific heat capacity:** water changes temperature relatively slowly, helping stabilise body and environmental temperatures.\n- **High latent heat of vaporisation:** evaporation removes substantial heat, making sweating and plant transpiration useful cooling processes.\n- **Cohesion:** hydrogen bonds help water molecules stick together, supporting continuous water columns in xylem.\n- **Adhesion:** water interacts with other polar surfaces, helping it move along narrow plant vessels.\n- **Excellent solvent for many polar and ionic substances:** dissolved ions and molecules can be transported and participate in reactions.\n- **Ice is less dense than liquid water:** ice floats and can insulate water below, helping aquatic organisms survive cold conditions.\n- **Hydrophobic exclusion:** non-polar substances do not mix readily with water, contributing to membrane organisation.\n\n## Water in metabolism\nWater is a reactant in hydrolysis, which breaks certain chemical bonds, and is produced in condensation reactions that join molecules. It also provides the medium in which many cellular reactions occur.\n\n## Check your understanding\nExplain how cohesion and adhesion together support the movement of water through a plant.",
+          "explanations": {
+            "ur": "## سبق جا مقصد\nپاڻيءَ جي جسماني ۽ ڪيميائي خاصيتن کي خلين ۽ جاندارن ۾ ان جي ڪمن سان ڳنڍيو.\n\n## پاڻي قطبي آهي\nپاڻيءَ جو ماليڪيول مُڙيل شڪل رکي ٿو. آڪسيجن گڏيل اليڪٽرانن کي هائيڊروجن کان وڌيڪ ڇڪي ٿي، تنهنڪري آڪسيجن تي جزوي منفي ۽ هائيڊروجن تي جزوي مثبت چارج ٿئي ٿو. ان قطبيت سبب پاڻيءَ جا ماليڪيول هڪ ٻئي سان هائيڊروجن بند ٺاهي سگهن ٿا.\n\n## خاصيتون ۽ حياتياتي اهميت\n- **وڏي مخصوص حرارتي گنجائش:** پاڻي آهستي گرم ۽ ٿڌو ٿئي ٿو، تنهنڪري جسم ۽ ماحول جو گرمي پد مستحڪم رهي ٿو.\n- **بخارات بڻجڻ لاءِ وڌيڪ گرمي:** بخارات سان گرمي خارج ٿئي ٿي؛ پگهر ۽ ٻوٽن مان پاڻيءَ جو بخار ٿيڻ ٿڌڪ ڏين ٿا.\n- **هم آهنگي (Cohesion):** پاڻيءَ جا ماليڪيول هڪ ٻئي سان چنبڙيل رهن ٿا، جنهن سان زائلم ۾ پاڻيءَ جو مسلسل ڪالم قائم رهي ٿو.\n- **چنبڙڻ (Adhesion):** پاڻي ٻين قطبي سطحن سان لاڳاپو رکي ٿو ۽ ٻوٽن جي سنهين نلين ۾ اڳتي وڌڻ ۾ مدد ڪري ٿو.\n- **سٺو محلل:** ڪيترائي آئن ۽ قطبي ماليڪيول پاڻيءَ ۾ حل ٿي منتقل ٿين ٿا ۽ ڪيميائي عملن ۾ حصو وٺن ٿا.\n- **برف جي کثافت گهٽ:** برف پاڻيءَ تي تري ٿي ۽ هيٺئين پاڻيءَ کي ٿڌ کان بچائي ٿي.\n- **هائيڊروفوبڪ خارج ٿيڻ:** غير قطبي مادا پاڻيءَ سان آسانيءَ سان نٿا ملن، جنهن سان جھلين جي ترتيب ۾ مدد ملي ٿي.\n\n## ميٽابولزم ۾ پاڻي\nهائيڊرولائسس ۾ پاڻي استعمال ٿي ڪجهه ڪيميائي بند ٽوڙي ٿو، جڏهن ته ڪنڊينسيشن ۾ ماليڪيولن کي ڳنڍڻ دوران پاڻي ٺهي سگهي ٿو. ڪيترائي خلوي عمل پاڻيءَ ۾ ٿين ٿا.\n\n## پنهنجي سمجهه پرکيو\nهم آهنگي ۽ چنبڙڻ گڏجي ٻوٽي ۾ پاڻيءَ جي چرپر کي ڪيئن سهارو ڏين ٿا؟",
+            "sd": "## هن سبق جا مقصد\nپاڻيءَ جي جسماني ۽ ڪيميائي خاصيتن کي خلين ۽ جاندارن ۾ ان جي ڪمن سان ڳنڍيو.\n\n## پاڻي قطبي آهي\nپاڻيءَ جو ماليڪيول مُڙيل شڪل وارو آهي. آڪسيجن گڏيل اليڪٽرانن کي هائيڊروجن کان وڌيڪ ڇڪي ٿي، تنهنڪري آڪسيجن تي جزوي منفي ۽ هائيڊروجن تي جزوي مثبت چارج ٿئي ٿو. ان ڪري پاڻيءَ جا ماليڪيول پاڻ ۾ هائيڊروجن بند ٺاهي سگهن ٿا.\n\n## خاصيتون ۽ حياتياتي اهميت\n- **وڏي مخصوص حرارتي گنجائش:** پاڻيءَ جو گرمي پد آهستي بدلجي ٿو، تنهنڪري جسم ۽ ماحول جو گرمي پد مستحڪم رهي ٿو.\n- **بخارات لاءِ وڌيڪ گرمي:** پاڻي بخار ٿيڻ وقت گرمي کڻي وڃي ٿو؛ پگهر ۽ ٻوٽن مان بخارات ٿڌڪ ڏين ٿا.\n- **هم آهنگي:** پاڻيءَ جا ماليڪيول هڪ ٻئي سان چنبڙيل رهن ٿا، جنهن سان زائلم ۾ پاڻيءَ جو مسلسل ڪالم قائم رهي ٿو.\n- **چنبڙڻ:** پاڻي ٻين قطبي سطحن سان لاڳاپو رکي ٿو ۽ ٻوٽن جي سنهين نلين ۾ اڳتي وڌڻ ۾ مدد ڪري ٿو.\n- **سٺو محلل:** ڪيترائي آئن ۽ قطبي ماليڪيول پاڻيءَ ۾ حل ٿي منتقل ٿين ٿا.\n- **برف جي کثافت گهٽ:** برف پاڻيءَ تي تري ٿي ۽ هيٺئين پاڻيءَ کي ٿڌ کان بچائي ٿي.\n- **هائيڊروفوبڪ خارج ٿيڻ:** غير قطبي مادا پاڻيءَ سان آسانيءَ سان نٿا ملن، جنهن سان جھلين جي ترتيب ۾ مدد ملي ٿي.\n\n## ميٽابولزم ۾ پاڻي\nهائيڊرولائسس ۾ پاڻي استعمال ٿي ڪجهه بند ٽوڙي ٿو، جڏهن ته ڪنڊينسيشن ۾ ماليڪيولن کي ڳنڍڻ دوران پاڻي ٺهي سگهي ٿو. ڪيترائي خلوي عمل پاڻيءَ ۾ ٿين ٿا.\n\n## پنهنجي سمجهه پرکيو\nهم آهنگي ۽ چنبڙڻ گڏجي ٻوٽي ۾ پاڻيءَ جي چرپر کي ڪيئن سهارو ڏين ٿا؟"
+          }
+        },
+        {
+          "title": "1.3 Carbohydrates",
+          "type": "text",
+          "content": "## Learning outcomes\nClassify carbohydrates, describe their structures and explain the roles of common mono-, di- and polysaccharides.\n\n## Monosaccharides\nMonosaccharides are single sugar units. Common examples include glucose, fructose and galactose. They can be represented by the general formula (CH₂O)n for many simple sugars, although structures vary. Glucose is a major respiratory substrate.\n\nGlucose has structural isomers, including alpha and beta forms. These forms differ in the orientation of a group around carbon 1 and can form polysaccharides with different properties.\n\n## Disaccharides and glycosidic bonds\nTwo monosaccharides join by a condensation reaction, forming a glycosidic bond and releasing water. Hydrolysis adds water to break the bond. Sucrose is formed from glucose and fructose; lactose from glucose and galactose; maltose from two glucose units.\n\n## Polysaccharides\n- **Starch** is the main storage carbohydrate in plants. It contains amylose and amylopectin.\n- **Glycogen** is a highly branched storage carbohydrate in animals and fungi, allowing glucose to be released when needed.\n- **Cellulose** consists of beta-glucose units joined by beta-1,4 glycosidic bonds. Straight chains form strong fibres in plant cell walls.\n- **Chitin** is a structural polysaccharide found in arthropod exoskeletons and fungal cell walls.\n\n## Structure determines function\nBranching, chain length and the type of glycosidic bond affect solubility, compactness and strength. Humans can digest starch but lack the enzyme cellulase needed to break cellulose's beta-1,4 bonds.\n\n## Check your understanding\nWhy can humans digest starch but not cellulose, even though both are made from glucose?",
+          "explanations": {
+            "ur": "## سبق جا مقصد\nکاربوہائیڈریٹس کی درجہ بندي ڪريو، انهن جي بناوت بيان ڪريو ۽ مونو، ڊاءِ ۽ پولي سيڪرائيڊن جا ڪم سمجهو.\n\n## مونوسيڪرائيڊز\nمونوسيڪرائيڊ هڪ کنڊ جي واحد اڪائي آهي. مثال گلوڪوز، فرڪٽوز ۽ گليڪٽوز آهن. گلوڪوز خلوي تنفس ۾ اهم ٻارڻ آهي. گلوڪوز جا ساختي روپ، جهڙوڪ الفا ۽ بيٽا، ڪاربان 1 جي چوڌاري گروهه جي رخ ۾ فرق رکن ٿا.\n\n## ڊاءِ سيڪرائيڊ ۽ گلائڪوسائيڊڪ بند\nٻه مونوسيڪرائيڊ ڪنڊينسيشن عمل سان ڳنڍجن ٿا، گلائڪوسائيڊڪ بند ٺهي ٿو ۽ پاڻي خارج ٿئي ٿو. هائيڊرولائسس ۾ پاڻي شامل ڪري اهو بند ٽوڙيو وڃي ٿو. سکروز گلوڪوز ۽ فرڪٽوز مان، ليڪٽوز گلوڪوز ۽ گليڪٽوز مان، جڏهن ته مالٽوز ٻن گلوڪوز مان ٺهي ٿو.\n\n## پولي سيڪرائيڊ\n- **نشاستو:** ٻوٽن ۾ توانائي ذخيرو ڪندڙ مادو؛ ان ۾ ايمي لوز ۽ ايمي لوپيڪٽن شامل آهن.\n- **گلائڪوجن:** جانورن ۽ فنجائي ۾ شاخن وارو ذخيرو، جنهن مان ضرورت وقت گلوڪوز ملي سگهي ٿو.\n- **سيلولوز:** بيٽا گلوڪوز جون اڪائيون بيٽا-1،4 بندن سان ڳنڍيل هونديون آهن. سڌيون زنجيرون ٻوٽن جي خلوي ڀت کي مضبوطي ڏين ٿيون.\n- **ڪٽن:** آرٿروپوڊن جي ٻاهرين ڍانچي ۽ فنجائي جي خلوي ڀت ۾ ملندڙ بناوتي پولي سيڪرائيڊ.\n\n## بناوت ۽ ڪم\nشاخن، زنجير جي ڊيگهه ۽ گلائڪوسائيڊڪ بند جي قسم سان حل پذيري، مضبوطي ۽ بناوت بدلجي ٿي. انسان نشاستو هضم ڪري سگهن ٿا، پر سيلولوز جا بيٽا-1،4 بند ٽوڙڻ لاءِ سيلوليز نالي اينزائم موجود ناهي.\n\n## پنهنجي سمجهه پرکيو\nانسان نشاستو هضم ڪري سگهي ٿو پر سيلولوز ڇو نه، جڏهن ته ٻئي گلوڪوز مان ٺهيل آهن؟",
+            "sd": "## هن سبق جا مقصد\nڪاربوهائيڊريٽن جي درجيبندي ڪريو، انهن جي بناوت بيان ڪريو ۽ مونو، ڊاءِ ۽ پولي سيڪرائيڊن جا ڪم سمجهو.\n\n## مونوسيڪرائيڊ\nمونوسيڪرائيڊ کنڊ جي هڪ بنيادي اڪائي آهي. مثال گلوڪوز، فرڪٽوز ۽ گليڪٽوز آهن. گلوڪوز خلوي تنفس لاءِ اهم ٻارڻ آهي. گلوڪوز جا الفا ۽ بيٽا روپ ڪاربان 1 جي چوڌاري گروهه جي رخ ۾ مختلف هوندا آهن.\n\n## ڊاءِ سيڪرائيڊ ۽ گلائڪوسائيڊڪ بند\nٻه مونوسيڪرائيڊ ڪنڊينسيشن عمل سان ڳنڍجن ٿا، گلائڪوسائيڊڪ بند ٺهي ٿو ۽ پاڻي خارج ٿئي ٿو. هائيڊرولائسس ۾ پاڻي شامل ڪري اهو بند ٽوڙيو وڃي ٿو. سکروز گلوڪوز ۽ فرڪٽوز مان، ليڪٽوز گلوڪوز ۽ گليڪٽوز مان ۽ مالٽوز ٻن گلوڪوز مان ٺهي ٿو.\n\n## پولي سيڪرائيڊ\n- **نشاستو:** ٻوٽن ۾ توانائي ذخيرو ڪندڙ مادو؛ ان ۾ ايمي لوز ۽ ايمي لوپيڪٽن شامل آهن.\n- **گلائڪوجن:** جانورن ۽ فنجائي ۾ شاخن وارو ذخيرو، جنهن مان ضرورت وقت گلوڪوز ملي ٿو.\n- **سيلولوز:** بيٽا گلوڪوز جون اڪائيون بيٽا-1،4 بندن سان ڳنڍيل آهن. سڌيون زنجيرون ٻوٽن جي خلوي ڀت کي مضبوطي ڏين ٿيون.\n- **ڪٽن:** آرٿروپوڊن جي ٻاهرين ڍانچي ۽ فنجائي جي خلوي ڀت ۾ ملندڙ بناوتي پولي سيڪرائيڊ.\n\n## بناوت ۽ ڪم\nشاخن، زنجير جي ڊيگهه ۽ بند جي قسم سان حل پذيري ۽ مضبوطي بدلجي ٿي. انسان نشاستو هضم ڪري سگهن ٿا، پر سيلولوز جا بيٽا-1،4 بند ٽوڙڻ لاءِ سيلوليز اينزائم موجود ناهي.\n\n## پنهنجي سمجهه پرکيو\nانسان نشاستو هضم ڪري سگهي ٿو پر سيلولوز ڇو نه، جڏهن ته ٻئي گلوڪوز مان ٺهيل آهن؟"
+          }
+        },
+        {
+          "title": "1.4 Proteins",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe amino acids, peptide bonds, protein structure and the relationship between amino-acid sequence and protein function.\n\n## Amino acids\nA typical amino acid has a central alpha carbon attached to an amino group, a carboxyl group, a hydrogen atom and a variable R group. The R group gives each amino acid its distinctive properties. Essential amino acids must be obtained from the diet in adequate amounts; non-essential amino acids can be synthesised by the body.\n\n## Peptide bonds and polypeptides\nA condensation reaction between the carboxyl group of one amino acid and the amino group of another forms a peptide bond and releases water. Repeated reactions create a polypeptide chain. Hydrolysis breaks peptide bonds.\n\n## Levels of protein structure\n- **Primary:** the amino-acid sequence.\n- **Secondary:** local folding such as alpha helices and beta-pleated sheets, stabilised mainly by hydrogen bonds.\n- **Tertiary:** the overall three-dimensional shape of one polypeptide, stabilised by interactions among R groups, including hydrogen bonds, ionic interactions, hydrophobic interactions and disulfide bonds.\n- **Quaternary:** association of two or more polypeptide subunits, as in haemoglobin.\n\n## Fibrous and globular proteins\nFibrous proteins, such as collagen and keratin, usually provide strength or support. Globular proteins, such as enzymes, haemoglobin and many antibodies, have compact shapes suited to transport, catalysis or defence.\n\n## Sequence and function: sickle-cell example\nA change in the beta-globin amino-acid sequence can produce haemoglobin S. Under low-oxygen conditions, haemoglobin S molecules can aggregate, changing red blood cell shape. This illustrates how a small sequence change can affect protein behaviour and cell function.\n\n## Check your understanding\nExplain why changing one amino acid can sometimes alter the function of an entire protein.",
+          "explanations": {
+            "ur": "## سبق جا مقصد\nامينو ايسڊ، پيپٽائڊ بند، پروٽين جي بناوت ۽ امينو ايسڊن جي ترتيب جو پروٽين جي ڪم سان تعلق بيان ڪريو.\n\n## امينو ايسڊ\nعام امينو ايسڊ جي مرڪزي الفا ڪاربان سان امينو گروهه، ڪاربوڪسل گروهه، هائيڊروجن ۽ بدلجندڙ R گروهه ڳنڍيل هوندا آهن. R گروهه هر امينو ايسڊ جون خاصيتون طئي ڪري ٿو. ضروري امينو ايسڊ خوراڪ مان حاصل ڪرڻا پوندا آهن، جڏهن ته غير ضروري امينو ايسڊ جسم پاڻ ٺاهي سگهي ٿو.\n\n## پيپٽائڊ بند ۽ پولي پيپٽائڊ\nهڪ امينو ايسڊ جي ڪاربوڪسل گروهه ۽ ٻئي جي امينو گروهه جي وچ ۾ ڪنڊينسيشن عمل سان پيپٽائڊ بند ٺهي ٿو ۽ پاڻي خارج ٿئي ٿو. اهڙا ڪيترائي عمل پولي پيپٽائڊ زنجير ٺاهين ٿا. هائيڊرولائسس پيپٽائڊ بند ٽوڙي ٿو.\n\n## پروٽين جي بناوت جا درجا\n- **ابتدائي:** امينو ايسڊن جي ترتيب.\n- **ثانوي:** مقامي ويڙهڻ، جهڙوڪ الفا هيلڪس ۽ بيٽا پليٽ؛ گهڻو ڪري هائيڊروجن بند مستحڪم ڪن ٿا.\n- **ٽئين درجي:** هڪ پولي پيپٽائڊ جي مڪمل ٽي پاسائين شڪل؛ R گروهن جا لاڳاپا ان کي مستحڪم ڪن ٿا.\n- **چوٿين درجي:** ٻه يا وڌيڪ پولي پيپٽائڊ حصا گڏ ٿين، جيئن هيموگلوبن ۾.\n\n## فائبرس ۽ گلوبولر پروٽين\nڪوليجن ۽ ڪيريٽن جهڙا فائبرس پروٽين مضبوطي ۽ سهارو ڏين ٿا. اينزائم، هيموگلوبن ۽ ڪيترين اينٽي باڊيز جهڙا گلوبولر پروٽين مادا منتقل ڪن ٿا، عمل تيز ڪن ٿا يا دفاع ڪن ٿا.\n\n## سڪل سيل جي مثال\nبيٽا گلوبن جي امينو ايسڊ ترتيب ۾ تبديليءَ سان هيموگلوبن S ٺهي سگهي ٿو. گهٽ آڪسيجن ۾ ان جا ماليڪيول گڏ ٿي ڳاڙهن خلين جي شڪل بدلائي سگهن ٿا. اهو ڏيکاري ٿو ته ننڍڙي تبديلي به پروٽين ۽ خاني جي ڪم تي اثر وجهي سگهي ٿي.\n\n## پنهنجي سمجهه پرکيو\nهڪ امينو ايسڊ جي تبديلي ڪڏهن ڪڏهن پوري پروٽين جو ڪم ڇو بدلائي سگهي ٿي؟",
+            "sd": "## هن سبق جا مقصد\nامينو ايسڊ، پيپٽائڊ بند، پروٽين جي بناوت ۽ امينو ايسڊن جي ترتيب جو پروٽين جي ڪم سان تعلق بيان ڪريو.\n\n## امينو ايسڊ\nعام امينو ايسڊ جي مرڪزي الفا ڪاربان سان امينو گروهه، ڪاربوڪسل گروهه، هائيڊروجن ۽ بدلجندڙ R گروهه ڳنڍيل هوندا آهن. R گروهه هر امينو ايسڊ جون خاصيتون طئي ڪري ٿو. ضروري امينو ايسڊ خوراڪ مان وٺڻا پوندا آهن، جڏهن ته غير ضروري امينو ايسڊ جسم ٺاهي سگهي ٿو.\n\n## پيپٽائڊ بند ۽ پولي پيپٽائڊ\nهڪ امينو ايسڊ جي ڪاربوڪسل گروهه ۽ ٻئي جي امينو گروهه وچ ۾ ڪنڊينسيشن سان پيپٽائڊ بند ٺهي ٿو ۽ پاڻي خارج ٿئي ٿو. بار بار اهڙي عمل سان پولي پيپٽائڊ زنجير ٺهي ٿي. هائيڊرولائسس پيپٽائڊ بند ٽوڙي ٿو.\n\n## پروٽين جي بناوت جا درجا\n- **ابتدائي:** امينو ايسڊن جي ترتيب.\n- **ثانوي:** مقامي ويڙهڻ، جهڙوڪ الفا هيلڪس ۽ بيٽا پليٽ؛ هائيڊروجن بند ان کي مستحڪم ڪن ٿا.\n- **ٽئين درجي:** هڪ پولي پيپٽائڊ جي مڪمل ٽي پاسائين شڪل؛ R گروهن جا لاڳاپا ان کي مستحڪم ڪن ٿا.\n- **چوٿين درجي:** ٻه يا وڌيڪ پولي پيپٽائڊ حصا گڏ ٿين، جيئن هيموگلوبن ۾.\n\n## فائبرس ۽ گلوبولر پروٽين\nڪوليجن ۽ ڪيريٽن جهڙا فائبرس پروٽين مضبوطي ۽ سهارو ڏين ٿا. اينزائم، هيموگلوبن ۽ اينٽي باڊيز جهڙا گلوبولر پروٽين مادا منتقل ڪن ٿا، عمل تيز ڪن ٿا يا بچاءُ ڪن ٿا.\n\n## سڪل سيل جي مثال\nبيٽا گلوبن جي امينو ايسڊ ترتيب ۾ تبديليءَ سان هيموگلوبن S ٺهي سگهي ٿو. گهٽ آڪسيجن ۾ ان جا ماليڪيول گڏ ٿي ڳاڙهن خلين جي شڪل بدلائي سگهن ٿا. اهو ڏيکاري ٿو ته ننڍڙي تبديلي به پروٽين ۽ خاني جي ڪم تي اثر وجهي سگهي ٿي.\n\n## پنهنجي سمجهه پرکيو\nهڪ امينو ايسڊ جي تبديلي ڪڏهن ڪڏهن پوري پروٽين جو ڪم ڇو بدلائي سگهي ٿي؟"
+          }
+        },
+        {
+          "title": "1.5 Lipids, Nucleic Acids and Conjugated Molecules",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe major lipid groups, nucleotide structure, DNA and RNA, the central dogma and common conjugated molecules.\n\n## Lipids\nLipids are a diverse group of hydrophobic or partly hydrophobic molecules.\n- **Acylglycerols:** glycerol joined to one, two or three fatty acids; triglycerides are important energy stores.\n- **Phospholipids:** contain a hydrophilic phosphate-containing head and hydrophobic fatty-acid tails; they form cell-membrane bilayers.\n- **Waxes:** long-chain molecules that reduce water loss and provide protective coatings.\n- **Terpenes:** built from isoprene units; examples include some plant pigments and components of essential oils.\n- **Steroids:** have four fused carbon rings; cholesterol is a membrane component and a precursor of steroid hormones.\n- **Prostaglandins:** lipid-derived signalling molecules involved in processes such as inflammation and smooth-muscle activity.\n\nFatty acids may be saturated (no carbon-carbon double bonds) or unsaturated (one or more double bonds). A triglyceride forms by condensation between glycerol and three fatty acids, producing three ester bonds and releasing water.\n\n## Nucleotides and nucleic acids\nA nucleotide contains a pentose sugar, a phosphate group and a nitrogenous base. Nucleotides join through phosphodiester bonds to form polynucleotide chains. ATP is a nucleotide used in energy transfer; NAD is a dinucleotide coenzyme involved in redox reactions.\n\nDNA usually consists of two antiparallel strands forming a double helix. Complementary base pairing is A with T and G with C. RNA is usually single-stranded and contains uracil instead of thymine. mRNA carries a coding message, tRNA brings amino acids and rRNA forms part of ribosomes.\n\n## Central dogma\nThe central dogma describes the usual flow of genetic information: DNA can be replicated; DNA is transcribed into RNA; and RNA is translated into a polypeptide. This is a useful framework, while some viruses use RNA-to-DNA reverse transcription.\n\n## Conjugated molecules\n- **Glycoproteins:** proteins with attached carbohydrate chains; important in cell recognition and receptors.\n- **Glycolipids:** lipids with carbohydrate groups; help with membrane stability and cell recognition.\n- **Lipoproteins:** lipid-protein complexes that transport fats in blood.\n- **Nucleoproteins:** complexes of nucleic acids and proteins, such as chromatin and ribosomes.\n\n## Check your understanding\nHow does the amphipathic structure of phospholipids help create a stable cell membrane?",
+          "explanations": {
+            "ur": "## سبق جا مقصد\nلپڊن جي اهم قسمن، نيوڪليوٽائيڊ جي بناوت، DNA ۽ RNA، سينٽرل ڊاگما ۽ گڏيل ماليڪيولن کي بيان ڪريو.\n\n## لپڊز\nلپڊ مختلف قسم جا ماليڪيول آهن، جيڪي پاڻيءَ کان پاسو ڪندڙ يا جزوي طور پاڻيءَ سان لاڳاپو رکندڙ هوندا آهن.\n- **ايسائل گليسرول:** گليسرول سان هڪ، ٻه يا ٽي فيٽي ايسڊ ڳنڍيل هوندا آهن؛ ٽرائي گليسرائيڊ توانائي جو اهم ذخيرو آهي.\n- **فاسفوليپڊ:** پاڻيءَ سان لاڳاپو رکندڙ فاسفيٽ وارو مٿو ۽ پاڻيءَ کان پاسو ڪندڙ فيٽي ايسڊ دمون رکي ٿو؛ اهي خلوي جھليءَ جي ٻٽي تهه ٺاهين ٿا.\n- **موم:** پاڻيءَ جي نقصان کي گهٽائي حفاظتي تهه ٺاهي ٿو.\n- **ٽرپين:** آئسوپرين اڪائين مان ٺهن ٿا؛ ڪجهه ٻوٽن جا رنگ ۽ خوشبودار تيل انهن جا مثال آهن.\n- **اسٽيرائڊ:** چار ڳنڍيل ڪاربان حلقا رکن ٿا؛ ڪوليسٽرول جھليءَ جو حصو ۽ اسٽيرائڊ هارمونن جو اڳواڻ مادو آهي.\n- **پروسٽاگلينڊن:** لپڊ مان ٺهندڙ اشارتي ماليڪيول، جيڪي سوزش ۽ هموار عضلن جي عمل ۾ حصو وٺن ٿا.\n\nفيٽي ايسڊ سيريٽڊ يا اَن سيريٽڊ ٿي سگهن ٿا. ٽرائي گليسرائيڊ گليسرول ۽ ٽن فيٽي ايسڊن جي ڪنڊينسيشن سان ٺهي ٿو؛ ٽي ايسٽر بند ٺهن ٿا ۽ پاڻي خارج ٿئي ٿو.\n\n## نيوڪليوٽائيڊ ۽ نيوڪليڪ ايسڊ\nنيوڪليوٽائيڊ ۾ پينٽوز کنڊ، فاسفيٽ گروهه ۽ نائٽروجني بنياد هوندو آهي. نيوڪليوٽائيڊ فاسفوڊائيسٽر بندن سان ڳنڍجي ڊگهي زنجير ٺاهين ٿا. ATP توانائيءَ جي منتقلي ۾ ڪم اچي ٿو؛ NAD ريڊاڪس عملن ۾ مدد ڪندڙ ڊاءِ نيوڪليوٽائيڊ آهي.\n\nDNA عام طور ٻن ابتڙ رخن واري تندن مان ٺهي ڊبل هيلڪس بڻائي ٿو. بنيادن جا جوڙا A-T ۽ G-C آهن. RNA اڪثر هڪ تاري وارو هوندو آهي ۽ ٿائمين بدران يوراسل رکي ٿو. mRNA پيغام کڻي ٿو، tRNA امينو ايسڊ آڻي ٿو ۽ rRNA رائبوسوم جو حصو آهي.\n\n## سينٽرل ڊاگما\nعام طور جينياتي ڄاڻ جو وهڪرو هي آهي: DNA جي نقل ٿي سگهي ٿي؛ DNA مان RNA ٺهي ٿو جنهن کي ٽرانسڪرپشن چوندا آهن؛ پوءِ RNA مان پولي پيپٽائڊ ٺهي ٿو جنهن کي ٽرانسليشن چوندا آهن. ڪجهه وائرس RNA مان DNA ٺاهڻ لاءِ ريورس ٽرانسڪرپشن استعمال ڪن ٿا.\n\n## گڏيل ماليڪيول\n- **گلائڪوپروٽين:** پروٽين سان ڳنڍيل ڪاربوهائيڊريٽ؛ خلين جي سڃاڻپ ۽ ري سيپٽرن ۾ اهم.\n- **گلائڪولپڊ:** ڪاربوهائيڊريٽ سان ڳنڍيل لپڊ؛ جھليءَ جي مضبوطي ۽ خلوي سڃاڻپ ۾ مدد.\n- **لائپوپروٽين:** لپڊ ۽ پروٽين جو گڏيل ماليڪيول، جيڪو رت ۾ چرٻي منتقل ڪري ٿو.\n- **نيوڪليوپروٽين:** نيوڪليڪ ايسڊ ۽ پروٽين جا گڏيل حصا، جهڙوڪ ڪروميٽن ۽ رائبوسوم.\n\n## پنهنجي سمجهه پرکيو\nفاسفوليپڊ جي ٻنهي قسمن وارن حصن جي بناوت مستحڪم خلوي جھلي ٺاهڻ ۾ ڪيئن مدد ڪري ٿي؟",
+            "sd": "## هن سبق جا مقصد\nلپڊن جي اهم قسمن، نيوڪليوٽائيڊ جي بناوت، DNA ۽ RNA، سينٽرل ڊاگما ۽ گڏيل ماليڪيولن کي بيان ڪريو.\n\n## لپڊ\nلپڊ مختلف قسم جا ماليڪيول آهن، جيڪي پاڻيءَ کان پاسو ڪندڙ يا جزوي طور پاڻيءَ سان لاڳاپو رکندڙ هوندا آهن.\n- **ايسائل گليسرول:** گليسرول سان هڪ، ٻه يا ٽي فيٽي ايسڊ ڳنڍيل هوندا آهن؛ ٽرائي گليسرائيڊ توانائيءَ جو اهم ذخيرو آهي.\n- **فاسفوليپڊ:** پاڻيءَ سان لاڳاپو رکندڙ فاسفيٽ وارو مٿو ۽ پاڻيءَ کان پاسو ڪندڙ فيٽي ايسڊ دمون رکي ٿو؛ اهي خلوي جھليءَ جي ٻٽي تهه ٺاهين ٿا.\n- **موم:** پاڻيءَ جي نقصان کي گهٽائي حفاظتي تهه ٺاهي ٿو.\n- **ٽرپين:** آئسوپرين اڪائين مان ٺهن ٿا؛ ڪجهه ٻوٽن جا رنگ ۽ خوشبودار تيل انهن جا مثال آهن.\n- **اسٽيرائڊ:** چار ڳنڍيل ڪاربان حلقا رکن ٿا؛ ڪوليسٽرول جھليءَ جو حصو ۽ اسٽيرائڊ هارمونن جو اڳواڻ مادو آهي.\n- **پروسٽاگلينڊن:** لپڊ مان ٺهندڙ اشارتي ماليڪيول، جيڪي سوزش ۽ هموار عضلن جي عمل ۾ حصو وٺن ٿا.\n\nفيٽي ايسڊ سيريٽڊ يا اَن سيريٽڊ ٿي سگهن ٿا. ٽرائي گليسرائيڊ گليسرول ۽ ٽن فيٽي ايسڊن جي ڪنڊينسيشن سان ٺهي ٿو؛ ٽي ايسٽر بند ٺهن ٿا ۽ پاڻي خارج ٿئي ٿو.\n\n## نيوڪليوٽائيڊ ۽ نيوڪليڪ ايسڊ\nنيوڪليوٽائيڊ ۾ پينٽوز کنڊ، فاسفيٽ گروهه ۽ نائٽروجني بنياد هوندو آهي. اهي فاسفوڊائيسٽر بندن سان ڳنڍجي زنجير ٺاهين ٿا. ATP توانائيءَ جي منتقلي ۾ ڪم اچي ٿو؛ NAD ريڊاڪس عملن ۾ مدد ڪري ٿو.\n\nDNA عام طور ٻن ابتڙ رخن وارين تندن مان ٺهي ڊبل هيلڪس بڻائي ٿو. بنيادن جا جوڙا A-T ۽ G-C آهن. RNA اڪثر هڪ تاري وارو هوندو آهي ۽ ٿائمين بدران يوراسل رکي ٿو. mRNA پيغام کڻي ٿو، tRNA امينو ايسڊ آڻي ٿو ۽ rRNA رائبوسوم جو حصو آهي.\n\n## سينٽرل ڊاگما\nعام طور جينياتي ڄاڻ جو وهڪرو هي آهي: DNA جي نقل ٿي سگهي ٿي؛ DNA مان RNA ٺهي ٿو، جنهن کي ٽرانسڪرپشن چوندا آهن؛ پوءِ RNA مان پولي پيپٽائڊ ٺهي ٿو، جنهن کي ٽرانسليشن چوندا آهن. ڪجهه وائرس RNA مان DNA ٺاهڻ لاءِ ريورس ٽرانسڪرپشن ڪن ٿا.\n\n## گڏيل ماليڪيول\n- **گلائڪوپروٽين:** پروٽين سان ڳنڍيل ڪاربوهائيڊريٽ؛ خلين جي سڃاڻپ ۽ ري سيپٽرن ۾ اهم.\n- **گلائڪولپڊ:** ڪاربوهائيڊريٽ سان ڳنڍيل لپڊ؛ جھليءَ جي مضبوطي ۽ خلوي سڃاڻپ ۾ مدد.\n- **لائپوپروٽين:** لپڊ ۽ پروٽين جو گڏيل ماليڪيول، جيڪو رت ۾ چرٻي منتقل ڪري ٿو.\n- **نيوڪليوپروٽين:** نيوڪليڪ ايسڊ ۽ پروٽين جا گڏيل حصا، جهڙوڪ ڪروميٽن ۽ رائبوسوم.\n\n## پنهنجي سمجهه پرکيو\nفاسفوليپڊ جي بناوت مستحڪم خلوي جھلي ٺاهڻ ۾ ڪيئن مدد ڪري ٿي؟"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which interaction is most directly responsible for complementary base pairing between the two DNA strands?",
+          "options": {
+            "A": "Covalent peptide bonds",
+            "B": "Hydrogen bonds",
+            "C": "Ester bonds",
+            "D": "Ionic bonds"
+          },
+          "correctOption": "B",
+          "explanation": "Hydrogen bonds form between complementary nitrogenous bases and help stabilise the DNA double helix.",
+          "translations": {
+            "ur": {
+              "question": "DNA جي ٻن تندن ۾ مڪمل ڪندڙ بنيادن کي ڪهڙو لاڳاپو گڏ رکي ٿو؟",
+              "options": {
+                "A": "Covalent peptide bonds",
+                "B": "Hydrogen bonds",
+                "C": "Ester bonds",
+                "D": "Ionic bonds"
+              },
+              "explanation": "DNA جي ٻن تندن ۾ مڪمل ڪندڙ بنيادن کي هائيڊروجن بند گڏ رکن ٿا."
+            },
+            "sd": {
+              "question": "ڊي اين اي جي ٻن تندن ۾ مڪمل ڪندڙ بنيادن کي ڪهڙو لاڳاپو گڏ رکي ٿو؟",
+              "options": {
+                "A": "Covalent peptide bonds",
+                "B": "Hydrogen bonds",
+                "C": "Ester bonds",
+                "D": "Ionic bonds"
+              },
+              "explanation": "هائيڊروجن بند مڪمل ڪندڙ نائٽروجني بنيادن جي وچ ۾ ٺهن ٿا ۽ ڊبل هيلڪس کي مستحڪم ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which property of water helps reduce rapid temperature changes in organisms?",
+          "options": {
+            "A": "Low specific heat capacity",
+            "B": "High specific heat capacity",
+            "C": "Low cohesion",
+            "D": "Non-polarity"
+          },
+          "correctOption": "B",
+          "explanation": "Water absorbs or releases considerable heat with a relatively small temperature change because of its high specific heat capacity.",
+          "translations": {
+            "ur": {
+              "question": "پاڻيءَ جي ڪهڙي خاصيت جاندارن ۾ گرمي پد جي تيز تبديلي گهٽائي ٿي؟",
+              "options": {
+                "A": "Low specific heat capacity",
+                "B": "High specific heat capacity",
+                "C": "Low cohesion",
+                "D": "Non-polarity"
+              },
+              "explanation": "پاڻيءَ جي وڏي مخصوص حرارتي گنجائش سبب اهو گهڻي گرمي جذب يا خارج ڪري به گرمي پد آهستي بدلائي ٿو."
+            },
+            "sd": {
+              "question": "پاڻيءَ جي ڪهڙي خاصيت جاندارن ۾ گرمي پد جي تيز تبديلي گهٽائي ٿي؟",
+              "options": {
+                "A": "Low specific heat capacity",
+                "B": "High specific heat capacity",
+                "C": "Low cohesion",
+                "D": "Non-polarity"
+              },
+              "explanation": "پاڻيءَ جي وڏي مخصوص حرارتي گنجائش سبب اهو گهڻي گرمي جذب يا خارج ڪري به گرمي پد آهستي بدلائي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which carbohydrate is the principal storage polysaccharide in animals?",
+          "options": {
+            "A": "Cellulose",
+            "B": "Starch",
+            "C": "Glycogen",
+            "D": "Chitin"
+          },
+          "correctOption": "C",
+          "explanation": "Glycogen is a highly branched glucose-storage polysaccharide in animals.",
+          "translations": {
+            "ur": {
+              "question": "جانورن ۾ توانائي ذخيرو ڪندڙ اهم پولي سيڪرائيڊ ڪهڙو آهي؟",
+              "options": {
+                "A": "Cellulose",
+                "B": "Starch",
+                "C": "Glycogen",
+                "D": "Chitin"
+              },
+              "explanation": "گلائڪوجن جانورن ۾ گلوڪوز ذخيرو ڪندڙ شاخن وارو پولي سيڪرائيڊ آهي."
+            },
+            "sd": {
+              "question": "جانورن ۾ توانائي ذخيرو ڪندڙ اهم پولي سيڪرائيڊ ڪهڙو آهي؟",
+              "options": {
+                "A": "Cellulose",
+                "B": "Starch",
+                "C": "Glycogen",
+                "D": "Chitin"
+              },
+              "explanation": "گلائڪوجن جانورن ۾ گلوڪوز ذخيرو ڪندڙ شاخن وارو پولي سيڪرائيڊ آهي."
+            }
+          }
+        },
+        {
+          "question": "The bond joining two amino acids in a polypeptide is a:",
+          "options": {
+            "A": "Glycosidic bond",
+            "B": "Phosphodiester bond",
+            "C": "Peptide bond",
+            "D": "Hydrogen bond"
+          },
+          "correctOption": "C",
+          "explanation": "A peptide bond forms between the carboxyl group of one amino acid and the amino group of another.",
+          "translations": {
+            "ur": {
+              "question": "پولي پيپٽائڊ ۾ ٻن امينو ايسڊن کي ڪهڙو بند ڳنڍي ٿو؟",
+              "options": {
+                "A": "Glycosidic bond",
+                "B": "Phosphodiester bond",
+                "C": "Peptide bond",
+                "D": "Hydrogen bond"
+              },
+              "explanation": "پيپٽائڊ بند هڪ امينو ايسڊ جي ڪاربوڪسل ۽ ٻئي جي امينو گروهه جي وچ ۾ ٺهي ٿو."
+            },
+            "sd": {
+              "question": "پولي پيپٽائڊ ۾ ٻن امينو ايسڊن کي ڪهڙو بند ڳنڍي ٿو؟",
+              "options": {
+                "A": "Glycosidic bond",
+                "B": "Phosphodiester bond",
+                "C": "Peptide bond",
+                "D": "Hydrogen bond"
+              },
+              "explanation": "پيپٽائڊ بند هڪ امينو ايسڊ جي ڪاربوڪسل ۽ ٻئي جي امينو گروهه جي وچ ۾ ٺهي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which level of protein structure is determined directly by the amino-acid sequence?",
+          "options": {
+            "A": "Primary",
+            "B": "Secondary",
+            "C": "Tertiary",
+            "D": "Quaternary"
+          },
+          "correctOption": "A",
+          "explanation": "Primary structure is the linear amino-acid sequence of a polypeptide.",
+          "translations": {
+            "ur": {
+              "question": "پروٽين جي ڪهڙي سطح جي بناوت سڌي طرح امينو ايسڊن جي ترتيب سان طئي ٿئي ٿي؟",
+              "options": {
+                "A": "Primary",
+                "B": "Secondary",
+                "C": "Tertiary",
+                "D": "Quaternary"
+              },
+              "explanation": "ابتدائي بناوت پولي پيپٽائڊ ۾ امينو ايسڊن جي سڌي ترتيب آهي."
+            },
+            "sd": {
+              "question": "پروٽين جي ڪهڙي سطح جي بناوت سڌي طرح امينو ايسڊن جي ترتيب سان طئي ٿئي ٿي؟",
+              "options": {
+                "A": "Primary",
+                "B": "Secondary",
+                "C": "Tertiary",
+                "D": "Quaternary"
+              },
+              "explanation": "ابتدائي بناوت پولي پيپٽائڊ ۾ امينو ايسڊن جي سڌي ترتيب آهي."
+            }
+          }
+        },
+        {
+          "question": "Which lipid is a major structural component of cell membranes?",
+          "options": {
+            "A": "Triglyceride",
+            "B": "Phospholipid",
+            "C": "Wax",
+            "D": "Prostaglandin"
+          },
+          "correctOption": "B",
+          "explanation": "Phospholipids are amphipathic and form the basic bilayer of cell membranes.",
+          "translations": {
+            "ur": {
+              "question": "خلوي جھلين جو اهم بناوتي لپڊ ڪهڙو آهي؟",
+              "options": {
+                "A": "Triglyceride",
+                "B": "Phospholipid",
+                "C": "Wax",
+                "D": "Prostaglandin"
+              },
+              "explanation": "فاسفوليپڊ جا پاڻي پسند مٿا ۽ پاڻي کان پاسو ڪندڙ دمون خلوي جھليءَ جي ٻٽي تهه ٺاهين ٿيون."
+            },
+            "sd": {
+              "question": "خلوي جھلين جو اهم بناوتي لپڊ ڪهڙو آهي؟",
+              "options": {
+                "A": "Triglyceride",
+                "B": "Phospholipid",
+                "C": "Wax",
+                "D": "Prostaglandin"
+              },
+              "explanation": "فاسفوليپڊ جا پاڻي پسند مٿا ۽ پاڻي کان پاسو ڪندڙ دمون خلوي جھليءَ جي ٻٽي تهه ٺاهين ٿيون."
+            }
+          }
+        },
+        {
+          "question": "A condensation reaction joining two monosaccharides usually:",
+          "options": {
+            "A": "Uses oxygen and releases carbon dioxide",
+            "B": "Releases water and forms a glycosidic bond",
+            "C": "Adds water and breaks a bond",
+            "D": "Forms a peptide bond"
+          },
+          "correctOption": "B",
+          "explanation": "Condensation removes water as a glycosidic bond forms between sugar units.",
+          "translations": {
+            "ur": {
+              "question": "ٻه مونوسيڪرائيڊ ڪنڊينسيشن عمل سان ڳنڍجن ته عام طور ڇا ٿئي ٿو؟",
+              "options": {
+                "A": "Uses oxygen and releases carbon dioxide",
+                "B": "Releases water and forms a glycosidic bond",
+                "C": "Adds water and breaks a bond",
+                "D": "Forms a peptide bond"
+              },
+              "explanation": "ڪنڊينسيشن دوران پاڻي خارج ٿئي ٿو ۽ کنڊن جي وچ ۾ گلائڪوسائيڊڪ بند ٺهي ٿو."
+            },
+            "sd": {
+              "question": "ٻه مونوسيڪرائيڊ ڪنڊينسيشن عمل سان ڳنڍجن ته عام طور ڇا ٿئي ٿو؟",
+              "options": {
+                "A": "Uses oxygen and releases carbon dioxide",
+                "B": "Releases water and forms a glycosidic bond",
+                "C": "Adds water and breaks a bond",
+                "D": "Forms a peptide bond"
+              },
+              "explanation": "ڪنڊينسيشن دوران پاڻي خارج ٿئي ٿو ۽ کنڊن جي وچ ۾ گلائڪوسائيڊڪ بند ٺهي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes cellulose?",
+          "options": {
+            "A": "It is made of alpha-glucose and is highly branched",
+            "B": "It is made of beta-glucose linked by beta-1,4 bonds",
+            "C": "It stores glucose in animal liver",
+            "D": "It is a disaccharide"
+          },
+          "correctOption": "B",
+          "explanation": "Cellulose consists of straight chains of beta-glucose linked by beta-1,4 glycosidic bonds.",
+          "translations": {
+            "ur": {
+              "question": "سيلولوز بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "It is made of alpha-glucose and is highly branched",
+                "B": "It is made of beta-glucose linked by beta-1,4 bonds",
+                "C": "It stores glucose in animal liver",
+                "D": "It is a disaccharide"
+              },
+              "explanation": "سيلولوز بيٽا گلوڪوز جي سڌين زنجيرن مان ٺهي ٿو، جن ۾ بيٽا-1،4 گلائڪوسائيڊڪ بند هوندا آهن."
+            },
+            "sd": {
+              "question": "سيلولوز بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "It is made of alpha-glucose and is highly branched",
+                "B": "It is made of beta-glucose linked by beta-1,4 bonds",
+                "C": "It stores glucose in animal liver",
+                "D": "It is a disaccharide"
+              },
+              "explanation": "سيلولوز بيٽا گلوڪوز جي سڌين زنجيرن مان ٺهي ٿو، جن ۾ بيٽا-1،4 گلائڪوسائيڊڪ بند هوندا آهن."
+            }
+          }
+        },
+        {
+          "question": "Which molecule is a dinucleotide coenzyme involved in oxidation-reduction reactions?",
+          "options": {
+            "A": "ATP",
+            "B": "NAD",
+            "C": "Cellulose",
+            "D": "Glycogen"
+          },
+          "correctOption": "B",
+          "explanation": "NAD is a dinucleotide coenzyme that carries electrons in redox reactions.",
+          "translations": {
+            "ur": {
+              "question": "آڪسائيڊيشن ۽ ريڊڪشن عملن ۾ حصو وٺندڙ ڊاءِ نيوڪليوٽائيڊ ڪو اينزائم ڪهڙو آهي؟",
+              "options": {
+                "A": "ATP",
+                "B": "NAD",
+                "C": "Cellulose",
+                "D": "Glycogen"
+              },
+              "explanation": "NAD هڪ ڊاءِ نيوڪليوٽائيڊ ڪو اينزائم آهي، جيڪو ريڊاڪس عملن ۾ اليڪٽران کڻي ٿو."
+            },
+            "sd": {
+              "question": "آڪسائيڊيشن ۽ ريڊڪشن عملن ۾ حصو وٺندڙ ڊاءِ نيوڪليوٽائيڊ ڪو اينزائم ڪهڙو آهي؟",
+              "options": {
+                "A": "ATP",
+                "B": "NAD",
+                "C": "Cellulose",
+                "D": "Glycogen"
+              },
+              "explanation": "NAD هڪ ڊاءِ نيوڪليوٽائيڊ ڪو اينزائم آهي، جيڪو ريڊاڪس عملن ۾ اليڪٽران کڻي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which base is present in RNA but normally absent from DNA?",
+          "options": {
+            "A": "Thymine",
+            "B": "Cytosine",
+            "C": "Uracil",
+            "D": "Guanine"
+          },
+          "correctOption": "C",
+          "explanation": "RNA uses uracil in place of thymine.",
+          "translations": {
+            "ur": {
+              "question": "RNA ۾ ڪهڙو بنياد هوندو آهي جيڪو عام طور DNA ۾ نه هوندو آهي؟",
+              "options": {
+                "A": "Thymine",
+                "B": "Cytosine",
+                "C": "Uracil",
+                "D": "Guanine"
+              },
+              "explanation": "RNA ۾ ٿائمين جي بدران يوراسل هوندو آهي."
+            },
+            "sd": {
+              "question": "RNA ۾ ڪهڙو بنياد هوندو آهي جيڪو عام طور DNA ۾ نه هوندو آهي؟",
+              "options": {
+                "A": "Thymine",
+                "B": "Cytosine",
+                "C": "Uracil",
+                "D": "Guanine"
+              },
+              "explanation": "RNA ۾ ٿائمين جي بدران يوراسل هوندو آهي."
+            }
+          }
+        },
+        {
+          "question": "Which sequence best represents the usual central dogma of molecular biology?",
+          "options": {
+            "A": "Protein → RNA → DNA",
+            "B": "DNA → RNA → polypeptide",
+            "C": "RNA → protein → DNA only",
+            "D": "Lipid → DNA → carbohydrate"
+          },
+          "correctOption": "B",
+          "explanation": "Genetic information is commonly transcribed from DNA into RNA and translated from RNA into a polypeptide.",
+          "translations": {
+            "ur": {
+              "question": "ماليڪيولي حياتيات جي عام سينٽرل ڊاگما کي ڪهڙو سلسلو صحيح ڏيکاري ٿو؟",
+              "options": {
+                "A": "Protein → RNA → DNA",
+                "B": "DNA → RNA → polypeptide",
+                "C": "RNA → protein → DNA only",
+                "D": "Lipid → DNA → carbohydrate"
+              },
+              "explanation": "عام طور جينياتي ڄاڻ DNA مان RNA ۾ ٽرانسڪرپٽ ۽ RNA مان پولي پيپٽائڊ ۾ ترجمو ٿئي ٿي."
+            },
+            "sd": {
+              "question": "ماليڪيولي حياتيات جي عام سينٽرل ڊاگما کي ڪهڙو سلسلو صحيح ڏيکاري ٿو؟",
+              "options": {
+                "A": "Protein → RNA → DNA",
+                "B": "DNA → RNA → polypeptide",
+                "C": "RNA → protein → DNA only",
+                "D": "Lipid → DNA → carbohydrate"
+              },
+              "explanation": "عام طور جينياتي ڄاڻ DNA مان RNA ۾ ٽرانسڪرپٽ ۽ RNA مان پولي پيپٽائڊ ۾ ترجمو ٿئي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which lipid group has four fused carbon rings?",
+          "options": {
+            "A": "Waxes",
+            "B": "Steroids",
+            "C": "Triglycerides",
+            "D": "Phospholipids"
+          },
+          "correctOption": "B",
+          "explanation": "Steroids share a characteristic structure of four fused carbon rings.",
+          "translations": {
+            "ur": {
+              "question": "لپڊن جي ڪهڙي گروهه ۾ چار ڳنڍيل ڪاربان حلقا هوندا آهن؟",
+              "options": {
+                "A": "Waxes",
+                "B": "Steroids",
+                "C": "Triglycerides",
+                "D": "Phospholipids"
+              },
+              "explanation": "اسٽيرائڊن جي سڃاڻپ چار ڳنڍيل ڪاربان حلقن واري بناوت آهي."
+            },
+            "sd": {
+              "question": "لپڊن جي ڪهڙي گروهه ۾ چار ڳنڍيل ڪاربان حلقا هوندا آهن؟",
+              "options": {
+                "A": "Waxes",
+                "B": "Steroids",
+                "C": "Triglycerides",
+                "D": "Phospholipids"
+              },
+              "explanation": "اسٽيرائڊن جي سڃاڻپ چار ڳنڍيل ڪاربان حلقن واري بناوت آهي."
+            }
+          }
+        },
+        {
+          "question": "A protein with a carbohydrate chain attached is called a:",
+          "options": {
+            "A": "Glycoprotein",
+            "B": "Lipoprotein",
+            "C": "Nucleoprotein",
+            "D": "Glycolipid"
+          },
+          "correctOption": "A",
+          "explanation": "Glycoproteins contain carbohydrate groups covalently attached to proteins and often function in recognition and signalling.",
+          "translations": {
+            "ur": {
+              "question": "ڪاربوہائیڊريٽ زنجير سان ڳنڍيل پروٽين کي ڇا چوندا آهن؟",
+              "options": {
+                "A": "Glycoprotein",
+                "B": "Lipoprotein",
+                "C": "Nucleoprotein",
+                "D": "Glycolipid"
+              },
+              "explanation": "گلائڪوپروٽين ۾ ڪاربوهائيڊريٽ گروهه پروٽين سان ڳنڍيل هوندا آهن ۽ سڃاڻپ يا اشارن ۾ ڪم ڪندا آهن."
+            },
+            "sd": {
+              "question": "ڪاربوهائيڊريٽ زنجير سان ڳنڍيل پروٽين کي ڇا چوندا آهن؟",
+              "options": {
+                "A": "Glycoprotein",
+                "B": "Lipoprotein",
+                "C": "Nucleoprotein",
+                "D": "Glycolipid"
+              },
+              "explanation": "گلائڪوپروٽين ۾ ڪاربوهائيڊريٽ گروهه پروٽين سان ڳنڍيل هوندا آهن ۽ سڃاڻپ يا اشارن ۾ ڪم ڪندا آهن."
+            }
+          }
+        },
+        {
+          "question": "Which statement about essential amino acids is correct?",
+          "options": {
+            "A": "The body always makes them in sufficient amounts",
+            "B": "They must be supplied in the diet",
+            "C": "They occur only in plant proteins",
+            "D": "They cannot form peptide bonds"
+          },
+          "correctOption": "B",
+          "explanation": "Essential amino acids cannot be synthesised by the body in sufficient amounts and must be obtained from food.",
+          "translations": {
+            "ur": {
+              "question": "ضروري امينو ايسڊ بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "The body always makes them in sufficient amounts",
+                "B": "They must be supplied in the diet",
+                "C": "They occur only in plant proteins",
+                "D": "They cannot form peptide bonds"
+              },
+              "explanation": "ضروري امينو ايسڊ جسم ۾ ڪافي مقدار ۾ نٿا ٺهن، تنهنڪري خوراڪ مان حاصل ڪرڻا پوندا آهن."
+            },
+            "sd": {
+              "question": "ضروري امينو ايسڊ بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "The body always makes them in sufficient amounts",
+                "B": "They must be supplied in the diet",
+                "C": "They occur only in plant proteins",
+                "D": "They cannot form peptide bonds"
+              },
+              "explanation": "ضروري امينو ايسڊ جسم ۾ ڪافي مقدار ۾ نٿا ٺهن، تنهنڪري خوراڪ مان حاصل ڪرڻا پوندا آهن."
+            }
+          }
+        },
+        {
+          "question": "Which property of ice is especially important for aquatic life in cold climates?",
+          "options": {
+            "A": "Ice is denser than liquid water",
+            "B": "Ice sinks to the bottom",
+            "C": "Ice is less dense than liquid water and floats",
+            "D": "Ice contains no hydrogen bonds"
+          },
+          "correctOption": "C",
+          "explanation": "Floating ice can form an insulating surface layer, helping liquid water remain beneath it.",
+          "translations": {
+            "ur": {
+              "question": "ٿڌن علائقن ۾ آبي جيوت لاءِ برف جي ڪهڙي خاصيت اهم آهي؟",
+              "options": {
+                "A": "Ice is denser than liquid water",
+                "B": "Ice sinks to the bottom",
+                "C": "Ice is less dense than liquid water and floats",
+                "D": "Ice contains no hydrogen bonds"
+              },
+              "explanation": "برف پاڻيءَ کان گهٽ گهاٽي هوندي آهي ۽ مٿان تري ٿي، جنهن سان هيٺيون پاڻي نسبتاً محفوظ رهي ٿو."
+            },
+            "sd": {
+              "question": "ٿڌن علائقن ۾ آبي جيوت لاءِ برف جي ڪهڙي خاصيت اهم آهي؟",
+              "options": {
+                "A": "Ice is denser than liquid water",
+                "B": "Ice sinks to the bottom",
+                "C": "Ice is less dense than liquid water and floats",
+                "D": "Ice contains no hydrogen bonds"
+              },
+              "explanation": "برف پاڻيءَ کان گهٽ گهاٽي هوندي آهي ۽ مٿان تري ٿي، جنهن سان هيٺيون پاڻي نسبتاً محفوظ رهي ٿو."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain four properties of water and relate each property to one biological function.",
+          "modelAnswer": "Water is polar and forms hydrogen bonds; this makes it a solvent for many ions and polar molecules. Its high specific heat stabilises temperature. Its high latent heat of vaporisation supports cooling by sweating and transpiration. Cohesion helps maintain continuous water columns in xylem, while adhesion supports movement along vessel walls.",
+          "rubric": [
+            "Any four accurate properties (2 marks)",
+            "A correct biological role linked to each property (3 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "پاڻيءَ جون چار خاصيتون بيان ڪريو ۽ هر هڪ کي حياتياتي ڪم سان ڳنڍيو.",
+              "modelAnswer": "پاڻي قطبي آهي ۽ هائيڊروجن بند ٺاهي ٿو، تنهنڪري ڪيترائي آئن ۽ قطبي ماليڪيول ان ۾ حل ٿين ٿا. ان جي وڏي مخصوص حرارتي گنجائش گرمي پد مستحڪم رکي ٿي. بخارات بڻجڻ لاءِ وڌيڪ گرمي پگهر ۽ ٽرانسپائريشن ذريعي ٿڌڪ ڏئي ٿي. هم آهنگي زائلم ۾ پاڻيءَ جو مسلسل ڪالم قائم رکي ٿي ۽ چنبڙڻ نلين جي ڀتين سان پاڻيءَ جي چرپر ۾ مدد ڪري ٿي.",
+              "rubric": [
+                "پاڻيءَ جون چار صحيح خاصيتون (2 نمبر)",
+                "هر خاصيت سان لاڳاپيل حياتياتي ڪم (3 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "پاڻيءَ جون چار خاصيتون بيان ڪريو ۽ هر هڪ کي حياتياتي ڪم سان ڳنڍيو.",
+              "modelAnswer": "پاڻي قطبي آهي ۽ هائيڊروجن بند ٺاهي ٿو، تنهنڪري ڪيترائي آئن ۽ قطبي ماليڪيول ان ۾ حل ٿين ٿا. ان جي وڏي مخصوص حرارتي گنجائش گرمي پد مستحڪم رکي ٿي. بخارات بڻجڻ لاءِ وڌيڪ گرمي پگهر ۽ ٽرانسپائريشن ذريعي ٿڌڪ ڏئي ٿي. هم آهنگي زائلم ۾ پاڻيءَ جو مسلسل ڪالم قائم رکي ٿي ۽ چنبڙڻ نلين جي ڀتين سان پاڻيءَ جي چرپر ۾ مدد ڪري ٿي.",
+              "rubric": [
+                "پاڻيءَ جون چار صحيح خاصيتون (2 نمبر)",
+                "هر خاصيت سان لاڳاپيل حياتياتي ڪم (3 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare starch, glycogen and cellulose in terms of structure, location and function.",
+          "modelAnswer": "Starch is a plant storage polysaccharide made from alpha-glucose and includes amylose and amylopectin. Glycogen is a more highly branched alpha-glucose storage polysaccharide in animals and fungi. Cellulose is a structural polysaccharide of beta-glucose with beta-1,4 bonds, forming strong fibres in plant cell walls.",
+          "rubric": [
+            "Starch structure, location and role (2 marks)",
+            "Glycogen structure, location and role (1.5 marks)",
+            "Cellulose structure, location and role (1.5 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "نشاستہ، گلائیکوجن ۽ سيلولوز جو بناوت، موجودگي ۽ ڪم جي لحاظ کان موازنہ ڪريو.",
+              "modelAnswer": "نشاستہ الفا گلوڪوز مان ٺهيل ٻوٽن جو ذخيرو ڪندڙ پولي سيڪرائيڊ آهي، جنهن ۾ ايمي لوز ۽ ايمي لوپيڪٽن شامل آهن. گلائڪوجن جانورن ۽ فنجائي ۾ وڌيڪ شاخن وارو الفا گلوڪوز ذخيرو آهي. سيلولوز بيٽا گلوڪوز مان ٺهي ٿو ۽ بيٽا-1،4 بندن سان ٻوٽن جي خلوي ڀت ۾ مضبوط فائبر ٺاهي ٿو.",
+              "rubric": [
+                "نشاستہ جي بناوت، موجودگي ۽ ڪم (2 نمبر)",
+                "گلائڪوجن جي بناوت، موجودگي ۽ ڪم (1.5 نمبر)",
+                "سيلولوز جي بناوت، موجودگي ۽ ڪم (1.5 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "نشاستو، گلائڪوجن ۽ سيلولوز جو بناوت، موجودگي ۽ ڪم جي لحاظ کان مقابلو ڪريو.",
+              "modelAnswer": "نشاستو الفا گلوڪوز مان ٺهيل ٻوٽن جو ذخيرو ڪندڙ پولي سيڪرائيڊ آهي، جنهن ۾ ايمي لوز ۽ ايمي لوپيڪٽن شامل آهن. گلائڪوجن جانورن ۽ فنجائي ۾ وڌيڪ شاخن وارو الفا گلوڪوز ذخيرو آهي. سيلولوز بيٽا گلوڪوز مان ٺهي ٿو ۽ بيٽا-1،4 بندن سان ٻوٽن جي خلوي ڀت ۾ مضبوط فائبر ٺاهي ٿو.",
+              "rubric": [
+                "نشاستي جي بناوت، موجودگي ۽ ڪم (2 نمبر)",
+                "گلائڪوجن جي بناوت، موجودگي ۽ ڪم (1.5 نمبر)",
+                "سيلولوز جي بناوت، موجودگي ۽ ڪم (1.5 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Describe the four levels of protein structure and state one interaction that helps stabilise protein shape.",
+          "modelAnswer": "Primary structure is the amino-acid sequence. Secondary structure includes alpha helices and beta sheets, stabilised by hydrogen bonds. Tertiary structure is the overall three-dimensional folding of one polypeptide, stabilised by R-group interactions such as ionic, hydrogen, hydrophobic and disulfide interactions. Quaternary structure is the association of multiple polypeptide subunits.",
+          "rubric": [
+            "Primary and secondary structures (2 marks)",
+            "Tertiary structure and stabilising interactions (2 marks)",
+            "Quaternary structure (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "پروٽين جي بناوت جا چار درجا بيان ڪريو ۽ هڪ اهڙو لاڳاپو ٻڌايو جيڪو پروٽين جي شڪل کي مستحڪم ڪري ٿو.",
+              "modelAnswer": "ابتدائي بناوت امينو ايسڊن جي ترتيب آهي. ثانوي بناوت ۾ الفا هيلڪس ۽ بيٽا پليٽ شامل آهن، جن کي هائيڊروجن بند مستحڪم ڪن ٿا. ٽئين درجي جي بناوت هڪ پولي پيپٽائڊ جي مڪمل ٽي پاسائين ويڙهڻ آهي، جنهن ۾ آئنڪ، هائيڊروجن، هائيڊروفوبڪ ۽ ڊسلفائيڊ لاڳاپا مدد ڪن ٿا. چوٿين درجي ۾ ڪيترائي پولي پيپٽائڊ حصا گڏ ٿين ٿا.",
+              "rubric": [
+                "ابتدائي ۽ ثانوي بناوت (2 نمبر)",
+                "ٽئين درجي جي بناوت ۽ مستحڪم ڪندڙ لاڳاپا (2 نمبر)",
+                "چوٿين درجي جي بناوت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "پروٽين جي بناوت جا چار درجا بيان ڪريو ۽ هڪ اهڙو لاڳاپو ٻڌايو جيڪو پروٽين جي شڪل کي مستحڪم ڪري ٿو.",
+              "modelAnswer": "ابتدائي بناوت امينو ايسڊن جي ترتيب آهي. ثانوي بناوت ۾ الفا هيلڪس ۽ بيٽا پليٽ شامل آهن، جن کي هائيڊروجن بند مستحڪم ڪن ٿا. ٽئين درجي جي بناوت هڪ پولي پيپٽائڊ جي مڪمل ٽي پاسائين ويڙهڻ آهي، جنهن ۾ آئنڪ، هائيڊروجن، هائيڊروفوبڪ ۽ ڊسلفائيڊ لاڳاپا مدد ڪن ٿا. چوٿين درجي ۾ ڪيترائي پولي پيپٽائڊ حصا گڏ ٿين ٿا.",
+              "rubric": [
+                "ابتدائي ۽ ثانوي بناوت (2 نمبر)",
+                "ٽئين درجي جي بناوت ۽ مستحڪم ڪندڙ لاڳاپا (2 نمبر)",
+                "چوٿين درجي جي بناوت (1 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Describe the structure of DNA and RNA, explain how nucleotides join, and outline the roles of mRNA, tRNA and rRNA in protein synthesis.",
+          "modelAnswer": "A nucleotide contains a pentose sugar, phosphate group and nitrogenous base. Nucleotides join by phosphodiester bonds between the sugar of one nucleotide and phosphate of the next, forming a polynucleotide strand. DNA usually has two antiparallel strands in a double helix, with complementary A–T and G–C base pairing. RNA is usually single-stranded and contains ribose and uracil. During gene expression, mRNA carries the coded message from DNA to the ribosome; tRNA delivers amino acids and pairs its anticodon with mRNA codons; rRNA forms the ribosome's structural and catalytic core and helps form peptide bonds.",
+          "rubric": [
+            "Nucleotide components (2 marks)",
+            "Phosphodiester linkage (1 mark)",
+            "DNA double helix and complementary base pairing (2 marks)",
+            "RNA structure and difference from DNA (1 mark)",
+            "Accurate roles of mRNA, tRNA and rRNA (4 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "DNA ۽ RNA جي بناوت بيان ڪريو، نيوڪليوٽائيڊن جي ڳنڍجڻ جو طريقو سمجهايو ۽ پروٽين سازي ۾ mRNA، tRNA ۽ rRNA جا ڪردار بيان ڪريو.",
+              "modelAnswer": "نيوڪليوٽائيڊ ۾ پينٽوز کنڊ، فاسفيٽ ۽ نائٽروجني بنياد شامل آهن. نيوڪليوٽائيڊ هڪ ٻئي سان فاسفوڊائيسٽر بند ذريعي ڳنڍجي زنجير ٺاهين ٿا. DNA عام طور ٻن ابتڙ رخن واري تندن جي ڊبل هيلڪس آهي؛ A، T سان ۽ G، C سان جوڙو ٺاهي ٿو. RNA اڪثر هڪ تاري وارو هوندو آهي ۽ ان ۾ رائبوز ۽ يوراسل هوندو آهي. mRNA جينياتي پيغام رائبوسوم تائين کڻي ٿو؛ tRNA امينو ايسڊ کڻي اچي ٿو ۽ اينٽي ڪوڊون کي ڪوڊون سان ملائي ٿو؛ rRNA رائبوسوم جو بنيادي بناوتي ۽ عمل ڪندڙ حصو آهي ۽ پيپٽائڊ بند ٺاهڻ ۾ مدد ڪري ٿو.",
+              "rubric": [
+                "نيوڪليوٽائيڊ جا جزا (2 نمبر)",
+                "فاسفوڊائيسٽر بند (1 نمبر)",
+                "DNA ڊبل هيلڪس ۽ بنيادن جا جوڙا (2 نمبر)",
+                "RNA جي بناوت ۽ DNA کان فرق (1 نمبر)",
+                "mRNA، tRNA ۽ rRNA جا صحيح ڪردار (4 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "DNA ۽ RNA جي بناوت بيان ڪريو، نيوڪليوٽائيڊن جي ڳنڍجڻ جو طريقو سمجهايو ۽ پروٽين ٺاهڻ ۾ mRNA، tRNA ۽ rRNA جا ڪردار بيان ڪريو.",
+              "modelAnswer": "نيوڪليوٽائيڊ ۾ پينٽوز کنڊ، فاسفيٽ ۽ نائٽروجني بنياد شامل آهن. نيوڪليوٽائيڊ فاسفوڊائيسٽر بند ذريعي ڳنڍجي زنجير ٺاهين ٿا. DNA عام طور ٻن ابتڙ رخن وارين تندن جي ڊبل هيلڪس آهي؛ A، T سان ۽ G، C سان جوڙو ٺاهي ٿو. RNA اڪثر هڪ تاري وارو هوندو آهي ۽ ان ۾ رائبوز ۽ يوراسل هوندو آهي. mRNA جينياتي پيغام رائبوسوم تائين کڻي ٿو؛ tRNA امينو ايسڊ کڻي اچي ٿو ۽ اينٽي ڪوڊون کي ڪوڊون سان ملائي ٿو؛ rRNA رائبوسوم جو بنيادي بناوتي ۽ عمل ڪندڙ حصو آهي ۽ پيپٽائڊ بند ٺاهڻ ۾ مدد ڪري ٿو.",
+              "rubric": [
+                "نيوڪليوٽائيڊ جا جزا (2 نمبر)",
+                "فاسفوڊائيسٽر بند (1 نمبر)",
+                "DNA ڊبل هيلڪس ۽ بنيادن جا جوڙا (2 نمبر)",
+                "RNA جي بناوت ۽ DNA کان فرق (1 نمبر)",
+                "mRNA، tRNA ۽ rRNA جا صحيح ڪردار (4 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Compare carbohydrates, proteins and lipids as biological molecules. Include their building units or components, important structural features and major functions, with suitable examples.",
+          "modelAnswer": "Carbohydrates include monosaccharides such as glucose; sugar units can join through glycosidic bonds to form starch, glycogen and cellulose. They provide energy and structural support. Proteins are polymers of amino acids joined by peptide bonds; their sequence and folding create specific shapes. They act as enzymes, transporters, receptors, antibodies and structural materials. Lipids include triglycerides, phospholipids, waxes and steroids. Triglycerides contain glycerol and three fatty acids joined by ester bonds; lipids store energy, insulate, protect organs, form membranes and act in signalling. Examples include starch in plants, haemoglobin in blood and phospholipids in cell membranes.",
+          "rubric": [
+            "Carbohydrate units, bonds, examples and functions (3 marks)",
+            "Protein units, peptide bonds, structure and functions (3 marks)",
+            "Lipid components/groups and functions (3 marks)",
+            "Clear comparative organisation and examples (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ڪاربوہائیڊريٽ، پروٽين ۽ لپڊ جو حياتياتي ماليڪيول طور موازنہ ڪريو. انهن جون بنيادي اڪائيون يا جزا، اهم بناوتي خاصيتون ۽ ڪم مناسب مثالن سان بيان ڪريو.",
+              "modelAnswer": "کاربوہائیڈریٹس میں گلوکوز جیسے مونوسیکرائیڈز شامل ہیں؛ شکر کی اکائیاں گلائکوسائیڈک بندوں سے جڑ کر نشاستہ، گلائیکوجن اور سیلولوز بناتی ہیں۔ یہ توانائی اور ساختی سہارا دیتے ہیں۔ پروٹین امینو ایسڈز کے پولیمر ہیں جو پیپٹائڈ بندوں سے جڑتے ہیں؛ ان کی ترتیب اور تہہ بندی مخصوص شکل بناتی ہے۔ یہ خامروں، ترسیل، ریسیپٹرز، اینٹی باڈیز اور ساختی مادوں کے طور پر کام کرتے ہیں۔ لپڈز میں ٹرائی گلیسرائیڈز، فاسفولیپڈز، موم اور اسٹیرائڈز شامل ہیں۔ ٹرائی گلیسرائیڈ میں گلیسرول تین فیٹی ایسڈز سے ایسٹر بندوں کے ذریعے جڑا ہوتا ہے۔ لپڈز توانائی ذخیرہ، حرارتی حفاظت، اعضا کی حفاظت، جھلیوں کی تشکیل اور اشاروں کی ترسیل میں کام کرتے ہیں۔ مثالیں پودوں کا نشاستہ، خون کا ہیموگلوبن اور خلوی جھلی کے فاسفولیپڈز ہیں۔",
+              "rubric": [
+                "ڪاربوهائيڊريٽ جون اڪائيون، بند، مثال ۽ ڪم (3 نمبر)",
+                "پروٽين جون اڪائيون، پيپٽائڊ بند، بناوت ۽ ڪم (3 نمبر)",
+                "لپڊ جا جزا/گروهه ۽ ڪم (3 نمبر)",
+                "موازنہ ۽ مثالن جي واضح ترتيب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ڪاربوهائيڊريٽ، پروٽين ۽ لپڊ جو حياتياتي ماليڪيول طور مقابلو ڪريو. انهن جون بنيادي اڪائيون يا جزا، اهم بناوتي خاصيتون ۽ ڪم مناسب مثالن سان بيان ڪريو.",
+              "modelAnswer": "ڪاربوهائيڊريٽن ۾ گلوڪوز جهڙا مونوسيڪرائيڊ شامل آهن؛ کنڊ جون اڪائيون گلائڪوسائيڊڪ بندن سان ڳنڍجي نشاستو، گلائڪوجن ۽ سيلولوز ٺاهين ٿيون. اهي توانائي ۽ بناوتي سهارو ڏين ٿا. پروٽين امينو ايسڊن جا پوليمر آهن، جيڪي پيپٽائڊ بندن سان ڳنڍجن ٿا؛ انهن جي ترتيب ۽ ويڙهڻ مخصوص شڪل ٺاهي ٿي. اهي اينزائم، منتقلي، ري سيپٽر، اينٽي باڊيز ۽ بناوتي مادا طور ڪم ڪن ٿا. لپڊن ۾ ٽرائي گليسيرائيڊ، فاسفوليپڊ، موم ۽ اسٽيرائڊ شامل آهن. ٽرائي گليسيرائيڊ ۾ گليسيرول ٽن فيٽي ايسڊن سان ايسٽر بندن ذريعي ڳنڍيل هوندو آهي. لپڊ توانائي ذخيرو، گرميءَ کان بچاءُ، عضون جي حفاظت، جھلين جي ٺهڻ ۽ اشارن جي منتقلي ۾ ڪم ڪن ٿا. مثال ٻوٽن جو نشاستو، رت جو هيموگلوبن ۽ خلوي جھليءَ جا فاسفوليپڊ آهن.",
+              "rubric": [
+                "ڪاربوهائيڊريٽ جون اڪائيون، بند، مثال ۽ ڪم (3 نمبر)",
+                "پروٽين جون اڪائيون، پيپٽائڊ بند، بناوت ۽ ڪم (3 نمبر)",
+                "لپڊ جا جزا/گروهه ۽ ڪم (3 نمبر)",
+                "موازنہ ۽ مثالن جي واضح ترتيب (1 نمبر)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
