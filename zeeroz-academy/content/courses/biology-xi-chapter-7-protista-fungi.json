@@ -1,0 +1,719 @@
+{
+  "id": "biology-xi-chapter-7-protista-fungi",
+  "title": "Biology XI — Chapter 7: Protista and Fungi",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XI Chapter 7 — Protista and Fungi (12 periods). Five structured lessons, 15 bilingual MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 7: Protista and Fungi",
+      "description": "DCAR Sindh 2024, Grade XI, Chapter 7; 12 periods.",
+      "lessons": [
+        {
+          "title": "7.1 Protists as Diverse Eukaryotes",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Protists as Diverse Eukaryotes.\n\nProtists are a diverse collection of eukaryotes that do not fit into the animal, plant or fungus kingdoms as traditionally defined. The group is polyphyletic rather than one natural evolutionary lineage. Many are unicellular, while some are colonial or multicellular. They inhabit aquatic and moist environments and may be photosynthetic, heterotrophic or mixotrophic. Protists are important producers, decomposers, symbionts and pathogens.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "پروٹسٹس یوکاریوٹک جانداروں کا متنوع گروہ ہیں جو روایتی جانور، پودے یا فنجائی گروہوں میں شامل نہیں ہوتے۔ یہ ایک ہی ارتقائی سلسلہ نہیں بلکہ مختلف نسبوں پر مشتمل ہیں۔ کئی یک خلوی اور بعض نوآبادیاتی یا کثیر خلوی ہوتے ہیں۔",
+            "sd": "پروٽسٽس يوڪاريوٽڪ جاندارن جو متنوع گروهه آهن، جيڪي روايتي جانورن، ٻوٽن يا فنجائي ۾ نٿا اچن. هي هڪ ئي ارتقائي سلسلو نه پر مختلف نسلن تي ٻڌل آهن. ڪيترائي هڪ خليي وارا ۽ ڪجهه ڪالوني يا گهڻن خلين وارا آهن."
+          }
+        },
+        {
+          "title": "7.2 Major Groups of Protists",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Major Groups of Protists.\n\nProtozoa are mostly heterotrophic and often motile; examples include Amoeba and Paramecium. Algae are photosynthetic and range from unicellular forms to large seaweeds. Myxomycota (slime moulds) have amoeboid feeding stages and produce spores. Oomycota are fungus-like organisms, often with cellulose-rich walls and aquatic or plant-parasitic lifestyles; they are not true fungi. Protists contribute to aquatic food webs and oxygen production, while some cause disease.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "پروٹوزوا عموماً غیر خودغذائی اور حرکت کرنے والے ہوتے ہیں، مثلاً امیبا اور پیرا میشیم۔ الجی ضیائی تالیف کرتی ہے۔ مائکسومائکوٹا سلائم مولڈز ہیں جبکہ اوومی کوٹا فنجائی جیسے مگر حقیقی فنجائی نہیں۔",
+            "sd": "پروٽوزوا عام طور غير خودغذائي ۽ حرڪت ڪندڙ هوندا آهن، مثال طور اميبا ۽ پيراميشيم. الجي ضيائي ترڪيب ڪن ٿا. مائڪسومائڪوٽا سلائم مولڊ آهن، جڏهن ته اومي ڪوٽا فنجائي جهڙا پر حقيقي فنجائي ناهن."
+          }
+        },
+        {
+          "title": "7.3 General Characteristics of Fungi",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in General Characteristics of Fungi.\n\nFungi are eukaryotic heterotrophs that absorb nutrients after external digestion. Their cell walls typically contain chitin. Most grow as hyphae forming a mycelium; yeast is unicellular. Fungi store glycogen and may reproduce sexually or asexually using spores. They are important decomposers and also form mutualistic associations such as mycorrhizae with plant roots and lichens with photosynthetic partners.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "فنجائی یوکاریوٹک غیر خودغذائی جاندار ہیں جو بیرونی ہضم کے بعد غذائی اجزا جذب کرتے ہیں۔ ان کی دیوار میں عموماً کائٹن ہوتا ہے۔ بیشتر ہائفے سے مائیسیلیم بناتے ہیں جبکہ خمیر یک خلوی ہے۔",
+            "sd": "فنجائي يوڪاريوٽڪ غير خودغذائي جاندار آهن، جيڪي ٻاهرين هضم کان پوءِ غذائي جزا جذب ڪن ٿا. انهن جي ڀت ۾ عام طور ڪائٽن هوندو آهي. گهڻا هائفي مان مائيسيليم ٺاهين ٿا، جڏهن ته خمير هڪ خليي وارو آهي."
+          }
+        },
+        {
+          "title": "7.4 Fungal Diversity and Reproduction",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Fungal Diversity and Reproduction.\n\nTraditional textbook groups include Zygomycota, Ascomycota, Basidiomycota and Deuteromycota (an artificial group for fungi with no known sexual stage). Zygomycetes form zygospores; ascomycetes produce ascospores in asci; basidiomycetes produce basidiospores on basidia. Modern fungal classification has changed with molecular evidence, so these textbook group names are useful for the stated syllabus but not all represent current formal phyla.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "درسی کتابوں میں زائیگومائکوٹا، ایسکومائکوٹا، بیسڈیومائکوٹا اور ڈیوٹیرومائکوٹا کے گروہ بیان کیے جاتے ہیں۔ ایسکومائسیٹس میں آسکس کے اندر آسکوسپورز جبکہ بیسڈیومائسیٹس میں بیسڈیا پر بیسڈیوسپورز بنتے ہیں۔ جدید درجہ بندی میں سالماتی شواہد کے باعث تبدیلیاں آئی ہیں۔",
+            "sd": "درسي ڪتابن ۾ زائگو مائڪوٽا، ايسڪو مائڪوٽا، بيسيڊيو مائڪوٽا ۽ ڊيوٽيرو مائڪوٽا جا گروهه بيان ٿين ٿا. ايسڪومائسيٽس ۾ آسڪس اندر آسڪوسپور ۽ بيسيڊيو مائسيٽس ۾ بيسيڊيا تي بيسيڊيو اسپور ٺهن ٿا. جديد درجابندي ماليڪيولي ثبوتن سبب تبديل ٿي آهي."
+          }
+        },
+        {
+          "title": "7.5 Uses, Ecology and Disease",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Uses, Ecology and Disease.\n\nYeasts are used in baking and fermentation; fungi produce medicines such as penicillin and other bioactive compounds. Edible mushrooms are foods, while some fungi spoil crops or cause human and plant diseases. Mycorrhizae improve mineral and water uptake for plants; lichens combine a fungus with an alga or cyanobacterium. Decomposer fungi recycle nutrients. Fungal infections require appropriate antifungal treatment; antibiotics that target bacteria do not treat fungal disease.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "خمیر بیکنگ اور فرمنٹیشن میں استعمال ہوتا ہے؛ فنجائی سے پینسلین جیسی ادویات حاصل ہوتی ہیں۔ مشروم خوراک ہیں، مگر بعض فنجائی فصلوں اور انسانوں میں بیماری پیدا کرتی ہیں۔ مائیکورائزا پودوں کی معدنی غذائیت بہتر کرتی ہے۔",
+            "sd": "خمير بيڪنگ ۽ فرمينٽيشن ۾ استعمال ٿئي ٿو؛ فنجائي مان پينسلين جهڙيون دوائون ملن ٿيون. مشروم کاڌو آهن، پر ڪجهه فنجائي فصلن ۽ انسانن ۾ بيماري پيدا ڪن ٿا. مائيڪورائزا ٻوٽن جي معدني غذا بهتر ڪري ٿي."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Protists are best described as:",
+          "options": {
+            "A": "A diverse polyphyletic group of eukaryotes",
+            "B": "All bacteria",
+            "C": "Only multicellular plants",
+            "D": "A type of virus"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Protists do not form one single evolutionary lineage.",
+              "options": {
+                "A": "A diverse polyphyletic group of eukaryotes",
+                "B": "All bacteria",
+                "C": "Only multicellular plants",
+                "D": "A type of virus"
+              },
+              "explanation": "درست جواب: A diverse polyphyletic group of eukaryotes۔ A"
+            },
+            "sd": {
+              "question": "پروٹسٹس کی بہترین وضاحت کیا ہے؟",
+              "options": {
+                "A": "A diverse polyphyletic group of eukaryotes",
+                "B": "All bacteria",
+                "C": "Only multicellular plants",
+                "D": "A type of virus"
+              },
+              "explanation": "صحيح جواب: A diverse polyphyletic group of eukaryotes۔ A"
+            }
+          }
+        },
+        {
+          "question": "Amoeba is commonly classified among:",
+          "options": {
+            "A": "Basidiomycota",
+            "B": "Bacteria",
+            "C": "Gymnosperms",
+            "D": "Protozoa"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Amoeba is a heterotrophic protozoan.",
+              "options": {
+                "A": "بیسڈیومائکوٹا",
+                "B": "بیکٹیریا",
+                "C": "جمناسپرم",
+                "D": "پروٹوزوا"
+              },
+              "explanation": "درست جواب: پروٹوزوا۔ A"
+            },
+            "sd": {
+              "question": "امیبا کس گروہ میں شامل ہے؟",
+              "options": {
+                "A": "Basidiomycota",
+                "B": "بيڪٽيريا",
+                "C": "جمناسپرم",
+                "D": "پروٽوزوا"
+              },
+              "explanation": "صحيح جواب: پروٽوزوا۔ A"
+            }
+          }
+        },
+        {
+          "question": "Paramecium moves mainly using:",
+          "options": {
+            "A": "Pili",
+            "B": "Pseudoseeds",
+            "C": "Cilia",
+            "D": "Hyphae"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Cilia beat to move Paramecium and sweep food.",
+              "options": {
+                "A": "پائلی",
+                "B": "فرضی بیج",
+                "C": "سیلیا",
+                "D": "ہائفے"
+              },
+              "explanation": "درست جواب: سیلیا۔ A"
+            },
+            "sd": {
+              "question": "پیرا میشیم حرکت کے لیے کیا استعمال کرتا ہے؟",
+              "options": {
+                "A": "Pili",
+                "B": "Pseudoseeds",
+                "C": "Cilia",
+                "D": "Hyphae"
+              },
+              "explanation": "صحيح جواب: Cilia۔ A"
+            }
+          }
+        },
+        {
+          "question": "Photosynthetic protists include:",
+          "options": {
+            "A": "Mould-free viruses",
+            "B": "Algae",
+            "C": "Prions",
+            "D": "Bacteriophages"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Algae perform photosynthesis in aquatic ecosystems.",
+              "options": {
+                "A": "Mould-free viruses",
+                "B": "الجی",
+                "C": "Prions",
+                "D": "بیکٹیریوفیج"
+              },
+              "explanation": "درست جواب: الجی۔ A"
+            },
+            "sd": {
+              "question": "ضیائی تالیف کرنے والے پروٹسٹس کون ہیں؟",
+              "options": {
+                "A": "Mould-free viruses",
+                "B": "الجي",
+                "C": "Prions",
+                "D": "Bacteriophages"
+              },
+              "explanation": "صحيح جواب: الجي۔ A"
+            }
+          }
+        },
+        {
+          "question": "Slime moulds are traditionally placed in:",
+          "options": {
+            "A": "Myxomycota",
+            "B": "Ascomycota",
+            "C": "Archaea",
+            "D": "Mollusca"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Myxomycota includes slime moulds.",
+              "options": {
+                "A": "مائکسومائکوٹا",
+                "B": "ایسکومائکوٹا",
+                "C": "آرکیا",
+                "D": "مولسکا"
+              },
+              "explanation": "درست جواب: مائکسومائکوٹا۔ A"
+            },
+            "sd": {
+              "question": "سلائم مولڈ کس گروہ میں آتے ہیں؟",
+              "options": {
+                "A": "مائڪسومائڪوٽا",
+                "B": "ايسڪومائڪوٽا",
+                "C": "Archaea",
+                "D": "مولسڪا"
+              },
+              "explanation": "صحيح جواب: مائڪسومائڪوٽا۔ A"
+            }
+          }
+        },
+        {
+          "question": "Oomycota are:",
+          "options": {
+            "A": "True flowering plants",
+            "B": "Bacteria with peptidoglycan",
+            "C": "Mammals",
+            "D": "Fungus-like protists"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Oomycota resemble fungi but are not true fungi.",
+              "options": {
+                "A": "حقیقی پھول دار پودے",
+                "B": "Bacteria with peptidoglycan",
+                "C": "ممالیہ",
+                "D": "فنجائی جیسے پروٹسٹس"
+              },
+              "explanation": "درست جواب: فنجائی جیسے پروٹسٹس۔ A"
+            },
+            "sd": {
+              "question": "اوومی کوٹا کیا ہیں؟",
+              "options": {
+                "A": "True flowering plants",
+                "B": "Bacteria with peptidoglycan",
+                "C": "Mammals",
+                "D": "Fungus-like protists"
+              },
+              "explanation": "صحيح جواب: Fungus-like protists۔ A"
+            }
+          }
+        },
+        {
+          "question": "The main structural component of most fungal cell walls is:",
+          "options": {
+            "A": "Cellulose only",
+            "B": "Lignin",
+            "C": "Chitin",
+            "D": "Peptidoglycan"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Fungal walls typically contain chitin.",
+              "options": {
+                "A": "Cellulose only",
+                "B": "Lignin",
+                "C": "کائٹن",
+                "D": "پیپٹائڈوگلیکین"
+              },
+              "explanation": "درست جواب: کائٹن۔ A"
+            },
+            "sd": {
+              "question": "زیادہ تر فنجائی کی دیوار میں کیا ہوتا ہے؟",
+              "options": {
+                "A": "Cellulose only",
+                "B": "Lignin",
+                "C": "ڪائٽن",
+                "D": "پيپٽائيڊوگليڪن"
+              },
+              "explanation": "صحيح جواب: ڪائٽن۔ A"
+            }
+          }
+        },
+        {
+          "question": "The mass of fungal hyphae is called:",
+          "options": {
+            "A": "Thallus of bacteria",
+            "B": "Mycelium",
+            "C": "Capsid",
+            "D": "Nucleoid"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Hyphae collectively form a mycelium.",
+              "options": {
+                "A": "Thallus of bacteria",
+                "B": "مائیسیلیم",
+                "C": "کیپسڈ",
+                "D": "نیوکلیوئڈ"
+              },
+              "explanation": "درست جواب: مائیسیلیم۔ A"
+            },
+            "sd": {
+              "question": "فنجائی کے ہائفے کے مجموعے کو کیا کہتے ہیں؟",
+              "options": {
+                "A": "Thallus of bacteria",
+                "B": "مائيسيليم",
+                "C": "ڪيپسڊ",
+                "D": "نيوڪليوئڊ"
+              },
+              "explanation": "صحيح جواب: مائيسيليم۔ A"
+            }
+          }
+        },
+        {
+          "question": "A unicellular fungus commonly used in baking is:",
+          "options": {
+            "A": "Yeast",
+            "B": "Agaricus",
+            "C": "Rhizopus fruiting body",
+            "D": "Moss"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Yeast ferments sugars and produces carbon dioxide.",
+              "options": {
+                "A": "خمیر",
+                "B": "اگاریکس",
+                "C": "رائزوپس کی تولیدی ساخت",
+                "D": "کائی"
+              },
+              "explanation": "درست جواب: خمیر۔ A"
+            },
+            "sd": {
+              "question": "بیکنگ میں استعمال ہونے والی یک خلوی فنجائی؟",
+              "options": {
+                "A": "خمير",
+                "B": "Agaricus",
+                "C": "Rhizopus fruiting body",
+                "D": "Moss"
+              },
+              "explanation": "صحيح جواب: خمير۔ A"
+            }
+          }
+        },
+        {
+          "question": "Ascospores are produced in structures called:",
+          "options": {
+            "A": "Basidia",
+            "B": "Capsids",
+            "C": "Sporangia of viruses",
+            "D": "Asci"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Ascomycetes form ascospores inside asci.",
+              "options": {
+                "A": "بیسڈیا",
+                "B": "کیپسڈ",
+                "C": "وائرس کے اسپورینجیا",
+                "D": "آسائی"
+              },
+              "explanation": "درست جواب: آسائی۔ A"
+            },
+            "sd": {
+              "question": "آسکوسپورز کس ساخت میں بنتے ہیں؟",
+              "options": {
+                "A": "بيسيڊيا",
+                "B": "Capsids",
+                "C": "Sporangia of viruses",
+                "D": "آسائي"
+              },
+              "explanation": "صحيح جواب: آسائي۔ A"
+            }
+          }
+        },
+        {
+          "question": "Basidiospores are produced on:",
+          "options": {
+            "A": "Pili",
+            "B": "Ribosomes",
+            "C": "Basidia",
+            "D": "Asci"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Basidiomycetes produce spores on basidia.",
+              "options": {
+                "A": "پائلی",
+                "B": "رائبوسوم",
+                "C": "بیسڈیا",
+                "D": "آسائی"
+              },
+              "explanation": "درست جواب: بیسڈیا۔ A"
+            },
+            "sd": {
+              "question": "بیسڈیوسپورز کہاں بنتے ہیں؟",
+              "options": {
+                "A": "Pili",
+                "B": "Ribosomes",
+                "C": "بيسيڊيا",
+                "D": "آسائي"
+              },
+              "explanation": "صحيح جواب: بيسيڊيا۔ A"
+            }
+          }
+        },
+        {
+          "question": "Mycorrhiza is an association between fungi and:",
+          "options": {
+            "A": "Bacterial flagella",
+            "B": "Plant roots",
+            "C": "Animal bones",
+            "D": "Virus capsids"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Mycorrhizae improve plant nutrient and water uptake.",
+              "options": {
+                "A": "بیکٹیریائی فلیجیلا",
+                "B": "پودوں کی جڑیں",
+                "C": "جانوروں کی ہڈیاں",
+                "D": "وائرس کیپسڈ"
+              },
+              "explanation": "درست جواب: پودوں کی جڑیں۔ A"
+            },
+            "sd": {
+              "question": "مائیکورائزا فنجائی اور کس کے درمیان تعلق ہے؟",
+              "options": {
+                "A": "Bacterial flagella",
+                "B": "ٻوٽن جون پاڙون",
+                "C": "Animal bones",
+                "D": "Virus capsids"
+              },
+              "explanation": "صحيح جواب: ٻوٽن جون پاڙون۔ A"
+            }
+          }
+        },
+        {
+          "question": "A lichen is a partnership of a fungus with:",
+          "options": {
+            "A": "An alga or cyanobacterium",
+            "B": "A mammal",
+            "C": "A virus only",
+            "D": "A flowering seed"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "The photosynthetic partner supplies organic carbon.",
+              "options": {
+                "A": "الجی یا سائانو بیکٹیریا",
+                "B": "ممالیہ",
+                "C": "صرف وائرس",
+                "D": "پھول دار بیج"
+              },
+              "explanation": "درست جواب: الجی یا سائانو بیکٹیریا۔ A"
+            },
+            "sd": {
+              "question": "لائیکن میں فنجائی کس کے ساتھ رہتی ہے؟",
+              "options": {
+                "A": "An alga or cyanobacterium",
+                "B": "A mammal",
+                "C": "A virus only",
+                "D": "A flowering seed"
+              },
+              "explanation": "صحيح جواب: An alga or cyanobacterium۔ A"
+            }
+          }
+        },
+        {
+          "question": "Penicillin was originally obtained from a:",
+          "options": {
+            "A": "Virus",
+            "B": "Moss",
+            "C": "Prion",
+            "D": "Fungus"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Penicillin is produced by Penicillium fungi.",
+              "options": {
+                "A": "وائرس",
+                "B": "کائی",
+                "C": "پرائیون",
+                "D": "فنجائی"
+              },
+              "explanation": "درست جواب: فنجائی۔ A"
+            },
+            "sd": {
+              "question": "پینسلین اصل میں کس سے حاصل ہوئی؟",
+              "options": {
+                "A": "Virus",
+                "B": "Moss",
+                "C": "Prion",
+                "D": "فنجائي"
+              },
+              "explanation": "صحيح جواب: فنجائي۔ A"
+            }
+          }
+        },
+        {
+          "question": "Fungi are ecologically important because they:",
+          "options": {
+            "A": "Produce no enzymes",
+            "B": "Cannot interact with plants",
+            "C": "Decompose and recycle nutrients",
+            "D": "Stop decomposition"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Fungi break down organic matter and return nutrients.",
+              "options": {
+                "A": "کوئی انزائم نہ بنانا",
+                "B": "پودوں سے تعامل نہ کر سکنا",
+                "C": "گلانا اور غذائی اجزا کو دوبارہ گردش میں لانا",
+                "D": "گلنے کا عمل روکنا"
+              },
+              "explanation": "درست جواب: گلانا اور غذائی اجزا کو دوبارہ گردش میں لانا۔ A"
+            },
+            "sd": {
+              "question": "فنجائی ماحولیاتی طور پر کیوں اہم ہیں؟",
+              "options": {
+                "A": "Produce no enzymes",
+                "B": "Cannot interact with plants",
+                "C": "Decompose and recycle nutrients",
+                "D": "Stop decomposition"
+              },
+              "explanation": "صحيح جواب: Decompose and recycle nutrients۔ A"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define the central concept of Protista and Fungi and explain two important features.",
+          "modelAnswer": "Protists are a diverse collection of eukaryotes that do not fit into the animal, plant or fungus kingdoms as traditionally defined. The group is polyphyletic rather than one natural evolutionary lineage. Many are unicellular, while some are colonial or multicellular.",
+          "rubric": [
+            "Correct definition and core concept (2 marks)",
+            "Two accurate features or examples (2 marks)",
+            "Clear scientific terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Protista and Fungi کے بنیادی تصور کی تعریف کریں اور دو اہم خصوصیات بیان کریں۔",
+              "modelAnswer": "پروٹسٹس یوکاریوٹک جانداروں کا متنوع گروہ ہیں جو روایتی جانور، پودے یا فنجائی گروہوں میں شامل نہیں ہوتے۔ یہ ایک ہی ارتقائی سلسلہ نہیں بلکہ مختلف نسبوں پر مشتمل ہیں۔ کئی یک خلوی اور بعض نوآبادیاتی یا کثیر خلوی ہوتے ہیں۔",
+              "rubric": [
+                "درست تعریف اور بنیادی تصور (2 نمبر)",
+                "دو درست خصوصیات یا مثالیں (2 نمبر)",
+                "درست سائنسی اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Protista and Fungi جي بنيادي تصور جي وصف ڏيو ۽ ٻه اهم خاصيتون بيان ڪريو.",
+              "modelAnswer": "پروٽسٽس يوڪاريوٽڪ جاندارن جو متنوع گروهه آهن، جيڪي روايتي جانورن، ٻوٽن يا فنجائي ۾ نٿا اچن. هي هڪ ئي ارتقائي سلسلو نه پر مختلف نسلن تي ٻڌل آهن. ڪيترائي هڪ خليي وارا ۽ ڪجهه ڪالوني يا گهڻن خلين وارا آهن.",
+              "rubric": [
+                "صحيح وصف ۽ بنيادي تصور (2 مارڪون)",
+                "ٻه صحيح خاصيتون يا مثالون (2 مارڪون)",
+                "صحيح سائنسي اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare two major groups or processes discussed in Protista and Fungi.",
+          "modelAnswer": "A strong comparison identifies the defining structure or process of each group, explains at least two differences, and includes a relevant example. Protozoa are mostly heterotrophic and often motile; examples include Amoeba and Paramecium. Algae are photosynthetic and range from unicellular forms to large seaweeds.",
+          "rubric": [
+            "Accurate description of both groups/processes (2 marks)",
+            "Two valid comparisons (2 marks)",
+            "Relevant example and clarity (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Protista and Fungi میں بیان کردہ دو اہم گروہوں یا عمل کا موازنہ کریں۔",
+              "modelAnswer": "اچھے موازنے میں دونوں گروہوں یا عمل کی بنیادی ساخت/طریقہ بیان کیا جاتا ہے، کم از کم دو فرق لکھے جاتے ہیں اور مثال دی جاتی ہے۔ پروٹوزوا عموماً غیر خودغذائی اور حرکت کرنے والے ہوتے ہیں، مثلاً امیبا اور پیرا میشیم۔ الجی ضیائی تالیف کرتی ہے۔ مائکسومائکوٹا سلائم مولڈز ہیں جبکہ اوومی کوٹا فنجائی جیسے مگر حقیقی فنجائی نہیں۔",
+              "rubric": [
+                "دونوں گروہوں/عمل کی درست وضاحت (2 نمبر)",
+                "دو درست موازنے (2 نمبر)",
+                "متعلقہ مثال اور وضاحت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Protista and Fungi ۾ بيان ڪيل ٻن اهم گروهن يا عملن جو مقابلو ڪريو.",
+              "modelAnswer": "سٺي مقابلي ۾ ٻنهي گروهن يا عمل جي بنيادي بناوت/طريقي جي وضاحت، گهٽ ۾ گهٽ ٻه فرق ۽ هڪ مثال شامل هجي. پروٽوزوا عام طور غير خودغذائي ۽ حرڪت ڪندڙ هوندا آهن، مثال طور اميبا ۽ پيراميشيم. الجي ضيائي ترڪيب ڪن ٿا. مائڪسومائڪوٽا سلائم مولڊ آهن، جڏهن ته اومي ڪوٽا فنجائي جهڙا پر حقيقي فنجائي ناهن.",
+              "rubric": [
+                "ٻنهي گروهن/عملن جي صحيح وضاحت (2 مارڪون)",
+                "ٻه صحيح مقابلا (2 مارڪون)",
+                "لاڳاپيل مثال ۽ وضاحت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain one biological mechanism from Protista and Fungi in a logical sequence.",
+          "modelAnswer": "Fungi are eukaryotic heterotrophs that absorb nutrients after external digestion. Their cell walls typically contain chitin. Most grow as hyphae forming a mycelium; yeast is unicellular. Fungi store glycogen and may reproduce sexually or asexually using spores. They are important decomposers and also form mutualistic associations such as mycorrhizae with plant roots and lichens with photosynthetic partners.",
+          "rubric": [
+            "Correct sequence of steps (2 marks)",
+            "Scientific explanation of mechanism (2 marks)",
+            "Correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Protista and Fungi کے ایک حیاتیاتی طریقۂ کار کو منطقی ترتیب سے بیان کریں۔",
+              "modelAnswer": "فنجائی یوکاریوٹک غیر خودغذائی جاندار ہیں جو بیرونی ہضم کے بعد غذائی اجزا جذب کرتے ہیں۔ ان کی دیوار میں عموماً کائٹن ہوتا ہے۔ بیشتر ہائفے سے مائیسیلیم بناتے ہیں جبکہ خمیر یک خلوی ہے۔",
+              "rubric": [
+                "مراحل کی درست ترتیب (2 نمبر)",
+                "طریقۂ کار کی سائنسی وضاحت (2 نمبر)",
+                "درست اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Protista and Fungi جي هڪ حياتياتي طريقي کي منطقي ترتيب سان بيان ڪريو.",
+              "modelAnswer": "فنجائي يوڪاريوٽڪ غير خودغذائي جاندار آهن، جيڪي ٻاهرين هضم کان پوءِ غذائي جزا جذب ڪن ٿا. انهن جي ڀت ۾ عام طور ڪائٽن هوندو آهي. گهڻا هائفي مان مائيسيليم ٺاهين ٿا، جڏهن ته خمير هڪ خليي وارو آهي.",
+              "rubric": [
+                "مرحلن جي صحيح ترتيب (2 مارڪون)",
+                "طريقي جي سائنسي وضاحت (2 مارڪون)",
+                "صحيح اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the structure, function and significance of the major systems or groups covered in Protista and Fungi, using examples.",
+          "modelAnswer": "Protists are a diverse collection of eukaryotes that do not fit into the animal, plant or fungus kingdoms as traditionally defined. The group is polyphyletic rather than one natural evolutionary lineage. Many are unicellular, while some are colonial or multicellular. They inhabit aquatic and moist environments and may be photosynthetic, heterotrophic or mixotrophic. Protists are important producers, decomposers, symbionts and pathogens.\n\nProtozoa are mostly heterotrophic and often motile; examples include Amoeba and Paramecium. Algae are photosynthetic and range from unicellular forms to large seaweeds. Myxomycota (slime moulds) have amoeboid feeding stages and produce spores. Oomycota are fungus-like organisms, often with cellulose-rich walls and aquatic or plant-parasitic lifestyles; they are not true fungi. Protists contribute to aquatic food webs and oxygen production, while some cause disease.\n\nFungi are eukaryotic heterotrophs that absorb nutrients after external digestion. Their cell walls typically contain chitin. Most grow as hyphae forming a mycelium; yeast is unicellular. Fungi store glycogen and may reproduce sexually or asexually using spores. They are important decomposers and also form mutualistic associations such as mycorrhizae with plant roots and lichens with photosynthetic partners.\n\nTraditional textbook groups include Zygomycota, Ascomycota, Basidiomycota and Deuteromycota (an artificial group for fungi with no known sexual stage). Zygomycetes form zygospores; ascomycetes produce ascospores in asci; basidiomycetes produce basidiospores on basidia. Modern fungal classification has changed with molecular evidence, so these textbook group names are useful for the stated syllabus but not all represent current formal phyla.",
+          "rubric": [
+            "Accurate coverage of core concepts (4 marks)",
+            "Explanation of structure-function relationships (3 marks)",
+            "Relevant examples and applications (2 marks)",
+            "Organisation and terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Protista and Fungi میں شامل اہم نظاموں یا گروہوں کی ساخت، افعال اور اہمیت مثالوں کے ساتھ بیان کریں۔",
+              "modelAnswer": "پروٹسٹس یوکاریوٹک جانداروں کا متنوع گروہ ہیں جو روایتی جانور، پودے یا فنجائی گروہوں میں شامل نہیں ہوتے۔ یہ ایک ہی ارتقائی سلسلہ نہیں بلکہ مختلف نسبوں پر مشتمل ہیں۔ کئی یک خلوی اور بعض نوآبادیاتی یا کثیر خلوی ہوتے ہیں۔\n\nپروٹوزوا عموماً غیر خودغذائی اور حرکت کرنے والے ہوتے ہیں، مثلاً امیبا اور پیرا میشیم۔ الجی ضیائی تالیف کرتی ہے۔ مائکسومائکوٹا سلائم مولڈز ہیں جبکہ اوومی کوٹا فنجائی جیسے مگر حقیقی فنجائی نہیں۔\n\nفنجائی یوکاریوٹک غیر خودغذائی جاندار ہیں جو بیرونی ہضم کے بعد غذائی اجزا جذب کرتے ہیں۔ ان کی دیوار میں عموماً کائٹن ہوتا ہے۔ بیشتر ہائفے سے مائیسیلیم بناتے ہیں جبکہ خمیر یک خلوی ہے۔\n\nدرسی کتابوں میں زائیگومائکوٹا، ایسکومائکوٹا، بیسڈیومائکوٹا اور ڈیوٹیرومائکوٹا کے گروہ بیان کیے جاتے ہیں۔ ایسکومائسیٹس میں آسکس کے اندر آسکوسپورز جبکہ بیسڈیومائسیٹس میں بیسڈیا پر بیسڈیوسپورز بنتے ہیں۔ جدید درجہ بندی میں سالماتی شواہد کے باعث تبدیلیاں آئی ہیں۔",
+              "rubric": [
+                "بنیادی تصورات کی درست وضاحت (4 نمبر)",
+                "ساخت اور فعل کا تعلق (3 نمبر)",
+                "متعلقہ مثالیں اور اطلاقات (2 نمبر)",
+                "ترتیب اور اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Protista and Fungi ۾ شامل اهم نظامن يا گروهن جي بناوت، ڪم ۽ اهميت مثالن سان بيان ڪريو.",
+              "modelAnswer": "پروٽسٽس يوڪاريوٽڪ جاندارن جو متنوع گروهه آهن، جيڪي روايتي جانورن، ٻوٽن يا فنجائي ۾ نٿا اچن. هي هڪ ئي ارتقائي سلسلو نه پر مختلف نسلن تي ٻڌل آهن. ڪيترائي هڪ خليي وارا ۽ ڪجهه ڪالوني يا گهڻن خلين وارا آهن.\n\nپروٽوزوا عام طور غير خودغذائي ۽ حرڪت ڪندڙ هوندا آهن، مثال طور اميبا ۽ پيراميشيم. الجي ضيائي ترڪيب ڪن ٿا. مائڪسومائڪوٽا سلائم مولڊ آهن، جڏهن ته اومي ڪوٽا فنجائي جهڙا پر حقيقي فنجائي ناهن.\n\nفنجائي يوڪاريوٽڪ غير خودغذائي جاندار آهن، جيڪي ٻاهرين هضم کان پوءِ غذائي جزا جذب ڪن ٿا. انهن جي ڀت ۾ عام طور ڪائٽن هوندو آهي. گهڻا هائفي مان مائيسيليم ٺاهين ٿا، جڏهن ته خمير هڪ خليي وارو آهي.\n\nدرسي ڪتابن ۾ زائگو مائڪوٽا، ايسڪو مائڪوٽا، بيسيڊيو مائڪوٽا ۽ ڊيوٽيرو مائڪوٽا جا گروهه بيان ٿين ٿا. ايسڪومائسيٽس ۾ آسڪس اندر آسڪوسپور ۽ بيسيڊيو مائسيٽس ۾ بيسيڊيا تي بيسيڊيو اسپور ٺهن ٿا. جديد درجابندي ماليڪيولي ثبوتن سبب تبديل ٿي آهي.",
+              "rubric": [
+                "بنيادي تصورن جي صحيح وضاحت (4 مارڪون)",
+                "بناوت ۽ ڪم جو لاڳاپو (3 مارڪون)",
+                "لاڳاپيل مثال ۽ استعمال (2 مارڪون)",
+                "ترتيب ۽ اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Evaluate the biological importance, applications and limitations of the concepts in Protista and Fungi.",
+          "modelAnswer": "Protozoa are mostly heterotrophic and often motile; examples include Amoeba and Paramecium. Algae are photosynthetic and range from unicellular forms to large seaweeds. Myxomycota (slime moulds) have amoeboid feeding stages and produce spores. Oomycota are fungus-like organisms, often with cellulose-rich walls and aquatic or plant-parasitic lifestyles; they are not true fungi. Protists contribute to aquatic food webs and oxygen production, while some cause disease.\n\nFungi are eukaryotic heterotrophs that absorb nutrients after external digestion. Their cell walls typically contain chitin. Most grow as hyphae forming a mycelium; yeast is unicellular. Fungi store glycogen and may reproduce sexually or asexually using spores. They are important decomposers and also form mutualistic associations such as mycorrhizae with plant roots and lichens with photosynthetic partners.\n\nTraditional textbook groups include Zygomycota, Ascomycota, Basidiomycota and Deuteromycota (an artificial group for fungi with no known sexual stage). Zygomycetes form zygospores; ascomycetes produce ascospores in asci; basidiomycetes produce basidiospores on basidia. Modern fungal classification has changed with molecular evidence, so these textbook group names are useful for the stated syllabus but not all represent current formal phyla.\n\nYeasts are used in baking and fermentation; fungi produce medicines such as penicillin and other bioactive compounds. Edible mushrooms are foods, while some fungi spoil crops or cause human and plant diseases. Mycorrhizae improve mineral and water uptake for plants; lichens combine a fungus with an alga or cyanobacterium. Decomposer fungi recycle nutrients. Fungal infections require appropriate antifungal treatment; antibiotics that target bacteria do not treat fungal disease.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Evaluation of significance and limitations (3 marks)",
+            "Examples or real-world applications (2 marks)",
+            "Clear structure (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Protista and Fungi کے تصورات کی حیاتیاتی اہمیت، اطلاقات اور حدود کا جائزہ لیں۔",
+              "modelAnswer": "پروٹوزوا عموماً غیر خودغذائی اور حرکت کرنے والے ہوتے ہیں، مثلاً امیبا اور پیرا میشیم۔ الجی ضیائی تالیف کرتی ہے۔ مائکسومائکوٹا سلائم مولڈز ہیں جبکہ اوومی کوٹا فنجائی جیسے مگر حقیقی فنجائی نہیں۔\n\nفنجائی یوکاریوٹک غیر خودغذائی جاندار ہیں جو بیرونی ہضم کے بعد غذائی اجزا جذب کرتے ہیں۔ ان کی دیوار میں عموماً کائٹن ہوتا ہے۔ بیشتر ہائفے سے مائیسیلیم بناتے ہیں جبکہ خمیر یک خلوی ہے۔\n\nدرسی کتابوں میں زائیگومائکوٹا، ایسکومائکوٹا، بیسڈیومائکوٹا اور ڈیوٹیرومائکوٹا کے گروہ بیان کیے جاتے ہیں۔ ایسکومائسیٹس میں آسکس کے اندر آسکوسپورز جبکہ بیسڈیومائسیٹس میں بیسڈیا پر بیسڈیوسپورز بنتے ہیں۔ جدید درجہ بندی میں سالماتی شواہد کے باعث تبدیلیاں آئی ہیں۔\n\nخمیر بیکنگ اور فرمنٹیشن میں استعمال ہوتا ہے؛ فنجائی سے پینسلین جیسی ادویات حاصل ہوتی ہیں۔ مشروم خوراک ہیں، مگر بعض فنجائی فصلوں اور انسانوں میں بیماری پیدا کرتی ہیں۔ مائیکورائزا پودوں کی معدنی غذائیت بہتر کرتی ہے۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "اہمیت اور حدود کا جائزہ (3 نمبر)",
+                "مثالیں یا عملی اطلاقات (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Protista and Fungi جي تصورن جي حياتياتي اهميت، استعمالن ۽ حدن جو جائزو وٺو.",
+              "modelAnswer": "پروٽوزوا عام طور غير خودغذائي ۽ حرڪت ڪندڙ هوندا آهن، مثال طور اميبا ۽ پيراميشيم. الجي ضيائي ترڪيب ڪن ٿا. مائڪسومائڪوٽا سلائم مولڊ آهن، جڏهن ته اومي ڪوٽا فنجائي جهڙا پر حقيقي فنجائي ناهن.\n\nفنجائي يوڪاريوٽڪ غير خودغذائي جاندار آهن، جيڪي ٻاهرين هضم کان پوءِ غذائي جزا جذب ڪن ٿا. انهن جي ڀت ۾ عام طور ڪائٽن هوندو آهي. گهڻا هائفي مان مائيسيليم ٺاهين ٿا، جڏهن ته خمير هڪ خليي وارو آهي.\n\nدرسي ڪتابن ۾ زائگو مائڪوٽا، ايسڪو مائڪوٽا، بيسيڊيو مائڪوٽا ۽ ڊيوٽيرو مائڪوٽا جا گروهه بيان ٿين ٿا. ايسڪومائسيٽس ۾ آسڪس اندر آسڪوسپور ۽ بيسيڊيو مائسيٽس ۾ بيسيڊيا تي بيسيڊيو اسپور ٺهن ٿا. جديد درجابندي ماليڪيولي ثبوتن سبب تبديل ٿي آهي.\n\nخمير بيڪنگ ۽ فرمينٽيشن ۾ استعمال ٿئي ٿو؛ فنجائي مان پينسلين جهڙيون دوائون ملن ٿيون. مشروم کاڌو آهن، پر ڪجهه فنجائي فصلن ۽ انسانن ۾ بيماري پيدا ڪن ٿا. مائيڪورائزا ٻوٽن جي معدني غذا بهتر ڪري ٿي.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "اهميت ۽ حدن جو جائزو (3 مارڪون)",
+                "مثالون يا عملي استعمال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

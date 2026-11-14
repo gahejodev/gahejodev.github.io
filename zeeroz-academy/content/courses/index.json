@@ -127,6 +127,48 @@
       "title": "Biology XI — Chapter 3: Cell Structure and Function",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-3-cell-structure-function.json",
       "version": "2"
+    },
+    {
+      "id": "biology-xi-chapter-4-bioenergetics",
+      "title": "Biology XI — Chapter 4: Bioenergetics",
+      "path": "zeeroz-academy/content/courses/biology-xi-chapter-4-bioenergetics.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xi-chapter-5-acellular-life",
+      "title": "Biology XI — Chapter 5: Acellular Life",
+      "path": "zeeroz-academy/content/courses/biology-xi-chapter-5-acellular-life.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xi-chapter-6-prokaryotes",
+      "title": "Biology XI — Chapter 6: Prokaryotes",
+      "path": "zeeroz-academy/content/courses/biology-xi-chapter-6-prokaryotes.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xi-chapter-7-protista-fungi",
+      "title": "Biology XI — Chapter 7: Protista and Fungi",
+      "path": "zeeroz-academy/content/courses/biology-xi-chapter-7-protista-fungi.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xi-chapter-8-diversity-among-plants",
+      "title": "Biology XI — Chapter 8: Diversity Among Plants",
+      "path": "zeeroz-academy/content/courses/biology-xi-chapter-8-diversity-among-plants.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xi-chapter-9-diversity-among-animals",
+      "title": "Biology XI — Chapter 9: Diversity Among Animals",
+      "path": "zeeroz-academy/content/courses/biology-xi-chapter-9-diversity-among-animals.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xi-chapter-10-form-functions-plants",
+      "title": "Biology XI — Chapter 10: Form and Functions of Plants",
+      "path": "zeeroz-academy/content/courses/biology-xi-chapter-10-form-functions-plants.json",
+      "version": "1"
     }
   ]
 }

@@ -1,0 +1,719 @@
+{
+  "id": "biology-xi-chapter-10-form-functions-plants",
+  "title": "Biology XI — Chapter 10: Form and Functions of Plants",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XI Chapter 10 — Form and Functions of Plants (20 periods). Five structured lessons, 15 bilingual MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 10: Form and Functions of Plants",
+      "description": "DCAR Sindh 2024, Grade XI, Chapter 10; 20 periods.",
+      "lessons": [
+        {
+          "title": "10.1 Mineral Nutrition and Plant Gases",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Mineral Nutrition and Plant Gases.\n\nPlants require macronutrients such as nitrogen, phosphorus, potassium, calcium, magnesium and sulfur, and micronutrients such as iron, zinc, copper, manganese, boron, molybdenum, chlorine and nickel. Nitrogen supports amino acids and nucleic acids; magnesium is central to chlorophyll. Carnivorous plants supplement mineral nutrition by digesting prey. Stomata regulate gas exchange and water loss; palisade mesophyll is rich in chloroplasts and is a major photosynthetic tissue.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "پودوں کو نائٹروجن، فاسفورس، پوٹاشیم، کیلشیم، میگنیشیم اور سلفر جیسے بڑے غذائی عناصر اور آئرن و زنک جیسے خرد عناصر درکار ہوتے ہیں۔ نائٹروجن پروٹین اور نیوکلیک ایسڈ، میگنیشیم کلوروفل کے لیے ضروری ہے۔ روزن گیسوں کے تبادلے اور پانی کے ضیاع کو کنٹرول کرتے ہیں۔",
+            "sd": "ٻوٽن کي نائٽروجن، فاسفورس، پوٽاشيم، ڪيلشيم، ميگنيشيم ۽ سلفر جهڙا وڏا غذائي جزا ۽ لوهه ۽ زنڪ جهڙا ننڍا جزا گهرجن. نائٽروجن پروٽين ۽ نيوڪليڪ ايسڊ، ميگنيشيم ڪلوروفل لاءِ ضروري آهي. روزن گئسن جي مٽاسٽا ۽ پاڻيءَ جي نقصان کي ڪنٽرول ڪن ٿا."
+          }
+        },
+        {
+          "title": "10.2 Xylem, Phloem and Water Potential",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Xylem, Phloem and Water Potential.\n\nXylem vessels and tracheids conduct water and mineral ions; fibres provide support. Phloem sieve-tube elements and companion cells transport sugars and other organic solutes. Water moves down a water-potential gradient. Root uptake involves osmosis and pathways through cell walls (apoplast), cytoplasm (symplast) or vacuoles. The Casparian strip in the endodermis helps regulate entry into the vascular cylinder.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "زائلم کے vessels اور tracheids پانی اور معدنی آئن منتقل کرتے ہیں، جبکہ فلوئم کے sieve tubes اور companion cells شکر منتقل کرتے ہیں۔ پانی water potential کے فرق کے مطابق حرکت کرتا ہے۔ جڑ میں apoplast، symplast اور vacuolar راستے ہوتے ہیں۔",
+            "sd": "زائلم جا vessels ۽ tracheids پاڻي ۽ معدني آئن کڻن ٿا، جڏهن ته فلوئم جا sieve tubes ۽ companion cells کنڊ منتقل ڪن ٿا. پاڻي water potential جي فرق موجب هلي ٿو. پاڙ ۾ apoplast، symplast ۽ vacuolar رستا هوندا آهن."
+          }
+        },
+        {
+          "title": "10.3 Transpiration, TACT and Translocation",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Transpiration, TACT and Translocation.\n\nTranspiration is water loss from aerial plant surfaces, mainly through stomata. Evaporation from mesophyll creates tension that pulls a continuous water column upward in xylem: transpiration, adhesion, cohesion and tension (TACT). Stomatal opening depends on guard-cell turgor and ion movement. Sugars move in phloem from sources, such as mature leaves, to sinks, such as roots, fruits and growing tissues, through pressure-flow mechanisms.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "ٹرانسپائریشن پودے کے ہوائی حصوں سے پانی کا ضیاع ہے۔ پتوں سے تبخیر زائلم میں کھنچاؤ پیدا کرتی ہے جو پانی کو اوپر کھینچتا ہے؛ اسے TACT کہتے ہیں۔ فلوئم شکر کو source سے sink تک منتقل کرتا ہے۔",
+            "sd": "ٽرانسپائريشن ٻوٽي جي هوائي حصن مان پاڻيءَ جو نقصان آهي. پنن مان بخار ٿيڻ زائلم ۾ ڇڪ پيدا ڪري ٿو، جيڪو پاڻي مٿي کڻي ٿو؛ ان کي TACT چئبو آهي. فلوئم کنڊ کي source کان sink تائين منتقل ڪري ٿو."
+          }
+        },
+        {
+          "title": "10.4 Homeostasis, Support and Adaptation",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Homeostasis, Support and Adaptation.\n\nOsmotic adjustment helps plant cells maintain water balance. In hypotonic surroundings cells gain water and become turgid; in hypertonic surroundings they lose water and may plasmolyse. Hydrophytes, mesophytes and xerophytes show different adaptations to water availability; halophytes tolerate high salinity. Turgor supports herbaceous plants. Collenchyma provides flexible support; sclerenchyma provides strong support. Plants also respond to heat and cold through structural and physiological adjustments.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "اوسموٹک ایڈجسٹمنٹ پودوں کے خلیوں میں پانی کا توازن برقرار رکھتی ہے۔ hypotonic ماحول میں خلیہ پانی لے کر turgid ہوتا ہے جبکہ hypertonic ماحول میں پانی کھو سکتا ہے۔ hydrophytes، mesophytes، xerophytes اور halophytes مختلف ماحول سے مطابقت رکھتے ہیں۔",
+            "sd": "اوسموٽڪ ايڊجسٽمينٽ ٻوٽن جي خلين ۾ پاڻيءَ جو توازن برقرار رکي ٿي. hypotonic ماحول ۾ خليو پاڻي وٺي turgid ٿئي ٿو، جڏهن ته hypertonic ماحول ۾ پاڻي وڃائي سگهي ٿو. hydrophytes، mesophytes، xerophytes ۽ halophytes مختلف ماحول سان ٺهڪندڙ آهن."
+          }
+        },
+        {
+          "title": "10.5 Growth, Hormones and Tropisms",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Growth, Hormones and Tropisms.\n\nPrimary growth increases length through apical meristems; secondary growth increases girth through vascular and cork cambia. Annual rings reflect seasonal differences in secondary xylem. Auxin promotes cell elongation and apical dominance; gibberellins promote stem elongation and seed germination; cytokinins promote cell division; abscisic acid supports stress responses and dormancy; ethylene promotes fruit ripening. Tropisms are directional growth responses: phototropism to light, gravitropism to gravity, thigmotropism to touch and chemotropism to chemicals.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "ابتدائی نشوونما apical meristem سے لمبائی بڑھاتی ہے، جبکہ ثانوی نشوونما cambium سے موٹائی بڑھاتی ہے۔ آکسن خلیاتی لمبائی اور apical dominance، gibberellin بیج کے اگاؤ، cytokinin تقسیم، ABA دباؤ اور ethylene پھل پکنے میں مدد دیتا ہے۔",
+            "sd": "ابتدائي واڌ apical meristem سان ڊيگهه وڌائي ٿي، جڏهن ته ثانوي واڌ cambium سان ٿولهه وڌائي ٿي. آڪسن خلوي ڊيگهه ۽ apical dominance، gibberellin ٻج جي اڀرڻ، cytokinin ورهاست، ABA دٻاءَ ۽ ethylene ڦر پچڻ ۾ مدد ڪري ٿو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which is a plant macronutrient?",
+          "options": {
+            "A": "Nitrogen",
+            "B": "Molybdenum",
+            "C": "Nickel",
+            "D": "Boron"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Nitrogen is required in relatively large amounts.",
+              "options": {
+                "A": "نائٹروجن",
+                "B": "مولبڈینم",
+                "C": "نکل",
+                "D": "بوران"
+              },
+              "explanation": "درست جواب: نائٹروجن۔ A"
+            },
+            "sd": {
+              "question": "پودوں کا بڑا غذائی عنصر کون سا ہے؟",
+              "options": {
+                "A": "نائٽروجن",
+                "B": "Molybdenum",
+                "C": "Nickel",
+                "D": "Boron"
+              },
+              "explanation": "صحيح جواب: نائٽروجن۔ A"
+            }
+          }
+        },
+        {
+          "question": "Magnesium is a central component of:",
+          "options": {
+            "A": "Cellulose",
+            "B": "DNA bases only",
+            "C": "Cell wall pectin",
+            "D": "Chlorophyll"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Magnesium sits at the centre of the chlorophyll molecule.",
+              "options": {
+                "A": "سیلولوز",
+                "B": "صرف DNA کے اساس",
+                "C": "خلوی دیوار کا پیکٹن",
+                "D": "کلوروفل"
+              },
+              "explanation": "درست جواب: کلوروفل۔ A"
+            },
+            "sd": {
+              "question": "میگنیشیم کس سالمے کا مرکزی حصہ ہے؟",
+              "options": {
+                "A": "Cellulose",
+                "B": "DNA bases only",
+                "C": "Cell wall pectin",
+                "D": "Chlorophyll"
+              },
+              "explanation": "صحيح جواب: Chlorophyll۔ A"
+            }
+          }
+        },
+        {
+          "question": "Carnivorous plants capture prey mainly to supplement:",
+          "options": {
+            "A": "Carbon dioxide",
+            "B": "Oxygen",
+            "C": "Mineral nutrients",
+            "D": "Sunlight"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Prey supplies minerals such as nitrogen and phosphorus.",
+              "options": {
+                "A": "کاربن ڈائی آکسائیڈ",
+                "B": "آکسیجن",
+                "C": "معدنی غذائی اجزا",
+                "D": "سورج کی روشنی"
+              },
+              "explanation": "درست جواب: معدنی غذائی اجزا۔ A"
+            },
+            "sd": {
+              "question": "گوشت خور پودے شکار کیوں پکڑتے ہیں؟",
+              "options": {
+                "A": "ڪاربان ڊاءِ آڪسائيڊ",
+                "B": "آڪسيجن",
+                "C": "معدني غذائي جزا",
+                "D": "Sunlight"
+              },
+              "explanation": "صحيح جواب: معدني غذائي جزا۔ A"
+            }
+          }
+        },
+        {
+          "question": "Stomata primarily regulate:",
+          "options": {
+            "A": "Phloem loading only",
+            "B": "Gas exchange and water loss",
+            "C": "Seed formation only",
+            "D": "Root branching only"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Stomata control CO2 entry and transpiration.",
+              "options": {
+                "A": "صرف فلوئم میں لوڈنگ",
+                "B": "گیسوں کا تبادلہ اور پانی کا ضیاع",
+                "C": "صرف بیج بننا",
+                "D": "صرف جڑوں کی شاخیں"
+              },
+              "explanation": "درست جواب: گیسوں کا تبادلہ اور پانی کا ضیاع۔ A"
+            },
+            "sd": {
+              "question": "روزن بنیادی طور کیا کنٹرول کرتے ہیں؟",
+              "options": {
+                "A": "Phloem loading only",
+                "B": "Gas exchange and water loss",
+                "C": "Seed formation only",
+                "D": "Root branching only"
+              },
+              "explanation": "صحيح جواب: Gas exchange and water loss۔ A"
+            }
+          }
+        },
+        {
+          "question": "Xylem mainly transports:",
+          "options": {
+            "A": "Water and mineral ions",
+            "B": "Sucrose only",
+            "C": "Hormones only",
+            "D": "Pollen"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Xylem conducts water and dissolved minerals.",
+              "options": {
+                "A": "پانی اور معدنی آئن",
+                "B": "صرف سکروز",
+                "C": "صرف ہارمون",
+                "D": "پولن"
+              },
+              "explanation": "درست جواب: پانی اور معدنی آئن۔ A"
+            },
+            "sd": {
+              "question": "زائلم بنیادی طور کیا منتقل کرتا ہے؟",
+              "options": {
+                "A": "پاڻي ۽ معدني آئن",
+                "B": "Sucrose only",
+                "C": "Hormones only",
+                "D": "Pollen"
+              },
+              "explanation": "صحيح جواب: پاڻي ۽ معدني آئن۔ A"
+            }
+          }
+        },
+        {
+          "question": "Phloem transports mainly:",
+          "options": {
+            "A": "Water only from roots",
+            "B": "Oxygen gas",
+            "C": "Cellulose fibres",
+            "D": "Sugars and organic solutes"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Phloem moves assimilates from sources to sinks.",
+              "options": {
+                "A": "صرف جڑوں سے پانی",
+                "B": "آکسیجن گیس",
+                "C": "سیلولوز ریشے",
+                "D": "شکر اور نامیاتی محلول"
+              },
+              "explanation": "درست جواب: شکر اور نامیاتی محلول۔ A"
+            },
+            "sd": {
+              "question": "فلوئم بنیادی طور کیا منتقل کرتا ہے؟",
+              "options": {
+                "A": "Water only from roots",
+                "B": "Oxygen gas",
+                "C": "Cellulose fibres",
+                "D": "کنڊ ۽ نامياتي محلول"
+              },
+              "explanation": "صحيح جواب: کنڊ ۽ نامياتي محلول۔ A"
+            }
+          }
+        },
+        {
+          "question": "Water moves from higher to lower:",
+          "options": {
+            "A": "DNA concentration",
+            "B": "Light wavelength",
+            "C": "Water potential",
+            "D": "Chlorophyll content"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Water moves down a water-potential gradient.",
+              "options": {
+                "A": "DNA کا ارتکاز",
+                "B": "روشنی کی طول موج",
+                "C": "آبی پوٹینشل",
+                "D": "کلوروفل کی مقدار"
+              },
+              "explanation": "درست جواب: آبی پوٹینشل۔ A"
+            },
+            "sd": {
+              "question": "پانی کس فرق کے مطابق حرکت کرتا ہے؟",
+              "options": {
+                "A": "DNA concentration",
+                "B": "Light wavelength",
+                "C": "پاڻيءَ جو پوٽينشل",
+                "D": "Chlorophyll content"
+              },
+              "explanation": "صحيح جواب: پاڻيءَ جو پوٽينشل۔ A"
+            }
+          }
+        },
+        {
+          "question": "The Casparian strip is found in the:",
+          "options": {
+            "A": "Xylem vessel lumen",
+            "B": "Root endodermis",
+            "C": "Leaf cuticle",
+            "D": "Flower petal"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "The Casparian strip regulates apoplastic entry into the stele.",
+              "options": {
+                "A": "زائلم نالی کا اندرونی حصہ",
+                "B": "جڑ کا اینڈوڈرمس",
+                "C": "پتے کی کیوٹیکل",
+                "D": "پھول کی پنکھڑی"
+              },
+              "explanation": "درست جواب: جڑ کا اینڈوڈرمس۔ A"
+            },
+            "sd": {
+              "question": "کاسپیرین پٹی کہاں پائی جاتی ہے؟",
+              "options": {
+                "A": "Xylem vessel lumen",
+                "B": "پاڙ جو اينڊوڊرمس",
+                "C": "Leaf cuticle",
+                "D": "Flower petal"
+              },
+              "explanation": "صحيح جواب: پاڙ جو اينڊوڊرمس۔ A"
+            }
+          }
+        },
+        {
+          "question": "TACT explains water ascent through:",
+          "options": {
+            "A": "Xylem",
+            "B": "Phloem",
+            "C": "Epidermis only",
+            "D": "Pollen tube"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Cohesion, adhesion and tension generated by transpiration pull water upward.",
+              "options": {
+                "A": "زائلم",
+                "B": "فلوئم",
+                "C": "صرف ایپی ڈرمس",
+                "D": "پولن ٹیوب"
+              },
+              "explanation": "درست جواب: زائلم۔ A"
+            },
+            "sd": {
+              "question": "TACT کس میں پانی کے اوپر جانے کی وضاحت کرتا ہے؟",
+              "options": {
+                "A": "زائلم",
+                "B": "فلوئم",
+                "C": "Epidermis only",
+                "D": "Pollen tube"
+              },
+              "explanation": "صحيح جواب: زائلم۔ A"
+            }
+          }
+        },
+        {
+          "question": "A source in phloem transport is commonly a:",
+          "options": {
+            "A": "Growing root tip only",
+            "B": "Non-green seed coat",
+            "C": "Dead xylem vessel",
+            "D": "Mature photosynthesising leaf"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Mature leaves commonly export sugars.",
+              "options": {
+                "A": "صرف بڑھتی جڑ کا سرا",
+                "B": "غیر سبز بیج کا چھلکا",
+                "C": "مردہ زائلم نالی",
+                "D": "بالغ ضیائی تالیف کرنے والا پتہ"
+              },
+              "explanation": "درست جواب: بالغ ضیائی تالیف کرنے والا پتہ۔ A"
+            },
+            "sd": {
+              "question": "فلوئم میں source عموماً کیا ہوتا ہے؟",
+              "options": {
+                "A": "Growing root tip only",
+                "B": "Non-green seed coat",
+                "C": "Dead xylem vessel",
+                "D": "بالغ ضيائي ترڪيب ڪندڙ پن"
+              },
+              "explanation": "صحيح جواب: بالغ ضيائي ترڪيب ڪندڙ پن۔ A"
+            }
+          }
+        },
+        {
+          "question": "A turgid plant cell is most likely in a:",
+          "options": {
+            "A": "Dry air only",
+            "B": "No-water vacuum",
+            "C": "Hypotonic solution",
+            "D": "Strongly hypertonic solution"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Water enters the cell by osmosis in a hypotonic solution.",
+              "options": {
+                "A": "صرف خشک ہوا",
+                "B": "بے پانی خلا",
+                "C": "ہائپوٹونک محلول",
+                "D": "شدید ہائپرٹونک محلول"
+              },
+              "explanation": "درست جواب: ہائپوٹونک محلول۔ A"
+            },
+            "sd": {
+              "question": "turgid خلیہ عموماً کس محلول میں ہوتا ہے؟",
+              "options": {
+                "A": "Dry air only",
+                "B": "No-water vacuum",
+                "C": "هائپوٽونڪ محلول",
+                "D": "Strongly hypertonic solution"
+              },
+              "explanation": "صحيح جواب: هائپوٽونڪ محلول۔ A"
+            }
+          }
+        },
+        {
+          "question": "Flexible support in young plant organs is provided by:",
+          "options": {
+            "A": "Phloem sieve plates",
+            "B": "Collenchyma",
+            "C": "Sclerenchyma only",
+            "D": "Xylem vessels only"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Collenchyma has living cells with unevenly thickened walls.",
+              "options": {
+                "A": "فلوئم کی چھلنی پلیٹیں",
+                "B": "کولینکائما",
+                "C": "صرف اسکلیرنکائما",
+                "D": "صرف زائلم نالیاں"
+              },
+              "explanation": "درست جواب: کولینکائما۔ A"
+            },
+            "sd": {
+              "question": "نوجوان پودوں میں لچکدار سہارا کون دیتا ہے؟",
+              "options": {
+                "A": "Phloem sieve plates",
+                "B": "ڪولينڪائما",
+                "C": "Sclerenchyma only",
+                "D": "Xylem vessels only"
+              },
+              "explanation": "صحيح جواب: ڪولينڪائما۔ A"
+            }
+          }
+        },
+        {
+          "question": "Primary growth is driven mainly by:",
+          "options": {
+            "A": "Apical meristems",
+            "B": "Cork cambium only",
+            "C": "Mature xylem",
+            "D": "Stomata"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Apical meristems increase root and shoot length.",
+              "options": {
+                "A": "اپیکل میرسٹیمز",
+                "B": "صرف کارک کیمبیم",
+                "C": "بالغ زائلم",
+                "D": "روزن"
+              },
+              "explanation": "درست جواب: اپیکل میرسٹیمز۔ A"
+            },
+            "sd": {
+              "question": "ابتدائی نشوونما بنیادی طور کس سے ہوتی ہے؟",
+              "options": {
+                "A": "اپيڪل ميرسٽيمز",
+                "B": "Cork cambium only",
+                "C": "Mature xylem",
+                "D": "روزن"
+              },
+              "explanation": "صحيح جواب: اپيڪل ميرسٽيمز۔ A"
+            }
+          }
+        },
+        {
+          "question": "Which hormone promotes fruit ripening?",
+          "options": {
+            "A": "Auxin",
+            "B": "Cytokinin",
+            "C": "Abscisic acid",
+            "D": "Ethylene"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Ethylene promotes fruit ripening.",
+              "options": {
+                "A": "آکسن",
+                "B": "سائٹو کائنن",
+                "C": "ابسائسک ایسڈ",
+                "D": "ایتھیلین"
+              },
+              "explanation": "درست جواب: ایتھیلین۔ A"
+            },
+            "sd": {
+              "question": "کون سا ہارمون پھل پکاتا ہے؟",
+              "options": {
+                "A": "آڪسن",
+                "B": "Cytokinin",
+                "C": "Abscisic acid",
+                "D": "ايٿيلين"
+              },
+              "explanation": "صحيح جواب: ايٿيلين۔ A"
+            }
+          }
+        },
+        {
+          "question": "Growth toward light is called:",
+          "options": {
+            "A": "Thigmotropism",
+            "B": "Chemotropism",
+            "C": "Phototropism",
+            "D": "Gravitropism"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Phototropism is directional growth in response to light.",
+              "options": {
+                "A": "تھگموٹروپزم",
+                "B": "کیموٹروپزم",
+                "C": "فوٹوٹروپزم",
+                "D": "گریویٹروپزم"
+              },
+              "explanation": "درست جواب: فوٹوٹروپزم۔ A"
+            },
+            "sd": {
+              "question": "روشنی کی طرف نمو کیا کہلاتی ہے؟",
+              "options": {
+                "A": "ٿگموٽروپزم",
+                "B": "ڪيموٽروپزم",
+                "C": "فوٽوٽروپزم",
+                "D": "گريويٽروپزم"
+              },
+              "explanation": "صحيح جواب: فوٽوٽروپزم۔ A"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define the central concept of Form and Functions of Plants and explain two important features.",
+          "modelAnswer": "Plants require macronutrients such as nitrogen, phosphorus, potassium, calcium, magnesium and sulfur, and micronutrients such as iron, zinc, copper, manganese, boron, molybdenum, chlorine and nickel. Nitrogen supports amino acids and nucleic acids; magnesium is central to chlorophyll. Carnivorous plants supplement mineral nutrition by digesting prey.",
+          "rubric": [
+            "Correct definition and core concept (2 marks)",
+            "Two accurate features or examples (2 marks)",
+            "Clear scientific terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Form and Functions of Plants کے بنیادی تصور کی تعریف کریں اور دو اہم خصوصیات بیان کریں۔",
+              "modelAnswer": "پودوں کو نائٹروجن، فاسفورس، پوٹاشیم، کیلشیم، میگنیشیم اور سلفر جیسے بڑے غذائی عناصر اور آئرن و زنک جیسے خرد عناصر درکار ہوتے ہیں۔ نائٹروجن پروٹین اور نیوکلیک ایسڈ، میگنیشیم کلوروفل کے لیے ضروری ہے۔ روزن گیسوں کے تبادلے اور پانی کے ضیاع کو کنٹرول کرتے ہیں۔",
+              "rubric": [
+                "درست تعریف اور بنیادی تصور (2 نمبر)",
+                "دو درست خصوصیات یا مثالیں (2 نمبر)",
+                "درست سائنسی اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Form and Functions of Plants جي بنيادي تصور جي وصف ڏيو ۽ ٻه اهم خاصيتون بيان ڪريو.",
+              "modelAnswer": "ٻوٽن کي نائٽروجن، فاسفورس، پوٽاشيم، ڪيلشيم، ميگنيشيم ۽ سلفر جهڙا وڏا غذائي جزا ۽ لوهه ۽ زنڪ جهڙا ننڍا جزا گهرجن. نائٽروجن پروٽين ۽ نيوڪليڪ ايسڊ، ميگنيشيم ڪلوروفل لاءِ ضروري آهي. روزن گئسن جي مٽاسٽا ۽ پاڻيءَ جي نقصان کي ڪنٽرول ڪن ٿا.",
+              "rubric": [
+                "صحيح وصف ۽ بنيادي تصور (2 مارڪون)",
+                "ٻه صحيح خاصيتون يا مثالون (2 مارڪون)",
+                "صحيح سائنسي اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare two major groups or processes discussed in Form and Functions of Plants.",
+          "modelAnswer": "A strong comparison identifies the defining structure or process of each group, explains at least two differences, and includes a relevant example. Xylem vessels and tracheids conduct water and mineral ions; fibres provide support. Phloem sieve-tube elements and companion cells transport sugars and other organic solutes.",
+          "rubric": [
+            "Accurate description of both groups/processes (2 marks)",
+            "Two valid comparisons (2 marks)",
+            "Relevant example and clarity (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Form and Functions of Plants میں بیان کردہ دو اہم گروہوں یا عمل کا موازنہ کریں۔",
+              "modelAnswer": "اچھے موازنے میں دونوں گروہوں یا عمل کی بنیادی ساخت/طریقہ بیان کیا جاتا ہے، کم از کم دو فرق لکھے جاتے ہیں اور مثال دی جاتی ہے۔ زائلم کے vessels اور tracheids پانی اور معدنی آئن منتقل کرتے ہیں، جبکہ فلوئم کے sieve tubes اور companion cells شکر منتقل کرتے ہیں۔ پانی water potential کے فرق کے مطابق حرکت کرتا ہے۔ جڑ میں apoplast، symplast اور vacuolar راستے ہوتے ہیں۔",
+              "rubric": [
+                "دونوں گروہوں/عمل کی درست وضاحت (2 نمبر)",
+                "دو درست موازنے (2 نمبر)",
+                "متعلقہ مثال اور وضاحت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Form and Functions of Plants ۾ بيان ڪيل ٻن اهم گروهن يا عملن جو مقابلو ڪريو.",
+              "modelAnswer": "سٺي مقابلي ۾ ٻنهي گروهن يا عمل جي بنيادي بناوت/طريقي جي وضاحت، گهٽ ۾ گهٽ ٻه فرق ۽ هڪ مثال شامل هجي. زائلم جا vessels ۽ tracheids پاڻي ۽ معدني آئن کڻن ٿا، جڏهن ته فلوئم جا sieve tubes ۽ companion cells کنڊ منتقل ڪن ٿا. پاڻي water potential جي فرق موجب هلي ٿو. پاڙ ۾ apoplast، symplast ۽ vacuolar رستا هوندا آهن.",
+              "rubric": [
+                "ٻنهي گروهن/عملن جي صحيح وضاحت (2 مارڪون)",
+                "ٻه صحيح مقابلا (2 مارڪون)",
+                "لاڳاپيل مثال ۽ وضاحت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain one biological mechanism from Form and Functions of Plants in a logical sequence.",
+          "modelAnswer": "Transpiration is water loss from aerial plant surfaces, mainly through stomata. Evaporation from mesophyll creates tension that pulls a continuous water column upward in xylem: transpiration, adhesion, cohesion and tension (TACT). Stomatal opening depends on guard-cell turgor and ion movement. Sugars move in phloem from sources, such as mature leaves, to sinks, such as roots, fruits and growing tissues, through pressure-flow mechanisms.",
+          "rubric": [
+            "Correct sequence of steps (2 marks)",
+            "Scientific explanation of mechanism (2 marks)",
+            "Correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Form and Functions of Plants کے ایک حیاتیاتی طریقۂ کار کو منطقی ترتیب سے بیان کریں۔",
+              "modelAnswer": "ٹرانسپائریشن پودے کے ہوائی حصوں سے پانی کا ضیاع ہے۔ پتوں سے تبخیر زائلم میں کھنچاؤ پیدا کرتی ہے جو پانی کو اوپر کھینچتا ہے؛ اسے TACT کہتے ہیں۔ فلوئم شکر کو source سے sink تک منتقل کرتا ہے۔",
+              "rubric": [
+                "مراحل کی درست ترتیب (2 نمبر)",
+                "طریقۂ کار کی سائنسی وضاحت (2 نمبر)",
+                "درست اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Form and Functions of Plants جي هڪ حياتياتي طريقي کي منطقي ترتيب سان بيان ڪريو.",
+              "modelAnswer": "ٽرانسپائريشن ٻوٽي جي هوائي حصن مان پاڻيءَ جو نقصان آهي. پنن مان بخار ٿيڻ زائلم ۾ ڇڪ پيدا ڪري ٿو، جيڪو پاڻي مٿي کڻي ٿو؛ ان کي TACT چئبو آهي. فلوئم کنڊ کي source کان sink تائين منتقل ڪري ٿو.",
+              "rubric": [
+                "مرحلن جي صحيح ترتيب (2 مارڪون)",
+                "طريقي جي سائنسي وضاحت (2 مارڪون)",
+                "صحيح اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the structure, function and significance of the major systems or groups covered in Form and Functions of Plants, using examples.",
+          "modelAnswer": "Plants require macronutrients such as nitrogen, phosphorus, potassium, calcium, magnesium and sulfur, and micronutrients such as iron, zinc, copper, manganese, boron, molybdenum, chlorine and nickel. Nitrogen supports amino acids and nucleic acids; magnesium is central to chlorophyll. Carnivorous plants supplement mineral nutrition by digesting prey. Stomata regulate gas exchange and water loss; palisade mesophyll is rich in chloroplasts and is a major photosynthetic tissue.\n\nXylem vessels and tracheids conduct water and mineral ions; fibres provide support. Phloem sieve-tube elements and companion cells transport sugars and other organic solutes. Water moves down a water-potential gradient. Root uptake involves osmosis and pathways through cell walls (apoplast), cytoplasm (symplast) or vacuoles. The Casparian strip in the endodermis helps regulate entry into the vascular cylinder.\n\nTranspiration is water loss from aerial plant surfaces, mainly through stomata. Evaporation from mesophyll creates tension that pulls a continuous water column upward in xylem: transpiration, adhesion, cohesion and tension (TACT). Stomatal opening depends on guard-cell turgor and ion movement. Sugars move in phloem from sources, such as mature leaves, to sinks, such as roots, fruits and growing tissues, through pressure-flow mechanisms.\n\nOsmotic adjustment helps plant cells maintain water balance. In hypotonic surroundings cells gain water and become turgid; in hypertonic surroundings they lose water and may plasmolyse. Hydrophytes, mesophytes and xerophytes show different adaptations to water availability; halophytes tolerate high salinity. Turgor supports herbaceous plants. Collenchyma provides flexible support; sclerenchyma provides strong support. Plants also respond to heat and cold through structural and physiological adjustments.",
+          "rubric": [
+            "Accurate coverage of core concepts (4 marks)",
+            "Explanation of structure-function relationships (3 marks)",
+            "Relevant examples and applications (2 marks)",
+            "Organisation and terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Form and Functions of Plants میں شامل اہم نظاموں یا گروہوں کی ساخت، افعال اور اہمیت مثالوں کے ساتھ بیان کریں۔",
+              "modelAnswer": "پودوں کو نائٹروجن، فاسفورس، پوٹاشیم، کیلشیم، میگنیشیم اور سلفر جیسے بڑے غذائی عناصر اور آئرن و زنک جیسے خرد عناصر درکار ہوتے ہیں۔ نائٹروجن پروٹین اور نیوکلیک ایسڈ، میگنیشیم کلوروفل کے لیے ضروری ہے۔ روزن گیسوں کے تبادلے اور پانی کے ضیاع کو کنٹرول کرتے ہیں۔\n\nزائلم کے vessels اور tracheids پانی اور معدنی آئن منتقل کرتے ہیں، جبکہ فلوئم کے sieve tubes اور companion cells شکر منتقل کرتے ہیں۔ پانی water potential کے فرق کے مطابق حرکت کرتا ہے۔ جڑ میں apoplast، symplast اور vacuolar راستے ہوتے ہیں۔\n\nٹرانسپائریشن پودے کے ہوائی حصوں سے پانی کا ضیاع ہے۔ پتوں سے تبخیر زائلم میں کھنچاؤ پیدا کرتی ہے جو پانی کو اوپر کھینچتا ہے؛ اسے TACT کہتے ہیں۔ فلوئم شکر کو source سے sink تک منتقل کرتا ہے۔\n\nاوسموٹک ایڈجسٹمنٹ پودوں کے خلیوں میں پانی کا توازن برقرار رکھتی ہے۔ hypotonic ماحول میں خلیہ پانی لے کر turgid ہوتا ہے جبکہ hypertonic ماحول میں پانی کھو سکتا ہے۔ hydrophytes، mesophytes، xerophytes اور halophytes مختلف ماحول سے مطابقت رکھتے ہیں۔",
+              "rubric": [
+                "بنیادی تصورات کی درست وضاحت (4 نمبر)",
+                "ساخت اور فعل کا تعلق (3 نمبر)",
+                "متعلقہ مثالیں اور اطلاقات (2 نمبر)",
+                "ترتیب اور اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Form and Functions of Plants ۾ شامل اهم نظامن يا گروهن جي بناوت، ڪم ۽ اهميت مثالن سان بيان ڪريو.",
+              "modelAnswer": "ٻوٽن کي نائٽروجن، فاسفورس، پوٽاشيم، ڪيلشيم، ميگنيشيم ۽ سلفر جهڙا وڏا غذائي جزا ۽ لوهه ۽ زنڪ جهڙا ننڍا جزا گهرجن. نائٽروجن پروٽين ۽ نيوڪليڪ ايسڊ، ميگنيشيم ڪلوروفل لاءِ ضروري آهي. روزن گئسن جي مٽاسٽا ۽ پاڻيءَ جي نقصان کي ڪنٽرول ڪن ٿا.\n\nزائلم جا vessels ۽ tracheids پاڻي ۽ معدني آئن کڻن ٿا، جڏهن ته فلوئم جا sieve tubes ۽ companion cells کنڊ منتقل ڪن ٿا. پاڻي water potential جي فرق موجب هلي ٿو. پاڙ ۾ apoplast، symplast ۽ vacuolar رستا هوندا آهن.\n\nٽرانسپائريشن ٻوٽي جي هوائي حصن مان پاڻيءَ جو نقصان آهي. پنن مان بخار ٿيڻ زائلم ۾ ڇڪ پيدا ڪري ٿو، جيڪو پاڻي مٿي کڻي ٿو؛ ان کي TACT چئبو آهي. فلوئم کنڊ کي source کان sink تائين منتقل ڪري ٿو.\n\nاوسموٽڪ ايڊجسٽمينٽ ٻوٽن جي خلين ۾ پاڻيءَ جو توازن برقرار رکي ٿي. hypotonic ماحول ۾ خليو پاڻي وٺي turgid ٿئي ٿو، جڏهن ته hypertonic ماحول ۾ پاڻي وڃائي سگهي ٿو. hydrophytes، mesophytes، xerophytes ۽ halophytes مختلف ماحول سان ٺهڪندڙ آهن.",
+              "rubric": [
+                "بنيادي تصورن جي صحيح وضاحت (4 مارڪون)",
+                "بناوت ۽ ڪم جو لاڳاپو (3 مارڪون)",
+                "لاڳاپيل مثال ۽ استعمال (2 مارڪون)",
+                "ترتيب ۽ اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Evaluate the biological importance, applications and limitations of the concepts in Form and Functions of Plants.",
+          "modelAnswer": "Xylem vessels and tracheids conduct water and mineral ions; fibres provide support. Phloem sieve-tube elements and companion cells transport sugars and other organic solutes. Water moves down a water-potential gradient. Root uptake involves osmosis and pathways through cell walls (apoplast), cytoplasm (symplast) or vacuoles. The Casparian strip in the endodermis helps regulate entry into the vascular cylinder.\n\nTranspiration is water loss from aerial plant surfaces, mainly through stomata. Evaporation from mesophyll creates tension that pulls a continuous water column upward in xylem: transpiration, adhesion, cohesion and tension (TACT). Stomatal opening depends on guard-cell turgor and ion movement. Sugars move in phloem from sources, such as mature leaves, to sinks, such as roots, fruits and growing tissues, through pressure-flow mechanisms.\n\nOsmotic adjustment helps plant cells maintain water balance. In hypotonic surroundings cells gain water and become turgid; in hypertonic surroundings they lose water and may plasmolyse. Hydrophytes, mesophytes and xerophytes show different adaptations to water availability; halophytes tolerate high salinity. Turgor supports herbaceous plants. Collenchyma provides flexible support; sclerenchyma provides strong support. Plants also respond to heat and cold through structural and physiological adjustments.\n\nPrimary growth increases length through apical meristems; secondary growth increases girth through vascular and cork cambia. Annual rings reflect seasonal differences in secondary xylem. Auxin promotes cell elongation and apical dominance; gibberellins promote stem elongation and seed germination; cytokinins promote cell division; abscisic acid supports stress responses and dormancy; ethylene promotes fruit ripening. Tropisms are directional growth responses: phototropism to light, gravitropism to gravity, thigmotropism to touch and chemotropism to chemicals.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Evaluation of significance and limitations (3 marks)",
+            "Examples or real-world applications (2 marks)",
+            "Clear structure (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Form and Functions of Plants کے تصورات کی حیاتیاتی اہمیت، اطلاقات اور حدود کا جائزہ لیں۔",
+              "modelAnswer": "زائلم کے vessels اور tracheids پانی اور معدنی آئن منتقل کرتے ہیں، جبکہ فلوئم کے sieve tubes اور companion cells شکر منتقل کرتے ہیں۔ پانی water potential کے فرق کے مطابق حرکت کرتا ہے۔ جڑ میں apoplast، symplast اور vacuolar راستے ہوتے ہیں۔\n\nٹرانسپائریشن پودے کے ہوائی حصوں سے پانی کا ضیاع ہے۔ پتوں سے تبخیر زائلم میں کھنچاؤ پیدا کرتی ہے جو پانی کو اوپر کھینچتا ہے؛ اسے TACT کہتے ہیں۔ فلوئم شکر کو source سے sink تک منتقل کرتا ہے۔\n\nاوسموٹک ایڈجسٹمنٹ پودوں کے خلیوں میں پانی کا توازن برقرار رکھتی ہے۔ hypotonic ماحول میں خلیہ پانی لے کر turgid ہوتا ہے جبکہ hypertonic ماحول میں پانی کھو سکتا ہے۔ hydrophytes، mesophytes، xerophytes اور halophytes مختلف ماحول سے مطابقت رکھتے ہیں۔\n\nابتدائی نشوونما apical meristem سے لمبائی بڑھاتی ہے، جبکہ ثانوی نشوونما cambium سے موٹائی بڑھاتی ہے۔ آکسن خلیاتی لمبائی اور apical dominance، gibberellin بیج کے اگاؤ، cytokinin تقسیم، ABA دباؤ اور ethylene پھل پکنے میں مدد دیتا ہے۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "اہمیت اور حدود کا جائزہ (3 نمبر)",
+                "مثالیں یا عملی اطلاقات (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Form and Functions of Plants جي تصورن جي حياتياتي اهميت، استعمالن ۽ حدن جو جائزو وٺو.",
+              "modelAnswer": "زائلم جا vessels ۽ tracheids پاڻي ۽ معدني آئن کڻن ٿا، جڏهن ته فلوئم جا sieve tubes ۽ companion cells کنڊ منتقل ڪن ٿا. پاڻي water potential جي فرق موجب هلي ٿو. پاڙ ۾ apoplast، symplast ۽ vacuolar رستا هوندا آهن.\n\nٽرانسپائريشن ٻوٽي جي هوائي حصن مان پاڻيءَ جو نقصان آهي. پنن مان بخار ٿيڻ زائلم ۾ ڇڪ پيدا ڪري ٿو، جيڪو پاڻي مٿي کڻي ٿو؛ ان کي TACT چئبو آهي. فلوئم کنڊ کي source کان sink تائين منتقل ڪري ٿو.\n\nاوسموٽڪ ايڊجسٽمينٽ ٻوٽن جي خلين ۾ پاڻيءَ جو توازن برقرار رکي ٿي. hypotonic ماحول ۾ خليو پاڻي وٺي turgid ٿئي ٿو، جڏهن ته hypertonic ماحول ۾ پاڻي وڃائي سگهي ٿو. hydrophytes، mesophytes، xerophytes ۽ halophytes مختلف ماحول سان ٺهڪندڙ آهن.\n\nابتدائي واڌ apical meristem سان ڊيگهه وڌائي ٿي، جڏهن ته ثانوي واڌ cambium سان ٿولهه وڌائي ٿي. آڪسن خلوي ڊيگهه ۽ apical dominance، gibberellin ٻج جي اڀرڻ، cytokinin ورهاست، ABA دٻاءَ ۽ ethylene ڦر پچڻ ۾ مدد ڪري ٿو.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "اهميت ۽ حدن جو جائزو (3 مارڪون)",
+                "مثالون يا عملي استعمال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

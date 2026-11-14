@@ -1,0 +1,719 @@
+{
+  "id": "biology-xi-chapter-9-diversity-among-animals",
+  "title": "Biology XI — Chapter 9: Diversity Among Animals",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XI Chapter 9 — Diversity Among Animals (20 periods). Five structured lessons, 15 bilingual MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 9: Diversity Among Animals",
+      "description": "DCAR Sindh 2024, Grade XI, Chapter 9; 20 periods.",
+      "lessons": [
+        {
+          "title": "9.1 Principles of Animal Classification",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Principles of Animal Classification.\n\nAnimals are classified using body symmetry, number of germ layers, body cavity, segmentation, embryonic development and evolutionary relationships. Asymmetrical animals lack a regular body plan; radial symmetry suits many sessile or drifting animals; bilateral symmetry is associated with directional movement and cephalisation. Diploblastic animals develop two germ layers, while triploblastic animals develop three. Acoelomates lack a body cavity; pseudocoelomates and coelomates have different cavity linings.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "جانوروں کی درجہ بندی جسمانی تقارن، جنینی تہوں، جسمانی گہا، قطعات، جنینی نشوونما اور ارتقائی تعلقات سے ہوتی ہے۔ شعاعی تقارن عموماً ساکن یا تیرنے والے جانوروں میں، جبکہ دو طرفہ تقارن سمت دار حرکت میں مدد دیتا ہے۔",
+            "sd": "جانورن جي درجابندي جسماني هم آهنگي، جنيني تہن، جسماني خال، حصن، جنيني واڌ ۽ ارتقائي لاڳاپن سان ٿئي ٿي. شعاعي هم آهنگي عام طور بيٺل يا ترندڙ جانورن ۾، جڏهن ته ٻطرفي هم آهنگي رخ واري حرڪت ۾ مدد ڪري ٿي."
+          }
+        },
+        {
+          "title": "9.2 Porifera, Cnidaria and Simple Invertebrates",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Porifera, Cnidaria and Simple Invertebrates.\n\nPorifera (sponges) have pores, a canal system and choanocytes; most are asymmetrical and sessile. Cnidarians have radial symmetry, a gastrovascular cavity and cnidocytes containing nematocysts for prey capture and defence. Platyhelminthes are dorsoventrally flattened acoelomates; many are parasitic. Nematodes are unsegmented pseudocoelomates with a complete digestive tract. These groups illustrate increasing body organisation and specialised tissues.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "Porifera میں سوراخ، نہری نظام اور choanocytes ہوتے ہیں۔ Cnidaria میں شعاعی تقارن اور زہریلے ڈنک والے cnidocytes ہوتے ہیں۔ Platyhelminthes چپٹے اور acoelomate، جبکہ nematodes غیر قطعاتی pseudocoelomate ہوتے ہیں۔",
+            "sd": "Porifera ۾ سوراخ، واهن جو نظام ۽ choanocytes هوندا آهن. Cnidaria ۾ شعاعي هم آهنگي ۽ ڊنگ وارا cnidocytes هوندا آهن. Platyhelminthes چپٽا ۽ acoelomate، جڏهن ته nematodes بنا حصن جا pseudocoelomate هوندا آهن."
+          }
+        },
+        {
+          "title": "9.3 Annelida, Mollusca and Arthropoda",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Annelida, Mollusca and Arthropoda.\n\nAnnelids are segmented worms with a true coelom and often a closed circulatory system; earthworms improve soil structure. Molluscs generally have a muscular foot, visceral mass and mantle; many have a shell and a radula. Arthropods have jointed appendages, a segmented body and a chitinous exoskeleton; they grow by moulting. Insects have three pairs of legs, arachnids four pairs, and crustaceans often have two pairs of antennae.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "Annelida میں قطعات اور حقیقی جسمانی گہا ہوتی ہے۔ Mollusca میں عضلاتی پاؤں، اندرونی اعضا کا مجموعہ اور mantle ہوتا ہے۔ Arthropoda میں جوڑ دار ٹانگیں، قطعات اور کائٹن کا بیرونی ڈھانچہ ہوتا ہے؛ بڑھنے کے لیے جلد اتارتے ہیں۔",
+            "sd": "Annelida ۾ حصا ۽ حقيقي جسماني خال هوندو آهي. Mollusca ۾ عضلاتي پير، اندروني عضون جو مجموعو ۽ mantle هوندو آهي. Arthropoda ۾ جوڙيل ٽنگون، حصا ۽ ڪائٽن جو ٻاهريون ڍانچو هوندو آهي؛ وڌڻ لاءِ کل لاهين ٿا."
+          }
+        },
+        {
+          "title": "9.4 Echinodermata and Chordate Features",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Echinodermata and Chordate Features.\n\nEchinoderms are marine deuterostomes with a water vascular system and tube feet; adults often show pentaradial symmetry, while larvae are bilateral. Chordates possess a notochord, dorsal hollow nerve cord, pharyngeal slits and post-anal tail at some developmental stage. Invertebrate chordates include tunicates and lancelets; vertebrates possess a vertebral column or its developmental precursor and a cranium.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "Echinoderms سمندری جانور ہیں جن میں water vascular system اور tube feet ہوتے ہیں۔ Chordates میں کسی مرحلے پر notochord، پشت کی کھوکھلی عصبی نالی، pharyngeal slits اور post-anal tail ہوتی ہے۔",
+            "sd": "Echinoderms سامونڊي جانور آهن، جن ۾ water vascular system ۽ tube feet هوندا آهن. Chordates ۾ ڪنهن مرحلي تي notochord، پٺيءَ واري کوکلي عصبي نلي، pharyngeal slits ۽ post-anal tail هوندي آهي."
+          }
+        },
+        {
+          "title": "9.5 Vertebrate Groups and Their Adaptations",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Vertebrate Groups and Their Adaptations.\n\nVertebrates include cyclostomes, fishes, amphibians, reptiles, birds and mammals. Fishes are aquatic and use gills; amphibians typically have aquatic larvae and undergo metamorphosis. Reptiles have keratinised scales and amniotic eggs; birds have feathers and are endothermic; mammals have hair and mammary glands. These are broad diagnostic traits, with exceptions and evolutionary transitions. Classification should use shared derived characteristics rather than one superficial feature.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "مہرہ داروں میں سائکلو اسٹومز، مچھلیاں، ایمفیبینز، رینگنے والے، پرندے اور ممالیہ شامل ہیں۔ مچھلیاں گلپھڑوں سے سانس لیتی ہیں، ایمفیبینز میں عموماً آبی لاروا ہوتا ہے، پرندوں کے پر اور ممالیہ میں بال و mammary glands ہوتے ہیں۔",
+            "sd": "مهرادارن ۾ سائڪلو اسٽوم، مڇيون، ايمفيبين، رينگندڙ، پکي ۽ ٿڻائتا شامل آهن. مڇيون گلڙن سان ساهه کڻن ٿيون، ايمفيبين ۾ عام طور آبي لاروا هوندو آهي، پکين کي کنڀ ۽ ٿڻائتن کي وار ۽ mammary glands هوندا آهن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Radial symmetry is common in:",
+          "options": {
+            "A": "Cnidarians",
+            "B": "Earthworms",
+            "C": "Insects",
+            "D": "Mammals"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Cnidarians such as jellyfish often have radial symmetry.",
+              "options": {
+                "A": "Cnidarians",
+                "B": "Earthworms",
+                "C": "Insects",
+                "D": "ممالیہ"
+              },
+              "explanation": "درست جواب: Cnidarians۔ A"
+            },
+            "sd": {
+              "question": "شعاعی تقارن عام طور کن میں ہوتا ہے؟",
+              "options": {
+                "A": "Cnidarians",
+                "B": "Earthworms",
+                "C": "Insects",
+                "D": "Mammals"
+              },
+              "explanation": "صحيح جواب: Cnidarians۔ A"
+            }
+          }
+        },
+        {
+          "question": "Animals with two embryonic germ layers are:",
+          "options": {
+            "A": "Triploblastic",
+            "B": "Acoelomate only",
+            "C": "Segmented",
+            "D": "Diploblastic"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Diploblastic animals form ectoderm and endoderm.",
+              "options": {
+                "A": "ٹرپلوبلاسٹک",
+                "B": "صرف ایسیلومیت",
+                "C": "قطعاتی",
+                "D": "ڈپلوبلاسٹک"
+              },
+              "explanation": "درست جواب: ڈپلوبلاسٹک۔ A"
+            },
+            "sd": {
+              "question": "دو جنینی تہوں والے جانور کیا کہلاتے ہیں؟",
+              "options": {
+                "A": "Triploblastic",
+                "B": "Acoelomate only",
+                "C": "Segmented",
+                "D": "Diploblastic"
+              },
+              "explanation": "صحيح جواب: Diploblastic۔ A"
+            }
+          }
+        },
+        {
+          "question": "Sponges belong to:",
+          "options": {
+            "A": "Annelida",
+            "B": "Mollusca",
+            "C": "Porifera",
+            "D": "Cnidaria"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Porifera are pore-bearing sponges.",
+              "options": {
+                "A": "اینیلیڈا",
+                "B": "مولسکا",
+                "C": "پوریفیرا",
+                "D": "نائیڈیریا"
+              },
+              "explanation": "درست جواب: پوریفیرا۔ A"
+            },
+            "sd": {
+              "question": "اسفنج کس فائلم سے تعلق رکھتے ہیں؟",
+              "options": {
+                "A": "اينيليڊا",
+                "B": "مولسڪا",
+                "C": "پوريفيرا",
+                "D": "نائيڊيريا"
+              },
+              "explanation": "صحيح جواب: پوريفيرا۔ A"
+            }
+          }
+        },
+        {
+          "question": "Stinging cells of cnidarians are:",
+          "options": {
+            "A": "Setae",
+            "B": "Cnidocytes",
+            "C": "Choanocytes",
+            "D": "Nephridia"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Cnidocytes contain nematocysts used in prey capture and defence.",
+              "options": {
+                "A": "سیٹی",
+                "B": "نائیڈوسائٹس",
+                "C": "کوانوسائٹس",
+                "D": "نیفریڈیا"
+              },
+              "explanation": "درست جواب: نائیڈوسائٹس۔ A"
+            },
+            "sd": {
+              "question": "Cnidaria کے ڈنک والے خلیے کیا کہلاتے ہیں؟",
+              "options": {
+                "A": "Setae",
+                "B": "نائيڊوسائٽس",
+                "C": "Choanocytes",
+                "D": "Nephridia"
+              },
+              "explanation": "صحيح جواب: نائيڊوسائٽس۔ A"
+            }
+          }
+        },
+        {
+          "question": "Flatworms are members of:",
+          "options": {
+            "A": "Platyhelminthes",
+            "B": "Nematoda",
+            "C": "Arthropoda",
+            "D": "Echinodermata"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Platyhelminthes are dorsoventrally flattened worms.",
+              "options": {
+                "A": "Platyhelminthes",
+                "B": "نیمیٹوڈا",
+                "C": "آرتھروپوڈا",
+                "D": "ایکائنوڈرماتا"
+              },
+              "explanation": "درست جواب: Platyhelminthes۔ A"
+            },
+            "sd": {
+              "question": "چپٹے کیڑے کس فائلم میں ہیں؟",
+              "options": {
+                "A": "پليٽي هيلمينٿس",
+                "B": "Nematoda",
+                "C": "آرٿروپوڊا",
+                "D": "ايڪينوڊرماتا"
+              },
+              "explanation": "صحيح جواب: پليٽي هيلمينٿس۔ A"
+            }
+          }
+        },
+        {
+          "question": "Earthworms belong to:",
+          "options": {
+            "A": "Mollusca",
+            "B": "Porifera",
+            "C": "Cnidaria",
+            "D": "Annelida"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Annelids have segmented bodies.",
+              "options": {
+                "A": "مولسکا",
+                "B": "پوریفیرا",
+                "C": "نائیڈیریا",
+                "D": "اینیلیڈا"
+              },
+              "explanation": "درست جواب: اینیلیڈا۔ A"
+            },
+            "sd": {
+              "question": "کینچوا کس فائلم میں شامل ہے؟",
+              "options": {
+                "A": "مولسڪا",
+                "B": "پوريفيرا",
+                "C": "نائيڊيريا",
+                "D": "اينيليڊا"
+              },
+              "explanation": "صحيح جواب: اينيليڊا۔ A"
+            }
+          }
+        },
+        {
+          "question": "The muscular foot and mantle are typical of:",
+          "options": {
+            "A": "Annelida",
+            "B": "Chordata",
+            "C": "Mollusca",
+            "D": "Arthropoda"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Most molluscs have a foot, visceral mass and mantle.",
+              "options": {
+                "A": "اینیلیڈا",
+                "B": "کورڈیٹا",
+                "C": "مولسکا",
+                "D": "آرتھروپوڈا"
+              },
+              "explanation": "درست جواب: مولسکا۔ A"
+            },
+            "sd": {
+              "question": "عضلاتی پاؤں اور مینٹل کس گروہ کی خصوصیت ہیں؟",
+              "options": {
+                "A": "اينيليڊا",
+                "B": "ڪورڊيٽا",
+                "C": "مولسڪا",
+                "D": "آرٿروپوڊا"
+              },
+              "explanation": "صحيح جواب: مولسڪا۔ A"
+            }
+          }
+        },
+        {
+          "question": "Jointed appendages are characteristic of:",
+          "options": {
+            "A": "Cnidaria",
+            "B": "Arthropoda",
+            "C": "Porifera",
+            "D": "Platyhelminthes"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Arthropods have jointed limbs and an exoskeleton.",
+              "options": {
+                "A": "نائیڈیریا",
+                "B": "آرتھروپوڈا",
+                "C": "پوریفیرا",
+                "D": "Platyhelminthes"
+              },
+              "explanation": "درست جواب: آرتھروپوڈا۔ A"
+            },
+            "sd": {
+              "question": "جوڑ دار ضمائم کس گروہ کی خصوصیت ہیں؟",
+              "options": {
+                "A": "نائيڊيريا",
+                "B": "آرٿروپوڊا",
+                "C": "پوريفيرا",
+                "D": "پليٽي هيلمينٿس"
+              },
+              "explanation": "صحيح جواب: آرٿروپوڊا۔ A"
+            }
+          }
+        },
+        {
+          "question": "The exoskeleton of arthropods contains:",
+          "options": {
+            "A": "Chitin",
+            "B": "Cellulose",
+            "C": "Peptidoglycan",
+            "D": "Keratin only"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Chitin is a major component of the arthropod exoskeleton.",
+              "options": {
+                "A": "کائٹن",
+                "B": "سیلولوز",
+                "C": "پیپٹائڈوگلیکین",
+                "D": "Keratin only"
+              },
+              "explanation": "درست جواب: کائٹن۔ A"
+            },
+            "sd": {
+              "question": "آرتھروپوڈ کے بیرونی ڈھانچے میں کیا ہوتا ہے؟",
+              "options": {
+                "A": "ڪائٽن",
+                "B": "Cellulose",
+                "C": "پيپٽائيڊوگليڪن",
+                "D": "Keratin only"
+              },
+              "explanation": "صحيح جواب: ڪائٽن۔ A"
+            }
+          }
+        },
+        {
+          "question": "Tube feet are associated with:",
+          "options": {
+            "A": "Mollusca",
+            "B": "Annelida",
+            "C": "Nematoda",
+            "D": "Echinodermata"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Echinoderms use tube feet in locomotion and feeding.",
+              "options": {
+                "A": "مولسکا",
+                "B": "اینیلیڈا",
+                "C": "نیمیٹوڈا",
+                "D": "ایکائنوڈرماتا"
+              },
+              "explanation": "درست جواب: ایکائنوڈرماتا۔ A"
+            },
+            "sd": {
+              "question": "ٹیوب فٹ کس فائلم میں ہوتے ہیں؟",
+              "options": {
+                "A": "مولسڪا",
+                "B": "اينيليڊا",
+                "C": "Nematoda",
+                "D": "ايڪينوڊرماتا"
+              },
+              "explanation": "صحيح جواب: ايڪينوڊرماتا۔ A"
+            }
+          }
+        },
+        {
+          "question": "A defining chordate feature is the:",
+          "options": {
+            "A": "Water vascular system",
+            "B": "Cnidocyte",
+            "C": "Notochord",
+            "D": "Chitinous exoskeleton"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Chordates possess a notochord at some stage.",
+              "options": {
+                "A": "Water vascular system",
+                "B": "نائیڈوسائٹ",
+                "C": "نوٹوکارڈ",
+                "D": "کائٹن کا بیرونی ڈھانچہ"
+              },
+              "explanation": "درست جواب: نوٹوکارڈ۔ A"
+            },
+            "sd": {
+              "question": "کورڈیٹس کی بنیادی خصوصیت کیا ہے؟",
+              "options": {
+                "A": "Water vascular system",
+                "B": "Cnidocyte",
+                "C": "نوٽوڪارڊ",
+                "D": "Chitinous exoskeleton"
+              },
+              "explanation": "صحيح جواب: نوٽوڪارڊ۔ A"
+            }
+          }
+        },
+        {
+          "question": "Adult echinoderms commonly show:",
+          "options": {
+            "A": "No body organisation",
+            "B": "Pentaradial symmetry",
+            "C": "Bilateral symmetry only",
+            "D": "Asymmetry always"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Many adult echinoderms show five-part radial symmetry.",
+              "options": {
+                "A": "کوئی جسمانی تنظیم نہیں",
+                "B": "پانچ حصوں والا شعاعی تقارن",
+                "C": "صرف دو طرفہ تقارن",
+                "D": "ہمیشہ بے تقارنی"
+              },
+              "explanation": "درست جواب: پانچ حصوں والا شعاعی تقارن۔ A"
+            },
+            "sd": {
+              "question": "بالغ ایکائنوڈرمز میں عموماً کون سا تقارن ہوتا ہے؟",
+              "options": {
+                "A": "No body organisation",
+                "B": "Pentaradial symmetry",
+                "C": "Bilateral symmetry only",
+                "D": "Asymmetry always"
+              },
+              "explanation": "صحيح جواب: Pentaradial symmetry۔ A"
+            }
+          }
+        },
+        {
+          "question": "Fish primarily respire using:",
+          "options": {
+            "A": "Gills",
+            "B": "Lungs only",
+            "C": "Tracheae",
+            "D": "Skin only in all species"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Gills exchange gases with water.",
+              "options": {
+                "A": "گلپھڑے",
+                "B": "صرف پھیپھڑے",
+                "C": "ٹریکیا",
+                "D": "تمام انواع میں صرف جلد"
+              },
+              "explanation": "درست جواب: گلپھڑے۔ A"
+            },
+            "sd": {
+              "question": "مچھلیاں بنیادی طور کس سے سانس لیتی ہیں؟",
+              "options": {
+                "A": "گلڙا",
+                "B": "Lungs only",
+                "C": "Tracheae",
+                "D": "Skin only in all species"
+              },
+              "explanation": "صحيح جواب: گلڙا۔ A"
+            }
+          }
+        },
+        {
+          "question": "Feathers are a defining feature of:",
+          "options": {
+            "A": "Reptiles",
+            "B": "Amphibians",
+            "C": "Molluscs",
+            "D": "Birds"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Feathers are characteristic of birds.",
+              "options": {
+                "A": "رینگنے والے",
+                "B": "ایمفیبینز",
+                "C": "مولسکا",
+                "D": "پرندے"
+              },
+              "explanation": "درست جواب: پرندے۔ A"
+            },
+            "sd": {
+              "question": "پر کس گروہ کی نمایاں خصوصیت ہیں؟",
+              "options": {
+                "A": "Reptiles",
+                "B": "Amphibians",
+                "C": "Molluscs",
+                "D": "پکي"
+              },
+              "explanation": "صحيح جواب: پکي۔ A"
+            }
+          }
+        },
+        {
+          "question": "Mammals are distinguished by:",
+          "options": {
+            "A": "Tube feet",
+            "B": "Cnidocytes",
+            "C": "Mammary glands and hair",
+            "D": "Feathers and beak"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Mammary glands produce milk and hair is typical of mammals.",
+              "options": {
+                "A": "ٹیوب فٹ",
+                "B": "نائیڈوسائٹس",
+                "C": "دودھ کے غدود اور بال",
+                "D": "پر اور چونچ"
+              },
+              "explanation": "درست جواب: دودھ کے غدود اور بال۔ A"
+            },
+            "sd": {
+              "question": "ممالیہ کی نمایاں خصوصیات کیا ہیں؟",
+              "options": {
+                "A": "Tube feet",
+                "B": "نائيڊوسائٽس",
+                "C": "کير جا غدود ۽ وار",
+                "D": "Feathers and beak"
+              },
+              "explanation": "صحيح جواب: کير جا غدود ۽ وار۔ A"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define the central concept of Diversity Among Animals and explain two important features.",
+          "modelAnswer": "Animals are classified using body symmetry, number of germ layers, body cavity, segmentation, embryonic development and evolutionary relationships. Asymmetrical animals lack a regular body plan; radial symmetry suits many sessile or drifting animals; bilateral symmetry is associated with directional movement and cephalisation. Diploblastic animals develop two germ layers, while triploblastic animals develop three.",
+          "rubric": [
+            "Correct definition and core concept (2 marks)",
+            "Two accurate features or examples (2 marks)",
+            "Clear scientific terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Diversity Among Animals کے بنیادی تصور کی تعریف کریں اور دو اہم خصوصیات بیان کریں۔",
+              "modelAnswer": "جانوروں کی درجہ بندی جسمانی تقارن، جنینی تہوں، جسمانی گہا، قطعات، جنینی نشوونما اور ارتقائی تعلقات سے ہوتی ہے۔ شعاعی تقارن عموماً ساکن یا تیرنے والے جانوروں میں، جبکہ دو طرفہ تقارن سمت دار حرکت میں مدد دیتا ہے۔",
+              "rubric": [
+                "درست تعریف اور بنیادی تصور (2 نمبر)",
+                "دو درست خصوصیات یا مثالیں (2 نمبر)",
+                "درست سائنسی اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Diversity Among Animals جي بنيادي تصور جي وصف ڏيو ۽ ٻه اهم خاصيتون بيان ڪريو.",
+              "modelAnswer": "جانورن جي درجابندي جسماني هم آهنگي، جنيني تہن، جسماني خال، حصن، جنيني واڌ ۽ ارتقائي لاڳاپن سان ٿئي ٿي. شعاعي هم آهنگي عام طور بيٺل يا ترندڙ جانورن ۾، جڏهن ته ٻطرفي هم آهنگي رخ واري حرڪت ۾ مدد ڪري ٿي.",
+              "rubric": [
+                "صحيح وصف ۽ بنيادي تصور (2 مارڪون)",
+                "ٻه صحيح خاصيتون يا مثالون (2 مارڪون)",
+                "صحيح سائنسي اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare two major groups or processes discussed in Diversity Among Animals.",
+          "modelAnswer": "A strong comparison identifies the defining structure or process of each group, explains at least two differences, and includes a relevant example. Porifera (sponges) have pores, a canal system and choanocytes; most are asymmetrical and sessile. Cnidarians have radial symmetry, a gastrovascular cavity and cnidocytes containing nematocysts for prey capture and defence.",
+          "rubric": [
+            "Accurate description of both groups/processes (2 marks)",
+            "Two valid comparisons (2 marks)",
+            "Relevant example and clarity (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Diversity Among Animals میں بیان کردہ دو اہم گروہوں یا عمل کا موازنہ کریں۔",
+              "modelAnswer": "اچھے موازنے میں دونوں گروہوں یا عمل کی بنیادی ساخت/طریقہ بیان کیا جاتا ہے، کم از کم دو فرق لکھے جاتے ہیں اور مثال دی جاتی ہے۔ Porifera میں سوراخ، نہری نظام اور choanocytes ہوتے ہیں۔ Cnidaria میں شعاعی تقارن اور زہریلے ڈنک والے cnidocytes ہوتے ہیں۔ Platyhelminthes چپٹے اور acoelomate، جبکہ nematodes غیر قطعاتی pseudocoelomate ہوتے ہیں۔",
+              "rubric": [
+                "دونوں گروہوں/عمل کی درست وضاحت (2 نمبر)",
+                "دو درست موازنے (2 نمبر)",
+                "متعلقہ مثال اور وضاحت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Diversity Among Animals ۾ بيان ڪيل ٻن اهم گروهن يا عملن جو مقابلو ڪريو.",
+              "modelAnswer": "سٺي مقابلي ۾ ٻنهي گروهن يا عمل جي بنيادي بناوت/طريقي جي وضاحت، گهٽ ۾ گهٽ ٻه فرق ۽ هڪ مثال شامل هجي. Porifera ۾ سوراخ، واهن جو نظام ۽ choanocytes هوندا آهن. Cnidaria ۾ شعاعي هم آهنگي ۽ ڊنگ وارا cnidocytes هوندا آهن. Platyhelminthes چپٽا ۽ acoelomate، جڏهن ته nematodes بنا حصن جا pseudocoelomate هوندا آهن.",
+              "rubric": [
+                "ٻنهي گروهن/عملن جي صحيح وضاحت (2 مارڪون)",
+                "ٻه صحيح مقابلا (2 مارڪون)",
+                "لاڳاپيل مثال ۽ وضاحت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain one biological mechanism from Diversity Among Animals in a logical sequence.",
+          "modelAnswer": "Annelids are segmented worms with a true coelom and often a closed circulatory system; earthworms improve soil structure. Molluscs generally have a muscular foot, visceral mass and mantle; many have a shell and a radula. Arthropods have jointed appendages, a segmented body and a chitinous exoskeleton; they grow by moulting. Insects have three pairs of legs, arachnids four pairs, and crustaceans often have two pairs of antennae.",
+          "rubric": [
+            "Correct sequence of steps (2 marks)",
+            "Scientific explanation of mechanism (2 marks)",
+            "Correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Diversity Among Animals کے ایک حیاتیاتی طریقۂ کار کو منطقی ترتیب سے بیان کریں۔",
+              "modelAnswer": "Annelida میں قطعات اور حقیقی جسمانی گہا ہوتی ہے۔ Mollusca میں عضلاتی پاؤں، اندرونی اعضا کا مجموعہ اور mantle ہوتا ہے۔ Arthropoda میں جوڑ دار ٹانگیں، قطعات اور کائٹن کا بیرونی ڈھانچہ ہوتا ہے؛ بڑھنے کے لیے جلد اتارتے ہیں۔",
+              "rubric": [
+                "مراحل کی درست ترتیب (2 نمبر)",
+                "طریقۂ کار کی سائنسی وضاحت (2 نمبر)",
+                "درست اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Diversity Among Animals جي هڪ حياتياتي طريقي کي منطقي ترتيب سان بيان ڪريو.",
+              "modelAnswer": "Annelida ۾ حصا ۽ حقيقي جسماني خال هوندو آهي. Mollusca ۾ عضلاتي پير، اندروني عضون جو مجموعو ۽ mantle هوندو آهي. Arthropoda ۾ جوڙيل ٽنگون، حصا ۽ ڪائٽن جو ٻاهريون ڍانچو هوندو آهي؛ وڌڻ لاءِ کل لاهين ٿا.",
+              "rubric": [
+                "مرحلن جي صحيح ترتيب (2 مارڪون)",
+                "طريقي جي سائنسي وضاحت (2 مارڪون)",
+                "صحيح اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the structure, function and significance of the major systems or groups covered in Diversity Among Animals, using examples.",
+          "modelAnswer": "Animals are classified using body symmetry, number of germ layers, body cavity, segmentation, embryonic development and evolutionary relationships. Asymmetrical animals lack a regular body plan; radial symmetry suits many sessile or drifting animals; bilateral symmetry is associated with directional movement and cephalisation. Diploblastic animals develop two germ layers, while triploblastic animals develop three. Acoelomates lack a body cavity; pseudocoelomates and coelomates have different cavity linings.\n\nPorifera (sponges) have pores, a canal system and choanocytes; most are asymmetrical and sessile. Cnidarians have radial symmetry, a gastrovascular cavity and cnidocytes containing nematocysts for prey capture and defence. Platyhelminthes are dorsoventrally flattened acoelomates; many are parasitic. Nematodes are unsegmented pseudocoelomates with a complete digestive tract. These groups illustrate increasing body organisation and specialised tissues.\n\nAnnelids are segmented worms with a true coelom and often a closed circulatory system; earthworms improve soil structure. Molluscs generally have a muscular foot, visceral mass and mantle; many have a shell and a radula. Arthropods have jointed appendages, a segmented body and a chitinous exoskeleton; they grow by moulting. Insects have three pairs of legs, arachnids four pairs, and crustaceans often have two pairs of antennae.\n\nEchinoderms are marine deuterostomes with a water vascular system and tube feet; adults often show pentaradial symmetry, while larvae are bilateral. Chordates possess a notochord, dorsal hollow nerve cord, pharyngeal slits and post-anal tail at some developmental stage. Invertebrate chordates include tunicates and lancelets; vertebrates possess a vertebral column or its developmental precursor and a cranium.",
+          "rubric": [
+            "Accurate coverage of core concepts (4 marks)",
+            "Explanation of structure-function relationships (3 marks)",
+            "Relevant examples and applications (2 marks)",
+            "Organisation and terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Diversity Among Animals میں شامل اہم نظاموں یا گروہوں کی ساخت، افعال اور اہمیت مثالوں کے ساتھ بیان کریں۔",
+              "modelAnswer": "جانوروں کی درجہ بندی جسمانی تقارن، جنینی تہوں، جسمانی گہا، قطعات، جنینی نشوونما اور ارتقائی تعلقات سے ہوتی ہے۔ شعاعی تقارن عموماً ساکن یا تیرنے والے جانوروں میں، جبکہ دو طرفہ تقارن سمت دار حرکت میں مدد دیتا ہے۔\n\nPorifera میں سوراخ، نہری نظام اور choanocytes ہوتے ہیں۔ Cnidaria میں شعاعی تقارن اور زہریلے ڈنک والے cnidocytes ہوتے ہیں۔ Platyhelminthes چپٹے اور acoelomate، جبکہ nematodes غیر قطعاتی pseudocoelomate ہوتے ہیں۔\n\nAnnelida میں قطعات اور حقیقی جسمانی گہا ہوتی ہے۔ Mollusca میں عضلاتی پاؤں، اندرونی اعضا کا مجموعہ اور mantle ہوتا ہے۔ Arthropoda میں جوڑ دار ٹانگیں، قطعات اور کائٹن کا بیرونی ڈھانچہ ہوتا ہے؛ بڑھنے کے لیے جلد اتارتے ہیں۔\n\nEchinoderms سمندری جانور ہیں جن میں water vascular system اور tube feet ہوتے ہیں۔ Chordates میں کسی مرحلے پر notochord، پشت کی کھوکھلی عصبی نالی، pharyngeal slits اور post-anal tail ہوتی ہے۔",
+              "rubric": [
+                "بنیادی تصورات کی درست وضاحت (4 نمبر)",
+                "ساخت اور فعل کا تعلق (3 نمبر)",
+                "متعلقہ مثالیں اور اطلاقات (2 نمبر)",
+                "ترتیب اور اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Diversity Among Animals ۾ شامل اهم نظامن يا گروهن جي بناوت، ڪم ۽ اهميت مثالن سان بيان ڪريو.",
+              "modelAnswer": "جانورن جي درجابندي جسماني هم آهنگي، جنيني تہن، جسماني خال، حصن، جنيني واڌ ۽ ارتقائي لاڳاپن سان ٿئي ٿي. شعاعي هم آهنگي عام طور بيٺل يا ترندڙ جانورن ۾، جڏهن ته ٻطرفي هم آهنگي رخ واري حرڪت ۾ مدد ڪري ٿي.\n\nPorifera ۾ سوراخ، واهن جو نظام ۽ choanocytes هوندا آهن. Cnidaria ۾ شعاعي هم آهنگي ۽ ڊنگ وارا cnidocytes هوندا آهن. Platyhelminthes چپٽا ۽ acoelomate، جڏهن ته nematodes بنا حصن جا pseudocoelomate هوندا آهن.\n\nAnnelida ۾ حصا ۽ حقيقي جسماني خال هوندو آهي. Mollusca ۾ عضلاتي پير، اندروني عضون جو مجموعو ۽ mantle هوندو آهي. Arthropoda ۾ جوڙيل ٽنگون، حصا ۽ ڪائٽن جو ٻاهريون ڍانچو هوندو آهي؛ وڌڻ لاءِ کل لاهين ٿا.\n\nEchinoderms سامونڊي جانور آهن، جن ۾ water vascular system ۽ tube feet هوندا آهن. Chordates ۾ ڪنهن مرحلي تي notochord، پٺيءَ واري کوکلي عصبي نلي، pharyngeal slits ۽ post-anal tail هوندي آهي.",
+              "rubric": [
+                "بنيادي تصورن جي صحيح وضاحت (4 مارڪون)",
+                "بناوت ۽ ڪم جو لاڳاپو (3 مارڪون)",
+                "لاڳاپيل مثال ۽ استعمال (2 مارڪون)",
+                "ترتيب ۽ اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Evaluate the biological importance, applications and limitations of the concepts in Diversity Among Animals.",
+          "modelAnswer": "Porifera (sponges) have pores, a canal system and choanocytes; most are asymmetrical and sessile. Cnidarians have radial symmetry, a gastrovascular cavity and cnidocytes containing nematocysts for prey capture and defence. Platyhelminthes are dorsoventrally flattened acoelomates; many are parasitic. Nematodes are unsegmented pseudocoelomates with a complete digestive tract. These groups illustrate increasing body organisation and specialised tissues.\n\nAnnelids are segmented worms with a true coelom and often a closed circulatory system; earthworms improve soil structure. Molluscs generally have a muscular foot, visceral mass and mantle; many have a shell and a radula. Arthropods have jointed appendages, a segmented body and a chitinous exoskeleton; they grow by moulting. Insects have three pairs of legs, arachnids four pairs, and crustaceans often have two pairs of antennae.\n\nEchinoderms are marine deuterostomes with a water vascular system and tube feet; adults often show pentaradial symmetry, while larvae are bilateral. Chordates possess a notochord, dorsal hollow nerve cord, pharyngeal slits and post-anal tail at some developmental stage. Invertebrate chordates include tunicates and lancelets; vertebrates possess a vertebral column or its developmental precursor and a cranium.\n\nVertebrates include cyclostomes, fishes, amphibians, reptiles, birds and mammals. Fishes are aquatic and use gills; amphibians typically have aquatic larvae and undergo metamorphosis. Reptiles have keratinised scales and amniotic eggs; birds have feathers and are endothermic; mammals have hair and mammary glands. These are broad diagnostic traits, with exceptions and evolutionary transitions. Classification should use shared derived characteristics rather than one superficial feature.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Evaluation of significance and limitations (3 marks)",
+            "Examples or real-world applications (2 marks)",
+            "Clear structure (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Diversity Among Animals کے تصورات کی حیاتیاتی اہمیت، اطلاقات اور حدود کا جائزہ لیں۔",
+              "modelAnswer": "Porifera میں سوراخ، نہری نظام اور choanocytes ہوتے ہیں۔ Cnidaria میں شعاعی تقارن اور زہریلے ڈنک والے cnidocytes ہوتے ہیں۔ Platyhelminthes چپٹے اور acoelomate، جبکہ nematodes غیر قطعاتی pseudocoelomate ہوتے ہیں۔\n\nAnnelida میں قطعات اور حقیقی جسمانی گہا ہوتی ہے۔ Mollusca میں عضلاتی پاؤں، اندرونی اعضا کا مجموعہ اور mantle ہوتا ہے۔ Arthropoda میں جوڑ دار ٹانگیں، قطعات اور کائٹن کا بیرونی ڈھانچہ ہوتا ہے؛ بڑھنے کے لیے جلد اتارتے ہیں۔\n\nEchinoderms سمندری جانور ہیں جن میں water vascular system اور tube feet ہوتے ہیں۔ Chordates میں کسی مرحلے پر notochord، پشت کی کھوکھلی عصبی نالی، pharyngeal slits اور post-anal tail ہوتی ہے۔\n\nمہرہ داروں میں سائکلو اسٹومز، مچھلیاں، ایمفیبینز، رینگنے والے، پرندے اور ممالیہ شامل ہیں۔ مچھلیاں گلپھڑوں سے سانس لیتی ہیں، ایمفیبینز میں عموماً آبی لاروا ہوتا ہے، پرندوں کے پر اور ممالیہ میں بال و mammary glands ہوتے ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "اہمیت اور حدود کا جائزہ (3 نمبر)",
+                "مثالیں یا عملی اطلاقات (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Diversity Among Animals جي تصورن جي حياتياتي اهميت، استعمالن ۽ حدن جو جائزو وٺو.",
+              "modelAnswer": "Porifera ۾ سوراخ، واهن جو نظام ۽ choanocytes هوندا آهن. Cnidaria ۾ شعاعي هم آهنگي ۽ ڊنگ وارا cnidocytes هوندا آهن. Platyhelminthes چپٽا ۽ acoelomate، جڏهن ته nematodes بنا حصن جا pseudocoelomate هوندا آهن.\n\nAnnelida ۾ حصا ۽ حقيقي جسماني خال هوندو آهي. Mollusca ۾ عضلاتي پير، اندروني عضون جو مجموعو ۽ mantle هوندو آهي. Arthropoda ۾ جوڙيل ٽنگون، حصا ۽ ڪائٽن جو ٻاهريون ڍانچو هوندو آهي؛ وڌڻ لاءِ کل لاهين ٿا.\n\nEchinoderms سامونڊي جانور آهن، جن ۾ water vascular system ۽ tube feet هوندا آهن. Chordates ۾ ڪنهن مرحلي تي notochord، پٺيءَ واري کوکلي عصبي نلي، pharyngeal slits ۽ post-anal tail هوندي آهي.\n\nمهرادارن ۾ سائڪلو اسٽوم، مڇيون، ايمفيبين، رينگندڙ، پکي ۽ ٿڻائتا شامل آهن. مڇيون گلڙن سان ساهه کڻن ٿيون، ايمفيبين ۾ عام طور آبي لاروا هوندو آهي، پکين کي کنڀ ۽ ٿڻائتن کي وار ۽ mammary glands هوندا آهن.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "اهميت ۽ حدن جو جائزو (3 مارڪون)",
+                "مثالون يا عملي استعمال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

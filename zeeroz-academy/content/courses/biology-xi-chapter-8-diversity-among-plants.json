@@ -1,0 +1,719 @@
+{
+  "id": "biology-xi-chapter-8-diversity-among-plants",
+  "title": "Biology XI — Chapter 8: Diversity Among Plants",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XI Chapter 8 — Diversity Among Plants (15 periods). Five structured lessons, 15 bilingual MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 8: Diversity Among Plants",
+      "description": "DCAR Sindh 2024, Grade XI, Chapter 8; 15 periods.",
+      "lessons": [
+        {
+          "title": "8.1 Non-vascular Plants: Bryophytes",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Non-vascular Plants: Bryophytes.\n\nBryophytes such as mosses and liverworts lack true vascular tissues and do not have true roots, stems and leaves. They absorb water across surfaces and use rhizoids for anchorage. The gametophyte is the dominant generation; the sporophyte remains attached and nutritionally dependent. In mosses such as Polytrichum, spores germinate into protonema, which develops buds and leafy gametophytes. Water is required for motile sperm to reach the egg.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "برائیوفائٹس جیسے کائی میں حقیقی زائلم اور فلوئم نہیں ہوتے اور حقیقی جڑ، تنا اور پتے بھی نہیں ہوتے۔ گیمیٹوفائٹ غالب نسل ہے جبکہ اسپوروفائٹ اس سے منسلک رہتا ہے۔ Polytrichum میں اسپور سے پروٹونیما بنتا ہے۔",
+            "sd": "برائيوفائٽس جهڙوڪ ماس ۾ حقيقي زائلم ۽ فلوئم ناهن ۽ حقيقي پاڙ، ٿڙ ۽ پن به ناهن. گيميٽو فائيٽ غالب نسل آهي، جڏهن ته اسپوروفائيٽ ان سان ڳنڍيل رهي ٿو. Polytrichum ۾ اسپور مان پروٽونيما ٺهي ٿو."
+          }
+        },
+        {
+          "title": "8.2 Vascular Plants and Seedless Groups",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Vascular Plants and Seedless Groups.\n\nVascular plants possess xylem and phloem for transport and generally have true roots, stems and leaves. Seedless vascular groups include lycophytes, horsetails and ferns. In ferns, the sporophyte is dominant and produces spores in sporangia, often grouped in sori on fronds. Spores grow into a small gametophyte called a prothallus, which produces gametes. Fertilisation usually requires water.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "وعائی پودوں میں زائلم اور فلوئم ہوتے ہیں جو نقل و حمل کرتے ہیں، اور حقیقی جڑ، تنا اور پتے پائے جاتے ہیں۔ فرن میں غالب نسل اسپوروفائٹ ہے جو سورائی میں اسپور بناتا ہے؛ اسپور سے پروتھالس بنتا ہے۔",
+            "sd": "وعائي ٻوٽن ۾ زائلم ۽ فلوئم هوندا آهن، جيڪي آمدرفت ڪن ٿا، ۽ حقيقي پاڙ، ٿڙ ۽ پن هوندا آهن. فرن ۾ غالب نسل اسپوروفائيٽ آهي، جيڪو سورائي ۾ اسپور ٺاهي ٿو؛ اسپور مان پروٿالس ٺهي ٿو."
+          }
+        },
+        {
+          "title": "8.3 Gymnosperms and the Seed Habit",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Gymnosperms and the Seed Habit.\n\nGymnosperms produce seeds that are not enclosed within an ovary; seeds are often borne on cone scales. Pinus is a conifer with separate male and female cones. Pollen carries the male gametophyte and reduces dependence on free water for fertilisation. The sporophyte is dominant, and the female gametophyte develops within the ovule. Seeds protect the embryo, provide stored food and aid dispersal and dormancy.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "جمناسپرم ایسے بیج بناتے ہیں جو بیضہ دانی میں بند نہیں ہوتے، عموماً کونز پر ہوتے ہیں۔ Pinus میں نر اور مادہ کونز ہوتے ہیں۔ پولن نر گیمیٹوفائٹ منتقل کرتا ہے اور بارآوری کو آزاد پانی سے کم وابستہ بناتا ہے۔",
+            "sd": "جمناسپرم اهڙا ٻج ٺاهين ٿا، جيڪي بيضه داني ۾ بند ناهن، عام طور ڪونز تي هوندا آهن. Pinus ۾ نر ۽ مادي ڪونز هوندا آهن. پولن نر گيميٽو فائيٽ کڻي وڃي ٿو ۽ بارآوري کي آزاد پاڻيءَ کان گهٽ وابسته ڪري ٿو."
+          }
+        },
+        {
+          "title": "8.4 Angiosperms and Their Life Cycle",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Angiosperms and Their Life Cycle.\n\nAngiosperms are flowering plants; ovules are enclosed in an ovary and seeds develop inside fruits. The flower contains reproductive structures: stamens produce pollen and carpels contain ovules. Pollination transfers pollen to a stigma; pollen tubes deliver sperm nuclei to the embryo sac. Double fertilisation produces a diploid zygote and triploid endosperm. The sporophyte is dominant, while male and female gametophytes are highly reduced.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "این جیوسپرم پھول دار پودے ہیں؛ بیضے بیضہ دانی میں بند ہوتے ہیں اور بیج پھل کے اندر بنتے ہیں۔ پولن داغ تک پہنچتا ہے، پولن ٹیوب نر مرکزے منتقل کرتی ہے۔ دوہری بارآوری سے زائیگوٹ اور اینڈوسپرم بنتے ہیں۔",
+            "sd": "اينجيوسپرم گلدار ٻوٽا آهن؛ اوول بيضه داني ۾ بند هوندا آهن ۽ ٻج ڦر اندر ٺهن ٿا. پولن اسٽيگما تائين پهچي ٿو ۽ پولن ٽيوب نر مرڪز کڻي وڃي ٿي. ٻٽي بارآوري سان زائگوٽ ۽ اينڊوسپرم ٺهن ٿا."
+          }
+        },
+        {
+          "title": "8.5 Plant Families and Economic Importance",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Plant Families and Economic Importance.\n\nThe syllabus highlights Brassicaceae, Solanaceae and Poaceae. Brassicaceae often have four petals in a cross, six tetradynamous stamens and siliqua fruits; examples include mustard and cabbage. Solanaceae often have fused petals and five stamens; examples include tomato, potato, chilli and tobacco. Poaceae are grasses with jointed stems, narrow leaves, spikelets and grain fruits; rice, wheat and maize are major crops. Plant diversity supplies food, fibres, medicines, timber and ecosystem services.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "نصاب میں Brassicaceae، Solanaceae اور Poaceae اہم خاندان ہیں۔ Brassicaceae میں سرسوں اور گوبھی، Solanaceae میں ٹماٹر، آلو اور مرچ، جبکہ Poaceae میں گندم، چاول اور مکئی شامل ہیں۔ یہ خوراک، ریشہ، ادویات اور لکڑی فراہم کرتے ہیں۔",
+            "sd": "نصاب ۾ Brassicaceae، Solanaceae ۽ Poaceae اهم خاندان آهن. Brassicaceae ۾ سرنهن ۽ گوبي، Solanaceae ۾ ٽماٽو، آلو ۽ مرچ، جڏهن ته Poaceae ۾ ڪڻڪ، چانور ۽ مڪئي شامل آهن. اهي خوراڪ، فائبر، دوائون ۽ ڪاٺ ڏين ٿا."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Bryophytes lack:",
+          "options": {
+            "A": "True vascular tissues",
+            "B": "Chlorophyll",
+            "C": "Cell walls",
+            "D": "Spores"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Bryophytes do not have true xylem and phloem.",
+              "options": {
+                "A": "حقیقی وعائی بافتیں",
+                "B": "کلوروفل",
+                "C": "خلوی دیواریں",
+                "D": "اسپور"
+              },
+              "explanation": "درست جواب: حقیقی وعائی بافتیں۔ A"
+            },
+            "sd": {
+              "question": "برائیوفائٹس میں کس چیز کی کمی ہوتی ہے؟",
+              "options": {
+                "A": "True vascular tissues",
+                "B": "Chlorophyll",
+                "C": "Cell walls",
+                "D": "Spores"
+              },
+              "explanation": "صحيح جواب: True vascular tissues۔ A"
+            }
+          }
+        },
+        {
+          "question": "The dominant generation in mosses is the:",
+          "options": {
+            "A": "Sporophyte",
+            "B": "Seed",
+            "C": "Embryo only",
+            "D": "Gametophyte"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "The leafy gametophyte is dominant in bryophytes.",
+              "options": {
+                "A": "اسپوروفائٹ",
+                "B": "بیج",
+                "C": "صرف جنین",
+                "D": "گیمیٹوفائٹ"
+              },
+              "explanation": "درست جواب: گیمیٹوفائٹ۔ A"
+            },
+            "sd": {
+              "question": "کائی میں غالب نسل کون سی ہے؟",
+              "options": {
+                "A": "Sporophyte",
+                "B": "Seed",
+                "C": "Embryo only",
+                "D": "گيميٽو فائيٽ"
+              },
+              "explanation": "صحيح جواب: گيميٽو فائيٽ۔ A"
+            }
+          }
+        },
+        {
+          "question": "Rhizoids mainly provide:",
+          "options": {
+            "A": "Seeds",
+            "B": "Pollen",
+            "C": "Anchorage",
+            "D": "Water-conducting xylem"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Rhizoids anchor bryophytes to the substrate.",
+              "options": {
+                "A": "بیج",
+                "B": "پولن",
+                "C": "جڑاؤ",
+                "D": "پانی لے جانے والا زائلم"
+              },
+              "explanation": "درست جواب: جڑاؤ۔ A"
+            },
+            "sd": {
+              "question": "رائزوئڈز کا بنیادی کام کیا ہے؟",
+              "options": {
+                "A": "Seeds",
+                "B": "Pollen",
+                "C": "جڪڙ",
+                "D": "Water-conducting xylem"
+              },
+              "explanation": "صحيح جواب: جڪڙ۔ A"
+            }
+          }
+        },
+        {
+          "question": "The first filamentous stage in moss development is:",
+          "options": {
+            "A": "Cone",
+            "B": "Protonema",
+            "C": "Prothallus",
+            "D": "Endosperm"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "A spore germinates into a protonema.",
+              "options": {
+                "A": "کون",
+                "B": "پروٹونیما",
+                "C": "پروتھالس",
+                "D": "اینڈوسپرم"
+              },
+              "explanation": "درست جواب: پروٹونیما۔ A"
+            },
+            "sd": {
+              "question": "کائی میں ابتدائی دھاگہ نما مرحلہ؟",
+              "options": {
+                "A": "Cone",
+                "B": "پروٽونيما",
+                "C": "پروٿالس",
+                "D": "Endosperm"
+              },
+              "explanation": "صحيح جواب: پروٽونيما۔ A"
+            }
+          }
+        },
+        {
+          "question": "Vascular tissue includes:",
+          "options": {
+            "A": "Xylem and phloem",
+            "B": "Capsid and envelope",
+            "C": "Hyphae and mycelium",
+            "D": "Cilia and flagella"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Xylem and phloem conduct water and assimilates.",
+              "options": {
+                "A": "زائلم اور فلوئم",
+                "B": "کیپسڈ اور غلاف",
+                "C": "ہائفے اور مائیسیلیم",
+                "D": "سیلیا اور فلیجیلا"
+              },
+              "explanation": "درست جواب: زائلم اور فلوئم۔ A"
+            },
+            "sd": {
+              "question": "وعائی بافت میں کیا شامل ہے؟",
+              "options": {
+                "A": "زائلم ۽ فلوئم",
+                "B": "Capsid and envelope",
+                "C": "Hyphae and mycelium",
+                "D": "Cilia and flagella"
+              },
+              "explanation": "صحيح جواب: زائلم ۽ فلوئم۔ A"
+            }
+          }
+        },
+        {
+          "question": "Fern spores are commonly produced in:",
+          "options": {
+            "A": "Flowers",
+            "B": "Fruits",
+            "C": "Seeds",
+            "D": "Sporangia"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Sporangia often occur in sori on fern fronds.",
+              "options": {
+                "A": "پھول",
+                "B": "پھل",
+                "C": "بیج",
+                "D": "اسپورینجیا"
+              },
+              "explanation": "درست جواب: اسپورینجیا۔ A"
+            },
+            "sd": {
+              "question": "فرن کے اسپور کہاں بنتے ہیں؟",
+              "options": {
+                "A": "Flowers",
+                "B": "Fruits",
+                "C": "Seeds",
+                "D": "اسپورينجيا"
+              },
+              "explanation": "صحيح جواب: اسپورينجيا۔ A"
+            }
+          }
+        },
+        {
+          "question": "The small fern gametophyte is called:",
+          "options": {
+            "A": "Cotyledon",
+            "B": "Endosperm",
+            "C": "Prothallus",
+            "D": "Protonema"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "The prothallus bears the sex organs.",
+              "options": {
+                "A": "Cotyledon",
+                "B": "اینڈوسپرم",
+                "C": "پروتھالس",
+                "D": "پروٹونیما"
+              },
+              "explanation": "درست جواب: پروتھالس۔ A"
+            },
+            "sd": {
+              "question": "فرن کے چھوٹے گیمیٹوفائٹ کو کیا کہتے ہیں؟",
+              "options": {
+                "A": "Cotyledon",
+                "B": "Endosperm",
+                "C": "پروٿالس",
+                "D": "پروٽونيما"
+              },
+              "explanation": "صحيح جواب: پروٿالس۔ A"
+            }
+          }
+        },
+        {
+          "question": "Gymnosperm seeds are:",
+          "options": {
+            "A": "Asexual spores",
+            "B": "Not enclosed in an ovary",
+            "C": "Always inside a fruit",
+            "D": "Produced in flowers with double fertilisation"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Gymnosperm seeds are often exposed on cone scales.",
+              "options": {
+                "A": "غیر جنسی اسپور",
+                "B": "بیضہ دانی میں بند نہیں",
+                "C": "ہمیشہ پھل کے اندر",
+                "D": "پھول میں دوہری بارآوری سے بنتے ہیں"
+              },
+              "explanation": "درست جواب: بیضہ دانی میں بند نہیں۔ A"
+            },
+            "sd": {
+              "question": "جمناسپرم کے بیج کس طرح ہوتے ہیں؟",
+              "options": {
+                "A": "Asexual spores",
+                "B": "Not enclosed in an ovary",
+                "C": "Always inside a fruit",
+                "D": "Produced in flowers with double fertilisation"
+              },
+              "explanation": "صحيح جواب: Not enclosed in an ovary۔ A"
+            }
+          }
+        },
+        {
+          "question": "Pinus produces reproductive structures called:",
+          "options": {
+            "A": "Cones",
+            "B": "Flowers",
+            "C": "Sori",
+            "D": "Capsids"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Male and female cones bear reproductive structures.",
+              "options": {
+                "A": "کونز",
+                "B": "پھول",
+                "C": "سورائی",
+                "D": "کیپسڈ"
+              },
+              "explanation": "درست جواب: کونز۔ A"
+            },
+            "sd": {
+              "question": "Pinus میں تولیدی ساختیں کیا کہلاتی ہیں؟",
+              "options": {
+                "A": "ڪونز",
+                "B": "Flowers",
+                "C": "Sori",
+                "D": "Capsids"
+              },
+              "explanation": "صحيح جواب: ڪونز۔ A"
+            }
+          }
+        },
+        {
+          "question": "Angiosperms are characterised by:",
+          "options": {
+            "A": "Naked seeds only",
+            "B": "No vascular tissue",
+            "C": "Dominant gametophyte",
+            "D": "Seeds enclosed in fruits"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "The ovary develops into a fruit enclosing seeds.",
+              "options": {
+                "A": "صرف ننگے بیج",
+                "B": "وعائی بافت نہیں",
+                "C": "غالب گیمیٹوفائٹ",
+                "D": "پھلوں میں بند بیج"
+              },
+              "explanation": "درست جواب: پھلوں میں بند بیج۔ A"
+            },
+            "sd": {
+              "question": "این جیوسپرم کی نمایاں خصوصیت کیا ہے؟",
+              "options": {
+                "A": "Naked seeds only",
+                "B": "No vascular tissue",
+                "C": "Dominant gametophyte",
+                "D": "ڦرن اندر بند ٻج"
+              },
+              "explanation": "صحيح جواب: ڦرن اندر بند ٻج۔ A"
+            }
+          }
+        },
+        {
+          "question": "Pollen is transferred to the:",
+          "options": {
+            "A": "Xylem vessel",
+            "B": "Anther wall only",
+            "C": "Stigma",
+            "D": "Root cap"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Pollination is transfer of pollen to a stigma.",
+              "options": {
+                "A": "Xylem vessel",
+                "B": "صرف اینتھر کی دیوار",
+                "C": "اسٹگما",
+                "D": "جڑ کی ٹوپی"
+              },
+              "explanation": "درست جواب: اسٹگما۔ A"
+            },
+            "sd": {
+              "question": "پولن کس حصے تک پہنچتا ہے؟",
+              "options": {
+                "A": "Xylem vessel",
+                "B": "Anther wall only",
+                "C": "اسٽيگما",
+                "D": "Root cap"
+              },
+              "explanation": "صحيح جواب: اسٽيگما۔ A"
+            }
+          }
+        },
+        {
+          "question": "Double fertilisation in angiosperms forms:",
+          "options": {
+            "A": "Spores and cones",
+            "B": "Zygote and endosperm",
+            "C": "Two embryos only",
+            "D": "Two pollen grains"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "One sperm forms a zygote; the other helps form endosperm.",
+              "options": {
+                "A": "اسپور اور کونز",
+                "B": "زائیگوٹ اور اینڈوسپرم",
+                "C": "صرف دو جنین",
+                "D": "دو پولن دانے"
+              },
+              "explanation": "درست جواب: زائیگوٹ اور اینڈوسپرم۔ A"
+            },
+            "sd": {
+              "question": "دوہری بارآوری سے کیا بنتا ہے؟",
+              "options": {
+                "A": "Spores and cones",
+                "B": "زائگوٽ ۽ اينڊوسپرم",
+                "C": "Two embryos only",
+                "D": "Two pollen grains"
+              },
+              "explanation": "صحيح جواب: زائگوٽ ۽ اينڊوسپرم۔ A"
+            }
+          }
+        },
+        {
+          "question": "Which family includes wheat and rice?",
+          "options": {
+            "A": "Poaceae",
+            "B": "Solanaceae",
+            "C": "Brassicaceae",
+            "D": "Rosaceae"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Wheat and rice are grasses in Poaceae.",
+              "options": {
+                "A": "پواسی",
+                "B": "سولینیسی",
+                "C": "براسیکیسی",
+                "D": "روزاسی"
+              },
+              "explanation": "درست جواب: پواسی۔ A"
+            },
+            "sd": {
+              "question": "گندم اور چاول کس خاندان میں ہیں؟",
+              "options": {
+                "A": "پواسي",
+                "B": "سولينياسي",
+                "C": "براسيڪاسي",
+                "D": "Rosaceae"
+              },
+              "explanation": "صحيح جواب: پواسي۔ A"
+            }
+          }
+        },
+        {
+          "question": "Tomato and potato belong to:",
+          "options": {
+            "A": "Poaceae",
+            "B": "Brassicaceae",
+            "C": "Fabaceae",
+            "D": "Solanaceae"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Tomato and potato are members of Solanaceae.",
+              "options": {
+                "A": "پواسی",
+                "B": "براسیکیسی",
+                "C": "فیباسی",
+                "D": "سولینیسی"
+              },
+              "explanation": "درست جواب: سولینیسی۔ A"
+            },
+            "sd": {
+              "question": "ٹماٹر اور آلو کس خاندان میں شامل ہیں؟",
+              "options": {
+                "A": "پواسي",
+                "B": "براسيڪاسي",
+                "C": "Fabaceae",
+                "D": "سولينياسي"
+              },
+              "explanation": "صحيح جواب: سولينياسي۔ A"
+            }
+          }
+        },
+        {
+          "question": "Mustard belongs to:",
+          "options": {
+            "A": "Solanaceae",
+            "B": "Pinaceae",
+            "C": "Brassicaceae",
+            "D": "Poaceae"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Mustard is a member of Brassicaceae.",
+              "options": {
+                "A": "سولینیسی",
+                "B": "پائنیسی",
+                "C": "براسیکیسی",
+                "D": "پواسی"
+              },
+              "explanation": "درست جواب: براسیکیسی۔ A"
+            },
+            "sd": {
+              "question": "سرسوں کس خاندان سے تعلق رکھتی ہے؟",
+              "options": {
+                "A": "سولينياسي",
+                "B": "Pinaceae",
+                "C": "براسيڪاسي",
+                "D": "پواسي"
+              },
+              "explanation": "صحيح جواب: براسيڪاسي۔ A"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define the central concept of Diversity Among Plants and explain two important features.",
+          "modelAnswer": "Bryophytes such as mosses and liverworts lack true vascular tissues and do not have true roots, stems and leaves. They absorb water across surfaces and use rhizoids for anchorage. The gametophyte is the dominant generation; the sporophyte remains attached and nutritionally dependent.",
+          "rubric": [
+            "Correct definition and core concept (2 marks)",
+            "Two accurate features or examples (2 marks)",
+            "Clear scientific terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Diversity Among Plants کے بنیادی تصور کی تعریف کریں اور دو اہم خصوصیات بیان کریں۔",
+              "modelAnswer": "برائیوفائٹس جیسے کائی میں حقیقی زائلم اور فلوئم نہیں ہوتے اور حقیقی جڑ، تنا اور پتے بھی نہیں ہوتے۔ گیمیٹوفائٹ غالب نسل ہے جبکہ اسپوروفائٹ اس سے منسلک رہتا ہے۔ Polytrichum میں اسپور سے پروٹونیما بنتا ہے۔",
+              "rubric": [
+                "درست تعریف اور بنیادی تصور (2 نمبر)",
+                "دو درست خصوصیات یا مثالیں (2 نمبر)",
+                "درست سائنسی اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Diversity Among Plants جي بنيادي تصور جي وصف ڏيو ۽ ٻه اهم خاصيتون بيان ڪريو.",
+              "modelAnswer": "برائيوفائٽس جهڙوڪ ماس ۾ حقيقي زائلم ۽ فلوئم ناهن ۽ حقيقي پاڙ، ٿڙ ۽ پن به ناهن. گيميٽو فائيٽ غالب نسل آهي، جڏهن ته اسپوروفائيٽ ان سان ڳنڍيل رهي ٿو. Polytrichum ۾ اسپور مان پروٽونيما ٺهي ٿو.",
+              "rubric": [
+                "صحيح وصف ۽ بنيادي تصور (2 مارڪون)",
+                "ٻه صحيح خاصيتون يا مثالون (2 مارڪون)",
+                "صحيح سائنسي اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare two major groups or processes discussed in Diversity Among Plants.",
+          "modelAnswer": "A strong comparison identifies the defining structure or process of each group, explains at least two differences, and includes a relevant example. Vascular plants possess xylem and phloem for transport and generally have true roots, stems and leaves. Seedless vascular groups include lycophytes, horsetails and ferns.",
+          "rubric": [
+            "Accurate description of both groups/processes (2 marks)",
+            "Two valid comparisons (2 marks)",
+            "Relevant example and clarity (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Diversity Among Plants میں بیان کردہ دو اہم گروہوں یا عمل کا موازنہ کریں۔",
+              "modelAnswer": "اچھے موازنے میں دونوں گروہوں یا عمل کی بنیادی ساخت/طریقہ بیان کیا جاتا ہے، کم از کم دو فرق لکھے جاتے ہیں اور مثال دی جاتی ہے۔ وعائی پودوں میں زائلم اور فلوئم ہوتے ہیں جو نقل و حمل کرتے ہیں، اور حقیقی جڑ، تنا اور پتے پائے جاتے ہیں۔ فرن میں غالب نسل اسپوروفائٹ ہے جو سورائی میں اسپور بناتا ہے؛ اسپور سے پروتھالس بنتا ہے۔",
+              "rubric": [
+                "دونوں گروہوں/عمل کی درست وضاحت (2 نمبر)",
+                "دو درست موازنے (2 نمبر)",
+                "متعلقہ مثال اور وضاحت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Diversity Among Plants ۾ بيان ڪيل ٻن اهم گروهن يا عملن جو مقابلو ڪريو.",
+              "modelAnswer": "سٺي مقابلي ۾ ٻنهي گروهن يا عمل جي بنيادي بناوت/طريقي جي وضاحت، گهٽ ۾ گهٽ ٻه فرق ۽ هڪ مثال شامل هجي. وعائي ٻوٽن ۾ زائلم ۽ فلوئم هوندا آهن، جيڪي آمدرفت ڪن ٿا، ۽ حقيقي پاڙ، ٿڙ ۽ پن هوندا آهن. فرن ۾ غالب نسل اسپوروفائيٽ آهي، جيڪو سورائي ۾ اسپور ٺاهي ٿو؛ اسپور مان پروٿالس ٺهي ٿو.",
+              "rubric": [
+                "ٻنهي گروهن/عملن جي صحيح وضاحت (2 مارڪون)",
+                "ٻه صحيح مقابلا (2 مارڪون)",
+                "لاڳاپيل مثال ۽ وضاحت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain one biological mechanism from Diversity Among Plants in a logical sequence.",
+          "modelAnswer": "Gymnosperms produce seeds that are not enclosed within an ovary; seeds are often borne on cone scales. Pinus is a conifer with separate male and female cones. Pollen carries the male gametophyte and reduces dependence on free water for fertilisation. The sporophyte is dominant, and the female gametophyte develops within the ovule. Seeds protect the embryo, provide stored food and aid dispersal and dormancy.",
+          "rubric": [
+            "Correct sequence of steps (2 marks)",
+            "Scientific explanation of mechanism (2 marks)",
+            "Correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Diversity Among Plants کے ایک حیاتیاتی طریقۂ کار کو منطقی ترتیب سے بیان کریں۔",
+              "modelAnswer": "جمناسپرم ایسے بیج بناتے ہیں جو بیضہ دانی میں بند نہیں ہوتے، عموماً کونز پر ہوتے ہیں۔ Pinus میں نر اور مادہ کونز ہوتے ہیں۔ پولن نر گیمیٹوفائٹ منتقل کرتا ہے اور بارآوری کو آزاد پانی سے کم وابستہ بناتا ہے۔",
+              "rubric": [
+                "مراحل کی درست ترتیب (2 نمبر)",
+                "طریقۂ کار کی سائنسی وضاحت (2 نمبر)",
+                "درست اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Diversity Among Plants جي هڪ حياتياتي طريقي کي منطقي ترتيب سان بيان ڪريو.",
+              "modelAnswer": "جمناسپرم اهڙا ٻج ٺاهين ٿا، جيڪي بيضه داني ۾ بند ناهن، عام طور ڪونز تي هوندا آهن. Pinus ۾ نر ۽ مادي ڪونز هوندا آهن. پولن نر گيميٽو فائيٽ کڻي وڃي ٿو ۽ بارآوري کي آزاد پاڻيءَ کان گهٽ وابسته ڪري ٿو.",
+              "rubric": [
+                "مرحلن جي صحيح ترتيب (2 مارڪون)",
+                "طريقي جي سائنسي وضاحت (2 مارڪون)",
+                "صحيح اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the structure, function and significance of the major systems or groups covered in Diversity Among Plants, using examples.",
+          "modelAnswer": "Bryophytes such as mosses and liverworts lack true vascular tissues and do not have true roots, stems and leaves. They absorb water across surfaces and use rhizoids for anchorage. The gametophyte is the dominant generation; the sporophyte remains attached and nutritionally dependent. In mosses such as Polytrichum, spores germinate into protonema, which develops buds and leafy gametophytes. Water is required for motile sperm to reach the egg.\n\nVascular plants possess xylem and phloem for transport and generally have true roots, stems and leaves. Seedless vascular groups include lycophytes, horsetails and ferns. In ferns, the sporophyte is dominant and produces spores in sporangia, often grouped in sori on fronds. Spores grow into a small gametophyte called a prothallus, which produces gametes. Fertilisation usually requires water.\n\nGymnosperms produce seeds that are not enclosed within an ovary; seeds are often borne on cone scales. Pinus is a conifer with separate male and female cones. Pollen carries the male gametophyte and reduces dependence on free water for fertilisation. The sporophyte is dominant, and the female gametophyte develops within the ovule. Seeds protect the embryo, provide stored food and aid dispersal and dormancy.\n\nAngiosperms are flowering plants; ovules are enclosed in an ovary and seeds develop inside fruits. The flower contains reproductive structures: stamens produce pollen and carpels contain ovules. Pollination transfers pollen to a stigma; pollen tubes deliver sperm nuclei to the embryo sac. Double fertilisation produces a diploid zygote and triploid endosperm. The sporophyte is dominant, while male and female gametophytes are highly reduced.",
+          "rubric": [
+            "Accurate coverage of core concepts (4 marks)",
+            "Explanation of structure-function relationships (3 marks)",
+            "Relevant examples and applications (2 marks)",
+            "Organisation and terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Diversity Among Plants میں شامل اہم نظاموں یا گروہوں کی ساخت، افعال اور اہمیت مثالوں کے ساتھ بیان کریں۔",
+              "modelAnswer": "برائیوفائٹس جیسے کائی میں حقیقی زائلم اور فلوئم نہیں ہوتے اور حقیقی جڑ، تنا اور پتے بھی نہیں ہوتے۔ گیمیٹوفائٹ غالب نسل ہے جبکہ اسپوروفائٹ اس سے منسلک رہتا ہے۔ Polytrichum میں اسپور سے پروٹونیما بنتا ہے۔\n\nوعائی پودوں میں زائلم اور فلوئم ہوتے ہیں جو نقل و حمل کرتے ہیں، اور حقیقی جڑ، تنا اور پتے پائے جاتے ہیں۔ فرن میں غالب نسل اسپوروفائٹ ہے جو سورائی میں اسپور بناتا ہے؛ اسپور سے پروتھالس بنتا ہے۔\n\nجمناسپرم ایسے بیج بناتے ہیں جو بیضہ دانی میں بند نہیں ہوتے، عموماً کونز پر ہوتے ہیں۔ Pinus میں نر اور مادہ کونز ہوتے ہیں۔ پولن نر گیمیٹوفائٹ منتقل کرتا ہے اور بارآوری کو آزاد پانی سے کم وابستہ بناتا ہے۔\n\nاین جیوسپرم پھول دار پودے ہیں؛ بیضے بیضہ دانی میں بند ہوتے ہیں اور بیج پھل کے اندر بنتے ہیں۔ پولن داغ تک پہنچتا ہے، پولن ٹیوب نر مرکزے منتقل کرتی ہے۔ دوہری بارآوری سے زائیگوٹ اور اینڈوسپرم بنتے ہیں۔",
+              "rubric": [
+                "بنیادی تصورات کی درست وضاحت (4 نمبر)",
+                "ساخت اور فعل کا تعلق (3 نمبر)",
+                "متعلقہ مثالیں اور اطلاقات (2 نمبر)",
+                "ترتیب اور اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Diversity Among Plants ۾ شامل اهم نظامن يا گروهن جي بناوت، ڪم ۽ اهميت مثالن سان بيان ڪريو.",
+              "modelAnswer": "برائيوفائٽس جهڙوڪ ماس ۾ حقيقي زائلم ۽ فلوئم ناهن ۽ حقيقي پاڙ، ٿڙ ۽ پن به ناهن. گيميٽو فائيٽ غالب نسل آهي، جڏهن ته اسپوروفائيٽ ان سان ڳنڍيل رهي ٿو. Polytrichum ۾ اسپور مان پروٽونيما ٺهي ٿو.\n\nوعائي ٻوٽن ۾ زائلم ۽ فلوئم هوندا آهن، جيڪي آمدرفت ڪن ٿا، ۽ حقيقي پاڙ، ٿڙ ۽ پن هوندا آهن. فرن ۾ غالب نسل اسپوروفائيٽ آهي، جيڪو سورائي ۾ اسپور ٺاهي ٿو؛ اسپور مان پروٿالس ٺهي ٿو.\n\nجمناسپرم اهڙا ٻج ٺاهين ٿا، جيڪي بيضه داني ۾ بند ناهن، عام طور ڪونز تي هوندا آهن. Pinus ۾ نر ۽ مادي ڪونز هوندا آهن. پولن نر گيميٽو فائيٽ کڻي وڃي ٿو ۽ بارآوري کي آزاد پاڻيءَ کان گهٽ وابسته ڪري ٿو.\n\nاينجيوسپرم گلدار ٻوٽا آهن؛ اوول بيضه داني ۾ بند هوندا آهن ۽ ٻج ڦر اندر ٺهن ٿا. پولن اسٽيگما تائين پهچي ٿو ۽ پولن ٽيوب نر مرڪز کڻي وڃي ٿي. ٻٽي بارآوري سان زائگوٽ ۽ اينڊوسپرم ٺهن ٿا.",
+              "rubric": [
+                "بنيادي تصورن جي صحيح وضاحت (4 مارڪون)",
+                "بناوت ۽ ڪم جو لاڳاپو (3 مارڪون)",
+                "لاڳاپيل مثال ۽ استعمال (2 مارڪون)",
+                "ترتيب ۽ اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Evaluate the biological importance, applications and limitations of the concepts in Diversity Among Plants.",
+          "modelAnswer": "Vascular plants possess xylem and phloem for transport and generally have true roots, stems and leaves. Seedless vascular groups include lycophytes, horsetails and ferns. In ferns, the sporophyte is dominant and produces spores in sporangia, often grouped in sori on fronds. Spores grow into a small gametophyte called a prothallus, which produces gametes. Fertilisation usually requires water.\n\nGymnosperms produce seeds that are not enclosed within an ovary; seeds are often borne on cone scales. Pinus is a conifer with separate male and female cones. Pollen carries the male gametophyte and reduces dependence on free water for fertilisation. The sporophyte is dominant, and the female gametophyte develops within the ovule. Seeds protect the embryo, provide stored food and aid dispersal and dormancy.\n\nAngiosperms are flowering plants; ovules are enclosed in an ovary and seeds develop inside fruits. The flower contains reproductive structures: stamens produce pollen and carpels contain ovules. Pollination transfers pollen to a stigma; pollen tubes deliver sperm nuclei to the embryo sac. Double fertilisation produces a diploid zygote and triploid endosperm. The sporophyte is dominant, while male and female gametophytes are highly reduced.\n\nThe syllabus highlights Brassicaceae, Solanaceae and Poaceae. Brassicaceae often have four petals in a cross, six tetradynamous stamens and siliqua fruits; examples include mustard and cabbage. Solanaceae often have fused petals and five stamens; examples include tomato, potato, chilli and tobacco. Poaceae are grasses with jointed stems, narrow leaves, spikelets and grain fruits; rice, wheat and maize are major crops. Plant diversity supplies food, fibres, medicines, timber and ecosystem services.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Evaluation of significance and limitations (3 marks)",
+            "Examples or real-world applications (2 marks)",
+            "Clear structure (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Diversity Among Plants کے تصورات کی حیاتیاتی اہمیت، اطلاقات اور حدود کا جائزہ لیں۔",
+              "modelAnswer": "وعائی پودوں میں زائلم اور فلوئم ہوتے ہیں جو نقل و حمل کرتے ہیں، اور حقیقی جڑ، تنا اور پتے پائے جاتے ہیں۔ فرن میں غالب نسل اسپوروفائٹ ہے جو سورائی میں اسپور بناتا ہے؛ اسپور سے پروتھالس بنتا ہے۔\n\nجمناسپرم ایسے بیج بناتے ہیں جو بیضہ دانی میں بند نہیں ہوتے، عموماً کونز پر ہوتے ہیں۔ Pinus میں نر اور مادہ کونز ہوتے ہیں۔ پولن نر گیمیٹوفائٹ منتقل کرتا ہے اور بارآوری کو آزاد پانی سے کم وابستہ بناتا ہے۔\n\nاین جیوسپرم پھول دار پودے ہیں؛ بیضے بیضہ دانی میں بند ہوتے ہیں اور بیج پھل کے اندر بنتے ہیں۔ پولن داغ تک پہنچتا ہے، پولن ٹیوب نر مرکزے منتقل کرتی ہے۔ دوہری بارآوری سے زائیگوٹ اور اینڈوسپرم بنتے ہیں۔\n\nنصاب میں Brassicaceae، Solanaceae اور Poaceae اہم خاندان ہیں۔ Brassicaceae میں سرسوں اور گوبھی، Solanaceae میں ٹماٹر، آلو اور مرچ، جبکہ Poaceae میں گندم، چاول اور مکئی شامل ہیں۔ یہ خوراک، ریشہ، ادویات اور لکڑی فراہم کرتے ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "اہمیت اور حدود کا جائزہ (3 نمبر)",
+                "مثالیں یا عملی اطلاقات (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Diversity Among Plants جي تصورن جي حياتياتي اهميت، استعمالن ۽ حدن جو جائزو وٺو.",
+              "modelAnswer": "وعائي ٻوٽن ۾ زائلم ۽ فلوئم هوندا آهن، جيڪي آمدرفت ڪن ٿا، ۽ حقيقي پاڙ، ٿڙ ۽ پن هوندا آهن. فرن ۾ غالب نسل اسپوروفائيٽ آهي، جيڪو سورائي ۾ اسپور ٺاهي ٿو؛ اسپور مان پروٿالس ٺهي ٿو.\n\nجمناسپرم اهڙا ٻج ٺاهين ٿا، جيڪي بيضه داني ۾ بند ناهن، عام طور ڪونز تي هوندا آهن. Pinus ۾ نر ۽ مادي ڪونز هوندا آهن. پولن نر گيميٽو فائيٽ کڻي وڃي ٿو ۽ بارآوري کي آزاد پاڻيءَ کان گهٽ وابسته ڪري ٿو.\n\nاينجيوسپرم گلدار ٻوٽا آهن؛ اوول بيضه داني ۾ بند هوندا آهن ۽ ٻج ڦر اندر ٺهن ٿا. پولن اسٽيگما تائين پهچي ٿو ۽ پولن ٽيوب نر مرڪز کڻي وڃي ٿي. ٻٽي بارآوري سان زائگوٽ ۽ اينڊوسپرم ٺهن ٿا.\n\nنصاب ۾ Brassicaceae، Solanaceae ۽ Poaceae اهم خاندان آهن. Brassicaceae ۾ سرنهن ۽ گوبي، Solanaceae ۾ ٽماٽو، آلو ۽ مرچ، جڏهن ته Poaceae ۾ ڪڻڪ، چانور ۽ مڪئي شامل آهن. اهي خوراڪ، فائبر، دوائون ۽ ڪاٺ ڏين ٿا.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "اهميت ۽ حدن جو جائزو (3 مارڪون)",
+                "مثالون يا عملي استعمال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

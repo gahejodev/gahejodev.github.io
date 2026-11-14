@@ -1,0 +1,719 @@
+{
+  "id": "biology-xi-chapter-4-bioenergetics",
+  "title": "Biology XI — Chapter 4: Bioenergetics",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XI Chapter 4 — Bioenergetics (13 periods). Five structured lessons, 15 bilingual MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 4: Bioenergetics",
+      "description": "DCAR Sindh 2024, Grade XI, Chapter 4; 13 periods.",
+      "lessons": [
+        {
+          "title": "4.1 Energy in Living Systems",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Energy in Living Systems.\n\nBioenergetics studies energy transformations in organisms. Metabolism includes catabolism, which releases usable energy, and anabolism, which builds molecules and requires energy. ATP couples energy-releasing reactions to energy-requiring cellular work. Hydrolysis of ATP to ADP and inorganic phosphate releases usable free energy; ATP is continually regenerated from ADP using energy from respiration or photosynthesis.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "بایوانرجیٹکس جانداروں میں توانائی کی تبدیلیوں کا مطالعہ ہے۔ میٹابولزم میں کیٹابولزم توانائی خارج کرتا ہے جبکہ اینابولزم سالمات بناتا اور توانائی استعمال کرتا ہے۔ ATP توانائی دینے والے عمل کو توانائی طلب عمل سے جوڑتا ہے۔",
+            "sd": "بايو انرجيٽڪس جاندارن ۾ توانائيءَ جي تبديلين جو مطالعو آهي. ميٽابولزم ۾ ڪيٽابولزم توانائي خارج ڪري ٿو ۽ اينابولزم ماليڪيول ٺاهي توانائي استعمال ڪري ٿو. ATP توانائي ڏيندڙ عمل کي توانائي گهرندڙ عمل سان ڳنڍي ٿو."
+          }
+        },
+        {
+          "title": "4.2 Photosynthetic Pigments and Light Reactions",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Photosynthetic Pigments and Light Reactions.\n\nPhotosynthesis converts light energy into chemical energy. Chlorophyll a is the primary reaction-centre pigment; chlorophyll b and carotenoids are accessory pigments that broaden light absorption and protect against photooxidative damage. Photosystems I and II are pigment-protein complexes in thylakoid membranes. In non-cyclic electron flow, water is split at PSII, oxygen is released, electrons pass through an electron transport chain, and PSI helps reduce NADP+ to NADPH. Proton gradients drive ATP synthase. Cyclic flow around PSI makes ATP without producing oxygen or NADPH.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "ضیائی تالیف روشنی کی توانائی کو کیمیائی توانائی میں بدلتی ہے۔ کلوروفل a بنیادی ردعملی رنگ دار مادہ ہے جبکہ کلوروفل b اور کیروٹینائڈز روشنی جذب کرنے کا دائرہ بڑھاتے اور حفاظت کرتے ہیں۔ غیر دوری الیکٹران بہاؤ میں پانی ٹوٹتا ہے، آکسیجن خارج ہوتی ہے، NADPH اور ATP بنتے ہیں۔",
+            "sd": "ضيائي ترڪيب روشنيءَ جي توانائي کي ڪيميائي توانائيءَ ۾ بدلائي ٿي. ڪلوروفل a بنيادي رنگدار مادو آهي، جڏهن ته ڪلوروفل b ۽ ڪيروٽينائڊ روشني جذب ڪرڻ جو دائرو وڌائين ٿا. غير دوري اليڪٽران وهڪري ۾ پاڻي ٽٽي ٿو، آڪسيجن خارج ٿئي ٿي ۽ NADPH ۽ ATP ٺهن ٿا."
+          }
+        },
+        {
+          "title": "4.3 Calvin Cycle and Carbon Fixation",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Calvin Cycle and Carbon Fixation.\n\nThe Calvin cycle occurs in the chloroplast stroma. Rubisco fixes carbon dioxide to ribulose-1,5-bisphosphate (RuBP), forming an unstable six-carbon intermediate that splits into 3-phosphoglycerate (3-PGA). ATP and NADPH from the light reactions reduce 3-PGA to glyceraldehyde-3-phosphate (G3P). Some G3P leaves the cycle for carbohydrate synthesis; the remainder regenerates RuBP. The cycle depends indirectly on light because it uses ATP and NADPH produced by light reactions.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "کیلون سائیکل کلوروپلاسٹ کے اسٹروما میں ہوتا ہے۔ Rubisco کاربن ڈائی آکسائیڈ کو RuBP سے جوڑتا ہے اور 3-PGA بنتا ہے۔ روشنی کے عمل سے حاصل ATP اور NADPH اسے G3P میں تبدیل کرتے ہیں۔ کچھ G3P شکر بنانے میں استعمال ہوتا ہے اور باقی RuBP دوبارہ بناتا ہے۔",
+            "sd": "ڪيلون چڪر ڪلوروپلاسٽ جي اسٽروما ۾ ٿئي ٿو. Rubisco ڪاربان ڊاءِ آڪسائيڊ کي RuBP سان ڳنڍي 3-PGA ٺاهي ٿو. روشنيءَ واري عمل مان ATP ۽ NADPH ان کي G3P ۾ بدلائين ٿا. ڪجهه G3P کنڊ ٺاهڻ لاءِ نڪري ٿو ۽ باقي RuBP ٻيهر ٺاهي ٿو."
+          }
+        },
+        {
+          "title": "4.4 Cellular Respiration and ATP Production",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Cellular Respiration and ATP Production.\n\nCellular respiration transfers energy from organic molecules to ATP. Glycolysis in the cytosol converts glucose to pyruvate, producing a net two ATP and NADH. In aerobic respiration, pyruvate is converted to acetyl-CoA, which enters the Krebs cycle in the mitochondrial matrix. Reduced coenzymes deliver electrons to the inner-membrane electron transport chain. Proton pumping creates an electrochemical gradient; ATP synthase uses it for oxidative phosphorylation. Without oxygen, fermentation regenerates NAD+ so glycolysis can continue; animals form lactate, while yeast can form ethanol and carbon dioxide.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "خلوی تنفس میں نامیاتی مادوں کی توانائی ATP میں منتقل ہوتی ہے۔ گلائیکولائسز سائٹوپلازم میں گلوکوز کو پائروویٹ میں بدل کر خالص دو ATP بناتی ہے۔ آکسیجن کی موجودگی میں پائروویٹ acetyl-CoA بنتا اور Krebs cycle میں داخل ہوتا ہے۔ الیکٹران ٹرانسپورٹ چین پروٹون گریڈینٹ بناتی ہے جس سے ATP synthase ATP بناتا ہے۔",
+            "sd": "خلوي تنفس ۾ نامياتي مادن جي توانائي ATP ۾ منتقل ٿئي ٿي. گلائڪولائسز سائٽوپلازم ۾ گلوڪوز کي پائروويٽ ۾ بدلائي خالص ٻه ATP ٺاهي ٿي. آڪسيجن سان پائروويٽ acetyl-CoA بڻجي Krebs چڪر ۾ داخل ٿئي ٿو. اليڪٽران ٽرانسپورٽ چين پروٽون گريڊينٽ ٺاهي ٿي، جنهن سان ATP synthase ATP ٺاهي ٿو."
+          }
+        },
+        {
+          "title": "4.5 Photorespiration, C4 and CAM Adaptations",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Photorespiration, C4 and CAM Adaptations.\n\nRubisco can bind oxygen as well as carbon dioxide. When oxygenation of RuBP occurs, photorespiration uses energy and releases previously fixed carbon dioxide, reducing photosynthetic efficiency. High temperature and low internal CO2 favour this pathway. C4 plants first fix CO2 into four-carbon compounds in mesophyll cells and deliver CO2 to bundle-sheath cells, concentrating it near Rubisco. CAM plants open stomata mainly at night, store CO2 as organic acids, and release it during the day. These adaptations reduce water loss and photorespiration in hot or dry environments.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "Rubisco آکسیجن سے بھی جڑ سکتا ہے؛ اس عمل سے فوٹو ریسپائریشن ہوتی ہے جو توانائی خرچ اور پہلے سے بندھا کاربن خارج کرتی ہے۔ C4 پودے CO2 کو چار کاربن مرکبات میں محفوظ کرکے Rubisco کے قریب پہنچاتے ہیں۔ CAM پودے رات کو روزن کھول کر CO2 محفوظ کرتے اور دن میں استعمال کرتے ہیں۔",
+            "sd": "Rubisco آڪسيجن سان به ڳنڍجي سگهي ٿو؛ ان سان فوٽو ريسپائريشن ٿئي ٿي، جيڪا توانائي خرچ ڪري اڳ ۾ ٻڌل ڪاربان خارج ڪري ٿي. C4 ٻوٽا CO2 کي چار ڪاربان وارن مرڪبن ۾ گڏ ڪري Rubisco تائين پهچائين ٿا. CAM ٻوٽا رات جو روزن کولين ٿا، CO2 ذخيرو ڪن ٿا ۽ ڏينهن ۾ استعمال ڪن ٿا."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "ATP is best described as the cell's:",
+          "options": {
+            "A": "Energy currency",
+            "B": "Genetic code",
+            "C": "Main membrane lipid",
+            "D": "Digestive enzyme"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "ATP transfers usable energy between cellular reactions.",
+              "options": {
+                "A": "توانائی کی کرنسی",
+                "B": "جینیاتی کوڈ",
+                "C": "جھلی کا اہم لپڈ",
+                "D": "ہاضم انزائم"
+              },
+              "explanation": "درست جواب: توانائی کی کرنسی۔ A"
+            },
+            "sd": {
+              "question": "ATP کو خلیے کی کس چیز کے طور پر بیان کیا جاتا ہے؟",
+              "options": {
+                "A": "توانائيءَ جي ڪرنسي",
+                "B": "Genetic code",
+                "C": "Main membrane lipid",
+                "D": "Digestive enzyme"
+              },
+              "explanation": "صحيح جواب: توانائيءَ جي ڪرنسي۔ A"
+            }
+          }
+        },
+        {
+          "question": "Which process builds complex molecules from simpler ones?",
+          "options": {
+            "A": "Catabolism",
+            "B": "Fermentation",
+            "C": "Diffusion",
+            "D": "Anabolism"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Anabolism requires energy to synthesise larger molecules.",
+              "options": {
+                "A": "کیٹابولزم",
+                "B": "فرمنٹیشن",
+                "C": "انتشار",
+                "D": "اینابولزم"
+              },
+              "explanation": "درست جواب: اینابولزم۔ A"
+            },
+            "sd": {
+              "question": "سادہ مادوں سے پیچیدہ سالمات بنانے کا عمل؟",
+              "options": {
+                "A": "ڪيٽابولزم",
+                "B": "Fermentation",
+                "C": "Diffusion",
+                "D": "اينابولزم"
+              },
+              "explanation": "صحيح جواب: اينابولزم۔ A"
+            }
+          }
+        },
+        {
+          "question": "The primary reaction-centre pigment is:",
+          "options": {
+            "A": "Carotene",
+            "B": "Xanthophyll",
+            "C": "Chlorophyll a",
+            "D": "Chlorophyll b"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Chlorophyll a is the main reaction-centre pigment.",
+              "options": {
+                "A": "کیروٹین",
+                "B": "زینتھوفل",
+                "C": "کلوروفل a",
+                "D": "کلوروفل b"
+              },
+              "explanation": "درست جواب: کلوروفل a۔ A"
+            },
+            "sd": {
+              "question": "بنیادی ردعملی رنگ دار مادہ کون سا ہے؟",
+              "options": {
+                "A": "Carotene",
+                "B": "Xanthophyll",
+                "C": "ڪلوروفل a",
+                "D": "ڪلوروفل b"
+              },
+              "explanation": "صحيح جواب: ڪلوروفل a۔ A"
+            }
+          }
+        },
+        {
+          "question": "Water is split during non-cyclic electron flow at:",
+          "options": {
+            "A": "Mitochondrion",
+            "B": "Photosystem II",
+            "C": "Photosystem I",
+            "D": "Calvin cycle"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "The oxygen-evolving complex of PSII splits water.",
+              "options": {
+                "A": "مائٹوکانڈریا",
+                "B": "فوٹو سسٹم II",
+                "C": "فوٹو سسٹم I",
+                "D": "کیلون سائیکل"
+              },
+              "explanation": "درست جواب: فوٹو سسٹم II۔ A"
+            },
+            "sd": {
+              "question": "غیر دوری الیکٹران بہاؤ میں پانی کہاں ٹوٹتا ہے؟",
+              "options": {
+                "A": "Mitochondrion",
+                "B": "فوٽو سسٽم II",
+                "C": "فوٽو سسٽم I",
+                "D": "Calvin cycle"
+              },
+              "explanation": "صحيح جواب: فوٽو سسٽم II۔ A"
+            }
+          }
+        },
+        {
+          "question": "Cyclic photophosphorylation mainly produces:",
+          "options": {
+            "A": "ATP only",
+            "B": "Oxygen only",
+            "C": "NADPH only",
+            "D": "Glucose directly"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Cyclic flow around PSI generates ATP without NADPH or oxygen.",
+              "options": {
+                "A": "صرف ATP",
+                "B": "صرف آکسیجن",
+                "C": "صرف NADPH",
+                "D": "براہ راست گلوکوز"
+              },
+              "explanation": "درست جواب: صرف ATP۔ A"
+            },
+            "sd": {
+              "question": "دوری فوٹو فاسفوریلیشن بنیادی طور کیا بناتی ہے؟",
+              "options": {
+                "A": "ATP only",
+                "B": "Oxygen only",
+                "C": "NADPH only",
+                "D": "Glucose directly"
+              },
+              "explanation": "صحيح جواب: ATP only۔ A"
+            }
+          }
+        },
+        {
+          "question": "The Calvin cycle occurs in the:",
+          "options": {
+            "A": "Thylakoid lumen",
+            "B": "Cytosol",
+            "C": "Mitochondrial matrix",
+            "D": "Stroma"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Carbon fixation reactions occur in the chloroplast stroma.",
+              "options": {
+                "A": "تھائیلاکوئڈ لومن",
+                "B": "سائٹوپلازم",
+                "C": "مائٹوکانڈریا میٹرکس",
+                "D": "اسٹروما"
+              },
+              "explanation": "درست جواب: اسٹروما۔ A"
+            },
+            "sd": {
+              "question": "کیلون سائیکل کہاں ہوتا ہے؟",
+              "options": {
+                "A": "Thylakoid lumen",
+                "B": "Cytosol",
+                "C": "Mitochondrial matrix",
+                "D": "اسٽروما"
+              },
+              "explanation": "صحيح جواب: اسٽروما۔ A"
+            }
+          }
+        },
+        {
+          "question": "The enzyme that fixes CO2 to RuBP is:",
+          "options": {
+            "A": "Catalase",
+            "B": "Amylase",
+            "C": "Rubisco",
+            "D": "ATP synthase"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Rubisco catalyses the initial carbon-fixation step.",
+              "options": {
+                "A": "کیٹالیز",
+                "B": "ایمائلیز",
+                "C": "روبیسکو",
+                "D": "ATP سنتھیز"
+              },
+              "explanation": "درست جواب: روبیسکو۔ A"
+            },
+            "sd": {
+              "question": "RuBP کے ساتھ CO2 کون سا انزائم جوڑتا ہے؟",
+              "options": {
+                "A": "Catalase",
+                "B": "Amylase",
+                "C": "روبِسڪو",
+                "D": "ATP سنٿيس"
+              },
+              "explanation": "صحيح جواب: روبِسڪو۔ A"
+            }
+          }
+        },
+        {
+          "question": "The direct three-carbon product formed after RuBP fixation is:",
+          "options": {
+            "A": "Lactate",
+            "B": "3-PGA",
+            "C": "Glucose",
+            "D": "Acetyl-CoA"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "The unstable six-carbon product splits into two 3-PGA molecules.",
+              "options": {
+                "A": "لیکٹیٹ",
+                "B": "3-PGA",
+                "C": "گلوکوز",
+                "D": "ایسیٹائل کو اے"
+              },
+              "explanation": "درست جواب: 3-PGA۔ A"
+            },
+            "sd": {
+              "question": "RuBP کے بعد بننے والا تین کاربن مرکب؟",
+              "options": {
+                "A": "Lactate",
+                "B": "3-PGA",
+                "C": "Glucose",
+                "D": "Acetyl-CoA"
+              },
+              "explanation": "صحيح جواب: 3-PGA۔ A"
+            }
+          }
+        },
+        {
+          "question": "Glycolysis takes place in the:",
+          "options": {
+            "A": "Cytosol",
+            "B": "Mitochondrial matrix",
+            "C": "Nucleus",
+            "D": "Golgi apparatus"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Glycolysis occurs in the cytosol.",
+              "options": {
+                "A": "سائٹوپلازم",
+                "B": "مائٹوکانڈریا میٹرکس",
+                "C": "مرکزہ",
+                "D": "گولجی اپریٹس"
+              },
+              "explanation": "درست جواب: سائٹوپلازم۔ A"
+            },
+            "sd": {
+              "question": "گلائیکولائسز کہاں ہوتی ہے؟",
+              "options": {
+                "A": "Cytosol",
+                "B": "Mitochondrial matrix",
+                "C": "Nucleus",
+                "D": "Golgi apparatus"
+              },
+              "explanation": "صحيح جواب: Cytosol۔ A"
+            }
+          }
+        },
+        {
+          "question": "The net ATP yield of glycolysis per glucose is:",
+          "options": {
+            "A": "Four ATP",
+            "B": "Thirty ATP",
+            "C": "Zero ATP",
+            "D": "Two ATP"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Four ATP are formed but two are invested, giving a net two.",
+              "options": {
+                "A": "چار ATP",
+                "B": "تیس ATP",
+                "C": "صفر ATP",
+                "D": "دو ATP"
+              },
+              "explanation": "درست جواب: دو ATP۔ A"
+            },
+            "sd": {
+              "question": "ایک گلوکوز سے گلائیکولائسز کا خالص ATP؟",
+              "options": {
+                "A": "Four ATP",
+                "B": "Thirty ATP",
+                "C": "Zero ATP",
+                "D": "Two ATP"
+              },
+              "explanation": "صحيح جواب: Two ATP۔ A"
+            }
+          }
+        },
+        {
+          "question": "Pyruvate is converted to acetyl-CoA before entering the:",
+          "options": {
+            "A": "Lytic cycle",
+            "B": "Urea cycle",
+            "C": "Krebs cycle",
+            "D": "Calvin cycle"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Acetyl-CoA enters the Krebs cycle in the mitochondrial matrix.",
+              "options": {
+                "A": "لائٹک سائیکل",
+                "B": "یوریا سائیکل",
+                "C": "کریبس سائیکل",
+                "D": "کیلون سائیکل"
+              },
+              "explanation": "درست جواب: کریبس سائیکل۔ A"
+            },
+            "sd": {
+              "question": "پائروویٹ کس سائیکل سے پہلے acetyl-CoA بنتا ہے؟",
+              "options": {
+                "A": "Lytic cycle",
+                "B": "Urea cycle",
+                "C": "ڪريبس چڪر",
+                "D": "Calvin cycle"
+              },
+              "explanation": "صحيح جواب: ڪريبس چڪر۔ A"
+            }
+          }
+        },
+        {
+          "question": "The final electron acceptor in aerobic respiration is:",
+          "options": {
+            "A": "NADH",
+            "B": "Oxygen",
+            "C": "Carbon dioxide",
+            "D": "Glucose"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Oxygen accepts electrons and protons to form water.",
+              "options": {
+                "A": "NADH",
+                "B": "آکسیجن",
+                "C": "کاربن ڈائی آکسائیڈ",
+                "D": "گلوکوز"
+              },
+              "explanation": "درست جواب: آکسیجن۔ A"
+            },
+            "sd": {
+              "question": "ایروبک تنفس میں آخری الیکٹران قبول کنندہ؟",
+              "options": {
+                "A": "NADH",
+                "B": "آڪسيجن",
+                "C": "ڪاربان ڊاءِ آڪسائيڊ",
+                "D": "Glucose"
+              },
+              "explanation": "صحيح جواب: آڪسيجن۔ A"
+            }
+          }
+        },
+        {
+          "question": "ATP synthase is driven by:",
+          "options": {
+            "A": "Proton gradient",
+            "B": "DNA replication",
+            "C": "Light-independent diffusion",
+            "D": "Glucose polymerisation"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Protons flow down an electrochemical gradient through ATP synthase.",
+              "options": {
+                "A": "پروٹون گریڈینٹ",
+                "B": "DNA کی نقل",
+                "C": "غیر نوری انتشار",
+                "D": "گلوکوز پولیمرائزیشن"
+              },
+              "explanation": "درست جواب: پروٹون گریڈینٹ۔ A"
+            },
+            "sd": {
+              "question": "ATP synthase کس سے چلتا ہے؟",
+              "options": {
+                "A": "پروٽون گريڊينٽ",
+                "B": "DNA replication",
+                "C": "Light-independent diffusion",
+                "D": "Glucose polymerisation"
+              },
+              "explanation": "صحيح جواب: پروٽون گريڊينٽ۔ A"
+            }
+          }
+        },
+        {
+          "question": "Photorespiration increases when:",
+          "options": {
+            "A": "CO2 is high and temperature is low",
+            "B": "Stomata are fully open at night",
+            "C": "Oxygen is absent",
+            "D": "Temperature is high and CO2 is low"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "High temperature and low internal CO2 favour Rubisco oxygenation.",
+              "options": {
+                "A": "CO2 is high and temperature is low",
+                "B": "Stomata are fully open at night",
+                "C": "Oxygen is absent",
+                "D": "Temperature is high and CO2 is low"
+              },
+              "explanation": "درست جواب: Temperature is high and CO2 is low۔ A"
+            },
+            "sd": {
+              "question": "فوٹو ریسپائریشن کب بڑھتی ہے؟",
+              "options": {
+                "A": "CO2 is high and temperature is low",
+                "B": "Stomata are fully open at night",
+                "C": "Oxygen is absent",
+                "D": "Temperature is high and CO2 is low"
+              },
+              "explanation": "صحيح جواب: Temperature is high and CO2 is low۔ A"
+            }
+          }
+        },
+        {
+          "question": "CAM plants usually open stomata:",
+          "options": {
+            "A": "Only in winter",
+            "B": "Never",
+            "C": "At night",
+            "D": "Only at noon"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Night opening reduces water loss in arid conditions.",
+              "options": {
+                "A": "صرف سردیوں میں",
+                "B": "کبھی نہیں",
+                "C": "رات کے وقت",
+                "D": "صرف دوپہر میں"
+              },
+              "explanation": "درست جواب: رات کے وقت۔ A"
+            },
+            "sd": {
+              "question": "CAM پودے عموماً روزن کب کھولتے ہیں؟",
+              "options": {
+                "A": "Only in winter",
+                "B": "Never",
+                "C": "At night",
+                "D": "Only at noon"
+              },
+              "explanation": "صحيح جواب: At night۔ A"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define the central concept of Bioenergetics and explain two important features.",
+          "modelAnswer": "Bioenergetics studies energy transformations in organisms. Metabolism includes catabolism, which releases usable energy, and anabolism, which builds molecules and requires energy. ATP couples energy-releasing reactions to energy-requiring cellular work.",
+          "rubric": [
+            "Correct definition and core concept (2 marks)",
+            "Two accurate features or examples (2 marks)",
+            "Clear scientific terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Bioenergetics کے بنیادی تصور کی تعریف کریں اور دو اہم خصوصیات بیان کریں۔",
+              "modelAnswer": "بایوانرجیٹکس جانداروں میں توانائی کی تبدیلیوں کا مطالعہ ہے۔ میٹابولزم میں کیٹابولزم توانائی خارج کرتا ہے جبکہ اینابولزم سالمات بناتا اور توانائی استعمال کرتا ہے۔ ATP توانائی دینے والے عمل کو توانائی طلب عمل سے جوڑتا ہے۔",
+              "rubric": [
+                "درست تعریف اور بنیادی تصور (2 نمبر)",
+                "دو درست خصوصیات یا مثالیں (2 نمبر)",
+                "درست سائنسی اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Bioenergetics جي بنيادي تصور جي وصف ڏيو ۽ ٻه اهم خاصيتون بيان ڪريو.",
+              "modelAnswer": "بايو انرجيٽڪس جاندارن ۾ توانائيءَ جي تبديلين جو مطالعو آهي. ميٽابولزم ۾ ڪيٽابولزم توانائي خارج ڪري ٿو ۽ اينابولزم ماليڪيول ٺاهي توانائي استعمال ڪري ٿو. ATP توانائي ڏيندڙ عمل کي توانائي گهرندڙ عمل سان ڳنڍي ٿو.",
+              "rubric": [
+                "صحيح وصف ۽ بنيادي تصور (2 مارڪون)",
+                "ٻه صحيح خاصيتون يا مثالون (2 مارڪون)",
+                "صحيح سائنسي اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare two major groups or processes discussed in Bioenergetics.",
+          "modelAnswer": "A strong comparison identifies the defining structure or process of each group, explains at least two differences, and includes a relevant example. Photosynthesis converts light energy into chemical energy. Chlorophyll a is the primary reaction-centre pigment; chlorophyll b and carotenoids are accessory pigments that broaden light absorption and protect against photooxidative damage.",
+          "rubric": [
+            "Accurate description of both groups/processes (2 marks)",
+            "Two valid comparisons (2 marks)",
+            "Relevant example and clarity (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Bioenergetics میں بیان کردہ دو اہم گروہوں یا عمل کا موازنہ کریں۔",
+              "modelAnswer": "اچھے موازنے میں دونوں گروہوں یا عمل کی بنیادی ساخت/طریقہ بیان کیا جاتا ہے، کم از کم دو فرق لکھے جاتے ہیں اور مثال دی جاتی ہے۔ ضیائی تالیف روشنی کی توانائی کو کیمیائی توانائی میں بدلتی ہے۔ کلوروفل a بنیادی ردعملی رنگ دار مادہ ہے جبکہ کلوروفل b اور کیروٹینائڈز روشنی جذب کرنے کا دائرہ بڑھاتے اور حفاظت کرتے ہیں۔ غیر دوری الیکٹران بہاؤ میں پانی ٹوٹتا ہے، آکسیجن خارج ہوتی ہے، NADPH اور ATP بنتے ہیں۔",
+              "rubric": [
+                "دونوں گروہوں/عمل کی درست وضاحت (2 نمبر)",
+                "دو درست موازنے (2 نمبر)",
+                "متعلقہ مثال اور وضاحت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Bioenergetics ۾ بيان ڪيل ٻن اهم گروهن يا عملن جو مقابلو ڪريو.",
+              "modelAnswer": "سٺي مقابلي ۾ ٻنهي گروهن يا عمل جي بنيادي بناوت/طريقي جي وضاحت، گهٽ ۾ گهٽ ٻه فرق ۽ هڪ مثال شامل هجي. ضيائي ترڪيب روشنيءَ جي توانائي کي ڪيميائي توانائيءَ ۾ بدلائي ٿي. ڪلوروفل a بنيادي رنگدار مادو آهي، جڏهن ته ڪلوروفل b ۽ ڪيروٽينائڊ روشني جذب ڪرڻ جو دائرو وڌائين ٿا. غير دوري اليڪٽران وهڪري ۾ پاڻي ٽٽي ٿو، آڪسيجن خارج ٿئي ٿي ۽ NADPH ۽ ATP ٺهن ٿا.",
+              "rubric": [
+                "ٻنهي گروهن/عملن جي صحيح وضاحت (2 مارڪون)",
+                "ٻه صحيح مقابلا (2 مارڪون)",
+                "لاڳاپيل مثال ۽ وضاحت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain one biological mechanism from Bioenergetics in a logical sequence.",
+          "modelAnswer": "The Calvin cycle occurs in the chloroplast stroma. Rubisco fixes carbon dioxide to ribulose-1,5-bisphosphate (RuBP), forming an unstable six-carbon intermediate that splits into 3-phosphoglycerate (3-PGA). ATP and NADPH from the light reactions reduce 3-PGA to glyceraldehyde-3-phosphate (G3P). Some G3P leaves the cycle for carbohydrate synthesis; the remainder regenerates RuBP. The cycle depends indirectly on light because it uses ATP and NADPH produced by light reactions.",
+          "rubric": [
+            "Correct sequence of steps (2 marks)",
+            "Scientific explanation of mechanism (2 marks)",
+            "Correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Bioenergetics کے ایک حیاتیاتی طریقۂ کار کو منطقی ترتیب سے بیان کریں۔",
+              "modelAnswer": "کیلون سائیکل کلوروپلاسٹ کے اسٹروما میں ہوتا ہے۔ Rubisco کاربن ڈائی آکسائیڈ کو RuBP سے جوڑتا ہے اور 3-PGA بنتا ہے۔ روشنی کے عمل سے حاصل ATP اور NADPH اسے G3P میں تبدیل کرتے ہیں۔ کچھ G3P شکر بنانے میں استعمال ہوتا ہے اور باقی RuBP دوبارہ بناتا ہے۔",
+              "rubric": [
+                "مراحل کی درست ترتیب (2 نمبر)",
+                "طریقۂ کار کی سائنسی وضاحت (2 نمبر)",
+                "درست اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Bioenergetics جي هڪ حياتياتي طريقي کي منطقي ترتيب سان بيان ڪريو.",
+              "modelAnswer": "ڪيلون چڪر ڪلوروپلاسٽ جي اسٽروما ۾ ٿئي ٿو. Rubisco ڪاربان ڊاءِ آڪسائيڊ کي RuBP سان ڳنڍي 3-PGA ٺاهي ٿو. روشنيءَ واري عمل مان ATP ۽ NADPH ان کي G3P ۾ بدلائين ٿا. ڪجهه G3P کنڊ ٺاهڻ لاءِ نڪري ٿو ۽ باقي RuBP ٻيهر ٺاهي ٿو.",
+              "rubric": [
+                "مرحلن جي صحيح ترتيب (2 مارڪون)",
+                "طريقي جي سائنسي وضاحت (2 مارڪون)",
+                "صحيح اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the structure, function and significance of the major systems or groups covered in Bioenergetics, using examples.",
+          "modelAnswer": "Bioenergetics studies energy transformations in organisms. Metabolism includes catabolism, which releases usable energy, and anabolism, which builds molecules and requires energy. ATP couples energy-releasing reactions to energy-requiring cellular work. Hydrolysis of ATP to ADP and inorganic phosphate releases usable free energy; ATP is continually regenerated from ADP using energy from respiration or photosynthesis.\n\nPhotosynthesis converts light energy into chemical energy. Chlorophyll a is the primary reaction-centre pigment; chlorophyll b and carotenoids are accessory pigments that broaden light absorption and protect against photooxidative damage. Photosystems I and II are pigment-protein complexes in thylakoid membranes. In non-cyclic electron flow, water is split at PSII, oxygen is released, electrons pass through an electron transport chain, and PSI helps reduce NADP+ to NADPH. Proton gradients drive ATP synthase. Cyclic flow around PSI makes ATP without producing oxygen or NADPH.\n\nThe Calvin cycle occurs in the chloroplast stroma. Rubisco fixes carbon dioxide to ribulose-1,5-bisphosphate (RuBP), forming an unstable six-carbon intermediate that splits into 3-phosphoglycerate (3-PGA). ATP and NADPH from the light reactions reduce 3-PGA to glyceraldehyde-3-phosphate (G3P). Some G3P leaves the cycle for carbohydrate synthesis; the remainder regenerates RuBP. The cycle depends indirectly on light because it uses ATP and NADPH produced by light reactions.\n\nCellular respiration transfers energy from organic molecules to ATP. Glycolysis in the cytosol converts glucose to pyruvate, producing a net two ATP and NADH. In aerobic respiration, pyruvate is converted to acetyl-CoA, which enters the Krebs cycle in the mitochondrial matrix. Reduced coenzymes deliver electrons to the inner-membrane electron transport chain. Proton pumping creates an electrochemical gradient; ATP synthase uses it for oxidative phosphorylation. Without oxygen, fermentation regenerates NAD+ so glycolysis can continue; animals form lactate, while yeast can form ethanol and carbon dioxide.",
+          "rubric": [
+            "Accurate coverage of core concepts (4 marks)",
+            "Explanation of structure-function relationships (3 marks)",
+            "Relevant examples and applications (2 marks)",
+            "Organisation and terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Bioenergetics میں شامل اہم نظاموں یا گروہوں کی ساخت، افعال اور اہمیت مثالوں کے ساتھ بیان کریں۔",
+              "modelAnswer": "بایوانرجیٹکس جانداروں میں توانائی کی تبدیلیوں کا مطالعہ ہے۔ میٹابولزم میں کیٹابولزم توانائی خارج کرتا ہے جبکہ اینابولزم سالمات بناتا اور توانائی استعمال کرتا ہے۔ ATP توانائی دینے والے عمل کو توانائی طلب عمل سے جوڑتا ہے۔\n\nضیائی تالیف روشنی کی توانائی کو کیمیائی توانائی میں بدلتی ہے۔ کلوروفل a بنیادی ردعملی رنگ دار مادہ ہے جبکہ کلوروفل b اور کیروٹینائڈز روشنی جذب کرنے کا دائرہ بڑھاتے اور حفاظت کرتے ہیں۔ غیر دوری الیکٹران بہاؤ میں پانی ٹوٹتا ہے، آکسیجن خارج ہوتی ہے، NADPH اور ATP بنتے ہیں۔\n\nکیلون سائیکل کلوروپلاسٹ کے اسٹروما میں ہوتا ہے۔ Rubisco کاربن ڈائی آکسائیڈ کو RuBP سے جوڑتا ہے اور 3-PGA بنتا ہے۔ روشنی کے عمل سے حاصل ATP اور NADPH اسے G3P میں تبدیل کرتے ہیں۔ کچھ G3P شکر بنانے میں استعمال ہوتا ہے اور باقی RuBP دوبارہ بناتا ہے۔\n\nخلوی تنفس میں نامیاتی مادوں کی توانائی ATP میں منتقل ہوتی ہے۔ گلائیکولائسز سائٹوپلازم میں گلوکوز کو پائروویٹ میں بدل کر خالص دو ATP بناتی ہے۔ آکسیجن کی موجودگی میں پائروویٹ acetyl-CoA بنتا اور Krebs cycle میں داخل ہوتا ہے۔ الیکٹران ٹرانسپورٹ چین پروٹون گریڈینٹ بناتی ہے جس سے ATP synthase ATP بناتا ہے۔",
+              "rubric": [
+                "بنیادی تصورات کی درست وضاحت (4 نمبر)",
+                "ساخت اور فعل کا تعلق (3 نمبر)",
+                "متعلقہ مثالیں اور اطلاقات (2 نمبر)",
+                "ترتیب اور اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Bioenergetics ۾ شامل اهم نظامن يا گروهن جي بناوت، ڪم ۽ اهميت مثالن سان بيان ڪريو.",
+              "modelAnswer": "بايو انرجيٽڪس جاندارن ۾ توانائيءَ جي تبديلين جو مطالعو آهي. ميٽابولزم ۾ ڪيٽابولزم توانائي خارج ڪري ٿو ۽ اينابولزم ماليڪيول ٺاهي توانائي استعمال ڪري ٿو. ATP توانائي ڏيندڙ عمل کي توانائي گهرندڙ عمل سان ڳنڍي ٿو.\n\nضيائي ترڪيب روشنيءَ جي توانائي کي ڪيميائي توانائيءَ ۾ بدلائي ٿي. ڪلوروفل a بنيادي رنگدار مادو آهي، جڏهن ته ڪلوروفل b ۽ ڪيروٽينائڊ روشني جذب ڪرڻ جو دائرو وڌائين ٿا. غير دوري اليڪٽران وهڪري ۾ پاڻي ٽٽي ٿو، آڪسيجن خارج ٿئي ٿي ۽ NADPH ۽ ATP ٺهن ٿا.\n\nڪيلون چڪر ڪلوروپلاسٽ جي اسٽروما ۾ ٿئي ٿو. Rubisco ڪاربان ڊاءِ آڪسائيڊ کي RuBP سان ڳنڍي 3-PGA ٺاهي ٿو. روشنيءَ واري عمل مان ATP ۽ NADPH ان کي G3P ۾ بدلائين ٿا. ڪجهه G3P کنڊ ٺاهڻ لاءِ نڪري ٿو ۽ باقي RuBP ٻيهر ٺاهي ٿو.\n\nخلوي تنفس ۾ نامياتي مادن جي توانائي ATP ۾ منتقل ٿئي ٿي. گلائڪولائسز سائٽوپلازم ۾ گلوڪوز کي پائروويٽ ۾ بدلائي خالص ٻه ATP ٺاهي ٿي. آڪسيجن سان پائروويٽ acetyl-CoA بڻجي Krebs چڪر ۾ داخل ٿئي ٿو. اليڪٽران ٽرانسپورٽ چين پروٽون گريڊينٽ ٺاهي ٿي، جنهن سان ATP synthase ATP ٺاهي ٿو.",
+              "rubric": [
+                "بنيادي تصورن جي صحيح وضاحت (4 مارڪون)",
+                "بناوت ۽ ڪم جو لاڳاپو (3 مارڪون)",
+                "لاڳاپيل مثال ۽ استعمال (2 مارڪون)",
+                "ترتيب ۽ اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Evaluate the biological importance, applications and limitations of the concepts in Bioenergetics.",
+          "modelAnswer": "Photosynthesis converts light energy into chemical energy. Chlorophyll a is the primary reaction-centre pigment; chlorophyll b and carotenoids are accessory pigments that broaden light absorption and protect against photooxidative damage. Photosystems I and II are pigment-protein complexes in thylakoid membranes. In non-cyclic electron flow, water is split at PSII, oxygen is released, electrons pass through an electron transport chain, and PSI helps reduce NADP+ to NADPH. Proton gradients drive ATP synthase. Cyclic flow around PSI makes ATP without producing oxygen or NADPH.\n\nThe Calvin cycle occurs in the chloroplast stroma. Rubisco fixes carbon dioxide to ribulose-1,5-bisphosphate (RuBP), forming an unstable six-carbon intermediate that splits into 3-phosphoglycerate (3-PGA). ATP and NADPH from the light reactions reduce 3-PGA to glyceraldehyde-3-phosphate (G3P). Some G3P leaves the cycle for carbohydrate synthesis; the remainder regenerates RuBP. The cycle depends indirectly on light because it uses ATP and NADPH produced by light reactions.\n\nCellular respiration transfers energy from organic molecules to ATP. Glycolysis in the cytosol converts glucose to pyruvate, producing a net two ATP and NADH. In aerobic respiration, pyruvate is converted to acetyl-CoA, which enters the Krebs cycle in the mitochondrial matrix. Reduced coenzymes deliver electrons to the inner-membrane electron transport chain. Proton pumping creates an electrochemical gradient; ATP synthase uses it for oxidative phosphorylation. Without oxygen, fermentation regenerates NAD+ so glycolysis can continue; animals form lactate, while yeast can form ethanol and carbon dioxide.\n\nRubisco can bind oxygen as well as carbon dioxide. When oxygenation of RuBP occurs, photorespiration uses energy and releases previously fixed carbon dioxide, reducing photosynthetic efficiency. High temperature and low internal CO2 favour this pathway. C4 plants first fix CO2 into four-carbon compounds in mesophyll cells and deliver CO2 to bundle-sheath cells, concentrating it near Rubisco. CAM plants open stomata mainly at night, store CO2 as organic acids, and release it during the day. These adaptations reduce water loss and photorespiration in hot or dry environments.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Evaluation of significance and limitations (3 marks)",
+            "Examples or real-world applications (2 marks)",
+            "Clear structure (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Bioenergetics کے تصورات کی حیاتیاتی اہمیت، اطلاقات اور حدود کا جائزہ لیں۔",
+              "modelAnswer": "ضیائی تالیف روشنی کی توانائی کو کیمیائی توانائی میں بدلتی ہے۔ کلوروفل a بنیادی ردعملی رنگ دار مادہ ہے جبکہ کلوروفل b اور کیروٹینائڈز روشنی جذب کرنے کا دائرہ بڑھاتے اور حفاظت کرتے ہیں۔ غیر دوری الیکٹران بہاؤ میں پانی ٹوٹتا ہے، آکسیجن خارج ہوتی ہے، NADPH اور ATP بنتے ہیں۔\n\nکیلون سائیکل کلوروپلاسٹ کے اسٹروما میں ہوتا ہے۔ Rubisco کاربن ڈائی آکسائیڈ کو RuBP سے جوڑتا ہے اور 3-PGA بنتا ہے۔ روشنی کے عمل سے حاصل ATP اور NADPH اسے G3P میں تبدیل کرتے ہیں۔ کچھ G3P شکر بنانے میں استعمال ہوتا ہے اور باقی RuBP دوبارہ بناتا ہے۔\n\nخلوی تنفس میں نامیاتی مادوں کی توانائی ATP میں منتقل ہوتی ہے۔ گلائیکولائسز سائٹوپلازم میں گلوکوز کو پائروویٹ میں بدل کر خالص دو ATP بناتی ہے۔ آکسیجن کی موجودگی میں پائروویٹ acetyl-CoA بنتا اور Krebs cycle میں داخل ہوتا ہے۔ الیکٹران ٹرانسپورٹ چین پروٹون گریڈینٹ بناتی ہے جس سے ATP synthase ATP بناتا ہے۔\n\nRubisco آکسیجن سے بھی جڑ سکتا ہے؛ اس عمل سے فوٹو ریسپائریشن ہوتی ہے جو توانائی خرچ اور پہلے سے بندھا کاربن خارج کرتی ہے۔ C4 پودے CO2 کو چار کاربن مرکبات میں محفوظ کرکے Rubisco کے قریب پہنچاتے ہیں۔ CAM پودے رات کو روزن کھول کر CO2 محفوظ کرتے اور دن میں استعمال کرتے ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "اہمیت اور حدود کا جائزہ (3 نمبر)",
+                "مثالیں یا عملی اطلاقات (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Bioenergetics جي تصورن جي حياتياتي اهميت، استعمالن ۽ حدن جو جائزو وٺو.",
+              "modelAnswer": "ضيائي ترڪيب روشنيءَ جي توانائي کي ڪيميائي توانائيءَ ۾ بدلائي ٿي. ڪلوروفل a بنيادي رنگدار مادو آهي، جڏهن ته ڪلوروفل b ۽ ڪيروٽينائڊ روشني جذب ڪرڻ جو دائرو وڌائين ٿا. غير دوري اليڪٽران وهڪري ۾ پاڻي ٽٽي ٿو، آڪسيجن خارج ٿئي ٿي ۽ NADPH ۽ ATP ٺهن ٿا.\n\nڪيلون چڪر ڪلوروپلاسٽ جي اسٽروما ۾ ٿئي ٿو. Rubisco ڪاربان ڊاءِ آڪسائيڊ کي RuBP سان ڳنڍي 3-PGA ٺاهي ٿو. روشنيءَ واري عمل مان ATP ۽ NADPH ان کي G3P ۾ بدلائين ٿا. ڪجهه G3P کنڊ ٺاهڻ لاءِ نڪري ٿو ۽ باقي RuBP ٻيهر ٺاهي ٿو.\n\nخلوي تنفس ۾ نامياتي مادن جي توانائي ATP ۾ منتقل ٿئي ٿي. گلائڪولائسز سائٽوپلازم ۾ گلوڪوز کي پائروويٽ ۾ بدلائي خالص ٻه ATP ٺاهي ٿي. آڪسيجن سان پائروويٽ acetyl-CoA بڻجي Krebs چڪر ۾ داخل ٿئي ٿو. اليڪٽران ٽرانسپورٽ چين پروٽون گريڊينٽ ٺاهي ٿي، جنهن سان ATP synthase ATP ٺاهي ٿو.\n\nRubisco آڪسيجن سان به ڳنڍجي سگهي ٿو؛ ان سان فوٽو ريسپائريشن ٿئي ٿي، جيڪا توانائي خرچ ڪري اڳ ۾ ٻڌل ڪاربان خارج ڪري ٿي. C4 ٻوٽا CO2 کي چار ڪاربان وارن مرڪبن ۾ گڏ ڪري Rubisco تائين پهچائين ٿا. CAM ٻوٽا رات جو روزن کولين ٿا، CO2 ذخيرو ڪن ٿا ۽ ڏينهن ۾ استعمال ڪن ٿا.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "اهميت ۽ حدن جو جائزو (3 مارڪون)",
+                "مثالون يا عملي استعمال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

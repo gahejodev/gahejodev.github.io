@@ -1,0 +1,719 @@
+{
+  "id": "biology-xi-chapter-5-acellular-life",
+  "title": "Biology XI — Chapter 5: Acellular Life",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XI Chapter 5 — Acellular Life (12 periods). Five structured lessons, 15 bilingual MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 5: Acellular Life",
+      "description": "DCAR Sindh 2024, Grade XI, Chapter 5; 12 periods.",
+      "lessons": [
+        {
+          "title": "5.1 Discovery and Structure of Viruses",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Discovery and Structure of Viruses.\n\nViruses are acellular infectious agents containing DNA or RNA enclosed in a protein capsid; some have a lipid envelope with surface proteins. They lack ribosomes and independent metabolism, so they cannot reproduce without host cells. Their status at the boundary of living and non-living systems reflects this dependence: they evolve and replicate in cells but are inert outside them. Bacteriophages infect bacteria; HIV is an enveloped retrovirus with RNA and reverse transcriptase.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "وائرس غیر خلوی متعدی عوامل ہیں جن میں DNA یا RNA پروٹین کیپسڈ میں بند ہوتا ہے؛ بعض کے گرد لپڈ غلاف بھی ہوتا ہے۔ ان میں رائبوسوم اور آزاد میٹابولزم نہیں ہوتا، اس لیے میزبان خلیے کے بغیر افزائش نہیں کر سکتے۔",
+            "sd": "وائرس غير خلوي وچڙندڙ عامل آهن، جن ۾ DNA يا RNA پروٽين ڪيپسڊ ۾ بند هوندو آهي؛ ڪجهه جي چوڌاري لپڊ غلاف هوندو آهي. انهن وٽ رائبوسوم ۽ آزاد ميٽابولزم ناهي، تنهنڪري ميزبان خليي کان سواءِ وڌي نٿا سگهن."
+          }
+        },
+        {
+          "title": "5.2 Host Dependence and Viral Classification",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Host Dependence and Viral Classification.\n\nViruses are classified by host range, capsid shape, envelope and genome type. They may carry DNA or RNA, single- or double-stranded, and genomes may be segmented. Attachment proteins recognise specific host-cell receptors, determining host range and tissue tropism. Outside a host, virions are inert particles; some persist in protected forms or environmental reservoirs until they encounter a suitable cell.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "وائرس کی درجہ بندی میزبان، کیپسڈ کی شکل، غلاف اور جینوم کی بنیاد پر ہوتی ہے۔ سطحی پروٹین مخصوص میزبان رسیپٹر پہچانتے ہیں، جس سے میزبان اور متاثر ہونے والے ٹشو کا تعین ہوتا ہے۔",
+            "sd": "وائرس جي درجابندي ميزبان، ڪيپسڊ جي شڪل، غلاف ۽ جينوم موجب ٿئي ٿي. مٿاڇري جا پروٽين مخصوص ميزبان ري سيپٽر سڃاڻن ٿا، جنهن سان ميزبان ۽ متاثر ٿيندڙ ٽشو طئي ٿئي ٿو."
+          }
+        },
+        {
+          "title": "5.3 Bacteriophage Lytic and Lysogenic Cycles",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Bacteriophage Lytic and Lysogenic Cycles.\n\nIn the lytic cycle a bacteriophage attaches to a bacterium, injects its genome, directs synthesis of viral components, assembles new particles and lyses the cell to release them. In lysogeny, phage DNA integrates into the bacterial chromosome as a prophage and is copied with the host DNA. Stress can trigger induction into the lytic cycle. Phages are also tools in molecular genetics and bacterial control research.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "لائٹک سائیکل میں بیکٹیریوفیج بیکٹیریا سے جڑ کر جینوم داخل کرتا، نئے وائرس بناتا اور خلیہ پھاڑ کر خارج ہوتا ہے۔ لائسوجینی میں وائرل DNA بیکٹیریا کے کروموسوم میں شامل ہو کر نقل ہوتا رہتا ہے۔",
+            "sd": "لائٽڪ چڪر ۾ بيڪٽيريوفيج بيڪٽيريا سان ڳنڍجي جينوم داخل ڪري ٿو، نوان وائرس ٺاهي خليي کي ڦاڙي ٻاهر نڪري ٿو. لائيسوجيني ۾ وائرل DNA بيڪٽيريا جي ڪروموسوم ۾ شامل ٿي ان سان گڏ نقل ٿئي ٿو."
+          }
+        },
+        {
+          "title": "5.4 HIV, AIDS and Prevention",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in HIV, AIDS and Prevention.\n\nHIV is an enveloped retrovirus that targets cells bearing CD4 receptors, especially helper T lymphocytes. Reverse transcriptase converts viral RNA into DNA; integrase inserts it into host DNA. New virions assemble and bud from the cell. Progressive loss of immune function can lead to AIDS and opportunistic infections. Antiretroviral therapy suppresses viral replication. Prevention includes screened blood, sterile injection equipment, barrier protection and prevention of parent-to-child transmission; ordinary social contact does not transmit HIV.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "HIV ایک ریٹرو وائرس ہے جو CD4 رسیپٹر والے خلیوں، خصوصاً helper T cells، کو متاثر کرتا ہے۔ Reverse transcriptase RNA کو DNA میں بدلتا ہے اور integrase اسے میزبان DNA میں شامل کرتا ہے۔ علاج وائرس کی افزائش دباتا ہے؛ محفوظ خون، جراثیم سے پاک آلات اور محفوظ جنسی رویہ بچاؤ میں مدد دیتے ہیں۔",
+            "sd": "HIV ريٽرو وائرس آهي، جيڪو CD4 ري سيپٽر وارن خلين، خاص ڪري helper T خلين کي متاثر ڪري ٿو. Reverse transcriptase RNA کي DNA ۾ بدلائي ٿو ۽ integrase ان کي ميزبان DNA ۾ شامل ڪري ٿو. علاج وائرس جي واڌ کي دٻائي ٿو؛ محفوظ رت، جراثيم کان پاڪ اوزار ۽ محفوظ جنسي رويو بچاءَ ۾ مدد ڪن ٿا."
+          }
+        },
+        {
+          "title": "5.5 Viral Diseases, Viroids and Prions",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Viral Diseases, Viroids and Prions.\n\nViral diseases include hepatitis C, herpes, polio and cotton leaf curl disease; transmission routes and prevention differ by virus. Vaccines prevent several viral infections, while antibiotics do not treat viruses. Viroids are small infectious RNA molecules without a protein coat, mainly affecting plants. Prions are misfolded infectious proteins that induce abnormal folding of normal proteins and cause transmissible spongiform encephalopathies. Public-health control relies on surveillance, vaccination where available, hygiene and targeted prevention.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "وائرل بیماریوں میں ہیپاٹائٹس C، ہرپس، پولیو اور کپاس کا لیف کرل شامل ہیں۔ اینٹی بایوٹکس وائرس کا علاج نہیں کرتیں۔ وائرائیڈ چھوٹے متعدی RNA ہوتے ہیں جبکہ پرائیون غلط تہہ شدہ متعدی پروٹین ہیں۔",
+            "sd": "وائرل بيمارين ۾ هيپاٽائٽس C، هرپس، پوليو ۽ ڪپهه جو ليف ڪرل شامل آهن. اينٽي بايوٽڪ وائرس جو علاج نٿيون ڪن. وائرائڊ ننڍا وچڙندڙ RNA آهن، جڏهن ته پرائين غلط ويڙهيل وچڙندڙ پروٽين آهن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "A complete infectious virus particle is called a:",
+          "options": {
+            "A": "Virion",
+            "B": "Ribosome",
+            "C": "Prion",
+            "D": "Viroid"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "A virion is the extracellular infectious particle.",
+              "options": {
+                "A": "وائریون",
+                "B": "رائبوسوم",
+                "C": "پرائیون",
+                "D": "وائرائیڈ"
+              },
+              "explanation": "درست جواب: وائریون۔ A"
+            },
+            "sd": {
+              "question": "مکمل متعدی وائرس ذرہ کیا کہلاتا ہے؟",
+              "options": {
+                "A": "وائريون",
+                "B": "Ribosome",
+                "C": "Prion",
+                "D": "Viroid"
+              },
+              "explanation": "صحيح جواب: وائريون۔ A"
+            }
+          }
+        },
+        {
+          "question": "The protein coat of a virus is the:",
+          "options": {
+            "A": "Cell wall",
+            "B": "Nucleoid",
+            "C": "Envelope only",
+            "D": "Capsid"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "The capsid encloses and protects the viral genome.",
+              "options": {
+                "A": "خلوی دیوار",
+                "B": "نیوکلیوئڈ",
+                "C": "صرف غلاف",
+                "D": "کیپسڈ"
+              },
+              "explanation": "درست جواب: کیپسڈ۔ A"
+            },
+            "sd": {
+              "question": "وائرس کے پروٹین غلاف کو کیا کہتے ہیں؟",
+              "options": {
+                "A": "Cell wall",
+                "B": "نيوڪليوئڊ",
+                "C": "Envelope only",
+                "D": "ڪيپسڊ"
+              },
+              "explanation": "صحيح جواب: ڪيپسڊ۔ A"
+            }
+          }
+        },
+        {
+          "question": "Viruses require host cells mainly because they lack:",
+          "options": {
+            "A": "Evolution",
+            "B": "Capsid proteins",
+            "C": "Independent protein synthesis and metabolism",
+            "D": "Genetic material"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Viruses rely on host machinery for replication and protein synthesis.",
+              "options": {
+                "A": "ارتقا",
+                "B": "کیپسڈ پروٹین",
+                "C": "آزاد پروٹین سازی اور میٹابولزم",
+                "D": "جینیاتی مادہ"
+              },
+              "explanation": "درست جواب: آزاد پروٹین سازی اور میٹابولزم۔ A"
+            },
+            "sd": {
+              "question": "وائرس کو میزبان خلیے کی ضرورت کیوں ہوتی ہے؟",
+              "options": {
+                "A": "Evolution",
+                "B": "Capsid proteins",
+                "C": "Independent protein synthesis and metabolism",
+                "D": "Genetic material"
+              },
+              "explanation": "صحيح جواب: Independent protein synthesis and metabolism۔ A"
+            }
+          }
+        },
+        {
+          "question": "HIV belongs to the group called:",
+          "options": {
+            "A": "Prions",
+            "B": "Retroviruses",
+            "C": "Bacteriophages",
+            "D": "Viroids"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "HIV is an enveloped retrovirus.",
+              "options": {
+                "A": "Prions",
+                "B": "ریٹرو وائرس",
+                "C": "بیکٹیریوفیج",
+                "D": "Viroids"
+              },
+              "explanation": "درست جواب: ریٹرو وائرس۔ A"
+            },
+            "sd": {
+              "question": "HIV کس گروہ سے تعلق رکھتا ہے؟",
+              "options": {
+                "A": "Prions",
+                "B": "ريٽرو وائرس",
+                "C": "Bacteriophages",
+                "D": "Viroids"
+              },
+              "explanation": "صحيح جواب: ريٽرو وائرس۔ A"
+            }
+          }
+        },
+        {
+          "question": "The enzyme that makes DNA from HIV RNA is:",
+          "options": {
+            "A": "Reverse transcriptase",
+            "B": "DNA ligase",
+            "C": "Amylase",
+            "D": "Catalase"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Reverse transcriptase copies viral RNA into DNA.",
+              "options": {
+                "A": "Reverse transcriptase",
+                "B": "DNA لائگیز",
+                "C": "ایمائلیز",
+                "D": "کیٹالیز"
+              },
+              "explanation": "درست جواب: Reverse transcriptase۔ A"
+            },
+            "sd": {
+              "question": "HIV RNA سے DNA کون سا انزائم بناتا ہے؟",
+              "options": {
+                "A": "Reverse transcriptase",
+                "B": "DNA ligase",
+                "C": "Amylase",
+                "D": "Catalase"
+              },
+              "explanation": "صحيح جواب: Reverse transcriptase۔ A"
+            }
+          }
+        },
+        {
+          "question": "The lytic cycle ends with:",
+          "options": {
+            "A": "Genome integration only",
+            "B": "Spore formation",
+            "C": "Meiosis",
+            "D": "Host-cell lysis"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "New phages are released when the bacterial cell lyses.",
+              "options": {
+                "A": "صرف جینوم کا انضمام",
+                "B": "اسپور بننا",
+                "C": "میوسس",
+                "D": "میزبان خلیے کا پھٹنا"
+              },
+              "explanation": "درست جواب: میزبان خلیے کا پھٹنا۔ A"
+            },
+            "sd": {
+              "question": "لائٹک سائیکل کا اختتام کس سے ہوتا ہے؟",
+              "options": {
+                "A": "Genome integration only",
+                "B": "Spore formation",
+                "C": "Meiosis",
+                "D": "Host-cell lysis"
+              },
+              "explanation": "صحيح جواب: Host-cell lysis۔ A"
+            }
+          }
+        },
+        {
+          "question": "In lysogeny, phage DNA integrated in bacteria is called:",
+          "options": {
+            "A": "Plasmid coat",
+            "B": "Prion",
+            "C": "Prophage",
+            "D": "Capsomere"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Integrated phage DNA is called a prophage.",
+              "options": {
+                "A": "پلازمڈ غلاف",
+                "B": "پرائیون",
+                "C": "پروفیج",
+                "D": "کیپسومیر"
+              },
+              "explanation": "درست جواب: پروفیج۔ A"
+            },
+            "sd": {
+              "question": "لائسوجینی میں شامل فاج DNA کیا کہلاتا ہے؟",
+              "options": {
+                "A": "Plasmid coat",
+                "B": "Prion",
+                "C": "پروفاج",
+                "D": "Capsomere"
+              },
+              "explanation": "صحيح جواب: پروفاج۔ A"
+            }
+          }
+        },
+        {
+          "question": "HIV primarily targets cells bearing:",
+          "options": {
+            "A": "Peptidoglycan",
+            "B": "CD4 receptors",
+            "C": "Insulin receptors",
+            "D": "Chlorophyll"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "CD4-bearing helper T cells are major HIV targets.",
+              "options": {
+                "A": "پیپٹائڈوگلیکین",
+                "B": "CD4 رسیپٹرز",
+                "C": "Insulin receptors",
+                "D": "کلوروفل"
+              },
+              "explanation": "درست جواب: CD4 رسیپٹرز۔ A"
+            },
+            "sd": {
+              "question": "HIV بنیادی طور کن رسیپٹر والے خلیوں کو متاثر کرتا ہے؟",
+              "options": {
+                "A": "پيپٽائيڊوگليڪن",
+                "B": "CD4 ري سيپٽر",
+                "C": "Insulin receptors",
+                "D": "Chlorophyll"
+              },
+              "explanation": "صحيح جواب: CD4 ري سيپٽر۔ A"
+            }
+          }
+        },
+        {
+          "question": "AIDS results from severe impairment of the:",
+          "options": {
+            "A": "Immune system",
+            "B": "Digestive system",
+            "C": "Skeletal system",
+            "D": "Plant vascular system"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "HIV progressively damages immune function.",
+              "options": {
+                "A": "مدافعتی نظام",
+                "B": "نظامِ ہاضمہ",
+                "C": "ہڈیوں کا نظام",
+                "D": "پودوں کا وعائی نظام"
+              },
+              "explanation": "درست جواب: مدافعتی نظام۔ A"
+            },
+            "sd": {
+              "question": "AIDS کس نظام کی شدید کمزوری سے متعلق ہے؟",
+              "options": {
+                "A": "مدافعتي نظام",
+                "B": "Digestive system",
+                "C": "Skeletal system",
+                "D": "Plant vascular system"
+              },
+              "explanation": "صحيح جواب: مدافعتي نظام۔ A"
+            }
+          }
+        },
+        {
+          "question": "Antibiotics are generally ineffective against:",
+          "options": {
+            "A": "Many bacteria",
+            "B": "Some bacterial infections",
+            "C": "Bacterial cell walls",
+            "D": "Viruses"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Antibiotics target bacterial structures or processes, not viruses.",
+              "options": {
+                "A": "بہت سے بیکٹیریا",
+                "B": "کچھ بیکٹیریائی انفیکشن",
+                "C": "بیکٹیریا کی خلوی دیوار",
+                "D": "وائرس"
+              },
+              "explanation": "درست جواب: وائرس۔ A"
+            },
+            "sd": {
+              "question": "اینٹی بایوٹکس عموماً کس کے خلاف مؤثر نہیں؟",
+              "options": {
+                "A": "Many bacteria",
+                "B": "Some bacterial infections",
+                "C": "Bacterial cell walls",
+                "D": "وائرس"
+              },
+              "explanation": "صحيح جواب: وائرس۔ A"
+            }
+          }
+        },
+        {
+          "question": "Viroids consist mainly of:",
+          "options": {
+            "A": "DNA and capsid",
+            "B": "Bacterial cells",
+            "C": "Small infectious RNA",
+            "D": "Misfolded protein"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Viroids are small naked infectious RNA molecules.",
+              "options": {
+                "A": "DNA اور کیپسڈ",
+                "B": "بیکٹیریائی خلیے",
+                "C": "چھوٹا متعدی RNA",
+                "D": "غلط تہہ شدہ پروٹین"
+              },
+              "explanation": "درست جواب: چھوٹا متعدی RNA۔ A"
+            },
+            "sd": {
+              "question": "وائرائیڈ بنیادی طور کس سے بنتے ہیں؟",
+              "options": {
+                "A": "DNA and capsid",
+                "B": "Bacterial cells",
+                "C": "ننڍو وچڙندڙ RNA",
+                "D": "Misfolded protein"
+              },
+              "explanation": "صحيح جواب: ننڍو وچڙندڙ RNA۔ A"
+            }
+          }
+        },
+        {
+          "question": "Prions are infectious:",
+          "options": {
+            "A": "Ribosomes",
+            "B": "Proteins",
+            "C": "Lipids",
+            "D": "Carbohydrates"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Prions are abnormal proteins that induce misfolding.",
+              "options": {
+                "A": "رائبوسوم",
+                "B": "پروٹین",
+                "C": "لپڈ",
+                "D": "کاربوہائیڈریٹس"
+              },
+              "explanation": "درست جواب: پروٹین۔ A"
+            },
+            "sd": {
+              "question": "پرائیون متعدی طور کیا ہوتے ہیں؟",
+              "options": {
+                "A": "Ribosomes",
+                "B": "پروٽين",
+                "C": "Lipids",
+                "D": "Carbohydrates"
+              },
+              "explanation": "صحيح جواب: پروٽين۔ A"
+            }
+          }
+        },
+        {
+          "question": "The viral envelope is usually derived from:",
+          "options": {
+            "A": "Host-cell membrane",
+            "B": "Bacterial peptidoglycan",
+            "C": "Plant cellulose",
+            "D": "Capsid RNA"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Enveloped viruses acquire membrane from host cells during budding.",
+              "options": {
+                "A": "میزبان خلیے کی جھلی",
+                "B": "بیکٹیریائی پیپٹائڈوگلیکین",
+                "C": "نباتاتی سیلولوز",
+                "D": "کیپسڈ RNA"
+              },
+              "explanation": "درست جواب: میزبان خلیے کی جھلی۔ A"
+            },
+            "sd": {
+              "question": "وائرس کا غلاف عموماً کہاں سے حاصل ہوتا ہے؟",
+              "options": {
+                "A": "Host-cell membrane",
+                "B": "Bacterial peptidoglycan",
+                "C": "Plant cellulose",
+                "D": "Capsid RNA"
+              },
+              "explanation": "صحيح جواب: Host-cell membrane۔ A"
+            }
+          }
+        },
+        {
+          "question": "A bacteriophage infects:",
+          "options": {
+            "A": "Fungi only",
+            "B": "Human red cells only",
+            "C": "Flowering plants only",
+            "D": "Bacteria"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Bacteriophages are viruses that infect bacteria.",
+              "options": {
+                "A": "صرف فنجائی",
+                "B": "صرف انسانی سرخ خلیے",
+                "C": "صرف پھول دار پودے",
+                "D": "بیکٹیریا"
+              },
+              "explanation": "درست جواب: بیکٹیریا۔ A"
+            },
+            "sd": {
+              "question": "بیکٹیریوفیج کس کو متاثر کرتا ہے؟",
+              "options": {
+                "A": "Fungi only",
+                "B": "Human red cells only",
+                "C": "Flowering plants only",
+                "D": "بيڪٽيريا"
+              },
+              "explanation": "صحيح جواب: بيڪٽيريا۔ A"
+            }
+          }
+        },
+        {
+          "question": "Which measure helps prevent HIV transmission?",
+          "options": {
+            "A": "Untested blood transfusion",
+            "B": "Casual handshakes avoidance",
+            "C": "Sterile injection equipment",
+            "D": "Sharing needles"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Sterile equipment and screened blood reduce transmission risk.",
+              "options": {
+                "A": "غیر جانچا خون",
+                "B": "عام مصافحے سے گریز",
+                "C": "جراثیم سے پاک انجیکشن آلات",
+                "D": "سوئیاں بانٹنا"
+              },
+              "explanation": "درست جواب: جراثیم سے پاک انجیکشن آلات۔ A"
+            },
+            "sd": {
+              "question": "HIV کی منتقلی روکنے میں کون سا اقدام مددگار ہے؟",
+              "options": {
+                "A": "Untested blood transfusion",
+                "B": "Casual handshakes avoidance",
+                "C": "Sterile injection equipment",
+                "D": "Sharing needles"
+              },
+              "explanation": "صحيح جواب: Sterile injection equipment۔ A"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define the central concept of Acellular Life and explain two important features.",
+          "modelAnswer": "Viruses are acellular infectious agents containing DNA or RNA enclosed in a protein capsid; some have a lipid envelope with surface proteins. They lack ribosomes and independent metabolism, so they cannot reproduce without host cells. Their status at the boundary of living and non-living systems reflects this dependence: they evolve and replicate in cells but are inert outside them.",
+          "rubric": [
+            "Correct definition and core concept (2 marks)",
+            "Two accurate features or examples (2 marks)",
+            "Clear scientific terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Acellular Life کے بنیادی تصور کی تعریف کریں اور دو اہم خصوصیات بیان کریں۔",
+              "modelAnswer": "وائرس غیر خلوی متعدی عوامل ہیں جن میں DNA یا RNA پروٹین کیپسڈ میں بند ہوتا ہے؛ بعض کے گرد لپڈ غلاف بھی ہوتا ہے۔ ان میں رائبوسوم اور آزاد میٹابولزم نہیں ہوتا، اس لیے میزبان خلیے کے بغیر افزائش نہیں کر سکتے۔",
+              "rubric": [
+                "درست تعریف اور بنیادی تصور (2 نمبر)",
+                "دو درست خصوصیات یا مثالیں (2 نمبر)",
+                "درست سائنسی اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Acellular Life جي بنيادي تصور جي وصف ڏيو ۽ ٻه اهم خاصيتون بيان ڪريو.",
+              "modelAnswer": "وائرس غير خلوي وچڙندڙ عامل آهن، جن ۾ DNA يا RNA پروٽين ڪيپسڊ ۾ بند هوندو آهي؛ ڪجهه جي چوڌاري لپڊ غلاف هوندو آهي. انهن وٽ رائبوسوم ۽ آزاد ميٽابولزم ناهي، تنهنڪري ميزبان خليي کان سواءِ وڌي نٿا سگهن.",
+              "rubric": [
+                "صحيح وصف ۽ بنيادي تصور (2 مارڪون)",
+                "ٻه صحيح خاصيتون يا مثالون (2 مارڪون)",
+                "صحيح سائنسي اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare two major groups or processes discussed in Acellular Life.",
+          "modelAnswer": "A strong comparison identifies the defining structure or process of each group, explains at least two differences, and includes a relevant example. Viruses are classified by host range, capsid shape, envelope and genome type. They may carry DNA or RNA, single- or double-stranded, and genomes may be segmented.",
+          "rubric": [
+            "Accurate description of both groups/processes (2 marks)",
+            "Two valid comparisons (2 marks)",
+            "Relevant example and clarity (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Acellular Life میں بیان کردہ دو اہم گروہوں یا عمل کا موازنہ کریں۔",
+              "modelAnswer": "اچھے موازنے میں دونوں گروہوں یا عمل کی بنیادی ساخت/طریقہ بیان کیا جاتا ہے، کم از کم دو فرق لکھے جاتے ہیں اور مثال دی جاتی ہے۔ وائرس کی درجہ بندی میزبان، کیپسڈ کی شکل، غلاف اور جینوم کی بنیاد پر ہوتی ہے۔ سطحی پروٹین مخصوص میزبان رسیپٹر پہچانتے ہیں، جس سے میزبان اور متاثر ہونے والے ٹشو کا تعین ہوتا ہے۔",
+              "rubric": [
+                "دونوں گروہوں/عمل کی درست وضاحت (2 نمبر)",
+                "دو درست موازنے (2 نمبر)",
+                "متعلقہ مثال اور وضاحت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Acellular Life ۾ بيان ڪيل ٻن اهم گروهن يا عملن جو مقابلو ڪريو.",
+              "modelAnswer": "سٺي مقابلي ۾ ٻنهي گروهن يا عمل جي بنيادي بناوت/طريقي جي وضاحت، گهٽ ۾ گهٽ ٻه فرق ۽ هڪ مثال شامل هجي. وائرس جي درجابندي ميزبان، ڪيپسڊ جي شڪل، غلاف ۽ جينوم موجب ٿئي ٿي. مٿاڇري جا پروٽين مخصوص ميزبان ري سيپٽر سڃاڻن ٿا، جنهن سان ميزبان ۽ متاثر ٿيندڙ ٽشو طئي ٿئي ٿو.",
+              "rubric": [
+                "ٻنهي گروهن/عملن جي صحيح وضاحت (2 مارڪون)",
+                "ٻه صحيح مقابلا (2 مارڪون)",
+                "لاڳاپيل مثال ۽ وضاحت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain one biological mechanism from Acellular Life in a logical sequence.",
+          "modelAnswer": "In the lytic cycle a bacteriophage attaches to a bacterium, injects its genome, directs synthesis of viral components, assembles new particles and lyses the cell to release them. In lysogeny, phage DNA integrates into the bacterial chromosome as a prophage and is copied with the host DNA. Stress can trigger induction into the lytic cycle. Phages are also tools in molecular genetics and bacterial control research.",
+          "rubric": [
+            "Correct sequence of steps (2 marks)",
+            "Scientific explanation of mechanism (2 marks)",
+            "Correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Acellular Life کے ایک حیاتیاتی طریقۂ کار کو منطقی ترتیب سے بیان کریں۔",
+              "modelAnswer": "لائٹک سائیکل میں بیکٹیریوفیج بیکٹیریا سے جڑ کر جینوم داخل کرتا، نئے وائرس بناتا اور خلیہ پھاڑ کر خارج ہوتا ہے۔ لائسوجینی میں وائرل DNA بیکٹیریا کے کروموسوم میں شامل ہو کر نقل ہوتا رہتا ہے۔",
+              "rubric": [
+                "مراحل کی درست ترتیب (2 نمبر)",
+                "طریقۂ کار کی سائنسی وضاحت (2 نمبر)",
+                "درست اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Acellular Life جي هڪ حياتياتي طريقي کي منطقي ترتيب سان بيان ڪريو.",
+              "modelAnswer": "لائٽڪ چڪر ۾ بيڪٽيريوفيج بيڪٽيريا سان ڳنڍجي جينوم داخل ڪري ٿو، نوان وائرس ٺاهي خليي کي ڦاڙي ٻاهر نڪري ٿو. لائيسوجيني ۾ وائرل DNA بيڪٽيريا جي ڪروموسوم ۾ شامل ٿي ان سان گڏ نقل ٿئي ٿو.",
+              "rubric": [
+                "مرحلن جي صحيح ترتيب (2 مارڪون)",
+                "طريقي جي سائنسي وضاحت (2 مارڪون)",
+                "صحيح اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the structure, function and significance of the major systems or groups covered in Acellular Life, using examples.",
+          "modelAnswer": "Viruses are acellular infectious agents containing DNA or RNA enclosed in a protein capsid; some have a lipid envelope with surface proteins. They lack ribosomes and independent metabolism, so they cannot reproduce without host cells. Their status at the boundary of living and non-living systems reflects this dependence: they evolve and replicate in cells but are inert outside them. Bacteriophages infect bacteria; HIV is an enveloped retrovirus with RNA and reverse transcriptase.\n\nViruses are classified by host range, capsid shape, envelope and genome type. They may carry DNA or RNA, single- or double-stranded, and genomes may be segmented. Attachment proteins recognise specific host-cell receptors, determining host range and tissue tropism. Outside a host, virions are inert particles; some persist in protected forms or environmental reservoirs until they encounter a suitable cell.\n\nIn the lytic cycle a bacteriophage attaches to a bacterium, injects its genome, directs synthesis of viral components, assembles new particles and lyses the cell to release them. In lysogeny, phage DNA integrates into the bacterial chromosome as a prophage and is copied with the host DNA. Stress can trigger induction into the lytic cycle. Phages are also tools in molecular genetics and bacterial control research.\n\nHIV is an enveloped retrovirus that targets cells bearing CD4 receptors, especially helper T lymphocytes. Reverse transcriptase converts viral RNA into DNA; integrase inserts it into host DNA. New virions assemble and bud from the cell. Progressive loss of immune function can lead to AIDS and opportunistic infections. Antiretroviral therapy suppresses viral replication. Prevention includes screened blood, sterile injection equipment, barrier protection and prevention of parent-to-child transmission; ordinary social contact does not transmit HIV.",
+          "rubric": [
+            "Accurate coverage of core concepts (4 marks)",
+            "Explanation of structure-function relationships (3 marks)",
+            "Relevant examples and applications (2 marks)",
+            "Organisation and terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Acellular Life میں شامل اہم نظاموں یا گروہوں کی ساخت، افعال اور اہمیت مثالوں کے ساتھ بیان کریں۔",
+              "modelAnswer": "وائرس غیر خلوی متعدی عوامل ہیں جن میں DNA یا RNA پروٹین کیپسڈ میں بند ہوتا ہے؛ بعض کے گرد لپڈ غلاف بھی ہوتا ہے۔ ان میں رائبوسوم اور آزاد میٹابولزم نہیں ہوتا، اس لیے میزبان خلیے کے بغیر افزائش نہیں کر سکتے۔\n\nوائرس کی درجہ بندی میزبان، کیپسڈ کی شکل، غلاف اور جینوم کی بنیاد پر ہوتی ہے۔ سطحی پروٹین مخصوص میزبان رسیپٹر پہچانتے ہیں، جس سے میزبان اور متاثر ہونے والے ٹشو کا تعین ہوتا ہے۔\n\nلائٹک سائیکل میں بیکٹیریوفیج بیکٹیریا سے جڑ کر جینوم داخل کرتا، نئے وائرس بناتا اور خلیہ پھاڑ کر خارج ہوتا ہے۔ لائسوجینی میں وائرل DNA بیکٹیریا کے کروموسوم میں شامل ہو کر نقل ہوتا رہتا ہے۔\n\nHIV ایک ریٹرو وائرس ہے جو CD4 رسیپٹر والے خلیوں، خصوصاً helper T cells، کو متاثر کرتا ہے۔ Reverse transcriptase RNA کو DNA میں بدلتا ہے اور integrase اسے میزبان DNA میں شامل کرتا ہے۔ علاج وائرس کی افزائش دباتا ہے؛ محفوظ خون، جراثیم سے پاک آلات اور محفوظ جنسی رویہ بچاؤ میں مدد دیتے ہیں۔",
+              "rubric": [
+                "بنیادی تصورات کی درست وضاحت (4 نمبر)",
+                "ساخت اور فعل کا تعلق (3 نمبر)",
+                "متعلقہ مثالیں اور اطلاقات (2 نمبر)",
+                "ترتیب اور اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Acellular Life ۾ شامل اهم نظامن يا گروهن جي بناوت، ڪم ۽ اهميت مثالن سان بيان ڪريو.",
+              "modelAnswer": "وائرس غير خلوي وچڙندڙ عامل آهن، جن ۾ DNA يا RNA پروٽين ڪيپسڊ ۾ بند هوندو آهي؛ ڪجهه جي چوڌاري لپڊ غلاف هوندو آهي. انهن وٽ رائبوسوم ۽ آزاد ميٽابولزم ناهي، تنهنڪري ميزبان خليي کان سواءِ وڌي نٿا سگهن.\n\nوائرس جي درجابندي ميزبان، ڪيپسڊ جي شڪل، غلاف ۽ جينوم موجب ٿئي ٿي. مٿاڇري جا پروٽين مخصوص ميزبان ري سيپٽر سڃاڻن ٿا، جنهن سان ميزبان ۽ متاثر ٿيندڙ ٽشو طئي ٿئي ٿو.\n\nلائٽڪ چڪر ۾ بيڪٽيريوفيج بيڪٽيريا سان ڳنڍجي جينوم داخل ڪري ٿو، نوان وائرس ٺاهي خليي کي ڦاڙي ٻاهر نڪري ٿو. لائيسوجيني ۾ وائرل DNA بيڪٽيريا جي ڪروموسوم ۾ شامل ٿي ان سان گڏ نقل ٿئي ٿو.\n\nHIV ريٽرو وائرس آهي، جيڪو CD4 ري سيپٽر وارن خلين، خاص ڪري helper T خلين کي متاثر ڪري ٿو. Reverse transcriptase RNA کي DNA ۾ بدلائي ٿو ۽ integrase ان کي ميزبان DNA ۾ شامل ڪري ٿو. علاج وائرس جي واڌ کي دٻائي ٿو؛ محفوظ رت، جراثيم کان پاڪ اوزار ۽ محفوظ جنسي رويو بچاءَ ۾ مدد ڪن ٿا.",
+              "rubric": [
+                "بنيادي تصورن جي صحيح وضاحت (4 مارڪون)",
+                "بناوت ۽ ڪم جو لاڳاپو (3 مارڪون)",
+                "لاڳاپيل مثال ۽ استعمال (2 مارڪون)",
+                "ترتيب ۽ اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Evaluate the biological importance, applications and limitations of the concepts in Acellular Life.",
+          "modelAnswer": "Viruses are classified by host range, capsid shape, envelope and genome type. They may carry DNA or RNA, single- or double-stranded, and genomes may be segmented. Attachment proteins recognise specific host-cell receptors, determining host range and tissue tropism. Outside a host, virions are inert particles; some persist in protected forms or environmental reservoirs until they encounter a suitable cell.\n\nIn the lytic cycle a bacteriophage attaches to a bacterium, injects its genome, directs synthesis of viral components, assembles new particles and lyses the cell to release them. In lysogeny, phage DNA integrates into the bacterial chromosome as a prophage and is copied with the host DNA. Stress can trigger induction into the lytic cycle. Phages are also tools in molecular genetics and bacterial control research.\n\nHIV is an enveloped retrovirus that targets cells bearing CD4 receptors, especially helper T lymphocytes. Reverse transcriptase converts viral RNA into DNA; integrase inserts it into host DNA. New virions assemble and bud from the cell. Progressive loss of immune function can lead to AIDS and opportunistic infections. Antiretroviral therapy suppresses viral replication. Prevention includes screened blood, sterile injection equipment, barrier protection and prevention of parent-to-child transmission; ordinary social contact does not transmit HIV.\n\nViral diseases include hepatitis C, herpes, polio and cotton leaf curl disease; transmission routes and prevention differ by virus. Vaccines prevent several viral infections, while antibiotics do not treat viruses. Viroids are small infectious RNA molecules without a protein coat, mainly affecting plants. Prions are misfolded infectious proteins that induce abnormal folding of normal proteins and cause transmissible spongiform encephalopathies. Public-health control relies on surveillance, vaccination where available, hygiene and targeted prevention.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Evaluation of significance and limitations (3 marks)",
+            "Examples or real-world applications (2 marks)",
+            "Clear structure (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Acellular Life کے تصورات کی حیاتیاتی اہمیت، اطلاقات اور حدود کا جائزہ لیں۔",
+              "modelAnswer": "وائرس کی درجہ بندی میزبان، کیپسڈ کی شکل، غلاف اور جینوم کی بنیاد پر ہوتی ہے۔ سطحی پروٹین مخصوص میزبان رسیپٹر پہچانتے ہیں، جس سے میزبان اور متاثر ہونے والے ٹشو کا تعین ہوتا ہے۔\n\nلائٹک سائیکل میں بیکٹیریوفیج بیکٹیریا سے جڑ کر جینوم داخل کرتا، نئے وائرس بناتا اور خلیہ پھاڑ کر خارج ہوتا ہے۔ لائسوجینی میں وائرل DNA بیکٹیریا کے کروموسوم میں شامل ہو کر نقل ہوتا رہتا ہے۔\n\nHIV ایک ریٹرو وائرس ہے جو CD4 رسیپٹر والے خلیوں، خصوصاً helper T cells، کو متاثر کرتا ہے۔ Reverse transcriptase RNA کو DNA میں بدلتا ہے اور integrase اسے میزبان DNA میں شامل کرتا ہے۔ علاج وائرس کی افزائش دباتا ہے؛ محفوظ خون، جراثیم سے پاک آلات اور محفوظ جنسی رویہ بچاؤ میں مدد دیتے ہیں۔\n\nوائرل بیماریوں میں ہیپاٹائٹس C، ہرپس، پولیو اور کپاس کا لیف کرل شامل ہیں۔ اینٹی بایوٹکس وائرس کا علاج نہیں کرتیں۔ وائرائیڈ چھوٹے متعدی RNA ہوتے ہیں جبکہ پرائیون غلط تہہ شدہ متعدی پروٹین ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "اہمیت اور حدود کا جائزہ (3 نمبر)",
+                "مثالیں یا عملی اطلاقات (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Acellular Life جي تصورن جي حياتياتي اهميت، استعمالن ۽ حدن جو جائزو وٺو.",
+              "modelAnswer": "وائرس جي درجابندي ميزبان، ڪيپسڊ جي شڪل، غلاف ۽ جينوم موجب ٿئي ٿي. مٿاڇري جا پروٽين مخصوص ميزبان ري سيپٽر سڃاڻن ٿا، جنهن سان ميزبان ۽ متاثر ٿيندڙ ٽشو طئي ٿئي ٿو.\n\nلائٽڪ چڪر ۾ بيڪٽيريوفيج بيڪٽيريا سان ڳنڍجي جينوم داخل ڪري ٿو، نوان وائرس ٺاهي خليي کي ڦاڙي ٻاهر نڪري ٿو. لائيسوجيني ۾ وائرل DNA بيڪٽيريا جي ڪروموسوم ۾ شامل ٿي ان سان گڏ نقل ٿئي ٿو.\n\nHIV ريٽرو وائرس آهي، جيڪو CD4 ري سيپٽر وارن خلين، خاص ڪري helper T خلين کي متاثر ڪري ٿو. Reverse transcriptase RNA کي DNA ۾ بدلائي ٿو ۽ integrase ان کي ميزبان DNA ۾ شامل ڪري ٿو. علاج وائرس جي واڌ کي دٻائي ٿو؛ محفوظ رت، جراثيم کان پاڪ اوزار ۽ محفوظ جنسي رويو بچاءَ ۾ مدد ڪن ٿا.\n\nوائرل بيمارين ۾ هيپاٽائٽس C، هرپس، پوليو ۽ ڪپهه جو ليف ڪرل شامل آهن. اينٽي بايوٽڪ وائرس جو علاج نٿيون ڪن. وائرائڊ ننڍا وچڙندڙ RNA آهن، جڏهن ته پرائين غلط ويڙهيل وچڙندڙ پروٽين آهن.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "اهميت ۽ حدن جو جائزو (3 مارڪون)",
+                "مثالون يا عملي استعمال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

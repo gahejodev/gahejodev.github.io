@@ -1,0 +1,719 @@
+{
+  "id": "biology-xi-chapter-6-prokaryotes",
+  "title": "Biology XI — Chapter 6: Prokaryotes",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XI Chapter 6 — Prokaryotes (12 periods). Five structured lessons, 15 bilingual MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 6: Prokaryotes",
+      "description": "DCAR Sindh 2024, Grade XI, Chapter 6; 12 periods.",
+      "lessons": [
+        {
+          "title": "6.1 Domains and Evolution of Prokaryotes",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Domains and Evolution of Prokaryotes.\n\nProkaryotes are cellular organisms without a membrane-bound nucleus. The two domains are Bacteria and Archaea; the older kingdom Monera grouping is not a modern phylogenetic domain. Prokaryotes occur in soil, water, extreme environments and within other organisms. Their small size, rapid reproduction and metabolic diversity help them occupy many habitats. Archaea differ from bacteria in membrane lipids, cell-wall chemistry and molecular features.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "پروکاریوٹس ایسے خلیاتی جاندار ہیں جن میں جھلی والا مرکزہ نہیں ہوتا۔ دو ڈومین بیکٹیریا اور آرکیا ہیں؛ مونیرا پرانی درجہ بندی ہے۔ یہ مٹی، پانی، سخت ماحول اور دوسرے جانداروں میں پائے جاتے ہیں۔",
+            "sd": "پروڪاريوٽس اهڙا خلوي جاندار آهن، جن ۾ جھلي وارو مرڪز ناهي. ٻه ڊومين بيڪٽيريا ۽ آرڪيا آهن؛ مونييرا پراڻي درجابندي آهي. اهي مٽي، پاڻي، سخت ماحول ۽ ٻين جاندارن ۾ ملن ٿا."
+          }
+        },
+        {
+          "title": "6.2 Bacterial Cell Structure and Diversity",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Bacterial Cell Structure and Diversity.\n\nA typical bacterial cell has a plasma membrane, cytoplasm, 70S ribosomes and a nucleoid containing usually circular DNA; plasmids may carry additional genes. Many have a peptidoglycan cell wall, capsule or slime layer, and flagella or pili. Cocci are spherical, bacilli rod-shaped and spirilla helical. Gram-positive bacteria have thick peptidoglycan; Gram-negative bacteria have a thinner layer and an outer membrane containing lipopolysaccharide.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "عام بیکٹیریا میں پلازما جھلی، سائٹوپلازم، 70S رائبوسوم اور نیوکلیوئڈ میں عموماً حلقوی DNA ہوتا ہے۔ پیپٹائڈوگلیکین دیوار، کیپسول، فلیجیلا اور پائلی بھی ہو سکتے ہیں۔ گرام مثبت میں موٹی اور گرام منفی میں پتلی پیپٹائڈوگلیکین تہہ اور بیرونی جھلی ہوتی ہے۔",
+            "sd": "عام بيڪٽيريا ۾ پلازما جھلي، سائٽوپلازم، 70S رائبوسوم ۽ نيوڪليوئڊ ۾ عام طور گول DNA هوندو آهي. پيپٽائيڊوگليڪن ڀت، ڪيپسول، فليجيلا ۽ پائلي به ٿي سگهن ٿا. گرام مثبت ۾ ٿلهي ۽ گرام منفي ۾ سنهي پيپٽائيڊوگليڪن تھه ۽ ٻاهرين جھلي هوندي آهي."
+          }
+        },
+        {
+          "title": "6.3 Nutrition and Energy in Bacteria",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Nutrition and Energy in Bacteria.\n\nBacteria obtain carbon and energy through diverse strategies. Photoautotrophs use light and CO2; chemoautotrophs obtain energy by oxidising inorganic substances and fix CO2. Photoheterotrophs use light but require organic carbon; chemoheterotrophs use organic compounds for both energy and carbon. Cyanobacteria perform oxygenic photosynthesis and release oxygen; other photosynthetic bacteria may use electron donors such as hydrogen sulfide and do not release oxygen.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "بیکٹیریا توانائی اور کاربن مختلف طریقوں سے حاصل کرتے ہیں۔ فوٹو آٹوٹروف روشنی اور CO2، کیمو آٹوٹروف غیر نامیاتی مادوں کے آکسیڈیشن، جبکہ ہیٹروٹروف نامیاتی مادے استعمال کرتے ہیں۔ سائانو بیکٹیریا آکسیجن پیدا کرنے والی ضیائی تالیف کرتے ہیں۔",
+            "sd": "بيڪٽيريا توانائي ۽ ڪاربان مختلف طريقن سان حاصل ڪن ٿا. فوٽو آٽوٽروف روشني ۽ CO2، ڪيمو آٽوٽروف غير نامياتي مادن جي آڪسائيڊيشن، جڏهن ته هيٽروٽروف نامياتي مادا استعمال ڪن ٿا. سائانو بيڪٽيريا آڪسيجن پيدا ڪندڙ ضيائي ترڪيب ڪن ٿا."
+          }
+        },
+        {
+          "title": "6.4 Growth, Reproduction and Survival",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Growth, Reproduction and Survival.\n\nBacteria commonly reproduce by binary fission, in which DNA replicates and the cell divides. Conjugation, transformation and transduction transfer genes between cells but are not themselves reproduction. Under stress some bacteria form resistant endospores. In a closed culture, bacterial growth often passes through lag, log, stationary and death phases. Plasmids and mutations contribute to genetic variation and adaptation.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "بیکٹیریا عموماً بائنری فشن سے افزائش کرتے ہیں۔ کنجوگیشن، ٹرانسفارمیشن اور ٹرانسڈکشن جین منتقل کرتے ہیں مگر خود افزائش نہیں۔ ناموافق حالات میں بعض بیکٹیریا مزاحم اینڈوسپور بناتے ہیں۔ بند کلچر میں نمو کے lag، log، stationary اور death مراحل ہوتے ہیں۔",
+            "sd": "بيڪٽيريا عام طور بائنري فشن سان وڌن ٿا. ڪنجوگيشن، ٽرانسفارميشن ۽ ٽرانسڊڪشن جين منتقل ڪن ٿا، پر پاڻ پيدائش ناهن. خراب حالتن ۾ ڪجهه بيڪٽيريا مزاحم اينڊوسپور ٺاهين ٿا. بند ڪلچر ۾ واڌ جا lag، log، stationary ۽ death مرحلا ٿين ٿا."
+          }
+        },
+        {
+          "title": "6.5 Ecological, Human and Economic Importance",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the key concepts and mechanisms in Ecological, Human and Economic Importance.\n\nBacteria decompose organic matter, recycle nutrients, fix nitrogen and support digestion and vitamin production in humans. They are used in food fermentation, biotechnology and research. Some cause diseases such as cholera, typhoid and tuberculosis; plant pathogens cause spots, blights, wilts and rots. Control methods include sanitation, safe water, food hygiene, disinfection, appropriate sterilisation and antibiotics when clinically indicated. Normal human flora can protect against pathogens, aid digestion and support immune development.\n\n**Key terms:** Review the scientific terms introduced in this lesson and connect structure with function.\n\n**Check your understanding:** Explain one mechanism from this lesson using a labelled sequence or comparison.",
+          "explanations": {
+            "ur": "بیکٹیریا نامیاتی مادے گلانے، غذائی اجزا کے چکر، نائٹروجن فکسیشن اور انسانی ہاضمے میں مدد دیتے ہیں۔ کچھ ہیضہ، ٹائیفائیڈ اور ٹی بی جیسی بیماریاں پیدا کرتے ہیں۔ صفائی، محفوظ پانی، جراثیم کشی اور ضرورت کے مطابق اینٹی بایوٹکس کنٹرول کے طریقے ہیں۔",
+            "sd": "بيڪٽيريا نامياتي مادا ٽوڙڻ، غذائي جزن جي چڪر، نائٽروجن فڪسيشن ۽ انساني هاضمي ۾ مدد ڪن ٿا. ڪجهه ڪالرا، ٽائيفائيڊ ۽ ٽي بي جهڙيون بيماريون پيدا ڪن ٿا. صفائي، محفوظ پاڻي، جراثيم ڪشي ۽ ضرورت موجب اينٽي بايوٽڪ ڪنٽرول جا طريقا آهن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "The two modern prokaryotic domains are:",
+          "options": {
+            "A": "Bacteria and Archaea",
+            "B": "Plants and Animals",
+            "C": "Fungi and Protists",
+            "D": "Viruses and Viroids"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Bacteria and Archaea are the two domains of prokaryotes.",
+              "options": {
+                "A": "بیکٹیریا اور آرکیا",
+                "B": "پودے اور جانور",
+                "C": "فنجائی اور پروٹسٹس",
+                "D": "وائرس اور وائرائیڈز"
+              },
+              "explanation": "درست جواب: بیکٹیریا اور آرکیا۔ A"
+            },
+            "sd": {
+              "question": "پروکاریوٹس کے دو جدید ڈومین کون سے ہیں؟",
+              "options": {
+                "A": "بيڪٽيريا ۽ آرڪيا",
+                "B": "Plants and Animals",
+                "C": "Fungi and Protists",
+                "D": "Viruses and Viroids"
+              },
+              "explanation": "صحيح جواب: بيڪٽيريا ۽ آرڪيا۔ A"
+            }
+          }
+        },
+        {
+          "question": "The bacterial chromosome is usually found in the:",
+          "options": {
+            "A": "Nucleus",
+            "B": "Golgi apparatus",
+            "C": "Mitochondrion",
+            "D": "Nucleoid"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "The nucleoid is a non-membrane-bound DNA region.",
+              "options": {
+                "A": "مرکزہ",
+                "B": "گولجی اپریٹس",
+                "C": "مائٹوکانڈریا",
+                "D": "نیوکلیوئڈ"
+              },
+              "explanation": "درست جواب: نیوکلیوئڈ۔ A"
+            },
+            "sd": {
+              "question": "بیکٹیریا کا کروموسوم عموماً کہاں ہوتا ہے؟",
+              "options": {
+                "A": "Nucleus",
+                "B": "Golgi apparatus",
+                "C": "Mitochondrion",
+                "D": "نيوڪليوئڊ"
+              },
+              "explanation": "صحيح جواب: نيوڪليوئڊ۔ A"
+            }
+          }
+        },
+        {
+          "question": "The main structural material of most bacterial cell walls is:",
+          "options": {
+            "A": "Chitin",
+            "B": "Silica",
+            "C": "Peptidoglycan",
+            "D": "Cellulose"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Peptidoglycan provides strength to most bacterial cell walls.",
+              "options": {
+                "A": "کائٹن",
+                "B": "سلیکا",
+                "C": "پیپٹائڈوگلیکین",
+                "D": "سیلولوز"
+              },
+              "explanation": "درست جواب: پیپٹائڈوگلیکین۔ A"
+            },
+            "sd": {
+              "question": "زیادہ تر بیکٹیریا کی دیوار کس مادے سے بنتی ہے؟",
+              "options": {
+                "A": "ڪائٽن",
+                "B": "Silica",
+                "C": "پيپٽائيڊوگليڪن",
+                "D": "Cellulose"
+              },
+              "explanation": "صحيح جواب: پيپٽائيڊوگليڪن۔ A"
+            }
+          }
+        },
+        {
+          "question": "Gram-positive bacteria have:",
+          "options": {
+            "A": "Cellulose wall",
+            "B": "Thick peptidoglycan",
+            "C": "No cell wall in all cases",
+            "D": "Outer membrane with LPS"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Gram-positive cells have a thick peptidoglycan layer.",
+              "options": {
+                "A": "سیلولوز کی دیوار",
+                "B": "موٹی پیپٹائڈوگلیکین تہہ",
+                "C": "ہر صورت میں خلوی دیوار نہیں",
+                "D": "LPS والی بیرونی جھلی"
+              },
+              "explanation": "درست جواب: موٹی پیپٹائڈوگلیکین تہہ۔ A"
+            },
+            "sd": {
+              "question": "گرام مثبت بیکٹیریا میں کیا خصوصیت ہوتی ہے؟",
+              "options": {
+                "A": "Cellulose wall",
+                "B": "Thick peptidoglycan",
+                "C": "No cell wall in all cases",
+                "D": "Outer membrane with LPS"
+              },
+              "explanation": "صحيح جواب: Thick peptidoglycan۔ A"
+            }
+          }
+        },
+        {
+          "question": "Spherical bacteria are called:",
+          "options": {
+            "A": "Cocci",
+            "B": "Bacilli",
+            "C": "Spirilla",
+            "D": "Vibrios"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Cocci are spherical or round bacterial forms.",
+              "options": {
+                "A": "کوکائی",
+                "B": "بیسلی",
+                "C": "اسپائریلا",
+                "D": "وائبریو"
+              },
+              "explanation": "درست جواب: کوکائی۔ A"
+            },
+            "sd": {
+              "question": "گول شکل کے بیکٹیریا کیا کہلاتے ہیں؟",
+              "options": {
+                "A": "ڪوڪائي",
+                "B": "بيسيلي",
+                "C": "Spirilla",
+                "D": "Vibrios"
+              },
+              "explanation": "صحيح جواب: ڪوڪائي۔ A"
+            }
+          }
+        },
+        {
+          "question": "Rod-shaped bacteria are called:",
+          "options": {
+            "A": "Cocci",
+            "B": "Spirilla",
+            "C": "Hyphae",
+            "D": "Bacilli"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Bacilli are rod-shaped bacteria.",
+              "options": {
+                "A": "کوکائی",
+                "B": "اسپائریلا",
+                "C": "ہائفے",
+                "D": "بیسلی"
+              },
+              "explanation": "درست جواب: بیسلی۔ A"
+            },
+            "sd": {
+              "question": "سلاخ نما بیکٹیریا کیا کہلاتے ہیں؟",
+              "options": {
+                "A": "ڪوڪائي",
+                "B": "Spirilla",
+                "C": "Hyphae",
+                "D": "بيسيلي"
+              },
+              "explanation": "صحيح جواب: بيسيلي۔ A"
+            }
+          }
+        },
+        {
+          "question": "Cyanobacteria perform:",
+          "options": {
+            "A": "Chemosynthesis only",
+            "B": "No metabolism",
+            "C": "Oxygenic photosynthesis",
+            "D": "Alcoholic fermentation only"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Cyanobacteria use water as an electron donor and release oxygen.",
+              "options": {
+                "A": "صرف کیمیائی تالیف",
+                "B": "میٹابولزم نہیں",
+                "C": "آکسیجن پیدا کرنے والی ضیائی تالیف",
+                "D": "صرف الکحل فرمنٹیشن"
+              },
+              "explanation": "درست جواب: آکسیجن پیدا کرنے والی ضیائی تالیف۔ A"
+            },
+            "sd": {
+              "question": "سائانو بیکٹیریا کون سا عمل کرتے ہیں؟",
+              "options": {
+                "A": "Chemosynthesis only",
+                "B": "No metabolism",
+                "C": "آڪسيجن پيدا ڪندڙ ضيائي ترڪيب",
+                "D": "Alcoholic fermentation only"
+              },
+              "explanation": "صحيح جواب: آڪسيجن پيدا ڪندڙ ضيائي ترڪيب۔ A"
+            }
+          }
+        },
+        {
+          "question": "A chemoautotroph obtains energy mainly by:",
+          "options": {
+            "A": "Fermenting cellulose only",
+            "B": "Oxidising inorganic substances",
+            "C": "Eating other cells",
+            "D": "Absorbing sunlight only"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Chemoautotrophs oxidise inorganic compounds for energy.",
+              "options": {
+                "A": "صرف سیلولوز فرمنٹ کرنا",
+                "B": "غیر نامیاتی مادوں کا آکسیڈیشن",
+                "C": "دوسرے خلیے کھانا",
+                "D": "صرف سورج کی روشنی جذب کرنا"
+              },
+              "explanation": "درست جواب: غیر نامیاتی مادوں کا آکسیڈیشن۔ A"
+            },
+            "sd": {
+              "question": "کیمو آٹوٹروف توانائی کیسے حاصل کرتا ہے؟",
+              "options": {
+                "A": "Fermenting cellulose only",
+                "B": "Oxidising inorganic substances",
+                "C": "Eating other cells",
+                "D": "Absorbing sunlight only"
+              },
+              "explanation": "صحيح جواب: Oxidising inorganic substances۔ A"
+            }
+          }
+        },
+        {
+          "question": "The common asexual reproduction method in bacteria is:",
+          "options": {
+            "A": "Binary fission",
+            "B": "Meiosis",
+            "C": "Budding of spores only",
+            "D": "Pollination"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Binary fission produces two daughter cells.",
+              "options": {
+                "A": "بائنری فشن",
+                "B": "میوسس",
+                "C": "صرف اسپور کی کلی بننا",
+                "D": "زیرگی"
+              },
+              "explanation": "درست جواب: بائنری فشن۔ A"
+            },
+            "sd": {
+              "question": "بیکٹیریا میں عام غیر جنسی افزائش کیا ہے؟",
+              "options": {
+                "A": "بائنري فشن",
+                "B": "Meiosis",
+                "C": "Budding of spores only",
+                "D": "Pollination"
+              },
+              "explanation": "صحيح جواب: بائنري فشن۔ A"
+            }
+          }
+        },
+        {
+          "question": "An endospore mainly helps a bacterium to:",
+          "options": {
+            "A": "Make ATP faster",
+            "B": "Perform photosynthesis",
+            "C": "Move by cilia",
+            "D": "Survive harsh conditions"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Endospores are resistant survival structures.",
+              "options": {
+                "A": "ATP تیزی سے بنانا",
+                "B": "ضیائی تالیف کرنا",
+                "C": "سیلیا سے حرکت کرنا",
+                "D": "سخت حالات میں زندہ رہنا"
+              },
+              "explanation": "درست جواب: سخت حالات میں زندہ رہنا۔ A"
+            },
+            "sd": {
+              "question": "اینڈوسپور بیکٹیریا کی کس طرح مدد کرتا ہے؟",
+              "options": {
+                "A": "Make ATP faster",
+                "B": "Perform photosynthesis",
+                "C": "Move by cilia",
+                "D": "Survive harsh conditions"
+              },
+              "explanation": "صحيح جواب: Survive harsh conditions۔ A"
+            }
+          }
+        },
+        {
+          "question": "The rapid exponential phase of bacterial growth is the:",
+          "options": {
+            "A": "Stationary phase",
+            "B": "Death phase",
+            "C": "Log phase",
+            "D": "Lag phase"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Cells divide rapidly during the log phase.",
+              "options": {
+                "A": "اسٹیشنری مرحلہ",
+                "B": "موت کا مرحلہ",
+                "C": "لاگ مرحلہ",
+                "D": "لیگ مرحلہ"
+              },
+              "explanation": "درست جواب: لاگ مرحلہ۔ A"
+            },
+            "sd": {
+              "question": "بیکٹیریا کی تیز افزائش کا مرحلہ کون سا ہے؟",
+              "options": {
+                "A": "Stationary phase",
+                "B": "Death phase",
+                "C": "لاگ مرحلو",
+                "D": "Lag phase"
+              },
+              "explanation": "صحيح جواب: لاگ مرحلو۔ A"
+            }
+          }
+        },
+        {
+          "question": "Conjugation transfers DNA commonly through:",
+          "options": {
+            "A": "Photosystems",
+            "B": "Direct cell-to-cell contact",
+            "C": "Airborne spores",
+            "D": "Mitosis"
+          },
+          "correctOption": "B",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Conjugation commonly involves transfer through a pilus or contact bridge.",
+              "options": {
+                "A": "فوٹو سسٹمز",
+                "B": "خلیوں کا براہ راست رابطہ",
+                "C": "ہوا میں موجود اسپور",
+                "D": "مائٹوسس"
+              },
+              "explanation": "درست جواب: خلیوں کا براہ راست رابطہ۔ A"
+            },
+            "sd": {
+              "question": "کنجوگیشن میں DNA عموماً کیسے منتقل ہوتا ہے؟",
+              "options": {
+                "A": "Photosystems",
+                "B": "Direct cell-to-cell contact",
+                "C": "Airborne spores",
+                "D": "Mitosis"
+              },
+              "explanation": "صحيح جواب: Direct cell-to-cell contact۔ A"
+            }
+          }
+        },
+        {
+          "question": "Normal human bacterial flora can:",
+          "options": {
+            "A": "Help prevent pathogen colonisation",
+            "B": "Always cause disease",
+            "C": "Replace all immune cells",
+            "D": "Stop digestion"
+          },
+          "correctOption": "A",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Normal flora compete with pathogens and support host functions.",
+              "options": {
+                "A": "مرض زا جراثیم کے قیام کو روکنے میں مدد",
+                "B": "ہمیشہ بیماری پیدا کرنا",
+                "C": "تمام مدافعتی خلیوں کی جگہ لینا",
+                "D": "ہاضمہ روکنا"
+              },
+              "explanation": "درست جواب: مرض زا جراثیم کے قیام کو روکنے میں مدد۔ A"
+            },
+            "sd": {
+              "question": "انسانی نارمل فلورا کیا فائدہ دے سکتا ہے؟",
+              "options": {
+                "A": "Help prevent pathogen colonisation",
+                "B": "Always cause disease",
+                "C": "Replace all immune cells",
+                "D": "Stop digestion"
+              },
+              "explanation": "صحيح جواب: Help prevent pathogen colonisation۔ A"
+            }
+          }
+        },
+        {
+          "question": "Which disease is caused by a bacterium?",
+          "options": {
+            "A": "Polio",
+            "B": "Herpes",
+            "C": "Hepatitis C",
+            "D": "Tuberculosis"
+          },
+          "correctOption": "D",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Tuberculosis is caused by Mycobacterium tuberculosis.",
+              "options": {
+                "A": "پولیو",
+                "B": "ہرپس",
+                "C": "ہیپاٹائٹس C",
+                "D": "تپ دق"
+              },
+              "explanation": "درست جواب: تپ دق۔ A"
+            },
+            "sd": {
+              "question": "کون سی بیماری بیکٹیریا سے ہوتی ہے؟",
+              "options": {
+                "A": "Polio",
+                "B": "Herpes",
+                "C": "Hepatitis C",
+                "D": "ٽي بي"
+              },
+              "explanation": "صحيح جواب: ٽي بي۔ A"
+            }
+          }
+        },
+        {
+          "question": "Bacteria are important recyclers because they:",
+          "options": {
+            "A": "Produce only viruses",
+            "B": "Lack enzymes",
+            "C": "Decompose organic matter",
+            "D": "Stop nutrient cycling"
+          },
+          "correctOption": "C",
+          "explanation": "A",
+          "translations": {
+            "ur": {
+              "question": "Decomposition returns nutrients to ecosystems.",
+              "options": {
+                "A": "صرف وائرس بنانا",
+                "B": "انزائم کی کمی",
+                "C": "نامیاتی مادہ گلانا",
+                "D": "غذائی چکر روکنا"
+              },
+              "explanation": "درست جواب: نامیاتی مادہ گلانا۔ A"
+            },
+            "sd": {
+              "question": "بیکٹیریا قدرتی ری سائیکلر کیوں ہیں؟",
+              "options": {
+                "A": "Produce only viruses",
+                "B": "Lack enzymes",
+                "C": "Decompose organic matter",
+                "D": "Stop nutrient cycling"
+              },
+              "explanation": "صحيح جواب: Decompose organic matter۔ A"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define the central concept of Prokaryotes and explain two important features.",
+          "modelAnswer": "Prokaryotes are cellular organisms without a membrane-bound nucleus. The two domains are Bacteria and Archaea; the older kingdom Monera grouping is not a modern phylogenetic domain. Prokaryotes occur in soil, water, extreme environments and within other organisms.",
+          "rubric": [
+            "Correct definition and core concept (2 marks)",
+            "Two accurate features or examples (2 marks)",
+            "Clear scientific terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Prokaryotes کے بنیادی تصور کی تعریف کریں اور دو اہم خصوصیات بیان کریں۔",
+              "modelAnswer": "پروکاریوٹس ایسے خلیاتی جاندار ہیں جن میں جھلی والا مرکزہ نہیں ہوتا۔ دو ڈومین بیکٹیریا اور آرکیا ہیں؛ مونیرا پرانی درجہ بندی ہے۔ یہ مٹی، پانی، سخت ماحول اور دوسرے جانداروں میں پائے جاتے ہیں۔",
+              "rubric": [
+                "درست تعریف اور بنیادی تصور (2 نمبر)",
+                "دو درست خصوصیات یا مثالیں (2 نمبر)",
+                "درست سائنسی اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Prokaryotes جي بنيادي تصور جي وصف ڏيو ۽ ٻه اهم خاصيتون بيان ڪريو.",
+              "modelAnswer": "پروڪاريوٽس اهڙا خلوي جاندار آهن، جن ۾ جھلي وارو مرڪز ناهي. ٻه ڊومين بيڪٽيريا ۽ آرڪيا آهن؛ مونييرا پراڻي درجابندي آهي. اهي مٽي، پاڻي، سخت ماحول ۽ ٻين جاندارن ۾ ملن ٿا.",
+              "rubric": [
+                "صحيح وصف ۽ بنيادي تصور (2 مارڪون)",
+                "ٻه صحيح خاصيتون يا مثالون (2 مارڪون)",
+                "صحيح سائنسي اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare two major groups or processes discussed in Prokaryotes.",
+          "modelAnswer": "A strong comparison identifies the defining structure or process of each group, explains at least two differences, and includes a relevant example. A typical bacterial cell has a plasma membrane, cytoplasm, 70S ribosomes and a nucleoid containing usually circular DNA; plasmids may carry additional genes. Many have a peptidoglycan cell wall, capsule or slime layer, and flagella or pili.",
+          "rubric": [
+            "Accurate description of both groups/processes (2 marks)",
+            "Two valid comparisons (2 marks)",
+            "Relevant example and clarity (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Prokaryotes میں بیان کردہ دو اہم گروہوں یا عمل کا موازنہ کریں۔",
+              "modelAnswer": "اچھے موازنے میں دونوں گروہوں یا عمل کی بنیادی ساخت/طریقہ بیان کیا جاتا ہے، کم از کم دو فرق لکھے جاتے ہیں اور مثال دی جاتی ہے۔ عام بیکٹیریا میں پلازما جھلی، سائٹوپلازم، 70S رائبوسوم اور نیوکلیوئڈ میں عموماً حلقوی DNA ہوتا ہے۔ پیپٹائڈوگلیکین دیوار، کیپسول، فلیجیلا اور پائلی بھی ہو سکتے ہیں۔ گرام مثبت میں موٹی اور گرام منفی میں پتلی پیپٹائڈوگلیکین تہہ اور بیرونی جھلی ہوتی ہے۔",
+              "rubric": [
+                "دونوں گروہوں/عمل کی درست وضاحت (2 نمبر)",
+                "دو درست موازنے (2 نمبر)",
+                "متعلقہ مثال اور وضاحت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Prokaryotes ۾ بيان ڪيل ٻن اهم گروهن يا عملن جو مقابلو ڪريو.",
+              "modelAnswer": "سٺي مقابلي ۾ ٻنهي گروهن يا عمل جي بنيادي بناوت/طريقي جي وضاحت، گهٽ ۾ گهٽ ٻه فرق ۽ هڪ مثال شامل هجي. عام بيڪٽيريا ۾ پلازما جھلي، سائٽوپلازم، 70S رائبوسوم ۽ نيوڪليوئڊ ۾ عام طور گول DNA هوندو آهي. پيپٽائيڊوگليڪن ڀت، ڪيپسول، فليجيلا ۽ پائلي به ٿي سگهن ٿا. گرام مثبت ۾ ٿلهي ۽ گرام منفي ۾ سنهي پيپٽائيڊوگليڪن تھه ۽ ٻاهرين جھلي هوندي آهي.",
+              "rubric": [
+                "ٻنهي گروهن/عملن جي صحيح وضاحت (2 مارڪون)",
+                "ٻه صحيح مقابلا (2 مارڪون)",
+                "لاڳاپيل مثال ۽ وضاحت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain one biological mechanism from Prokaryotes in a logical sequence.",
+          "modelAnswer": "Bacteria obtain carbon and energy through diverse strategies. Photoautotrophs use light and CO2; chemoautotrophs obtain energy by oxidising inorganic substances and fix CO2. Photoheterotrophs use light but require organic carbon; chemoheterotrophs use organic compounds for both energy and carbon. Cyanobacteria perform oxygenic photosynthesis and release oxygen; other photosynthetic bacteria may use electron donors such as hydrogen sulfide and do not release oxygen.",
+          "rubric": [
+            "Correct sequence of steps (2 marks)",
+            "Scientific explanation of mechanism (2 marks)",
+            "Correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Prokaryotes کے ایک حیاتیاتی طریقۂ کار کو منطقی ترتیب سے بیان کریں۔",
+              "modelAnswer": "بیکٹیریا توانائی اور کاربن مختلف طریقوں سے حاصل کرتے ہیں۔ فوٹو آٹوٹروف روشنی اور CO2، کیمو آٹوٹروف غیر نامیاتی مادوں کے آکسیڈیشن، جبکہ ہیٹروٹروف نامیاتی مادے استعمال کرتے ہیں۔ سائانو بیکٹیریا آکسیجن پیدا کرنے والی ضیائی تالیف کرتے ہیں۔",
+              "rubric": [
+                "مراحل کی درست ترتیب (2 نمبر)",
+                "طریقۂ کار کی سائنسی وضاحت (2 نمبر)",
+                "درست اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Prokaryotes جي هڪ حياتياتي طريقي کي منطقي ترتيب سان بيان ڪريو.",
+              "modelAnswer": "بيڪٽيريا توانائي ۽ ڪاربان مختلف طريقن سان حاصل ڪن ٿا. فوٽو آٽوٽروف روشني ۽ CO2، ڪيمو آٽوٽروف غير نامياتي مادن جي آڪسائيڊيشن، جڏهن ته هيٽروٽروف نامياتي مادا استعمال ڪن ٿا. سائانو بيڪٽيريا آڪسيجن پيدا ڪندڙ ضيائي ترڪيب ڪن ٿا.",
+              "rubric": [
+                "مرحلن جي صحيح ترتيب (2 مارڪون)",
+                "طريقي جي سائنسي وضاحت (2 مارڪون)",
+                "صحيح اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the structure, function and significance of the major systems or groups covered in Prokaryotes, using examples.",
+          "modelAnswer": "Prokaryotes are cellular organisms without a membrane-bound nucleus. The two domains are Bacteria and Archaea; the older kingdom Monera grouping is not a modern phylogenetic domain. Prokaryotes occur in soil, water, extreme environments and within other organisms. Their small size, rapid reproduction and metabolic diversity help them occupy many habitats. Archaea differ from bacteria in membrane lipids, cell-wall chemistry and molecular features.\n\nA typical bacterial cell has a plasma membrane, cytoplasm, 70S ribosomes and a nucleoid containing usually circular DNA; plasmids may carry additional genes. Many have a peptidoglycan cell wall, capsule or slime layer, and flagella or pili. Cocci are spherical, bacilli rod-shaped and spirilla helical. Gram-positive bacteria have thick peptidoglycan; Gram-negative bacteria have a thinner layer and an outer membrane containing lipopolysaccharide.\n\nBacteria obtain carbon and energy through diverse strategies. Photoautotrophs use light and CO2; chemoautotrophs obtain energy by oxidising inorganic substances and fix CO2. Photoheterotrophs use light but require organic carbon; chemoheterotrophs use organic compounds for both energy and carbon. Cyanobacteria perform oxygenic photosynthesis and release oxygen; other photosynthetic bacteria may use electron donors such as hydrogen sulfide and do not release oxygen.\n\nBacteria commonly reproduce by binary fission, in which DNA replicates and the cell divides. Conjugation, transformation and transduction transfer genes between cells but are not themselves reproduction. Under stress some bacteria form resistant endospores. In a closed culture, bacterial growth often passes through lag, log, stationary and death phases. Plasmids and mutations contribute to genetic variation and adaptation.",
+          "rubric": [
+            "Accurate coverage of core concepts (4 marks)",
+            "Explanation of structure-function relationships (3 marks)",
+            "Relevant examples and applications (2 marks)",
+            "Organisation and terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Prokaryotes میں شامل اہم نظاموں یا گروہوں کی ساخت، افعال اور اہمیت مثالوں کے ساتھ بیان کریں۔",
+              "modelAnswer": "پروکاریوٹس ایسے خلیاتی جاندار ہیں جن میں جھلی والا مرکزہ نہیں ہوتا۔ دو ڈومین بیکٹیریا اور آرکیا ہیں؛ مونیرا پرانی درجہ بندی ہے۔ یہ مٹی، پانی، سخت ماحول اور دوسرے جانداروں میں پائے جاتے ہیں۔\n\nعام بیکٹیریا میں پلازما جھلی، سائٹوپلازم، 70S رائبوسوم اور نیوکلیوئڈ میں عموماً حلقوی DNA ہوتا ہے۔ پیپٹائڈوگلیکین دیوار، کیپسول، فلیجیلا اور پائلی بھی ہو سکتے ہیں۔ گرام مثبت میں موٹی اور گرام منفی میں پتلی پیپٹائڈوگلیکین تہہ اور بیرونی جھلی ہوتی ہے۔\n\nبیکٹیریا توانائی اور کاربن مختلف طریقوں سے حاصل کرتے ہیں۔ فوٹو آٹوٹروف روشنی اور CO2، کیمو آٹوٹروف غیر نامیاتی مادوں کے آکسیڈیشن، جبکہ ہیٹروٹروف نامیاتی مادے استعمال کرتے ہیں۔ سائانو بیکٹیریا آکسیجن پیدا کرنے والی ضیائی تالیف کرتے ہیں۔\n\nبیکٹیریا عموماً بائنری فشن سے افزائش کرتے ہیں۔ کنجوگیشن، ٹرانسفارمیشن اور ٹرانسڈکشن جین منتقل کرتے ہیں مگر خود افزائش نہیں۔ ناموافق حالات میں بعض بیکٹیریا مزاحم اینڈوسپور بناتے ہیں۔ بند کلچر میں نمو کے lag، log، stationary اور death مراحل ہوتے ہیں۔",
+              "rubric": [
+                "بنیادی تصورات کی درست وضاحت (4 نمبر)",
+                "ساخت اور فعل کا تعلق (3 نمبر)",
+                "متعلقہ مثالیں اور اطلاقات (2 نمبر)",
+                "ترتیب اور اصطلاحات (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Prokaryotes ۾ شامل اهم نظامن يا گروهن جي بناوت، ڪم ۽ اهميت مثالن سان بيان ڪريو.",
+              "modelAnswer": "پروڪاريوٽس اهڙا خلوي جاندار آهن، جن ۾ جھلي وارو مرڪز ناهي. ٻه ڊومين بيڪٽيريا ۽ آرڪيا آهن؛ مونييرا پراڻي درجابندي آهي. اهي مٽي، پاڻي، سخت ماحول ۽ ٻين جاندارن ۾ ملن ٿا.\n\nعام بيڪٽيريا ۾ پلازما جھلي، سائٽوپلازم، 70S رائبوسوم ۽ نيوڪليوئڊ ۾ عام طور گول DNA هوندو آهي. پيپٽائيڊوگليڪن ڀت، ڪيپسول، فليجيلا ۽ پائلي به ٿي سگهن ٿا. گرام مثبت ۾ ٿلهي ۽ گرام منفي ۾ سنهي پيپٽائيڊوگليڪن تھه ۽ ٻاهرين جھلي هوندي آهي.\n\nبيڪٽيريا توانائي ۽ ڪاربان مختلف طريقن سان حاصل ڪن ٿا. فوٽو آٽوٽروف روشني ۽ CO2، ڪيمو آٽوٽروف غير نامياتي مادن جي آڪسائيڊيشن، جڏهن ته هيٽروٽروف نامياتي مادا استعمال ڪن ٿا. سائانو بيڪٽيريا آڪسيجن پيدا ڪندڙ ضيائي ترڪيب ڪن ٿا.\n\nبيڪٽيريا عام طور بائنري فشن سان وڌن ٿا. ڪنجوگيشن، ٽرانسفارميشن ۽ ٽرانسڊڪشن جين منتقل ڪن ٿا، پر پاڻ پيدائش ناهن. خراب حالتن ۾ ڪجهه بيڪٽيريا مزاحم اينڊوسپور ٺاهين ٿا. بند ڪلچر ۾ واڌ جا lag، log، stationary ۽ death مرحلا ٿين ٿا.",
+              "rubric": [
+                "بنيادي تصورن جي صحيح وضاحت (4 مارڪون)",
+                "بناوت ۽ ڪم جو لاڳاپو (3 مارڪون)",
+                "لاڳاپيل مثال ۽ استعمال (2 مارڪون)",
+                "ترتيب ۽ اصطلاحون (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Evaluate the biological importance, applications and limitations of the concepts in Prokaryotes.",
+          "modelAnswer": "A typical bacterial cell has a plasma membrane, cytoplasm, 70S ribosomes and a nucleoid containing usually circular DNA; plasmids may carry additional genes. Many have a peptidoglycan cell wall, capsule or slime layer, and flagella or pili. Cocci are spherical, bacilli rod-shaped and spirilla helical. Gram-positive bacteria have thick peptidoglycan; Gram-negative bacteria have a thinner layer and an outer membrane containing lipopolysaccharide.\n\nBacteria obtain carbon and energy through diverse strategies. Photoautotrophs use light and CO2; chemoautotrophs obtain energy by oxidising inorganic substances and fix CO2. Photoheterotrophs use light but require organic carbon; chemoheterotrophs use organic compounds for both energy and carbon. Cyanobacteria perform oxygenic photosynthesis and release oxygen; other photosynthetic bacteria may use electron donors such as hydrogen sulfide and do not release oxygen.\n\nBacteria commonly reproduce by binary fission, in which DNA replicates and the cell divides. Conjugation, transformation and transduction transfer genes between cells but are not themselves reproduction. Under stress some bacteria form resistant endospores. In a closed culture, bacterial growth often passes through lag, log, stationary and death phases. Plasmids and mutations contribute to genetic variation and adaptation.\n\nBacteria decompose organic matter, recycle nutrients, fix nitrogen and support digestion and vitamin production in humans. They are used in food fermentation, biotechnology and research. Some cause diseases such as cholera, typhoid and tuberculosis; plant pathogens cause spots, blights, wilts and rots. Control methods include sanitation, safe water, food hygiene, disinfection, appropriate sterilisation and antibiotics when clinically indicated. Normal human flora can protect against pathogens, aid digestion and support immune development.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Evaluation of significance and limitations (3 marks)",
+            "Examples or real-world applications (2 marks)",
+            "Clear structure (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Prokaryotes کے تصورات کی حیاتیاتی اہمیت، اطلاقات اور حدود کا جائزہ لیں۔",
+              "modelAnswer": "عام بیکٹیریا میں پلازما جھلی، سائٹوپلازم، 70S رائبوسوم اور نیوکلیوئڈ میں عموماً حلقوی DNA ہوتا ہے۔ پیپٹائڈوگلیکین دیوار، کیپسول، فلیجیلا اور پائلی بھی ہو سکتے ہیں۔ گرام مثبت میں موٹی اور گرام منفی میں پتلی پیپٹائڈوگلیکین تہہ اور بیرونی جھلی ہوتی ہے۔\n\nبیکٹیریا توانائی اور کاربن مختلف طریقوں سے حاصل کرتے ہیں۔ فوٹو آٹوٹروف روشنی اور CO2، کیمو آٹوٹروف غیر نامیاتی مادوں کے آکسیڈیشن، جبکہ ہیٹروٹروف نامیاتی مادے استعمال کرتے ہیں۔ سائانو بیکٹیریا آکسیجن پیدا کرنے والی ضیائی تالیف کرتے ہیں۔\n\nبیکٹیریا عموماً بائنری فشن سے افزائش کرتے ہیں۔ کنجوگیشن، ٹرانسفارمیشن اور ٹرانسڈکشن جین منتقل کرتے ہیں مگر خود افزائش نہیں۔ ناموافق حالات میں بعض بیکٹیریا مزاحم اینڈوسپور بناتے ہیں۔ بند کلچر میں نمو کے lag، log، stationary اور death مراحل ہوتے ہیں۔\n\nبیکٹیریا نامیاتی مادے گلانے، غذائی اجزا کے چکر، نائٹروجن فکسیشن اور انسانی ہاضمے میں مدد دیتے ہیں۔ کچھ ہیضہ، ٹائیفائیڈ اور ٹی بی جیسی بیماریاں پیدا کرتے ہیں۔ صفائی، محفوظ پانی، جراثیم کشی اور ضرورت کے مطابق اینٹی بایوٹکس کنٹرول کے طریقے ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "اہمیت اور حدود کا جائزہ (3 نمبر)",
+                "مثالیں یا عملی اطلاقات (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Prokaryotes جي تصورن جي حياتياتي اهميت، استعمالن ۽ حدن جو جائزو وٺو.",
+              "modelAnswer": "عام بيڪٽيريا ۾ پلازما جھلي، سائٽوپلازم، 70S رائبوسوم ۽ نيوڪليوئڊ ۾ عام طور گول DNA هوندو آهي. پيپٽائيڊوگليڪن ڀت، ڪيپسول، فليجيلا ۽ پائلي به ٿي سگهن ٿا. گرام مثبت ۾ ٿلهي ۽ گرام منفي ۾ سنهي پيپٽائيڊوگليڪن تھه ۽ ٻاهرين جھلي هوندي آهي.\n\nبيڪٽيريا توانائي ۽ ڪاربان مختلف طريقن سان حاصل ڪن ٿا. فوٽو آٽوٽروف روشني ۽ CO2، ڪيمو آٽوٽروف غير نامياتي مادن جي آڪسائيڊيشن، جڏهن ته هيٽروٽروف نامياتي مادا استعمال ڪن ٿا. سائانو بيڪٽيريا آڪسيجن پيدا ڪندڙ ضيائي ترڪيب ڪن ٿا.\n\nبيڪٽيريا عام طور بائنري فشن سان وڌن ٿا. ڪنجوگيشن، ٽرانسفارميشن ۽ ٽرانسڊڪشن جين منتقل ڪن ٿا، پر پاڻ پيدائش ناهن. خراب حالتن ۾ ڪجهه بيڪٽيريا مزاحم اينڊوسپور ٺاهين ٿا. بند ڪلچر ۾ واڌ جا lag، log، stationary ۽ death مرحلا ٿين ٿا.\n\nبيڪٽيريا نامياتي مادا ٽوڙڻ، غذائي جزن جي چڪر، نائٽروجن فڪسيشن ۽ انساني هاضمي ۾ مدد ڪن ٿا. ڪجهه ڪالرا، ٽائيفائيڊ ۽ ٽي بي جهڙيون بيماريون پيدا ڪن ٿا. صفائي، محفوظ پاڻي، جراثيم ڪشي ۽ ضرورت موجب اينٽي بايوٽڪ ڪنٽرول جا طريقا آهن.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "اهميت ۽ حدن جو جائزو (3 مارڪون)",
+                "مثالون يا عملي استعمال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
