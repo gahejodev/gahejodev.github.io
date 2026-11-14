@@ -312,8 +312,9 @@
                 "A": "Lymph filter ڪرڻ ۽ مدافعتي جواب جي جاءِ ڏيڻ",
                 "B": "Bile ٺاهڻ",
                 "C": "رت پمپ ڪرڻ",
-                "D": "Lymph nodes، lymph filter ڪن ٿا ۽ immune cells کي فعال ٿيڻ جي جاءِ ڏين ٿا۔"
-              }
+                "D": "پيشاب ٺاهڻ"
+              },
+              "explanation": "Lymph nodes، lymph کي filter ڪن ٿا ۽ immune cells کي فعال ٿيڻ جي جاءِ ڏين ٿا۔"
             }
           }
         },
