@@ -162,7 +162,7 @@ async function ensureUrduPiper(){
   ttsStatus.textContent="Browser ONNX runtime aur Urdu phonemizer load ho rahe hain…";
   await loadClassicScript("https://cdn.jsdelivr.net/npm/onnxruntime-web@1.26.0/dist/ort.wasm.min.js");
   await loadClassicScript("https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-wasm@1.0.0/build/piper_phonemize.js");
-  await loadClassicScript("./urdu-piper-browser.js?v=tts-stage-2");
+  await loadClassicScript("./urdu-piper-browser.js?v=tts-persistent-cache-1");
   if(!window.ZeerozPiper)throw new Error("Urdu Piper browser engine did not initialize.");
   await window.ZeerozPiper.getPhonemizer();
   return window.ZeerozPiper;
