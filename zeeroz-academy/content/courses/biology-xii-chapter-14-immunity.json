@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-14-immunity",
+  "title": "Biology XII — Chapter 14: Immunity",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 14 — Immunity (18 periods). Five structured lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 14,
+    "periods": 18,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 14: Immunity",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 14; 18 periods.",
+      "lessons": [
+        {
+          "title": "14.1 First line of defence",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain first line of defence and relate its structure or mechanism to biological function.\n\nSkin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔",
+            "sd": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن."
+          }
+        },
+        {
+          "title": "14.2 Innate cellular defence",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain innate cellular defence and relate its structure or mechanism to biological function.\n\nNeutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔",
+            "sd": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا."
+          }
+        },
+        {
+          "title": "14.3 Inflammation and complement",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain inflammation and complement and relate its structure or mechanism to biological function.\n\nInflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+            "sd": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا."
+          }
+        },
+        {
+          "title": "14.4 Adaptive immunity",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain adaptive immunity and relate its structure or mechanism to biological function.\n\nB lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔",
+            "sd": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا."
+          }
+        },
+        {
+          "title": "14.5 Vaccination, allergy and autoimmunity",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain vaccination, allergy and autoimmunity and relate its structure or mechanism to biological function.\n\nVaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔",
+            "sd": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains first line of defence?",
+          "options": {
+            "A": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry.",
+            "B": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells.",
+            "C": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.",
+            "D": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses."
+          },
+          "correctOption": "A",
+          "explanation": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry. This is the defining mechanism or significance of first line of defence.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔",
+                "B": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔",
+                "C": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+                "D": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔"
+              },
+              "explanation": "درست جواب: جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔ یہی First line of defence کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن.",
+                "B": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا.",
+                "C": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+                "D": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن. اهو First line of defence جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes first line of defence?",
+          "options": {
+            "A": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells.",
+            "B": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.",
+            "C": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses.",
+            "D": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry."
+          },
+          "correctOption": "D",
+          "explanation": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry. This is the defining mechanism or significance of first line of defence.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔",
+                "B": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+                "C": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔",
+                "D": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔"
+              },
+              "explanation": "درست جواب: جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔ یہی First line of defence کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا.",
+                "B": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+                "C": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا.",
+                "D": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن."
+              },
+              "explanation": "صحيح جواب: چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن. اهو First line of defence جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of first line of defence?",
+          "options": {
+            "A": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.",
+            "B": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses.",
+            "C": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry.",
+            "D": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells."
+          },
+          "correctOption": "C",
+          "explanation": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry. This is the defining mechanism or significance of first line of defence.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+                "B": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔",
+                "C": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔",
+                "D": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔ یہی First line of defence کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+                "B": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا.",
+                "C": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن.",
+                "D": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن. اهو First line of defence جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains innate cellular defence?",
+          "options": {
+            "A": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.",
+            "B": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses.",
+            "C": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues.",
+            "D": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells."
+          },
+          "correctOption": "D",
+          "explanation": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells. This is the defining mechanism or significance of innate cellular defence.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+                "B": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔",
+                "C": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔",
+                "D": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔ یہی Innate cellular defence کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+                "B": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا.",
+                "C": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو.",
+                "D": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا. اهو Innate cellular defence جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes innate cellular defence?",
+          "options": {
+            "A": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses.",
+            "B": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues.",
+            "C": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells.",
+            "D": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication."
+          },
+          "correctOption": "C",
+          "explanation": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells. This is the defining mechanism or significance of innate cellular defence.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔",
+                "B": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔",
+                "C": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔",
+                "D": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔ یہی Innate cellular defence کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا.",
+                "B": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو.",
+                "C": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا.",
+                "D": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا."
+              },
+              "explanation": "صحيح جواب: نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا. اهو Innate cellular defence جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of innate cellular defence?",
+          "options": {
+            "A": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues.",
+            "B": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells.",
+            "C": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.",
+            "D": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses."
+          },
+          "correctOption": "B",
+          "explanation": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells. This is the defining mechanism or significance of innate cellular defence.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔",
+                "B": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔",
+                "C": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+                "D": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔"
+              },
+              "explanation": "درست جواب: نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔ یہی Innate cellular defence کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو.",
+                "B": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا.",
+                "C": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+                "D": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا. اهو Innate cellular defence جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains inflammation and complement?",
+          "options": {
+            "A": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues.",
+            "B": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry.",
+            "C": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.",
+            "D": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses."
+          },
+          "correctOption": "C",
+          "explanation": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication. This is the defining mechanism or significance of inflammation and complement.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔",
+                "B": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔",
+                "C": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+                "D": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔"
+              },
+              "explanation": "درست جواب: سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔ یہی Inflammation and complement کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو.",
+                "B": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن.",
+                "C": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+                "D": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا. اهو Inflammation and complement جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes inflammation and complement?",
+          "options": {
+            "A": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry.",
+            "B": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.",
+            "C": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses.",
+            "D": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues."
+          },
+          "correctOption": "B",
+          "explanation": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication. This is the defining mechanism or significance of inflammation and complement.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔",
+                "B": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+                "C": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔",
+                "D": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔"
+              },
+              "explanation": "درست جواب: سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔ یہی Inflammation and complement کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن.",
+                "B": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+                "C": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا.",
+                "D": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا. اهو Inflammation and complement جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of inflammation and complement?",
+          "options": {
+            "A": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.",
+            "B": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses.",
+            "C": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues.",
+            "D": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry."
+          },
+          "correctOption": "A",
+          "explanation": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication. This is the defining mechanism or significance of inflammation and complement.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+                "B": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔",
+                "C": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔",
+                "D": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔"
+              },
+              "explanation": "درست جواب: سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔ یہی Inflammation and complement کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+                "B": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا.",
+                "C": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو.",
+                "D": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن."
+              },
+              "explanation": "صحيح جواب: سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا. اهو Inflammation and complement جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains adaptive immunity?",
+          "options": {
+            "A": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells.",
+            "B": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses.",
+            "C": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues.",
+            "D": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry."
+          },
+          "correctOption": "B",
+          "explanation": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses. This is the defining mechanism or significance of adaptive immunity.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔",
+                "B": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔",
+                "C": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔",
+                "D": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔"
+              },
+              "explanation": "درست جواب: بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔ یہی Adaptive immunity کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا.",
+                "B": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا.",
+                "C": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو.",
+                "D": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن."
+              },
+              "explanation": "صحيح جواب: بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا. اهو Adaptive immunity جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes adaptive immunity?",
+          "options": {
+            "A": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses.",
+            "B": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues.",
+            "C": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry.",
+            "D": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells."
+          },
+          "correctOption": "A",
+          "explanation": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses. This is the defining mechanism or significance of adaptive immunity.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔",
+                "B": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔",
+                "C": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔",
+                "D": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔ یہی Adaptive immunity کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا.",
+                "B": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو.",
+                "C": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن.",
+                "D": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا. اهو Adaptive immunity جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of adaptive immunity?",
+          "options": {
+            "A": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues.",
+            "B": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry.",
+            "C": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells.",
+            "D": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses."
+          },
+          "correctOption": "D",
+          "explanation": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses. This is the defining mechanism or significance of adaptive immunity.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔",
+                "B": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔",
+                "C": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔",
+                "D": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔"
+              },
+              "explanation": "درست جواب: بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔ یہی Adaptive immunity کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو.",
+                "B": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن.",
+                "C": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا.",
+                "D": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا. اهو Adaptive immunity جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains vaccination, allergy and autoimmunity?",
+          "options": {
+            "A": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues.",
+            "B": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry.",
+            "C": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells.",
+            "D": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication."
+          },
+          "correctOption": "A",
+          "explanation": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues. This is the defining mechanism or significance of vaccination, allergy and autoimmunity.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔",
+                "B": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔",
+                "C": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔",
+                "D": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔ یہی Vaccination, allergy and autoimmunity کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو.",
+                "B": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن.",
+                "C": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا.",
+                "D": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا."
+              },
+              "explanation": "صحيح جواب: ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو. اهو Vaccination, allergy and autoimmunity جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes vaccination, allergy and autoimmunity?",
+          "options": {
+            "A": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry.",
+            "B": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells.",
+            "C": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.",
+            "D": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues."
+          },
+          "correctOption": "D",
+          "explanation": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues. This is the defining mechanism or significance of vaccination, allergy and autoimmunity.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔",
+                "B": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔",
+                "C": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+                "D": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔"
+              },
+              "explanation": "درست جواب: ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔ یہی Vaccination, allergy and autoimmunity کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن.",
+                "B": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا.",
+                "C": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+                "D": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو. اهو Vaccination, allergy and autoimmunity جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of vaccination, allergy and autoimmunity?",
+          "options": {
+            "A": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells.",
+            "B": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.",
+            "C": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues.",
+            "D": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry."
+          },
+          "correctOption": "C",
+          "explanation": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues. This is the defining mechanism or significance of vaccination, allergy and autoimmunity.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔",
+                "B": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+                "C": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔",
+                "D": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔"
+              },
+              "explanation": "درست جواب: ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔ یہی Vaccination, allergy and autoimmunity کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا.",
+                "B": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+                "C": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو.",
+                "D": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن."
+              },
+              "explanation": "صحيح جواب: ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو. اهو Vaccination, allergy and autoimmunity جو بنيادي اصول آهي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain first line of defence and state two important functions or outcomes.",
+          "modelAnswer": "Skin, mucus, cilia, tears, saliva and stomach acid form physical and chemical barriers that reduce pathogen entry.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "First line of defence کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "جلد، بلغم، سیلیا، آنسو، لعاب اور معدے کا تیزاب جراثیم کے داخلے کو کم کرنے والی پہلی حفاظتی رکاوٹیں ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "First line of defence جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "چمڙي، بلغم، سيليا، ڳوڙها، لعاب ۽ معدي جو تيزاب جراثيمن جي داخلا گهٽائيندڙ پهريون بچاءُ آهن.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain innate cellular defence and state two important functions or outcomes.",
+          "modelAnswer": "Neutrophils, macrophages, dendritic cells and natural killer cells detect or destroy pathogens and infected cells.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Innate cellular defence کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "نیوٹروفِلز، میکروفیجز، ڈینڈرائٹک خلیے اور نیچرل کلر خلیے جراثیم یا متاثرہ خلیوں کو پہچان کر ختم کرتے ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Innate cellular defence جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "نيوٽروفلس، ميڪروفاجز، ڊينڊرائيٽڪ ۽ نيچرل ڪلر خليا جراثيمن يا متاثر ٿيل خلين کي سڃاڻي ختم ڪن ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain inflammation and complement and state two important functions or outcomes.",
+          "modelAnswer": "Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Inflammation and complement کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Inflammation and complement جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss adaptive immunity in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses. Inflammation recruits immune cells; complement proteins help mark and damage microbes, while interferons limit viral replication. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Adaptive immunity کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔ سوزش مدافعتی خلیوں کو متاثرہ مقام تک لاتی ہے؛ کمپلیمنٹ پروٹین جراثیم کو نشان زد یا نقصان پہنچاتے ہیں جبکہ انٹرفیرون وائرس کی افزائش محدود کرتے ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Adaptive immunity جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا. سوزش مدافعتي خلين کي متاثر هنڌ ڏانهن آڻي ٿي؛ ڪمپليمينٽ پروٽين جراثيمن کي نشان لڳائين يا نقصان ڏين ٿا، جڏهن ته انٽرفيرون وائرس جي واڌ گهٽائين ٿا.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss vaccination, allergy and autoimmunity in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Vaccines safely train immune memory; allergies are excessive responses to harmless antigens, while autoimmunity targets the body's own tissues. B lymphocytes produce antibodies; T lymphocytes coordinate responses or destroy infected cells, and memory cells support faster later responses. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Vaccination, allergy and autoimmunity کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "ویکسین مدافعتی یادداشت پیدا کرتی ہے؛ الرجی بے ضرر مادوں کے خلاف حد سے زیادہ ردعمل ہے، جبکہ خودکار مدافعت اپنے ہی جسم کے ٹشوز پر حملہ کرتی ہے۔ بی لمفوسائٹس اینٹی باڈیز بناتے ہیں؛ ٹی لمفوسائٹس مدافعتی ردعمل منظم یا متاثرہ خلیے ختم کرتے ہیں، جبکہ میموری خلیے آئندہ تیز ردعمل دیتے ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Vaccination, allergy and autoimmunity جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "ويڪسين مدافعتي يادگيري پيدا ڪري ٿي؛ الرجي بي ضرر مادَن خلاف حد کان وڌيڪ ردعمل آهي، جڏهن ته خود مدافعتي عمل پنهنجي جسم جي بافتن تي حملو ڪري ٿو. بي لمفوسائٽ اينٽي باڊيز ٺاهين ٿا؛ ٽي لمفوسائٽ مدافعتي ردعمل منظم يا متاثر خليا ختم ڪن ٿا، جڏهن ته ميموري خليا ٻيهر تيز ردعمل ڏين ٿا.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
