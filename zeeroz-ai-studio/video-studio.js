@@ -217,6 +217,36 @@ async function getPiperVoiceEngine(engine,voiceId){
  ttsEngineCache[voiceId]=enginePromise;
  try{return await enginePromise}catch(e){delete ttsEngineCache[voiceId];throw e}
 }
+
+// Persistent per-scene narration checkpoints. If a tab closes or a phone runs low
+// on memory, completed scenes can be reused instead of synthesized again.
+let ttsCheckpointDbPromise=null;
+function openTtsCheckpointDb(){
+ if(!("indexedDB" in window))return Promise.resolve(null);
+ if(!ttsCheckpointDbPromise)ttsCheckpointDbPromise=new Promise(resolve=>{
+  const req=indexedDB.open("zeeroz-studio-audio-v1",1);
+  req.onupgradeneeded=()=>{const db=req.result;if(!db.objectStoreNames.contains("scenes"))db.createObjectStore("scenes",{keyPath:"key"})};
+  req.onsuccess=()=>resolve(req.result);req.onerror=()=>resolve(null);
+ });
+ return ttsCheckpointDbPromise;
+}
+async function ttsCheckpointKey(voiceId,scene){
+ const raw=voiceId+"|"+scene.title+"|"+scene.narration;
+ if(window.crypto?.subtle){
+  try{const digest=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(raw));return voiceId+":"+Array.from(new Uint8Array(digest)).map(x=>x.toString(16).padStart(2,"0")).join("")}catch(e){}
+ }
+ let hash=2166136261;for(let i=0;i<raw.length;i++){hash^=raw.charCodeAt(i);hash=Math.imul(hash,16777619)}
+ return voiceId+":"+ (hash>>>0).toString(16);
+}
+async function readTtsCheckpoint(key){
+ const db=await openTtsCheckpointDb();if(!db)return null;
+ return new Promise(resolve=>{try{const tx=db.transaction("scenes","readonly"),req=tx.objectStore("scenes").get(key);req.onsuccess=()=>resolve(req.result||null);req.onerror=()=>resolve(null)}catch(e){resolve(null)}});
+}
+async function saveTtsCheckpoint(key,sampleRate,samples){
+ const db=await openTtsCheckpointDb();if(!db)return false;
+ return new Promise(resolve=>{try{const tx=db.transaction("scenes","readwrite");tx.objectStore("scenes").put({key,sampleRate,pcm:samples.slice().buffer,savedAt:Date.now()});tx.oncomplete=()=>resolve(true);tx.onerror=()=>resolve(false);tx.onabort=()=>resolve(false)}catch(e){resolve(false)}});
+}
+
 async function generateLessonAudio(){
  if(ttsBusy)return;
  const text=currentLessonNarration();
@@ -233,17 +263,27 @@ async function generateLessonAudio(){
   const pcmParts=[],sceneTimeline=[],silence=new Float32Array(Math.round(model.sampleRate*.22));
   let sampleCursor=0,totalChunks=scenes.reduce((n,sc)=>n+splitUrduNarration(sc.narration,300).length,0),chunkNumber=0;
   for(let sceneNo=0;sceneNo<scenes.length;sceneNo++){
-   const chunks=splitUrduNarration(scenes[sceneNo].narration,300),sceneParts=[];
-   for(let ci=0;ci<chunks.length;ci++){
-    if(token!==ttsGeneration)throw new Error("Audio generation user ne stop kar di.");
-    chunkNumber++;ttsStatus.textContent=(lessonLanguage==="ur"?"Urdu":"English")+" voice generate ho rahi hai · Scene "+(sceneNo+1)+"/"+scenes.length+" · Part "+chunkNumber+"/"+totalChunks+"…";
-    ttsPhase="synthesizing scene "+(sceneNo+1)+" audio part "+(ci+1)+"/"+chunks.length;
-    sceneParts.push(await model.speak(chunks[ci]));
+   if(token!==ttsGeneration)throw new Error("Audio generation user ne stop kar di.");
+   const scene=scenes[sceneNo],checkpointKey=await ttsCheckpointKey(voiceId,scene);
+   const cached=await readTtsCheckpoint(checkpointKey);
+   let scenePcm=cached?.sampleRate===model.sampleRate&&cached?.pcm?new Float32Array(cached.pcm):null;
+   if(scenePcm?.length){
+    ttsStatus.textContent="Saved voice resume ho rahi hai · Scene "+(sceneNo+1)+"/"+scenes.length+"…";
+   }else{
+    const chunks=splitUrduNarration(scene.narration,300),sceneParts=[];
+    for(let ci=0;ci<chunks.length;ci++){
+     if(token!==ttsGeneration)throw new Error("Audio generation user ne stop kar di.");
+     chunkNumber++;ttsStatus.textContent=(lessonLanguage==="ur"?"Urdu":"English")+" voice generate ho rahi hai · Scene "+(sceneNo+1)+"/"+scenes.length+" · Part "+chunkNumber+"/"+totalChunks+"…";
+     ttsPhase="synthesizing scene "+(sceneNo+1)+" audio part "+(ci+1)+"/"+chunks.length;
+     sceneParts.push(await model.speak(chunks[ci]));
+    }
+    const sceneSamples=sceneParts.reduce((n,p)=>n+p.length,0);
+    if(!sceneSamples)throw new Error("Scene "+(sceneNo+1)+" mein narration text nahi mila.");
+    scenePcm=new Float32Array(sceneSamples);let sceneOffset=0;
+    sceneParts.forEach(part=>{scenePcm.set(part,sceneOffset);sceneOffset+=part.length});
+    await saveTtsCheckpoint(checkpointKey,model.sampleRate,scenePcm);
    }
-   const sceneSamples=sceneParts.reduce((n,p)=>n+p.length,0);
-   if(!sceneSamples)throw new Error("Scene "+(sceneNo+1)+" mein narration text nahi mila.");
-   const scenePcm=new Float32Array(sceneSamples);let sceneOffset=0;
-   sceneParts.forEach(part=>{scenePcm.set(part,sceneOffset);sceneOffset+=part.length});
+   const sceneSamples=scenePcm.length;
    sceneTimeline.push({index:sceneNo,start:sampleCursor/model.sampleRate,end:(sampleCursor+sceneSamples)/model.sampleRate,duration:sceneSamples/model.sampleRate});
    pcmParts.push(scenePcm);sampleCursor+=sceneSamples;
    if(sceneNo<scenes.length-1){pcmParts.push(silence);sampleCursor+=silence.length}
@@ -257,7 +297,7 @@ async function generateLessonAudio(){
   if(ttsAudioUrl)URL.revokeObjectURL(ttsAudioUrl);
   ttsAudioUrl=URL.createObjectURL(wav);ttsAudio.src=ttsAudioUrl;ttsAudio.style.display="block";
   ttsDownload.href=ttsAudioUrl;ttsDownload.hidden=false;setGeneratedVoiceFile(wav);
-  ttsStatus.textContent=(lessonLanguage==="ur"?"Urdu":"English")+" audio ready! Audio player se sun sakte hain, ya Create full lesson video se lip-sync ke saath final video bana sakte hain.";
+  ttsStatus.textContent=(lessonLanguage==="ur"?"Urdu":"English")+" audio ready! Har completed scene ka voice checkpoint is device par save hai; dobara generate karne par unchanged scenes reuse honge.";
   ttsAudio.pause();ttsAudio.currentTime=0;
  }catch(e){
   const detail=typeof e==="number"?"WASM/ONNX error code "+e:(e?.message||String(e));
