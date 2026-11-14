@@ -1,0 +1,953 @@
+{
+  "id": "biology-x-chapter-12-gaseous-exchange",
+  "title": "Biology X — Chapter 12: Gaseous Exchange",
+  "description": "Class X Biology chapter aligned to the Sindh DCAR Biology Curriculum 2024. Includes original English lessons, Urdu and Sindhi explanations, 20 explained MCQs, 3 CRQs, 2 ERQs, marking rubrics and applied respiratory-health case studies.",
+  "version": "1",
+  "curriculumAlignment": {
+    "authority": "Directorate of Curriculum, Assessment and Research (DCAR), Government of Sindh",
+    "document": "Curriculum of Biology for Sindh Grades IX–XII (2024), aligned with National Curriculum of Pakistan 2022–23",
+    "grade": "X",
+    "chapter": "12 — Gaseous Exchange",
+    "periods": 10,
+    "outcomes": [
+      "Identify the human respiratory passageway and role of lungs.",
+      "Explain breathing in terms of rib and diaphragm movement.",
+      "Differentiate the approximate composition of inspired and expired air.",
+      "Recognise features and symptoms of bronchitis, asthma, pneumonia, emphysema and lung cancer; explain harmful effects of smoking."
+    ],
+    "primarySource": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf",
+    "primarySourceEvidence": "Printed curriculum page 119–120; PDF lines 4050–4069; chapter allocation 10 periods.",
+    "textbookReference": "Official STBB portal lists English Biology X, year 2021–22: https://portal.stbb.edu.pk/ebooks/book.php?id=188. The 2024 DCAR curriculum controls the learning-outcome sequence.",
+    "sourceChecked": "2026-11-14",
+    "authorshipNote": "Original educational explanations, examples, questions and model answers; no full textbook passages reproduced."
+  },
+  "chapters": [
+    {
+      "title": "Chapter 12: Gaseous Exchange",
+      "description": "Ten-period curriculum chapter covering the human respiratory passage, mechanics of breathing, alveolar gas exchange, inspired and expired air, respiratory disorders and the effects of smoking.",
+      "lessons": [
+        {
+          "title": "12.1 Human Respiratory Passage and the Lungs",
+          "type": "text",
+          "content": "## Learning outcomes\nTrace the route of air through the human respiratory system and explain how the air passages protect and condition incoming air.\n\n## Route of air\nAir normally travels through this sequence: **nose or mouth → nasal cavity → pharynx → larynx → trachea → bronchi → bronchioles → alveoli**. The lungs contain branching bronchi and bronchioles ending in millions of tiny air sacs called alveoli.\n\n## Functions of the main structures\n- **Nasal cavity:** hairs, mucus and a rich blood supply help filter, warm and moisten incoming air.\n- **Pharynx and larynx:** conduct air; the larynx contains the vocal cords. The epiglottis helps protect the airway during swallowing.\n- **Trachea:** supported by C-shaped cartilage rings that keep the airway open. Its lining has mucus-producing cells and cilia.\n- **Bronchi and bronchioles:** distribute air throughout the lungs. Smaller airways contain smooth muscle that can change their diameter.\n- **Alveoli:** thin-walled air sacs surrounded by capillaries. They are the main sites of oxygen and carbon dioxide exchange.\n\n## Mucus and cilia\nMucus traps dust and many microorganisms. Cilia beat in a coordinated direction to move mucus towards the throat, where it can be swallowed or expelled. Smoking and some pollutants damage cilia and impair this cleaning mechanism.\n\n## Why alveoli are effective\nAlveoli provide a very large surface area, a moist lining, a wall only about one cell thick and a dense capillary network. These features shorten the diffusion distance and support rapid gas exchange.\n\n## Key terms\n- **Bronchiole:** a small branching airway inside the lung.\n- **Alveolus:** a tiny air sac where gas exchange occurs.\n- **Cilia:** microscopic hair-like structures that move material along a cell surface.\n\n## Quick check\nExplain why the trachea needs cartilage and why alveoli have thin walls.",
+          "explanations": {
+            "ur": "## اس سبق کے مقاصد\nانسانی تنفسی نظام میں ہوا کا راستہ ترتیب سے بیان کریں اور وضاحت کریں کہ ہوا کی نالیاں آنے والی ہوا کو کیسے صاف اور موزوں بناتی ہیں۔\n\n## ہوا کا راستہ\nہوا عموماً اس ترتیب سے گزرتی ہے: **ناک یا منہ → ناک کی گہا → حلق → حنجرہ → ٹریکیا → برونکائی → برونکیولز → الویولی**۔ پھیپھڑوں میں برونکائی اور برونکیولز شاخیں بناتے ہوئے لاکھوں باریک ہوائی تھیلیوں، یعنی الویولی، تک پہنچتے ہیں۔\n\n## اہم اعضا کے افعال\n- **ناک کی گہا:** بال، بلغم اور خون کی فراہمی آنے والی ہوا کو چھاننے، گرم کرنے اور نم کرنے میں مدد دیتے ہیں۔\n- **حلق اور حنجرہ:** ہوا کو آگے لے جاتے ہیں؛ حنجرے میں صوتی تار ہوتے ہیں۔ Epiglottis نگلتے وقت ہوا کی نالی کی حفاظت میں مدد دیتا ہے۔\n- **ٹریکیا:** C شکل کے غضروفی حلقے نالی کو کھلا رکھتے ہیں۔ اس کی اندرونی تہہ میں بلغم بنانے والے خلیات اور سیلیا ہوتے ہیں۔\n- **برونکائی اور برونکیولز:** پھیپھڑوں میں ہوا تقسیم کرتے ہیں۔ چھوٹی نالیوں کے ہموار عضلات ان کا قطر بدل سکتے ہیں۔\n- **الویولی:** باریک دیواروں والی ہوائی تھیلیاں ہیں جن کے گرد خون کی باریک نالیاں ہوتی ہیں۔ یہاں آکسیجن اور کاربن ڈائی آکسائیڈ کا تبادلہ ہوتا ہے۔\n\n## بلغم اور سیلیا\nبلغم گرد، ذرات اور بہت سے جراثیم کو پھنساتا ہے۔ سیلیا مربوط حرکت سے بلغم کو حلق کی طرف لے جاتے ہیں تاکہ اسے نگلا یا کھانس کر باہر نکالا جا سکے۔ تمباکو نوشی اور بعض آلودگیاں سیلیا کو نقصان پہنچاتی ہیں۔\n\n## الویولی مؤثر کیوں ہیں؟\nالویولی کی مجموعی سطح بہت بڑی، اندرونی تہہ نم، دیوار تقریباً ایک خلیے جتنی باریک اور خون کی باریک نالیوں کا جال گھنا ہوتا ہے۔ اس سے گیسوں کے پھیلاؤ کا فاصلہ کم رہتا ہے۔\n\n## اہم اصطلاحات\n- **Bronchiole:** پھیپھڑے کے اندر ہوا کی چھوٹی شاخ دار نالی۔\n- **Alveolus:** باریک ہوائی تھیلی جہاں گیسوں کا تبادلہ ہوتا ہے۔\n- **Cilia:** خلیے کی سطح پر موجود باریک بال نما ساختیں جو مادّوں کو حرکت دیتی ہیں۔\n\n## اپنی سمجھ جانچیں\nٹریکیا کو غضروف کی ضرورت کیوں ہے اور الویولی کی دیواریں باریک کیوں ہوتی ہیں؟",
+            "sd": "## هن سبق جا مقصد\nانساني ساهه واري نظام ۾ هوا جو رستو ترتيب سان بيان ڪريو ۽ ٻڌايو ته هوا جون نليون اندر ايندڙ هوا کي ڪيئن صاف ۽ موزون ڪن ٿيون.\n\n## هوا جو رستو\nهوا عام طور هن ترتيب سان گذري ٿي: **نڪ يا وات → نڪ جي کوک → ڳلو → larynx → trachea → bronchi → bronchioles → alveoli**. ڦڦڙن ۾ bronchi ۽ bronchioles شاخون ٺاهي لکين ننڍين هوائي ٿيلهن، يعني alveoli، تائين پهچن ٿا.\n\n## اهم بناوتن جا ڪم\n- **نڪ جي کوک:** وار، بلغم ۽ رت جي فراهمي اندر ايندڙ هوا کي ڇاڻڻ، گرم ڪرڻ ۽ آلو ڪرڻ ۾ مدد ڪن ٿا.\n- **ڳلو ۽ larynx:** هوا کي اڳتي کڻي وڃن ٿا؛ larynx ۾ آواز جا تار هوندا آهن. Epiglottis ڳهڻ وقت ساهه واري رستي جي حفاظت ڪري ٿو.\n- **Trachea:** C شڪل جا غضروفي ڇلا نلي کي کليل رکن ٿا. ان جي اندروني تهه ۾ بلغم ٺاهيندڙ خليا ۽ cilia هوندا آهن.\n- **Bronchi ۽ bronchioles:** ڦڦڙن ۾ هوا ورهائين ٿا. ننڍين نلين جا هموار عضلا انهن جو قطر بدلائي سگهن ٿا.\n- **Alveoli:** سنهين ڀتين واريون هوائي ٿيلهيون آهن، جن جي چوڌاري رت جون سنهيون نليون هونديون آهن. هتي آڪسيجن ۽ ڪاربان ڊاءِ آڪسائيڊ جي مٽاسٽا ٿئي ٿي.\n\n## بلغم ۽ cilia\nبلغم مٽي، ذرڙا ۽ ڪيترائي جراثيم ڦاسائي ٿو. Cilia گڏيل حرڪت سان بلغم کي ڳلي ڏانهن کڻي وڃن ٿا ته جيئن اهو ڳهي يا کنگهي ٻاهر ڪڍي سگهجي. سگريٽ ۽ ڪي آلودگيون cilia کي نقصان پهچائين ٿيون.\n\n## Alveoli اثرائتا ڇو آهن؟\nAlveoli جي گڏيل مٿاڇري وڏي، اندروني سطح آلي، ڀت لڳ ڀڳ هڪ خلوي تهه جيتري سنهي ۽ رت جي سنهين نلين جو ڄار گهاٽو هوندو آهي. ان سان گيسن جي پکيڙ جو فاصلو گهٽجي ٿو.\n\n## اهم اصطلاح\n- **Bronchiole:** ڦڦڙ ۾ هوا جي ننڍڙي شاخدار نلي.\n- **Alveolus:** ننڍڙي هوائي ٿيلهي جتي گيسن جي مٽاسٽا ٿئي ٿي.\n- **Cilia:** خلين جي سطح تي وار جهڙيون سنهيون بناوتون جيڪي مادو حرڪت ڏين ٿيون.\n\n## پنهنجي سمجهه پرکيو\nTrachea کي غضروف جي ضرورت ڇو آهي ۽ alveoli جون ڀتيون سنهيون ڇو آهن؟"
+          }
+        },
+        {
+          "title": "12.2 Mechanics of Breathing: Inspiration and Expiration",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain how the diaphragm, ribs and intercostal muscles change thoracic volume and pressure during breathing.\n\n## Ventilation is movement of air\nBreathing (ventilation) moves air into and out of the lungs. It is different from cellular respiration, which is a chemical process in cells that releases energy from food.\n\n## Inspiration — breathing in\nDuring quiet inspiration:\n1. The diaphragm contracts and flattens.\n2. External intercostal muscles contract, lifting the ribs and sternum up and out.\n3. The volume of the thoracic cavity increases.\n4. Pressure inside the lungs falls slightly below atmospheric pressure.\n5. Air flows into the lungs down the pressure gradient.\n\nThe lungs expand because they are coupled to the chest wall by the pleural membranes and the thin fluid between them.\n\n## Expiration — breathing out\nDuring quiet expiration:\n1. The diaphragm relaxes and returns to its dome shape.\n2. External intercostal muscles relax and the ribs move down and in.\n3. Thoracic volume decreases.\n4. Pressure inside the lungs rises above atmospheric pressure.\n5. Air flows out.\n\nQuiet expiration is usually passive because elastic recoil of the lungs and chest wall helps reduce their volume. During forced expiration, internal intercostal and abdominal muscles can contract to push air out more forcefully.\n\n## A pressure rule\nWhen volume increases, pressure inside the lungs falls and air enters. When volume decreases, pressure rises and air leaves. Air moves from higher pressure to lower pressure.\n\n## Common misconception\nThe diaphragm does not push air directly into the lungs. Its contraction changes thoracic volume and pressure, causing air to move.\n\n## Quick check\nPredict what happens to the direction of rib movement, thoracic volume and lung pressure when the diaphragm contracts.",
+          "explanations": {
+            "ur": "## اس سبق کے مقاصد\nوضاحت کریں کہ سانس لینے کے دوران ڈایافرام، پسلیاں اور بین الضلعی عضلات سینے کے حجم اور دباؤ کو کیسے بدلتے ہیں۔\n\n## ہوا کی آمدورفت\nسانس لینا (ventilation) پھیپھڑوں میں ہوا داخل اور خارج کرتا ہے۔ یہ خلیاتی تنفس سے مختلف ہے؛ خلیاتی تنفس خلیات میں ہونے والا کیمیائی عمل ہے جس سے غذا سے توانائی حاصل ہوتی ہے۔\n\n## Inspiration — سانس اندر لینا\nعام پرسکون سانس اندر لیتے وقت:\n1. ڈایافرام سکڑ کر چپٹا ہو جاتا ہے۔\n2. بیرونی بین الضلعی عضلات سکڑتے ہیں اور پسلیوں و سینے کی ہڈی کو اوپر اور باہر اٹھاتے ہیں۔\n3. سینے کی گہا کا حجم بڑھتا ہے۔\n4. پھیپھڑوں کے اندر دباؤ فضائی دباؤ سے قدرے کم ہو جاتا ہے۔\n5. دباؤ کے فرق کے باعث ہوا پھیپھڑوں میں داخل ہوتی ہے۔\n\nپھیپھڑے سینے کی دیوار کے ساتھ pleural جھلیوں اور ان کے درمیان موجود باریک سیال کے ذریعے مربوط رہتے ہیں، اس لیے سینہ پھیلنے پر پھیپھڑے بھی پھیلتے ہیں۔\n\n## Expiration — سانس باہر نکالنا\nعام پرسکون سانس باہر نکالتے وقت:\n1. ڈایافرام ڈھیلا ہو کر گنبد جیسی شکل اختیار کرتا ہے۔\n2. بیرونی بین الضلعی عضلات ڈھیلے ہوتے ہیں اور پسلیاں نیچے اور اندر آتی ہیں۔\n3. سینے کی گہا کا حجم کم ہوتا ہے۔\n4. پھیپھڑوں کے اندر دباؤ فضائی دباؤ سے زیادہ ہو جاتا ہے۔\n5. ہوا باہر نکلتی ہے۔\n\nعام سانس خارج کرنا زیادہ تر غیر فعال عمل ہے کیونکہ پھیپھڑوں اور سینے کی دیوار کی لچک انہیں واپس سکڑنے میں مدد دیتی ہے۔ زور سے سانس خارج کرتے وقت اندرونی بین الضلعی اور پیٹ کے عضلات بھی سکڑ سکتے ہیں۔\n\n## دباؤ کا اصول\nحجم بڑھنے پر پھیپھڑوں کا دباؤ کم ہوتا ہے اور ہوا اندر آتی ہے۔ حجم کم ہونے پر دباؤ بڑھتا ہے اور ہوا باہر نکلتی ہے۔ ہوا زیادہ دباؤ سے کم دباؤ کی طرف جاتی ہے۔\n\n## عام غلط فہمی\nڈایافرام براہِ راست ہوا کو پھیپھڑوں میں نہیں دھکیلتا۔ اس کا سکڑنا سینے کا حجم اور دباؤ بدلتا ہے، جس سے ہوا حرکت کرتی ہے۔\n\n## اپنی سمجھ جانچیں\nڈایافرام کے سکڑنے پر پسلیوں کی حرکت، سینے کے حجم اور پھیپھڑوں کے دباؤ میں کیا تبدیلی آتی ہے؟",
+            "sd": "## هن سبق جا مقصد\nوضاحت ڪريو ته ساهه کڻڻ دوران diaphragm، پاسيريون ۽ intercostal عضلا ڇاتيءَ جي حجم ۽ دٻاءَ کي ڪيئن بدلائين ٿا.\n\n## هوا جي اچ وڃ\nساهه کڻڻ (ventilation) هوا کي ڦڦڙن ۾ اندر ۽ ٻاهر آڻي ٿو. اهو خلوي تنفس کان الڳ آهي؛ خلوي تنفس خلين ۾ ٿيندڙ ڪيميائي عمل آهي، جنهن سان خوراڪ مان توانائي ملي ٿي.\n\n## Inspiration — ساهه اندر کڻڻ\nعام پرسڪون ساهه اندر کڻڻ وقت:\n1. Diaphragm سڪڙي سنئون ٿي وڃي ٿو.\n2. ٻاهريان intercostal عضلا سڪڙن ٿا ۽ پاسيريون ۽ ڇاتيءَ جي هڏي مٿي ۽ ٻاهر کڻن ٿا.\n3. ڇاتيءَ جي کوک جو حجم وڌي ٿو.\n4. ڦڦڙن اندر دٻاءُ فضائي دٻاءَ کان ٿورو گهٽ ٿئي ٿو.\n5. دٻاءَ جي فرق سبب هوا ڦڦڙن ۾ داخل ٿئي ٿي.\n\nڦڦڙا pleural جھلين ۽ انهن جي وچ ۾ موجود سنهي سيال سبب ڇاتيءَ جي ڀت سان ڳنڍيل رهن ٿا، تنهنڪري ڇاتي وڌڻ سان ڦڦڙا به وڌن ٿا.\n\n## Expiration — ساهه ٻاهر ڪڍڻ\nعام پرسڪون ساهه ٻاهر ڪڍڻ وقت:\n1. Diaphragm ڍرو ٿي گنبذ جهڙي شڪل اختيار ڪري ٿو.\n2. ٻاهريان intercostal عضلا ڍرا ٿين ٿا ۽ پاسيريون هيٺ ۽ اندر اچن ٿيون.\n3. ڇاتيءَ جي کوک جو حجم گهٽجي ٿو.\n4. ڦڦڙن اندر دٻاءُ فضائي دٻاءَ کان وڌي ٿو.\n5. هوا ٻاهر نڪري ٿي.\n\nعام ساهه ٻاهر ڪڍڻ گهڻو ڪري غير فعال عمل آهي، ڇاڪاڻ ته ڦڦڙن ۽ ڇاتيءَ جي ڀت جي لچڪ انهن کي واپس سڪڙڻ ۾ مدد ڪري ٿي. زور سان ساهه ٻاهر ڪڍڻ وقت اندروني intercostal ۽ پيٽ جا عضلا به سڪڙي سگهن ٿا.\n\n## دٻاءَ جو اصول\nحجم وڌڻ سان ڦڦڙن جو دٻاءُ گهٽجي ٿو ۽ هوا اندر اچي ٿي. حجم گهٽجڻ سان دٻاءُ وڌي ٿو ۽ هوا ٻاهر وڃي ٿي. هوا وڌيڪ دٻاءَ کان گهٽ دٻاءَ ڏانهن حرڪت ڪري ٿي.\n\n## عام غلط فهمي\nDiaphragm سڌو هوا کي ڦڦڙن ۾ نٿو ڌڪي. ان جو سڪڙڻ ڇاتيءَ جو حجم ۽ دٻاءُ بدلائي ٿو، جنهن سبب هوا حرڪت ڪري ٿي.\n\n## پنهنجي سمجهه پرکيو\nDiaphragm جي سڪڙڻ تي پاسيرين جي حرڪت، ڇاتيءَ جي حجم ۽ ڦڦڙن جي دٻاءَ ۾ ڪهڙي تبديلي اچي ٿي؟"
+          }
+        },
+        {
+          "title": "12.3 Alveolar Gas Exchange and Inspired versus Expired Air",
+          "type": "text",
+          "content": "## Learning outcomes\nCompare the approximate composition of inspired and expired air and explain how diffusion allows gases to exchange between alveoli and blood.\n\n## Composition of air\nDry atmospheric air contains about 21% oxygen, about 0.04% carbon dioxide and roughly 78% nitrogen, with small amounts of other gases. Values vary slightly with location and conditions.\n\nExpired air is different:\n- It contains less oxygen, commonly about 16%.\n- It contains more carbon dioxide, commonly about 4%.\n- It is usually warmer and contains more water vapour.\n- Its nitrogen percentage is approximately unchanged because the body uses very little nitrogen from inhaled air.\n\nThese are approximate teaching values, not exact values for every breath. The percentages depend on how the sample is collected and on a person's activity.\n\n## Gas exchange in alveoli\nOxygen concentration (partial pressure) is higher in alveolar air than in the deoxygenated blood arriving at lung capillaries. Oxygen therefore diffuses across the thin alveolar and capillary walls into blood. Carbon dioxide has a higher partial pressure in the arriving blood than in alveolar air, so it diffuses in the opposite direction and is breathed out.\n\n## Features that support diffusion\n- A large total alveolar surface area.\n- Very thin alveolar and capillary walls.\n- A moist lining so gases can dissolve before diffusing.\n- A rich blood supply and continuous ventilation that maintain concentration gradients.\n\nDiffusion is movement of particles from a region of higher concentration or partial pressure to a region of lower concentration or partial pressure. It does not require the cell to spend energy directly on the movement.\n\n## Why expired air still contains oxygen\nThe body does not remove all oxygen from each breath. Some oxygen remains in expired air because gas exchange is continuous and the air in the lungs mixes with newly inhaled air.\n\n## Compare\n| Gas or feature | Inspired air | Expired air |\n|---|---|---|\n| Oxygen | About 21% | About 16% |\n| Carbon dioxide | About 0.04% | About 4% |\n| Nitrogen | About 78% | Approximately unchanged |\n| Water vapour | Variable | Usually higher |\n| Temperature | Often cooler | Warmer |\n\n## Quick check\nExplain why expired air has more carbon dioxide and water vapour than inspired air.",
+          "explanations": {
+            "ur": "## اس سبق کے مقاصد\nسانس کے اندر آنے اور باہر جانے والی ہوا کی تقریباً ساخت کا موازنہ کریں اور وضاحت کریں کہ الویولی اور خون کے درمیان گیسوں کا تبادلہ diffusion سے کیسے ہوتا ہے۔\n\n## ہوا کی ساخت\nخشک فضائی ہوا میں تقریباً 21% آکسیجن، تقریباً 0.04% کاربن ڈائی آکسائیڈ اور لگ بھگ 78% نائٹروجن ہوتی ہے، جبکہ دوسری گیسیں کم مقدار میں ہوتی ہیں۔ مقام اور حالات کے مطابق قدروں میں معمولی فرق ہو سکتا ہے۔\n\nسانس سے خارج ہونے والی ہوا مختلف ہوتی ہے:\n- اس میں آکسیجن کم، عموماً تقریباً 16% ہوتی ہے۔\n- کاربن ڈائی آکسائیڈ زیادہ، عموماً تقریباً 4% ہوتی ہے۔\n- یہ عموماً زیادہ گرم اور زیادہ آبی بخارات والی ہوتی ہے۔\n- نائٹروجن کا تناسب تقریباً وہی رہتا ہے کیونکہ جسم سانس کی ہوا سے بہت کم نائٹروجن استعمال کرتا ہے۔\n\nیہ تدریسی مقاصد کے لیے تخمینی قدریں ہیں، ہر سانس کے لیے قطعی اعداد نہیں۔ سرگرمی اور نمونہ لینے کے طریقے سے فرق آ سکتا ہے۔\n\n## الویولی میں گیسوں کا تبادلہ\nالویولی کی ہوا میں آکسیجن کا جزوی دباؤ پھیپھڑوں کی باریک نالیوں میں آنے والے کم آکسیجن والے خون سے زیادہ ہوتا ہے۔ اس لیے آکسیجن الویولی اور خون کی باریک دیواروں سے گزر کر خون میں داخل ہوتی ہے۔ آنے والے خون میں کاربن ڈائی آکسائیڈ کا جزوی دباؤ الویولی کی ہوا سے زیادہ ہوتا ہے، اس لیے یہ الٹی سمت میں پھیلتی اور سانس کے ساتھ باہر نکلتی ہے۔\n\n## Diffusion کو مؤثر بنانے والی خصوصیات\n- الویولی کی مجموعی سطح بہت بڑی ہے۔\n- الویولی اور خون کی باریک نالیوں کی دیواریں بہت پتلی ہیں۔\n- نم تہہ گیسوں کو پھیلنے سے پہلے حل ہونے میں مدد دیتی ہے۔\n- خون کی اچھی فراہمی اور مسلسل ventilation ارتکاز کا فرق برقرار رکھتے ہیں۔\n\nDiffusion میں ذرات زیادہ ارتکاز یا جزوی دباؤ والے علاقے سے کم ارتکاز یا دباؤ والے علاقے کی طرف جاتے ہیں۔ اس حرکت کے لیے خلیہ براہِ راست توانائی خرچ نہیں کرتا۔\n\n## خارج ہونے والی ہوا میں آکسیجن کیوں باقی رہتی ہے؟\nجسم ہر سانس سے ساری آکسیجن استعمال نہیں کرتا۔ کچھ آکسیجن خارج ہونے والی ہوا میں باقی رہتی ہے کیونکہ گیسوں کا تبادلہ مسلسل ہوتا ہے اور پھیپھڑوں کی ہوا نئی آنے والی ہوا سے ملتی رہتی ہے۔\n\n## موازنہ\n| گیس یا خصوصیت | اندر آنے والی ہوا | باہر جانے والی ہوا |\n|---|---|---|\n| آکسیجن | تقریباً 21% | تقریباً 16% |\n| کاربن ڈائی آکسائیڈ | تقریباً 0.04% | تقریباً 4% |\n| نائٹروجن | تقریباً 78% | تقریباً برقرار |\n| آبی بخارات | مختلف | عموماً زیادہ |\n| درجہ حرارت | عموماً کم | زیادہ گرم |\n\n## اپنی سمجھ جانچیں\nوضاحت کریں کہ خارج ہونے والی ہوا میں کاربن ڈائی آکسائیڈ اور آبی بخارات اندر آنے والی ہوا سے زیادہ کیوں ہوتے ہیں۔",
+            "sd": "## هن سبق جا مقصد\nاندر ايندڙ ۽ ٻاهر نڪرندڙ هوا جي لڳ ڀڳ بناوت جو مقابلو ڪريو ۽ ٻڌايو ته alveoli ۽ رت جي وچ ۾ گيسن جي مٽاسٽا diffusion سان ڪيئن ٿئي ٿي.\n\n## هوا جي بناوت\nسڪي فضائي هوا ۾ لڳ ڀڳ 21% آڪسيجن، لڳ ڀڳ 0.04% ڪاربان ڊاءِ آڪسائيڊ ۽ لڳ ڀڳ 78% نائٽروجن هوندي آهي؛ ٻيون گيسون ٿوري مقدار ۾ هونديون آهن. هنڌ ۽ حالتن موجب انگن ۾ ٿورو فرق ٿي سگهي ٿو.\n\nٻاهر نڪرندڙ هوا مختلف هوندي آهي:\n- ان ۾ آڪسيجن گهٽ، عام طور لڳ ڀڳ 16% هوندي آهي.\n- ڪاربان ڊاءِ آڪسائيڊ وڌيڪ، عام طور لڳ ڀڳ 4% هوندي آهي.\n- اها عام طور وڌيڪ گرم ۽ وڌيڪ آبي بخارن واري هوندي آهي.\n- نائٽروجن جو تناسب لڳ ڀڳ ساڳيو رهندو آهي، ڇاڪاڻ ته جسم اندر آيل هوا مان تمام ٿوري نائٽروجن استعمال ڪري ٿو.\n\nاهي سکيا لاءِ لڳ ڀڳ انگ آهن، هر ساهه لاءِ قطعي انگ نه. سرگرمي ۽ نمونو وٺڻ جي طريقي سان فرق اچي سگهي ٿو.\n\n## Alveoli ۾ گيسن جي مٽاسٽا\nAlveoli جي هوا ۾ آڪسيجن جو جزوي دٻاءُ ڦڦڙن جي رت وارين سنهين نلين ۾ ايندڙ گهٽ آڪسيجن واري رت کان وڌيڪ هوندو آهي. تنهنڪري آڪسيجن alveoli ۽ رت جي سنهين ڀتين مان گذري رت ۾ داخل ٿئي ٿي. ايندڙ رت ۾ ڪاربان ڊاءِ آڪسائيڊ جو جزوي دٻاءُ alveoli جي هوا کان وڌيڪ هوندو آهي، تنهنڪري اها ابتڙ رخ ۾ پکڙجي ساهه سان ٻاهر نڪري ٿي.\n\n## Diffusion کي اثرائتو ڪندڙ خاصيتون\n- Alveoli جي گڏيل مٿاڇري تمام وڏي آهي.\n- Alveoli ۽ رت جي سنهين نلين جون ڀتيون تمام سنهيون آهن.\n- آلي سطح گيسن کي پکڙجڻ کان اڳ حل ٿيڻ ۾ مدد ڪري ٿي.\n- رت جي سٺي فراهمي ۽ لڳاتار ventilation ارتڪاز جو فرق برقرار رکن ٿا.\n\nDiffusion ۾ ذرڙا وڌيڪ ارتڪاز يا جزوي دٻاءَ واري هنڌ کان گهٽ ارتڪاز يا دٻاءَ واري هنڌ ڏانهن وڃن ٿا. هن حرڪت لاءِ خليا سڌي توانائي خرچ نٿا ڪن.\n\n## ٻاهر نڪرندڙ هوا ۾ آڪسيجن ڇو بچي ٿي؟\nجسم هر ساهه مان سموري آڪسيجن استعمال نٿو ڪري. ڪجهه آڪسيجن ٻاهر نڪرندڙ هوا ۾ رهي ٿي، ڇاڪاڻ ته گيسن جي مٽاسٽا لڳاتار ٿئي ٿي ۽ ڦڦڙن جي هوا نئين اندر ايندڙ هوا سان ملي ٿي.\n\n## مقابلو\n| گيس يا خاصيت | اندر ايندڙ هوا | ٻاهر نڪرندڙ هوا |\n|---|---|---|\n| آڪسيجن | لڳ ڀڳ 21% | لڳ ڀڳ 16% |\n| ڪاربان ڊاءِ آڪسائيڊ | لڳ ڀڳ 0.04% | لڳ ڀڳ 4% |\n| نائٽروجن | لڳ ڀڳ 78% | لڳ ڀڳ ساڳي |\n| آبي بخار | مختلف | عام طور وڌيڪ |\n| گرمي پد | عام طور گهٽ | وڌيڪ گرم |\n\n## پنهنجي سمجهه پرکيو\nٻڌايو ته ٻاهر نڪرندڙ هوا ۾ ڪاربان ڊاءِ آڪسائيڊ ۽ آبي بخار اندر ايندڙ هوا کان وڌيڪ ڇو آهن."
+          }
+        },
+        {
+          "title": "12.4 Common Respiratory Disorders and the Effects of Smoking",
+          "type": "text",
+          "content": "## Learning outcomes\nRecognise the main features of bronchitis, asthma, pneumonia, emphysema and lung cancer, and explain how smoking harms the respiratory system.\n\n## Bronchitis\nBronchitis is inflammation of the bronchi. It can cause cough, mucus production and breathing discomfort. Acute bronchitis is often linked to viral infection; long-term bronchitis may be associated with repeated irritation, especially tobacco smoke and air pollution.\n\n## Asthma\nAsthma is a long-term condition in which airways become inflamed and overly sensitive. Triggers such as dust, pollen, smoke, exercise or respiratory infections can cause airway muscles to tighten, the lining to swell and mucus to increase. This narrows the airways and may cause wheezing, coughing, chest tightness and shortness of breath. A prescribed action plan and inhaled medicines can help control asthma. Severe breathing difficulty is an emergency.\n\n## Pneumonia\nPneumonia is an infection of lung tissue, commonly involving the alveoli. The air sacs may fill with fluid or inflammatory material, making gas exchange more difficult. Fever, cough, chest pain and breathing difficulty can occur. Causes include bacteria and viruses; treatment depends on the cause and severity.\n\n## Emphysema\nEmphysema involves damage to the walls of alveoli and loss of elastic recoil. Air spaces become enlarged and less effective for gas exchange, making it harder to breathe out. It is commonly associated with long-term exposure to tobacco smoke and other harmful particles.\n\n## Lung cancer\nLung cancer is uncontrolled growth of abnormal cells in lung tissue. Tobacco smoking is a major risk factor; second-hand smoke, air pollution and some workplace exposures also contribute. Not every person with lung cancer has smoked, and not every smoker develops cancer.\n\n## Smoking and prevention\nTobacco smoke contains harmful chemicals and particles. It damages cilia, irritates airways, increases the risk of chronic bronchitis and emphysema, and greatly increases the risk of lung cancer and cardiovascular disease. Avoiding tobacco, reducing exposure to indoor and outdoor air pollution, improving ventilation and seeking medical advice for persistent symptoms protect respiratory health.\n\n## Key distinction\nAsthma mainly involves variable narrowing and inflammation of airways; pneumonia is infection of lung tissue; emphysema damages alveolar walls and elasticity. Similar symptoms can have different causes, so diagnosis belongs to health professionals.",
+          "explanations": {
+            "ur": "## اس سبق کے مقاصد\nبرونکائٹس، دمہ، نمونیا، ایمفائزیما اور پھیپھڑوں کے سرطان کی بنیادی خصوصیات پہچانیں اور وضاحت کریں کہ تمباکو نوشی تنفسی نظام کو کیسے نقصان پہنچاتی ہے۔\n\n## Bronchitis\nBronchitis برونکائی کی سوزش ہے۔ اس سے کھانسی، بلغم اور سانس لینے میں دشواری ہو سکتی ہے۔ شدید برونکائٹس اکثر وائرل انفیکشن سے وابستہ ہوتا ہے؛ طویل عرصے کی برونکائٹس بار بار جلن، خصوصاً تمباکو کے دھوئیں اور فضائی آلودگی، سے وابستہ ہو سکتی ہے۔\n\n## Asthma\nAsthma ایک طویل مدتی حالت ہے جس میں ہوا کی نالیاں سوزش اور حساسیت کا شکار ہو جاتی ہیں۔ گرد، پولن، دھواں، ورزش یا سانس کے انفیکشن سے نالیوں کے عضلات سکڑ سکتے ہیں، اندرونی تہہ سوج سکتی ہے اور بلغم بڑھ سکتا ہے۔ اس سے نالیاں تنگ ہوتی ہیں اور سیٹی جیسی آواز، کھانسی، سینے میں جکڑن اور سانس پھولنا ہو سکتا ہے۔ ڈاکٹر کا تجویز کردہ علاج اور inhaled medicines دمہ کو قابو میں رکھنے میں مدد دیتے ہیں۔ شدید سانس کی تکلیف ہنگامی حالت ہے۔\n\n## Pneumonia\nنمونیا پھیپھڑوں کے بافتوں کا انفیکشن ہے، جس میں عموماً الویولی متاثر ہوتے ہیں۔ ہوائی تھیلیاں سیال یا سوزش والے مادّے سے بھر سکتی ہیں، جس سے گیسوں کا تبادلہ مشکل ہو جاتا ہے۔ بخار، کھانسی، سینے میں درد اور سانس کی دشواری ہو سکتی ہے۔ اسباب میں بیکٹیریا اور وائرس شامل ہیں؛ علاج وجہ اور شدت کے مطابق ہوتا ہے۔\n\n## Emphysema\nایمفائزیما میں الویولی کی دیواریں خراب اور ان کی لچک کم ہو جاتی ہے۔ ہوائی جگہیں بڑی اور گیسوں کے تبادلے کے لیے کم مؤثر ہو جاتی ہیں، جس سے سانس باہر نکالنا مشکل ہوتا ہے۔ یہ طویل عرصے تک تمباکو کے دھوئیں اور دوسرے نقصان دہ ذرات سے واسطے کے ساتھ وابستہ ہے۔\n\n## Lung cancer\nپھیپھڑوں کا سرطان پھیپھڑوں کے بافتوں میں غیر معمولی خلیات کی بے قابو افزائش ہے۔ تمباکو نوشی بڑا خطرہ ہے؛ دوسروں کے دھوئیں، فضائی آلودگی اور بعض کام کی جگہوں کے مادّے بھی خطرہ بڑھاتے ہیں۔ ہر مریض نے تمباکو نوشی نہیں کی ہوتی اور ہر تمباکو نوش کو سرطان نہیں ہوتا۔\n\n## تمباکو نوشی اور بچاؤ\nتمباکو کے دھوئیں میں نقصان دہ کیمیائی مادّے اور ذرات ہوتے ہیں۔ یہ سیلیا کو نقصان پہنچاتے، ہوا کی نالیوں میں جلن پیدا کرتے، دائمی برونکائٹس اور ایمفائزیما کا خطرہ بڑھاتے اور پھیپھڑوں کے سرطان و دل کی بیماریوں کے امکانات میں اضافہ کرتے ہیں۔ تمباکو سے دوری، اندرونی اور بیرونی آلودگی سے بچاؤ، اچھی ہوا داری اور مسلسل علامات پر طبی مشورہ تنفسی صحت کی حفاظت کرتے ہیں۔\n\n## اہم فرق\nAsthma میں ہوا کی نالیاں سوزش اور وقتی تنگی کا شکار ہوتی ہیں؛ pneumonia پھیپھڑوں کے بافتوں کا انفیکشن ہے؛ emphysema الویولی کی دیواروں اور لچک کو نقصان پہنچاتا ہے۔ ملتی جلتی علامات کی وجوہ مختلف ہو سکتی ہیں، اس لیے تشخیص طبی ماہر کرتا ہے۔",
+            "sd": "## هن سبق جا مقصد\nBronchitis، asthma، pneumonia، emphysema ۽ lung cancer جون بنيادي خاصيتون سڃاڻو ۽ ٻڌايو ته سگريٽ نوشي ساهه واري نظام کي ڪيئن نقصان پهچائي ٿي.\n\n## Bronchitis\nBronchitis برونڪائي جي سوزش آهي. ان سان کنگهه، بلغم ۽ ساهه کڻڻ ۾ تڪليف ٿي سگهي ٿي. اوچتو bronchitis اڪثر وائرل انفيڪشن سان لاڳاپيل هوندو آهي؛ ڊگهي عرصي وارو bronchitis بار بار جلن، خاص ڪري تمباڪو جي دونهين ۽ هوا جي آلودگي، سان لاڳاپيل ٿي سگهي ٿو.\n\n## Asthma\nAsthma هڪ ڊگهي عرصي واري حالت آهي، جنهن ۾ هوا جون نليون سوزش ۽ گهڻي حساسيت جو شڪار ٿين ٿيون. مٽي، pollen، دونهون، ورزش يا ساهه جا انفيڪشن سبب نلين جا عضلا سڪڙي سگهن ٿا، اندروني تهه سُڄي سگهي ٿي ۽ بلغم وڌي سگهي ٿو. ان سان نليون سوڙهيون ٿين ٿيون ۽ سيٽي جهڙو آواز، کنگهه، ڇاتيءَ ۾ جڪڙ ۽ ساهه ۾ تڪليف ٿي سگهي ٿي. ڊاڪٽر جي ڏنل منصوبي ۽ inhaled دوائن سان asthma کي ڪنٽرول ڪري سگهجي ٿو. سخت ساهه جي تڪليف هنگامي حالت آهي.\n\n## Pneumonia\nPneumonia ڦڦڙن جي بافتن جو انفيڪشن آهي، جنهن ۾ عام طور alveoli متاثر ٿين ٿا. هوائي ٿيلهيون پاڻياٺ يا سوزش واري مادي سان ڀرجي سگهن ٿيون، جنهن سان گيسن جي مٽاسٽا ڏکي ٿئي ٿي. بخار، کنگهه، ڇاتيءَ جو سور ۽ ساهه ۾ تڪليف ٿي سگهي ٿي. سببن ۾ بيڪٽيريا ۽ وائرس شامل آهن؛ علاج سبب ۽ شدت موجب هوندو آهي.\n\n## Emphysema\nEmphysema ۾ alveoli جون ڀتيون خراب ٿين ٿيون ۽ انهن جي لچڪ گهٽجي ٿي. هوائي جايون وڏيون ۽ گيسن جي مٽاسٽا لاءِ گهٽ اثرائتي ٿين ٿيون، تنهنڪري ساهه ٻاهر ڪڍڻ ڏکيو ٿئي ٿو. اهو ڊگهي عرصي تائين تمباڪو جي دونهين ۽ ٻين نقصانڪار ذرڙن سان واسطي سبب ٿي سگهي ٿو.\n\n## Lung cancer\nڦڦڙن جو ڪينسر ڦڦڙن جي بافتن ۾ غير معمولي خلين جي بي قابو واڌ آهي. سگريٽ نوشي وڏو خطرو آهي؛ ٻين جي دونهين، هوا جي آلودگي ۽ ڪم واري هنڌ جا ڪي مادا به خطرو وڌائين ٿا. هر مريض سگريٽ نه پيئندو آهي ۽ هر سگريٽ پيئندڙ کي ڪينسر نٿو ٿئي.\n\n## سگريٽ نوشي ۽ بچاءُ\nتمباڪو جي دونهين ۾ نقصانڪار ڪيميائي مادا ۽ ذرڙا هوندا آهن. اهو cilia کي نقصان پهچائي، هوا جي نلين ۾ جلن پيدا ڪري، دائمي bronchitis ۽ emphysema جو خطرو وڌائي ۽ ڦڦڙن جي ڪينسر ۽ دل جي بيمارين جو خطرو گهڻو وڌائي ٿو. تمباڪو کان پاسو، اندروني ۽ ٻاهرين آلودگيءَ کان بچاءُ، سٺي هوا جي اچ وڃ ۽ لڳاتار علامتن تي طبي صلاح ساهه واري صحت بچائين ٿا.\n\n## اهم فرق\nAsthma ۾ هوا جون نليون سوزش ۽ عارضي سوڙهائي جو شڪار ٿين ٿيون؛ pneumonia ڦڦڙن جي بافتن جو انفيڪشن آهي؛ emphysema alveoli جي ڀتين ۽ لچڪ کي نقصان پهچائي ٿو. ساڳيون لڳندڙ علامتون مختلف سببن ڪري ٿي سگهن ٿيون، تنهنڪري تشخيص صحت جو ماهر ڪري ٿو."
+          }
+        },
+        {
+          "title": "12.5 Case Study, Healthy Lungs and Chapter Review",
+          "type": "text",
+          "content": "## Learning outcomes\nApply respiratory-system concepts to a local situation, interpret symptoms without attempting a diagnosis, and summarise ways to protect lung health.\n\n## Case study: dust in a classroom\nDuring a dry week, a classroom is cleaned by sweeping dust into the air. Several learners cough. One learner with a known asthma action plan begins wheezing after the dust exposure. Dust can irritate sensitive airways and trigger asthma symptoms. The teacher should follow the learner's established action plan, reduce exposure, improve ventilation and obtain appropriate medical help if symptoms are severe or do not improve. The class should not share inhalers or use another person's medicine.\n\n## Think like a scientist\n- What was the possible trigger? Dust in the air.\n- Which structure is affected in asthma? The airways, especially their smooth muscle and lining.\n- What observation would suggest that the classroom needs a safer cleaning method? Visible dust clouds and repeated coughing during cleaning.\n- What is a sensible prevention measure? Damp dusting or a suitable vacuum method, good ventilation and reducing smoke exposure.\n\n## Chapter revision summary\n- Air passes through the nose or mouth, pharynx, larynx, trachea, bronchi, bronchioles and alveoli.\n- Mucus and cilia trap and move particles; cartilage supports the trachea.\n- Inspiration increases thoracic volume and lowers lung pressure; expiration at rest decreases volume and raises pressure.\n- Alveoli have a large surface area, thin moist walls and a rich capillary supply.\n- Inspired air has more oxygen and less carbon dioxide than expired air; nitrogen changes very little.\n- Bronchitis affects bronchi, asthma causes sensitive narrowed airways, pneumonia infects lung tissue, emphysema damages alveoli and lung cancer involves uncontrolled cell growth.\n- Avoiding tobacco smoke and reducing exposure to air pollution help protect the respiratory system.\n\n## Study challenge\nDraw and label the respiratory passage, then make a two-column table comparing inspiration and expiration. Include the diaphragm, ribs, thoracic volume and pressure changes.",
+          "explanations": {
+            "ur": "## اس سبق کے مقاصد\nتنفسی نظام کے تصورات کو مقامی صورتِ حال پر لاگو کریں، علامات کو تشخیص کیے بغیر سمجھیں اور پھیپھڑوں کی حفاظت کے طریقوں کا خلاصہ کریں۔\n\n## کیس اسٹڈی: جماعت میں گرد و غبار\nخشک ہفتے میں ایک جماعت کی صفائی جھاڑو سے کی جاتی ہے اور گرد ہوا میں پھیل جاتی ہے۔ کئی طلبہ کھانسنے لگتے ہیں۔ ایک طالب علم جس کے پاس دمہ کا پہلے سے طے شدہ action plan ہے، گرد کے بعد سیٹی جیسی سانس لینے لگتا ہے۔ گرد حساس ہوا کی نالیوں میں جلن پیدا کر کے دمہ کی علامات شروع کر سکتی ہے۔ استاد کو طالب علم کے طے شدہ action plan پر عمل کرنا، گرد سے واسطہ کم کرنا، ہوا کی آمدورفت بہتر بنانا اور علامات شدید یا برقرار رہنے پر طبی مدد حاصل کرنا چاہیے۔ طلبہ ایک دوسرے کے inhalers یا ادویات استعمال نہ کریں۔\n\n## سائنس دان کی طرح سوچیں\n- ممکنہ محرک کیا تھا؟ ہوا میں گرد۔\n- دمہ میں کون سا حصہ متاثر ہوتا ہے؟ ہوا کی نالیاں، خصوصاً ان کے ہموار عضلات اور اندرونی تہہ۔\n- کون سا مشاہدہ محفوظ صفائی کے طریقے کی ضرورت ظاہر کرتا ہے؟ صفائی کے دوران گرد کے بادل اور بار بار کھانسی۔\n- بچاؤ کا مناسب طریقہ کیا ہے؟ نم کپڑے سے گرد صاف کرنا یا مناسب vacuum، اچھی ہوا داری اور دھوئیں سے بچاؤ۔\n\n## باب کا خلاصہ\n- ہوا ناک یا منہ، حلق، حنجرہ، ٹریکیا، برونکائی، برونکیولز اور الویولی سے گزرتی ہے۔\n- بلغم اور سیلیا ذرات کو پھنساتے اور حرکت دیتے ہیں؛ غضروف ٹریکیا کو سہارا دیتا ہے۔\n- Inspiration میں سینے کا حجم بڑھتا اور پھیپھڑوں کا دباؤ کم ہوتا ہے؛ عام expiration میں حجم کم اور دباؤ زیادہ ہوتا ہے۔\n- الویولی کی سطح بڑی، دیواریں باریک و نم اور خون کی فراہمی گھنی ہوتی ہے۔\n- اندر آنے والی ہوا میں آکسیجن زیادہ اور کاربن ڈائی آکسائیڈ کم ہوتی ہے؛ نائٹروجن میں بہت کم فرق ہوتا ہے۔\n- برونکائٹس برونکائی کو متاثر کرتی ہے، دمہ میں حساس نالیاں تنگ ہوتی ہیں، نمونیا پھیپھڑوں کے بافتوں کا انفیکشن ہے، ایمفائزیما الویولی کو نقصان پہنچاتا ہے اور سرطان میں خلیات بے قابو بڑھتے ہیں۔\n- تمباکو کے دھوئیں سے بچنا اور فضائی آلودگی کم کرنا تنفسی نظام کی حفاظت کرتا ہے۔\n\n## مطالعے کا چیلنج\nتنفسی راستے کی تصویر بنائیں اور نام لکھیں، پھر inspiration اور expiration کا دو کالموں میں موازنہ کریں۔ ڈایافرام، پسلیاں، سینے کا حجم اور دباؤ بھی شامل کریں۔",
+            "sd": "## هن سبق جا مقصد\nساهه واري نظام جا تصور مقامي صورتحال تي لاڳو ڪريو، بنا تشخيص ڪرڻ جي علامتن کي سمجهو ۽ ڦڦڙن جي حفاظت جا طريقا خلاصو ڪريو.\n\n## ڪيس اسٽڊي: ڪلاس ۾ مٽي\nسڪي هفتي دوران ڪلاس جي صفائي ٻهاري سان ڪئي وڃي ٿي ۽ مٽي هوا ۾ پکڙجي ٿي. ڪيترائي شاگرد کنگهن ٿا. هڪ شاگرد، جنهن وٽ asthma جو اڳواٽ action plan آهي، مٽيءَ کان پوءِ سيٽي جهڙو ساهه کڻڻ لڳي ٿو. مٽي حساس هوا جي نلين ۾ جلن پيدا ڪري asthma جون علامتون شروع ڪري سگهي ٿي. استاد کي شاگرد جي مقرر ڪيل action plan تي عمل ڪرڻ، مٽيءَ کان واسطو گهٽائڻ، هوا جي اچ وڃ بهتر ڪرڻ ۽ علامتون سخت يا برقرار رهڻ تي مناسب طبي مدد وٺڻ گهرجي. شاگرد هڪ ٻئي جا inhalers يا دوائون استعمال نه ڪن.\n\n## سائنسدان وانگر سوچيو\n- ممڪن محرڪ ڇا هو؟ هوا ۾ مٽي.\n- Asthma ۾ ڪهڙو حصو متاثر ٿئي ٿو؟ هوا جون نليون، خاص ڪري انهن جا هموار عضلا ۽ اندروني تهه.\n- ڪهڙو مشاهدو محفوظ صفائيءَ جي طريقي جي ضرورت ڏيکاري ٿو؟ صفائي وقت مٽيءَ جا ڪڪر ۽ بار بار کنگهه.\n- مناسب بچاءُ ڪهڙو آهي؟ نم ڪپڙي سان مٽي صاف ڪرڻ يا مناسب vacuum، سٺي هوا جي اچ وڃ ۽ دونهين کان بچاءُ.\n\n## باب جو ورجاءُ\n- هوا نڪ يا وات، ڳلي، larynx، trachea، bronchi، bronchioles ۽ alveoli مان گذري ٿي.\n- بلغم ۽ cilia ذرڙا ڦاسائين ۽ حرڪت ڏين ٿا؛ غضروف trachea کي سهارو ڏئي ٿو.\n- Inspiration ۾ ڇاتيءَ جو حجم وڌي ۽ ڦڦڙن جو دٻاءُ گهٽجي ٿو؛ عام expiration ۾ حجم گهٽجي ۽ دٻاءُ وڌي ٿو.\n- Alveoli جي مٿاڇري وڏي، ڀتيون سنهيون ۽ آليون ۽ رت جي فراهمي گهڻي هوندي آهي.\n- اندر ايندڙ هوا ۾ آڪسيجن وڌيڪ ۽ ڪاربان ڊاءِ آڪسائيڊ گهٽ هوندي آهي؛ نائٽروجن ۾ تمام ٿورو فرق هوندو آهي.\n- Bronchitis برونڪائي کي متاثر ڪري ٿي، asthma ۾ حساس نليون سوڙهيون ٿين ٿيون، pneumonia ڦڦڙن جي بافتن جو انفيڪشن آهي، emphysema alveoli کي نقصان پهچائي ٿو ۽ ڪينسر ۾ خليا بي قابو وڌن ٿا.\n- تمباڪو جي دونهين کان پاسو ۽ هوا جي آلودگي گهٽائڻ ساهه واري نظام جي حفاظت ڪن ٿا.\n\n## پڙهائيءَ جو چئلينج\nساهه واري رستي جي تصوير ٺاهي نالا لکو، پوءِ inspiration ۽ expiration جو ٻن ڪالمن ۾ مقابلو ڪريو. Diaphragm، پاسيريون، ڇاتيءَ جو حجم ۽ دٻاءُ شامل ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which sequence correctly traces air from the outside to the gas-exchange surface?",
+          "options": {
+            "A": "Nose → pharynx → larynx → trachea → bronchi → bronchioles → alveoli",
+            "B": "Nose → oesophagus → stomach → bronchi → alveoli",
+            "C": "Trachea → nose → bronchioles → pharynx → alveoli",
+            "D": "Nose → bronchioles → larynx → stomach → alveoli"
+          },
+          "correctOption": "A",
+          "explanation": "Air passes from the upper airways through the trachea and branching bronchi to bronchioles and alveoli.",
+          "translations": {
+            "ur": {
+              "question": "کون سی ترتیب باہر سے گیسوں کے تبادلے کی جگہ تک ہوا کا درست راستہ دکھاتی ہے؟",
+              "options": {
+                "A": "ناک → حلق → حنجرہ → ٹریکیا → برونکائی → برونکیولز → الویولی",
+                "B": "ناک → غذائی نالی → معدہ → برونکائی → الویولی",
+                "C": "ٹریکیا → ناک → برونکیولز → حلق → الویولی",
+                "D": "ناک → برونکیولز → حنجرہ → معدہ → الویولی"
+              },
+              "explanation": "ہوا اوپری نالیوں سے ٹریکیا اور شاخ دار برونکائی کے ذریعے برونکیولز اور الویولی تک جاتی ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙي ترتيب ٻاهران گيسن جي مٽاسٽا واري هنڌ تائين هوا جو صحيح رستو ڏيکاري ٿي؟",
+              "options": {
+                "A": "نڪ → ڳلو → larynx → trachea → bronchi → bronchioles → alveoli",
+                "B": "نڪ → خوراڪ جي نلي → معدو → bronchi → alveoli",
+                "C": "trachea → نڪ → bronchioles → ڳلو → alveoli",
+                "D": "نڪ → bronchioles → larynx → معدو → alveoli"
+              },
+              "explanation": "هوا مٿين نلين مان trachea ۽ شاخدار bronchi ذريعي bronchioles ۽ alveoli تائين وڃي ٿي."
+            }
+          }
+        },
+        {
+          "question": "What is the main function of mucus in the respiratory passages?",
+          "options": {
+            "A": "To digest proteins",
+            "B": "To trap dust and microorganisms",
+            "C": "To produce red blood cells",
+            "D": "To pump air into the lungs"
+          },
+          "correctOption": "B",
+          "explanation": "Mucus traps inhaled particles and helps protect the delicate lower airways.",
+          "translations": {
+            "ur": {
+              "question": "تنفسی نالیوں میں بلغم کا بنیادی کام کیا ہے؟",
+              "options": {
+                "A": "پروٹین ہضم کرنا",
+                "B": "گرد اور جراثیم کو پھانسنا",
+                "C": "سرخ خون کے خلیات بنانا",
+                "D": "ہوا کو پھیپھڑوں میں پمپ کرنا"
+              },
+              "explanation": "بلغم سانس کے ساتھ آنے والے ذرات کو پھنساتا ہے اور نچلی ہوا کی نالیوں کی حفاظت کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ساهه وارين نلين ۾ بلغم جو بنيادي ڪم ڇا آهي؟",
+              "options": {
+                "A": "پروٽين هضم ڪرڻ",
+                "B": "مٽي ۽ جراثيم ڦاسائڻ",
+                "C": "ڳاڙها رت جا خليا ٺاهڻ",
+                "D": "هوا کي ڦڦڙن ۾ پمپ ڪرڻ"
+              },
+              "explanation": "بلغم ساهه سان ايندڙ ذرڙا ڦاسائي هيٺين هوا وارين نلين جي حفاظت ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "C-shaped cartilage rings in the trachea mainly:",
+          "options": {
+            "A": "Keep the airway from collapsing",
+            "B": "Carry oxygen in blood",
+            "C": "Secrete bile",
+            "D": "Contract the diaphragm"
+          },
+          "correctOption": "A",
+          "explanation": "Cartilage supports the trachea and helps keep its passage open during breathing.",
+          "translations": {
+            "ur": {
+              "question": "ٹریکیا میں C شکل کے غضروفی حلقوں کا بنیادی کام کیا ہے؟",
+              "options": {
+                "A": "ہوا کی نالی کو بند یا بیٹھنے سے بچانا",
+                "B": "خون میں آکسیجن لے جانا",
+                "C": "صفرا خارج کرنا",
+                "D": "ڈایافرام کو سکڑنا"
+              },
+              "explanation": "غضروف ٹریکیا کو سہارا دیتا ہے اور سانس کے دوران اس کا راستہ کھلا رکھنے میں مدد کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Trachea ۾ C شڪل جا غضروفي ڇلا بنيادي طور ڇا ڪن ٿا؟",
+              "options": {
+                "A": "هوا جي نلي کي ويهڻ يا بند ٿيڻ کان بچائين ٿا",
+                "B": "رت ۾ آڪسيجن کڻن ٿا",
+                "C": "صفرا خارج ڪن ٿا",
+                "D": "diaphragm کي سڪڙين ٿا"
+              },
+              "explanation": "غضروف trachea کي سهارو ڏئي ٿو ۽ ساهه دوران ان جو رستو کليل رکي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which feature makes alveoli suitable for rapid gas exchange?",
+          "options": {
+            "A": "Thick dry walls and little blood supply",
+            "B": "Large surface area, thin moist walls and many capillaries",
+            "C": "Hard cartilage walls",
+            "D": "A lining made of bone"
+          },
+          "correctOption": "B",
+          "explanation": "Large surface area, short diffusion distance, moisture and rich blood supply support rapid diffusion.",
+          "translations": {
+            "ur": {
+              "question": "الویولی کو تیز گیسوں کے تبادلے کے لیے کون سی خصوصیت موزوں بناتی ہے؟",
+              "options": {
+                "A": "موٹی خشک دیواریں اور کم خون",
+                "B": "بڑی سطح، باریک نم دیواریں اور بہت سی خون کی نالیاں",
+                "C": "سخت غضروفی دیواریں",
+                "D": "ہڈی کی بنی ہوئی تہہ"
+              },
+              "explanation": "بڑی سطح، کم فاصلہ، نمی اور خون کی اچھی فراہمی تیز diffusion میں مدد دیتے ہیں۔"
+            },
+            "sd": {
+              "question": "Alveoli کي تيز گيسن جي مٽاسٽا لاءِ ڪهڙي خاصيت موزون بڻائي ٿي؟",
+              "options": {
+                "A": "ٿلهيون سڪيون ڀتيون ۽ ٿورو رت",
+                "B": "وڏي مٿاڇري، سنهي آلي ڀت ۽ گهڻيون رت جون نليون",
+                "C": "سخت غضروفي ڀتيون",
+                "D": "هڏي جي ٺهيل تهه"
+              },
+              "explanation": "وڏي مٿاڇري، گهٽ فاصلو، نمي ۽ رت جي سٺي فراهمي تيز diffusion ۾ مدد ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "During quiet inspiration, the diaphragm:",
+          "options": {
+            "A": "Relaxes and moves upward",
+            "B": "Contracts and flattens",
+            "C": "Stops moving permanently",
+            "D": "Closes the trachea"
+          },
+          "correctOption": "B",
+          "explanation": "The contracting diaphragm flattens, increasing thoracic volume and helping air enter the lungs.",
+          "translations": {
+            "ur": {
+              "question": "عام سانس اندر لیتے وقت ڈایافرام کیا کرتا ہے؟",
+              "options": {
+                "A": "ڈھیلا ہو کر اوپر جاتا ہے",
+                "B": "سکڑ کر چپٹا ہو جاتا ہے",
+                "C": "ہمیشہ کے لیے حرکت روک دیتا ہے",
+                "D": "ٹریکیا بند کرتا ہے"
+              },
+              "explanation": "ڈایافرام کا سکڑ کر چپٹا ہونا سینے کا حجم بڑھاتا ہے اور ہوا کو اندر آنے میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "عام ساهه اندر کڻڻ وقت diaphragm ڇا ڪري ٿو؟",
+              "options": {
+                "A": "ڍرو ٿي مٿي وڃي ٿو",
+                "B": "سڪڙي سنئون ٿئي ٿو",
+                "C": "هميشه لاءِ حرڪت بند ڪري ٿو",
+                "D": "trachea بند ڪري ٿو"
+              },
+              "explanation": "Diaphragm جو سڪڙي سنئون ٿيڻ ڇاتيءَ جو حجم وڌائي ٿو ۽ هوا اندر اچڻ ۾ مدد ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "When thoracic volume increases during inspiration, pressure inside the lungs:",
+          "options": {
+            "A": "Increases above atmospheric pressure",
+            "B": "Falls below atmospheric pressure",
+            "C": "Becomes zero",
+            "D": "Does not change at all"
+          },
+          "correctOption": "B",
+          "explanation": "Increasing thoracic volume lowers intrapulmonary pressure slightly, so air flows inward.",
+          "translations": {
+            "ur": {
+              "question": "سانس اندر لیتے وقت سینے کا حجم بڑھنے پر پھیپھڑوں کے اندر دباؤ کیا ہوتا ہے؟",
+              "options": {
+                "A": "فضائی دباؤ سے زیادہ ہو جاتا ہے",
+                "B": "فضائی دباؤ سے کم ہو جاتا ہے",
+                "C": "صفر ہو جاتا ہے",
+                "D": "بالکل تبدیل نہیں ہوتا"
+              },
+              "explanation": "سینے کا حجم بڑھنے سے پھیپھڑوں کا اندرونی دباؤ قدرے کم ہوتا ہے اور ہوا اندر آتی ہے۔"
+            },
+            "sd": {
+              "question": "ساهه اندر کڻڻ وقت ڇاتيءَ جو حجم وڌڻ سان ڦڦڙن اندر دٻاءُ ڇا ٿئي ٿو؟",
+              "options": {
+                "A": "فضائي دٻاءَ کان وڌيڪ ٿئي ٿو",
+                "B": "فضائي دٻاءَ کان گهٽ ٿئي ٿو",
+                "C": "صفر ٿئي ٿو",
+                "D": "بلڪل نٿو بدلجي"
+              },
+              "explanation": "ڇاتيءَ جو حجم وڌڻ سان ڦڦڙن جو اندروني دٻاءُ ٿورو گهٽجي ٿو ۽ هوا اندر اچي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Quiet expiration normally occurs when the diaphragm:",
+          "options": {
+            "A": "Contracts more strongly",
+            "B": "Relaxes and returns to a dome shape",
+            "C": "Moves into the throat",
+            "D": "Turns into cartilage"
+          },
+          "correctOption": "B",
+          "explanation": "Relaxation of the diaphragm and elastic recoil reduce thoracic volume and help air leave.",
+          "translations": {
+            "ur": {
+              "question": "عام سانس باہر نکالتے وقت ڈایافرام عموماً کیا کرتا ہے؟",
+              "options": {
+                "A": "زیادہ زور سے سکڑتا ہے",
+                "B": "ڈھیلا ہو کر گنبد جیسی شکل اختیار کرتا ہے",
+                "C": "حلق میں چلا جاتا ہے",
+                "D": "غضروف بن جاتا ہے"
+              },
+              "explanation": "ڈایافرام کے ڈھیلا ہونے اور پھیپھڑوں کی لچک سے سینے کا حجم کم ہوتا ہے اور ہوا باہر نکلتی ہے۔"
+            },
+            "sd": {
+              "question": "عام ساهه ٻاهر ڪڍڻ وقت diaphragm عام طور ڇا ڪري ٿو؟",
+              "options": {
+                "A": "وڌيڪ زور سان سڪڙي ٿو",
+                "B": "ڍرو ٿي گنبذ جهڙي شڪل وٺي ٿو",
+                "C": "ڳلي ۾ وڃي ٿو",
+                "D": "غضروف بڻجي ٿو"
+              },
+              "explanation": "Diaphragm جي ڍرو ٿيڻ ۽ ڦڦڙن جي لچڪ سان ڇاتيءَ جو حجم گهٽجي ٿو ۽ هوا ٻاهر نڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which muscles help lift the ribs during quiet inspiration?",
+          "options": {
+            "A": "External intercostal muscles",
+            "B": "Biceps muscles",
+            "C": "Stomach muscles only",
+            "D": "Tongue muscles"
+          },
+          "correctOption": "A",
+          "explanation": "External intercostal muscles contract and lift the ribs up and out during inspiration.",
+          "translations": {
+            "ur": {
+              "question": "عام سانس اندر لیتے وقت پسلیوں کو اوپر اٹھانے میں کون سے عضلات مدد دیتے ہیں؟",
+              "options": {
+                "A": "بیرونی بین الضلعی عضلات",
+                "B": "بائسپس عضلات",
+                "C": "صرف معدے کے عضلات",
+                "D": "زبان کے عضلات"
+              },
+              "explanation": "بیرونی بین الضلعی عضلات سکڑ کر پسلیوں کو اوپر اور باہر اٹھاتے ہیں۔"
+            },
+            "sd": {
+              "question": "عام ساهه اندر کڻڻ وقت پاسيرين کي مٿي کڻڻ ۾ ڪهڙا عضلا مدد ڪن ٿا؟",
+              "options": {
+                "A": "ٻاهريان intercostal عضلا",
+                "B": "biceps عضلا",
+                "C": "رڳو معدي جا عضلا",
+                "D": "زبان جا عضلا"
+              },
+              "explanation": "ٻاهريان intercostal عضلا سڪڙي پاسيريون مٿي ۽ ٻاهر کڻن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Compared with inspired air, expired air usually contains:",
+          "options": {
+            "A": "More oxygen and less carbon dioxide",
+            "B": "Less oxygen and more carbon dioxide",
+            "C": "No nitrogen",
+            "D": "No water vapour"
+          },
+          "correctOption": "B",
+          "explanation": "Body tissues use oxygen and produce carbon dioxide; expired air therefore has less oxygen and more carbon dioxide.",
+          "translations": {
+            "ur": {
+              "question": "اندر آنے والی ہوا کے مقابلے میں باہر جانے والی ہوا میں عموماً کیا ہوتا ہے؟",
+              "options": {
+                "A": "زیادہ آکسیجن اور کم کاربن ڈائی آکسائیڈ",
+                "B": "کم آکسیجن اور زیادہ کاربن ڈائی آکسائیڈ",
+                "C": "نائٹروجن بالکل نہیں",
+                "D": "آبی بخارات بالکل نہیں"
+              },
+              "explanation": "جسم آکسیجن استعمال کرتا اور کاربن ڈائی آکسائیڈ بناتا ہے، اس لیے خارج ہونے والی ہوا میں آکسیجن کم اور کاربن ڈائی آکسائیڈ زیادہ ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "اندر ايندڙ هوا جي ڀيٽ ۾ ٻاهر نڪرندڙ هوا ۾ عام طور ڇا هوندو آهي؟",
+              "options": {
+                "A": "وڌيڪ آڪسيجن ۽ گهٽ ڪاربان ڊاءِ آڪسائيڊ",
+                "B": "گهٽ آڪسيجن ۽ وڌيڪ ڪاربان ڊاءِ آڪسائيڊ",
+                "C": "نائٽروجن بلڪل نه",
+                "D": "آبي بخار بلڪل نه"
+              },
+              "explanation": "جسم آڪسيجن استعمال ڪري ۽ ڪاربان ڊاءِ آڪسائيڊ ٺاهي ٿو، تنهنڪري ٻاهر نڪرندڙ هوا ۾ آڪسيجن گهٽ ۽ ڪاربان ڊاءِ آڪسائيڊ وڌيڪ هوندي آهي."
+            }
+          }
+        },
+        {
+          "question": "The approximate oxygen content of ordinary inspired air is:",
+          "options": {
+            "A": "4%",
+            "B": "16%",
+            "C": "21%",
+            "D": "78%"
+          },
+          "correctOption": "C",
+          "explanation": "Dry atmospheric air contains about 21% oxygen; expired air commonly contains about 16%.",
+          "translations": {
+            "ur": {
+              "question": "عام اندر آنے والی ہوا میں آکسیجن کی تقریباً مقدار کتنی ہے؟",
+              "options": {
+                "A": "4%",
+                "B": "16%",
+                "C": "21%",
+                "D": "78%"
+              },
+              "explanation": "خشک فضائی ہوا میں تقریباً 21% آکسیجن ہوتی ہے؛ خارج ہونے والی ہوا میں عموماً تقریباً 16% ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "عام اندر ايندڙ هوا ۾ آڪسيجن جو لڳ ڀڳ مقدار ڪيترو آهي؟",
+              "options": {
+                "A": "4%",
+                "B": "16%",
+                "C": "21%",
+                "D": "78%"
+              },
+              "explanation": "سڪي فضائي هوا ۾ لڳ ڀڳ 21% آڪسيجن هوندي آهي؛ ٻاهر نڪرندڙ هوا ۾ عام طور لڳ ڀڳ 16% هوندي آهي."
+            }
+          }
+        },
+        {
+          "question": "The approximate carbon dioxide content of expired air is commonly taught as:",
+          "options": {
+            "A": "0.04%",
+            "B": "0.4%",
+            "C": "4%",
+            "D": "21%"
+          },
+          "correctOption": "C",
+          "explanation": "Expired air commonly contains around 4% carbon dioxide, compared with about 0.04% in atmospheric air.",
+          "translations": {
+            "ur": {
+              "question": "خارج ہونے والی ہوا میں کاربن ڈائی آکسائیڈ کی تقریباً مقدار عام طور کتنی بتائی جاتی ہے؟",
+              "options": {
+                "A": "0.04%",
+                "B": "0.4%",
+                "C": "4%",
+                "D": "21%"
+              },
+              "explanation": "خارج ہونے والی ہوا میں عموماً تقریباً 4% کاربن ڈائی آکسائیڈ ہوتی ہے، جبکہ فضائی ہوا میں تقریباً 0.04% ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "ٻاهر نڪرندڙ هوا ۾ ڪاربان ڊاءِ آڪسائيڊ جو لڳ ڀڳ مقدار عام طور ڪيترو سيکاريو ويندو آهي؟",
+              "options": {
+                "A": "0.04%",
+                "B": "0.4%",
+                "C": "4%",
+                "D": "21%"
+              },
+              "explanation": "ٻاهر نڪرندڙ هوا ۾ عام طور لڳ ڀڳ 4% ڪاربان ڊاءِ آڪسائيڊ هوندي آهي، جڏهن ته فضائي هوا ۾ لڳ ڀڳ 0.04% هوندي آهي."
+            }
+          }
+        },
+        {
+          "question": "Why does the percentage of nitrogen change very little between inspired and expired air?",
+          "options": {
+            "A": "The body uses almost all inhaled nitrogen",
+            "B": "Nitrogen is not used substantially in ordinary human metabolism",
+            "C": "Nitrogen is converted into oxygen in the lungs",
+            "D": "Nitrogen is destroyed by cilia"
+          },
+          "correctOption": "B",
+          "explanation": "The body does not substantially use inhaled nitrogen, so its proportion remains approximately stable.",
+          "translations": {
+            "ur": {
+              "question": "سانس کے اندر اور باہر جانے والی ہوا میں نائٹروجن کا تناسب بہت کم کیوں بدلتا ہے؟",
+              "options": {
+                "A": "جسم تمام نائٹروجن استعمال کر لیتا ہے",
+                "B": "عام انسانی میٹابولزم میں نائٹروجن خاص طور پر استعمال نہیں ہوتی",
+                "C": "پھیپھڑوں میں نائٹروجن آکسیجن بن جاتی ہے",
+                "D": "سیلیا نائٹروجن کو ختم کرتے ہیں"
+              },
+              "explanation": "جسم سانس کے ساتھ آنے والی نائٹروجن کو خاص مقدار میں استعمال نہیں کرتا، اس لیے اس کا تناسب تقریباً برقرار رہتا ہے۔"
+            },
+            "sd": {
+              "question": "اندر ۽ ٻاهر ويندڙ هوا ۾ نائٽروجن جو تناسب تمام ٿورو ڇو بدلجي ٿو؟",
+              "options": {
+                "A": "جسم سموري نائٽروجن استعمال ڪري ٿو",
+                "B": "عام انساني metabolism ۾ نائٽروجن خاص طور استعمال نٿي ٿئي",
+                "C": "ڦڦڙن ۾ نائٽروجن آڪسيجن بڻجي ٿي",
+                "D": "cilia نائٽروجن ختم ڪن ٿا"
+              },
+              "explanation": "جسم ساهه سان آيل نائٽروجن خاص مقدار ۾ استعمال نٿو ڪري، تنهنڪري ان جو تناسب لڳ ڀڳ ساڳيو رهي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Oxygen moves from alveolar air into blood mainly by:",
+          "options": {
+            "A": "Active transport using ATP",
+            "B": "Diffusion down a partial-pressure gradient",
+            "C": "Peristalsis",
+            "D": "Filtration by the kidney"
+          },
+          "correctOption": "B",
+          "explanation": "Oxygen diffuses from higher partial pressure in alveolar air to lower partial pressure in arriving blood.",
+          "translations": {
+            "ur": {
+              "question": "آکسیجن الویولی کی ہوا سے خون میں بنیادی طور کس عمل سے جاتی ہے؟",
+              "options": {
+                "A": "ATP استعمال کرنے والے active transport سے",
+                "B": "جزوی دباؤ کے فرق کے مطابق diffusion سے",
+                "C": "Peristalsis سے",
+                "D": "گردے کی filtration سے"
+              },
+              "explanation": "آکسیجن الویولی کی ہوا کے زیادہ جزوی دباؤ سے آنے والے خون کے کم جزوی دباؤ کی طرف پھیلتی ہے۔"
+            },
+            "sd": {
+              "question": "آڪسيجن alveoli جي هوا مان رت ۾ بنيادي طور ڪهڙي عمل سان وڃي ٿي؟",
+              "options": {
+                "A": "ATP استعمال ڪندڙ active transport سان",
+                "B": "جزوي دٻاءَ جي فرق موجب diffusion سان",
+                "C": "Peristalsis سان",
+                "D": "گردي جي filtration سان"
+              },
+              "explanation": "آڪسيجن alveoli جي هوا جي وڌيڪ جزوي دٻاءَ کان ايندڙ رت جي گهٽ جزوي دٻاءَ ڏانهن پکڙجي ٿي."
+            }
+          }
+        },
+        {
+          "question": "The moist lining of alveoli is useful because it:",
+          "options": {
+            "A": "Allows gases to dissolve before diffusing",
+            "B": "Stops all diffusion",
+            "C": "Produces digestive enzymes",
+            "D": "Makes cartilage"
+          },
+          "correctOption": "A",
+          "explanation": "Oxygen and carbon dioxide dissolve in the thin moisture layer before crossing cell membranes.",
+          "translations": {
+            "ur": {
+              "question": "الویولی کی نم تہہ کیوں مفید ہے؟",
+              "options": {
+                "A": "گیسوں کو پھیلنے سے پہلے حل ہونے دیتی ہے",
+                "B": "تمام diffusion روک دیتی ہے",
+                "C": "ہاضم خامرے بناتی ہے",
+                "D": "غضروف بناتی ہے"
+              },
+              "explanation": "آکسیجن اور کاربن ڈائی آکسائیڈ خلیاتی جھلیوں سے گزرنے سے پہلے باریک نمی میں حل ہوتی ہیں۔"
+            },
+            "sd": {
+              "question": "Alveoli جي آلي تهه ڇو فائديمند آهي؟",
+              "options": {
+                "A": "گيسن کي پکڙجڻ کان اڳ حل ٿيڻ ڏئي ٿي",
+                "B": "سڄي diffusion روڪي ٿي",
+                "C": "هاضمي جا اينزائم ٺاهي ٿي",
+                "D": "غضروف ٺاهي ٿي"
+              },
+              "explanation": "آڪسيجن ۽ ڪاربان ڊاءِ آڪسائيڊ خلوي جھلين مان گذرڻ کان اڳ سنهي نمي ۾ حل ٿين ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Asthma symptoms can occur when:",
+          "options": {
+            "A": "Airway muscles tighten and the lining becomes inflamed",
+            "B": "The stomach produces bile",
+            "C": "The alveoli turn into bone",
+            "D": "The kidneys stop filtering blood"
+          },
+          "correctOption": "A",
+          "explanation": "Asthma involves sensitive inflamed airways that can narrow when triggered.",
+          "translations": {
+            "ur": {
+              "question": "دمہ کی علامات کب پیدا ہو سکتی ہیں؟",
+              "options": {
+                "A": "جب ہوا کی نالیوں کے عضلات سکڑیں اور اندرونی تہہ میں سوزش ہو",
+                "B": "جب معدہ صفرا بنائے",
+                "C": "جب الویولی ہڈی بن جائیں",
+                "D": "جب گردے خون چھاننا بند کریں"
+              },
+              "explanation": "دمہ میں حساس اور سوزش زدہ ہوا کی نالیاں محرک کے بعد تنگ ہو سکتی ہیں۔"
+            },
+            "sd": {
+              "question": "Asthma جون علامتون ڪڏهن ٿي سگهن ٿيون؟",
+              "options": {
+                "A": "جڏهن هوا جي نلين جا عضلا سڪڙن ۽ اندروني تهه ۾ سوزش ٿئي",
+                "B": "جڏهن معدو صفرا ٺاهي",
+                "C": "جڏهن alveoli هڏي بڻجن",
+                "D": "جڏهن گردا رت ڇاڻڻ بند ڪن"
+              },
+              "explanation": "Asthma ۾ حساس ۽ سوزش واريون هوا جون نليون محرڪ کان پوءِ سوڙهيون ٿي سگهن ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Bronchitis is inflammation mainly affecting the:",
+          "options": {
+            "A": "Bronchi",
+            "B": "Kidneys",
+            "C": "Small intestine",
+            "D": "Heart valves"
+          },
+          "correctOption": "A",
+          "explanation": "Bronchitis is inflammation of the bronchi and commonly causes cough and mucus production.",
+          "translations": {
+            "ur": {
+              "question": "Bronchitis بنیادی طور کس حصے کی سوزش ہے؟",
+              "options": {
+                "A": "برونکائی",
+                "B": "گردے",
+                "C": "چھوٹی آنت",
+                "D": "دل کے والو"
+              },
+              "explanation": "Bronchitis برونکائی کی سوزش ہے اور عموماً کھانسی و بلغم کا سبب بنتی ہے۔"
+            },
+            "sd": {
+              "question": "Bronchitis بنيادي طور ڪهڙي حصي جي سوزش آهي؟",
+              "options": {
+                "A": "Bronchi",
+                "B": "گردا",
+                "C": "ننڍو آنڊو",
+                "D": "دل جا والوز"
+              },
+              "explanation": "Bronchitis، bronchi جي سوزش آهي ۽ عام طور کنگهه ۽ بلغم جو سبب بڻجي ٿي."
+            }
+          }
+        },
+        {
+          "question": "In pneumonia, gas exchange may become difficult because:",
+          "options": {
+            "A": "Alveoli may fill with fluid or inflammatory material",
+            "B": "The trachea grows cartilage rings",
+            "C": "The diaphragm becomes a digestive gland",
+            "D": "The nose produces too much oxygen"
+          },
+          "correctOption": "A",
+          "explanation": "Infection and inflammation can fill alveoli with fluid or material, increasing the barrier to gas exchange.",
+          "translations": {
+            "ur": {
+              "question": "نمونیا میں گیسوں کا تبادلہ مشکل کیوں ہو سکتا ہے؟",
+              "options": {
+                "A": "الویولی سیال یا سوزش والے مادّے سے بھر سکتی ہیں",
+                "B": "ٹریکیا میں غضروفی حلقے بن جاتے ہیں",
+                "C": "ڈایافرام ہاضم غدود بن جاتا ہے",
+                "D": "ناک زیادہ آکسیجن بناتی ہے"
+              },
+              "explanation": "انفیکشن اور سوزش سے الویولی میں سیال یا مادّہ بھر سکتا ہے، جس سے گیسوں کا تبادلہ مشکل ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "Pneumonia ۾ گيسن جي مٽاسٽا ڏکي ڇو ٿي سگهي ٿي؟",
+              "options": {
+                "A": "Alveoli پاڻياٺ يا سوزش واري مادي سان ڀرجي سگهن ٿا",
+                "B": "Trachea ۾ غضروفي ڇلا وڌن ٿا",
+                "C": "Diaphragm هاضمي جو غدود بڻجي ٿو",
+                "D": "نڪ وڌيڪ آڪسيجن ٺاهي ٿو"
+              },
+              "explanation": "انفيڪشن ۽ سوزش سبب alveoli ۾ پاڻياٺ يا مادو ڀرجي سگهي ٿو، جنهن سان گيسن جي مٽاسٽا ڏکي ٿئي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Emphysema mainly damages:",
+          "options": {
+            "A": "Alveolar walls and elastic recoil",
+            "B": "The teeth and tongue",
+            "C": "The liver's bile ducts",
+            "D": "The epiglottis only"
+          },
+          "correctOption": "A",
+          "explanation": "Emphysema destroys alveolar walls and reduces elastic recoil, making expiration difficult.",
+          "translations": {
+            "ur": {
+              "question": "Emphysema بنیادی طور کس چیز کو نقصان پہنچاتا ہے؟",
+              "options": {
+                "A": "الویولی کی دیواروں اور لچکدار واپسی کو",
+                "B": "دانتوں اور زبان کو",
+                "C": "جگر کی صفراوی نالیوں کو",
+                "D": "صرف epiglottis کو"
+              },
+              "explanation": "Emphysema الویولی کی دیواروں کو نقصان پہنچاتا اور لچک کم کرتا ہے، جس سے سانس خارج کرنا مشکل ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "Emphysema بنيادي طور ڇا کي نقصان پهچائي ٿو؟",
+              "options": {
+                "A": "Alveoli جون ڀتيون ۽ لچڪدار واپسي",
+                "B": "ڏند ۽ زبان",
+                "C": "جگر جون صفرا واريون نليون",
+                "D": "رڳو epiglottis"
+              },
+              "explanation": "Emphysema alveoli جي ڀتين کي نقصان پهچائي ۽ لچڪ گهٽائي ٿو، جنهن سان ساهه ٻاهر ڪڍڻ ڏکيو ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement about smoking and respiratory health is correct?",
+          "options": {
+            "A": "Smoking protects cilia from damage",
+            "B": "Smoking increases the risk of chronic bronchitis, emphysema and lung cancer",
+            "C": "Smoking makes alveolar walls thicker and stronger",
+            "D": "Smoking removes all airway mucus"
+          },
+          "correctOption": "B",
+          "explanation": "Tobacco smoke damages cilia and airways and raises the risk of several serious respiratory diseases.",
+          "translations": {
+            "ur": {
+              "question": "تمباکو نوشی اور تنفسی صحت کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "تمباکو نوشی سیلیا کو نقصان سے بچاتی ہے",
+                "B": "تمباکو نوشی دائمی برونکائٹس، ایمفائزیما اور پھیپھڑوں کے سرطان کا خطرہ بڑھاتی ہے",
+                "C": "تمباکو نوشی الویولی کی دیواریں موٹی اور مضبوط کرتی ہے",
+                "D": "تمباکو نوشی تمام بلغم ختم کر دیتی ہے"
+              },
+              "explanation": "تمباکو کا دھواں سیلیا اور ہوا کی نالیوں کو نقصان پہنچاتا اور کئی سنگین بیماریوں کا خطرہ بڑھاتا ہے۔"
+            },
+            "sd": {
+              "question": "سگريٽ نوشي ۽ ساهه واري صحت بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "سگريٽ نوشي cilia کي نقصان کان بچائي ٿي",
+                "B": "سگريٽ نوشي دائمي bronchitis، emphysema ۽ ڦڦڙن جي ڪينسر جو خطرو وڌائي ٿي",
+                "C": "سگريٽ نوشي alveoli جون ڀتيون ٿلهيون ۽ مضبوط ڪري ٿي",
+                "D": "سگريٽ نوشي سمورو بلغم ختم ڪري ٿي"
+              },
+              "explanation": "تمباڪو جو دونهون cilia ۽ هوا جي نلين کي نقصان پهچائي ٿو ۽ ڪيترين سخت بيمارين جو خطرو وڌائي ٿو."
+            }
+          }
+        },
+        {
+          "question": "A learner wheezes after heavy dust exposure. Which condition is most directly suggested by the trigger described, if the learner already has a diagnosed action plan?",
+          "options": {
+            "A": "Asthma symptoms triggered by an irritant",
+            "B": "Peptic ulcer",
+            "C": "Kidney failure",
+            "D": "Constipation"
+          },
+          "correctOption": "A",
+          "explanation": "Dust can trigger symptoms in a person with asthma, but the action plan and clinical assessment guide care; a quiz cannot diagnose a person.",
+          "translations": {
+            "ur": {
+              "question": "گرد کے شدید اثر کے بعد ایک طالب علم کو سیٹی جیسی سانس آتی ہے۔ اگر اسے پہلے سے دمہ کا action plan دیا گیا ہو تو کون سی بات زیادہ موزوں ہے؟",
+              "options": {
+                "A": "محرک سے دمہ کی علامات شروع ہونا",
+                "B": "پیپٹک السر",
+                "C": "گردے کی ناکامی",
+                "D": "قبض"
+              },
+              "explanation": "گرد دمہ کے مریض میں علامات شروع کر سکتی ہے، مگر علاج کے لیے پہلے سے طے شدہ action plan اور طبی معائنہ ضروری ہیں؛ سوالنامہ تشخیص نہیں کرتا۔"
+            },
+            "sd": {
+              "question": "گهڻي مٽيءَ کان پوءِ شاگرد کي سيٽي جهڙو ساهه اچي ٿو. جيڪڏهن ان وٽ اڳواٽ asthma جو action plan آهي ته ڪهڙي ڳالهه وڌيڪ مناسب آهي؟",
+              "options": {
+                "A": "محرڪ سبب asthma جون علامتون شروع ٿيڻ",
+                "B": "پيپٽڪ السر",
+                "C": "گردي جي ناڪامي",
+                "D": "قبض"
+              },
+              "explanation": "مٽي asthma واري ماڻهوءَ ۾ علامتون شروع ڪري سگهي ٿي، پر سنڀال لاءِ مقرر action plan ۽ طبي معائنو ضروري آهن؛ سوالنامو تشخيص نٿو ڪري."
+            }
+          }
+        },
+        {
+          "question": "Which change most directly helps reduce respiratory irritation in a dusty classroom?",
+          "options": {
+            "A": "Dry sweeping that raises dust clouds",
+            "B": "Damp dusting, safer cleaning and good ventilation",
+            "C": "Burning rubbish near windows",
+            "D": "Allowing indoor smoking"
+          },
+          "correctOption": "B",
+          "explanation": "Damp cleaning and ventilation reduce airborne dust and irritants; smoke exposure should be avoided.",
+          "translations": {
+            "ur": {
+              "question": "گرد آلود جماعت میں تنفسی جلن کم کرنے کے لیے کون سی تبدیلی زیادہ مددگار ہے؟",
+              "options": {
+                "A": "خشک جھاڑو جو گرد اڑائے",
+                "B": "نم صفائی، محفوظ صفائی کا طریقہ اور اچھی ہوا داری",
+                "C": "کھڑکیوں کے قریب کچرا جلانا",
+                "D": "اندر تمباکو نوشی کی اجازت دینا"
+              },
+              "explanation": "نم صفائی اور ہوا داری ہوا میں گرد و جلن پیدا کرنے والے ذرات کم کرتی ہے؛ دھوئیں سے بچنا چاہیے۔"
+            },
+            "sd": {
+              "question": "مٽي واري ڪلاس ۾ ساهه جي جلن گهٽائڻ لاءِ ڪهڙي تبديلي وڌيڪ مددگار آهي؟",
+              "options": {
+                "A": "سڪي ٻهاري جيڪا مٽي اڏائي",
+                "B": "آلي صفائي، محفوظ صفائيءَ جو طريقو ۽ سٺي هوا جي اچ وڃ",
+                "C": "دريءَ ڀرسان ڪچرو ساڙڻ",
+                "D": "اندر سگريٽ پيئڻ جي اجازت"
+              },
+              "explanation": "آلي صفائي ۽ هوا جي اچ وڃ هوا ۾ مٽي ۽ جلن وارا ذرڙا گهٽائين ٿا؛ دونهين کان پاسو ڪرڻ گهرجي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Trace the route of air from the nose to the alveoli. State two ways in which the respiratory passages protect incoming air.",
+          "modelAnswer": "Air passes through the nasal cavity, pharynx, larynx, trachea, bronchi, bronchioles and finally alveoli. The nasal hairs and mucus trap particles; cilia move mucus towards the throat. The nasal cavity also warms and moistens air. Cartilage helps keep the trachea open.",
+          "rubric": [
+            "Correct route in order (3 marks)",
+            "Two valid protective functions, such as filtering, mucus/cilia clearance, warming or moistening (2 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ناک سے الویولی تک ہوا کا راستہ ترتیب سے بیان کریں۔ دو طریقے لکھیں جن سے تنفسی نالیاں آنے والی ہوا کی حفاظت کرتی ہیں۔",
+              "modelAnswer": "ہوا ناک کی گہا، حلق، حنجرہ، ٹریکیا، برونکائی اور برونکیولز سے گزر کر الویولی تک پہنچتی ہے۔ ناک کے بال اور بلغم ذرات کو پھنساتے ہیں؛ سیلیا بلغم کو حلق کی طرف لے جاتے ہیں۔ ناک کی گہا ہوا کو گرم اور نم بھی کرتی ہے۔ غضروف ٹریکیا کو کھلا رکھنے میں مدد دیتا ہے۔",
+              "rubric": [
+                "ہوا کا درست راستہ ترتیب سے (3 نمبر)",
+                "حفاظت کے دو درست طریقے، مثلاً چھاننا، بلغم/سیلیا، گرم یا نم کرنا (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "نڪ کان alveoli تائين هوا جو رستو ترتيب سان بيان ڪريو. ٻه طريقا لکو جن سان ساهه واريون نليون اندر ايندڙ هوا جي حفاظت ڪن ٿيون.",
+              "modelAnswer": "هوا نڪ جي کوک، ڳلي، larynx، trachea، bronchi ۽ bronchioles مان گذري alveoli تائين پهچي ٿي. نڪ جا وار ۽ بلغم ذرڙا ڦاسائين ٿا؛ cilia بلغم کي ڳلي ڏانهن کڻي وڃن ٿا. نڪ جي کوک هوا کي گرم ۽ آلو به ڪري ٿي. غضروف trachea کي کليل رکڻ ۾ مدد ڪري ٿو.",
+              "rubric": [
+                "هوا جو صحيح رستو ترتيب سان (3 نمبر)",
+                "حفاظت جا ٻه صحيح طريقا، جيئن ڇاڻڻ، بلغم/cilia، گرم يا آلو ڪرڻ (2 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain the changes in the diaphragm, ribs, thoracic volume and lung pressure during inspiration.",
+          "modelAnswer": "During inspiration the diaphragm contracts and flattens. External intercostal muscles contract, moving the ribs up and out. Thoracic volume increases, so pressure inside the lungs falls slightly below atmospheric pressure. Air therefore flows into the lungs.",
+          "rubric": [
+            "Diaphragm contracts and flattens (1 mark)",
+            "Ribs move up and out due to external intercostals (1 mark)",
+            "Thoracic volume increases (1 mark)",
+            "Intrapulmonary pressure falls below atmospheric pressure (1 mark)",
+            "Air moves into the lungs (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "سانس اندر لیتے وقت ڈایافرام، پسلیوں، سینے کے حجم اور پھیپھڑوں کے دباؤ میں تبدیلی بیان کریں۔",
+              "modelAnswer": "سانس اندر لیتے وقت ڈایافرام سکڑ کر چپٹا ہوتا ہے۔ بیرونی بین الضلعی عضلات سکڑ کر پسلیوں کو اوپر اور باہر لے جاتے ہیں۔ سینے کا حجم بڑھتا ہے، اس لیے پھیپھڑوں کے اندر دباؤ فضائی دباؤ سے قدرے کم ہو جاتا ہے۔ چنانچہ ہوا پھیپھڑوں میں داخل ہوتی ہے۔",
+              "rubric": [
+                "ڈایافرام سکڑ کر چپٹا ہوتا ہے (1 نمبر)",
+                "بیرونی بین الضلعی عضلات سے پسلیاں اوپر اور باہر جاتی ہیں (1 نمبر)",
+                "سینے کا حجم بڑھتا ہے (1 نمبر)",
+                "پھیپھڑوں کا دباؤ فضائی دباؤ سے کم ہوتا ہے (1 نمبر)",
+                "ہوا پھیپھڑوں میں داخل ہوتی ہے (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ساهه اندر کڻڻ وقت diaphragm، پاسيرين، ڇاتيءَ جي حجم ۽ ڦڦڙن جي دٻاءَ ۾ تبديلي بيان ڪريو.",
+              "modelAnswer": "ساهه اندر کڻڻ وقت diaphragm سڪڙي سنئون ٿئي ٿو. ٻاهريان intercostal عضلا سڪڙي پاسيريون مٿي ۽ ٻاهر کڻن ٿا. ڇاتيءَ جو حجم وڌي ٿو، تنهنڪري ڦڦڙن اندر دٻاءُ فضائي دٻاءَ کان ٿورو گهٽجي ٿو. ان ڪري هوا ڦڦڙن ۾ داخل ٿئي ٿي.",
+              "rubric": [
+                "Diaphragm سڪڙي سنئون ٿئي ٿو (1 نمبر)",
+                "ٻاهرين intercostal عضلن سان پاسيريون مٿي ۽ ٻاهر وڃن ٿيون (1 نمبر)",
+                "ڇاتيءَ جو حجم وڌي ٿو (1 نمبر)",
+                "ڦڦڙن جو دٻاءُ فضائي دٻاءَ کان گهٽجي ٿو (1 نمبر)",
+                "هوا ڦڦڙن ۾ داخل ٿئي ٿي (1 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare the approximate percentages of oxygen and carbon dioxide in inspired and expired air. Explain why the percentages change.",
+          "modelAnswer": "Inspired air contains about 21% oxygen and 0.04% carbon dioxide. Expired air commonly contains about 16% oxygen and 4% carbon dioxide. Body cells use oxygen during aerobic respiration and produce carbon dioxide, which is transported to the lungs and diffuses into alveoli. Expired air also contains more water vapour and is warmer.",
+          "rubric": [
+            "Inspired oxygen about 21% and expired oxygen about 16% (1 mark)",
+            "Inspired carbon dioxide about 0.04% and expired about 4% (1 mark)",
+            "Explains oxygen use by cells (1 mark)",
+            "Explains carbon dioxide production and diffusion to alveoli (1 mark)",
+            "Notes increased water vapour/temperature (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "سانس کے اندر اور باہر جانے والی ہوا میں آکسیجن اور کاربن ڈائی آکسائیڈ کی تقریباً مقدار کا موازنہ کریں۔ وضاحت کریں کہ یہ مقداریں کیوں بدلتی ہیں۔",
+              "modelAnswer": "اندر آنے والی ہوا میں تقریباً 21% آکسیجن اور 0.04% کاربن ڈائی آکسائیڈ ہوتی ہے۔ خارج ہونے والی ہوا میں عموماً تقریباً 16% آکسیجن اور 4% کاربن ڈائی آکسائیڈ ہوتی ہے۔ خلیات ہوائی تنفس میں آکسیجن استعمال کرتے اور کاربن ڈائی آکسائیڈ بناتے ہیں۔ یہ خون کے ذریعے پھیپھڑوں تک پہنچتی اور الویولی میں پھیلتی ہے۔ خارج ہونے والی ہوا میں آبی بخارات زیادہ اور درجہ حرارت بھی زیادہ ہوتا ہے۔",
+              "rubric": [
+                "اندر آنے والی ہوا میں آکسیجن تقریباً 21% اور خارج ہونے والی میں 16% (1 نمبر)",
+                "اندر آنے والی ہوا میں CO2 تقریباً 0.04% اور خارج ہونے والی میں 4% (1 نمبر)",
+                "خلیات کے آکسیجن استعمال کی وضاحت (1 نمبر)",
+                "کاربن ڈائی آکسائیڈ بننے اور الویولی تک پہنچنے کی وضاحت (1 نمبر)",
+                "زیادہ آبی بخارات/درجہ حرارت کا ذکر (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "اندر ايندڙ ۽ ٻاهر نڪرندڙ هوا ۾ آڪسيجن ۽ ڪاربان ڊاءِ آڪسائيڊ جي لڳ ڀڳ مقدار جو مقابلو ڪريو. ٻڌايو ته اهي مقدارون ڇو بدلجن ٿيون.",
+              "modelAnswer": "اندر ايندڙ هوا ۾ لڳ ڀڳ 21% آڪسيجن ۽ 0.04% ڪاربان ڊاءِ آڪسائيڊ هوندي آهي. ٻاهر نڪرندڙ هوا ۾ عام طور لڳ ڀڳ 16% آڪسيجن ۽ 4% ڪاربان ڊاءِ آڪسائيڊ هوندي آهي. خليا هوائي تنفس دوران آڪسيجن استعمال ڪن ٿا ۽ ڪاربان ڊاءِ آڪسائيڊ ٺاهين ٿا. اها رت ذريعي ڦڦڙن تائين پهچي alveoli ۾ پکڙجي ٿي. ٻاهر نڪرندڙ هوا ۾ آبي بخار وڌيڪ ۽ گرمي پد به وڌيڪ هوندو آهي.",
+              "rubric": [
+                "اندر ايندڙ هوا ۾ آڪسيجن لڳ ڀڳ 21% ۽ ٻاهر نڪرندڙ ۾ 16% (1 نمبر)",
+                "اندر ايندڙ هوا ۾ CO2 لڳ ڀڳ 0.04% ۽ ٻاهر نڪرندڙ ۾ 4% (1 نمبر)",
+                "خلين جي آڪسيجن استعمال جي وضاحت (1 نمبر)",
+                "ڪاربان ڊاءِ آڪسائيڊ ٺهڻ ۽ alveoli تائين پهچڻ جي وضاحت (1 نمبر)",
+                "وڌيڪ آبي بخار/گرمي پد جو ذڪر (1 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain the mechanics of inspiration and quiet expiration. In your answer relate muscle actions to rib movement, thoracic volume, pressure inside the lungs and the direction of airflow.",
+          "modelAnswer": "During inspiration the diaphragm contracts and flattens. The external intercostal muscles contract and lift the ribs and sternum up and out. These movements increase thoracic volume. The pressure inside the lungs falls slightly below atmospheric pressure, so air flows into the lungs. During quiet expiration the diaphragm and external intercostal muscles relax. The diaphragm returns to a dome shape, the ribs move down and in, and elastic recoil of the lungs and chest wall reduces thoracic volume. Pressure inside the lungs rises above atmospheric pressure and air flows out. Thus, changes in volume create pressure differences that move air; the diaphragm does not push air directly.",
+          "rubric": [
+            "Inspiration: diaphragm contracts/flattens (1 mark)",
+            "Inspiration: external intercostals contract and ribs move up/out (2 marks)",
+            "Inspiration: thoracic volume increases, pressure falls, air enters (2 marks)",
+            "Expiration: diaphragm/intercostals relax and ribs move down/in (2 marks)",
+            "Expiration: elastic recoil reduces volume and raises pressure (1 mark)",
+            "Air flows out down pressure gradient; clear volume-pressure link (2 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "سانس اندر لینے اور عام طور پر سانس باہر نکالنے کے طریقۂ کار کی وضاحت کریں۔ عضلات کی حرکت کو پسلیوں، سینے کے حجم، پھیپھڑوں کے اندر دباؤ اور ہوا کے بہاؤ کی سمت سے مربوط کریں۔",
+              "modelAnswer": "سانس اندر لیتے وقت ڈایافرام سکڑ کر چپٹا ہوتا ہے۔ بیرونی بین الضلعی عضلات سکڑ کر پسلیوں اور سینے کی ہڈی کو اوپر اور باہر اٹھاتے ہیں۔ ان حرکات سے سینے کا حجم بڑھتا ہے۔ پھیپھڑوں کے اندر دباؤ فضائی دباؤ سے قدرے کم ہوتا ہے، اس لیے ہوا اندر آتی ہے۔ عام سانس باہر نکالتے وقت ڈایافرام اور بیرونی بین الضلعی عضلات ڈھیلے ہوتے ہیں۔ ڈایافرام دوبارہ گنبد جیسا ہو جاتا ہے، پسلیاں نیچے اور اندر آتی ہیں اور پھیپھڑوں و سینے کی دیوار کی لچک حجم کم کرتی ہے۔ پھیپھڑوں کے اندر دباؤ فضائی دباؤ سے زیادہ ہو جاتا ہے اور ہوا باہر نکلتی ہے۔ اس طرح حجم کی تبدیلی دباؤ کا فرق پیدا کرتی ہے؛ ڈایافرام ہوا کو براہِ راست نہیں دھکیلتا۔",
+              "rubric": [
+                "Inspiration: ڈایافرام سکڑ کر چپٹا ہوتا ہے (1 نمبر)",
+                "Inspiration: بیرونی بین الضلعی عضلات سکڑتے اور پسلیاں اوپر/باہر جاتی ہیں (2 نمبر)",
+                "Inspiration: حجم بڑھتا، دباؤ کم ہوتا اور ہوا اندر آتی ہے (2 نمبر)",
+                "Expiration: ڈایافرام/عضلات ڈھیلے اور پسلیاں نیچے/اندر جاتی ہیں (2 نمبر)",
+                "Expiration: لچک سے حجم کم اور دباؤ زیادہ ہوتا ہے (1 نمبر)",
+                "دباؤ کے فرق سے ہوا باہر نکلنے اور حجم/دباؤ کے تعلق کی وضاحت (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ساهه اندر کڻڻ ۽ عام ساهه ٻاهر ڪڍڻ جي طريقيڪار جي وضاحت ڪريو. عضلن جي حرڪت کي پاسيرين، ڇاتيءَ جي حجم، ڦڦڙن اندر دٻاءَ ۽ هوا جي رخ سان ڳنڍيو.",
+              "modelAnswer": "ساهه اندر کڻڻ وقت diaphragm سڪڙي سنئون ٿئي ٿو. ٻاهريان intercostal عضلا سڪڙي پاسيريون ۽ ڇاتيءَ جي هڏي مٿي ۽ ٻاهر کڻن ٿا. انهن حرڪتن سان ڇاتيءَ جو حجم وڌي ٿو. ڦڦڙن اندر دٻاءُ فضائي دٻاءَ کان ٿورو گهٽجي ٿو، تنهنڪري هوا اندر اچي ٿي. عام ساهه ٻاهر ڪڍڻ وقت diaphragm ۽ ٻاهريان intercostal عضلا ڍرا ٿين ٿا. Diaphragm وري گنبذ جهڙو ٿئي ٿو، پاسيريون هيٺ ۽ اندر اچن ٿيون ۽ ڦڦڙن ۽ ڇاتيءَ جي ڀت جي لچڪ حجم گهٽائي ٿي. ڦڦڙن اندر دٻاءُ فضائي دٻاءَ کان وڌي ٿو ۽ هوا ٻاهر نڪري ٿي. اهڙيءَ طرح حجم جي تبديلي دٻاءَ جو فرق پيدا ڪري ٿي؛ diaphragm سڌو هوا نٿو ڌڪي.",
+              "rubric": [
+                "Inspiration: diaphragm سڪڙي سنئون ٿئي ٿو (1 نمبر)",
+                "Inspiration: ٻاهريان intercostal عضلا سڪڙن ۽ پاسيريون مٿي/ٻاهر وڃن ٿيون (2 نمبر)",
+                "Inspiration: حجم وڌي، دٻاءُ گهٽجي ۽ هوا اندر اچي ٿي (2 نمبر)",
+                "Expiration: diaphragm/عضلا ڍرا ۽ پاسيريون هيٺ/اندر وڃن ٿيون (2 نمبر)",
+                "Expiration: لچڪ سان حجم گهٽجي ۽ دٻاءُ وڌي ٿو (1 نمبر)",
+                "دٻاءَ جي فرق سان هوا ٻاهر وڃڻ ۽ حجم/دٻاءَ جو تعلق (2 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Case study: A learner with a known asthma action plan begins wheezing during a dusty classroom clean-up. Another learner has fever, cough and chest discomfort after a respiratory infection. Use the case to distinguish asthma from pneumonia, describe how emphysema affects alveoli, and give four practical measures that reduce respiratory risk at school and at home.",
+          "modelAnswer": "Dust can trigger symptoms in asthma because sensitive, inflamed airways narrow when airway smooth muscle tightens and the lining swells or produces extra mucus. The learner's existing asthma action plan should be followed, and severe or persistent breathing difficulty needs urgent medical help. Fever, cough and chest discomfort after infection may be consistent with pneumonia, in which lung tissue and alveoli become infected and may fill with fluid; only a health professional can diagnose it. Emphysema damages alveolar walls and reduces elastic recoil, making expiration difficult and reducing effective gas-exchange surface. Practical prevention includes damp dusting and good ventilation, avoiding tobacco smoke and indoor burning, handwashing and respiratory hygiene, and reducing exposure to outdoor pollution where possible. Students should not share inhalers or self-prescribe medicines.",
+          "rubric": [
+            "Asthma: trigger-related airway inflammation/narrowing (2 marks)",
+            "Safe response using existing action plan and urgent help when severe (1 mark)",
+            "Pneumonia: infection of lung tissue/alveoli, possible fluid (2 marks)",
+            "Emphysema: alveolar wall damage and loss of elastic recoil (2 marks)",
+            "Four practical prevention measures, one mark each (3 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "کیس اسٹڈی: ایک طالب علم جس کے پاس دمہ کا پہلے سے طے شدہ action plan ہے، گرد آلود جماعت کی صفائی کے دوران سیٹی جیسی سانس لینے لگتا ہے۔ دوسرے طالب علم کو سانس کے انفیکشن کے بعد بخار، کھانسی اور سینے میں تکلیف ہے۔ ان حالات کی مدد سے دمہ اور نمونیا میں فرق کریں، بتائیں emphysema الویولی کو کیسے متاثر کرتا ہے، اور اسکول و گھر میں تنفسی خطرات کم کرنے کے چار عملی طریقے لکھیں۔",
+              "modelAnswer": "گرد دمہ کی علامات شروع کر سکتی ہے کیونکہ حساس اور سوزش زدہ ہوا کی نالیاں عضلات کے سکڑنے، اندرونی تہہ کی سوجن یا زیادہ بلغم سے تنگ ہو جاتی ہیں۔ پہلے سے طے شدہ action plan پر عمل کیا جائے؛ شدید یا برقرار رہنے والی سانس کی تکلیف میں فوری طبی مدد ضروری ہے۔ انفیکشن کے بعد بخار، کھانسی اور سینے کی تکلیف نمونیا سے مطابقت رکھ سکتی ہے، جس میں پھیپھڑوں کے بافتے اور الویولی متاثر ہو کر سیال سے بھر سکتے ہیں؛ تشخیص صرف طبی ماہر کرتا ہے۔ Emphysema الویولی کی دیواریں خراب اور لچک کم کرتا ہے، جس سے سانس باہر نکالنا مشکل اور گیسوں کے تبادلے کی مؤثر سطح کم ہوتی ہے۔ بچاؤ میں نم صفائی اور اچھی ہوا داری، تمباکو کے دھوئیں اور اندر کچرا جلانے سے بچاؤ، ہاتھ دھونا اور کھانسی کی صفائی، اور ممکن ہو تو بیرونی آلودگی سے واسطہ کم کرنا شامل ہیں۔ طلبہ inhalers یا ادویات ایک دوسرے کے ساتھ استعمال نہ کریں۔",
+              "rubric": [
+                "Asthma: محرک سے ہوا کی نالیوں کی سوزش/تنگی (2 نمبر)",
+                "موجودہ action plan اور شدید حالت میں فوری مدد (1 نمبر)",
+                "Pneumonia: پھیپھڑوں/الویولی کا انفیکشن اور ممکنہ سیال (2 نمبر)",
+                "Emphysema: الویولی کی دیواروں کو نقصان اور لچک میں کمی (2 نمبر)",
+                "بچاؤ کے چار عملی طریقے، ہر ایک 1 نمبر (3 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ڪيس اسٽڊي: هڪ شاگرد، جنهن وٽ asthma جو اڳواٽ action plan آهي، مٽي واري ڪلاس جي صفائي دوران سيٽي جهڙو ساهه کڻڻ لڳي ٿو. ٻئي شاگرد کي ساهه جي انفيڪشن کان پوءِ بخار، کنگهه ۽ ڇاتيءَ ۾ تڪليف آهي. انهن حالتن جي مدد سان asthma ۽ pneumonia ۾ فرق ڪريو، ٻڌايو ته emphysema alveoli کي ڪيئن متاثر ڪري ٿو ۽ اسڪول ۽ گهر ۾ ساهه جا خطرا گهٽائڻ جا چار عملي طريقا لکو.",
+              "modelAnswer": "مٽي asthma جون علامتون شروع ڪري سگهي ٿي، ڇاڪاڻ ته حساس ۽ سوزش واريون هوا جون نليون عضلن جي سڪڙڻ، اندروني تهه جي سُڄڻ يا وڌيڪ بلغم سبب سوڙهيون ٿين ٿيون. اڳواٽ action plan تي عمل ڪيو وڃي؛ سخت يا برقرار ساهه جي تڪليف ۾ ترت طبي مدد ضروري آهي. انفيڪشن کان پوءِ بخار، کنگهه ۽ ڇاتيءَ جي تڪليف pneumonia سان لاڳاپيل ٿي سگهي ٿي، جنهن ۾ ڦڦڙن جا ٽشو ۽ alveoli متاثر ٿي پاڻياٺ سان ڀرجي سگهن ٿا؛ تشخيص رڳو صحت جو ماهر ڪري ٿو. Emphysema alveoli جون ڀتيون خراب ڪري ۽ لچڪ گهٽائي ٿو، جنهن سان ساهه ٻاهر ڪڍڻ ڏکيو ۽ گيسن جي مٽاسٽا واري اثرائتي سطح گهٽجي ٿي. بچاءَ ۾ آلي صفائي ۽ سٺي هوا جي اچ وڃ، تمباڪو جي دونهين ۽ اندر ڪچرو ساڙڻ کان پاسو، هٿ ڌوئڻ ۽ کنگهه جي صفائي، ۽ ممڪن هجي ته ٻاهرين آلودگيءَ کان واسطو گهٽائڻ شامل آهن. شاگرد هڪ ٻئي جا inhalers يا دوائون استعمال نه ڪن.",
+              "rubric": [
+                "Asthma: محرڪ سبب هوا جي نلين جي سوزش/سوڙهائي (2 نمبر)",
+                "موجوده action plan ۽ سخت حالت ۾ ترت مدد (1 نمبر)",
+                "Pneumonia: ڦڦڙن/ alveoli جو انفيڪشن ۽ پاڻياٺ (2 نمبر)",
+                "Emphysema: alveoli جي ڀتين کي نقصان ۽ لچڪ گهٽجڻ (2 نمبر)",
+                "بچاءَ جا چار عملي طريقا، هر هڪ 1 نمبر (3 نمبر)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
