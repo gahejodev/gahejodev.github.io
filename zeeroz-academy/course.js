@@ -69,7 +69,7 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
   const chaptersSnap=await getDocs(query(collection(db(),"courses",id,"chapters"),where("published","==",true)));
   const chapters=chaptersSnap.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.order||0)-(b.order||0));
   host.replaceChildren();if(!chapters.length){host.className="empty";host.textContent="No chapters have been added yet. Please check again later.";return;}host.className="";
-  let lessonTotal=0;
+  let lessonTotal=0,mcqTotal=0,writtenTotal=0;
   const prepared=[];
   for(let i=0;i<chapters.length;i++){
    const chapter=chapters[i];
@@ -77,15 +77,17 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
    const lessons=lessonSnap.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.order||0)-(b.order||0));
    const writtenSnap=await getDocs(query(collection(db(),"courses",id,"chapters",chapter.id,"writtenQuestions"),where("published","==",true)));
    const written=writtenSnap.docs.map(d=>d.data()).sort((a,b)=>(a.order||0)-(b.order||0));
-   lessonTotal+=lessons.length;prepared.push({chapter,lessons,written});
+   const questionSnap=await getDocs(query(collection(db(),"courses",id,"chapters",chapter.id,"questions"),where("published","==",true)));
+   const mcqCount=questionSnap.size;
+   lessonTotal+=lessons.length;mcqTotal+=mcqCount;writtenTotal+=written.length;prepared.push({chapter,lessons,written,mcqCount});
   }
   const stats=node("div","course-stats");
-  [["CHAPTERS",chapters.length],["LESSONS",lessonTotal],["YOUR STUDY SPACE","Ready"]].forEach(([label,value])=>{const box=node("div","course-stat");box.append(node("span","",label),node("strong","",String(value)));stats.append(box)});
+  [["CHAPTERS",chapters.length],["LESSONS",lessonTotal],["MCQs",mcqTotal],["WRITTEN QUESTIONS",writtenTotal]].forEach(([label,value])=>{const box=node("div","course-stat");box.append(node("span","",label),node("strong","",String(value)));stats.append(box)});
   host.append(stats);
-  prepared.forEach(({chapter,lessons,written},i)=>{
+  prepared.forEach(({chapter,lessons,written,mcqCount},i)=>{
    const card=node("article","chapter");
    const top=node("div","chapter-top");
-   top.append(node("span","chapter-number","CHAPTER "+String(chapter.order||i+1).padStart(2,"0")),node("span","chapter-count",lessons.length+" learning "+(lessons.length===1?"lesson":"lessons")));
+   top.append(node("span","chapter-number","CHAPTER "+String(chapter.order||i+1).padStart(2,"0")),node("span","chapter-count",lessons.length+" lessons · "+mcqCount+" MCQs · "+written.length+" written questions"));
    const heading=node("h2","chapter-title",chapter.title||"Untitled chapter");top.append(heading);card.append(top);
    if(chapter.description)card.append(node("p","chapter-description",chapter.description));
    if(!lessons.length)card.append(node("p","muted","Lessons will be added soon."));
@@ -101,8 +103,8 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
     }else{const body=node("div","lesson-content");const translated=lesson.explanations?.[selectedLanguage];if(selectedLanguage!=="en"&&(!translated||!String(translated).trim())){body.append(node("aside","lesson-callout",selectedLanguage==="ur"?"ترجمہ دستیاب نہیں؛ اصل انگریزی مواد دکھایا جا رہا ہے۔":"ترجمو موجود ناهي؛ اصل انگريزي مواد ڏيکاريو پيو وڃي."));renderMarkdown(body,lesson.content||"");}else renderMarkdown(body,selectedLanguage==="en"?(lesson.content||""):translated);item.append(body);}
     card.append(item);
    });
-   if(written.length){const practice=node("section","written-practice");practice.append(node("h3","chapter-title","Written practice — CRQs and ERQs"));written.forEach((q,qi)=>{const block=node("article","written-question");block.append(node("h4","lesson-title",(q.type||"").toUpperCase()+" "+(qi+1)+" · "+(q.marks||0)+" marks"));const tq=q.translations?.[selectedLanguage]||{};const questionText=selectedLanguage==="en"?(q.question||""):(tq.question||q.question||"");block.append(node("p","lesson-paragraph",questionText));const details=node("details","answer-details");details.append(node("summary","",selectedLanguage==="ur"?"ماڈل جواب اور مارکنگ گائیڈ دیکھیں":selectedLanguage==="sd"?"ماڊل جواب ۽ مارڪنگ گائيڊ ڏسو":"View model answer and marking guide"));const answer=node("div","lesson-content");renderMarkdown(answer,selectedLanguage==="en"?(q.modelAnswer||""):(tq.modelAnswer||q.modelAnswer||""));details.append(answer);const rubricItems=selectedLanguage==="en"?(q.rubric||[]):(tq.rubric||q.rubric||[]);if(Array.isArray(rubricItems)&&rubricItems.length){const rubric=node("ul","lesson-list");rubricItems.forEach(item=>rubric.append(node("li","",item)));details.append(node("h4","lesson-title",selectedLanguage==="ur"?"مارکنگ گائیڈ":selectedLanguage==="sd"?"مارڪنگ گائيڊ":"Marking guide"),rubric)}block.append(details);practice.append(block)});card.append(practice)}
-   const quizLink=node("a","quiz-button","Practice this chapter");quizLink.href="./quiz.html?courseId="+encodeURIComponent(id)+"&chapterId="+encodeURIComponent(chapter.id);card.append(quizLink);
+   if(written.length){const practice=node("section","written-practice");const crqCount=written.filter(q=>q.type==="crq").length,erqCount=written.filter(q=>q.type==="erq").length;practice.append(node("h3","chapter-title","Written practice — "+crqCount+" CRQs and "+erqCount+" ERQs"));written.forEach((q,qi)=>{const block=node("article","written-question");block.append(node("h4","lesson-title",(q.type||"").toUpperCase()+" "+(qi+1)+" · "+(q.marks||0)+" marks"));const tq=q.translations?.[selectedLanguage]||{};const questionText=selectedLanguage==="en"?(q.question||""):(tq.question||q.question||"");block.append(node("p","lesson-paragraph",questionText));const details=node("details","answer-details");details.append(node("summary","",selectedLanguage==="ur"?"ماڈل جواب اور مارکنگ گائیڈ دیکھیں":selectedLanguage==="sd"?"ماڊل جواب ۽ مارڪنگ گائيڊ ڏسو":"View model answer and marking guide"));const answer=node("div","lesson-content");renderMarkdown(answer,selectedLanguage==="en"?(q.modelAnswer||""):(tq.modelAnswer||q.modelAnswer||""));details.append(answer);const rubricItems=selectedLanguage==="en"?(q.rubric||[]):(tq.rubric||q.rubric||[]);if(Array.isArray(rubricItems)&&rubricItems.length){const rubric=node("ul","lesson-list");rubricItems.forEach(item=>rubric.append(node("li","",item)));details.append(node("h4","lesson-title",selectedLanguage==="ur"?"مارکنگ گائیڈ":selectedLanguage==="sd"?"مارڪنگ گائيڊ":"Marking guide"),rubric)}block.append(details);practice.append(block)});card.append(practice)}
+   const quizLink=node("a","quiz-button","Start MCQ practice ("+mcqCount+") →");quizLink.href="./quiz.html?courseId="+encodeURIComponent(id)+"&chapterId="+encodeURIComponent(chapter.id);card.append(quizLink);
    host.append(card);
   });
  }catch(error){console.error(error);host.className="empty";host.textContent="Unable to load course content. Please check your connection or contact the Academy administrator.";}
