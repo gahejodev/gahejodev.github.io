@@ -1,0 +1,753 @@
+{
+  "id": "biology-x-chapter-17-inheritance",
+  "title": "Biology X — Chapter 17: Inheritance",
+  "description": "DCAR Sindh Biology Curriculum 2024 aligned package: five lessons, Urdu and Sindhi explanations, 15 fully translated MCQs, 3 CRQs and 2 ERQs with model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "authority": "Directorate of Curriculum, Assessment and Research (DCAR), Government of Sindh",
+    "document": "Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "X",
+    "chapter": "17 — Inheritance",
+    "periods": 10,
+    "allocation": [
+      "Introduction to genetics and gene — 3 periods",
+      "Mendelian inheritance — 4 periods",
+      "Sex determination — 3 periods"
+    ],
+    "outcomes": [
+      "Define gene, allele, genotype, phenotype, homozygous, heterozygous, dominant and recessive.",
+      "Explain Mendelian inheritance using monohybrid and dihybrid crosses.",
+      "Correlate Mendelian factors with chromosomes.",
+      "Explain autosomes, sex chromosomes and human sex determination."
+    ],
+    "primarySource": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf",
+    "primarySourceEvidence": "DCAR 2024 detailed curriculum, Grade X Chapter 17: Inheritance; printed page 125; 10 periods.",
+    "sourceChecked": "2026-11-14",
+    "authorshipNote": "Original educational explanations and assessment content."
+  },
+  "chapters": [
+    {
+      "title": "Chapter 17: Inheritance",
+      "description": "Genes and alleles, Mendelian inheritance, chromosome theory and human sex determination.",
+      "lessons": [
+        {
+          "title": "17.1 Genetics, Genes and Alleles",
+          "type": "text",
+          "content": "Genetics is the study of heredity and variation. A gene is a segment of DNA that contributes to a functional product or influences a trait. Different forms of a gene are alleles. The genotype is an organism's allele combination; phenotype is its observable characteristics produced by genotype and environment. An organism with two identical alleles is homozygous; with two different alleles it is heterozygous. In simple Mendelian examples, a dominant allele is expressed in a heterozygote, while a recessive allele is expressed only when no dominant allele is present. Dominance does not mean an allele is more common, better or stronger. Genes are located at particular positions (loci) on chromosomes.",
+          "explanations": {
+            "ur": "Genetics وراثت اور تنوع کا مطالعہ ہے۔ Gene، DNA کا حصہ ہے جو کسی فعلی پیداوار یا صفت پر اثر انداز ہوتا ہے۔ ایک gene کی مختلف صورتیں alleles کہلاتی ہیں۔ Genotype alleles کا مجموعہ اور phenotype ظاہر ہونے والی خصوصیات ہیں، جن پر genotype اور ماحول دونوں اثر انداز ہوتے ہیں۔ یکساں alleles والا فرد homozygous اور مختلف alleles والا heterozygous ہوتا ہے۔ سادہ Mendelian مثالوں میں dominant allele heterozygote میں ظاہر ہوتا ہے جبکہ recessive صفت عموماً تب ظاہر ہوتی ہے جب dominant allele موجود نہ ہو۔ Dominant ہونے کا مطلب زیادہ عام، بہتر یا طاقتور ہونا نہیں۔",
+            "sd": "Genetics وراثت ۽ تنوع جو مطالعو آهي. Gene، DNA جو حصو آهي جيڪو فعلي پيداوار يا صفت تي اثر ڪري ٿو. Gene جون مختلف صورتون alleles سڏجن ٿيون. Genotype alleles جو مجموعو ۽ phenotype ظاهر ٿيندڙ خاصيتون آهن، جن تي genotype ۽ ماحول ٻئي اثر ڪن ٿا. هڪجهڙا alleles وارو فرد homozygous ۽ مختلف alleles وارو heterozygous هوندو آهي. سادي Mendelian مثالن ۾ dominant allele heterozygote ۾ ظاهر ٿئي ٿو، جڏهن ته recessive صفت تڏهن ظاهر ٿئي ٿي جڏهن dominant allele موجود نه هجي. Dominant هجڻ جو مطلب وڌيڪ عام يا بهتر هجڻ ناهي۔"
+          }
+        },
+        {
+          "title": "17.2 Mendel's Monohybrid Inheritance",
+          "type": "text",
+          "content": "Gregor Mendel studied inheritance in pea plants. A monohybrid cross follows one contrasting trait. If tallness (T) is dominant to shortness (t), a true-breeding TT plant crossed with tt produces F1 offspring all Tt and tall. When F1 plants are crossed (Tt × Tt), possible genotypes are TT, Tt, Tt and tt: a 1:2:1 genotypic ratio and, under complete dominance, a 3:1 phenotypic ratio. The law of segregation states that the two alleles of a gene separate during gamete formation, so each gamete receives one allele. Fertilisation restores the pair. Use a Punnett square to show possible combinations, not to guarantee an exact outcome for a small family.",
+          "explanations": {
+            "ur": "Gregor Mendel نے مٹر کے پودوں میں وراثت کا مطالعہ کیا۔ Monohybrid cross میں ایک متضاد صفت دیکھی جاتی ہے۔ اگر لمبا ہونا (T)، پست ہونے (t) پر غالب ہو تو TT اور tt کے ملاپ سے تمام F1 اولاد Tt اور لمبی ہوگی۔ F1 کا ملاپ (Tt × Tt) کرنے سے TT، Tt، Tt اور tt ممکنہ genotype بنتے ہیں: 1:2:1 genotype تناسب اور مکمل dominance میں 3:1 phenotype تناسب۔ Law of segregation کے مطابق gametes بنتے وقت gene کے دونوں alleles الگ ہو جاتے ہیں اور ہر gamete کو ایک allele ملتا ہے۔ Fertilisation پر جوڑا بحال ہوتا ہے۔ Punnett square ممکنہ امتزاج دکھاتا ہے، چھوٹے خاندان میں یقینی نتیجہ نہیں۔",
+            "sd": "Gregor Mendel مٽر جي ٻوٽن ۾ وراثت جو مطالعو ڪيو. Monohybrid cross ۾ هڪ متضاد صفت ڏٺي وڃي ٿي. جيڪڏهن ڊگهو هجڻ (T)، ننڍو هجڻ (t) تي غالب هجي ته TT ۽ tt جي ميلاپ مان سڀ F1 اولاد Tt ۽ ڊگهي ٿيندي. F1 جو ميلاپ (Tt × Tt) ڪرڻ سان TT، Tt، Tt ۽ tt ممڪن genotype ٿين ٿا: 1:2:1 genotype تناسب ۽ مڪمل dominance ۾ 3:1 phenotype تناسب. Law of segregation موجب gametes ٺهڻ وقت gene جا ٻئي alleles جدا ٿين ٿا ۽ هر gamete کي هڪ allele ملي ٿو. Fertilisation تي جوڙو ٻيهر ٺهي ٿو. Punnett square ممڪن ميلاپ ڏيکاري ٿو، ننڍي خاندان جو يقيني نتيجو نه۔"
+          }
+        },
+        {
+          "title": "17.3 Dihybrid Cross and Independent Assortment",
+          "type": "text",
+          "content": "A dihybrid cross follows two traits at once. For example, in pea plants, seed shape (R round, r wrinkled) and seed colour (Y yellow, y green) can be studied together. An RrYy individual can produce four gamete types (RY, Ry, rY, ry) in equal proportions when the genes assort independently. Crossing RrYy × RrYy gives the classic 9:3:3:1 phenotypic ratio if the genes are unlinked or far apart, dominance is complete and the traits show normal viability. The law of independent assortment describes how alleles of different genes can enter gametes independently during meiosis. Genes close together on the same chromosome may be linked and do not always assort independently.",
+          "explanations": {
+            "ur": "Dihybrid cross میں دو صفات بیک وقت دیکھی جاتی ہیں۔ مثال کے طور پر مٹر کے بیج کی شکل (R گول، r جھری دار) اور رنگ (Y پیلا، y سبز)۔ RrYy فرد آزاد assortment کی صورت میں چار اقسام کے gametes (RY، Ry، rY، ry) برابر تناسب سے بنا سکتا ہے۔ RrYy × RrYy سے کلاسیکی 9:3:3:1 phenotype تناسب ملتا ہے، بشرطیکہ genes غیر منسلک یا دور ہوں، dominance مکمل ہو اور صفات معمول کے مطابق ظاہر ہوں۔ Independent assortment کا قانون بتاتا ہے کہ meiosis میں مختلف genes کے alleles آزادانہ طور gametes میں جا سکتے ہیں۔ ایک ہی chromosome پر قریب genes linked ہوسکتے ہیں اور ہمیشہ آزادانہ تقسیم نہیں ہوتے۔",
+            "sd": "Dihybrid cross ۾ ٻه صفتون گڏ ڏٺيون وڃن ٿيون. مثال طور مٽر جي ٻج جي شڪل (R گول، r گهنجيل) ۽ رنگ (Y پيلو، y سائو). RrYy فرد آزاد assortment جي حالت ۾ چار gametes (RY، Ry، rY، ry) برابر تناسب سان ٺاهي سگهي ٿو. RrYy × RrYy مان 9:3:3:1 phenotype تناسب ملي ٿو، جيڪڏهن genes linked نه هجن يا پري هجن، dominance مڪمل هجي ۽ صفتون معمول موجب ظاهر ٿين. Independent assortment جو قانون ٻڌائي ٿو ته meiosis دوران مختلف genes جا alleles آزاد نموني gametes ۾ وڃي سگهن ٿا. ساڳئي chromosome تي ويجها genes linked ٿي سگهن ٿا ۽ هميشه آزاد جدا نٿا ٿين۔"
+          }
+        },
+        {
+          "title": "17.4 Chromosomes and Mendelian Factors",
+          "type": "text",
+          "content": "The chromosome theory of inheritance connects Mendel's factors with chromosomes. Genes occupy loci on chromosomes, and chromosomes occur in homologous pairs in diploid cells. During meiosis, homologous chromosomes separate, providing a physical basis for allele segregation. Different chromosome pairs align independently at metaphase I, helping explain independent assortment for genes on different chromosomes. Fertilisation restores homologous pairs. A karyotype is an organised display of chromosomes, usually arranged by size and shape. In humans, typical somatic cells contain 46 chromosomes: 22 pairs of autosomes and one pair of sex chromosomes. Chromosomal behaviour during meiosis explains many patterns of inheritance, while crossing over can recombine linked alleles.",
+          "explanations": {
+            "ur": "Chromosome theory of inheritance، Mendel کے factors کو chromosomes سے جوڑتی ہے۔ Genes، chromosomes کے مخصوص loci پر ہوتے ہیں اور diploid خلیات میں chromosomes homologous جوڑوں میں ہوتے ہیں۔ Meiosis میں homologous chromosomes الگ ہوتے ہیں، جو alleles کے جدا ہونے کی مادی بنیاد ہے۔ مختلف chromosome pairs، metaphase I میں آزادانہ ترتیب اختیار کرتے ہیں، جس سے مختلف chromosomes پر موجود genes کی independent assortment سمجھ آتی ہے۔ Fertilisation پر جوڑے بحال ہوتے ہیں۔ Karyotype chromosomes کی منظم تصویر ہے۔ انسان کے عام جسمانی خلیے میں 46 chromosomes یعنی 22 جوڑے autosomes اور ایک جوڑا sex chromosomes کا ہوتا ہے۔",
+            "sd": "Chromosome theory of inheritance، Mendel جي factors کي chromosomes سان ڳنڍي ٿي. Genes، chromosomes جي خاص loci تي هوندا آهن ۽ diploid خلين ۾ chromosomes homologous جوڙن ۾ هوندا آهن. Meiosis ۾ homologous chromosomes جدا ٿين ٿا، جيڪو alleles جي جدا ٿيڻ جو بنيادي سبب آهي. مختلف chromosome pairs، metaphase I ۾ آزاد ترتيب وٺن ٿا، جنهن سان مختلف chromosomes تي genes جي independent assortment سمجهه ۾ اچي ٿي. Fertilisation تي جوڙا بحال ٿين ٿا. Karyotype chromosomes جي منظم تصوير آهي. انسان جي عام جسماني خاني ۾ 46 chromosomes، يعني 22 autosome جوڙا ۽ هڪ sex chromosome جوڙو هوندو آهي۔"
+          }
+        },
+        {
+          "title": "17.5 Human Sex Determination",
+          "type": "text",
+          "content": "Humans typically have 46 chromosomes in body cells. Most females have XX sex chromosomes and most males have XY. Eggs normally carry an X chromosome; sperm carry either X or Y. If an X-bearing sperm fertilises the egg, the usual chromosomal pattern is XX; if a Y-bearing sperm fertilises it, the usual pattern is XY. Therefore, the sperm's sex chromosome determines the usual chromosomal sex of the zygote. The SRY gene, usually on the Y chromosome, initiates a pathway for typical testis development. Sex development is biologically complex and variations in chromosomes, genes and hormone responses occur. Chromosomal sex is not a measure of a person's value or ability; use respectful, scientifically accurate language.",
+          "explanations": {
+            "ur": "انسان کے عام جسمانی خلیوں میں 46 chromosomes ہوتے ہیں۔ عموماً خواتین میں XX اور مردوں میں XY sex chromosomes ہوتے ہیں۔ Egg عموماً X chromosome رکھتا ہے؛ sperm میں X یا Y ہوتا ہے۔ X رکھنے والا sperm egg کو fertilise کرے تو عام chromosomal pattern XX اور Y رکھنے والا کرے تو XY ہوتا ہے۔ اس لیے sperm کا sex chromosome عموماً zygote کا chromosomal sex طے کرتا ہے۔ Y chromosome پر موجود SRY gene عموماً testes کی نشوونما کا راستہ شروع کرتا ہے۔ جنسی نشوونما حیاتیاتی طور پر پیچیدہ ہے اور chromosomes، genes اور hormones کے ردعمل میں قدرتی فرق موجود ہوسکتا ہے۔",
+            "sd": "انسان جي عام جسماني خلين ۾ 46 chromosomes هوندا آهن. عام طور عورتن ۾ XX ۽ مردن ۾ XY sex chromosomes هوندا آهن. Egg عام طور X chromosome کڻي ٿو؛ sperm ۾ X يا Y هوندو آهي. X وارو sperm egg کي fertilise ڪري ته عام chromosomal pattern XX، ۽ Y وارو ڪري ته XY ٿيندو آهي. تنهنڪري sperm جو sex chromosome عام طور zygote جو chromosomal sex طئي ڪري ٿو. Y chromosome تي SRY gene عام طور testes جي واڌ جو رستو شروع ڪري ٿو. جنسي واڌ حياتياتي طور پيچيده آهي ۽ chromosomes، genes ۽ hormones ۾ قدرتي فرق ٿي سگهي ٿو۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "A gene is best described as:",
+          "options": {
+            "A": "A segment of DNA associated with a functional product or trait",
+            "B": "A complete chromosome",
+            "C": "A type of cell",
+            "D": "A protein coat"
+          },
+          "correctOption": "A",
+          "explanation": "Genes are DNA sequences that contribute to functional products or influence traits.",
+          "translations": {
+            "ur": {
+              "question": "Gene کی بہترین تعریف کیا ہے؟",
+              "options": {
+                "A": "DNA کا حصہ جو فعلی پیداوار یا صفت سے متعلق ہو",
+                "B": "مکمل chromosome",
+                "C": "خلیے کی قسم",
+                "D": "protein کی تہہ"
+              },
+              "explanation": "Gene DNA کی sequence ہے جو فعلی پیداوار یا صفت پر اثر انداز ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "Gene جي بهترين وصف ڪهڙي آهي؟",
+              "options": {
+                "A": "DNA جو حصو جيڪو فعلي پيداوار يا صفت سان لاڳاپيل هجي",
+                "B": "مڪمل chromosome",
+                "C": "خاني جو قسم",
+                "D": "protein جي تهه"
+              },
+              "explanation": "Gene DNA جي sequence آهي جيڪا فعلي پيداوار يا صفت تي اثر ڪري ٿي۔"
+            }
+          }
+        },
+        {
+          "question": "Different forms of the same gene are:",
+          "options": {
+            "A": "Alleles",
+            "B": "Gametes",
+            "C": "Tissues",
+            "D": "Enzymes"
+          },
+          "correctOption": "A",
+          "explanation": "Alleles are alternative forms of a gene.",
+          "translations": {
+            "ur": {
+              "question": "هڪ ہی gene کی مختلف صورتیں کیا کہلاتی ہیں؟",
+              "options": {
+                "A": "Alleles",
+                "B": "Gametes",
+                "C": "Tissues",
+                "D": "Enzymes"
+              },
+              "explanation": "Alleles ایک gene کی متبادل صورتیں ہیں۔"
+            },
+            "sd": {
+              "question": "ساڳئي gene جون مختلف صورتون ڇا سڏجن ٿيون؟",
+              "options": {
+                "A": "Alleles",
+                "B": "Gametes",
+                "C": "Tissues",
+                "D": "Enzymes"
+              },
+              "explanation": "Alleles هڪ gene جون متبادل صورتون آهن۔"
+            }
+          }
+        },
+        {
+          "question": "The observable characteristics of an organism are its:",
+          "options": {
+            "A": "Phenotype",
+            "B": "Genotype",
+            "C": "Karyotype",
+            "D": "Allele"
+          },
+          "correctOption": "A",
+          "explanation": "Phenotype is the observable expression of traits.",
+          "translations": {
+            "ur": {
+              "question": "جاندار کی ظاہر ہونے والی خصوصیات کیا ہیں؟",
+              "options": {
+                "A": "Phenotype",
+                "B": "Genotype",
+                "C": "Karyotype",
+                "D": "Allele"
+              },
+              "explanation": "Phenotype ظاہر ہونے والی خصوصیات ہیں۔"
+            },
+            "sd": {
+              "question": "جاندار جون ظاهر ٿيندڙ خاصيتون ڇا آهن؟",
+              "options": {
+                "A": "Phenotype",
+                "B": "Genotype",
+                "C": "Karyotype",
+                "D": "Allele"
+              },
+              "explanation": "Phenotype ظاهر ٿيندڙ خاصيتون آهن۔"
+            }
+          }
+        },
+        {
+          "question": "An organism with two identical alleles is:",
+          "options": {
+            "A": "Homozygous",
+            "B": "Heterozygous",
+            "C": "Hybrid always",
+            "D": "A gamete"
+          },
+          "correctOption": "A",
+          "explanation": "Homozygous means having two identical alleles at a locus.",
+          "translations": {
+            "ur": {
+              "question": "دو یکساں alleles والا جاندار کیا کہلاتا ہے؟",
+              "options": {
+                "A": "Homozygous",
+                "B": "Heterozygous",
+                "C": "ہمیشہ hybrid",
+                "D": "Gamete"
+              },
+              "explanation": "Homozygous میں ایک locus پر دو یکساں alleles ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "ٻه هڪجهڙا alleles رکندڙ جاندار ڇا سڏبو آهي؟",
+              "options": {
+                "A": "Homozygous",
+                "B": "Heterozygous",
+                "C": "هميشه hybrid",
+                "D": "Gamete"
+              },
+              "explanation": "Homozygous ۾ هڪ locus تي ٻه هڪجهڙا alleles هوندا آهن۔"
+            }
+          }
+        },
+        {
+          "question": "A heterozygous genotype contains:",
+          "options": {
+            "A": "Two different alleles",
+            "B": "Two identical alleles",
+            "C": "No genes",
+            "D": "Only recessive alleles"
+          },
+          "correctOption": "A",
+          "explanation": "Heterozygous individuals have different alleles at a locus.",
+          "translations": {
+            "ur": {
+              "question": "Heterozygous genotype میں کیا ہوتا ہے؟",
+              "options": {
+                "A": "دو مختلف alleles",
+                "B": "دو یکساں alleles",
+                "C": "کوئی genes نہیں",
+                "D": "صرف recessive alleles"
+              },
+              "explanation": "Heterozygous فرد میں ایک locus پر مختلف alleles ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "Heterozygous genotype ۾ ڇا هوندو آهي؟",
+              "options": {
+                "A": "ٻه مختلف alleles",
+                "B": "ٻه هڪجهڙا alleles",
+                "C": "ڪو gene نه",
+                "D": "صرف recessive alleles"
+              },
+              "explanation": "Heterozygous فرد ۾ هڪ locus تي مختلف alleles هوندا آهن۔"
+            }
+          }
+        },
+        {
+          "question": "A monohybrid cross studies:",
+          "options": {
+            "A": "One contrasting trait",
+            "B": "Two traits",
+            "C": "Three species",
+            "D": "Only sex chromosomes"
+          },
+          "correctOption": "A",
+          "explanation": "Monohybrid inheritance follows one gene or contrasting trait.",
+          "translations": {
+            "ur": {
+              "question": "Monohybrid cross میں کتنی صفات دیکھی جاتی ہیں؟",
+              "options": {
+                "A": "ایک متضاد صفت",
+                "B": "دو صفات",
+                "C": "تین انواع",
+                "D": "صرف sex chromosomes"
+              },
+              "explanation": "Monohybrid inheritance ایک gene یا صفت کو دیکھتی ہے۔"
+            },
+            "sd": {
+              "question": "Monohybrid cross ۾ ڪيتريون صفتون ڏٺيون وڃن ٿيون؟",
+              "options": {
+                "A": "هڪ متضاد صفت",
+                "B": "ٻه صفتون",
+                "C": "ٽي جنسون",
+                "D": "صرف sex chromosomes"
+              },
+              "explanation": "Monohybrid inheritance هڪ gene يا صفت ڏسي ٿي۔"
+            }
+          }
+        },
+        {
+          "question": "In a Tt × Tt cross, the genotypic ratio is:",
+          "options": {
+            "A": "1 TT : 2 Tt : 1 tt",
+            "B": "3 TT : 1 tt",
+            "C": "9:3:3:1",
+            "D": "All Tt"
+          },
+          "correctOption": "A",
+          "explanation": "The four combinations are TT, Tt, Tt and tt.",
+          "translations": {
+            "ur": {
+              "question": "Tt × Tt میں genotype تناسب کیا ہے؟",
+              "options": {
+                "A": "1 TT : 2 Tt : 1 tt",
+                "B": "3 TT : 1 tt",
+                "C": "9:3:3:1",
+                "D": "سب Tt"
+              },
+              "explanation": "ممکنہ genotype TT، Tt، Tt اور tt ہیں۔"
+            },
+            "sd": {
+              "question": "Tt × Tt ۾ genotype تناسب ڇا آهي؟",
+              "options": {
+                "A": "1 TT : 2 Tt : 1 tt",
+                "B": "3 TT : 1 tt",
+                "C": "9:3:3:1",
+                "D": "سڀ Tt"
+              },
+              "explanation": "ممڪن genotype TT، Tt، Tt ۽ tt آهن۔"
+            }
+          }
+        },
+        {
+          "question": "Under complete dominance, Tt × Tt gives a phenotype ratio of:",
+          "options": {
+            "A": "3:1",
+            "B": "1:2:1",
+            "C": "1:1",
+            "D": "9:3:3:1"
+          },
+          "correctOption": "A",
+          "explanation": "Three offspring combinations show the dominant phenotype and one recessive.",
+          "translations": {
+            "ur": {
+              "question": "مکمل dominance میں Tt × Tt کا phenotype تناسب کیا ہے؟",
+              "options": {
+                "A": "3:1",
+                "B": "1:2:1",
+                "C": "1:1",
+                "D": "9:3:3:1"
+              },
+              "explanation": "تین combinations غالب اور ایک recessive phenotype دکھاتے ہیں۔"
+            },
+            "sd": {
+              "question": "مڪمل dominance ۾ Tt × Tt جو phenotype تناسب ڇا آهي؟",
+              "options": {
+                "A": "3:1",
+                "B": "1:2:1",
+                "C": "1:1",
+                "D": "9:3:3:1"
+              },
+              "explanation": "ٽي combinations غالب ۽ هڪ recessive phenotype ڏيکارين ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "The law of segregation states that:",
+          "options": {
+            "A": "Alleles separate during gamete formation",
+            "B": "Genes disappear in gametes",
+            "C": "All traits blend permanently",
+            "D": "Chromosomes never separate"
+          },
+          "correctOption": "A",
+          "explanation": "Each gamete receives one allele from a pair.",
+          "translations": {
+            "ur": {
+              "question": "Law of segregation کے مطابق کیا ہوتا ہے؟",
+              "options": {
+                "A": "Gametes بنتے وقت alleles الگ ہوتے ہیں",
+                "B": "Genes gametes میں ختم ہو جاتے ہیں",
+                "C": "تمام صفات ہمیشہ مل جاتی ہیں",
+                "D": "Chromosomes کبھی الگ نہیں ہوتے"
+              },
+              "explanation": "ہر gamete کو allele کے جوڑے میں سے ایک ملتا ہے۔"
+            },
+            "sd": {
+              "question": "Law of segregation موجب ڇا ٿئي ٿو؟",
+              "options": {
+                "A": "Gametes ٺهڻ وقت alleles جدا ٿين ٿا",
+                "B": "Genes gametes ۾ ختم ٿين ٿا",
+                "C": "سڀ صفتون هميشه ملي وڃن ٿيون",
+                "D": "Chromosomes ڪڏهن جدا نٿا ٿين"
+              },
+              "explanation": "هر gamete کي جوڙي مان هڪ allele ملي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "A dihybrid cross follows:",
+          "options": {
+            "A": "Two traits",
+            "B": "One trait only",
+            "C": "Only one chromosome",
+            "D": "Two generations only"
+          },
+          "correctOption": "A",
+          "explanation": "Dihybrid crosses examine inheritance of two traits together.",
+          "translations": {
+            "ur": {
+              "question": "Dihybrid cross میں کیا دیکھا جاتا ہے؟",
+              "options": {
+                "A": "دو صفات",
+                "B": "صرف ایک صفت",
+                "C": "صرف ایک chromosome",
+                "D": "صرف دو نسلیں"
+              },
+              "explanation": "Dihybrid cross دو صفات کی وراثت دیکھتا ہے۔"
+            },
+            "sd": {
+              "question": "Dihybrid cross ۾ ڇا ڏٺو وڃي ٿو؟",
+              "options": {
+                "A": "ٻه صفتون",
+                "B": "صرف هڪ صفت",
+                "C": "صرف هڪ chromosome",
+                "D": "صرف ٻه نسلون"
+              },
+              "explanation": "Dihybrid cross ٻن صفتن جي وراثت ڏسي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "An RrYy individual can produce how many gamete types under independent assortment?",
+          "options": {
+            "A": "Four",
+            "B": "Two",
+            "C": "One",
+            "D": "Eight"
+          },
+          "correctOption": "A",
+          "explanation": "The types are RY, Ry, rY and ry.",
+          "translations": {
+            "ur": {
+              "question": "RrYy آزاد assortment میں کتنی اقسام کے gametes بناتا ہے؟",
+              "options": {
+                "A": "چار",
+                "B": "دو",
+                "C": "ایک",
+                "D": "آٹھ"
+              },
+              "explanation": "اقسام RY، Ry، rY اور ry ہیں۔"
+            },
+            "sd": {
+              "question": "RrYy آزاد assortment ۾ ڪيترا قسم جا gametes ٺاهي ٿو؟",
+              "options": {
+                "A": "چار",
+                "B": "ٻه",
+                "C": "هڪ",
+                "D": "اٺ"
+              },
+              "explanation": "قسم RY، Ry، rY ۽ ry آهن۔"
+            }
+          }
+        },
+        {
+          "question": "The classic dihybrid phenotypic ratio is:",
+          "options": {
+            "A": "9:3:3:1",
+            "B": "3:1",
+            "C": "1:2:1",
+            "D": "1:1"
+          },
+          "correctOption": "A",
+          "explanation": "This ratio assumes independent assortment and complete dominance.",
+          "translations": {
+            "ur": {
+              "question": "کلاسیکی dihybrid phenotype تناسب کیا ہے؟",
+              "options": {
+                "A": "9:3:3:1",
+                "B": "3:1",
+                "C": "1:2:1",
+                "D": "1:1"
+              },
+              "explanation": "یہ تناسب آزاد assortment اور مکمل dominance فرض کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪلاسيڪي dihybrid phenotype تناسب ڇا آهي؟",
+              "options": {
+                "A": "9:3:3:1",
+                "B": "3:1",
+                "C": "1:2:1",
+                "D": "1:1"
+              },
+              "explanation": "هي تناسب آزاد assortment ۽ مڪمل dominance فرض ڪري ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Genes are located at specific positions called:",
+          "options": {
+            "A": "Loci",
+            "B": "Gametes",
+            "C": "Centromeres only",
+            "D": "Ribosomes"
+          },
+          "correctOption": "A",
+          "explanation": "A gene's position on a chromosome is its locus.",
+          "translations": {
+            "ur": {
+              "question": "Chromosome پر gene کی مخصوص جگہ کیا کہلاتی ہے؟",
+              "options": {
+                "A": "Locus",
+                "B": "Gametes",
+                "C": "صرف centromeres",
+                "D": "Ribosomes"
+              },
+              "explanation": "Chromosome پر gene کی جگہ locus کہلاتی ہے۔"
+            },
+            "sd": {
+              "question": "Chromosome تي gene جي خاص جاءِ ڇا سڏجي ٿي؟",
+              "options": {
+                "A": "Locus",
+                "B": "Gametes",
+                "C": "صرف centromeres",
+                "D": "Ribosomes"
+              },
+              "explanation": "Chromosome تي gene جي جاءِ locus سڏجي ٿي۔"
+            }
+          }
+        },
+        {
+          "question": "Typical human body cells contain:",
+          "options": {
+            "A": "46 chromosomes",
+            "B": "23 chromosomes",
+            "C": "44 chromosomes",
+            "D": "48 chromosomes"
+          },
+          "correctOption": "A",
+          "explanation": "Most human somatic cells have 46 chromosomes arranged in 23 pairs.",
+          "translations": {
+            "ur": {
+              "question": "انسان کے عام جسمانی خلیے میں کتنے chromosomes ہوتے ہیں؟",
+              "options": {
+                "A": "46",
+                "B": "23",
+                "C": "44",
+                "D": "48"
+              },
+              "explanation": "عام جسمانی خلیوں میں 23 جوڑوں کی صورت 46 chromosomes ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "انسان جي عام جسماني خاني ۾ ڪيترا chromosomes هوندا آهن؟",
+              "options": {
+                "A": "46",
+                "B": "23",
+                "C": "44",
+                "D": "48"
+              },
+              "explanation": "عام جسماني خلين ۾ 23 جوڙن جي صورت 46 chromosomes هوندا آهن۔"
+            }
+          }
+        },
+        {
+          "question": "In typical human XY sex determination, the egg contributes:",
+          "options": {
+            "A": "An X chromosome",
+            "B": "A Y chromosome",
+            "C": "Both X and Y",
+            "D": "No sex chromosome"
+          },
+          "correctOption": "A",
+          "explanation": "Human eggs normally carry an X chromosome; sperm carry X or Y.",
+          "translations": {
+            "ur": {
+              "question": "عام انسانی XY نظام میں egg کون سا chromosome دیتا ہے؟",
+              "options": {
+                "A": "X chromosome",
+                "B": "Y chromosome",
+                "C": "X اور Y دونوں",
+                "D": "کوئی sex chromosome نہیں"
+              },
+              "explanation": "Egg عموماً X دیتا ہے؛ sperm میں X یا Y ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "عام انساني XY نظام ۾ egg ڪهڙو chromosome ڏئي ٿو؟",
+              "options": {
+                "A": "X chromosome",
+                "B": "Y chromosome",
+                "C": "X ۽ Y ٻئي",
+                "D": "ڪو sex chromosome نه"
+              },
+              "explanation": "Egg عام طور X ڏئي ٿو؛ sperm ۾ X يا Y هوندو آهي۔"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define gene, allele, genotype and phenotype.",
+          "modelAnswer": "A gene is a DNA segment associated with a functional product or trait. Alleles are alternative forms of a gene. Genotype is the allele combination; phenotype is the observable trait expression influenced by genotype and environment.",
+          "rubric": [
+            "Gene (1)",
+            "allele (1)",
+            "genotype (1)",
+            "phenotype (2)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "Gene، allele، genotype اور phenotype کی تعریف کریں۔",
+              "modelAnswer": "Gene DNA کا حصہ ہے جو صفت یا فعلی پیداوار سے متعلق ہو۔ Alleles ایک gene کی متبادل صورتیں ہیں۔ Genotype alleles کا مجموعہ اور phenotype ظاہر ہونے والی صفت ہے جس پر ماحول بھی اثر انداز ہوتا ہے۔",
+              "rubric": [
+                "Gene (1)",
+                "allele (1)",
+                "genotype (1)",
+                "phenotype (2)."
+              ]
+            },
+            "sd": {
+              "question": "Gene، allele، genotype ۽ phenotype جي وصف ڏيو.",
+              "modelAnswer": "Gene DNA جو حصو آهي جيڪو صفت يا فعلي پيداوار سان لاڳاپيل آهي. Alleles هڪ gene جون متبادل صورتون آهن. Genotype alleles جو مجموعو ۽ phenotype ظاهر ٿيندڙ صفت آهي، جنهن تي ماحول به اثر ڪري ٿو.",
+              "rubric": [
+                "Gene (1)",
+                "allele (1)",
+                "genotype (1)",
+                "phenotype (2)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "In a monohybrid cross Tt × Tt, show the possible genotypes and state the genotypic and phenotypic ratios under complete dominance.",
+          "modelAnswer": "Gametes from each parent are T and t. Combinations are TT, Tt, Tt and tt. Genotypic ratio = 1 TT : 2 Tt : 1 tt. If T is completely dominant, phenotypic ratio = 3 tall : 1 short.",
+          "rubric": [
+            "Gametes (1)",
+            "four combinations (2)",
+            "genotypic ratio (1)",
+            "phenotype ratio (1)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "Monohybrid cross Tt × Tt میں ممکنہ genotypes اور genotype و phenotype تناسب لکھیں۔",
+              "modelAnswer": "ہر والدین کے gametes T اور t ہیں۔ امتزاج TT، Tt، Tt اور tt ہیں۔ Genotypic ratio = 1:2:1۔ اگر T مکمل dominant ہو تو phenotypic ratio = 3 لمبے : 1 پست۔",
+              "rubric": [
+                "Gametes (1)",
+                "چار امتزاج (2)",
+                "genotype تناسب (1)",
+                "phenotype تناسب (1)."
+              ]
+            },
+            "sd": {
+              "question": "Monohybrid cross Tt × Tt ۾ ممڪن genotypes ۽ genotype ۽ phenotype تناسب لکو.",
+              "modelAnswer": "هر والدين جا gametes T ۽ t آهن. ميلاپ TT، Tt، Tt ۽ tt آهن. Genotypic ratio = 1:2:1. جيڪڏهن T مڪمل dominant هجي ته phenotypic ratio = 3 ڊگها : 1 ننڍو.",
+              "rubric": [
+                "Gametes (1)",
+                "چار ميلاپ (2)",
+                "genotype تناسب (1)",
+                "phenotype تناسب (1)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain the law of independent assortment and state one condition under which the classic dihybrid ratio may not appear.",
+          "modelAnswer": "Alleles of different genes can assort independently into gametes during meiosis. The classic 9:3:3:1 ratio may not appear if genes are linked on the same chromosome, or if dominance is incomplete or viability differs.",
+          "rubric": [
+            "Law explained (3)",
+            "one valid limitation/condition (2)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "Independent assortment کا قانون بیان کریں اور ایک ایسی شرط بتائیں جس میں کلاسیکی dihybrid تناسب نہ ملے۔",
+              "modelAnswer": "Meiosis میں مختلف genes کے alleles آزادانہ طور gametes میں جا سکتے ہیں۔ اگر genes ایک chromosome پر linked ہوں، dominance نامکمل ہو یا بقا میں فرق ہو تو 9:3:3:1 تناسب نہیں مل سکتا۔",
+              "rubric": [
+                "قانون کی وضاحت (3)",
+                "ایک درست شرط (2)."
+              ]
+            },
+            "sd": {
+              "question": "Independent assortment جو قانون بيان ڪريو ۽ هڪ اهڙي حالت ٻڌايو جنهن ۾ ڪلاسيڪي dihybrid تناسب نه ملي.",
+              "modelAnswer": "Meiosis ۾ مختلف genes جا alleles آزاد نموني gametes ۾ وڃي سگهن ٿا. جيڪڏهن genes ساڳئي chromosome تي linked هجن، dominance نامڪمل هجي يا بقا ۾ فرق هجي ته 9:3:3:1 تناسب نه ملي سگهي ٿو.",
+              "rubric": [
+                "قانون جي وضاحت (3)",
+                "هڪ صحيح حالت (2)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain Mendelian monohybrid inheritance using a suitable example. Include genotype, phenotype, segregation and a Punnett square.",
+          "modelAnswer": "Let T represent tall and t short, with T completely dominant. Cross true-breeding TT × tt: all F1 are Tt and tall. Cross F1 Tt × Tt. Each parent forms T and t gametes because alleles segregate during meiosis. Punnett combinations are TT, Tt, Tt and tt. Genotypic ratio is 1:2:1; phenotypic ratio is 3 tall:1 short. The Punnett square predicts probabilities, not guaranteed family outcomes.",
+          "rubric": [
+            "Allele symbols/dominance (1)",
+            "parental cross and F1 (2)",
+            "segregation/gametes (2)",
+            "Punnett combinations (2)",
+            "genotype ratio (1)",
+            "phenotype ratio and interpretation (2)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "Mendelian monohybrid inheritance کو مثال کے ساتھ بیان کریں۔ Genotype، phenotype، segregation اور Punnett square شامل کریں۔",
+              "modelAnswer": "T لمبا اور t پست ہونے کو ظاہر کرے، T مکمل dominant ہے۔ TT × tt سے تمام F1، Tt اور لمبے ہوں گے۔ F1 کا ملاپ Tt × Tt کریں۔ Meiosis میں alleles الگ ہونے سے ہر والدین T اور t gametes بناتا ہے۔ Punnett امتزاج TT، Tt، Tt، tt ہیں۔ Genotype تناسب 1:2:1 اور phenotype تناسب 3 لمبے:1 پست ہے۔ Punnett square امکانات دکھاتا ہے، ہر خاندان کا یقینی نتیجہ نہیں۔",
+              "rubric": [
+                "Allele علامات/dominance (1)",
+                "والدینی cross اور F1 (2)",
+                "segregation/gametes (2)",
+                "Punnett امتزاج (2)",
+                "genotype تناسب (1)",
+                "phenotype تناسب و تشریح (2)."
+              ]
+            },
+            "sd": {
+              "question": "Mendelian monohybrid inheritance مثال سان بيان ڪريو. Genotype، phenotype، segregation ۽ Punnett square شامل ڪريو.",
+              "modelAnswer": "T ڊگهو ۽ t ننڍو ڏيکاري، T مڪمل dominant آهي. TT × tt مان سڀ F1، Tt ۽ ڊگها ٿيندا. F1 جو ميلاپ Tt × Tt ڪريو. Meiosis ۾ alleles جدا ٿيڻ سبب هر والدين T ۽ t gametes ٺاهي ٿو. Punnett ميلاپ TT، Tt، Tt، tt آهن. Genotype تناسب 1:2:1 ۽ phenotype تناسب 3 ڊگها:1 ننڍو آهي. Punnett square امڪان ڏيکاري ٿو، هر خاندان جو پڪو نتيجو نه.",
+              "rubric": [
+                "Allele نشان/dominance (1)",
+                "والدين cross ۽ F1 (2)",
+                "segregation/gametes (2)",
+                "Punnett ميلاپ (2)",
+                "genotype تناسب (1)",
+                "phenotype تناسب ۽ وضاحت (2)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Describe human sex determination using the XX-XY chromosome system and explain the role of meiosis and fertilisation.",
+          "modelAnswer": "Typical human body cells contain 46 chromosomes, including 22 pairs of autosomes and one pair of sex chromosomes. Most eggs carry an X chromosome. Sperm carry either X or Y because sex chromosomes separate during meiosis. Fertilisation by an X-bearing sperm usually forms an XX zygote; fertilisation by a Y-bearing sperm usually forms an XY zygote. The SRY gene, usually on the Y chromosome, initiates typical testis development. Thus the sperm's sex chromosome determines the usual chromosomal pattern. Biological sex development can include natural variations in chromosomes, genes and hormone responses.",
+          "rubric": [
+            "Chromosome complement (2)",
+            "egg and sperm gametes (2)",
+            "XX/XY outcomes (3)",
+            "SRY role (1)",
+            "meiosis/fertilisation explanation and nuance (2)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "XX-XY نظام کے ذریعے انسانی sex determination بیان کریں اور meiosis و fertilisation کا کردار واضح کریں۔",
+              "modelAnswer": "انسان کے عام جسمانی خلیوں میں 46 chromosomes ہوتے ہیں، جن میں 22 جوڑے autosomes اور ایک جوڑا sex chromosomes کا ہے۔ Eggs عموماً X رکھتے ہیں۔ Meiosis میں sex chromosomes الگ ہونے سے sperm میں X یا Y ہوتا ہے۔ X sperm fertilise کرے تو عموماً XX اور Y sperm کرے تو عموماً XY zygote بنتا ہے۔ Y chromosome کا SRY gene عموماً testes کی نشوونما شروع کرتا ہے۔ اس لیے sperm کا sex chromosome عام chromosomal pattern طے کرتا ہے۔ جنسی نشوونما میں قدرتی حیاتیاتی فرق بھی ہوسکتا ہے۔",
+              "rubric": [
+                "Chromosome تعداد (2)",
+                "egg/sperm gametes (2)",
+                "XX/XY نتائج (3)",
+                "SRY کردار (1)",
+                "meiosis/fertilisation اور وضاحت (2)."
+              ]
+            },
+            "sd": {
+              "question": "XX-XY نظام وسيلي انساني sex determination بيان ڪريو ۽ meiosis ۽ fertilisation جو ڪردار واضح ڪريو.",
+              "modelAnswer": "انسان جي عام جسماني خلين ۾ 46 chromosomes هوندا آهن، جن ۾ 22 جوڙا autosomes ۽ هڪ جوڙو sex chromosomes جو آهي. Eggs عام طور X رکن ٿا. Meiosis ۾ sex chromosomes جدا ٿيڻ سبب sperm ۾ X يا Y هوندو آهي. X sperm fertilise ڪري ته عام طور XX ۽ Y sperm ڪري ته عام طور XY zygote ٺهي ٿو. Y chromosome جو SRY gene عام طور testes جي واڌ شروع ڪري ٿو. تنهنڪري sperm جو sex chromosome عام chromosomal pattern طئي ڪري ٿو. جنسي واڌ ۾ قدرتي حياتياتي فرق به ٿي سگهن ٿا.",
+              "rubric": [
+                "Chromosome تعداد (2)",
+                "egg/sperm gametes (2)",
+                "XX/XY نتيجا (3)",
+                "SRY ڪردار (1)",
+                "meiosis/fertilisation ۽ وضاحت (2)."
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
