@@ -1,0 +1,712 @@
+{
+  "id": "biology-xi-chapter-3-cell-structure-function",
+  "title": "Biology XI — Chapter 3: Cell Structure and Function",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XI Chapter 3 — Cell and Its Organelles (18 periods). Five lessons covering cell theory, microscopy, prokaryotic/eukaryotic cells, organelles, membrane transport, signalling and stem cells, with Urdu/Sindhi explanations and assessments.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 3: Cell Structure and Function",
+      "description": "DCAR Sindh Biology 2024, Chapter 03 — Cell and Its Organelles, 18 periods.",
+      "lessons": [
+        {
+          "title": "3.1 Cell Theory and Life Processes",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain cell theory and life processes.\n\nThe cell is the smallest structural and functional unit of life. Classical cell theory states that all organisms consist of one or more cells, the cell is the basic unit of structure and function, and new cells arise from pre-existing cells. Modern theory adds that cells contain hereditary DNA and that energy flow and metabolism occur within cells. Unicellular organisms perform all life processes in one cell; multicellular organisms have specialised cells that cooperate in tissues and organs. Cells carry out metabolism, nutrition, homeostasis, response to stimuli, growth and reproduction.\n\n**Check your understanding:** Summarise the key idea in your own words.",
+          "explanations": {
+            "ur": "خلیہ زندگی کی سب سے چھوٹی ساختی اور فعلی اکائی ہے۔ خلیاتی نظریے کے مطابق تمام جاندار ایک یا زیادہ خلیوں سے بنے ہیں، خلیہ ساخت اور فعل کی بنیادی اکائی ہے اور نئے خلیے پہلے سے موجود خلیوں سے بنتے ہیں۔ جدید نظریہ DNA اور خلیے کے اندر توانائی کے بہاؤ کو بھی شامل کرتا ہے۔ یک خلوی جاندار تمام عمل ایک خلیے میں کرتے ہیں؛ کثیر خلوی جانداروں میں مخصوص خلیے بافتوں اور اعضا میں مل کر کام کرتے ہیں۔ خلیے میٹابولزم، غذائیت، ہومیوسٹیسس، محرکات کا جواب، نشوونما اور افزائش کرتے ہیں۔",
+            "sd": "خليو زندگيءَ جي سڀ کان ننڍي بناوتي ۽ فعلي ايڪي آهي. خلياتي نظريي موجب سڀ جاندار هڪ يا وڌيڪ خلين مان ٺهيل آهن، خليو بناوت ۽ ڪم جي بنيادي ايڪي آهي ۽ نوان خليو اڳ موجود خلين مان ٺهن ٿا. جديد نظريو DNA ۽ خلين اندر توانائيءَ جي وهڪري کي به شامل ڪري ٿو. هڪ خليي وارا جاندار سڀ عمل هڪ خليي ۾ ڪن ٿا؛ گهڻن خلين وارن جاندارن ۾ خاص خليو ٽشوز ۽ عضون ۾ گڏجي ڪم ڪن ٿا. خليو ميٽابولزم، غذا، هوميوسٽيسس، محرڪن جو جواب، واڌ ۽ پيدائش ڪن ٿا."
+          }
+        },
+        {
+          "title": "3.2 Microscopy",
+          "type": "text",
+          "content": "## Learning outcomes\nCompare microscopes and calculate magnification.\n\nMagnification is image size divided by actual object size; resolution is the ability to distinguish two close points. A compound light microscope uses visible light and glass lenses and can view living cells, but its resolution is limited by light wavelength. Electron microscopes use electron beams and electromagnetic lenses for much greater resolution; specimens must be prepared in a vacuum and are not alive during observation. TEM shows internal ultrastructure in thin sections; SEM shows surface detail. Total magnification = eyepiece × objective.\n\n**Check your understanding:** Summarise the key idea in your own words.",
+          "explanations": {
+            "ur": "میگنیفیکیشن تصویر کے حجم اور اصل شے کے حجم کا تناسب ہے؛ ریزولوشن دو قریبی نقاط کو الگ پہچاننے کی صلاحیت ہے۔ روشنی خوردبین نظر آنے والی روشنی اور عدسے استعمال کرتی ہے اور زندہ خلیے دکھا سکتی ہے، مگر اس کی ریزولوشن محدود ہے۔ الیکٹران خوردبین الیکٹران بیم سے زیادہ ریزولوشن دیتی ہے؛ نمونے خلا میں تیار کیے جاتے ہیں اور زندہ نہیں رہتے۔ TEM اندرونی ساخت اور SEM سطح دکھاتی ہے۔ کل میگنیفیکیشن = آئی پیس × آبجیکٹو۔",
+            "sd": "ميگنيفڪيشن تصوير ۽ اصل شيءِ جي ماپ جو تناسب آهي؛ ريزوليوشن ٻن ويجهن نقطن کي الڳ سڃاڻڻ جي صلاحيت آهي. روشني خوردبين نظر ايندڙ روشني ۽ لينس استعمال ڪري ٿي ۽ زنده خليو ڏيکاري سگهي ٿي، پر ان جي ريزوليوشن محدود آهي. اليڪٽران خوردبين وڌيڪ ريزوليوشن ڏئي ٿي؛ نمونا ويڪيوم ۾ تيار ٿين ٿا ۽ مشاهدي وقت زنده ناهن. TEM اندروني بناوت ۽ SEM مٿاڇري ڏيکاري ٿو. ڪل ميگنيفڪيشن = آئي پيس × آبجيڪٽو."
+          }
+        },
+        {
+          "title": "3.3 Prokaryotic and Eukaryotic Cells",
+          "type": "text",
+          "content": "## Learning outcomes\nDifferentiate prokaryotic and eukaryotic cells.\n\nAll cells contain a plasma membrane, cytoplasm, DNA and ribosomes. Prokaryotes (Bacteria and Archaea) lack a membrane-bound nucleus; their DNA is usually a circular chromosome in a nucleoid and they lack typical membrane-bound organelles. Eukaryotes have a nucleus with linear chromosomes and organelles such as mitochondria, ER and Golgi apparatus. Plant cells are eukaryotic and usually have a cellulose wall, chloroplasts in photosynthetic tissues and a large vacuole; animal cells lack a cell wall and chloroplasts.\n\n**Check your understanding:** Summarise the key idea in your own words.",
+          "explanations": {
+            "ur": "تمام خلیوں میں پلازما جھلی، سائٹوپلازم، DNA اور رائبوسوم ہوتے ہیں۔ پروکاریوٹک خلیوں میں جھلی والا مرکزہ نہیں ہوتا؛ DNA عموماً نیوکلیوئڈ میں حلقوی ہوتا ہے اور جھلی دار عضیات نہیں ہوتے۔ یوکاریوٹک خلیوں میں مرکزہ، خطی کروموسوم اور مائٹوکانڈریا، ER اور گولجی جیسے عضیات ہوتے ہیں۔ نباتاتی خلیوں میں عموماً سیلولوز کی دیوار، کلوروپلاسٹ اور بڑا ویکیول ہوتا ہے؛ حیوانی خلیوں میں خلوی دیوار اور کلوروپلاسٹ نہیں ہوتے۔",
+            "sd": "سڀني خلين ۾ پلازما جھلي، سائٽوپلازم، DNA ۽ رائبوسوم هوندا آهن. پروڪاريوٽڪ خلين ۾ جھلي وارو مرڪز نه هوندو؛ DNA عام طور نيوڪليوئڊ ۾ گول هوندو ۽ جھلي وارا عضيا ناهن. يوڪاريوٽڪ خلين ۾ مرڪز، سڌا ڪروموسوم ۽ مائٽوڪانڊريا، ER ۽ گولجي جهڙا عضيا هوندا آهن. ٻوٽن جي خلين ۾ عام طور سيلولوز جي ڀت، ڪلوروپلاسٽ ۽ وڏو ويڪيول هوندو؛ جانورن جي خلين ۾ خلوي ڀت ۽ ڪلوروپلاسٽ ناهن."
+          }
+        },
+        {
+          "title": "3.4 Eukaryotic Organelles",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe the functions of major organelles.\n\nThe nucleus stores DNA; the nucleolus assembles ribosomal subunits. Ribosomes synthesise proteins. Rough ER makes proteins for membranes and secretion; smooth ER synthesises lipids, detoxifies chemicals and stores calcium. Golgi apparatus modifies, sorts and packages molecules. Lysosomes digest and recycle materials; peroxisomes carry out oxidation and catalase breaks down hydrogen peroxide. Mitochondria make ATP during aerobic respiration; chloroplasts carry out photosynthesis. The cytoskeleton supports shape, movement and intracellular transport.\n\n**Check your understanding:** Summarise the key idea in your own words.",
+          "explanations": {
+            "ur": "مرکزہ DNA محفوظ کرتا ہے اور نیوکلیولس رائبوسوم کے ذیلی حصے بناتا ہے۔ رائبوسوم پروٹین بناتے ہیں۔ کھردرا ER جھلی اور اخراج کے پروٹین بناتا ہے؛ ہموار ER لپڈ بناتا، زہریلے مادے ختم اور کیلشیم ذخیرہ کرتا ہے۔ گولجی اپریٹس مادوں میں تبدیلی، چھانٹی اور پیکنگ کرتا ہے۔ لائسوسوم ہضم اور ری سائیکلنگ جبکہ پیروکسیسوم آکسیڈیشن کرتے ہیں۔ مائٹوکانڈریا ATP بناتا ہے اور کلوروپلاسٹ ضیائی تالیف کرتے ہیں۔ سائٹواسکیلیٹن شکل، حرکت اور اندرونی نقل و حمل میں مدد دیتا ہے۔",
+            "sd": "مرڪز DNA محفوظ ڪري ٿو ۽ نيوڪليولس رائبوسوم جا حصا ٺاهي ٿو. رائبوسوم پروٽين ٺاهين ٿا. کُرندڙ ER جھلي ۽ خارج ٿيڻ وارا پروٽين ٺاهي ٿو؛ هموار ER لپڊ ٺاهي، زهريلا مادا ختم ۽ ڪيلشيم ذخيرو ڪري ٿو. گولجي اپريٽس مادن ۾ تبديلي، ڇنڊڇاڻ ۽ پيڪنگ ڪري ٿو. لائيسوسوم هضم ۽ ٻيهر استعمال ڪن ٿا؛ پيروڪسي سوم آڪسائيڊيشن ڪن ٿا. مائٽوڪانڊريا ATP ۽ ڪلوروپلاسٽ ضيائي ترڪيب ڪن ٿا. سائٽو اسڪيليٽن شڪل، حرڪت ۽ اندروني آمدرفت ۾ مدد ڪري ٿو."
+          }
+        },
+        {
+          "title": "3.5 Membrane Transport, Signalling and Stem Cells",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain membrane transport, cell signalling and stem cells.\n\nThe fluid-mosaic membrane is a selectively permeable phospholipid bilayer with proteins; hydrophilic heads face water and hydrophobic tails face inward. Simple diffusion moves down a concentration gradient without ATP. Osmosis is net water movement across a selectively permeable membrane. Facilitated diffusion uses channel/carrier proteins but no ATP. Active transport uses energy to move against an electrochemical gradient; endocytosis brings material in and exocytosis releases it. In cell signalling, a ligand binds a receptor and triggers signal transduction. Stem cells self-renew and differentiate: embryonic cells are pluripotent, while many adult stem cells are multipotent. Potential applications include tissue repair and disease research; challenges include safety, tumour risk and ethical issues.\n\n**Check your understanding:** Summarise the key idea in your own words.",
+          "explanations": {
+            "ur": "فلوئڈ موزیک جھلی فاسفولیپڈ کی دوہری تہہ ہے جس میں پروٹین ہوتے ہیں؛ پانی دوست سر باہر اور پانی سے دور دمیں اندر ہوتی ہیں۔ سادہ انتشار میں مادہ گریڈینٹ کے ساتھ بغیر ATP حرکت کرتا ہے۔ اوسموسس منتخب جھلی سے پانی کی خالص حرکت ہے۔ سہولت یافتہ انتشار میں چینل یا کیریئر پروٹین ہوتے ہیں مگر ATP نہیں لگتا۔ فعال نقل و حمل توانائی سے مادہ گریڈینٹ کے خلاف لے جاتی ہے؛ اینڈوسائٹوسس مادہ اندر اور ایکسوسائٹوسس باہر نکالتا ہے۔ سیل سگنلنگ میں لیگنڈ رسیپٹر سے جڑ کر پیغام چلاتا ہے۔ اسٹیم سیلز خود تجدید اور تخصص کرتے ہیں؛ ایمبریونک پلوری پوٹینٹ اور کئی بالغ اسٹیم سیلز ملٹی پوٹینٹ ہوتے ہیں۔ ان کے ممکنہ فوائد ٹشو مرمت اور تحقیق ہیں، مگر حفاظت، رسولی اور اخلاقی مسائل بھی ہیں۔",
+            "sd": "فلوئڊ موزيڪ جھلي فاسفولپڊ جي ٻٽي تھه آهي، جنهن ۾ پروٽين هوندا آهن؛ پاڻي پسند مٿا ٻاهر ۽ پاڻي کان پاسو ڪندڙ پڇڙيون اندر هونديون آهن. سادي ڊفيوزن ۾ مادو گريڊينٽ سان گڏ ATP کان سواءِ هلي ٿو. اوسموسس چونڊيل جھلي وسيلي پاڻيءَ جي خالص حرڪت آهي. سهولت واري ڊفيوزن ۾ چينل يا ڪيريئر پروٽين هوندا آهن پر ATP نٿو لڳي. فعال آمدرفت توانائي سان مادي کي گريڊينٽ جي ابتڙ کڻي وڃي ٿي؛ اينڊوسائٽوسس مادو اندر ۽ ايڪسوسائٽوسس ٻاهر ڪڍي ٿو. سيل سگنلنگ ۾ ليگنڊ ري سيپٽر سان ڳنڍجي پيغام شروع ڪري ٿو. اسٽيم سيل پاڻ کي ٻيهر پيدا ۽ خاص خلين ۾ بدلجن ٿا؛ ايمبريونڪ پلوري پوٽينٽ ۽ ڪيترائي بالغ ملٽي پوٽينٽ هوندا آهن. فائدا ٽشو مرمت ۽ تحقيق آهن، پر حفاظت، ڳوڙهي ۽ اخلاقي مسئلا به آهن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is the basic structural and functional unit of life?",
+          "options": {
+            "A": "Tissue",
+            "B": "Cell",
+            "C": "Organ",
+            "D": "Organ system"
+          },
+          "correctOption": "B",
+          "explanation": "The cell is the smallest unit that performs life processes.",
+          "translations": {
+            "ur": {
+              "question": "زندگی کی بنیادی ساختی اور فعلی اکائی کیا ہے؟",
+              "options": {
+                "A": "بافت",
+                "B": "خلیہ",
+                "C": "عضو",
+                "D": "اعضائی نظام"
+              },
+              "explanation": "خلیہ زندگی کی بنیادی ساختی اور فعلی اکائی ہے۔"
+            },
+            "sd": {
+              "question": "زندگيءَ جي بنيادي بناوتي ۽ فعلي ايڪي ڇا آهي؟",
+              "options": {
+                "A": "ٽشو",
+                "B": "خليو",
+                "C": "عضو",
+                "D": "عضون جو نظام"
+              },
+              "explanation": "خليو زندگيءَ جي بنيادي بناوتي ۽ فعلي ايڪي آهي."
+            }
+          }
+        },
+        {
+          "question": "New cells arise from:",
+          "options": {
+            "A": "Non-living matter",
+            "B": "Pre-existing cells",
+            "C": "Chloroplasts only",
+            "D": "Viruses"
+          },
+          "correctOption": "B",
+          "explanation": "Cell theory states that cells arise from pre-existing cells.",
+          "translations": {
+            "ur": {
+              "question": "نئے خلیے کس سے بنتے ہیں؟",
+              "options": {
+                "A": "غیر زندہ مادے",
+                "B": "پہلے سے موجود خلیوں",
+                "C": "صرف کلوروپلاسٹ",
+                "D": "وائرس"
+              },
+              "explanation": "نئے خلیے پہلے سے موجود خلیوں سے بنتے ہیں۔"
+            },
+            "sd": {
+              "question": "نوان خليو ڪنهن مان ٺهن ٿا؟",
+              "options": {
+                "A": "غير زنده مادو",
+                "B": "اڳ موجود خليو",
+                "C": "رڳو ڪلوروپلاسٽ",
+                "D": "وائرس"
+              },
+              "explanation": "نوان خليو اڳ موجود خلين مان ٺهن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Resolution means the ability to:",
+          "options": {
+            "A": "Make an image larger",
+            "B": "Distinguish two close points",
+            "C": "Change specimen colour",
+            "D": "Measure mass"
+          },
+          "correctOption": "B",
+          "explanation": "Resolution separates two nearby points as distinct.",
+          "translations": {
+            "ur": {
+              "question": "ریزولوشن سے کیا مراد ہے؟",
+              "options": {
+                "A": "تصویر بڑی کرنا",
+                "B": "دو قریبی نقاط الگ پہچاننا",
+                "C": "رنگ بدلنا",
+                "D": "کمیت ناپنا"
+              },
+              "explanation": "دو قریبی نقاط کو الگ پہچاننے کی صلاحیت۔"
+            },
+            "sd": {
+              "question": "ريزوليوشن مان ڇا مراد آهي؟",
+              "options": {
+                "A": "تصوير وڏي ڪرڻ",
+                "B": "ٻه ويجها نقطا الڳ سڃاڻڻ",
+                "C": "رنگ بدلائڻ",
+                "D": "وزن ماپڻ"
+              },
+              "explanation": "ٻن ويجهن نقطن کي الڳ سڃاڻڻ جي صلاحيت."
+            }
+          }
+        },
+        {
+          "question": "A 10× eyepiece and 40× objective give:",
+          "options": {
+            "A": "40×",
+            "B": "100×",
+            "C": "400×",
+            "D": "4,000×"
+          },
+          "correctOption": "C",
+          "explanation": "10 multiplied by 40 equals 400 total magnification.",
+          "translations": {
+            "ur": {
+              "question": "10× آئی پیس اور 40× آبجیکٹو سے کل میگنیفیکیشن؟",
+              "options": {
+                "A": "40×",
+                "B": "100×",
+                "C": "400×",
+                "D": "4,000×"
+              },
+              "explanation": "10 ضرب 40 یعنی 400 گنا۔"
+            },
+            "sd": {
+              "question": "10× آئي پيس ۽ 40× آبجيڪٽو سان ڪل ميگنيفڪيشن؟",
+              "options": {
+                "A": "40×",
+                "B": "100×",
+                "C": "400×",
+                "D": "4,000×"
+              },
+              "explanation": "10 ضرب 40 يعني 400 ڀيرا."
+            }
+          }
+        },
+        {
+          "question": "Which microscope reveals internal ultrastructure in thin sections?",
+          "options": {
+            "A": "SEM",
+            "B": "TEM",
+            "C": "Light microscope",
+            "D": "Hand lens"
+          },
+          "correctOption": "B",
+          "explanation": "TEM transmits electrons through thin sections.",
+          "translations": {
+            "ur": {
+              "question": "باریک حصے کی اندرونی ساخت کون سی خوردبین دکھاتی ہے؟",
+              "options": {
+                "A": "SEM",
+                "B": "TEM",
+                "C": "روشنی خوردبین",
+                "D": "سادہ عدسہ"
+              },
+              "explanation": "TEM اندرونی ساخت دکھاتی ہے۔"
+            },
+            "sd": {
+              "question": "سنهي حصي جي اندروني بناوت ڪهڙي خوردبين ڏيکاري ٿي؟",
+              "options": {
+                "A": "SEM",
+                "B": "TEM",
+                "C": "روشني خوردبين",
+                "D": "سادو عدسو"
+              },
+              "explanation": "TEM اندروني بناوت ڏيکاري ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which feature is shared by prokaryotes and eukaryotes?",
+          "options": {
+            "A": "Nucleus",
+            "B": "Mitochondria",
+            "C": "Ribosomes",
+            "D": "Golgi apparatus"
+          },
+          "correctOption": "C",
+          "explanation": "Both types contain ribosomes.",
+          "translations": {
+            "ur": {
+              "question": "دونوں اقسام کے خلیوں میں کیا مشترک ہے؟",
+              "options": {
+                "A": "مرکزہ",
+                "B": "مائٹوکانڈریا",
+                "C": "رائبوسوم",
+                "D": "گولجی اپریٹس"
+              },
+              "explanation": "دونوں میں رائبوسوم ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "ٻنهي قسمن جي خلين ۾ ڇا گڏيل آهي؟",
+              "options": {
+                "A": "مرڪز",
+                "B": "مائٽوڪانڊريا",
+                "C": "رائبوسوم",
+                "D": "گولجي اپريٽس"
+              },
+              "explanation": "ٻنهي ۾ رائبوسوم هوندا آهن."
+            }
+          }
+        },
+        {
+          "question": "Prokaryotic DNA is usually located in the:",
+          "options": {
+            "A": "Nucleoid",
+            "B": "Nucleolus",
+            "C": "Mitochondrion",
+            "D": "Golgi body"
+          },
+          "correctOption": "A",
+          "explanation": "The chromosome is usually in a nucleoid region.",
+          "translations": {
+            "ur": {
+              "question": "پروکاریوٹک DNA عموماً کہاں ہوتا ہے؟",
+              "options": {
+                "A": "نیوکلیوئڈ",
+                "B": "نیوکلیولس",
+                "C": "مائٹوکانڈریا",
+                "D": "گولجی باڈی"
+              },
+              "explanation": "نیوکلیوئڈ میں۔"
+            },
+            "sd": {
+              "question": "پروڪاريوٽڪ DNA عام طور ڪٿي هوندو آهي؟",
+              "options": {
+                "A": "نيوڪليوئڊ",
+                "B": "نيوڪليولس",
+                "C": "مائٽوڪانڊريا",
+                "D": "گولجي باڊي"
+              },
+              "explanation": "نيوڪليوئڊ ۾."
+            }
+          }
+        },
+        {
+          "question": "Which organelle modifies and packages proteins?",
+          "options": {
+            "A": "Golgi apparatus",
+            "B": "Lysosome",
+            "C": "Centriole",
+            "D": "Nucleolus"
+          },
+          "correctOption": "A",
+          "explanation": "Golgi modifies, sorts and packages proteins.",
+          "translations": {
+            "ur": {
+              "question": "پروٹین میں تبدیلی اور پیکنگ کون کرتا ہے؟",
+              "options": {
+                "A": "گولجی اپریٹس",
+                "B": "لائسوسوم",
+                "C": "سینٹریول",
+                "D": "نیوکلیولس"
+              },
+              "explanation": "گولجی اپریٹس۔"
+            },
+            "sd": {
+              "question": "پروٽين ۾ تبديلي ۽ پيڪنگ ڪير ڪري ٿو؟",
+              "options": {
+                "A": "گولجي اپريٽس",
+                "B": "لائيسوسوم",
+                "C": "سينٽريول",
+                "D": "نيوڪليولس"
+              },
+              "explanation": "گولجي اپريٽس."
+            }
+          }
+        },
+        {
+          "question": "Rough ER is especially associated with:",
+          "options": {
+            "A": "Protein synthesis for secretion",
+            "B": "Photosynthesis",
+            "C": "DNA replication",
+            "D": "Cell wall formation"
+          },
+          "correctOption": "A",
+          "explanation": "Ribosomes on rough ER make proteins for membranes and secretion.",
+          "translations": {
+            "ur": {
+              "question": "کھردرا ER کس عمل سے وابستہ ہے؟",
+              "options": {
+                "A": "اخراج کے پروٹین بنانا",
+                "B": "ضیائی تالیف",
+                "C": "DNA نقل",
+                "D": "خلوی دیوار"
+              },
+              "explanation": "اخراج اور جھلی کے لیے پروٹین بنانا۔"
+            },
+            "sd": {
+              "question": "کُرندڙ ER ڪهڙي عمل سان لاڳاپيل آهي؟",
+              "options": {
+                "A": "خارج ٿيڻ جا پروٽين ٺاهڻ",
+                "B": "ضيائي ترڪيب",
+                "C": "DNA نقل",
+                "D": "خلوي ڀت"
+              },
+              "explanation": "خارج ٿيڻ ۽ جھلي لاءِ پروٽين ٺاهڻ."
+            }
+          }
+        },
+        {
+          "question": "Catalase is commonly found in:",
+          "options": {
+            "A": "Peroxisomes",
+            "B": "Ribosomes",
+            "C": "Nucleoli",
+            "D": "Centrioles"
+          },
+          "correctOption": "A",
+          "explanation": "Peroxisomes use catalase to break down hydrogen peroxide.",
+          "translations": {
+            "ur": {
+              "question": "کیٹالیز عموماً کہاں پایا جاتا ہے؟",
+              "options": {
+                "A": "پیروکسیسوم",
+                "B": "رائبوسوم",
+                "C": "نیوکلیولس",
+                "D": "سینٹریول"
+              },
+              "explanation": "پیروکسیسوم میں۔"
+            },
+            "sd": {
+              "question": "ڪيٽاليز عام طور ڪٿي هوندو آهي؟",
+              "options": {
+                "A": "پيروڪسي سوم",
+                "B": "رائبوسوم",
+                "C": "نيوڪليولس",
+                "D": "سينٽريول"
+              },
+              "explanation": "پيروڪسي سوم ۾."
+            }
+          }
+        },
+        {
+          "question": "The inner folds of mitochondria are called:",
+          "options": {
+            "A": "Cristae",
+            "B": "Grana",
+            "C": "Thylakoids",
+            "D": "Cilia"
+          },
+          "correctOption": "A",
+          "explanation": "Cristae increase inner membrane surface area.",
+          "translations": {
+            "ur": {
+              "question": "مائٹوکانڈریا کی اندرونی تہوں کو کیا کہتے ہیں؟",
+              "options": {
+                "A": "کرسٹی",
+                "B": "گرانا",
+                "C": "تھائیلاکوئڈ",
+                "D": "سیلیا"
+              },
+              "explanation": "کرسٹی۔"
+            },
+            "sd": {
+              "question": "مائٽوڪانڊريا جي اندروني ويڙهن کي ڇا چوندا آهن؟",
+              "options": {
+                "A": "ڪرسٽي",
+                "B": "گرانا",
+                "C": "ٿائلاڪوئڊ",
+                "D": "سيليا"
+              },
+              "explanation": "ڪرسٽي."
+            }
+          }
+        },
+        {
+          "question": "The plasma membrane is mainly a:",
+          "options": {
+            "A": "Phospholipid bilayer",
+            "B": "Cellulose monolayer",
+            "C": "DNA sheet",
+            "D": "Protein wall"
+          },
+          "correctOption": "A",
+          "explanation": "The fluid-mosaic model describes a phospholipid bilayer with proteins.",
+          "translations": {
+            "ur": {
+              "question": "پلازما جھلی بنیادی طور کس سے بنی ہے؟",
+              "options": {
+                "A": "فاسفولیپڈ کی دوہری تہہ",
+                "B": "سیلولوز کی ایک تہہ",
+                "C": "DNA چادر",
+                "D": "پروٹین دیوار"
+              },
+              "explanation": "فاسفولیپڈ کی دوہری تہہ۔"
+            },
+            "sd": {
+              "question": "پلازما جھلي بنيادي طور ڇا مان ٺهيل آهي؟",
+              "options": {
+                "A": "فاسفولپڊ جي ٻٽي تھه",
+                "B": "سيلولوز جي هڪ تھه",
+                "C": "DNA چادر",
+                "D": "پروٽين ڀت"
+              },
+              "explanation": "فاسفولپڊ جي ٻٽي تھه."
+            }
+          }
+        },
+        {
+          "question": "Osmosis is the net movement of:",
+          "options": {
+            "A": "Water",
+            "B": "Proteins",
+            "C": "DNA",
+            "D": "Ribosomes"
+          },
+          "correctOption": "A",
+          "explanation": "Osmosis is water movement across a selectively permeable membrane.",
+          "translations": {
+            "ur": {
+              "question": "اوسموسس میں کس چیز کی خالص حرکت ہوتی ہے؟",
+              "options": {
+                "A": "پانی",
+                "B": "پروٹین",
+                "C": "DNA",
+                "D": "رائبوسوم"
+              },
+              "explanation": "پانی کی۔"
+            },
+            "sd": {
+              "question": "اوسموسس ۾ ڪهڙي شيءِ جي خالص حرڪت ٿئي ٿي؟",
+              "options": {
+                "A": "پاڻي",
+                "B": "پروٽين",
+                "C": "DNA",
+                "D": "رائبوسوم"
+              },
+              "explanation": "پاڻيءَ جي."
+            }
+          }
+        },
+        {
+          "question": "Which process requires energy to move substances against a gradient?",
+          "options": {
+            "A": "Simple diffusion",
+            "B": "Osmosis",
+            "C": "Active transport",
+            "D": "Facilitated diffusion"
+          },
+          "correctOption": "C",
+          "explanation": "Active transport uses energy to move against a gradient.",
+          "translations": {
+            "ur": {
+              "question": "گریڈینٹ کے خلاف نقل و حمل کے لیے توانائی کون سا عمل لیتا ہے؟",
+              "options": {
+                "A": "سادہ انتشار",
+                "B": "اوسموسس",
+                "C": "فعال نقل و حمل",
+                "D": "سہولت یافتہ انتشار"
+              },
+              "explanation": "فعال نقل و حمل۔"
+            },
+            "sd": {
+              "question": "گريڊينٽ جي ابتڙ آمدرفت لاءِ توانائي ڪهڙو عمل وٺي ٿو؟",
+              "options": {
+                "A": "سادي ڊفيوزن",
+                "B": "اوسموسس",
+                "C": "فعال آمدرفت",
+                "D": "سهولت واري ڊفيوزن"
+              },
+              "explanation": "فعال آمدرفت."
+            }
+          }
+        },
+        {
+          "question": "A pluripotent stem cell can:",
+          "options": {
+            "A": "Form many body cell types",
+            "B": "Form only one cell type",
+            "C": "Never divide",
+            "D": "Only make red blood cells"
+          },
+          "correctOption": "A",
+          "explanation": "Pluripotent cells can form many body cell types.",
+          "translations": {
+            "ur": {
+              "question": "پلوری پوٹینٹ اسٹیم سیل کیا کر سکتا ہے؟",
+              "options": {
+                "A": "جسم کے کئی اقسام کے خلیے",
+                "B": "صرف ایک قسم",
+                "C": "کبھی تقسیم نہیں",
+                "D": "صرف سرخ خلیے"
+              },
+              "explanation": "جسم کے کئی اقسام کے خلیے بنا سکتا ہے۔"
+            },
+            "sd": {
+              "question": "پلوري پوٽينٽ اسٽيم سيل ڇا ڪري سگهي ٿو؟",
+              "options": {
+                "A": "جسم جا ڪيترائي قسم جا خليو",
+                "B": "رڳو هڪ قسم",
+                "C": "ڪڏهن ورهاست نه",
+                "D": "رڳو ڳاڙها خليو"
+              },
+              "explanation": "جسم جا ڪيترائي قسم جا خليو ٺاهي سگهي ٿو."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "State the three principles of classical cell theory and give two modern additions.",
+          "modelAnswer": "All organisms consist of one or more cells; the cell is the basic structural and functional unit; and cells arise from pre-existing cells. Modern additions include that cells contain hereditary DNA and that metabolism and energy flow occur within cells.",
+          "rubric": [
+            "Accurate concepts and definitions (2 marks)",
+            "Relevant scientific detail and examples (2 marks)",
+            "Clear terminology and organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "خلیاتی نظریے کے تین اصول اور جدید نظریے کے دو اضافے بیان کریں۔",
+              "modelAnswer": "تمام جاندار ایک یا زیادہ خلیوں سے بنے ہیں؛ خلیہ ساخت اور فعل کی بنیادی اکائی ہے؛ نئے خلیے پہلے سے موجود خلیوں سے بنتے ہیں۔ جدید اضافوں میں DNA اور خلیے کے اندر میٹابولزم و توانائی کا بہاؤ شامل ہیں۔",
+              "rubric": [
+                "درست تصورات اور تعریفیں (2 نمبر)",
+                "متعلقہ سائنسی تفصیل اور مثالیں (2 نمبر)",
+                "درست اصطلاحات اور ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "خلياتي نظريي جا ٽي اصول ۽ جديد نظريي جا ٻه اضافا بيان ڪريو.",
+              "modelAnswer": "سڀ جاندار هڪ يا وڌيڪ خلين مان ٺهيل آهن؛ خليو بناوت ۽ ڪم جي بنيادي ايڪي آهي؛ نوان خليو اڳ موجود خلين مان ٺهن ٿا. جديد اضافن ۾ DNA ۽ خلين اندر ميٽابولزم ۽ توانائيءَ جو وهڪرو شامل آهن.",
+              "rubric": [
+                "صحيح تصور ۽ وصفون (2 مارڪون)",
+                "لاڳاپيل سائنسي تفصيل ۽ مثالون (2 مارڪون)",
+                "صحيح اصطلاحون ۽ ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Differentiate between prokaryotic and eukaryotic cells using three structural features.",
+          "modelAnswer": "Prokaryotes lack a membrane-bound nucleus and typical membrane-bound organelles; DNA is usually circular in a nucleoid. Eukaryotes have a membrane-bound nucleus with linear chromosomes and organelles such as mitochondria and ER. Eukaryotes are generally larger and compartmentalised.",
+          "rubric": [
+            "Accurate concepts and definitions (2 marks)",
+            "Relevant scientific detail and examples (2 marks)",
+            "Clear terminology and organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "پروکاریوٹک اور یوکاریوٹک خلیوں میں تین ساختی فرق بیان کریں۔",
+              "modelAnswer": "پروکاریوٹک خلیوں میں جھلی والا مرکزہ اور عام جھلی دار عضیات نہیں ہوتے؛ DNA عموماً نیوکلیوئڈ میں حلقوی ہوتا ہے۔ یوکاریوٹک خلیوں میں جھلی والا مرکزہ، خطی کروموسوم اور مائٹوکانڈریا و ER جیسے عضیات ہوتے ہیں۔",
+              "rubric": [
+                "درست تصورات اور تعریفیں (2 نمبر)",
+                "متعلقہ سائنسی تفصیل اور مثالیں (2 نمبر)",
+                "درست اصطلاحات اور ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "پروڪاريوٽڪ ۽ يوڪاريوٽڪ خلين ۾ ٽي بناوتي فرق بيان ڪريو.",
+              "modelAnswer": "پروڪاريوٽڪ خلين ۾ جھلي وارو مرڪز ۽ عام جھلي وارا عضيا ناهن؛ DNA عام طور نيوڪليوئڊ ۾ گول هوندو آهي. يوڪاريوٽڪ خلين ۾ جھلي وارو مرڪز، سڌا ڪروموسوم ۽ مائٽوڪانڊريا ۽ ER جهڙا عضيا هوندا آهن.",
+              "rubric": [
+                "صحيح تصور ۽ وصفون (2 مارڪون)",
+                "لاڳاپيل سائنسي تفصيل ۽ مثالون (2 مارڪون)",
+                "صحيح اصطلاحون ۽ ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare simple diffusion, facilitated diffusion, osmosis and active transport.",
+          "modelAnswer": "Simple diffusion moves particles down a concentration gradient without ATP. Facilitated diffusion uses channel or carrier proteins but still moves down a gradient. Osmosis is net water movement across a selectively permeable membrane. Active transport uses energy to move substances against an electrochemical gradient.",
+          "rubric": [
+            "Accurate concepts and definitions (2 marks)",
+            "Relevant scientific detail and examples (2 marks)",
+            "Clear terminology and organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "سادہ انتشار، سہولت یافتہ انتشار، اوسموسس اور فعال نقل و حمل کا موازنہ کریں۔",
+              "modelAnswer": "سادہ انتشار میں ذرات بغیر ATP گریڈینٹ کے ساتھ حرکت کرتے ہیں۔ سہولت یافتہ انتشار میں پروٹین مدد دیتے ہیں مگر حرکت گریڈینٹ کے ساتھ ہوتی ہے۔ اوسموسس منتخب جھلی سے پانی کی خالص حرکت ہے۔ فعال نقل و حمل توانائی سے مادوں کو گریڈینٹ کے خلاف لے جاتی ہے۔",
+              "rubric": [
+                "درست تصورات اور تعریفیں (2 نمبر)",
+                "متعلقہ سائنسی تفصیل اور مثالیں (2 نمبر)",
+                "درست اصطلاحات اور ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "سادي ڊفيوزن، سهولت واري ڊفيوزن، اوسموسس ۽ فعال آمدرفت جو مقابلو ڪريو.",
+              "modelAnswer": "سادي ڊفيوزن ۾ ذرڙا ATP کان سواءِ گريڊينٽ سان گڏ هلن ٿا. سهولت واري ڊفيوزن ۾ پروٽين مدد ڪن ٿا پر حرڪت گريڊينٽ سان گڏ ٿئي ٿي. اوسموسس چونڊيل جھلي وسيلي پاڻيءَ جي خالص حرڪت آهي. فعال آمدرفت توانائي سان مادن کي گريڊينٽ جي ابتڙ کڻي وڃي ٿي.",
+              "rubric": [
+                "صحيح تصور ۽ وصفون (2 مارڪون)",
+                "لاڳاپيل سائنسي تفصيل ۽ مثالون (2 مارڪون)",
+                "صحيح اصطلاحون ۽ ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain the functions of at least six eukaryotic organelles and trace the pathway of a protein for secretion.",
+          "modelAnswer": "The nucleus stores DNA; the nucleolus assembles ribosomal subunits. Ribosomes translate mRNA. Rough ER-bound ribosomes make secretory proteins and the ER helps fold them. Vesicles carry proteins to the Golgi apparatus for modification, sorting and packaging. Secretory vesicles fuse with the plasma membrane and release contents by exocytosis. Mitochondria provide ATP; lysosomes digest and recycle materials; peroxisomes carry out oxidation reactions.",
+          "rubric": [
+            "Accurate concepts and definitions (2 marks)",
+            "Relevant scientific detail and examples (2 marks)",
+            "Clear terminology and organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "کم از کم چھ یوکاریوٹک عضیات کے افعال بیان کریں اور خارج ہونے والے پروٹین کا راستہ لکھیں۔",
+              "modelAnswer": "مرکزہ DNA رکھتا ہے اور نیوکلیولس رائبوسوم کے ذیلی حصے بناتا ہے۔ رائبوسوم mRNA سے پروٹین بناتے ہیں۔ کھردرے ER کے رائبوسوم اخراج کے پروٹین بناتے ہیں اور ER انہیں تہہ بندی میں مدد دیتا ہے۔ ویسیکلز انہیں گولجی اپریٹس تک لے جاتے ہیں جہاں تبدیلی، چھانٹی اور پیکنگ ہوتی ہے۔ پھر سیکریٹری ویسیکلز جھلی سے مل کر ایکسوسائٹوسس سے پروٹین خارج کرتے ہیں۔ مائٹوکانڈریا ATP دیتا ہے، لائسوسوم مادے ہضم کرتے ہیں اور پیروکسیسوم آکسیڈیشن کرتے ہیں۔",
+              "rubric": [
+                "درست تصورات اور تعریفیں (2 نمبر)",
+                "متعلقہ سائنسی تفصیل اور مثالیں (2 نمبر)",
+                "درست اصطلاحات اور ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "گهٽ ۾ گهٽ ڇهن يوڪاريوٽڪ عضين جا ڪم بيان ڪريو ۽ خارج ٿيندڙ پروٽين جو رستو لکو.",
+              "modelAnswer": "مرڪز DNA رکي ٿو ۽ نيوڪليولس رائبوسوم جا حصا ٺاهي ٿو. رائبوسوم mRNA مان پروٽين ٺاهين ٿا. کُرندڙ ER جا رائبوسوم خارج ٿيندڙ پروٽين ٺاهين ٿا ۽ ER انهن کي ويڙهڻ ۾ مدد ڪري ٿو. ويسيڪل انهن کي گولجي اپريٽس تائين کڻي وڃن ٿا، جتي تبديلي، ڇنڊڇاڻ ۽ پيڪنگ ٿئي ٿي. پوءِ ويسيڪل جھلي سان ملي ايڪسوسائٽوسس وسيلي پروٽين ٻاهر ڪن ٿا. مائٽوڪانڊريا ATP ڏئي ٿو، لائيسوسوم مادا هضم ڪن ٿا ۽ پيروڪسي سوم آڪسائيڊيشن ڪن ٿا.",
+              "rubric": [
+                "صحيح تصور ۽ وصفون (2 مارڪون)",
+                "لاڳاپيل سائنسي تفصيل ۽ مثالون (2 مارڪون)",
+                "صحيح اصطلاحون ۽ ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Describe the fluid-mosaic model and compare passive and active transport. Include cell signalling and one potential use of stem cells.",
+          "rubric": [
+            "Accurate concepts and definitions (2 marks)",
+            "Relevant scientific detail and examples (2 marks)",
+            "Clear terminology and organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "فلوئڈ موزیک ماڈل، غیر فعال و فعال نقل و حمل، سیل سگنلنگ اور اسٹیم سیلز کا ایک ممکنہ استعمال بیان کریں۔",
+              "modelAnswer": "جھلی فاسفولیپڈ کی دوہری تہہ ہے جس میں پروٹین ہوتے ہیں۔ غیر فعال نقل و حمل میں مادہ گریڈینٹ کے ساتھ بغیر توانائی حرکت کرتا ہے؛ فعال نقل و حمل ATP سے مادہ گریڈینٹ کے خلاف لے جاتی ہے۔ سیل سگنلنگ میں لیگنڈ رسیپٹر سے جڑ کر اندرونی پیغام رسانی شروع کرتا ہے۔ اسٹیم سیلز کی خود تجدید اور تخصص کی صلاحیت انہیں ٹشو مرمت اور بیماری تحقیق میں مفید بنا سکتی ہے، مگر حفاظت اور اخلاقی مسائل اہم ہیں۔",
+              "rubric": [
+                "درست تصورات اور تعریفیں (2 نمبر)",
+                "متعلقہ سائنسی تفصیل اور مثالیں (2 نمبر)",
+                "درست اصطلاحات اور ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "فلوئڊ موزيڪ ماڊل، غير فعال ۽ فعال آمدرفت، سيل سگنلنگ ۽ اسٽيم سيل جو هڪ ممڪن استعمال بيان ڪريو.",
+              "modelAnswer": "جھلي فاسفولپڊ جي ٻٽي تھه آهي، جنهن ۾ پروٽين هوندا آهن. غير فعال آمدرفت ۾ مادو توانائي کان سواءِ گريڊينٽ سان گڏ هلي ٿو؛ فعال آمدرفت ATP سان مادي کي گريڊينٽ جي ابتڙ کڻي وڃي ٿي. سيل سگنلنگ ۾ ليگنڊ ري سيپٽر سان ڳنڍجي اندروني پيغام شروع ڪري ٿو. اسٽيم سيل جي پاڻ کي ٻيهر پيدا ڪرڻ ۽ خاص خلين ۾ بدلجڻ جي صلاحيت انهن کي ٽشو مرمت ۽ تحقيق لاءِ مفيد بڻائي سگهي ٿي، پر حفاظت ۽ اخلاقي مسئلا اهم آهن.",
+              "rubric": [
+                "صحيح تصور ۽ وصفون (2 مارڪون)",
+                "لاڳاپيل سائنسي تفصيل ۽ مثالون (2 مارڪون)",
+                "صحيح اصطلاحون ۽ ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
