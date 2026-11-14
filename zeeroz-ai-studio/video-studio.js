@@ -38,7 +38,8 @@ $("reset3DView")?.addEventListener("click",()=>lesson3D?.reset());
 function drawScene(){const s=scenes[sceneIndex];if(!s)return;updateLesson3D();$("slideKicker").textContent=(courseData?.title||"ZEEROZ ACADEMY").toUpperCase();$("slideTitle").textContent=s.title;const pts=s.narration.match(/.{1,115}(?:\s|$)/g)||[s.narration];$("slidePoints").replaceChildren(...pts.slice(0,4).map(t=>{const p=document.createElement("p");p.textContent="• "+t.trim();return p}));const visual=$("slideVisual");visual.replaceChildren();if(s.image&&s.image.startsWith("assets/images/biology/")&&!s.image.includes("..")){const img=document.createElement("img");img.src="./"+s.image;img.alt=s.title+" teaching diagram";img.loading="lazy";img.onerror=()=>{visual.textContent="Diagram unavailable for this lesson section."};visual.append(img)}else{const steps=s.narration.split(/[,;:]|\b(?:then|next|finally|and)\b/i).map(x=>x.trim()).filter(x=>x.length>3).slice(0,5);const flow=document.createElement("div");flow.className="diagram";steps.forEach((x,i)=>{const node=document.createElement("span");node.textContent=x.slice(0,42);if(i===sceneIndex%Math.max(steps.length,1))node.classList.add("active");flow.append(node)});visual.append(flow)}$("sceneNarration").value=s.narration;$("sceneCounter").textContent="Scene "+(sceneIndex+1)+" of "+scenes.length;$("prevScene").disabled=sceneIndex===0;$("nextScene").disabled=sceneIndex===scenes.length-1;$("progress").style.width=((sceneIndex+1)/scenes.length*100)+"%"}
 function renderList(){const host=$("sceneList");host.replaceChildren();scenes.forEach((s,i)=>{const card=document.createElement("article");card.className="scene";const title=document.createElement("strong");title.textContent=(i+1)+". "+s.title;const p=document.createElement("p");p.textContent=s.narration;const edit=document.createElement("button");edit.className="secondary";edit.textContent="Preview this scene";edit.addEventListener("click",()=>{sceneIndex=i;drawScene()});card.append(title,p,edit);host.append(card)});$("speakAll").disabled=!scenes.length;$("previewCard").hidden=!scenes.length;$("scriptOutput").value=scenes.map((x,n)=>"SCENE "+(n+1)+": "+x.title+"\n"+x.narration).join("\n\n");sceneIndex=0;drawScene()}
 function getSelectedLessonContent(){const lesson=window.currentLesson?.lesson;if(!lesson)return "";const lang=$("language").value||"en";if(lang!=="en"){const translated=lesson.explanations?.[lang];if(typeof translated==="string"&&translated.trim())return translated;status((lang==="ur"?"Urdu":"Sindhi")+" explanation is not available for this lesson; English content will be used.");}return lesson.content||""}
-$("makeScenes").addEventListener("click",()=>{const lesson=window.currentLesson?.lesson;if(!lesson)return;const lang=$("language").value||"en";const source=getSelectedLessonContent();scenes=makeSceneList(source).map(s=>({...s,language:lang,visualType:/method|stage|process|cycle|step/i.test(s.title)?"process":"concept"}));if(!scenes.length){status("No lesson text was found.");return}renderList();status(scenes.length+" "+({en:"English",ur:"Urdu",sd:"Sindhi"}[lang]||"")+" storyboard scenes prepared from the selected lesson explanation. Review before using.")});
+function buildSelectedLessonScenes(){const lesson=window.currentLesson?.lesson;if(!lesson)return false;const lang=$("language").value||"en";const source=getSelectedLessonContent();scenes=makeSceneList(source).map(s=>({...s,language:lang,visualType:/method|stage|process|cycle|step/i.test(s.title)?"process":"concept"}));if(!scenes.length){status("No lesson text was found in this language.");return false}renderList();return true}
+$("makeScenes").addEventListener("click",()=>{if(!buildSelectedLessonScenes())return;status(scenes.length+" "+({en:"English",ur:"Urdu",sd:"Sindhi"}[$("language").value]||"")+" storyboard scenes prepared. You can review them, or generate the complete video directly.")});
 $("prevScene").addEventListener("click",()=>{sceneIndex=Math.max(0,sceneIndex-1);drawScene()});$("sceneNarration").addEventListener("input",()=>{if(!scenes[sceneIndex])return;scenes[sceneIndex].narration=$("sceneNarration").value;const cards=$("sceneList").querySelectorAll(".scene p");if(cards[sceneIndex])cards[sceneIndex].textContent=scenes[sceneIndex].narration;$("scriptOutput").value=scenes.map((x,n)=>"SCENE "+(n+1)+": "+x.title+"\n"+x.narration).join("\n\n")});$("nextScene").addEventListener("click",()=>{sceneIndex=Math.min(scenes.length-1,sceneIndex+1);drawScene()});
 $("copyScript").addEventListener("click",async()=>{try{await navigator.clipboard.writeText($("scriptOutput").value);status("Narration script copied.")}catch(e){$("scriptOutput").select();status("Select the script and use Copy on your phone.")}});
 $("downloadBoard").addEventListener("click",()=>{const payload={schemaVersion:1,project:"Zeeroz Academy Video Studio",createdAt:new Date().toISOString(),course:courseData?.title,chapter:window.currentLesson?.chapter,lesson:window.currentLesson?.lesson?.title,videoTitle:$("videoTitle").value,language:$("language").value,sourceLanguage:$("language").value,scenes};const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="zeeroz-storyboard.json";a.click();URL.revokeObjectURL(url);status("Storyboard JSON downloaded to your phone.")});
@@ -376,21 +377,28 @@ $("export3DVideo")?.addEventListener("click",exportReal3DTeacher);
 // storyboard, attach it to the 3D teacher, then export one combined WebM.
 async function generateCompleteLessonVideo(){
  const button=$("generateCompleteVideo");
- if(!scenes.length){status("Pehle lesson select karke storyboard generate karein.");return}
+ if(!window.currentLesson?.lesson){status("Pehle Academy se course, chapter aur lesson select karein.");return}
  if($("language").value==="sd"){$("ttsStatus").textContent="Sindhi neural voice abhi verified nahi. Urdu ya English explanation select karein.";return}
- if(!studioAvatarReady||!studioAvatar){avatarStatus("3D teacher abhi load ho raha hai. Ready hone ke baad dobara try karein.");return}
  button.disabled=true;
  try{
+  if(!scenes.length){status("Lesson scenes automatically prepare ho rahe hain…");if(!buildSelectedLessonScenes())throw new Error("Selected lesson mein usable content nahi mila.");}
+  $("previewCard").hidden=false;
+  status("Complete lesson production started. Voice, 3D visuals aur video ek workflow mein tayyar honge.");
+  const avatarDeadline=Date.now()+45000;
+  while(!studioAvatarReady&&Date.now()<avatarDeadline){avatarStatus("3D teacher initialize ho raha hai…");await new Promise(resolve=>setTimeout(resolve,250));}
+  if(!studioAvatarReady||!studioAvatar)throw new Error("3D teacher 45 seconds mein ready nahi hua. Page refresh karke dobara try karein.");
+  await initLesson3D();
   const previousGeneratedUrl=ttsAudioUrl;
-  $("voiceTrack").value="";
-  $("voiceTrack").dispatchEvent(new Event("change",{bubbles:true}));
-  $("ttsAudio")?.pause();
+  $("voiceTrack").value="";$("voiceTrack").dispatchEvent(new Event("change",{bubbles:true}));$("ttsAudio")?.pause();
+  $("ttsStatus").textContent="Complete video: selected language aur voice mein narration ban rahi hai…";
   await generateLessonAudio();
   const generated=$("voiceTrack").files?.[0];
-  if(!generated||!ttsAudioUrl||ttsAudioUrl===previousGeneratedUrl)throw new Error("Fresh Urdu narration WAV tayyar nahi hui; TTS status check karein.");
+  if(!generated||!ttsAudioUrl||ttsAudioUrl===previousGeneratedUrl)throw new Error("Narration WAV tayyar nahi hui; Voice status check karein.");
   $("ttsAudio")?.pause();
+  status("Voice ready. Ab 3D teacher, animated lesson visuals aur narration sync ho rahe hain…");
   const exported=await exportReal3DTeacher();
-  if(!exported)throw new Error("Video export failed. See the detailed 3D export status below.");
+  if(!exported)throw new Error("Video export failed. Detailed status neeche dekhein.");
+  status("Complete lesson video successfully export ho gayi.");
  }catch(e){status("Complete video could not be generated: "+(e?.message||String(e)))}
  finally{button.disabled=false}
 }
