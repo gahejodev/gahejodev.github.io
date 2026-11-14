@@ -257,8 +257,15 @@
     {
       "id": "biology-x-chapter-11-holozoic-nutrition",
       "title": "Biology X — Chapter 11: Holozoic Nutrition",
-      "status": "New package registered on 2026-11-14; awaiting verified Firebase sync result.",
-      "coverage": "5 lessons; 22 explained MCQs; 3 CRQs; 2 ERQs; English, Urdu and Sindhi learning text and question translations; case study on unsafe school water and diarrhoeal dehydration. Aligned to DCAR 2024 Chapter 11, 8 periods."
+      "status": "GitHub registry published and Firebase sync verified on 2026-11-14; Firestore source package/version match confirmed by Admin SDK workflow log.",
+      "coverage": "5 lessons; 22 explained MCQs; 3 CRQs; 2 ERQs; English, Urdu and Sindhi learning text and question translations; case study on unsafe school water and diarrhoeal dehydration. Aligned to DCAR 2024 Chapter 11, 8 periods.",
+      "firebaseSync": {
+        "workflowRunId": 43558230583,
+        "workflowRunUrl": "https://github.com/gahejodev/zeeroz-academy-source/actions/runs/43558230583",
+        "registryCommit": "cbebc2eb700152841a650162a0b742e0f09da52a",
+        "result": "success",
+        "log": "UNCHANGED biology-x-chapter-11-holozoic-nutrition v1; SYNC COMPLETE: 0 new, 0 refreshed, 11 unchanged, 0 skipped."
+      }
     }
   ],
   "status_legend": {
@@ -389,15 +396,13 @@
       "Biology IX Chapters 1–10 (10 registered chapter packages)",
       "Biology X Chapter 11 — Holozoic Nutrition (GitHub package and registry updated)",
       "Student course page assessment counts for lessons, MCQs and written questions",
-      "Automated course registry/package completeness validator added to CI"
+      "Automated course registry/package completeness validator added to CI",
+      "Firebase course-sync verified for Biology X Chapter 11 on 2026-11-14"
     ],
     "inProgress": [
-      "Verify Firebase course-sync workflow result for Biology X Chapter 11",
       "Biology X Chapters 12–18"
     ],
-    "blocked": [
-      "No known content blocker; Firebase sync must be confirmed by GitHub Actions and Firestore evidence before marking synced"
-    ],
+    "blocked": [],
     "nextPriority": [
       "Biology X Chapter 12 — Gaseous Exchange",
       "Biology X Chapter 13 — Circulation",
