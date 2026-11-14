@@ -264,13 +264,13 @@
       "id": "chemistry-xii-complete",
       "title": "Chemistry XII — Complete Course",
       "path": "zeeroz-academy/content/courses/chemistry-xii-complete.json",
-      "version": "2"
+      "version": "3"
     },
     {
       "id": "physics-xii-complete",
       "title": "Physics XII — Complete Course",
       "path": "zeeroz-academy/content/courses/physics-xii-complete.json",
-      "version": "2"
+      "version": "3"
     }
   ]
 }

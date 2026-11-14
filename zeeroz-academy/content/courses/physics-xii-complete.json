@@ -2,55 +2,55 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics chapter collection with lessons, MCQs, CRQs, ERQs and Urdu/Sindhi support.",
-  "version": "2",
+  "version": "3",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
       "description": "Grade XII Physics chapter.",
       "lessons": [
         {
-          "title": "15.1 kinetic model",
+          "title": "15.1 Kinetic model and assumptions",
           "type": "text",
-          "content": "## kinetic model\nkinetic model: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "The kinetic theory models a gas as a very large number of tiny particles in continuous random motion. In the ideal-gas model, particle volume is negligible compared with container volume; intermolecular forces are negligible except during collisions; collisions with walls and between particles are perfectly elastic; and the time spent in collisions is negligible. Gas pressure results from particles changing momentum when they collide with the container walls. The model explains macroscopic behaviour from microscopic motion. Real gases approach ideal behaviour at low pressure and high temperature, where particles are far apart and attractions matter less.",
           "explanations": {
-            "ur": "kinetic model کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "kinetic model جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ kinetic model: state the physical principle, relevant equation or law, units and one practical application."
+            "ur": "Is dars mein gas ke zarraat ki harkat, qawaneen aur equations ko asaan alfaaz mein samjhaya gaya hai. The kinetic theory models a gas as a very large number of tiny particles in continuous random motion. In the ideal-gas model, particle volume is negligible compared with container volume; intermolecular forces are negligible except during collisions; collisions with walls and between particles are perfectly elastic; and the time spent in collisions is negligible. Gas pressure results from particles changing momentum when they collide with the container walls. The model explains macroscopic behaviour from microscopic motion. Real gases approach ideal behaviour at low pressure and high temperature, where particles are far apart and attractions matter less.",
+            "sd": "هن سبق ۾ گئس جي ذرڙن جي حرڪت، قانونن ۽ مساواتن کي آسان لفظن ۾ سمجهايو ويو آهي. The kinetic theory models a gas as a very large number of tiny particles in continuous random motion. In the ideal-gas model, particle volume is negligible compared with container volume; intermolecular forces are negligible except during collisions; collisions with walls and between particles are perfectly elastic; and the time spent in collisions is negligible. Gas pressure results from particles changing momentum when they collide with the container walls. The model explains macroscopic behaviour from microscopic motion. Real gases approach ideal behaviour at low pressure and high temperature, where particles are far apart and attractions matter less."
           }
         },
         {
-          "title": "15.2 gas laws",
+          "title": "15.2 Gas laws and the ideal-gas equation",
           "type": "text",
-          "content": "## gas laws\ngas laws: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "For a fixed amount of gas, Boyle’s law states pV = constant at constant temperature; Charles’s law states V/T = constant at constant pressure; and the pressure law states p/T = constant at constant volume. Temperature must be measured in kelvin: T(K) = θ(°C) + 273.15. Combining these gives pV/T = constant for a fixed amount of gas. For n moles, the ideal-gas equation is pV = nRT, where p is in pascals, V in cubic metres, T in kelvin, n in moles and R = 8.314 J mol⁻¹ K⁻¹. Always convert units before substitution.",
           "explanations": {
-            "ur": "gas laws کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "gas laws جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ gas laws: state the physical principle, relevant equation or law, units and one practical application."
+            "ur": "Is dars mein gas ke zarraat ki harkat, qawaneen aur equations ko asaan alfaaz mein samjhaya gaya hai. For a fixed amount of gas, Boyle’s law states pV = constant at constant temperature; Charles’s law states V/T = constant at constant pressure; and the pressure law states p/T = constant at constant volume. Temperature must be measured in kelvin: T(K) = θ(°C) + 273.15. Combining these gives pV/T = constant for a fixed amount of gas. For n moles, the ideal-gas equation is pV = nRT, where p is in pascals, V in cubic metres, T in kelvin, n in moles and R = 8.314 J mol⁻¹ K⁻¹. Always convert units before substitution.",
+            "sd": "هن سبق ۾ گئس جي ذرڙن جي حرڪت، قانونن ۽ مساواتن کي آسان لفظن ۾ سمجهايو ويو آهي. For a fixed amount of gas, Boyle’s law states pV = constant at constant temperature; Charles’s law states V/T = constant at constant pressure; and the pressure law states p/T = constant at constant volume. Temperature must be measured in kelvin: T(K) = θ(°C) + 273.15. Combining these gives pV/T = constant for a fixed amount of gas. For n moles, the ideal-gas equation is pV = nRT, where p is in pascals, V in cubic metres, T in kelvin, n in moles and R = 8.314 J mol⁻¹ K⁻¹. Always convert units before substitution."
           }
         },
         {
-          "title": "15.3 molecular speed",
+          "title": "15.3 Molecular speed and the Maxwell distribution",
           "type": "text",
-          "content": "## molecular speed\nmolecular speed: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "Gas molecules do not all travel at one speed. At a given temperature their speeds follow a distribution: most molecules have speeds near the most probable value, while fewer are much slower or faster. Raising temperature broadens the distribution and shifts it toward higher speeds. The root-mean-square speed is c_rms = √(3kT/m) for molecules of mass m, or √(3RT/M) for molar mass M in kg mol⁻¹. At the same temperature, lighter molecules have a higher rms speed. Temperature measures average translational kinetic energy, not the speed of every individual molecule.",
           "explanations": {
-            "ur": "molecular speed کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "molecular speed جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+            "ur": "Is dars mein gas ke zarraat ki harkat, qawaneen aur equations ko asaan alfaaz mein samjhaya gaya hai. Gas molecules do not all travel at one speed. At a given temperature their speeds follow a distribution: most molecules have speeds near the most probable value, while fewer are much slower or faster. Raising temperature broadens the distribution and shifts it toward higher speeds. The root-mean-square speed is c_rms = √(3kT/m) for molecules of mass m, or √(3RT/M) for molar mass M in kg mol⁻¹. At the same temperature, lighter molecules have a higher rms speed. Temperature measures average translational kinetic energy, not the speed of every individual molecule.",
+            "sd": "هن سبق ۾ گئس جي ذرڙن جي حرڪت، قانونن ۽ مساواتن کي آسان لفظن ۾ سمجهايو ويو آهي. Gas molecules do not all travel at one speed. At a given temperature their speeds follow a distribution: most molecules have speeds near the most probable value, while fewer are much slower or faster. Raising temperature broadens the distribution and shifts it toward higher speeds. The root-mean-square speed is c_rms = √(3kT/m) for molecules of mass m, or √(3RT/M) for molar mass M in kg mol⁻¹. At the same temperature, lighter molecules have a higher rms speed. Temperature measures average translational kinetic energy, not the speed of every individual molecule."
           }
         },
         {
-          "title": "15.4 kinetic energy",
+          "title": "15.4 Molecular kinetic energy and temperature",
           "type": "text",
-          "content": "## kinetic energy\nkinetic energy: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "For an ideal gas, the mean translational kinetic energy per molecule is (3/2)kT, where k is Boltzmann’s constant. For one mole it is (3/2)RT. Thus absolute temperature is directly proportional to the average translational kinetic energy. At the same temperature, different ideal gases have the same average translational kinetic energy, even though their molecular speeds differ because their masses differ. This relationship is a central bridge between microscopic motion and the thermometer reading. Do not confuse average kinetic energy with total internal energy, which can include rotational, vibrational and intermolecular contributions in more complex systems.",
           "explanations": {
-            "ur": "kinetic energy کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "kinetic energy جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
+            "ur": "Is dars mein gas ke zarraat ki harkat, qawaneen aur equations ko asaan alfaaz mein samjhaya gaya hai. For an ideal gas, the mean translational kinetic energy per molecule is (3/2)kT, where k is Boltzmann’s constant. For one mole it is (3/2)RT. Thus absolute temperature is directly proportional to the average translational kinetic energy. At the same temperature, different ideal gases have the same average translational kinetic energy, even though their molecular speeds differ because their masses differ. This relationship is a central bridge between microscopic motion and the thermometer reading. Do not confuse average kinetic energy with total internal energy, which can include rotational, vibrational and intermolecular contributions in more complex systems.",
+            "sd": "هن سبق ۾ گئس جي ذرڙن جي حرڪت، قانونن ۽ مساواتن کي آسان لفظن ۾ سمجهايو ويو آهي. For an ideal gas, the mean translational kinetic energy per molecule is (3/2)kT, where k is Boltzmann’s constant. For one mole it is (3/2)RT. Thus absolute temperature is directly proportional to the average translational kinetic energy. At the same temperature, different ideal gases have the same average translational kinetic energy, even though their molecular speeds differ because their masses differ. This relationship is a central bridge between microscopic motion and the thermometer reading. Do not confuse average kinetic energy with total internal energy, which can include rotational, vibrational and intermolecular contributions in more complex systems."
           }
         },
         {
-          "title": "15.5 real gases",
+          "title": "15.5 Real gases and deviations from ideal behaviour",
           "type": "text",
-          "content": "## real gases\nreal gases: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "Real molecules occupy space and attract or repel one another, so real gases deviate from pV = nRT, especially at high pressure and low temperature. At high pressure, finite molecular size becomes important; at low temperature, attractions become important and may lead to condensation. The van der Waals equation for n moles is (p + a n²/V²)(V − nb) = nRT, where a corrects for attractions and b for excluded molecular volume. The compressibility factor Z = pV/(nRT) equals 1 for an ideal gas; deviations of Z from 1 indicate non-ideal behaviour. The ideal model remains useful when its assumptions are approximately satisfied.",
           "explanations": {
-            "ur": "real gases کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ real gases: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "real gases جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ real gases: state the physical principle, relevant equation or law, units and one practical application."
+            "ur": "Is dars mein gas ke zarraat ki harkat, qawaneen aur equations ko asaan alfaaz mein samjhaya gaya hai. Real molecules occupy space and attract or repel one another, so real gases deviate from pV = nRT, especially at high pressure and low temperature. At high pressure, finite molecular size becomes important; at low temperature, attractions become important and may lead to condensation. The van der Waals equation for n moles is (p + a n²/V²)(V − nb) = nRT, where a corrects for attractions and b for excluded molecular volume. The compressibility factor Z = pV/(nRT) equals 1 for an ideal gas; deviations of Z from 1 indicate non-ideal behaviour. The ideal model remains useful when its assumptions are approximately satisfied.",
+            "sd": "هن سبق ۾ گئس جي ذرڙن جي حرڪت، قانونن ۽ مساواتن کي آسان لفظن ۾ سمجهايو ويو آهي. Real molecules occupy space and attract or repel one another, so real gases deviate from pV = nRT, especially at high pressure and low temperature. At high pressure, finite molecular size becomes important; at low temperature, attractions become important and may lead to condensation. The van der Waals equation for n moles is (p + a n²/V²)(V − nb) = nRT, where a corrects for attractions and b for excluded molecular volume. The compressibility factor Z = pV/(nRT) equals 1 for an ideal gas; deviations of Z from 1 indicate non-ideal behaviour. The ideal model remains useful when its assumptions are approximately satisfied."
           }
         }
       ],
