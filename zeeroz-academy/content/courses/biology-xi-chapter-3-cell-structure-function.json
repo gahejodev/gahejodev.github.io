@@ -2,7 +2,7 @@
   "id": "biology-xi-chapter-3-cell-structure-function",
   "title": "Biology XI — Chapter 3: Cell Structure and Function",
   "description": "DCAR Sindh Biology Curriculum 2024, Grade XI Chapter 3 — Cell and Its Organelles (18 periods). Five lessons covering cell theory, microscopy, prokaryotic/eukaryotic cells, organelles, membrane transport, signalling and stem cells, with Urdu/Sindhi explanations and assessments.",
-  "version": "1",
+  "version": "2",
   "chapters": [
     {
       "title": "Chapter 3: Cell Structure and Function",
@@ -688,7 +688,7 @@
           "translations": {
             "ur": {
               "question": "فلوئڈ موزیک ماڈل، غیر فعال و فعال نقل و حمل، سیل سگنلنگ اور اسٹیم سیلز کا ایک ممکنہ استعمال بیان کریں۔",
-              "modelAnswer": "جھلی فاسفولیپڈ کی دوہری تہہ ہے جس میں پروٹین ہوتے ہیں۔ غیر فعال نقل و حمل میں مادہ گریڈینٹ کے ساتھ بغیر توانائی حرکت کرتا ہے؛ فعال نقل و حمل ATP سے مادہ گریڈینٹ کے خلاف لے جاتی ہے۔ سیل سگنلنگ میں لیگنڈ رسیپٹر سے جڑ کر اندرونی پیغام رسانی شروع کرتا ہے۔ اسٹیم سیلز کی خود تجدید اور تخصص کی صلاحیت انہیں ٹشو مرمت اور بیماری تحقیق میں مفید بنا سکتی ہے، مگر حفاظت اور اخلاقی مسائل اہم ہیں۔",
+              "modelAnswer": "فلوئڈ موزیک جھلی منتخب طور پر قابلِ نفوذ فاسفولیپڈ کی دوہری تہہ ہے جس میں پروٹین موجود ہوتے ہیں۔ غیر فعال نقل و حمل میں مادہ گریڈینٹ کے ساتھ بغیر خلیاتی توانائی حرکت کرتا ہے، جیسے سادہ انتشار، اوسموسس اور سہولت یافتہ انتشار۔ فعال نقل و حمل توانائی، عموماً ATP، استعمال کرکے مادہ الیکٹروکیمیکل گریڈینٹ کے خلاف لے جاتی ہے۔ سیل سگنلنگ میں لیگنڈ مخصوص رسیپٹر سے جڑ کر سگنل ٹرانسڈکشن شروع کرتا ہے اور خلیاتی ردعمل پیدا ہوتا ہے۔ اسٹیم سیلز خود تجدید اور تخصص کر سکتے ہیں؛ یہ ٹشو مرمت اور بیماریوں کی تحقیق میں مددگار ہو سکتے ہیں، تاہم حفاظت، رسولی کے خطرے اور اخلاقی سوالات کو مدنظر رکھنا ضروری ہے۔",
               "rubric": [
                 "درست تصورات اور تعریفیں (2 نمبر)",
                 "متعلقہ سائنسی تفصیل اور مثالیں (2 نمبر)",
@@ -697,14 +697,15 @@
             },
             "sd": {
               "question": "فلوئڊ موزيڪ ماڊل، غير فعال ۽ فعال آمدرفت، سيل سگنلنگ ۽ اسٽيم سيل جو هڪ ممڪن استعمال بيان ڪريو.",
-              "modelAnswer": "جھلي فاسفولپڊ جي ٻٽي تھه آهي، جنهن ۾ پروٽين هوندا آهن. غير فعال آمدرفت ۾ مادو توانائي کان سواءِ گريڊينٽ سان گڏ هلي ٿو؛ فعال آمدرفت ATP سان مادي کي گريڊينٽ جي ابتڙ کڻي وڃي ٿي. سيل سگنلنگ ۾ ليگنڊ ري سيپٽر سان ڳنڍجي اندروني پيغام شروع ڪري ٿو. اسٽيم سيل جي پاڻ کي ٻيهر پيدا ڪرڻ ۽ خاص خلين ۾ بدلجڻ جي صلاحيت انهن کي ٽشو مرمت ۽ تحقيق لاءِ مفيد بڻائي سگهي ٿي، پر حفاظت ۽ اخلاقي مسئلا اهم آهن.",
+              "modelAnswer": "فلوئڊ موزيڪ جھلي چونڊيل طور گذرڻ ڏيندڙ فاسفولپڊ جي ٻٽي تھه آهي، جنهن ۾ پروٽين هوندا آهن. غير فعال آمدرفت ۾ مادو خلوي توانائي کان سواءِ گريڊينٽ سان گڏ هلي ٿو، جيئن سادي ڊفيوزن، اوسموسس ۽ سهولت واري ڊفيوزن. فعال آمدرفت توانائي، اڪثر ATP، استعمال ڪري مادي کي اليڪٽروڪيميڪل گريڊينٽ جي ابتڙ کڻي وڃي ٿي. سيل سگنلنگ ۾ ليگنڊ مخصوص ري سيپٽر سان ڳنڍجي سگنل ٽرانسڊڪشن شروع ڪري ٿو ۽ خليي جو ردعمل پيدا ٿئي ٿو. اسٽيم سيل پاڻ کي ٻيهر پيدا ۽ خاص خلين ۾ بدلجي سگهن ٿا؛ اهي ٽشو مرمت ۽ بيمارين جي تحقيق ۾ مددگار ٿي سگهن ٿا، پر حفاظت، ڳوڙهي جي خطري ۽ اخلاقي سوالن جو خيال رکڻ ضروري آهي.",
               "rubric": [
                 "صحيح تصور ۽ وصفون (2 مارڪون)",
                 "لاڳاپيل سائنسي تفصيل ۽ مثالون (2 مارڪون)",
                 "صحيح اصطلاحون ۽ ترتيب (1 مارڪ)"
               ]
             }
-          }
+          },
+          "modelAnswer": "The fluid-mosaic membrane is a selectively permeable phospholipid bilayer with embedded proteins. Passive transport moves substances down a gradient without cellular energy: simple diffusion, osmosis and facilitated diffusion. Active transport uses energy, often ATP, to move substances against an electrochemical gradient. In cell signalling, a ligand binds a specific receptor and initiates signal transduction, producing a cellular response. Stem cells can self-renew and differentiate; they may support tissue repair and disease research, although safety, tumour risk and ethical questions must be considered."
         }
       ]
     }
