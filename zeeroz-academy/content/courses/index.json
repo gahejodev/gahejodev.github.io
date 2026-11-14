@@ -85,6 +85,12 @@
       "title": "Biology X — Chapter 14: Excretory System",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-14-excretory-system.json",
       "version": "1"
+    },
+    {
+      "id": "biology-x-chapter-15-coordination-control",
+      "title": "Biology X — Chapter 15: Coordination and Control",
+      "path": "zeeroz-academy/content/courses/biology-x-chapter-15-coordination-control.json",
+      "version": "1"
     }
   ]
 }
