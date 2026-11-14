@@ -115,6 +115,12 @@
       "title": "Biology XI — Chapter 1: Biological Molecules",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-1-biological-molecules.json",
       "version": "2"
+    },
+    {
+      "id": "biology-xi-chapter-2-enzymes",
+      "title": "Biology XI — Chapter 2: Enzymes",
+      "path": "zeeroz-academy/content/courses/biology-xi-chapter-2-enzymes.json",
+      "version": "1"
     }
   ]
 }
