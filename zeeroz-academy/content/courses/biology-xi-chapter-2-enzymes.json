@@ -1,0 +1,713 @@
+{
+  "id": "biology-xi-chapter-2-enzymes",
+  "title": "Biology XI — Chapter 2: Enzymes",
+  "description": "Grade XI Biology — DCAR Sindh Curriculum 2024, Chapter 2: Enzymes (10 periods). Includes enzyme structure, activation energy, cofactors, catalytic models, factors affecting activity, inhibition, feedback and classification; with Urdu/Sindhi explanations and assessments.",
+  "version": "1",
+  "chapters": [
+    {
+      "title": "Chapter 2: Enzymes",
+      "description": "DCAR Sindh Biology XI (2024), Chapter 2 — Enzymes, 10 periods.",
+      "lessons": [
+        {
+          "title": "2.1 Enzymes and Active Sites",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine enzymes and explain the role of the active site.\n\nEnzymes are biological catalysts. They increase reaction rates without being consumed overall. Most are globular proteins; a few RNA molecules also catalyse reactions. A polypeptide folds into a specific three-dimensional shape. The active site is the region where a substrate binds and catalysis occurs. Amino-acid residues in this region help bind, orient or chemically transform the substrate.\n\nEnzyme specificity depends on the active site's shape and chemical environment. The substrate is converted into product(s), which leave the active site; the enzyme can then be reused. Extreme temperature or pH can disrupt the interactions maintaining enzyme structure, changing the active site and reducing activity.\n\n**Key terms:** catalyst, substrate, active site, enzyme-substrate complex, product, denaturation.\n\n**Check:** Why does denaturation often reduce enzyme activity?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nانزائم کی تعریف اور فعال جگہ کا کام بیان کریں۔\n\nانزائم حیاتیاتی عمل انگیز ہیں۔ یہ کیمیائی عمل کی رفتار بڑھاتے ہیں مگر مجموعی طور پر خود خرچ نہیں ہوتے۔ زیادہ تر انزائم گلوبولر پروٹین ہوتے ہیں، جبکہ کچھ RNA سالمات بھی عمل انگیزی کرتے ہیں۔ پولی پیپٹائڈ ایک مخصوص سہ جہتی شکل اختیار کرتا ہے۔ فعال جگہ وہ حصہ ہے جہاں سبسٹریٹ جڑتا ہے اور عمل ہوتا ہے۔ اس جگہ کے امینو ایسڈ سبسٹریٹ کو باندھنے، درست رخ میں رکھنے یا تبدیل کرنے میں مدد دیتے ہیں۔\n\nانزائم کی خصوصیت فعال جگہ کی شکل اور کیمیائی ماحول پر منحصر ہوتی ہے۔ سبسٹریٹ مصنوعات میں تبدیل ہو کر خارج ہو جاتی ہے اور انزائم دوبارہ استعمال ہو سکتا ہے۔ بہت زیادہ درجہ حرارت یا نامناسب pH ساخت بدل کر فعال جگہ کو متاثر کر سکتا ہے۔\n\n**اہم اصطلاحات:** عمل انگیز، سبسٹریٹ، فعال جگہ، انزائم-سبسٹریٹ کمپلیکس، پیداوار، ڈی نیچریشن۔\n\n**سوچیں:** ڈی نیچریشن سے انزائم کی سرگرمی کیوں کم ہوتی ہے؟",
+            "sd": "## سبق جا مقصد\nاينزائم جي وصف ۽ فعال جاءِ جو ڪم بيان ڪريو.\n\nاينزائم حياتياتي ڪيٽالسٽ آهن. اهي ڪيميائي عمل جي رفتار وڌائين ٿا پر پاڻ مجموعي طور خرچ نٿا ٿين. گهڻا اينزائم گلوبولر پروٽين آهن، جڏهن ته ڪجهه RNA ماليڪيول به عمل تيز ڪن ٿا. پولي پيپٽائڊ مخصوص ٽي پاسائين شڪل ۾ ويڙهجي ٿو. فعال جاءِ اهو حصو آهي جتي سبسٽريٽ ڳنڍجي ٿو ۽ عمل ٿئي ٿو. هن حصي جا امينو ايسڊ سبسٽريٽ کي ڳنڍڻ، صحيح رخ ۾ رکڻ يا تبديل ڪرڻ ۾ مدد ڪن ٿا.\n\nاينزائم جي خاصيت فعال جاءِ جي شڪل ۽ ڪيميائي ماحول تي دارومدار رکي ٿي. سبسٽريٽ پيداوار ۾ بدلجي ٻاهر نڪري ٿي ۽ اينزائم ٻيهر استعمال ٿي سگهي ٿو. تمام گهڻو گرمي پد يا نامناسب pH بناوت بدلائي فعال جاءِ کي متاثر ڪري سگهي ٿو.\n\n**اهم اصطلاح:** ڪيٽالسٽ، سبسٽريٽ، فعال جاءِ، اينزائم-سبسٽريٽ ڪمپليڪس، پيداوار، ڊينيچريشن.\n\n**سوچيو:** ڊينيچريشن سان اينزائم جو ڪم ڇو گهٽجي ٿو؟"
+          }
+        },
+        {
+          "title": "2.2 Activation Energy and Cofactors",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain activation energy and distinguish the main enzyme cofactors.\n\nA reaction needs an initial energy input to reach its transition state. This is activation energy. Enzymes provide an alternative pathway with a lower activation-energy barrier. They do not change the overall energy difference between reactants and products or the equilibrium position.\n\nSome enzymes require non-protein helpers called cofactors:\n- **Inorganic ions:** Mg²⁺, Zn²⁺ or Fe²⁺/Fe³⁺ can help position substrates or stabilise charges.\n- **Coenzymes:** small organic molecules that temporarily associate with enzymes and transfer groups or electrons; NAD is an example.\n- **Prosthetic groups:** non-protein components tightly bound to an enzyme, such as haem in some proteins.\n\nAn enzyme with its required cofactor is a holoenzyme; its protein part alone is an apoenzyme.\n\n**Check:** How does a coenzyme differ from a prosthetic group?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nایکٹیویشن انرجی سمجھیں اور انزائم کے کوفیکٹرز میں فرق کریں۔\n\nکیمیائی عمل کو عبوری حالت تک پہنچنے کے لیے ابتدائی توانائی درکار ہوتی ہے، جسے ایکٹیویشن انرجی کہتے ہیں۔ انزائم کم ایکٹیویشن انرجی والا متبادل راستہ فراہم کرتے ہیں۔ یہ ابتدائی اور آخری مادوں کے مجموعی توانائی فرق یا توازن کی حالت کو تبدیل نہیں کرتے۔\n\nکچھ انزائم غیر پروٹینی مددگار اجزا چاہتے ہیں:\n- **غیر نامیاتی آئن:** Mg²⁺، Zn²⁺ یا Fe²⁺/Fe³⁺ سبسٹریٹ کی جگہ یا چارج کو مستحکم کر سکتے ہیں۔\n- **کواینزائم:** چھوٹے نامیاتی سالمات جو عارضی طور پر جڑ کر گروہ یا الیکٹران منتقل کرتے ہیں؛ NAD ایک مثال ہے۔\n- **پروس تھیٹک گروپ:** انزائم سے مضبوطی سے جڑا غیر پروٹینی جزو، جیسے بعض پروٹینوں میں ہیم۔\n\nکوفیکٹر کے ساتھ انزائم ہولواینزائم اور صرف پروٹینی حصہ اپواینزائم کہلاتا ہے۔\n\n**سوچیں:** کواینزائم اور پروس تھیٹک گروپ میں کیا فرق ہے؟",
+            "sd": "## سبق جا مقصد\nايڪٽيويشن انرجي سمجهايو ۽ اينزائم جي ڪو فيڪٽرن ۾ فرق ڪريو.\n\nڪيميائي عمل کي ٽرانزيشن اسٽيٽ تائين پهچڻ لاءِ شروعاتي توانائي گهرجي، جنهن کي ايڪٽيويشن انرجي چوندا آهن. اينزائم گهٽ ايڪٽيويشن انرجي وارو متبادل رستو ڏين ٿا. اهي شروعاتي ۽ آخري مادن جي توانائيءَ جو مجموعي فرق يا توازن جي حالت نٿا بدلائين.\n\nڪجهه اينزائم کي غير پروٽيني مددگار جزا گهرجن:\n- **غير نامياتي آئن:** Mg²⁺، Zn²⁺ يا Fe²⁺/Fe³⁺ سبسٽريٽ کي صحيح جاءِ تي رکڻ يا چارج مستحڪم ڪرڻ ۾ مدد ڪن ٿا.\n- **ڪو اينزائم:** ننڍا نامياتي ماليڪيول، جيڪي عارضي طور ڳنڍجي گروهه يا اليڪٽران منتقل ڪن ٿا؛ NAD مثال آهي.\n- **پروسٿيٽڪ گروهه:** اينزائم سان مضبوط ڳنڍيل غير پروٽيني جزو، جهڙوڪ ڪجهه پروٽينن ۾ هيم.\n\nڪو فيڪٽر سان گڏ اينزائم هولو اينزائم ۽ رڳو پروٽين وارو حصو اپو اينزائم آهي.\n\n**سوچيو:** ڪو اينزائم ۽ پروسٿيٽڪ گروهه ۾ ڪهڙو فرق آهي؟"
+          }
+        },
+        {
+          "title": "2.3 Models of Enzyme Action",
+          "type": "text",
+          "content": "## Learning outcomes\nCompare the lock-and-key and induced-fit models.\n\nIn the lock-and-key model, the active site is treated as a rigid shape complementary to the substrate. This illustrates specificity but does not fully explain flexibility.\n\nThe induced-fit model proposes that the active site is flexible. Initial substrate binding causes a small conformational change, positioning catalytic groups more effectively and helping stabilise the transition state.\n\nThe enzyme-substrate complex forms when substrate binds. Enzymes can orient substrates, bring reactants close together, strain bonds or create a favourable chemical environment. Products then leave and the enzyme is available for another cycle.\n\n**Check:** Why is induced fit more realistic than a completely rigid active site?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nلاک اینڈ کی اور انڈیوسڈ فٹ ماڈل کا موازنہ کریں۔\n\nلاک اینڈ کی ماڈل میں فعال جگہ کو سبسٹریٹ کی شکل کے مطابق سخت جگہ سمجھا جاتا ہے۔ یہ خصوصیت سمجھاتا ہے مگر لچک کی مکمل وضاحت نہیں کرتا۔\n\nانڈیوسڈ فٹ ماڈل کے مطابق فعال جگہ لچکدار ہوتی ہے۔ سبسٹریٹ کے جڑنے سے انزائم کی شکل میں معمولی تبدیلی آتی ہے، جس سے عمل کرنے والے گروہ بہتر ترتیب میں آتے ہیں اور عبوری حالت مستحکم ہوتی ہے۔\n\nسبسٹریٹ جڑنے سے انزائم-سبسٹریٹ کمپلیکس بنتا ہے۔ انزائم سبسٹریٹس کو درست رخ میں رکھ سکتا ہے، قریب لا سکتا ہے، بندوں پر دباؤ ڈال سکتا ہے یا مناسب کیمیائی ماحول پیدا کر سکتا ہے۔ پھر مصنوعات خارج ہوتی ہیں اور انزائم دوبارہ کام کرتا ہے۔\n\n**سوچیں:** انڈیوسڈ فٹ ماڈل سخت فعال جگہ کے تصور سے زیادہ حقیقت پسند کیوں ہے؟",
+            "sd": "## سبق جا مقصد\nلاڪ اينڊ ڪي ۽ اِنڊيوسڊ فِٽ ماڊل جو مقابلو ڪريو.\n\nلاڪ اينڊ ڪي ماڊل ۾ فعال جاءِ کي سبسٽريٽ جي شڪل سان ٺهڪندڙ سخت جاءِ سمجهيو وڃي ٿو. اهو خاصيت سمجهائي ٿو، پر لچڪ کي مڪمل طور نٿو سمجهايو.\n\nاِنڊيوسڊ فِٽ ماڊل موجب فعال جاءِ لچڪدار هوندي آهي. سبسٽريٽ جي ڳانڍاپي سان اينزائم جي شڪل ٿوري بدلجي ٿي، جنهن سان عمل ڪندڙ گروهه صحيح ترتيب ۾ اچن ٿا ۽ ٽرانزيشن اسٽيٽ مستحڪم ٿئي ٿي.\n\nسبسٽريٽ ڳنڍجڻ سان اينزائم-سبسٽريٽ ڪمپليڪس ٺهي ٿو. اينزائم سبسٽريٽن کي صحيح رخ ۾ رکي، ويجهو آڻي، بندن تي دٻاءُ وجهي يا مناسب ڪيميائي ماحول ٺاهي سگهي ٿو. پوءِ پيداوار نڪري ٿي ۽ اينزائم ٻيهر ڪم ڪري ٿو.\n\n**سوچيو:** اِنڊيوسڊ فِٽ ماڊل سخت فعال جاءِ واري خيال کان وڌيڪ حقيقت پسند ڇو آهي؟"
+          }
+        },
+        {
+          "title": "2.4 Factors Affecting Enzyme Activity",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the effects of temperature, pH, substrate concentration and enzyme concentration.\n\n**Temperature:** Increasing temperature usually increases molecular motion and reaction rate up to an optimum. Above the optimum, interactions maintaining enzyme shape are disrupted; the active site changes and activity falls. Thermophilic organisms have enzymes adapted to higher temperatures.\n\n**pH:** Each enzyme has an optimum pH. Changes can alter charges on amino-acid side chains and affect folding or the active site. Pepsin works best in acidic stomach conditions; trypsin works best in alkaline small-intestine conditions.\n\n**Substrate concentration:** Increasing substrate raises rate until active sites become saturated and the rate approaches Vmax.\n\n**Enzyme concentration:** When substrate is in excess, increasing enzyme concentration generally increases rate because more active sites are available.\n\nA fair investigation keeps other variables constant, repeats measurements and measures initial rate.\n\n**Check:** Why does adding more substrate eventually have little effect?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nدرجہ حرارت، pH، سبسٹریٹ اور انزائم کی مقدار کے اثرات بیان کریں۔\n\n**درجہ حرارت:** درجہ حرارت بڑھنے سے سالمات کی حرکت اور ردعمل کی رفتار مناسب حد تک بڑھتی ہے۔ اس سے اوپر انزائم کی ساخت برقرار رکھنے والے تعاملات متاثر ہوتے ہیں، فعال جگہ بدلتی ہے اور سرگرمی کم ہوتی ہے۔ گرم ماحول کے جراثیم زیادہ درجہ حرارت کے مطابق انزائم رکھتے ہیں۔\n\n**pH:** ہر انزائم کا بہترین pH ہوتا ہے۔ تبدیلی امینو ایسڈز کے چارج اور فعال جگہ کو متاثر کر سکتی ہے۔ پیپسن معدے کے تیزابی ماحول میں اور ٹرپسن چھوٹی آنت کے الکلائن ماحول میں بہتر کام کرتا ہے۔\n\n**سبسٹریٹ کی مقدار:** سبسٹریٹ بڑھانے سے رفتار بڑھتی ہے، یہاں تک کہ فعال جگہیں بھر جاتی ہیں اور رفتار Vmax کے قریب پہنچتی ہے۔\n\n**انزائم کی مقدار:** اگر سبسٹریٹ زیادہ ہو تو انزائم بڑھانے سے مزید فعال جگہیں دستیاب ہوتی ہیں اور رفتار بڑھتی ہے۔\n\nمنصفانہ تجربے میں دوسرے عوامل مستقل رکھیں، پیمائش دہرائیں اور ابتدائی رفتار معلوم کریں۔\n\n**سوچیں:** زیادہ سبسٹریٹ دینے سے ایک حد کے بعد رفتار زیادہ کیوں نہیں بڑھتی؟",
+            "sd": "## سبق جا مقصد\nگرمي پد، pH، سبسٽريٽ ۽ اينزائم جي مقدار جا اثر بيان ڪريو.\n\n**گرمي پد:** گرمي پد وڌڻ سان ماليڪيولن جي حرڪت ۽ عمل جي رفتار مناسب حد تائين وڌي ٿي. ان کان مٿي اينزائم جي بناوت برقرار رکڻ وارا لاڳاپا متاثر ٿين ٿا، فعال جاءِ بدلجي ٿي ۽ عمل گهٽجي ٿو. گرم ماحول جا جراثيم وڌيڪ گرمي لاءِ موافق اينزائم رکن ٿا.\n\n**pH:** هر اينزائم جو مناسب pH هوندو آهي. تبديلي امينو ايسڊن جي چارج ۽ فعال جاءِ کي متاثر ڪري سگهي ٿي. پيپسن معدي جي تيزابي ماحول ۾ ۽ ٽرپسن ننڍي آنڊي جي الڪلائن ماحول ۾ بهتر ڪم ڪري ٿو.\n\n**سبسٽريٽ جي مقدار:** سبسٽريٽ وڌائڻ سان رفتار وڌي ٿي، جيستائين فعال جايون ڀرجي وڃن ۽ رفتار Vmax ڀرسان پهچي.\n\n**اينزائم جي مقدار:** سبسٽريٽ گهڻو هجي ته اينزائم وڌائڻ سان وڌيڪ فعال جايون ملن ٿيون ۽ رفتار وڌي ٿي.\n\nمنصفاڻي تجربي ۾ ٻيا عنصر ساڳيا رکو، ماپ ورجايو ۽ شروعاتي رفتار معلوم ڪريو.\n\n**سوچيو:** وڌيڪ سبسٽريٽ وجهڻ سان هڪ حد کان پوءِ رفتار گهڻي ڇو نٿي وڌي؟"
+          }
+        },
+        {
+          "title": "2.5 Inhibition, Feedback and Classification",
+          "type": "text",
+          "content": "## Learning outcomes\nDistinguish inhibitor types, explain feedback inhibition and classify enzymes.\n\nAn inhibitor reduces enzyme activity. A **competitive inhibitor** competes with the substrate for the active site; increasing substrate concentration can reduce its effect. A **non-competitive inhibitor** binds at another site and changes enzyme activity; extra substrate does not necessarily overcome it.\n\nIn **feedback inhibition**, the final product of a metabolic pathway inhibits an enzyme acting earlier in that pathway. This slows production when enough product has accumulated and conserves cellular resources.\n\nMajor enzyme classes include:\n- **Oxidoreductases:** oxidation-reduction reactions.\n- **Transferases:** transfer functional groups.\n- **Hydrolases:** break bonds using water.\n- **Isomerases:** rearrange atoms within a molecule.\n- **Ligases:** join molecules, often using ATP.\n\nEnzymes may also be named for their substrates, such as amylase, lipase and protease.\n\n**Check:** How does feedback inhibition help maintain balance in a cell?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nانزائم روکنے والوں میں فرق، فیڈبیک انہیبیشن اور انزائم کی درجہ بندی سمجھیں۔\n\nروکنے والا مادہ انزائم کی سرگرمی کم کرتا ہے۔ **مقابلاتی روکنے والا** فعال جگہ کے لیے سبسٹریٹ سے مقابلہ کرتا ہے؛ سبسٹریٹ بڑھانے سے اس کا اثر کم ہو سکتا ہے۔ **غیر مقابلاتی روکنے والا** دوسری جگہ جڑ کر انزائم کا کام بدلتا ہے؛ زیادہ سبسٹریٹ سے یہ اثر لازماً ختم نہیں ہوتا۔\n\n**فیڈبیک انہیبیشن** میں میٹابولک راستے کی آخری پیداوار پہلے کام کرنے والے انزائم کو روکتی ہے۔ پیداوار جمع ہونے پر عمل سست ہوتا ہے اور خلیہ وسائل بچاتا ہے۔\n\nاہم انزائم گروہ:\n- **آکسیڈو ریڈکٹیز:** آکسیڈیشن اور ریڈکشن۔\n- **ٹرانسفریز:** فعلی گروہ منتقل کرتے ہیں۔\n- **ہائیڈرولیز:** پانی سے بند توڑتے ہیں۔\n- **آئسومریز:** سالمے کے اندر ایٹموں کی ترتیب بدلتے ہیں۔\n- **لائگیز:** اکثر ATP استعمال کرکے سالمات جوڑتے ہیں۔\n\nانزائم کے نام سبسٹریٹ کے مطابق بھی ہوتے ہیں، جیسے امائلیز، لائپیز اور پروٹیز۔\n\n**سوچیں:** فیڈبیک انہیبیشن خلیے کا توازن کیسے برقرار رکھتی ہے؟",
+            "sd": "## سبق جا مقصد\nاينزائم روڪيندڙن ۾ فرق، فيڊ بيڪ اِنهيبيشن ۽ اينزائم جي درجيبندي سمجهايو.\n\nروڪيندڙ مادو اينزائم جو عمل گهٽائي ٿو. **مقابلي وارو روڪيندڙ** فعال جاءِ لاءِ سبسٽريٽ سان مقابلو ڪري ٿو؛ سبسٽريٽ وڌائڻ سان ان جو اثر گهٽجي سگهي ٿو. **غير مقابلي وارو روڪيندڙ** ٻي جاءِ تي ڳنڍجي اينزائم جو ڪم بدلائي ٿو؛ وڌيڪ سبسٽريٽ سان اهو اثر لازمي ختم نٿو ٿئي.\n\n**فيڊ بيڪ اِنهيبيشن** ۾ ميٽابولڪ رستي جي آخري پيداوار اڳئين اينزائم کي روڪي ٿي. پيداوار گهڻي گڏ ٿيڻ تي عمل آهستو ٿئي ٿو ۽ خاني جا وسيلا بچن ٿا.\n\nاينزائم جا اهم گروهه:\n- **آڪسائيڊو ريڊڪٽيز:** آڪسائيڊيشن ۽ ريڊڪشن.\n- **ٽرانسفريز:** فعلي گروهه منتقل ڪن ٿا.\n- **هائيڊروليز:** پاڻي سان بند ٽوڙين ٿا.\n- **آئسوميريز:** ماليڪيول اندر ايٽمن جي ترتيب بدلائين ٿا.\n- **لائگيز:** اڪثر ATP سان ماليڪيول ڳنڍين ٿا.\n\nاينزائم جا نالا سبسٽريٽ موجب به ٿين ٿا، جهڙوڪ ايميليز، لائپيز ۽ پروٽيز.\n\n**سوچيو:** فيڊ بيڪ اِنهيبيشن خاني جو توازن ڪيئن برقرار رکي ٿي؟"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is the main effect of an enzyme?",
+          "options": {
+            "A": "Raises activation energy",
+            "B": "Lowers activation energy",
+            "C": "Changes equilibrium",
+            "D": "Is permanently consumed"
+          },
+          "correctOption": "B",
+          "explanation": "An enzyme provides a lower activation-energy pathway.",
+          "translations": {
+            "ur": {
+              "question": "انزائم کا بنیادی اثر کیا ہے؟",
+              "options": {
+                "A": "ایکٹیویشن انرجی بڑھاتا ہے",
+                "B": "ایکٹیویشن انرجی کم کرتا ہے",
+                "C": "توازن بدلتا ہے",
+                "D": "مستقل خرچ ہو جاتا ہے"
+              },
+              "explanation": "اینزائم کم ایکٹیویشن انرجی والا راستہ دیتا ہے۔"
+            },
+            "sd": {
+              "question": "اينزائم جو بنيادي اثر ڇا آهي؟",
+              "options": {
+                "A": "ايڪٽيويشن انرجي وڌائي ٿو",
+                "B": "ايڪٽيويشن انرجي گهٽائي ٿو",
+                "C": "توازن بدلائي ٿو",
+                "D": "هميشه لاءِ خرچ ٿئي ٿو"
+              },
+              "explanation": "اينزائم گهٽ ايڪٽيويشن انرجي وارو رستو ڏئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Where does a substrate usually bind?",
+          "options": {
+            "A": "Active site",
+            "B": "DNA",
+            "C": "Cell wall",
+            "D": "Ribosomal RNA"
+          },
+          "correctOption": "A",
+          "explanation": "The substrate binds at the enzyme's active site.",
+          "translations": {
+            "ur": {
+              "question": "سبسٹریٹ کہاں جڑتا ہے؟",
+              "options": {
+                "A": "فعال جگہ",
+                "B": "DNA",
+                "C": "خلوی دیوار",
+                "D": "رائبوسومل RNA"
+              },
+              "explanation": "سبسٹریٹ فعال جگہ سے جڑتا ہے۔"
+            },
+            "sd": {
+              "question": "سبسٽريٽ ڪٿي ڳنڍجي ٿو؟",
+              "options": {
+                "A": "فعال جاءِ",
+                "B": "DNA",
+                "C": "خلوي ڀت",
+                "D": "رائبوسومل RNA"
+              },
+              "explanation": "سبسٽريٽ فعال جاءِ سان ڳنڍجي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which is an inorganic cofactor?",
+          "options": {
+            "A": "NAD",
+            "B": "Mg²⁺",
+            "C": "Coenzyme A",
+            "D": "Biotin"
+          },
+          "correctOption": "B",
+          "explanation": "Mg²⁺ is an inorganic metal ion that can act as a cofactor.",
+          "translations": {
+            "ur": {
+              "question": "کون سا غیر نامیاتی کوفیکٹر ہے؟",
+              "options": {
+                "A": "NAD",
+                "B": "Mg²⁺",
+                "C": "کواینزائم A",
+                "D": "بایوٹن"
+              },
+              "explanation": "Mg²⁺ ایک غیر نامیاتی دھاتی آئن ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو غير نامياتي ڪو فيڪٽر آهي؟",
+              "options": {
+                "A": "NAD",
+                "B": "Mg²⁺",
+                "C": "ڪو اينزائم A",
+                "D": "بايوٽين"
+              },
+              "explanation": "Mg²⁺ غير نامياتي ڌاتو آئن آهي."
+            }
+          }
+        },
+        {
+          "question": "A coenzyme is usually:",
+          "options": {
+            "A": "A small organic helper molecule",
+            "B": "A DNA gene",
+            "C": "A polysaccharide",
+            "D": "The enzyme product"
+          },
+          "correctOption": "A",
+          "explanation": "Coenzymes are small organic molecules that assist catalysis.",
+          "translations": {
+            "ur": {
+              "question": "کواینزائم عام طور پر کیا ہے؟",
+              "options": {
+                "A": "چھوٹا نامیاتی مددگار سالمہ",
+                "B": "DNA جین",
+                "C": "پولی سیکرائیڈ",
+                "D": "انزائم کی پیداوار"
+              },
+              "explanation": "کواینزائم چھوٹا نامیاتی مددگار سالمہ ہے۔"
+            },
+            "sd": {
+              "question": "ڪو اينزائم عام طور ڇا آهي؟",
+              "options": {
+                "A": "ننڍڙو نامياتي مددگار ماليڪيول",
+                "B": "DNA جين",
+                "C": "پولي سيڪرائيڊ",
+                "D": "اينزائم جي پيداوار"
+              },
+              "explanation": "ڪو اينزائم ننڍڙو نامياتي مددگار ماليڪيول آهي."
+            }
+          }
+        },
+        {
+          "question": "The induced-fit model states that:",
+          "options": {
+            "A": "The active site is rigid",
+            "B": "Binding changes enzyme shape slightly",
+            "C": "All substrates fit all enzymes",
+            "D": "Enzymes are used up"
+          },
+          "correctOption": "B",
+          "explanation": "Substrate binding causes a conformational adjustment at the active site.",
+          "translations": {
+            "ur": {
+              "question": "انڈیوسڈ فٹ ماڈل کے مطابق کیا ہوتا ہے؟",
+              "options": {
+                "A": "فعال جگہ سخت ہوتی ہے",
+                "B": "جڑنے سے انزائم کی شکل تھوڑی بدلتی ہے",
+                "C": "ہر سبسٹریٹ ہر انزائم سے جڑتا ہے",
+                "D": "انزائم خرچ ہو جاتے ہیں"
+              },
+              "explanation": "سبسٹریٹ کے جڑنے سے انزائم کی شکل میں معمولی تبدیلی آتی ہے۔"
+            },
+            "sd": {
+              "question": "اِنڊيوسڊ فِٽ ماڊل موجب ڇا ٿئي ٿو؟",
+              "options": {
+                "A": "فعال جاءِ سخت هوندي آهي",
+                "B": "ڳانڍاپي سان اينزائم جي شڪل ٿوري بدلجي ٿي",
+                "C": "هر سبسٽريٽ هر اينزائم سان ڳنڍجي ٿو",
+                "D": "اينزائم خرچ ٿي وڃن ٿا"
+              },
+              "explanation": "سبسٽريٽ ڳنڍجڻ سان اينزائم جي شڪل ٿوري بدلجي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Excessive heat can reduce enzyme activity by:",
+          "options": {
+            "A": "Increasing substrate",
+            "B": "Denaturing the enzyme",
+            "C": "Creating more active sites",
+            "D": "Changing the gene sequence"
+          },
+          "correctOption": "B",
+          "explanation": "High temperature can disrupt the interactions maintaining enzyme structure.",
+          "translations": {
+            "ur": {
+              "question": "زیادہ حرارت انزائم کی سرگرمی کیوں کم کر سکتی ہے؟",
+              "options": {
+                "A": "سبسٹریٹ بڑھا کر",
+                "B": "انزائم کو ڈی نیچر کرکے",
+                "C": "مزید فعال جگہ بنا کر",
+                "D": "جین کی ترتیب بدل کر"
+              },
+              "explanation": "زیادہ حرارت انزائم کی ساخت بگاڑ سکتی ہے۔"
+            },
+            "sd": {
+              "question": "گهڻي گرمي اينزائم جو عمل ڇو گهٽائي سگهي ٿي؟",
+              "options": {
+                "A": "سبسٽريٽ وڌائي",
+                "B": "اينزائم ڊينيچر ڪري",
+                "C": "وڌيڪ فعال جايون ٺاهي",
+                "D": "جين جي ترتيب بدلائي"
+              },
+              "explanation": "گهڻي گرمي اينزائم جي بناوت بگاڙي سگهي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Pepsin has its optimum activity in:",
+          "options": {
+            "A": "Acidic pH",
+            "B": "Alkaline pH",
+            "C": "Neutral pH only",
+            "D": "Pure water only"
+          },
+          "correctOption": "A",
+          "explanation": "Pepsin is adapted to the acidic environment of the stomach.",
+          "translations": {
+            "ur": {
+              "question": "پیپسن کس ماحول میں بہتر کام کرتا ہے؟",
+              "options": {
+                "A": "تیزابی pH",
+                "B": "الکلائن pH",
+                "C": "صرف غیر جانبدار pH",
+                "D": "صرف خالص پانی"
+              },
+              "explanation": "پیپسن معدے کے تیزابی ماحول میں بہتر کام کرتا ہے۔"
+            },
+            "sd": {
+              "question": "پيپسن ڪهڙي ماحول ۾ بهتر ڪم ڪري ٿو؟",
+              "options": {
+                "A": "تيزابي pH",
+                "B": "الڪلائن pH",
+                "C": "رڳو غير جانبدار pH",
+                "D": "رڳو خالص پاڻي"
+              },
+              "explanation": "پيپسن معدي جي تيزابي ماحول ۾ بهتر ڪم ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "At substrate saturation, reaction rate:",
+          "options": {
+            "A": "Falls to zero",
+            "B": "Approaches Vmax",
+            "C": "Increases without limit",
+            "D": "Becomes independent of enzyme"
+          },
+          "correctOption": "B",
+          "explanation": "When active sites are occupied, the rate approaches its maximum.",
+          "translations": {
+            "ur": {
+              "question": "سبسٹریٹ کی سیرشدگی پر رفتار کیا ہوتی ہے؟",
+              "options": {
+                "A": "صفر ہو جاتی ہے",
+                "B": "Vmax کے قریب پہنچتی ہے",
+                "C": "لامحدود بڑھتی ہے",
+                "D": "انزائم سے آزاد ہو جاتی ہے"
+              },
+              "explanation": "فعال جگہیں بھرنے پر رفتار Vmax کے قریب پہنچتی ہے۔"
+            },
+            "sd": {
+              "question": "سبسٽريٽ جي سير ٿيڻ تي رفتار ڇا ٿئي ٿي؟",
+              "options": {
+                "A": "صفر ٿي وڃي ٿي",
+                "B": "Vmax ڀرسان پهچي ٿي",
+                "C": "لامحدود وڌي ٿي",
+                "D": "اينزائم کان آزاد ٿئي ٿي"
+              },
+              "explanation": "فعال جايون ڀرجڻ تي رفتار Vmax ڀرسان پهچي ٿي."
+            }
+          }
+        },
+        {
+          "question": "A competitive inhibitor binds to the:",
+          "options": {
+            "A": "Active site",
+            "B": "Nucleus",
+            "C": "Product",
+            "D": "Cell membrane"
+          },
+          "correctOption": "A",
+          "explanation": "It competes with substrate for the active site.",
+          "translations": {
+            "ur": {
+              "question": "مقابلاتی روکنے والا کہاں جڑتا ہے؟",
+              "options": {
+                "A": "فعال جگہ",
+                "B": "مرکزہ",
+                "C": "پیداوار",
+                "D": "خلوی جھلی"
+              },
+              "explanation": "یہ فعال جگہ کے لیے سبسٹریٹ سے مقابلہ کرتا ہے۔"
+            },
+            "sd": {
+              "question": "مقابلي وارو روڪيندڙ ڪٿي ڳنڍجي ٿو؟",
+              "options": {
+                "A": "فعال جاءِ",
+                "B": "مرڪز",
+                "C": "پيداوار",
+                "D": "خلوي جھلي"
+              },
+              "explanation": "اهو فعال جاءِ لاءِ سبسٽريٽ سان مقابلو ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "A non-competitive inhibitor usually binds:",
+          "options": {
+            "A": "At a different site",
+            "B": "Only to DNA",
+            "C": "Only to product",
+            "D": "At the peptide bond"
+          },
+          "correctOption": "A",
+          "explanation": "It binds away from the active site and changes enzyme activity.",
+          "translations": {
+            "ur": {
+              "question": "غیر مقابلاتی روکنے والا عموماً کہاں جڑتا ہے؟",
+              "options": {
+                "A": "دوسری جگہ پر",
+                "B": "صرف DNA سے",
+                "C": "صرف پیداوار سے",
+                "D": "پیپٹائڈ بند پر"
+              },
+              "explanation": "یہ فعال جگہ سے الگ دوسری جگہ جڑتا ہے۔"
+            },
+            "sd": {
+              "question": "غير مقابلي وارو روڪيندڙ عام طور ڪٿي ڳنڍجي ٿو؟",
+              "options": {
+                "A": "ٻي جاءِ تي",
+                "B": "رڳو DNA سان",
+                "C": "رڳو پيداوار سان",
+                "D": "پيپٽائڊ بند سان"
+              },
+              "explanation": "اهو فعال جاءِ کان الڳ ٻي جاءِ تي ڳنڍجي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Feedback inhibition is when:",
+          "options": {
+            "A": "The final product inhibits an earlier enzyme",
+            "B": "The substrate is destroyed",
+            "C": "All enzymes stop permanently",
+            "D": "ATP becomes DNA"
+          },
+          "correctOption": "A",
+          "explanation": "The end product slows an earlier step to prevent overproduction.",
+          "translations": {
+            "ur": {
+              "question": "فیڈبیک انہیبیشن کیا ہے؟",
+              "options": {
+                "A": "آخری پیداوار پہلے انزائم کو روکتی ہے",
+                "B": "سبسٹریٹ تباہ ہو جاتا ہے",
+                "C": "تمام انزائم ہمیشہ رک جاتے ہیں",
+                "D": "ATP DNA بن جاتا ہے"
+              },
+              "explanation": "آخری پیداوار پہلے انزائم کو روک دیتی ہے۔"
+            },
+            "sd": {
+              "question": "فيڊ بيڪ اِنهيبيشن ڇا آهي؟",
+              "options": {
+                "A": "آخري پيداوار اڳئين اينزائم کي روڪي ٿي",
+                "B": "سبسٽريٽ تباهه ٿئي ٿو",
+                "C": "سڀ اينزائم هميشه بند ٿين ٿا",
+                "D": "ATP، DNA بڻجي ٿو"
+              },
+              "explanation": "آخري پيداوار اڳئين اينزائم کي روڪي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which enzyme class breaks bonds using water?",
+          "options": {
+            "A": "Hydrolases",
+            "B": "Ligases",
+            "C": "Transferases",
+            "D": "Isomerases"
+          },
+          "correctOption": "A",
+          "explanation": "Hydrolases catalyse hydrolysis reactions.",
+          "translations": {
+            "ur": {
+              "question": "کون سا انزائم پانی استعمال کرکے بند توڑتا ہے؟",
+              "options": {
+                "A": "ہائیڈرولیز",
+                "B": "لائگیز",
+                "C": "ٹرانسفریز",
+                "D": "آئسومریز"
+              },
+              "explanation": "ہائیڈرولیز پانی سے بند توڑتے ہیں۔"
+            },
+            "sd": {
+              "question": "ڪهڙو اينزائم پاڻي سان بند ٽوڙي ٿو؟",
+              "options": {
+                "A": "هائيڊروليز",
+                "B": "لائگيز",
+                "C": "ٽرانسفريز",
+                "D": "آئسوميريز"
+              },
+              "explanation": "هائيڊروليز پاڻي سان بند ٽوڙين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which class transfers functional groups?",
+          "options": {
+            "A": "Transferases",
+            "B": "Hydrolases",
+            "C": "Ligases",
+            "D": "Isomerases"
+          },
+          "correctOption": "A",
+          "explanation": "Transferases transfer functional groups between molecules.",
+          "translations": {
+            "ur": {
+              "question": "کون سا گروہ فعلی گروہ منتقل کرتا ہے؟",
+              "options": {
+                "A": "ٹرانسفریز",
+                "B": "ہائیڈرولیز",
+                "C": "لائگیز",
+                "D": "آئسومریز"
+              },
+              "explanation": "ٹرانسفریز فعلی گروہ منتقل کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "ڪهڙو گروهه فعلي گروهه منتقل ڪري ٿو؟",
+              "options": {
+                "A": "ٽرانسفريز",
+                "B": "هائيڊروليز",
+                "C": "لائگيز",
+                "D": "آئسوميريز"
+              },
+              "explanation": "ٽرانسفريز فعلي گروهه منتقل ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement about enzymes is correct?",
+          "options": {
+            "A": "They are consumed permanently",
+            "B": "They change equilibrium",
+            "C": "They can be reused",
+            "D": "They stop all reverse reactions"
+          },
+          "correctOption": "C",
+          "explanation": "Enzymes are not consumed overall and can catalyse repeated cycles.",
+          "translations": {
+            "ur": {
+              "question": "انزائم کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "یہ مستقل خرچ ہو جاتے ہیں",
+                "B": "یہ توازن بدلتے ہیں",
+                "C": "یہ دوبارہ استعمال ہو سکتے ہیں",
+                "D": "یہ تمام الٹے عمل روکتے ہیں"
+              },
+              "explanation": "انزائم دوبارہ استعمال ہو سکتا ہے۔"
+            },
+            "sd": {
+              "question": "اينزائم بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "اهي هميشه لاءِ خرچ ٿين ٿا",
+                "B": "اهي توازن بدلائين ٿا",
+                "C": "اهي ٻيهر استعمال ٿي سگهن ٿا",
+                "D": "اهي سڀ ابتڙ عمل روڪين ٿا"
+              },
+              "explanation": "اينزائم ٻيهر استعمال ٿي سگهي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which class joins molecules, often using ATP?",
+          "options": {
+            "A": "Ligases",
+            "B": "Hydrolases",
+            "C": "Oxidoreductases",
+            "D": "Isomerases"
+          },
+          "correctOption": "A",
+          "explanation": "Ligases join molecules and often couple the reaction to ATP use.",
+          "translations": {
+            "ur": {
+              "question": "کون سا گروہ اکثر ATP سے سالمات جوڑتا ہے؟",
+              "options": {
+                "A": "لائگیز",
+                "B": "ہائیڈرولیز",
+                "C": "آکسیڈو ریڈکٹیز",
+                "D": "آئسومریز"
+              },
+              "explanation": "لائگیز اکثر ATP استعمال کرکے سالمات جوڑتے ہیں۔"
+            },
+            "sd": {
+              "question": "ڪهڙو گروهه اڪثر ATP سان ماليڪيول ڳنڍي ٿو؟",
+              "options": {
+                "A": "لائگيز",
+                "B": "هائيڊروليز",
+                "C": "آڪسائيڊو ريڊڪٽيز",
+                "D": "آئسوميريز"
+              },
+              "explanation": "لائگيز اڪثر ATP استعمال ڪري ماليڪيول ڳنڍين ٿا."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain how enzymes lower activation energy and state two things they do not change.",
+          "modelAnswer": "An enzyme provides an alternative pathway that stabilises the transition state and lowers activation energy. It does not change the overall energy difference between reactants and products or the equilibrium position; it helps equilibrium be reached faster.",
+          "rubric": [
+            "Accurate scientific explanation (2 marks)",
+            "Relevant mechanisms or comparison (2 marks)",
+            "Clear use of correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "وضاحت کریں کہ انزائم ایکٹیویشن انرجی کیسے کم کرتا ہے اور دو چیزیں بتائیں جنہیں یہ تبدیل نہیں کرتا۔",
+              "modelAnswer": "اینزائم متبادل راستہ فراہم کرکے عبوری حالت کو مستحکم کرتا ہے اور ایکٹیویشن انرجی کم کرتا ہے۔ یہ ابتدائی اور آخری مادوں کے مجموعی توانائی فرق یا توازن کی حالت نہیں بدلتا، صرف توازن تک پہنچنے کی رفتار بڑھاتا ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (2 نمبر)",
+                "متعلقہ طریقۂ کار یا موازنہ (2 نمبر)",
+                "درست اصطلاحات کا استعمال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "اينزائم ايڪٽيويشن انرجي ڪيئن گهٽائي ٿو ۽ ٻه اهڙيون شيون ٻڌايو جيڪي اهو نٿو بدلائي.",
+              "modelAnswer": "اينزائم متبادل رستو ڏئي عبوري حالت کي مستحڪم ڪري ٿو ۽ ايڪٽيويشن انرجي گهٽائي ٿو. اهو شروعاتي ۽ آخري مادن جي مجموعي توانائيءَ جو فرق يا توازن جي حالت نٿو بدلائي، رڳو توازن تائين پهچڻ جي رفتار وڌائي ٿو.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (2 مارڪون)",
+                "لاڳاپيل طريقو يا مقابلو (2 مارڪون)",
+                "صحيح اصطلاحن جو استعمال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Differentiate between competitive and non-competitive enzyme inhibition.",
+          "modelAnswer": "A competitive inhibitor competes with substrate for the active site; increasing substrate may reduce its effect. A non-competitive inhibitor binds at another site and changes enzyme activity; extra substrate does not necessarily overcome it.",
+          "rubric": [
+            "Accurate scientific explanation (2 marks)",
+            "Relevant mechanisms or comparison (2 marks)",
+            "Clear use of correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "مقابلاتی اور غیر مقابلاتی انزائم روک میں فرق بیان کریں۔",
+              "modelAnswer": "مقابلاتی روکنے والا فعال جگہ پر سبسٹریٹ سے مقابلہ کرتا ہے؛ سبسٹریٹ بڑھانے سے اثر کم ہو سکتا ہے۔ غیر مقابلاتی روکنے والا دوسری جگہ جڑ کر انزائم کا کام بدلتا ہے؛ زیادہ سبسٹریٹ سے اثر لازماً ختم نہیں ہوتا۔",
+              "rubric": [
+                "درست سائنسی وضاحت (2 نمبر)",
+                "متعلقہ طریقۂ کار یا موازنہ (2 نمبر)",
+                "درست اصطلاحات کا استعمال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "مقابلي واري ۽ غير مقابلي واري اينزائم روڪ ۾ فرق بيان ڪريو.",
+              "modelAnswer": "مقابلي وارو روڪيندڙ فعال جاءِ تي سبسٽريٽ سان مقابلو ڪري ٿو؛ سبسٽريٽ وڌائڻ سان اثر گهٽجي سگهي ٿو. غير مقابلي وارو روڪيندڙ ٻي جاءِ تي ڳنڍجي اينزائم جو ڪم بدلائي ٿو؛ وڌيڪ سبسٽريٽ سان اثر لازمي ختم نٿو ٿئي.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (2 مارڪون)",
+                "لاڳاپيل طريقو يا مقابلو (2 مارڪون)",
+                "صحيح اصطلاحن جو استعمال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Describe the effects of temperature and pH on enzyme activity.",
+          "modelAnswer": "Temperature increases rate up to an optimum; excessive heat disrupts structure and lowers activity. Each enzyme has an optimum pH; changes in pH can alter charges, folding and the active site.",
+          "rubric": [
+            "Accurate scientific explanation (2 marks)",
+            "Relevant mechanisms or comparison (2 marks)",
+            "Clear use of correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "انزائم کی سرگرمی پر درجہ حرارت اور pH کے اثرات بیان کریں۔",
+              "modelAnswer": "درجہ حرارت مناسب حد تک ردعمل کی رفتار بڑھاتا ہے؛ زیادہ گرمی ساخت بگاڑ کر سرگرمی کم کرتی ہے۔ ہر انزائم کا بہترین pH ہوتا ہے؛ تبدیلی چارجز، تہہ بندی اور فعال جگہ کو متاثر کر سکتی ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (2 نمبر)",
+                "متعلقہ طریقۂ کار یا موازنہ (2 نمبر)",
+                "درست اصطلاحات کا استعمال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "اينزائم جي عمل تي گرمي پد ۽ pH جا اثر بيان ڪريو.",
+              "modelAnswer": "گرمي پد مناسب حد تائين عمل جي رفتار وڌائي ٿو؛ گهڻي گرمي بناوت بگاڙي عمل گهٽائي ٿي. هر اينزائم جو مناسب pH هوندو آهي؛ تبديلي چارج، ويڙهڻ ۽ فعال جاءِ کي متاثر ڪري سگهي ٿي.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (2 مارڪون)",
+                "لاڳاپيل طريقو يا مقابلو (2 مارڪون)",
+                "صحيح اصطلاحن جو استعمال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Compare the lock-and-key and induced-fit models. Explain how enzyme-substrate binding lowers activation energy.",
+          "modelAnswer": "The lock-and-key model treats the active site as rigid and complementary to the substrate. The induced-fit model describes a flexible active site that changes shape slightly when substrate binds. This positions catalytic groups, orients substrates, brings reactants together and can stabilise the transition state. The enzyme-substrate complex forms, products are released, and the enzyme can be reused. The alternative pathway has a lower activation-energy barrier.",
+          "rubric": [
+            "Accurate scientific explanation (2 marks)",
+            "Relevant mechanisms or comparison (2 marks)",
+            "Clear use of correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "لاک اینڈ کی اور انڈیوسڈ فٹ ماڈلز کا موازنہ کریں اور وضاحت کریں کہ انزائم-سبسٹریٹ کا جڑنا ایکٹیویشن انرجی کیسے کم کرتا ہے۔",
+              "modelAnswer": "لاک اینڈ کی ماڈل فعال جگہ کو سخت سمجھتا ہے۔ انڈیوسڈ فٹ ماڈل کے مطابق سبسٹریٹ کے جڑنے سے فعال جگہ کی شکل معمولی بدلتی ہے۔ اس سے عمل کرنے والے گروہ درست ترتیب میں آتے ہیں، سبسٹریٹس قریب ہوتے ہیں اور عبوری حالت مستحکم ہو سکتی ہے۔ انزائم-سبسٹریٹ کمپلیکس بنتا ہے، مصنوعات خارج ہوتی ہیں اور انزائم دوبارہ استعمال ہوتا ہے۔ یہ متبادل راستہ ایکٹیویشن انرجی کم کرتا ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (2 نمبر)",
+                "متعلقہ طریقۂ کار یا موازنہ (2 نمبر)",
+                "درست اصطلاحات کا استعمال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "لاڪ اينڊ ڪي ۽ اِنڊيوسڊ فِٽ ماڊلن جو مقابلو ڪريو ۽ سمجهايو ته اينزائم-سبسٽريٽ جو ڳانڍاپو ايڪٽيويشن انرجي ڪيئن گهٽائي ٿو.",
+              "modelAnswer": "لاڪ اينڊ ڪي ماڊل فعال جاءِ کي سخت سمجهي ٿو. اِنڊيوسڊ فِٽ ماڊل موجب سبسٽريٽ ڳنڍجڻ سان فعال جاءِ جي شڪل ٿوري بدلجي ٿي. ان سان عمل ڪندڙ گروهه صحيح ترتيب ۾ اچن ٿا، سبسٽريٽ ويجها ٿين ٿا ۽ عبوري حالت مستحڪم ٿي سگهي ٿي. اينزائم-سبسٽريٽ ڪمپليڪس ٺهي ٿو، پيداوار ٻاهر نڪري ٿي ۽ اينزائم ٻيهر ڪم ڪري ٿو. هي متبادل رستو ايڪٽيويشن انرجي گهٽائي ٿو.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (2 مارڪون)",
+                "لاڳاپيل طريقو يا مقابلو (2 مارڪون)",
+                "صحيح اصطلاحن جو استعمال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the effects of temperature, pH, substrate concentration and enzyme concentration. Outline a fair investigation of one factor.",
+          "modelAnswer": "Temperature increases rate up to an optimum, then excess heat disrupts enzyme structure. Each enzyme has an optimum pH; pH changes can alter charge and active-site shape. Increasing substrate raises rate until active sites saturate and rate approaches Vmax. With substrate in excess, more enzyme increases rate by providing more active sites. To test temperature fairly, use equal enzyme and substrate volumes at several temperatures, keep pH and concentrations constant, repeat each condition, measure initial rate and graph rate against temperature.",
+          "rubric": [
+            "Accurate scientific explanation (2 marks)",
+            "Relevant mechanisms or comparison (2 marks)",
+            "Clear use of correct terminology (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "درجہ حرارت، pH، سبسٹریٹ اور انزائم کی مقدار کے اثرات بیان کریں اور کسی ایک عامل کی منصفانہ تجرباتی جانچ کا خاکہ دیں۔",
+              "modelAnswer": "درجہ حرارت مناسب حد تک رفتار بڑھاتا ہے، مگر زیادہ گرمی ساخت بگاڑتی ہے۔ ہر انزائم کا بہترین pH ہوتا ہے؛ تبدیلی چارج اور فعال جگہ کو متاثر کر سکتی ہے۔ سبسٹریٹ بڑھانے سے رفتار فعال جگہوں کے بھرنے تک بڑھتی ہے اور Vmax کے قریب پہنچتی ہے۔ سبسٹریٹ زیادہ ہو تو انزائم بڑھانے سے مزید فعال جگہیں ملتی ہیں۔ درجہ حرارت کی منصفانہ جانچ کے لیے یکساں مقدار میں انزائم اور سبسٹریٹ مختلف درجہ حرارت پر رکھیں، pH اور مقدار مستقل رکھیں، تجربہ دہرائیں، ابتدائی رفتار ناپیں اور گراف بنائیں۔",
+              "rubric": [
+                "درست سائنسی وضاحت (2 نمبر)",
+                "متعلقہ طریقۂ کار یا موازنہ (2 نمبر)",
+                "درست اصطلاحات کا استعمال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "گرمي پد، pH، سبسٽريٽ ۽ اينزائم جي مقدار جا اثر بيان ڪريو ۽ ڪنهن هڪ عنصر جي منصفاڻي تجربي جو خاڪو ڏيو.",
+              "modelAnswer": "گرمي پد مناسب حد تائين رفتار وڌائي ٿو، پر گهڻي گرمي بناوت بگاڙي ٿي. هر اينزائم جو مناسب pH هوندو آهي؛ تبديلي چارج ۽ فعال جاءِ تي اثر وجهي سگهي ٿي. سبسٽريٽ وڌائڻ سان رفتار فعال جايون ڀرجڻ تائين وڌي ٿي ۽ Vmax ڀرسان پهچي ٿي. سبسٽريٽ گهڻو هجي ته اينزائم وڌائڻ سان وڌيڪ فعال جايون ملن ٿيون. گرمي پد جي منصفاڻي جاچ لاءِ ساڳي مقدار اينزائم ۽ سبسٽريٽ مختلف گرمي پدن تي رکو، pH ۽ مقدار ساڳيا رکو، تجربو ورجايو، شروعاتي رفتار ماپيو ۽ گراف ٺاهيو.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (2 مارڪون)",
+                "لاڳاپيل طريقو يا مقابلو (2 مارڪون)",
+                "صحيح اصطلاحن جو استعمال (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
