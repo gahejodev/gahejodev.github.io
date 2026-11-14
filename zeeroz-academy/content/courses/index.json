@@ -97,6 +97,12 @@
       "title": "Biology X — Chapter 16: Reproduction",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-16-reproduction.json",
       "version": "1"
+    },
+    {
+      "id": "biology-x-chapter-17-inheritance",
+      "title": "Biology X — Chapter 17: Inheritance",
+      "path": "zeeroz-academy/content/courses/biology-x-chapter-17-inheritance.json",
+      "version": "1"
     }
   ]
 }
