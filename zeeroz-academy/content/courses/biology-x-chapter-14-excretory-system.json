@@ -1,0 +1,755 @@
+{
+  "id": "biology-x-chapter-14-excretory-system",
+  "title": "Biology X — Chapter 14: Excretory System",
+  "description": "Class X Biology aligned to the Sindh DCAR Biology Curriculum 2024. Five original lessons, Urdu and Sindhi explanations, 15 fully translated explained MCQs, 3 CRQs, 2 ERQs, marking rubrics and kidney-health case study.",
+  "version": "1",
+  "curriculumAlignment": {
+    "authority": "Directorate of Curriculum, Assessment and Research (DCAR), Government of Sindh",
+    "document": "Curriculum of Biology for Sindh Grades IX–XII (2024), aligned with National Curriculum of Pakistan 2022–23",
+    "grade": "X",
+    "chapter": "14 — Excretory System",
+    "periods": 10,
+    "allocation": [
+      "Human Urinary System — 4 periods",
+      "Kidney Failure — 6 periods"
+    ],
+    "outcomes": [
+      "Recognize the structure and general functions of each organ of the human urinary system.",
+      "Understand the external and internal structure and functions of the kidney.",
+      "Understand structure and function of the nephron as the basic unit of kidney.",
+      "Identify the role of kidney in urine formation and composition.",
+      "Explain how kidney functions as an osmoregulatory organ.",
+      "Outline causes of kidney failure and treatments."
+    ],
+    "primarySource": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf",
+    "primarySourceEvidence": "Printed curriculum page 122; Chapter 14; 10 periods (Human Urinary System 4; Kidney Failure 6) and stated learning outcomes.",
+    "sourceChecked": "2026-11-14",
+    "authorshipNote": "Original educational explanations, examples, questions and model answers; no full textbook passages reproduced."
+  },
+  "chapters": [
+    {
+      "title": "Chapter 14: Excretory System",
+      "description": "Ten-period chapter covering excretion, urinary organs, kidney and nephron structure, urine formation, osmoregulation, kidney failure, dialysis and transplantation.",
+      "lessons": [
+        {
+          "title": "14.1 Excretion and the Human Urinary System",
+          "type": "text",
+          "content": "Excretion removes metabolic wastes and excess substances. It differs from egestion, which removes undigested food. In humans, the kidneys remove urea and regulate water and salts; lungs remove carbon dioxide and water vapour; skin removes small amounts of water and salts in sweat; the liver converts toxic ammonia from amino-acid breakdown into urea. The urinary system contains two kidneys, two ureters, a urinary bladder and a urethra. Kidneys form urine, ureters carry it to the bladder, the bladder stores it, and the urethra carries it outside. Ammonia is highly toxic; mammals convert it to less toxic urea. Birds and many reptiles excrete uric acid, which conserves water but costs more energy.",
+          "explanations": {
+            "ur": "اخراج جسم سے میٹابولزم کے فضلات اور اضافی مادوں کو نکالتا ہے۔ یہ Egestion سے مختلف ہے، جس میں غیر ہضم شدہ غذا خارج ہوتی ہے۔ انسان میں گردے یوریا نکالتے اور پانی و نمکیات منظم کرتے ہیں؛ پھیپھڑے کاربن ڈائی آکسائیڈ نکالتے ہیں؛ جلد پسینے میں تھوڑا پانی اور نمک خارج کرتی ہے؛ جگر زہریلے امونیا کو یوریا میں بدلتا ہے۔ پیشابی نظام میں دو گردے، دو یوریٹر، مثانہ اور یوریتھرا شامل ہیں۔ گردے پیشاب بناتے، یوریٹر مثانے تک پہنچاتے، مثانہ ذخیرہ کرتا اور یوریتھرا باہر نکالتی ہے۔",
+            "sd": "اخراج جسم مان ميٽابولزم جا فضلا ۽ اضافي مادا ڪڍي ٿو. اهو Egestion کان مختلف آهي، جنهن ۾ اڻ هضم خوراڪ خارج ٿئي ٿي. انسان ۾ گردا يوريا ڪڍن ۽ پاڻي ۽ لوڻن کي منظم ڪن ٿا؛ ڦڦڙ ڪاربان ڊاءِ آڪسائيڊ ڪڍن ٿا؛ چمڙي پگهر ۾ ٿورو پاڻي ۽ لوڻ خارج ڪري ٿي؛ جيرو زهريلي امونيا کي يوريا ۾ بدلائي ٿو. پيشاب واري سرشتي ۾ ٻه گردا، ٻه يوريٽر، مثانو ۽ يورٿرا شامل آهن."
+          }
+        },
+        {
+          "title": "14.2 Kidney Structure and the Nephron",
+          "type": "text",
+          "content": "Each kidney is bean-shaped and lies on the back wall of the abdomen. Its medial hilum is the entry and exit region for renal vessels and the ureter. The outer renal cortex contains renal corpuscles; the inner renal medulla is arranged into pyramids; the renal pelvis collects urine and drains into the ureter. The nephron is the functional unit. It consists of a renal corpuscle (glomerulus within Bowman's capsule), proximal convoluted tubule, loop of Henle, distal convoluted tubule and collecting duct. Blood enters the glomerulus through an afferent arteriole and leaves through an efferent arteriole. Tubules are surrounded by capillaries that support exchange and reabsorption.",
+          "explanations": {
+            "ur": "ہر گردہ لوبیا نما ہوتا ہے اور پیٹ کی پچھلی دیوار پر واقع ہوتا ہے۔ اندرونی دھنسے ہوئے حصے کو Hilum کہتے ہیں جہاں سے خون کی نالیاں اور یوریٹر گزرتے ہیں۔ بیرونی cortex میں renal corpuscles ہوتے ہیں؛ اندرونی medulla اہرامی حصوں میں ہوتی ہے؛ renal pelvis پیشاب جمع کر کے یوریٹر میں بھیجتا ہے۔ نیفرون گردے کی فعلی اکائی ہے۔ اس میں renal corpuscle (glomerulus اور Bowman's capsule)، PCT، loop of Henle، DCT اور collecting duct شامل ہیں۔",
+            "sd": "هر گردو لوبيا جي شڪل جو هوندو آهي ۽ پيٽ جي پٺئين ڀت تي هوندو آهي. اندرئين کڏ واري حصي کي Hilum چئبو آهي، جتان رت جون نليون ۽ يوريٽر گذرن ٿا. ٻاهريون cortex renal corpuscles رکي ٿو؛ اندريون medulla pyramids ۾ ورهايل آهي؛ renal pelvis پيشاب گڏ ڪري يوريٽر ڏانهن موڪلي ٿو. نيڦرون گردي جي فعلي اڪائي آهي. ان ۾ renal corpuscle، PCT، loop of Henle، DCT ۽ collecting duct شامل آهن."
+          }
+        },
+        {
+          "title": "14.3 Urine Formation",
+          "type": "text",
+          "content": "Urine formation involves three linked processes. Glomerular filtration uses blood pressure to move water and small solutes from glomerular capillaries into Bowman's capsule; blood cells and most large proteins remain in blood. Selective reabsorption returns useful substances such as nearly all filtered glucose and amino acids, much water and needed ions from tubules to blood, especially in the PCT. Tubular secretion moves selected substances such as hydrogen and potassium ions from blood into tubular fluid and helps regulate pH and ion balance. Final urine contains mostly water, urea and variable salts. Glucose and substantial protein are not normally present in urine.",
+          "explanations": {
+            "ur": "پیشاب تین عملوں سے بنتا ہے۔ Glomerular filtration میں خون کا دباؤ پانی اور چھوٹے مادوں کو گلومیرولس سے Bowman's capsule میں منتقل کرتا ہے؛ خون کے خلیات اور زیادہ تر بڑے پروٹین خون میں رہتے ہیں۔ Selective reabsorption میں گلوکوز، امینو ایسڈز، پانی اور ضروری آئن نالی سے واپس خون میں جاتے ہیں، خاص طور پر PCT میں۔ Tubular secretion میں ہائیڈروجن اور پوٹاشیم جیسے منتخب آئن خون سے نالی میں جاتے ہیں اور pH و نمکیات کا توازن برقرار رکھتے ہیں۔ آخری پیشاب زیادہ تر پانی، یوریا اور نمکیات پر مشتمل ہوتا ہے۔",
+            "sd": "پيشاب ٽن عملن سان ٺهي ٿو. Glomerular filtration ۾ رت جو دٻاءُ پاڻي ۽ ننڍن مادن کي glomerulus مان Bowman's capsule ۾ آڻي ٿو؛ رت جا خليا ۽ گهڻا وڏا پروٽين رت ۾ رهن ٿا. Selective reabsorption ۾ گلوڪوز، امينو ايسڊ، پاڻي ۽ ضروري آئن نلي مان واپس رت ۾ وڃن ٿا، خاص ڪري PCT ۾. Tubular secretion ۾ هائيڊروجن ۽ پوٽاشيم جهڙا آئن رت مان نلي ۾ وڃن ٿا ۽ pH ۽ لوڻن جو توازن رکن ٿا. آخري پيشاب گهڻو ڪري پاڻي، يوريا ۽ لوڻن تي مشتمل هوندو آهي."
+          }
+        },
+        {
+          "title": "14.4 Osmoregulation and Urinary Health",
+          "type": "text",
+          "content": "Osmoregulation is control of water and dissolved-solute concentrations in body fluids. Kidneys make dilute urine when water is plentiful and concentrated urine when water is scarce. The hypothalamus helps regulate ADH release from the posterior pituitary. ADH increases water permeability of collecting ducts, so more water returns to blood and urine volume falls. Sweating, exercise, temperature and water intake affect urine volume. Urinary tract infections may cause burning, frequent urination, lower abdominal discomfort and sometimes fever or flank pain; fever or flank pain needs prompt clinical assessment. Kidney stones form when substances crystallise in urine. Safe hydration and management of diabetes and high blood pressure support kidney health.",
+          "explanations": {
+            "ur": "Osmoregulation جسمانی سیالات میں پانی اور حل شدہ مادوں کی مقدار کو قابو میں رکھتا ہے۔ پانی زیادہ ہو تو گردے پتلا اور پانی کم ہو تو گاڑھا پیشاب بناتے ہیں۔ Hypothalamus، posterior pituitary سے ADH کے اخراج کو منظم کرتا ہے۔ ADH collecting ducts میں پانی کا دوبارہ جذب بڑھاتا ہے، جس سے پیشاب کم اور گاڑھا ہوتا ہے۔ پسینہ، ورزش، درجہ حرارت اور پانی پینا پیشاب پر اثر انداز ہوتے ہیں۔ UTI میں پیشاب کی جلن، بار بار حاجت، پیٹ کے نچلے حصے میں تکلیف یا بخار ہو سکتا ہے۔ بخار یا پہلو کے درد میں فوری طبی معائنہ ضروری ہے۔",
+            "sd": "Osmoregulation جسماني مايع ۾ پاڻي ۽ حل ٿيل مادن جي مقدار کي ضابطي ۾ رکي ٿو. پاڻي گهڻو هجي ته گردا هلڪو ۽ پاڻي گهٽ هجي ته گاڙهو پيشاب ٺاهين ٿا. Hypothalamus، posterior pituitary مان ADH جي اخراج کي منظم ڪري ٿو. ADH collecting ducts ۾ پاڻيءَ جو ٻيهر جذب وڌائي ٿو، تنهنڪري پيشاب گهٽ ۽ گاڙهو ٿئي ٿو. پگهر، ورزش، گرمي ۽ پاڻي پيئڻ پيشاب تي اثر ڪن ٿا. UTI ۾ پيشاب وقت ساڙو، بار بار حاجت، پيٽ ۾ تڪليف يا بخار ٿي سگهي ٿو. بخار يا پاسيري جي سور ۾ ترت طبي معائنو ضروري آهي."
+          }
+        },
+        {
+          "title": "14.5 Kidney Failure, Dialysis and Transplantation",
+          "type": "text",
+          "content": "Kidney failure occurs when kidneys cannot adequately maintain fluid, waste, electrolyte and acid-base balance. Causes include severe dehydration or shock, infection, reduced renal blood flow, urinary obstruction, inflammation, toxic exposures, diabetes and long-standing hypertension. Possible signs include reduced urine, swelling, tiredness, nausea and breathlessness, but tests are needed for diagnosis. Blood tests such as creatinine/eGFR, urine tests and imaging may be used. Haemodialysis passes blood through an external dialyser; wastes diffuse across a selectively permeable membrane into dialysis fluid and excess water is removed. Peritoneal dialysis uses the peritoneum as an exchange membrane for fluid placed in the abdomen. A kidney transplant may restore kidney function for suitable patients but requires donor matching, surgery and long-term immunosuppressant medicines, which increase infection risk. Treatment is individualised by a renal team.",
+          "explanations": {
+            "ur": "گردے فیل ہونے میں گردے پانی، فضلات، نمکیات اور تیزاب/اساس کا توازن برقرار نہیں رکھ پاتے۔ وجوہات میں شدید پانی کی کمی، صدمہ، انفیکشن، خون کی کم فراہمی، پیشاب کی رکاوٹ، سوزش، ذیابیطس اور طویل عرصے کا بلند فشارِ خون شامل ہیں۔ پیشاب کم آنا، سوجن، تھکاوٹ، متلی اور سانس پھولنا ممکنہ علامات ہیں مگر تشخیص کے لیے ٹیسٹ ضروری ہیں۔ Haemodialysis میں خون بیرونی dialyser سے گزرتا ہے اور فضلات جھلی کے پار dialysis fluid میں جاتے ہیں۔ Peritoneal dialysis میں پیٹ کی جھلی تبادلے کا کام کرتی ہے۔ پیوندکاری موزوں مریض میں مفید ہو سکتی ہے مگر ڈونر، آپریشن اور طویل مدتی مدافعت دبانے والی ادویات درکار ہیں۔",
+            "sd": "گردا ناڪام ٿين ٿا جڏهن اهي پاڻي، فضلي، لوڻن ۽ تيزاب-اساس جو توازن مناسب نموني نٿا رکي سگهن. سببن ۾ پاڻيءَ جي سخت کوٽ، صدمو، انفيڪشن، رت جي گهٽ فراهمي، پيشاب جي رڪاوٽ، سوزش، ذیابيطس ۽ ڊگهي عرصي جو هاءِ بلڊ پريشر شامل آهن. پيشاب گهٽ اچڻ، سوڄ، ٿڪاوٽ، متلي ۽ ساهه ۾ تڪليف ممڪن نشانيون آهن، پر تشخيص لاءِ ٽيسٽ گهرجن. Haemodialysis ۾ رت ٻاهرين dialyser مان گذري ٿو ۽ فضلا جھلي پار dialysis fluid ۾ وڃن ٿا. Peritoneal dialysis ۾ پيٽ جي جھلي مٽاسٽا ڪري ٿي. Transplant مناسب مريض لاءِ فائديمند ٿي سگهي ٿو، پر ڊونر، آپريشن ۽ ڊگهي مدي واريون مدافعتي دوائون گهرجن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Define excretion.",
+          "options": {
+            "A": "Removal of metabolic wastes and excess substances",
+            "B": "Removal of undigested food",
+            "C": "Absorption of nutrients",
+            "D": "Movement of food"
+          },
+          "correctOption": "A",
+          "explanation": "Excretion removes metabolic wastes and excess substances.",
+          "translations": {
+            "ur": {
+              "question": "اخراج کی تعریف کیا ہے؟",
+              "options": {
+                "A": "میٹابولک فضلات اور اضافی مادوں کا اخراج",
+                "B": "غیر ہضم شدہ غذا کا اخراج",
+                "C": "غذائی اجزا کا جذب",
+                "D": "غذا کی حرکت"
+              },
+              "explanation": "اخراج میٹابولک فضلات اور اضافی مادے نکالتا ہے۔"
+            },
+            "sd": {
+              "question": "اخراج جي وصف ڇا آهي؟",
+              "options": {
+                "A": "ميٽابولزم جا فضلا ۽ اضافي مادا ڪڍڻ",
+                "B": "اڻ هضم خوراڪ ڪڍڻ",
+                "C": "غذائي مادا جذب ڪرڻ",
+                "D": "خوراڪ جي حرڪت"
+              },
+              "explanation": "اخراج ميٽابولزم جا فضلا ۽ اضافي مادا ڪڍي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Which process removes undigested food?",
+          "options": {
+            "A": "Egestion",
+            "B": "Excretion",
+            "C": "Filtration",
+            "D": "Reabsorption"
+          },
+          "correctOption": "A",
+          "explanation": "Egestion removes undigested food; excretion removes metabolic wastes.",
+          "translations": {
+            "ur": {
+              "question": "غیر ہضم شدہ غذا کس عمل سے خارج ہوتی ہے؟",
+              "options": {
+                "A": "Egestion",
+                "B": "Excretion",
+                "C": "Filtration",
+                "D": "Reabsorption"
+              },
+              "explanation": "Egestion ہاضمے سے غیر ہضم شدہ غذا نکالتا ہے۔"
+            },
+            "sd": {
+              "question": "اڻ هضم خوراڪ ڪهڙي عمل سان خارج ٿئي ٿي؟",
+              "options": {
+                "A": "Egestion",
+                "B": "Excretion",
+                "C": "Filtration",
+                "D": "Reabsorption"
+              },
+              "explanation": "Egestion هاضمي مان اڻ هضم خوراڪ ڪڍي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "In humans, ammonia is mainly converted into:",
+          "options": {
+            "A": "Urea",
+            "B": "Glucose",
+            "C": "Glycogen",
+            "D": "Oxygen"
+          },
+          "correctOption": "A",
+          "explanation": "The liver converts toxic ammonia into less toxic urea.",
+          "translations": {
+            "ur": {
+              "question": "انسان میں امونیا زیادہ تر کس میں بدلتا ہے؟",
+              "options": {
+                "A": "یوریا",
+                "B": "گلوکوز",
+                "C": "گلائیکوجن",
+                "D": "آکسیجن"
+              },
+              "explanation": "جگر زہریلے امونیا کو کم زہریلے یوریا میں بدلتا ہے۔"
+            },
+            "sd": {
+              "question": "انسان ۾ امونيا گهڻو ڪري ڪنهن ۾ بدلجي ٿو؟",
+              "options": {
+                "A": "يوريا",
+                "B": "گلوڪوز",
+                "C": "گلائڪوجن",
+                "D": "آڪسيجن"
+              },
+              "explanation": "جيرو زهريلي امونيا کي گهٽ زهريلي يوريا ۾ بدلائي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Which sequence lists urinary organs correctly?",
+          "options": {
+            "A": "Kidneys, ureters, bladder, urethra",
+            "B": "Bladder, kidneys, urethra, ureters",
+            "C": "Kidneys, urethra, ureters, bladder",
+            "D": "Ureters, bladder, kidneys, urethra"
+          },
+          "correctOption": "A",
+          "explanation": "Kidneys form urine; ureters carry it to the bladder; urethra carries it out.",
+          "translations": {
+            "ur": {
+              "question": "پیشابی اعضا کی درست ترتیب کون سی ہے؟",
+              "options": {
+                "A": "گردے، یوریٹر، مثانہ، یوریتھرا",
+                "B": "مثانہ، گردے، یوریتھرا، یوریٹر",
+                "C": "گردے، یوریتھرا، یوریٹر، مثانہ",
+                "D": "یوریٹر، مثانہ، گردے، یوریتھرا"
+              },
+              "explanation": "گردے پیشاب بناتے، یوریٹر مثانے تک لاتے اور یوریتھرا باہر نکالتی ہے۔"
+            },
+            "sd": {
+              "question": "پيشاب وارن عضون جي صحيح ترتيب ڪهڙي آهي؟",
+              "options": {
+                "A": "گردا، يوريٽر، مثانو، يورٿرا",
+                "B": "مثانو، گردا، يورٿرا، يوريٽر",
+                "C": "گردا، يورٿرا، يوريٽر، مثانو",
+                "D": "يوريٽر، مثانو، گردا، يورٿرا"
+              },
+              "explanation": "گردا پيشاب ٺاهين، يوريٽر مثاني تائين آڻين ۽ يورٿرا ٻاهر ڪڍي ٿي۔"
+            }
+          }
+        },
+        {
+          "question": "The functional unit of kidney is:",
+          "options": {
+            "A": "Nephron",
+            "B": "Neuron",
+            "C": "Alveolus",
+            "D": "Villus"
+          },
+          "correctOption": "A",
+          "explanation": "A nephron performs filtration, reabsorption and secretion.",
+          "translations": {
+            "ur": {
+              "question": "گردے کی فعلی اکائی کیا ہے؟",
+              "options": {
+                "A": "نیفرون",
+                "B": "نیورون",
+                "C": "الویولس",
+                "D": "ولس"
+              },
+              "explanation": "نیفرون پیشاب بنانے کے عمل انجام دیتا ہے۔"
+            },
+            "sd": {
+              "question": "گردي جي فعلي اڪائي ڪهڙي آهي؟",
+              "options": {
+                "A": "نيڦرون",
+                "B": "نيورون",
+                "C": "الويولس",
+                "D": "ولس"
+              },
+              "explanation": "نيڦرون پيشاب ٺاهڻ جا عمل ڪري ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "The glomerulus is enclosed by:",
+          "options": {
+            "A": "Bowman's capsule",
+            "B": "Collecting duct",
+            "C": "Ureter",
+            "D": "Renal pelvis"
+          },
+          "correctOption": "A",
+          "explanation": "Bowman's capsule surrounds the glomerulus and collects filtrate.",
+          "translations": {
+            "ur": {
+              "question": "گلومیرولس کو کون گھیرتا ہے؟",
+              "options": {
+                "A": "بومینز کیپسول",
+                "B": "کلیکٹنگ ڈکٹ",
+                "C": "یوریٹر",
+                "D": "رینل پیلوس"
+              },
+              "explanation": "بومینز کیپسول فلٹریٹ جمع کرتا ہے۔"
+            },
+            "sd": {
+              "question": "گلوميرولس کي ڪير ڍڪي ٿو؟",
+              "options": {
+                "A": "Bowman's capsule",
+                "B": "Collecting duct",
+                "C": "Ureter",
+                "D": "Renal pelvis"
+              },
+              "explanation": "Bowman's capsule فلٽريٽ گڏ ڪري ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Which region is the outer part of kidney?",
+          "options": {
+            "A": "Renal cortex",
+            "B": "Renal pelvis",
+            "C": "Ureter",
+            "D": "Renal vein"
+          },
+          "correctOption": "A",
+          "explanation": "The cortex is the outer kidney region and contains renal corpuscles.",
+          "translations": {
+            "ur": {
+              "question": "گردے کا بیرونی حصہ کون سا ہے؟",
+              "options": {
+                "A": "رینل کارٹیکس",
+                "B": "رینل پیلوس",
+                "C": "یوریٹر",
+                "D": "رینل ورید"
+              },
+              "explanation": "کارٹیکس گردے کا بیرونی حصہ ہے۔"
+            },
+            "sd": {
+              "question": "گردي جو ٻاهريون حصو ڪهڙو آهي؟",
+              "options": {
+                "A": "Renal cortex",
+                "B": "Renal pelvis",
+                "C": "Ureter",
+                "D": "Renal vein"
+              },
+              "explanation": "Cortex گردي جو ٻاهريون حصو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Blood enters glomerulus through:",
+          "options": {
+            "A": "Afferent arteriole",
+            "B": "Efferent arteriole",
+            "C": "Renal vein",
+            "D": "Ureter"
+          },
+          "correctOption": "A",
+          "explanation": "The afferent arteriole brings blood into the glomerulus.",
+          "translations": {
+            "ur": {
+              "question": "رت گلوميرولس ۾ ڪهڙي نلي مان داخل ٿئي ٿو؟",
+              "options": {
+                "A": "Afferent arteriole",
+                "B": "Efferent arteriole",
+                "C": "Renal vein",
+                "D": "Ureter"
+              },
+              "explanation": "Afferent arteriole رت کي گلوميرولس ۾ آڻي ٿي۔"
+            },
+            "sd": {
+              "question": "خون گلومیرولس میں کس نالی سے داخل ہوتا ہے؟",
+              "options": {
+                "A": "ایفرنٹ آرٹیریول",
+                "B": "ایفرنٹ آرٹیریول",
+                "C": "رینل ورید",
+                "D": "یوریٹر"
+              },
+              "explanation": "ایفرنٹ آرٹیریول خون کو گلومیرولس میں لاتی ہے۔"
+            }
+          }
+        },
+        {
+          "question": "Filtration moves water and small solutes into:",
+          "options": {
+            "A": "Bowman's capsule",
+            "B": "Urinary bladder",
+            "C": "Ureter",
+            "D": "Renal vein"
+          },
+          "correctOption": "A",
+          "explanation": "Blood pressure drives small substances into Bowman's capsule.",
+          "translations": {
+            "ur": {
+              "question": "فلٹریشن میں پانی اور چھوٹے مادے کہاں جاتے ہیں؟",
+              "options": {
+                "A": "بومینز کیپسول",
+                "B": "مثانہ",
+                "C": "یوریٹر",
+                "D": "رینل ورید"
+              },
+              "explanation": "خون کا دباؤ چھوٹے مادوں کو بومینز کیپسول میں پہنچاتا ہے۔"
+            },
+            "sd": {
+              "question": "فلٽريشن ۾ پاڻي ۽ ننڍا مادا ڪٿي وڃن ٿا؟",
+              "options": {
+                "A": "Bowman's capsule",
+                "B": "Urinary bladder",
+                "C": "Ureter",
+                "D": "Renal vein"
+              },
+              "explanation": "رت جو دٻاءُ ننڍن مادن کي Bowman's capsule ۾ آڻي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Which normally remains in blood during filtration?",
+          "options": {
+            "A": "Blood cells and most large proteins",
+            "B": "Water and urea",
+            "C": "Glucose and amino acids",
+            "D": "Small ions"
+          },
+          "correctOption": "A",
+          "explanation": "Cells and large proteins cannot normally cross the filtration barrier.",
+          "translations": {
+            "ur": {
+              "question": "فلٹریشن کے دوران کون خون میں رہتا ہے؟",
+              "options": {
+                "A": "خون کے خلیات اور بڑے پروٹین",
+                "B": "پانی اور یوریا",
+                "C": "گلوکوز اور امینو ایسڈز",
+                "D": "چھوٹے آئنز"
+              },
+              "explanation": "خلیات اور بڑے پروٹین فلٹریشن رکاوٹ سے نہیں گزرتے۔"
+            },
+            "sd": {
+              "question": "فلٽريشن دوران ڪهڙا مادا رت ۾ رهن ٿا؟",
+              "options": {
+                "A": "رت جا خليا ۽ وڏا پروٽين",
+                "B": "پاڻي ۽ يوريا",
+                "C": "گلوڪوز ۽ امينو ايسڊ",
+                "D": "ننڍا آئن"
+              },
+              "explanation": "خليا ۽ وڏا پروٽين فلٽريشن واري رڪاوٽ مان نٿا گذرن۔"
+            }
+          }
+        },
+        {
+          "question": "Most filtered glucose is reabsorbed in:",
+          "options": {
+            "A": "Proximal convoluted tubule",
+            "B": "Ureter",
+            "C": "Bladder",
+            "D": "Renal pelvis"
+          },
+          "correctOption": "A",
+          "explanation": "The PCT reabsorbs nearly all filtered glucose in a healthy person.",
+          "translations": {
+            "ur": {
+              "question": "گلوکوز زیادہ تر کہاں دوبارہ جذب ہوتا ہے؟",
+              "options": {
+                "A": "پراکسیمل کنولوٹیڈ ٹیوبول",
+                "B": "یوریٹر",
+                "C": "مثانہ",
+                "D": "رینل پیلوس"
+              },
+              "explanation": "PCT تقریباً تمام چھنا ہوا گلوکوز واپس جذب کرتا ہے۔"
+            },
+            "sd": {
+              "question": "گلوڪوز گهڻو ڪري ڪٿي ٻيهر جذب ٿئي ٿو؟",
+              "options": {
+                "A": "Proximal convoluted tubule",
+                "B": "Ureter",
+                "C": "Bladder",
+                "D": "Renal pelvis"
+              },
+              "explanation": "PCT لڳ ڀڳ سڄو ڇاڻيل گلوڪوز واپس جذب ڪري ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Tubular secretion moves substances:",
+          "options": {
+            "A": "From blood into tubule",
+            "B": "From bladder to kidney",
+            "C": "From urine into lungs",
+            "D": "From ureter to bladder"
+          },
+          "correctOption": "A",
+          "explanation": "Secretion transfers selected ions from blood into tubular fluid.",
+          "translations": {
+            "ur": {
+              "question": "Tubular secretion میں مادے کس سمت جاتے ہیں؟",
+              "options": {
+                "A": "خون سے نالی میں",
+                "B": "مثانے سے گردے میں",
+                "C": "پیشاب سے پھیپھڑوں میں",
+                "D": "یوریٹر سے مثانے میں"
+              },
+              "explanation": "منتخب آئن خون سے نالی میں منتقل ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "Tubular secretion ۾ مادا ڪهڙي رخ وڃن ٿا؟",
+              "options": {
+                "A": "رت مان نلي ۾",
+                "B": "مثاني مان گردي ۾",
+                "C": "پيشاب مان ڦڦڙن ۾",
+                "D": "يوريٽر مان مثاني ۾"
+              },
+              "explanation": "چونڊيل آئن رت مان نلي ۾ وڃن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "Which hormone increases water reabsorption in collecting ducts?",
+          "options": {
+            "A": "ADH",
+            "B": "Insulin",
+            "C": "Adrenaline",
+            "D": "Thyroxine"
+          },
+          "correctOption": "A",
+          "explanation": "ADH increases collecting-duct water permeability.",
+          "translations": {
+            "ur": {
+              "question": "کون سا ہارمون پانی کا دوبارہ جذب بڑھاتا ہے؟",
+              "options": {
+                "A": "ADH",
+                "B": "انسولین",
+                "C": "ایڈرینالین",
+                "D": "تھائروکسین"
+              },
+              "explanation": "ADH کلیکٹنگ ڈکٹس میں پانی کا جذب بڑھاتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو هارمون پاڻيءَ جو ٻيهر جذب وڌائي ٿو؟",
+              "options": {
+                "A": "ADH",
+                "B": "Insulin",
+                "C": "Adrenaline",
+                "D": "Thyroxine"
+              },
+              "explanation": "ADH collecting ducts ۾ پاڻيءَ جو جذب وڌائي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "During dehydration, urine is usually:",
+          "options": {
+            "A": "Low volume and concentrated",
+            "B": "High volume and dilute",
+            "C": "Absent in all cases",
+            "D": "Full of red cells"
+          },
+          "correctOption": "A",
+          "explanation": "ADH conserves water, producing less concentrated? No: less volume and more concentrated urine.",
+          "translations": {
+            "ur": {
+              "question": "پاڻي کی کمی میں پیشاب عموماً کیسا ہوتا ہے؟",
+              "options": {
+                "A": "کم مقدار اور گاڑھا",
+                "B": "زیادہ مقدار اور پتلا",
+                "C": "ہر صورت میں بند",
+                "D": "سرخ خلیات سے بھرپور"
+              },
+              "explanation": "ADH پانی بچاتا ہے، اس لیے پیشاب کم اور گاڑھا ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "پاڻيءَ جي کوٽ ۾ پيشاب عام طور ڪهڙو هوندو آهي؟",
+              "options": {
+                "A": "ٿورو ۽ گاڙهو",
+                "B": "وڌيڪ ۽ هلڪو",
+                "C": "هر حالت ۾ بند",
+                "D": "ڳاڙهن خلين سان ڀريل"
+              },
+              "explanation": "ADH پاڻي بچائي ٿو، تنهنڪري پيشاب ٿورو ۽ گاڙهو ٿئي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Haemodialysis uses:",
+          "options": {
+            "A": "A dialyser membrane to remove wastes from blood",
+            "B": "Lungs to filter urine",
+            "C": "Bladder to pump blood",
+            "D": "Liver to make urine"
+          },
+          "correctOption": "A",
+          "explanation": "Wastes diffuse across a selectively permeable membrane into dialysis fluid.",
+          "translations": {
+            "ur": {
+              "question": "Haemodialysis میں فضلات کیسے نکالے جاتے ہیں؟",
+              "options": {
+                "A": "ڈائیلائزر کی جھلی سے خون کے فضلات نکالے جاتے ہیں",
+                "B": "پھیپھڑے پیشاب چھانتے ہیں",
+                "C": "مثانہ خون پمپ کرتا ہے",
+                "D": "جگر پیشاب بناتا ہے"
+              },
+              "explanation": "فضلات نیم نفوذ پذیر جھلی سے ڈائیلاسس سیال میں جاتے ہیں۔"
+            },
+            "sd": {
+              "question": "Haemodialysis ۾ فضلا ڪيئن ڪڍجن ٿا؟",
+              "options": {
+                "A": "Dialyser جي جھلي وسيلي رت مان فضلا ڪڍجن ٿا",
+                "B": "ڦڦڙ پيشاب ڇاڻين ٿا",
+                "C": "مثانو رت پمپ ڪري ٿو",
+                "D": "جيرو پيشاب ٺاهي ٿو"
+              },
+              "explanation": "فضلا نيم نفوذ پذير جھلي وسيلي dialysis fluid ۾ وڃن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "A major risk of transplant immunosuppressants is:",
+          "options": {
+            "A": "Increased infection risk",
+            "B": "Permanent immunity to infection",
+            "C": "Immediate kidney stones",
+            "D": "No need for monitoring"
+          },
+          "correctOption": "A",
+          "explanation": "Immunosuppressants reduce rejection but can increase infection risk.",
+          "translations": {
+            "ur": {
+              "question": "پیوندکاری کے بعد مدافعت دبانے والی ادویات کا خطرہ کیا ہے؟",
+              "options": {
+                "A": "انفیکشن کا بڑھا ہوا خطرہ",
+                "B": "انفیکشن سے مستقل تحفظ",
+                "C": "فوراً پتھری بننا",
+                "D": "نگرانی کی ضرورت نہیں"
+              },
+              "explanation": "یہ ادویات ردِ پیوند کم کرتی ہیں مگر انفیکشن بڑھا سکتی ہیں۔"
+            },
+            "sd": {
+              "question": "Transplant کان پوءِ immunosuppressants جو خطرو ڇا آهي؟",
+              "options": {
+                "A": "انفيڪشن جو وڌيل خطرو",
+                "B": "انفيڪشن کان مستقل بچاءُ",
+                "C": "فوراً پٿري ٺهڻ",
+                "D": "نگراني جي ضرورت ناهي"
+              },
+              "explanation": "اهي دوائون رد ٿيڻ گهٽائين ٿيون پر انفيڪشن وڌائي سگهن ٿيون۔"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Differentiate excretion from egestion. Give two excretory products and the organs that remove them.",
+          "modelAnswer": "Excretion removes metabolic wastes or excess substances; egestion removes undigested food. Lungs remove carbon dioxide, kidneys remove urea, and skin removes small amounts of water and salts.",
+          "rubric": "Correct distinction (2 marks); two examples with organs (3 marks).",
+          "translations": {
+            "ur": {
+              "question": "اخراج اور Egestion میں فرق کریں۔ دو اخراجی مادے اور انہیں خارج کرنے والے اعضا لکھیں۔",
+              "modelAnswer": "اخراج میٹابولزم کے فضلات یا اضافی مادوں کو نکالتا ہے؛ Egestion غیر ہضم شدہ غذا نکالتا ہے۔ پھیپھڑے کاربن ڈائی آکسائیڈ، گردے یوریا اور جلد تھوڑا پانی و نمک خارج کرتی ہے۔",
+              "rubric": [
+                "درست فرق (2 نمبر)",
+                "دو مثالیں اور متعلقہ اعضا (3 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "اخراج ۽ Egestion ۾ فرق ڪريو. ٻه اخراجي مادا ۽ انهن کي خارج ڪندڙ عضوا لکو.",
+              "modelAnswer": "اخراج ميٽابولزم جا فضلا يا اضافي مادا ڪڍي ٿو؛ Egestion اڻ هضم خوراڪ ڪڍي ٿو. ڦڦڙ ڪاربان ڊاءِ آڪسائيڊ، گردا يوريا ۽ چمڙي ٿورو پاڻي ۽ لوڻ خارج ڪري ٿي.",
+              "rubric": [
+                "صحيح فرق (2 نمبر)",
+                "ٻه مثال ۽ لاڳاپيل عضوا (3 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Describe the internal structure of a kidney and trace the route of urine to outside the body.",
+          "modelAnswer": "The kidney has an outer cortex, inner medulla containing pyramids and a renal pelvis that collects urine. Urine flows from collecting ducts to renal pelvis, ureter, bladder and urethra.",
+          "rubric": "Cortex, medulla, pelvis (3 marks); correct urine route (2 marks).",
+          "translations": {
+            "ur": {
+              "question": "گردے کی اندرونی ساخت اور پیشاب کا جسم سے باہر تک راستہ بیان کریں۔",
+              "modelAnswer": "گردے میں بیرونی cortex، اندرونی medulla اور renal pelvis شامل ہیں۔ پیشاب collecting ducts سے renal pelvis، ureter، مثانے اور urethra تک جاتا ہے۔",
+              "rubric": [
+                "Cortex، medulla اور pelvis (3 نمبر)",
+                "پیشاب کا درست راستہ (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "گردي جي اندروني بناوت ۽ پيشاب جو جسم کان ٻاهر تائين رستو بيان ڪريو.",
+              "modelAnswer": "گردي ۾ ٻاهريون cortex، اندريون medulla ۽ renal pelvis شامل آهن. پيشاب collecting ducts کان renal pelvis، ureter، مثاني ۽ urethra تائين وڃي ٿو.",
+              "rubric": [
+                "Cortex، medulla ۽ pelvis (3 نمبر)",
+                "پيشاب جو صحيح رستو (2 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain glomerular filtration, selective reabsorption and tubular secretion.",
+          "modelAnswer": "Filtration moves water and small solutes from blood into Bowman's capsule. Reabsorption returns useful substances such as glucose, amino acids, water and ions to blood. Secretion transfers selected substances such as hydrogen and potassium ions from blood into the tubule.",
+          "rubric": "Filtration direction (2 marks); reabsorption direction/examples (2 marks); secretion direction/example (1 mark).",
+          "translations": {
+            "ur": {
+              "question": "Glomerular filtration، selective reabsorption اور tubular secretion کی وضاحت کریں۔",
+              "modelAnswer": "فلٹریشن میں پانی اور چھوٹے مادے خون سے Bowman's capsule میں جاتے ہیں۔ دوبارہ جذب میں گلوکوز، امینو ایسڈز، پانی اور آئن خون میں واپس آتے ہیں۔ secretion میں منتخب مادے جیسے ہائیڈروجن اور پوٹاشیم آئن خون سے نالی میں جاتے ہیں۔",
+              "rubric": [
+                "فلٹریشن کی سمت (2 نمبر)",
+                "دوبارہ جذب کی سمت/مثالیں (2 نمبر)",
+                "secretion کی سمت/مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Glomerular filtration، selective reabsorption ۽ tubular secretion بيان ڪريو.",
+              "modelAnswer": "فلٽريشن ۾ پاڻي ۽ ننڍا مادا رت مان Bowman's capsule ۾ وڃن ٿا. ٻيهر جذب ۾ گلوڪوز، امينو ايسڊ، پاڻي ۽ آئن رت ۾ واپس اچن ٿا. secretion ۾ هائيڊروجن ۽ پوٽاشيم جهڙا چونڊيل مادا رت مان نلي ۾ وڃن ٿا.",
+              "rubric": [
+                "فلٽريشن جو رخ (2 نمبر)",
+                "ٻيهر جذب جو رخ/مثال (2 نمبر)",
+                "secretion جو رخ/مثال (1 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Describe nephron structure and explain how filtration, reabsorption and secretion form urine. Include the role of ADH.",
+          "modelAnswer": "A nephron contains a renal corpuscle, PCT, loop of Henle, DCT and collecting duct. Blood pressure filters water and small solutes into Bowman's capsule; cells and most large proteins remain in blood. The PCT reabsorbs nearly all glucose and amino acids and much water and ions. Tubular secretion transfers selected ions from blood to tubular fluid and helps regulate pH. Remaining fluid becomes urine. ADH increases collecting-duct water permeability when body water is low, increasing water reabsorption and producing a smaller volume of concentrated urine.",
+          "rubric": "Nephron parts (2); filtration (2); reabsorption (2); secretion (1); ADH regulation (2); clarity (1).",
+          "translations": {
+            "ur": {
+              "question": "نیفرون کی ساخت اور پیشاب بننے میں فلٹریشن، دوبارہ جذب اور secretion کا کردار بیان کریں۔ ADH بھی شامل کریں۔",
+              "modelAnswer": "نیفرون میں renal corpuscle، PCT، loop of Henle، DCT اور collecting duct شامل ہیں۔ خون کا دباؤ پانی اور چھوٹے مادوں کو Bowman's capsule میں چھانتا ہے جبکہ خلیات اور بڑے پروٹین خون میں رہتے ہیں۔ PCT گلوکوز، امینو ایسڈز اور زیادہ پانی واپس جذب کرتا ہے۔ secretion منتخب آئن خون سے نالی میں منتقل کرتی ہے۔ باقی سیال پیشاب بنتا ہے۔ پانی کم ہو تو ADH پانی کا دوبارہ جذب بڑھا کر کم مقدار میں گاڑھا پیشاب بناتا ہے۔",
+              "rubric": [
+                "نیفرون کے حصے (2)",
+                "فلٹریشن (2)",
+                "دوبارہ جذب (2)",
+                "secretion (1)",
+                "ADH کا کردار (2)",
+                "وضاحت (1)"
+              ]
+            },
+            "sd": {
+              "question": "نيڦرون جي بناوت ۽ پيشاب ٺهڻ ۾ فلٽريشن، ٻيهر جذب ۽ secretion جو ڪردار بيان ڪريو. ADH به شامل ڪريو.",
+              "modelAnswer": "نيڦرون ۾ renal corpuscle، PCT، loop of Henle، DCT ۽ collecting duct شامل آهن. رت جو دٻاءُ پاڻي ۽ ننڍن مادن کي Bowman's capsule ۾ ڇاڻيندو آهي، جڏهن ته خليا ۽ وڏا پروٽين رت ۾ رهن ٿا. PCT گلوڪوز، امينو ايسڊ ۽ گهڻو پاڻي واپس جذب ڪري ٿو. secretion چونڊيل آئن رت مان نلي ۾ آڻي ٿي. باقي مايع پيشاب ٿئي ٿو. پاڻي گهٽ هجي ته ADH پاڻيءَ جو جذب وڌائي ٿورو ۽ گاڙهو پيشاب ٺاهي ٿو.",
+              "rubric": [
+                "نيڦرون جا حصا (2)",
+                "فلٽريشن (2)",
+                "ٻيهر جذب (2)",
+                "secretion (1)",
+                "ADH جو ڪردار (2)",
+                "وضاحت (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Case study: A patient with diabetes and long-standing hypertension develops swelling and abnormal kidney tests. Explain possible kidney damage, compare haemodialysis and peritoneal dialysis, and discuss transplantation limitations.",
+          "modelAnswer": "Diabetes can damage renal microvessels and filtration structures; hypertension can injure renal vessels and glomeruli. Haemodialysis passes blood through an external dialyser where wastes diffuse across a selectively permeable membrane into dialysis fluid. Peritoneal dialysis uses the peritoneum as the exchange membrane for fluid placed in the abdomen; infection is a risk. Transplantation may restore kidney function for a suitable patient but requires a donor, matching, surgery and long-term immunosuppressants, increasing infection risk. Diagnosis and treatment selection require a renal team and clinical tests.",
+          "rubric": "Diabetes/hypertension effects (2); haemodialysis (2); peritoneal dialysis (2); transplant benefits/limits (3); specialist assessment (1).",
+          "translations": {
+            "ur": {
+              "question": "کیس اسٹڈی: ذیابیطس اور بلند فشارِ خون کے مریض میں سوجن اور گردوں کے غیر معمولی ٹیسٹ ہیں۔ ممکنہ نقصان، دونوں اقسام کی dialysis اور پیوندکاری کی حدود بیان کریں۔",
+              "modelAnswer": "ذیابیطس گردوں کی باریک نالیوں اور فلٹریشن حصوں کو نقصان پہنچا سکتی ہے؛ بلند فشارِ خون گردوں کی نالیوں اور glomeruli کو زخمی کرتا ہے۔ Haemodialysis میں خون بیرونی dialyser سے گزرتا ہے اور فضلات جھلی کے پار سیال میں جاتے ہیں۔ Peritoneal dialysis میں پیٹ کی جھلی تبادلے کا کام کرتی ہے؛ انفیکشن خطرہ ہے۔ پیوندکاری موزوں مریض میں مفید ہے مگر ڈونر، مطابقت، آپریشن اور طویل مدتی ادویات درکار ہیں، جن سے انفیکشن بڑھ سکتا ہے۔ تشخیص اور علاج ماہر ٹیم کرتی ہے۔",
+              "rubric": [
+                "ذیابیطس/بلڈ پریشر کے اثرات (2)",
+                "Haemodialysis (2)",
+                "Peritoneal dialysis (2)",
+                "پیوندکاری کے فوائد/حدود (3)",
+                "ماہر جانچ (1)"
+              ]
+            },
+            "sd": {
+              "question": "ڪيس اسٽڊي: ذیابيطس ۽ هاءِ بلڊ پريشر واري مريض ۾ سوڄ ۽ گردن جا غير معمولي ٽيسٽ آهن. ممڪن نقصان، ٻنهي قسمن جي dialysis ۽ transplant جون حدون بيان ڪريو.",
+              "modelAnswer": "ذیابيطس گردن جي سنهين نلين ۽ فلٽريشن حصن کي نقصان پهچائي سگهي ٿي؛ هاءِ بلڊ پريشر گردن جي نلين ۽ glomeruli کي زخمي ڪري ٿو. Haemodialysis ۾ رت ٻاهرين dialyser مان گذري ٿو ۽ فضلا جھلي پار مايع ۾ وڃن ٿا. Peritoneal dialysis ۾ پيٽ جي جھلي مٽاسٽا ڪري ٿي؛ انفيڪشن خطرو آهي. Transplant مناسب مريض لاءِ فائديمند آهي، پر ڊونر، مطابقت، آپريشن ۽ ڊگهي مدي واريون دوائون گهرجن، جن سان انفيڪشن وڌي سگهي ٿو. تشخيص ۽ علاج ماهر ٽيم ڪري ٿي.",
+              "rubric": [
+                "ذیابيطس/بلڊ پريشر جا اثر (2)",
+                "Haemodialysis (2)",
+                "Peritoneal dialysis (2)",
+                "Transplant جا فائدا/حدون (3)",
+                "ماهر جاچ (1)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
