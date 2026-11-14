@@ -321,16 +321,6 @@
           "explanation": "The afferent arteriole brings blood into the glomerulus.",
           "translations": {
             "ur": {
-              "question": "رت گلوميرولس ۾ ڪهڙي نلي مان داخل ٿئي ٿو؟",
-              "options": {
-                "A": "Afferent arteriole",
-                "B": "Efferent arteriole",
-                "C": "Renal vein",
-                "D": "Ureter"
-              },
-              "explanation": "Afferent arteriole رت کي گلوميرولس ۾ آڻي ٿي۔"
-            },
-            "sd": {
               "question": "خون گلومیرولس میں کس نالی سے داخل ہوتا ہے؟",
               "options": {
                 "A": "ایفرنٹ آرٹیریول",
@@ -339,6 +329,16 @@
                 "D": "یوریٹر"
               },
               "explanation": "ایفرنٹ آرٹیریول خون کو گلومیرولس میں لاتی ہے۔"
+            },
+            "sd": {
+              "question": "رت گلوميرولس ۾ ڪهڙي نلي مان داخل ٿئي ٿو؟",
+              "options": {
+                "A": "Afferent arteriole",
+                "B": "Efferent arteriole",
+                "C": "Renal vein",
+                "D": "Ureter"
+              },
+              "explanation": "Afferent arteriole رت کي گلوميرولس ۾ آڻي ٿي۔"
             }
           }
         },
