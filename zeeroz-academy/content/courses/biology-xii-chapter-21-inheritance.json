@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-21-inheritance",
+  "title": "Biology XII — Chapter 21: Inheritance",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 21 — Inheritance (23 periods). Five lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 21,
+    "periods": 23,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 21: Inheritance",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 21; 23 periods.",
+      "lessons": [
+        {
+          "title": "21.1 Mendel's laws",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain mendel's laws and connect the concept with evidence, biological function and a relevant application.\n\nGenes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔",
+            "sd": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا."
+          }
+        },
+        {
+          "title": "21.2 Non-Mendelian inheritance",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain non-mendelian inheritance and connect the concept with evidence, biological function and a relevant application.\n\nIncomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔",
+            "sd": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا."
+          }
+        },
+        {
+          "title": "21.3 ABO and Rh blood groups",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain abo and rh blood groups and connect the concept with evidence, biological function and a relevant application.\n\nABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+            "sd": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي."
+          }
+        },
+        {
+          "title": "21.4 Polygenic traits and linkage",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain polygenic traits and linkage and connect the concept with evidence, biological function and a relevant application.\n\nPolygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔",
+            "sd": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو."
+          }
+        },
+        {
+          "title": "21.5 Sex determination and sex linkage",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain sex determination and sex linkage and connect the concept with evidence, biological function and a relevant application.\n\nHuman sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔",
+            "sd": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes mendel's laws?",
+          "options": {
+            "A": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently.",
+            "B": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population.",
+            "C": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.",
+            "D": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often."
+          },
+          "correctOption": "A",
+          "explanation": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently. This is the central principle of mendel's laws.",
+          "translations": {
+            "ur": {
+              "question": "Mendel's laws کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔",
+                "B": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔",
+                "C": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+                "D": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔"
+              },
+              "explanation": "درست جواب: جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔"
+            },
+            "sd": {
+              "question": "Mendel's laws بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا.",
+                "B": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا.",
+                "C": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+                "D": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو."
+              },
+              "explanation": "صحيح جواب: جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of mendel's laws?",
+          "options": {
+            "A": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population.",
+            "B": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.",
+            "C": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often.",
+            "D": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently."
+          },
+          "correctOption": "D",
+          "explanation": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently. This is the central principle of mendel's laws.",
+          "translations": {
+            "ur": {
+              "question": "Mendel's laws کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔",
+                "B": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+                "C": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔",
+                "D": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔"
+              },
+              "explanation": "درست جواب: جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔"
+            },
+            "sd": {
+              "question": "Mendel's laws بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا.",
+                "B": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+                "C": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو.",
+                "D": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about mendel's laws?",
+          "options": {
+            "A": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.",
+            "B": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often.",
+            "C": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently.",
+            "D": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population."
+          },
+          "correctOption": "C",
+          "explanation": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently. This is the central principle of mendel's laws.",
+          "translations": {
+            "ur": {
+              "question": "Mendel's laws کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+                "B": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔",
+                "C": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔",
+                "D": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔"
+              },
+              "explanation": "درست جواب: جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔"
+            },
+            "sd": {
+              "question": "Mendel's laws بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+                "B": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو.",
+                "C": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا.",
+                "D": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا."
+              },
+              "explanation": "صحيح جواب: جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes non-mendelian inheritance?",
+          "options": {
+            "A": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.",
+            "B": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often.",
+            "C": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees.",
+            "D": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population."
+          },
+          "correctOption": "D",
+          "explanation": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population. This is the central principle of non-mendelian inheritance.",
+          "translations": {
+            "ur": {
+              "question": "Non-Mendelian inheritance کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+                "B": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔",
+                "C": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔",
+                "D": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔"
+              },
+              "explanation": "درست جواب: نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔"
+            },
+            "sd": {
+              "question": "Non-Mendelian inheritance بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+                "B": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو.",
+                "C": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون.",
+                "D": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا."
+              },
+              "explanation": "صحيح جواب: نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of non-mendelian inheritance?",
+          "options": {
+            "A": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often.",
+            "B": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees.",
+            "C": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population.",
+            "D": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion."
+          },
+          "correctOption": "C",
+          "explanation": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population. This is the central principle of non-mendelian inheritance.",
+          "translations": {
+            "ur": {
+              "question": "Non-Mendelian inheritance کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔",
+                "B": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔",
+                "C": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔",
+                "D": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔"
+              },
+              "explanation": "درست جواب: نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔"
+            },
+            "sd": {
+              "question": "Non-Mendelian inheritance بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو.",
+                "B": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون.",
+                "C": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا.",
+                "D": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي."
+              },
+              "explanation": "صحيح جواب: نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about non-mendelian inheritance?",
+          "options": {
+            "A": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees.",
+            "B": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population.",
+            "C": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.",
+            "D": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often."
+          },
+          "correctOption": "B",
+          "explanation": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population. This is the central principle of non-mendelian inheritance.",
+          "translations": {
+            "ur": {
+              "question": "Non-Mendelian inheritance کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔",
+                "B": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔",
+                "C": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+                "D": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔"
+              },
+              "explanation": "درست جواب: نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔"
+            },
+            "sd": {
+              "question": "Non-Mendelian inheritance بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون.",
+                "B": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا.",
+                "C": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+                "D": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو."
+              },
+              "explanation": "صحيح جواب: نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes abo and rh blood groups?",
+          "options": {
+            "A": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees.",
+            "B": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently.",
+            "C": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.",
+            "D": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often."
+          },
+          "correctOption": "C",
+          "explanation": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion. This is the central principle of abo and rh blood groups.",
+          "translations": {
+            "ur": {
+              "question": "ABO and Rh blood groups کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔",
+                "B": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔",
+                "C": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+                "D": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔"
+              },
+              "explanation": "درست جواب: ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔"
+            },
+            "sd": {
+              "question": "ABO and Rh blood groups بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون.",
+                "B": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا.",
+                "C": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+                "D": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو."
+              },
+              "explanation": "صحيح جواب: ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of abo and rh blood groups?",
+          "options": {
+            "A": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently.",
+            "B": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.",
+            "C": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often.",
+            "D": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees."
+          },
+          "correctOption": "B",
+          "explanation": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion. This is the central principle of abo and rh blood groups.",
+          "translations": {
+            "ur": {
+              "question": "ABO and Rh blood groups کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔",
+                "B": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+                "C": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔",
+                "D": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔"
+              },
+              "explanation": "درست جواب: ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔"
+            },
+            "sd": {
+              "question": "ABO and Rh blood groups بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا.",
+                "B": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+                "C": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو.",
+                "D": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون."
+              },
+              "explanation": "صحيح جواب: ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about abo and rh blood groups?",
+          "options": {
+            "A": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.",
+            "B": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often.",
+            "C": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees.",
+            "D": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently."
+          },
+          "correctOption": "A",
+          "explanation": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion. This is the central principle of abo and rh blood groups.",
+          "translations": {
+            "ur": {
+              "question": "ABO and Rh blood groups کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+                "B": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔",
+                "C": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔",
+                "D": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔"
+              },
+              "explanation": "درست جواب: ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔"
+            },
+            "sd": {
+              "question": "ABO and Rh blood groups بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+                "B": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو.",
+                "C": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون.",
+                "D": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes polygenic traits and linkage?",
+          "options": {
+            "A": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population.",
+            "B": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often.",
+            "C": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees.",
+            "D": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently."
+          },
+          "correctOption": "B",
+          "explanation": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often. This is the central principle of polygenic traits and linkage.",
+          "translations": {
+            "ur": {
+              "question": "Polygenic traits and linkage کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔",
+                "B": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔",
+                "C": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔",
+                "D": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔"
+              },
+              "explanation": "درست جواب: کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔"
+            },
+            "sd": {
+              "question": "Polygenic traits and linkage بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا.",
+                "B": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو.",
+                "C": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون.",
+                "D": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of polygenic traits and linkage?",
+          "options": {
+            "A": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often.",
+            "B": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees.",
+            "C": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently.",
+            "D": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population."
+          },
+          "correctOption": "A",
+          "explanation": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often. This is the central principle of polygenic traits and linkage.",
+          "translations": {
+            "ur": {
+              "question": "Polygenic traits and linkage کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔",
+                "B": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔",
+                "C": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔",
+                "D": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔"
+              },
+              "explanation": "درست جواب: کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔"
+            },
+            "sd": {
+              "question": "Polygenic traits and linkage بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو.",
+                "B": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون.",
+                "C": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا.",
+                "D": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا."
+              },
+              "explanation": "صحيح جواب: گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about polygenic traits and linkage?",
+          "options": {
+            "A": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees.",
+            "B": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently.",
+            "C": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population.",
+            "D": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often."
+          },
+          "correctOption": "D",
+          "explanation": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often. This is the central principle of polygenic traits and linkage.",
+          "translations": {
+            "ur": {
+              "question": "Polygenic traits and linkage کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔",
+                "B": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔",
+                "C": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔",
+                "D": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔"
+              },
+              "explanation": "درست جواب: کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔"
+            },
+            "sd": {
+              "question": "Polygenic traits and linkage بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون.",
+                "B": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا.",
+                "C": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا.",
+                "D": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو."
+              },
+              "explanation": "صحيح جواب: گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes sex determination and sex linkage?",
+          "options": {
+            "A": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees.",
+            "B": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently.",
+            "C": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population.",
+            "D": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion."
+          },
+          "correctOption": "A",
+          "explanation": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees. This is the central principle of sex determination and sex linkage.",
+          "translations": {
+            "ur": {
+              "question": "Sex determination and sex linkage کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔",
+                "B": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔",
+                "C": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔",
+                "D": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔"
+              },
+              "explanation": "درست جواب: انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔"
+            },
+            "sd": {
+              "question": "Sex determination and sex linkage بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون.",
+                "B": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا.",
+                "C": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا.",
+                "D": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي."
+              },
+              "explanation": "صحيح جواب: انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of sex determination and sex linkage?",
+          "options": {
+            "A": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently.",
+            "B": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population.",
+            "C": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.",
+            "D": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees."
+          },
+          "correctOption": "D",
+          "explanation": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees. This is the central principle of sex determination and sex linkage.",
+          "translations": {
+            "ur": {
+              "question": "Sex determination and sex linkage کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔",
+                "B": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔",
+                "C": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+                "D": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔"
+              },
+              "explanation": "درست جواب: انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔"
+            },
+            "sd": {
+              "question": "Sex determination and sex linkage بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا.",
+                "B": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا.",
+                "C": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+                "D": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون."
+              },
+              "explanation": "صحيح جواب: انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about sex determination and sex linkage?",
+          "options": {
+            "A": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population.",
+            "B": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.",
+            "C": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees.",
+            "D": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently."
+          },
+          "correctOption": "C",
+          "explanation": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees. This is the central principle of sex determination and sex linkage.",
+          "translations": {
+            "ur": {
+              "question": "Sex determination and sex linkage کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔",
+                "B": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+                "C": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔",
+                "D": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔"
+              },
+              "explanation": "درست جواب: انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔"
+            },
+            "sd": {
+              "question": "Sex determination and sex linkage بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا.",
+                "B": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+                "C": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون.",
+                "D": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain mendel's laws. Give one example or state its significance.",
+          "modelAnswer": "Genes are inherited in pairs; segregation separates alleles into gametes, while independent assortment applies to genes that assort independently.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Mendel's laws کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "جین جوڑوں کی صورت میں وراثت میں ملتے ہیں؛ علیحدگی کے قانون میں ایلیل گیمیٹس میں الگ ہوتے ہیں، جبکہ آزادانہ تقسیم ان جینز پر لاگو ہوتی ہے جو آزادانہ طور پر تقسیم ہوں۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Mendel's laws جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "جين جوڙن جي صورت ۾ ورثي ۾ ملن ٿا؛ الڳ ٿيڻ واري قانون ۾ ايلل گيميٽن ۾ جدا ٿين ٿا، جڏهن ته آزاد ورهاست انهن جينن تي لاڳو ٿئي ٿي جيڪي آزاد ورهاست ڪن ٿا.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain non-mendelian inheritance. Give one example or state its significance.",
+          "modelAnswer": "Incomplete dominance produces an intermediate heterozygous phenotype; codominance expresses both alleles, and multiple alleles occur in a population.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Non-Mendelian inheritance کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "نامکمل غلبے میں ہیٹروزائگس فرد درمیانی صفت دکھاتا ہے؛ مشترکہ غلبے میں دونوں ایلیل ظاہر ہوتے ہیں، اور آبادی میں متعدد ایلیل موجود ہو سکتے ہیں۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Non-Mendelian inheritance جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "نامڪمل غلبي ۾ هيٽروزائگس فرد وچولي صفت ڏيکاري ٿو؛ گڏيل غلبي ۾ ٻئي ايلل ظاهر ٿين ٿا ۽ آباديءَ ۾ گهڻا ايلل ٿي سگهن ٿا.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain abo and rh blood groups. Give one example or state its significance.",
+          "modelAnswer": "ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ABO and Rh blood groups کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ABO and Rh blood groups جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss polygenic traits and linkage in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often. ABO groups depend on A and B antigens; Rh status depends mainly on the D antigen and can matter in pregnancy and transfusion. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Polygenic traits and linkage کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔ ABO بلڈ گروپ A اور B اینٹی جن پر منحصر ہیں؛ Rh حیثیت بنیادی طور D اینٹی جن سے متعلق ہے اور حمل یا خون کی منتقلی میں اہم ہو سکتی ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Polygenic traits and linkage جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو. ABO رت جا گروپ A ۽ B اينٽيجن تي دارومدار رکن ٿا؛ Rh حيثيت گهڻو ڪري D اينٽيجن تي دارومدار رکي ٿي ۽ حمل يا رت جي منتقلي ۾ اهم ٿي سگهي ٿي.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss sex determination and sex linkage in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Human sex determination usually involves XX and XY chromosomes; X-linked traits show characteristic inheritance patterns in pedigrees. Polygenic traits involve many genes; epistasis occurs when one gene affects another, while linkage keeps nearby genes on the same chromosome together more often. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Sex determination and sex linkage کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "انسان میں جنس کا تعین عموماً XX اور XY کروموسوم سے ہوتا ہے؛ X-linked صفات خاندانی شجروں میں مخصوص وراثتی انداز دکھاتی ہیں۔ کثیر جینی صفات میں کئی جین شامل ہوتے ہیں؛ ایپسٹیسس میں ایک جین دوسرے پر اثر ڈالتا ہے، جبکہ لنکیج قریب جینز کو ایک کروموسوم پر ساتھ رکھتا ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Sex determination and sex linkage جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "انسان ۾ جنس جو تعين عام طور XX ۽ XY ڪروموسومن سان ٿئي ٿو؛ X-linked خاصيتون خانداني شجرن ۾ مخصوص وراثتي نمونا ڏيکارين ٿيون. گهڻ جيني خاصيتن ۾ ڪيترائي جين شامل آهن؛ ايپسٽيسس ۾ هڪ جين ٻئي تي اثر ڪري ٿو، جڏهن ته لنڪيج ويجهن جينن کي هڪ ڪروموسوم تي گڏ رکي ٿو.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
