@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ZEEROZ Academy — 3D Teacher Preview</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#07151d;color:#eef7f8;font-family:Inter,system-ui,Arial,sans-serif;min-height:100vh;display:grid;place-items:center;padding:18px}
+main{width:min(100%,980px)}header{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:0 0 14px}h1{font-size:clamp(20px,4vw,30px);margin:0;letter-spacing:.02em}p{color:#a9c1c8;margin:5px 0 0;font-size:14px}
+.stage{height:min(72vh,690px);min-height:440px;border:1px solid #24434d;border-radius:22px;overflow:hidden;position:relative;background:radial-gradient(ellipse at 50% 42%,#17404a 0%,#0c2631 42%,#07151d 100%);box-shadow:0 24px 70px #0008}
+canvas{display:block;width:100%;height:100%;touch-action:none}.tag{position:absolute;left:18px;top:16px;padding:8px 12px;border:1px solid #4c8790;border-radius:999px;background:#0a222bd9;color:#b9f3e7;font-size:11px;letter-spacing:.13em;text-transform:uppercase}
+.hint{position:absolute;right:16px;bottom:14px;color:#9cb9bf;font-size:12px;background:#07151dcc;padding:7px 10px;border-radius:9px}
+footer{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 3px;color:#9bb3bb;font-size:12px}.status{color:#9de4d5}
+@media(max-width:600px){body{padding:10px}.stage{height:70vh;min-height:420px}.hint{font-size:10px}}
+</style>
+</head>
+<body>
+<main>
+<header><div><h1>ZEEROZ Academy — Teacher Character</h1><p>Full-body animated 3D character concept · Preview 01</p></div><div class="status">● LIVE 3D</div></header>
+<section class="stage" id="stage"><div class="tag">ZEEROZ • EDUCATION</div><div class="hint">Drag to rotate · Pinch / scroll to zoom</div></section>
+<footer><span>Original procedural 3D character prototype</span><span>Male teacher · Teal kurta</span></footer>
+</main>
+<script type="module">
+import * as THREE from 'https://esm.sh/three@0.170.0';
+const host=document.getElementById('stage');
+const scene=new THREE.Scene();scene.fog=new THREE.Fog(0x0b2029,8,19);
+const camera=new THREE.PerspectiveCamera(34,host.clientWidth/host.clientHeight,.1,100);camera.position.set(0,2.25,8.7);
+const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(host.clientWidth,host.clientHeight);renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.25;host.appendChild(renderer.domElement);
+scene.add(new THREE.HemisphereLight(0xc8f4ff,0x17232b,2.0));
+const key=new THREE.DirectionalLight(0xffe3c2,3.1);key.position.set(4,7,6);key.castShadow=true;scene.add(key);
+const rim=new THREE.DirectionalLight(0x4bd8d0,2.4);rim.position.set(-4,4,-4);scene.add(rim);
+const mat=(c,rough=.72,metal=0)=>new THREE.MeshStandardMaterial({color:c,roughness:rough,metalness:metal});
+const skin=mat(0xb87956),skinLight=mat(0xd99b76),teal=mat(0x087c78),tealDark=mat(0x075a5b),cloth=mat(0x0a6868),pants=mat(0x172b3b),shoe=mat(0x101b25,.42),hair=mat(0x171a20,.8),beard=mat(0x242329),white=mat(0xf3eee3),iris=mat(0x39251b),black=mat(0x100f12,.25),gold=mat(0xc8a66a,.35,.55);
+const root=new THREE.Group();scene.add(root);
+function sphere(parent,name,pos,scale,material,seg=32){const m=new THREE.Mesh(new THREE.SphereGeometry(1,seg,24),material);m.name=name;m.position.set(...pos);m.scale.set(...scale);m.castShadow=true;m.receiveShadow=true;parent.add(m);return m}
+function capsule(parent,a,b,r,material){const A=new THREE.Vector3(...a),B=new THREE.Vector3(...b),d=new THREE.Vector3().subVectors(B,A);const mesh=new THREE.Mesh(new THREE.CapsuleGeometry(r,Math.max(.01,d.length()-2*r),6,12),material);mesh.position.copy(A).add(B).multiplyScalar(.5);mesh.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),d.normalize());mesh.castShadow=true;parent.add(mesh);return mesh}
+function cylinder(parent,pos,r1,r2,h,material,rad=32){const m=new THREE.Mesh(new THREE.CylinderGeometry(r1,r2,h,rad),material);m.position.set(...pos);m.castShadow=true;m.receiveShadow=true;parent.add(m);return m}
+// shoes and legs
+sphere(root,'left shoe',[-.19,.13,.06],[.22,.13,.39],shoe);sphere(root,'right shoe',[.19,.13,.06],[.22,.13,.39],shoe);
+capsule(root,[-.19,.3,0],[-.18,1.03,0],.115,pants);capsule(root,[.19,.3,0],[.18,1.03,0],.115,pants);
+// long kurta body, softly tapered
+const torso=cylinder(root,[0,1.82,0],.37,.48,1.48,teal,48);torso.scale.z=.72;
+sphere(root,'shoulders',[0,2.43,0],[.51,.22,.31],teal);
+const hem=cylinder(root,[0,1.12,0],.47,.48,.10,tealDark,48);hem.scale.z=.72;
+// collar and placket
+cylinder(root,[0,2.55,0],.105,.105,.16,tealDark,24);
+const placket=new THREE.Mesh(new THREE.BoxGeometry(.045,.74,.018),tealDark);placket.position.set(0,2.12,.267);root.add(placket);
+for(let y=2.42;y>1.78;y-=.16)sphere(root,'kurta button',[0,y,.282],[.025,.025,.012],gold,16);
+// arms, pivoted shoulders
+function makeArm(side){const g=new THREE.Group();g.position.set(side*.43,2.42,0);root.add(g);
+capsule(g,[0,0,0],[side*.12,-.42,.02],.13,teal);sphere(g,'cuff',[side*.12,-.43,.02],[.14,.09,.14],tealDark);
+capsule(g,[side*.12,-.47,.02],[side*.16,-.79,.12],.085,skin);sphere(g,'hand',[side*.16,-.86,.13],[.105,.14,.09],skinLight);
+for(let i=-1;i<=1;i++)capsule(g,[side*.16+i*.045,-.9,.19],[side*.16+i*.05,-1.01,.18],.022,skinLight);
+return g}
+const leftArm=makeArm(-1),rightArm=makeArm(1);
+// neck and head
+cylinder(root,[0,2.62,0],.13,.14,.28,skin);
+const head=new THREE.Group();head.position.set(0,2.98,0);root.add(head);
+sphere(head,'face',[0,0,0],[.36,.46,.31],skinLight,48);
+sphere(head,'ear left',[-.36,-.02,0],[.075,.12,.07],skin);sphere(head,'ear right',[.36,-.02,0],[.075,.12,.07],skin);
+sphere(head,'hair cap',[0,.29,-.025],[.37,.25,.33],hair,40);
+sphere(head,'side hair left',[-.32,.12,-.02],[.075,.22,.24],hair);sphere(head,'side hair right',[.32,.12,-.02],[.075,.22,.24],hair);
+sphere(head,'beard jaw',[0,-.29,.035],[.285,.18,.26],beard,40);
+sphere(head,'moustache left',[-.09,-.17,.29],[.13,.055,.045],beard);sphere(head,'moustache right',[.09,-.17,.29],[.13,.055,.045],beard);
+for(const x of [-.14,.14]){
+sphere(head,'eye white',[x,.045,.277],[.073,.052,.035],white);
+sphere(head,'iris',[x,.04,.308],[.032,.035,.018],iris);
+sphere(head,'pupil',[x,.04,.323],[.015,.02,.009],black);
+capsule(head,[x-.07,.13,.27],[x+.055,.14,.27],.018,hair);
+}
+sphere(head,'nose',[0,-.045,.32],[.052,.085,.065],skin);
+const smile=new THREE.Mesh(new THREE.TorusGeometry(.075,.012,8,24,Math.PI),mat(0x6b3029));smile.position.set(0,-.13,.294);smile.rotation.z=Math.PI;head.add(smile);
+// kurta cuffs
+const floor=new THREE.Mesh(new THREE.CircleGeometry(4,64),mat(0x102b34,.9));floor.rotation.x=-Math.PI/2;floor.position.y=.015;floor.receiveShadow=true;scene.add(floor);
+const ring=new THREE.Mesh(new THREE.TorusGeometry(1.15,.012,8,96),mat(0x2a7778,.5,.25));ring.rotation.x=Math.PI/2;ring.position.y=.025;ring.scale.set(1,.56,1);scene.add(ring);
+// subtle floating classroom light orbs
+for(let i=0;i<22;i++){const a=i/22*Math.PI*2;const orb=sphere(scene,'ambient orb',[Math.cos(a)*2.7,1.5+Math.sin(a*2)*.8,-1.3],[.018,.018,.018],mat(0x54c8bf,.3,.2),12)}
+let targetRot=0,rot=0,zoom=8.7,drag=false,lastX=0;
+renderer.domElement.addEventListener('pointerdown',e=>{drag=true;lastX=e.clientX;renderer.domElement.setPointerCapture(e.pointerId)});
+renderer.domElement.addEventListener('pointermove',e=>{if(!drag)return;targetRot+=(e.clientX-lastX)*.009;lastX=e.clientX});
+renderer.domElement.addEventListener('pointerup',()=>drag=false);
+renderer.domElement.addEventListener('wheel',e=>{zoom=THREE.MathUtils.clamp(zoom+e.deltaY*.008,6,11);},{passive:true});
+let start=performance.now();
+function animate(now){requestAnimationFrame(animate);const t=(now-start)/1000;rot+=(targetRot-rot)*.08;root.rotation.y=rot;root.position.y=Math.sin(t*1.5)*.025;
+rightArm.rotation.z=-.18+Math.sin(t*1.7)*.12;rightArm.rotation.x=-.15+Math.sin(t*1.7)*.13;
+leftArm.rotation.z=.14+Math.sin(t*1.25+1)*.08;leftArm.rotation.x=.05;
+head.rotation.y=Math.sin(t*.7)*.045;head.rotation.x=Math.sin(t*1.1)*.018;
+camera.position.z+=(zoom-camera.position.z)*.08;camera.lookAt(0,1.85,0);renderer.render(scene,camera)}
+requestAnimationFrame(animate);
+new ResizeObserver(()=>{const w=host.clientWidth,h=host.clientHeight;camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h)}).observe(host);
+</script>
+</body></html>
