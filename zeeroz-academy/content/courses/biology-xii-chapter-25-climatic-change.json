@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-25-climatic-change",
+  "title": "Biology XII — Chapter 25: Climatic Change",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 25 — Climatic Change (8 periods). Five lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 25,
+    "periods": 8,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 25: Climatic Change",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 25; 8 periods.",
+      "lessons": [
+        {
+          "title": "25.1 Greenhouse effect",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain greenhouse effect and connect the concept with evidence, biological function and a relevant application.\n\nGreenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔",
+            "sd": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي."
+          }
+        },
+        {
+          "title": "25.2 Climate evidence",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain climate evidence and connect the concept with evidence, biological function and a relevant application.\n\nTemperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔",
+            "sd": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا."
+          }
+        },
+        {
+          "title": "25.3 Impacts on biodiversity",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain impacts on biodiversity and connect the concept with evidence, biological function and a relevant application.\n\nChanging temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+            "sd": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون."
+          }
+        },
+        {
+          "title": "25.4 Endangered species",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain endangered species and connect the concept with evidence, biological function and a relevant application.\n\nSpecies become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔",
+            "sd": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن."
+          }
+        },
+        {
+          "title": "25.5 Mitigation and adaptation",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain mitigation and adaptation and connect the concept with evidence, biological function and a relevant application.\n\nMitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔",
+            "sd": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes greenhouse effect?",
+          "options": {
+            "A": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming.",
+            "B": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends.",
+            "C": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.",
+            "D": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action."
+          },
+          "correctOption": "A",
+          "explanation": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming. This is the central principle of greenhouse effect.",
+          "translations": {
+            "ur": {
+              "question": "Greenhouse effect کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔",
+                "B": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔",
+                "C": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+                "D": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔"
+              },
+              "explanation": "درست جواب: گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔"
+            },
+            "sd": {
+              "question": "Greenhouse effect بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي.",
+                "B": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا.",
+                "C": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+                "D": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن."
+              },
+              "explanation": "صحيح جواب: گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of greenhouse effect?",
+          "options": {
+            "A": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends.",
+            "B": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.",
+            "C": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action.",
+            "D": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming."
+          },
+          "correctOption": "D",
+          "explanation": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming. This is the central principle of greenhouse effect.",
+          "translations": {
+            "ur": {
+              "question": "Greenhouse effect کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔",
+                "B": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+                "C": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔",
+                "D": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔"
+              },
+              "explanation": "درست جواب: گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔"
+            },
+            "sd": {
+              "question": "Greenhouse effect بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا.",
+                "B": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+                "C": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن.",
+                "D": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي."
+              },
+              "explanation": "صحيح جواب: گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about greenhouse effect?",
+          "options": {
+            "A": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.",
+            "B": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action.",
+            "C": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming.",
+            "D": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends."
+          },
+          "correctOption": "C",
+          "explanation": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming. This is the central principle of greenhouse effect.",
+          "translations": {
+            "ur": {
+              "question": "Greenhouse effect کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+                "B": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔",
+                "C": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔",
+                "D": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔"
+            },
+            "sd": {
+              "question": "Greenhouse effect بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+                "B": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن.",
+                "C": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي.",
+                "D": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes climate evidence?",
+          "options": {
+            "A": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.",
+            "B": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action.",
+            "C": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation.",
+            "D": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends."
+          },
+          "correctOption": "D",
+          "explanation": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends. This is the central principle of climate evidence.",
+          "translations": {
+            "ur": {
+              "question": "Climate evidence کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+                "B": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔",
+                "C": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔",
+                "D": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Climate evidence بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+                "B": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن.",
+                "C": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي.",
+                "D": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of climate evidence?",
+          "options": {
+            "A": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action.",
+            "B": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation.",
+            "C": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends.",
+            "D": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life."
+          },
+          "correctOption": "C",
+          "explanation": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends. This is the central principle of climate evidence.",
+          "translations": {
+            "ur": {
+              "question": "Climate evidence کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔",
+                "B": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔",
+                "C": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔",
+                "D": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔"
+              },
+              "explanation": "درست جواب: درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Climate evidence بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن.",
+                "B": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي.",
+                "C": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا.",
+                "D": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون."
+              },
+              "explanation": "صحيح جواب: گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about climate evidence?",
+          "options": {
+            "A": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation.",
+            "B": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends.",
+            "C": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.",
+            "D": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action."
+          },
+          "correctOption": "B",
+          "explanation": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends. This is the central principle of climate evidence.",
+          "translations": {
+            "ur": {
+              "question": "Climate evidence کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔",
+                "B": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔",
+                "C": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+                "D": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔"
+              },
+              "explanation": "درست جواب: درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Climate evidence بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي.",
+                "B": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا.",
+                "C": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+                "D": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن."
+              },
+              "explanation": "صحيح جواب: گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes impacts on biodiversity?",
+          "options": {
+            "A": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation.",
+            "B": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming.",
+            "C": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.",
+            "D": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action."
+          },
+          "correctOption": "C",
+          "explanation": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life. This is the central principle of impacts on biodiversity.",
+          "translations": {
+            "ur": {
+              "question": "Impacts on biodiversity کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔",
+                "B": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔",
+                "C": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+                "D": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔"
+              },
+              "explanation": "درست جواب: درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔"
+            },
+            "sd": {
+              "question": "Impacts on biodiversity بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي.",
+                "B": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي.",
+                "C": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+                "D": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن."
+              },
+              "explanation": "صحيح جواب: گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of impacts on biodiversity?",
+          "options": {
+            "A": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming.",
+            "B": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.",
+            "C": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action.",
+            "D": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation."
+          },
+          "correctOption": "B",
+          "explanation": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life. This is the central principle of impacts on biodiversity.",
+          "translations": {
+            "ur": {
+              "question": "Impacts on biodiversity کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔",
+                "B": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+                "C": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔",
+                "D": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔"
+              },
+              "explanation": "درست جواب: درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔"
+            },
+            "sd": {
+              "question": "Impacts on biodiversity بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي.",
+                "B": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+                "C": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن.",
+                "D": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي."
+              },
+              "explanation": "صحيح جواب: گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about impacts on biodiversity?",
+          "options": {
+            "A": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.",
+            "B": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action.",
+            "C": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation.",
+            "D": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming."
+          },
+          "correctOption": "A",
+          "explanation": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life. This is the central principle of impacts on biodiversity.",
+          "translations": {
+            "ur": {
+              "question": "Impacts on biodiversity کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+                "B": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔",
+                "C": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔",
+                "D": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔"
+              },
+              "explanation": "درست جواب: درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔"
+            },
+            "sd": {
+              "question": "Impacts on biodiversity بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+                "B": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن.",
+                "C": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي.",
+                "D": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي."
+              },
+              "explanation": "صحيح جواب: گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes endangered species?",
+          "options": {
+            "A": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends.",
+            "B": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action.",
+            "C": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation.",
+            "D": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming."
+          },
+          "correctOption": "B",
+          "explanation": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action. This is the central principle of endangered species.",
+          "translations": {
+            "ur": {
+              "question": "Endangered species کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔",
+                "B": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔",
+                "C": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔",
+                "D": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔"
+              },
+              "explanation": "درست جواب: مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔"
+            },
+            "sd": {
+              "question": "Endangered species بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا.",
+                "B": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن.",
+                "C": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي.",
+                "D": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي."
+              },
+              "explanation": "صحيح جواب: رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of endangered species?",
+          "options": {
+            "A": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action.",
+            "B": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation.",
+            "C": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming.",
+            "D": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends."
+          },
+          "correctOption": "A",
+          "explanation": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action. This is the central principle of endangered species.",
+          "translations": {
+            "ur": {
+              "question": "Endangered species کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔",
+                "B": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔",
+                "C": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔",
+                "D": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔"
+            },
+            "sd": {
+              "question": "Endangered species بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن.",
+                "B": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي.",
+                "C": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي.",
+                "D": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about endangered species?",
+          "options": {
+            "A": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation.",
+            "B": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming.",
+            "C": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends.",
+            "D": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action."
+          },
+          "correctOption": "D",
+          "explanation": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action. This is the central principle of endangered species.",
+          "translations": {
+            "ur": {
+              "question": "Endangered species کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔",
+                "B": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔",
+                "C": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔",
+                "D": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔"
+              },
+              "explanation": "درست جواب: مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔"
+            },
+            "sd": {
+              "question": "Endangered species بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي.",
+                "B": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي.",
+                "C": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا.",
+                "D": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن."
+              },
+              "explanation": "صحيح جواب: رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes mitigation and adaptation?",
+          "options": {
+            "A": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation.",
+            "B": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming.",
+            "C": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends.",
+            "D": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life."
+          },
+          "correctOption": "A",
+          "explanation": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation. This is the central principle of mitigation and adaptation.",
+          "translations": {
+            "ur": {
+              "question": "Mitigation and adaptation کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔",
+                "B": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔",
+                "C": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔",
+                "D": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔"
+              },
+              "explanation": "درست جواب: تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔"
+            },
+            "sd": {
+              "question": "Mitigation and adaptation بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي.",
+                "B": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي.",
+                "C": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا.",
+                "D": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون."
+              },
+              "explanation": "صحيح جواب: گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of mitigation and adaptation?",
+          "options": {
+            "A": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming.",
+            "B": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends.",
+            "C": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.",
+            "D": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation."
+          },
+          "correctOption": "D",
+          "explanation": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation. This is the central principle of mitigation and adaptation.",
+          "translations": {
+            "ur": {
+              "question": "Mitigation and adaptation کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔",
+                "B": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔",
+                "C": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+                "D": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔"
+              },
+              "explanation": "درست جواب: تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔"
+            },
+            "sd": {
+              "question": "Mitigation and adaptation بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي.",
+                "B": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا.",
+                "C": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+                "D": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي."
+              },
+              "explanation": "صحيح جواب: گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about mitigation and adaptation?",
+          "options": {
+            "A": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends.",
+            "B": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.",
+            "C": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation.",
+            "D": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming."
+          },
+          "correctOption": "C",
+          "explanation": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation. This is the central principle of mitigation and adaptation.",
+          "translations": {
+            "ur": {
+              "question": "Mitigation and adaptation کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔",
+                "B": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+                "C": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔",
+                "D": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔"
+              },
+              "explanation": "درست جواب: تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔"
+            },
+            "sd": {
+              "question": "Mitigation and adaptation بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا.",
+                "B": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+                "C": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي.",
+                "D": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي."
+              },
+              "explanation": "صحيح جواب: گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain greenhouse effect. Give one example or state its significance.",
+          "modelAnswer": "Greenhouse gases absorb and re-emit infrared radiation; human activities have increased concentrations and strengthened warming.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Greenhouse effect کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "گرین ہاؤس گیسیں انفراریڈ شعاعیں جذب اور خارج کرتی ہیں؛ انسانی سرگرمیوں نے ان کی مقدار بڑھا کر حدت میں اضافہ کیا ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Greenhouse effect جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "گرين هائوس گئسون انفراريڊ شعاعون جذب ۽ ٻيهر خارج ڪن ٿيون؛ انساني سرگرمين انهن جي مقدار وڌائي گرمي وڌائي آهي.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain climate evidence. Give one example or state its significance.",
+          "modelAnswer": "Temperature records, ice cores, sea level, glacier change and ecological observations provide independent evidence about climate trends.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Climate evidence کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "درجہ حرارت کے ریکارڈ، برفانی تہیں، سمندر کی سطح، گلیشیئرز اور ماحولیاتی مشاہدات موسمی رجحانات کے شواہد فراہم کرتے ہیں۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Climate evidence جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "گرمي پد جا رڪارڊ، برفاني تهون، سمنڊ جي سطح، گليشيئر ۽ ماحولياتي مشاهدا موسمي رجحانن جا ثبوت ڏين ٿا.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain impacts on biodiversity. Give one example or state its significance.",
+          "modelAnswer": "Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Impacts on biodiversity کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Impacts on biodiversity جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss endangered species in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action. Changing temperature and rainfall alter habitats, migration, breeding seasons and species ranges; ocean warming and acidification stress marine life. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Endangered species کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔ درجہ حرارت اور بارش کی تبدیلی مسکن، ہجرت، افزائش کے موسم اور انواع کے پھیلاؤ کو بدلتی ہے؛ سمندری حدت اور تیزابیت آبی حیات پر دباؤ ڈالتی ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Endangered species جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن. گرمي پد ۽ برسات جي تبديلي رهائش، لڏپلاڻ، نسل وڌائڻ جا موسم ۽ نسلن جي پکيڙ بدلائي ٿي؛ سامونڊي گرمي ۽ تيزابيت آبي حيات کي متاثر ڪن ٿيون.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss mitigation and adaptation in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Mitigation reduces greenhouse-gas emissions; adaptation prepares communities and ecosystems for impacts through resilient planning and conservation. Species become vulnerable through habitat loss, climate stress, overexploitation, pollution and invasive species; conservation needs evidence-based action. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Mitigation and adaptation کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "تخفیف گرین ہاؤس گیسوں کے اخراج کو کم کرتی ہے؛ موافقت مضبوط منصوبہ بندی اور تحفظ کے ذریعے معاشروں اور ماحول کو اثرات کے لیے تیار کرتی ہے۔ مسکن کے نقصان، موسمی دباؤ، حد سے زیادہ شکار، آلودگی اور غیر مقامی انواع سے جاندار خطرے میں آتے ہیں؛ تحفظ کے لیے شواہد پر مبنی اقدامات ضروری ہیں۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Mitigation and adaptation جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "گهٽتائي گرين هائوس گئسن جو اخراج گهٽائي ٿي؛ موافقت مضبوط رٿابندي ۽ تحفظ سان سماجن ۽ ماحول کي اثرن لاءِ تيار ڪري ٿي. رهائش جي نقصان، موسمي دٻاءَ، حد کان وڌيڪ شڪار، آلودگي ۽ ٻاهرين نسلن سبب جاندار خطري ۾ اچن ٿا؛ تحفظ لاءِ ثبوتن تي ٻڌل قدم ضروري آهن.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

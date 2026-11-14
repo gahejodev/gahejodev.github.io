@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-27-structural-computational-biology",
+  "title": "Biology XII — Chapter 27: Structural Biology and Computational Biology",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 27 — Structural Biology and Computational Biology (10 periods). Five lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 27,
+    "periods": 10,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 27: Structural Biology and Computational Biology",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 27; 10 periods.",
+      "lessons": [
+        {
+          "title": "27.1 Structural biology",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain structural biology and connect the concept with evidence, biological function and a relevant application.\n\nStructural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔",
+            "sd": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي."
+          }
+        },
+        {
+          "title": "27.2 X-ray crystallography",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain x-ray crystallography and connect the concept with evidence, biological function and a relevant application.\n\nX-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔",
+            "sd": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي."
+          }
+        },
+        {
+          "title": "27.3 Other structure methods",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain other structure methods and connect the concept with evidence, biological function and a relevant application.\n\nNMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+            "sd": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون."
+          }
+        },
+        {
+          "title": "27.4 Computational biology and databases",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain computational biology and databases and connect the concept with evidence, biological function and a relevant application.\n\nComputational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔",
+            "sd": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا."
+          }
+        },
+        {
+          "title": "27.5 Homology and applications",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain homology and applications and connect the concept with evidence, biological function and a relevant application.\n\nSequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔",
+            "sd": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes structural biology?",
+          "options": {
+            "A": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity.",
+            "B": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures.",
+            "C": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.",
+            "D": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures."
+          },
+          "correctOption": "A",
+          "explanation": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity. This is the central principle of structural biology.",
+          "translations": {
+            "ur": {
+              "question": "Structural biology کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔",
+                "B": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔",
+                "C": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+                "D": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔"
+            },
+            "sd": {
+              "question": "Structural biology بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي.",
+                "B": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي.",
+                "C": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+                "D": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of structural biology?",
+          "options": {
+            "A": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures.",
+            "B": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.",
+            "C": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures.",
+            "D": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity."
+          },
+          "correctOption": "D",
+          "explanation": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity. This is the central principle of structural biology.",
+          "translations": {
+            "ur": {
+              "question": "Structural biology کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔",
+                "B": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+                "C": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔",
+                "D": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔"
+              },
+              "explanation": "درست جواب: ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔"
+            },
+            "sd": {
+              "question": "Structural biology بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي.",
+                "B": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+                "C": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا.",
+                "D": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي."
+              },
+              "explanation": "صحيح جواب: ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about structural biology?",
+          "options": {
+            "A": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.",
+            "B": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures.",
+            "C": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity.",
+            "D": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures."
+          },
+          "correctOption": "C",
+          "explanation": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity. This is the central principle of structural biology.",
+          "translations": {
+            "ur": {
+              "question": "Structural biology کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+                "B": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔",
+                "C": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔",
+                "D": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔"
+              },
+              "explanation": "درست جواب: ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔"
+            },
+            "sd": {
+              "question": "Structural biology بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+                "B": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا.",
+                "C": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي.",
+                "D": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي."
+              },
+              "explanation": "صحيح جواب: ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes x-ray crystallography?",
+          "options": {
+            "A": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.",
+            "B": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures.",
+            "C": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology.",
+            "D": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures."
+          },
+          "correctOption": "D",
+          "explanation": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures. This is the central principle of x-ray crystallography.",
+          "translations": {
+            "ur": {
+              "question": "X-ray crystallography کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+                "B": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔",
+                "C": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔",
+                "D": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔"
+              },
+              "explanation": "درست جواب: ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔"
+            },
+            "sd": {
+              "question": "X-ray crystallography بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+                "B": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا.",
+                "C": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو.",
+                "D": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي."
+              },
+              "explanation": "صحيح جواب: ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of x-ray crystallography?",
+          "options": {
+            "A": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures.",
+            "B": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology.",
+            "C": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures.",
+            "D": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes."
+          },
+          "correctOption": "C",
+          "explanation": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures. This is the central principle of x-ray crystallography.",
+          "translations": {
+            "ur": {
+              "question": "X-ray crystallography کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔",
+                "B": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔",
+                "C": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔",
+                "D": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔"
+              },
+              "explanation": "درست جواب: ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔"
+            },
+            "sd": {
+              "question": "X-ray crystallography بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا.",
+                "B": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو.",
+                "C": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي.",
+                "D": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون."
+              },
+              "explanation": "صحيح جواب: ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about x-ray crystallography?",
+          "options": {
+            "A": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology.",
+            "B": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures.",
+            "C": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.",
+            "D": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures."
+          },
+          "correctOption": "B",
+          "explanation": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures. This is the central principle of x-ray crystallography.",
+          "translations": {
+            "ur": {
+              "question": "X-ray crystallography کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔",
+                "B": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔",
+                "C": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+                "D": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔"
+            },
+            "sd": {
+              "question": "X-ray crystallography بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو.",
+                "B": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي.",
+                "C": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+                "D": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes other structure methods?",
+          "options": {
+            "A": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology.",
+            "B": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity.",
+            "C": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.",
+            "D": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures."
+          },
+          "correctOption": "C",
+          "explanation": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes. This is the central principle of other structure methods.",
+          "translations": {
+            "ur": {
+              "question": "Other structure methods کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔",
+                "B": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔",
+                "C": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+                "D": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔"
+            },
+            "sd": {
+              "question": "Other structure methods بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو.",
+                "B": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي.",
+                "C": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+                "D": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of other structure methods?",
+          "options": {
+            "A": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity.",
+            "B": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.",
+            "C": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures.",
+            "D": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology."
+          },
+          "correctOption": "B",
+          "explanation": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes. This is the central principle of other structure methods.",
+          "translations": {
+            "ur": {
+              "question": "Other structure methods کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔",
+                "B": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+                "C": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔",
+                "D": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔"
+              },
+              "explanation": "درست جواب: NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔"
+            },
+            "sd": {
+              "question": "Other structure methods بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي.",
+                "B": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+                "C": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا.",
+                "D": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about other structure methods?",
+          "options": {
+            "A": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.",
+            "B": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures.",
+            "C": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology.",
+            "D": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity."
+          },
+          "correctOption": "A",
+          "explanation": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes. This is the central principle of other structure methods.",
+          "translations": {
+            "ur": {
+              "question": "Other structure methods کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+                "B": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔",
+                "C": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔",
+                "D": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔"
+              },
+              "explanation": "درست جواب: NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔"
+            },
+            "sd": {
+              "question": "Other structure methods بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+                "B": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا.",
+                "C": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو.",
+                "D": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي."
+              },
+              "explanation": "صحيح جواب: NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes computational biology and databases?",
+          "options": {
+            "A": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures.",
+            "B": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures.",
+            "C": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology.",
+            "D": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity."
+          },
+          "correctOption": "B",
+          "explanation": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures. This is the central principle of computational biology and databases.",
+          "translations": {
+            "ur": {
+              "question": "Computational biology and databases کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔",
+                "B": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔",
+                "C": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔",
+                "D": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔"
+              },
+              "explanation": "درست جواب: کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Computational biology and databases بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي.",
+                "B": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا.",
+                "C": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو.",
+                "D": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي."
+              },
+              "explanation": "صحيح جواب: ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of computational biology and databases?",
+          "options": {
+            "A": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures.",
+            "B": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology.",
+            "C": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity.",
+            "D": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures."
+          },
+          "correctOption": "A",
+          "explanation": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures. This is the central principle of computational biology and databases.",
+          "translations": {
+            "ur": {
+              "question": "Computational biology and databases کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔",
+                "B": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔",
+                "C": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔",
+                "D": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔"
+              },
+              "explanation": "درست جواب: کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Computational biology and databases بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا.",
+                "B": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو.",
+                "C": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي.",
+                "D": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي."
+              },
+              "explanation": "صحيح جواب: ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about computational biology and databases?",
+          "options": {
+            "A": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology.",
+            "B": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity.",
+            "C": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures.",
+            "D": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures."
+          },
+          "correctOption": "D",
+          "explanation": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures. This is the central principle of computational biology and databases.",
+          "translations": {
+            "ur": {
+              "question": "Computational biology and databases کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔",
+                "B": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔",
+                "C": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔",
+                "D": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Computational biology and databases بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو.",
+                "B": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي.",
+                "C": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي.",
+                "D": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes homology and applications?",
+          "options": {
+            "A": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology.",
+            "B": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity.",
+            "C": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures.",
+            "D": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes."
+          },
+          "correctOption": "A",
+          "explanation": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology. This is the central principle of homology and applications.",
+          "translations": {
+            "ur": {
+              "question": "Homology and applications کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔",
+                "B": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔",
+                "C": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔",
+                "D": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔"
+              },
+              "explanation": "درست جواب: ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "Homology and applications بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو.",
+                "B": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي.",
+                "C": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي.",
+                "D": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون."
+              },
+              "explanation": "صحيح جواب: ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of homology and applications?",
+          "options": {
+            "A": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity.",
+            "B": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures.",
+            "C": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.",
+            "D": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology."
+          },
+          "correctOption": "D",
+          "explanation": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology. This is the central principle of homology and applications.",
+          "translations": {
+            "ur": {
+              "question": "Homology and applications کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔",
+                "B": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔",
+                "C": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+                "D": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔"
+              },
+              "explanation": "درست جواب: ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "Homology and applications بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي.",
+                "B": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي.",
+                "C": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+                "D": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about homology and applications?",
+          "options": {
+            "A": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures.",
+            "B": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.",
+            "C": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology.",
+            "D": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity."
+          },
+          "correctOption": "C",
+          "explanation": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology. This is the central principle of homology and applications.",
+          "translations": {
+            "ur": {
+              "question": "Homology and applications کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔",
+                "B": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+                "C": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔",
+                "D": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔"
+              },
+              "explanation": "درست جواب: ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "Homology and applications بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي.",
+                "B": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+                "C": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو.",
+                "D": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي."
+              },
+              "explanation": "صحيح جواب: ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain structural biology. Give one example or state its significance.",
+          "modelAnswer": "Structural biology studies the three-dimensional forms of biomolecules and relates molecular shape to biological activity.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Structural biology کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "ساختی حیاتیات حیاتی سالمات کی سہ جہتی ساخت کا مطالعہ کرتی ہے اور سالماتی شکل کو حیاتیاتی عمل سے جوڑتی ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Structural biology جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "ساختي حياتيات حياتياتي ماليڪيولن جي ٽي-رخا بناوت جو مطالعو ڪري ٿي ۽ ماليڪيولي شڪل کي حياتياتي ڪم سان ڳنڍي ٿي.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain x-ray crystallography. Give one example or state its significance.",
+          "modelAnswer": "X-ray crystallography uses diffraction patterns from crystals to infer atomic arrangements in ordered biomolecular structures.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "X-ray crystallography کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "ایکس رے کرسٹلگرافی کرسٹل سے حاصل ہونے والے انعراجی نمونوں کے ذریعے سالمے میں ایٹموں کی ترتیب معلوم کرتی ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "X-ray crystallography جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "ايڪس ري ڪرسٽلوگرافي ڪرسٽلن مان حاصل ٿيل ڊفريڪشن نمونن وسيلي ماليڪيول ۾ ايٽمن جي ترتيب معلوم ڪري ٿي.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain other structure methods. Give one example or state its significance.",
+          "modelAnswer": "NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Other structure methods کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Other structure methods جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss computational biology and databases in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures. NMR spectroscopy and cryo-electron microscopy provide complementary information about molecular structure, dynamics and large complexes. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Computational biology and databases کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔ NMR اسپیکٹروسکوپی اور کرائیو الیکٹران مائیکروسکوپی سالماتی ساخت، حرکت اور بڑے کمپلیکس کے بارے میں تکمیلی معلومات دیتی ہیں۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Computational biology and databases جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا. NMR اسپيڪٽروسڪوپي ۽ ڪرائيو اليڪٽران مائڪروسڪوپي ماليڪيولي بناوت، حرڪت ۽ وڏن ڪمپليڪس بابت اضافي ڄاڻ ڏين ٿيون.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss homology and applications in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Sequence or structural homology suggests shared ancestry; computational comparisons support research in evolution, agriculture and disease biology. Computational biology uses algorithms and computing to analyse biological data; public databases store sequences and molecular structures. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Homology and applications کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "ترتیبی یا ساختی ہومولوجی مشترک نسب کی طرف اشارہ کرتی ہے؛ کمپیوٹیشنل موازنہ ارتقا، زراعت اور بیماریوں کی تحقیق میں مدد دیتا ہے۔ کمپیوٹیشنل بائیولوجی حیاتیاتی ڈیٹا کے تجزیے کے لیے الگورتھم اور کمپیوٹر استعمال کرتی ہے؛ عوامی ڈیٹابیس ترتیبیں اور سالماتی ساخت محفوظ کرتے ہیں۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Homology and applications جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "ترتيبي يا ساختي هومولوجي گڏيل نسل ڏانهن اشارو ڪري ٿي؛ ڪمپيوٽيشنل مقابلو ارتقا، زراعت ۽ بيمارين جي تحقيق ۾ مدد ڪري ٿو. ڪمپيوٽيشنل حياتيات حياتياتي ڊيٽا جي تجزيي لاءِ الگورٿم ۽ ڪمپيوٽر استعمال ڪري ٿي؛ عوامي ڊيٽابيس ترتيبون ۽ ماليڪيولي بناوتون محفوظ ڪن ٿا.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

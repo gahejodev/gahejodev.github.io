@@ -211,6 +211,54 @@
       "title": "Biology XII — Chapter 20: Organic Evolution",
       "path": "zeeroz-academy/content/courses/biology-xii-chapter-20-organic-evolution.json",
       "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-21-inheritance",
+      "title": "Biology XII — Chapter 21: Inheritance",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-21-inheritance.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-22-chromosome-dna",
+      "title": "Biology XII — Chapter 22: Chromosome and DNA",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-22-chromosome-dna.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-23-biotechnology",
+      "title": "Biology XII — Chapter 23: Biotechnology",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-23-biotechnology.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-24-environmental-biology",
+      "title": "Biology XII — Chapter 24: Environmental Biology",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-24-environmental-biology.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-25-climatic-change",
+      "title": "Biology XII — Chapter 25: Climatic Change",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-25-climatic-change.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-26-pharmacological-drugs",
+      "title": "Biology XII — Chapter 26: Pharmacological Drugs",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-26-pharmacological-drugs.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-27-structural-computational-biology",
+      "title": "Biology XII — Chapter 27: Structural Biology and Computational Biology",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-27-structural-computational-biology.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-28-biostatistics-data-handling",
+      "title": "Biology XII — Chapter 28: Biostatistics and Data Handling",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-28-biostatistics-data-handling.json",
+      "version": "1"
     }
   ]
 }

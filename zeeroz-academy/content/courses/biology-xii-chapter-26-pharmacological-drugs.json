@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-26-pharmacological-drugs",
+  "title": "Biology XII — Chapter 26: Pharmacological Drugs",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 26 — Pharmacological Drugs (10 periods). Five lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 26,
+    "periods": 10,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 26: Pharmacological Drugs",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 26; 10 periods.",
+      "lessons": [
+        {
+          "title": "26.1 Drug discovery",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain drug discovery and connect the concept with evidence, biological function and a relevant application.\n\nDrug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔",
+            "sd": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن."
+          }
+        },
+        {
+          "title": "26.2 Antibiotics",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain antibiotics and connect the concept with evidence, biological function and a relevant application.\n\nAntibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔",
+            "sd": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن."
+          }
+        },
+        {
+          "title": "26.3 Antiviral medicines",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain antiviral medicines and connect the concept with evidence, biological function and a relevant application.\n\nAntiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+            "sd": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون."
+          }
+        },
+        {
+          "title": "26.4 Monoclonal antibodies",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain monoclonal antibodies and connect the concept with evidence, biological function and a relevant application.\n\nMonoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔",
+            "sd": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا."
+          }
+        },
+        {
+          "title": "26.5 Safety and responsible use",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain safety and responsible use and connect the concept with evidence, biological function and a relevant application.\n\nDrug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔",
+            "sd": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes drug discovery?",
+          "options": {
+            "A": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring.",
+            "B": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides.",
+            "C": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.",
+            "D": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context."
+          },
+          "correctOption": "A",
+          "explanation": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring. This is the central principle of drug discovery.",
+          "translations": {
+            "ur": {
+              "question": "Drug discovery کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔",
+                "B": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔",
+                "C": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+                "D": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔"
+              },
+              "explanation": "درست جواب: دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔"
+            },
+            "sd": {
+              "question": "Drug discovery بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن.",
+                "B": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن.",
+                "C": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+                "D": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا."
+              },
+              "explanation": "صحيح جواب: دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of drug discovery?",
+          "options": {
+            "A": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides.",
+            "B": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.",
+            "C": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context.",
+            "D": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring."
+          },
+          "correctOption": "D",
+          "explanation": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring. This is the central principle of drug discovery.",
+          "translations": {
+            "ur": {
+              "question": "Drug discovery کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔",
+                "B": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+                "C": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔",
+                "D": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔"
+            },
+            "sd": {
+              "question": "Drug discovery بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن.",
+                "B": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+                "C": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا.",
+                "D": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن."
+              },
+              "explanation": "صحيح جواب: دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about drug discovery?",
+          "options": {
+            "A": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.",
+            "B": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context.",
+            "C": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring.",
+            "D": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides."
+          },
+          "correctOption": "C",
+          "explanation": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring. This is the central principle of drug discovery.",
+          "translations": {
+            "ur": {
+              "question": "Drug discovery کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+                "B": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔",
+                "C": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔",
+                "D": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔"
+              },
+              "explanation": "درست جواب: دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔"
+            },
+            "sd": {
+              "question": "Drug discovery بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+                "B": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا.",
+                "C": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن.",
+                "D": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن."
+              },
+              "explanation": "صحيح جواب: دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes antibiotics?",
+          "options": {
+            "A": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.",
+            "B": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context.",
+            "C": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance.",
+            "D": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides."
+          },
+          "correctOption": "D",
+          "explanation": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides. This is the central principle of antibiotics.",
+          "translations": {
+            "ur": {
+              "question": "Antibiotics کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+                "B": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔",
+                "C": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔",
+                "D": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔"
+              },
+              "explanation": "درست جواب: اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔"
+            },
+            "sd": {
+              "question": "Antibiotics بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+                "B": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا.",
+                "C": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي.",
+                "D": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن."
+              },
+              "explanation": "صحيح جواب: اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of antibiotics?",
+          "options": {
+            "A": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context.",
+            "B": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance.",
+            "C": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides.",
+            "D": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication."
+          },
+          "correctOption": "C",
+          "explanation": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides. This is the central principle of antibiotics.",
+          "translations": {
+            "ur": {
+              "question": "Antibiotics کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔",
+                "B": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔",
+                "C": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔",
+                "D": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔"
+              },
+              "explanation": "درست جواب: اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔"
+            },
+            "sd": {
+              "question": "Antibiotics بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا.",
+                "B": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي.",
+                "C": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن.",
+                "D": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون."
+              },
+              "explanation": "صحيح جواب: اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about antibiotics?",
+          "options": {
+            "A": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance.",
+            "B": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides.",
+            "C": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.",
+            "D": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context."
+          },
+          "correctOption": "B",
+          "explanation": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides. This is the central principle of antibiotics.",
+          "translations": {
+            "ur": {
+              "question": "Antibiotics کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔",
+                "B": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔",
+                "C": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+                "D": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔"
+              },
+              "explanation": "درست جواب: اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔"
+            },
+            "sd": {
+              "question": "Antibiotics بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي.",
+                "B": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن.",
+                "C": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+                "D": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا."
+              },
+              "explanation": "صحيح جواب: اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes antiviral medicines?",
+          "options": {
+            "A": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance.",
+            "B": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring.",
+            "C": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.",
+            "D": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context."
+          },
+          "correctOption": "C",
+          "explanation": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication. This is the central principle of antiviral medicines.",
+          "translations": {
+            "ur": {
+              "question": "Antiviral medicines کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔",
+                "B": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔",
+                "C": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+                "D": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔"
+              },
+              "explanation": "درست جواب: اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔"
+            },
+            "sd": {
+              "question": "Antiviral medicines بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي.",
+                "B": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن.",
+                "C": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+                "D": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا."
+              },
+              "explanation": "صحيح جواب: اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of antiviral medicines?",
+          "options": {
+            "A": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring.",
+            "B": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.",
+            "C": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context.",
+            "D": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance."
+          },
+          "correctOption": "B",
+          "explanation": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication. This is the central principle of antiviral medicines.",
+          "translations": {
+            "ur": {
+              "question": "Antiviral medicines کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔",
+                "B": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+                "C": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔",
+                "D": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔"
+              },
+              "explanation": "درست جواب: اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔"
+            },
+            "sd": {
+              "question": "Antiviral medicines بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن.",
+                "B": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+                "C": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا.",
+                "D": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي."
+              },
+              "explanation": "صحيح جواب: اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about antiviral medicines?",
+          "options": {
+            "A": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.",
+            "B": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context.",
+            "C": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance.",
+            "D": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring."
+          },
+          "correctOption": "A",
+          "explanation": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication. This is the central principle of antiviral medicines.",
+          "translations": {
+            "ur": {
+              "question": "Antiviral medicines کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+                "B": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔",
+                "C": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔",
+                "D": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔"
+            },
+            "sd": {
+              "question": "Antiviral medicines بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+                "B": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا.",
+                "C": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي.",
+                "D": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن."
+              },
+              "explanation": "صحيح جواب: اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes monoclonal antibodies?",
+          "options": {
+            "A": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides.",
+            "B": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context.",
+            "C": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance.",
+            "D": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring."
+          },
+          "correctOption": "B",
+          "explanation": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context. This is the central principle of monoclonal antibodies.",
+          "translations": {
+            "ur": {
+              "question": "Monoclonal antibodies کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔",
+                "B": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔",
+                "C": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔",
+                "D": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔"
+            },
+            "sd": {
+              "question": "Monoclonal antibodies بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن.",
+                "B": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا.",
+                "C": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي.",
+                "D": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن."
+              },
+              "explanation": "صحيح جواب: مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of monoclonal antibodies?",
+          "options": {
+            "A": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context.",
+            "B": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance.",
+            "C": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring.",
+            "D": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides."
+          },
+          "correctOption": "A",
+          "explanation": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context. This is the central principle of monoclonal antibodies.",
+          "translations": {
+            "ur": {
+              "question": "Monoclonal antibodies کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔",
+                "B": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔",
+                "C": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔",
+                "D": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔"
+              },
+              "explanation": "درست جواب: مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔"
+            },
+            "sd": {
+              "question": "Monoclonal antibodies بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا.",
+                "B": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي.",
+                "C": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن.",
+                "D": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن."
+              },
+              "explanation": "صحيح جواب: مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about monoclonal antibodies?",
+          "options": {
+            "A": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance.",
+            "B": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring.",
+            "C": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides.",
+            "D": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context."
+          },
+          "correctOption": "D",
+          "explanation": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context. This is the central principle of monoclonal antibodies.",
+          "translations": {
+            "ur": {
+              "question": "Monoclonal antibodies کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔",
+                "B": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔",
+                "C": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔",
+                "D": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔"
+              },
+              "explanation": "درست جواب: مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔"
+            },
+            "sd": {
+              "question": "Monoclonal antibodies بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي.",
+                "B": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن.",
+                "C": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن.",
+                "D": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا."
+              },
+              "explanation": "صحيح جواب: مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes safety and responsible use?",
+          "options": {
+            "A": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance.",
+            "B": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring.",
+            "C": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides.",
+            "D": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication."
+          },
+          "correctOption": "A",
+          "explanation": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance. This is the central principle of safety and responsible use.",
+          "translations": {
+            "ur": {
+              "question": "Safety and responsible use کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔",
+                "B": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔",
+                "C": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔",
+                "D": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔"
+              },
+              "explanation": "درست جواب: دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔"
+            },
+            "sd": {
+              "question": "Safety and responsible use بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي.",
+                "B": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن.",
+                "C": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن.",
+                "D": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون."
+              },
+              "explanation": "صحيح جواب: دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of safety and responsible use?",
+          "options": {
+            "A": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring.",
+            "B": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides.",
+            "C": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.",
+            "D": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance."
+          },
+          "correctOption": "D",
+          "explanation": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance. This is the central principle of safety and responsible use.",
+          "translations": {
+            "ur": {
+              "question": "Safety and responsible use کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔",
+                "B": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔",
+                "C": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+                "D": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔"
+              },
+              "explanation": "درست جواب: دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔"
+            },
+            "sd": {
+              "question": "Safety and responsible use بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن.",
+                "B": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن.",
+                "C": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+                "D": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي."
+              },
+              "explanation": "صحيح جواب: دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about safety and responsible use?",
+          "options": {
+            "A": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides.",
+            "B": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.",
+            "C": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance.",
+            "D": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring."
+          },
+          "correctOption": "C",
+          "explanation": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance. This is the central principle of safety and responsible use.",
+          "translations": {
+            "ur": {
+              "question": "Safety and responsible use کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔",
+                "B": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+                "C": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔",
+                "D": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔"
+            },
+            "sd": {
+              "question": "Safety and responsible use بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن.",
+                "B": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+                "C": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي.",
+                "D": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن."
+              },
+              "explanation": "صحيح جواب: دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain drug discovery. Give one example or state its significance.",
+          "modelAnswer": "Drug development moves from target identification and laboratory research through preclinical assessment and regulated clinical trials to monitoring.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Drug discovery کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "دوا کی تیاری میں ہدف کی شناخت، تجربہ گاہی تحقیق، قبل از طبی جانچ، منظم کلینیکل ٹرائلز اور بعد از منظوری نگرانی شامل ہیں۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Drug discovery جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "دوا جي تياري ۾ هدف جي سڃاڻپ، ليبارٽري تحقيق، اڳ-طبي جاچ، ضابطي هيٺ ڪلينڪل آزمائشون ۽ منظوري کان پوءِ نگراني شامل آهن.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain antibiotics. Give one example or state its significance.",
+          "modelAnswer": "Antibiotics act against bacteria through different targets; classes include penicillins, tetracyclines, fluoroquinolones and sulfonamides.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Antibiotics کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "اینٹی بایوٹکس مختلف اہداف پر اثر کرکے بیکٹیریا کے خلاف کام کرتی ہیں؛ اقسام میں پینسلنز، ٹیٹراسائکلینز، فلوروکوئنولونز اور سلفونامائڈز شامل ہیں۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Antibiotics جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "اينٽي بايوٽڪس مختلف هدفن تي اثر ڪري بيڪٽيريا خلاف ڪم ڪن ٿيون؛ قسمن ۾ پينسلن، ٽيٽراسائڪلن، فلوروڪوئنولون ۽ سلفونامائڊ شامل آهن.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain antiviral medicines. Give one example or state its significance.",
+          "modelAnswer": "Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Antiviral medicines کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Antiviral medicines جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss monoclonal antibodies in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context. Antiviral medicines interfere with specific stages of viral replication; antiretroviral combinations can suppress HIV replication. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Monoclonal antibodies کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔ اینٹی وائرل ادویات وائرس کی افزائش کے مخصوص مراحل میں مداخلت کرتی ہیں؛ اینٹی ریٹرو وائرل ادویات HIV کی افزائش دبا سکتی ہیں۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Monoclonal antibodies جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا. اينٽي وائرل دوائون وائرس جي واڌ جي مخصوص مرحلن ۾ مداخلت ڪن ٿيون؛ اينٽي ريٽرو وائرل دوائون HIV جي واڌ کي دٻائي سگهن ٿيون.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss safety and responsible use in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Drug response depends on dose, route, metabolism and interactions; medicines should be used only with qualified professional guidance. Monoclonal antibodies bind selected molecular targets and can be used in diagnosis or treatment; their effects and risks depend on target and context. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Safety and responsible use کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "دوا کا اثر خوراک، طریقۂ استعمال، میٹابولزم اور باہمی تعامل پر منحصر ہے؛ ادویات مستند طبی رہنمائی کے مطابق استعمال ہونی چاہئیں۔ مونوکلونل اینٹی باڈیز مخصوص سالماتی ہدف سے جڑتی ہیں اور تشخیص یا علاج میں استعمال ہو سکتی ہیں؛ اثرات اور خطرات ہدف پر منحصر ہیں۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Safety and responsible use جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "دوا جو اثر مقدار، استعمال جي رستي، ميٽابولزم ۽ ٻين دوائن سان لاڳاپي تي دارومدار رکي ٿو؛ دوا ماهر جي هدايت سان استعمال ڪرڻ گهرجي. مونوڪلونل اينٽي باڊيز مخصوص ماليڪيولي هدف سان ڳنڍجن ٿيون ۽ تشخيص يا علاج ۾ ڪم اچن ٿيون؛ اثر ۽ خطرا هدف تي دارومدار رکن ٿا.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

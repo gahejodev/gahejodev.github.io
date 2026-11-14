@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-28-biostatistics-data-handling",
+  "title": "Biology XII — Chapter 28: Biostatistics and Data Handling",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 28 — Biostatistics and Data Handling (18 periods). Five lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 28,
+    "periods": 18,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 28: Biostatistics and Data Handling",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 28; 18 periods.",
+      "lessons": [
+        {
+          "title": "28.1 Biostatistics",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain biostatistics and connect the concept with evidence, biological function and a relevant application.\n\nBiostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔",
+            "sd": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي."
+          }
+        },
+        {
+          "title": "28.2 Types and quality of data",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain types and quality of data and connect the concept with evidence, biological function and a relevant application.\n\nData may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔",
+            "sd": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي."
+          }
+        },
+        {
+          "title": "28.3 Measures of central tendency",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain measures of central tendency and connect the concept with evidence, biological function and a relevant application.\n\nMean, median and mode describe central tendency; the median is less affected by extreme values than the mean.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+            "sd": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو."
+          }
+        },
+        {
+          "title": "28.4 Variation and visualisation",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain variation and visualisation and connect the concept with evidence, biological function and a relevant application.\n\nRange and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔",
+            "sd": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا."
+          }
+        },
+        {
+          "title": "28.5 Experimental design",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain experimental design and connect the concept with evidence, biological function and a relevant application.\n\nA controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔",
+            "sd": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes biostatistics?",
+          "options": {
+            "A": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty.",
+            "B": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently.",
+            "C": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean.",
+            "D": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns."
+          },
+          "correctOption": "A",
+          "explanation": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty. This is the central principle of biostatistics.",
+          "translations": {
+            "ur": {
+              "question": "Biostatistics کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔",
+                "B": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔",
+                "C": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+                "D": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔"
+              },
+              "explanation": "درست جواب: بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔"
+            },
+            "sd": {
+              "question": "Biostatistics بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي.",
+                "B": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي.",
+                "C": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+                "D": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا."
+              },
+              "explanation": "صحيح جواب: بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of biostatistics?",
+          "options": {
+            "A": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently.",
+            "B": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean.",
+            "C": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns.",
+            "D": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty."
+          },
+          "correctOption": "D",
+          "explanation": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty. This is the central principle of biostatistics.",
+          "translations": {
+            "ur": {
+              "question": "Biostatistics کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔",
+                "B": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+                "C": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔",
+                "D": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔"
+              },
+              "explanation": "درست جواب: بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔"
+            },
+            "sd": {
+              "question": "Biostatistics بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي.",
+                "B": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+                "C": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا.",
+                "D": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي."
+              },
+              "explanation": "صحيح جواب: بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about biostatistics?",
+          "options": {
+            "A": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean.",
+            "B": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns.",
+            "C": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty.",
+            "D": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently."
+          },
+          "correctOption": "C",
+          "explanation": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty. This is the central principle of biostatistics.",
+          "translations": {
+            "ur": {
+              "question": "Biostatistics کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+                "B": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔",
+                "C": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔",
+                "D": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔"
+              },
+              "explanation": "درست جواب: بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔"
+            },
+            "sd": {
+              "question": "Biostatistics بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+                "B": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا.",
+                "C": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي.",
+                "D": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي."
+              },
+              "explanation": "صحيح جواب: بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes types and quality of data?",
+          "options": {
+            "A": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean.",
+            "B": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns.",
+            "C": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods.",
+            "D": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently."
+          },
+          "correctOption": "D",
+          "explanation": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently. This is the central principle of types and quality of data.",
+          "translations": {
+            "ur": {
+              "question": "Types and quality of data کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+                "B": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔",
+                "C": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔",
+                "D": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔"
+              },
+              "explanation": "درست جواب: ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔"
+            },
+            "sd": {
+              "question": "Types and quality of data بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+                "B": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا.",
+                "C": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو.",
+                "D": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي."
+              },
+              "explanation": "صحيح جواب: ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of types and quality of data?",
+          "options": {
+            "A": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns.",
+            "B": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods.",
+            "C": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently.",
+            "D": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean."
+          },
+          "correctOption": "C",
+          "explanation": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently. This is the central principle of types and quality of data.",
+          "translations": {
+            "ur": {
+              "question": "Types and quality of data کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔",
+                "B": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔",
+                "C": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔",
+                "D": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔"
+              },
+              "explanation": "درست جواب: ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔"
+            },
+            "sd": {
+              "question": "Types and quality of data بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا.",
+                "B": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو.",
+                "C": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي.",
+                "D": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو."
+              },
+              "explanation": "صحيح جواب: ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about types and quality of data?",
+          "options": {
+            "A": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods.",
+            "B": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently.",
+            "C": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean.",
+            "D": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns."
+          },
+          "correctOption": "B",
+          "explanation": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently. This is the central principle of types and quality of data.",
+          "translations": {
+            "ur": {
+              "question": "Types and quality of data کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔",
+                "B": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔",
+                "C": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+                "D": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔"
+              },
+              "explanation": "درست جواب: ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔"
+            },
+            "sd": {
+              "question": "Types and quality of data بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو.",
+                "B": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي.",
+                "C": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+                "D": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا."
+              },
+              "explanation": "صحيح جواب: ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes measures of central tendency?",
+          "options": {
+            "A": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods.",
+            "B": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty.",
+            "C": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean.",
+            "D": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns."
+          },
+          "correctOption": "C",
+          "explanation": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean. This is the central principle of measures of central tendency.",
+          "translations": {
+            "ur": {
+              "question": "Measures of central tendency کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔",
+                "B": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔",
+                "C": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+                "D": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔"
+              },
+              "explanation": "درست جواب: اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "Measures of central tendency بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو.",
+                "B": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي.",
+                "C": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+                "D": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا."
+              },
+              "explanation": "صحيح جواب: مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of measures of central tendency?",
+          "options": {
+            "A": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty.",
+            "B": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean.",
+            "C": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns.",
+            "D": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods."
+          },
+          "correctOption": "B",
+          "explanation": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean. This is the central principle of measures of central tendency.",
+          "translations": {
+            "ur": {
+              "question": "Measures of central tendency کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔",
+                "B": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+                "C": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔",
+                "D": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔"
+              },
+              "explanation": "درست جواب: اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "Measures of central tendency بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي.",
+                "B": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+                "C": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا.",
+                "D": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about measures of central tendency?",
+          "options": {
+            "A": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean.",
+            "B": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns.",
+            "C": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods.",
+            "D": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty."
+          },
+          "correctOption": "A",
+          "explanation": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean. This is the central principle of measures of central tendency.",
+          "translations": {
+            "ur": {
+              "question": "Measures of central tendency کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+                "B": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔",
+                "C": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔",
+                "D": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔"
+              },
+              "explanation": "درست جواب: اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "Measures of central tendency بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+                "B": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا.",
+                "C": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو.",
+                "D": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي."
+              },
+              "explanation": "صحيح جواب: مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes variation and visualisation?",
+          "options": {
+            "A": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently.",
+            "B": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns.",
+            "C": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods.",
+            "D": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty."
+          },
+          "correctOption": "B",
+          "explanation": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns. This is the central principle of variation and visualisation.",
+          "translations": {
+            "ur": {
+              "question": "Variation and visualisation کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔",
+                "B": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔",
+                "C": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔",
+                "D": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔"
+              },
+              "explanation": "درست جواب: رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔"
+            },
+            "sd": {
+              "question": "Variation and visualisation بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي.",
+                "B": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا.",
+                "C": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو.",
+                "D": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي."
+              },
+              "explanation": "صحيح جواب: رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of variation and visualisation?",
+          "options": {
+            "A": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns.",
+            "B": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods.",
+            "C": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty.",
+            "D": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently."
+          },
+          "correctOption": "A",
+          "explanation": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns. This is the central principle of variation and visualisation.",
+          "translations": {
+            "ur": {
+              "question": "Variation and visualisation کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔",
+                "B": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔",
+                "C": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔",
+                "D": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔"
+              },
+              "explanation": "درست جواب: رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔"
+            },
+            "sd": {
+              "question": "Variation and visualisation بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا.",
+                "B": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو.",
+                "C": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي.",
+                "D": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي."
+              },
+              "explanation": "صحيح جواب: رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about variation and visualisation?",
+          "options": {
+            "A": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods.",
+            "B": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty.",
+            "C": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently.",
+            "D": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns."
+          },
+          "correctOption": "D",
+          "explanation": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns. This is the central principle of variation and visualisation.",
+          "translations": {
+            "ur": {
+              "question": "Variation and visualisation کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔",
+                "B": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔",
+                "C": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔",
+                "D": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔"
+              },
+              "explanation": "درست جواب: رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔"
+            },
+            "sd": {
+              "question": "Variation and visualisation بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو.",
+                "B": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي.",
+                "C": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي.",
+                "D": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا."
+              },
+              "explanation": "صحيح جواب: رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes experimental design?",
+          "options": {
+            "A": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods.",
+            "B": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty.",
+            "C": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently.",
+            "D": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean."
+          },
+          "correctOption": "A",
+          "explanation": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods. This is the central principle of experimental design.",
+          "translations": {
+            "ur": {
+              "question": "Experimental design کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔",
+                "B": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔",
+                "C": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔",
+                "D": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔"
+              },
+              "explanation": "درست جواب: کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Experimental design بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو.",
+                "B": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي.",
+                "C": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي.",
+                "D": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو."
+              },
+              "explanation": "صحيح جواب: ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of experimental design?",
+          "options": {
+            "A": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty.",
+            "B": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently.",
+            "C": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean.",
+            "D": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods."
+          },
+          "correctOption": "D",
+          "explanation": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods. This is the central principle of experimental design.",
+          "translations": {
+            "ur": {
+              "question": "Experimental design کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔",
+                "B": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔",
+                "C": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+                "D": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔"
+              },
+              "explanation": "درست جواب: کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Experimental design بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي.",
+                "B": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي.",
+                "C": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+                "D": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about experimental design?",
+          "options": {
+            "A": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently.",
+            "B": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean.",
+            "C": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods.",
+            "D": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty."
+          },
+          "correctOption": "C",
+          "explanation": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods. This is the central principle of experimental design.",
+          "translations": {
+            "ur": {
+              "question": "Experimental design کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔",
+                "B": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+                "C": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔",
+                "D": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔"
+              },
+              "explanation": "درست جواب: کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Experimental design بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي.",
+                "B": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+                "C": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو.",
+                "D": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي."
+              },
+              "explanation": "صحيح جواب: ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain biostatistics. Give one example or state its significance.",
+          "modelAnswer": "Biostatistics applies statistical reasoning to biological questions, helping researchers summarise evidence and evaluate uncertainty.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Biostatistics کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "بایوسٹیٹسٹکس حیاتیاتی سوالات پر شماریاتی طریقے لاگو کرتی ہے تاکہ شواہد کا خلاصہ اور غیر یقینی صورتِ حال کا جائزہ لیا جا سکے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Biostatistics جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "بايو اسٽيٽسٽڪس حياتياتي سوالن تي شمارياتي طريقا لاڳو ڪري ٿي ته جيئن ثبوتن جو خلاصو ۽ غير يقيني صورتحال جو جائزو وٺجي.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain types and quality of data. Give one example or state its significance.",
+          "modelAnswer": "Data may be categorical or numerical; reliable studies define variables clearly, use suitable sampling and record measurements consistently.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Types and quality of data کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "ڈیٹا زمرہ جاتی یا عددی ہو سکتا ہے؛ قابلِ اعتماد تحقیق میں متغیرات واضح، نمونہ گیری مناسب اور پیمائش یکساں طریقے سے درج کی جاتی ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Types and quality of data جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "ڊيٽا درجي وار يا عددي ٿي سگهي ٿو؛ قابل اعتماد تحقيق ۾ متغير واضح، نمونو مناسب ۽ ماپ هڪجهڙي طريقي سان درج ڪئي وڃي ٿي.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain measures of central tendency. Give one example or state its significance.",
+          "modelAnswer": "Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Measures of central tendency کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Measures of central tendency جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss variation and visualisation in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns. Mean, median and mode describe central tendency; the median is less affected by extreme values than the mean. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Variation and visualisation کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔ اوسط، میڈین اور موڈ مرکزی رجحان بیان کرتے ہیں؛ میڈین انتہائی قدروں سے اوسط کی نسبت کم متاثر ہوتا ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Variation and visualisation جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا. مين، ميڊين ۽ موڊ مرڪزي رجحان بيان ڪن ٿا؛ ميڊين انتهائي قدرن کان مين جي ڀيٽ ۾ گهٽ متاثر ٿئي ٿو.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss experimental design in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "A controlled experiment identifies independent, dependent and controlled variables, includes an appropriate control group and uses repeatable methods. Range and standard deviation describe spread; bar charts, histograms, scatterplots and error bars communicate different data patterns. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Experimental design کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "کنٹرول شدہ تجربہ آزاد، تابع اور قابو میں رکھے گئے متغیرات کی شناخت کرتا ہے، مناسب کنٹرول گروپ اور قابلِ تکرار طریقے استعمال کرتا ہے۔ رینج اور معیاری انحراف پھیلاؤ بتاتے ہیں؛ بار چارٹ، ہسٹوگرام، اسکیٹر پلاٹ اور ایرر بار مختلف ڈیٹا پیٹرن دکھاتے ہیں۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Experimental design جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "ڪنٽرول ٿيل تجربو آزاد، تابع ۽ ضابطي وارن متغيرن جي سڃاڻپ ڪري ٿو، مناسب ڪنٽرول گروپ ۽ ورجائي سگهجندڙ طريقا استعمال ڪري ٿو. رينج ۽ معياري انحراف پکڙجڻ ٻڌائين ٿا؛ بار چارٽ، هسٽوگرام، اسڪيٽر پلاٽ ۽ ايرر بار مختلف ڊيٽا نمونا ڏيکارين ٿا.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
