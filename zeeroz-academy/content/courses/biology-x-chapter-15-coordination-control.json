@@ -1,0 +1,773 @@
+{
+  "id": "biology-x-chapter-15-coordination-control",
+  "title": "Biology X — Chapter 15: Coordination and Control",
+  "description": "Sindh DCAR Biology Curriculum 2024 aligned Grade X course package with six lessons, Urdu and Sindhi explanations, 15 fully translated MCQs, 3 CRQs and 2 ERQs with bilingual model answers and marking rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "authority": "Directorate of Curriculum, Assessment and Research (DCAR), Government of Sindh",
+    "document": "Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "X",
+    "chapter": "15 — Coordination and Control",
+    "periods": 15,
+    "allocation": [
+      "Neurons — 2 periods",
+      "Nerve Impulse — 2 periods",
+      "Reflex action — 3 periods",
+      "Nervous system — 2 periods",
+      "Glands and types of glands — 2 periods",
+      "Major Endocrine Glands — 4 periods"
+    ],
+    "outcomes": [
+      "Describe neuron concept and types with diagrams; explain stimulus and response.",
+      "Explain nerve impulse as an electrochemical signal; sketch synapses; explain neurotransmitters.",
+      "Explain the reflex pathway when a person touches a painfully hot object and withdraws the hand.",
+      "Explain nervous system, CNS and PNS; understand effects of drugs on the nervous system.",
+      "Define glands and differentiate endocrine and exocrine glands.",
+      "List major endocrine glands, their hormones and functions."
+    ],
+    "primarySource": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf",
+    "primarySourceEvidence": "Grade X Biology Chapter 15; printed curriculum page 123; 15 periods and six listed subtopics.",
+    "sourceChecked": "2026-11-14",
+    "authorshipNote": "Original educational explanations, questions and model answers."
+  },
+  "chapters": [
+    {
+      "title": "Chapter 15: Coordination and Control",
+      "description": "Nervous coordination, nerve impulses, reflexes, glands and endocrine control.",
+      "lessons": [
+        {
+          "title": "15.1 Neurons, Stimulus and Response",
+          "type": "text",
+          "content": "The nervous system detects changes and coordinates rapid responses. A stimulus is a detectable change inside or outside the body; a response is the reaction to it. A neuron is a specialised cell that receives and transmits information. A typical neuron has a cell body containing the nucleus, dendrites that receive signals, and an axon that carries impulses away. Many axons are covered by a myelin sheath, interrupted by nodes of Ranvier; myelin insulates the axon and allows faster saltatory conduction. Sensory neurons carry impulses from receptors to the central nervous system (CNS); relay neurons connect neurons within the CNS; motor neurons carry impulses from the CNS to effectors such as muscles and glands. A stimulus-response pathway links receptor, coordinator and effector.",
+          "explanations": {
+            "ur": "اعصابی نظام تبدیلیوں کو محسوس کرکے فوری ردعمل منظم کرتا ہے۔ Stimulus جسم کے اندر یا باہر قابلِ شناخت تبدیلی ہے، جبکہ Response اس کے جواب میں ہونے والا عمل ہے۔ نیورون مخصوص خلیہ ہے جو معلومات وصول اور منتقل کرتا ہے۔ اس کے خلیاتی جسم میں نیوکلیئس، سگنل وصول کرنے والے dendrites اور پیغام آگے لے جانے والا axon ہوتا ہے۔ بہت سے axons پر myelin sheath ہوتی ہے جو پیغام کی رفتار بڑھاتی ہے۔ Sensory neurons پیغام CNS تک، relay neurons CNS کے اندر اور motor neurons CNS سے عضلات یا غدود تک پہنچاتے ہیں۔",
+            "sd": "اعصابي سرشتو تبديلين کي محسوس ڪري تڪڙا جواب منظم ڪري ٿو. Stimulus جسم اندر يا ٻاهر تبديلي آهي، جڏهن ته Response ان جو ردعمل آهي. نيورون خاص خلو آهي جيڪو ڄاڻ وٺي ۽ منتقل ڪري ٿو. ان ۾ nucleus وارو cell body، سگنل وٺندڙ dendrites ۽ پيغام کڻي ويندڙ axon هوندو آهي. ڪيترن axons تي myelin sheath هوندي آهي، جيڪا رفتار وڌائي ٿي. Sensory neurons پيغام CNS ڏانهن، relay neurons CNS اندر ۽ motor neurons CNS کان عضلن يا غدودن ڏانهن کڻن ٿا."
+          }
+        },
+        {
+          "title": "15.2 Nerve Impulse, Synapse and Neurotransmitters",
+          "type": "text",
+          "content": "A nerve impulse is an electrochemical signal produced by changes in the electrical potential across a neuron's membrane. At rest, the membrane is polarised; sodium-potassium pumps and ion channels help maintain the resting potential. When a sufficient stimulus reaches threshold, voltage-gated sodium channels open and sodium enters, causing depolarisation. Potassium channels then allow potassium to leave, repolarising the membrane. The refractory period helps ensure one-way propagation. In myelinated axons, the impulse appears to jump between nodes of Ranvier (saltatory conduction). A synapse is the junction between a neuron and another neuron or effector. At a chemical synapse, an arriving impulse causes vesicles to release neurotransmitter into the synaptic cleft; it binds receptors on the next cell and changes its activity. Neurotransmitters include acetylcholine, dopamine, serotonin and noradrenaline; their effects depend on receptor and tissue.",
+          "explanations": {
+            "ur": "اعصابی پیغام نیورون کی جھلی کے دونوں طرف برقی پوٹینشل میں تبدیلی سے پیدا ہونے والا الیکٹروکیمیائی سگنل ہے۔ آرام کی حالت میں جھلی polarised ہوتی ہے۔ مناسب حد (threshold) پر sodium channels کھلتے ہیں اور سوڈیم اندر آتا ہے، جس سے depolarisation ہوتی ہے۔ بعد میں potassium باہر نکلتا ہے اور جھلی repolarise ہوتی ہے۔ Myelin والے axon میں پیغام Nodes of Ranvier کے درمیان چھلانگ لگاتا دکھائی دیتا ہے۔ Synapse دو نیورونز یا نیورون اور اثرانداز خلیے کے درمیان رابطہ ہے۔ کیمیائی synapse میں neurotransmitter خارج ہو کر اگلے خلیے کے receptors سے جڑتا ہے۔",
+            "sd": "Nerve impulse نيورون جي جھلي جي ٻنهي پاسن واري برقي پوٽينشل جي تبديليءَ سان پيدا ٿيندڙ electrochemical سگنل آهي. آرام ۾ جھلي polarised هوندي آهي. Threshold تي sodium channels کلي سوڊيم اندر اچي ٿو ۽ depolarisation ٿئي ٿي. پوءِ potassium ٻاهر نڪري جھلي repolarise ٿئي ٿي. Myelin واري axon ۾ پيغام Nodes of Ranvier جي وچ ۾ ٽپو ڏيندو محسوس ٿئي ٿو. Synapse ٻن نيورونن يا نيورون ۽ اثر ڪندڙ خاني جي وچ ۾ رابطو آهي. ڪيميائي synapse ۾ neurotransmitter نڪري ايندڙ خاني جي receptors سان ڳنڍجي ٿو."
+          }
+        },
+        {
+          "title": "15.3 Reflex Action and Reflex Arc",
+          "type": "text",
+          "content": "A reflex action is a rapid, automatic and usually protective response to a stimulus. In a typical withdrawal reflex, pain receptors in the skin detect a harmful stimulus. A sensory neuron carries the impulse to the spinal cord, where a relay neuron passes it to a motor neuron. The motor neuron activates a muscle (effector), which contracts and withdraws the hand. The pathway is called a reflex arc: receptor → sensory neuron → relay neuron in CNS → motor neuron → effector. The brain is informed and can interpret the event, but the rapid initial response is coordinated through the spinal cord. Not all reflexes are spinal; some, such as the pupillary light reflex, involve the brainstem.",
+          "explanations": {
+            "ur": "Reflex action کسی محرک کے جواب میں تیز، خودکار اور عموماً حفاظتی ردعمل ہے۔ گرم چیز چھونے پر جلد کے درد محسوس کرنے والے receptors محرک پکڑتے ہیں۔ Sensory neuron پیغام spinal cord تک لے جاتا ہے، جہاں relay neuron اسے motor neuron تک پہنچاتا ہے۔ Motor neuron عضلے کو فعال کرتا ہے، عضلہ سکڑتا ہے اور ہاتھ پیچھے ہٹ جاتا ہے۔ اس راستے کو reflex arc کہتے ہیں: receptor، sensory neuron، CNS میں relay neuron، motor neuron اور effector۔ دماغ کو بھی اطلاع ملتی ہے، مگر ابتدائی تیز ردعمل spinal cord منظم کرتا ہے۔",
+            "sd": "Reflex action ڪنهن محرڪ جو تڪڙو، پاڻمرادو ۽ عام طور حفاظتي جواب آهي. گرم شيءِ ڇهڻ تي چمڙي جا درد محسوس ڪندڙ receptors محرڪ سڃاڻن ٿا. Sensory neuron پيغام spinal cord تائين کڻي وڃي ٿو، جتي relay neuron ان کي motor neuron ڏانهن ڏئي ٿو. Motor neuron عضلي کي فعال ڪري ٿو، عضلو سُڪڙي هٿ پوئتي هٽي ٿو. هن رستي کي reflex arc چئبو آهي: receptor، sensory neuron، CNS ۾ relay neuron، motor neuron ۽ effector. دماغ کي به اطلاع ملي ٿي، پر شروعاتي تڪڙو جواب spinal cord منظم ڪري ٿو."
+          }
+        },
+        {
+          "title": "15.4 Human Nervous System and Effects of Drugs",
+          "type": "text",
+          "content": "The nervous system is divided into the central nervous system (CNS: brain and spinal cord) and peripheral nervous system (PNS: nerves and ganglia outside the CNS). The PNS includes sensory pathways carrying information to the CNS and motor pathways carrying commands to effectors. The motor division includes the somatic system, which controls skeletal muscles, and the autonomic system, which regulates involuntary functions. The autonomic system has sympathetic and parasympathetic divisions that often have contrasting effects. The brain processes information, coordinates movement, memory, emotion and homeostasis; the spinal cord conducts signals and coordinates many reflexes. Drugs are substances that alter body or mind functions. Some medicines are beneficial when prescribed, while misuse of psychoactive drugs can change neurotransmission, judgement, coordination and reaction time and may cause dependence, overdose or other harm. Effects vary by drug and dose.",
+          "explanations": {
+            "ur": "اعصابی نظام دو بڑے حصوں میں تقسیم ہے: CNS یعنی دماغ اور حرام مغز، اور PNS یعنی ان کے باہر موجود اعصاب اور ganglia۔ PNS کے sensory راستے معلومات CNS تک اور motor راستے احکامات اثرانداز اعضا تک پہنچاتے ہیں۔ Somatic system ارادی skeletal muscles کو کنٹرول کرتا ہے؛ autonomic system غیر ارادی افعال منظم کرتا ہے۔ Autonomic نظام میں sympathetic اور parasympathetic حصے شامل ہیں۔ دماغ معلومات، حرکت، یادداشت اور جسمانی توازن منظم کرتا ہے جبکہ spinal cord پیغامات اور کئی reflexes سنبھالتا ہے۔ ادویات جسم یا ذہن کے افعال بدل سکتی ہیں؛ غلط استعمال فیصلہ سازی، ہم آہنگی اور ردعمل متاثر کرکے انحصار یا نقصان پیدا کرسکتا ہے۔",
+            "sd": "اعصابي سرشتو ٻن حصن ۾ ورهايل آهي: CNS يعني دماغ ۽ ريڙهه جي هڏي، ۽ PNS يعني انهن کان ٻاهر اعصاب ۽ ganglia. PNS جا sensory رستا ڄاڻ CNS تائين ۽ motor رستا حڪم اثر ڪندڙ عضون تائين کڻن ٿا. Somatic system ارادي skeletal عضلن کي ڪنٽرول ڪري ٿو؛ autonomic system غير ارادي عمل سنڀالي ٿو. Autonomic نظام ۾ sympathetic ۽ parasympathetic حصا آهن. دماغ ڄاڻ، حرڪت، يادگيري ۽ جسماني توازن منظم ڪري ٿو، جڏهن ته spinal cord پيغام ۽ ڪيترائي reflex سنڀالي ٿو. دوائون جسم يا ذهن جا عمل بدلائين ٿيون؛ غلط استعمال فيصلي، هم آهنگي ۽ ردعمل کي متاثر ڪري نقصان يا انحصار پيدا ڪري سگهي ٿو."
+          }
+        },
+        {
+          "title": "15.5 Glands: Endocrine and Exocrine",
+          "type": "text",
+          "content": "A gland is a group of specialised cells that produces and releases a substance. Endocrine glands are ductless and release hormones into the blood or surrounding fluid; hormones act on target cells with matching receptors, often at a distance. Exocrine glands release products through ducts onto a surface or into a body cavity, for example sweat and salivary glands. The pancreas has both endocrine tissue (islets releasing insulin and glucagon into blood) and exocrine tissue (digestive enzymes released through a duct into the small intestine). Hormone secretion is regulated by feedback systems. Negative feedback reduces a response when the regulated variable approaches its normal range, helping maintain homeostasis.",
+          "explanations": {
+            "ur": "غدود مخصوص خلیات کا مجموعہ ہے جو کوئی مادہ بناتا اور خارج کرتا ہے۔ Endocrine glands میں نالیاں نہیں ہوتیں؛ یہ ہارمون خون یا اردگرد کے سیال میں چھوڑتے ہیں۔ ہارمون ان خلیات پر اثر کرتا ہے جن کے پاس متعلقہ receptor ہو۔ Exocrine glands اپنی پیداوار نالیوں کے ذریعے سطح یا جسمانی گہا میں خارج کرتے ہیں، جیسے پسینے اور لعاب کے غدود۔ لبلبہ دونوں کام کرتا ہے: اس کے islets انسولین اور گلوکاگون خون میں چھوڑتے ہیں، جبکہ دوسرا حصہ ہاضمے کے enzymes نالی کے ذریعے چھوٹی آنت میں بھیجتا ہے۔ Negative feedback ہارمون کے اخراج کو ضرورت کے مطابق کم کرکے توازن برقرار رکھتا ہے۔",
+            "sd": "غدود خاص خليات جو ميڙ آهي جيڪو مادو ٺاهي خارج ڪري ٿو. Endocrine glands ۾ نليون ناهن؛ اهي هارمون رت يا ڀرپاسي جي مايع ۾ ڇڏين ٿا. هارمون انهن خليات تي اثر ڪري ٿو جن وٽ لاڳاپيل receptor هجي. Exocrine glands پنهنجو مادو نلين وسيلي سطح يا جسماني خال ۾ ڇڏين ٿا، مثال طور پگهر ۽ لعاب جا غدود. لبلبو ٻئي ڪم ڪري ٿو: islets انسولين ۽ گلوڪاگون رت ۾ ڇڏين ٿا، جڏهن ته ٻيو حصو هاضمي جا enzymes نلي وسيلي ننڍي آنڊي ۾ موڪلي ٿو. Negative feedback هارمون جي اخراج کي ضرورت موجب گهٽائي توازن رکي ٿو."
+          }
+        },
+        {
+          "title": "15.6 Major Endocrine Glands and Hormones",
+          "type": "text",
+          "content": "The hypothalamus links nervous and endocrine control and regulates the pituitary. The pituitary releases hormones including growth hormone (growth), TSH (stimulates thyroid), ACTH (stimulates adrenal cortex), FSH and LH (reproductive functions); posterior pituitary releases ADH and oxytocin made in the hypothalamus. The thyroid produces thyroxine, which supports metabolic rate and development; iodine is needed to make it. Parathyroid glands produce parathyroid hormone, which helps regulate blood calcium. Adrenal glands produce adrenaline (rapid fight-or-flight response) and cortical hormones including cortisol (stress metabolism) and aldosterone (salt balance). Pancreatic islets release insulin, which lowers blood glucose, and glucagon, which raises it. Ovaries produce oestrogen and progesterone; testes produce testosterone. Hormone levels are regulated by feedback, and their effects depend on target-cell receptors.",
+          "explanations": {
+            "ur": "Hypothalamus اعصابی اور ہارمونل نظام کو جوڑتا اور pituitary کو منظم کرتا ہے۔ Pituitary growth hormone، TSH، ACTH، FSH اور LH جیسے ہارمون خارج کرتا ہے؛ posterior pituitary، hypothalamus میں بننے والے ADH اور oxytocin خارج کرتا ہے۔ Thyroid کا thyroxine میٹابولزم اور نشوونما میں مدد دیتا ہے؛ اس کی تیاری کے لیے iodine ضروری ہے۔ Parathyroid hormone خون میں کیلشیم منظم کرتا ہے۔ Adrenal glands adrenaline کے ذریعے فوری fight-or-flight ردعمل اور cortisol و aldosterone کے ذریعے میٹابولزم اور نمکیات کا توازن سنبھالتے ہیں۔ لبلبے کا insulin خون میں glucose کم اور glucagon بڑھاتا ہے۔ Ovaries میں oestrogen/progesterone اور testes میں testosterone بنتا ہے۔",
+            "sd": "Hypothalamus اعصابي ۽ هارمون واري نظام کي ڳنڍي pituitary کي منظم ڪري ٿو. Pituitary growth hormone، TSH، ACTH، FSH ۽ LH جهڙا هارمون خارج ڪري ٿو؛ posterior pituitary، hypothalamus ۾ ٺهيل ADH ۽ oxytocin ڇڏيندو آهي. Thyroid جو thyroxine ميٽابولزم ۽ واڌ ۾ مدد ڪري ٿو؛ ان لاءِ iodine ضروري آهي. Parathyroid hormone رت ۾ calcium سنڀالي ٿو. Adrenal glands جو adrenaline تڪڙي fight-or-flight جواب، جڏهن ته cortisol ۽ aldosterone ميٽابولزم ۽ لوڻن جو توازن سنڀالين ٿا. لبلبي جو insulin رت جي glucose گهٽائي ۽ glucagon وڌائي ٿو. Ovaries ۾ oestrogen/progesterone ۽ testes ۾ testosterone ٺهي ٿو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which part of a neuron usually receives signals?",
+          "options": {
+            "A": "Dendrites",
+            "B": "Axon terminal",
+            "C": "Myelin sheath",
+            "D": "Node of Ranvier"
+          },
+          "correctOption": "A",
+          "explanation": "Dendrites receive incoming signals from receptors or other neurons.",
+          "translations": {
+            "ur": {
+              "question": "نیورون کا کون سا حصہ عموماً سگنل وصول کرتا ہے؟",
+              "options": {
+                "A": "Dendrites",
+                "B": "Axon terminal",
+                "C": "Myelin sheath",
+                "D": "Node of Ranvier"
+              },
+              "explanation": "Dendrites دوسرے خلیات سے سگنل وصول کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "نيورون جو ڪهڙو حصو عام طور سگنل وٺي ٿو؟",
+              "options": {
+                "A": "Dendrites",
+                "B": "Axon terminal",
+                "C": "Myelin sheath",
+                "D": "Node of Ranvier"
+              },
+              "explanation": "Dendrites ٻين خلين کان سگنل وٺن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "A sensory neuron carries impulses:",
+          "options": {
+            "A": "From receptor towards CNS",
+            "B": "From CNS to muscle",
+            "C": "Only within a gland",
+            "D": "From muscle to bone"
+          },
+          "correctOption": "A",
+          "explanation": "Sensory neurons carry information from receptors to the CNS.",
+          "translations": {
+            "ur": {
+              "question": "Sensory neuron پیغام کس طرف لے جاتا ہے؟",
+              "options": {
+                "A": "Receptor سے CNS کی طرف",
+                "B": "CNS سے عضلے کی طرف",
+                "C": "صرف غدود کے اندر",
+                "D": "عضلے سے ہڈی کی طرف"
+              },
+              "explanation": "Sensory neuron receptors سے CNS تک معلومات لے جاتا ہے۔"
+            },
+            "sd": {
+              "question": "Sensory neuron پيغام ڪهڙي طرف کڻي وڃي ٿو؟",
+              "options": {
+                "A": "Receptor کان CNS ڏانهن",
+                "B": "CNS کان عضلي ڏانهن",
+                "C": "صرف غدود اندر",
+                "D": "عضلي کان هڏي ڏانهن"
+              },
+              "explanation": "Sensory neuron receptors کان CNS تائين ڄاڻ کڻي وڃي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "The insulating covering on many axons is:",
+          "options": {
+            "A": "Myelin sheath",
+            "B": "Synaptic cleft",
+            "C": "Cell wall",
+            "D": "Capsule"
+          },
+          "correctOption": "A",
+          "explanation": "Myelin insulates axons and increases conduction speed.",
+          "translations": {
+            "ur": {
+              "question": "ڪيترے axons پر موصل تہہ کیا ہے؟",
+              "options": {
+                "A": "Myelin sheath",
+                "B": "Synaptic cleft",
+                "C": "Cell wall",
+                "D": "Capsule"
+              },
+              "explanation": "Myelin axon کو موصل کرکے رفتار بڑھاتی ہے۔"
+            },
+            "sd": {
+              "question": "ڪيترن axons تي موصل تهه ڪهڙي آهي؟",
+              "options": {
+                "A": "Myelin sheath",
+                "B": "Synaptic cleft",
+                "C": "Cell wall",
+                "D": "Capsule"
+              },
+              "explanation": "Myelin axon کي موصل ڪري رفتار وڌائي ٿي۔"
+            }
+          }
+        },
+        {
+          "question": "A nerve impulse is best described as:",
+          "options": {
+            "A": "An electrochemical signal",
+            "B": "A flow of blood",
+            "C": "A hormone molecule",
+            "D": "A bone movement"
+          },
+          "correctOption": "A",
+          "explanation": "An impulse involves electrical changes and ion movement across the membrane.",
+          "translations": {
+            "ur": {
+              "question": "Nerve impulse کی بہترین تعریف کیا ہے؟",
+              "options": {
+                "A": "الیکٹروکیمیائی سگنل",
+                "B": "خون کا بہاؤ",
+                "C": "ہارمون کا سالمہ",
+                "D": "ہڈی کی حرکت"
+              },
+              "explanation": "اعصابی پیغام میں جھلی کے پار برقی تبدیلیاں اور آئنوں کی حرکت شامل ہے۔"
+            },
+            "sd": {
+              "question": "Nerve impulse جي بهترين وصف ڪهڙي آهي؟",
+              "options": {
+                "A": "Electrochemical سگنل",
+                "B": "رت جو وهڪرو",
+                "C": "هارمون جو ماليڪيول",
+                "D": "هڏي جي حرڪت"
+              },
+              "explanation": "اعصابي پيغام ۾ جھلي پار برقي تبديليون ۽ آئنن جي حرڪت شامل آهي۔"
+            }
+          }
+        },
+        {
+          "question": "During depolarisation, which ion commonly enters the neuron?",
+          "options": {
+            "A": "Sodium",
+            "B": "Potassium",
+            "C": "Calcium only",
+            "D": "Chloride only"
+          },
+          "correctOption": "A",
+          "explanation": "Voltage-gated sodium channels open and sodium enters.",
+          "translations": {
+            "ur": {
+              "question": "Depolarisation کے دوران کون سا آئن نیورون میں داخل ہوتا ہے؟",
+              "options": {
+                "A": "سوڈیم",
+                "B": "پوٹاشیم",
+                "C": "صرف کیلشیم",
+                "D": "صرف کلورائیڈ"
+              },
+              "explanation": "Sodium channels کھلنے سے سوڈیم اندر آتا ہے۔"
+            },
+            "sd": {
+              "question": "Depolarisation دوران ڪهڙو آئن نيورون ۾ داخل ٿئي ٿو؟",
+              "options": {
+                "A": "Sodium",
+                "B": "Potassium",
+                "C": "صرف Calcium",
+                "D": "صرف Chloride"
+              },
+              "explanation": "Sodium channels کلڻ سان سوڊيم اندر اچي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "A synapse is a junction between:",
+          "options": {
+            "A": "Neurons or a neuron and an effector",
+            "B": "Two bones",
+            "C": "Two blood vessels",
+            "D": "Two glands only"
+          },
+          "correctOption": "A",
+          "explanation": "Synapses allow communication between neurons and target cells.",
+          "translations": {
+            "ur": {
+              "question": "Synapse کس کے درمیان رابطہ ہے؟",
+              "options": {
+                "A": "نیورونز یا نیورون اور effector",
+                "B": "دو ہڈیوں",
+                "C": "دو خون کی نالیوں",
+                "D": "صرف دو غدود"
+              },
+              "explanation": "Synapse نیورونز اور ہدف خلیات کے درمیان رابطہ ہے۔"
+            },
+            "sd": {
+              "question": "Synapse ڪهڙن جي وچ ۾ رابطو آهي؟",
+              "options": {
+                "A": "نيورونن يا نيورون ۽ effector",
+                "B": "ٻن هڏن",
+                "C": "ٻن رت وارين نلين",
+                "D": "صرف ٻن غدودن"
+              },
+              "explanation": "Synapse نيورونن ۽ هدف خلين جو رابطو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "A chemical messenger released at a chemical synapse is:",
+          "options": {
+            "A": "Neurotransmitter",
+            "B": "Haemoglobin",
+            "C": "Insulin only",
+            "D": "Bile"
+          },
+          "correctOption": "A",
+          "explanation": "Neurotransmitters cross the synaptic cleft and bind receptors.",
+          "translations": {
+            "ur": {
+              "question": "کیمیائی synapse پر کون سا پیغام رساں خارج ہوتا ہے؟",
+              "options": {
+                "A": "Neurotransmitter",
+                "B": "Haemoglobin",
+                "C": "صرف insulin",
+                "D": "Bile"
+              },
+              "explanation": "Neurotransmitter synaptic cleft پار کرکے receptors سے جڑتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪيميائي synapse تي ڪهڙو پيغامبر خارج ٿئي ٿو؟",
+              "options": {
+                "A": "Neurotransmitter",
+                "B": "Haemoglobin",
+                "C": "صرف insulin",
+                "D": "Bile"
+              },
+              "explanation": "Neurotransmitter synaptic cleft پار ڪري receptors سان ڳنڍجي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "The correct basic reflex arc order is:",
+          "options": {
+            "A": "Receptor, sensory, relay, motor, effector",
+            "B": "Motor, receptor, sensory, effector, relay",
+            "C": "Effector, motor, receptor, relay, sensory",
+            "D": "Receptor, motor, sensory, relay, effector"
+          },
+          "correctOption": "A",
+          "explanation": "The sensory pathway reaches CNS before the motor neuron activates the effector.",
+          "translations": {
+            "ur": {
+              "question": "Reflex arc کی درست ترتیب کیا ہے؟",
+              "options": {
+                "A": "Receptor، sensory، relay، motor، effector",
+                "B": "Motor، receptor، sensory، effector، relay",
+                "C": "Effector، motor، receptor، relay، sensory",
+                "D": "Receptor، motor، sensory، relay، effector"
+              },
+              "explanation": "حسی پیغام CNS تک پہنچنے کے بعد motor neuron اثرانداز عضو کو فعال کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Reflex arc جي صحيح ترتيب ڪهڙي آهي؟",
+              "options": {
+                "A": "Receptor، sensory، relay، motor، effector",
+                "B": "Motor، receptor، sensory، effector، relay",
+                "C": "Effector، motor، receptor، relay، sensory",
+                "D": "Receptor، motor، sensory، relay، effector"
+              },
+              "explanation": "حسي پيغام CNS تائين پهچڻ کان پوءِ motor neuron اثر ڪندڙ عضو کي فعال ڪري ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "A rapid withdrawal reflex is commonly coordinated by:",
+          "options": {
+            "A": "Spinal cord",
+            "B": "Stomach",
+            "C": "Kidney",
+            "D": "Thyroid"
+          },
+          "correctOption": "A",
+          "explanation": "The spinal cord coordinates the rapid initial withdrawal response.",
+          "translations": {
+            "ur": {
+              "question": "ہاتھ فوراً پیچھے کھینچنے والا reflex عموماً کون منظم کرتا ہے؟",
+              "options": {
+                "A": "Spinal cord",
+                "B": "معدہ",
+                "C": "گردہ",
+                "D": "Thyroid"
+              },
+              "explanation": "ابتدائی تیز ردعمل spinal cord منظم کرتا ہے۔"
+            },
+            "sd": {
+              "question": "هٿ تڪڙو پوئتي ڇڪڻ وارو reflex عام طور ڪير منظم ڪري ٿو؟",
+              "options": {
+                "A": "Spinal cord",
+                "B": "معدو",
+                "C": "گردو",
+                "D": "Thyroid"
+              },
+              "explanation": "شروعاتي تڪڙو جواب spinal cord منظم ڪري ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "The CNS consists of:",
+          "options": {
+            "A": "Brain and spinal cord",
+            "B": "Cranial nerves only",
+            "C": "All glands",
+            "D": "Muscles and bones"
+          },
+          "correctOption": "A",
+          "explanation": "The CNS is the brain and spinal cord.",
+          "translations": {
+            "ur": {
+              "question": "CNS کن پر مشتمل ہے؟",
+              "options": {
+                "A": "دماغ اور spinal cord",
+                "B": "صرف cranial nerves",
+                "C": "تمام غدود",
+                "D": "عضلات اور ہڈیاں"
+              },
+              "explanation": "CNS دماغ اور spinal cord ہے۔"
+            },
+            "sd": {
+              "question": "CNS ڪهڙن تي مشتمل آهي؟",
+              "options": {
+                "A": "دماغ ۽ spinal cord",
+                "B": "صرف cranial nerves",
+                "C": "سڀ غدود",
+                "D": "عضلا ۽ هڏا"
+              },
+              "explanation": "CNS دماغ ۽ spinal cord آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The autonomic nervous system mainly regulates:",
+          "options": {
+            "A": "Involuntary functions",
+            "B": "Voluntary writing only",
+            "C": "Bone growth directly",
+            "D": "Digestion of food in the mouth only"
+          },
+          "correctOption": "A",
+          "explanation": "The autonomic system regulates involuntary activities such as heart rate and gut activity.",
+          "translations": {
+            "ur": {
+              "question": "Autonomic nervous system بنیادی طور کیا منظم کرتا ہے؟",
+              "options": {
+                "A": "غیر ارادی افعال",
+                "B": "صرف ارادی لکھائی",
+                "C": "براہ راست ہڈی کی نشوونما",
+                "D": "صرف منہ میں ہضم"
+              },
+              "explanation": "یہ دل کی رفتار اور آنتوں کی سرگرمی جیسے غیر ارادی افعال منظم کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Autonomic nervous system بنيادي طور ڇا سنڀالي ٿو؟",
+              "options": {
+                "A": "غير ارادي عمل",
+                "B": "صرف ارادي لکڻ",
+                "C": "سڌي هڏي جي واڌ",
+                "D": "صرف وات ۾ هاضمو"
+              },
+              "explanation": "اهو دل جي رفتار ۽ آنڊن جي عمل جهڙا غير ارادي ڪم سنڀالي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "An exocrine gland releases its product:",
+          "options": {
+            "A": "Through a duct",
+            "B": "Directly into blood without a duct",
+            "C": "Only into a neuron",
+            "D": "Into bone marrow"
+          },
+          "correctOption": "A",
+          "explanation": "Exocrine glands use ducts; endocrine glands are ductless.",
+          "translations": {
+            "ur": {
+              "question": "Exocrine gland اپنی پیداوار کیسے خارج کرتا ہے؟",
+              "options": {
+                "A": "نالی کے ذریعے",
+                "B": "بغیر نالی براہ راست خون میں",
+                "C": "صرف نیورون میں",
+                "D": "ہڈی کے گودے میں"
+              },
+              "explanation": "Exocrine غدود نالی استعمال کرتے ہیں؛ endocrine بے نالی ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "Exocrine gland پنهنجو مادو ڪيئن خارج ڪري ٿو؟",
+              "options": {
+                "A": "نلي وسيلي",
+                "B": "بغير نلي سڌو رت ۾",
+                "C": "صرف نيورون ۾",
+                "D": "هڏي جي گودي ۾"
+              },
+              "explanation": "Exocrine غدود نلي استعمال ڪن ٿا؛ endocrine بي نلي هوندا آهن۔"
+            }
+          }
+        },
+        {
+          "question": "Which organ has both endocrine and exocrine functions?",
+          "options": {
+            "A": "Pancreas",
+            "B": "Thyroid",
+            "C": "Pituitary",
+            "D": "Adrenal medulla"
+          },
+          "correctOption": "A",
+          "explanation": "Pancreatic islets release hormones; exocrine tissue releases digestive enzymes.",
+          "translations": {
+            "ur": {
+              "question": "کون سا عضو endocrine اور exocrine دونوں کام کرتا ہے؟",
+              "options": {
+                "A": "Pancreas",
+                "B": "Thyroid",
+                "C": "Pituitary",
+                "D": "Adrenal medulla"
+              },
+              "explanation": "لبلبے کے islets ہارمون اور دوسرا حصہ digestive enzymes خارج کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو عضو endocrine ۽ exocrine ٻئي ڪم ڪري ٿو؟",
+              "options": {
+                "A": "Pancreas",
+                "B": "Thyroid",
+                "C": "Pituitary",
+                "D": "Adrenal medulla"
+              },
+              "explanation": "لبلبي جا islets هارمون ۽ ٻيو حصو هاضمي جا enzymes خارج ڪري ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Which hormone lowers blood glucose?",
+          "options": {
+            "A": "Insulin",
+            "B": "Glucagon",
+            "C": "Adrenaline",
+            "D": "Thyroxine"
+          },
+          "correctOption": "A",
+          "explanation": "Insulin promotes uptake and storage of glucose, lowering blood glucose.",
+          "translations": {
+            "ur": {
+              "question": "کون سا ہارمون خون میں glucose کم کرتا ہے؟",
+              "options": {
+                "A": "Insulin",
+                "B": "Glucagon",
+                "C": "Adrenaline",
+                "D": "Thyroxine"
+              },
+              "explanation": "Insulin glucose کے استعمال اور ذخیرے کو بڑھا کر خون میں سطح کم کرتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو هارمون رت ۾ glucose گهٽائي ٿو؟",
+              "options": {
+                "A": "Insulin",
+                "B": "Glucagon",
+                "C": "Adrenaline",
+                "D": "Thyroxine"
+              },
+              "explanation": "Insulin glucose جي استعمال ۽ ذخيرو وڌائي رت جي سطح گهٽائي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Which gland produces thyroxine?",
+          "options": {
+            "A": "Thyroid",
+            "B": "Parathyroid",
+            "C": "Pancreas",
+            "D": "Pineal"
+          },
+          "correctOption": "A",
+          "explanation": "The thyroid gland produces thyroxine; iodine is needed for its synthesis.",
+          "translations": {
+            "ur": {
+              "question": "Thyroxine کون سا غدود بناتا ہے؟",
+              "options": {
+                "A": "Thyroid",
+                "B": "Parathyroid",
+                "C": "Pancreas",
+                "D": "Pineal"
+              },
+              "explanation": "Thyroid thyroxine بناتا ہے اور iodine اس کی تیاری کے لیے ضروری ہے۔"
+            },
+            "sd": {
+              "question": "Thyroxine ڪهڙو غدود ٺاهي ٿو؟",
+              "options": {
+                "A": "Thyroid",
+                "B": "Parathyroid",
+                "C": "Pancreas",
+                "D": "Pineal"
+              },
+              "explanation": "Thyroid thyroxine ٺاهي ٿو ۽ iodine ان لاءِ ضروري آهي۔"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Differentiate sensory, relay and motor neurons, stating the direction in which each carries impulses.",
+          "modelAnswer": "Sensory neurons carry impulses from receptors to the CNS. Relay neurons connect neurons within the CNS. Motor neurons carry impulses from the CNS to effectors such as muscles or glands.",
+          "rubric": [
+            "Sensory neuron and direction (2)",
+            "relay neuron and location (1)",
+            "motor neuron and direction/effectors (2)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "Sensory، relay اور motor neurons میں فرق کریں اور ہر ایک میں پیغام کی سمت بتائیں۔",
+              "modelAnswer": "Sensory neurons receptors سے CNS تک پیغام لے جاتے ہیں۔ Relay neurons CNS کے اندر نیورونز کو جوڑتے ہیں۔ Motor neurons CNS سے عضلات یا غدود جیسے effectors تک پیغام لے جاتے ہیں۔",
+              "rubric": [
+                "Sensory neuron اور سمت (2)",
+                "relay neuron اور مقام (1)",
+                "motor neuron اور سمت/effector (2)."
+              ]
+            },
+            "sd": {
+              "question": "Sensory، relay ۽ motor neurons ۾ فرق ڪريو ۽ هر هڪ ۾ پيغام جو رخ ٻڌايو.",
+              "modelAnswer": "Sensory neurons receptors کان CNS تائين پيغام کڻن ٿا. Relay neurons CNS اندر نيورونن کي ڳنڍين ٿا. Motor neurons CNS کان عضلن يا غدودن جهڙن effectors تائين پيغام کڻن ٿا.",
+              "rubric": [
+                "Sensory neuron ۽ رخ (2)",
+                "relay neuron ۽ جاءِ (1)",
+                "motor neuron ۽ رخ/effector (2)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain the pathway of a reflex action when a person touches a hot object.",
+          "modelAnswer": "Heat/pain receptors detect the stimulus. A sensory neuron carries an impulse to the spinal cord; a relay neuron passes it to a motor neuron; the motor neuron activates an arm muscle, which contracts and withdraws the hand. This rapid pathway is a reflex arc.",
+          "rubric": [
+            "Receptor/stimulus (1)",
+            "sensory neuron (1)",
+            "relay neuron/CNS (1)",
+            "motor neuron (1)",
+            "effector and response (1)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "گرم چیز چھونے پر ہونے والے reflex action کا راستہ بیان کریں۔",
+              "modelAnswer": "جلد کے receptors گرمی/درد محسوس کرتے ہیں۔ Sensory neuron پیغام spinal cord تک لے جاتا ہے؛ relay neuron اسے motor neuron تک پہنچاتا ہے؛ motor neuron بازو کے عضلے کو فعال کرتا ہے، عضلہ سکڑتا اور ہاتھ ہٹ جاتا ہے۔",
+              "rubric": [
+                "Receptor/محرک (1)",
+                "sensory neuron (1)",
+                "relay neuron/CNS (1)",
+                "motor neuron (1)",
+                "effector/ردعمل (1)."
+              ]
+            },
+            "sd": {
+              "question": "گرم شيءِ ڇهڻ وقت reflex action جو رستو بيان ڪريو.",
+              "modelAnswer": "چمڙي جا receptors گرمي/درد محسوس ڪن ٿا. Sensory neuron پيغام spinal cord تائين کڻي وڃي ٿو؛ relay neuron ان کي motor neuron تائين ڏئي ٿو؛ motor neuron ٻانهن جي عضلي کي فعال ڪري ٿو، عضلو سُڪڙي هٿ هٽي وڃي ٿو.",
+              "rubric": [
+                "Receptor/محرڪ (1)",
+                "sensory neuron (1)",
+                "relay neuron/CNS (1)",
+                "motor neuron (1)",
+                "effector/جواب (1)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Distinguish between endocrine and exocrine glands. Give one example of each.",
+          "modelAnswer": "Endocrine glands are ductless and release hormones into blood or surrounding fluid, e.g. thyroid. Exocrine glands release products through ducts, e.g. salivary or sweat glands. The pancreas has both types of tissue.",
+          "rubric": [
+            "Endocrine definition (2)",
+            "exocrine definition (2)",
+            "correct examples (1)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "Endocrine اور exocrine غدود میں فرق کریں اور ہر ایک کی مثال دیں۔",
+              "modelAnswer": "Endocrine غدود بے نالی ہوتے ہیں اور ہارمون خون میں خارج کرتے ہیں، مثلاً thyroid۔ Exocrine غدود نالی کے ذریعے مادہ خارج کرتے ہیں، مثلاً salivary یا sweat glands۔ لبلبے میں دونوں اقسام کے حصے ہیں۔",
+              "rubric": [
+                "Endocrine تعریف (2)",
+                "exocrine تعریف (2)",
+                "درست مثالیں (1)."
+              ]
+            },
+            "sd": {
+              "question": "Endocrine ۽ exocrine غدود ۾ فرق ڪريو ۽ هر هڪ جو مثال ڏيو.",
+              "modelAnswer": "Endocrine غدود بي نلي هوندا آهن ۽ هارمون رت ۾ ڇڏين ٿا، مثال thyroid. Exocrine غدود نلي وسيلي مادو ڇڏين ٿا، مثال salivary يا sweat glands. لبلبي ۾ ٻنهي قسمن جا حصا آهن.",
+              "rubric": [
+                "Endocrine وصف (2)",
+                "exocrine وصف (2)",
+                "صحيح مثال (1)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain the structure of a neuron and the generation and transmission of a nerve impulse. Include the role of a synapse and neurotransmitters.",
+          "modelAnswer": "A neuron has a cell body, dendrites and axon; many axons have a myelin sheath. At rest the membrane is polarised. A threshold stimulus opens voltage-gated sodium channels, causing sodium influx and depolarisation; potassium leaves to repolarise the membrane. The impulse propagates along the axon; myelin enables saltatory conduction between nodes. At a chemical synapse, the impulse triggers vesicle release of neurotransmitter. It diffuses across the synaptic cleft and binds receptors on the next cell, changing its activity. Neurotransmitters include acetylcholine, dopamine and serotonin.",
+          "rubric": [
+            "Neuron structure (2)",
+            "resting potential/threshold (2)",
+            "depolarisation/repolarisation (2)",
+            "myelin/conduction (1)",
+            "synapse sequence (2)",
+            "neurotransmitter role/examples (1)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "نیورون کی ساخت اور nerve impulse کی پیدائش و منتقلی بیان کریں۔ Synapse اور neurotransmitters کا کردار بھی شامل کریں۔",
+              "modelAnswer": "نیورون میں cell body، dendrites اور axon ہوتے ہیں؛ کئی axons پر myelin sheath ہوتی ہے۔ آرام میں جھلی polarised ہوتی ہے۔ Threshold محرک پر sodium channels کھلتے ہیں، سوڈیم اندر آتا اور depolarisation ہوتی ہے؛ potassium باہر نکل کر repolarisation کرتا ہے۔ پیغام axon پر آگے بڑھتا ہے؛ myelin nodes کے درمیان saltatory conduction ممکن بناتی ہے۔ Chemical synapse پر impulse vesicles سے neurotransmitter خارج کرواتا ہے۔ یہ synaptic cleft پار کرکے اگلے خلیے کے receptors سے جڑتا اور اس کی سرگرمی بدلتا ہے۔ مثالیں acetylcholine، dopamine اور serotonin ہیں۔",
+              "rubric": [
+                "نیورون کی ساخت (2)",
+                "resting potential/threshold (2)",
+                "depolarisation/repolarisation (2)",
+                "myelin/ترسیل (1)",
+                "synapse کے مراحل (2)",
+                "neurotransmitter کردار/مثال (1)."
+              ]
+            },
+            "sd": {
+              "question": "نيورون جي بناوت ۽ nerve impulse جي پيدا ٿيڻ ۽ منتقلي بيان ڪريو. Synapse ۽ neurotransmitters جو ڪردار به شامل ڪريو.",
+              "modelAnswer": "نيورون ۾ cell body، dendrites ۽ axon هوندا آهن؛ ڪيترن axons تي myelin sheath هوندي آهي. آرام ۾ جھلي polarised هوندي آهي. Threshold محرڪ تي sodium channels کُلن ٿا، سوڊيم اندر اچي depolarisation ٿئي ٿي؛ potassium ٻاهر نڪري repolarisation ڪري ٿو. پيغام axon تي اڳتي وڌي ٿو؛ myelin nodes وچ ۾ saltatory conduction ڪرائي ٿي. Chemical synapse تي impulse vesicles مان neurotransmitter خارج ڪرائي ٿو. اهو synaptic cleft پار ڪري ايندڙ خاني جي receptors سان ڳنڍجي ان جي سرگرمي بدلائي ٿو. مثال acetylcholine، dopamine ۽ serotonin آهن.",
+              "rubric": [
+                "نيورون جي بناوت (2)",
+                "resting potential/threshold (2)",
+                "depolarisation/repolarisation (2)",
+                "myelin/ترسيل (1)",
+                "synapse جا مرحلا (2)",
+                "neurotransmitter ڪردار/مثال (1)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "A student experiences rapid heartbeat and sweating before an examination. Explain the nervous and endocrine coordination involved, identify the likely gland and hormone, and describe how blood glucose is regulated by pancreatic hormones.",
+          "modelAnswer": "The sympathetic division of the autonomic nervous system prepares the body for a fight-or-flight response. The adrenal medulla releases adrenaline, increasing heart rate and supporting rapid energy availability. The hypothalamus coordinates autonomic and endocrine responses. Pancreatic islet beta cells release insulin when blood glucose rises; insulin promotes glucose uptake and storage, lowering blood glucose. Alpha cells release glucagon when blood glucose falls; glucagon stimulates glycogen breakdown and glucose release by the liver. These opposing actions help maintain glucose homeostasis by negative feedback.",
+          "rubric": [
+            "Sympathetic response (2)",
+            "adrenal medulla/adrenaline (2)",
+            "hypothalamus coordination (1)",
+            "insulin action (2)",
+            "glucagon action (2)",
+            "homeostasis (1)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "ایک طالب علم امتحان سے پہلے تیز دھڑکن اور پسینہ محسوس کرتا ہے۔ اعصابی و ہارمونل ردعمل، متعلقہ غدود/ہارمون اور لبلبے کے ذریعے خون میں glucose کے توازن کی وضاحت کریں۔",
+              "modelAnswer": "Autonomic nervous system کا sympathetic حصہ fight-or-flight ردعمل تیار کرتا ہے۔ Adrenal medulla adrenaline خارج کرتا ہے جس سے دل کی رفتار بڑھتی اور توانائی دستیاب ہوتی ہے۔ Hypothalamus اعصابی اور ہارمونل ردعمل میں رابطہ کرتا ہے۔ خون میں glucose بڑھنے پر pancreatic beta cells insulin خارج کرتے ہیں؛ insulin glucose کے جذب اور ذخیرے کو بڑھا کر سطح کم کرتا ہے۔ glucose کم ہونے پر alpha cells glucagon خارج کرتے ہیں؛ یہ جگر میں glycogen کے ٹوٹنے اور glucose کے اخراج کو بڑھاتا ہے۔ دونوں ہارمون negative feedback سے توازن رکھتے ہیں۔",
+              "rubric": [
+                "Sympathetic ردعمل (2)",
+                "adrenal medulla/adrenaline (2)",
+                "hypothalamus (1)",
+                "insulin کا عمل (2)",
+                "glucagon کا عمل (2)",
+                "homeostasis (1)."
+              ]
+            },
+            "sd": {
+              "question": "هڪ شاگرد امتحان کان اڳ تيز دل جي ڌڙڪن ۽ پگهر محسوس ڪري ٿو. اعصابي ۽ هارمون واري جواب، لاڳاپيل غدود/هارمون ۽ لبلبي وسيلي رت ۾ glucose جي توازن جي وضاحت ڪريو.",
+              "modelAnswer": "Autonomic nervous system جو sympathetic حصو fight-or-flight جواب تيار ڪري ٿو. Adrenal medulla adrenaline خارج ڪري ٿو، جنهن سان دل جي رفتار وڌي ٿي ۽ توانائي جلدي ملي ٿي. Hypothalamus اعصابي ۽ هارمون واري جواب ۾ رابطو ڪري ٿو. رت ۾ glucose وڌڻ تي pancreatic beta cells insulin ڇڏين ٿا؛ insulin glucose جو جذب ۽ ذخيرو وڌائي سطح گهٽائي ٿو. glucose گهٽجڻ تي alpha cells glucagon ڇڏين ٿا؛ اهو جيري ۾ glycogen ٽوڙڻ ۽ glucose ڇڏڻ وڌائي ٿو. ٻئي هارمون negative feedback سان توازن رکن ٿا.",
+              "rubric": [
+                "Sympathetic جواب (2)",
+                "adrenal medulla/adrenaline (2)",
+                "hypothalamus (1)",
+                "insulin جو عمل (2)",
+                "glucagon جو عمل (2)",
+                "homeostasis (1)."
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
