@@ -259,6 +259,18 @@
       "title": "Biology XII — Chapter 28: Biostatistics and Data Handling",
       "path": "zeeroz-academy/content/courses/biology-xii-chapter-28-biostatistics-data-handling.json",
       "version": "2"
+    },
+    {
+      "id": "chemistry-xii-complete",
+      "title": "Chemistry XII — Complete Course",
+      "path": "zeeroz-academy/content/courses/chemistry-xii-complete.json",
+      "version": "1"
+    },
+    {
+      "id": "physics-xii-complete",
+      "title": "Physics XII — Complete Course",
+      "path": "zeeroz-academy/content/courses/physics-xii-complete.json",
+      "version": "1"
     }
   ]
 }
