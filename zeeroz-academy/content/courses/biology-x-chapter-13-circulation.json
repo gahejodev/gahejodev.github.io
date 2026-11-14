@@ -1,0 +1,746 @@
+{
+  "id": "biology-x-chapter-13-circulation",
+  "title": "Biology X — Chapter 13: Circulation",
+  "description": "Grade X Biology Chapter 13 aligned to the DCAR Sindh Biology Curriculum 2024 (20 periods). Five bilingual lessons cover circulation components, heart and cardiac conduction, vessels and pathways, blood pressure, cardiovascular disorders and the lymphatic system. Includes 15 explained MCQs, 3 CRQs, 2 ERQs, model answers, marking rubrics and applied emergency-response case study.",
+  "version": "1",
+  "curriculumAlignment": {
+    "authority": "Directorate of Curriculum, Assessment and Research (DCAR), Government of Sindh",
+    "document": "Curriculum of Biology for Sindh Grades IX–XII (2024), aligned with National Curriculum of Pakistan 2022–23",
+    "grade": "X",
+    "chapter": "13 — Circulation",
+    "periods": 20,
+    "outcomes": [
+      "Define circulation and identify components of the human circulatory system.",
+      "Describe heart location, pericardium, wall layers and chamber thickness.",
+      "Trace blood through chambers and valves; explain cardiac cycle, SA node, AV node, Purkinje fibres and ECG.",
+      "Compare arteries, veins and capillaries; explain arterioles and precapillary sphincters.",
+      "Trace pulmonary, systemic, coronary, hepatic portal and renal circulation.",
+      "Define systolic and diastolic blood pressure and explain baroreceptor and volume receptor roles.",
+      "Describe cardiovascular disorders and the lymphatic system."
+    ],
+    "primarySource": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf",
+    "primarySourceEvidence": "Official DCAR PDF printed page 147; Chapter 13 heading and 20-period allocation; outcomes under sections 13.1–13.6. Note: a second DCAR URL variant returned a different 14-period summary; this package follows the official PDF version linked in the DCAR curriculum directory (20-period detailed chapter).",
+    "textbookReference": "Use the currently issued Sindh Textbook Board Biology X text as supplementary reading; curriculum outcomes are controlled by DCAR 2024. Verify textbook edition against STBB portal before citing page numbers.",
+    "sourceChecked": "2026-11-14",
+    "authorshipNote": "Original instructional explanations and assessment items; no textbook passages reproduced."
+  },
+  "chapters": [
+    {
+      "title": "Chapter 13: Circulation",
+      "description": "Twenty-period chapter covering circulation, blood and lymph, heart structure and cardiac control, blood vessels and pathways, blood pressure, cardiovascular disorders and lymphatic functions.",
+      "lessons": [
+        {
+          "title": "13.1 Circulation and Components of the Human Circulatory System",
+          "type": "text",
+          "content": "Circulation moves materials between exchange surfaces and body cells. The human cardiovascular system is a closed, double circulatory system: blood remains in vessels and passes through the heart twice during one complete circuit. Its main components are the heart, blood, blood vessels and the lymphatic system. Blood transports oxygen, carbon dioxide, nutrients, hormones, heat and wastes. Plasma is the liquid matrix; red blood cells carry most oxygen using haemoglobin; white blood cells defend the body; platelets help clotting. The lymphatic system returns excess tissue fluid to the bloodstream and supports immune defence. Learning outcomes: define circulation; identify components and functions; distinguish open and closed circulation and single and double circulation. Key terms: plasma, erythrocyte, leucocyte, platelet, lymph, pulmonary circulation, systemic circulation. Example: after absorption in the small intestine, nutrients enter blood capillaries and travel to the liver through the hepatic portal vein. Revision: closed means blood stays in vessels; double means pulmonary and systemic circuits; lymph returns excess interstitial fluid.",
+          "explanations": {
+            "ur": "گردشِ خون جسم میں مادّوں کو ایک جگہ سے دوسری جگہ پہنچاتا ہے۔ انسان کا قلبی و عروقی نظام بند اور دوہرا ہے: خون نالیوں کے اندر رہتا ہے اور ایک مکمل چکر میں دل سے دو مرتبہ گزرتا ہے۔ اس کے اہم حصے دل، خون، خون کی نالیاں اور لمفی نظام ہیں۔ خون آکسیجن، کاربن ڈائی آکسائیڈ، غذائی اجزا، ہارمون، حرارت اور فضلات منتقل کرتا ہے۔ پلازما خون کا مائع حصہ ہے؛ سرخ خلیے ہیموگلوبن کے ذریعے زیادہ تر آکسیجن لے جاتے ہیں؛ سفید خلیے دفاع کرتے ہیں؛ پلیٹ لیٹس خون جمانے میں مدد دیتے ہیں۔ لمفی نظام اضافی بافتی سیال کو خون میں واپس لاتا اور مدافعت میں مدد کرتا ہے۔",
+            "sd": "رت جي گردش جسم ۾ مادّن کي هڪ هنڌ کان ٻئي هنڌ پهچائي ٿي. انسان جو دل ۽ رت جي نلين وارو نظام بند ۽ ٻٽو آهي: رت نلين اندر رهي ٿو ۽ هڪ مڪمل چڪر ۾ دل مان ٻه ڀيرا گذري ٿو. ان جا اهم حصا دل، رت، رت جون نليون ۽ لمفي نظام آهن. رت آڪسيجن، ڪاربان ڊاءِ آڪسائيڊ، غذائي مادا، هارمون، گرمي ۽ فضلا کڻي وڃي ٿو. پلازما رت جو مايع حصو آهي؛ ڳاڙها خليا هيموگلوبن وسيلي گهڻي آڪسيجن کڻن ٿا؛ اڇا خليا بچاءُ ڪن ٿا؛ پليٽليٽ رت ڄمائڻ ۾ مدد ڪن ٿا. لمفي نظام اضافي بافتي مايع کي رت ۾ واپس آڻي ٿو ۽ مدافعتي بچاءَ ۾ مدد ڪري ٿو."
+          }
+        },
+        {
+          "title": "13.2 Human Heart, Cardiac Cycle and Electrical Control",
+          "type": "text",
+          "content": "The heart lies in the thoracic cavity between the lungs, slightly left of the midline. The pericardium is a protective sac containing lubricating fluid. The heart wall includes epicardium, myocardium and endocardium; the muscular myocardium is thickest in the left ventricle because it pumps blood around the systemic circuit at high pressure. The right side sends blood to the lungs; the left side sends oxygenated blood to the body. Flow: venae cavae → right atrium → tricuspid valve → right ventricle → pulmonary semilunar valve → pulmonary artery → lungs → pulmonary veins → left atrium → mitral valve → left ventricle → aortic semilunar valve → aorta. Valves prevent backflow. The cardiac cycle includes atrial systole, ventricular systole and complete diastole. The sinoatrial (SA) node normally initiates the impulse; the atrioventricular (AV) node delays it; the conducting bundle and Purkinje fibres distribute it through ventricles. An ECG records electrical activity, not a direct picture of the heart. Learning outcomes: locate and describe heart; trace blood flow; explain valves, cardiac phases, conduction and ECG. Terms: atrium, ventricle, septum, myocardium, systole, diastole, SA node, AV node, ECG.",
+          "explanations": {
+            "ur": "دل سینے میں دونوں پھیپھڑوں کے درمیان اور قدرے بائیں جانب ہوتا ہے۔ پیری کارڈیم حفاظتی تھیلی ہے جس میں چکنا کرنے والا سیال موجود ہوتا ہے۔ دل کی دیوار میں بیرونی تہہ، عضلاتی مایوکارڈیم اور اندرونی تہہ شامل ہیں۔ بائیں بطین کا مایوکارڈیم سب سے موٹا ہوتا ہے کیونکہ اسے پورے جسم میں زیادہ دباؤ سے خون بھیجنا ہوتا ہے۔ خون کا راستہ: وینا کاوا → دایاں ایٹریم → ٹرائی کسپیڈ والو → دایاں وینٹریکل → پلمونری والو → پلمونری شریان → پھیپھڑے → پلمونری وریدیں → بایاں ایٹریم → مائٹرل والو → بایاں وینٹریکل → ایورٹک والو → شہ رگ۔ والوز خون کو الٹا بہنے سے روکتے ہیں۔ دل کے چکر میں ایٹریل سکڑاؤ، وینٹریکلز کا سکڑاؤ اور مکمل آرام شامل ہیں۔ SA node برقی تحریک شروع کرتا ہے، AV node مختصر تاخیر کرتا ہے اور Purkinje fibres اسے بطینوں میں پھیلاتے ہیں۔ ECG دل کی برقی سرگرمی ریکارڈ کرتا ہے۔",
+            "sd": "دل ڇاتيءَ ۾ ٻنهي ڦڦڙن جي وچ ۾ ۽ ٿورو کاٻي پاسي هوندو آهي. Pericardium حفاظتي ٿيلهو آهي، جنهن ۾ ڦسلائيندڙ مايع هوندو آهي. دل جي ڀت ۾ ٻاهريون تهه، عضلاتي myocardium ۽ اندريون تهه شامل آهن. کاٻي ventricle جو myocardium سڀ کان ٿلهو هوندو آهي، ڇاڪاڻ⁠تہ ان کي سڄي جسم ڏانهن وڌيڪ دٻاءَ سان رت موڪلڻو پوي ٿو. رت جو رستو: vena cava → ساڄو atrium → tricuspid valve → ساڄو ventricle → pulmonary valve → pulmonary artery → ڦڦڙ → pulmonary veins → کاٻو atrium → mitral valve → کاٻو ventricle → aortic valve → aorta. والوز رت کي پوئتي وهڻ کان روڪين ٿا. دل جي چڪر ۾ atria جو سڪڙڻ، ventricles جو سڪڙڻ ۽ مڪمل آرام شامل آهن. SA node برقي تحرڪ شروع ڪري ٿو، AV node ٿوري دير ڪري ٿو ۽ Purkinje fibres اهو تحرڪ ventricles ۾ پکيڙين ٿا. ECG دل جي برقي سرگرمي رڪارڊ ڪري ٿو."
+          }
+        },
+        {
+          "title": "13.3 Blood Vessels and Circulatory Pathways",
+          "type": "text",
+          "content": "Arteries carry blood away from the heart; their thick, elastic and muscular walls withstand high pressure. Veins return blood to the heart; they have thinner walls, larger lumens and often valves, especially in limbs. Capillaries have walls one endothelial cell thick, allowing exchange by diffusion and filtration. Arterioles regulate tissue perfusion by vasoconstriction and vasodilation; precapillary sphincters control entry into capillary beds. In systemic circulation, the left ventricle sends blood through the aorta to tissues and veins return it to the right atrium. In pulmonary circulation, the right ventricle sends blood to lungs and pulmonary veins return it to the left atrium. Coronary arteries supply heart muscle. The hepatic portal vein carries nutrient-rich blood from digestive organs to liver. Renal circulation supplies kidneys for filtration. Blood velocity is slowest through capillaries because their total cross-sectional area is greatest. Outcomes: compare vessels; explain resistance and flow regulation; trace pulmonary, systemic, coronary, hepatic portal and renal pathways. Terms: lumen, endothelium, vasoconstriction, vasodilation, portal vein.",
+          "explanations": {
+            "ur": "شریانیں خون کو دل سے دور لے جاتی ہیں؛ ان کی موٹی، لچک دار اور عضلاتی دیواریں زیادہ دباؤ برداشت کرتی ہیں۔ وریدیں خون کو دل کی طرف واپس لاتی ہیں؛ ان کی دیواریں نسبتاً پتلی، اندرونی راستہ کشادہ اور خصوصاً ٹانگوں میں والوز ہوتے ہیں۔ کیپلریز کی دیوار ایک خلیے جتنی باریک ہوتی ہے، اس لیے مادّوں کا تبادلہ ہو سکتا ہے۔ آرٹیریولز سکڑنے اور پھیلنے سے بافتوں میں خون کا بہاؤ منظم کرتی ہیں۔ نظامی گردش میں بایاں بطین شہ رگ کے ذریعے خون جسم تک بھیجتا ہے۔ پلمونری گردش میں دایاں بطین خون پھیپھڑوں تک بھیجتا ہے۔ کورونری شریانیں دل کے عضلے کو خون دیتی ہیں۔ ہیپاٹک پورٹل ورید آنتوں سے غذائیت سے بھرپور خون جگر تک لے جاتی ہے۔ گردوں کی گردش فلٹریشن کے لیے خون پہنچاتی ہے۔ کیپلریز میں خون کی رفتار مجموعی رقبہ زیادہ ہونے کی وجہ سے سب سے کم ہوتی ہے۔",
+            "sd": "شريانون رت کي دل کان پري کڻي وڃن ٿيون؛ انهن جون ٿلهيون، لچڪدار ۽ عضلاتي ڀتيون وڌيڪ دٻاءُ برداشت ڪن ٿيون. رڳون رت کي دل ڏانهن واپس آڻين ٿيون؛ انهن جون ڀتيون سنهيون، اندريون جاءِ ويڪري ۽ خاص ڪري پيرن ۾ والوز هوندا آهن. ڪيپليرين جون ڀتيون هڪ خلوي تهه جيتريون سنهيون هونديون آهن، تنهنڪري مادّن جي مٽاسٽا ٿي سگهي ٿي. آرٽيريولز سڪڙڻ ۽ ڦهلجڻ سان عضون ڏانهن رت جو وهڪرو ڪنٽرول ڪن ٿيون. Systemic گردش ۾ کاٻو ventricle aorta وسيلي رت جسم ڏانهن موڪلي ٿو. Pulmonary گردش ۾ ساڄو ventricle رت ڦڦڙن ڏانهن موڪلي ٿو. Coronary شريانون دل جي عضلي کي رت ڏين ٿيون. Hepatic portal vein آنڊن مان غذائيت وارو رت جيري ڏانهن کڻي وڃي ٿي. گردن جي گردش فلٽريشن لاءِ رت پهچائي ٿي. ڪيپليرين ۾ رت جي رفتار سندن گڏيل ڪراس سيڪشنل ايراضي وڏي هئڻ سبب گهٽ هوندي آهي."
+          }
+        },
+        {
+          "title": "13.4 Blood Pressure, Regulation and Measurement",
+          "type": "text",
+          "content": "Blood pressure is the force exerted by circulating blood on arterial walls. Systolic pressure is measured during ventricular contraction; diastolic pressure during ventricular relaxation. A reading is written in mmHg, for example 120/80 mmHg, but normal values vary with age and context and one reading alone does not diagnose disease. A cuff sphygmomanometer is used with an appropriate technique. Baroreceptors in major arteries detect stretch and help adjust autonomic output and heart activity; volume receptors respond to changes in blood volume and filling. Outcomes: define systolic and diastolic pressure; explain measurement and reflex regulation. Terms: systolic, diastolic, sphygmomanometer, baroreceptor. Revision: report units; rest before measurement; cuff size and arm position matter.",
+          "explanations": {
+            "ur": "بلڈ پریشر خون کا وہ دباؤ ہے جو شریانوں کی دیواروں پر پڑتا ہے۔ سسٹولک دباؤ بطینوں کے سکڑنے کے دوران اور ڈائسٹولک دباؤ ان کے آرام کے دوران ناپا جاتا ہے۔ پیمائش mmHg میں لکھی جاتی ہے، مثلاً 120/80 mmHg، لیکن معمول کی قدر عمر اور حالات کے مطابق بدل سکتی ہے؛ ایک پیمائش سے بیماری کی تشخیص نہیں ہوتی۔ کف والا اسفیگمومینومیٹر استعمال کیا جاتا ہے۔ بڑی شریانوں کے باروریسیپٹرز دیوار کے کھنچاؤ کو محسوس کر کے اعصابی نظام اور دل کی سرگرمی میں تبدیلی لانے میں مدد دیتے ہیں۔",
+            "sd": "بلڊ پريشر اهو دٻاءُ آهي جيڪو گردش ڪندڙ رت شريانن جي ڀتين تي وجهي ٿو. Systolic دٻاءُ ventricles جي سڪڙڻ وقت ۽ diastolic دٻاءُ آرام وقت ماپبو آهي. ماپ mmHg ۾ لکبي آهي، مثال 120/80 mmHg، پر عام قدر عمر ۽ حالتن سان بدلجي سگهي ٿي؛ هڪ ماپ سان بيماري جي تشخيص نٿي ٿئي. ڪف وارو sphygmomanometer استعمال ڪجي ٿو. وڏين شريانن جا baroreceptors ڀت جي ڇڪ محسوس ڪري اعصابي نظام ۽ دل جي سرگرمي کي ترتيب ڏيڻ ۾ مدد ڪن ٿا."
+          }
+        },
+        {
+          "title": "13.5 Cardiovascular Disorders and the Lymphatic System",
+          "type": "text",
+          "content": "Cardiovascular disorders include atherosclerosis (fatty plaques narrow arteries), coronary heart disease (reduced blood supply to heart muscle), angina (temporary chest discomfort from inadequate oxygen), and myocardial infarction (heart muscle injury caused by prolonged interruption of blood supply). Warning signs may include chest pressure, breathlessness, sweating, nausea or pain spreading to arm, jaw or back; symptoms vary. Suspected heart attack is an emergency: seek emergency medical help immediately; do not self-diagnose. Risk reduction includes avoiding tobacco, balanced diet, regular activity, managing blood pressure and diabetes with clinical advice, and limiting excess salt. The lymphatic system consists of lymph, lymph vessels, nodes and organs such as spleen and thymus. It returns excess interstitial fluid to blood, transports absorbed dietary fats from intestinal lacteals and supports immune surveillance. Outcomes: distinguish major disorders; identify risk reduction; explain lymphatic functions. Case application: swelling may occur when lymph drainage is obstructed, but causes require medical assessment.",
+          "explanations": {
+            "ur": "قلبی و عروقی بیماریوں میں ایتھروسکلروسس شامل ہے جس میں چربی کی تہیں شریانوں کو تنگ کرتی ہیں؛ کورونری دل کی بیماری میں دل کے عضلے کو خون کم ملتا ہے؛ انجائنا عارضی سینے کی تکلیف ہے جو آکسیجن کی کمی سے ہو سکتی ہے؛ مایوکارڈیل انفارکشن میں خون کی فراہمی دیر تک رکنے سے دل کے عضلے کو نقصان پہنچتا ہے۔ خطرے کی علامات میں سینے کا دباؤ، سانس پھولنا، پسینہ، متلی یا بازو، جبڑے اور کمر تک درد شامل ہو سکتے ہیں۔ شبہ ہو تو فوراً ہنگامی طبی مدد لیں، خود تشخیص نہ کریں۔ بچاؤ میں تمباکو سے پرہیز، متوازن غذا، باقاعدہ سرگرمی اور طبی مشورے سے بلڈ پریشر و ذیابیطس کا کنٹرول شامل ہے۔ لمفی نظام اضافی بافتی سیال کو خون میں واپس لاتا، آنتوں سے جذب شدہ چکنائی منتقل کرتا اور مدافعت میں مدد دیتا ہے۔",
+            "sd": "دل ۽ رت جي نلين جون بيماريون شامل آهن atherosclerosis، جنهن ۾ چرٻيءَ جون تهون شريانن کي سوڙهو ڪن ٿيون؛ coronary heart disease ۾ دل جي عضلي کي رت گهٽ ملي ٿو؛ angina آڪسيجن گهٽ ملڻ سبب عارضي ڇاتيءَ جي تڪليف آهي؛ myocardial infarction ۾ رت جي فراهمي گهڻي دير بند رهڻ سبب دل جي عضلي کي نقصان ٿئي ٿو. خطري جون نشانيون ڇاتيءَ ۾ دٻاءُ، ساهه ۾ تڪليف، پگهر، الٽيءَ جو احساس يا ٻانهن، ڄاڙي يا پٺيءَ ڏانهن سور ٿي سگهن ٿيون. شڪ هجي ته ترت هنگامي طبي مدد وٺو، پاڻ تشخيص نه ڪريو. بچاءَ ۾ تمباڪو کان پاسو، متوازن خوراڪ، باقاعده سرگرمي ۽ طبي صلاح سان بلڊ پريشر ۽ ذیابيطس جو ڪنٽرول شامل آهي. لمفي نظام اضافي بافتي مايع کي رت ۾ واپس آڻي، آنڊن مان جذب ٿيل چرٻي کڻي ۽ مدافعتي بچاءَ ۾ مدد ڪري ٿو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which feature makes human circulation a closed system?",
+          "options": {
+            "A": "Blood remains within blood vessels",
+            "B": "Blood directly bathes all organs",
+            "C": "There is only one circuit",
+            "D": "The heart has two chambers"
+          },
+          "correctOption": "A",
+          "explanation": "In a closed system, blood is contained within vessels.",
+          "translations": {
+            "ur": {
+              "question": "انسانی دورانِ خون کو بند نظام کیوں کہا جاتا ہے؟",
+              "options": {
+                "A": "Blood remains within blood vessels",
+                "B": "Blood directly bathes all organs",
+                "C": "There is only one circuit",
+                "D": "The heart has two chambers"
+              },
+              "explanation": "In a closed system, blood is contained within vessels."
+            },
+            "sd": {
+              "question": "انساني رت جي گردش کي بند نظام ڇو چئبو آهي؟",
+              "options": {
+                "A": "Blood remains within blood vessels",
+                "B": "Blood directly bathes all organs",
+                "C": "There is only one circuit",
+                "D": "The heart has two chambers"
+              },
+              "explanation": "In a closed system, blood is contained within vessels."
+            }
+          }
+        },
+        {
+          "question": "Why is human circulation called double circulation?",
+          "options": {
+            "A": "Blood passes through the heart twice in one complete circuit",
+            "B": "Blood passes through the heart once",
+            "C": "There are two hearts",
+            "D": "Blood flows in two directions in every vessel"
+          },
+          "correctOption": "A",
+          "explanation": "Pulmonary and systemic circuits mean blood passes through the heart twice per complete circuit.",
+          "translations": {
+            "ur": {
+              "question": "دوہری گردش سے کیا مراد ہے؟",
+              "options": {
+                "A": "Blood passes through the heart twice in one complete circuit",
+                "B": "Blood passes through the heart once",
+                "C": "There are two hearts",
+                "D": "Blood flows in two directions in every vessel"
+              },
+              "explanation": "Pulmonary and systemic circuits mean blood passes through the heart twice per complete circuit."
+            },
+            "sd": {
+              "question": "ٻٽي گردش مان ڇا مراد آهي؟",
+              "options": {
+                "A": "Blood passes through the heart twice in one complete circuit",
+                "B": "Blood passes through the heart once",
+                "C": "There are two hearts",
+                "D": "Blood flows in two directions in every vessel"
+              },
+              "explanation": "Pulmonary and systemic circuits mean blood passes through the heart twice per complete circuit."
+            }
+          }
+        },
+        {
+          "question": "Which blood component transports most oxygen?",
+          "options": {
+            "A": "Red blood cells using haemoglobin",
+            "B": "Platelets",
+            "C": "Plasma proteins only",
+            "D": "White blood cells"
+          },
+          "correctOption": "A",
+          "explanation": "Haemoglobin in red blood cells binds and transports most oxygen.",
+          "translations": {
+            "ur": {
+              "question": "زیادہ تر آکسیجن کون سا جزو لے جاتا ہے؟",
+              "options": {
+                "A": "Red blood cells using haemoglobin",
+                "B": "Platelets",
+                "C": "Plasma proteins only",
+                "D": "White blood cells"
+              },
+              "explanation": "Haemoglobin in red blood cells binds and transports most oxygen."
+            },
+            "sd": {
+              "question": "گهڻي آڪسيجن ڪهڙو جزو کڻي ٿو؟",
+              "options": {
+                "A": "Red blood cells using haemoglobin",
+                "B": "Platelets",
+                "C": "Plasma proteins only",
+                "D": "White blood cells"
+              },
+              "explanation": "Haemoglobin in red blood cells binds and transports most oxygen."
+            }
+          }
+        },
+        {
+          "question": "Which chamber receives oxygenated blood from the lungs?",
+          "options": {
+            "A": "Left atrium",
+            "B": "Right atrium",
+            "C": "Right ventricle",
+            "D": "Left ventricle"
+          },
+          "correctOption": "A",
+          "explanation": "Pulmonary veins return oxygenated blood to the left atrium.",
+          "translations": {
+            "ur": {
+              "question": "پھیپھڑوں سے آکسیجن والا خون کس خانے میں آتا ہے؟",
+              "options": {
+                "A": "Left atrium",
+                "B": "Right atrium",
+                "C": "Right ventricle",
+                "D": "Left ventricle"
+              },
+              "explanation": "Pulmonary veins return oxygenated blood to the left atrium."
+            },
+            "sd": {
+              "question": "ڦڦڙن مان آڪسيجن وارو رت ڪهڙي خاني ۾ اچي ٿو؟",
+              "options": {
+                "A": "Left atrium",
+                "B": "Right atrium",
+                "C": "Right ventricle",
+                "D": "Left ventricle"
+              },
+              "explanation": "Pulmonary veins return oxygenated blood to the left atrium."
+            }
+          }
+        },
+        {
+          "question": "Which valve lies between the right atrium and right ventricle?",
+          "options": {
+            "A": "Tricuspid valve",
+            "B": "Mitral valve",
+            "C": "Aortic semilunar valve",
+            "D": "Pulmonary semilunar valve"
+          },
+          "correctOption": "A",
+          "explanation": "The tricuspid valve prevents backflow into the right atrium.",
+          "translations": {
+            "ur": {
+              "question": "دایاں ایٹریم اور دایاں وینٹریکل کس والو سے جدا ہوتے ہیں؟",
+              "options": {
+                "A": "Tricuspid valve",
+                "B": "Mitral valve",
+                "C": "Aortic semilunar valve",
+                "D": "Pulmonary semilunar valve"
+              },
+              "explanation": "The tricuspid valve prevents backflow into the right atrium."
+            },
+            "sd": {
+              "question": "ساڄي atrium ۽ ساڄي ventricle جي وچ ۾ ڪهڙو والو آهي؟",
+              "options": {
+                "A": "Tricuspid valve",
+                "B": "Mitral valve",
+                "C": "Aortic semilunar valve",
+                "D": "Pulmonary semilunar valve"
+              },
+              "explanation": "The tricuspid valve prevents backflow into the right atrium."
+            }
+          }
+        },
+        {
+          "question": "Why is the left ventricular wall thicker than the right?",
+          "options": {
+            "A": "It pumps blood through the systemic circuit at higher pressure",
+            "B": "It receives blood from the body",
+            "C": "It pumps blood only to the nearby lungs",
+            "D": "It has no valves"
+          },
+          "correctOption": "A",
+          "explanation": "The systemic circuit has greater resistance and requires higher pumping pressure.",
+          "translations": {
+            "ur": {
+              "question": "بائیں بطین کی دیوار زیادہ موٹی کیوں ہے؟",
+              "options": {
+                "A": "It pumps blood through the systemic circuit at higher pressure",
+                "B": "It receives blood from the body",
+                "C": "It pumps blood only to the nearby lungs",
+                "D": "It has no valves"
+              },
+              "explanation": "The systemic circuit has greater resistance and requires higher pumping pressure."
+            },
+            "sd": {
+              "question": "کاٻي ventricle جي ڀت وڌيڪ ٿلهي ڇو آهي؟",
+              "options": {
+                "A": "It pumps blood through the systemic circuit at higher pressure",
+                "B": "It receives blood from the body",
+                "C": "It pumps blood only to the nearby lungs",
+                "D": "It has no valves"
+              },
+              "explanation": "The systemic circuit has greater resistance and requires higher pumping pressure."
+            }
+          }
+        },
+        {
+          "question": "Which structure normally initiates the heartbeat?",
+          "options": {
+            "A": "Sinoatrial node",
+            "B": "Atrioventricular node",
+            "C": "Purkinje fibres",
+            "D": "Aortic valve"
+          },
+          "correctOption": "A",
+          "explanation": "The SA node is the normal pacemaker of the heart.",
+          "translations": {
+            "ur": {
+              "question": "دل کی دھڑکن عموماً کون شروع کرتا ہے؟",
+              "options": {
+                "A": "Sinoatrial node",
+                "B": "Atrioventricular node",
+                "C": "Purkinje fibres",
+                "D": "Aortic valve"
+              },
+              "explanation": "The SA node is the normal pacemaker of the heart."
+            },
+            "sd": {
+              "question": "عام طور دل جي ڌڙڪن ڪير شروع ڪري ٿو؟",
+              "options": {
+                "A": "Sinoatrial node",
+                "B": "Atrioventricular node",
+                "C": "Purkinje fibres",
+                "D": "Aortic valve"
+              },
+              "explanation": "The SA node is the normal pacemaker of the heart."
+            }
+          }
+        },
+        {
+          "question": "What is the main function of the AV node delay?",
+          "options": {
+            "A": "Allow atria to empty before ventricles contract",
+            "B": "Stop all electrical activity",
+            "C": "Close the aorta",
+            "D": "Oxygenate blood"
+          },
+          "correctOption": "A",
+          "explanation": "The delay allows ventricular filling after atrial contraction.",
+          "translations": {
+            "ur": {
+              "question": "AV node کی تاخیر کا بنیادی فائدہ کیا ہے؟",
+              "options": {
+                "A": "Allow atria to empty before ventricles contract",
+                "B": "Stop all electrical activity",
+                "C": "Close the aorta",
+                "D": "Oxygenate blood"
+              },
+              "explanation": "The delay allows ventricular filling after atrial contraction."
+            },
+            "sd": {
+              "question": "AV node جي دير جو بنيادي فائدو ڇا آهي؟",
+              "options": {
+                "A": "Allow atria to empty before ventricles contract",
+                "B": "Stop all electrical activity",
+                "C": "Close the aorta",
+                "D": "Oxygenate blood"
+              },
+              "explanation": "The delay allows ventricular filling after atrial contraction."
+            }
+          }
+        },
+        {
+          "question": "Which vessel carries blood from the right ventricle to the lungs?",
+          "options": {
+            "A": "Pulmonary artery",
+            "B": "Pulmonary vein",
+            "C": "Aorta",
+            "D": "Vena cava"
+          },
+          "correctOption": "A",
+          "explanation": "The pulmonary artery carries deoxygenated blood from the right ventricle to the lungs.",
+          "translations": {
+            "ur": {
+              "question": "کون سی نالی دائیں بطین سے خون پھیپھڑوں تک لے جاتی ہے؟",
+              "options": {
+                "A": "Pulmonary artery",
+                "B": "Pulmonary vein",
+                "C": "Aorta",
+                "D": "Vena cava"
+              },
+              "explanation": "The pulmonary artery carries deoxygenated blood from the right ventricle to the lungs."
+            },
+            "sd": {
+              "question": "ڪهڙي نلي ساڄي ventricle مان رت ڦڦڙن ڏانهن کڻي وڃي ٿي؟",
+              "options": {
+                "A": "Pulmonary artery",
+                "B": "Pulmonary vein",
+                "C": "Aorta",
+                "D": "Vena cava"
+              },
+              "explanation": "The pulmonary artery carries deoxygenated blood from the right ventricle to the lungs."
+            }
+          }
+        },
+        {
+          "question": "Which vessel carries nutrient-rich blood from digestive organs to the liver?",
+          "options": {
+            "A": "Hepatic portal vein",
+            "B": "Pulmonary vein",
+            "C": "Renal artery",
+            "D": "Aorta"
+          },
+          "correctOption": "A",
+          "explanation": "The hepatic portal vein delivers absorbed nutrients to the liver.",
+          "translations": {
+            "ur": {
+              "question": "ہاضمے کے اعضا سے غذائیت والا خون جگر تک کون لے جاتا ہے؟",
+              "options": {
+                "A": "Hepatic portal vein",
+                "B": "Pulmonary vein",
+                "C": "Renal artery",
+                "D": "Aorta"
+              },
+              "explanation": "The hepatic portal vein delivers absorbed nutrients to the liver."
+            },
+            "sd": {
+              "question": "هاضمي وارن عضون مان غذائيت وارو رت جيري ڏانهن ڪهڙي نلي کڻي وڃي ٿي؟",
+              "options": {
+                "A": "Hepatic portal vein",
+                "B": "Pulmonary vein",
+                "C": "Renal artery",
+                "D": "Aorta"
+              },
+              "explanation": "The hepatic portal vein delivers absorbed nutrients to the liver."
+            }
+          }
+        },
+        {
+          "question": "Which vessel type has a wall one endothelial cell thick?",
+          "options": {
+            "A": "Capillary",
+            "B": "Artery",
+            "C": "Vein",
+            "D": "Arteriole"
+          },
+          "correctOption": "A",
+          "explanation": "Thin capillary walls permit exchange between blood and tissues.",
+          "translations": {
+            "ur": {
+              "question": "کس نالی کی دیوار ایک خلیے جتنی باریک ہوتی ہے؟",
+              "options": {
+                "A": "Capillary",
+                "B": "Artery",
+                "C": "Vein",
+                "D": "Arteriole"
+              },
+              "explanation": "Thin capillary walls permit exchange between blood and tissues."
+            },
+            "sd": {
+              "question": "ڪهڙي نلي جي ڀت هڪ خلوي تهه جيتري سنهي آهي؟",
+              "options": {
+                "A": "Capillary",
+                "B": "Artery",
+                "C": "Vein",
+                "D": "Arteriole"
+              },
+              "explanation": "Thin capillary walls permit exchange between blood and tissues."
+            }
+          }
+        },
+        {
+          "question": "What do valves in many veins help prevent?",
+          "options": {
+            "A": "Backflow of blood",
+            "B": "Diffusion of oxygen",
+            "C": "Blood clotting in all circumstances",
+            "D": "Arterial pressure"
+          },
+          "correctOption": "A",
+          "explanation": "Venous valves help maintain one-way return, particularly against gravity.",
+          "translations": {
+            "ur": {
+              "question": "وریدوں کے والوز کس چیز کو روکتے ہیں؟",
+              "options": {
+                "A": "Backflow of blood",
+                "B": "Diffusion of oxygen",
+                "C": "Blood clotting in all circumstances",
+                "D": "Arterial pressure"
+              },
+              "explanation": "Venous valves help maintain one-way return, particularly against gravity."
+            },
+            "sd": {
+              "question": "رڳن جا والوز ڪهڙي شيءِ کي روڪين ٿا؟",
+              "options": {
+                "A": "Backflow of blood",
+                "B": "Diffusion of oxygen",
+                "C": "Blood clotting in all circumstances",
+                "D": "Arterial pressure"
+              },
+              "explanation": "Venous valves help maintain one-way return, particularly against gravity."
+            }
+          }
+        },
+        {
+          "question": "What is vasoconstriction?",
+          "options": {
+            "A": "Narrowing of a blood vessel due to smooth muscle contraction",
+            "B": "Widening of a blood vessel",
+            "C": "Rupture of a capillary",
+            "D": "Clot formation"
+          },
+          "correctOption": "A",
+          "explanation": "Smooth muscle contraction narrows the vessel lumen and increases resistance.",
+          "translations": {
+            "ur": {
+              "question": "Vasoconstriction کیا ہے؟",
+              "options": {
+                "A": "Narrowing of a blood vessel due to smooth muscle contraction",
+                "B": "Widening of a blood vessel",
+                "C": "Rupture of a capillary",
+                "D": "Clot formation"
+              },
+              "explanation": "Smooth muscle contraction narrows the vessel lumen and increases resistance."
+            },
+            "sd": {
+              "question": "Vasoconstriction ڇا آهي؟",
+              "options": {
+                "A": "Narrowing of a blood vessel due to smooth muscle contraction",
+                "B": "Widening of a blood vessel",
+                "C": "Rupture of a capillary",
+                "D": "Clot formation"
+              },
+              "explanation": "Smooth muscle contraction narrows the vessel lumen and increases resistance."
+            }
+          }
+        },
+        {
+          "question": "Systolic blood pressure is measured during:",
+          "options": {
+            "A": "Ventricular contraction",
+            "B": "Ventricular relaxation",
+            "C": "Atrial filling only",
+            "D": "Complete absence of heartbeat"
+          },
+          "correctOption": "A",
+          "explanation": "Systolic pressure is the arterial pressure during ventricular systole.",
+          "translations": {
+            "ur": {
+              "question": "سسٹولک بلڈ پریشر کب ناپا جاتا ہے؟",
+              "options": {
+                "A": "Ventricular contraction",
+                "B": "Ventricular relaxation",
+                "C": "Atrial filling only",
+                "D": "Complete absence of heartbeat"
+              },
+              "explanation": "Systolic pressure is the arterial pressure during ventricular systole."
+            },
+            "sd": {
+              "question": "Systolic بلڊ پريشر ڪڏهن ماپبو آهي؟",
+              "options": {
+                "A": "Ventricular contraction",
+                "B": "Ventricular relaxation",
+                "C": "Atrial filling only",
+                "D": "Complete absence of heartbeat"
+              },
+              "explanation": "Systolic pressure is the arterial pressure during ventricular systole."
+            }
+          }
+        },
+        {
+          "question": "Which statement about the lymphatic system is correct?",
+          "options": {
+            "A": "It returns excess tissue fluid to the bloodstream",
+            "B": "It pumps blood from the left ventricle",
+            "C": "It produces all red blood cells in adults",
+            "D": "It carries air to alveoli"
+          },
+          "correctOption": "A",
+          "explanation": "Lymphatic vessels return excess interstitial fluid and also support immunity.",
+          "translations": {
+            "ur": {
+              "question": "لمفی نظام کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "It returns excess tissue fluid to the bloodstream",
+                "B": "It pumps blood from the left ventricle",
+                "C": "It produces all red blood cells in adults",
+                "D": "It carries air to alveoli"
+              },
+              "explanation": "Lymphatic vessels return excess interstitial fluid and also support immunity."
+            },
+            "sd": {
+              "question": "لمفي نظام بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "It returns excess tissue fluid to the bloodstream",
+                "B": "It pumps blood from the left ventricle",
+                "C": "It produces all red blood cells in adults",
+                "D": "It carries air to alveoli"
+              },
+              "explanation": "Lymphatic vessels return excess interstitial fluid and also support immunity."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define double circulation and name its two circuits. State one advantage of keeping oxygenated and deoxygenated blood separate in the human heart.",
+          "modelAnswer": "Double circulation means blood passes through the heart twice in one complete circuit. The pulmonary circuit carries blood between heart and lungs; the systemic circuit carries blood between heart and the rest of the body. Separation prevents mixing of oxygen-rich and oxygen-poor blood and supports efficient oxygen delivery.",
+          "rubric": [
+            "Definition: heart is passed twice per complete circuit (2 marks)",
+            "Names pulmonary and systemic circuits correctly (2 marks)",
+            "One valid advantage of separation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "دوہری گردش کی تعریف کریں اور اس کے دونوں چکروں کے نام لکھیں۔ آکسیجن والے اور آکسیجن سے محروم خون کو الگ رکھنے کا ایک فائدہ بتائیں۔",
+              "modelAnswer": "دوہری گردش میں خون ایک مکمل چکر کے دوران دل سے دو مرتبہ گزرتا ہے۔ پلمونری چکر دل اور پھیپھڑوں کے درمیان جبکہ نظامی چکر دل اور باقی جسم کے درمیان خون لے جاتا ہے۔ دونوں طرح کے خون کا الگ رہنا اختلاط روکتا اور آکسیجن کی مؤثر فراہمی میں مدد دیتا ہے۔",
+              "rubric": [
+                "ایک مکمل چکر میں دل سے دو مرتبہ گزرنے کی تعریف (2 نمبر)",
+                "پلمونری اور نظامی چکر کے درست نام (2 نمبر)",
+                "الگ رکھنے کا ایک درست فائدہ (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ٻٽي گردش جي وصف ڏيو ۽ ان جي ٻن چڪرن جا نالا لکو. آڪسيجن واري ۽ آڪسيجن کان خالي رت کي دل ۾ الڳ رکڻ جو هڪ فائدو ٻڌايو.",
+              "modelAnswer": "ٻٽي گردش ۾ رت هڪ مڪمل چڪر دوران دل مان ٻه ڀيرا گذري ٿو. Pulmonary چڪر دل ۽ ڦڦڙن جي وچ ۾، جڏهن ته systemic چڪر دل ۽ باقي جسم جي وچ ۾ رت کڻي وڃي ٿو. ٻنهي قسمن جو رت الڳ رهڻ سان پاڻ ۾ نٿو ملي ۽ آڪسيجن جي اثرائتي فراهمي ٿئي ٿي.",
+              "rubric": [
+                "هڪ مڪمل چڪر ۾ دل مان ٻه ڀيرا گذرڻ جي وصف (2 نمبر)",
+                "Pulmonary ۽ systemic چڪرن جا صحيح نالا (2 نمبر)",
+                "الڳ رکڻ جو هڪ صحيح فائدو (1 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Trace the pathway of a red blood cell from the vena cava through the heart, lungs and back to the aorta. Include the main chambers, valves and vessels.",
+          "modelAnswer": "Vena cava → right atrium → tricuspid valve → right ventricle → pulmonary semilunar valve → pulmonary artery → lung capillaries → pulmonary veins → left atrium → mitral valve → left ventricle → aortic semilunar valve → aorta.",
+          "rubric": [
+            "Correct right-side route and tricuspid valve (2 marks)",
+            "Pulmonary artery, lungs and pulmonary veins in correct order (1 mark)",
+            "Correct left-side route, mitral and aortic valves, aorta (2 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "وینا کاوا سے دل اور پھیپھڑوں کے راستے شہ رگ تک سرخ خون کے خلیے کا راستہ لکھیں۔ اہم خانوں، والوز اور نالیوں کے نام شامل کریں۔",
+              "modelAnswer": "وینا کاوا → دایاں ایٹریم → ٹرائی کسپیڈ والو → دایاں وینٹریکل → پلمونری والو → پلمونری شریان → پھیپھڑوں کی کیپلریز → پلمونری وریدیں → بایاں ایٹریم → مائٹرل والو → بایاں وینٹریکل → ایورٹک والو → شہ رگ۔",
+              "rubric": [
+                "دائیں حصے کا درست راستہ اور ٹرائی کسپیڈ والو (2 نمبر)",
+                "پلمونری شریان، پھیپھڑے اور پلمونری وریدیں درست ترتیب سے (1 نمبر)",
+                "بائیں حصے کا درست راستہ، مائٹرل و ایورٹک والوز اور شہ رگ (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "vena cava کان دل ۽ ڦڦڙن وسيلي aorta تائين ڳاڙهي رت جي خاني جو رستو لکو. اهم خانا، والوز ۽ نليون شامل ڪريو.",
+              "modelAnswer": "Vena cava → ساڄو atrium → tricuspid valve → ساڄو ventricle → pulmonary valve → pulmonary artery → ڦڦڙن جون capillaries → pulmonary veins → کاٻو atrium → mitral valve → کاٻو ventricle → aortic valve → aorta.",
+              "rubric": [
+                "ساڄي پاسي جو صحيح رستو ۽ tricuspid valve (2 نمبر)",
+                "Pulmonary artery، ڦڦڙ ۽ pulmonary veins صحيح ترتيب سان (1 نمبر)",
+                "کاٻي پاسي جو صحيح رستو، mitral ۽ aortic valves، aorta (2 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare arteries, veins and capillaries by direction of flow, wall structure and principal function.",
+          "modelAnswer": "Arteries carry blood away from the heart and have thick elastic muscular walls for high pressure. Veins carry blood towards the heart, have thinner walls, larger lumens and often valves. Capillaries connect arterioles and venules; their one-cell-thick walls allow exchange of gases, nutrients and wastes.",
+          "rubric": [
+            "Arteries: direction and thick elastic wall (2 marks)",
+            "Veins: direction and thin wall/large lumen/valves (2 marks)",
+            "Capillary exchange function and thin wall (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "شریانوں، وریدوں اور کیپلریز کا موازنہ خون کے بہاؤ کی سمت، دیوار کی ساخت اور بنیادی کام کے لحاظ سے کریں۔",
+              "modelAnswer": "شریانیں خون کو دل سے دور لے جاتی ہیں اور ان کی دیواریں موٹی، عضلاتی اور لچک دار ہوتی ہیں۔ وریدیں خون دل کی طرف لاتی ہیں؛ ان کی دیواریں پتلی، اندرونی راستہ کشادہ اور اکثر والوز ہوتے ہیں۔ کیپلریز آرٹیریولز اور وینیولز کو ملاتی ہیں؛ ان کی ایک خلیے جتنی دیوار گیسوں، غذائی اجزا اور فضلات کے تبادلے کی اجازت دیتی ہے۔",
+              "rubric": [
+                "شریانوں کی سمت اور موٹی لچک دار دیوار (2 نمبر)",
+                "وریدوں کی سمت اور پتلی دیوار/کشادہ راستہ/والوز (2 نمبر)",
+                "کیپلریز کا تبادلہ اور باریک دیوار (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "شريانن، رڳن ۽ ڪيپليرين جو رت جي رخ، ڀت جي بناوت ۽ بنيادي ڪم موجب مقابلو ڪريو.",
+              "modelAnswer": "شريانون رت کي دل کان پري کڻي وڃن ٿيون ۽ انهن جون ڀتيون ٿلهيون، عضلاتي ۽ لچڪدار آهن. رڳون رت کي دل ڏانهن آڻين ٿيون؛ انهن جون ڀتيون سنهيون، اندريون جاءِ ويڪري ۽ اڪثر والوز هوندا آهن. ڪيپليريون آرٽيريولز ۽ وينولز کي ملائن ٿيون؛ انهن جي هڪ خلوي ڀت گيسن، غذائي مادّن ۽ فضلي جي مٽاسٽا جي اجازت ڏئي ٿي.",
+              "rubric": [
+                "شريانن جو رخ ۽ ٿلهي لچڪدار ڀت (2 نمبر)",
+                "رڳن جو رخ ۽ سنهي ڀت/ويڪري جاءِ/والوز (2 نمبر)",
+                "ڪيپليرين جو مٽاسٽا وارو ڪم ۽ سنهي ڀت (1 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain the structure of the human heart and trace the complete route of blood through its chambers and valves. Relate the thickness of the ventricular walls to their functions, and explain how the SA node, AV node and Purkinje fibres coordinate a heartbeat.",
+          "modelAnswer": "The heart is a muscular four-chambered organ enclosed by the pericardium. A septum separates right and left sides. Atria receive blood and ventricles pump it out. Deoxygenated blood enters the right atrium through venae cavae, passes the tricuspid valve to right ventricle, then through pulmonary valve and pulmonary artery to lungs. Oxygenated blood returns by pulmonary veins to left atrium, passes the mitral valve to left ventricle and leaves through aortic valve into aorta. Valves prevent backflow. Ventricular walls are thicker than atrial walls; the left ventricle is thickest because it pumps through the high-resistance systemic circuit, while right ventricle pumps only to lungs. SA node initiates the electrical impulse; AV node delays it so ventricles fill; conduction tissue and Purkinje fibres spread excitation through ventricular muscle for coordinated contraction. An ECG records electrical activity.",
+          "rubric": [
+            "Four chambers, septum and pericardium described (2 marks)",
+            "Complete blood pathway with valves and vessels (3 marks)",
+            "Wall thickness linked correctly to pumping tasks (2 marks)",
+            "SA node, AV delay and Purkinje fibre roles (2 marks)",
+            "Clear scientific organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "انسانی دل کی ساخت بیان کریں اور خانوں و والوز کے ذریعے خون کا مکمل راستہ لکھیں۔ بطینوں کی دیواروں کی موٹائی کو ان کے کام سے مربوط کریں اور بتائیں کہ SA node، AV node اور Purkinje fibres دھڑکن کو کیسے منظم کرتے ہیں۔",
+              "modelAnswer": "دل چار خانوں والا عضلاتی عضو ہے جس کے گرد پیری کارڈیم ہوتا ہے۔ پردہ دائیں اور بائیں حصوں کو جدا کرتا ہے۔ ایٹریا خون وصول کرتے اور وینٹریکلز خون باہر پمپ کرتے ہیں۔ آکسیجن سے محروم خون وینا کاوا سے دائیں ایٹریم، ٹرائی کسپیڈ والو سے دائیں وینٹریکل، پھر پلمونری والو اور شریان سے پھیپھڑوں تک جاتا ہے۔ آکسیجن والا خون پلمونری وریدوں سے بائیں ایٹریم، مائٹرل والو سے بائیں وینٹریکل اور ایورٹک والو سے شہ رگ میں جاتا ہے۔ والوز الٹا بہاؤ روکتے ہیں۔ بایاں وینٹریکل نظامی گردش کے زیادہ دباؤ کے باعث سب سے موٹا ہوتا ہے۔ SA node تحریک شروع کرتا ہے، AV node تاخیر کرتا ہے تاکہ بطین بھر سکیں، اور Purkinje fibres تحریک کو بطینوں میں پھیلاتے ہیں۔ ECG برقی سرگرمی ریکارڈ کرتا ہے۔",
+              "rubric": [
+                "چار خانے، پردہ اور پیری کارڈیم (2 نمبر)",
+                "والوز اور نالیوں سمیت خون کا مکمل راستہ (3 نمبر)",
+                "دیواروں کی موٹائی اور کام کا درست تعلق (2 نمبر)",
+                "SA node، AV node اور Purkinje fibres کے کردار (2 نمبر)",
+                "سائنسی انداز اور ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "انساني دل جي بناوت بيان ڪريو ۽ خانن ۽ والوز وسيلي رت جو مڪمل رستو لکو. Ventricles جي ڀتين جي ٿولهه کي انهن جي ڪم سان ڳنڍيو ۽ ٻڌايو ته SA node، AV node ۽ Purkinje fibres ڌڙڪن کي ڪيئن ترتيب ڏين ٿا.",
+              "modelAnswer": "دل چار خانن وارو عضلاتي عضوو آهي، جنهن جي چوڌاري pericardium هوندو آهي. پردو ساڄي ۽ کاٻي پاسن کي جدا ڪري ٿو. Atria رت وٺن ٿا ۽ ventricles رت ٻاهر پمپ ڪن ٿا. آڪسيجن کان خالي رت vena cava مان ساڄي atrium، tricuspid valve وسيلي ساڄي ventricle، پوءِ pulmonary valve ۽ artery وسيلي ڦڦڙن ڏانهن وڃي ٿو. آڪسيجن وارو رت pulmonary veins مان کاٻي atrium، mitral valve وسيلي کاٻي ventricle ۽ aortic valve مان aorta ۾ وڃي ٿو. والوز پوئتي وهڪري کي روڪين ٿا. کاٻي ventricle جي ڀت systemic گردش جي وڌيڪ دٻاءَ سبب سڀ کان ٿلهي آهي. SA node تحرڪ شروع ڪري ٿو، AV node دير ڪري ٿو ته ventricles ڀرجي سگهن، ۽ Purkinje fibres تحرڪ کي ventricles ۾ پکيڙين ٿا. ECG برقي سرگرمي رڪارڊ ڪري ٿو.",
+              "rubric": [
+                "چار خانا، پردو ۽ pericardium (2 نمبر)",
+                "والوز ۽ نلين سميت رت جو مڪمل رستو (3 نمبر)",
+                "ڀت جي ٿولهه ۽ ڪم جو صحيح تعلق (2 نمبر)",
+                "SA node، AV node ۽ Purkinje fibres جا ڪم (2 نمبر)",
+                "سائنسي ترتيب ۽ وضاحت (1 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Case study: A 52-year-old adult reports crushing chest pressure spreading to the left arm, sweating and breathlessness while walking. Explain why this may indicate an acute coronary event, distinguish angina from myocardial infarction, identify immediate safe action, and discuss four evidence-based ways to reduce cardiovascular risk. Also explain one role of the lymphatic system.",
+          "modelAnswer": "The symptoms may indicate reduced blood flow to heart muscle and could represent a heart attack; symptoms vary and diagnosis requires urgent clinical assessment. Angina is usually temporary discomfort caused by a transient mismatch between myocardial oxygen supply and demand without permanent muscle death. Myocardial infarction occurs when prolonged interruption of blood supply injures or kills heart muscle. The person needs emergency medical services immediately; stop exertion, rest and follow dispatcher/clinician instructions. Do not drive oneself or delay for home remedies. Risk reduction includes avoiding tobacco, regular physical activity appropriate to health, a balanced diet with limited excess salt and saturated fat, and clinical management of blood pressure, cholesterol and diabetes. The lymphatic system returns excess tissue fluid to blood and supports immune defence.",
+          "rubric": [
+            "Links symptoms to possible coronary obstruction/acute event without claiming diagnosis (2 marks)",
+            "Accurate distinction between angina and infarction (2 marks)",
+            "Immediate emergency response and no self-driving/delay (2 marks)",
+            "Four appropriate risk-reduction measures (3 marks)",
+            "One correct lymphatic function (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "کیس اسٹڈی: 52 سالہ شخص چلتے ہوئے سینے میں شدید دباؤ، بائیں بازو تک پھیلتا درد، پسینہ اور سانس پھولنے کی شکایت کرتا ہے۔ وضاحت کریں کہ یہ اچانک کورونری مسئلے کی علامت کیوں ہو سکتی ہے؛ انجائنا اور مایوکارڈیل انفارکشن میں فرق کریں؛ فوری محفوظ اقدام اور قلبی خطرہ کم کرنے کے چار مستند طریقے لکھیں۔ لمفی نظام کا ایک کام بھی بیان کریں۔",
+              "modelAnswer": "یہ علامات دل کے عضلے کو خون کم پہنچنے اور ممکنہ ہارٹ اٹیک کی نشاندہی کر سکتی ہیں؛ علامات مختلف ہو سکتی ہیں اور تشخیص کے لیے فوری طبی معائنہ ضروری ہے۔ انجائنا عموماً آکسیجن کی عارضی کمی سے ہونے والی تکلیف ہے جس میں مستقل عضلاتی موت نہیں ہوتی۔ مایوکارڈیل انفارکشن میں خون کی فراہمی دیر تک رکنے سے دل کے عضلے کو نقصان یا موت ہوتی ہے۔ فوراً ہنگامی طبی سروس بلائیں، جسمانی سرگرمی روک کر آرام کریں اور طبی عملے کی ہدایات پر عمل کریں۔ خود گاڑی نہ چلائیں اور گھریلو علاج کے انتظار میں تاخیر نہ کریں۔ خطرہ کم کرنے کے لیے تمباکو سے پرہیز، مناسب باقاعدہ ورزش، متوازن غذا اور طبی نگرانی میں بلڈ پریشر، کولیسٹرول اور ذیابیطس کا کنٹرول ضروری ہے۔ لمفی نظام اضافی بافتی سیال خون میں واپس لاتا اور مدافعت میں مدد دیتا ہے۔",
+              "rubric": [
+                "علامات کو ممکنہ کورونری مسئلے سے جوڑنا، قطعی تشخیص نہ کرنا (2 نمبر)",
+                "انجائنا اور انفارکشن میں درست فرق (2 نمبر)",
+                "فوری ہنگامی مدد، خود گاڑی نہ چلانا/تاخیر نہ کرنا (2 نمبر)",
+                "خطرہ کم کرنے کے چار مناسب طریقے (3 نمبر)",
+                "لمفی نظام کا ایک درست کام (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ڪيس اسٽڊي: 52 سالن جو ماڻهو هلندي ڇاتيءَ ۾ سخت دٻاءُ، کاٻي ٻانهن ڏانهن پکڙجندڙ سور، پگهر ۽ ساهه ۾ تڪليف ٻڌائي ٿو. وضاحت ڪريو ته اهي اوچتي coronary مسئلي جون نشانيون ڇو ٿي سگهن ٿيون؛ angina ۽ myocardial infarction ۾ فرق ڪريو؛ ترت محفوظ قدم ۽ دل جي خطري کي گهٽائڻ جا چار سائنسي طريقا لکو. لمفي نظام جو هڪ ڪم به بيان ڪريو.",
+              "modelAnswer": "اهي نشانيون دل جي عضلي ڏانهن رت گهٽ پهچڻ ۽ ممڪن heart attack ظاهر ڪري سگهن ٿيون؛ علامتون مختلف ٿي سگهن ٿيون ۽ تشخيص لاءِ ترت طبي جائزو ضروري آهي. Angina عام طور آڪسيجن جي عارضي کوٽ سبب تڪليف آهي، جنهن ۾ عضلو مستقل طور نٿو مري. Myocardial infarction ۾ رت جي فراهمي گهڻي دير بند ٿيڻ سبب دل جي عضلي کي نقصان يا موت ٿئي ٿو. فوراً هنگامي طبي مدد گهرايو، سرگرمي روڪي آرام ڪريو ۽ طبي عملي جون هدايتون مڃيو. پاڻ گاڏي نه هلايو ۽ گهريلو علاج جي انتظار ۾ دير نه ڪريو. خطرو گهٽائڻ لاءِ تمباڪو کان پاسو، صحت مطابق باقاعده ورزش، متوازن خوراڪ ۽ طبي نگرانيءَ ۾ بلڊ پريشر، ڪوليسٽرول ۽ ذیابيطس جو ڪنٽرول ضروري آهي. لمفي نظام اضافي بافتي مايع رت ۾ واپس آڻي ۽ مدافعتي بچاءَ ۾ مدد ڪري ٿو.",
+              "rubric": [
+                "علامتن کي ممڪن coronary مسئلي سان ڳنڍڻ، قطعي تشخيص نه ڪرڻ (2 نمبر)",
+                "Angina ۽ infarction ۾ صحيح فرق (2 نمبر)",
+                "ترت هنگامي مدد، پاڻ گاڏي نه هلائڻ/دير نه ڪرڻ (2 نمبر)",
+                "خطرو گهٽائڻ جا چار مناسب طريقا (3 نمبر)",
+                "لمفي نظام جو هڪ صحيح ڪم (1 نمبر)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
