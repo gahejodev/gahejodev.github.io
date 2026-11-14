@@ -613,7 +613,10 @@
           "marks": 5,
           "question": "Differentiate excretion from egestion. Give two excretory products and the organs that remove them.",
           "modelAnswer": "Excretion removes metabolic wastes or excess substances; egestion removes undigested food. Lungs remove carbon dioxide, kidneys remove urea, and skin removes small amounts of water and salts.",
-          "rubric": "Correct distinction (2 marks); two examples with organs (3 marks).",
+          "rubric": [
+            "Correct distinction (2 marks)",
+            "two examples with organs (3 marks)."
+          ],
           "translations": {
             "ur": {
               "question": "اخراج اور Egestion میں فرق کریں۔ دو اخراجی مادے اور انہیں خارج کرنے والے اعضا لکھیں۔",
@@ -638,7 +641,10 @@
           "marks": 5,
           "question": "Describe the internal structure of a kidney and trace the route of urine to outside the body.",
           "modelAnswer": "The kidney has an outer cortex, inner medulla containing pyramids and a renal pelvis that collects urine. Urine flows from collecting ducts to renal pelvis, ureter, bladder and urethra.",
-          "rubric": "Cortex, medulla, pelvis (3 marks); correct urine route (2 marks).",
+          "rubric": [
+            "Cortex, medulla, pelvis (3 marks)",
+            "correct urine route (2 marks)."
+          ],
           "translations": {
             "ur": {
               "question": "گردے کی اندرونی ساخت اور پیشاب کا جسم سے باہر تک راستہ بیان کریں۔",
@@ -663,7 +669,11 @@
           "marks": 5,
           "question": "Explain glomerular filtration, selective reabsorption and tubular secretion.",
           "modelAnswer": "Filtration moves water and small solutes from blood into Bowman's capsule. Reabsorption returns useful substances such as glucose, amino acids, water and ions to blood. Secretion transfers selected substances such as hydrogen and potassium ions from blood into the tubule.",
-          "rubric": "Filtration direction (2 marks); reabsorption direction/examples (2 marks); secretion direction/example (1 mark).",
+          "rubric": [
+            "Filtration direction (2 marks)",
+            "reabsorption direction/examples (2 marks)",
+            "secretion direction/example (1 mark)."
+          ],
           "translations": {
             "ur": {
               "question": "Glomerular filtration، selective reabsorption اور tubular secretion کی وضاحت کریں۔",
@@ -690,7 +700,14 @@
           "marks": 10,
           "question": "Describe nephron structure and explain how filtration, reabsorption and secretion form urine. Include the role of ADH.",
           "modelAnswer": "A nephron contains a renal corpuscle, PCT, loop of Henle, DCT and collecting duct. Blood pressure filters water and small solutes into Bowman's capsule; cells and most large proteins remain in blood. The PCT reabsorbs nearly all glucose and amino acids and much water and ions. Tubular secretion transfers selected ions from blood to tubular fluid and helps regulate pH. Remaining fluid becomes urine. ADH increases collecting-duct water permeability when body water is low, increasing water reabsorption and producing a smaller volume of concentrated urine.",
-          "rubric": "Nephron parts (2); filtration (2); reabsorption (2); secretion (1); ADH regulation (2); clarity (1).",
+          "rubric": [
+            "Nephron parts (2)",
+            "filtration (2)",
+            "reabsorption (2)",
+            "secretion (1)",
+            "ADH regulation (2)",
+            "clarity (1)."
+          ],
           "translations": {
             "ur": {
               "question": "نیفرون کی ساخت اور پیشاب بننے میں فلٹریشن، دوبارہ جذب اور secretion کا کردار بیان کریں۔ ADH بھی شامل کریں۔",
@@ -723,7 +740,13 @@
           "marks": 10,
           "question": "Case study: A patient with diabetes and long-standing hypertension develops swelling and abnormal kidney tests. Explain possible kidney damage, compare haemodialysis and peritoneal dialysis, and discuss transplantation limitations.",
           "modelAnswer": "Diabetes can damage renal microvessels and filtration structures; hypertension can injure renal vessels and glomeruli. Haemodialysis passes blood through an external dialyser where wastes diffuse across a selectively permeable membrane into dialysis fluid. Peritoneal dialysis uses the peritoneum as the exchange membrane for fluid placed in the abdomen; infection is a risk. Transplantation may restore kidney function for a suitable patient but requires a donor, matching, surgery and long-term immunosuppressants, increasing infection risk. Diagnosis and treatment selection require a renal team and clinical tests.",
-          "rubric": "Diabetes/hypertension effects (2); haemodialysis (2); peritoneal dialysis (2); transplant benefits/limits (3); specialist assessment (1).",
+          "rubric": [
+            "Diabetes/hypertension effects (2)",
+            "haemodialysis (2)",
+            "peritoneal dialysis (2)",
+            "transplant benefits/limits (3)",
+            "specialist assessment (1)."
+          ],
           "translations": {
             "ur": {
               "question": "کیس اسٹڈی: ذیابیطس اور بلند فشارِ خون کے مریض میں سوجن اور گردوں کے غیر معمولی ٹیسٹ ہیں۔ ممکنہ نقصان، دونوں اقسام کی dialysis اور پیوندکاری کی حدود بیان کریں۔",
