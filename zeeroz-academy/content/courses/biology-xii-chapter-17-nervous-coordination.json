@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-17-nervous-coordination",
+  "title": "Biology XII — Chapter 17: Nervous Coordination",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 17 — Nervous Coordination (20 periods). Five structured lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 17,
+    "periods": 20,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 17: Nervous Coordination",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 17; 20 periods.",
+      "lessons": [
+        {
+          "title": "17.1 Stimulus-response pathway",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain stimulus-response pathway and relate its structure or mechanism to biological function.\n\nA receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔",
+            "sd": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا."
+          }
+        },
+        {
+          "title": "17.2 Neurons and reflexes",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain neurons and reflexes and relate its structure or mechanism to biological function.\n\nNeurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔",
+            "sd": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو."
+          }
+        },
+        {
+          "title": "17.3 Nerve impulse and synapse",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain nerve impulse and synapse and relate its structure or mechanism to biological function.\n\nAction potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+            "sd": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو."
+          }
+        },
+        {
+          "title": "17.4 Central and peripheral nervous systems",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain central and peripheral nervous systems and relate its structure or mechanism to biological function.\n\nThe brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔",
+            "sd": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن."
+          }
+        },
+        {
+          "title": "17.5 Drugs, disorders and diagnosis",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain drugs, disorders and diagnosis and relate its structure or mechanism to biological function.\n\nPsychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔",
+            "sd": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains stimulus-response pathway?",
+          "options": {
+            "A": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors.",
+            "B": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli.",
+            "C": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.",
+            "D": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs."
+          },
+          "correctOption": "A",
+          "explanation": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors. This is the defining mechanism or significance of stimulus-response pathway.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔",
+                "B": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔",
+                "C": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+                "D": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔ یہی Stimulus-response pathway کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا.",
+                "B": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو.",
+                "C": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+                "D": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن."
+              },
+              "explanation": "صحيح جواب: ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا. اهو Stimulus-response pathway جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes stimulus-response pathway?",
+          "options": {
+            "A": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli.",
+            "B": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.",
+            "C": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs.",
+            "D": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors."
+          },
+          "correctOption": "D",
+          "explanation": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors. This is the defining mechanism or significance of stimulus-response pathway.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔",
+                "B": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+                "C": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔",
+                "D": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔ یہی Stimulus-response pathway کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو.",
+                "B": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+                "C": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن.",
+                "D": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا. اهو Stimulus-response pathway جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of stimulus-response pathway?",
+          "options": {
+            "A": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.",
+            "B": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs.",
+            "C": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors.",
+            "D": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli."
+          },
+          "correctOption": "C",
+          "explanation": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors. This is the defining mechanism or significance of stimulus-response pathway.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+                "B": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔",
+                "C": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔",
+                "D": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔"
+              },
+              "explanation": "درست جواب: ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔ یہی Stimulus-response pathway کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+                "B": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن.",
+                "C": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا.",
+                "D": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا. اهو Stimulus-response pathway جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains neurons and reflexes?",
+          "options": {
+            "A": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.",
+            "B": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs.",
+            "C": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI.",
+            "D": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli."
+          },
+          "correctOption": "D",
+          "explanation": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli. This is the defining mechanism or significance of neurons and reflexes.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+                "B": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔",
+                "C": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔",
+                "D": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔"
+              },
+              "explanation": "درست جواب: نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔ یہی Neurons and reflexes کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+                "B": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن.",
+                "C": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي.",
+                "D": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو. اهو Neurons and reflexes جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes neurons and reflexes?",
+          "options": {
+            "A": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs.",
+            "B": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI.",
+            "C": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli.",
+            "D": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells."
+          },
+          "correctOption": "C",
+          "explanation": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli. This is the defining mechanism or significance of neurons and reflexes.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔",
+                "B": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔",
+                "C": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔",
+                "D": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔"
+              },
+              "explanation": "درست جواب: نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔ یہی Neurons and reflexes کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن.",
+                "B": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي.",
+                "C": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو.",
+                "D": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو. اهو Neurons and reflexes جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of neurons and reflexes?",
+          "options": {
+            "A": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI.",
+            "B": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli.",
+            "C": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.",
+            "D": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs."
+          },
+          "correctOption": "B",
+          "explanation": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli. This is the defining mechanism or significance of neurons and reflexes.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔",
+                "B": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔",
+                "C": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+                "D": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔ یہی Neurons and reflexes کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي.",
+                "B": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو.",
+                "C": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+                "D": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن."
+              },
+              "explanation": "صحيح جواب: نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو. اهو Neurons and reflexes جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains nerve impulse and synapse?",
+          "options": {
+            "A": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI.",
+            "B": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors.",
+            "C": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.",
+            "D": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs."
+          },
+          "correctOption": "C",
+          "explanation": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells. This is the defining mechanism or significance of nerve impulse and synapse.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔",
+                "B": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔",
+                "C": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+                "D": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔ یہی Nerve impulse and synapse کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي.",
+                "B": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا.",
+                "C": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+                "D": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن."
+              },
+              "explanation": "صحيح جواب: ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو. اهو Nerve impulse and synapse جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes nerve impulse and synapse?",
+          "options": {
+            "A": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors.",
+            "B": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.",
+            "C": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs.",
+            "D": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI."
+          },
+          "correctOption": "B",
+          "explanation": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells. This is the defining mechanism or significance of nerve impulse and synapse.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔",
+                "B": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+                "C": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔",
+                "D": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔"
+              },
+              "explanation": "درست جواب: ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔ یہی Nerve impulse and synapse کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا.",
+                "B": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+                "C": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن.",
+                "D": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي."
+              },
+              "explanation": "صحيح جواب: ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو. اهو Nerve impulse and synapse جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of nerve impulse and synapse?",
+          "options": {
+            "A": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.",
+            "B": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs.",
+            "C": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI.",
+            "D": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors."
+          },
+          "correctOption": "A",
+          "explanation": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells. This is the defining mechanism or significance of nerve impulse and synapse.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+                "B": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔",
+                "C": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔",
+                "D": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔ یہی Nerve impulse and synapse کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+                "B": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن.",
+                "C": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي.",
+                "D": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو. اهو Nerve impulse and synapse جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains central and peripheral nervous systems?",
+          "options": {
+            "A": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli.",
+            "B": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs.",
+            "C": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI.",
+            "D": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors."
+          },
+          "correctOption": "B",
+          "explanation": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs. This is the defining mechanism or significance of central and peripheral nervous systems.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔",
+                "B": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔",
+                "C": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔",
+                "D": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔ یہی Central and peripheral nervous systems کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو.",
+                "B": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن.",
+                "C": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي.",
+                "D": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن. اهو Central and peripheral nervous systems جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes central and peripheral nervous systems?",
+          "options": {
+            "A": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs.",
+            "B": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI.",
+            "C": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors.",
+            "D": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli."
+          },
+          "correctOption": "A",
+          "explanation": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs. This is the defining mechanism or significance of central and peripheral nervous systems.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔",
+                "B": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔",
+                "C": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔",
+                "D": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔"
+              },
+              "explanation": "درست جواب: دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔ یہی Central and peripheral nervous systems کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن.",
+                "B": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي.",
+                "C": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا.",
+                "D": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن. اهو Central and peripheral nervous systems جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of central and peripheral nervous systems?",
+          "options": {
+            "A": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI.",
+            "B": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors.",
+            "C": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli.",
+            "D": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs."
+          },
+          "correctOption": "D",
+          "explanation": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs. This is the defining mechanism or significance of central and peripheral nervous systems.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔",
+                "B": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔",
+                "C": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔",
+                "D": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔ یہی Central and peripheral nervous systems کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي.",
+                "B": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا.",
+                "C": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو.",
+                "D": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن."
+              },
+              "explanation": "صحيح جواب: دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن. اهو Central and peripheral nervous systems جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains drugs, disorders and diagnosis?",
+          "options": {
+            "A": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI.",
+            "B": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors.",
+            "C": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli.",
+            "D": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells."
+          },
+          "correctOption": "A",
+          "explanation": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI. This is the defining mechanism or significance of drugs, disorders and diagnosis.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔",
+                "B": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔",
+                "C": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔",
+                "D": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔"
+              },
+              "explanation": "درست جواب: نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔ یہی Drugs, disorders and diagnosis کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي.",
+                "B": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا.",
+                "C": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو.",
+                "D": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي. اهو Drugs, disorders and diagnosis جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes drugs, disorders and diagnosis?",
+          "options": {
+            "A": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors.",
+            "B": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli.",
+            "C": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.",
+            "D": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI."
+          },
+          "correctOption": "D",
+          "explanation": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI. This is the defining mechanism or significance of drugs, disorders and diagnosis.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔",
+                "B": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔",
+                "C": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+                "D": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔"
+              },
+              "explanation": "درست جواب: نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔ یہی Drugs, disorders and diagnosis کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا.",
+                "B": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو.",
+                "C": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+                "D": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي."
+              },
+              "explanation": "صحيح جواب: نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي. اهو Drugs, disorders and diagnosis جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of drugs, disorders and diagnosis?",
+          "options": {
+            "A": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli.",
+            "B": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.",
+            "C": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI.",
+            "D": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors."
+          },
+          "correctOption": "C",
+          "explanation": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI. This is the defining mechanism or significance of drugs, disorders and diagnosis.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔",
+                "B": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+                "C": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔",
+                "D": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔ یہی Drugs, disorders and diagnosis کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو.",
+                "B": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+                "C": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي.",
+                "D": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي. اهو Drugs, disorders and diagnosis جو بنيادي اصول آهي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain stimulus-response pathway and state two important functions or outcomes.",
+          "modelAnswer": "A receptor detects a stimulus, sensory pathways carry information to the CNS, integration occurs, and motor pathways activate effectors.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Stimulus-response pathway کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "ریسیپٹر محرک محسوس کرتا ہے، حسی راستے معلومات مرکزی اعصابی نظام تک پہنچاتے ہیں، وہاں تجزیہ ہوتا ہے اور حرکی راستے اثرانداز اعضا کو فعال کرتے ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Stimulus-response pathway جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "ريسپٽر محرڪ محسوس ڪري ٿو، حسي رستا ڄاڻ CNS تائين کڻن ٿا، اتي تجزيو ٿئي ٿو ۽ حرڪتي رستا اثر ڪندڙ عضوا فعال ڪن ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain neurons and reflexes and state two important functions or outcomes.",
+          "modelAnswer": "Neurons have dendrites, a cell body and an axon; reflex arcs produce rapid, often involuntary responses to stimuli.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Neurons and reflexes کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "نیورون میں ڈینڈرائٹس، خلیاتی جسم اور ایکسون ہوتے ہیں؛ ریفلیکس آرک محرک پر تیز اور اکثر غیر ارادی ردعمل پیدا کرتا ہے۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Neurons and reflexes جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "نيورون ۾ ڊينڊرائٽ، خلوي جسم ۽ ايڪسون هوندا آهن؛ ريفليڪس آرڪ محرڪ تي تيز ۽ اڪثر غير ارادي ردعمل پيدا ڪري ٿو.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain nerve impulse and synapse and state two important functions or outcomes.",
+          "modelAnswer": "Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Nerve impulse and synapse کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Nerve impulse and synapse جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss central and peripheral nervous systems in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs. Action potentials depend on ion movements across membranes; synapses transfer signals chemically or electrically between cells. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Central and peripheral nervous systems کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔ ایکشن پوٹینشل جھلی کے پار آئنز کی حرکت سے بنتا ہے؛ سینیپس خلیوں کے درمیان کیمیائی یا برقی طور پیغام منتقل کرتا ہے۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Central and peripheral nervous systems جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن. ايڪشن پوٽينشل جھليءَ پار آئنن جي حرڪت سان ٺهي ٿو؛ سينيپس خلين وچ ۾ ڪيميائي يا برقي نموني پيغام منتقل ڪري ٿو.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss drugs, disorders and diagnosis in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Psychoactive substances alter neural signalling; neurological disorders have diverse causes and may be investigated using EEG, CT or MRI. The brain and spinal cord form the CNS; cranial and spinal nerves form the PNS, including autonomic pathways controlling internal organs. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Drugs, disorders and diagnosis کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "نفسیاتی اثر رکھنے والے مادے اعصابی پیغام رسانی بدلتے ہیں؛ اعصابی بیماریوں کی جانچ EEG، CT یا MRI سے کی جا سکتی ہے۔ دماغ اور حرام مغز مرکزی اعصابی نظام بناتے ہیں؛ دماغی و نخاعی اعصاب محیطی نظام بناتے ہیں، جس میں خودکار اعصابی راستے بھی شامل ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Drugs, disorders and diagnosis جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "نفسياتي اثر رکندڙ مادا عصبي پيغام رساني بدلائين ٿا؛ عصبي بيمارين جي جاچ EEG، CT يا MRI سان ٿي سگهي ٿي. دماغ ۽ حرام مغز مرڪزي اعصابي نظام ٺاهين ٿا؛ دماغي ۽ ريڙهه وارا اعصاب پردي وارو نظام ٺاهين ٿا، جنهن ۾ خودڪار رستا به شامل آهن.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

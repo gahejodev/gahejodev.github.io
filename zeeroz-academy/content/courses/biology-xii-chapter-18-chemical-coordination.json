@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-18-chemical-coordination",
+  "title": "Biology XII — Chapter 18: Chemical Coordination",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 18 — Chemical Coordination (15 periods). Five structured lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 18,
+    "periods": 15,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 18: Chemical Coordination",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 18; 15 periods.",
+      "lessons": [
+        {
+          "title": "18.1 Hormones as messengers",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain hormones as messengers and relate its structure or mechanism to biological function.\n\nHormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔",
+            "sd": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا."
+          }
+        },
+        {
+          "title": "18.2 Endocrine glands",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain endocrine glands and relate its structure or mechanism to biological function.\n\nPituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔",
+            "sd": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا."
+          }
+        },
+        {
+          "title": "18.3 Hypothalamus and pituitary",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain hypothalamus and pituitary and relate its structure or mechanism to biological function.\n\nThe hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+            "sd": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو."
+          }
+        },
+        {
+          "title": "18.4 Hormone imbalance",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain hormone imbalance and relate its structure or mechanism to biological function.\n\nToo little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔",
+            "sd": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن."
+          }
+        },
+        {
+          "title": "18.5 Feedback regulation",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain feedback regulation and relate its structure or mechanism to biological function.\n\nNegative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔",
+            "sd": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains hormones as messengers?",
+          "options": {
+            "A": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors.",
+            "B": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction.",
+            "C": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.",
+            "D": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels."
+          },
+          "correctOption": "A",
+          "explanation": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors. This is the defining mechanism or significance of hormones as messengers.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔",
+                "B": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔",
+                "C": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+                "D": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔ یہی Hormones as messengers کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا.",
+                "B": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا.",
+                "C": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+                "D": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن."
+              },
+              "explanation": "صحيح جواب: هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا. اهو Hormones as messengers جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes hormones as messengers?",
+          "options": {
+            "A": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction.",
+            "B": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.",
+            "C": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels.",
+            "D": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors."
+          },
+          "correctOption": "D",
+          "explanation": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors. This is the defining mechanism or significance of hormones as messengers.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔",
+                "B": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+                "C": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔",
+                "D": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔"
+              },
+              "explanation": "درست جواب: ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔ یہی Hormones as messengers کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا.",
+                "B": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+                "C": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن.",
+                "D": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا."
+              },
+              "explanation": "صحيح جواب: هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا. اهو Hormones as messengers جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of hormones as messengers?",
+          "options": {
+            "A": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.",
+            "B": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels.",
+            "C": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors.",
+            "D": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction."
+          },
+          "correctOption": "C",
+          "explanation": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors. This is the defining mechanism or significance of hormones as messengers.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+                "B": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔",
+                "C": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔",
+                "D": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔ یہی Hormones as messengers کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+                "B": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن.",
+                "C": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا.",
+                "D": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا. اهو Hormones as messengers جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains endocrine glands?",
+          "options": {
+            "A": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.",
+            "B": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels.",
+            "C": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth.",
+            "D": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction."
+          },
+          "correctOption": "D",
+          "explanation": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction. This is the defining mechanism or significance of endocrine glands.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+                "B": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔",
+                "C": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔",
+                "D": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔ یہی Endocrine glands کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+                "B": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن.",
+                "C": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن.",
+                "D": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا. اهو Endocrine glands جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes endocrine glands?",
+          "options": {
+            "A": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels.",
+            "B": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth.",
+            "C": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction.",
+            "D": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones."
+          },
+          "correctOption": "C",
+          "explanation": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction. This is the defining mechanism or significance of endocrine glands.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔",
+                "B": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔",
+                "C": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔",
+                "D": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔"
+              },
+              "explanation": "درست جواب: پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔ یہی Endocrine glands کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن.",
+                "B": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن.",
+                "C": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا.",
+                "D": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا. اهو Endocrine glands جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of endocrine glands?",
+          "options": {
+            "A": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth.",
+            "B": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction.",
+            "C": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.",
+            "D": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels."
+          },
+          "correctOption": "B",
+          "explanation": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction. This is the defining mechanism or significance of endocrine glands.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔",
+                "B": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔",
+                "C": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+                "D": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔ یہی Endocrine glands کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن.",
+                "B": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا.",
+                "C": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+                "D": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن."
+              },
+              "explanation": "صحيح جواب: پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا. اهو Endocrine glands جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains hypothalamus and pituitary?",
+          "options": {
+            "A": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth.",
+            "B": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors.",
+            "C": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.",
+            "D": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels."
+          },
+          "correctOption": "C",
+          "explanation": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones. This is the defining mechanism or significance of hypothalamus and pituitary.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔",
+                "B": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔",
+                "C": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+                "D": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔ یہی Hypothalamus and pituitary کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن.",
+                "B": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا.",
+                "C": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+                "D": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن."
+              },
+              "explanation": "صحيح جواب: هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو. اهو Hypothalamus and pituitary جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes hypothalamus and pituitary?",
+          "options": {
+            "A": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors.",
+            "B": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.",
+            "C": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels.",
+            "D": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth."
+          },
+          "correctOption": "B",
+          "explanation": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones. This is the defining mechanism or significance of hypothalamus and pituitary.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔",
+                "B": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+                "C": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔",
+                "D": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔"
+              },
+              "explanation": "درست جواب: ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔ یہی Hypothalamus and pituitary کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا.",
+                "B": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+                "C": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن.",
+                "D": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن."
+              },
+              "explanation": "صحيح جواب: هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو. اهو Hypothalamus and pituitary جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of hypothalamus and pituitary?",
+          "options": {
+            "A": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.",
+            "B": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels.",
+            "C": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth.",
+            "D": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors."
+          },
+          "correctOption": "A",
+          "explanation": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones. This is the defining mechanism or significance of hypothalamus and pituitary.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+                "B": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔",
+                "C": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔",
+                "D": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔"
+              },
+              "explanation": "درست جواب: ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔ یہی Hypothalamus and pituitary کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+                "B": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن.",
+                "C": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن.",
+                "D": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا."
+              },
+              "explanation": "صحيح جواب: هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو. اهو Hypothalamus and pituitary جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains hormone imbalance?",
+          "options": {
+            "A": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction.",
+            "B": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels.",
+            "C": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth.",
+            "D": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors."
+          },
+          "correctOption": "B",
+          "explanation": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels. This is the defining mechanism or significance of hormone imbalance.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔",
+                "B": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔",
+                "C": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔",
+                "D": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔"
+              },
+              "explanation": "درست جواب: ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔ یہی Hormone imbalance کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا.",
+                "B": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن.",
+                "C": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن.",
+                "D": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا."
+              },
+              "explanation": "صحيح جواب: هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن. اهو Hormone imbalance جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes hormone imbalance?",
+          "options": {
+            "A": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels.",
+            "B": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth.",
+            "C": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors.",
+            "D": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction."
+          },
+          "correctOption": "A",
+          "explanation": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels. This is the defining mechanism or significance of hormone imbalance.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔",
+                "B": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔",
+                "C": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔",
+                "D": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔ یہی Hormone imbalance کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن.",
+                "B": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن.",
+                "C": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا.",
+                "D": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن. اهو Hormone imbalance جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of hormone imbalance?",
+          "options": {
+            "A": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth.",
+            "B": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors.",
+            "C": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction.",
+            "D": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels."
+          },
+          "correctOption": "D",
+          "explanation": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels. This is the defining mechanism or significance of hormone imbalance.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔",
+                "B": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔",
+                "C": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔",
+                "D": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔ یہی Hormone imbalance کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن.",
+                "B": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا.",
+                "C": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا.",
+                "D": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن."
+              },
+              "explanation": "صحيح جواب: هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن. اهو Hormone imbalance جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains feedback regulation?",
+          "options": {
+            "A": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth.",
+            "B": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors.",
+            "C": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction.",
+            "D": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones."
+          },
+          "correctOption": "A",
+          "explanation": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth. This is the defining mechanism or significance of feedback regulation.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔",
+                "B": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔",
+                "C": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔",
+                "D": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔"
+              },
+              "explanation": "درست جواب: منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔ یہی Feedback regulation کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن.",
+                "B": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا.",
+                "C": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا.",
+                "D": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن. اهو Feedback regulation جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes feedback regulation?",
+          "options": {
+            "A": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors.",
+            "B": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction.",
+            "C": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.",
+            "D": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth."
+          },
+          "correctOption": "D",
+          "explanation": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth. This is the defining mechanism or significance of feedback regulation.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔",
+                "B": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔",
+                "C": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+                "D": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔"
+              },
+              "explanation": "درست جواب: منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔ یہی Feedback regulation کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا.",
+                "B": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا.",
+                "C": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+                "D": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن."
+              },
+              "explanation": "صحيح جواب: منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن. اهو Feedback regulation جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of feedback regulation?",
+          "options": {
+            "A": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction.",
+            "B": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.",
+            "C": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth.",
+            "D": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors."
+          },
+          "correctOption": "C",
+          "explanation": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth. This is the defining mechanism or significance of feedback regulation.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔",
+                "B": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+                "C": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔",
+                "D": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔"
+              },
+              "explanation": "درست جواب: منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔ یہی Feedback regulation کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا.",
+                "B": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+                "C": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن.",
+                "D": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا."
+              },
+              "explanation": "صحيح جواب: منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن. اهو Feedback regulation جو بنيادي اصول آهي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain hormones as messengers and state two important functions or outcomes.",
+          "modelAnswer": "Hormones are chemical messengers released by endocrine cells and carried to target cells with matching receptors.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Hormones as messengers کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "ہارمون اینڈوکرائن خلیوں سے خارج ہونے والے کیمیائی پیغام رساں ہیں جو مخصوص رسیپٹر رکھنے والے ہدفی خلیوں تک پہنچتے ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Hormones as messengers جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "هارمون اينڊوڪرائن خلين مان خارج ٿيندڙ ڪيميائي پيغامبر آهن، جيڪي مخصوص ريسپٽر رکندڙ هدف خلين تائين پهچن ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain endocrine glands and state two important functions or outcomes.",
+          "modelAnswer": "Pituitary, thyroid, parathyroid, adrenal glands, pancreas and gonads release hormones that regulate growth, metabolism, stress and reproduction.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Endocrine glands کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "پچوٹری، تھائیرائڈ، پیرا تھائیرائڈ، ایڈرینل غدود، لبلبہ اور جنسی غدود نشوونما، میٹابولزم، دباؤ اور تولید کو منظم کرتے ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Endocrine glands جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "پيچوٽري، ٿائرائڊ، پيراٿائرائڊ، ايڊرينل غدود، لبلبو ۽ جنسي غدود واڌ، ميٽابولزم، دٻاءَ ۽ توليد کي ضابطو ڪن ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain hypothalamus and pituitary and state two important functions or outcomes.",
+          "modelAnswer": "The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Hypothalamus and pituitary کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Hypothalamus and pituitary جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss hormone imbalance in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels. The hypothalamus links nervous and endocrine control and regulates pituitary activity through releasing and inhibiting hormones. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Hormone imbalance کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔ ہائپوتھیلمس اعصابی اور ہارمونی نظام کو جوڑتا ہے اور ریلیزنگ و اِنہِبٹنگ ہارمونز سے پچوٹری کو منظم کرتا ہے۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Hormone imbalance جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن. هائپوٿيلمس عصبي ۽ هارموني نظام کي ڳنڍي ٿو ۽ رليزنگ ۽ روڪيندڙ هارمونن سان پيچوٽري کي ضابطو ڪري ٿو.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss feedback regulation in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Negative feedback reverses a deviation from a set point; positive feedback amplifies a process, as oxytocin does during childbirth. Too little or too much hormone can disturb body function; examples include thyroid imbalance, diabetes mellitus and abnormal growth-hormone levels. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Feedback regulation کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "منفی فیڈبیک تبدیلی کو واپس معمول کی طرف لاتا ہے؛ مثبت فیڈبیک عمل کو بڑھاتا ہے، جیسے زچگی میں آکسیٹوسن۔ ہارمون کی کمی یا زیادتی جسمانی افعال بگاڑ سکتی ہے؛ مثالوں میں تھائیرائڈ کی خرابی، ذیابیطس اور گروتھ ہارمون کی بے ترتیبی شامل ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Feedback regulation جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "منفي فيڊ بيڪ تبديليءَ کي معمول ڏانهن موٽائي ٿو؛ مثبت فيڊ بيڪ عمل وڌائي ٿو، جيئن ويم دوران آڪسيٽوسن. هارمون جي گهٽتائي يا واڌ جسماني ڪم بگاڙي سگهي ٿي؛ مثالن ۾ ٿائرائڊ جي خرابي، ذیابيطس ۽ گروٿ هارمون جي بي ترتيبي شامل آهن.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

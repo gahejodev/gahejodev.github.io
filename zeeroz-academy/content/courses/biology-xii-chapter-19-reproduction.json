@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-19-reproduction",
+  "title": "Biology XII — Chapter 19: Reproduction",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 19 — Reproduction (13 periods). Five structured lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 19,
+    "periods": 13,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 19: Reproduction",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 19; 13 periods.",
+      "lessons": [
+        {
+          "title": "19.1 Male reproductive system",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain male reproductive system and relate its structure or mechanism to biological function.\n\nThe testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔",
+            "sd": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا."
+          }
+        },
+        {
+          "title": "19.2 Female reproductive system",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain female reproductive system and relate its structure or mechanism to biological function.\n\nOvaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔",
+            "sd": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا."
+          }
+        },
+        {
+          "title": "19.3 Menstrual cycle",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain menstrual cycle and relate its structure or mechanism to biological function.\n\nThe menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+            "sd": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو."
+          }
+        },
+        {
+          "title": "19.4 Reproductive health",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain reproductive health and relate its structure or mechanism to biological function.\n\nReproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔",
+            "sd": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي."
+          }
+        },
+        {
+          "title": "19.5 Sexually transmitted infections",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain sexually transmitted infections and relate its structure or mechanism to biological function.\n\nGonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔",
+            "sd": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains male reproductive system?",
+          "options": {
+            "A": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation.",
+            "B": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth.",
+            "C": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.",
+            "D": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals."
+          },
+          "correctOption": "A",
+          "explanation": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation. This is the defining mechanism or significance of male reproductive system.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔",
+                "B": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔",
+                "C": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+                "D": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔"
+              },
+              "explanation": "درست جواب: خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔ یہی Male reproductive system کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا.",
+                "B": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا.",
+                "C": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+                "D": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي."
+              },
+              "explanation": "صحيح جواب: خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا. اهو Male reproductive system جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes male reproductive system?",
+          "options": {
+            "A": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth.",
+            "B": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.",
+            "C": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals.",
+            "D": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation."
+          },
+          "correctOption": "D",
+          "explanation": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation. This is the defining mechanism or significance of male reproductive system.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔",
+                "B": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+                "C": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔",
+                "D": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔"
+              },
+              "explanation": "درست جواب: خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔ یہی Male reproductive system کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا.",
+                "B": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+                "C": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي.",
+                "D": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا. اهو Male reproductive system جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of male reproductive system?",
+          "options": {
+            "A": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.",
+            "B": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals.",
+            "C": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation.",
+            "D": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth."
+          },
+          "correctOption": "C",
+          "explanation": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation. This is the defining mechanism or significance of male reproductive system.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+                "B": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔",
+                "C": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔",
+                "D": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔ یہی Male reproductive system کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+                "B": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي.",
+                "C": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا.",
+                "D": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا. اهو Male reproductive system جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains female reproductive system?",
+          "options": {
+            "A": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.",
+            "B": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals.",
+            "C": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment.",
+            "D": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth."
+          },
+          "correctOption": "D",
+          "explanation": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth. This is the defining mechanism or significance of female reproductive system.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+                "B": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔",
+                "C": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔",
+                "D": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔ یہی Female reproductive system کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+                "B": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي.",
+                "C": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن.",
+                "D": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا. اهو Female reproductive system جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes female reproductive system?",
+          "options": {
+            "A": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals.",
+            "B": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment.",
+            "C": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth.",
+            "D": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation."
+          },
+          "correctOption": "C",
+          "explanation": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth. This is the defining mechanism or significance of female reproductive system.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔",
+                "B": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔",
+                "C": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔",
+                "D": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔"
+              },
+              "explanation": "درست جواب: بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔ یہی Female reproductive system کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي.",
+                "B": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن.",
+                "C": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا.",
+                "D": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا. اهو Female reproductive system جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of female reproductive system?",
+          "options": {
+            "A": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment.",
+            "B": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth.",
+            "C": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.",
+            "D": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals."
+          },
+          "correctOption": "B",
+          "explanation": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth. This is the defining mechanism or significance of female reproductive system.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔",
+                "B": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔",
+                "C": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+                "D": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔"
+              },
+              "explanation": "درست جواب: بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔ یہی Female reproductive system کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن.",
+                "B": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا.",
+                "C": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+                "D": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي."
+              },
+              "explanation": "صحيح جواب: بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا. اهو Female reproductive system جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains menstrual cycle?",
+          "options": {
+            "A": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment.",
+            "B": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation.",
+            "C": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.",
+            "D": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals."
+          },
+          "correctOption": "C",
+          "explanation": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation. This is the defining mechanism or significance of menstrual cycle.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔",
+                "B": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔",
+                "C": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+                "D": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔"
+              },
+              "explanation": "درست جواب: ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔ یہی Menstrual cycle کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن.",
+                "B": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا.",
+                "C": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+                "D": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي."
+              },
+              "explanation": "صحيح جواب: حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو. اهو Menstrual cycle جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes menstrual cycle?",
+          "options": {
+            "A": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation.",
+            "B": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.",
+            "C": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals.",
+            "D": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment."
+          },
+          "correctOption": "B",
+          "explanation": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation. This is the defining mechanism or significance of menstrual cycle.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔",
+                "B": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+                "C": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔",
+                "D": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔"
+              },
+              "explanation": "درست جواب: ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔ یہی Menstrual cycle کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا.",
+                "B": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+                "C": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي.",
+                "D": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن."
+              },
+              "explanation": "صحيح جواب: حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو. اهو Menstrual cycle جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of menstrual cycle?",
+          "options": {
+            "A": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.",
+            "B": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals.",
+            "C": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment.",
+            "D": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation."
+          },
+          "correctOption": "A",
+          "explanation": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation. This is the defining mechanism or significance of menstrual cycle.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+                "B": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔",
+                "C": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔",
+                "D": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔"
+              },
+              "explanation": "درست جواب: ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔ یہی Menstrual cycle کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+                "B": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي.",
+                "C": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن.",
+                "D": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو. اهو Menstrual cycle جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains reproductive health?",
+          "options": {
+            "A": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth.",
+            "B": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals.",
+            "C": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment.",
+            "D": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation."
+          },
+          "correctOption": "B",
+          "explanation": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals. This is the defining mechanism or significance of reproductive health.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔",
+                "B": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔",
+                "C": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔",
+                "D": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔"
+              },
+              "explanation": "درست جواب: تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔ یہی Reproductive health کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا.",
+                "B": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي.",
+                "C": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن.",
+                "D": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي. اهو Reproductive health جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes reproductive health?",
+          "options": {
+            "A": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals.",
+            "B": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment.",
+            "C": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation.",
+            "D": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth."
+          },
+          "correctOption": "A",
+          "explanation": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals. This is the defining mechanism or significance of reproductive health.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔",
+                "B": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔",
+                "C": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔",
+                "D": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔ یہی Reproductive health کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي.",
+                "B": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن.",
+                "C": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا.",
+                "D": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي. اهو Reproductive health جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of reproductive health?",
+          "options": {
+            "A": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment.",
+            "B": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation.",
+            "C": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth.",
+            "D": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals."
+          },
+          "correctOption": "D",
+          "explanation": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals. This is the defining mechanism or significance of reproductive health.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔",
+                "B": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔",
+                "C": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔",
+                "D": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔"
+              },
+              "explanation": "درست جواب: تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔ یہی Reproductive health کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن.",
+                "B": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا.",
+                "C": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا.",
+                "D": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي."
+              },
+              "explanation": "صحيح جواب: توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي. اهو Reproductive health جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains sexually transmitted infections?",
+          "options": {
+            "A": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment.",
+            "B": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation.",
+            "C": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth.",
+            "D": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation."
+          },
+          "correctOption": "A",
+          "explanation": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment. This is the defining mechanism or significance of sexually transmitted infections.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔",
+                "B": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔",
+                "C": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔",
+                "D": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔"
+              },
+              "explanation": "درست جواب: سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔ یہی Sexually transmitted infections کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن.",
+                "B": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا.",
+                "C": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا.",
+                "D": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو."
+              },
+              "explanation": "صحيح جواب: سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن. اهو Sexually transmitted infections جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes sexually transmitted infections?",
+          "options": {
+            "A": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation.",
+            "B": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth.",
+            "C": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.",
+            "D": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment."
+          },
+          "correctOption": "D",
+          "explanation": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment. This is the defining mechanism or significance of sexually transmitted infections.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔",
+                "B": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔",
+                "C": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+                "D": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔"
+              },
+              "explanation": "درست جواب: سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔ یہی Sexually transmitted infections کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا.",
+                "B": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا.",
+                "C": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+                "D": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن."
+              },
+              "explanation": "صحيح جواب: سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن. اهو Sexually transmitted infections جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of sexually transmitted infections?",
+          "options": {
+            "A": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth.",
+            "B": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.",
+            "C": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment.",
+            "D": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation."
+          },
+          "correctOption": "C",
+          "explanation": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment. This is the defining mechanism or significance of sexually transmitted infections.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔",
+                "B": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+                "C": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔",
+                "D": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔"
+              },
+              "explanation": "درست جواب: سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔ یہی Sexually transmitted infections کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا.",
+                "B": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+                "C": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن.",
+                "D": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن. اهو Sexually transmitted infections جو بنيادي اصول آهي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain male reproductive system and state two important functions or outcomes.",
+          "modelAnswer": "The testes produce sperm and testosterone; ducts and accessory glands support sperm maturation, transport and seminal-fluid formation.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Male reproductive system کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "خصیے سپرم اور ٹیسٹوسٹیرون بناتے ہیں؛ نالیاں اور معاون غدود سپرم کی پختگی، نقل و حمل اور منی کی تشکیل میں مدد دیتے ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Male reproductive system جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "خصيا اسپرم ۽ ٽيسٽوسٽيرون ٺاهين ٿا؛ ناليون ۽ مددگار غدود اسپرم جي پختگي، منتقلي ۽ مني ٺاهڻ ۾ مدد ڪن ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain female reproductive system and state two important functions or outcomes.",
+          "modelAnswer": "Ovaries produce ova and hormones; oviducts, uterus, cervix and vagina support fertilisation, pregnancy and childbirth.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Female reproductive system کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "بیضہ دانیاں بیضے اور ہارمون بناتی ہیں؛ نالیاں، رحم، سروکس اور اندام نہانی بارآوری، حمل اور ولادت میں کردار ادا کرتے ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Female reproductive system جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "بيضه دانين مان بيضا ۽ هارمون ٺهن ٿا؛ ناليون، رحم، سروڪس ۽ ويجائنا بارآوري، حمل ۽ ويم ۾ ڪردار ادا ڪن ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain menstrual cycle and state two important functions or outcomes.",
+          "modelAnswer": "The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Menstrual cycle کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Menstrual cycle جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss reproductive health in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals. The menstrual cycle is regulated by FSH, LH, oestrogen and progesterone and prepares the uterine lining for possible implantation. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Reproductive health کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔ ماہواری کا چکر FSH، LH، ایسٹروجن اور پروجیسٹرون سے منظم ہوتا ہے اور رحم کی اندرونی تہہ ممکنہ حمل کے لیے تیار کرتا ہے۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Reproductive health جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي. حيض جو چڪر FSH، LH، ايسٽروجن ۽ پروجيسٽرون سان ضابطو ٿئي ٿو ۽ رحم جي اندرين تهه کي امڪاني حمل لاءِ تيار ڪري ٿو.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss sexually transmitted infections in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Gonorrhoea, syphilis, herpes and HIV are transmitted through specific routes; prevention includes safer practices, testing and appropriate treatment. Reproductive disorders may affect fertility or reproductive function; assessment and treatment should be provided by qualified health professionals. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Sexually transmitted infections کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "سوزاک، آتشک، ہرپس اور HIV مخصوص راستوں سے منتقل ہوتے ہیں؛ بچاؤ میں محفوظ رویے، ٹیسٹنگ اور مناسب علاج شامل ہیں۔ تولیدی نظام کی بیماریاں زرخیزی یا تولیدی افعال متاثر کر سکتی ہیں؛ تشخیص اور علاج مستند طبی ماہرین سے ہونا چاہیے۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Sexually transmitted infections جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "سوزاڪ، سفلس، هرپس ۽ HIV مخصوص رستن سان پکڙجن ٿا؛ بچاءَ ۾ محفوظ رويا، ٽيسٽ ۽ مناسب علاج شامل آهن. توليدي بيماريون زرخيزي يا توليدي ڪم متاثر ڪري سگهن ٿيون؛ جاچ ۽ علاج قابل صحت ماهرن کان ٿيڻ گهرجي.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
