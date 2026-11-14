@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-15-homeostasis",
+  "title": "Biology XII — Chapter 15: Homeostasis",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 15 — Homeostasis (15 periods). Five structured lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 15,
+    "periods": 15,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 15: Homeostasis",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 15; 15 periods.",
+      "lessons": [
+        {
+          "title": "15.1 Homeostatic control",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain homeostatic control and relate its structure or mechanism to biological function.\n\nHomeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔",
+            "sd": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان."
+          }
+        },
+        {
+          "title": "15.2 Osmoregulation",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain osmoregulation and relate its structure or mechanism to biological function.\n\nOsmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔",
+            "sd": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا."
+          }
+        },
+        {
+          "title": "15.3 Excretion",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain excretion and relate its structure or mechanism to biological function.\n\nExcretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+            "sd": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي."
+          }
+        },
+        {
+          "title": "15.4 Human urinary system",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain human urinary system and relate its structure or mechanism to biological function.\n\nKidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔",
+            "sd": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا."
+          }
+        },
+        {
+          "title": "15.5 Thermoregulation and disorders",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain thermoregulation and disorders and relate its structure or mechanism to biological function.\n\nHumans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔",
+            "sd": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains homeostatic control?",
+          "options": {
+            "A": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback.",
+            "B": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations.",
+            "C": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.",
+            "D": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine."
+          },
+          "correctOption": "A",
+          "explanation": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback. This is the defining mechanism or significance of homeostatic control.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔",
+                "B": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔",
+                "C": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+                "D": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔ یہی Homeostatic control کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان.",
+                "B": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا.",
+                "C": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+                "D": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان. اهو Homeostatic control جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes homeostatic control?",
+          "options": {
+            "A": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations.",
+            "B": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.",
+            "C": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine.",
+            "D": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback."
+          },
+          "correctOption": "D",
+          "explanation": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback. This is the defining mechanism or significance of homeostatic control.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔",
+                "B": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+                "C": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔",
+                "D": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔"
+              },
+              "explanation": "درست جواب: ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔ یہی Homeostatic control کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا.",
+                "B": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+                "C": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا.",
+                "D": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان."
+              },
+              "explanation": "صحيح جواب: هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان. اهو Homeostatic control جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of homeostatic control?",
+          "options": {
+            "A": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.",
+            "B": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine.",
+            "C": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback.",
+            "D": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations."
+          },
+          "correctOption": "C",
+          "explanation": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback. This is the defining mechanism or significance of homeostatic control.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+                "B": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔",
+                "C": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔",
+                "D": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔"
+              },
+              "explanation": "درست جواب: ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔ یہی Homeostatic control کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+                "B": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا.",
+                "C": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان.",
+                "D": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان. اهو Homeostatic control جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains osmoregulation?",
+          "options": {
+            "A": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.",
+            "B": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine.",
+            "C": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure.",
+            "D": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations."
+          },
+          "correctOption": "D",
+          "explanation": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations. This is the defining mechanism or significance of osmoregulation.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+                "B": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔",
+                "C": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔",
+                "D": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔"
+              },
+              "explanation": "درست جواب: اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔ یہی Osmoregulation کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+                "B": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا.",
+                "C": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن.",
+                "D": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا. اهو Osmoregulation جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes osmoregulation?",
+          "options": {
+            "A": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine.",
+            "B": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure.",
+            "C": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations.",
+            "D": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability."
+          },
+          "correctOption": "C",
+          "explanation": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations. This is the defining mechanism or significance of osmoregulation.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔",
+                "B": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔",
+                "C": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔",
+                "D": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔"
+              },
+              "explanation": "درست جواب: اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔ یہی Osmoregulation کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا.",
+                "B": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن.",
+                "C": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا.",
+                "D": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي."
+              },
+              "explanation": "صحيح جواب: اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا. اهو Osmoregulation جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of osmoregulation?",
+          "options": {
+            "A": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure.",
+            "B": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations.",
+            "C": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.",
+            "D": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine."
+          },
+          "correctOption": "B",
+          "explanation": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations. This is the defining mechanism or significance of osmoregulation.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔",
+                "B": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔",
+                "C": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+                "D": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔ یہی Osmoregulation کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن.",
+                "B": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا.",
+                "C": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+                "D": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا. اهو Osmoregulation جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains excretion?",
+          "options": {
+            "A": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure.",
+            "B": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback.",
+            "C": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.",
+            "D": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine."
+          },
+          "correctOption": "C",
+          "explanation": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability. This is the defining mechanism or significance of excretion.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔",
+                "B": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔",
+                "C": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+                "D": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔ یہی Excretion کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن.",
+                "B": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان.",
+                "C": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+                "D": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي. اهو Excretion جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes excretion?",
+          "options": {
+            "A": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback.",
+            "B": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.",
+            "C": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine.",
+            "D": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure."
+          },
+          "correctOption": "B",
+          "explanation": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability. This is the defining mechanism or significance of excretion.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔",
+                "B": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+                "C": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔",
+                "D": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔ یہی Excretion کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان.",
+                "B": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+                "C": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا.",
+                "D": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن."
+              },
+              "explanation": "صحيح جواب: اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي. اهو Excretion جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of excretion?",
+          "options": {
+            "A": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.",
+            "B": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine.",
+            "C": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure.",
+            "D": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback."
+          },
+          "correctOption": "A",
+          "explanation": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability. This is the defining mechanism or significance of excretion.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+                "B": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔",
+                "C": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔",
+                "D": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔"
+              },
+              "explanation": "درست جواب: اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔ یہی Excretion کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+                "B": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا.",
+                "C": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن.",
+                "D": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان."
+              },
+              "explanation": "صحيح جواب: اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي. اهو Excretion جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains human urinary system?",
+          "options": {
+            "A": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations.",
+            "B": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine.",
+            "C": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure.",
+            "D": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback."
+          },
+          "correctOption": "B",
+          "explanation": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine. This is the defining mechanism or significance of human urinary system.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔",
+                "B": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔",
+                "C": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔",
+                "D": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔"
+              },
+              "explanation": "درست جواب: گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔ یہی Human urinary system کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا.",
+                "B": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا.",
+                "C": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن.",
+                "D": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان."
+              },
+              "explanation": "صحيح جواب: گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا. اهو Human urinary system جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes human urinary system?",
+          "options": {
+            "A": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine.",
+            "B": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure.",
+            "C": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback.",
+            "D": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations."
+          },
+          "correctOption": "A",
+          "explanation": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine. This is the defining mechanism or significance of human urinary system.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔",
+                "B": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔",
+                "C": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔",
+                "D": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔"
+              },
+              "explanation": "درست جواب: گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔ یہی Human urinary system کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا.",
+                "B": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن.",
+                "C": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان.",
+                "D": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا. اهو Human urinary system جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of human urinary system?",
+          "options": {
+            "A": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure.",
+            "B": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback.",
+            "C": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations.",
+            "D": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine."
+          },
+          "correctOption": "D",
+          "explanation": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine. This is the defining mechanism or significance of human urinary system.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔",
+                "B": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔",
+                "C": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔",
+                "D": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔ یہی Human urinary system کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن.",
+                "B": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان.",
+                "C": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا.",
+                "D": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا. اهو Human urinary system جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains thermoregulation and disorders?",
+          "options": {
+            "A": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure.",
+            "B": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback.",
+            "C": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations.",
+            "D": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability."
+          },
+          "correctOption": "A",
+          "explanation": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure. This is the defining mechanism or significance of thermoregulation and disorders.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔",
+                "B": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔",
+                "C": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔",
+                "D": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔"
+              },
+              "explanation": "درست جواب: انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔ یہی Thermoregulation and disorders کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن.",
+                "B": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان.",
+                "C": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا.",
+                "D": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي."
+              },
+              "explanation": "صحيح جواب: انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن. اهو Thermoregulation and disorders جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes thermoregulation and disorders?",
+          "options": {
+            "A": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback.",
+            "B": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations.",
+            "C": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.",
+            "D": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure."
+          },
+          "correctOption": "D",
+          "explanation": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure. This is the defining mechanism or significance of thermoregulation and disorders.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔",
+                "B": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔",
+                "C": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+                "D": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔"
+              },
+              "explanation": "درست جواب: انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔ یہی Thermoregulation and disorders کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان.",
+                "B": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا.",
+                "C": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+                "D": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن."
+              },
+              "explanation": "صحيح جواب: انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن. اهو Thermoregulation and disorders جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of thermoregulation and disorders?",
+          "options": {
+            "A": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations.",
+            "B": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.",
+            "C": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure.",
+            "D": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback."
+          },
+          "correctOption": "C",
+          "explanation": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure. This is the defining mechanism or significance of thermoregulation and disorders.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔",
+                "B": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+                "C": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔",
+                "D": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔"
+              },
+              "explanation": "درست جواب: انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔ یہی Thermoregulation and disorders کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا.",
+                "B": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+                "C": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن.",
+                "D": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان."
+              },
+              "explanation": "صحيح جواب: انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن. اهو Thermoregulation and disorders جو بنيادي اصول آهي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain homeostatic control and state two important functions or outcomes.",
+          "modelAnswer": "Homeostasis maintains internal conditions within workable limits through receptors, a control centre and effectors, commonly using negative feedback.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Homeostatic control کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "ہومیو سٹیسس رسیپٹرز، کنٹرول سینٹر اور اثرانداز اعضا کے ذریعے اندرونی حالات کو مناسب حد میں رکھتا ہے، عموماً منفی فیڈبیک سے۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Homeostatic control جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "هوميوسٽيسس ريسپٽرن، ڪنٽرول سينٽر ۽ اثر ڪندڙ عضون وسيلي اندروني حالتون مناسب حد ۾ رکي ٿو، عام طور منفي فيڊ بيڪ سان.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain osmoregulation and state two important functions or outcomes.",
+          "modelAnswer": "Osmoregulation balances water and solutes; freshwater, marine and terrestrial animals face different osmotic challenges and use different adaptations.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Osmoregulation کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "اوسمو ریگولیشن پانی اور حل شدہ مادوں کا توازن رکھتی ہے؛ میٹھے پانی، سمندر اور خشکی کے جانوروں کو مختلف مسائل درپیش ہوتے ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Osmoregulation جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "اوسمو ريگيوليشن پاڻي ۽ حل ٿيل مادن جو توازن رکي ٿي؛ مٺي پاڻي، سمنڊ ۽ خشڪيءَ جا جانور مختلف مسئلن کي منهن ڏين ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain excretion and state two important functions or outcomes.",
+          "modelAnswer": "Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Excretion کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Excretion جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss human urinary system in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine. Excretion removes metabolic wastes such as ammonia, urea and uric acid; the dominant product often reflects habitat and water availability. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Human urinary system کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔ اخراج میٹابولزم کے فضلات مثلاً امونیا، یوریا اور یورک ایسڈ کو نکالتا ہے؛ فضلے کی قسم اکثر ماحول اور پانی کی دستیابی سے متعلق ہوتی ہے۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Human urinary system جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا. اخراج ميٽابولزم جا فضلا جهڙوڪ امونيا، يوريا ۽ يورڪ ايسڊ خارج ڪري ٿو؛ فضلي جو قسم رهائش ۽ پاڻيءَ جي موجودگيءَ سان لاڳاپيل هوندو آهي.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss thermoregulation and disorders in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Humans regulate temperature through sweating, blood-vessel responses and behavioural changes; urinary disorders include infection, stones and renal failure. Kidneys contain nephrons; filtration, selective reabsorption, secretion and counter-current processes help form and concentrate urine. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Thermoregulation and disorders کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "انسان پسینے، خون کی نالیوں کے ردعمل اور رویے کی تبدیلی سے درجہ حرارت منظم کرتا ہے؛ پیشاب کی نالی کے مسائل میں انفیکشن، پتھری اور گردوں کی ناکامی شامل ہیں۔ گردوں میں نیفرون ہوتے ہیں؛ فلٹریشن، منتخب دوبارہ جذب، اخراج اور کاؤنٹر کرنٹ عمل پیشاب بناتے اور گاڑھا کرتے ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Thermoregulation and disorders جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "انسان پگهر، رت جي نالين جي ردعمل ۽ روين جي تبديليءَ سان گرمي پد سنڀالي ٿو؛ پيشاب جي بيمارين ۾ انفيڪشن، پٿري ۽ گردن جي ناڪامي شامل آهن. گردن ۾ نيفرون هوندا آهن؛ فلٽريشن، چونڊيل ٻيهر جذب، سيڪريشن ۽ ڪائونٽر ڪرنٽ عمل پيشاب ٺاهين ۽ گاڙهو ڪن ٿا.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

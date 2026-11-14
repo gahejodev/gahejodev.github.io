@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-16-support-movement",
+  "title": "Biology XII — Chapter 16: Support and Movement",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 16 — Support and Movement (16 periods). Five structured lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 16,
+    "periods": 16,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 16: Support and Movement",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 16; 16 periods.",
+      "lessons": [
+        {
+          "title": "16.1 Bone and cartilage",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain bone and cartilage and relate its structure or mechanism to biological function.\n\nBone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔",
+            "sd": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا."
+          }
+        },
+        {
+          "title": "16.2 Human skeleton",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain human skeleton and relate its structure or mechanism to biological function.\n\nThe axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔",
+            "sd": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن."
+          }
+        },
+        {
+          "title": "16.3 Joints",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain joints and relate its structure or mechanism to biological function.\n\nFibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+            "sd": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا."
+          }
+        },
+        {
+          "title": "16.4 Skeletal disorders and injuries",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain skeletal disorders and injuries and relate its structure or mechanism to biological function.\n\nOsteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔",
+            "sd": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي."
+          }
+        },
+        {
+          "title": "16.5 Muscle contraction",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain muscle contraction and relate its structure or mechanism to biological function.\n\nSkeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔",
+            "sd": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains bone and cartilage?",
+          "options": {
+            "A": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it.",
+            "B": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement.",
+            "C": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.",
+            "D": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care."
+          },
+          "correctOption": "A",
+          "explanation": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it. This is the defining mechanism or significance of bone and cartilage.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔",
+                "B": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔",
+                "C": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+                "D": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔"
+              },
+              "explanation": "درست جواب: ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔ یہی Bone and cartilage کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا.",
+                "B": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن.",
+                "C": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+                "D": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي."
+              },
+              "explanation": "صحيح جواب: هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا. اهو Bone and cartilage جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes bone and cartilage?",
+          "options": {
+            "A": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement.",
+            "B": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.",
+            "C": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care.",
+            "D": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it."
+          },
+          "correctOption": "D",
+          "explanation": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it. This is the defining mechanism or significance of bone and cartilage.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔",
+                "B": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+                "C": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔",
+                "D": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔"
+              },
+              "explanation": "درست جواب: ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔ یہی Bone and cartilage کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن.",
+                "B": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+                "C": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي.",
+                "D": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا."
+              },
+              "explanation": "صحيح جواب: هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا. اهو Bone and cartilage جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of bone and cartilage?",
+          "options": {
+            "A": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.",
+            "B": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care.",
+            "C": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it.",
+            "D": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement."
+          },
+          "correctOption": "C",
+          "explanation": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it. This is the defining mechanism or significance of bone and cartilage.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+                "B": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔",
+                "C": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔",
+                "D": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔"
+              },
+              "explanation": "درست جواب: ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔ یہی Bone and cartilage کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+                "B": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي.",
+                "C": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا.",
+                "D": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن."
+              },
+              "explanation": "صحيح جواب: هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا. اهو Bone and cartilage جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains human skeleton?",
+          "options": {
+            "A": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.",
+            "B": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care.",
+            "C": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation.",
+            "D": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement."
+          },
+          "correctOption": "D",
+          "explanation": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement. This is the defining mechanism or significance of human skeleton.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+                "B": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔",
+                "C": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔",
+                "D": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔"
+              },
+              "explanation": "درست جواب: محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔ یہی Human skeleton کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+                "B": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي.",
+                "C": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو.",
+                "D": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن."
+              },
+              "explanation": "صحيح جواب: محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن. اهو Human skeleton جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes human skeleton?",
+          "options": {
+            "A": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care.",
+            "B": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation.",
+            "C": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement.",
+            "D": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement."
+          },
+          "correctOption": "C",
+          "explanation": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement. This is the defining mechanism or significance of human skeleton.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔",
+                "B": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔",
+                "C": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔",
+                "D": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔"
+              },
+              "explanation": "درست جواب: محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔ یہی Human skeleton کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي.",
+                "B": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو.",
+                "C": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن.",
+                "D": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن. اهو Human skeleton جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of human skeleton?",
+          "options": {
+            "A": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation.",
+            "B": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement.",
+            "C": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.",
+            "D": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care."
+          },
+          "correctOption": "B",
+          "explanation": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement. This is the defining mechanism or significance of human skeleton.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔",
+                "B": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔",
+                "C": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+                "D": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔"
+              },
+              "explanation": "درست جواب: محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔ یہی Human skeleton کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو.",
+                "B": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن.",
+                "C": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+                "D": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي."
+              },
+              "explanation": "صحيح جواب: محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن. اهو Human skeleton جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains joints?",
+          "options": {
+            "A": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation.",
+            "B": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it.",
+            "C": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.",
+            "D": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care."
+          },
+          "correctOption": "C",
+          "explanation": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement. This is the defining mechanism or significance of joints.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔",
+                "B": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔",
+                "C": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+                "D": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔"
+              },
+              "explanation": "درست جواب: ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔ یہی Joints کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو.",
+                "B": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا.",
+                "C": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+                "D": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي."
+              },
+              "explanation": "صحيح جواب: فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا. اهو Joints جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes joints?",
+          "options": {
+            "A": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it.",
+            "B": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.",
+            "C": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care.",
+            "D": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation."
+          },
+          "correctOption": "B",
+          "explanation": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement. This is the defining mechanism or significance of joints.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔",
+                "B": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+                "C": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔",
+                "D": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔"
+              },
+              "explanation": "درست جواب: ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔ یہی Joints کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا.",
+                "B": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+                "C": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي.",
+                "D": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو."
+              },
+              "explanation": "صحيح جواب: فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا. اهو Joints جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of joints?",
+          "options": {
+            "A": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.",
+            "B": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care.",
+            "C": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation.",
+            "D": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it."
+          },
+          "correctOption": "A",
+          "explanation": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement. This is the defining mechanism or significance of joints.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+                "B": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔",
+                "C": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔",
+                "D": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔"
+              },
+              "explanation": "درست جواب: ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔ یہی Joints کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+                "B": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي.",
+                "C": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو.",
+                "D": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا."
+              },
+              "explanation": "صحيح جواب: فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا. اهو Joints جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains skeletal disorders and injuries?",
+          "options": {
+            "A": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement.",
+            "B": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care.",
+            "C": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation.",
+            "D": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it."
+          },
+          "correctOption": "B",
+          "explanation": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care. This is the defining mechanism or significance of skeletal disorders and injuries.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔",
+                "B": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔",
+                "C": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔",
+                "D": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔"
+              },
+              "explanation": "درست جواب: آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔ یہی Skeletal disorders and injuries کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن.",
+                "B": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي.",
+                "C": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو.",
+                "D": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا."
+              },
+              "explanation": "صحيح جواب: اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي. اهو Skeletal disorders and injuries جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes skeletal disorders and injuries?",
+          "options": {
+            "A": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care.",
+            "B": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation.",
+            "C": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it.",
+            "D": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement."
+          },
+          "correctOption": "A",
+          "explanation": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care. This is the defining mechanism or significance of skeletal disorders and injuries.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔",
+                "B": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔",
+                "C": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔",
+                "D": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔"
+              },
+              "explanation": "درست جواب: آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔ یہی Skeletal disorders and injuries کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي.",
+                "B": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو.",
+                "C": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا.",
+                "D": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن."
+              },
+              "explanation": "صحيح جواب: اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي. اهو Skeletal disorders and injuries جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of skeletal disorders and injuries?",
+          "options": {
+            "A": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation.",
+            "B": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it.",
+            "C": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement.",
+            "D": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care."
+          },
+          "correctOption": "D",
+          "explanation": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care. This is the defining mechanism or significance of skeletal disorders and injuries.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔",
+                "B": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔",
+                "C": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔",
+                "D": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔"
+              },
+              "explanation": "درست جواب: آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔ یہی Skeletal disorders and injuries کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو.",
+                "B": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا.",
+                "C": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن.",
+                "D": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي."
+              },
+              "explanation": "صحيح جواب: اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي. اهو Skeletal disorders and injuries جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains muscle contraction?",
+          "options": {
+            "A": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation.",
+            "B": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it.",
+            "C": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement.",
+            "D": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement."
+          },
+          "correctOption": "A",
+          "explanation": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation. This is the defining mechanism or significance of muscle contraction.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔",
+                "B": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔",
+                "C": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔",
+                "D": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔"
+              },
+              "explanation": "درست جواب: اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔ یہی Muscle contraction کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو.",
+                "B": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا.",
+                "C": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن.",
+                "D": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو. اهو Muscle contraction جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes muscle contraction?",
+          "options": {
+            "A": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it.",
+            "B": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement.",
+            "C": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.",
+            "D": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation."
+          },
+          "correctOption": "D",
+          "explanation": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation. This is the defining mechanism or significance of muscle contraction.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔",
+                "B": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔",
+                "C": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+                "D": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔"
+              },
+              "explanation": "درست جواب: اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔ یہی Muscle contraction کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا.",
+                "B": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن.",
+                "C": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+                "D": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو."
+              },
+              "explanation": "صحيح جواب: اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو. اهو Muscle contraction جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of muscle contraction?",
+          "options": {
+            "A": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement.",
+            "B": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.",
+            "C": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation.",
+            "D": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it."
+          },
+          "correctOption": "C",
+          "explanation": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation. This is the defining mechanism or significance of muscle contraction.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔",
+                "B": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+                "C": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔",
+                "D": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔"
+              },
+              "explanation": "درست جواب: اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔ یہی Muscle contraction کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن.",
+                "B": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+                "C": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو.",
+                "D": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا."
+              },
+              "explanation": "صحيح جواب: اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو. اهو Muscle contraction جو بنيادي اصول آهي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain bone and cartilage and state two important functions or outcomes.",
+          "modelAnswer": "Bone is mineralised connective tissue; cartilage is more flexible. Osteoblasts build bone, osteoclasts resorb it and osteocytes maintain it.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Bone and cartilage کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "ہڈی معدنیات والی مربوط بافت ہے جبکہ غضروف زیادہ لچکدار ہوتا ہے؛ آسٹیوبلاسٹ ہڈی بناتے، آسٹیوکلاسٹ اسے توڑتے اور آسٹیوسائٹ برقرار رکھتے ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Bone and cartilage جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "هڏي معدنيات واري ڳنڍيندڙ بافت آهي، جڏهن ته ڪارٽليج وڌيڪ لچڪدار آهي؛ اوستيوبلاسٽ هڏي ٺاهين، اوستيوڪلاسٽ ٽوڙين ۽ اوستيو سائيٽ سنڀالين ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain human skeleton and state two important functions or outcomes.",
+          "modelAnswer": "The axial skeleton supports and protects the central body; the appendicular skeleton includes limbs and their girdles for movement.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Human skeleton کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "محوری ڈھانچا جسم کے مرکزی حصے کو سہارا اور حفاظت دیتا ہے؛ ضمیمی ڈھانچے میں بازو، ٹانگیں اور ان کے جوڑنے والے حصے شامل ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Human skeleton جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "محوري ڍانچو جسم جي مرڪزي حصي کي سهارو ۽ حفاظت ڏئي ٿو؛ ضميمي ڍانچي ۾ ٻانهون، ٽنگون ۽ انهن جا ڳنڍيندڙ حصا شامل آهن.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain joints and state two important functions or outcomes.",
+          "modelAnswer": "Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Joints کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Joints جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss skeletal disorders and injuries in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care. Fibrous joints allow little movement, cartilaginous joints allow limited movement and synovial joints permit a wide range of movement. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Skeletal disorders and injuries کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔ ریشے دار جوڑ بہت کم، غضروفی جوڑ محدود اور سائنوویئل جوڑ وسیع حرکت کی اجازت دیتے ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Skeletal disorders and injuries جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي. فائبرس جوڙ تمام گهٽ، ڪارٽليج وارا جوڙ محدود ۽ سائنوويئل جوڙ گهڻي حرڪت جي اجازت ڏين ٿا.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss muscle contraction in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Skeletal muscle contracts when actin and myosin filaments slide past one another using ATP and calcium-dependent regulation. Osteoporosis reduces bone strength; arthritis affects joints. Fractures, sprains and dislocations require appropriate assessment and care. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Muscle contraction کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "اسکیلیٹل پٹھا ATP اور کیلشیم کے کنٹرول سے ایکٹِن اور مایوسن ریشوں کی باہمی سرکنے کے عمل سے سکڑتا ہے۔ آسٹیوپوروسس ہڈیوں کو کمزور کرتا ہے اور آرتھرائٹس جوڑوں کو متاثر کرتا ہے؛ فریکچر، موچ اور جوڑ اترنے میں مناسب طبی معائنہ ضروری ہے۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Muscle contraction جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "اسڪيليٽل عضلو ATP ۽ ڪيلشيم جي ضابطي سان ايڪٽن ۽ مائيوسن تندن جي هڪ ٻئي مٿان سرڪڻ سان سُڪڙجي ٿو. اوستيوپوروسس هڏن کي ڪمزور ڪري ٿو ۽ آرٿرائٽس جوڙن کي متاثر ڪري ٿي؛ ڀڃڪڙي، موچ ۽ جوڙ لهي وڃڻ لاءِ مناسب طبي جاچ ضروري آهي.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
