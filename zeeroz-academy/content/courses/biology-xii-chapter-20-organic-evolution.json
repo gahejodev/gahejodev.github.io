@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-20-organic-evolution",
+  "title": "Biology XII — Chapter 20: Organic Evolution",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 20 — Organic Evolution (15 periods). Five structured lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 20,
+    "periods": 15,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 20: Organic Evolution",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 20; 15 periods.",
+      "lessons": [
+        {
+          "title": "20.1 Lamarckism",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain lamarckism and relate its structure or mechanism to biological function.\n\nLamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔",
+            "sd": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي."
+          }
+        },
+        {
+          "title": "20.2 Darwinism and natural selection",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain darwinism and natural selection and relate its structure or mechanism to biological function.\n\nDarwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔",
+            "sd": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا."
+          }
+        },
+        {
+          "title": "20.3 Sources of variation",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain sources of variation and relate its structure or mechanism to biological function.\n\nMutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+            "sd": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا."
+          }
+        },
+        {
+          "title": "20.4 Evidence for evolution",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain evidence for evolution and relate its structure or mechanism to biological function.\n\nFossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔",
+            "sd": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا."
+          }
+        },
+        {
+          "title": "20.5 Endosymbiotic theory",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain endosymbiotic theory and relate its structure or mechanism to biological function.\n\nMitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation.\n\n**Apply your learning:** Use a labelled diagram, sequence or comparison to explain the concept. Consider how a change in one component affects the whole biological system.",
+          "explanations": {
+            "ur": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔",
+            "sd": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains lamarckism?",
+          "options": {
+            "A": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation.",
+            "B": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations.",
+            "C": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.",
+            "D": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change."
+          },
+          "correctOption": "A",
+          "explanation": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation. This is the defining mechanism or significance of lamarckism.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔",
+                "B": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔",
+                "C": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+                "D": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔ یہی Lamarckism کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي.",
+                "B": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا.",
+                "C": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+                "D": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي. اهو Lamarckism جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes lamarckism?",
+          "options": {
+            "A": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations.",
+            "B": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.",
+            "C": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change.",
+            "D": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation."
+          },
+          "correctOption": "D",
+          "explanation": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation. This is the defining mechanism or significance of lamarckism.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔",
+                "B": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+                "C": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔",
+                "D": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔"
+              },
+              "explanation": "درست جواب: لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔ یہی Lamarckism کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا.",
+                "B": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+                "C": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا.",
+                "D": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي."
+              },
+              "explanation": "صحيح جواب: لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي. اهو Lamarckism جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of lamarckism?",
+          "options": {
+            "A": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.",
+            "B": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change.",
+            "C": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation.",
+            "D": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations."
+          },
+          "correctOption": "C",
+          "explanation": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation. This is the defining mechanism or significance of lamarckism.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+                "B": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔",
+                "C": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔",
+                "D": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔"
+              },
+              "explanation": "درست جواب: لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔ یہی Lamarckism کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+                "B": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا.",
+                "C": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي.",
+                "D": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا."
+              },
+              "explanation": "صحيح جواب: لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي. اهو Lamarckism جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains darwinism and natural selection?",
+          "options": {
+            "A": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.",
+            "B": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change.",
+            "C": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation.",
+            "D": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations."
+          },
+          "correctOption": "D",
+          "explanation": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations. This is the defining mechanism or significance of darwinism and natural selection.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+                "B": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔",
+                "C": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔",
+                "D": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔"
+              },
+              "explanation": "درست جواب: ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔ یہی Darwinism and natural selection کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+                "B": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا.",
+                "C": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا.",
+                "D": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا."
+              },
+              "explanation": "صحيح جواب: ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا. اهو Darwinism and natural selection جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes darwinism and natural selection?",
+          "options": {
+            "A": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change.",
+            "B": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation.",
+            "C": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations.",
+            "D": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations."
+          },
+          "correctOption": "C",
+          "explanation": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations. This is the defining mechanism or significance of darwinism and natural selection.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔",
+                "B": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔",
+                "C": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔",
+                "D": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔"
+              },
+              "explanation": "درست جواب: ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔ یہی Darwinism and natural selection کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا.",
+                "B": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا.",
+                "C": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا.",
+                "D": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا."
+              },
+              "explanation": "صحيح جواب: ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا. اهو Darwinism and natural selection جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of darwinism and natural selection?",
+          "options": {
+            "A": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation.",
+            "B": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations.",
+            "C": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.",
+            "D": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change."
+          },
+          "correctOption": "B",
+          "explanation": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations. This is the defining mechanism or significance of darwinism and natural selection.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔",
+                "B": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔",
+                "C": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+                "D": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔ یہی Darwinism and natural selection کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا.",
+                "B": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا.",
+                "C": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+                "D": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا. اهو Darwinism and natural selection جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains sources of variation?",
+          "options": {
+            "A": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation.",
+            "B": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation.",
+            "C": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.",
+            "D": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change."
+          },
+          "correctOption": "C",
+          "explanation": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations. This is the defining mechanism or significance of sources of variation.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔",
+                "B": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔",
+                "C": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+                "D": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔ یہی Sources of variation کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا.",
+                "B": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي.",
+                "C": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+                "D": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا. اهو Sources of variation جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes sources of variation?",
+          "options": {
+            "A": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation.",
+            "B": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.",
+            "C": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change.",
+            "D": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation."
+          },
+          "correctOption": "B",
+          "explanation": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations. This is the defining mechanism or significance of sources of variation.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔",
+                "B": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+                "C": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔",
+                "D": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔ یہی Sources of variation کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي.",
+                "B": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+                "C": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا.",
+                "D": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا. اهو Sources of variation جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of sources of variation?",
+          "options": {
+            "A": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.",
+            "B": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change.",
+            "C": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation.",
+            "D": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation."
+          },
+          "correctOption": "A",
+          "explanation": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations. This is the defining mechanism or significance of sources of variation.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+                "B": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔",
+                "C": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔",
+                "D": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔"
+              },
+              "explanation": "درست جواب: میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔ یہی Sources of variation کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+                "B": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا.",
+                "C": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا.",
+                "D": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي."
+              },
+              "explanation": "صحيح جواب: ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا. اهو Sources of variation جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains evidence for evolution?",
+          "options": {
+            "A": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations.",
+            "B": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change.",
+            "C": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation.",
+            "D": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation."
+          },
+          "correctOption": "B",
+          "explanation": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change. This is the defining mechanism or significance of evidence for evolution.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔",
+                "B": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔",
+                "C": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔",
+                "D": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔"
+              },
+              "explanation": "درست جواب: فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔ یہی Evidence for evolution کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا.",
+                "B": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا.",
+                "C": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا.",
+                "D": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي."
+              },
+              "explanation": "صحيح جواب: فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا. اهو Evidence for evolution جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes evidence for evolution?",
+          "options": {
+            "A": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change.",
+            "B": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation.",
+            "C": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation.",
+            "D": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations."
+          },
+          "correctOption": "A",
+          "explanation": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change. This is the defining mechanism or significance of evidence for evolution.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔",
+                "B": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔",
+                "C": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔",
+                "D": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔"
+              },
+              "explanation": "درست جواب: فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔ یہی Evidence for evolution کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا.",
+                "B": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا.",
+                "C": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي.",
+                "D": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا."
+              },
+              "explanation": "صحيح جواب: فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا. اهو Evidence for evolution جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of evidence for evolution?",
+          "options": {
+            "A": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation.",
+            "B": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation.",
+            "C": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations.",
+            "D": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change."
+          },
+          "correctOption": "D",
+          "explanation": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change. This is the defining mechanism or significance of evidence for evolution.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔",
+                "B": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔",
+                "C": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔",
+                "D": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔ یہی Evidence for evolution کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا.",
+                "B": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي.",
+                "C": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا.",
+                "D": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا."
+              },
+              "explanation": "صحيح جواب: فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا. اهو Evidence for evolution جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best explains endosymbiotic theory?",
+          "options": {
+            "A": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation.",
+            "B": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation.",
+            "C": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations.",
+            "D": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations."
+          },
+          "correctOption": "A",
+          "explanation": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation. This is the defining mechanism or significance of endosymbiotic theory.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔",
+                "B": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔",
+                "C": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔",
+                "D": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔"
+              },
+              "explanation": "درست جواب: اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔ یہی Endosymbiotic theory کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا.",
+                "B": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي.",
+                "C": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا.",
+                "D": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا."
+              },
+              "explanation": "صحيح جواب: اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا. اهو Endosymbiotic theory جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly describes endosymbiotic theory?",
+          "options": {
+            "A": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation.",
+            "B": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations.",
+            "C": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.",
+            "D": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation."
+          },
+          "correctOption": "D",
+          "explanation": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation. This is the defining mechanism or significance of endosymbiotic theory.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔",
+                "B": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔",
+                "C": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+                "D": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔ یہی Endosymbiotic theory کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي.",
+                "B": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا.",
+                "C": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+                "D": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا. اهو Endosymbiotic theory جو بنيادي اصول آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement identifies the main role of endosymbiotic theory?",
+          "options": {
+            "A": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations.",
+            "B": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.",
+            "C": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation.",
+            "D": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation."
+          },
+          "correctOption": "C",
+          "explanation": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation. This is the defining mechanism or significance of endosymbiotic theory.",
+          "translations": {
+            "ur": {
+              "question": "کون سا بیان اس حیاتیاتی تصور کی درست وضاحت کرتا ہے؟",
+              "options": {
+                "A": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔",
+                "B": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+                "C": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔",
+                "D": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔"
+              },
+              "explanation": "درست جواب: اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔ یہی Endosymbiotic theory کا بنیادی اصول ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو بيان هن حياتياتي تصور جي صحيح وضاحت ڪري ٿو؟",
+              "options": {
+                "A": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا.",
+                "B": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+                "C": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا.",
+                "D": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي."
+              },
+              "explanation": "صحيح جواب: اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا. اهو Endosymbiotic theory جو بنيادي اصول آهي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain lamarckism and state two important functions or outcomes.",
+          "modelAnswer": "Lamarck proposed that use and disuse and inheritance of acquired characteristics drive evolutionary change; this mechanism is not supported as a general explanation.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Lamarckism کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "لامارک نے استعمال و عدم استعمال اور حاصل شدہ خصوصیات کی وراثت کو ارتقا کا سبب سمجھا؛ یہ عمومی وضاحت جدید شواہد سے ثابت نہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Lamarckism جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "لامارڪ استعمال ۽ نه استعمال ۽ حاصل ڪيل خاصيتن جي وراثت کي ارتقا جو سبب سمجهيو؛ هي عام وضاحت جديد ثبوتن سان ثابت ناهي.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain darwinism and natural selection and state two important functions or outcomes.",
+          "modelAnswer": "Darwin proposed descent with modification; heritable variation and differential reproductive success cause populations to change over generations.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Darwinism and natural selection کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "ڈارون کے مطابق جاندار مشترک نسب سے تبدیل ہوتے ہیں؛ موروثی فرق اور مختلف تولیدی کامیابی نسلوں میں آبادی کو بدلتی ہے۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Darwinism and natural selection جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "ڊارون موجب جاندار گڏيل نسل مان تبديل ٿين ٿا؛ موروثي فرق ۽ مختلف توليدي ڪاميابي نسلن سان آبادي بدلائين ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain sources of variation and state two important functions or outcomes.",
+          "modelAnswer": "Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations.",
+          "rubric": [
+            "Accurate definition or description (1 mark)",
+            "Explanation of the mechanism (2 marks)",
+            "Relevant function or example (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Sources of variation کی وضاحت کریں اور اس کے دو اہم افعال یا نتائج بیان کریں۔",
+              "modelAnswer": "میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+              "rubric": [
+                "درست تعریف یا وضاحت (1 نمبر)",
+                "طریقۂ کار کی وضاحت (2 نمبر)",
+                "متعلقہ فعل یا مثال (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Sources of variation جي وضاحت ڪريو ۽ ان جا ٻه اهم ڪم يا نتيجا بيان ڪريو.",
+              "modelAnswer": "ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+              "rubric": [
+                "صحيح تعريف يا وضاحت (1 مارڪ)",
+                "طريقيڪار جي وضاحت (2 مارڪ)",
+                "لاڳاپيل ڪم يا مثال (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss evidence for evolution in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change. Mutation and recombination create genetic variation; gene flow and genetic drift also change allele frequencies in populations. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Evidence for evolution کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔ میوٹیشن اور جینیاتی امتزاج تنوع پیدا کرتے ہیں؛ جین فلو اور جینیاتی بہاؤ بھی آبادی میں ایلیل کی شرح بدلتے ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Evidence for evolution جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا. ميوٽيشن ۽ جينياتي ميلاپ تنوع پيدا ڪن ٿا؛ جين وهڪرو ۽ جينياتي ڊرفٽ به آباديءَ ۾ ايلل جي شرح بدلائين ٿا.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss endosymbiotic theory in detail. Explain its biological significance, mechanism and one relevant application or example.",
+          "modelAnswer": "Mitochondria and chloroplasts likely evolved from bacteria engulfed by ancestral cells; their DNA and ribosomes support this explanation. Fossils, comparative anatomy, embryology, biogeography and molecular similarities provide independent evidence for common ancestry and change. These concepts should be considered together when explaining the biological system, its regulation and its importance to organisms.",
+          "rubric": [
+            "Scientific accuracy and depth (4 marks)",
+            "Mechanism and sequence (3 marks)",
+            "Application or example (2 marks)",
+            "Clear organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Endosymbiotic theory کی تفصیلی وضاحت کریں۔ اس کی حیاتیاتی اہمیت، طریقۂ کار اور ایک متعلقہ مثال بیان کریں۔",
+              "modelAnswer": "اینڈوسیمبائیوٹک نظریے کے مطابق مائٹوکانڈریا اور کلوروپلاسٹ قدیم خلیوں میں شامل بیکٹیریا سے بنے؛ ان کا DNA اور رائبوسوم اس کی تائید کرتے ہیں۔ فوسلز، تقابلی تشریح، جنینیات، حیاتی جغرافیہ اور سالماتی مماثلت مشترک نسب اور تبدیلی کے شواہد فراہم کرتے ہیں۔",
+              "rubric": [
+                "سائنسی درستگی اور گہرائی (4 نمبر)",
+                "طریقۂ کار اور ترتیب (3 نمبر)",
+                "اطلاق یا مثال (2 نمبر)",
+                "واضح ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Endosymbiotic theory جي تفصيلي وضاحت ڪريو. ان جي حياتياتي اهميت، طريقيڪار ۽ هڪ لاڳاپيل مثال بيان ڪريو.",
+              "modelAnswer": "اينڊوسيمبايوٽڪ نظريي موجب مائٽوڪانڊريا ۽ ڪلوروپلاسٽ قديم خلين ۾ شامل بيڪٽيريا مان ٺهيا؛ انهن جو DNA ۽ رائبوسوم ان جي حمايت ڪن ٿا. فوسل، تقابلي بناوت، جنيني علم، حياتياتي جاگرافي ۽ ماليڪيولي هڪجهڙائي گڏيل نسل ۽ تبديليءَ جا ثبوت ڏين ٿا.",
+              "rubric": [
+                "سائنسي درستگي ۽ گهرائي (4 مارڪون)",
+                "طريقيڪار ۽ ترتيب (3 مارڪون)",
+                "استعمال يا مثال (2 مارڪون)",
+                "واضح ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

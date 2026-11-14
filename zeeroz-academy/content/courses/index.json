@@ -169,6 +169,48 @@
       "title": "Biology XI — Chapter 10: Form and Functions of Plants",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-10-form-functions-plants.json",
       "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-14-immunity",
+      "title": "Biology XII — Chapter 14: Immunity",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-14-immunity.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-15-homeostasis",
+      "title": "Biology XII — Chapter 15: Homeostasis",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-15-homeostasis.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-16-support-movement",
+      "title": "Biology XII — Chapter 16: Support and Movement",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-16-support-movement.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-17-nervous-coordination",
+      "title": "Biology XII — Chapter 17: Nervous Coordination",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-17-nervous-coordination.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-18-chemical-coordination",
+      "title": "Biology XII — Chapter 18: Chemical Coordination",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-18-chemical-coordination.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-19-reproduction",
+      "title": "Biology XII — Chapter 19: Reproduction",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-19-reproduction.json",
+      "version": "1"
+    },
+    {
+      "id": "biology-xii-chapter-20-organic-evolution",
+      "title": "Biology XII — Chapter 20: Organic Evolution",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-20-organic-evolution.json",
+      "version": "1"
     }
   ]
 }
