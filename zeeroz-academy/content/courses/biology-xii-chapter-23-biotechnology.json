@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-23-biotechnology",
+  "title": "Biology XII — Chapter 23: Biotechnology",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 23 — Biotechnology (16 periods). Five lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 23,
+    "periods": 16,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 23: Biotechnology",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 23; 16 periods.",
+      "lessons": [
+        {
+          "title": "23.1 Recombinant DNA",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain recombinant dna and connect the concept with evidence, biological function and a relevant application.\n\nRecombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔",
+            "sd": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا."
+          }
+        },
+        {
+          "title": "23.2 Genetically modified organisms",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain genetically modified organisms and connect the concept with evidence, biological function and a relevant application.\n\nA GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔",
+            "sd": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا."
+          }
+        },
+        {
+          "title": "23.3 PCR and DNA profiling",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain pcr and dna profiling and connect the concept with evidence, biological function and a relevant application.\n\nPCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+            "sd": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي."
+          }
+        },
+        {
+          "title": "23.4 Biosecurity and biodefence",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain biosecurity and biodefence and connect the concept with evidence, biological function and a relevant application.\n\nBiosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔",
+            "sd": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي."
+          }
+        },
+        {
+          "title": "23.5 Genomics and synthetic biology",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain genomics and synthetic biology and connect the concept with evidence, biological function and a relevant application.\n\nGenomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔",
+            "sd": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes recombinant dna?",
+          "options": {
+            "A": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites.",
+            "B": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions.",
+            "C": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.",
+            "D": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination."
+          },
+          "correctOption": "A",
+          "explanation": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites. This is the central principle of recombinant dna.",
+          "translations": {
+            "ur": {
+              "question": "Recombinant DNA کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔",
+                "B": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔",
+                "C": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+                "D": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔"
+              },
+              "explanation": "درست جواب: ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔"
+            },
+            "sd": {
+              "question": "Recombinant DNA بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا.",
+                "B": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا.",
+                "C": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+                "D": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي."
+              },
+              "explanation": "صحيح جواب: ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of recombinant dna?",
+          "options": {
+            "A": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions.",
+            "B": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.",
+            "C": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination.",
+            "D": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites."
+          },
+          "correctOption": "D",
+          "explanation": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites. This is the central principle of recombinant dna.",
+          "translations": {
+            "ur": {
+              "question": "Recombinant DNA کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔",
+                "B": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+                "C": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔",
+                "D": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔"
+              },
+              "explanation": "درست جواب: ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔"
+            },
+            "sd": {
+              "question": "Recombinant DNA بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا.",
+                "B": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+                "C": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي.",
+                "D": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا."
+              },
+              "explanation": "صحيح جواب: ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about recombinant dna?",
+          "options": {
+            "A": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.",
+            "B": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination.",
+            "C": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites.",
+            "D": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions."
+          },
+          "correctOption": "C",
+          "explanation": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites. This is the central principle of recombinant dna.",
+          "translations": {
+            "ur": {
+              "question": "Recombinant DNA کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+                "B": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔",
+                "C": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔",
+                "D": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔"
+              },
+              "explanation": "درست جواب: ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔"
+            },
+            "sd": {
+              "question": "Recombinant DNA بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+                "B": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي.",
+                "C": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا.",
+                "D": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا."
+              },
+              "explanation": "صحيح جواب: ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes genetically modified organisms?",
+          "options": {
+            "A": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.",
+            "B": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination.",
+            "C": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems.",
+            "D": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions."
+          },
+          "correctOption": "D",
+          "explanation": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions. This is the central principle of genetically modified organisms.",
+          "translations": {
+            "ur": {
+              "question": "Genetically modified organisms کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+                "B": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔",
+                "C": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔",
+                "D": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔"
+              },
+              "explanation": "درست جواب: GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔"
+            },
+            "sd": {
+              "question": "Genetically modified organisms بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+                "B": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي.",
+                "C": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا.",
+                "D": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا."
+              },
+              "explanation": "صحيح جواب: GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of genetically modified organisms?",
+          "options": {
+            "A": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination.",
+            "B": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems.",
+            "C": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions.",
+            "D": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis."
+          },
+          "correctOption": "C",
+          "explanation": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions. This is the central principle of genetically modified organisms.",
+          "translations": {
+            "ur": {
+              "question": "Genetically modified organisms کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔",
+                "B": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔",
+                "C": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔",
+                "D": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔"
+              },
+              "explanation": "درست جواب: GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔"
+            },
+            "sd": {
+              "question": "Genetically modified organisms بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي.",
+                "B": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا.",
+                "C": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا.",
+                "D": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي."
+              },
+              "explanation": "صحيح جواب: GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about genetically modified organisms?",
+          "options": {
+            "A": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems.",
+            "B": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions.",
+            "C": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.",
+            "D": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination."
+          },
+          "correctOption": "B",
+          "explanation": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions. This is the central principle of genetically modified organisms.",
+          "translations": {
+            "ur": {
+              "question": "Genetically modified organisms کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔",
+                "B": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔",
+                "C": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+                "D": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔"
+              },
+              "explanation": "درست جواب: GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔"
+            },
+            "sd": {
+              "question": "Genetically modified organisms بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا.",
+                "B": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا.",
+                "C": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+                "D": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي."
+              },
+              "explanation": "صحيح جواب: GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes pcr and dna profiling?",
+          "options": {
+            "A": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems.",
+            "B": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites.",
+            "C": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.",
+            "D": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination."
+          },
+          "correctOption": "C",
+          "explanation": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis. This is the central principle of pcr and dna profiling.",
+          "translations": {
+            "ur": {
+              "question": "PCR and DNA profiling کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔",
+                "B": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔",
+                "C": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+                "D": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔"
+              },
+              "explanation": "درست جواب: PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔"
+            },
+            "sd": {
+              "question": "PCR and DNA profiling بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا.",
+                "B": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا.",
+                "C": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+                "D": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي."
+              },
+              "explanation": "صحيح جواب: PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of pcr and dna profiling?",
+          "options": {
+            "A": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites.",
+            "B": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.",
+            "C": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination.",
+            "D": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems."
+          },
+          "correctOption": "B",
+          "explanation": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis. This is the central principle of pcr and dna profiling.",
+          "translations": {
+            "ur": {
+              "question": "PCR and DNA profiling کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔",
+                "B": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+                "C": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔",
+                "D": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔"
+            },
+            "sd": {
+              "question": "PCR and DNA profiling بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا.",
+                "B": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+                "C": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي.",
+                "D": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about pcr and dna profiling?",
+          "options": {
+            "A": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.",
+            "B": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination.",
+            "C": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems.",
+            "D": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites."
+          },
+          "correctOption": "A",
+          "explanation": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis. This is the central principle of pcr and dna profiling.",
+          "translations": {
+            "ur": {
+              "question": "PCR and DNA profiling کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+                "B": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔",
+                "C": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔",
+                "D": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔"
+              },
+              "explanation": "درست جواب: PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔"
+            },
+            "sd": {
+              "question": "PCR and DNA profiling بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+                "B": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي.",
+                "C": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا.",
+                "D": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا."
+              },
+              "explanation": "صحيح جواب: PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes biosecurity and biodefence?",
+          "options": {
+            "A": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions.",
+            "B": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination.",
+            "C": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems.",
+            "D": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites."
+          },
+          "correctOption": "B",
+          "explanation": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination. This is the central principle of biosecurity and biodefence.",
+          "translations": {
+            "ur": {
+              "question": "Biosecurity and biodefence کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔",
+                "B": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔",
+                "C": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔",
+                "D": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔"
+              },
+              "explanation": "درست جواب: بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔"
+            },
+            "sd": {
+              "question": "Biosecurity and biodefence بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا.",
+                "B": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي.",
+                "C": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا.",
+                "D": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا."
+              },
+              "explanation": "صحيح جواب: بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of biosecurity and biodefence?",
+          "options": {
+            "A": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination.",
+            "B": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems.",
+            "C": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites.",
+            "D": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions."
+          },
+          "correctOption": "A",
+          "explanation": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination. This is the central principle of biosecurity and biodefence.",
+          "translations": {
+            "ur": {
+              "question": "Biosecurity and biodefence کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔",
+                "B": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔",
+                "C": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔",
+                "D": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔"
+              },
+              "explanation": "درست جواب: بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔"
+            },
+            "sd": {
+              "question": "Biosecurity and biodefence بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي.",
+                "B": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا.",
+                "C": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا.",
+                "D": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا."
+              },
+              "explanation": "صحيح جواب: بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about biosecurity and biodefence?",
+          "options": {
+            "A": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems.",
+            "B": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites.",
+            "C": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions.",
+            "D": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination."
+          },
+          "correctOption": "D",
+          "explanation": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination. This is the central principle of biosecurity and biodefence.",
+          "translations": {
+            "ur": {
+              "question": "Biosecurity and biodefence کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔",
+                "B": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔",
+                "C": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔",
+                "D": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔"
+              },
+              "explanation": "درست جواب: بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔"
+            },
+            "sd": {
+              "question": "Biosecurity and biodefence بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا.",
+                "B": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا.",
+                "C": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا.",
+                "D": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي."
+              },
+              "explanation": "صحيح جواب: بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes genomics and synthetic biology?",
+          "options": {
+            "A": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems.",
+            "B": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites.",
+            "C": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions.",
+            "D": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis."
+          },
+          "correctOption": "A",
+          "explanation": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems. This is the central principle of genomics and synthetic biology.",
+          "translations": {
+            "ur": {
+              "question": "Genomics and synthetic biology کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔",
+                "B": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔",
+                "C": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔",
+                "D": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔"
+              },
+              "explanation": "درست جواب: جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Genomics and synthetic biology بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا.",
+                "B": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا.",
+                "C": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا.",
+                "D": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي."
+              },
+              "explanation": "صحيح جواب: جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of genomics and synthetic biology?",
+          "options": {
+            "A": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites.",
+            "B": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions.",
+            "C": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.",
+            "D": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems."
+          },
+          "correctOption": "D",
+          "explanation": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems. This is the central principle of genomics and synthetic biology.",
+          "translations": {
+            "ur": {
+              "question": "Genomics and synthetic biology کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔",
+                "B": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔",
+                "C": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+                "D": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Genomics and synthetic biology بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا.",
+                "B": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا.",
+                "C": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+                "D": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا."
+              },
+              "explanation": "صحيح جواب: جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about genomics and synthetic biology?",
+          "options": {
+            "A": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions.",
+            "B": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.",
+            "C": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems.",
+            "D": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites."
+          },
+          "correctOption": "C",
+          "explanation": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems. This is the central principle of genomics and synthetic biology.",
+          "translations": {
+            "ur": {
+              "question": "Genomics and synthetic biology کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔",
+                "B": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+                "C": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔",
+                "D": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔"
+              },
+              "explanation": "درست جواب: جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Genomics and synthetic biology بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا.",
+                "B": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+                "C": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا.",
+                "D": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا."
+              },
+              "explanation": "صحيح جواب: جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain recombinant dna. Give one example or state its significance.",
+          "modelAnswer": "Recombinant DNA technology joins selected DNA sequences using molecular tools; plasmids can act as vectors and restriction enzymes recognise specific sites.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Recombinant DNA کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "ریکومبیننٹ DNA ٹیکنالوجی منتخب DNA حصوں کو جوڑتی ہے؛ پلازمڈ ویکٹر بن سکتے ہیں اور ریسٹرکشن انزائم مخصوص مقامات پہچانتے ہیں۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Recombinant DNA جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "ريڪومبيننٽ DNA ٽيڪنالاجي چونڊيل DNA حصن کي ڳنڍي ٿي؛ پلازمڊ ویکٽر ٿي سگهن ٿا ۽ ريسٽرڪشن اينزائم مخصوص هنڌ سڃاڻن ٿا.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain genetically modified organisms. Give one example or state its significance.",
+          "modelAnswer": "A GMO contains genetic material altered using biotechnology; engineered microbes can produce therapeutic proteins such as human insulin under controlled conditions.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Genetically modified organisms کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "GMO میں بایوٹیکنالوجی سے تبدیل شدہ جینیاتی مادہ ہوتا ہے؛ تبدیل شدہ جرثومے کنٹرول شدہ حالات میں انسانی انسولین جیسے علاجی پروٹین بنا سکتے ہیں۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Genetically modified organisms جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "GMO ۾ بايوٽيڪنالاجي سان تبديل ڪيل جينياتي مادو هوندو آهي؛ تبديل ٿيل جراثيم ڪنٽرول حالتن ۾ انساني انسولين جهڙا علاج وارا پروٽين ٺاهي سگهن ٿا.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain pcr and dna profiling. Give one example or state its significance.",
+          "modelAnswer": "PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "PCR and DNA profiling کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "PCR and DNA profiling جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss biosecurity and biodefence in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination. PCR amplifies a selected DNA region through repeated cycles; DNA profiling compares variable regions for identification and relationship analysis. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Biosecurity and biodefence کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔ PCR بار بار چکروں کے ذریعے DNA کے منتخب حصے کی نقول بناتا ہے؛ DNA profiling شناخت اور تعلق کے تجزیے کے لیے متغیر حصوں کا موازنہ کرتی ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Biosecurity and biodefence جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي. PCR بار بار چڪرن وسيلي DNA جي چونڊيل حصي جون ڪاپيون ٺاهي ٿو؛ DNA profiling سڃاڻپ ۽ لاڳاپي جي تجزيي لاءِ مختلف حصن جو مقابلو ڪري ٿي.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss genomics and synthetic biology in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Genomics studies whole genomes; transcriptomics, proteomics and metabolomics examine RNA, proteins and metabolites, while synthetic biology designs biological systems. Biosecurity reduces misuse risks; biodefence relies on surveillance, vaccination, preparedness, responsible research and public-health coordination. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Genomics and synthetic biology کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "جینومکس مکمل جینوم کا مطالعہ ہے؛ ٹرانسکرپٹومکس، پروٹیومکس اور میٹابولومکس بالترتیب RNA، پروٹین اور میٹابولائٹس کا مطالعہ کرتے ہیں۔ بایوسکیورٹی غلط استعمال کے خطرات کم کرتی ہے؛ بایو ڈیفنس نگرانی، ویکسینیشن، تیاری، ذمہ دار تحقیق اور صحتِ عامہ کے تعاون پر منحصر ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Genomics and synthetic biology جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "جينومڪس مڪمل جينوم جو مطالعو آهي؛ ٽرانسڪرپٽومڪس، پروٽومڪس ۽ ميٽابولومڪس ترتيبوار RNA، پروٽين ۽ ميٽابولائٽس جو مطالعو ڪن ٿا. بايو سيڪيورٽي غلط استعمال جا خطرا گهٽائي ٿي؛ بايو ڊفينس نگراني، ويڪسين، تياري، ذميوار تحقيق ۽ عوامي صحت جي سهڪار تي دارومدار رکي ٿي.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

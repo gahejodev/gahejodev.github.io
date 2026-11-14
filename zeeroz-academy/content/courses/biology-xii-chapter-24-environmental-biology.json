@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-24-environmental-biology",
+  "title": "Biology XII — Chapter 24: Environmental Biology",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 24 — Environmental Biology (16 periods). Five lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 24,
+    "periods": 16,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 24: Environmental Biology",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 24; 16 periods.",
+      "lessons": [
+        {
+          "title": "24.1 Ecosystem components",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain ecosystem components and connect the concept with evidence, biological function and a relevant application.\n\nAn ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔",
+            "sd": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا."
+          }
+        },
+        {
+          "title": "24.2 Biogeochemical cycles",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain biogeochemical cycles and connect the concept with evidence, biological function and a relevant application.\n\nWater and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔",
+            "sd": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو."
+          }
+        },
+        {
+          "title": "24.3 Energy flow and productivity",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain energy flow and productivity and connect the concept with evidence, biological function and a relevant application.\n\nEnergy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+            "sd": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي."
+          }
+        },
+        {
+          "title": "24.4 Succession and population dynamics",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain succession and population dynamics and connect the concept with evidence, biological function and a relevant application.\n\nEcological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔",
+            "sd": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو."
+          }
+        },
+        {
+          "title": "24.5 Human impacts and Pakistan ecosystems",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain human impacts and pakistan ecosystems and connect the concept with evidence, biological function and a relevant application.\n\nPollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔",
+            "sd": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes ecosystem components?",
+          "options": {
+            "A": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs.",
+            "B": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems.",
+            "C": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.",
+            "D": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration."
+          },
+          "correctOption": "A",
+          "explanation": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs. This is the central principle of ecosystem components.",
+          "translations": {
+            "ur": {
+              "question": "Ecosystem components کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔",
+                "B": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔",
+                "C": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+                "D": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔"
+              },
+              "explanation": "درست جواب: ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Ecosystem components بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا.",
+                "B": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو.",
+                "C": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+                "D": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو."
+              },
+              "explanation": "صحيح جواب: ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of ecosystem components?",
+          "options": {
+            "A": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems.",
+            "B": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.",
+            "C": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration.",
+            "D": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs."
+          },
+          "correctOption": "D",
+          "explanation": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs. This is the central principle of ecosystem components.",
+          "translations": {
+            "ur": {
+              "question": "Ecosystem components کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔",
+                "B": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+                "C": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔",
+                "D": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Ecosystem components بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو.",
+                "B": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+                "C": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو.",
+                "D": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا."
+              },
+              "explanation": "صحيح جواب: ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about ecosystem components?",
+          "options": {
+            "A": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.",
+            "B": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration.",
+            "C": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs.",
+            "D": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems."
+          },
+          "correctOption": "C",
+          "explanation": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs. This is the central principle of ecosystem components.",
+          "translations": {
+            "ur": {
+              "question": "Ecosystem components کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+                "B": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔",
+                "C": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔",
+                "D": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔"
+              },
+              "explanation": "درست جواب: ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Ecosystem components بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+                "B": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو.",
+                "C": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا.",
+                "D": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو."
+              },
+              "explanation": "صحيح جواب: ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes biogeochemical cycles?",
+          "options": {
+            "A": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.",
+            "B": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration.",
+            "C": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems.",
+            "D": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems."
+          },
+          "correctOption": "D",
+          "explanation": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems. This is the central principle of biogeochemical cycles.",
+          "translations": {
+            "ur": {
+              "question": "Biogeochemical cycles کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+                "B": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔",
+                "C": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔",
+                "D": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔"
+              },
+              "explanation": "درست جواب: پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "Biogeochemical cycles بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+                "B": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو.",
+                "C": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن.",
+                "D": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو."
+              },
+              "explanation": "صحيح جواب: پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of biogeochemical cycles?",
+          "options": {
+            "A": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration.",
+            "B": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems.",
+            "C": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems.",
+            "D": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss."
+          },
+          "correctOption": "C",
+          "explanation": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems. This is the central principle of biogeochemical cycles.",
+          "translations": {
+            "ur": {
+              "question": "Biogeochemical cycles کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔",
+                "B": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔",
+                "C": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔",
+                "D": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔"
+              },
+              "explanation": "درست جواب: پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "Biogeochemical cycles بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو.",
+                "B": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن.",
+                "C": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو.",
+                "D": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي."
+              },
+              "explanation": "صحيح جواب: پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about biogeochemical cycles?",
+          "options": {
+            "A": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems.",
+            "B": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems.",
+            "C": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.",
+            "D": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration."
+          },
+          "correctOption": "B",
+          "explanation": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems. This is the central principle of biogeochemical cycles.",
+          "translations": {
+            "ur": {
+              "question": "Biogeochemical cycles کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔",
+                "B": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔",
+                "C": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+                "D": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔"
+              },
+              "explanation": "درست جواب: پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "Biogeochemical cycles بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن.",
+                "B": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو.",
+                "C": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+                "D": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو."
+              },
+              "explanation": "صحيح جواب: پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes energy flow and productivity?",
+          "options": {
+            "A": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems.",
+            "B": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs.",
+            "C": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.",
+            "D": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration."
+          },
+          "correctOption": "C",
+          "explanation": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss. This is the central principle of energy flow and productivity.",
+          "translations": {
+            "ur": {
+              "question": "Energy flow and productivity کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔",
+                "B": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔",
+                "C": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+                "D": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔"
+              },
+              "explanation": "درست جواب: توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔"
+            },
+            "sd": {
+              "question": "Energy flow and productivity بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن.",
+                "B": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا.",
+                "C": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+                "D": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو."
+              },
+              "explanation": "صحيح جواب: توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of energy flow and productivity?",
+          "options": {
+            "A": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs.",
+            "B": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.",
+            "C": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration.",
+            "D": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems."
+          },
+          "correctOption": "B",
+          "explanation": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss. This is the central principle of energy flow and productivity.",
+          "translations": {
+            "ur": {
+              "question": "Energy flow and productivity کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔",
+                "B": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+                "C": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔",
+                "D": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔"
+              },
+              "explanation": "درست جواب: توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔"
+            },
+            "sd": {
+              "question": "Energy flow and productivity بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا.",
+                "B": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+                "C": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو.",
+                "D": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن."
+              },
+              "explanation": "صحيح جواب: توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about energy flow and productivity?",
+          "options": {
+            "A": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.",
+            "B": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration.",
+            "C": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems.",
+            "D": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs."
+          },
+          "correctOption": "A",
+          "explanation": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss. This is the central principle of energy flow and productivity.",
+          "translations": {
+            "ur": {
+              "question": "Energy flow and productivity کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+                "B": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔",
+                "C": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔",
+                "D": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔"
+            },
+            "sd": {
+              "question": "Energy flow and productivity بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+                "B": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو.",
+                "C": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن.",
+                "D": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا."
+              },
+              "explanation": "صحيح جواب: توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes succession and population dynamics?",
+          "options": {
+            "A": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems.",
+            "B": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration.",
+            "C": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems.",
+            "D": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs."
+          },
+          "correctOption": "B",
+          "explanation": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration. This is the central principle of succession and population dynamics.",
+          "translations": {
+            "ur": {
+              "question": "Succession and population dynamics کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔",
+                "B": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔",
+                "C": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔",
+                "D": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "Succession and population dynamics بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو.",
+                "B": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو.",
+                "C": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن.",
+                "D": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا."
+              },
+              "explanation": "صحيح جواب: ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of succession and population dynamics?",
+          "options": {
+            "A": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration.",
+            "B": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems.",
+            "C": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs.",
+            "D": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems."
+          },
+          "correctOption": "A",
+          "explanation": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration. This is the central principle of succession and population dynamics.",
+          "translations": {
+            "ur": {
+              "question": "Succession and population dynamics کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔",
+                "B": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔",
+                "C": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔",
+                "D": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔"
+              },
+              "explanation": "درست جواب: ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "Succession and population dynamics بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو.",
+                "B": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن.",
+                "C": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا.",
+                "D": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو."
+              },
+              "explanation": "صحيح جواب: ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about succession and population dynamics?",
+          "options": {
+            "A": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems.",
+            "B": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs.",
+            "C": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems.",
+            "D": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration."
+          },
+          "correctOption": "D",
+          "explanation": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration. This is the central principle of succession and population dynamics.",
+          "translations": {
+            "ur": {
+              "question": "Succession and population dynamics کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔",
+                "B": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔",
+                "C": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔",
+                "D": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔"
+              },
+              "explanation": "درست جواب: ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "Succession and population dynamics بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن.",
+                "B": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا.",
+                "C": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو.",
+                "D": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو."
+              },
+              "explanation": "صحيح جواب: ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes human impacts and pakistan ecosystems?",
+          "options": {
+            "A": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems.",
+            "B": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs.",
+            "C": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems.",
+            "D": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss."
+          },
+          "correctOption": "A",
+          "explanation": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems. This is the central principle of human impacts and pakistan ecosystems.",
+          "translations": {
+            "ur": {
+              "question": "Human impacts and Pakistan ecosystems کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔",
+                "B": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔",
+                "C": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔",
+                "D": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔"
+              },
+              "explanation": "درست جواب: آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔"
+            },
+            "sd": {
+              "question": "Human impacts and Pakistan ecosystems بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن.",
+                "B": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا.",
+                "C": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو.",
+                "D": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي."
+              },
+              "explanation": "صحيح جواب: آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of human impacts and pakistan ecosystems?",
+          "options": {
+            "A": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs.",
+            "B": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems.",
+            "C": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.",
+            "D": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems."
+          },
+          "correctOption": "D",
+          "explanation": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems. This is the central principle of human impacts and pakistan ecosystems.",
+          "translations": {
+            "ur": {
+              "question": "Human impacts and Pakistan ecosystems کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔",
+                "B": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔",
+                "C": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+                "D": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔"
+              },
+              "explanation": "درست جواب: آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔"
+            },
+            "sd": {
+              "question": "Human impacts and Pakistan ecosystems بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا.",
+                "B": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو.",
+                "C": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+                "D": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن."
+              },
+              "explanation": "صحيح جواب: آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about human impacts and pakistan ecosystems?",
+          "options": {
+            "A": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems.",
+            "B": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.",
+            "C": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems.",
+            "D": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs."
+          },
+          "correctOption": "C",
+          "explanation": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems. This is the central principle of human impacts and pakistan ecosystems.",
+          "translations": {
+            "ur": {
+              "question": "Human impacts and Pakistan ecosystems کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔",
+                "B": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+                "C": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔",
+                "D": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔"
+              },
+              "explanation": "درست جواب: آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔"
+            },
+            "sd": {
+              "question": "Human impacts and Pakistan ecosystems بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو.",
+                "B": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+                "C": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن.",
+                "D": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا."
+              },
+              "explanation": "صحيح جواب: آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain ecosystem components. Give one example or state its significance.",
+          "modelAnswer": "An ecosystem includes organisms and physical factors; producers, consumers and decomposers interact through food chains and food webs.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Ecosystem components کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "ماحولیاتی نظام میں جاندار اور غیر حیاتی عوامل شامل ہیں؛ پیدا کنندگان، صارفین اور تحلیل کنندگان غذائی زنجیروں اور جالوں میں تعامل کرتے ہیں۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Ecosystem components جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "ماحولياتي نظام ۾ جاندار ۽ غير حياتياتي عنصر شامل آهن؛ پيدا ڪندڙ، صارف ۽ تحليل ڪندڙ خوراڪي زنجيرن ۽ ڄارن ۾ لاڳاپا رکن ٿا.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain biogeochemical cycles. Give one example or state its significance.",
+          "modelAnswer": "Water and nitrogen cycle between organisms and the atmosphere, soil and water; matter is recycled through ecosystems.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Biogeochemical cycles کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "پانی اور نائٹروجن جانداروں، فضا، مٹی اور پانی کے درمیان گردش کرتے ہیں؛ مادہ ماحولیاتی نظام میں دوبارہ استعمال ہوتا ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Biogeochemical cycles جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "پاڻي ۽ نائٽروجن جاندارن، فضا، مٽي ۽ پاڻيءَ وچ ۾ گردش ڪن ٿا؛ مادو ماحولياتي نظام ۾ ٻيهر استعمال ٿئي ٿو.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain energy flow and productivity. Give one example or state its significance.",
+          "modelAnswer": "Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Energy flow and productivity کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Energy flow and productivity جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss succession and population dynamics in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration. Energy moves through trophic levels and is lost as heat; GPP is total photosynthetic production and NPP is GPP minus respiratory loss. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Succession and population dynamics کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔ توانائی غذائی سطحوں سے گزرتی اور حرارت کی صورت میں کم ہوتی ہے؛ GPP کل پیداوار جبکہ NPP تنفس کے نقصان کے بعد باقی پیداوار ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Succession and population dynamics جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو. توانائي خوراڪي سطحن مان گذري ٿي ۽ گرميءَ طور گهٽجي ٿي؛ GPP ڪل پيداوار ۽ NPP ساهه کڻڻ جي نقصان کان پوءِ بچيل پيداوار آهي.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss human impacts and pakistan ecosystems in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Pollution, habitat loss and overuse affect biodiversity; Pakistan includes deserts, mountains, forests, wetlands, rivers and coastal ecosystems. Ecological succession changes community composition over time; population size is affected by births, deaths, immigration and emigration. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Human impacts and Pakistan ecosystems کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "آلودگی، مسکن کی تباہی اور وسائل کا زیادہ استعمال حیاتیاتی تنوع کو متاثر کرتے ہیں؛ پاکستان میں صحرا، پہاڑ، جنگلات، آبی علاقے اور ساحلی نظام ہیں۔ ماحولیاتی جانشینی وقت کے ساتھ حیاتی برادری بدلتی ہے؛ آبادی کی تعداد پیدائش، اموات، آمد اور روانگی سے متاثر ہوتی ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Human impacts and Pakistan ecosystems جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "آلودگي، رهائش جي تباهي ۽ وسيلن جو گهڻو استعمال حياتياتي تنوع متاثر ڪن ٿا؛ پاڪستان ۾ ريگستان، جبل، ٻيلا، آبي علائقا ۽ سامونڊي نظام آهن. ماحولياتي جانشيني وقت سان حياتياتي برادري بدلائي ٿي؛ آباديءَ جو انگ ڄمڻ، مرڻ، اچڻ ۽ وڃڻ سان متاثر ٿئي ٿو.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

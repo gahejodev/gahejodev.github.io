@@ -1,0 +1,726 @@
+{
+  "id": "biology-xii-chapter-22-chromosome-dna",
+  "title": "Biology XII — Chapter 22: Chromosome and DNA",
+  "description": "DCAR Sindh Biology Curriculum 2024, Grade XII Chapter 22 — Chromosome and DNA (16 periods). Five lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi explanations, model answers and rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "source": "DCAR Sindh, Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "XII",
+    "chapter": 22,
+    "periods": 16,
+    "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf"
+  },
+  "chapters": [
+    {
+      "title": "Chapter 22: Chromosome and DNA",
+      "description": "Grade XII Biology, DCAR Sindh 2024, Chapter 22; 16 periods.",
+      "lessons": [
+        {
+          "title": "22.1 DNA as hereditary material",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain dna as hereditary material and connect the concept with evidence, biological function and a relevant application.\n\nExperiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔",
+            "sd": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو."
+          }
+        },
+        {
+          "title": "22.2 DNA replication",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain dna replication and connect the concept with evidence, biological function and a relevant application.\n\nDNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔",
+            "sd": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي."
+          }
+        },
+        {
+          "title": "22.3 Genetic code",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain genetic code and connect the concept with evidence, biological function and a relevant application.\n\nThe genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+            "sd": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو."
+          }
+        },
+        {
+          "title": "22.4 Gene expression",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain gene expression and connect the concept with evidence, biological function and a relevant application.\n\nTranscription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔",
+            "sd": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا."
+          }
+        },
+        {
+          "title": "22.5 Gene regulation and mutation",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain gene regulation and mutation and connect the concept with evidence, biological function and a relevant application.\n\nRegulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment.\n\n**Study task:** Define the key terms, explain the sequence or mechanism, and interpret a suitable diagram, table or real-world example.",
+          "explanations": {
+            "ur": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔",
+            "sd": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes dna as hereditary material?",
+          "options": {
+            "A": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms.",
+            "B": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand.",
+            "C": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.",
+            "D": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence."
+          },
+          "correctOption": "A",
+          "explanation": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms. This is the central principle of dna as hereditary material.",
+          "translations": {
+            "ur": {
+              "question": "DNA as hereditary material کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔",
+                "B": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔",
+                "C": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+                "D": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔"
+              },
+              "explanation": "درست جواب: گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔"
+            },
+            "sd": {
+              "question": "DNA as hereditary material بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو.",
+                "B": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي.",
+                "C": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+                "D": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا."
+              },
+              "explanation": "صحيح جواب: گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of dna as hereditary material?",
+          "options": {
+            "A": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand.",
+            "B": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.",
+            "C": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence.",
+            "D": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms."
+          },
+          "correctOption": "D",
+          "explanation": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms. This is the central principle of dna as hereditary material.",
+          "translations": {
+            "ur": {
+              "question": "DNA as hereditary material کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔",
+                "B": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+                "C": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔",
+                "D": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔"
+              },
+              "explanation": "درست جواب: گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔"
+            },
+            "sd": {
+              "question": "DNA as hereditary material بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي.",
+                "B": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+                "C": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا.",
+                "D": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو."
+              },
+              "explanation": "صحيح جواب: گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about dna as hereditary material?",
+          "options": {
+            "A": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.",
+            "B": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence.",
+            "C": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms.",
+            "D": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand."
+          },
+          "correctOption": "C",
+          "explanation": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms. This is the central principle of dna as hereditary material.",
+          "translations": {
+            "ur": {
+              "question": "DNA as hereditary material کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+                "B": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔",
+                "C": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔",
+                "D": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔"
+              },
+              "explanation": "درست جواب: گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔"
+            },
+            "sd": {
+              "question": "DNA as hereditary material بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+                "B": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا.",
+                "C": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو.",
+                "D": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي."
+              },
+              "explanation": "صحيح جواب: گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes dna replication?",
+          "options": {
+            "A": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.",
+            "B": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence.",
+            "C": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment.",
+            "D": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand."
+          },
+          "correctOption": "D",
+          "explanation": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand. This is the central principle of dna replication.",
+          "translations": {
+            "ur": {
+              "question": "DNA replication کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+                "B": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔",
+                "C": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔",
+                "D": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔"
+              },
+              "explanation": "درست جواب: DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "DNA replication بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+                "B": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا.",
+                "C": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي.",
+                "D": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي."
+              },
+              "explanation": "صحيح جواب: DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of dna replication?",
+          "options": {
+            "A": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence.",
+            "B": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment.",
+            "C": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand.",
+            "D": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction."
+          },
+          "correctOption": "C",
+          "explanation": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand. This is the central principle of dna replication.",
+          "translations": {
+            "ur": {
+              "question": "DNA replication کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔",
+                "B": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔",
+                "C": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔",
+                "D": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔"
+              },
+              "explanation": "درست جواب: DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "DNA replication بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا.",
+                "B": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي.",
+                "C": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي.",
+                "D": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو."
+              },
+              "explanation": "صحيح جواب: DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about dna replication?",
+          "options": {
+            "A": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment.",
+            "B": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand.",
+            "C": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.",
+            "D": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence."
+          },
+          "correctOption": "B",
+          "explanation": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand. This is the central principle of dna replication.",
+          "translations": {
+            "ur": {
+              "question": "DNA replication کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔",
+                "B": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔",
+                "C": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+                "D": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔"
+              },
+              "explanation": "درست جواب: DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "DNA replication بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي.",
+                "B": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي.",
+                "C": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+                "D": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا."
+              },
+              "explanation": "صحيح جواب: DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes genetic code?",
+          "options": {
+            "A": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment.",
+            "B": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms.",
+            "C": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.",
+            "D": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence."
+          },
+          "correctOption": "C",
+          "explanation": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction. This is the central principle of genetic code.",
+          "translations": {
+            "ur": {
+              "question": "Genetic code کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔",
+                "B": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔",
+                "C": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+                "D": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔"
+              },
+              "explanation": "درست جواب: جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔"
+            },
+            "sd": {
+              "question": "Genetic code بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي.",
+                "B": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو.",
+                "C": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+                "D": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا."
+              },
+              "explanation": "صحيح جواب: جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of genetic code?",
+          "options": {
+            "A": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms.",
+            "B": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.",
+            "C": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence.",
+            "D": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment."
+          },
+          "correctOption": "B",
+          "explanation": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction. This is the central principle of genetic code.",
+          "translations": {
+            "ur": {
+              "question": "Genetic code کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔",
+                "B": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+                "C": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔",
+                "D": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔"
+              },
+              "explanation": "درست جواب: جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔"
+            },
+            "sd": {
+              "question": "Genetic code بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو.",
+                "B": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+                "C": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا.",
+                "D": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي."
+              },
+              "explanation": "صحيح جواب: جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about genetic code?",
+          "options": {
+            "A": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.",
+            "B": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence.",
+            "C": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment.",
+            "D": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms."
+          },
+          "correctOption": "A",
+          "explanation": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction. This is the central principle of genetic code.",
+          "translations": {
+            "ur": {
+              "question": "Genetic code کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+                "B": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔",
+                "C": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔",
+                "D": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔"
+              },
+              "explanation": "درست جواب: جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔"
+            },
+            "sd": {
+              "question": "Genetic code بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+                "B": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا.",
+                "C": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي.",
+                "D": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو."
+              },
+              "explanation": "صحيح جواب: جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes gene expression?",
+          "options": {
+            "A": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand.",
+            "B": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence.",
+            "C": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment.",
+            "D": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms."
+          },
+          "correctOption": "B",
+          "explanation": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence. This is the central principle of gene expression.",
+          "translations": {
+            "ur": {
+              "question": "Gene expression کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔",
+                "B": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔",
+                "C": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔",
+                "D": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔"
+              },
+              "explanation": "درست جواب: ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "Gene expression بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي.",
+                "B": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا.",
+                "C": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي.",
+                "D": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو."
+              },
+              "explanation": "صحيح جواب: ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of gene expression?",
+          "options": {
+            "A": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence.",
+            "B": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment.",
+            "C": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms.",
+            "D": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand."
+          },
+          "correctOption": "A",
+          "explanation": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence. This is the central principle of gene expression.",
+          "translations": {
+            "ur": {
+              "question": "Gene expression کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔",
+                "B": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔",
+                "C": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔",
+                "D": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔"
+              },
+              "explanation": "درست جواب: ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "Gene expression بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا.",
+                "B": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي.",
+                "C": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو.",
+                "D": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي."
+              },
+              "explanation": "صحيح جواب: ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about gene expression?",
+          "options": {
+            "A": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment.",
+            "B": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms.",
+            "C": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand.",
+            "D": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence."
+          },
+          "correctOption": "D",
+          "explanation": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence. This is the central principle of gene expression.",
+          "translations": {
+            "ur": {
+              "question": "Gene expression کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔",
+                "B": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔",
+                "C": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔",
+                "D": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔"
+              },
+              "explanation": "درست جواب: ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "Gene expression بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي.",
+                "B": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو.",
+                "C": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي.",
+                "D": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا."
+              },
+              "explanation": "صحيح جواب: ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement best describes gene regulation and mutation?",
+          "options": {
+            "A": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment.",
+            "B": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms.",
+            "C": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand.",
+            "D": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction."
+          },
+          "correctOption": "A",
+          "explanation": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment. This is the central principle of gene regulation and mutation.",
+          "translations": {
+            "ur": {
+              "question": "Gene regulation and mutation کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔",
+                "B": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔",
+                "C": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔",
+                "D": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔"
+              },
+              "explanation": "درست جواب: ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔"
+            },
+            "sd": {
+              "question": "Gene regulation and mutation بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي.",
+                "B": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو.",
+                "C": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي.",
+                "D": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو."
+              },
+              "explanation": "صحيح جواب: ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which option identifies the key principle of gene regulation and mutation?",
+          "options": {
+            "A": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms.",
+            "B": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand.",
+            "C": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.",
+            "D": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment."
+          },
+          "correctOption": "D",
+          "explanation": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment. This is the central principle of gene regulation and mutation.",
+          "translations": {
+            "ur": {
+              "question": "Gene regulation and mutation کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔",
+                "B": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔",
+                "C": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+                "D": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔"
+              },
+              "explanation": "درست جواب: ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔"
+            },
+            "sd": {
+              "question": "Gene regulation and mutation بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو.",
+                "B": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي.",
+                "C": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+                "D": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي."
+              },
+              "explanation": "صحيح جواب: ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which statement is scientifically accurate about gene regulation and mutation?",
+          "options": {
+            "A": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand.",
+            "B": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.",
+            "C": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment.",
+            "D": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms."
+          },
+          "correctOption": "C",
+          "explanation": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment. This is the central principle of gene regulation and mutation.",
+          "translations": {
+            "ur": {
+              "question": "Gene regulation and mutation کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔",
+                "B": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+                "C": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔",
+                "D": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔"
+              },
+              "explanation": "درست جواب: ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔"
+            },
+            "sd": {
+              "question": "Gene regulation and mutation بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي.",
+                "B": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+                "C": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي.",
+                "D": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو."
+              },
+              "explanation": "صحيح جواب: ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain dna as hereditary material. Give one example or state its significance.",
+          "modelAnswer": "Experiments by Griffith and later Avery, MacLeod, McCarty and Hershey–Chase established DNA as the hereditary material in many organisms.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "DNA as hereditary material کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "گریفتھ اور بعد میں ایوری، میکلوڈ، میکارٹی اور ہرشی–چیس کے تجربات نے DNA کو بہت سے جانداروں میں موروثی مادہ ثابت کیا۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "DNA as hereditary material جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "گريفٿ ۽ پوءِ ايوري، ميڪلوڊ، ميڪارٽي ۽ هرشي–چيس جي تجربن DNA کي ڪيترن جاندارن ۾ موروثي مادو ثابت ڪيو.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain dna replication. Give one example or state its significance.",
+          "modelAnswer": "DNA replication is semi-conservative: each daughter DNA molecule contains one parental strand and one newly synthesised strand.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "DNA replication کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "DNA کی نقل نیم محافظانہ ہوتی ہے؛ ہر نئے DNA سالمے میں ایک پرانی اور ایک نئی بننے والی زنجیر شامل ہوتی ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "DNA replication جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "DNA جي نقل نيم قدامت پسند هوندي آهي؛ هر نئين DNA ماليڪيول ۾ هڪ پراڻي ۽ هڪ نئين ٺهيل زنجير هوندي آهي.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define and explain genetic code. Give one example or state its significance.",
+          "modelAnswer": "The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction.",
+          "rubric": [
+            "Correct definition (1 mark)",
+            "Core explanation (2 marks)",
+            "Example or significance (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Genetic code کی تعریف اور وضاحت کریں۔ ایک مثال یا اس کی اہمیت بیان کریں۔",
+              "modelAnswer": "جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+              "rubric": [
+                "درست تعریف (1 نمبر)",
+                "بنیادی وضاحت (2 نمبر)",
+                "مثال یا اہمیت (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Genetic code جي تعريف ۽ وضاحت ڪريو. هڪ مثال يا اهميت بيان ڪريو.",
+              "modelAnswer": "جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+              "rubric": [
+                "صحيح تعريف (1 مارڪ)",
+                "بنيادي وضاحت (2 مارڪ)",
+                "مثال يا اهميت (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss gene expression in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence. The genetic code uses triplet codons in mRNA; it is nearly universal, degenerate and read in a defined direction. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Gene expression کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔ جینیاتی کوڈ mRNA میں تین حروف والے کوڈون استعمال کرتا ہے؛ یہ تقریباً عالمگیر، متعدد اور ایک مقرر سمت میں پڑھا جاتا ہے۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Gene expression جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا. جينياتي ڪوڊ mRNA ۾ ٽن اکرن وارا ڪوڊون استعمال ڪري ٿو؛ اهو لڳ ڀڳ عالمگير، degenerate ۽ مقرر رخ ۾ پڙهيو وڃي ٿو.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss gene regulation and mutation in detail and evaluate its mechanism, importance and applications.",
+          "modelAnswer": "Regulatory proteins alter transcription; mutations change DNA sequence and may be neutral, harmful or occasionally beneficial in a given environment. Transcription makes RNA from DNA; translation uses ribosomes, mRNA and tRNA to assemble a polypeptide in the correct sequence. Together, these ideas explain how the biological process or analytical method works, what evidence supports it and why it matters in practice.",
+          "rubric": [
+            "Accurate scientific explanation (4 marks)",
+            "Mechanism and evidence (3 marks)",
+            "Importance or application (2 marks)",
+            "Organisation (1 mark)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Gene regulation and mutation کی تفصیل بیان کریں اور اس کے طریقۂ کار، اہمیت اور اطلاقات کا جائزہ لیں۔",
+              "modelAnswer": "ریگولیٹری پروٹین ٹرانسکرپشن بدلتے ہیں؛ میوٹیشن DNA کی ترتیب بدلتی ہے اور ماحول کے لحاظ سے غیر مؤثر، نقصان دہ یا کبھی فائدہ مند ہو سکتی ہے۔ ٹرانسکرپشن میں DNA سے RNA بنتا ہے؛ ٹرانسلیشن میں رائبوسوم، mRNA اور tRNA درست ترتیب سے پولی پیپٹائڈ بناتے ہیں۔",
+              "rubric": [
+                "درست سائنسی وضاحت (4 نمبر)",
+                "طریقۂ کار اور شواہد (3 نمبر)",
+                "اہمیت یا اطلاق (2 نمبر)",
+                "ترتیب (1 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Gene regulation and mutation جي تفصيل بيان ڪريو ۽ ان جي طريقيڪار، اهميت ۽ استعمالن جو جائزو وٺو.",
+              "modelAnswer": "ريگيوليٽري پروٽين ٽرانسڪرپشن بدلائين ٿا؛ ميوٽيشن DNA جي ترتيب بدلائي ٿي ۽ ماحول موجب غير اثرائتي، نقصانڪار يا ڪڏهن فائديمند ٿي سگهي ٿي. ٽرانسڪرپشن ۾ DNA مان RNA ٺهي ٿو؛ ٽرانسليشن ۾ رائبوسوم، mRNA ۽ tRNA صحيح ترتيب سان پولي پيپٽائڊ ٺاهين ٿا.",
+              "rubric": [
+                "صحيح سائنسي وضاحت (4 مارڪون)",
+                "طريقيڪار ۽ ثبوت (3 مارڪون)",
+                "اهميت يا استعمال (2 مارڪون)",
+                "ترتيب (1 مارڪ)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
