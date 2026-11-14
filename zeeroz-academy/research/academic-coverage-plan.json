@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "title": "Zeeroz Academy Academic Coverage Master Plan",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "scope": {
     "region": "Sindh, Pakistan",
     "grades": [
@@ -249,10 +249,16 @@
   ],
   "current_published_content": [
     {
-      "id": "biology-ix-chapter-1-introduction",
-      "title": "Biology IX — Chapter 1: Introduction to Biology",
-      "status": "published package in GitHub registry; Firebase import/refresh depends on administrator sync",
-      "coverage": "One introductory chapter, three lessons and twelve MCQs. This is not the complete Biology IX course."
+      "id": "biology-ix-chapters-1-10",
+      "title": "Biology IX — Chapters 1–10",
+      "status": "10 chapter-wise packages in the GitHub registry; Firebase import/refresh is tracked separately by the course-sync workflow.",
+      "coverage": "10 packages; each has 5–6 lessons, 19–20 MCQs, 3 CRQs and 2 ERQs; English lesson content plus Urdu and Sindhi explanations/translations. Curriculum sequence follows the DCAR Biology Curriculum 2024 Grade IX map."
+    },
+    {
+      "id": "biology-x-chapter-11-holozoic-nutrition",
+      "title": "Biology X — Chapter 11: Holozoic Nutrition",
+      "status": "New package registered on 2026-11-14; awaiting verified Firebase sync result.",
+      "coverage": "5 lessons; 22 explained MCQs; 3 CRQs; 2 ERQs; English, Urdu and Sindhi learning text and question translations; case study on unsafe school water and diarrhoeal dehydration. Aligned to DCAR 2024 Chapter 11, 8 periods."
     }
   ],
   "status_legend": {
@@ -376,5 +382,35 @@
       "official_url": "https://dcar.gos.pk/Sindh%20Curriculum.html"
     }
   ],
-  "important_scope_correction": "Do not assume every subject family is offered in every grade or every intermediate group. The current DCAR curriculum library and notified Scheme of Studies must determine the actual grade/group coverage. The STBB portal's book counts and editions differ by grade and language, so verify each title and edition individually."
+  "important_scope_correction": "Do not assume every subject family is offered in every grade or every intermediate group. The current DCAR curriculum library and notified Scheme of Studies must determine the actual grade/group coverage. The STBB portal's book counts and editions differ by grade and language, so verify each title and edition individually.",
+  "progress_record": {
+    "lastUpdated": "2026-11-14",
+    "completed": [
+      "Biology IX Chapters 1–10 (10 registered chapter packages)",
+      "Biology X Chapter 11 — Holozoic Nutrition (GitHub package and registry updated)",
+      "Student course page assessment counts for lessons, MCQs and written questions",
+      "Automated course registry/package completeness validator added to CI"
+    ],
+    "inProgress": [
+      "Verify Firebase course-sync workflow result for Biology X Chapter 11",
+      "Biology X Chapters 12–18"
+    ],
+    "blocked": [
+      "No known content blocker; Firebase sync must be confirmed by GitHub Actions and Firestore evidence before marking synced"
+    ],
+    "nextPriority": [
+      "Biology X Chapter 12 — Gaseous Exchange",
+      "Biology X Chapter 13 — Circulation",
+      "Biology X Chapter 14 — Excretory System",
+      "Biology X Chapter 15 — Coordination and Control",
+      "Biology X Chapter 16 — Reproduction",
+      "Biology X Chapter 17 — Inheritance",
+      "Biology X Chapter 18 — Diseases and Immunity"
+    ],
+    "scopeNotes": [
+      "Use the 2024 DCAR Biology Curriculum as the controlling syllabus map for Biology IX–XII.",
+      "Confirm current scheme-of-studies and board/college subject combinations before claiming a subject or elective is compulsory for a grade or intermediate group.",
+      "Keep each course chapter-wise, bilingual in Urdu and Sindhi, and within the existing Firestore batch write limit."
+    ]
+  }
 }
