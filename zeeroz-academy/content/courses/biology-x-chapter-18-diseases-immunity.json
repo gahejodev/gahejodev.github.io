@@ -1,0 +1,756 @@
+{
+  "id": "biology-x-chapter-18-diseases-immunity",
+  "title": "Biology X — Chapter 18: Diseases and Immunity",
+  "description": "DCAR Sindh Biology 2024 aligned Grade X package: six lessons, Urdu/Sindhi explanations, 15 fully translated MCQs, 3 CRQs and 2 ERQs with model answers and marking rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "authority": "Directorate of Curriculum, Assessment and Research (DCAR), Government of Sindh",
+    "document": "Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "X",
+    "chapter": "18 — Diseases and Immunity",
+    "periods": 16,
+    "allocation": [
+      "Concept of disease, pathogen and illness — 2 periods",
+      "Immune system — 5 periods",
+      "Vaccine and antibiotics — 4 periods",
+      "Diseases — 5 periods"
+    ],
+    "outcomes": [
+      "Explain illness, infection, disease and pathogens including viruses, bacteria, protozoa and fungi.",
+      "Explain innate and adaptive immunity, three lines of defence, lymphatic system and immune-cell roles.",
+      "Explain vaccines, polio and typhoid vaccination, penicillin discovery and antibiotics.",
+      "Explain diabetes, cancer, COVID-19, HIV/AIDS, infectious and non-infectious diseases, zoonoses, vector-borne diseases, allergies and common plant diseases (rust, smut, sugarcane red rot)."
+    ],
+    "primarySource": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf",
+    "primarySourceEvidence": "DCAR 2024 detailed curriculum, Grade X Chapter 18 — Diseases and Immunity; printed page 126; 16 periods.",
+    "sourceChecked": "2026-11-14",
+    "authorshipNote": "Original educational explanations; medical topics are educational, not diagnostic or treatment advice."
+  },
+  "chapters": [
+    {
+      "title": "Chapter 18: Diseases and Immunity",
+      "description": "Pathogens, innate and adaptive immunity, lymphatic system, vaccines, antibiotics and major human/plant diseases.",
+      "lessons": [
+        {
+          "title": "18.1 Disease, Infection and Pathogens",
+          "type": "text",
+          "content": "Health is a state of physical, mental and social well-being. A disease is a condition that disturbs normal body function; illness refers to how a person experiences poor health. An infection occurs when a pathogen enters and multiplies in a host. Pathogens include viruses, bacteria, protozoa, fungi and parasitic worms. Examples include polio (virus), typhoid (bacterium Salmonella Typhi), malaria (Plasmodium protozoan transmitted by female Anopheles mosquitoes) and ringworm (fungus). Not every disease is infectious: genetic conditions, nutritional deficiencies and many cancers are non-infectious. Transmission may occur through air, contaminated food or water, direct contact, blood, vectors or animal exposure. Prevention depends on the route, including sanitation, safe water, vaccination, ventilation and vector control.",
+          "explanations": {
+            "ur": "صحت جسمانی، ذہنی اور سماجی بہبود ہے۔ Disease ایسی حالت ہے جو جسم کے معمول کے افعال میں خلل ڈالے؛ illness خراب صحت کا محسوس شدہ تجربہ ہے۔ Infection اس وقت ہوتا ہے جب pathogen میزبان میں داخل ہو کر بڑھتا ہے۔ Pathogens میں viruses، bacteria، protozoa، fungi اور parasitic worms شامل ہیں۔ مثالیں: پولیو (virus)، ٹائیفائڈ (Salmonella Typhi bacterium)، ملیریا (Plasmodium protozoan، مادہ Anopheles مچھر سے منتقل) اور ringworm (fungus)۔ ہر بیماری متعدی نہیں؛ جینیاتی بیماریاں، غذائی کمی اور کئی cancers غیر متعدی ہیں۔ پھیلاؤ ہوا، آلودہ غذا/پانی، رابطے، خون، vectors یا جانوروں سے ہوسکتا ہے۔",
+            "sd": "صحت جسماني، ذهني ۽ سماجي ڀلائي آهي. Disease اهڙي حالت آهي جيڪا جسم جي عام عملن ۾ خلل وجهي؛ illness خراب صحت جو محسوس ڪيل تجربو آهي. Infection تڏهن ٿئي ٿو جڏهن pathogen ميزبان ۾ داخل ٿي وڌي ٿو. Pathogens ۾ viruses، bacteria، protozoa، fungi ۽ parasitic worms شامل آهن. مثال: پوليو (virus)، ٽائيفائيڊ (Salmonella Typhi bacterium)، مليريا (Plasmodium protozoan، مادي Anopheles مڇر وسيلي) ۽ ringworm (fungus). هر بيماري متعدي ناهي؛ جيني بيماريون، غذائي کوٽ ۽ ڪيترائي cancers غير متعدي آهن. پکڙجڻ هوا، آلوده خوراڪ/پاڻي، رابطي، رت، vectors يا جانورن وسيلي ٿي سگهي ٿو۔"
+          }
+        },
+        {
+          "title": "18.2 Innate Immunity and the Three Lines of Defence",
+          "type": "text",
+          "content": "Immunity is the body's ability to resist infection and harmful foreign substances. Innate immunity is present from birth and responds rapidly without targeting one specific pathogen. First-line barriers include intact skin, mucus, cilia, tears, saliva, stomach acid and normal microbiota. If pathogens cross these barriers, second-line defences include inflammation, fever, phagocytic white blood cells (such as neutrophils and macrophages), natural killer cells and antimicrobial proteins including complement. Phagocytes engulf and digest microbes. Inflammation brings immune cells and proteins to damaged tissue; fever can support defence but very high or persistent fever needs medical assessment. These innate responses act broadly and help activate adaptive immunity.",
+          "explanations": {
+            "ur": "Immunity جسم کی انفیکشن اور نقصان دہ بیرونی مادوں کے خلاف مزاحمت کی صلاحیت ہے۔ Innate immunity پیدائش سے موجود ہوتی ہے اور کسی ایک خاص pathogen کے بغیر فوری ردعمل دیتی ہے۔ پہلی دفاعی لائن میں سالم جلد، mucus، cilia، آنسو، لعاب، معدے کا تیزاب اور مفید microbiota شامل ہیں۔ اگر pathogen ان رکاوٹوں سے گزر جائے تو دوسری لائن میں inflammation، بخار، phagocytic سفید خلیات (neutrophils اور macrophages)، natural killer cells اور complement جیسے antimicrobial proteins شامل ہیں۔ Phagocytes جراثیم کو نگل کر ہضم کرتے ہیں۔ سوزش مدافعتی خلیات کو متاثرہ جگہ لاتی ہے۔",
+            "sd": "Immunity جسم جي انفيڪشن ۽ نقصانڪار ٻاهرين مادن خلاف مزاحمت جي صلاحيت آهي. Innate immunity ڄمڻ کان موجود هوندي آهي ۽ ڪنهن خاص pathogen کان سواءِ تڪڙو جواب ڏئي ٿي. پهرين دفاعي قطار ۾ سالم چمڙي، mucus، cilia، ڳوڙها، لعاب، معدي جو تيزاب ۽ فائديمند microbiota شامل آهن. جيڪڏهن pathogen انهن رڪاوٽن مان گذري وڃي ته ٻي قطار ۾ inflammation، بخار، phagocytic اڇا خليا (neutrophils ۽ macrophages)، natural killer cells ۽ complement جهڙا antimicrobial proteins شامل آهن. Phagocytes جراثيم کي ڳڙڪائي هضم ڪن ٿا۔"
+          }
+        },
+        {
+          "title": "18.3 Adaptive Immunity, Lymphatic System and Antibodies",
+          "type": "text",
+          "content": "Adaptive immunity develops after exposure to a specific antigen and is highly targeted. B lymphocytes can become plasma cells that produce antibodies; antibodies bind specific antigens and can neutralise pathogens or mark them for destruction. Some B cells become memory cells. T lymphocytes include helper T cells, which coordinate immune responses, and cytotoxic T cells, which kill infected body cells. Memory cells enable a faster, stronger response after later exposure. The lymphatic system includes lymph, lymph vessels, lymph nodes, spleen, thymus and other lymphoid tissues. Lymph nodes filter lymph and provide sites where immune cells meet antigens. The third line of defence is adaptive immunity, involving specific B- and T-cell responses and immunological memory.",
+          "explanations": {
+            "ur": "Adaptive immunity کسی مخصوص antigen سے واسطے کے بعد بنتی ہے اور ہدف کے لحاظ سے مخصوص ہوتی ہے۔ B lymphocytes، plasma cells بن سکتے ہیں جو antibodies بناتے ہیں؛ antibodies مخصوص antigens سے جڑ کر pathogens کو بے اثر یا تباہی کے لیے نشان زد کرتے ہیں۔ کچھ B cells memory cells بنتے ہیں۔ T lymphocytes میں helper T cells مدافعتی ردعمل منظم اور cytotoxic T cells متاثرہ جسمانی خلیات کو ختم کرتے ہیں۔ Memory cells اگلی بار تیز اور مضبوط ردعمل پیدا کرتے ہیں۔ Lymphatic system میں lymph، lymph vessels، lymph nodes، spleen، thymus اور دوسرے lymphoid tissues شامل ہیں۔ Lymph nodes، lymph کو filter کرتے اور immune cells کو antigens سے ملنے کی جگہ دیتے ہیں۔",
+            "sd": "Adaptive immunity ڪنهن خاص antigen سان واسطي کان پوءِ ٺهي ٿي ۽ مخصوص هوندي آهي. B lymphocytes، plasma cells بڻجي antibodies ٺاهين ٿا؛ antibodies مخصوص antigens سان ڳنڍجي pathogens کي بي اثر يا تباهي لاءِ نشان لڳائين ٿا. ڪجهه B cells memory cells بڻجن ٿا. T lymphocytes ۾ helper T cells مدافعتي جواب منظم ڪن ٿا ۽ cytotoxic T cells متاثر ٿيل جسماني خليا ختم ڪن ٿا. Memory cells ٻيهر واسطي تي وڌيڪ تڪڙو ۽ مضبوط جواب ڏين ٿا. Lymphatic system ۾ lymph، lymph vessels، lymph nodes، spleen، thymus ۽ ٻيا lymphoid tissues شامل آهن. Lymph nodes، lymph کي filter ڪن ٿا ۽ immune cells کي antigens سان ملڻ جي جاءِ ڏين ٿا۔"
+          }
+        },
+        {
+          "title": "18.4 Vaccines, Antibiotics and Antimicrobial Resistance",
+          "type": "text",
+          "content": "Vaccines safely expose the immune system to an antigen or instructions for making an antigen, so adaptive immunity and memory can develop without the risks of the full disease. Vaccine platforms include weakened or inactivated organisms, purified components, viral vectors and nucleic-acid approaches. Polio and typhoid vaccines are examples used to prevent specific infections; schedules depend on national guidance. Antibiotics act against bacteria, not viruses. Penicillin, discovered by Alexander Fleming in 1928 after observing mould inhibiting bacteria, became a landmark antibacterial medicine. Antibiotics should be used only when prescribed and taken as directed. Misuse and unnecessary use select for antibiotic-resistant bacteria. Resistance is a property of microbes, not a person becoming resistant to a medicine. Vaccines, hygiene and infection prevention reduce disease burden and antibiotic demand.",
+          "explanations": {
+            "ur": "Vaccines مدافعتی نظام کو محفوظ طریقے سے antigen یا antigen بنانے کی ہدایات دکھاتی ہیں، تاکہ مکمل بیماری کے خطرے کے بغیر adaptive immunity اور memory بن سکے۔ ویکسین کی اقسام میں کمزور یا غیر فعال جراثیم، خالص اجزا، viral vectors اور nucleic-acid طریقے شامل ہیں۔ پولیو اور ٹائیفائڈ ویکسین مخصوص انفیکشن سے بچاتی ہیں؛ شیڈول قومی ہدایات کے مطابق ہوتا ہے۔ Antibiotics بیکٹیریا کے خلاف کام کرتی ہیں، viruses کے خلاف نہیں۔ Alexander Fleming نے 1928 میں penicillin دریافت کی جب mould کو بیکٹیریا کی افزائش روکتے دیکھا۔ Antibiotics صرف ڈاکٹر کے مشورے سے اور ہدایات کے مطابق استعمال کریں۔ غیر ضروری استعمال antibiotic-resistant bacteria کو منتخب کرتا ہے۔",
+            "sd": "Vaccines مدافعتي نظام کي محفوظ نموني antigen يا antigen ٺاهڻ جون هدايتون ڏيکارين ٿيون، جيئن مڪمل بيماريءَ جي خطري کان سواءِ adaptive immunity ۽ memory ٺهي سگهي. ويڪسين جا قسم ڪمزور يا غير فعال جراثيم، صاف جزا، viral vectors ۽ nucleic-acid طريقا آهن. پوليو ۽ ٽائيفائيڊ ويڪسين خاص انفيڪشن کان بچائين ٿيون؛ شيڊول قومي هدايتن موجب هوندو آهي. Antibiotics بيڪٽيريا خلاف ڪم ڪن ٿيون، viruses خلاف نه. Alexander Fleming 1928ع ۾ penicillin دريافت ڪئي، جڏهن mould کي بيڪٽيريا جي واڌ روڪيندي ڏٺو. Antibiotics صرف ڊاڪٽر جي صلاح ۽ هدايت موجب استعمال ڪريو. غير ضروري استعمال antibiotic-resistant bacteria کي وڌڻ جو موقعو ڏئي ٿو۔"
+          }
+        },
+        {
+          "title": "18.5 Non-communicable Diseases: Diabetes and Cancer",
+          "type": "text",
+          "content": "Non-communicable diseases do not spread directly from one person to another. Diabetes mellitus is a group of disorders involving persistently high blood glucose. Type 1 diabetes results from autoimmune destruction of pancreatic beta cells and usually requires insulin. Type 2 diabetes involves insulin resistance and progressive beta-cell dysfunction; risk is influenced by genetics, age and lifestyle factors. Long-term uncontrolled diabetes can damage eyes, kidneys, nerves, heart and blood vessels. Cancer is a group of diseases in which abnormal cells grow and divide without normal control and may invade or spread. Cancer can arise through accumulated genetic changes influenced by inherited variants, chance and exposures such as tobacco, ultraviolet radiation and some infections. Early diagnosis and evidence-based treatment improve outcomes. Avoid blaming people; risk factors do not make disease a personal failure.",
+          "explanations": {
+            "ur": "Non-communicable diseases ایک شخص سے دوسرے کو براہ راست منتقل نہیں ہوتیں۔ Diabetes mellitus ایسی بیماریوں کا مجموعہ ہے جن میں خون میں glucose مسلسل بلند رہتا ہے۔ Type 1 diabetes میں مدافعتی نظام pancreatic beta cells کو تباہ کرتا ہے اور عموماً insulin درکار ہوتی ہے۔ Type 2 میں insulin resistance اور beta-cell dysfunction شامل ہیں؛ جینیات، عمر اور طرزِ زندگی اثر انداز ہوتے ہیں۔ طویل عرصے تک بے قابو diabetes آنکھوں، گردوں، اعصاب، دل اور خون کی نالیوں کو نقصان پہنچا سکتی ہے۔ Cancer میں غیر معمولی خلیات قابو سے باہر بڑھتے، تقسیم ہوتے اور پھیل سکتے ہیں۔ اس کی وجوہات میں موروثی تبدیلیاں، اتفاقی جینیاتی تبدیلیاں اور تمباکو، UV شعاعوں یا بعض انفیکشنز جیسے عوامل شامل ہیں۔",
+            "sd": "Non-communicable diseases هڪ ماڻهو کان ٻئي ڏانهن سڌو نٿيون پکڙجن. Diabetes mellitus اهڙين بيمارين جو مجموعو آهي جن ۾ رت جي glucose مسلسل وڌيل رهي ٿي. Type 1 diabetes ۾ مدافعتي نظام pancreatic beta cells تباهه ڪري ٿو ۽ عام طور insulin گهربل هوندي آهي. Type 2 ۾ insulin resistance ۽ beta-cell جي ڪمزوري شامل آهي؛ جينيات، عمر ۽ زندگيءَ جو انداز اثر ڪن ٿا. ڊگهي عرصي تائين بي قابو diabetes اکين، گردن، اعصاب، دل ۽ رت جي نلين کي نقصان پهچائي سگهي ٿي. Cancer ۾ غير معمولي خليا ضابطي کان سواءِ وڌن، ورهائجن ۽ پکڙجي سگهن ٿا. سببن ۾ موروثي تبديليون، اتفاقي جيني تبديليون ۽ تمباڪو، UV شعاعون يا ڪجهه انفيڪشن شامل آهن۔"
+          }
+        },
+        {
+          "title": "18.6 Infectious Diseases, HIV, Zoonoses, Allergies and Plant Diseases",
+          "type": "text",
+          "content": "Infectious diseases are caused by pathogens and can spread by different routes. COVID-19 is caused by SARS-CoV-2, a virus that mainly spreads through respiratory particles; it can affect the respiratory system and other organs. HIV attacks CD4 T cells and, without effective treatment, can progressively weaken immunity and lead to AIDS. Antiretroviral therapy can suppress HIV and prevent progression; HIV is not spread by casual contact, sharing food or hugging. Zoonotic diseases pass between animals and humans; prevention includes safe animal handling, food hygiene and vaccination where available. Vector-borne diseases are transmitted by organisms such as mosquitoes and ticks; malaria is transmitted by Anopheles mosquitoes. Allergies are inappropriate immune responses to usually harmless substances; histamine release can cause sneezing, itching, swelling or hives. Plant diseases such as rust, smut and sugarcane red rot reduce crop health and yield; management uses clean planting material, resistant varieties, field hygiene and locally recommended integrated controls.",
+          "explanations": {
+            "ur": "Infectious diseases pathogens سے ہوتی ہیں اور مختلف راستوں سے پھیل سکتی ہیں۔ COVID-19، SARS-CoV-2 virus سے ہوتی ہے اور بنیادی طور پر سانس کے ذرات سے پھیلتی ہے؛ یہ پھیپھڑوں اور دوسرے اعضا کو متاثر کرسکتی ہے۔ HIV، CD4 T cells پر حملہ کرتا ہے اور مؤثر علاج نہ ہو تو مدافعت کم کرکے AIDS تک پہنچا سکتا ہے۔ Antiretroviral therapy HIV کو دبا کر بیماری کی پیش رفت روک سکتی ہے؛ HIV گلے ملنے، ساتھ کھانے یا عام رابطے سے نہیں پھیلتا۔ Zoonotic diseases جانوروں اور انسانوں کے درمیان منتقل ہوتی ہیں۔ Vector-borne بیماریاں مچھر یا ticks جیسے vectors سے منتقل ہوتی ہیں؛ malaria، Anopheles مچھر سے پھیلتا ہے۔ Allergies عموماً بے ضرر مادوں کے خلاف غیر مناسب مدافعتی ردعمل ہیں؛ histamine سے چھینک، خارش یا سوجن ہوسکتی ہے۔ پودوں میں rust، smut اور sugarcane red rot فصل کی صحت و پیداوار کم کرتے ہیں۔",
+            "sd": "Infectious diseases pathogens سبب ٿين ٿيون ۽ مختلف رستن سان پکڙجن ٿيون. COVID-19، SARS-CoV-2 virus سبب ٿئي ٿي ۽ گهڻو ڪري ساهه جي ذرڙن وسيلي پکڙجي ٿي؛ اها ڦڦڙن ۽ ٻين عضون کي متاثر ڪري سگهي ٿي. HIV، CD4 T cells تي حملو ڪري ٿو ۽ اثرائتي علاج کان سواءِ مدافعت ڪمزور ڪري AIDS تائين پهچائي سگهي ٿو. Antiretroviral therapy HIV کي دٻائي بيماري جي واڌ روڪي سگهي ٿي؛ HIV ڀاڪر پائڻ، گڏ کائڻ يا عام رابطي سان نٿو پکڙجي. Zoonotic diseases جانورن ۽ انسانن وچ ۾ منتقل ٿين ٿيون. Vector-borne بيماريون مڇر يا ticks جهڙن vectors سان پکڙجن ٿيون؛ malaria، Anopheles مڇر وسيلي پکڙجي ٿي. Allergies عام طور بي ضرر مادن خلاف غير مناسب مدافعتي جواب آهن؛ histamine سان ڇڪون، خارش يا سوڄ ٿي سگهي ٿي. ٻوٽن ۾ rust، smut ۽ sugarcane red rot فصل جي صحت ۽ پيداوار گهٽائين ٿا۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "A pathogen is:",
+          "options": {
+            "A": "An organism or agent that causes disease",
+            "B": "A nutrient",
+            "C": "A hormone",
+            "D": "A type of antibody"
+          },
+          "correctOption": "A",
+          "explanation": "Pathogens include viruses, bacteria, fungi and parasites.",
+          "translations": {
+            "ur": {
+              "question": "Pathogen کیا ہے؟",
+              "options": {
+                "A": "بیماری پیدا کرنے والا جاندار یا عامل",
+                "B": "غذائی جز",
+                "C": "ہارمون",
+                "D": "اینٹی باڈی کی قسم"
+              },
+              "explanation": "Pathogens میں viruses، bacteria، fungi اور parasites شامل ہیں۔"
+            },
+            "sd": {
+              "question": "Pathogen ڇا آهي؟",
+              "options": {
+                "A": "بيماري پيدا ڪندڙ جاندار يا عامل",
+                "B": "غذائي جزو",
+                "C": "هارمون",
+                "D": "antibody جو قسم"
+              },
+              "explanation": "Pathogens ۾ viruses، bacteria، fungi ۽ parasites شامل آهن۔"
+            }
+          }
+        },
+        {
+          "question": "Malaria is caused by:",
+          "options": {
+            "A": "Plasmodium",
+            "B": "Salmonella Typhi",
+            "C": "A fungus",
+            "D": "SARS-CoV-2"
+          },
+          "correctOption": "A",
+          "explanation": "Plasmodium is a protozoan transmitted by female Anopheles mosquitoes.",
+          "translations": {
+            "ur": {
+              "question": "ملیریا کس سے ہوتی ہے؟",
+              "options": {
+                "A": "Plasmodium",
+                "B": "Salmonella Typhi",
+                "C": "Fungus",
+                "D": "SARS-CoV-2"
+              },
+              "explanation": "Plasmodium ایک protozoan ہے جو مادہ Anopheles مچھر سے منتقل ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "مليريا ڪنهن سبب ٿئي ٿي؟",
+              "options": {
+                "A": "Plasmodium",
+                "B": "Salmonella Typhi",
+                "C": "Fungus",
+                "D": "SARS-CoV-2"
+              },
+              "explanation": "Plasmodium protozoan آهي جيڪو مادي Anopheles مڇر وسيلي منتقل ٿئي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Which is a first-line defence?",
+          "options": {
+            "A": "Intact skin",
+            "B": "Antibody memory only",
+            "C": "Cytotoxic T cells only",
+            "D": "Antibiotics"
+          },
+          "correctOption": "A",
+          "explanation": "Skin is a physical barrier that helps prevent pathogen entry.",
+          "translations": {
+            "ur": {
+              "question": "پہلی دفاعی لائن میں کیا شامل ہے؟",
+              "options": {
+                "A": "سالم جلد",
+                "B": "صرف antibody memory",
+                "C": "صرف cytotoxic T cells",
+                "D": "Antibiotics"
+              },
+              "explanation": "جلد جراثیم کے داخلے کو روکنے والی جسمانی رکاوٹ ہے۔"
+            },
+            "sd": {
+              "question": "پهرين دفاعي قطار ۾ ڇا شامل آهي؟",
+              "options": {
+                "A": "سالم چمڙي",
+                "B": "صرف antibody memory",
+                "C": "صرف cytotoxic T cells",
+                "D": "Antibiotics"
+              },
+              "explanation": "چمڙي جراثيم جي داخلا روڪڻ واري جسماني رڪاوٽ آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Phagocytes defend the body by:",
+          "options": {
+            "A": "Engulfing and digesting microbes",
+            "B": "Producing insulin",
+            "C": "Making red blood cells",
+            "D": "Transporting oxygen only"
+          },
+          "correctOption": "A",
+          "explanation": "Phagocytosis is the engulfment and digestion of microbes.",
+          "translations": {
+            "ur": {
+              "question": "Phagocytes جسم کا دفاع کیسے کرتے ہیں؟",
+              "options": {
+                "A": "جراثیم کو نگل کر ہضم کرتے ہیں",
+                "B": "Insulin بناتے ہیں",
+                "C": "سرخ خلیات بناتے ہیں",
+                "D": "صرف آکسیجن لے جاتے ہیں"
+              },
+              "explanation": "Phagocytosis میں جراثیم نگل کر ہضم کیے جاتے ہیں۔"
+            },
+            "sd": {
+              "question": "Phagocytes جسم جو بچاءُ ڪيئن ڪن ٿا؟",
+              "options": {
+                "A": "جراثيم ڳڙڪائي هضم ڪن ٿا",
+                "B": "Insulin ٺاهين ٿا",
+                "C": "ڳاڙها خليا ٺاهين ٿا",
+                "D": "صرف آڪسيجن کڻن ٿا"
+              },
+              "explanation": "Phagocytosis ۾ جراثيم ڳڙڪائي هضم ڪيا وڃن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "Antibodies are produced by:",
+          "options": {
+            "A": "Plasma cells derived from B lymphocytes",
+            "B": "Red blood cells",
+            "C": "Platelets",
+            "D": "Neurons"
+          },
+          "correctOption": "A",
+          "explanation": "Activated B cells can differentiate into antibody-secreting plasma cells.",
+          "translations": {
+            "ur": {
+              "question": "Antibodies کون بناتا ہے؟",
+              "options": {
+                "A": "B lymphocytes سے بننے والے plasma cells",
+                "B": "سرخ خون کے خلیات",
+                "C": "Platelets",
+                "D": "Neurons"
+              },
+              "explanation": "فعال B cells، antibodies خارج کرنے والے plasma cells بن سکتے ہیں۔"
+            },
+            "sd": {
+              "question": "Antibodies ڪير ٺاهي ٿو؟",
+              "options": {
+                "A": "B lymphocytes مان ٺهندڙ plasma cells",
+                "B": "ڳاڙها رت جا خليا",
+                "C": "Platelets",
+                "D": "Neurons"
+              },
+              "explanation": "فعال B cells، antibodies ڇڏيندڙ plasma cells بڻجي سگهن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "Memory cells are important because they:",
+          "options": {
+            "A": "Enable faster response on re-exposure",
+            "B": "Destroy all body cells",
+            "C": "Stop all inflammation",
+            "D": "Replace vaccines"
+          },
+          "correctOption": "A",
+          "explanation": "Memory cells help adaptive immunity respond faster after later exposure.",
+          "translations": {
+            "ur": {
+              "question": "Memory cells کیوں اہم ہیں؟",
+              "options": {
+                "A": "دوبارہ سامنا ہونے پر تیز ردعمل کے لیے",
+                "B": "تمام جسمانی خلیات ختم کرنے کے لیے",
+                "C": "تمام سوزش روکنے کے لیے",
+                "D": "ویکسین کی جگہ لینے کے لیے"
+              },
+              "explanation": "Memory cells دوبارہ exposure پر تیز ردعمل میں مدد دیتے ہیں۔"
+            },
+            "sd": {
+              "question": "Memory cells ڇو اهم آهن؟",
+              "options": {
+                "A": "ٻيهر واسطي تي تڪڙو جواب ڏيڻ لاءِ",
+                "B": "سڀ جسماني خليا ختم ڪرڻ لاءِ",
+                "C": "سڀ سوزش روڪڻ لاءِ",
+                "D": "ويڪسين جي جاءِ وٺڻ لاءِ"
+              },
+              "explanation": "Memory cells ٻيهر واسطي تي تڪڙو جواب ڏين ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "Lymph nodes mainly:",
+          "options": {
+            "A": "Filter lymph and provide sites for immune responses",
+            "B": "Produce bile",
+            "C": "Pump blood",
+            "D": "Make urine"
+          },
+          "correctOption": "A",
+          "explanation": "Lymph nodes filter lymph and support immune-cell activation.",
+          "translations": {
+            "ur": {
+              "question": "Lymph nodes کا بنیادی کام کیا ہے؟",
+              "options": {
+                "A": "Lymph کو filter کرنا اور مدافعتی ردعمل کی جگہ دینا",
+                "B": "Bile بنانا",
+                "C": "خون پمپ کرنا",
+                "D": "پیشاب بنانا"
+              },
+              "explanation": "Lymph nodes، lymph کو filter اور immune cells کو فعال ہونے کی جگہ دیتے ہیں۔"
+            },
+            "sd": {
+              "question": "Lymph nodes جو بنيادي ڪم ڇا آهي؟",
+              "options": {
+                "A": "Lymph filter ڪرڻ ۽ مدافعتي جواب جي جاءِ ڏيڻ",
+                "B": "Bile ٺاهڻ",
+                "C": "رت پمپ ڪرڻ",
+                "D": "Lymph nodes، lymph filter ڪن ٿا ۽ immune cells کي فعال ٿيڻ جي جاءِ ڏين ٿا۔"
+              }
+            }
+          }
+        },
+        {
+          "question": "Vaccines work mainly by:",
+          "options": {
+            "A": "Inducing adaptive immunity and memory",
+            "B": "Killing every pathogen instantly",
+            "C": "Replacing white blood cells",
+            "D": "Treating all existing infections"
+          },
+          "correctOption": "A",
+          "explanation": "Vaccines train adaptive immunity to respond to a specific antigen.",
+          "translations": {
+            "ur": {
+              "question": "ویکسین بنیادی طور کیسے کام کرتی ہے؟",
+              "options": {
+                "A": "Adaptive immunity اور memory پیدا کرکے",
+                "B": "ہر pathogen فوراً مار کر",
+                "C": "سفید خلیات کی جگہ لے کر",
+                "D": "تمام موجودہ انفیکشن کا علاج کرکے"
+              },
+              "explanation": "ویکسین مخصوص antigen کے خلاف مدافعتی یادداشت بناتی ہے۔"
+            },
+            "sd": {
+              "question": "ويڪسين بنيادي طور ڪيئن ڪم ڪري ٿي؟",
+              "options": {
+                "A": "Adaptive immunity ۽ memory پيدا ڪري",
+                "B": "هر pathogen فوراً ماري",
+                "C": "اڇن خلين جي جاءِ وٺي",
+                "D": "سڀ موجوده انفيڪشن علاج ڪري"
+              },
+              "explanation": "ويڪسين خاص antigen خلاف مدافعتي يادگيري پيدا ڪري ٿي۔"
+            }
+          }
+        },
+        {
+          "question": "Antibiotics are effective against:",
+          "options": {
+            "A": "Bacteria",
+            "B": "Viruses",
+            "C": "Allergies",
+            "D": "Inherited disorders"
+          },
+          "correctOption": "A",
+          "explanation": "Antibiotics target bacterial structures or processes, not viruses.",
+          "translations": {
+            "ur": {
+              "question": "Antibiotics کس کے خلاف مؤثر ہیں؟",
+              "options": {
+                "A": "Bacteria",
+                "B": "Viruses",
+                "C": "Allergies",
+                "D": "موروثی بیماریاں"
+              },
+              "explanation": "Antibiotics بیکٹیریا کے خلاف ہوتی ہیں، viruses کے خلاف نہیں۔"
+            },
+            "sd": {
+              "question": "Antibiotics ڪنهن خلاف اثرائتي آهن؟",
+              "options": {
+                "A": "Bacteria",
+                "B": "Viruses",
+                "C": "Allergies",
+                "D": "موروثي بيماريون"
+              },
+              "explanation": "Antibiotics بيڪٽيريا خلاف آهن، viruses خلاف نه۔"
+            }
+          }
+        },
+        {
+          "question": "Penicillin was discovered by:",
+          "options": {
+            "A": "Alexander Fleming",
+            "B": "Louis Pasteur",
+            "C": "Edward Jenner",
+            "D": "Gregor Mendel"
+          },
+          "correctOption": "A",
+          "explanation": "Fleming observed antibacterial mould effects in 1928.",
+          "translations": {
+            "ur": {
+              "question": "Penicillin کس نے دریافت کی؟",
+              "options": {
+                "A": "Alexander Fleming",
+                "B": "Louis Pasteur",
+                "C": "Edward Jenner",
+                "D": "Gregor Mendel"
+              },
+              "explanation": "Fleming نے 1928 میں mould کا antibacterial اثر دیکھا۔"
+            },
+            "sd": {
+              "question": "Penicillin ڪنهن دريافت ڪئي؟",
+              "options": {
+                "A": "Alexander Fleming",
+                "B": "Louis Pasteur",
+                "C": "Edward Jenner",
+                "D": "Gregor Mendel"
+              },
+              "explanation": "Fleming 1928ع ۾ mould جو antibacterial اثر ڏٺو۔"
+            }
+          }
+        },
+        {
+          "question": "Type 1 diabetes commonly involves:",
+          "options": {
+            "A": "Autoimmune destruction of pancreatic beta cells",
+            "B": "Excess red blood cells",
+            "C": "A bacterial infection of the pancreas",
+            "D": "Lack of antibodies to all viruses"
+          },
+          "correctOption": "A",
+          "explanation": "Type 1 diabetes results from immune-mediated beta-cell destruction.",
+          "translations": {
+            "ur": {
+              "question": "Type 1 diabetes میں عموماً کیا ہوتا ہے؟",
+              "options": {
+                "A": "Pancreatic beta cells کی autoimmune تباہی",
+                "B": "سرخ خلیات کی زیادتی",
+                "C": "لبلبے کا bacterial infection",
+                "D": "تمام viruses کے خلاف antibodies کی کمی"
+              },
+              "explanation": "Type 1 میں مدافعتی نظام beta cells کو تباہ کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Type 1 diabetes ۾ عام طور ڇا ٿئي ٿو؟",
+              "options": {
+                "A": "Pancreatic beta cells جي autoimmune تباهي",
+                "B": "ڳاڙهن خلين جي واڌ",
+                "C": "لبلبي جو bacterial infection",
+                "D": "سڀ viruses خلاف antibodies جي کوٽ"
+              },
+              "explanation": "Type 1 ۾ مدافعتي نظام beta cells تباهه ڪري ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "HIV mainly attacks:",
+          "options": {
+            "A": "CD4 T lymphocytes",
+            "B": "Red blood cells",
+            "C": "Platelets",
+            "D": "Bone cells"
+          },
+          "correctOption": "A",
+          "explanation": "HIV targets CD4 T cells and weakens immune function.",
+          "translations": {
+            "ur": {
+              "question": "HIV بنیادی طور کس خلیے پر حملہ کرتا ہے؟",
+              "options": {
+                "A": "CD4 T lymphocytes",
+                "B": "سرخ خلیات",
+                "C": "Platelets",
+                "D": "ہڈی کے خلیات"
+              },
+              "explanation": "HIV، CD4 T cells کو نشانہ بنا کر مدافعت کم کرتا ہے۔"
+            },
+            "sd": {
+              "question": "HIV بنيادي طور ڪهڙن خلين تي حملو ڪري ٿو؟",
+              "options": {
+                "A": "CD4 T lymphocytes",
+                "B": "ڳاڙها خليا",
+                "C": "Platelets",
+                "D": "هڏي جا خليا"
+              },
+              "explanation": "HIV، CD4 T cells کي نشانو بڻائي مدافعت ڪمزور ڪري ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "HIV is NOT spread by:",
+          "options": {
+            "A": "Hugging or sharing a meal",
+            "B": "Sharing contaminated needles",
+            "C": "Unprotected sexual exposure",
+            "D": "Transmission during pregnancy or birth without prevention"
+          },
+          "correctOption": "A",
+          "explanation": "HIV is not spread by casual contact such as hugging or sharing food.",
+          "translations": {
+            "ur": {
+              "question": "HIV کس سے نہیں پھیلتا؟",
+              "options": {
+                "A": "گلے ملنے یا ساتھ کھانا کھانے سے",
+                "B": "آلودہ سوئی بانٹنے سے",
+                "C": "غیر محفوظ جنسی رابطے سے",
+                "D": "بغیر احتیاط حمل یا پیدائش کے دوران"
+              },
+              "explanation": "HIV عام رابطے، گلے ملنے یا ساتھ کھانے سے نہیں پھیلتا۔"
+            },
+            "sd": {
+              "question": "HIV ڪنهن سان نٿو پکڙجي؟",
+              "options": {
+                "A": "ڀاڪر پائڻ يا گڏ کاڌو کائڻ سان",
+                "B": "آلوده سئي ونڊڻ سان",
+                "C": "غير محفوظ جنسي رابطي سان",
+                "D": "بغير بچاءَ حمل يا ڄمڻ دوران"
+              },
+              "explanation": "HIV عام رابطي، ڀاڪر يا گڏ کائڻ سان نٿو پکڙجي۔"
+            }
+          }
+        },
+        {
+          "question": "A zoonotic disease is transmitted:",
+          "options": {
+            "A": "Between animals and humans",
+            "B": "Only from plants to soil",
+            "C": "Only by inherited genes",
+            "D": "Only by sunlight"
+          },
+          "correctOption": "A",
+          "explanation": "Zoonoses are infections naturally transmitted between vertebrate animals and people.",
+          "translations": {
+            "ur": {
+              "question": "Zoonotic disease کس طرح منتقل ہوتی ہے؟",
+              "options": {
+                "A": "جانوروں اور انسانوں کے درمیان",
+                "B": "صرف پودوں سے مٹی تک",
+                "C": "صرف موروثی genes سے",
+                "D": "صرف سورج کی روشنی سے"
+              },
+              "explanation": "Zoonoses جانوروں اور انسانوں کے درمیان منتقل ہوتی ہیں۔"
+            },
+            "sd": {
+              "question": "Zoonotic disease ڪيئن منتقل ٿئي ٿي؟",
+              "options": {
+                "A": "جانورن ۽ انسانن جي وچ ۾",
+                "B": "صرف ٻوٽن کان مٽي تائين",
+                "C": "صرف موروثي genes سان",
+                "D": "صرف سج جي روشني سان"
+              },
+              "explanation": "Zoonoses جانورن ۽ انسانن جي وچ ۾ منتقل ٿين ٿيون۔"
+            }
+          }
+        },
+        {
+          "question": "Allergic symptoms such as itching may be caused by release of:",
+          "options": {
+            "A": "Histamine",
+            "B": "Insulin",
+            "C": "Haemoglobin",
+            "D": "Bile"
+          },
+          "correctOption": "A",
+          "explanation": "Histamine contributes to itching, swelling and other allergy symptoms.",
+          "translations": {
+            "ur": {
+              "question": "الرجی میں خارش کس مادے کے اخراج سے ہوسکتی ہے؟",
+              "options": {
+                "A": "Histamine",
+                "B": "Insulin",
+                "C": "Haemoglobin",
+                "D": "Bile"
+              },
+              "explanation": "Histamine خارش اور سوجن جیسی علامات میں حصہ لیتا ہے۔"
+            },
+            "sd": {
+              "question": "Allergy ۾ خارش ڪهڙي مادي جي اخراج سان ٿي سگهي ٿي؟",
+              "options": {
+                "A": "Histamine",
+                "B": "Insulin",
+                "C": "Haemoglobin",
+                "D": "Bile"
+              },
+              "explanation": "Histamine خارش ۽ سوڄ جهڙين علامتن ۾ حصو وٺي ٿو۔"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Differentiate innate and adaptive immunity, giving two features of each.",
+          "modelAnswer": "Innate immunity is present from birth, responds rapidly and broadly, and includes barriers, phagocytes and inflammation. Adaptive immunity develops after antigen exposure, is specific, involves B and T lymphocytes, antibodies and memory cells.",
+          "rubric": [
+            "Innate features (2)",
+            "adaptive features (3)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "Innate اور adaptive immunity میں فرق کریں اور ہر ایک کی دو خصوصیات لکھیں۔",
+              "modelAnswer": "Innate immunity پیدائش سے موجود، فوری اور عمومی ہوتی ہے؛ اس میں جلد، phagocytes اور inflammation شامل ہیں۔ Adaptive immunity antigen کے بعد بنتی، مخصوص ہوتی اور B/T lymphocytes، antibodies اور memory cells استعمال کرتی ہے۔",
+              "rubric": [
+                "Innate خصوصیات (2)",
+                "adaptive خصوصیات (3)."
+              ]
+            },
+            "sd": {
+              "question": "Innate ۽ adaptive immunity ۾ فرق ڪريو ۽ هر هڪ جون ٻه خاصيتون لکو.",
+              "modelAnswer": "Innate immunity ڄمڻ کان موجود، تڪڙي ۽ عام هوندي آهي؛ ان ۾ چمڙي، phagocytes ۽ inflammation شامل آهن. Adaptive immunity antigen کان پوءِ ٺهي، مخصوص هوندي ۽ B/T lymphocytes، antibodies ۽ memory cells استعمال ڪري ٿي.",
+              "rubric": [
+                "Innate خاصيتون (2)",
+                "adaptive خاصيتون (3)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain how vaccines differ from antibiotics.",
+          "modelAnswer": "Vaccines stimulate the immune system to develop antigen-specific adaptive immunity and memory, helping prevent disease. Antibiotics are medicines used against bacterial infections; they do not treat viral infections. Unnecessary antibiotic use contributes to resistance.",
+          "rubric": [
+            "Vaccine mechanism/purpose (2)",
+            "antibiotics target bacteria (2)",
+            "viruses/resistance point (1)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "ویکسین اور antibiotics میں فرق واضح کریں۔",
+              "modelAnswer": "ویکسین مدافعتی نظام کو مخصوص antigen کے خلاف adaptive immunity اور memory بنانے کی تربیت دیتی ہے اور بیماری سے بچاتی ہے۔ Antibiotics بیکٹیریا کے انفیکشن کے لیے ادویات ہیں؛ viruses کا علاج نہیں کرتیں۔ غیر ضروری استعمال resistance بڑھاتا ہے۔",
+              "rubric": [
+                "ویکسین کا طریقہ/مقصد (2)",
+                "antibiotics بیکٹیریا پر (2)",
+                "viruses/resistance (1)."
+              ]
+            },
+            "sd": {
+              "question": "ويڪسين ۽ antibiotics ۾ فرق واضح ڪريو.",
+              "modelAnswer": "ويڪسين مدافعتي نظام کي خاص antigen خلاف adaptive immunity ۽ memory ٺاهڻ جي تربيت ڏئي بيماري کان بچائي ٿي. Antibiotics بيڪٽيريا جي انفيڪشن لاءِ دوائون آهن؛ viruses جو علاج نٿيون ڪن. غير ضروري استعمال resistance وڌائي ٿو.",
+              "rubric": [
+                "ويڪسين جو طريقو/مقصد (2)",
+                "antibiotics بيڪٽيريا خلاف (2)",
+                "viruses/resistance (1)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Describe the effects of uncontrolled diabetes on the body and distinguish Type 1 from Type 2 diabetes.",
+          "modelAnswer": "Type 1 involves autoimmune destruction of pancreatic beta cells and usually requires insulin. Type 2 involves insulin resistance and progressive beta-cell dysfunction. Long-term high blood glucose can damage eyes, kidneys, nerves, heart and blood vessels.",
+          "rubric": [
+            "Type 1 (1)",
+            "Type 2 (1)",
+            "complications (3)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "بے قابو diabetes کے اثرات بیان کریں اور Type 1 و Type 2 میں فرق کریں۔",
+              "modelAnswer": "Type 1 میں مدافعتی نظام pancreatic beta cells تباہ کرتا ہے اور عموماً insulin درکار ہوتی ہے۔ Type 2 میں insulin resistance اور beta cells کی خرابی شامل ہے۔ مسلسل بلند glucose آنکھوں، گردوں، اعصاب، دل اور خون کی نالیوں کو نقصان پہنچا سکتی ہے۔",
+              "rubric": [
+                "Type 1 (1)",
+                "Type 2 (1)",
+                "پیچیدگیاں (3)."
+              ]
+            },
+            "sd": {
+              "question": "بي قابو diabetes جا اثر بيان ڪريو ۽ Type 1 ۽ Type 2 ۾ فرق ڪريو.",
+              "modelAnswer": "Type 1 ۾ مدافعتي نظام pancreatic beta cells تباهه ڪري ٿو ۽ عام طور insulin گهرجي. Type 2 ۾ insulin resistance ۽ beta cells جي ڪمزوري شامل آهي. مسلسل وڌيل glucose اکين، گردن، اعصاب، دل ۽ رت جي نلين کي نقصان پهچائي سگهي ٿي.",
+              "rubric": [
+                "Type 1 (1)",
+                "Type 2 (1)",
+                "پيچيدگيون (3)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain the three lines of defence in humans and show how innate and adaptive immunity work together.",
+          "modelAnswer": "First-line defence consists of physical and chemical barriers such as skin, mucus, cilia, tears and stomach acid. Second-line innate defence includes inflammation, phagocytes, natural killer cells, fever and complement proteins. If pathogens enter, antigen-presenting cells help activate adaptive responses. B lymphocytes become plasma cells that secrete specific antibodies; some form memory B cells. Helper T cells coordinate responses and cytotoxic T cells kill infected cells. Memory cells produce a faster response on re-exposure. Innate responses therefore contain infection and help initiate specific adaptive immunity.",
+          "rubric": [
+            "First-line barriers (2)",
+            "second-line innate mechanisms (2)",
+            "antigen presentation/activation (1)",
+            "B cells/antibodies (2)",
+            "T cells (1)",
+            "memory and integration (2)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "انسان میں دفاع کی تین لائنیں بیان کریں اور واضح کریں کہ innate اور adaptive immunity مل کر کیسے کام کرتی ہیں۔",
+              "modelAnswer": "پہلی دفاعی لائن میں جلد، mucus، cilia، آنسو اور معدے کا تیزاب شامل ہیں۔ دوسری innate لائن میں inflammation، phagocytes، natural killer cells، بخار اور complement proteins شامل ہیں۔ Pathogen داخل ہو تو antigen-presenting cells adaptive ردعمل فعال کرنے میں مدد دیتے ہیں۔ B lymphocytes، plasma cells بن کر مخصوص antibodies خارج کرتے ہیں؛ کچھ memory B cells بنتے ہیں۔ Helper T cells ردعمل منظم اور cytotoxic T cells متاثرہ خلیات ختم کرتے ہیں۔ Memory cells دوبارہ سامنا ہونے پر تیز ردعمل دیتی ہیں۔ یوں innate ردعمل انفیکشن کو محدود کرکے adaptive immunity شروع کرتا ہے۔",
+              "rubric": [
+                "پہلی لائن کی رکاوٹیں (2)",
+                "دوسری innate کارروائیاں (2)",
+                "antigen presentation (1)",
+                "B cells/antibodies (2)",
+                "T cells (1)",
+                "memory اور باہمی تعلق (2)."
+              ]
+            },
+            "sd": {
+              "question": "انسان ۾ دفاع جون ٽي قطارون بيان ڪريو ۽ واضح ڪريو ته innate ۽ adaptive immunity گڏجي ڪيئن ڪم ڪن ٿيون.",
+              "modelAnswer": "پهرين دفاعي قطار ۾ چمڙي، mucus، cilia، ڳوڙها ۽ معدي جو تيزاب شامل آهن. ٻي innate قطار ۾ inflammation، phagocytes، natural killer cells، بخار ۽ complement proteins شامل آهن. Pathogen داخل ٿئي ته antigen-presenting cells adaptive جواب فعال ڪرڻ ۾ مدد ڪن ٿا. B lymphocytes، plasma cells بڻجي مخصوص antibodies ڇڏين ٿا؛ ڪجهه memory B cells ٿين ٿا. Helper T cells جواب منظم ۽ cytotoxic T cells متاثر خليا ختم ڪن ٿا. Memory cells ٻيهر واسطي تي تڪڙو جواب ڏين ٿيون. اهڙيءَ طرح innate جواب انفيڪشن کي محدود ڪري adaptive immunity شروع ڪري ٿو.",
+              "rubric": [
+                "پهرين قطار جون رڪاوٽون (2)",
+                "ٻي innate ڪارروايون (2)",
+                "antigen presentation (1)",
+                "B cells/antibodies (2)",
+                "T cells (1)",
+                "memory ۽ گڏيل ڪم (2)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Case study: A community reports malaria, typhoid and seasonal influenza. Explain the pathogen type and transmission route for each, recommend prevention, and distinguish why antibiotics are not appropriate for viral influenza.",
+          "modelAnswer": "Malaria is caused by Plasmodium protozoa and transmitted by infected female Anopheles mosquitoes; prevention includes insecticide-treated nets, vector control and prompt testing/treatment. Typhoid is caused by Salmonella Typhi bacteria and commonly spreads through food or water contaminated with faeces; safe water, sanitation, handwashing and vaccination reduce risk. Influenza is caused by influenza viruses and spreads mainly through respiratory particles; vaccination, ventilation, staying home when ill and hand hygiene help prevent spread. Antibiotics act against bacteria, not influenza viruses, and unnecessary use contributes to antimicrobial resistance. Clinical diagnosis is important because fever causes can overlap.",
+          "rubric": [
+            "Malaria pathogen/vector (2)",
+            "typhoid pathogen/route (2)",
+            "influenza pathogen/route (2)",
+            "prevention (2)",
+            "antibiotics/resistance (2)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "کیس اسٹڈی: ایک علاقے میں malaria، typhoid اور موسمی influenza رپورٹ ہوئے۔ ہر بیماری کا pathogen، پھیلاؤ، بچاؤ اور influenza میں antibiotics غیر مؤثر ہونے کی وجہ بیان کریں۔",
+              "modelAnswer": "Malaria، Plasmodium protozoa سے ہوتی اور متاثرہ مادہ Anopheles مچھر سے پھیلتی ہے؛ مچھر دانی، vector control اور ٹیسٹ/علاج بچاؤ ہیں۔ Typhoid، Salmonella Typhi بیکٹیریا سے ہوتی اور آلودہ غذا/پانی سے پھیلتی ہے؛ صاف پانی، صفائی، ہاتھ دھونا اور ویکسین مدد دیتے ہیں۔ Influenza virus سے ہوتی اور سانس کے ذرات سے پھیلتی ہے؛ ویکسین، ہوا کی آمدورفت، بیمار ہونے پر گھر رہنا اور ہاتھ دھونا مفید ہیں۔ Antibiotics بیکٹیریا کے خلاف ہیں، influenza virus کے خلاف نہیں؛ غیر ضروری استعمال resistance بڑھاتا ہے۔",
+              "rubric": [
+                "Malaria pathogen/vector (2)",
+                "typhoid pathogen/route (2)",
+                "influenza pathogen/route (2)",
+                "بچاؤ (2)",
+                "antibiotics/resistance (2)."
+              ]
+            },
+            "sd": {
+              "question": "ڪيس اسٽڊي: هڪ علائقي ۾ malaria، typhoid ۽ موسمي influenza رپورٽ ٿيا. هر بيماري جو pathogen، پکڙجڻ، بچاءُ ۽ influenza ۾ antibiotics غير اثرائتي ڇو آهن، بيان ڪريو.",
+              "modelAnswer": "Malaria، Plasmodium protozoa سبب ٿئي ٿي ۽ متاثر مادي Anopheles مڇر وسيلي پکڙجي ٿي؛ مڇر داني، vector control ۽ ٽيسٽ/علاج بچاءُ آهن. Typhoid، Salmonella Typhi بيڪٽيريا سبب ٿئي ٿي ۽ آلوده خوراڪ/پاڻي سان پکڙجي ٿي؛ صاف پاڻي، صفائي، هٿ ڌوئڻ ۽ ويڪسين مدد ڪن ٿا. Influenza virus سبب ٿئي ٿي ۽ ساهه جي ذرڙن سان پکڙجي ٿي؛ ويڪسين، هوا جي اچ وڃ، بيمار هئڻ تي گهر رهڻ ۽ هٿ ڌوئڻ مددگار آهن. Antibiotics بيڪٽيريا خلاف آهن، influenza virus خلاف نه؛ غير ضروري استعمال resistance وڌائي ٿو.",
+              "rubric": [
+                "Malaria pathogen/vector (2)",
+                "typhoid pathogen/route (2)",
+                "influenza pathogen/route (2)",
+                "بچاءُ (2)",
+                "antibiotics/resistance (2)."
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
