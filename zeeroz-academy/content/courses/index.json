@@ -109,6 +109,12 @@
       "title": "Biology X — Chapter 18: Diseases and Immunity",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-18-diseases-immunity.json",
       "version": "2"
+    },
+    {
+      "id": "biology-xi-chapter-1-biological-molecules",
+      "title": "Biology XI — Chapter 1: Biological Molecules",
+      "path": "zeeroz-academy/content/courses/biology-xi-chapter-1-biological-molecules.json",
+      "version": "1"
     }
   ]
 }
