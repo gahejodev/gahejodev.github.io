@@ -251,21 +251,14 @@
     {
       "id": "biology-ix-chapters-1-10",
       "title": "Biology IX — Chapters 1–10",
-      "status": "10 chapter-wise packages in the GitHub registry; Firebase import/refresh is tracked separately by the course-sync workflow.",
-      "coverage": "10 packages; each has 5–6 lessons, 19–20 MCQs, 3 CRQs and 2 ERQs; English lesson content plus Urdu and Sindhi explanations/translations. Curriculum sequence follows the DCAR Biology Curriculum 2024 Grade IX map."
+      "status": "10 chapter-wise packages registered in GitHub and previously synced to Firestore; each package is bilingual and includes lessons, MCQs, CRQs and ERQs.",
+      "coverage": "10 packages; 51 lessons; 199 MCQs; 30 CRQs; 20 ERQs. Curriculum sequence follows DCAR Biology Curriculum 2024 Grade IX map."
     },
     {
-      "id": "biology-x-chapter-11-holozoic-nutrition",
-      "title": "Biology X — Chapter 11: Holozoic Nutrition",
-      "status": "GitHub registry published and Firebase sync verified on 2026-11-14; Firestore source package/version match confirmed by Admin SDK workflow log.",
-      "coverage": "5 lessons; 22 explained MCQs; 3 CRQs; 2 ERQs; English, Urdu and Sindhi learning text and question translations; case study on unsafe school water and diarrhoeal dehydration. Aligned to DCAR 2024 Chapter 11, 8 periods.",
-      "firebaseSync": {
-        "workflowRunId": 43558230583,
-        "workflowRunUrl": "https://github.com/gahejodev/zeeroz-academy-source/actions/runs/43558230583",
-        "registryCommit": "cbebc2eb700152841a650162a0b742e0f09da52a",
-        "result": "success",
-        "log": "UNCHANGED biology-x-chapter-11-holozoic-nutrition v1; SYNC COMPLETE: 0 new, 0 refreshed, 11 unchanged, 0 skipped."
-      }
+      "id": "biology-x-chapters-11-12",
+      "title": "Biology X — Chapters 11–12",
+      "status": "Both packages registered and public; Firebase sync verified for both on 2026-11-14.",
+      "coverage": "2 packages; 10 lessons; 43 MCQs; 6 CRQs; 4 ERQs; Urdu and Sindhi translations, marking rubrics and applied case studies. Chapter 11 is 8 periods; Chapter 12 is 10 periods, per DCAR 2024."
     }
   ],
   "status_legend": {
@@ -394,17 +387,17 @@
     "lastUpdated": "2026-11-14",
     "completed": [
       "Biology IX Chapters 1–10 (10 registered chapter packages)",
-      "Biology X Chapter 11 — Holozoic Nutrition (GitHub package and registry updated)",
+      "Biology X Chapter 11 — Holozoic Nutrition (5 lessons, 22 MCQs, 3 CRQs, 2 ERQs; Urdu/Sindhi; Firebase sync verified)",
+      "Biology X Chapter 12 — Gaseous Exchange (5 lessons, 21 MCQs, 3 CRQs, 2 ERQs; Urdu/Sindhi; Firebase sync verified)",
       "Student course page assessment counts for lessons, MCQs and written questions",
       "Automated course registry/package completeness validator added to CI",
-      "Firebase course-sync verified for Biology X Chapter 11 on 2026-11-14"
+      "Public deployment and public registry verified with 12 registered packages"
     ],
     "inProgress": [
-      "Biology X Chapters 12–18"
+      "Biology X Chapters 13–18"
     ],
     "blocked": [],
     "nextPriority": [
-      "Biology X Chapter 12 — Gaseous Exchange",
       "Biology X Chapter 13 — Circulation",
       "Biology X Chapter 14 — Excretory System",
       "Biology X Chapter 15 — Coordination and Control",
@@ -416,6 +409,20 @@
       "Use the 2024 DCAR Biology Curriculum as the controlling syllabus map for Biology IX–XII.",
       "Confirm current scheme-of-studies and board/college subject combinations before claiming a subject or elective is compulsory for a grade or intermediate group.",
       "Keep each course chapter-wise, bilingual in Urdu and Sindhi, and within the existing Firestore batch write limit."
+    ],
+    "firebaseEvidence": [
+      {
+        "courseId": "biology-x-chapter-11-holozoic-nutrition",
+        "workflowRunId": 43558230583,
+        "result": "success",
+        "evidence": "UNCHANGED biology-x-chapter-11-holozoic-nutrition v1; source package/version matched Firestore."
+      },
+      {
+        "courseId": "biology-x-chapter-12-gaseous-exchange",
+        "workflowRunId": 43558724075,
+        "result": "success",
+        "evidence": "PUBLISHED Biology X — Chapter 12: Gaseous Exchange (v1, 33 writes)."
+      }
     ]
   }
 }
