@@ -1,0 +1,760 @@
+{
+  "id": "biology-x-chapter-16-reproduction",
+  "title": "Biology X — Chapter 16: Reproduction",
+  "description": "Grade X Biology aligned with Sindh DCAR Curriculum 2024: five age-appropriate lessons, Urdu and Sindhi explanations, 15 fully translated MCQs, 3 CRQs and 2 ERQs with bilingual model answers and marking rubrics.",
+  "version": "1",
+  "curriculumAlignment": {
+    "authority": "Directorate of Curriculum, Assessment and Research (DCAR), Government of Sindh",
+    "document": "Curriculum of Biology for Sindh Grades IX–XII (2024)",
+    "grade": "X",
+    "chapter": "16 — Reproduction",
+    "periods": 10,
+    "allocation": [
+      "Reproduction and types of reproduction — 6 periods",
+      "Reproductive system and hormones — 4 periods"
+    ],
+    "outcomes": [
+      "Explain reproduction and distinguish asexual and sexual reproduction.",
+      "Understand gametogenesis and fertilisation.",
+      "Understand the role of hormones in male and female sexual development."
+    ],
+    "primarySource": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf",
+    "primarySourceEvidence": "DCAR 2024 detailed curriculum, Grade X Chapter 16: Reproduction; 10 periods; printed curriculum page 124 onward.",
+    "sourceChecked": "2026-11-14",
+    "authorshipNote": "Original, age-appropriate educational explanations and assessment material."
+  },
+  "chapters": [
+    {
+      "title": "Chapter 16: Reproduction",
+      "description": "Asexual and sexual reproduction, gametogenesis, fertilisation, human reproductive systems and hormones.",
+      "lessons": [
+        {
+          "title": "16.1 Reproduction and Its Types",
+          "type": "text",
+          "content": "Reproduction is the biological process by which organisms produce offspring and pass hereditary information to the next generation. It is not required for an individual organism to stay alive, but it ensures continuity of a species. Asexual reproduction involves one parent and no fusion of gametes; offspring are usually genetically very similar to the parent, except for mutations. Examples include binary fission in bacteria, budding in yeast and hydra, fragmentation in some organisms, and vegetative propagation in plants. Sexual reproduction involves formation and fusion of male and female gametes. It usually produces genetic variation because meiosis and fertilisation create new combinations of alleles. Many flowering plants and most animals reproduce sexually.",
+          "explanations": {
+            "ur": "تولیدِ نسل وہ حیاتیاتی عمل ہے جس میں جاندار اولاد پیدا کرتے اور موروثی معلومات اگلی نسل تک پہنچاتے ہیں۔ یہ کسی فرد کی فوری بقا کے لیے ضروری نہیں، مگر نوع کا تسلسل برقرار رکھتا ہے۔ غیر جنسی تولید میں ایک والدین ہوتا ہے اور gametes کا ملاپ نہیں ہوتا؛ اولاد عموماً والدین سے جینیاتی طور پر بہت ملتی جلتی ہوتی ہے۔ مثالیں: بیکٹیریا میں binary fission، yeast اور hydra میں budding اور پودوں میں vegetative propagation۔ جنسی تولید میں نر و مادہ gametes بنتے اور ملتے ہیں۔ Meiosis اور fertilisation نئی جینیاتی ترکیبیں پیدا کرتے ہیں۔",
+            "sd": "پيدائش اهو حياتياتي عمل آهي جنهن ۾ جاندار اولاد پيدا ڪن ٿا ۽ موروثي ڄاڻ ايندڙ نسل ڏانهن منتقل ڪن ٿا. اها فرد جي فوري بقا لاءِ ضروري نه، پر نسل جو تسلسل برقرار رکي ٿي. غير جنسي پيدائش ۾ هڪ والدين هوندو آهي ۽ gametes جو ميلاپ نه ٿيندو؛ اولاد عام طور جيني طور والدين جهڙي هوندي آهي. مثال: بيڪٽيريا ۾ binary fission، yeast ۽ hydra ۾ budding ۽ ٻوٽن ۾ vegetative propagation. جنسي پيدائش ۾ نر ۽ مادي gametes ٺهن ٿا ۽ ملن ٿا. Meiosis ۽ fertilisation نوان جيني مجموعا پيدا ڪن ٿا۔"
+          }
+        },
+        {
+          "title": "16.2 Gametogenesis and Fertilisation",
+          "type": "text",
+          "content": "Gametogenesis is the formation of gametes. In animals, sperm are produced in the testes by spermatogenesis and ova are produced in the ovaries by oogenesis. Meiosis reduces the chromosome number from diploid (2n) to haploid (n), so fertilisation restores the diploid number. Meiosis also generates variation through crossing over and independent assortment. Fertilisation is fusion of the nuclei of male and female gametes to form a diploid zygote. In humans, fertilisation normally occurs in the oviduct (fallopian tube). The zygote divides by mitosis and develops into an embryo. Sexual reproduction therefore combines genetic material from two parents. In flowering plants, pollen carries the male gametes to the ovule, where fertilisation occurs inside the ovary.",
+          "explanations": {
+            "ur": "Gametogenesis سے مراد gametes بننے کا عمل ہے۔ جانوروں میں sperm testes میں spermatogenesis اور ova ovaries میں oogenesis سے بنتے ہیں۔ Meiosis کروموسومز کی تعداد diploid (2n) سے haploid (n) کرتی ہے، اس لیے fertilisation پر diploid تعداد بحال ہوتی ہے۔ Meiosis میں crossing over اور independent assortment سے جینیاتی تنوع پیدا ہوتا ہے۔ Fertilisation نر اور مادہ gametes کے مرکزوں کے ملاپ سے diploid zygote بننے کا عمل ہے۔ انسان میں یہ عموماً oviduct میں ہوتا ہے۔ Zygote mitosis سے تقسیم ہو کر embryo بناتا ہے۔",
+            "sd": "Gametogenesis مان gametes ٺهڻ جو عمل آهي. جانورن ۾ sperm، testes ۾ spermatogenesis ۽ ova، ovaries ۾ oogenesis سان ٺهن ٿا. Meiosis ڪروموسومن جو تعداد diploid (2n) مان haploid (n) ڪري ٿي، تنهنڪري fertilisation تي diploid تعداد بحال ٿئي ٿي. Meiosis ۾ crossing over ۽ independent assortment سان جيني تنوع پيدا ٿئي ٿو. Fertilisation نر ۽ مادي gametes جي مرڪزن جي ميلاپ سان diploid zygote ٺهڻ آهي. انسان ۾ اهو عام طور oviduct ۾ ٿئي ٿو. Zygote mitosis سان ورهائجي embryo بڻجي ٿو۔"
+          }
+        },
+        {
+          "title": "16.3 Human Male Reproductive System",
+          "type": "text",
+          "content": "The male reproductive system produces sperm and transfers them into the female reproductive tract. The testes are located in the scrotum, which helps maintain a temperature slightly below core body temperature for sperm production. Seminiferous tubules in the testes produce sperm. Sperm mature and are stored in the epididymis. During ejaculation, sperm travel through the vas deferens and enter the urethra; accessory glands add fluids that form semen. The seminal vesicles contribute nutrient-rich fluid, the prostate adds fluid that supports sperm function, and bulbourethral glands secrete mucus. Testosterone, produced mainly by Leydig cells in the testes, supports sperm production and male secondary sexual characteristics. Reproductive organs have distinct roles; sperm are the male gametes.",
+          "explanations": {
+            "ur": "مردانہ تولیدی نظام sperm بناتا اور انہیں مادہ تولیدی راستے تک پہنچاتا ہے۔ Testes، scrotum میں ہوتے ہیں جو sperm بننے کے لیے جسمانی درجہ حرارت سے قدرے کم درجہ حرارت برقرار رکھنے میں مدد دیتا ہے۔ Testes کی seminiferous tubules میں sperm بنتے ہیں۔ یہ epididymis میں پختہ اور ذخیرہ ہوتے ہیں۔ انزال کے دوران sperm، vas deferens سے urethra تک جاتے ہیں؛ معاون غدود کے سیالات مل کر semen بناتے ہیں۔ Seminal vesicles غذائیت والا سیال، prostate معاون سیال اور bulbourethral glands بلغم نما مادہ خارج کرتے ہیں۔ Testes کے Leydig cells میں بننے والا testosterone sperm کی تیاری اور مردانہ ثانوی جنسی خصوصیات میں کردار ادا کرتا ہے۔",
+            "sd": "مرداڻو پيدائشي نظام sperm ٺاهي ٿو ۽ انهن کي مادي جي پيدائشي رستي تائين پهچائي ٿو. Testes، scrotum ۾ هوندا آهن، جيڪو sperm ٺهڻ لاءِ جسم جي عام گرميءَ کان ٿورو گهٽ گرمي برقرار رکڻ ۾ مدد ڪري ٿو. Testes جي seminiferous tubules ۾ sperm ٺهن ٿا. اهي epididymis ۾ پختا ۽ ذخيرو ٿين ٿا. انزال دوران sperm، vas deferens مان urethra تائين وڃن ٿا؛ مددگار غدودن جا مايع گڏجي semen ٺاهين ٿا. Seminal vesicles غذائيت وارو مايع، prostate مددگار مايع ۽ bulbourethral glands بلغم جهڙو مادو ڇڏين ٿا. Testes جي Leydig cells ۾ ٺهندڙ testosterone sperm جي پيداوار ۽ مرداڻين ثانوي جنسي خاصيتن ۾ ڪردار ادا ڪري ٿو۔"
+          }
+        },
+        {
+          "title": "16.4 Human Female Reproductive System and Menstrual Cycle",
+          "type": "text",
+          "content": "The female reproductive system produces ova, receives sperm and supports development of an embryo and foetus. The ovaries produce ova and hormones oestrogen and progesterone. The oviducts (fallopian tubes) receive the ovulated egg; fertilisation usually occurs in an oviduct. The uterus has a muscular wall and an endometrium that changes during the menstrual cycle and is the usual site of implantation. The cervix is the lower narrow part of the uterus and the vagina receives sperm and serves as the birth canal. In a typical menstrual cycle, FSH supports follicle development; rising oestrogen helps rebuild the endometrium and contributes to an LH surge. LH triggers ovulation. The corpus luteum produces progesterone, which maintains the endometrium. If fertilisation and implantation do not occur, hormone levels fall and the uterine lining is shed as menstruation. Cycle length varies among individuals.",
+          "explanations": {
+            "ur": "عورت کا تولیدی نظام ova بناتا، sperm وصول کرتا اور embryo و foetus کی نشوونما میں مدد دیتا ہے۔ Ovaries ova کے ساتھ oestrogen اور progesterone بناتی ہیں۔ Oviducts (fallopian tubes) خارج ہونے والے egg کو وصول کرتی ہیں؛ fertilisation عموماً oviduct میں ہوتی ہے۔ Uterus کی اندرونی تہہ endometrium ماہواری کے دوران بدلتی ہے اور implantation عموماً یہیں ہوتا ہے۔ Cervix رحم کا نچلا تنگ حصہ ہے اور vagina sperm وصول کرتی اور پیدائش کی نالی بنتی ہے۔ FSH follicle کی نشوونما میں مدد دیتا ہے؛ oestrogen endometrium کو دوبارہ بناتا اور LH surge میں حصہ لیتا ہے۔ LH ovulation کرواتا ہے۔ Corpus luteum کا progesterone endometrium برقرار رکھتا ہے۔ حمل نہ ہونے پر ہارمون کم ہوتے ہیں اور تہہ menstruation کی صورت خارج ہوتی ہے۔",
+            "sd": "عورت جو پيدائشي نظام ova ٺاهي ٿو، sperm وصول ڪري ٿو ۽ embryo ۽ foetus جي واڌ ۾ مدد ڪري ٿو. Ovaries ova سان گڏ oestrogen ۽ progesterone ٺاهين ٿيون. Oviducts (fallopian tubes) خارج ٿيل egg وصول ڪن ٿيون؛ fertilisation عام طور oviduct ۾ ٿئي ٿي. Uterus جي اندروني تهه endometrium ماهواري دوران بدلجي ٿي ۽ implantation عام طور اتي ٿئي ٿو. Cervix رحم جو هيٺيون سوڙهو حصو آهي ۽ vagina sperm وصول ڪري ٿي ۽ ڄمڻ جي واٽ آهي. FSH follicle جي واڌ ۾ مدد ڪري ٿو؛ oestrogen endometrium ٻيهر ٺاهي ۽ LH surge ۾ حصو وٺي ٿو. LH ovulation ڪرائي ٿو. Corpus luteum جو progesterone endometrium برقرار رکي ٿو. حمل نه ٿيڻ تي هارمون گهٽجن ٿا ۽ تهه menstruation طور خارج ٿئي ٿي۔"
+          }
+        },
+        {
+          "title": "16.5 Reproductive Hormones, Puberty and Development",
+          "type": "text",
+          "content": "Puberty is the stage when hormonal changes lead to sexual maturation and reproductive capability. The hypothalamus releases GnRH, which stimulates the pituitary to release FSH and LH. In males, LH stimulates Leydig cells to produce testosterone and FSH supports sperm production through Sertoli cells. In females, FSH supports ovarian follicle development and oestrogen secretion; LH triggers ovulation and supports corpus luteum formation and progesterone secretion. Testosterone supports male secondary sexual characteristics; oestrogen supports female secondary sexual characteristics and growth of the uterine lining; progesterone helps maintain the endometrium. Hormones act through specific receptors and are regulated by feedback. Human development and puberty vary normally between individuals; respectful language and accurate health information are important.",
+          "explanations": {
+            "ur": "بلوغت وہ مرحلہ ہے جب ہارمونل تبدیلیاں جنسی پختگی اور تولیدی صلاحیت پیدا کرتی ہیں۔ Hypothalamus، GnRH خارج کرتا ہے جو pituitary کو FSH اور LH خارج کرنے کی تحریک دیتا ہے۔ مردوں میں LH، Leydig cells کو testosterone بنانے اور FSH، Sertoli cells کے ذریعے sperm کی تیاری میں مدد دیتا ہے۔ عورتوں میں FSH follicle کی نشوونما اور oestrogen کے اخراج میں مدد دیتا ہے؛ LH ovulation اور corpus luteum کی تشکیل کرواتا ہے، جو progesterone بناتا ہے۔ Testosterone مردانہ اور oestrogen زنانہ ثانوی جنسی خصوصیات میں کردار ادا کرتا ہے؛ progesterone endometrium برقرار رکھتا ہے۔",
+            "sd": "بلوغت اهو مرحلو آهي جڏهن هارمونل تبديليون جنسي پختگي ۽ پيدائشي صلاحيت پيدا ڪن ٿيون. Hypothalamus، GnRH خارج ڪري ٿو، جيڪو pituitary کي FSH ۽ LH ڇڏڻ لاءِ تحريڪ ڏئي ٿو. مردن ۾ LH، Leydig cells کي testosterone ٺاهڻ ۽ FSH، Sertoli cells وسيلي sperm جي پيداوار ۾ مدد ڪري ٿو. عورتن ۾ FSH follicle جي واڌ ۽ oestrogen جي اخراج ۾ مدد ڪري ٿو؛ LH ovulation ۽ corpus luteum ٺاهي ٿو، جيڪو progesterone پيدا ڪري ٿو. Testosterone مرداڻين ۽ oestrogen عورتاڻين ثانوي جنسي خاصيتن ۾ ڪردار ادا ڪن ٿا؛ progesterone endometrium برقرار رکي ٿو۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Reproduction is important because it:",
+          "options": {
+            "A": "Ensures continuity of a species",
+            "B": "Keeps one organism alive forever",
+            "C": "Stops all mutations",
+            "D": "Prevents cell division"
+          },
+          "correctOption": "A",
+          "explanation": "Reproduction passes hereditary information to the next generation.",
+          "translations": {
+            "ur": {
+              "question": "تولیدِ نسل اہم کیوں ہے؟",
+              "options": {
+                "A": "نوع کا تسلسل برقرار رکھنے کے لیے",
+                "B": "ایک فرد کو ہمیشہ زندہ رکھنے کے لیے",
+                "C": "تمام mutations روکنے کے لیے",
+                "D": "cell division روکنے کے لیے"
+              },
+              "explanation": "تولید نسل کا تسلسل برقرار رکھتی ہے۔"
+            },
+            "sd": {
+              "question": "پيدائش ڇو اهم آهي؟",
+              "options": {
+                "A": "نسل جو تسلسل برقرار رکڻ لاءِ",
+                "B": "هڪ فرد کي هميشه زنده رکڻ لاءِ",
+                "C": "سڀ mutations روڪڻ لاءِ",
+                "D": "cell division روڪڻ لاءِ"
+              },
+              "explanation": "پيدائش نسل جو تسلسل برقرار رکي ٿي۔"
+            }
+          }
+        },
+        {
+          "question": "Asexual reproduction usually involves:",
+          "options": {
+            "A": "One parent and no gamete fusion",
+            "B": "Two parents and fertilisation",
+            "C": "Meiosis in every case",
+            "D": "Fusion of sperm and ovum"
+          },
+          "correctOption": "A",
+          "explanation": "Asexual reproduction occurs without fusion of gametes.",
+          "translations": {
+            "ur": {
+              "question": "غير جنسی تولید میں عموماً کیا ہوتا ہے؟",
+              "options": {
+                "A": "ایک والدین اور gametes کا ملاپ نہیں",
+                "B": "دو والدین اور fertilisation",
+                "C": "ہر صورت meiosis",
+                "D": "sperm اور ovum کا ملاپ"
+              },
+              "explanation": "غیر جنسی تولید میں gametes نہیں ملتے۔"
+            },
+            "sd": {
+              "question": "غير جنسي پيدائش ۾ عام طور ڇا ٿيندو آهي؟",
+              "options": {
+                "A": "هڪ والدين ۽ gametes جو ميلاپ نه",
+                "B": "ٻه والدين ۽ fertilisation",
+                "C": "هر حالت ۾ meiosis",
+                "D": "sperm ۽ ovum جو ميلاپ"
+              },
+              "explanation": "غير جنسي پيدائش ۾ gametes نٿا ملن۔"
+            }
+          }
+        },
+        {
+          "question": "Budding is a common asexual method in:",
+          "options": {
+            "A": "Yeast",
+            "B": "Humans",
+            "C": "Birds",
+            "D": "Mammals only"
+          },
+          "correctOption": "A",
+          "explanation": "Yeast can reproduce asexually by budding.",
+          "translations": {
+            "ur": {
+              "question": "Budding کس میں عام غیر جنسی طریقہ ہے؟",
+              "options": {
+                "A": "Yeast",
+                "B": "انسان",
+                "C": "پرندے",
+                "D": "صرف ممالیہ"
+              },
+              "explanation": "Yeast میں budding سے غیر جنسی تولید ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "Budding ڪهڙي ۾ عام غير جنسي طريقو آهي؟",
+              "options": {
+                "A": "Yeast",
+                "B": "انسان",
+                "C": "پکي",
+                "D": "صرف mammals"
+              },
+              "explanation": "Yeast ۾ budding سان غير جنسي پيدائش ٿئي ٿي۔"
+            }
+          }
+        },
+        {
+          "question": "Gametogenesis means:",
+          "options": {
+            "A": "Formation of gametes",
+            "B": "Fusion of bones",
+            "C": "Formation of hormones only",
+            "D": "Growth of embryo only"
+          },
+          "correctOption": "A",
+          "explanation": "Gametogenesis is the production of sperm or ova.",
+          "translations": {
+            "ur": {
+              "question": "Gametogenesis کا مطلب کیا ہے؟",
+              "options": {
+                "A": "Gametes بننے کا عمل",
+                "B": "ہڈیوں کا ملاپ",
+                "C": "صرف ہارمون بننا",
+                "D": "صرف embryo کی نشوونما"
+              },
+              "explanation": "Gametogenesis sperm یا ova بننے کا عمل ہے۔"
+            },
+            "sd": {
+              "question": "Gametogenesis جو مطلب ڇا آهي؟",
+              "options": {
+                "A": "Gametes ٺهڻ جو عمل",
+                "B": "هڏن جو ميلاپ",
+                "C": "صرف هارمون ٺهڻ",
+                "D": "صرف embryo جي واڌ"
+              },
+              "explanation": "Gametogenesis sperm يا ova ٺهڻ جو عمل آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Meiosis changes chromosome number from:",
+          "options": {
+            "A": "Diploid to haploid",
+            "B": "Haploid to diploid",
+            "C": "Diploid to tetraploid",
+            "D": "Haploid to triploid"
+          },
+          "correctOption": "A",
+          "explanation": "Meiosis halves chromosome number to produce haploid gametes.",
+          "translations": {
+            "ur": {
+              "question": "Meiosis کروموسومز کی تعداد کس طرح بدلتی ہے؟",
+              "options": {
+                "A": "Diploid سے haploid",
+                "B": "Haploid سے diploid",
+                "C": "Diploid سے tetraploid",
+                "D": "Haploid سے triploid"
+              },
+              "explanation": "Meiosis gametes میں کروموسومز کی تعداد آدھی کرتی ہے۔"
+            },
+            "sd": {
+              "question": "Meiosis ڪروموسومن جو تعداد ڪيئن بدلائي ٿي؟",
+              "options": {
+                "A": "Diploid مان haploid",
+                "B": "Haploid مان diploid",
+                "C": "Diploid مان tetraploid",
+                "D": "Haploid مان triploid"
+              },
+              "explanation": "Meiosis gametes ۾ ڪروموسومن جو تعداد اڌ ڪري ٿي۔"
+            }
+          }
+        },
+        {
+          "question": "Fertilisation produces a:",
+          "options": {
+            "A": "Zygote",
+            "B": "Neuron",
+            "C": "Spore in all species",
+            "D": "Follicle"
+          },
+          "correctOption": "A",
+          "explanation": "Fusion of gamete nuclei forms a zygote.",
+          "translations": {
+            "ur": {
+              "question": "Fertilisation سے کیا بنتا ہے؟",
+              "options": {
+                "A": "Zygote",
+                "B": "Neuron",
+                "C": "تمام انواع میں spore",
+                "D": "Follicle"
+              },
+              "explanation": "Gametes کے مرکزوں کے ملاپ سے zygote بنتا ہے۔"
+            },
+            "sd": {
+              "question": "Fertilisation سان ڇا ٺهي ٿو؟",
+              "options": {
+                "A": "Zygote",
+                "B": "Neuron",
+                "C": "سڀني نسلن ۾ spore",
+                "D": "Follicle"
+              },
+              "explanation": "Gametes جي مرڪزن جي ميلاپ سان zygote ٺهي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "In humans, fertilisation normally occurs in the:",
+          "options": {
+            "A": "Oviduct",
+            "B": "Uterus cavity",
+            "C": "Vagina",
+            "D": "Cervix"
+          },
+          "correctOption": "A",
+          "explanation": "The sperm and ovum usually meet in the fallopian tube.",
+          "translations": {
+            "ur": {
+              "question": "انسان میں fertilisation عموماً کہاں ہوتی ہے؟",
+              "options": {
+                "A": "Oviduct",
+                "B": "رحم کی گہا",
+                "C": "Vagina",
+                "D": "Cervix"
+              },
+              "explanation": "sperm اور ovum عموماً fallopian tube میں ملتے ہیں۔"
+            },
+            "sd": {
+              "question": "انسان ۾ fertilisation عام طور ڪٿي ٿئي ٿي؟",
+              "options": {
+                "A": "Oviduct",
+                "B": "رحم جي گفا",
+                "C": "Vagina",
+                "D": "Cervix"
+              },
+              "explanation": "sperm ۽ ovum عام طور fallopian tube ۾ ملن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "Sperm are produced in the:",
+          "options": {
+            "A": "Seminiferous tubules",
+            "B": "Epididymis",
+            "C": "Prostate",
+            "D": "Urethra"
+          },
+          "correctOption": "A",
+          "explanation": "Seminiferous tubules in the testes produce sperm.",
+          "translations": {
+            "ur": {
+              "question": "Sperm کہاں بنتے ہیں؟",
+              "options": {
+                "A": "Seminiferous tubules",
+                "B": "Epididymis",
+                "C": "Prostate",
+                "D": "Urethra"
+              },
+              "explanation": "Testes کی seminiferous tubules میں sperm بنتے ہیں۔"
+            },
+            "sd": {
+              "question": "Sperm ڪٿي ٺهن ٿا؟",
+              "options": {
+                "A": "Seminiferous tubules",
+                "B": "Epididymis",
+                "C": "Prostate",
+                "D": "Urethra"
+              },
+              "explanation": "Testes جي seminiferous tubules ۾ sperm ٺهن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "Sperm mature and are stored in the:",
+          "options": {
+            "A": "Epididymis",
+            "B": "Ureter",
+            "C": "Seminal vesicle",
+            "D": "Bladder"
+          },
+          "correctOption": "A",
+          "explanation": "The epididymis is the site of sperm maturation and storage.",
+          "translations": {
+            "ur": {
+              "question": "Sperm کہاں پختہ اور ذخیرہ ہوتے ہیں؟",
+              "options": {
+                "A": "Epididymis",
+                "B": "Ureter",
+                "C": "Seminal vesicle",
+                "D": "Bladder"
+              },
+              "explanation": "Epididymis میں sperm پختہ اور ذخیرہ ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "Sperm ڪٿي پختا ۽ ذخيرو ٿين ٿا؟",
+              "options": {
+                "A": "Epididymis",
+                "B": "Ureter",
+                "C": "Seminal vesicle",
+                "D": "Bladder"
+              },
+              "explanation": "Epididymis ۾ sperm پختا ۽ ذخيرو ٿين ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "The main male sex hormone is:",
+          "options": {
+            "A": "Testosterone",
+            "B": "Progesterone",
+            "C": "Insulin",
+            "D": "Thyroxine"
+          },
+          "correctOption": "A",
+          "explanation": "Testosterone is produced mainly by Leydig cells in testes.",
+          "translations": {
+            "ur": {
+              "question": "اہم مردانہ جنسی ہارمون کون سا ہے؟",
+              "options": {
+                "A": "Testosterone",
+                "B": "Progesterone",
+                "C": "Insulin",
+                "D": "Thyroxine"
+              },
+              "explanation": "Testosterone بنیادی طور testes کے Leydig cells بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "مکيه مرداڻو جنسي هارمون ڪهڙو آهي؟",
+              "options": {
+                "A": "Testosterone",
+                "B": "Progesterone",
+                "C": "Insulin",
+                "D": "Thyroxine"
+              },
+              "explanation": "Testosterone بنيادي طور testes جي Leydig cells ٺاهين ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "The usual site of implantation is the:",
+          "options": {
+            "A": "Endometrium of uterus",
+            "B": "Oviduct wall",
+            "C": "Ovary surface",
+            "D": "Cervix"
+          },
+          "correctOption": "A",
+          "explanation": "The embryo normally implants in the uterine endometrium.",
+          "translations": {
+            "ur": {
+              "question": "Implantation عموماً کہاں ہوتی ہے؟",
+              "options": {
+                "A": "رحم کا endometrium",
+                "B": "Oviduct کی دیوار",
+                "C": "Ovary کی سطح",
+                "D": "Cervix"
+              },
+              "explanation": "Embryo عموماً رحم کے endometrium میں پیوست ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "Implantation عام طور ڪٿي ٿئي ٿي؟",
+              "options": {
+                "A": "رحم جو endometrium",
+                "B": "Oviduct جي ڀت",
+                "C": "Ovary جي سطح",
+                "D": "Cervix"
+              },
+              "explanation": "Embryo عام طور رحم جي endometrium ۾ لڳي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Which hormone triggers ovulation?",
+          "options": {
+            "A": "LH",
+            "B": "FSH only",
+            "C": "Insulin",
+            "D": "Adrenaline"
+          },
+          "correctOption": "A",
+          "explanation": "A surge in luteinising hormone triggers ovulation.",
+          "translations": {
+            "ur": {
+              "question": "Ovulation کون سا ہارمون شروع کرتا ہے؟",
+              "options": {
+                "A": "LH",
+                "B": "صرف FSH",
+                "C": "Insulin",
+                "D": "Adrenaline"
+              },
+              "explanation": "LH میں اچانک اضافہ ovulation کرواتا ہے۔"
+            },
+            "sd": {
+              "question": "Ovulation ڪهڙو هارمون شروع ڪرائي ٿو؟",
+              "options": {
+                "A": "LH",
+                "B": "صرف FSH",
+                "C": "Insulin",
+                "D": "Adrenaline"
+              },
+              "explanation": "LH ۾ اوچتو واڌ ovulation ڪرائي ٿي۔"
+            }
+          }
+        },
+        {
+          "question": "Progesterone mainly helps to:",
+          "options": {
+            "A": "Maintain the uterine lining",
+            "B": "Break down sperm",
+            "C": "Produce bile",
+            "D": "Lower body temperature"
+          },
+          "correctOption": "A",
+          "explanation": "Progesterone supports maintenance of the endometrium.",
+          "translations": {
+            "ur": {
+              "question": "Progesterone کا اہم کام کیا ہے؟",
+              "options": {
+                "A": "رحم کی اندرونی تہہ برقرار رکھنا",
+                "B": "sperm کو توڑنا",
+                "C": "bile بنانا",
+                "D": "جسمانی درجہ حرارت کم کرنا"
+              },
+              "explanation": "Progesterone endometrium برقرار رکھنے میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "Progesterone جو اهم ڪم ڇا آهي؟",
+              "options": {
+                "A": "رحم جي اندروني تهه برقرار رکڻ",
+                "B": "sperm ٽوڙڻ",
+                "C": "bile ٺاهڻ",
+                "D": "جسماني گرمي گهٽائڻ"
+              },
+              "explanation": "Progesterone endometrium برقرار رکڻ ۾ مدد ڪري ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "The hormone that stimulates the testes' Leydig cells is:",
+          "options": {
+            "A": "LH",
+            "B": "FSH",
+            "C": "Oestrogen",
+            "D": "Oxytocin"
+          },
+          "correctOption": "A",
+          "explanation": "LH stimulates Leydig cells to produce testosterone.",
+          "translations": {
+            "ur": {
+              "question": "Testes کے Leydig cells کو کون سا ہارمون تحریک دیتا ہے؟",
+              "options": {
+                "A": "LH",
+                "B": "FSH",
+                "C": "Oestrogen",
+                "D": "Oxytocin"
+              },
+              "explanation": "LH، Leydig cells کو testosterone بنانے کی تحریک دیتا ہے۔"
+            },
+            "sd": {
+              "question": "Testes جي Leydig cells کي ڪهڙو هارمون تحريڪ ڏئي ٿو؟",
+              "options": {
+                "A": "LH",
+                "B": "FSH",
+                "C": "Oestrogen",
+                "D": "Oxytocin"
+              },
+              "explanation": "LH، Leydig cells کي testosterone ٺاهڻ لاءِ تحريڪ ڏئي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Genetic variation in sexual reproduction is increased by:",
+          "options": {
+            "A": "Meiosis and fertilisation",
+            "B": "Binary fission only",
+            "C": "Mitosis only",
+            "D": "Budding only"
+          },
+          "correctOption": "A",
+          "explanation": "Crossing over, independent assortment and fertilisation generate new combinations.",
+          "translations": {
+            "ur": {
+              "question": "جنسی تولید میں جینیاتی تنوع کس سے بڑھتا ہے؟",
+              "options": {
+                "A": "Meiosis اور fertilisation",
+                "B": "صرف binary fission",
+                "C": "صرف mitosis",
+                "D": "صرف budding"
+              },
+              "explanation": "Crossing over، independent assortment اور fertilisation نئی ترکیبیں بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "جنسي پيدائش ۾ جيني تنوع ڪنهن سان وڌي ٿو؟",
+              "options": {
+                "A": "Meiosis ۽ fertilisation",
+                "B": "صرف binary fission",
+                "C": "صرف mitosis",
+                "D": "صرف budding"
+              },
+              "explanation": "Crossing over، independent assortment ۽ fertilisation نوان مجموعا ٺاهين ٿا۔"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Differentiate between asexual and sexual reproduction, giving two examples of each.",
+          "modelAnswer": "Asexual reproduction involves one parent and no gamete fusion; offspring are usually genetically similar. Examples: binary fission and budding. Sexual reproduction involves gamete formation and fusion, usually producing variation. Examples: humans and flowering plants.",
+          "rubric": [
+            "Asexual features (2)",
+            "examples (1)",
+            "sexual features (1)",
+            "example (1)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "غیر جنسی اور جنسی تولید میں فرق کریں اور ہر ایک کی دو مثالیں دیں۔",
+              "modelAnswer": "غیر جنسی تولید میں ایک والدین اور gametes کا ملاپ نہیں ہوتا؛ اولاد عموماً جینیاتی طور ملتی جلتی ہوتی ہے۔ مثالیں binary fission اور budding۔ جنسی تولید میں gametes بنتے اور ملتے ہیں اور تنوع پیدا ہوتا ہے۔ مثالیں انسان اور پھولدار پودے۔",
+              "rubric": [
+                "غیر جنسی خصوصیات (2)",
+                "مثالیں (1)",
+                "جنسی خصوصیات (1)",
+                "مثال (1)."
+              ]
+            },
+            "sd": {
+              "question": "غير جنسي ۽ جنسي پيدائش ۾ فرق ڪريو ۽ هر هڪ جا ٻه مثال ڏيو.",
+              "modelAnswer": "غير جنسي پيدائش ۾ هڪ والدين ۽ gametes جو ميلاپ نه ٿيندو؛ اولاد عام طور جيني طور جهڙي هوندي آهي. مثال binary fission ۽ budding. جنسي پيدائش ۾ gametes ٺهن ۽ ملن ٿا ۽ تنوع پيدا ٿئي ٿو. مثال انسان ۽ گلدار ٻوٽا.",
+              "rubric": [
+                "غير جنسي خاصيتون (2)",
+                "مثال (1)",
+                "جنسي خاصيتون (1)",
+                "مثال (1)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Describe the route taken by sperm from its production to the urethra.",
+          "modelAnswer": "Sperm are produced in seminiferous tubules of the testes, mature in the epididymis, travel through the vas deferens, enter the ejaculatory duct and pass into the urethra. Secretions from accessory glands contribute to semen.",
+          "rubric": [
+            "Seminiferous tubules/testes (1)",
+            "epididymis (1)",
+            "vas deferens (1)",
+            "ejaculatory duct/urethra (1)",
+            "gland secretions/semen (1)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "Sperm بننے سے urethra تک اس کا راستہ بیان کریں۔",
+              "modelAnswer": "Sperm، testes کی seminiferous tubules میں بنتے ہیں، epididymis میں پختہ ہوتے ہیں، vas deferens سے گزرتے، ejaculatory duct میں داخل ہوتے اور urethra تک پہنچتے ہیں۔ معاون غدود کے سیالات semen بناتے ہیں۔",
+              "rubric": [
+                "Seminiferous tubules/testes (1)",
+                "epididymis (1)",
+                "vas deferens (1)",
+                "ejaculatory duct/urethra (1)",
+                "gland secretions/semen (1)."
+              ]
+            },
+            "sd": {
+              "question": "Sperm ٺهڻ کان urethra تائين ان جو رستو بيان ڪريو.",
+              "modelAnswer": "Sperm، testes جي seminiferous tubules ۾ ٺهن ٿا، epididymis ۾ پختا ٿين ٿا، vas deferens مان گذرن ٿا، ejaculatory duct ۾ داخل ٿين ٿا ۽ urethra تائين پهچن ٿا. مددگار غدودن جا مايع semen ٺاهين ٿا.",
+              "rubric": [
+                "Seminiferous tubules/testes (1)",
+                "epididymis (1)",
+                "vas deferens (1)",
+                "ejaculatory duct/urethra (1)",
+                "gland secretions/semen (1)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain the roles of FSH, LH, oestrogen and progesterone in the menstrual cycle.",
+          "modelAnswer": "FSH supports follicle development. Oestrogen from the developing follicle rebuilds the endometrium and contributes to the LH surge. LH triggers ovulation and corpus luteum formation. Progesterone from the corpus luteum maintains the endometrium.",
+          "rubric": [
+            "FSH (1)",
+            "oestrogen (1)",
+            "LH/ovulation (2)",
+            "progesterone (1)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "ماہواری کے چکر میں FSH، LH، oestrogen اور progesterone کے کردار بیان کریں۔",
+              "modelAnswer": "FSH follicle کی نشوونما کرتا ہے۔ Follicle کا oestrogen endometrium دوبارہ بناتا اور LH surge میں حصہ لیتا ہے۔ LH ovulation اور corpus luteum کی تشکیل کرواتا ہے۔ Corpus luteum کا progesterone endometrium برقرار رکھتا ہے۔",
+              "rubric": [
+                "FSH (1)",
+                "oestrogen (1)",
+                "LH/ovulation (2)",
+                "progesterone (1)."
+              ]
+            },
+            "sd": {
+              "question": "ماهواري جي چڪر ۾ FSH، LH، oestrogen ۽ progesterone جا ڪردار بيان ڪريو.",
+              "modelAnswer": "FSH follicle جي واڌ ڪري ٿو. Follicle جو oestrogen endometrium ٻيهر ٺاهي ۽ LH surge ۾ حصو وٺي ٿو. LH ovulation ۽ corpus luteum جي ٺهڻ ڪرائي ٿو. Corpus luteum جو progesterone endometrium برقرار رکي ٿو.",
+              "rubric": [
+                "FSH (1)",
+                "oestrogen (1)",
+                "LH/ovulation (2)",
+                "progesterone (1)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain sexual reproduction from gamete formation to zygote development. Include the importance of meiosis and fertilisation.",
+          "modelAnswer": "Gametogenesis forms sperm and ova. Meiosis reduces chromosome number from diploid to haploid and generates variation by crossing over and independent assortment. During fertilisation, nuclei of male and female gametes fuse, restoring the diploid chromosome number and forming a zygote. The zygote divides by mitosis to form an embryo. In humans, fertilisation normally occurs in the oviduct and the early embryo later implants in the uterine endometrium. Sexual reproduction combines genetic information from two parents and increases variation.",
+          "rubric": [
+            "Gametogenesis (2)",
+            "meiosis/haploid (2)",
+            "variation (1)",
+            "fertilisation/diploid zygote (2)",
+            "mitosis/embryo (1)",
+            "human site/implantation (2)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "Gametes بننے سے zygote کی نشوونما تک جنسی تولید بیان کریں۔ Meiosis اور fertilisation کی اہمیت بھی شامل کریں۔",
+              "modelAnswer": "Gametogenesis سے sperm اور ova بنتے ہیں۔ Meiosis کروموسومز کو diploid سے haploid کرتی اور crossing over و independent assortment سے تنوع پیدا کرتی ہے۔ Fertilisation میں نر و مادہ gametes کے مرکزے مل کر diploid zygote بناتے ہیں۔ Zygote mitosis سے تقسیم ہو کر embryo بناتا ہے۔ انسان میں fertilisation عموماً oviduct میں ہوتی ہے اور ابتدائی embryo بعد میں رحم کے endometrium میں implantation کرتا ہے۔ جنسی تولید دو والدین کی موروثی معلومات یکجا کرتی ہے۔",
+              "rubric": [
+                "Gametogenesis (2)",
+                "meiosis/haploid (2)",
+                "تنوع (1)",
+                "fertilisation/diploid zygote (2)",
+                "mitosis/embryo (1)",
+                "انسانی مقام/implantation (2)."
+              ]
+            },
+            "sd": {
+              "question": "Gametes ٺهڻ کان zygote جي واڌ تائين جنسي پيدائش بيان ڪريو. Meiosis ۽ fertilisation جي اهميت به شامل ڪريو.",
+              "modelAnswer": "Gametogenesis سان sperm ۽ ova ٺهن ٿا. Meiosis ڪروموسومن کي diploid مان haploid ڪري ٿي ۽ crossing over ۽ independent assortment سان تنوع پيدا ڪري ٿي. Fertilisation ۾ نر ۽ مادي gametes جا مرڪز ملي diploid zygote ٺاهين ٿا. Zygote mitosis سان ورهائجي embryo بڻجي ٿو. انسان ۾ fertilisation عام طور oviduct ۾ ٿئي ٿي ۽ شروعاتي embryo پوءِ رحم جي endometrium ۾ لڳي ٿو. جنسي پيدائش ٻن والدين جي موروثي ڄاڻ گڏ ڪري ٿي.",
+              "rubric": [
+                "Gametogenesis (2)",
+                "meiosis/haploid (2)",
+                "تنوع (1)",
+                "fertilisation/diploid zygote (2)",
+                "mitosis/embryo (1)",
+                "انساني جاءِ/implantation (2)."
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Case study: A student compares the roles of reproductive hormones in male and female puberty. Explain the hypothalamus-pituitary-gonadal pathway and the functions of testosterone, oestrogen and progesterone.",
+          "modelAnswer": "The hypothalamus releases GnRH, stimulating the pituitary to release FSH and LH. In males, LH stimulates Leydig cells to produce testosterone, while FSH supports sperm production via Sertoli cells. Testosterone supports male secondary sexual characteristics. In females, FSH supports follicle development and oestrogen secretion; LH triggers ovulation and corpus luteum formation. Oestrogen supports female secondary sexual characteristics and endometrial growth; progesterone helps maintain the endometrium. Hormone levels are regulated by feedback and puberty timing varies normally among individuals.",
+          "rubric": [
+            "GnRH/hypothalamus (2)",
+            "pituitary FSH/LH (2)",
+            "male LH/testosterone/FSH (2)",
+            "female FSH/LH (2)",
+            "oestrogen/progesterone functions and feedback (2)."
+          ],
+          "translations": {
+            "ur": {
+              "question": "کیس اسٹڈی: بلوغت میں مردانہ اور زنانہ تولیدی ہارمونز کے کردار کا موازنہ کریں۔ Hypothalamus-pituitary-gonadal pathway اور testosterone، oestrogen، progesterone کے افعال بیان کریں۔",
+              "modelAnswer": "Hypothalamus، GnRH خارج کرتا ہے جو pituitary کو FSH اور LH خارج کرنے کی تحریک دیتا ہے۔ مردوں میں LH، Leydig cells کو testosterone بنانے اور FSH، Sertoli cells کے ذریعے sperm پیداوار میں مدد دیتا ہے۔ Testosterone مردانہ ثانوی خصوصیات پیدا کرتا ہے۔ عورتوں میں FSH follicle اور oestrogen کی تیاری میں مدد دیتا ہے؛ LH ovulation اور corpus luteum بناتا ہے۔ Oestrogen زنانہ ثانوی خصوصیات اور endometrium کی نشوونما میں مدد دیتا ہے؛ progesterone endometrium برقرار رکھتا ہے۔ ہارمون feedback سے منظم ہوتے ہیں اور بلوغت کا وقت افراد میں مختلف ہوسکتا ہے۔",
+              "rubric": [
+                "GnRH/hypothalamus (2)",
+                "pituitary FSH/LH (2)",
+                "male LH/testosterone/FSH (2)",
+                "female FSH/LH (2)",
+                "oestrogen/progesterone اور feedback (2)."
+              ]
+            },
+            "sd": {
+              "question": "ڪيس اسٽڊي: بلوغت ۾ مرداڻن ۽ عورتاڻن پيدائشي هارمونن جي ڪردار جو مقابلو ڪريو. Hypothalamus-pituitary-gonadal رستو ۽ testosterone، oestrogen، progesterone جا ڪم بيان ڪريو.",
+              "modelAnswer": "Hypothalamus، GnRH خارج ڪري ٿو جيڪو pituitary کي FSH ۽ LH ڇڏڻ لاءِ تحريڪ ڏئي ٿو. مردن ۾ LH، Leydig cells کي testosterone ٺاهڻ ۽ FSH، Sertoli cells وسيلي sperm پيداوار ۾ مدد ڪري ٿو. Testosterone مرداڻيون ثانوي خاصيتون پيدا ڪري ٿو. عورتن ۾ FSH follicle ۽ oestrogen جي پيداوار ۾ مدد ڪري ٿو؛ LH ovulation ۽ corpus luteum ٺاهي ٿو. Oestrogen عورتاڻين ثانوي خاصيتن ۽ endometrium جي واڌ ۾ مدد ڪري ٿو؛ progesterone endometrium برقرار رکي ٿو. هارمون feedback سان منظم ٿين ٿا ۽ بلوغت جو وقت ماڻهن ۾ مختلف ٿي سگهي ٿو.",
+              "rubric": [
+                "GnRH/hypothalamus (2)",
+                "pituitary FSH/LH (2)",
+                "male LH/testosterone/FSH (2)",
+                "female FSH/LH (2)",
+                "oestrogen/progesterone ۽ feedback (2)."
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
