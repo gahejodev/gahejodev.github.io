@@ -1,0 +1,974 @@
+{
+  "id": "biology-x-chapter-11-holozoic-nutrition",
+  "title": "Biology X — Chapter 11: Holozoic Nutrition",
+  "description": "Class X Biology chapter aligned to the Sindh DCAR Biology Curriculum 2024. Original English lessons with Urdu and Sindhi explanations, 20 explained MCQs, 3 CRQs, 2 ERQs, marking rubrics and a school water-safety case study.",
+  "version": "1",
+  "curriculumAlignment": {
+    "authority": "Directorate of Curriculum, Assessment and Research (DCAR), Government of Sindh",
+    "document": "Curriculum of Biology for Sindh Grades IX–XII (2024), aligned with National Curriculum of Pakistan 2022–23",
+    "grade": "X",
+    "chapter": "11 — Holozoic Nutrition",
+    "periods": 8,
+    "outcomes": [
+      "Explain holozoic nutrition and its stages: ingestion, digestion, absorption, assimilation and egestion.",
+      "Identify structures and functions of the gastrointestinal tract and associated glands.",
+      "Explain swallowing and peristalsis.",
+      "Relate digestive enzymes and secretions to their substrates and products at specific sites.",
+      "Explain the liver's secretory, metabolic, storage and detoxification roles.",
+      "Describe an intestinal villus and the roles of capillaries and lacteals.",
+      "Identify signs, causes, risk factors, treatment and prevention of diarrhoea, constipation and peptic ulcer."
+    ],
+    "primarySource": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf",
+    "primarySourceEvidence": "Printed curriculum page 118–119; PDF lines 4016–4043; chapter allocation 8 periods.",
+    "textbookReference": "Official STBB portal lists English Biology X, year 2021–22: https://portal.stbb.edu.pk/ebooks/book.php?id=188. The 2024 DCAR curriculum is used as the controlling learning-outcome sequence; the older listed textbook is supplementary, not treated as proof of a newer edition.",
+    "sourceChecked": "2026-11-14",
+    "authorshipNote": "All lesson explanations, examples, assessment items and model answers in this package are original educational writing; no textbook chapter has been reproduced."
+  },
+  "chapters": [
+    {
+      "title": "Chapter 11: Holozoic Nutrition",
+      "description": "Eight-period curriculum chapter covering the five stages of holozoic nutrition, the human gastrointestinal tract, digestive secretions and accessory glands, villus absorption, liver functions and common gastrointestinal disorders.",
+      "lessons": [
+        {
+          "title": "11.1 Holozoic Nutrition and Its Five Steps",
+          "type": "text",
+          "content": "## Learning outcomes\nBy the end of this lesson, you should be able to define holozoic nutrition, distinguish it from other modes of nutrition, and describe its five stages in the correct order.\n\n## What is nutrition?\nNutrition is the process by which an organism obtains and uses materials for energy, growth, repair and regulation. Plants commonly make organic food by photosynthesis (autotrophic nutrition). Animals and many other organisms obtain ready-made organic material from other organisms (heterotrophic nutrition).\n\n## Holozoic nutrition\nHolozoic nutrition is a type of heterotrophic nutrition in which an organism takes in solid or liquid food, digests it inside the body, absorbs useful products and removes undigested material. Humans show holozoic nutrition. Amoeba also uses a simple form of it by surrounding food with pseudopodia and forming a food vacuole.\n\n## The five stages\n1. **Ingestion:** taking food into the body, for example biting and swallowing food.\n2. **Digestion:** mechanical breakdown and chemical conversion of large, insoluble food molecules into smaller, soluble molecules. Mechanical digestion increases surface area; enzymes carry out chemical digestion.\n3. **Absorption:** movement of digested nutrients through the intestinal lining into blood or lymph.\n4. **Assimilation:** use of absorbed nutrients by cells for energy, growth, repair or storage. For example, glucose may be used in respiration or stored as glycogen.\n5. **Egestion:** removal of undigested and unabsorbed food from the digestive tract as faeces.\n\n## Do not confuse these terms\nEgestion removes undigested food from the gut. Excretion removes metabolic wastes made by cells, such as carbon dioxide and urea. They are different processes.\n\n## Key terms\n- **Enzyme:** a biological catalyst that speeds up a chemical reaction.\n- **Nutrient:** a useful substance supplied by food.\n- **Assimilation:** incorporation or use of absorbed nutrients by body cells.\n\n## Quick check\nPut these stages in order: absorption, ingestion, egestion, digestion and assimilation. Explain why egestion is not the same as excretion.",
+          "explanations": {
+            "ur": "## اس سبق کے مقاصد\nاس سبق کے بعد آپ ہولو زوئک غذائیت کی تعریف کر سکیں گے، اسے غذائیت کے دوسرے طریقوں سے الگ پہچان سکیں گے اور اس کے پانچ مراحل درست ترتیب سے بیان کر سکیں گے۔\n\n## غذائیت کیا ہے؟\nغذائیت وہ عمل ہے جس کے ذریعے جاندار توانائی، نشوونما، جسم کی مرمت اور جسمانی افعال کے لیے ضروری مادّے حاصل اور استعمال کرتا ہے۔ پودے عموماً ضیائی تالیف کے ذریعے اپنی خوراک بناتے ہیں؛ اسے خودغذائیت کہتے ہیں۔ جانور اور بہت سے دوسرے جاندار تیار شدہ نامیاتی غذا دوسرے جانداروں سے حاصل کرتے ہیں؛ یہ غیر خودغذائیت ہے۔\n\n## ہولو زوئک غذائیت\nہولو زوئک غذائیت غیر خودغذائیت کی ایک قسم ہے جس میں جاندار ٹھوس یا مائع غذا جسم میں لیتا ہے، اسے ہضم کرتا ہے، مفید اجزا جذب کرتا ہے اور غیر ہضم شدہ مادّہ خارج کرتا ہے۔ انسانوں میں یہی طریقہ پایا جاتا ہے۔ امیبا بھی جھوٹے پاؤں کے ذریعے غذا کو گھیر کر غذائی ویکیول بناتا ہے۔\n\n## پانچ مراحل\n1. **Ingestion — غذا لینا:** غذا کو جسم میں داخل کرنا، مثلاً چبانا اور نگلنا۔\n2. **Digestion — ہضم:** غذا کو میکانکی طور پر چھوٹے حصوں میں توڑنا اور خامروں کے ذریعے بڑے، ناقابلِ حل سالمات کو چھوٹے، قابلِ حل سالمات میں بدلنا۔\n3. **Absorption — جذب:** ہضم شدہ غذائی اجزا کا آنت کی دیوار سے خون یا لمف میں منتقل ہونا۔\n4. **Assimilation — استعمال و انجذاب:** خلیات کا جذب شدہ غذائی اجزا کو توانائی، نشوونما، مرمت یا ذخیرے کے لیے استعمال کرنا۔\n5. **Egestion — غیر ہضم شدہ غذا کا اخراج:** غیر ہضم شدہ غذا کا فضلے کی صورت میں ہاضمے کی نالی سے باہر نکلنا۔\n\n## اہم فرق\nEgestion میں غیر ہضم شدہ غذا خارج ہوتی ہے، جبکہ excretion میں خلیات کے بنائے ہوئے فاضل مادّے، مثلاً یوریا اور کاربن ڈائی آکسائیڈ، جسم سے نکالے جاتے ہیں۔ دونوں الگ عمل ہیں۔\n\n## اہم اصطلاحات\n- **خامرہ:** حیاتیاتی مادّہ جو کیمیائی عمل کی رفتار بڑھاتا ہے۔\n- **غذائی جز:** غذا میں موجود مفید مادّہ۔\n- **Assimilation:** خلیات کے ذریعے جذب شدہ غذائی اجزا کا استعمال یا ذخیرہ۔\n\n## اپنی سمجھ جانچیں\nپانچ مراحل کو درست ترتیب میں لکھیں اور وضاحت کریں کہ egestion، excretion سے کیوں مختلف ہے۔",
+            "sd": "## هن سبق جا مقصد\nهن سبق کان پوءِ اوهان هولوزوئڪ غذائيت جي وصف ڏئي، ان کي غذائيت جي ٻين طريقن کان الڳ سڃاڻي ۽ ان جا پنج مرحلا صحيح ترتيب سان بيان ڪري سگهندا.\n\n## غذائيت ڇا آهي؟\nغذائيت اهو عمل آهي جنهن ذريعي جاندار توانائي، واڌ ويجهه، جسم جي مرمت ۽ جسماني ڪمن لاءِ گهربل مادا حاصل ۽ استعمال ڪري ٿو. ٻوٽا عام طور ضيائي ترڪيب سان پنهنجو کاڌو ٺاهين ٿا؛ ان کي خودغذائيت چئبو آهي. جانور ۽ ٻيا ڪيترائي جاندار تيار نامياتي کاڌو ٻين جاندارن کان حاصل ڪن ٿا؛ اهو غير خودغذائيت آهي.\n\n## هولوزوئڪ غذائيت\nهولوزوئڪ غذائيت غير خودغذائيت جو اهڙو طريقو آهي جنهن ۾ جاندار ٺوس يا پاڻياٺ کاڌو جسم ۾ وٺي ٿو، ان کي هضم ڪري ٿو، فائديمند جزا جذب ڪري ٿو ۽ اڻ هضم ٿيل مادو ٻاهر ڪڍي ٿو. انسانن ۾ اهو طريقو موجود آهي. اميبا به ڪوڙن پيرن سان کاڌي کي گهيري غذائي ويڪيول ٺاهي ٿو.\n\n## پنج مرحلا\n1. **Ingestion — کاڌو اندر وٺڻ:** کاڌي کي جسم ۾ داخل ڪرڻ، جيئن چٻاڙي ڳهڻ.\n2. **Digestion — هضم:** کاڌي کي ميڪانيڪي طور ننڍن حصن ۾ ٽوڙڻ ۽ اينزائمن سان وڏن، نه حل ٿيندڙ ماليڪيولن کي ننڍن، حل ٿيندڙ ماليڪيولن ۾ بدلائڻ.\n3. **Absorption — جذب:** هضم ٿيل غذائي جزن جو آنڊي جي ڀت مان رت يا لمف ۾ وڃڻ.\n4. **Assimilation — جسم ۾ استعمال:** خليا جذب ٿيل غذائي جزن کي توانائي، واڌ، مرمت يا ذخيري لاءِ استعمال ڪن ٿا.\n5. **Egestion — اڻ هضم ٿيل کاڌي جو اخراج:** اڻ هضم ٿيل کاڌو فضلي جي صورت ۾ هاضمي واري نلي مان ٻاهر نڪري ٿو.\n\n## اهم فرق\nEgestion ۾ اڻ هضم ٿيل کاڌو خارج ٿئي ٿو، جڏهن ته excretion ۾ خلين جا ٺهيل فاضل مادا، جيئن يوريا ۽ ڪاربان ڊاءِ آڪسائيڊ، جسم مان ڪڍيا وڃن ٿا. اهي ٻه الڳ عمل آهن.\n\n## اهم اصطلاح\n- **اينزائم:** حياتياتي مادو جيڪو ڪيميائي عمل جي رفتار وڌائي ٿو.\n- **غذائي جزو:** کاڌي ۾ موجود فائديمند مادو.\n- **Assimilation:** جذب ٿيل غذائي جزن جو خلين ۾ استعمال يا ذخيرو.\n\n## پنهنجي سمجهه پرکيو\nپنجن مرحلن کي صحيح ترتيب سان لکو ۽ ٻڌايو ته egestion، excretion کان ڪيئن مختلف آهي."
+          }
+        },
+        {
+          "title": "11.2 Human Gastrointestinal Tract and Movement of Food",
+          "type": "text",
+          "content": "## Learning outcomes\nIdentify the main organs of the gastrointestinal tract (GIT), state their functions, and explain swallowing and peristalsis.\n\n## The route taken by food\nThe human alimentary canal is a continuous muscular tube. Food travels through it in this order:\n\n**Mouth → pharynx → oesophagus → stomach → small intestine → large intestine → rectum → anus**\n\n- **Mouth:** teeth cut and grind food; the tongue mixes it with saliva and forms a bolus.\n- **Pharynx:** a shared passage for food and air. During swallowing, the epiglottis helps protect the airway by covering the entrance to the larynx.\n- **Oesophagus:** carries the bolus to the stomach.\n- **Stomach:** stores and mixes food with gastric juice; acid and pepsin begin protein digestion.\n- **Small intestine:** the duodenum receives bile and pancreatic juice; the jejunum and ileum complete much digestion and absorb most nutrients.\n- **Large intestine:** absorbs water and electrolytes and helps form faeces with the help of gut bacteria.\n- **Rectum and anus:** store and control the release of faeces.\n\n## Swallowing and peristalsis\nSwallowing moves a bolus from the mouth through the pharynx into the oesophagus. Coordinated muscle actions help keep food out of the airway. Peristalsis is a wave of coordinated contraction and relaxation of smooth muscle in the gut wall. It pushes food forward even when a person is not upright.\n\nPeristalsis is not the same as gravity. It is an active muscular movement. Mixing movements in the stomach and small intestine help food contact digestive juices and the intestinal lining.\n\n## Key terms\n- **Bolus:** a soft ball of chewed food mixed with saliva.\n- **Peristalsis:** wave-like muscular movement that propels contents along the gut.\n- **Epiglottis:** a flap of cartilage that helps protect the airway during swallowing.\n\n## Apply the idea\nWhy can a person swallow food while lying down? Explain why damage or poor coordination of swallowing can cause food to enter the airway.",
+          "explanations": {
+            "ur": "## اس سبق کے مقاصد\nہاضمے کی نالی کے اہم اعضا کی شناخت کریں، ان کے افعال بیان کریں اور نگلنے اور موجی حرکت کی وضاحت کریں۔\n\n## غذا کا راستہ\nانسانی غذائی نالی ایک مسلسل عضلاتی نالی ہے۔ غذا اس ترتیب سے گزرتی ہے:\n\n**منہ → حلق → غذائی نالی → معدہ → چھوٹی آنت → بڑی آنت → مستقیم آنت → مقعد**\n\n- **منہ:** دانت غذا کو کاٹتے اور پیستے ہیں؛ زبان اسے لعاب میں ملاتی اور نرم لقمہ بناتی ہے۔\n- **حلق:** غذا اور ہوا دونوں کا مشترک راستہ ہے۔ نگلتے وقت epiglottis ہوا کی نالی کے دہانے کو ڈھانپنے میں مدد دیتا ہے۔\n- **غذائی نالی:** لقمے کو معدے تک پہنچاتی ہے۔\n- **معدہ:** غذا کو عارضی طور پر رکھتا اور معدی رطوبت کے ساتھ ملاتا ہے؛ تیزاب اور پیپسن پروٹین کا ہضم شروع کرتے ہیں۔\n- **چھوٹی آنت:** گرہنی میں صفرا اور لبلبے کا رس آتا ہے؛ آگے ہضم مکمل ہوتا ہے اور زیادہ تر غذائی اجزا جذب ہوتے ہیں۔\n- **بڑی آنت:** پانی اور نمکیات جذب کرتی ہے اور فضلہ بننے میں مدد دیتی ہے۔\n- **مستقیم آنت اور مقعد:** فضلے کو عارضی طور پر رکھتے اور اس کے اخراج کو کنٹرول کرتے ہیں۔\n\n## نگلنا اور موجی حرکت\nنگلنے سے لقمہ منہ سے حلق اور پھر غذائی نالی میں جاتا ہے۔ عضلات کی مربوط حرکت غذا کو سانس کی نالی میں جانے سے روکتی ہے۔ **Peristalsis** آنتوں کی دیوار کے ہموار عضلات کا باری باری سکڑنا اور ڈھیلا ہونا ہے، جس سے غذا آگے بڑھتی ہے۔ یہ صرف کششِ ثقل پر منحصر نہیں۔\n\nمعدے اور چھوٹی آنت کی اختلاطی حرکتیں غذا کو ہاضم رطوبتوں اور آنت کی اندرونی سطح سے ملاتی ہیں۔\n\n## اہم اصطلاحات\n- **لقمہ:** چبائی ہوئی غذا جو لعاب کے ساتھ نرم ہو گئی ہو۔\n- **Peristalsis:** عضلات کی موجی حرکت جو غذا کو نالی میں آگے بڑھاتی ہے۔\n- **Epiglottis:** غضروفی پردہ جو نگلتے وقت سانس کی نالی کی حفاظت کرتا ہے۔\n\n## اطلاق\nانسان لیٹے ہوئے بھی غذا کیسے نگل سکتا ہے؟ وضاحت کریں کہ نگلنے کے عمل میں خرابی سے غذا سانس کی نالی میں کیوں جا سکتی ہے۔",
+            "sd": "## هن سبق جا مقصد\nهاضمي واري نلي جي اهم عضون کي سڃاڻو، انهن جا ڪم بيان ڪريو ۽ ڳهڻ ۽ لهرائتي حرڪت جي وضاحت ڪريو.\n\n## کاڌي جو رستو\nانسان جي غذائي نلي هڪ لڳاتار عضلاتي نلي آهي. کاڌو هن ترتيب سان گذري ٿو:\n\n**وات → ڳلو → خوراڪ جي نلي → معدو → ننڍو آنڊو → وڏو آنڊو → ريڪٽم → مقعد**\n\n- **وات:** ڏند کاڌي کي ڪٽين ۽ پيسين ٿا؛ زبان ان کي لعاب سان ملائي نرم گولو ٺاهي ٿي.\n- **ڳلو:** کاڌي ۽ هوا جو گڏيل رستو آهي. ڳهڻ وقت epiglottis ساهه واري نلي جي منهن کي ڍڪڻ ۾ مدد ڪري ٿو.\n- **خوراڪ جي نلي:** کاڌي جي گولي کي معدي تائين پهچائي ٿي.\n- **معدو:** کاڌو گڏ ڪري معدي جي رس سان ملائي ٿو؛ تيزاب ۽ پيپسن پروٽين جو هضم شروع ڪن ٿا.\n- **ننڍو آنڊو:** ٻارهن آڱرين واري حصي ۾ صفرا ۽ لبلبي جو رس اچي ٿو؛ اڳتي هضم مڪمل ٿئي ٿو ۽ گهڻا غذائي جزا جذب ٿين ٿا.\n- **وڏو آنڊو:** پاڻي ۽ لوڻ جذب ڪري فضلو ٺهڻ ۾ مدد ڪري ٿو.\n- **ريڪٽم ۽ مقعد:** فضلو عارضي طور رکن ٿا ۽ ان جي اخراج کي ڪنٽرول ڪن ٿا.\n\n## ڳهڻ ۽ لهرائتي حرڪت\nڳهڻ سان کاڌي جو گولو وات مان ڳلي ۽ پوءِ خوراڪ جي نلي ۾ وڃي ٿو. عضون جي گڏيل حرڪت کاڌي کي ساهه واري رستي ۾ وڃڻ کان بچائي ٿي. **Peristalsis** آنڊي جي ڀت جي هموار عضلن جو ترتيبوار سڪڙڻ ۽ ڍرو ٿيڻ آهي، جنهن سان کاڌو اڳتي وڌي ٿو. اها رڳو ڪششِ ثقل تي دارومدار نٿي رکي.\n\nمعدي ۽ ننڍي آنڊي جون ملائڻ واريون حرڪتون کاڌي کي هاضمي جي رس ۽ آنڊي جي اندروني سطح سان ملائين ٿيون.\n\n## اهم اصطلاح\n- **کاڌي جو گولو:** چٻاڙيل کاڌو جيڪو لعاب سان نرم ٿيو هجي.\n- **Peristalsis:** عضلات جي لهرائتي حرڪت جيڪا کاڌي کي نلي ۾ اڳتي وڌائي ٿي.\n- **Epiglottis:** غضروفي پردو جيڪو ڳهڻ وقت ساهه واري نلي جي حفاظت ڪري ٿو.\n\n## عملي سوال\nماڻهو ليٽيل حالت ۾ به کاڌو ڪيئن ڳهي سگهي ٿو؟ ٻڌايو ته ڳهڻ جي عمل ۾ خرابي سبب کاڌو ساهه واري نلي ۾ ڇو وڃي سگهي ٿو."
+          }
+        },
+        {
+          "title": "11.3 Digestive Enzymes, Secretions and Accessory Glands",
+          "type": "text",
+          "content": "## Learning outcomes\nMatch major digestive secretions with their sites, substrates and products; explain the roles of the salivary glands, stomach, pancreas, liver and gallbladder.\n\n## Digestion begins in the mouth\nSalivary glands release saliva. Saliva moistens food and contains salivary amylase, which begins the breakdown of starch into shorter carbohydrates such as maltose and dextrins. Chewing increases the surface area available for enzymes.\n\n## The stomach\nGastric glands release:\n- **Hydrochloric acid (HCl):** creates an acidic environment, helps denature proteins and activates pepsin from pepsinogen; it also helps limit many swallowed microbes.\n- **Pepsin:** a protease that breaks proteins into shorter peptides.\n- **Mucus:** protects the stomach lining from acid and digestive enzymes.\n\nThe stomach churns food and releases it gradually into the duodenum. Acidic stomach contents are neutralised in the small intestine.\n\n## Pancreas and small intestine\nThe pancreas is an accessory digestive gland. Its exocrine part sends pancreatic juice into the duodenum:\n- pancreatic amylase acts on starch;\n- proteases such as trypsin act on proteins and peptides;\n- pancreatic lipase acts on fats, producing fatty acids and monoglycerides.\n\nThe intestinal lining also supplies enzymes that complete digestion into absorbable units, including monosaccharides, amino acids and lipid digestion products.\n\n## Liver, gallbladder and bile\nThe liver produces bile. The gallbladder stores and concentrates it, then releases it into the duodenum. Bile contains bile salts that emulsify large fat droplets into smaller droplets. This increases the surface area for lipase. **Bile is not an enzyme and does not chemically digest fat.**\n\nThe liver also processes absorbed nutrients, stores glycogen, vitamins and iron, makes important blood proteins, and modifies many drugs and harmful substances.\n\n## Hormonal coordination\n- **Secretin** is released by the small intestine in response to acidic chyme and stimulates bicarbonate-rich pancreatic secretion; it also supports bile secretion.\n- **Cholecystokinin (CCK)** is released when fats and proteins enter the small intestine. It stimulates enzyme-rich pancreatic secretion and gallbladder contraction.\n\n## Quick comparison\n| Secretion | Main site | Main role |\n|---|---|---|\n| Salivary amylase | Mouth | Starts starch digestion |\n| Pepsin | Stomach | Begins protein digestion |\n| Bile salts | Liver; stored in gallbladder | Emulsify fats |\n| Pancreatic lipase | Pancreas | Digests fats |\n| Bicarbonate | Pancreas | Neutralises acidic chyme |",
+          "explanations": {
+            "ur": "## اس سبق کے مقاصد\nاہم ہاضم رطوبتوں کو ان کے مقام، مادۂ عمل اور پیداوار سے ملائیں اور لعابی غدود، معدے، لبلبے، جگر اور پتّے کے افعال بیان کریں۔\n\n## منہ میں ہضم کا آغاز\nلعاب کے غدود لعاب خارج کرتے ہیں۔ لعاب غذا کو نم کرتا ہے اور اس میں salivary amylase نامی خامرہ ہوتا ہے جو نشاستے کو چھوٹے کاربوہائیڈریٹس، مثلاً مالٹوز، میں توڑنا شروع کرتا ہے۔ چبانے سے غذا کی سطح بڑھتی ہے جس پر خامرے عمل کر سکتے ہیں۔\n\n## معدہ\nمعدے کے غدود یہ رطوبتیں خارج کرتے ہیں:\n- **ہائیڈروکلورک ایسڈ (HCl):** تیزابی ماحول بناتا ہے، پروٹین کی ساخت کھولنے اور پیپسنوجن کو پیپسن میں فعال کرنے میں مدد دیتا ہے، اور بہت سے جراثیم کی افزائش محدود کرتا ہے۔\n- **Pepsin:** پروٹین کو چھوٹے پیپٹائڈز میں توڑنے والا خامرہ۔\n- **بلغم:** معدے کی اندرونی دیوار کو تیزاب اور خامروں سے بچاتا ہے۔\n\nمعدہ غذا کو ملاتا اور آہستہ آہستہ گرہنی میں بھیجتا ہے۔ معدے کا تیزابی مواد چھوٹی آنت میں غیر مؤثر کیا جاتا ہے۔\n\n## لبلبہ اور چھوٹی آنت\nلبلبے کا بیرونی رطوبتی حصہ گرہنی میں pancreatic juice بھیجتا ہے:\n- pancreatic amylase نشاستے پر عمل کرتا ہے؛\n- trypsin جیسے proteases پروٹین اور پیپٹائڈز کو توڑتے ہیں؛\n- pancreatic lipase چکنائی کو فیٹی ایسڈز اور monoglycerides میں توڑتا ہے۔\n\nآنت کی اندرونی سطح کے خامرے ہضم کو مکمل کرتے ہیں تاکہ monosaccharides، amino acids اور چکنائی کے ہضم شدہ اجزا جذب ہو سکیں۔\n\n## جگر، پتّہ اور صفرا\nجگر صفرا بناتا ہے۔ پتّہ اسے ذخیرہ اور گاڑھا کرتا ہے اور پھر گرہنی میں خارج کرتا ہے۔ صفرا کے bile salts چکنائی کے بڑے قطروں کو چھوٹے قطروں میں تقسیم کرتے ہیں، جس سے lipase کے عمل کے لیے سطح بڑھ جاتی ہے۔ **صفرا خامرہ نہیں ہے اور چکنائی کو کیمیائی طور پر نہیں توڑتا۔**\n\nجگر جذب شدہ غذائی اجزا پر عمل کرتا ہے، glycogen، وٹامنز اور آئرن ذخیرہ کرتا ہے، خون کے اہم پروٹین بناتا ہے اور کئی ادویات و نقصان دہ مادّوں کو تبدیل یا بے ضرر بنانے میں مدد دیتا ہے۔\n\n## ہارمونز کے ذریعے رابطہ\n- **Secretin** چھوٹی آنت میں تیزابی مواد آنے پر خارج ہوتا ہے اور bicarbonate والے لبلبے کے رس کو بڑھاتا ہے؛ یہ صفرا کے اخراج میں بھی مدد دیتا ہے۔\n- **Cholecystokinin (CCK)** چکنائی اور پروٹین کے آنت میں آنے پر خارج ہوتا ہے۔ یہ خامروں والے لبلبے کے رس اور پتّے کے سکڑنے کو تحریک دیتا ہے۔",
+            "sd": "## هن سبق جا مقصد\nاهم هاضمي رطوبتن کي انهن جي جاءِ، ڪم ڪندڙ خوراڪ ۽ پيداوار سان ملائي، لعابي غدود، معدي، لبلبي، جگر ۽ پتي جا ڪم بيان ڪريو.\n\n## وات ۾ هضم جي شروعات\nلعاب جا غدود لعاب خارج ڪن ٿا. لعاب کاڌي کي آلو ڪري ٿو ۽ ان ۾ salivary amylase نالي اينزائم هوندو آهي، جيڪو نشاستي کي ننڍن ڪاربوهائيڊريٽن، جيئن مالٽوز، ۾ ٽوڙڻ شروع ڪري ٿو. چٻاڙڻ سان کاڌي جي سطح وڌي ٿي، جنهن تي اينزائم ڪم ڪري سگهن ٿا.\n\n## معدو\nمعدي جا غدود هي رطوبتون خارج ڪن ٿا:\n- **Hydrochloric acid (HCl):** تيزابي ماحول ٺاهي ٿو، پروٽين جي بناوت کولڻ ۽ pepsinogen کي pepsin ۾ فعال ڪرڻ ۾ مدد ڪري ٿو، ۽ ڪيترن جراثيمن جي واڌ کي محدود ڪري ٿو.\n- **Pepsin:** پروٽين کي ننڍن پيپٽائيڊن ۾ ٽوڙيندڙ اينزائم.\n- **بلغم:** معدي جي اندروني ڀت کي تيزاب ۽ اينزائمن کان بچائي ٿو.\n\nمعدو کاڌي کي ملائي آهستي آهستي ٻارهن آڱرين واري آنڊي ۾ موڪلي ٿو. معدي جو تيزابي مواد ننڍي آنڊي ۾ غير تيزابي ڪيو وڃي ٿو.\n\n## لبلبو ۽ ننڍو آنڊو\nلبلبي جو خارجي رطوبتي حصو ٻارهن آڱرين واري آنڊي ۾ pancreatic juice موڪلي ٿو:\n- pancreatic amylase نشاستي تي ڪم ڪري ٿو؛\n- trypsin جهڙا proteases پروٽين ۽ پيپٽائيڊ ٽوڙين ٿا؛\n- pancreatic lipase چرٻي کي fatty acids ۽ monoglycerides ۾ ٽوڙي ٿو.\n\nآنڊي جي اندروني سطح جا اينزائم هضم مڪمل ڪن ٿا ته جيئن monosaccharides، amino acids ۽ چرٻي جا هضم ٿيل جزا جذب ٿي سگهن.\n\n## جگر، پتّو ۽ صفرا\nجگر صفرا ٺاهي ٿو. پتّو ان کي گڏ ۽ گاڙهو ڪري ٿو، پوءِ ٻارهن آڱرين واري آنڊي ۾ ڇڏي ٿو. صفرا جا bile salts چرٻي جي وڏن ڦڙن کي ننڍن ڦڙن ۾ ورهائين ٿا، جنهن سان lipase لاءِ سطح وڌي ٿي. **صفرا اينزائم ناهي ۽ چرٻي کي ڪيميائي طور نٿو ٽوڙي.**\n\nجگر جذب ٿيل غذائي جزن تي عمل ڪري ٿو، glycogen، وٽامن ۽ لوهه ذخيرو ڪري ٿو، رت جا اهم پروٽين ٺاهي ٿو ۽ ڪيترين دوائن ۽ نقصانڪار مادّن کي تبديل يا بي ضرر ڪرڻ ۾ مدد ڪري ٿو.\n\n## هارمونن جو رابطو\n- **Secretin** ننڍي آنڊي ۾ تيزابي مواد اچڻ تي خارج ٿئي ٿو ۽ bicarbonate وارو لبلبي جو رس وڌائي ٿو؛ اهو صفرا جي خارج ٿيڻ ۾ به مدد ڪري ٿو.\n- **Cholecystokinin (CCK)** چرٻي ۽ پروٽين جي آنڊي ۾ اچڻ تي خارج ٿئي ٿو. اهو اينزائمن واري لبلبي جي رس ۽ پتي جي سڪڙڻ کي تحريڪ ڏئي ٿو."
+          }
+        },
+        {
+          "title": "11.4 Absorption, Intestinal Villi and the Liver",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe how the small intestine is adapted for absorption, distinguish the roles of blood capillaries and lacteals, and explain key functions of the liver.\n\n## Why the small intestine absorbs efficiently\nMost nutrient absorption occurs in the small intestine. Its long length, folds, villi and microscopic microvilli create a very large surface area. The epithelial lining is thin, and each villus has a network of blood capillaries and a lymph vessel called a **lacteal**.\n\n## What enters each route?\n- Glucose, other monosaccharides, amino acids, water-soluble vitamins and many mineral ions enter blood capillaries.\n- Most long-chain fat digestion products enter intestinal cells, are repackaged into tiny particles called chylomicrons, and pass into lacteals. They travel through lymph before reaching the blood.\n- Water is absorbed in both the small and large intestines; the large intestine reclaims additional water and electrolytes.\n\n## How absorption happens\nDepending on the substance, absorption may use diffusion, facilitated diffusion, osmosis or active transport. Active transport requires energy and can move substances against a concentration gradient. Do not assume that every nutrient uses the same mechanism.\n\n## The liver and the hepatic portal route\nBlood carrying many absorbed sugars and amino acids from the intestine travels first to the liver through the hepatic portal vein. The liver helps regulate blood nutrient levels. It can convert excess glucose to glycogen for storage and release glucose when needed. It also processes amino acids, makes plasma proteins, stores some vitamins and iron, produces bile and modifies many drugs and potentially harmful chemicals.\n\nThe liver does not store all nutrients indefinitely, and detoxification does not mean that every harmful substance becomes harmless instantly.\n\n## A simple model\nThink of a villus as a tiny absorption station: its thin surface is the exchange boundary, its capillaries collect water-soluble nutrients, and its lacteal collects most absorbed fat products.\n\n## Revision points\n- Villi and microvilli increase surface area.\n- Capillaries carry most water-soluble nutrients.\n- Lacteals receive most long-chain fat products.\n- The hepatic portal vein carries nutrient-rich blood from the gut to the liver.",
+          "explanations": {
+            "ur": "## اس سبق کے مقاصد\nوضاحت کریں کہ چھوٹی آنت جذب کے لیے کس طرح موزوں ہے، خون کی باریک نالیوں اور lacteal کے افعال میں فرق کریں اور جگر کے اہم کام بیان کریں۔\n\n## چھوٹی آنت مؤثر جذب کیسے کرتی ہے؟\nزیادہ تر غذائی اجزا چھوٹی آنت میں جذب ہوتے ہیں۔ اس کی لمبائی، تہیں، villi اور باریک microvilli سطحِ جذب کو بہت بڑھا دیتے ہیں۔ اس کی اندرونی تہہ باریک ہوتی ہے۔ ہر villus میں خون کی باریک نالیوں کا جال اور لمف کی ایک نالی ہوتی ہے جسے **lacteal** کہتے ہیں۔\n\n## کون سا مادّہ کس راستے میں جاتا ہے؟\n- گلوکوز، دوسرے monosaccharides، amino acids، پانی میں حل ہونے والے وٹامنز اور کئی معدنی آئن خون کی باریک نالیوں میں داخل ہوتے ہیں۔\n- چکنائی کے زیادہ تر طویل زنجیر والے ہضم شدہ اجزا آنتی خلیات میں داخل ہو کر chylomicrons نامی چھوٹے ذرات میں پیک ہوتے ہیں اور lacteals میں جاتے ہیں۔ پھر لمف کے راستے خون تک پہنچتے ہیں۔\n- پانی چھوٹی اور بڑی دونوں آنتوں میں جذب ہوتا ہے؛ بڑی آنت مزید پانی اور نمکیات واپس جذب کرتی ہے۔\n\n## جذب کے طریقے\nمادّے کے مطابق جذب diffusion، facilitated diffusion، osmosis یا active transport سے ہو سکتا ہے۔ Active transport کے لیے توانائی درکار ہوتی ہے اور یہ مادّے کو concentration gradient کے خلاف منتقل کر سکتا ہے۔ ہر غذائی جز ایک ہی طریقے سے جذب نہیں ہوتا۔\n\n## جگر اور hepatic portal vein\nآنت سے آنے والا وہ خون جس میں بہت سے جذب شدہ شکر اور amino acids ہوتے ہیں، hepatic portal vein کے ذریعے پہلے جگر تک جاتا ہے۔ جگر خون میں غذائی اجزا کی مقدار کو منظم کرنے میں مدد دیتا ہے۔ اضافی گلوکوز کو glycogen میں بدل کر ذخیرہ کر سکتا ہے اور ضرورت کے وقت گلوکوز خارج کرتا ہے۔ یہ amino acids پر عمل کرتا، plasma proteins بناتا، بعض وٹامنز اور آئرن ذخیرہ کرتا، صفرا بناتا اور کئی ادویات و نقصان دہ کیمیائی مادّوں کو تبدیل کرتا ہے۔\n\nجگر تمام غذائی اجزا ہمیشہ کے لیے ذخیرہ نہیں کرتا اور detoxification کا مطلب یہ نہیں کہ ہر نقصان دہ مادّہ فوراً بے ضرر ہو جاتا ہے۔\n\n## آسان مثال\nVillus کو ایک چھوٹا جذب مرکز سمجھیں: اس کی باریک سطح تبادلے کی جگہ ہے، capillaries پانی میں حل ہونے والے غذائی اجزا جمع کرتی ہیں اور lacteal زیادہ تر جذب شدہ چکنائی کے اجزا لیتا ہے۔\n\n## دہرائی کے نکات\n- Villi اور microvilli سطحِ جذب بڑھاتے ہیں۔\n- Capillaries زیادہ تر پانی میں حل ہونے والے غذائی اجزا لے جاتی ہیں۔\n- Lacteals زیادہ تر طویل زنجیر والے چکنائی کے اجزا حاصل کرتے ہیں۔\n- Hepatic portal vein غذائیت سے بھرپور خون آنت سے جگر تک لے جاتی ہے۔",
+            "sd": "## هن سبق جا مقصد\nبيان ڪريو ته ننڍو آنڊو جذب لاءِ ڪيئن موزون آهي، رت جي سنهين نلين ۽ lacteal جي ڪمن ۾ فرق ڪريو ۽ جگر جا اهم ڪم ٻڌايو.\n\n## ننڍو آنڊو جذب ڪيئن ڪري ٿو؟\nگهڻا غذائي جزا ننڍي آنڊي ۾ جذب ٿين ٿا. ان جي ڊيگهه، ورن، villi ۽ تمام سنهڙين microvilli سبب جذب جي مٿاڇري تمام وڏي ٿئي ٿي. اندروني تهه سنهي هوندي آهي. هر villus ۾ رت جي سنهين نلين جو ڄار ۽ لمف جي هڪ نلي هوندي آهي، جنهن کي **lacteal** چئبو آهي.\n\n## ڪهڙو مادو ڪهڙي رستي ۾ وڃي ٿو؟\n- گلوڪوز، ٻيا monosaccharides، amino acids، پاڻيءَ ۾ حل ٿيندڙ وٽامن ۽ ڪيترائي معدني آئن رت جي سنهين نلين ۾ داخل ٿين ٿا.\n- چرٻي جا گهڻا ڊگهي زنجير وارا هضم ٿيل جزا آنڊي جي خلين ۾ داخل ٿي chylomicrons نالي ننڍن ذرڙن ۾ پيڪ ٿين ٿا ۽ lacteals ۾ وڃن ٿا. پوءِ لمف ذريعي رت تائين پهچن ٿا.\n- پاڻي ننڍي ۽ وڏي ٻنهي آنڊن ۾ جذب ٿئي ٿو؛ وڏو آنڊو وڌيڪ پاڻي ۽ لوڻ واپس جذب ڪري ٿو.\n\n## جذب جا طريقا\nمادي جي قسم موجب جذب diffusion، facilitated diffusion، osmosis يا active transport سان ٿي سگهي ٿو. Active transport لاءِ توانائي گهرجي ۽ اهو مادي کي concentration gradient جي ابتڙ منتقل ڪري سگهي ٿو. هر غذائي جزو هڪ ئي طريقي سان جذب نٿو ٿئي.\n\n## جگر ۽ hepatic portal vein\nآنڊي مان ايندڙ اهو رت جنهن ۾ جذب ٿيل کنڊ ۽ amino acids هوندا آهن، hepatic portal vein ذريعي پهرين جگر ڏانهن وڃي ٿو. جگر رت ۾ غذائي جزن جي مقدار کي سنڀالڻ ۾ مدد ڪري ٿو. اضافي گلوڪوز کي glycogen ۾ بدلائي ذخيرو ڪري سگهي ٿو ۽ ضرورت وقت گلوڪوز ڇڏيندو آهي. اهو amino acids تي عمل ڪري، plasma proteins ٺاهي، ڪي وٽامن ۽ لوهه ذخيرو ڪري، صفرا ٺاهي ۽ ڪيترين دوائن ۽ نقصانڪار ڪيميائي مادن کي تبديل ڪري ٿو.\n\nجگر سڀ غذائي جزا هميشه لاءِ ذخيرو نٿو ڪري ۽ detoxification جو مطلب اهو ناهي ته هر نقصانڪار مادو فوراً بي ضرر ٿي وڃي ٿو.\n\n## سادي مثال\nVillus کي هڪ ننڍڙو جذب مرڪز سمجهو: ان جي سنهي سطح مادن جي مٽاسٽا جي جاءِ آهي، capillaries پاڻيءَ ۾ حل ٿيندڙ غذائي جزا گڏ ڪن ٿيون ۽ lacteal گهڻا جذب ٿيل چرٻي جا جزا وٺي ٿو.\n\n## ورجاءُ جا نڪتا\n- Villi ۽ microvilli جذب جي مٿاڇري وڌائين ٿا.\n- Capillaries گهڻا پاڻيءَ ۾ حل ٿيندڙ غذائي جزا کڻن ٿيون.\n- Lacteals گهڻا ڊگهي زنجير وارا چرٻي جا جزا وٺن ٿا.\n- Hepatic portal vein غذائيت وارو رت آنڊي کان جگر تائين کڻي وڃي ٿي."
+          }
+        },
+        {
+          "title": "11.5 Disorders of the Gastrointestinal Tract and Prevention",
+          "type": "text",
+          "content": "## Learning outcomes\nRecognise common features, causes and prevention of diarrhoea, constipation and peptic ulcer, and explain why safe hydration and food hygiene matter.\n\n## Diarrhoea\nDiarrhoea means passing loose or watery stools more frequently than usual. It may be caused by intestinal infections, contaminated food or water, or other medical conditions. The main immediate danger is loss of water and electrolytes, which can cause dehydration. Signs can include thirst, dry mouth, reduced urination, weakness and dizziness.\n\nOral rehydration solution (ORS), prepared exactly as directed on a sealed packet using safe water, replaces water and important salts. Continue appropriate feeding and breastfeeding. Seek urgent medical care for severe dehydration, blood in stool, persistent vomiting, worsening symptoms or illness in a very young child. Antibiotics are not needed for every episode and should only be used when prescribed.\n\n## Constipation\nConstipation commonly involves hard or dry stools, difficulty passing stool or fewer bowel movements than usual. Contributing factors may include too little dietary fibre, inadequate fluids, low physical activity, ignoring the urge to pass stool, or certain medicines and illnesses. A balanced fibre-rich diet, adequate safe fluids and regular activity can help. Persistent or severe symptoms need medical assessment.\n\n## Peptic ulcer\nA peptic ulcer is an open sore in the lining of the stomach or first part of the small intestine. Important causes include infection with **Helicobacter pylori** and regular use of certain anti-inflammatory pain medicines (NSAIDs), such as ibuprofen. Acid and digestive enzymes can irritate the damaged lining. Symptoms may include upper abdominal pain or discomfort, but some ulcers cause complications such as bleeding. Diagnosis and treatment require a health professional; treatment may include acid-reducing medicines and specific antibiotics when H. pylori is confirmed.\n\nSpicy food and ordinary stress are not considered the main causes of most peptic ulcers, although they may worsen symptoms in some people.\n\n## Prevention and healthy habits\n- Drink safe water and wash hands with soap before preparing or eating food and after using the toilet.\n- Wash produce and cook food thoroughly; store food safely.\n- Use ORS correctly when advised for diarrhoea and monitor signs of dehydration.\n- Eat a varied diet with fibre, drink enough safe fluids and remain physically active.\n- Do not take antibiotics or pain medicines unnecessarily; use medicines according to professional advice.\n\n## Safety note\nThese are learning notes, not a personal diagnosis. Severe dehydration, blood in stool, persistent vomiting, black stools or severe abdominal pain require prompt medical assessment.",
+          "explanations": {
+            "ur": "## اس سبق کے مقاصد\nاسہال، قبض اور معدے یا آنت کے السر کی عام علامات، اسباب اور بچاؤ پہچانیں اور محفوظ پانی و صفائی کی اہمیت بیان کریں۔\n\n## اسہال\nاسہال میں معمول سے زیادہ بار پتلا یا پانی جیسا پاخانہ آتا ہے۔ اس کی وجہ آنتوں کا انفیکشن، آلودہ خوراک یا پانی اور بعض دوسری بیماریاں ہو سکتی ہیں۔ فوری خطرہ پانی اور نمکیات کا ضیاع ہے، جس سے جسم میں پانی کی کمی ہو سکتی ہے۔ پیاس، خشک منہ، پیشاب میں کمی، کمزوری اور چکر اس کی علامات ہو سکتی ہیں۔\n\nORS کا محلول، بند پیکٹ پر دی گئی ہدایات کے عین مطابق محفوظ پانی میں تیار کر کے، پانی اور اہم نمکیات کی کمی پوری کرنے میں مدد دیتا ہے۔ مناسب غذا اور بچے کو ماں کا دودھ جاری رکھیں۔ شدید پانی کی کمی، پاخانے میں خون، مسلسل قے، بگڑتی حالت یا بہت چھوٹے بچے کی بیماری میں فوری طبی مدد لیں۔ ہر اسہال میں اینٹی بایوٹک ضروری نہیں؛ صرف ڈاکٹر کے مشورے سے استعمال کریں۔\n\n## قبض\nقبض میں پاخانہ سخت یا خشک ہو سکتا ہے، اسے خارج کرنے میں مشکل ہوتی ہے یا معمول سے کم بار آتا ہے۔ کم ریشہ دار غذا، کم پانی، جسمانی سرگرمی کی کمی، حاجت روکنا، بعض ادویات اور بیماریاں اس میں حصہ ڈال سکتی ہیں۔ ریشہ دار متوازن غذا، مناسب محفوظ پانی اور باقاعدہ جسمانی سرگرمی مددگار ہیں۔ مسلسل یا شدید قبض کا طبی معائنہ ضروری ہے۔\n\n## پیپٹک السر\nپیپٹک السر معدے یا چھوٹی آنت کے ابتدائی حصے کی اندرونی تہہ پر بننے والا زخم ہے۔ اہم اسباب میں **Helicobacter pylori** کا انفیکشن اور بعض درد کم کرنے والی ادویات (NSAIDs)، مثلاً ibuprofen، کا بار بار استعمال شامل ہیں۔ تیزاب اور ہاضم خامرے زخمی تہہ کو مزید متاثر کر سکتے ہیں۔ اوپری پیٹ میں درد یا بے آرامی ہو سکتی ہے، جبکہ بعض السر خون بہنے جیسی پیچیدگی پیدا کرتے ہیں۔ تشخیص اور علاج ڈاکٹر کرتا ہے؛ علاج میں تیزاب کم کرنے والی ادویات اور H. pylori ثابت ہونے پر مخصوص اینٹی بایوٹکس شامل ہو سکتی ہیں۔\n\nعام مرچ مصالحہ یا روزمرہ ذہنی دباؤ زیادہ تر پیپٹک السر کی بنیادی وجہ نہیں، اگرچہ بعض افراد میں علامات بڑھا سکتے ہیں۔\n\n## بچاؤ اور صحت مند عادتیں\n- محفوظ پانی پئیں اور کھانا بنانے یا کھانے سے پہلے اور بیت الخلا کے بعد صابن سے ہاتھ دھوئیں۔\n- پھل اور سبزیاں دھوئیں، غذا اچھی طرح پکائیں اور محفوظ طریقے سے رکھیں۔\n- اسہال میں ہدایات کے مطابق ORS استعمال کریں اور پانی کی کمی کی علامات دیکھیں۔\n- ریشہ دار متوازن غذا کھائیں، مناسب محفوظ پانی پئیں اور جسمانی طور پر متحرک رہیں۔\n- اینٹی بایوٹکس یا درد کی ادویات بلا ضرورت نہ لیں؛ طبی مشورے کے مطابق استعمال کریں۔\n\n## احتیاط\nیہ تعلیمی معلومات ہیں، ذاتی تشخیص نہیں۔ شدید پانی کی کمی، پاخانے میں خون، مسلسل قے، کالا پاخانہ یا شدید پیٹ درد میں فوری طبی معائنہ ضروری ہے۔",
+            "sd": "## هن سبق جا مقصد\nدست، قبض ۽ معدي يا آنڊي جي السر جون عام نشانيون، سبب ۽ بچاءُ سڃاڻو ۽ صاف پاڻي ۽ صفائيءَ جي اهميت بيان ڪريو.\n\n## دست\nدستن ۾ معمول کان وڌيڪ ڀيرا ڍرو يا پاڻي جهڙو پاخانو اچي ٿو. سبب آنڊن جو انفيڪشن، آلوده کاڌو يا پاڻي ۽ ٻيون طبي حالتون ٿي سگهن ٿيون. فوري خطرو پاڻي ۽ لوڻن جو ضايع ٿيڻ آهي، جنهن سان جسم ۾ پاڻيءَ جي کوٽ ٿي سگهي ٿي. اڃ، سڪل وات، پيشاب گهٽ اچڻ، ڪمزوري ۽ چڪر ان جون نشانيون ٿي سگهن ٿيون.\n\nORS جو محلول بند پيڪٽ تي ڏنل هدايتن مطابق محفوظ پاڻيءَ ۾ تيار ڪري پاڻي ۽ اهم لوڻن جي کوٽ پوري ڪرڻ ۾ مدد ڪري ٿو. مناسب کاڌو ۽ ٻار کي ماءُ جو کير جاري رکو. شديد پاڻيءَ جي کوٽ، پاخاني ۾ رت، لڳاتار الٽي، حالت خراب ٿيڻ يا تمام ننڍي ٻار جي بيماريءَ ۾ تڪڙي طبي مدد وٺو. هر دست ۾ اينٽي بايوٽڪ ضروري ناهي؛ رڳو ڊاڪٽر جي صلاح سان استعمال ڪريو.\n\n## قبض\nقبض ۾ پاخانو سخت يا سڪل ٿي سگهي ٿو، ان کي خارج ڪرڻ ۾ ڏکيائي ٿئي ٿي يا معمول کان گهٽ ڀيرا اچي ٿو. گهٽ فائبر واري غذا، پاڻي گهٽ پيئڻ، جسماني سرگرميءَ جي کوٽ، حاجت روڪڻ، ڪي دوائون ۽ بيماريون سبب ٿي سگهن ٿيون. فائبر واري متوازن غذا، مناسب صاف پاڻي ۽ باقاعده جسماني سرگرمي مددگار آهن. لڳاتار يا سخت تڪليف لاءِ طبي معائنو ضروري آهي.\n\n## پيپٽڪ السر\nپيپٽڪ السر معدي يا ننڍي آنڊي جي پهرين حصي جي اندروني تهه تي زخم آهي. اهم سببن ۾ **Helicobacter pylori** جو انفيڪشن ۽ ڪجهه سور گهٽائيندڙ دوائن (NSAIDs)، جيئن ibuprofen، جو بار بار استعمال شامل آهن. تيزاب ۽ هاضمي جا اينزائم زخمي تهه کي وڌيڪ متاثر ڪري سگهن ٿا. مٿئين پيٽ ۾ سور يا بي آرامي ٿي سگهي ٿي، جڏهن ته ڪجهه السر مان رت به وهي سگهي ٿو. تشخيص ۽ علاج صحت جو ماهر ڪري ٿو؛ علاج ۾ تيزاب گهٽائيندڙ دوائون ۽ H. pylori ثابت ٿيڻ تي مخصوص اينٽي بايوٽڪ شامل ٿي سگهن ٿيون.\n\nعام مرچ مصالحو يا روزمره ذهني دٻاءُ گهڻن پيپٽڪ السرن جو بنيادي سبب ناهن، پر ڪجهه ماڻهن ۾ علامتون وڌائي سگهن ٿا.\n\n## بچاءُ ۽ صحتمند عادتون\n- صاف پاڻي پيئو ۽ کاڌو ٺاهڻ يا کائڻ کان اڳ ۽ ٽوائليٽ کان پوءِ صابڻ سان هٿ ڌوئو.\n- ميوا ۽ ڀاڄيون ڌوئو، کاڌو چڱيءَ طرح پچايو ۽ محفوظ رکو.\n- دستن ۾ هدايتن مطابق ORS استعمال ڪريو ۽ پاڻيءَ جي کوٽ جون نشانيون ڏسو.\n- فائبر واري متوازن غذا کائو، مناسب صاف پاڻي پيئو ۽ جسماني طور سرگرم رهو.\n- اينٽي بايوٽڪ يا سور جون دوائون بنا ضرورت نه وٺو؛ ماهر جي صلاح مطابق استعمال ڪريو.\n\n## احتياط\nهي سکيا لاءِ ڄاڻ آهي، ذاتي تشخيص نه. شديد پاڻيءَ جي کوٽ، پاخاني ۾ رت، لڳاتار الٽي، ڪارو پاخانو يا سخت پيٽ جي سور ۾ ترت طبي معائنو ضروري آهي."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes holozoic nutrition?",
+          "options": {
+            "A": "Taking in food, digesting it internally, absorbing nutrients and egesting residues",
+            "B": "Making glucose from carbon dioxide using light",
+            "C": "Absorbing dissolved nutrients directly through the body surface only",
+            "D": "Obtaining energy only from inorganic chemicals"
+          },
+          "correctOption": "A",
+          "explanation": "Holozoic nutrition involves ingestion, internal digestion, absorption, assimilation and egestion.",
+          "translations": {
+            "ur": {
+              "question": "ہولو زوئک غذائیت کی بہترین وضاحت کون سی ہے؟",
+              "options": {
+                "A": "غذا لینا، جسم کے اندر ہضم کرنا، غذائی اجزا جذب کرنا اور باقیات خارج کرنا",
+                "B": "روشنی سے کاربن ڈائی آکسائیڈ سے گلوکوز بنانا",
+                "C": "صرف جسم کی سطح سے حل شدہ غذا جذب کرنا",
+                "D": "صرف غیر نامیاتی کیمیائی مادّوں سے توانائی لینا"
+              },
+              "explanation": "ہولو زوئک غذائیت میں غذا لینا، اندرونی ہضم، جذب، استعمال اور غیر ہضم شدہ مادّے کا اخراج شامل ہیں۔"
+            },
+            "sd": {
+              "question": "هولوزوئڪ غذائيت جي بهترين وصف ڪهڙي آهي؟",
+              "options": {
+                "A": "کاڌو اندر وٺڻ، جسم ۾ هضم ڪرڻ، غذائي جزا جذب ڪرڻ ۽ باقي مادو خارج ڪرڻ",
+                "B": "روشنيءَ سان ڪاربان ڊاءِ آڪسائيڊ مان گلوڪوز ٺاهڻ",
+                "C": "رڳو جسم جي سطح تان حل ٿيل غذا جذب ڪرڻ",
+                "D": "رڳو غير نامياتي ڪيميائي مادن مان توانائي وٺڻ"
+              },
+              "explanation": "هولوزوئڪ غذائيت ۾ کاڌو اندر وٺڻ، اندروني هضم، جذب، استعمال ۽ اڻ هضم مادو خارج ڪرڻ شامل آهن."
+            }
+          }
+        },
+        {
+          "question": "Which sequence shows the five stages of holozoic nutrition in the correct order?",
+          "options": {
+            "A": "Digestion → ingestion → assimilation → absorption → egestion",
+            "B": "Ingestion → digestion → absorption → assimilation → egestion",
+            "C": "Absorption → ingestion → egestion → digestion → assimilation",
+            "D": "Ingestion → absorption → digestion → egestion → assimilation"
+          },
+          "correctOption": "B",
+          "explanation": "Food is taken in first, digested, absorbed, used by cells and finally undigested residue is egested.",
+          "translations": {
+            "ur": {
+              "question": "ہولو زوئک غذائیت کے پانچ مراحل کی درست ترتیب کون سی ہے؟",
+              "options": {
+                "A": "ہضم، غذا لینا، استعمال، جذب، اخراج",
+                "B": "غذا لینا، ہضم، جذب، استعمال، غیر ہضم شدہ غذا کا اخراج",
+                "C": "جذب، غذا لینا، اخراج، ہضم، استعمال",
+                "D": "غذا لینا، جذب، ہضم، اخراج، استعمال"
+              },
+              "explanation": "پہلے غذا جسم میں داخل ہوتی ہے، پھر ہضم اور جذب ہوتی ہے، خلیات اسے استعمال کرتے ہیں اور آخر میں غیر ہضم شدہ باقیات خارج ہوتی ہیں۔"
+            },
+            "sd": {
+              "question": "هولوزوئڪ غذائيت جي پنجن مرحلن جي صحيح ترتيب ڪهڙي آهي؟",
+              "options": {
+                "A": "هضم، کاڌو اندر وٺڻ، استعمال، جذب، اخراج",
+                "B": "کاڌو اندر وٺڻ، هضم، جذب، استعمال، اڻ هضم مادو خارج ڪرڻ",
+                "C": "جذب، کاڌو اندر وٺڻ، اخراج، هضم، استعمال",
+                "D": "کاڌو اندر وٺڻ، جذب، هضم، اخراج، استعمال"
+              },
+              "explanation": "پهريان کاڌو جسم ۾ داخل ٿئي ٿو، پوءِ هضم ۽ جذب ٿئي ٿو، خليا ان کي استعمال ڪن ٿا ۽ آخر ۾ اڻ هضم مادو خارج ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "The removal of undigested food from the alimentary canal is called:",
+          "options": {
+            "A": "Assimilation",
+            "B": "Excretion",
+            "C": "Egestion",
+            "D": "Absorption"
+          },
+          "correctOption": "C",
+          "explanation": "Egestion removes undigested residues; excretion removes metabolic wastes produced by cells.",
+          "translations": {
+            "ur": {
+              "question": "غذائی نالی سے غیر ہضم شدہ غذا کے اخراج کو کیا کہتے ہیں؟",
+              "options": {
+                "A": "Assimilation",
+                "B": "Excretion",
+                "C": "Egestion",
+                "D": "Absorption"
+              },
+              "explanation": "Egestion میں غیر ہضم شدہ غذا خارج ہوتی ہے، جبکہ excretion میں خلیات کے بنائے ہوئے فاضل مادّے خارج ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "غذائي نلي مان اڻ هضم ٿيل کاڌو خارج ڪرڻ کي ڇا چئبو آهي؟",
+              "options": {
+                "A": "Assimilation",
+                "B": "Excretion",
+                "C": "Egestion",
+                "D": "Absorption"
+              },
+              "explanation": "Egestion ۾ اڻ هضم ٿيل کاڌو خارج ٿئي ٿو، جڏهن ته excretion ۾ خلين جا ٺهيل فاضل مادا خارج ٿين ٿا."
+            }
+          }
+        },
+        {
+          "question": "The use of absorbed glucose by body cells for respiration or storage is an example of:",
+          "options": {
+            "A": "Ingestion",
+            "B": "Assimilation",
+            "C": "Egestion",
+            "D": "Swallowing"
+          },
+          "correctOption": "B",
+          "explanation": "Assimilation is the use or incorporation of absorbed nutrients by cells.",
+          "translations": {
+            "ur": {
+              "question": "جسم کے خلیات کا جذب شدہ گلوکوز کو تنفس یا ذخیرے کے لیے استعمال کرنا کس عمل کی مثال ہے؟",
+              "options": {
+                "A": "Ingestion",
+                "B": "Assimilation",
+                "C": "Egestion",
+                "D": "Swallowing"
+              },
+              "explanation": "Assimilation سے مراد خلیات کا جذب شدہ غذائی اجزا کو استعمال یا ذخیرہ کرنا ہے۔"
+            },
+            "sd": {
+              "question": "جسم جا خليا جذب ٿيل گلوڪوز کي تنفس يا ذخيري لاءِ استعمال ڪن، اهو ڪهڙي عمل جو مثال آهي؟",
+              "options": {
+                "A": "Ingestion",
+                "B": "Assimilation",
+                "C": "Egestion",
+                "D": "Swallowing"
+              },
+              "explanation": "Assimilation مان مراد خلين جو جذب ٿيل غذائي جزن کي استعمال يا ذخيرو ڪرڻ آهي."
+            }
+          }
+        },
+        {
+          "question": "Which structure helps prevent swallowed food from entering the larynx?",
+          "options": {
+            "A": "Villus",
+            "B": "Lacteal",
+            "C": "Epiglottis",
+            "D": "Pyloric sphincter"
+          },
+          "correctOption": "C",
+          "explanation": "The epiglottis helps cover the entrance to the larynx during swallowing.",
+          "translations": {
+            "ur": {
+              "question": "نگلتے وقت غذا کو حنجرے میں داخل ہونے سے روکنے میں کون سا حصہ مدد دیتا ہے؟",
+              "options": {
+                "A": "Villus",
+                "B": "Lacteal",
+                "C": "Epiglottis",
+                "D": "Pyloric sphincter"
+              },
+              "explanation": "Epiglottis نگلنے کے دوران حنجرے کے دہانے کو ڈھانپنے میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "ڳهڻ وقت کاڌي کي larynx ۾ وڃڻ کان روڪڻ ۾ ڪهڙو حصو مدد ڪري ٿو؟",
+              "options": {
+                "A": "Villus",
+                "B": "Lacteal",
+                "C": "Epiglottis",
+                "D": "Pyloric sphincter"
+              },
+              "explanation": "Epiglottis ڳهڻ دوران larynx جي منهن کي ڍڪڻ ۾ مدد ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "Peristalsis is best described as:",
+          "options": {
+            "A": "The chemical breakdown of starch",
+            "B": "Wave-like contraction and relaxation of gut muscles",
+            "C": "The absorption of fats into lacteals",
+            "D": "The release of bile by the liver"
+          },
+          "correctOption": "B",
+          "explanation": "Peristalsis is coordinated muscular movement that propels food along the digestive tract.",
+          "translations": {
+            "ur": {
+              "question": "Peristalsis کی بہترین وضاحت کیا ہے؟",
+              "options": {
+                "A": "نشاستے کا کیمیائی ہضم",
+                "B": "ہاضمے کی نالی کے عضلات کا موجی سکڑنا اور ڈھیلا ہونا",
+                "C": "چکنائی کا lacteals میں جذب ہونا",
+                "D": "جگر سے صفرا خارج ہونا"
+              },
+              "explanation": "Peristalsis عضلات کی مربوط موجی حرکت ہے جو غذا کو ہاضمے کی نالی میں آگے بڑھاتی ہے۔"
+            },
+            "sd": {
+              "question": "Peristalsis جي بهترين وضاحت ڪهڙي آهي؟",
+              "options": {
+                "A": "نشاستي جو ڪيميائي هضم",
+                "B": "هاضمي واري نلي جي عضلن جو لهرائتي نموني سڪڙڻ ۽ ڍرو ٿيڻ",
+                "C": "چرٻي جو lacteals ۾ جذب ٿيڻ",
+                "D": "جگر مان صفرا خارج ٿيڻ"
+              },
+              "explanation": "Peristalsis عضلن جي گڏيل لهرائتي حرڪت آهي جيڪا کاڌي کي هاضمي واري نلي ۾ اڳتي وڌائي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which organ stores food temporarily and begins substantial protein digestion?",
+          "options": {
+            "A": "Large intestine",
+            "B": "Stomach",
+            "C": "Rectum",
+            "D": "Gallbladder"
+          },
+          "correctOption": "B",
+          "explanation": "The stomach stores and churns food; acid and pepsin begin protein digestion.",
+          "translations": {
+            "ur": {
+              "question": "کون سا عضو غذا کو عارضی طور ذخیرہ کرتا اور پروٹین کا ہضم شروع کرتا ہے؟",
+              "options": {
+                "A": "بڑی آنت",
+                "B": "معدہ",
+                "C": "مستقیم آنت",
+                "D": "پتّہ"
+              },
+              "explanation": "معدہ غذا کو ذخیرہ اور ملاتا ہے؛ تیزاب اور پیپسن پروٹین کا ہضم شروع کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "ڪهڙو عضوو کاڌو عارضي طور گڏ ڪري ۽ پروٽين جو هضم شروع ڪري ٿو؟",
+              "options": {
+                "A": "وڏو آنڊو",
+                "B": "معدو",
+                "C": "ريڪٽم",
+                "D": "پتّو"
+              },
+              "explanation": "معدو کاڌو گڏ ۽ ملائي ٿو؛ تيزاب ۽ پيپسن پروٽين جو هضم شروع ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Most digestion and absorption of nutrients take place in the:",
+          "options": {
+            "A": "Oesophagus",
+            "B": "Small intestine",
+            "C": "Rectum",
+            "D": "Pharynx"
+          },
+          "correctOption": "B",
+          "explanation": "The small intestine receives bile and pancreatic juice and has a large absorptive surface.",
+          "translations": {
+            "ur": {
+              "question": "زیادہ تر ہضم اور غذائی اجزا کا جذب کہاں ہوتا ہے؟",
+              "options": {
+                "A": "غذائی نالی",
+                "B": "چھوٹی آنت",
+                "C": "مستقیم آنت",
+                "D": "حلق"
+              },
+              "explanation": "چھوٹی آنت میں صفرا اور لبلبے کا رس آتا ہے اور اس کی سطحِ جذب بہت بڑی ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "گهڻو هضم ۽ غذائي جزن جو جذب ڪٿي ٿئي ٿو؟",
+              "options": {
+                "A": "خوراڪ جي نلي",
+                "B": "ننڍو آنڊو",
+                "C": "ريڪٽم",
+                "D": "ڳلو"
+              },
+              "explanation": "ننڍي آنڊي ۾ صفرا ۽ لبلبي جو رس اچي ٿو ۽ ان جي جذب واري مٿاڇري وڏي هوندي آهي."
+            }
+          }
+        },
+        {
+          "question": "Salivary amylase begins the digestion of:",
+          "options": {
+            "A": "Proteins",
+            "B": "Starch",
+            "C": "Fats",
+            "D": "Vitamins"
+          },
+          "correctOption": "B",
+          "explanation": "Salivary amylase acts on starch and produces shorter carbohydrates.",
+          "translations": {
+            "ur": {
+              "question": "لعاب میں موجود amylase کس غذا کا ہضم شروع کرتا ہے؟",
+              "options": {
+                "A": "پروٹین",
+                "B": "نشاستہ",
+                "C": "چکنائی",
+                "D": "وٹامنز"
+              },
+              "explanation": "لعاب کا amylase نشاستے پر عمل کر کے چھوٹے کاربوہائیڈریٹس بناتا ہے۔"
+            },
+            "sd": {
+              "question": "لعاب ۾ موجود amylase ڪهڙي خوراڪ جو هضم شروع ڪري ٿو؟",
+              "options": {
+                "A": "پروٽين",
+                "B": "نشاستو",
+                "C": "چرٻي",
+                "D": "وٽامن"
+              },
+              "explanation": "لعاب جو amylase نشاستي تي عمل ڪري ننڍا ڪاربوهائيڊريٽ ٺاهي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Pepsin works most effectively in the:",
+          "options": {
+            "A": "Strongly acidic environment of the stomach",
+            "B": "Alkaline environment of the mouth",
+            "C": "Neutral environment of the large intestine",
+            "D": "Lymph inside a lacteal"
+          },
+          "correctOption": "A",
+          "explanation": "Pepsin is a stomach protease that functions in the acidic conditions created by gastric HCl.",
+          "translations": {
+            "ur": {
+              "question": "Pepsin سب سے مؤثر طور پر کہاں کام کرتا ہے؟",
+              "options": {
+                "A": "معدے کے تیزابی ماحول میں",
+                "B": "منہ کے قلوی ماحول میں",
+                "C": "بڑی آنت کے غیر جانبدار ماحول میں",
+                "D": "lacteal کے اندر لمف میں"
+              },
+              "explanation": "Pepsin معدے کا پروٹین توڑنے والا خامرہ ہے اور HCl کے بنائے ہوئے تیزابی ماحول میں کام کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Pepsin سڀ کان اثرائتي نموني ڪٿي ڪم ڪري ٿو؟",
+              "options": {
+                "A": "معدي جي تيزابي ماحول ۾",
+                "B": "وات جي قلوي ماحول ۾",
+                "C": "وڏي آنڊي جي غير جانبدار ماحول ۾",
+                "D": "lacteal اندر لمف ۾"
+              },
+              "explanation": "Pepsin معدي جو پروٽين ٽوڙيندڙ اينزائم آهي ۽ HCl جي تيزابي ماحول ۾ ڪم ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "What is the main digestive role of bile salts?",
+          "options": {
+            "A": "Breaking peptide bonds",
+            "B": "Emulsifying large fat droplets",
+            "C": "Converting starch into maltose",
+            "D": "Digesting cellulose"
+          },
+          "correctOption": "B",
+          "explanation": "Bile salts physically disperse large fat droplets into smaller droplets, increasing the surface area for lipase; bile is not an enzyme.",
+          "translations": {
+            "ur": {
+              "question": "صفرا کے bile salts کا بنیادی ہاضم کردار کیا ہے؟",
+              "options": {
+                "A": "پیپٹائڈ بند توڑنا",
+                "B": "چکنائی کے بڑے قطروں کو چھوٹے قطروں میں تقسیم کرنا",
+                "C": "نشاستے کو مالٹوز میں بدلنا",
+                "D": "سیلولوز ہضم کرنا"
+              },
+              "explanation": "Bile salts چکنائی کے قطروں کو چھوٹا کرتے ہیں تاکہ lipase کے لیے سطح بڑھ جائے؛ صفرا خامرہ نہیں ہے۔"
+            },
+            "sd": {
+              "question": "صفرا جي bile salts جو بنيادي هاضمي ڪم ڪهڙو آهي؟",
+              "options": {
+                "A": "پيپٽائيڊ بند ٽوڙڻ",
+                "B": "چرٻي جي وڏن ڦڙن کي ننڍن ڦڙن ۾ ورهائڻ",
+                "C": "نشاستي کي مالٽوز ۾ بدلائڻ",
+                "D": "سيلولوز هضم ڪرڻ"
+              },
+              "explanation": "Bile salts چرٻي جي ڦڙن کي ننڍو ڪن ٿا ته lipase لاءِ مٿاڇري وڌي؛ صفرا اينزائم ناهي."
+            }
+          }
+        },
+        {
+          "question": "Pancreatic lipase acts mainly on:",
+          "options": {
+            "A": "Proteins",
+            "B": "Starch",
+            "C": "Fats",
+            "D": "Nucleic acids"
+          },
+          "correctOption": "C",
+          "explanation": "Pancreatic lipase hydrolyses dietary fats into fatty acids and monoglycerides.",
+          "translations": {
+            "ur": {
+              "question": "لبلبے کا lipase بنیادی طور کس مادّے پر عمل کرتا ہے؟",
+              "options": {
+                "A": "پروٹین",
+                "B": "نشاستہ",
+                "C": "چکنائی",
+                "D": "نیوکلیک ایسڈز"
+              },
+              "explanation": "لبلبے کا lipase غذائی چکنائی کو fatty acids اور monoglycerides میں توڑتا ہے۔"
+            },
+            "sd": {
+              "question": "لبلبي جو lipase بنيادي طور ڪهڙي مادي تي ڪم ڪري ٿو؟",
+              "options": {
+                "A": "پروٽين",
+                "B": "نشاستو",
+                "C": "چرٻي",
+                "D": "نيوڪلڪ ايسڊ"
+              },
+              "explanation": "لبلبي جو lipase غذائي چرٻي کي fatty acids ۽ monoglycerides ۾ ٽوڙي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which hormone stimulates bicarbonate-rich pancreatic secretion in response to acidic chyme?",
+          "options": {
+            "A": "Insulin",
+            "B": "Secretin",
+            "C": "Adrenaline",
+            "D": "Thyroxine"
+          },
+          "correctOption": "B",
+          "explanation": "Secretin is released by the small intestine when acidic chyme enters and promotes bicarbonate-rich pancreatic secretion.",
+          "translations": {
+            "ur": {
+              "question": "تیزابی chyme آنے پر کون سا ہارمون bicarbonate والے لبلبے کے رس کو بڑھاتا ہے؟",
+              "options": {
+                "A": "انسولین",
+                "B": "سیکریٹن",
+                "C": "ایڈرینالین",
+                "D": "تھائروکسین"
+              },
+              "explanation": "تیزابی مواد چھوٹی آنت میں آنے پر secretin خارج ہوتا ہے اور bicarbonate والے لبلبے کے رس کو بڑھاتا ہے۔"
+            },
+            "sd": {
+              "question": "تيزابي chyme اچڻ تي ڪهڙو هارمون bicarbonate واري لبلبي جي رس کي وڌائي ٿو؟",
+              "options": {
+                "A": "انسولين",
+                "B": "سيڪريٽن",
+                "C": "ايڊرينالين",
+                "D": "ٿائروڪسين"
+              },
+              "explanation": "تيزابي مواد ننڍي آنڊي ۾ اچڻ تي secretin خارج ٿئي ٿو ۽ bicarbonate وارو لبلبي جو رس وڌائي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Cholecystokinin (CCK) helps digestion by:",
+          "options": {
+            "A": "Stopping all stomach movement",
+            "B": "Stimulating pancreatic enzyme secretion and gallbladder contraction",
+            "C": "Producing hydrochloric acid in the liver",
+            "D": "Absorbing glucose into red blood cells"
+          },
+          "correctOption": "B",
+          "explanation": "CCK is released in response to fats and proteins in the small intestine; it stimulates pancreatic enzyme secretion and gallbladder contraction.",
+          "translations": {
+            "ur": {
+              "question": "Cholecystokinin (CCK) ہضم میں کس طرح مدد دیتا ہے؟",
+              "options": {
+                "A": "معدے کی تمام حرکت روک کر",
+                "B": "لبلبے کے خامروں کے اخراج اور پتّے کے سکڑنے کو تحریک دے کر",
+                "C": "جگر میں ہائیڈروکلورک ایسڈ بنا کر",
+                "D": "گلوکوز کو سرخ خلیات میں جذب کر کے"
+              },
+              "explanation": "CCK چکنائی اور پروٹین کے چھوٹی آنت میں آنے پر خارج ہوتا ہے اور لبلبے کے خامروں و پتّے کے سکڑنے کو تحریک دیتا ہے۔"
+            },
+            "sd": {
+              "question": "Cholecystokinin (CCK) هضم ۾ ڪيئن مدد ڪري ٿو؟",
+              "options": {
+                "A": "معدي جي سموري حرڪت روڪي",
+                "B": "لبلبي جي اينزائمن جي خارج ٿيڻ ۽ پتي جي سڪڙڻ کي تحريڪ ڏئي",
+                "C": "جگر ۾ hydrochloric acid ٺاهي",
+                "D": "گلوڪوز کي ڳاڙهن خلين ۾ جذب ڪري"
+              },
+              "explanation": "CCK چرٻي ۽ پروٽين جي ننڍي آنڊي ۾ اچڻ تي خارج ٿئي ٿو ۽ لبلبي جي اينزائمن ۽ پتي جي سڪڙڻ کي تحريڪ ڏئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "A lacteal is a vessel in an intestinal villus that mainly receives:",
+          "options": {
+            "A": "Most absorbed long-chain fat products",
+            "B": "All oxygen from the lungs",
+            "C": "Undigested cellulose",
+            "D": "Bile made by the liver"
+          },
+          "correctOption": "A",
+          "explanation": "Most long-chain fat products are packaged into chylomicrons and enter the lymphatic lacteal.",
+          "translations": {
+            "ur": {
+              "question": "آنت کے villus میں lacteal بنیادی طور کیا جذب کرتا ہے؟",
+              "options": {
+                "A": "زیادہ تر طویل زنجیر والی چکنائی کے جذب شدہ اجزا",
+                "B": "پھیپھڑوں کی تمام آکسیجن",
+                "C": "غیر ہضم شدہ سیلولوز",
+                "D": "جگر کا بنایا ہوا صفرا"
+              },
+              "explanation": "طویل زنجیر والی چکنائی کے زیادہ تر اجزا chylomicrons میں پیک ہو کر لمفی lacteal میں داخل ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "آنڊي جي villus ۾ lacteal بنيادي طور ڇا وٺي ٿو؟",
+              "options": {
+                "A": "گهڻا ڊگهي زنجير وارا جذب ٿيل چرٻي جا جزا",
+                "B": "ڦڦڙن مان سموري آڪسيجن",
+                "C": "اڻ هضم ٿيل سيلولوز",
+                "D": "جگر جو ٺهيل صفرا"
+              },
+              "explanation": "ڊگهي زنجير واري چرٻي جا گهڻا جزا chylomicrons ۾ پيڪ ٿي لمفي lacteal ۾ داخل ٿين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Nutrient-rich blood from the intestine reaches the liver first through the:",
+          "options": {
+            "A": "Pulmonary artery",
+            "B": "Hepatic portal vein",
+            "C": "Aorta",
+            "D": "Renal vein"
+          },
+          "correctOption": "B",
+          "explanation": "The hepatic portal vein carries blood from the digestive organs to the liver for processing and regulation.",
+          "translations": {
+            "ur": {
+              "question": "آنت سے غذائی اجزا سے بھرپور خون پہلے جگر تک کس رگ کے ذریعے پہنچتا ہے؟",
+              "options": {
+                "A": "پلمونری شریان",
+                "B": "ہیپاٹک پورٹل وین",
+                "C": "شہ رگ",
+                "D": "گردے کی رگ"
+              },
+              "explanation": "Hepatic portal vein ہاضمے کے اعضا سے خون جگر تک لے جاتی ہے تاکہ غذائی اجزا پر عمل اور ان کی تنظیم ہو سکے۔"
+            },
+            "sd": {
+              "question": "آنڊي مان غذائي جزن وارو رت پهرين جگر تائين ڪهڙي رڳ ذريعي پهچي ٿو؟",
+              "options": {
+                "A": "پلمونري شريان",
+                "B": "هيپاٽڪ پورٽل وين",
+                "C": "ايورٽا",
+                "D": "گردي جي رڳ"
+              },
+              "explanation": "Hepatic portal vein هاضمي جي عضون مان رت جگر تائين کڻي وڃي ٿي ته جيئن غذائي جزن تي عمل ۽ ضابطو ٿي سگهي."
+            }
+          }
+        },
+        {
+          "question": "Which feature most directly increases the absorptive surface of the small intestine?",
+          "options": {
+            "A": "Thick enamel",
+            "B": "Villi and microvilli",
+            "C": "Rings of cartilage",
+            "D": "A single large chamber"
+          },
+          "correctOption": "B",
+          "explanation": "Villi and microvilli greatly increase the surface area available for nutrient absorption.",
+          "translations": {
+            "ur": {
+              "question": "چھوٹی آنت کی سطحِ جذب کو سب سے زیادہ کون سی ساخت بڑھاتی ہے؟",
+              "options": {
+                "A": "موٹا enamel",
+                "B": "Villi اور microvilli",
+                "C": "غضروف کے حلقے",
+                "D": "ایک بڑا خانہ"
+              },
+              "explanation": "Villi اور microvilli غذائی اجزا کے جذب کے لیے سطح کو بہت بڑھاتے ہیں۔"
+            },
+            "sd": {
+              "question": "ننڍي آنڊي جي جذب واري مٿاڇري کي سڀ کان وڌيڪ ڪهڙي بناوت وڌائي ٿي؟",
+              "options": {
+                "A": "ٿلهو enamel",
+                "B": "Villi ۽ microvilli",
+                "C": "غضروف جا ڇلا",
+                "D": "هڪ وڏو خانو"
+              },
+              "explanation": "Villi ۽ microvilli غذائي جزن جي جذب لاءِ مٿاڇري تمام گهڻي وڌائين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement about the liver is correct?",
+          "options": {
+            "A": "It produces bile and can store glucose as glycogen",
+            "B": "It stores all absorbed nutrients permanently",
+            "C": "It produces pepsin for the stomach",
+            "D": "It absorbs all fats directly from the gut lumen"
+          },
+          "correctOption": "A",
+          "explanation": "The liver produces bile and helps regulate blood glucose by storing excess glucose as glycogen and releasing glucose when needed.",
+          "translations": {
+            "ur": {
+              "question": "جگر کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "یہ صفرا بناتا ہے اور گلوکوز کو glycogen کی صورت میں ذخیرہ کر سکتا ہے",
+                "B": "یہ تمام جذب شدہ غذائی اجزا ہمیشہ کے لیے ذخیرہ کرتا ہے",
+                "C": "یہ معدے کے لیے pepsin بناتا ہے",
+                "D": "یہ آنت کے اندر سے تمام چکنائی براہِ راست جذب کرتا ہے"
+              },
+              "explanation": "جگر صفرا بناتا ہے اور اضافی گلوکوز کو glycogen کے طور پر ذخیرہ کر کے خون میں گلوکوز کی تنظیم میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "جگر بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "اهو صفرا ٺاهي ٿو ۽ گلوڪوز کي glycogen جي صورت ۾ ذخيرو ڪري سگهي ٿو",
+                "B": "اهو سڀ جذب ٿيل غذائي جزا هميشه لاءِ ذخيرو ڪري ٿو",
+                "C": "اهو معدي لاءِ pepsin ٺاهي ٿو",
+                "D": "اهو آنڊي جي اندر مان سموري چرٻي سڌي طرح جذب ڪري ٿو"
+              },
+              "explanation": "جگر صفرا ٺاهي ٿو ۽ اضافي گلوڪوز کي glycogen طور ذخيرو ڪري رت ۾ گلوڪوز کي منظم ڪرڻ ۾ مدد ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "A person with repeated watery stools is at greatest immediate risk of:",
+          "options": {
+            "A": "Dehydration and electrolyte loss",
+            "B": "Excess bone growth",
+            "C": "Increased tooth enamel",
+            "D": "Improved oxygen transport"
+          },
+          "correctOption": "A",
+          "explanation": "Diarrhoea can rapidly remove water and electrolytes, causing dehydration; safe ORS helps replace them.",
+          "translations": {
+            "ur": {
+              "question": "بار بار پانی جیسے پاخانے آنے سے فوری طور پر سب سے بڑا خطرہ کیا ہے؟",
+              "options": {
+                "A": "پانی اور نمکیات کی کمی",
+                "B": "ہڈیوں کی ضرورت سے زیادہ نشوونما",
+                "C": "دانتوں کے enamel میں اضافہ",
+                "D": "آکسیجن کی ترسیل میں بہتری"
+              },
+              "explanation": "اسہال سے پانی اور نمکیات تیزی سے ضائع ہو سکتے ہیں؛ محفوظ ORS ان کی کمی پوری کرنے میں مدد دیتا ہے۔"
+            },
+            "sd": {
+              "question": "بار بار پاڻي جهڙو پاخانو اچڻ سان فوري طور ڪهڙو وڏو خطرو آهي؟",
+              "options": {
+                "A": "پاڻي ۽ لوڻن جي کوٽ",
+                "B": "هڏن جي ضرورت کان وڌيڪ واڌ",
+                "C": "ڏندن جي enamel ۾ واڌ",
+                "D": "آڪسيجن جي پهچ ۾ بهتري"
+              },
+              "explanation": "دستن سان پاڻي ۽ لوڻ تيزيءَ سان ضايع ٿي سگهن ٿا؛ محفوظ ORS انهن جي کوٽ پوري ڪرڻ ۾ مدد ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which organism is strongly associated with many peptic ulcers?",
+          "options": {
+            "A": "Lactobacillus used in yoghurt",
+            "B": "Helicobacter pylori",
+            "C": "Plasmodium",
+            "D": "Rhizobium"
+          },
+          "correctOption": "B",
+          "explanation": "H. pylori infection is a major cause of peptic ulcers; some NSAID medicines are another important cause.",
+          "translations": {
+            "ur": {
+              "question": "بہت سے پیپٹک السر کس جرثومے کے انفیکشن سے وابستہ ہوتے ہیں؟",
+              "options": {
+                "A": "دہی میں استعمال ہونے والا Lactobacillus",
+                "B": "Helicobacter pylori",
+                "C": "Plasmodium",
+                "D": "Rhizobium"
+              },
+              "explanation": "H. pylori کا انفیکشن پیپٹک السر کی ایک بڑی وجہ ہے؛ بعض NSAID ادویات بھی اہم سبب ہیں۔"
+            },
+            "sd": {
+              "question": "گهڻا پيپٽڪ السر ڪهڙي جراثيم جي انفيڪشن سان لاڳاپيل آهن؟",
+              "options": {
+                "A": "ڏهي ۾ استعمال ٿيندڙ Lactobacillus",
+                "B": "Helicobacter pylori",
+                "C": "Plasmodium",
+                "D": "Rhizobium"
+              },
+              "explanation": "H. pylori جو انفيڪشن پيپٽڪ السر جو وڏو سبب آهي؛ ڪجهه NSAID دوائون به اهم سبب آهن."
+            }
+          }
+        },
+        {
+          "question": "Which habit is most helpful in reducing the risk of constipation for many people?",
+          "options": {
+            "A": "Avoiding all vegetables",
+            "B": "Eating fibre-rich foods, drinking adequate safe fluids and being active",
+            "C": "Ignoring the urge to pass stool",
+            "D": "Taking antibiotics every week"
+          },
+          "correctOption": "B",
+          "explanation": "Fibre, adequate fluids and physical activity can help normal bowel movement; persistent symptoms need medical assessment.",
+          "translations": {
+            "ur": {
+              "question": "بہت سے لوگوں میں قبض کا خطرہ کم کرنے کے لیے کون سی عادت زیادہ مددگار ہے؟",
+              "options": {
+                "A": "تمام سبزیاں چھوڑ دینا",
+                "B": "ریشہ دار غذا کھانا، مناسب محفوظ پانی پینا اور متحرک رہنا",
+                "C": "پاخانے کی حاجت کو روکنا",
+                "D": "ہر ہفتے اینٹی بایوٹک لینا"
+              },
+              "explanation": "ریشہ، مناسب پانی اور جسمانی سرگرمی آنتوں کی معمول کی حرکت میں مدد دے سکتے ہیں؛ مسلسل علامات میں طبی معائنہ ضروری ہے۔"
+            },
+            "sd": {
+              "question": "گهڻن ماڻهن ۾ قبض جو خطرو گهٽائڻ لاءِ ڪهڙي عادت وڌيڪ مددگار آهي؟",
+              "options": {
+                "A": "سڀ ڀاڄيون ڇڏڻ",
+                "B": "فائبر واري غذا کائڻ، مناسب صاف پاڻي پيئڻ ۽ سرگرم رهڻ",
+                "C": "پاخاني جي حاجت روڪڻ",
+                "D": "هر هفتي اينٽي بايوٽڪ وٺڻ"
+              },
+              "explanation": "فائبر، مناسب پاڻي ۽ جسماني سرگرمي آنڊي جي عام حرڪت ۾ مدد ڪن ٿا؛ لڳاتار تڪليف لاءِ طبي معائنو ضروري آهي."
+            }
+          }
+        },
+        {
+          "question": "A child with diarrhoea is being given ORS prepared according to the packet instructions. The main purpose is to:",
+          "options": {
+            "A": "Kill every intestinal bacterium",
+            "B": "Replace lost water and electrolytes",
+            "C": "Stop all digestion",
+            "D": "Provide digestive enzymes"
+          },
+          "correctOption": "B",
+          "explanation": "ORS supports rehydration by replacing water and salts; it is not an antibiotic or digestive enzyme.",
+          "translations": {
+            "ur": {
+              "question": "اسہال والے بچے کو پیکٹ کی ہدایات کے مطابق تیار کردہ ORS دیا جا رہا ہے۔ اس کا بنیادی مقصد کیا ہے؟",
+              "options": {
+                "A": "ہر آنتی جرثومے کو مارنا",
+                "B": "ضائع شدہ پانی اور نمکیات پورے کرنا",
+                "C": "تمام ہضم روک دینا",
+                "D": "ہاضم خامرے فراہم کرنا"
+              },
+              "explanation": "ORS پانی اور نمکیات کی کمی پوری کر کے جسم کو rehydrate کرتا ہے؛ یہ اینٹی بایوٹک یا ہاضم خامرہ نہیں ہے۔"
+            },
+            "sd": {
+              "question": "دستن واري ٻار کي پيڪٽ جي هدايتن مطابق تيار ڪيل ORS ڏنو پيو وڃي. ان جو بنيادي مقصد ڇا آهي؟",
+              "options": {
+                "A": "هر آنڊي جي جراثيم کي مارڻ",
+                "B": "ضايع ٿيل پاڻي ۽ لوڻ پورا ڪرڻ",
+                "C": "سڄو هضم بند ڪرڻ",
+                "D": "هاضمي جا اينزائم ڏيڻ"
+              },
+              "explanation": "ORS پاڻي ۽ لوڻن جي کوٽ پوري ڪري ٿو؛ اهو اينٽي بايوٽڪ يا هاضمي جو اينزائم ناهي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define holozoic nutrition and list its five stages in the correct order. Briefly explain the difference between egestion and excretion.",
+          "modelAnswer": "Holozoic nutrition is heterotrophic nutrition in which solid or liquid food is ingested, digested internally, absorbed and used by cells, while undigested residue is egested. The five stages are: ingestion, digestion, absorption, assimilation and egestion. Egestion removes undigested food from the alimentary canal; excretion removes metabolic wastes made by cells, such as urea and carbon dioxide.",
+          "rubric": [
+            "Correct definition of holozoic nutrition (1 mark)",
+            "Five stages in the correct order (2 marks)",
+            "Correct distinction between egestion and excretion (2 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ہولو زوئک غذائیت کی تعریف کریں اور اس کے پانچ مراحل درست ترتیب سے لکھیں۔ egestion اور excretion میں فرق بھی مختصراً بیان کریں۔",
+              "modelAnswer": "ہولو زوئک غذائیت غیر خودغذائیت ہے جس میں ٹھوس یا مائع غذا جسم میں داخل کی جاتی ہے، اندر ہضم ہوتی ہے، جذب ہو کر خلیات کے استعمال میں آتی ہے اور غیر ہضم شدہ باقیات خارج ہوتی ہیں۔ پانچ مراحل ہیں: غذا لینا، ہضم، جذب، استعمال/انجذاب اور غیر ہضم شدہ غذا کا اخراج۔ Egestion میں غیر ہضم شدہ غذا نکلتی ہے؛ excretion میں خلیات کے بنائے ہوئے فاضل مادّے، مثلاً یوریا اور کاربن ڈائی آکسائیڈ، خارج ہوتے ہیں۔",
+              "rubric": [
+                "ہولو زوئک غذائیت کی درست تعریف (1 نمبر)",
+                "پانچ مراحل درست ترتیب سے (2 نمبر)",
+                "Egestion اور excretion میں درست فرق (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "هولوزوئڪ غذائيت جي وصف ڏيو ۽ ان جا پنج مرحلا صحيح ترتيب سان لکو. egestion ۽ excretion ۾ فرق به مختصر بيان ڪريو.",
+              "modelAnswer": "هولوزوئڪ غذائيت غير خودغذائيت آهي، جنهن ۾ ٺوس يا پاڻياٺ کاڌو جسم ۾ داخل ٿئي ٿو، اندر هضم ٿئي ٿو، جذب ٿي خلين جي ڪم اچي ٿو ۽ اڻ هضم ٿيل باقي مادو خارج ٿئي ٿو. پنج مرحلا آهن: کاڌو اندر وٺڻ، هضم، جذب، استعمال ۽ اڻ هضم مادو خارج ڪرڻ. Egestion ۾ اڻ هضم کاڌو نڪري ٿو؛ excretion ۾ خلين جا ٺهيل فاضل مادا، جيئن يوريا ۽ ڪاربان ڊاءِ آڪسائيڊ، خارج ٿين ٿا.",
+              "rubric": [
+                "هولوزوئڪ غذائيت جي صحيح وصف (1 نمبر)",
+                "پنج مرحلا صحيح ترتيب سان (2 نمبر)",
+                "Egestion ۽ excretion ۾ صحيح فرق (2 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "What is peristalsis? Explain how the epiglottis helps during swallowing.",
+          "modelAnswer": "Peristalsis is the coordinated, wave-like contraction and relaxation of smooth muscles in the wall of the alimentary canal that pushes food forward. During swallowing, the epiglottis helps cover the entrance to the larynx so that food is directed towards the oesophagus rather than the airway.",
+          "rubric": [
+            "Definition of peristalsis as coordinated wave-like muscular movement (2 marks)",
+            "Role of epiglottis in protecting the airway during swallowing (2 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Peristalsis کیا ہے؟ وضاحت کریں کہ نگلنے کے دوران epiglottis کس طرح مدد دیتا ہے۔",
+              "modelAnswer": "Peristalsis غذائی نالی کی دیوار کے ہموار عضلات کا مربوط، موجی سکڑنا اور ڈھیلا ہونا ہے جس سے غذا آگے بڑھتی ہے۔ نگلتے وقت epiglottis حنجرے کے دہانے کو ڈھانپنے میں مدد دیتا ہے تاکہ غذا سانس کی نالی کے بجائے غذائی نالی کی طرف جائے۔",
+              "rubric": [
+                "Peristalsis کی موجی عضلاتی حرکت کے طور پر تعریف (2 نمبر)",
+                "نگلتے وقت سانس کی نالی کی حفاظت میں epiglottis کا کردار (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "Peristalsis ڇا آهي؟ وضاحت ڪريو ته ڳهڻ وقت epiglottis ڪيئن مدد ڪري ٿو.",
+              "modelAnswer": "Peristalsis غذائي نلي جي ڀت جي هموار عضلن جو گڏيل لهرائتو سڪڙڻ ۽ ڍرو ٿيڻ آهي، جنهن سان کاڌو اڳتي وڌي ٿو. ڳهڻ وقت epiglottis، larynx جي منهن کي ڍڪڻ ۾ مدد ڪري ٿو ته جيئن کاڌو ساهه واري نلي بدران خوراڪ جي نلي ڏانهن وڃي.",
+              "rubric": [
+                "Peristalsis جي لهرائتي عضلاتي حرڪت طور وصف (2 نمبر)",
+                "ڳهڻ وقت ساهه واري نلي جي حفاظت ۾ epiglottis جو ڪردار (2 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 6,
+          "question": "Complete a table for three digestive enzymes by naming each enzyme, its main substrate and its main products: salivary amylase, pepsin and pancreatic lipase.",
+          "modelAnswer": "| Enzyme | Main substrate | Main products |\n|---|---|---|\n| Salivary amylase | Starch | Shorter carbohydrates, including maltose and dextrins |\n| Pepsin | Proteins | Shorter peptides |\n| Pancreatic lipase | Triglycerides (fats) | Fatty acids and monoglycerides |",
+          "rubric": [
+            "Salivary amylase: starch and shorter carbohydrates (2 marks)",
+            "Pepsin: proteins and shorter peptides (2 marks)",
+            "Pancreatic lipase: fats and fatty acids/monoglycerides (2 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "تین ہاضم خامروں کے لیے ایک جدول مکمل کریں: ہر خامرے کا نام، اس کا بنیادی مادۂ عمل اور بنیادی پیداوار لکھیں: salivary amylase، pepsin اور pancreatic lipase۔",
+              "modelAnswer": "| خامرہ | بنیادی مادۂ عمل | بنیادی پیداوار |\n|---|---|---|\n| Salivary amylase | نشاستہ | چھوٹے کاربوہائیڈریٹس، مثلاً مالٹوز اور ڈیکسٹرنز |\n| Pepsin | پروٹین | چھوٹے پیپٹائڈز |\n| Pancreatic lipase | ٹرائی گلیسرائیڈز (چکنائی) | فیٹی ایسڈز اور مونوگلیسرائیڈز |",
+              "rubric": [
+                "Salivary amylase: نشاستہ اور چھوٹے کاربوہائیڈریٹس (2 نمبر)",
+                "Pepsin: پروٹین اور چھوٹے پیپٹائڈز (2 نمبر)",
+                "Pancreatic lipase: چکنائی اور فیٹی ایسڈز/مونوگلیسرائیڈز (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ٽن هاضمي وارن اينزائمن لاءِ جدول مڪمل ڪريو: هر اينزائم جو نالو، ان جو بنيادي مادو ۽ پيداوار لکو: salivary amylase، pepsin ۽ pancreatic lipase.",
+              "modelAnswer": "| اينزائم | بنيادي مادو | بنيادي پيداوار |\n|---|---|---|\n| Salivary amylase | نشاستو | ننڍا ڪاربوهائيڊريٽ، جهڙوڪ مالٽوز ۽ ڊيڪسٽرن |\n| Pepsin | پروٽين | ننڍا پيپٽائيڊ |\n| Pancreatic lipase | ٽرائي گلسرائيڊ (چرٻي) | fatty acids ۽ monoglycerides |",
+              "rubric": [
+                "Salivary amylase: نشاستو ۽ ننڍا ڪاربوهائيڊريٽ (2 نمبر)",
+                "Pepsin: پروٽين ۽ ننڍا پيپٽائيڊ (2 نمبر)",
+                "Pancreatic lipase: چرٻي ۽ fatty acids/monoglycerides (2 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Describe how a mixed meal is processed from the mouth to the small intestine. Include the roles of chewing, peristalsis, gastric juice, pancreatic juice, bile and intestinal enzymes.",
+          "modelAnswer": "Chewing breaks food into smaller pieces and mixes it with saliva. Salivary amylase begins starch digestion and the tongue forms a bolus. Swallowing moves the bolus into the oesophagus; peristalsis carries it to the stomach. Gastric muscles churn the meal. HCl provides an acidic environment and activates pepsin, which begins protein digestion; mucus protects the stomach lining. The stomach releases chyme gradually into the duodenum. Bile made by the liver and stored in the gallbladder emulsifies fats but is not an enzyme. Pancreatic bicarbonate helps neutralise acid, while pancreatic amylase, proteases and lipase digest carbohydrates, proteins and fats. Intestinal enzymes complete digestion into absorbable units. Most nutrients are absorbed through villi in the small intestine.",
+          "rubric": [
+            "Chewing, saliva/amylase and bolus formation (2 marks)",
+            "Swallowing and peristalsis to stomach (1 mark)",
+            "HCl, pepsin and protective mucus in stomach (2 marks)",
+            "Bile emulsifies fats and is not an enzyme (1 mark)",
+            "Pancreatic bicarbonate and enzyme roles (2 marks)",
+            "Intestinal completion and absorption through villi (2 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "وضاحت کریں کہ ملی جلی غذا منہ سے چھوٹی آنت تک کیسے پہنچتی اور ہضم ہوتی ہے۔ چبانے، peristalsis، معدی رس، لبلبے کے رس، صفرا اور آنتی خامروں کے کردار شامل کریں۔",
+              "modelAnswer": "چبانے سے غذا چھوٹے ٹکڑوں میں ٹوٹتی اور لعاب میں ملتی ہے۔ Salivary amylase نشاستے کا ہضم شروع کرتا ہے اور زبان لقمہ بناتی ہے۔ نگلنے سے لقمہ غذائی نالی میں جاتا ہے؛ peristalsis اسے معدے تک پہنچاتی ہے۔ معدے کے عضلات غذا کو ملاتے ہیں۔ HCl تیزابی ماحول بناتا اور pepsin کو فعال کرتا ہے، جو پروٹین کا ہضم شروع کرتا ہے؛ بلغم معدے کی دیوار کی حفاظت کرتا ہے۔ معدہ chyme کو آہستہ آہستہ گرہنی میں بھیجتا ہے۔ جگر کا بنایا اور پتّے میں ذخیرہ شدہ صفرا چکنائی کو چھوٹے قطروں میں تقسیم کرتا ہے، مگر خامرہ نہیں ہے۔ لبلبے کا bicarbonate تیزاب کو غیر مؤثر کرتا ہے، جبکہ amylase، proteases اور lipase کاربوہائیڈریٹس، پروٹین اور چکنائی کو ہضم کرتے ہیں۔ آنتی خامرے ہضم مکمل کرتے ہیں اور زیادہ تر غذائی اجزا چھوٹی آنت کے villi سے جذب ہوتے ہیں۔",
+              "rubric": [
+                "چبانا، لعاب/amylase اور لقمہ بننا (2 نمبر)",
+                "نگلنا اور peristalsis کے ذریعے معدے تک پہنچنا (1 نمبر)",
+                "معدے میں HCl، pepsin اور حفاظتی بلغم (2 نمبر)",
+                "صفرا چکنائی کو emulsify کرتا ہے اور خامرہ نہیں (1 نمبر)",
+                "لبلبے کے bicarbonate اور خامروں کے کردار (2 نمبر)",
+                "آنتی ہضم کی تکمیل اور villi سے جذب (2 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "بيان ڪريو ته گڏيل کاڌو وات کان ننڍي آنڊي تائين ڪيئن پهچي ۽ هضم ٿئي ٿو. چٻاڙڻ، peristalsis، معدي جي رس، لبلبي جي رس، صفرا ۽ آنڊي جي اينزائمن جا ڪم شامل ڪريو.",
+              "modelAnswer": "چٻاڙڻ سان کاڌو ننڍن ٽڪرن ۾ ٽٽي لعاب سان ملي ٿو. Salivary amylase نشاستي جو هضم شروع ڪري ٿو ۽ زبان کاڌي جو گولو ٺاهي ٿي. ڳهڻ سان گولو خوراڪ جي نلي ۾ وڃي ٿو؛ peristalsis ان کي معدي تائين پهچائي ٿي. معدي جا عضلا کاڌي کي ملائين ٿا. HCl تيزابي ماحول ٺاهي pepsin کي فعال ڪري ٿو، جيڪو پروٽين جو هضم شروع ڪري ٿو؛ بلغم معدي جي ڀت بچائي ٿو. معدو chyme کي آهستي آهستي ٻارهن آڱرين واري آنڊي ۾ موڪلي ٿو. جگر جو ٺهيل ۽ پتي ۾ ذخيرو ٿيل صفرا چرٻي جي ڦڙن کي ننڍو ڪري ٿو، پر اينزائم ناهي. لبلبي جو bicarbonate تيزاب کي غير تيزابي ڪري ٿو، جڏهن ته amylase، proteases ۽ lipase ڪاربوهائيڊريٽ، پروٽين ۽ چرٻي هضم ڪن ٿا. آنڊي جا اينزائم هضم مڪمل ڪن ٿا ۽ گهڻا غذائي جزا ننڍي آنڊي جي villi مان جذب ٿين ٿا.",
+              "rubric": [
+                "چٻاڙڻ، لعاب/amylase ۽ کاڌي جو گولو (2 نمبر)",
+                "ڳهڻ ۽ peristalsis سان معدي تائين پهچڻ (1 نمبر)",
+                "معدي ۾ HCl، pepsin ۽ حفاظتي بلغم (2 نمبر)",
+                "صفرا چرٻي کي ننڍن ڦڙن ۾ ڪري ٿو ۽ اينزائم ناهي (1 نمبر)",
+                "لبلبي جي bicarbonate ۽ اينزائمن جا ڪم (2 نمبر)",
+                "آنڊي ۾ هضم جي تڪميل ۽ villi مان جذب (2 نمبر)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Case study: Several pupils develop watery diarrhoea after drinking water from an unsafe school tank. One pupil becomes dizzy, has a dry mouth and passes very little urine. Explain the immediate biological risk, how correctly prepared ORS helps, what action the school should take, and four prevention measures.",
+          "modelAnswer": "The pupil may be developing dehydration because diarrhoea removes water and electrolytes from the body. Dizziness, dry mouth and very little urine are warning signs that need prompt medical assessment, especially in a child. ORS contains measured glucose and salts; when prepared exactly as directed with safe water, it supports absorption of sodium and water in the intestine and replaces losses. The pupil should be assessed urgently by a health professional; safe fluids and continued appropriate feeding should be offered, and severe dehydration or inability to drink requires urgent care. The school should stop use of the unsafe tank, provide a safe water source and arrange assessment of affected pupils. Prevention includes protecting and cleaning water tanks, treating or boiling unsafe water appropriately, handwashing with soap, safe food handling, clean toilets and prompt reporting of outbreaks.",
+          "rubric": [
+            "Recognises dehydration and electrolyte loss as the immediate risk (2 marks)",
+            "Explains ORS replaces water/salts and supports absorption (2 marks)",
+            "Appropriate prompt medical assessment and safe school response (2 marks)",
+            "Four relevant prevention measures, one mark each (4 marks)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "کیس اسٹڈی: اسکول کے غیر محفوظ ٹینک کا پانی پینے کے بعد کئی طلبہ کو پانی جیسے دست لگ جاتے ہیں۔ ایک طالب علم کو چکر آتے ہیں، منہ خشک ہے اور پیشاب بہت کم آتا ہے۔ فوری حیاتیاتی خطرہ، درست طریقے سے تیار ORS کا فائدہ، اسکول کے ضروری اقدامات اور بچاؤ کے چار طریقے بیان کریں۔",
+              "modelAnswer": "اس طالب علم کو پانی اور نمکیات کے ضیاع کی وجہ سے جسم میں پانی کی کمی ہو سکتی ہے۔ چکر، خشک منہ اور بہت کم پیشاب خطرے کی علامات ہیں اور بچے کا فوری طبی معائنہ ضروری ہے۔ ORS میں نپی تلی مقدار میں گلوکوز اور نمکیات ہوتے ہیں؛ اسے محفوظ پانی میں ہدایات کے مطابق تیار کرنے سے آنت میں سوڈیم اور پانی کے جذب میں مدد ملتی ہے اور ضائع شدہ اجزا پورے ہوتے ہیں۔ طالب علم کا فوری طبی معائنہ کرایا جائے؛ محفوظ سیال اور مناسب غذا جاری رکھی جائے، جبکہ شدید پانی کی کمی یا پینے سے معذوری میں فوری علاج ضروری ہے۔ اسکول غیر محفوظ ٹینک کا استعمال بند کرے، محفوظ پانی فراہم کرے اور متاثرہ بچوں کا معائنہ کرائے۔ بچاؤ میں پانی کے ٹینک کی صفائی و حفاظت، غیر محفوظ پانی کو مناسب طریقے سے صاف یا ابالنا، صابن سے ہاتھ دھونا، خوراک کو محفوظ رکھنا، صاف بیت الخلا اور وبا کی فوری اطلاع شامل ہیں۔",
+              "rubric": [
+                "پانی اور نمکیات کی کمی کو فوری خطرہ پہچاننا (2 نمبر)",
+                "ORS کا پانی/نمکیات پورے کرنے اور جذب میں مدد دینے کا کردار (2 نمبر)",
+                "فوری طبی معائنہ اور اسکول کے مناسب اقدامات (2 نمبر)",
+                "بچاؤ کے چار درست طریقے، ہر ایک کا 1 نمبر (4 نمبر)"
+              ]
+            },
+            "sd": {
+              "question": "ڪيس اسٽڊي: اسڪول جي غير محفوظ ٽانڪي جو پاڻي پيئڻ کان پوءِ ڪيترن شاگردن کي پاڻي جهڙا دست ٿين ٿا. هڪ شاگرد کي چڪر اچن ٿا، وات سڪل آهي ۽ پيشاب تمام گهٽ اچي ٿو. فوري حياتياتي خطرو، صحيح نموني تيار ڪيل ORS جو فائدو، اسڪول جا ضروري قدم ۽ بچاءَ جا چار طريقا بيان ڪريو.",
+              "modelAnswer": "شاگرد کي دستن سبب پاڻي ۽ لوڻن جي ضايع ٿيڻ ڪري جسم ۾ پاڻيءَ جي کوٽ ٿي سگهي ٿي. چڪر، سڪل وات ۽ تمام گهٽ پيشاب خطري جون نشانيون آهن؛ ٻار جو ترت طبي معائنو ضروري آهي. ORS ۾ ماپيل گلوڪوز ۽ لوڻ هوندا آهن؛ محفوظ پاڻيءَ ۾ هدايتن مطابق تيار ڪرڻ سان آنڊي ۾ سوڊيم ۽ پاڻيءَ جي جذب ۾ مدد ملي ٿي ۽ ضايع ٿيل جزا پورا ٿين ٿا. شاگرد جو فوري طبي معائنو ڪرايو وڃي؛ محفوظ پاڻياٺ ۽ مناسب کاڌو جاري رکيو وڃي، جڏهن ته شديد پاڻيءَ جي کوٽ يا پيئڻ جي سگهه نه هجڻ ۾ تڪڙو علاج ضروري آهي. اسڪول غير محفوظ ٽانڪي جو استعمال بند ڪري، صاف پاڻي مهيا ڪري ۽ متاثر شاگردن جو معائنو ڪرائي. بچاءَ ۾ ٽانڪي جي صفائي ۽ حفاظت، غير محفوظ پاڻي کي صحيح نموني صاف يا اُبالڻ، صابڻ سان هٿ ڌوئڻ، کاڌي کي محفوظ رکڻ، صاف ٽوائليٽ ۽ وبا جي ترت رپورٽ شامل آهن.",
+              "rubric": [
+                "پاڻي ۽ لوڻن جي کوٽ کي فوري خطرو سڃاڻڻ (2 نمبر)",
+                "ORS جو پاڻي/لوڻ پورا ڪرڻ ۽ جذب ۾ مدد وارو ڪم (2 نمبر)",
+                "تڪڙو طبي معائنو ۽ اسڪول جا مناسب قدم (2 نمبر)",
+                "بچاءَ جا چار صحيح طريقا، هر هڪ جو 1 نمبر (4 نمبر)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
