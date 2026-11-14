@@ -7,6 +7,24 @@ const PHONEMIZER_BASE = "https://cdn.jsdelivr.net/npm/@diffusionstudio/piper-was
 ort.env.wasm.wasmPaths = ORT_BASE;
 ort.env.wasm.numThreads = 1;
 
+const MODEL_CACHE_NAME = "zeeroz-piper-models-v1";
+async function fetchPersistent(url) {
+  let cache = null;
+  try {
+    if ("caches" in window) {
+      cache = await caches.open(MODEL_CACHE_NAME);
+      const saved = await cache.match(url);
+      if (saved) return saved;
+    }
+  } catch (error) { console.warn("[Zeeroz TTS cache] Persistent cache unavailable; using normal download.", error); }
+  const response = await fetch(url, { cache: "force-cache" });
+  if (response.ok && cache) {
+    try { await cache.put(url, response.clone()); }
+    catch (error) { console.warn("[Zeeroz TTS cache] Could not persist voice asset; current session can continue.", error); }
+  }
+  return response;
+}
+
 let phonemizerPromise;
 function getPhonemizer() {
   return phonemizerPromise ??= (async () => {
@@ -33,7 +51,7 @@ async function createEngine(onnxUrl, cfgUrl, onProgress) {
   // model buffer. On mobile browsers that doubled peak memory while ONNX opened.
   let modelResponse, configResponse;
   try {
-    [modelResponse, configResponse] = await Promise.all([fetch(onnxUrl), fetch(cfgUrl)]);
+    [modelResponse, configResponse] = await Promise.all([fetchPersistent(onnxUrl), fetchPersistent(cfgUrl)]);
   } catch (e) {
     throw new Error("Neural voice download could not connect: " + (e?.message || String(e)));
   }
