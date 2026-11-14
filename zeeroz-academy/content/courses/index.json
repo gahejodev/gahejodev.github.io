@@ -61,6 +61,12 @@
       "title": "Biology IX — Chapter 10: Evolution",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-10-evolution.json",
       "version": "7"
+    },
+    {
+      "id": "biology-x-chapter-11-holozoic-nutrition",
+      "title": "Biology X — Chapter 11: Holozoic Nutrition",
+      "path": "zeeroz-academy/content/courses/biology-x-chapter-11-holozoic-nutrition.json",
+      "version": "1"
     }
   ]
 }
