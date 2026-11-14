@@ -2,7 +2,7 @@
   "id": "chemistry-xii-complete",
   "title": "Chemistry XII — Complete Course",
   "description": "Grade XII Chemistry chapter collection with lessons, MCQs, CRQs, ERQs and Urdu/Sindhi support.",
-  "version": "3",
+  "version": "4",
   "chapters": [
     {
       "title": "Chapter 1: Chemistry of Representative Elements",
@@ -56,662 +56,228 @@
       ],
       "questions": [
         {
-          "question": "Which statement describes s/p-block position?",
+          "question": "Which subshell receives the differentiating electron in an s-block element?",
           "options": {
-            "A": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "s",
+            "B": "p",
+            "C": "d",
+            "D": "f"
           },
           "correctOption": "A",
-          "explanation": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "s/p-block position کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "s/p-block position بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
+          "explanation": "The differentiating electron enters an s subshell; the outer configuration is generally ns¹ or ns²."
         },
         {
-          "question": "Choose the correct principle for s/p-block position.",
+          "question": "What is the valence-shell configuration of a Group 17 element?",
           "options": {
-            "A": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "ns²np¹",
+            "B": "ns²np⁵",
+            "C": "ns²np⁶",
+            "D": "ns¹"
           },
           "correctOption": "B",
-          "explanation": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "s/p-block position کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "s/p-block position بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
+          "explanation": "Group 17 elements have seven valence electrons, represented by ns²np⁵."
         },
         {
-          "question": "What is the scientifically accurate point about s/p-block position?",
+          "question": "Which element has the electron configuration [Ne]3s¹?",
           "options": {
-            "A": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "C",
-          "explanation": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "s/p-block position کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "s/p-block position بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes alkali metals?",
-          "options": {
-            "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "Magnesium",
+            "B": "Sodium",
+            "C": "Aluminium",
+            "D": "Chlorine"
           },
           "correctOption": "B",
-          "explanation": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "alkali metals کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "alkali metals بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
+          "explanation": "[Ne]3s¹ identifies sodium, a Group 1, Period 3 element."
         },
         {
-          "question": "Choose the correct principle for alkali metals.",
+          "question": "Which Group 2 element reacts very slowly with cold water but reacts with steam?",
           "options": {
-            "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "Calcium",
+            "B": "Barium",
+            "C": "Magnesium",
+            "D": "Strontium"
           },
           "correctOption": "C",
-          "explanation": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "alkali metals کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "alkali metals بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
+          "explanation": "Magnesium reacts very slowly with cold water and more readily with steam."
         },
         {
-          "question": "What is the scientifically accurate point about alkali metals?",
+          "question": "What is the main reason alkali metals are stored under oil?",
           "options": {
-            "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "They are insoluble in oil",
+            "B": "They react readily with air and moisture",
+            "C": "They are radioactive",
+            "D": "They dissolve in nitrogen"
+          },
+          "correctOption": "B",
+          "explanation": "Oil limits contact with oxygen and water vapour, preventing rapid reaction."
+        },
+        {
+          "question": "Which trend generally occurs down Group 1?",
+          "options": {
+            "A": "First ionisation energy increases",
+            "B": "Atomic radius decreases",
+            "C": "Reactivity with water increases",
+            "D": "Metallic character decreases"
+          },
+          "correctOption": "C",
+          "explanation": "Larger atoms down Group 1 lose their outer electron more readily, so reactivity generally increases."
+        },
+        {
+          "question": "What products form when sodium reacts with water?",
+          "options": {
+            "A": "Sodium oxide and oxygen",
+            "B": "Sodium hydroxide and hydrogen",
+            "C": "Sodium chloride and hydrogen",
+            "D": "Sodium hydride and oxygen"
+          },
+          "correctOption": "B",
+          "explanation": "2Na + 2H₂O → 2NaOH + H₂."
+        },
+        {
+          "question": "Which statement about Group 2 hydroxides is generally correct?",
+          "options": {
+            "A": "Their solubility decreases down the group",
+            "B": "Their solubility increases down the group",
+            "C": "All are insoluble",
+            "D": "They are neutral in water"
+          },
+          "correctOption": "B",
+          "explanation": "The solubility of Group 2 hydroxides generally increases down the group."
+        },
+        {
+          "question": "Which halogen is the strongest oxidising agent?",
+          "options": {
+            "A": "Iodine",
+            "B": "Bromine",
+            "C": "Chlorine",
+            "D": "Fluorine"
           },
           "correctOption": "D",
-          "explanation": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "alkali metals کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "alkali metals بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
+          "explanation": "Fluorine has the greatest tendency to gain electrons and is the strongest oxidising halogen."
         },
         {
-          "question": "Which statement describes alkaline earth metals?",
+          "question": "What happens when chlorine is added to potassium bromide solution?",
           "options": {
-            "A": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "C",
-          "explanation": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "alkaline earth metals کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "alkaline earth metals بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for alkaline earth metals.",
-          "options": {
-            "A": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "D",
-          "explanation": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "alkaline earth metals کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "alkaline earth metals بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about alkaline earth metals?",
-          "options": {
-            "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "A",
-          "explanation": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "alkaline earth metals کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "alkaline earth metals بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes halogens?",
-          "options": {
-            "A": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "D",
-          "explanation": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "halogens کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "halogens بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for halogens.",
-          "options": {
-            "A": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "A",
-          "explanation": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "halogens کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "halogens بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about halogens?",
-          "options": {
-            "A": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "No reaction occurs",
+            "B": "Bromine is displaced",
+            "C": "Iodine is displaced",
+            "D": "Potassium metal forms"
           },
           "correctOption": "B",
-          "explanation": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "halogens کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "halogens بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
+          "explanation": "Chlorine is more reactive and oxidises bromide ions: Cl₂ + 2KBr → 2KCl + Br₂."
         },
         {
-          "question": "Which statement describes noble gases?",
+          "question": "Why does hydrogen halide acid strength generally increase from HF to HI in water?",
           "options": {
-            "A": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "A",
-          "explanation": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "noble gases کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "noble gases بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for noble gases.",
-          "options": {
-            "A": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "H–X bond strength increases",
+            "B": "H–X bond strength decreases",
+            "C": "Atomic radius decreases",
+            "D": "All molecules become non-polar"
           },
           "correctOption": "B",
-          "explanation": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "noble gases کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "noble gases بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
+          "explanation": "The H–X bond becomes weaker down the group, making proton release easier."
         },
         {
-          "question": "What is the scientifically accurate point about noble gases?",
+          "question": "Which statement best explains the low reactivity of noble gases?",
           "options": {
-            "A": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "They have one valence electron",
+            "B": "They have filled valence shells",
+            "C": "They are all metals",
+            "D": "They form ionic lattices"
+          },
+          "correctOption": "B",
+          "explanation": "A filled outer shell is energetically stable and usually resists electron gain or loss."
+        },
+        {
+          "question": "Which noble gas is commonly used to provide an inert atmosphere in welding?",
+          "options": {
+            "A": "Neon",
+            "B": "Helium",
+            "C": "Argon",
+            "D": "Radon"
           },
           "correctOption": "C",
-          "explanation": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "noble gases کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "noble gases بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "halogens: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
+          "explanation": "Argon is relatively unreactive and shields hot metal from atmospheric oxygen and nitrogen."
+        },
+        {
+          "question": "Why do boiling points of noble gases generally increase down Group 18?",
+          "options": {
+            "A": "Covalent bonds become stronger",
+            "B": "London dispersion forces become stronger",
+            "C": "They become ionic",
+            "D": "Their molecules become diatomic"
+          },
+          "correctOption": "B",
+          "explanation": "Larger, more polarisable electron clouds produce stronger dispersion forces."
+        },
+        {
+          "question": "Which statement about noble gases is scientifically accurate?",
+          "options": {
+            "A": "No noble gas forms compounds",
+            "B": "Xenon can form compounds under suitable conditions",
+            "C": "All noble gases are liquids at room temperature",
+            "D": "Helium has the largest atoms"
+          },
+          "correctOption": "B",
+          "explanation": "Xenon compounds show that noble-gas reactivity is low, not absolutely zero."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define s/p-block position and give one example.",
-          "modelAnswer": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "question": "Write the general valence-shell electronic configuration of Group 1 and Group 2 elements. State the common ion formed by each group.",
+          "modelAnswer": "Group 1: ns¹; these elements commonly lose one electron to form M⁺ ions. Group 2: ns²; these elements commonly lose two electrons to form M²⁺ ions.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "s/p-block position کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "s/p-block position جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "s/p-block position: explain its structure, characteristic properties, key reactions and a relevant application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Correct Group 1 configuration and M⁺ (1)",
+            "Correct Group 2 configuration and M²⁺ (1)",
+            "Clear explanation of electron loss (1)"
+          ]
         },
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define alkaline earth metals and give one example.",
-          "modelAnswer": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "question": "Write a balanced equation for the reaction of calcium with cold water and name the products.",
+          "modelAnswer": "Ca + 2H₂O → Ca(OH)₂ + H₂. The products are calcium hydroxide and hydrogen gas.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "alkaline earth metals کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "alkaline earth metals جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "alkaline earth metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Correct reactants (1)",
+            "Balanced equation (1)",
+            "Both products named (1)"
+          ]
         },
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define noble gases and give one example.",
-          "modelAnswer": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "question": "Explain why chlorine displaces bromine from aqueous potassium bromide. Write the balanced equation.",
+          "modelAnswer": "Chlorine is a stronger oxidising agent and is more reactive than bromine. It oxidises Br⁻ to Br₂: Cl₂ + 2KBr → 2KCl + Br₂.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "noble gases کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "noble gases جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "noble gases: explain its structure, characteristic properties, key reactions and a relevant application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Correct reactivity/oxidising-power comparison (1)",
+            "Correct displacement explanation (1)",
+            "Balanced equation (1)"
+          ]
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain alkali metals with its principle, features and applications.",
-          "modelAnswer": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "marks": 8,
+          "question": "Compare the chemical behaviour of Group 1 and Group 2 metals. Include valence configurations, common ions, reaction with water and one periodic trend.",
+          "modelAnswer": "Group 1 metals have ns¹ and usually form M⁺ ions; Group 2 metals have ns² and usually form M²⁺ ions. Both are electropositive metals, but Group 1 metals generally react more vigorously with water. For Group 1: 2M + 2H₂O → 2MOH + H₂. For calcium: Ca + 2H₂O → Ca(OH)₂ + H₂. Down each group atomic radius increases and ionisation energy generally decreases, so metallic reactivity tends to increase. Beryllium is an important exception in its reaction with water.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "alkali metals کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "alkali metals جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "alkali metals: explain its structure, characteristic properties, key reactions and a relevant application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
+            "Valence configurations and ions (2)",
+            "Comparison of reactivity (2)",
+            "Correct balanced reactions (2)",
+            "Periodic trend and suitable exception (2)"
+          ]
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain halogens with its principle, features and applications.",
-          "modelAnswer": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "marks": 8,
+          "question": "Describe the characteristic properties and periodic trends of halogens and noble gases, giving one relevant reaction or application for each group.",
+          "modelAnswer": "Halogens are Group 17 non-metals with ns²np⁵ configuration. They are diatomic, coloured and reactive; oxidising power decreases down the group. A more reactive halogen displaces a less reactive halide, for example Cl₂ + 2KBr → 2KCl + Br₂. Noble gases are Group 18 monoatomic gases with filled valence shells and very low chemical reactivity. Their boiling points increase down the group because dispersion forces become stronger. Argon is used as an inert shielding gas in welding; xenon can form compounds under suitable conditions.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "halogens کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "halogens جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "halogens: explain its structure, characteristic properties, key reactions and a relevant application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
+            "Halogen configuration and properties (2)",
+            "Halogen trend and balanced reaction (2)",
+            "Noble-gas configuration and properties/trend (2)",
+            "Accurate application and qualification about xenon (2)"
+          ]
         }
       ]
     },
