@@ -156,7 +156,7 @@ $("saveStorageWorkerUrl")?.addEventListener("click",async()=>{
  $("storageWorkerStatus").textContent="Testing Worker connection…";
  try{
   const response=await fetch(value+"/health"),data=await response.json();
-  if(!response.ok||!data.ok)throw new Error(data.error||"Health check failed.");
+  if(!response.ok||!data.ok||!data.configured)throw new Error(data.error||"Worker is reachable but R2 bucket/secrets are not fully configured yet.");
   localStorage.setItem("zeerozSocialStorageWorkerUrl",value);
   $("storageWorkerStatus").textContent="Connected: "+(data.service||"Social Storage API")+".";
   say("Secure storage Worker connection saved.");
