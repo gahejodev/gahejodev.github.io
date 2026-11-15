@@ -53,6 +53,44 @@ function platformStatusText(value){
  const labels={not_started:"Not started",awaiting_platform_setup:"Awaiting platform connection",ready:"Ready to publish",uploading:"Uploading",published:"Published",failed:"Failed",scheduled:"Scheduled"};
  return labels[value]||value||"Not started";
 }
+function storageWorkerUrl(){return (localStorage.getItem("zeerozSocialStorageWorkerUrl")||"").trim().replace(/\/$/,"")}
+async function uploadLocalVideo(postId,post,card){
+ const button=card.querySelector('[data-action="upload"]');
+ const note=document.createElement("p");note.className="hint";card.append(note);
+ const worker=storageWorkerUrl();
+ if(!worker)throw new Error("Pehle Secure video storage connection mein Worker URL save karein.");
+ if(!/^https:\/\//i.test(worker))throw new Error("Storage Worker URL must use HTTPS.");
+ if(!post.localVideoKey)throw new Error("Is post ke saath local video file nahi mili.");
+ const local=await getStoredSocialVideo(post.localVideoKey);
+ if(!local?.blob)throw new Error("Local video file missing. Same phone/browser use karein.");
+ const user=window.ZeerozFirebase.auth.currentUser;
+ if(!user)throw new Error("Administrator sign-in required.");
+ const mimeType=local.mimeType||local.blob.type||"video/webm";
+ const sizeBytes=local.sizeBytes||local.blob.size;
+ button.disabled=true;note.textContent="Secure upload link ban raha hai…";
+ try{
+  const token=await user.getIdToken();
+  const create=await fetch(worker+"/create-upload",{method:"POST",headers:{"Authorization":"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify({fileName:local.fileName||post.localVideoName||"lesson-video.webm",mimeType,sizeBytes})});
+  const ticket=await create.json().catch(()=>({}));
+  if(!create.ok)throw new Error(ticket.error||"Could not create secure upload.");
+  note.textContent="Video Cloudflare R2 par upload ho rahi hai…";
+  const put=await fetch(ticket.putUrl,{method:"PUT",headers:{"Content-Type":mimeType},body:local.blob});
+  if(!put.ok)throw new Error("Cloud storage upload failed (HTTP "+put.status+"). Check R2 bucket CORS and Worker setup.");
+  note.textContent="Upload verify ho raha hai…";
+  const confirm=await fetch(worker+"/confirm-upload",{method:"POST",headers:{"Authorization":"Bearer "+token,"Content-Type":"application/json"},body:JSON.stringify({key:ticket.key,sizeBytes})});
+  const result=await confirm.json().catch(()=>({}));
+  if(!confirm.ok)throw new Error(result.error||"Cloud upload verification failed.");
+  const platformResults={...(post.platformResults||{})};
+  (post.platforms||[]).forEach(x=>{platformResults[x]=platformResults[x]||{status:"awaiting_platform_setup",message:"Video stored in cloud; official platform connection is still required."}});
+  await updateDoc(doc(db(),"socialPosts",postId),{
+   videoUrl:result.mediaUrl,videoStorage:"cloudflare_r2",remoteMediaKey:result.key,
+   sizeBytes:result.sizeBytes,platformResults,cloudUploadedAt:serverTimestamp(),updatedAt:serverTimestamp()
+  });
+  say("Video securely uploaded to cloud storage. Platform publishing is still awaiting official account connections.");
+  await load();
+ }catch(error){button.disabled=false;note.textContent="Upload failed: "+error.message;throw error}
+}
+
 
 
 async function load(){
@@ -76,7 +114,7 @@ async function load(){
    '<p class="hint">Mode: '+esc(p.publishMode||"approval")+' · Overall: <strong>'+esc(p.status||"draft")+'</strong> · Schedule: '+esc(when(p.scheduleAt))+'</p>'+
    '<details><summary style="cursor:pointer;font-weight:700">Platform-by-platform status</summary><ul>'+statusRows+'</ul></details>'+
    '<details style="margin-top:8px"><summary style="cursor:pointer;font-weight:700">Edit platform captions</summary>'+captionEditor+'<button class="btn secondary" data-action="captions">Save captions</button></details>'+
-   videoLine+'<div><button class="btn secondary" data-action="approve">Approve / queue</button><button class="btn secondary" data-action="draft">Return to draft</button><button class="btn danger" data-action="delete">Delete</button></div>';
+   videoLine+'<div>'+(p.localVideoKey&&!p.videoUrl?'<button class="btn" data-action="upload">Upload video to cloud</button>':'')+'<button class="btn secondary" data-action="approve">Approve / queue</button><button class="btn secondary" data-action="draft">Return to draft</button><button class="btn danger" data-action="delete">Delete</button></div>';
   if(p.localVideoKey){
    try{
     const local=await getStoredSocialVideo(p.localVideoKey);
@@ -89,6 +127,7 @@ async function load(){
     }else{const missing=document.createElement("p");missing.className="hint";missing.textContent="Video file is not present in this browser. Open this queue on the same device/browser where the Studio created it, and do not clear site data.";card.append(missing)}
    }catch(e){const missing=document.createElement("p");missing.className="hint";missing.textContent="Local video could not be opened: "+e.message;card.append(missing)}
   }
+  card.querySelector('[data-action="upload"]')?.addEventListener("click",async()=>{try{await uploadLocalVideo(d.id,p,card)}catch(e){say("Cloud upload failed: "+e.message)}});
   card.querySelector('[data-action="captions"]').addEventListener("click",()=>{
    const updated={};card.querySelectorAll("[data-caption]").forEach(el=>updated[el.dataset.caption]=el.value.trim());
    change(d.id,{platformCaptions:updated});
@@ -108,6 +147,21 @@ async function load(){
  }
 }
 async function change(id,data){try{await updateDoc(doc(db(),"socialPosts",id),{...data,updatedAt:serverTimestamp()});say("Content record updated.");await load()}catch(e){say("Update failed: "+e.message)}}
+
+const workerInput=$("storageWorkerUrl");
+if(workerInput)workerInput.value=storageWorkerUrl();
+$("saveStorageWorkerUrl")?.addEventListener("click",async()=>{
+ const value=$("storageWorkerUrl").value.trim().replace(/\/$/,"");
+ if(!/^https:\/\//i.test(value)){ $("storageWorkerStatus").textContent="Please enter a valid HTTPS Worker URL.";return}
+ $("storageWorkerStatus").textContent="Testing Worker connection…";
+ try{
+  const response=await fetch(value+"/health"),data=await response.json();
+  if(!response.ok||!data.ok)throw new Error(data.error||"Health check failed.");
+  localStorage.setItem("zeerozSocialStorageWorkerUrl",value);
+  $("storageWorkerStatus").textContent="Connected: "+(data.service||"Social Storage API")+".";
+  say("Secure storage Worker connection saved.");
+ }catch(e){$("storageWorkerStatus").textContent="Connection failed: "+e.message}
+});
 onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
  if(!user){location.href="./student-login.html";return}
  try{const token=await user.getIdTokenResult(true);if(token.claims.admin!==true){document.body.innerHTML="<main style='padding:30px;font:16px system-ui'><h2>Administrator access required</h2><a href='./student-login.html'>Sign in</a></main>";return}admin=true;await load()}catch(e){say("Could not load queue: "+e.message)}
