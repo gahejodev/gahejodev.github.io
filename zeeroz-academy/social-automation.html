@@ -12,6 +12,31 @@
 <h1>Social Media Content Queue</h1>
 <p class="hint">Create and review video-post records for YouTube, Facebook, Instagram and TikTok. This first release safely manages drafts and approvals; it does not claim a post is published until each platform's official API connection is configured and confirms success.</p>
 <div class="warn"><strong>Publishing connection status:</strong> Platform OAuth/API credentials are not connected yet. Approving a post records your instruction. Direct upload will be enabled after each platform's official account authorization and upload integration are connected.</div>
+<section class="card" id="developerConnections">
+<h2>Developer Connections Setup</h2>
+<p class="hint">Yahan se official developer portals khol kar app setup shuru kar sakte hain. Filhal kisi platform ka account connected nahi hai. Ye setup guide hai — buttons abhi OAuth connect ya video publish nahi karte.</p>
+<div class="grid">
+<div class="post">
+<h3>Google / YouTube</h3><span class="tag">Not connected</span>
+<p class="hint">Google Cloud project aur YouTube Data API v3 OAuth setup darkar hai. Upload permission: <code>youtube.upload</code>.</p>
+<a class="btn" href="https://console.cloud.google.com/apis/credentials" target="_blank" rel="noopener">Open Google Cloud Credentials</a>
+<p class="hint">Agla qadam: project select/create karein, YouTube Data API v3 enable karein. OAuth consent screen aur authorized redirect URI abhi configure na karein — callback endpoint deploy hone ke baad exact URI diya jayega.</p>
+</div>
+<div class="post">
+<h3>Facebook + Instagram</h3><span class="tag">Not connected</span>
+<p class="hint">Meta app, Facebook Page access aur Instagram Professional account ki authorization chahiye. Instagram publishing ke liye supported professional account zaroori hai.</p>
+<a class="btn" href="https://developers.facebook.com/apps/" target="_blank" rel="noopener">Open Meta for Developers</a>
+<p class="hint">Agla qadam: Meta developer account mein app create karein. Facebook Page aur Instagram Professional account access confirm karein. Redirect URI / permissions abhi set na karein; exact configuration integration backend ke baad milegi.</p>
+</div>
+<div class="post">
+<h3>TikTok</h3><span class="tag">Not connected</span>
+<p class="hint">TikTok for Developers app aur Content Posting API access chahiye. Public posting ke liye <code>video.publish</code> permission ki approval lag sakti hai; unreviewed apps par posting private-only ho sakti hai.</p>
+<a class="btn" href="https://developers.tiktok.com/" target="_blank" rel="noopener">Open TikTok for Developers</a>
+<p class="hint">Agla qadam: developer account/app create karein aur Content Posting API documentation dekhein. App review aur redirect configuration integration endpoint milne ke baad complete hogi.</p>
+</div>
+</div>
+<div class="warn"><strong>Important:</strong> Abhi kisi ka password, client secret ya access token website/chat mein paste na karein. Video file cloud par save nahi hogi. YouTube/Facebook/TikTok ke direct upload flows platform APIs ke mutabiq implement honge; Instagram ka documented publishing flow video URL maang sakta hai, is liye zero-intermediary-storage requirement ko us platform par pehle technically verify karna hoga. Developer app banana/approval platform owner ke account se hi hoga.</div>
+</section>
 <section class="card">
 <h2>Create a video post</h2>
 <form id="postForm">
