@@ -13,6 +13,13 @@
 <p class="hint">Create and review video-post records for YouTube, Facebook, Instagram and TikTok. This first release safely manages drafts and approvals; it does not claim a post is published until each platform's official API connection is configured and confirms success.</p>
 <div class="warn"><strong>Publishing connection status:</strong> Platform OAuth/API credentials are not connected yet. Approving a post records your publishing instruction; actual upload remains pending until the secure publishing backend and platform permissions are installed.</div>
 <section class="card">
+<h2>Secure video storage connection</h2>
+<p class="hint">Cloudflare Worker URL yahan save karein. Yeh URL secret nahi; access tokens aur R2 keys sirf Cloudflare Worker Secrets mein rahenge.</p>
+<label for="storageWorkerUrl">Social Storage Worker URL</label><input id="storageWorkerUrl" type="url" placeholder="https://zeeroz-social-storage.YOUR-SUBDOMAIN.workers.dev">
+<button class="btn secondary" type="button" id="saveStorageWorkerUrl">Save storage connection</button>
+<p class="hint" id="storageWorkerStatus" role="status">Not configured. Local videos remain on this device until the Worker is deployed and connected.</p>
+</section>
+<section class="card">
 <h2>Create a video post</h2>
 <form id="postForm">
 <label for="title">Video title</label><input id="title" maxlength="180" required placeholder="e.g. Biology IX – Introduction to Cells">
