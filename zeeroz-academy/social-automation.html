@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Social Media Control Center | Zeeroz Academy</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f7fc;color:#17213b;font:15px system-ui,Arial}.top{background:#101b3d;color:#fff;padding:18px 5%;display:flex;justify-content:space-between;align-items:center;gap:12px}.wrap{width:min(1080px,92%);margin:26px auto}.card{background:#fff;border:1px solid #e3e9f3;border-radius:16px;padding:20px;margin:16px 0}h1,h2{color:#14264d}.hint{color:#64718a;font-size:13px;line-height:1.55}label{display:block;font-weight:700;font-size:13px;margin:12px 0 5px}input,textarea,select{width:100%;padding:11px;border:1px solid #d5deec;border-radius:9px;font:inherit;background:#fff}textarea{min-height:90px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.checks{display:flex;flex-wrap:wrap;gap:14px}.checks label{display:flex;align-items:center;gap:7px;font-weight:500}.checks input{width:auto}.btn{border:0;border-radius:9px;padding:11px 15px;background:#3157d5;color:#fff;font-weight:700;cursor:pointer;margin:8px 6px 0 0}.btn.secondary{background:#e9eef8;color:#18315c}.btn.danger{background:#a83242}.status{color:#176c62;min-height:22px}.post{border:1px solid #e2e8f1;border-radius:12px;padding:14px;margin:12px 0}.tag{display:inline-block;padding:4px 8px;border-radius:20px;background:#eef2fa;font-size:11px;margin:3px}.warn{background:#fff7e5;border:1px solid #f0dfb5;border-radius:10px;padding:12px;color:#74551c;font-size:13px}@media(max-width:680px){.grid{grid-template-columns:1fr}.top{align-items:flex-start;flex-direction:column}}
+</style></head>
+<body>
+<header class="top"><strong>ZEEROZ ACADEMY · SOCIAL CONTROL CENTER</strong><a href="./admin.html" style="color:#fff">← Admin Console</a></header>
+<main class="wrap">
+<h1>Social Media Content Queue</h1>
+<p class="hint">Create and review video-post records for YouTube, Facebook, Instagram and TikTok. This first release safely manages drafts and approvals; it does not claim a post is published until each platform's official API connection is configured and confirms success.</p>
+<div class="warn"><strong>Publishing connection status:</strong> Platform OAuth/API credentials are not connected yet. Approving a post records your publishing instruction; actual upload remains pending until the secure publishing backend and platform permissions are installed.</div>
+<section class="card">
+<h2>Create a video post</h2>
+<form id="postForm">
+<label for="title">Video title</label><input id="title" maxlength="180" required placeholder="e.g. Biology IX – Introduction to Cells">
+<div class="grid">
+<div><label for="videoUrl">Final video URL (HTTPS)</label><input id="videoUrl" type="url" placeholder="https://…" required></div>
+<div><label for="websiteUrl">Academy lesson / website URL</label><input id="websiteUrl" type="url" placeholder="https://gahejo… (optional)"></div>
+</div>
+<label for="description">Main description / teaching summary</label><textarea id="description" maxlength="5000" required></textarea>
+<div class="grid">
+<div><label for="language">Video language</label><select id="language"><option value="ur">Urdu</option><option value="sd">Sindhi</option><option value="en">English</option></select></div>
+<div><label for="publishMode">Publishing mode</label><select id="publishMode"><option value="approval">Prepare → my approval → publish</option><option value="automatic">Automatic publishing after generation</option></select></div>
+</div>
+<label>Platforms</label>
+<div class="checks">
+<label><input type="checkbox" name="platform" value="youtube" checked> YouTube</label>
+<label><input type="checkbox" name="platform" value="facebook" checked> Facebook</label>
+<label><input type="checkbox" name="platform" value="instagram" checked> Instagram</label>
+<label><input type="checkbox" name="platform" value="tiktok" checked> TikTok</label>
+</div>
+<label for="scheduleAt">Preferred publishing time (optional)</label><input id="scheduleAt" type="datetime-local">
+<p class="hint">Captions can be refined per platform in the next integration step. Schedule is saved as the requested local time; it is not a live scheduler until the publishing worker is connected.</p>
+<button class="btn" type="submit">Save content draft</button>
+</form>
+<p class="status" id="status" role="status" aria-live="polite"></p>
+</section>
+<section class="card"><h2>Content pipeline</h2><p class="hint">Draft → Approved → Queued for platform publishing → Published / Failed. The system will track each platform independently so one failed upload does not cancel successful uploads elsewhere.</p><div id="posts">Loading content queue…</div></section>
+</main>
+<script type="module" src="./firebase-init.js"></script><script type="module" src="./social-automation.js"></script>
+</body></html>
