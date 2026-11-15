@@ -135,6 +135,11 @@ service cloud.firestore {
       allow delete: if isOwner(uid) || isAdmin();
     }
 
+    // Social publishing queue: administrator-only; platform credentials never belong here.
+    match /socialPosts/{postId} {
+      allow read, create, update, delete: if isAdmin();
+    }
+
     match /{document=**} { allow read, write: if false; }
   }
 }
