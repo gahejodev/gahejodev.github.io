@@ -45,6 +45,15 @@ async function removeStoredSocialVideo(key){
  });
 }
 function clearLocalVideoUrls(){localVideoObjectUrls.forEach(url=>URL.revokeObjectURL(url));localVideoObjectUrls=[]}
+function getCaptions(description){
+ const val=id=>$(id)?.value.trim()||"";
+ return {youtube:val("captionYoutube")||description,facebook:val("captionFacebook")||description,instagram:val("captionInstagram")||description,tiktok:val("captionTiktok")||description};
+}
+function platformStatusText(value){
+ const labels={not_started:"Not started",awaiting_platform_setup:"Awaiting platform connection",ready:"Ready to publish",uploading:"Uploading",published:"Published",failed:"Failed",scheduled:"Scheduled"};
+ return labels[value]||value||"Not started";
+}
+
 
 async function load(){
  clearLocalVideoUrls();
@@ -54,13 +63,20 @@ async function load(){
  for(const d of snap.docs){
   const p=d.data(),card=document.createElement("article");card.className="post";
   const platforms=(p.platforms||[]).map(x=>'<span class="tag">'+esc(names[x]||x)+'</span>').join("");
+  const results=p.platformResults||{},captions=p.platformCaptions||{};
+  const statusRows=(p.platforms||[]).map(x=>{
+   const item=results[x]||{};
+   return '<li><strong>'+esc(names[x]||x)+':</strong> '+esc(platformStatusText(item.status))+(item.message?' — '+esc(item.message):'')+(item.postUrl?' · <a href="'+esc(item.postUrl)+'" target="_blank" rel="noopener">View post</a>':'')+'</li>';
+  }).join("");
+  const captionEditor=(p.platforms||[]).map(x=>'<label>'+esc(names[x]||x)+' caption</label><textarea data-caption="'+esc(x)+'" maxlength="'+(x==="youtube"||x==="facebook"?5000:2200)+'">'+esc(captions[x]||p.description||"")+'</textarea>').join("");
   let videoLine='<p class="hint">Video: not attached</p>';
   if(p.videoUrl&&/^https:\/\//i.test(p.videoUrl))videoLine='<p class="hint">Video URL: <a href="'+esc(p.videoUrl)+'" target="_blank" rel="noopener">Open video</a></p>';
   else if(p.localVideoKey)videoLine='<p class="hint">Video: local file attached ('+esc(p.localVideoName||"video")+')</p>';
   card.innerHTML='<strong>'+esc(p.title)+'</strong><p class="hint">'+esc(p.description||"")+'</p>'+platforms+
-   '<p class="hint">Mode: '+esc(p.publishMode||"approval")+' · Status: <strong>'+esc(p.status||"draft")+'</strong> · Schedule: '+esc(when(p.scheduleAt))+'</p>'+
-   videoLine+
-   '<div><button class="btn secondary" data-action="approve">Approve / queue</button><button class="btn secondary" data-action="draft">Return to draft</button><button class="btn danger" data-action="delete">Delete</button></div>';
+   '<p class="hint">Mode: '+esc(p.publishMode||"approval")+' · Overall: <strong>'+esc(p.status||"draft")+'</strong> · Schedule: '+esc(when(p.scheduleAt))+'</p>'+
+   '<details><summary style="cursor:pointer;font-weight:700">Platform-by-platform status</summary><ul>'+statusRows+'</ul></details>'+
+   '<details style="margin-top:8px"><summary style="cursor:pointer;font-weight:700">Edit platform captions</summary>'+captionEditor+'<button class="btn secondary" data-action="captions">Save captions</button></details>'+
+   videoLine+'<div><button class="btn secondary" data-action="approve">Approve / queue</button><button class="btn secondary" data-action="draft">Return to draft</button><button class="btn danger" data-action="delete">Delete</button></div>';
   if(p.localVideoKey){
    try{
     const local=await getStoredSocialVideo(p.localVideoKey);
@@ -70,12 +86,18 @@ async function load(){
      video.style.cssText="display:block;width:100%;max-height:360px;margin-top:12px;border-radius:10px;background:#101b3d";
      const download=document.createElement("a");download.href=url;download.download=local.fileName||p.localVideoName||"zeeroz-video.webm";download.textContent="Download attached video";download.style.cssText="display:inline-block;margin-top:8px;color:#3157d5;font-weight:700";
      card.append(video,download);
-    }else{
-     const missing=document.createElement("p");missing.className="hint";missing.textContent="Video file is not present in this browser. Open this queue on the same device/browser where the Studio created it, and do not clear site data.";card.append(missing);
-    }
+    }else{const missing=document.createElement("p");missing.className="hint";missing.textContent="Video file is not present in this browser. Open this queue on the same device/browser where the Studio created it, and do not clear site data.";card.append(missing)}
    }catch(e){const missing=document.createElement("p");missing.className="hint";missing.textContent="Local video could not be opened: "+e.message;card.append(missing)}
   }
-  card.querySelector('[data-action="approve"]').addEventListener("click",()=>change(d.id,{status:"approved_pending_platform_setup",approvedAt:serverTimestamp()}));
+  card.querySelector('[data-action="captions"]').addEventListener("click",()=>{
+   const updated={};card.querySelectorAll("[data-caption]").forEach(el=>updated[el.dataset.caption]=el.value.trim());
+   change(d.id,{platformCaptions:updated});
+  });
+  card.querySelector('[data-action="approve"]').addEventListener("click",()=>{
+   const platformResults={...(p.platformResults||{})};
+   (p.platforms||[]).forEach(x=>{platformResults[x]={status:"awaiting_platform_setup",message:"Official platform connection and secure uploader are not configured yet."}});
+   change(d.id,{status:"approved_pending_platform_setup",approvedAt:serverTimestamp(),platformResults});
+  });
   card.querySelector('[data-action="draft"]').addEventListener("click",()=>change(d.id,{status:"draft",approvedAt:null}));
   card.querySelector('[data-action="delete"]').addEventListener("click",async()=>{
    if(!confirm("Delete this content record?"))return;
@@ -111,7 +133,7 @@ $("postForm").addEventListener("submit",async e=>{
   const ref=await addDoc(collection(db(),"socialPosts"),{
    title:$("title").value.trim(),videoUrl,localVideoKey:localVideoKey||null,localVideoName:localVideoName||null,
    videoStorage:file?"indexeddb":(videoUrl?"remote_url":"none"),mimeType:mimeType||null,sizeBytes:sizeBytes||null,
-   websiteUrl,description:$("description").value.trim(),language:$("language").value,platforms,publishMode:$("publishMode").value,
+   websiteUrl,description:$("description").value.trim(),platformCaptions:getCaptions($("description").value.trim()),language:$("language").value,platforms,publishMode:$("publishMode").value,
    scheduleAt,status:"draft",platformResults:{},createdAt:serverTimestamp(),updatedAt:serverTimestamp(),
    createdBy:window.ZeerozFirebase.auth.currentUser.uid
   });
