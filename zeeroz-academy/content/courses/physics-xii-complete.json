@@ -1,552 +1,744 @@
 {
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
-  "description": "Grade XII Physics chapter collection with lessons, MCQs, CRQs, ERQs and Urdu/Sindhi support.",
-  "version": "3",
+  "description": "Grade XII Physics study collection. Chapter 15 has expanded bilingual explanations, 20 explained MCQs, 6 CRQs, 3 ERQs, worked numericals and an applied case study. Chapters 16–28 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
+  "version": "4",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
-      "description": "Grade XII Physics chapter.",
+      "description": "Reviewed Grade XII kinetic-theory unit aligned to DCAR 2024 SLOs P-12-D-01–P-12-D-06: molecular pressure, kinetic-theory equation, rms speed, average translational kinetic energy and statistical-mechanics context. Includes bilingual worked examples, a formula discrepancy note and a tyre-pressure case study.",
       "lessons": [
         {
-          "title": "15.1 Kinetic model and assumptions",
+          "title": "15.1 The ideal-gas model and its assumptions",
           "type": "text",
-          "content": "The kinetic theory models a gas as a very large number of tiny particles in continuous random motion. In the ideal-gas model, particle volume is negligible compared with container volume; intermolecular forces are negligible except during collisions; collisions with walls and between particles are perfectly elastic; and the time spent in collisions is negligible. Gas pressure results from particles changing momentum when they collide with the container walls. The model explains macroscopic behaviour from microscopic motion. Real gases approach ideal behaviour at low pressure and high temperature, where particles are far apart and attractions matter less.",
+          "content": "## Learning outcomes\nYou should be able to state the kinetic model assumptions and explain when a real gas behaves approximately ideally.\n\nAn ideal gas is a model, not a claim that real molecules have no size. It assumes a very large number of molecules in continuous random motion; molecular volume is negligible compared with the container volume; intermolecular forces are negligible except during collisions; collisions between molecules and with the walls are perfectly elastic; and Newton's laws describe the motion between collisions. The model works best at low pressure and high temperature, where molecules are far apart and their kinetic energy is large compared with attractive interaction energy.\n\n**Key terms:** ideal gas, random motion, elastic collision, intermolecular force, model assumption.\n\n**Check:** name two conditions under which a real gas is most nearly ideal.",
           "explanations": {
-            "ur": "Is dars mein gas ke zarraat ki harkat, qawaneen aur equations ko asaan alfaaz mein samjhaya gaya hai. The kinetic theory models a gas as a very large number of tiny particles in continuous random motion. In the ideal-gas model, particle volume is negligible compared with container volume; intermolecular forces are negligible except during collisions; collisions with walls and between particles are perfectly elastic; and the time spent in collisions is negligible. Gas pressure results from particles changing momentum when they collide with the container walls. The model explains macroscopic behaviour from microscopic motion. Real gases approach ideal behaviour at low pressure and high temperature, where particles are far apart and attractions matter less.",
-            "sd": "هن سبق ۾ گئس جي ذرڙن جي حرڪت، قانونن ۽ مساواتن کي آسان لفظن ۾ سمجهايو ويو آهي. The kinetic theory models a gas as a very large number of tiny particles in continuous random motion. In the ideal-gas model, particle volume is negligible compared with container volume; intermolecular forces are negligible except during collisions; collisions with walls and between particles are perfectly elastic; and the time spent in collisions is negligible. Gas pressure results from particles changing momentum when they collide with the container walls. The model explains macroscopic behaviour from microscopic motion. Real gases approach ideal behaviour at low pressure and high temperature, where particles are far apart and attractions matter less."
+            "ur": "## اسباق کے مقاصد\nآپ حرکیاتی ماڈل کے مفروضے بیان کر سکیں گے اور وضاحت کر سکیں گے کہ حقیقی گیس کب تقریباً مثالی رویہ دکھاتی ہے۔\n\nمثالی گیس ایک سائنسی ماڈل ہے؛ اس کا مطلب یہ نہیں کہ حقیقی سالمات کا حجم صفر ہے۔ اس ماڈل میں بہت بڑی تعداد میں سالمات مسلسل بے ترتیب حرکت کرتے ہیں؛ سالمات کا اپنا حجم برتن کے حجم کے مقابلے میں قابلِ نظرانداز ہوتا ہے؛ تصادم کے علاوہ بین السالماتی قوتیں نہایت کم سمجھی جاتی ہیں؛ سالمات کے باہمی اور دیواروں سے تصادم مکمل لچکدار ہوتے ہیں؛ اور تصادموں کے درمیان حرکت نیوٹن کے قوانین کے مطابق ہوتی ہے۔ کم دباؤ اور زیادہ درجہ حرارت پر حقیقی گیس مثالی ماڈل کے زیادہ قریب ہوتی ہے کیونکہ سالمات دور اور ان کی حرکی توانائی نسبتاً زیادہ ہوتی ہے۔\n\n**اہم اصطلاحات:** مثالی گیس، بے ترتیب حرکت، لچکدار تصادم، بین السالماتی قوت، ماڈل کا مفروضہ۔\n\n**سوال:** کن دو حالتوں میں حقیقی گیس مثالی رویے کے قریب ہوتی ہے؟",
+            "sd": "## سبق جا مقصد\nتوهان kinetic model جا مفروضا بيان ڪري سگهندا ۽ سمجهاڻي ڏئي سگهندا ته real gas ڪڏهن تقريباً ideal رويو ڏيکاري ٿي۔\n\nIdeal gas هڪ سائنسي model آهي؛ ان جو مطلب اهو ناهي ته حقيقي ماليڪيولن جو حجم صفر آهي۔ هن model ۾ تمام گهڻا ماليڪيول مسلسل random حرڪت ڪن ٿا؛ ماليڪيولن جو پنهنجو حجم برتن جي حجم جي ڀيٽ ۾ نظرانداز ڪرڻ جهڙو آهي؛ collisions کان سواءِ intermolecular forces تمام گهٽ سمجهيون وڃن ٿيون؛ ماليڪيولن جا پاڻ ۾ ۽ ڀتين سان collisions مڪمل elastic هوندا آهن؛ ۽ collisions جي وچ ۾ حرڪت Newton جي قانونن مطابق هوندي آهي۔ گهٽ pressure ۽ وڌيڪ temperature تي real gas، ideal model جي وڌيڪ ويجهو هوندي آهي، ڇاڪاڻ ته ماليڪيول پري ۽ انهن جي kinetic energy وڌيڪ هوندي آهي۔\n\n**اهم اصطلاح:** ideal gas، random motion، elastic collision، intermolecular force، model assumption۔\n\n**سوال:** ڪهڙين ٻن حالتن ۾ real gas ideal رويو ڏيکارڻ جي وڌيڪ ويجهو هوندي آهي؟"
           }
         },
         {
-          "title": "15.2 Gas laws and the ideal-gas equation",
+          "title": "15.2 How molecular motion creates gas pressure",
           "type": "text",
-          "content": "For a fixed amount of gas, Boyle’s law states pV = constant at constant temperature; Charles’s law states V/T = constant at constant pressure; and the pressure law states p/T = constant at constant volume. Temperature must be measured in kelvin: T(K) = θ(°C) + 273.15. Combining these gives pV/T = constant for a fixed amount of gas. For n moles, the ideal-gas equation is pV = nRT, where p is in pascals, V in cubic metres, T in kelvin, n in moles and R = 8.314 J mol⁻¹ K⁻¹. Always convert units before substitution.",
+          "content": "A molecule moving toward a wall carries momentum. When it collides elastically, the component of momentum perpendicular to the wall reverses; the wall receives an equal and opposite impulse. A huge number of impacts per second produces a steady average force. Pressure is this force divided by wall area. In equilibrium, molecular motion is random and there is no preferred direction, but the average pressure is the same in every direction. Increasing number density or molecular speed increases the rate of momentum transfer and therefore pressure.\n\n**Key terms:** momentum, impulse, force, pressure, number density.\n\n**Check:** explain why a sealed container can have pressure even when the gas as a whole is at rest.",
           "explanations": {
-            "ur": "Is dars mein gas ke zarraat ki harkat, qawaneen aur equations ko asaan alfaaz mein samjhaya gaya hai. For a fixed amount of gas, Boyle’s law states pV = constant at constant temperature; Charles’s law states V/T = constant at constant pressure; and the pressure law states p/T = constant at constant volume. Temperature must be measured in kelvin: T(K) = θ(°C) + 273.15. Combining these gives pV/T = constant for a fixed amount of gas. For n moles, the ideal-gas equation is pV = nRT, where p is in pascals, V in cubic metres, T in kelvin, n in moles and R = 8.314 J mol⁻¹ K⁻¹. Always convert units before substitution.",
-            "sd": "هن سبق ۾ گئس جي ذرڙن جي حرڪت، قانونن ۽ مساواتن کي آسان لفظن ۾ سمجهايو ويو آهي. For a fixed amount of gas, Boyle’s law states pV = constant at constant temperature; Charles’s law states V/T = constant at constant pressure; and the pressure law states p/T = constant at constant volume. Temperature must be measured in kelvin: T(K) = θ(°C) + 273.15. Combining these gives pV/T = constant for a fixed amount of gas. For n moles, the ideal-gas equation is pV = nRT, where p is in pascals, V in cubic metres, T in kelvin, n in moles and R = 8.314 J mol⁻¹ K⁻¹. Always convert units before substitution."
+            "ur": "گیس کا دیوار کی طرف بڑھتا ہوا سالمہ مومینٹم رکھتا ہے۔ لچکدار تصادم کے وقت دیوار کے عمود پر مومینٹم کا جزو الٹ جاتا ہے؛ دیوار کو برابر اور مخالف impulse ملتا ہے۔ ہر سیکنڈ میں بے شمار تصادم اوسط قوت پیدا کرتے ہیں۔ دباؤ دیوار کے رقبے پر تقسیم کی گئی قوت ہے۔ توازن میں سالمات کی حرکت بے ترتیب ہوتی ہے اور کوئی ایک سمت ترجیحی نہیں ہوتی، اس لیے اوسط دباؤ ہر سمت میں یکساں ہوتا ہے۔ سالمات کی فی حجم تعداد یا ان کی رفتار بڑھانے سے مومینٹم کی منتقلی کی شرح بڑھتی ہے اور دباؤ زیادہ ہو جاتا ہے۔\n\n**اہم اصطلاحات:** مومینٹم، impulse، قوت، دباؤ، عددی کثافت۔\n\n**سوال:** جب گیس مجموعی طور پر ساکن ہو تب بھی بند برتن میں دباؤ کیوں ہوتا ہے؟",
+            "sd": "ڀت ڏانهن هلندڙ گئس جو ماليڪيول momentum رکي ٿو۔ elastic collision وقت ڀت جي عمودي رخ وارو momentum جو جزو ابتو ٿئي ٿو؛ ڀت کي برابر ۽ ابتو impulse ملي ٿو۔ هر سيڪنڊ ۾ تمام گهڻا ٽڪر سراسري قوت پيدا ڪن ٿا۔ Pressure، ڀت جي area تي ورهايل قوت آهي۔ equilibrium ۾ ماليڪيول random حرڪت ڪن ٿا ۽ ڪو هڪ رخ پسنديده نه هوندو آهي، تنهنڪري average pressure هر رخ ۾ ساڳيو هوندو آهي۔ في حجم ماليڪيولن جو انگ يا انهن جي رفتار وڌائڻ سان momentum transfer جي شرح وڌي ٿي ۽ pressure به وڌي ٿو۔\n\n**اهم اصطلاح:** momentum، impulse، قوت، pressure، number density۔\n\n**سوال:** جڏهن گئس مجموعي طور ساکت هجي تڏهن به بند برتن ۾ pressure ڇو هوندو آهي؟"
           }
         },
         {
-          "title": "15.3 Molecular speed and the Maxwell distribution",
+          "title": "15.3 Deriving the kinetic-theory pressure equation",
           "type": "text",
-          "content": "Gas molecules do not all travel at one speed. At a given temperature their speeds follow a distribution: most molecules have speeds near the most probable value, while fewer are much slower or faster. Raising temperature broadens the distribution and shifts it toward higher speeds. The root-mean-square speed is c_rms = √(3kT/m) for molecules of mass m, or √(3RT/M) for molar mass M in kg mol⁻¹. At the same temperature, lighter molecules have a higher rms speed. Temperature measures average translational kinetic energy, not the speed of every individual molecule.",
+          "content": "Consider N identical molecules, each of mass m, in volume V. For a molecule with x-component of velocity cₓ striking a wall normally, an elastic collision changes its x-momentum by 2mcₓ in magnitude. Counting impacts from all molecules gives pV = Nm⟨cₓ²⟩. Random isotropic motion means ⟨cₓ²⟩ = ⟨cᵧ²⟩ = ⟨c_z²⟩ and ⟨c²⟩ = 3⟨cₓ²⟩. Therefore **pV = (1/3)Nm⟨c²⟩ = (1/3)Nm cᵣₘₛ²**. Since ρ = Nm/V, **p = (1/3)ρcᵣₘₛ²**.\n\n**Important source check:** the printed DCAR 2024 SLO P-12-D-02 appears to show a factor 1/2, but its own note invokes one-third directional averaging. The standard three-dimensional derivation gives 1/3, which is the physically consistent relation used here. Verify any conflicting board-paper convention with the teacher before an examination.\n\n**Check:** state why the factor is one-third, not one-half.",
           "explanations": {
-            "ur": "Is dars mein gas ke zarraat ki harkat, qawaneen aur equations ko asaan alfaaz mein samjhaya gaya hai. Gas molecules do not all travel at one speed. At a given temperature their speeds follow a distribution: most molecules have speeds near the most probable value, while fewer are much slower or faster. Raising temperature broadens the distribution and shifts it toward higher speeds. The root-mean-square speed is c_rms = √(3kT/m) for molecules of mass m, or √(3RT/M) for molar mass M in kg mol⁻¹. At the same temperature, lighter molecules have a higher rms speed. Temperature measures average translational kinetic energy, not the speed of every individual molecule.",
-            "sd": "هن سبق ۾ گئس جي ذرڙن جي حرڪت، قانونن ۽ مساواتن کي آسان لفظن ۾ سمجهايو ويو آهي. Gas molecules do not all travel at one speed. At a given temperature their speeds follow a distribution: most molecules have speeds near the most probable value, while fewer are much slower or faster. Raising temperature broadens the distribution and shifts it toward higher speeds. The root-mean-square speed is c_rms = √(3kT/m) for molecules of mass m, or √(3RT/M) for molar mass M in kg mol⁻¹. At the same temperature, lighter molecules have a higher rms speed. Temperature measures average translational kinetic energy, not the speed of every individual molecule."
+            "ur": "فرض کریں حجم V میں N یکساں سالمات ہیں اور ہر سالمے کی کمیت m ہے۔ دیوار پر عموداً ٹکرانے والے سالمے کے x-سمتی مومینٹم میں لچکدار تصادم کے بعد 2mcₓ کے برابر تبدیلی آتی ہے۔ تمام سالمات کے تصادم شمار کرنے سے pV = Nm⟨cₓ²⟩ ملتا ہے۔ بے ترتیب اور ہر سمت میں یکساں حرکت کی وجہ سے ⟨cₓ²⟩ = ⟨cᵧ²⟩ = ⟨c_z²⟩ اور ⟨c²⟩ = 3⟨cₓ²⟩ ہوتا ہے۔ لہٰذا **pV = (1/3)Nm⟨c²⟩ = (1/3)Nm cᵣₘₛ²**۔ چونکہ ρ = Nm/V ہے، اس لیے **p = (1/3)ρcᵣₘₛ²**۔\n\n**اہم ماخذی نوٹ:** DCAR 2024 کے مطبوعہ SLO P-12-D-02 میں عامل 1/2 دکھائی دیتا ہے، لیکن اسی نوٹ میں تین سمتوں کی اوسط کے لیے ایک تہائی کا اصول دیا گیا ہے۔ معیاری تین جہتی اخذ سے 1/3 حاصل ہوتا ہے، اس لیے یہاں طبیعی طور پر درست تعلق استعمال کیا گیا ہے۔ امتحان سے پہلے اگر بورڈ کے کسی پرچے میں مختلف روایت ہو تو استاد سے تصدیق کریں۔\n\n**سوال:** عامل ایک تہائی کیوں ہے، ایک نصف کیوں نہیں؟",
+            "sd": "فرض ڪريو حجم V ۾ N هڪجهڙا ماليڪيول آهن ۽ هر ماليڪيول جو mass m آهي۔ ڀت تي عمودي ٽڪر ڪندڙ ماليڪيول جي x-رخ واري momentum ۾ elastic collision کان پوءِ 2mcₓ جيتري تبديلي اچي ٿي۔ سڀني ماليڪيولن جا ٽڪر ڳڻڻ سان pV = Nm⟨cₓ²⟩ ملي ٿو۔ random ۽ سڀني رخن ۾ هڪجهڙي حرڪت سبب ⟨cₓ²⟩ = ⟨cᵧ²⟩ = ⟨c_z²⟩ ۽ ⟨c²⟩ = 3⟨cₓ²⟩ ٿئي ٿو۔ تنهنڪري **pV = (1/3)Nm⟨c²⟩ = (1/3)Nm cᵣₘₛ²**۔ جيئن ته ρ = Nm/V آهي، تنهنڪري **p = (1/3)ρcᵣₘₛ²**۔\n\n**ماخذ بابت اهم نوٽ:** DCAR 2024 جي ڇپيل SLO P-12-D-02 ۾ factor 1/2 نظر اچي ٿو، پر ساڳئي نوٽ ۾ ٽن رخن جي averaging لاءِ هڪ ٽيون حصو ڏنو ويو آهي۔ معياري ٽي-رخن واري derivation مان 1/3 نڪري ٿو، تنهنڪري هتي طبعياتي طور صحيح تعلق استعمال ڪيو ويو آهي۔ امتحان کان اڳ جيڪڏهن بورڊ جي ڪنهن پرچي ۾ مختلف convention هجي ته استاد کان تصديق ڪريو۔\n\n**سوال:** factor هڪ ٽيون ڇو آهي، اڌ ڇو نه؟"
           }
         },
         {
-          "title": "15.4 Molecular kinetic energy and temperature",
+          "title": "15.4 Root-mean-square speed and numerical use",
           "type": "text",
-          "content": "For an ideal gas, the mean translational kinetic energy per molecule is (3/2)kT, where k is Boltzmann’s constant. For one mole it is (3/2)RT. Thus absolute temperature is directly proportional to the average translational kinetic energy. At the same temperature, different ideal gases have the same average translational kinetic energy, even though their molecular speeds differ because their masses differ. This relationship is a central bridge between microscopic motion and the thermometer reading. Do not confuse average kinetic energy with total internal energy, which can include rotational, vibrational and intermolecular contributions in more complex systems.",
+          "content": "The rms speed is cᵣₘₛ = √⟨c²⟩; it is not the ordinary arithmetic mean speed. Combining pV = (1/3)Nm cᵣₘₛ² with pV = NkT gives (1/2)m cᵣₘₛ² = (3/2)kT and cᵣₘₛ = √(3kT/m) = √(3RT/M). Use kelvin for T and kg mol⁻¹ for M. Example: nitrogen at 300 K with M = 0.028 kg mol⁻¹ has cᵣₘₛ ≈ 517 m s⁻¹. At the same temperature a lighter gas has a greater rms speed.\n\n**Check:** identify the units required for every quantity before substituting.",
           "explanations": {
-            "ur": "Is dars mein gas ke zarraat ki harkat, qawaneen aur equations ko asaan alfaaz mein samjhaya gaya hai. For an ideal gas, the mean translational kinetic energy per molecule is (3/2)kT, where k is Boltzmann’s constant. For one mole it is (3/2)RT. Thus absolute temperature is directly proportional to the average translational kinetic energy. At the same temperature, different ideal gases have the same average translational kinetic energy, even though their molecular speeds differ because their masses differ. This relationship is a central bridge between microscopic motion and the thermometer reading. Do not confuse average kinetic energy with total internal energy, which can include rotational, vibrational and intermolecular contributions in more complex systems.",
-            "sd": "هن سبق ۾ گئس جي ذرڙن جي حرڪت، قانونن ۽ مساواتن کي آسان لفظن ۾ سمجهايو ويو آهي. For an ideal gas, the mean translational kinetic energy per molecule is (3/2)kT, where k is Boltzmann’s constant. For one mole it is (3/2)RT. Thus absolute temperature is directly proportional to the average translational kinetic energy. At the same temperature, different ideal gases have the same average translational kinetic energy, even though their molecular speeds differ because their masses differ. This relationship is a central bridge between microscopic motion and the thermometer reading. Do not confuse average kinetic energy with total internal energy, which can include rotational, vibrational and intermolecular contributions in more complex systems."
+            "ur": "جذرِ اوسط مربع رفتار cᵣₘₛ = √⟨c²⟩ ہے؛ یہ عام حسابی اوسط رفتار نہیں۔ pV = (1/3)Nm cᵣₘₛ² اور pV = NkT کو ملانے سے (1/2)m cᵣₘₛ² = (3/2)kT اور cᵣₘₛ = √(3kT/m) = √(3RT/M) حاصل ہوتا ہے۔ T کو kelvin اور M کو kg mol⁻¹ میں رکھیں۔ مثال: 300 K پر نائٹروجن کی M = 0.028 kg mol⁻¹ ہو تو cᵣₘₛ تقریباً 517 m s⁻¹ ہے۔ ایک ہی درجہ حرارت پر ہلکی گیس کی جذرِ اوسط مربع رفتار زیادہ ہوتی ہے۔\n\n**سوال:** فارمولا استعمال کرنے سے پہلے ہر مقدار کی اکائی کیا ہونی چاہیے؟",
+            "sd": "rms speed cᵣₘₛ = √⟨c²⟩ آهي؛ اها عام arithmetic mean speed نه آهي۔ pV = (1/3)Nm cᵣₘₛ² ۽ pV = NkT گڏ ڪرڻ سان (1/2)m cᵣₘₛ² = (3/2)kT ۽ cᵣₘₛ = √(3kT/m) = √(3RT/M ملي ٿو۔ T کي kelvin ۽ M کي kg mol⁻¹ ۾ رکو۔ مثال: 300 K تي nitrogen جي M = 0.028 kg mol⁻¹ هجي ته cᵣₘₛ لڳ ڀڳ 517 m s⁻¹ آهي۔ ساڳئي temperature تي هلڪي گئس جي rms speed وڌيڪ هوندي آهي۔\n\n**سوال:** فارمولو لڳائڻ کان اڳ هر مقدار جي unit ڪهڙي هئڻ گهرجي؟"
           }
         },
         {
-          "title": "15.5 Real gases and deviations from ideal behaviour",
+          "title": "15.5 Average translational kinetic energy and temperature",
           "type": "text",
-          "content": "Real molecules occupy space and attract or repel one another, so real gases deviate from pV = nRT, especially at high pressure and low temperature. At high pressure, finite molecular size becomes important; at low temperature, attractions become important and may lead to condensation. The van der Waals equation for n moles is (p + a n²/V²)(V − nb) = nRT, where a corrects for attractions and b for excluded molecular volume. The compressibility factor Z = pV/(nRT) equals 1 for an ideal gas; deviations of Z from 1 indicate non-ideal behaviour. The ideal model remains useful when its assumptions are approximately satisfied.",
+          "content": "For a monatomic ideal gas, the mean translational kinetic energy per molecule is (1/2)m⟨c²⟩ = (3/2)kT. For one mole it is (3/2)RT per mole of molecules. Temperature in kelvin measures the average translational kinetic energy scale, not the total energy of every individual molecule; molecules have a distribution of speeds. At the same temperature, different ideal gases have the same mean translational kinetic energy per molecule, but their rms speeds differ because their masses differ.\n\n**Check:** distinguish average energy per molecule from total internal energy of a sample.",
           "explanations": {
-            "ur": "Is dars mein gas ke zarraat ki harkat, qawaneen aur equations ko asaan alfaaz mein samjhaya gaya hai. Real molecules occupy space and attract or repel one another, so real gases deviate from pV = nRT, especially at high pressure and low temperature. At high pressure, finite molecular size becomes important; at low temperature, attractions become important and may lead to condensation. The van der Waals equation for n moles is (p + a n²/V²)(V − nb) = nRT, where a corrects for attractions and b for excluded molecular volume. The compressibility factor Z = pV/(nRT) equals 1 for an ideal gas; deviations of Z from 1 indicate non-ideal behaviour. The ideal model remains useful when its assumptions are approximately satisfied.",
-            "sd": "هن سبق ۾ گئس جي ذرڙن جي حرڪت، قانونن ۽ مساواتن کي آسان لفظن ۾ سمجهايو ويو آهي. Real molecules occupy space and attract or repel one another, so real gases deviate from pV = nRT, especially at high pressure and low temperature. At high pressure, finite molecular size becomes important; at low temperature, attractions become important and may lead to condensation. The van der Waals equation for n moles is (p + a n²/V²)(V − nb) = nRT, where a corrects for attractions and b for excluded molecular volume. The compressibility factor Z = pV/(nRT) equals 1 for an ideal gas; deviations of Z from 1 indicate non-ideal behaviour. The ideal model remains useful when its assumptions are approximately satisfied."
+            "ur": "یک ایٹمی مثالی گیس میں فی سالمہ اوسط انتقالی حرکی توانائی (1/2)m⟨c²⟩ = (3/2)kT ہوتی ہے۔ ایک مول کے لیے یہ فی مول سالمات (3/2)RT ہے۔ kelvin میں درجہ حرارت اوسط انتقالی حرکی توانائی کے پیمانے کو ظاہر کرتا ہے، ہر انفرادی سالمے کی کل توانائی کو نہیں؛ سالمات کی رفتاروں کی تقسیم ہوتی ہے۔ ایک ہی درجہ حرارت پر مختلف مثالی گیسوں کی فی سالمہ اوسط انتقالی حرکی توانائی برابر ہوتی ہے، لیکن کمیت کے فرق کی وجہ سے ان کی rms رفتاریں مختلف ہوتی ہیں۔\n\n**سوال:** فی سالمہ اوسط توانائی اور پورے نمونے کی کل داخلی توانائی میں فرق بیان کریں۔",
+            "sd": "monoatomic ideal gas ۾ في ماليڪيول average translational kinetic energy (1/2)m⟨c²⟩ = (3/2)kT هوندي آهي۔ هڪ mole لاءِ اها في mole (3/2)RT آهي۔ kelvin ۾ temperature، average translational kinetic energy جو پيمانو ڏيکاري ٿو، هر هڪ ماليڪيول جي ڪل توانائي نه؛ ماليڪيولن جي رفتار هڪ distribution ۾ هوندي آهي۔ ساڳئي temperature تي مختلف ideal gases جي في ماليڪيول average translational kinetic energy برابر هوندي آهي، پر mass مختلف هجڻ سبب rms speeds مختلف هونديون آهن۔\n\n**سوال:** في ماليڪيول average energy ۽ سڄي sample جي total internal energy ۾ فرق ٻڌايو۔"
+          }
+        },
+        {
+          "title": "15.6 Statistical mechanics and limits of the ideal model",
+          "type": "text",
+          "content": "The kinetic model connects microscopic motion to measurable quantities such as pressure and temperature. Statistical mechanics extends this idea by describing the distribution and collective behaviour of enormous numbers of particles. Real gases deviate from ideal behaviour when molecules are crowded or their attractive forces become important, especially at high pressure and low temperature. Models can be improved by accounting for molecular volume and intermolecular attraction. The 2024 Sindh curriculum also introduces extreme states such as degenerate matter and Bose–Einstein condensates as examples of matter under unusual conditions; these are extensions, not ordinary classroom gases.\n\n**Check:** name the two ideal-gas assumptions most likely to fail near liquefaction.",
+          "explanations": {
+            "ur": "حرکیاتی ماڈل خردبینی سالماتی حرکت کو قابلِ پیمائش مقداروں، مثلاً دباؤ اور درجہ حرارت، سے جوڑتا ہے۔ شماریاتی میکانیات اس خیال کو آگے بڑھاتی ہے اور بہت بڑی تعداد میں ذرات کی رفتاروں کی تقسیم اور اجتماعی رویے کا مطالعہ کرتی ہے۔ حقیقی گیس مثالی رویے سے اس وقت ہٹتی ہے جب سالمات بہت قریب ہوں یا ان کی باہمی کشش اہم ہو جائے، خاص طور پر زیادہ دباؤ اور کم درجہ حرارت پر۔ سالمات کے محدود حجم اور بین السالماتی کشش کو شامل کر کے ماڈل بہتر بنایا جا سکتا ہے۔ سندھ کے 2024 نصاب میں غیر معمولی حالات میں مادے کی حالتوں، مثلاً degenerate matter اور Bose–Einstein condensates، کا تعارف بھی ہے؛ یہ عام گیسوں سے آگے کے تصورات ہیں۔\n\n**سوال:** تکثیف کے قریب مثالی گیس کے کون سے دو مفروضے ناکام ہونے لگتے ہیں؟",
+            "sd": "kinetic model خردبيني molecular motion کي pressure ۽ temperature جهڙين ماپي سگهجندڙ مقدارين سان ڳنڍي ٿو۔ statistical mechanics هن خيال کي اڳتي وڌائي ٿي ۽ تمام گهڻن ذرن جي رفتار جي distribution ۽ گڏيل روئي جو مطالعو ڪري ٿي۔ real gas، ideal روئي کان تڏهن هٽي ٿي جڏهن ماليڪيول ويجهو هجن يا انهن جي پاڻ ۾ ڪشش اهم ٿي وڃي، خاص طور وڌيڪ pressure ۽ گهٽ temperature تي۔ ماليڪيولن جو محدود حجم ۽ intermolecular attraction شامل ڪري model بهتر ڪري سگهجي ٿو۔ سنڌ جي 2024 نصاب ۾ غير معمولي حالتن ۾ matter جي حالت، جهڙوڪ degenerate matter ۽ Bose–Einstein condensates، جو تعارف به آهي؛ اهي عام گيسن کان اڳتي جا تصور آهن۔\n\n**سوال:** liquefaction جي ويجهو ideal-gas جا ڪهڙا ٻه مفروضا ڪمزور ٿين ٿا؟"
+          }
+        },
+        {
+          "title": "15.7 Worked numerical examples and common errors",
+          "type": "text",
+          "content": "**Example 1 — rms speed:** for nitrogen, T = 300 K, R = 8.31 J mol⁻¹ K⁻¹ and M = 0.028 kg mol⁻¹. cᵣₘₛ = √(3RT/M) ≈ 517 m s⁻¹.\n\n**Example 2 — pressure:** if ρ = 1.2 kg m⁻³ and cᵣₘₛ = 500 m s⁻¹, p = (1/3)ρcᵣₘₛ² = 1.00 × 10⁵ Pa.\n\n**Common errors:** using Celsius instead of kelvin; using grams per mole instead of kilograms per mole; confusing cᵣₘₛ with ⟨c²⟩; omitting the factor 1/3; and rounding too early. Always show substitution, units and final significant figures.",
+          "explanations": {
+            "ur": "**مثال 1 — rms رفتار:** نائٹروجن کے لیے T = 300 K، R = 8.31 J mol⁻¹ K⁻¹ اور M = 0.028 kg mol⁻¹ ہے۔ cᵣₘₛ = √(3RT/M) تقریباً 517 m s⁻¹ ہے۔\n\n**مثال 2 — دباؤ:** اگر ρ = 1.2 kg m⁻³ اور cᵣₘₛ = 500 m s⁻¹ ہو تو p = (1/3)ρcᵣₘₛ² = 1.00 × 10⁵ Pa ہے۔\n\n**عام غلطیاں:** kelvin کے بجائے Celsius استعمال کرنا؛ kg mol⁻¹ کے بجائے g mol⁻¹ رکھنا؛ cᵣₘₛ کو ⟨c²⟩ سمجھ لینا؛ ایک تہائی کا عامل چھوڑ دینا؛ اور بہت جلد rounding کرنا۔ ہمیشہ مساوات میں قدروں کا اندراج، اکائیاں اور آخری significant figures دکھائیں۔",
+            "sd": "**مثال 1 — rms رفتار:** nitrogen لاءِ T = 300 K، R = 8.31 J mol⁻¹ K⁻¹ ۽ M = 0.028 kg mol⁻¹ آهي۔ cᵣₘₛ = √(3RT/M) لڳ ڀڳ 517 m s⁻¹ آهي۔\n\n**مثال 2 — pressure:** جيڪڏهن ρ = 1.2 kg m⁻³ ۽ cᵣₘₛ = 500 m s⁻¹ هجي ته p = (1/3)ρcᵣₘₛ² = 1.00 × 10⁵ Pa آهي۔\n\n**عام غلطيون:** kelvin بدران Celsius استعمال ڪرڻ؛ kg mol⁻¹ بدران g mol⁻¹ رکڻ؛ cᵣₘₛ کي ⟨c²⟩ سمجهڻ؛ هڪ ٽيون factor وسارڻ؛ ۽ تمام جلد rounding ڪرڻ۔ هميشه substitution، units ۽ آخري significant figures ڏيکاريو۔"
+          }
+        },
+        {
+          "title": "15.8 Applied case study: pressure in a sealed tyre on a hot day",
+          "type": "text",
+          "content": "**Case:** A vehicle tyre is checked early in the morning and again after a long drive on a hot afternoon. The tyre volume changes very little, but its pressure rises. Explain the observation using the kinetic model.\n\n**Reasoning:** Heating raises the gas temperature in kelvin and increases the average translational kinetic energy. Molecules strike the tyre wall more frequently and with greater average momentum change, so pressure rises when volume and amount of gas are nearly constant. The ideal-gas relation p/T ≈ constant is a useful first approximation. Tyre pressure should be checked according to the vehicle manufacturer's cold-tyre specification; never release air from a hot tyre simply to match a cold-pressure reading.\n\n**Revision summary:** pressure is momentum transfer per area; pV = (1/3)Nm⟨c²⟩; cᵣₘₛ = √(3RT/M); average translational kinetic energy = (3/2)kT.",
+          "explanations": {
+            "ur": "**صورتِ حال:** گاڑی کے ٹائر کا دباؤ صبح سویرے اور گرم دوپہر میں طویل سفر کے بعد دوبارہ ناپا جاتا ہے۔ ٹائر کا حجم بہت کم بدلتا ہے، مگر دباؤ بڑھ جاتا ہے۔ حرکیاتی ماڈل سے وضاحت کریں۔\n\n**استدلال:** گرم ہونے سے kelvin میں گیس کا درجہ حرارت بڑھتا ہے اور اوسط انتقالی حرکی توانائی میں اضافہ ہوتا ہے۔ سالمات ٹائر کی دیوار سے زیادہ بار اور زیادہ اوسط مومینٹم تبدیلی کے ساتھ ٹکراتے ہیں، اس لیے جب حجم اور گیس کی مقدار تقریباً مستقل ہوں تو دباؤ بڑھتا ہے۔ مثالی گیس کا تعلق p/T تقریباً مستقل ایک مفید ابتدائی اندازہ ہے۔ ٹائر کا دباؤ گاڑی بنانے والی کمپنی کی سرد ٹائر کی مقررہ قدر کے مطابق چیک کریں؛ گرم ٹائر سے صرف اس لیے ہوا نہ نکالیں کہ پیمائش سرد دباؤ سے زیادہ ہے۔\n\n**خلاصۂ دہرائی:** دباؤ فی رقبہ مومینٹم کی منتقلی ہے؛ pV = (1/3)Nm⟨c²⟩؛ cᵣₘₛ = √(3RT/M)؛ اوسط انتقالی حرکی توانائی = (3/2)kT۔",
+            "sd": "**صورتِ حال:** گاڏي جي tyre جو pressure صبح سوير ۽ گرم منجهند تي ڊگهي سفر کان پوءِ ٻيهر ماپيو وڃي ٿو۔ tyre جو volume تمام ٿورو بدلجي ٿو، پر pressure وڌي ٿو۔ kinetic model سان وضاحت ڪريو۔\n\n**دليل:** گرم ٿيڻ سان kelvin ۾ گئس جو temperature وڌي ٿو ۽ average translational kinetic energy وڌي ٿي۔ ماليڪيول tyre جي ڀت سان وڌيڪ ڀيرا ۽ وڌيڪ average momentum change سان ٽڪرائين ٿا، تنهنڪري volume ۽ گئس جي مقدار تقريباً ساڳي هجي ته pressure وڌي ٿو۔ ideal-gas relation p/T تقريباً constant هڪ سٺو پهريون اندازو آهي۔ tyre pressure گاڏي ٺاهيندڙ جي cold-tyre specification مطابق چيڪ ڪريو؛ گرم tyre مان رڳو ان ڪري هوا نه ڪڍو جو reading cold pressure کان وڌيڪ آهي۔\n\n**ورجاءَ جو خلاصو:** pressure في area momentum transfer آهي؛ pV = (1/3)Nm⟨c²⟩؛ cᵣₘₛ = √(3RT/M)؛ average translational kinetic energy = (3/2)kT۔"
           }
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes kinetic model?",
+          "question": "What produces the pressure of a gas on the walls of its container?",
           "options": {
-            "A": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "real gases: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "kinetic model کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "real gases: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "kinetic model بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "real gases: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for kinetic model.",
-          "options": {
-            "A": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "real gases: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "The weight of the gas alone",
+            "B": "Molecular momentum changes during wall collisions",
+            "C": "Attraction between the gas and the container",
+            "D": "The colour of the gas"
           },
           "correctOption": "B",
-          "explanation": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
+          "explanation": "Gas molecules strike the walls and change momentum; the rate of momentum transfer produces force and pressure.",
           "translations": {
             "ur": {
-              "question": "kinetic model کے بارے میں درست بیان منتخب کریں۔",
+              "question": "گیس اپنے برتن کی دیواروں پر دباؤ کیوں ڈالتی ہے؟",
               "options": {
-                "A": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "real gases: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "صرف گیس کے وزن سے",
+                "B": "دیواروں سے ٹکرانے پر سالمات کے مومینٹم میں تبدیلی سے",
+                "C": "گیس اور برتن کے درمیان کشش سے",
+                "D": "گیس کے رنگ سے"
               },
-              "explanation": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "سالمات دیواروں سے ٹکراتے اور اپنا مومینٹم بدلتے ہیں؛ مومینٹم کی منتقلی کی شرح قوت اور دباؤ پیدا کرتی ہے۔"
             },
             "sd": {
-              "question": "kinetic model بابت صحيح بيان چونڊيو۔",
+              "question": "گئس پنهنجي برتن جي ڀتين تي دٻاءُ ڇو وجهي ٿي؟",
               "options": {
-                "A": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "real gases: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "رڳو گئس جي وزن سبب",
+                "B": "ڀتين سان ٽڪرائڻ وقت ماليڪيولن جي momentum ۾ تبديلي سبب",
+                "C": "گئس ۽ برتن جي ڪشش سبب",
+                "D": "گئس جي رنگ سبب"
               },
-              "explanation": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "گئس جا ماليڪيول ڀتين سان ٽڪرائين ٿا ۽ momentum بدلائين ٿا؛ momentum جي منتقلي جي شرح قوت ۽ دٻاءُ پيدا ڪري ٿي۔"
             }
           }
         },
         {
-          "question": "What is the scientifically accurate point about kinetic model?",
+          "question": "For random molecular motion with no preferred direction, which relation is correct?",
           "options": {
-            "A": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "real gases: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "⟨cₓ²⟩ = ⟨c²⟩",
+            "B": "⟨cₓ²⟩ = ⟨c²⟩/2",
+            "C": "⟨cₓ²⟩ = ⟨c²⟩/3",
+            "D": "⟨cₓ²⟩ = 3⟨c²⟩"
           },
           "correctOption": "C",
-          "explanation": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
+          "explanation": "Isotropy makes the mean-square velocity components equal, so each is one-third of the total mean-square speed.",
           "translations": {
             "ur": {
-              "question": "kinetic model کے بارے میں درست بیان منتخب کریں۔",
+              "question": "اگر سالمات کی حرکت ہر سمت میں یکساں بے ترتیب ہو تو کون سا تعلق درست ہے؟",
               "options": {
-                "A": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "real gases: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "⟨cₓ²⟩ = ⟨c²⟩",
+                "B": "⟨cₓ²⟩ = ⟨c²⟩/2",
+                "C": "⟨cₓ²⟩ = ⟨c²⟩/3",
+                "D": "⟨cₓ²⟩ = 3⟨c²⟩"
               },
-              "explanation": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "تمام سمتوں میں اوسط مربع رفتار کے اجزا برابر ہوتے ہیں، اس لیے ہر جزو کل اوسط مربع رفتار کا ایک تہائی ہے۔"
             },
             "sd": {
-              "question": "kinetic model بابت صحيح بيان چونڊيو۔",
+              "question": "جيڪڏهن ماليڪيولن جي حرڪت هر طرف برابر بي ترتيب هجي ته ڪهڙو تعلق صحيح آهي؟",
               "options": {
-                "A": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "real gases: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "⟨cₓ²⟩ = ⟨c²⟩",
+                "B": "⟨cₓ²⟩ = ⟨c²⟩/2",
+                "C": "⟨cₓ²⟩ = ⟨c²⟩/3",
+                "D": "⟨cₓ²⟩ = 3⟨c²⟩"
               },
-              "explanation": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "ٽنهي طرفن ۾ mean-square velocity جا جزا برابر آهن، تنهنڪري هر جزو ڪل mean-square speed جو ٽيون حصو آهي۔"
             }
           }
         },
         {
-          "question": "Which statement describes gas laws?",
+          "question": "Which expression is the standard kinetic-theory equation for an ideal gas?",
           "options": {
-            "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "pV = Nm⟨c²⟩",
+            "B": "pV = (1/3)Nm⟨c²⟩",
+            "C": "pV = (1/2)Nm⟨c²⟩",
+            "D": "pV = 3Nm⟨c²⟩"
           },
           "correctOption": "B",
-          "explanation": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
+          "explanation": "The standard three-dimensional isotropic result is pV = (1/3)Nm⟨c²⟩. The factor follows from equal mean-square components in three directions.",
           "translations": {
             "ur": {
-              "question": "gas laws کے بارے میں درست بیان منتخب کریں۔",
+              "question": "مثالی گیس کے لیے معیاری حرکیاتی مساوات کون سی ہے؟",
               "options": {
-                "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "pV = Nm⟨c²⟩",
+                "B": "pV = (1/3)Nm⟨c²⟩",
+                "C": "pV = (1/2)Nm⟨c²⟩",
+                "D": "pV = 3Nm⟨c²⟩"
               },
-              "explanation": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "تین جہتی بے سمتی حرکت کے لیے معیاری نتیجہ pV = (1/3)Nm⟨c²⟩ ہے؛ ایک تہائی کا عامل تین برابر سمتی اجزا سے آتا ہے۔"
             },
             "sd": {
-              "question": "gas laws بابت صحيح بيان چونڊيو۔",
+              "question": "مثالي گئس لاءِ معياري kinetic-theory مساوات ڪهڙي آهي؟",
               "options": {
-                "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "pV = Nm⟨c²⟩",
+                "B": "pV = (1/3)Nm⟨c²⟩",
+                "C": "pV = (1/2)Nm⟨c²⟩",
+                "D": "pV = 3Nm⟨c²⟩"
               },
-              "explanation": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "ٽن پاسن ۾ isotropic حرڪت لاءِ معياري نتيجو pV = (1/3)Nm⟨c²⟩ آهي؛ هڪ ٽيون عامل ٽن برابر رخن مان اچي ٿو۔"
             }
           }
         },
         {
-          "question": "Choose the correct principle for gas laws.",
+          "question": "If the gas density is ρ and its root-mean-square speed is cᵣₘₛ, which pressure relation follows?",
           "options": {
-            "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "p = ρcᵣₘₛ²",
+            "B": "p = (1/2)ρcᵣₘₛ²",
+            "C": "p = (1/3)ρcᵣₘₛ²",
+            "D": "p = 3ρcᵣₘₛ²"
           },
           "correctOption": "C",
-          "explanation": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
+          "explanation": "Using ρ = Nm/V and cᵣₘₛ² = ⟨c²⟩ gives p = (1/3)ρcᵣₘₛ².",
           "translations": {
             "ur": {
-              "question": "gas laws کے بارے میں درست بیان منتخب کریں۔",
+              "question": "اگر گیس کی کثافت ρ اور جذرِ اوسط مربع رفتار cᵣₘₛ ہو تو دباؤ کا تعلق کیا ہوگا؟",
               "options": {
-                "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "p = ρcᵣₘₛ²",
+                "B": "p = (1/2)ρcᵣₘₛ²",
+                "C": "p = (1/3)ρcᵣₘₛ²",
+                "D": "p = 3ρcᵣₘₛ²"
               },
-              "explanation": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "ρ = Nm/V اور cᵣₘₛ² = ⟨c²⟩ رکھنے سے p = (1/3)ρcᵣₘₛ² حاصل ہوتا ہے۔"
             },
             "sd": {
-              "question": "gas laws بابت صحيح بيان چونڊيو۔",
+              "question": "جيڪڏهن گئس جي density ρ ۽ rms speed cᵣₘₛ هجي ته pressure جو تعلق ڇا ٿيندو؟",
               "options": {
-                "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic model: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "p = ρcᵣₘₛ²",
+                "B": "p = (1/2)ρcᵣₘₛ²",
+                "C": "p = (1/3)ρcᵣₘₛ²",
+                "D": "p = 3ρcᵣₘₛ²"
               },
-              "explanation": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "ρ = Nm/V ۽ cᵣₘₛ² = ⟨c²⟩ رکڻ سان p = (1/3)ρcᵣₘₛ² ملي ٿو۔"
             }
           }
         },
         {
-          "question": "What is the scientifically accurate point about gas laws?",
+          "question": "At constant density, if the rms speed of gas molecules doubles, what happens to pressure?",
           "options": {
-            "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "gas laws کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "gas laws بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes molecular speed?",
-          "options": {
-            "A": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "It halves",
+            "B": "It doubles",
+            "C": "It becomes four times as large",
+            "D": "It remains unchanged"
           },
           "correctOption": "C",
-          "explanation": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
+          "explanation": "Pressure is proportional to cᵣₘₛ² at fixed density; doubling speed makes pressure four times as large.",
           "translations": {
             "ur": {
-              "question": "molecular speed کے بارے میں درست بیان منتخب کریں۔",
+              "question": "اگر کثافت مستقل ہو اور جذرِ اوسط مربع رفتار دوگنی ہو جائے تو دباؤ کیا ہوگا؟",
               "options": {
-                "A": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "آدھا",
+                "B": "دوگنا",
+                "C": "چار گنا",
+                "D": "برابر رہے گا"
               },
-              "explanation": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "مستقل کثافت پر دباؤ cᵣₘₛ² کے متناسب ہے؛ رفتار دوگنی کرنے سے دباؤ چار گنا ہوتا ہے۔"
             },
             "sd": {
-              "question": "molecular speed بابت صحيح بيان چونڊيو۔",
+              "question": "جيڪڏهن density ساڳي رهي ۽ rms speed ٻيڻي ٿئي ته pressure ڇا ٿيندو؟",
               "options": {
-                "A": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "اڌ",
+                "B": "ٻيڻو",
+                "C": "چار ڀيرا",
+                "D": "ساڳيو"
               },
-              "explanation": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "ساڳي density تي pressure، cᵣₘₛ² جي متناسب آهي؛ رفتار ٻيڻي ٿيڻ سان pressure چار ڀيرا ٿيندو۔"
             }
           }
         },
         {
-          "question": "Choose the correct principle for molecular speed.",
+          "question": "Which formula gives the rms speed of an ideal gas in terms of molar mass M?",
           "options": {
-            "A": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "√(RT/M)",
+            "B": "√(2RT/M)",
+            "C": "√(3RT/M)",
+            "D": "3RT/M"
           },
-          "correctOption": "D",
-          "explanation": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
+          "correctOption": "C",
+          "explanation": "Equating the kinetic-theory pressure relation to pV = nRT gives cᵣₘₛ = √(3RT/M). M must be in kg mol⁻¹.",
           "translations": {
             "ur": {
-              "question": "molecular speed کے بارے میں درست بیان منتخب کریں۔",
+              "question": "مولر کمیت M کے لحاظ سے مثالی گیس کی جذرِ اوسط مربع رفتار کا فارمولا کیا ہے؟",
               "options": {
-                "A": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "√(RT/M)",
+                "B": "√(2RT/M)",
+                "C": "√(3RT/M)",
+                "D": "3RT/M"
               },
-              "explanation": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "حرکیاتی مساوات اور pV = nRT کو برابر رکھنے سے cᵣₘₛ = √(3RT/M) ملتا ہے؛ M کو kg mol⁻¹ میں رکھیں۔"
             },
             "sd": {
-              "question": "molecular speed بابت صحيح بيان چونڊيو۔",
+              "question": "M molar mass جي لحاظ کان ideal gas جي rms speed جو فارمولو ڪهڙو آهي؟",
               "options": {
-                "A": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "√(RT/M)",
+                "B": "√(2RT/M)",
+                "C": "√(3RT/M)",
+                "D": "3RT/M"
               },
-              "explanation": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "kinetic-theory relation ۽ pV = nRT کي برابر رکڻ سان cᵣₘₛ = √(3RT/M) ملي ٿو؛ M کي kg mol⁻¹ ۾ رکو۔"
             }
           }
         },
         {
-          "question": "What is the scientifically accurate point about molecular speed?",
+          "question": "What is the average translational kinetic energy per molecule of an ideal gas at temperature T?",
           "options": {
-            "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "kT",
+            "B": "(1/2)kT",
+            "C": "(3/2)kT",
+            "D": "3kT"
           },
-          "correctOption": "A",
-          "explanation": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
+          "correctOption": "C",
+          "explanation": "For three translational degrees of freedom, the mean translational kinetic energy is (3/2)kT.",
           "translations": {
             "ur": {
-              "question": "molecular speed کے بارے میں درست بیان منتخب کریں۔",
+              "question": "درجہ حرارت T پر ایک سالمے کی اوسط انتقالی حرکی توانائی کیا ہے؟",
               "options": {
-                "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "kT",
+                "B": "(1/2)kT",
+                "C": "(3/2)kT",
+                "D": "3kT"
               },
-              "explanation": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "تین انتقالی درجاتِ آزادی کے لیے اوسط انتقالی حرکی توانائی (3/2)kT ہوتی ہے۔"
             },
             "sd": {
-              "question": "molecular speed بابت صحيح بيان چونڊيو۔",
+              "question": "T temperature تي هڪ ماليڪيول جي average translational kinetic energy ڪيتري آهي؟",
               "options": {
-                "A": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas laws: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "kT",
+                "B": "(1/2)kT",
+                "C": "(3/2)kT",
+                "D": "3kT"
               },
-              "explanation": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "ٽن translational degrees of freedom لاءِ average translational kinetic energy (3/2)kT آهي۔"
             }
           }
         },
         {
-          "question": "Which statement describes kinetic energy?",
+          "question": "At the same absolute temperature, which statement about two different ideal gases is correct?",
           "options": {
-            "A": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "kinetic energy کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "kinetic energy بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for kinetic energy.",
-          "options": {
-            "A": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "kinetic energy کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "kinetic energy بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about kinetic energy?",
-          "options": {
-            "A": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "The heavier gas has greater average translational kinetic energy",
+            "B": "Both have the same average translational kinetic energy per molecule",
+            "C": "The lighter gas has lower average translational kinetic energy",
+            "D": "Average kinetic energy depends only on pressure"
           },
           "correctOption": "B",
-          "explanation": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
+          "explanation": "Mean translational kinetic energy per molecule depends only on absolute temperature, not molecular mass.",
           "translations": {
             "ur": {
-              "question": "kinetic energy کے بارے میں درست بیان منتخب کریں۔",
+              "question": "ایک ہی مطلق درجہ حرارت پر دو مختلف مثالی گیسوں کے بارے میں کون سا بیان درست ہے؟",
               "options": {
-                "A": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "بھاری گیس کی فی سالمہ اوسط انتقالی حرکی توانائی زیادہ ہے",
+                "B": "دونوں کی فی سالمہ اوسط انتقالی حرکی توانائی برابر ہے",
+                "C": "ہلکی گیس کی اوسط حرکی توانائی کم ہے",
+                "D": "اوسط حرکی توانائی صرف دباؤ پر منحصر ہے"
               },
-              "explanation": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "فی سالمہ اوسط انتقالی حرکی توانائی صرف مطلق درجہ حرارت پر منحصر ہے، سالماتی کمیت پر نہیں۔"
             },
             "sd": {
-              "question": "kinetic energy بابت صحيح بيان چونڊيو۔",
+              "question": "ساڳئي absolute temperature تي ٻن ideal gases بابت ڪهڙو بيان صحيح آهي؟",
               "options": {
-                "A": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "molecular speed: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "وڏي mass واري گئس جي في ماليڪيول kinetic energy وڌيڪ آهي",
+                "B": "ٻنهي جي في ماليڪيول average translational kinetic energy برابر آهي",
+                "C": "هلڪي گئس جي kinetic energy گهٽ آهي",
+                "D": "اوسط kinetic energy رڳو pressure تي دارومدار رکي ٿي"
               },
-              "explanation": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "في ماليڪيول average translational kinetic energy رڳو absolute temperature تي دارومدار رکي ٿي، molecular mass تي نه۔"
             }
           }
         },
         {
-          "question": "Which statement describes real gases?",
+          "question": "At the same temperature, molecules of which gas have the greater rms speed?",
           "options": {
-            "A": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "real gases کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "real gases: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "real gases بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "real gases: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for real gases.",
-          "options": {
-            "A": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "The gas with the larger molar mass",
+            "B": "The gas with the smaller molar mass",
+            "C": "Both always have equal rms speed",
+            "D": "The gas at higher pressure only"
           },
           "correctOption": "B",
-          "explanation": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
+          "explanation": "cᵣₘₛ = √(3RT/M), so rms speed is inversely proportional to the square root of molar mass.",
           "translations": {
             "ur": {
-              "question": "real gases کے بارے میں درست بیان منتخب کریں۔",
+              "question": "ایک ہی درجہ حرارت پر کس گیس کے سالمات کی جذرِ اوسط مربع رفتار زیادہ ہوگی؟",
               "options": {
-                "A": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "زیادہ مولر کمیت والی گیس",
+                "B": "کم مولر کمیت والی گیس",
+                "C": "دونوں کی رفتار ہمیشہ برابر ہوگی",
+                "D": "صرف زیادہ دباؤ والی گیس"
               },
-              "explanation": "real gases: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "cᵣₘₛ = √(3RT/M) کے مطابق رفتار مولر کمیت کے مربع جذر کے الٹ متناسب ہے۔"
             },
             "sd": {
-              "question": "real gases بابت صحيح بيان چونڊيو۔",
+              "question": "ساڳئي temperature تي ڪهڙي گئس جي ماليڪيولن جي rms speed وڌيڪ هوندي؟",
               "options": {
-                "A": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "وڏي molar mass واري",
+                "B": "ننڍي molar mass واري",
+                "C": "ٻنهي جي رفتار هميشه برابر",
+                "D": "رڳو وڌيڪ pressure واري"
               },
-              "explanation": "real gases: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "cᵣₘₛ = √(3RT/M) موجب رفتار molar mass جي square root جي ابتڙ متناسب آهي۔"
             }
           }
         },
         {
-          "question": "What is the scientifically accurate point about real gases?",
+          "question": "Which conditions make an ideal-gas model a better approximation for a real gas?",
           "options": {
-            "A": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Low temperature and high pressure",
+            "B": "High temperature and low pressure",
+            "C": "Low temperature and low volume",
+            "D": "Near condensation at any pressure"
           },
-          "correctOption": "C",
-          "explanation": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
+          "correctOption": "B",
+          "explanation": "At high temperature and low pressure, molecular volume and intermolecular attractions are less important relative to the gas volume and kinetic energy.",
           "translations": {
             "ur": {
-              "question": "real gases کے بارے میں درست بیان منتخب کریں۔",
+              "question": "کون سی حالتیں حقیقی گیس کے لیے مثالی گیس کا ماڈل زیادہ درست بناتی ہیں؟",
               "options": {
-                "A": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "کم درجہ حرارت اور زیادہ دباؤ",
+                "B": "زیادہ درجہ حرارت اور کم دباؤ",
+                "C": "کم درجہ حرارت اور کم حجم",
+                "D": "کسی بھی دباؤ پر تکثیف کے قریب"
               },
-              "explanation": "real gases: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "زیادہ درجہ حرارت اور کم دباؤ پر سالمات کا اپنا حجم اور باہمی کشش نسبتاً کم اہم ہو جاتے ہیں۔"
             },
             "sd": {
-              "question": "real gases بابت صحيح بيان چونڊيو۔",
+              "question": "ڪهڙيون حالتون real gas لاءِ ideal-gas model کي وڌيڪ مناسب بڻائين ٿيون؟",
               "options": {
-                "A": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application."
+                "A": "گهٽ temperature ۽ وڌيڪ pressure",
+                "B": "وڌيڪ temperature ۽ گهٽ pressure",
+                "C": "گهٽ temperature ۽ گهٽ volume",
+                "D": "هر pressure تي liquefaction جي ويجهو"
               },
-              "explanation": "real gases: state the physical principle, relevant equation or law, units and one practical application."
+              "explanation": "وڌيڪ temperature ۽ گهٽ pressure تي ماليڪيولن جو پنهنجو حجم ۽ پاڻ ۾ ڪشش نسبتاً گهٽ اهم ٿين ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "What is the difference between mean-square speed and rms speed?",
+          "options": {
+            "A": "They are always identical",
+            "B": "Rms speed is the square root of mean-square speed",
+            "C": "Mean-square speed is the square root of rms speed",
+            "D": "Rms speed has units of m² s⁻²"
+          },
+          "correctOption": "B",
+          "explanation": "⟨c²⟩ has units m² s⁻²; cᵣₘₛ = √⟨c²⟩ has units m s⁻¹.",
+          "translations": {
+            "ur": {
+              "question": "اوسط مربع رفتار اور جذرِ اوسط مربع رفتار میں کیا فرق ہے؟",
+              "options": {
+                "A": "دونوں ہمیشہ برابر ہیں",
+                "B": "جذرِ اوسط مربع رفتار، اوسط مربع رفتار کا جذر ہے",
+                "C": "اوسط مربع رفتار، جذرِ اوسط مربع رفتار کا جذر ہے",
+                "D": "جذرِ اوسط مربع رفتار کی اکائی m² s⁻² ہے"
+              },
+              "explanation": "⟨c²⟩ کی اکائی m² s⁻² ہے جبکہ cᵣₘₛ = √⟨c²⟩ کی اکائی m s⁻¹ ہے۔"
+            },
+            "sd": {
+              "question": "mean-square speed ۽ rms speed ۾ ڪهڙو فرق آهي؟",
+              "options": {
+                "A": "ٻئي هميشه برابر آهن",
+                "B": "rms speed، mean-square speed جو square root آهي",
+                "C": "mean-square speed، rms speed جو square root آهي",
+                "D": "rms speed جي unit m² s⁻² آهي"
+              },
+              "explanation": "⟨c²⟩ جي unit m² s⁻² آهي، جڏهن ته cᵣₘₛ = √⟨c²⟩ جي unit m s⁻¹ آهي۔"
+            }
+          }
+        },
+        {
+          "question": "How many molecules are present in one mole of a substance?",
+          "options": {
+            "A": "R",
+            "B": "k",
+            "C": "Nₐ",
+            "D": "M"
+          },
+          "correctOption": "C",
+          "explanation": "One mole contains Avogadro's constant, Nₐ ≈ 6.02 × 10²³ entities.",
+          "translations": {
+            "ur": {
+              "question": "کسی مادے کے ایک مول میں کتنے سالمات ہوتے ہیں؟",
+              "options": {
+                "A": "R",
+                "B": "k",
+                "C": "Nₐ",
+                "D": "M"
+              },
+              "explanation": "ایک مول میں ایووگاڈرو مستقل Nₐ تقریباً 6.02 × 10²³ ذرات ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "هڪ mole ۾ ڪيترا ماليڪيول هوندا آهن؟",
+              "options": {
+                "A": "R",
+                "B": "k",
+                "C": "Nₐ",
+                "D": "M"
+              },
+              "explanation": "هڪ mole ۾ Avogadro constant Nₐ تقريباً 6.02 × 10²³ ذرا هوندا آهن۔"
+            }
+          }
+        },
+        {
+          "question": "How are the Boltzmann constant k and gas constant R related?",
+          "options": {
+            "A": "k = RNₐ",
+            "B": "k = R/Nₐ",
+            "C": "k = Nₐ/R",
+            "D": "k = R + Nₐ"
+          },
+          "correctOption": "B",
+          "explanation": "R is the molar gas constant and k is per molecule; dividing R by Avogadro's constant gives k.",
+          "translations": {
+            "ur": {
+              "question": "بولٹزمین مستقل k اور گیس مستقل R میں کیا تعلق ہے؟",
+              "options": {
+                "A": "k = RNₐ",
+                "B": "k = R/Nₐ",
+                "C": "k = Nₐ/R",
+                "D": "k = R + Nₐ"
+              },
+              "explanation": "R فی مول مستقل ہے جبکہ k فی سالمہ؛ اس لیے k = R/Nₐ ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "Boltzmann constant k ۽ gas constant R ۾ ڪهڙو تعلق آهي؟",
+              "options": {
+                "A": "k = RNₐ",
+                "B": "k = R/Nₐ",
+                "C": "k = Nₐ/R",
+                "D": "k = R + Nₐ"
+              },
+              "explanation": "R في mole ۽ k في ماليڪيول لاءِ آهي؛ تنهنڪري k = R/Nₐ آهي۔"
+            }
+          }
+        },
+        {
+          "question": "If the absolute temperature of an ideal gas is increased by a factor of four, what happens to rms speed?",
+          "options": {
+            "A": "It doubles",
+            "B": "It quadruples",
+            "C": "It halves",
+            "D": "It becomes one-quarter"
+          },
+          "correctOption": "A",
+          "explanation": "Rms speed is proportional to √T, so a fourfold increase in T doubles cᵣₘₛ.",
+          "translations": {
+            "ur": {
+              "question": "اگر مثالی گیس کا مطلق درجہ حرارت چار گنا ہو جائے تو جذرِ اوسط مربع رفتار کیا ہوگی؟",
+              "options": {
+                "A": "دوگنی",
+                "B": "چار گنا",
+                "C": "آدھی",
+                "D": "ایک چوتھائی"
+              },
+              "explanation": "جذرِ اوسط مربع رفتار √T کے متناسب ہے، اس لیے درجہ حرارت چار گنا ہونے سے رفتار دوگنی ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "جيڪڏهن ideal gas جو absolute temperature چار ڀيرا ٿئي ته rms speed ڇا ٿيندي؟",
+              "options": {
+                "A": "ٻيڻي",
+                "B": "چار ڀيرا",
+                "C": "اڌ",
+                "D": "چوٿون حصو"
+              },
+              "explanation": "rms speed √T جي متناسب آهي، تنهنڪري temperature چار ڀيرا ٿيڻ سان رفتار ٻيڻي ٿيندي۔"
+            }
+          }
+        },
+        {
+          "question": "Which assumption is made about collisions in the ideal-gas kinetic model?",
+          "options": {
+            "A": "They are perfectly inelastic",
+            "B": "They destroy molecular kinetic energy",
+            "C": "They are perfectly elastic",
+            "D": "Molecules stick to the walls"
+          },
+          "correctOption": "C",
+          "explanation": "Ideal-gas collisions conserve total kinetic energy; wall collisions reverse the normal momentum component.",
+          "translations": {
+            "ur": {
+              "question": "مثالی گیس کے حرکیاتی ماڈل میں تصادموں کے بارے میں کون سا مفروضہ ہے؟",
+              "options": {
+                "A": "تصادم مکمل غیر لچکدار ہوتے ہیں",
+                "B": "تصادم سالماتی حرکی توانائی ختم کر دیتے ہیں",
+                "C": "تصادم مکمل لچکدار ہوتے ہیں",
+                "D": "سالمات دیواروں سے چپک جاتے ہیں"
+              },
+              "explanation": "مثالی گیس میں تصادم کل حرکی توانائی محفوظ رکھتے ہیں؛ دیوار سے ٹکرانے پر عمودی مومینٹم کا جزو الٹ جاتا ہے۔"
+            },
+            "sd": {
+              "question": "Ideal-gas kinetic model ۾ collisions بابت ڪهڙو مفروضو آهي؟",
+              "options": {
+                "A": "اهي مڪمل غير لچڪدار آهن",
+                "B": "اهي kinetic energy ختم ڪن ٿا",
+                "C": "اهي مڪمل لچڪدار آهن",
+                "D": "ماليڪيول ڀتين سان چنبڙي وڃن ٿا"
+              },
+              "explanation": "مثالي گئس ۾ collisions دوران ڪل kinetic energy محفوظ رهي ٿي؛ ڀت سان ٽڪرائڻ تي عمودي momentum جو جزو ابتو ٿئي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "A nitrogen sample has M = 0.028 kg mol⁻¹ at 300 K. Its rms speed is closest to:",
+          "options": {
+            "A": "52 m s⁻¹",
+            "B": "170 m s⁻¹",
+            "C": "517 m s⁻¹",
+            "D": "5,170 m s⁻¹"
+          },
+          "correctOption": "C",
+          "explanation": "cᵣₘₛ = √(3RT/M) = √(3×8.31×300/0.028) ≈ 517 m s⁻¹.",
+          "translations": {
+            "ur": {
+              "question": "300 K پر نائٹروجن کی M = 0.028 kg mol⁻¹ ہو تو جذرِ اوسط مربع رفتار تقریباً کتنی ہوگی؟",
+              "options": {
+                "A": "52 m s⁻¹",
+                "B": "170 m s⁻¹",
+                "C": "517 m s⁻¹",
+                "D": "5,170 m s⁻¹"
+              },
+              "explanation": "cᵣₘₛ = √(3RT/M) = √(3×8.31×300/0.028) تقریباً 517 m s⁻¹ ہے۔"
+            },
+            "sd": {
+              "question": "300 K تي nitrogen لاءِ M = 0.028 kg mol⁻¹ هجي ته rms speed تقريباً ڪيتري ٿيندي؟",
+              "options": {
+                "A": "52 m s⁻¹",
+                "B": "170 m s⁻¹",
+                "C": "517 m s⁻¹",
+                "D": "5,170 m s⁻¹"
+              },
+              "explanation": "cᵣₘₛ = √(3RT/M) = √(3×8.31×300/0.028) تقريباً 517 m s⁻¹ آهي۔"
+            }
+          }
+        },
+        {
+          "question": "For ρ = 1.2 kg m⁻³ and cᵣₘₛ = 500 m s⁻¹, the kinetic-theory pressure is:",
+          "options": {
+            "A": "10,000 Pa",
+            "B": "50,000 Pa",
+            "C": "100,000 Pa",
+            "D": "300,000 Pa"
+          },
+          "correctOption": "C",
+          "explanation": "p = (1/3)ρcᵣₘₛ² = (1/3)(1.2)(500²) = 100,000 Pa.",
+          "translations": {
+            "ur": {
+              "question": "اگر ρ = 1.2 kg m⁻³ اور cᵣₘₛ = 500 m s⁻¹ ہو تو حرکیاتی دباؤ کیا ہوگا؟",
+              "options": {
+                "A": "10,000 Pa",
+                "B": "50,000 Pa",
+                "C": "100,000 Pa",
+                "D": "300,000 Pa"
+              },
+              "explanation": "p = (1/3)ρcᵣₘₛ² = (1/3)(1.2)(500²) = 100,000 Pa۔"
+            },
+            "sd": {
+              "question": "جيڪڏهن ρ = 1.2 kg m⁻³ ۽ cᵣₘₛ = 500 m s⁻¹ هجي ته kinetic-theory pressure ڪيترو ٿيندو؟",
+              "options": {
+                "A": "10,000 Pa",
+                "B": "50,000 Pa",
+                "C": "100,000 Pa",
+                "D": "300,000 Pa"
+              },
+              "explanation": "p = (1/3)ρcᵣₘₛ² = (1/3)(1.2)(500²) = 100,000 Pa۔"
+            }
+          }
+        },
+        {
+          "question": "Why is molecular motion described as random in the kinetic theory?",
+          "options": {
+            "A": "Every molecule has exactly the same velocity",
+            "B": "Molecules move in all directions with a distribution of speeds",
+            "C": "Molecules remain fixed in a lattice",
+            "D": "Molecules move only vertically"
+          },
+          "correctOption": "B",
+          "explanation": "Gas molecules have a range of speeds and directions; in equilibrium there is no preferred direction.",
+          "translations": {
+            "ur": {
+              "question": "حرکیاتی نظریے میں سالماتی حرکت کو بے ترتیب کیوں کہا جاتا ہے؟",
+              "options": {
+                "A": "ہر سالمے کی رفتار بالکل یکساں ہے",
+                "B": "سالمات مختلف رفتاروں کے ساتھ ہر سمت میں حرکت کرتے ہیں",
+                "C": "سالمات جال میں ساکن رہتے ہیں",
+                "D": "سالمات صرف عمودی سمت میں حرکت کرتے ہیں"
+              },
+              "explanation": "گیس کے سالمات کی رفتاریں اور سمتیں مختلف ہوتی ہیں؛ توازن میں کوئی ایک سمت ترجیحی نہیں ہوتی۔"
+            },
+            "sd": {
+              "question": "Kinetic theory ۾ molecular motion کي random ڇو چيو وڃي ٿو؟",
+              "options": {
+                "A": "هر ماليڪيول جي رفتار بلڪل ساڳي آهي",
+                "B": "ماليڪيول مختلف رفتار ۽ رخن ۾ هلن ٿا",
+                "C": "ماليڪيول lattice ۾ ساکت رهن ٿا",
+                "D": "ماليڪيول رڳو عمودي رخ ۾ هلن ٿا"
+              },
+              "explanation": "گئس جي ماليڪيولن جون رفتارون ۽ رخ مختلف هوندا آهن؛ equilibrium ۾ ڪو هڪ رخ پسنديده نه هوندو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "When does a real gas show the largest departure from ideal behaviour?",
+          "options": {
+            "A": "At high temperature and low pressure",
+            "B": "At low density",
+            "C": "Near liquefaction at low temperature and high pressure",
+            "D": "When molecules are very far apart"
+          },
+          "correctOption": "C",
+          "explanation": "Near liquefaction, intermolecular attractions and finite molecular volume can no longer be neglected.",
+          "translations": {
+            "ur": {
+              "question": "حقیقی گیس مثالی رویے سے سب سے زیادہ کب انحراف کرتی ہے؟",
+              "options": {
+                "A": "زیادہ درجہ حرارت اور کم دباؤ پر",
+                "B": "کم کثافت پر",
+                "C": "کم درجہ حرارت اور زیادہ دباؤ پر تکثیف کے قریب",
+                "D": "جب سالمات بہت دور ہوں"
+              },
+              "explanation": "تکثیف کے قریب بین السالماتی کشش اور سالمات کا محدود حجم نظرانداز نہیں کیے جا سکتے۔"
+            },
+            "sd": {
+              "question": "Real gas ideal behaviour کان سڀ کان وڌيڪ ڪڏهن هٽي ٿي؟",
+              "options": {
+                "A": "وڌيڪ temperature ۽ گهٽ pressure تي",
+                "B": "گهٽ density تي",
+                "C": "گهٽ temperature ۽ وڌيڪ pressure تي liquefaction جي ويجهو",
+                "D": "جڏهن ماليڪيول تمام پري هجن"
+              },
+              "explanation": "liquefaction جي ويجهو intermolecular attraction ۽ ماليڪيولن جو محدود حجم نظرانداز نٿا ڪري سگهجن۔"
+            }
+          }
+        },
+        {
+          "question": "Which quantity is measured in joules per molecule in the kinetic theory?",
+          "options": {
+            "A": "Pressure",
+            "B": "Rms speed",
+            "C": "Average translational kinetic energy",
+            "D": "Molar mass"
+          },
+          "correctOption": "C",
+          "explanation": "Average translational kinetic energy per molecule is (3/2)kT and has SI unit joule.",
+          "translations": {
+            "ur": {
+              "question": "حرکیاتی نظریے میں کون سی مقدار فی سالمہ joule میں ناپی جاتی ہے؟",
+              "options": {
+                "A": "دباؤ",
+                "B": "جذرِ اوسط مربع رفتار",
+                "C": "اوسط انتقالی حرکی توانائی",
+                "D": "مولر کمیت"
+              },
+              "explanation": "فی سالمہ اوسط انتقالی حرکی توانائی (3/2)kT ہے اور اس کی SI اکائی جول ہے۔"
+            },
+            "sd": {
+              "question": "Kinetic theory ۾ ڪهڙي مقدار في ماليڪيول joule ۾ ماپي ويندي آهي؟",
+              "options": {
+                "A": "Pressure",
+                "B": "Rms speed",
+                "C": "Average translational kinetic energy",
+                "D": "Molar mass"
+              },
+              "explanation": "في ماليڪيول average translational kinetic energy (3/2)kT آهي ۽ ان جي SI unit joule آهي۔"
             }
           }
         }
@@ -555,30 +747,30 @@
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define kinetic model and give one example.",
-          "modelAnswer": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "Explain how molecular collisions with the walls of a container produce gas pressure.",
+          "modelAnswer": "Gas molecules strike the walls and reverse the component of momentum normal to the surface. The wall receives an impulse; the many impacts per second create an average force. Pressure is force per unit area.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
+            "Momentum changes at wall collisions (1)",
+            "Impulse/force from repeated impacts (1)",
+            "Pressure defined as force per unit area (1)"
           ],
           "translations": {
             "ur": {
-              "question": "kinetic model کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
+              "question": "وضاحت کریں کہ برتن کی دیواروں سے سالمات کے تصادم گیس کا دباؤ کیسے پیدا کرتے ہیں۔",
+              "modelAnswer": "گیس کے سالمات دیوار سے ٹکراتے ہیں تو سطح کے عمود پر مومینٹم کا جزو الٹ جاتا ہے۔ دیوار کو impulse ملتا ہے؛ ہر سیکنڈ میں بے شمار تصادم اوسط قوت پیدا کرتے ہیں۔ دباؤ فی اکائی رقبہ قوت ہے۔",
               "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "دیوار سے ٹکرانے پر مومینٹم میں تبدیلی (1)",
+                "بار بار تصادم سے impulse/قوت (1)",
+                "دباؤ کی تعریف: فی رقبہ قوت (1)"
               ]
             },
             "sd": {
-              "question": "kinetic model جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "kinetic model: state the physical principle, relevant equation or law, units and one practical application.",
+              "question": "وضاحت ڪريو ته برتن جي ڀتين سان ماليڪيولن جا ٽڪر گئس جو pressure ڪيئن پيدا ڪن ٿا۔",
+              "modelAnswer": "گئس جا ماليڪيول ڀت سان ٽڪرائين ٿا ته سطح جي عمودي رخ وارو momentum جو جزو ابتو ٿئي ٿو۔ ڀت کي impulse ملي ٿو؛ هر سيڪنڊ ۾ ڪيترائي ٽڪر average force پيدا ڪن ٿا۔ Pressure في area قوت آهي۔",
               "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "ڀت سان ٽڪر تي momentum ۾ تبديلي (1)",
+                "بار بار ٽڪرن مان impulse/قوت (1)",
+                "pressure جي تعريف: في area قوت (1)"
               ]
             }
           }
@@ -586,30 +778,30 @@
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define molecular speed and give one example.",
-          "modelAnswer": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "State the relation between pV and the mean-square molecular speed for an ideal gas and define the symbols.",
+          "modelAnswer": "pV = (1/3)Nm⟨c²⟩, where p is pressure, V volume, N number of molecules, m mass of one molecule and ⟨c²⟩ mean-square speed.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
+            "Correct factor and equation (1)",
+            "p and V defined (1)",
+            "N, m and ⟨c²⟩ defined (1)"
           ],
           "translations": {
             "ur": {
-              "question": "molecular speed کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
+              "question": "مثالی گیس کے لیے pV اور سالمات کی اوسط مربع رفتار کا تعلق لکھیں اور علامات کی تعریف کریں۔",
+              "modelAnswer": "pV = (1/3)Nm⟨c²⟩، جہاں p دباؤ، V حجم، N سالمات کی تعداد، m ایک سالمے کی کمیت اور ⟨c²⟩ اوسط مربع رفتار ہے۔",
               "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "درست عامل اور مساوات (1)",
+                "p اور V کی تعریف (1)",
+                "N، m اور ⟨c²⟩ کی تعریف (1)"
               ]
             },
             "sd": {
-              "question": "molecular speed جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "molecular speed: state the physical principle, relevant equation or law, units and one practical application.",
+              "question": "Ideal gas لاءِ pV ۽ ماليڪيولن جي mean-square speed جو تعلق لکو ۽ نشانين جي تعريف ڪريو۔",
+              "modelAnswer": "pV = (1/3)Nm⟨c²⟩، جتي p pressure، V volume، N ماليڪيولن جو انگ، m هڪ ماليڪيول جو mass ۽ ⟨c²⟩ mean-square speed آهي۔",
               "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "صحيح factor ۽ مساوات (1)",
+                "p ۽ V جي تعريف (1)",
+                "N، m ۽ ⟨c²⟩ جي تعريف (1)"
               ]
             }
           }
@@ -617,98 +809,228 @@
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define real gases and give one example.",
-          "modelAnswer": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "Calculate the rms speed of nitrogen at 300 K. Take M = 0.028 kg mol⁻¹ and R = 8.31 J mol⁻¹ K⁻¹.",
+          "modelAnswer": "cᵣₘₛ = √(3RT/M) = √[(3×8.31×300)/0.028] ≈ √267,000 ≈ 517 m s⁻¹.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
+            "Correct formula (1)",
+            "Correct substitution with SI units (1)",
+            "Answer approximately 517 m s⁻¹ (1)"
           ],
           "translations": {
             "ur": {
-              "question": "real gases کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
+              "question": "300 K پر نائٹروجن کی جذرِ اوسط مربع رفتار معلوم کریں۔ M = 0.028 kg mol⁻¹ اور R = 8.31 J mol⁻¹ K⁻¹ لیں۔",
+              "modelAnswer": "cᵣₘₛ = √(3RT/M) = √[(3×8.31×300)/0.028] ≈ √267,000 ≈ 517 m s⁻¹۔",
               "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "درست فارمولا (1)",
+                "SI اکائیوں کے ساتھ درست قدریں رکھنا (1)",
+                "تقریباً 517 m s⁻¹ جواب (1)"
               ]
             },
             "sd": {
-              "question": "real gases جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "real gases: state the physical principle, relevant equation or law, units and one practical application.",
+              "question": "300 K تي nitrogen جي rms speed ڳڻيو۔ M = 0.028 kg mol⁻¹ ۽ R = 8.31 J mol⁻¹ K⁻¹ وٺو۔",
+              "modelAnswer": "cᵣₘₛ = √(3RT/M) = √[(3×8.31×300)/0.028] ≈ √267,000 ≈ 517 m s⁻¹۔",
               "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "صحيح فارمولو (1)",
+                "SI units سان صحيح substitution (1)",
+                "تقريباً 517 m s⁻¹ جواب (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 3,
+          "question": "Find the average translational kinetic energy per molecule at 300 K. Use k = 1.38 × 10⁻²³ J K⁻¹.",
+          "modelAnswer": "Ē = (3/2)kT = 1.5 × 1.38×10⁻²³ × 300 = 6.21 × 10⁻²¹ J.",
+          "rubric": [
+            "Correct (3/2)kT relation (1)",
+            "Correct substitution (1)",
+            "6.21 × 10⁻²¹ J (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "300 K پر فی سالمہ اوسط انتقالی حرکی توانائی معلوم کریں۔ k = 1.38 × 10⁻²³ J K⁻¹ استعمال کریں۔",
+              "modelAnswer": "Ē = (3/2)kT = 1.5 × 1.38×10⁻²³ × 300 = 6.21 × 10⁻²¹ J۔",
+              "rubric": [
+                "درست (3/2)kT تعلق (1)",
+                "درست قدریں رکھنا (1)",
+                "6.21 × 10⁻²¹ J جواب (1)"
+              ]
+            },
+            "sd": {
+              "question": "300 K تي في ماليڪيول average translational kinetic energy ڳڻيو۔ k = 1.38 × 10⁻²³ J K⁻¹ استعمال ڪريو۔",
+              "modelAnswer": "Ē = (3/2)kT = 1.5 × 1.38×10⁻²³ × 300 = 6.21 × 10⁻²¹ J۔",
+              "rubric": [
+                "صحيح (3/2)kT تعلق (1)",
+                "صحيح substitution (1)",
+                "6.21 × 10⁻²¹ J جواب (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 3,
+          "question": "Two ideal gases are at the same temperature. Compare their average translational kinetic energy per molecule and explain how their rms speeds may differ.",
+          "modelAnswer": "Their average translational kinetic energies per molecule are equal because Ē = (3/2)kT depends only on T. Their rms speeds may differ: cᵣₘₛ = √(3RT/M), so the lower-molar-mass gas moves faster.",
+          "rubric": [
+            "Equal average energy at equal T (1)",
+            "Energy relation (1)",
+            "Rms speed depends on molar mass (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو مثالی گیسیں ایک ہی درجہ حرارت پر ہیں۔ فی سالمہ اوسط انتقالی حرکی توانائی کا موازنہ کریں اور بتائیں کہ ان کی rms رفتاریں مختلف کیوں ہو سکتی ہیں۔",
+              "modelAnswer": "دونوں کی فی سالمہ اوسط انتقالی حرکی توانائی برابر ہے کیونکہ Ē = (3/2)kT صرف T پر منحصر ہے۔ rms رفتار مختلف ہو سکتی ہے: cᵣₘₛ = √(3RT/M)، اس لیے کم مولر کمیت والی گیس زیادہ تیز حرکت کرتی ہے۔",
+              "rubric": [
+                "ایک ہی T پر اوسط توانائی برابر (1)",
+                "توانائی کا تعلق (1)",
+                "rms رفتار کا مولر کمیت پر انحصار (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه ideal gases ساڳئي temperature تي آهن۔ في ماليڪيول average translational kinetic energy ڀيٽيو ۽ ٻڌايو ته انهن جون rms speeds مختلف ڇو ٿي سگهن ٿيون۔",
+              "modelAnswer": "ٻنهي جي في ماليڪيول average translational kinetic energy برابر آهي، ڇاڪاڻ ته Ē = (3/2)kT رڳو T تي دارومدار رکي ٿي۔ rms speed مختلف ٿي سگهي ٿي: cᵣₘₛ = √(3RT/M)، تنهنڪري گهٽ molar mass واري گئس وڌيڪ تيز هلندي۔",
+              "rubric": [
+                "ساڳئي T تي average energy برابر (1)",
+                "توانائي جو تعلق (1)",
+                "rms speed جو molar mass تي دارومدار (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 3,
+          "question": "State two assumptions of the ideal-gas model and two conditions under which real gases deviate from it.",
+          "modelAnswer": "Assumptions: molecular volume is negligible and intermolecular forces are negligible except during collisions (other valid assumptions include random motion and elastic collisions). Deviations are greatest at high pressure and low temperature, especially near liquefaction.",
+          "rubric": [
+            "Two valid assumptions (2)",
+            "High pressure / low temperature conditions (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "مثالی گیس ماڈل کے دو مفروضے اور دو ایسی حالتیں لکھیں جن میں حقیقی گیس اس سے انحراف کرتی ہے۔",
+              "modelAnswer": "مفروضے: سالمات کا اپنا حجم قابلِ نظرانداز ہے اور تصادم کے علاوہ بین السالماتی قوتیں قابلِ نظرانداز ہیں (بے ترتیب حرکت اور لچکدار تصادم بھی درست مفروضے ہیں)۔ زیادہ دباؤ اور کم درجہ حرارت، خصوصاً تکثیف کے قریب، انحراف زیادہ ہوتا ہے۔",
+              "rubric": [
+                "دو درست مفروضے (2)",
+                "زیادہ دباؤ/کم درجہ حرارت کی حالتیں (1)"
+              ]
+            },
+            "sd": {
+              "question": "Ideal-gas model جا ٻه مفروضا ۽ ٻه حالتون لکو جن ۾ real gas ان کان هٽي ٿي۔",
+              "modelAnswer": "مفروضا: ماليڪيولن جو پنهنجو حجم نظرانداز ڪرڻ جهڙو آهي ۽ collisions کان سواءِ intermolecular forces نظرانداز ڪرڻ جهڙيون آهن (random motion ۽ elastic collisions به صحيح مفروضا آهن)۔ وڌيڪ pressure ۽ گهٽ temperature، خاص ڪري liquefaction جي ويجهو، deviation وڌيڪ ٿيندي آهي۔",
+              "rubric": [
+                "ٻه صحيح مفروضا (2)",
+                "وڌيڪ pressure/گهٽ temperature جون حالتون (1)"
               ]
             }
           }
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain gas laws with its principle, features and applications.",
-          "modelAnswer": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
+          "marks": 8,
+          "question": "Derive the kinetic-theory equation pV = (1/3)Nm⟨c²⟩ for an ideal gas. State the assumptions and show how it leads to p = (1/3)ρcᵣₘₛ².",
+          "modelAnswer": "Take N identical molecules of mass m in volume V. For a molecule with x-velocity cₓ, an elastic wall collision changes its normal momentum by 2mcₓ. Summing the collision rate over molecules gives pV = Nm⟨cₓ²⟩. Random isotropic motion gives ⟨cₓ²⟩ = ⟨c²⟩/3, so pV = (1/3)Nm⟨c²⟩ = (1/3)Nm cᵣₘₛ². Dividing by V and using ρ = Nm/V gives p = (1/3)ρcᵣₘₛ². Assumptions include negligible molecular volume, negligible intermolecular forces except during collisions, random motion and perfectly elastic collisions.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
+            "Model assumptions (2)",
+            "Momentum change in an elastic collision (2)",
+            "Pressure relation using x-component (1)",
+            "Isotropic averaging factor 1/3 (1)",
+            "Final pV equation (1)",
+            "Density form (1)"
           ],
           "translations": {
             "ur": {
-              "question": "gas laws کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
+              "question": "مثالی گیس کے لیے حرکیاتی مساوات pV = (1/3)Nm⟨c²⟩ اخذ کریں۔ مفروضے لکھیں اور دکھائیں کہ اس سے p = (1/3)ρcᵣₘₛ² کیسے حاصل ہوتا ہے۔",
+              "modelAnswer": "حجم V میں N یکساں سالمات لیں، ہر ایک کی کمیت m ہے۔ x-سمتی رفتار cₓ والے سالمے کا دیوار سے لچکدار تصادم عمودی مومینٹم کو 2mcₓ سے بدلتا ہے۔ تمام سالمات کے تصادم شمار کرنے سے pV = Nm⟨cₓ²⟩ ملتا ہے۔ بے ترتیب یکساں حرکت میں ⟨cₓ²⟩ = ⟨c²⟩/3، لہٰذا pV = (1/3)Nm⟨c²⟩ = (1/3)Nm cᵣₘₛ²۔ V سے تقسیم اور ρ = Nm/V رکھنے سے p = (1/3)ρcᵣₘₛ² ملتا ہے۔ مفروضوں میں سالماتی حجم اور تصادم کے علاوہ قوتوں کو نظرانداز کرنا، بے ترتیب حرکت اور مکمل لچکدار تصادم شامل ہیں۔",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
+                "ماڈل کے مفروضے (2)",
+                "لچکدار تصادم میں مومینٹم کی تبدیلی (2)",
+                "x-جزو سے دباؤ کا تعلق (1)",
+                "یکساں سمتی اوسط کا عامل 1/3 (1)",
+                "آخری pV مساوات (1)",
+                "کثافت والی شکل (1)"
               ]
             },
             "sd": {
-              "question": "gas laws جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "gas laws: state the physical principle, relevant equation or law, units and one practical application.",
+              "question": "Ideal gas لاءِ kinetic-theory equation pV = (1/3)Nm⟨c²⟩ اخذ ڪريو۔ مفروضا لکو ۽ ڏيکاريو ته ان مان p = (1/3)ρcᵣₘₛ² ڪيئن ملي ٿو۔",
+              "modelAnswer": "حجم V ۾ N هڪجهڙا ماليڪيول وٺو، هر هڪ جو mass m آهي۔ x-رخ واري رفتار cₓ رکندڙ ماليڪيول جو ڀت سان elastic collision عمودي momentum کي 2mcₓ سان بدلائي ٿو۔ سڀني ماليڪيولن جا collisions ڳڻڻ سان pV = Nm⟨cₓ²⟩ ملي ٿو۔ random isotropic motion ۾ ⟨cₓ²⟩ = ⟨c²⟩/3، تنهنڪري pV = (1/3)Nm⟨c²⟩ = (1/3)Nm cᵣₘₛ²۔ V سان ورهائڻ ۽ ρ = Nm/V رکڻ سان p = (1/3)ρcᵣₘₛ² ملي ٿو۔ مفروضن ۾ ماليڪيولن جو حجم ۽ collisions کان سواءِ قوتون نظرانداز ڪرڻ، random motion ۽ مڪمل elastic collisions شامل آهن۔",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
+                "model جا مفروضا (2)",
+                "elastic collision ۾ momentum جي تبديلي (2)",
+                "x-component مان pressure relation (1)",
+                "isotropic averaging جو factor 1/3 (1)",
+                "آخري pV equation (1)",
+                "density form (1)"
               ]
             }
           }
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain kinetic energy with its principle, features and applications.",
-          "modelAnswer": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
+          "marks": 8,
+          "question": "Explain the relationship between absolute temperature, average translational kinetic energy and rms speed. Include the derivation of cᵣₘₛ = √(3RT/M) and a numerical example for nitrogen at 300 K.",
+          "modelAnswer": "Equating pV = (1/3)Nm cᵣₘₛ² with pV = NkT gives (1/3)m cᵣₘₛ² = kT, hence (1/2)m cᵣₘₛ² = (3/2)kT. Therefore average translational kinetic energy per molecule is (3/2)kT. Using Nₐ molecules per mole and R = Nₐk gives cᵣₘₛ = √(3RT/M). For nitrogen, M = 0.028 kg mol⁻¹ and T = 300 K: cᵣₘₛ = √(3×8.31×300/0.028) ≈ 517 m s⁻¹. Thus energy is proportional to T and rms speed to √T.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
+            "Connect kinetic and ideal gas equations (2)",
+            "Derive (3/2)kT average energy (2)",
+            "Derive molar rms formula (2)",
+            "Correct substitution and numerical answer (2)"
           ],
           "translations": {
             "ur": {
-              "question": "kinetic energy کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
+              "question": "مطلق درجہ حرارت، اوسط انتقالی حرکی توانائی اور rms رفتار کا تعلق بیان کریں۔ cᵣₘₛ = √(3RT/M) اخذ کریں اور 300 K پر نائٹروجن کی عددی مثال دیں۔",
+              "modelAnswer": "pV = (1/3)Nm cᵣₘₛ² کو pV = NkT کے برابر رکھنے سے (1/3)m cᵣₘₛ² = kT، لہٰذا (1/2)m cᵣₘₛ² = (3/2)kT ملتا ہے۔ اس لیے فی سالمہ اوسط انتقالی حرکی توانائی (3/2)kT ہے۔ ایک مول میں Nₐ سالمات اور R = Nₐk ہونے سے cᵣₘₛ = √(3RT/M) حاصل ہوتا ہے۔ نائٹروجن کے لیے M = 0.028 kg mol⁻¹ اور T = 300 K: cᵣₘₛ = √(3×8.31×300/0.028) تقریباً 517 m s⁻¹ ہے۔ لہٰذا توانائی T اور rms رفتار √T کے متناسب ہے۔",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
+                "حرکیاتی اور مثالی گیس مساواتوں کو جوڑنا (2)",
+                "اوسط توانائی (3/2)kT اخذ کرنا (2)",
+                "مولر rms فارمولا اخذ کرنا (2)",
+                "درست قدریں اور عددی جواب (2)"
               ]
             },
             "sd": {
-              "question": "kinetic energy جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "kinetic energy: state the physical principle, relevant equation or law, units and one practical application.",
+              "question": "مطلق temperature، average translational kinetic energy ۽ rms speed جو تعلق بيان ڪريو۔ cᵣₘₛ = √(3RT/M) اخذ ڪريو ۽ 300 K تي nitrogen جو عددي مثال ڏيو۔",
+              "modelAnswer": "pV = (1/3)Nm cᵣₘₛ² کي pV = NkT برابر رکڻ سان (1/3)m cᵣₘₛ² = kT، تنهنڪري (1/2)m cᵣₘₛ² = (3/2)kT ملي ٿو۔ ان ڪري في ماليڪيول average translational kinetic energy (3/2)kT آهي۔ هڪ mole ۾ Nₐ ماليڪيول ۽ R = Nₐk هجڻ سبب cᵣₘₛ = √(3RT/M) ملي ٿو۔ nitrogen لاءِ M = 0.028 kg mol⁻¹ ۽ T = 300 K: cᵣₘₛ = √(3×8.31×300/0.028) لڳ ڀڳ 517 m s⁻¹ آهي۔ تنهنڪري energy، T ۽ rms speed، √T جي متناسب آهي۔",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
+                "kinetic ۽ ideal gas equations ڳنڍڻ (2)",
+                "average energy (3/2)kT اخذ ڪرڻ (2)",
+                "molar rms formula اخذ ڪرڻ (2)",
+                "صحيح substitution ۽ عددي جواب (2)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 8,
+          "question": "A tyre is nearly constant in volume while a vehicle travels from a cool morning into hot afternoon conditions. Use molecular theory and the ideal-gas relation to explain why tyre pressure rises and state safe measurement practice.",
+          "modelAnswer": "Heating increases the absolute temperature and mean translational kinetic energy. Molecules hit the tyre wall more frequently and transfer more momentum per unit time, increasing pressure. For nearly fixed amount and volume, p/T is approximately constant, so pressure rises with kelvin temperature. Check pressure against the manufacturer's cold-tyre specification; do not release air from a hot tyre merely to match the cold reading.",
+          "rubric": [
+            "Temperature and kinetic-energy increase (2)",
+            "Molecular collision/momentum explanation (2)",
+            "p/T relation at near-constant V and amount (2)",
+            "Safe cold-tyre measurement advice (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "گاڑی ٹھنڈی صبح سے گرم دوپہر میں سفر کرتی ہے اور ٹائر کا حجم تقریباً مستقل رہتا ہے۔ سالماتی نظریے اور مثالی گیس کے تعلق سے دباؤ بڑھنے کی وجہ بیان کریں اور محفوظ پیمائش کا طریقہ لکھیں۔",
+              "modelAnswer": "گرم ہونے سے مطلق درجہ حرارت اور اوسط انتقالی حرکی توانائی بڑھتی ہے۔ سالمات ٹائر کی دیوار سے زیادہ بار ٹکراتے اور فی وقت زیادہ مومینٹم منتقل کرتے ہیں، اس لیے دباؤ بڑھتا ہے۔ گیس کی مقدار اور حجم تقریباً مستقل ہوں تو p/T تقریباً مستقل رہتا ہے، لہٰذا kelvin میں درجہ حرارت بڑھنے سے دباؤ بھی بڑھتا ہے۔ دباؤ بنانے والی کمپنی کی سرد ٹائر کی مقررہ قدر کے مطابق چیک کریں؛ گرم ٹائر سے صرف سرد پیمائش کے برابر کرنے کے لیے ہوا نہ نکالیں۔",
+              "rubric": [
+                "درجہ حرارت اور حرکی توانائی میں اضافہ (2)",
+                "تصادم/مومینٹم کی وضاحت (2)",
+                "تقریباً مستقل حجم اور مقدار پر p/T تعلق (2)",
+                "سرد ٹائر پر محفوظ پیمائش کی ہدایت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هڪ گاڏي ٿڌي صبح کان گرم منجهند ۾ سفر ڪري ٿي ۽ tyre جو volume تقريباً ساڳيو رهي ٿو۔ molecular theory ۽ ideal-gas relation سان pressure وڌڻ جو سبب سمجهايو ۽ محفوظ ماپ جو طريقو ٻڌايو۔",
+              "modelAnswer": "گرم ٿيڻ سان absolute temperature ۽ average translational kinetic energy وڌن ٿا۔ ماليڪيول tyre جي ڀت سان وڌيڪ ڀيرا ٽڪرائين ٿا ۽ في وقت وڌيڪ momentum منتقل ڪن ٿا، تنهنڪري pressure وڌي ٿو۔ گئس جي مقدار ۽ volume تقريباً ساڳيا هجن ته p/T لڳ ڀڳ constant رهي ٿو، تنهنڪري kelvin ۾ temperature وڌڻ سان pressure به وڌي ٿو۔ pressure ٺاهيندڙ جي cold-tyre specification مطابق چيڪ ڪريو؛ گرم tyre مان رڳو cold reading برابر ڪرڻ لاءِ هوا نه ڪڍو۔",
+              "rubric": [
+                "temperature ۽ kinetic energy ۾ واڌ (2)",
+                "collision/momentum جي وضاحت (2)",
+                "تقريباً constant volume ۽ مقدار تي p/T تعلق (2)",
+                "ٿڌي tyre تي محفوظ ماپ جي صلاح (2)"
               ]
             }
           }
@@ -9958,5 +10280,23 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Physics Grade IX–XII (2024), DCAR Sindh",
+      "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Physics%20Curriculum%2019%20August%202024.pdf",
+      "note": "Grade XII Domain D, SLOs P-12-D-01 to P-12-D-06; printed page 40. The published equation in P-12-D-02 appears to print 1/2 while its directional-averaging note and standard three-dimensional derivation give 1/3; this discrepancy is explicitly flagged in the lesson."
+    },
+    {
+      "title": "STBB eBooks — Class XII English-medium catalogue",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=15&medium=English",
+      "note": "Lists Physics XII, English medium, 2025–26."
+    },
+    {
+      "title": "STBB Physics XII book record",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=215",
+      "note": "Official STBB record confirms the current English Physics XII edition as 2025–26."
+    }
+  ],
+  "curriculumAlignmentNote": "This chapter maps to DCAR 2024 Grade XII Domain D SLOs P-12-D-01–P-12-D-06, rather than relying only on legacy chapter numbering. The current STBB Physics XII catalogue lists the English edition as 2025–26. The remaining legacy chapter sequence in this aggregate package requires rechecking against the current textbook before being described as complete."
 }
