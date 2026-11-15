@@ -81,7 +81,7 @@ async function uploadLocalVideo(postId,post,card){
   const result=await confirm.json().catch(()=>({}));
   if(!confirm.ok)throw new Error(result.error||"Cloud upload verification failed.");
   const platformResults={...(post.platformResults||{})};
-  (post.platforms||[]).forEach(x=>{platformResults[x]=platformResults[x]||{status:"awaiting_platform_setup",message:"Video stored in cloud; official platform connection is still required."}});
+  (post.platforms||[]).forEach(x=>{platformResults[x]=platformResults[x]||{status:"awaiting_platform_setup",message:"Video is ready locally; direct platform upload awaits official account authorization."}});
   await updateDoc(doc(db(),"socialPosts",postId),{
    videoUrl:result.mediaUrl,videoStorage:"cloudflare_r2",remoteMediaKey:result.key,
    sizeBytes:result.sizeBytes,platformResults,cloudUploadedAt:serverTimestamp(),updatedAt:serverTimestamp()
@@ -127,14 +127,13 @@ async function load(){
     }else{const missing=document.createElement("p");missing.className="hint";missing.textContent="Local copy is not present in this browser.";card.append(missing);if(p.videoStorage==="cloudflare_r2"&&p.videoUrl){const cloudVideo=document.createElement("video");cloudVideo.controls=true;cloudVideo.playsInline=true;cloudVideo.preload="metadata";cloudVideo.src=p.videoUrl;cloudVideo.style.cssText="display:block;width:100%;max-height:360px;margin-top:12px;border-radius:10px;background:#101b3d";card.append(cloudVideo)}}
    }catch(e){const missing=document.createElement("p");missing.className="hint";missing.textContent="Local video could not be opened: "+e.message;card.append(missing)}
   }
-  card.querySelector('[data-action="upload"]')?.addEventListener("click",async()=>{try{await uploadLocalVideo(d.id,p,card)}catch(e){say("Cloud upload failed: "+e.message)}});
   card.querySelector('[data-action="captions"]').addEventListener("click",()=>{
    const updated={};card.querySelectorAll("[data-caption]").forEach(el=>updated[el.dataset.caption]=el.value.trim());
    change(d.id,{platformCaptions:updated});
   });
   card.querySelector('[data-action="approve"]').addEventListener("click",()=>{
    const platformResults={...(p.platformResults||{})};
-   (p.platforms||[]).forEach(x=>{platformResults[x]={status:"awaiting_platform_setup",message:"Official platform connection and secure uploader are not configured yet."}});
+   (p.platforms||[]).forEach(x=>{platformResults[x]={status:"awaiting_platform_setup",message:"Official platform account authorization and direct-upload integration are not configured yet."}});
    change(d.id,{status:"approved_pending_platform_setup",approvedAt:serverTimestamp(),platformResults});
   });
   card.querySelector('[data-action="draft"]').addEventListener("click",()=>change(d.id,{status:"draft",approvedAt:null}));
@@ -148,20 +147,6 @@ async function load(){
 }
 async function change(id,data){try{await updateDoc(doc(db(),"socialPosts",id),{...data,updatedAt:serverTimestamp()});say("Content record updated.");await load()}catch(e){say("Update failed: "+e.message)}}
 
-const workerInput=$("storageWorkerUrl");
-if(workerInput)workerInput.value=storageWorkerUrl();
-$("saveStorageWorkerUrl")?.addEventListener("click",async()=>{
- const value=$("storageWorkerUrl").value.trim().replace(/\/$/,"");
- if(!/^https:\/\//i.test(value)){ $("storageWorkerStatus").textContent="Please enter a valid HTTPS Worker URL.";return}
- $("storageWorkerStatus").textContent="Testing Worker connection…";
- try{
-  const response=await fetch(value+"/health"),data=await response.json();
-  if(!response.ok||!data.ok||!data.configured)throw new Error(data.error||"Worker is reachable but R2 bucket/secrets are not fully configured yet.");
-  localStorage.setItem("zeerozSocialStorageWorkerUrl",value);
-  $("storageWorkerStatus").textContent="Connected: "+(data.service||"Social Storage API")+".";
-  say("Secure storage Worker connection saved.");
- }catch(e){$("storageWorkerStatus").textContent="Connection failed: "+e.message}
-});
 onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
  if(!user){location.href="./student-login.html";return}
  try{const token=await user.getIdTokenResult(true);if(token.claims.admin!==true){document.body.innerHTML="<main style='padding:30px;font:16px system-ui'><h2>Administrator access required</h2><a href='./student-login.html'>Sign in</a></main>";return}admin=true;await load()}catch(e){say("Could not load queue: "+e.message)}
