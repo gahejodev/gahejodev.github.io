@@ -124,7 +124,7 @@ async function load(){
      video.style.cssText="display:block;width:100%;max-height:360px;margin-top:12px;border-radius:10px;background:#101b3d";
      const download=document.createElement("a");download.href=url;download.download=local.fileName||p.localVideoName||"zeeroz-video.webm";download.textContent="Download attached video";download.style.cssText="display:inline-block;margin-top:8px;color:#3157d5;font-weight:700";
      card.append(video,download);
-    }else{const missing=document.createElement("p");missing.className="hint";missing.textContent="Video file is not present in this browser. Open this queue on the same device/browser where the Studio created it, and do not clear site data.";card.append(missing)}
+    }else{const missing=document.createElement("p");missing.className="hint";missing.textContent="Local copy is not present in this browser.";card.append(missing);if(p.videoStorage==="cloudflare_r2"&&p.videoUrl){const cloudVideo=document.createElement("video");cloudVideo.controls=true;cloudVideo.playsInline=true;cloudVideo.preload="metadata";cloudVideo.src=p.videoUrl;cloudVideo.style.cssText="display:block;width:100%;max-height:360px;margin-top:12px;border-radius:10px;background:#101b3d";card.append(cloudVideo)}}
    }catch(e){const missing=document.createElement("p");missing.className="hint";missing.textContent="Local video could not be opened: "+e.message;card.append(missing)}
   }
   card.querySelector('[data-action="upload"]')?.addEventListener("click",async()=>{try{await uploadLocalVideo(d.id,p,card)}catch(e){say("Cloud upload failed: "+e.message)}});
