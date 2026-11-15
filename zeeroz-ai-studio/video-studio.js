@@ -1,7 +1,39 @@
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+import { addDoc, collection, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 const $=id=>document.getElementById(id);
 let packages=[],courseData=null,scenes=[],sceneIndex=0,allowed=false,playbackToken=0;
+let latestExportedVideo=null;
 const status=m=>$("status").textContent=m;
+const SOCIAL_VIDEO_DB="zeeroz-social-media";
+function openSocialVideoDb(){
+ return new Promise((resolve,reject)=>{
+  if(!("indexedDB" in window)){reject(new Error("This browser does not support local video storage."));return}
+  const request=indexedDB.open(SOCIAL_VIDEO_DB,1);
+  request.onupgradeneeded=()=>{const database=request.result;if(!database.objectStoreNames.contains("videos"))database.createObjectStore("videos",{keyPath:"key"})};
+  request.onsuccess=()=>resolve(request.result);
+  request.onerror=()=>reject(request.error||new Error("Could not open local video storage."));
+ });
+}
+async function storeSocialVideo(key,blob,fileName){
+ const database=await openSocialVideoDb();
+ return new Promise((resolve,reject)=>{
+  const tx=database.transaction("videos","readwrite");
+  tx.objectStore("videos").put({key,blob,fileName,mimeType:blob.type||"video/webm",sizeBytes:blob.size,createdAt:Date.now()});
+  tx.oncomplete=()=>{database.close();resolve()};
+  tx.onerror=()=>{const error=tx.error||new Error("Could not save the video locally.");database.close();reject(error)};
+  tx.onabort=()=>{const error=tx.error||new Error("Local video save was cancelled.");database.close();reject(error)};
+ });
+}
+async function removeStoredSocialVideo(key){
+ const database=await openSocialVideoDb();
+ return new Promise((resolve,reject)=>{
+  const tx=database.transaction("videos","readwrite");
+  tx.objectStore("videos").delete(key);
+  tx.oncomplete=()=>{database.close();resolve()};
+  tx.onerror=()=>{const error=tx.error;database.close();reject(error)};
+ });
+}
+
 function clean(s){return String(s||"").replace(/!\[[^\]]*\]\([^)]*\)/g,"").replace(/\*\*(.*?)\*\*/g,"$1").replace(/\*(.*?)\*/g,"$1").replace(/^\s*[-*]\s+/gm,"").replace(/^\s*\d+[.)]\s+/gm,"").replace(/\s+/g," ").trim()}
 function fill(select,items,placeholder){select.replaceChildren(new Option(placeholder,""));items.forEach((x,i)=>select.add(new Option(x.label,String(i))));select.disabled=!items.length}
 async function init(){const reg=await fetch("https://gahejodev.github.io/zeeroz-academy/content/courses/index.json",{cache:"no-store"});if(!reg.ok)throw new Error("Course registry could not be loaded.");const data=await reg.json();packages=data.packages||[];fill($("course"),packages.map(p=>({label:p.title})),"Choose a course package")}
@@ -392,6 +424,9 @@ async function exportReal3DTeacher(){
   cancelAnimationFrame(raf);raf=0;
   const blob=new Blob(chunks,{type:mime});
   if(!blob.size)throw new Error("The recorded video is empty.");
+  latestExportedVideo={blob,title,mimeType:blob.type||mime,createdAt:Date.now()};
+  const socialButton=$("saveToSocialQueue");if(socialButton)socialButton.disabled=false;
+  const socialStatus=$("socialQueueStatus");if(socialStatus)socialStatus.textContent="Video ready ("+(blob.size/1048576).toFixed(1)+" MB). Ab ise Social Queue mein save kar sakte hain.";
   const url=URL.createObjectURL(blob),a=document.createElement("a");
   a.href=url;a.download=(title.replace(/[^a-z0-9-_]+/gi,"-").replace(/^-|-$/g,"")||"zeeroz-3d-lesson")+"-3d.webm";a.click();
   setTimeout(()=>URL.revokeObjectURL(url),60000);
@@ -445,4 +480,56 @@ async function generateCompleteLessonVideo(){
 $("generateCompleteVideo")?.addEventListener("click",generateCompleteLessonVideo);
 
 $("voiceTrack")?.addEventListener("change",()=>{const b=$("export3DVideo");if(b)b.disabled=!studioAvatarReady||!$("voiceTrack").files?.[0]});
+
+$("saveToSocialQueue")?.addEventListener("click",async()=>{
+ const button=$("saveToSocialQueue"),note=$("socialQueueStatus");
+ if(!latestExportedVideo?.blob){note.textContent="Pehle Generate Complete Lesson Video chalayein.";return}
+ const platforms=[...document.querySelectorAll('input[name="socialPlatform"]:checked')].map(x=>x.value);
+ if(!platforms.length){note.textContent="Kam az kam ek platform select karein.";return}
+ const user=window.ZeerozFirebase?.auth?.currentUser;
+ if(!user||!allowed){note.textContent="Admin sign-in required.";return}
+ button.disabled=true;
+ let localKey="";
+ try{
+  localKey="studio-"+crypto.randomUUID();
+  const safeTitle=(latestExportedVideo.title||"zeeroz-lesson").replace(/[^a-z0-9-_]+/gi,"-").replace(/^-|-$/g,"")||"zeeroz-lesson";
+  const fileName=safeTitle+".webm";
+  await storeSocialVideo(localKey,latestExportedVideo.blob,fileName);
+  const publishMode=$("socialPublishMode").value;
+  const lesson=window.currentLesson?.lesson;
+  const description=[
+   "Lesson: "+(lesson?.title||latestExportedVideo.title||"Zeeroz Academy"),
+   "Course: "+(courseData?.title||"Zeeroz Academy"),
+   window.currentLesson?.chapter?"Chapter: "+window.currentLesson.chapter:"",
+   "",
+   ...scenes.slice(0,8).map(s=>s.title+". "+s.narration)
+  ].filter(Boolean).join("\n").slice(0,5000);
+  const ref=await addDoc(collection(window.ZeerozFirebase.db,"socialPosts"),{
+   title:latestExportedVideo.title||"Zeeroz Academy Lesson",
+   videoUrl:"",
+   localVideoKey:localKey,
+   localVideoName:fileName,
+   videoStorage:"indexeddb",
+   mimeType:latestExportedVideo.mimeType,
+   sizeBytes:latestExportedVideo.blob.size,
+   websiteUrl:"https://gahejodev.github.io/zeeroz-academy/",
+   description,
+   language:$("language").value||"en",
+   platforms,
+   publishMode,
+   scheduleAt:null,
+   status:publishMode==="approval"?"draft":"awaiting_platform_setup",
+   platformResults:{},
+   createdAt:serverTimestamp(),
+   updatedAt:serverTimestamp(),
+   createdBy:user.uid
+  });
+  note.textContent="Video Social Queue mein save ho gayi. Record: "+ref.id+". Ab queue khol kar preview aur review karein.";
+ }catch(e){
+  if(localKey){try{await removeStoredSocialVideo(localKey)}catch(_){}}
+  note.textContent="Queue save nahi ho saki: "+(e?.message||String(e));
+  button.disabled=false;
+ }
+});
+
 window.addEventListener("beforeunload",()=>{if(studioAudioUrl)URL.revokeObjectURL(studioAudioUrl);try{studioAvatar?.dispose()}catch(e){}});
