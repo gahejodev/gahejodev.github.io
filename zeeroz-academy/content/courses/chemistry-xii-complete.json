@@ -1,56 +1,83 @@
 {
   "id": "chemistry-xii-complete",
   "title": "Chemistry XII — Complete Course",
-  "description": "Grade XII Chemistry chapter collection with lessons, MCQs, CRQs, ERQs and Urdu/Sindhi support.",
-  "version": "4",
+  "description": "Grade XII Chemistry study collection. Chapter 1 now includes expanded bilingual lessons, 20 explained MCQs, 6 CRQs, 3 ERQs, revision notes and an applied case study. Chapters 2–13 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
+  "version": "5",
   "chapters": [
     {
       "title": "Chapter 1: Chemistry of Representative Elements",
-      "description": "Grade XII Chemistry chapter.",
+      "description": "Learning outcomes: use electron configurations to locate representative elements; explain Group 1/2 trends, halogen displacement, noble-gas stability, flame tests and the Contact process. Key terms and an applied unknown-salt case study are included. This chapter has been expanded and reviewed; the remaining course chapters are still under content review.",
       "lessons": [
         {
           "title": "1.1 Periodic position and electronic configuration",
           "type": "text",
-          "content": "The s-block occupies Groups 1–2 (and helium by configuration); the p-block occupies Groups 13–18. The block name identifies the subshell receiving the differentiating electron. For main-group elements, the valence-shell patterns are ns¹–² for the s-block and ns²np¹–⁶ for the p-block (helium is 1s²). Period number gives the highest occupied principal shell. Group position helps predict valence electrons, common ion charge and trends. Example: sodium, 1s²2s²2p⁶3s¹, is a Group 1, Period 3 s-block element; chlorine, [Ne]3s²3p⁵, is a Group 17, Period 3 p-block element. The periodic table is a map of recurring chemical behaviour, not a list to memorise without electron structure.",
+          "content": "## Learning outcomes\nBy the end of this lesson, you should be able to locate an element by its period, group and block; write the valence-shell configuration of representative elements; and use electron arrangement to predict common ions.\n\nThe s-block occupies Groups 1–2, while the p-block occupies Groups 13–18. The block identifies the subshell receiving the differentiating electron. Main-group valence patterns are ns¹–² for s-block and ns²np¹–⁶ for p-block (helium is 1s²). The period indicates the highest occupied principal shell. Example: Na is [Ne]3s¹ (Group 1, Period 3); Cl is [Ne]3s²3p⁵ (Group 17, Period 3). Group position helps predict valence electrons, common ion charge and recurring chemistry.\n\n**Key terms:** period, group, block, valence electron, differentiating electron, electronic configuration.\n\n**Revision check:** explain why sodium commonly forms Na⁺ while chlorine forms Cl⁻.",
           "explanations": {
-            "ur": "Is dars mein Periodic position and electronic configuration ke bunyadi tasawwur, zaroori chemical trends aur equations ko misaalon ke saath samjhaya gaya hai. The s-block occupies Groups 1–2 (and helium by configuration); the p-block occupies Groups 13–18. The block name identifies the subshell receiving the differentiating electron. For main-group elements, the valence-shell patterns are ns¹–² for the s-block and ns²np¹–⁶ for the p-block (helium is 1s²). Period number gives the highest occupied principal shell. Group position helps predict valence electrons, common ion charge and trends. Example: sodium, 1s²2s²2p⁶3s¹, is a Group 1, Period 3 s-block element; chlorine, [Ne]3s²3p⁵, is a Group 17, Period 3 p-block element. The periodic table is a map of recurring chemical behaviour, not a list to memorise without electron structure.",
-            "sd": "هن سبق ۾ Periodic position and electronic configuration جا بنيادي تصور، ڪيميائي لاڙا ۽ مساواتون مثالن سان سمجهايون ويون آهن. The s-block occupies Groups 1–2 (and helium by configuration); the p-block occupies Groups 13–18. The block name identifies the subshell receiving the differentiating electron. For main-group elements, the valence-shell patterns are ns¹–² for the s-block and ns²np¹–⁶ for the p-block (helium is 1s²). Period number gives the highest occupied principal shell. Group position helps predict valence electrons, common ion charge and trends. Example: sodium, 1s²2s²2p⁶3s¹, is a Group 1, Period 3 s-block element; chlorine, [Ne]3s²3p⁵, is a Group 17, Period 3 p-block element. The periodic table is a map of recurring chemical behaviour, not a list to memorise without electron structure."
+            "ur": "## اسباق کے مقاصد\nاس سبق کے بعد آپ کسی عنصر کا گروپ، دور اور بلاک معلوم کر سکیں گے، نمائندہ عناصر کی بیرونی الیکٹرانی ترتیب لکھ سکیں گے اور الیکٹرانوں کی ترتیب سے عام آئن کی پیش گوئی کر سکیں گے۔\n\ns-block گروپ 1 اور 2 پر مشتمل ہے، جبکہ p-block گروپ 13 سے 18 تک پھیلا ہے۔ بلاک اس ذیلی خول کو ظاہر کرتا ہے جس میں آخری امتیازی الیکٹران داخل ہوتا ہے۔ s-block کی عمومی بیرونی ترتیب ns¹ یا ns² اور p-block کی ns²np¹ سے ns²np⁶ ہوتی ہے؛ ہیلیم کی ترتیب 1s² ہے۔ دور بیرونی الیکٹران کے سب سے بڑے principal shell کو ظاہر کرتا ہے۔ مثال کے طور پر سوڈیم [Ne]3s¹ ہے، اس لیے گروپ 1 اور دور 3 میں ہے؛ کلورین [Ne]3s²3p⁵ ہے، اس لیے گروپ 17 اور دور 3 میں ہے۔ گروپ کی جگہ ظرفیتی الیکٹرانوں اور عام آئن کے چارج کی پیش گوئی میں مدد دیتی ہے۔\n\n**اہم اصطلاحات:** دور، گروپ، بلاک، ظرفیتی الیکٹران، امتیازی الیکٹران، الیکٹرانی ترتیب۔\n\n**دہرائی:** سوڈیم عموماً Na⁺ اور کلورین Cl⁻ کیوں بناتی ہے؟",
+            "sd": "## سبق جا مقصد\nهن سبق کان پوءِ توهان ڪنهن عنصر جو گروپ، دور ۽ بلاڪ سڃاڻي سگهندا، نمائنده عنصرن جي ٻاهرين اليڪٽران ترتيب لکي سگهندا ۽ اليڪٽرانن جي ترتيب مان عام آئن جي اڳڪٿي ڪري سگهندا۔\n\ns-block گروپ 1 ۽ 2 تي مشتمل آهي، جڏهن ته p-block گروپ 13 کان 18 تائين آهي۔ بلاڪ اهو ذيلي خول ڏيکاري ٿو جنهن ۾ آخري فرق ڪندڙ اليڪٽران داخل ٿئي ٿو۔ s-block جي عام ٻاهرين ترتيب ns¹ يا ns² ۽ p-block جي ns²np¹ کان ns²np⁶ هوندي آهي؛ هيليم جي ترتيب 1s² آهي۔ دور سڀ کان وڏي ڀريل principal shell کي ظاهر ڪري ٿو۔ مثال طور سوڊيم [Ne]3s¹ آهي، تنهنڪري گروپ 1 ۽ دور 3 ۾ آهي؛ ڪلورين [Ne]3s²3p⁵ آهي، تنهنڪري گروپ 17 ۽ دور 3 ۾ آهي۔ گروپ جي جاءِ ظرفيتي اليڪٽرانن ۽ عام آئن جي چارج بابت اڳڪٿي ڪرڻ ۾ مدد ڪري ٿي۔\n\n**اهم اصطلاح:** دور، گروپ، بلاڪ، ظرفيتي اليڪٽران، فرق ڪندڙ اليڪٽران، اليڪٽران ترتيب۔\n\n**ورجاءُ:** سوڊيم عام طور Na⁺ ۽ ڪلورين Cl⁻ ڇو ٺاهيندي آهي؟"
           }
         },
         {
           "title": "1.2 Alkali metals: trends and reactions",
           "type": "text",
-          "content": "Alkali metals (Li, Na, K, Rb, Cs) have one outer ns electron and commonly form M⁺ ions. They are soft, relatively low-density metals and strong reducing agents. Down Group 1, atomic radius increases and first ionisation energy generally decreases, so reaction with water becomes more vigorous. With water: 2M + 2H₂O → 2MOH + H₂. The hydroxides are soluble strong bases; the resulting alkaline solution turns red litmus blue. Alkali metals are stored under oil because they react with oxygen and moisture. Lithium shows some anomalous behaviour because its small size gives it high charge density. Safety: never demonstrate alkali-metal/water reactions outside a properly equipped laboratory.",
+          "content": "Group 1 elements have one outer ns electron and usually form M⁺ ions. They are soft, electropositive metals and strong reducing agents. Down the group, atomic radius increases and first ionisation energy decreases, so reaction with water becomes more vigorous. The general equation is 2M + 2H₂O → 2MOH + H₂. Sodium gives NaOH and hydrogen; the hydroxide solution is alkaline. Lithium behaves anomalously in some reactions because its small ion has high charge density. Alkali metals are stored under oil to exclude air and moisture. Never attempt a metal–water demonstration outside a properly equipped, supervised laboratory.\n\n**Key terms:** alkali metal, reducing agent, ionisation energy, hydroxide, anomalous behaviour.",
           "explanations": {
-            "ur": "Is dars mein Alkali metals: trends and reactions ke bunyadi tasawwur, zaroori chemical trends aur equations ko misaalon ke saath samjhaya gaya hai. Alkali metals (Li, Na, K, Rb, Cs) have one outer ns electron and commonly form M⁺ ions. They are soft, relatively low-density metals and strong reducing agents. Down Group 1, atomic radius increases and first ionisation energy generally decreases, so reaction with water becomes more vigorous. With water: 2M + 2H₂O → 2MOH + H₂. The hydroxides are soluble strong bases; the resulting alkaline solution turns red litmus blue. Alkali metals are stored under oil because they react with oxygen and moisture. Lithium shows some anomalous behaviour because its small size gives it high charge density. Safety: never demonstrate alkali-metal/water reactions outside a properly equipped laboratory.",
-            "sd": "هن سبق ۾ Alkali metals: trends and reactions جا بنيادي تصور، ڪيميائي لاڙا ۽ مساواتون مثالن سان سمجهايون ويون آهن. Alkali metals (Li, Na, K, Rb, Cs) have one outer ns electron and commonly form M⁺ ions. They are soft, relatively low-density metals and strong reducing agents. Down Group 1, atomic radius increases and first ionisation energy generally decreases, so reaction with water becomes more vigorous. With water: 2M + 2H₂O → 2MOH + H₂. The hydroxides are soluble strong bases; the resulting alkaline solution turns red litmus blue. Alkali metals are stored under oil because they react with oxygen and moisture. Lithium shows some anomalous behaviour because its small size gives it high charge density. Safety: never demonstrate alkali-metal/water reactions outside a properly equipped laboratory."
+            "ur": "گروپ 1 کے عناصر کے بیرونی خول میں ایک ns الیکٹران ہوتا ہے اور یہ عموماً M⁺ آئن بناتے ہیں۔ یہ نرم، الیکٹروپازیٹو دھاتیں اور طاقتور reducing agents ہیں۔ گروپ میں نیچے جانے پر ایٹمی رداس بڑھتا اور پہلی آئنائزیشن توانائی کم ہوتی ہے؛ اس لیے پانی کے ساتھ تعامل زیادہ تیز ہو جاتا ہے۔ عمومی مساوات 2M + 2H₂O → 2MOH + H₂ ہے۔ سوڈیم سے NaOH اور ہائیڈروجن بنتے ہیں، اور ہائیڈرو آکسائیڈ کا محلول الکلائن ہوتا ہے۔ لیتھیم کا چھوٹا آئن زیادہ charge density رکھتا ہے، اس لیے بعض خواص میں غیر معمولی رویہ دکھاتا ہے۔ الکلی دھاتوں کو ہوا اور نمی سے بچانے کے لیے تیل میں رکھا جاتا ہے۔ دھات اور پانی کا تجربہ صرف مکمل سہولت والے زیرِ نگرانی لیبارٹری ماحول میں کیا جا سکتا ہے۔\n\n**اہم اصطلاحات:** الکلی دھات، reducing agent، آئنائزیشن توانائی، ہائیڈرو آکسائیڈ، غیر معمولی رویہ۔",
+            "sd": "گروپ 1 جي عنصرن جي ٻاهرين خول ۾ هڪ ns اليڪٽران هوندو آهي ۽ اهي عام طور M⁺ آئن ٺاهيندا آهن۔ اهي نرم، electropositive ڌاتون ۽ طاقتور reducing agents آهن۔ گروپ ۾ هيٺ وڃڻ سان ايٽمي ريڊيس وڌي ۽ پهرين ionisation energy گهٽجي ٿي، تنهنڪري پاڻي سان ردعمل وڌيڪ تيز ٿئي ٿو۔ عام مساوات 2M + 2H₂O → 2MOH + H₂ آهي۔ سوڊيم مان NaOH ۽ هائيڊروجن ٺهن ٿا ۽ هائيڊرو آڪسائيڊ جو محلول alkaline هوندو آهي۔ ليٿيم جو ننڍڙو آئن وڌيڪ charge density رکي ٿو، تنهنڪري ڪجهه خاصيتن ۾ غير معمولي رويو ڏيکاري ٿو۔ الڪلي ڌاتن کي هوا ۽ نمي کان بچائڻ لاءِ تيل ۾ رکيو ويندو آهي۔ ڌاتو ۽ پاڻي وارو تجربو رڳو مڪمل سهولتن واري نگراني هيٺ ليبارٽري ۾ ڪيو وڃي۔\n\n**اهم اصطلاح:** الڪلي ڌاتو، reducing agent، ionisation energy، هائيڊرو آڪسائيڊ، غير معمولي رويو۔"
           }
         },
         {
-          "title": "1.3 Alkaline-earth metals and Group 2 chemistry",
+          "title": "1.3 Alkaline-earth metals, solubility and diagonal relationship",
           "type": "text",
-          "content": "Group 2 elements have valence configuration ns² and commonly form M²⁺ ions. Compared with Group 1 in the same period, they are generally harder and have higher melting points because two valence electrons contribute to metallic bonding. Down the group, atomic size increases and ionisation energies decrease; reactivity with water generally increases. Beryllium is least reactive with water, while calcium reacts with cold water: Ca + 2H₂O → Ca(OH)₂ + H₂. Magnesium reacts very slowly with cold water but more readily with steam: Mg + H₂O(g) → MgO + H₂. Solubility trends matter: Group 2 hydroxide solubility generally increases down the group, whereas sulfate solubility generally decreases. These trends help explain uses and natural occurrence.",
+          "content": "Group 2 elements have outer configuration ns² and commonly form M²⁺ ions. They are generally harder than Group 1 metals in the same period. Down Group 2, atomic size increases and ionisation energies decrease; reaction with water generally becomes easier. Calcium reacts with cold water: Ca + 2H₂O → Ca(OH)₂ + H₂. Magnesium reacts very slowly with cold water but with steam: Mg + H₂O(g) → MgO + H₂. The solubility of Group 2 hydroxides generally increases down the group, while sulfate solubility decreases. A diagonal relationship is a similarity between diagonally adjacent elements such as Li and Mg; similar ionic size and charge density help explain some shared properties.\n\n**Key terms:** alkaline-earth metal, M²⁺, solubility trend, diagonal relationship, charge density.",
           "explanations": {
-            "ur": "Is dars mein Alkaline-earth metals and Group 2 chemistry ke bunyadi tasawwur, zaroori chemical trends aur equations ko misaalon ke saath samjhaya gaya hai. Group 2 elements have valence configuration ns² and commonly form M²⁺ ions. Compared with Group 1 in the same period, they are generally harder and have higher melting points because two valence electrons contribute to metallic bonding. Down the group, atomic size increases and ionisation energies decrease; reactivity with water generally increases. Beryllium is least reactive with water, while calcium reacts with cold water: Ca + 2H₂O → Ca(OH)₂ + H₂. Magnesium reacts very slowly with cold water but more readily with steam: Mg + H₂O(g) → MgO + H₂. Solubility trends matter: Group 2 hydroxide solubility generally increases down the group, whereas sulfate solubility generally decreases. These trends help explain uses and natural occurrence.",
-            "sd": "هن سبق ۾ Alkaline-earth metals and Group 2 chemistry جا بنيادي تصور، ڪيميائي لاڙا ۽ مساواتون مثالن سان سمجهايون ويون آهن. Group 2 elements have valence configuration ns² and commonly form M²⁺ ions. Compared with Group 1 in the same period, they are generally harder and have higher melting points because two valence electrons contribute to metallic bonding. Down the group, atomic size increases and ionisation energies decrease; reactivity with water generally increases. Beryllium is least reactive with water, while calcium reacts with cold water: Ca + 2H₂O → Ca(OH)₂ + H₂. Magnesium reacts very slowly with cold water but more readily with steam: Mg + H₂O(g) → MgO + H₂. Solubility trends matter: Group 2 hydroxide solubility generally increases down the group, whereas sulfate solubility generally decreases. These trends help explain uses and natural occurrence."
+            "ur": "گروپ 2 کے عناصر کی بیرونی ترتیب ns² ہوتی ہے اور یہ عموماً M²⁺ آئن بناتے ہیں۔ ایک ہی دور میں یہ عموماً گروپ 1 کی دھاتوں سے زیادہ سخت ہوتے ہیں۔ گروپ میں نیچے جانے پر ایٹمی جسامت بڑھتی اور آئنائزیشن توانائی کم ہوتی ہے؛ پانی کے ساتھ تعامل عموماً آسان ہوتا جاتا ہے۔ کیلشیم ٹھنڈے پانی سے تعامل کرتا ہے: Ca + 2H₂O → Ca(OH)₂ + H₂۔ میگنیشیم ٹھنڈے پانی سے بہت آہستہ مگر بھاپ سے تعامل کرتا ہے: Mg + H₂O(g) → MgO + H₂۔ گروپ 2 کے ہائیڈرو آکسائیڈز کی حل پذیری عموماً نیچے جانے پر بڑھتی ہے، جبکہ سلفیٹس کی حل پذیری کم ہوتی ہے۔ قطری مشابہت سے مراد ترچھی سمت میں ساتھ واقع عناصر، مثلاً Li اور Mg، کی بعض مشترک خصوصیات ہیں؛ آئنک جسامت اور چارج کثافت کی مماثلت اس کی وضاحت میں مدد دیتی ہے۔\n\n**اہم اصطلاحات:** alkaline-earth دھات، M²⁺، حل پذیری کا رجحان، قطری مشابہت، چارج کثافت۔",
+            "sd": "گروپ 2 جي عنصرن جي ٻاهرين ترتيب ns² هوندي آهي ۽ اهي عام طور M²⁺ آئن ٺاهيندا آهن۔ ساڳئي دور ۾ اهي عام طور گروپ 1 جي ڌاتن کان وڌيڪ سخت هوندا آهن۔ گروپ ۾ هيٺ وڃڻ سان ايٽمي سائيز وڌي ۽ ionisation energy گهٽجي ٿي؛ پاڻي سان ردعمل عام طور آسان ٿئي ٿو۔ ڪيلشيم ٿڌي پاڻي سان ردعمل ڪري ٿو: Ca + 2H₂O → Ca(OH)₂ + H₂۔ ميگنيشيم ٿڌي پاڻي سان تمام آهستي پر ٻاڦ سان ردعمل ڪري ٿو: Mg + H₂O(g) → MgO + H₂۔ گروپ 2 جي hydroxides جي حل پذيري عام طور هيٺ وڃڻ سان وڌي ٿي، جڏهن ته sulfates جي حل پذيري گهٽجي ٿي۔ diagonal relationship مان مراد ترچائي ۾ ويجهن عنصرن، مثال طور Li ۽ Mg، جي ڪجهه گڏيل خاصيتون آهن؛ آئنن جي سائيز ۽ charge density جي مشابهت ان جي وضاحت ڪري ٿي۔\n\n**اهم اصطلاح:** alkaline-earth ڌاتو، M²⁺، حل پذيري جو لاڙو، قطري مشابهت، charge density۔"
           }
         },
         {
-          "title": "1.4 Halogens: displacement and hydrogen halides",
+          "title": "1.4 Halogens and hydrogen halides",
           "type": "text",
-          "content": "Halogens are Group 17 non-metals with valence configuration ns²np⁵; they tend to gain one electron to form X⁻ ions. They occur as diatomic molecules (F₂, Cl₂, Br₂, I₂). Down the group, atomic radius increases and oxidising power decreases; fluorine is the strongest oxidising halogen. A more reactive halogen displaces a less reactive halide from solution: Cl₂ + 2KBr → 2KCl + Br₂. Hydrogen halides are polar covalent molecules; their aqueous acidity generally increases from HF to HI because the H–X bond becomes weaker down the group. HF is an important exception to simple acid-strength expectations because its H–F bond is very strong. Halogens are coloured and toxic/corrosive; reactions should be interpreted from safe data or teacher-supervised demonstrations.",
+          "content": "Halogens are Group 17 non-metals with valence configuration ns²np⁵. They exist as diatomic molecules and tend to gain one electron to form X⁻. Down the group, atomic radius increases and oxidising power decreases; fluorine is the strongest oxidising halogen. A more reactive halogen displaces a less reactive halide: Cl₂ + 2KBr → 2KCl + Br₂. Hydrogen halides are polar covalent molecules. In aqueous solution, acid strength generally increases from HF to HI because the H–X bond weakens down the group; HF is relatively weak because its H–F bond is unusually strong. Halogens are toxic or corrosive, so use supplied data or supervised demonstrations rather than handling them directly.\n\n**Key terms:** halogen, oxidising agent, displacement, halide ion, hydrogen halide.",
           "explanations": {
-            "ur": "Is dars mein Halogens: displacement and hydrogen halides ke bunyadi tasawwur, zaroori chemical trends aur equations ko misaalon ke saath samjhaya gaya hai. Halogens are Group 17 non-metals with valence configuration ns²np⁵; they tend to gain one electron to form X⁻ ions. They occur as diatomic molecules (F₂, Cl₂, Br₂, I₂). Down the group, atomic radius increases and oxidising power decreases; fluorine is the strongest oxidising halogen. A more reactive halogen displaces a less reactive halide from solution: Cl₂ + 2KBr → 2KCl + Br₂. Hydrogen halides are polar covalent molecules; their aqueous acidity generally increases from HF to HI because the H–X bond becomes weaker down the group. HF is an important exception to simple acid-strength expectations because its H–F bond is very strong. Halogens are coloured and toxic/corrosive; reactions should be interpreted from safe data or teacher-supervised demonstrations.",
-            "sd": "هن سبق ۾ Halogens: displacement and hydrogen halides جا بنيادي تصور، ڪيميائي لاڙا ۽ مساواتون مثالن سان سمجهايون ويون آهن. Halogens are Group 17 non-metals with valence configuration ns²np⁵; they tend to gain one electron to form X⁻ ions. They occur as diatomic molecules (F₂, Cl₂, Br₂, I₂). Down the group, atomic radius increases and oxidising power decreases; fluorine is the strongest oxidising halogen. A more reactive halogen displaces a less reactive halide from solution: Cl₂ + 2KBr → 2KCl + Br₂. Hydrogen halides are polar covalent molecules; their aqueous acidity generally increases from HF to HI because the H–X bond becomes weaker down the group. HF is an important exception to simple acid-strength expectations because its H–F bond is very strong. Halogens are coloured and toxic/corrosive; reactions should be interpreted from safe data or teacher-supervised demonstrations."
+            "ur": "ہیلوجنز گروپ 17 کے غیر دھاتی عناصر ہیں جن کی بیرونی ترتیب ns²np⁵ ہوتی ہے۔ یہ دو ایٹمی سالمات کی صورت میں پائے جاتے ہیں اور عموماً ایک الیکٹران حاصل کر کے X⁻ آئن بناتے ہیں۔ گروپ میں نیچے جانے پر ایٹمی رداس بڑھتا اور آکسیڈائزنگ طاقت کم ہوتی ہے؛ فلورین سب سے طاقتور آکسیڈائزنگ ہیلوجن ہے۔ زیادہ تعامل پذیر ہیلوجن کم تعامل پذیر ہیلائیڈ کو خارج کرتی ہے: Cl₂ + 2KBr → 2KCl + Br₂۔ ہائیڈروجن ہیلائیڈ قطبی کوویلنٹ سالمات ہیں۔ آبی محلول میں HF سے HI تک تیزابی طاقت عموماً بڑھتی ہے کیونکہ H–X بند کمزور ہوتا جاتا ہے؛ HF نسبتاً کمزور ہے کیونکہ H–F بند غیر معمولی طور پر مضبوط ہے۔ ہیلوجنز زہریلے یا corrosive ہو سکتے ہیں، اس لیے انہیں براہِ راست سنبھالنے کے بجائے فراہم کردہ ڈیٹا یا زیرِ نگرانی مظاہرے استعمال کریں۔\n\n**اہم اصطلاحات:** ہیلوجن، آکسیڈائزنگ عامل، اخراجی تعامل، ہیلائیڈ آئن، ہائیڈروجن ہیلائیڈ۔",
+            "sd": "هالوجنز گروپ 17 جا غير ڌاتي عنصر آهن، جن جي ٻاهرين ترتيب ns²np⁵ هوندي آهي۔ اهي diatomic ماليڪيولن جي صورت ۾ ملن ٿا ۽ عام طور هڪ اليڪٽران وٺي X⁻ آئن ٺاهين ٿا۔ گروپ ۾ هيٺ وڃڻ سان ايٽمي ريڊيس وڌي ۽ oxidising power گهٽجي ٿي؛ فلورين سڀ کان طاقتور oxidising halogen آهي۔ وڌيڪ سرگرم halogen گهٽ سرگرم halide کي خارج ڪري ٿي: Cl₂ + 2KBr → 2KCl + Br₂۔ Hydrogen halides قطبي covalent ماليڪيول آهن۔ آبي محلول ۾ HF کان HI تائين تيزابيت عام طور وڌي ٿي، ڇاڪاڻ ته H–X bond ڪمزور ٿيندو وڃي ٿو؛ HF نسبتاً ڪمزور آهي، ڇو ته H–F bond غير معمولي طور مضبوط آهي۔ هالوجنز زهريلا يا corrosive ٿي سگهن ٿا، تنهنڪري انهن کي سڌو هٿ ڪرڻ بدران ڏنل ڊيٽا يا نگراني هيٺ مظاهرو استعمال ڪريو۔\n\n**اهم اصطلاح:** halogen، oxidising agent، displacement، halide ion، hydrogen halide۔"
           }
         },
         {
           "title": "1.5 Noble gases: stability and applications",
           "type": "text",
-          "content": "Noble gases occupy Group 18 and have filled valence shells (He: 1s²; others: ns²np⁶). Their stable electron configurations explain their very low chemical reactivity, although heavier noble gases such as xenon form compounds under suitable conditions. They are monoatomic gases with low boiling points; boiling points increase down the group as London dispersion forces become stronger with increasing electron-cloud size and polarisability. Helium is used in cryogenics and buoyant systems; neon in discharge lamps; argon as an inert atmosphere in welding and bulbs. “Inert” is a useful generalisation, not an absolute rule: xenon fluorides demonstrate that noble-gas chemistry is possible.",
+          "content": "Noble gases occupy Group 18 and have filled valence shells: helium is 1s² and the others have ns²np⁶. This stable arrangement explains their very low chemical reactivity. They are monoatomic gases with low boiling points; boiling points increase down the group because larger, more polarisable electron clouds experience stronger London dispersion forces. Helium is used in cryogenic systems and balloons, neon in discharge signs, and argon as a shielding gas in welding. The word “inert” is a useful generalisation, not an absolute rule: xenon forms compounds such as xenon fluorides under suitable conditions.\n\n**Key terms:** noble gas, valence shell, monoatomic, polarizability, dispersion force.",
           "explanations": {
-            "ur": "Is dars mein Noble gases: stability and applications ke bunyadi tasawwur, zaroori chemical trends aur equations ko misaalon ke saath samjhaya gaya hai. Noble gases occupy Group 18 and have filled valence shells (He: 1s²; others: ns²np⁶). Their stable electron configurations explain their very low chemical reactivity, although heavier noble gases such as xenon form compounds under suitable conditions. They are monoatomic gases with low boiling points; boiling points increase down the group as London dispersion forces become stronger with increasing electron-cloud size and polarisability. Helium is used in cryogenics and buoyant systems; neon in discharge lamps; argon as an inert atmosphere in welding and bulbs. “Inert” is a useful generalisation, not an absolute rule: xenon fluorides demonstrate that noble-gas chemistry is possible.",
-            "sd": "هن سبق ۾ Noble gases: stability and applications جا بنيادي تصور، ڪيميائي لاڙا ۽ مساواتون مثالن سان سمجهايون ويون آهن. Noble gases occupy Group 18 and have filled valence shells (He: 1s²; others: ns²np⁶). Their stable electron configurations explain their very low chemical reactivity, although heavier noble gases such as xenon form compounds under suitable conditions. They are monoatomic gases with low boiling points; boiling points increase down the group as London dispersion forces become stronger with increasing electron-cloud size and polarisability. Helium is used in cryogenics and buoyant systems; neon in discharge lamps; argon as an inert atmosphere in welding and bulbs. “Inert” is a useful generalisation, not an absolute rule: xenon fluorides demonstrate that noble-gas chemistry is possible."
+            "ur": "نوبل گیسیں گروپ 18 میں ہوتی ہیں اور ان کے بیرونی الیکٹرانی خول مکمل ہوتے ہیں: ہیلیم کی ترتیب 1s² جبکہ دیگر کی ns²np⁶ ہے۔ یہ مستحکم ترتیب ان کی بہت کم کیمیائی تعامل پذیری کی وجہ ہے۔ یہ یک ایٹمی گیسیں ہیں اور ان کے نقطۂ ابال کم ہوتے ہیں؛ گروپ میں نیچے جانے پر بڑے اور زیادہ قابلِ قطبیت الیکٹرانی بادلوں کے درمیان لندن ڈسپریشن قوتیں مضبوط ہوتی ہیں، اس لیے نقطۂ ابال بڑھتا ہے۔ ہیلیم کرائیوجینک نظام اور غباروں، نیون برقی اشتہاری ٹیوبوں اور آرگن ویلڈنگ میں حفاظتی گیس کے طور پر استعمال ہوتی ہے۔ “غیر تعامل پذیر” ایک عمومی بیان ہے، مطلق اصول نہیں؛ مناسب حالات میں زینون فلورائیڈ جیسے مرکبات بناتی ہے۔\n\n**اہم اصطلاحات:** نوبل گیس، بیرونی خول، یک ایٹمی، قطبیت پذیری، ڈسپریشن قوت۔",
+            "sd": "نوبل گيسون گروپ 18 ۾ آهن ۽ انهن جا ٻاهريان اليڪٽران خول مڪمل هوندا آهن: هيليم جي ترتيب 1s² ۽ ٻين جي ns²np⁶ آهي۔ اها مستحڪم ترتيب انهن جي تمام گهٽ ڪيميائي سرگرمي جو سبب آهي۔ اهي monoatomic گيسون آهن ۽ انهن جا boiling points گهٽ هوندا آهن؛ گروپ ۾ هيٺ وڃڻ سان وڏن ۽ وڌيڪ polarizable اليڪٽران بادلن وچ ۾ London dispersion forces مضبوط ٿين ٿيون، تنهنڪري boiling point وڌي ٿو۔ هيليم cryogenic نظامن ۽ غبارن، نيون روشن اشتهاري ٽيوبن ۽ آرگن ويلڊنگ ۾ shielding gas طور استعمال ٿئي ٿي۔ “inert” هڪ عام وضاحت آهي، مڪمل قانون نه؛ مناسب حالتن ۾ زينون fluoride جهڙا مرڪب ٺاهي سگهي ٿي۔\n\n**اهم اصطلاح:** نوبل گيس، ٻاهريون خول، monoatomic، polarizability، dispersion force۔"
+          }
+        },
+        {
+          "title": "1.6 Flame tests and identification of selected metal ions",
+          "type": "text",
+          "content": "A flame test uses the characteristic light emitted when excited electrons in a metal ion return to lower energy levels. Typical colours include lithium crimson, sodium intense yellow, potassium lilac, calcium brick-red, strontium crimson and barium apple-green. Use a clean nichrome or platinum wire and a small sample. Sodium contamination is especially troublesome because its bright yellow emission can mask weaker colours. Flame tests are qualitative clues, not proof on their own; confirm an unknown with additional chemical tests where appropriate. Never taste chemicals or handle concentrated reagents without laboratory supervision.\n\n**Key terms:** excitation, emission, characteristic spectrum, contamination, qualitative test.",
+          "explanations": {
+            "ur": "شعلے کا ٹیسٹ اس مخصوص روشنی پر مبنی ہے جو دھاتی آئن کے برانگیختہ الیکٹران کم توانائی کی سطح پر واپس آتے وقت خارج کرتے ہیں۔ عام رنگ یہ ہیں: لیتھیم سرخ، سوڈیم تیز زرد، پوٹاشیم ہلکا بنفشی، کیلشیم اینٹ جیسا سرخ، اسٹرونشیم سرخ اور بیریم سیب جیسا سبز۔ صاف نائکروم یا پلاٹینم تار اور تھوڑا سا نمونہ استعمال کیا جاتا ہے۔ سوڈیم کی آلودگی خاص طور پر مسئلہ بنتی ہے کیونکہ اس کی تیز زرد روشنی کمزور رنگوں کو چھپا سکتی ہے۔ شعلے کا ٹیسٹ ابتدائی شناخت کا اشارہ ہے، اکیلا قطعی ثبوت نہیں؛ نامعلوم نمونے کی تصدیق مناسب اضافی کیمیائی ٹیسٹ سے کریں۔ کیمیکل نہ چکھیں اور مرتکز مادے صرف لیبارٹری نگرانی میں سنبھالیں۔\n\n**اہم اصطلاحات:** برانگیختگی، اخراج، مخصوص طیف، آلودگی، معیاری ٹیسٹ۔",
+            "sd": "شعلن واري ٽيسٽ ان مخصوص روشنيءَ تي ٻڌل آهي جيڪا ڌاتي آئن جا excited اليڪٽران گهٽ توانائي واري سطح تي موٽڻ وقت خارج ڪن ٿا۔ عام رنگ هي آهن: ليٿيم ڳاڙهو، سوڊيم تيز پيلو، پوٽاشيم هلڪو واڱڻائي، ڪيلشيم سرن جهڙو ڳاڙهو، اسٽرونشيم ڳاڙهو ۽ بيريم انب جهڙو سائو۔ صاف nichrome يا platinum تار ۽ ٿورو نمونو استعمال ڪيو ويندو آهي۔ سوڊيم جي آلودگي خاص مسئلو آهي، ڇاڪاڻ ته ان جي تيز پيلي روشني ڪمزور رنگن کي لڪائي سگهي ٿي۔ flame test شروعاتي سڃاڻپ جو اشارو آهي، اڪيلو قطعي ثبوت نه؛ مناسب اضافي ڪيميائي ٽيسٽ سان نامعلوم نموني جي تصديق ڪريو۔ ڪيميڪل نه چکو ۽ مرتڪز مادا رڳو ليبارٽري نگراني ۾ سنڀاليو۔\n\n**اهم اصطلاح:** excitation، emission، characteristic spectrum، آلودگي، qualitative test۔"
+          }
+        },
+        {
+          "title": "1.7 Sulphuric acid: the Contact process",
+          "type": "text",
+          "content": "The Contact process manufactures sulphuric acid in stages. Sulphur or a sulphide ore is burned to make sulphur dioxide. The purified SO₂ is mixed with excess air and passed over vanadium(V) oxide catalyst at about 450°C: 2SO₂ + O₂ ⇌ 2SO₃. The reaction is exothermic and reversible, so temperature and gas flow are chosen as an economic compromise; the catalyst speeds the rate but does not change the equilibrium position. SO₃ is absorbed in concentrated H₂SO₄ to form oleum, which is carefully diluted to make sulphuric acid. Direct absorption of SO₃ into water produces a fine acid mist and is difficult to control.\n\n**Key terms:** Contact process, catalyst, reversible reaction, equilibrium, oleum, exothermic.",
+          "explanations": {
+            "ur": "کانٹیکٹ عمل کے ذریعے سلفیورک ایسڈ کئی مراحل میں تیار کیا جاتا ہے۔ سلفر یا سلفائیڈ ایسک کو جلا کر سلفر ڈائی آکسائیڈ بنائی جاتی ہے۔ صاف شدہ SO₂ کو اضافی ہوا کے ساتھ وینیڈیم(V) آکسائیڈ عمل انگیز پر تقریباً 450°C سے گزارا جاتا ہے: 2SO₂ + O₂ ⇌ 2SO₃۔ یہ عمل حرارت خارج کرنے والا اور قابلِ واپسی ہے، اس لیے درجہ حرارت اور گیس کے بہاؤ کا انتخاب صنعتی توازن اور رفتار کو سامنے رکھ کر کیا جاتا ہے۔ عمل انگیز رفتار بڑھاتا ہے مگر توازن کی جگہ نہیں بدلتا۔ SO₃ کو مرتکز H₂SO₄ میں جذب کر کے اولیئم بنایا جاتا ہے، پھر اسے احتیاط سے پانی میں ملا کر سلفیورک ایسڈ حاصل کیا جاتا ہے۔ SO₃ کو براہِ راست پانی میں جذب کرنے سے باریک تیزابی دھند بنتی ہے جسے قابو کرنا مشکل ہے۔\n\n**اہم اصطلاحات:** کانٹیکٹ عمل، عمل انگیز، قابلِ واپسی تعامل، توازن، اولیئم، حرارت خارج کرنے والا۔",
+            "sd": "Contact process ذريعي سلفيورڪ ايسڊ ڪيترن مرحلن ۾ تيار ڪيو ويندو آهي۔ سلفر يا sulfide ore ساڙي sulphur dioxide ٺاهيو ويندو آهي۔ صاف ڪيل SO₂ کي اضافي هوا سان vanadium(V) oxide catalyst مٿان لڳ ڀڳ 450°C تي گذاريو ويندو آهي: 2SO₂ + O₂ ⇌ 2SO₃۔ هي ردعمل گرمي خارج ڪندڙ ۽ reversible آهي، تنهنڪري temperature ۽ gas flow جو انتخاب صنعتي توازن ۽ رفتار کي نظر ۾ رکي ڪيو ويندو آهي۔ catalyst رفتار وڌائي ٿو پر equilibrium جي جاءِ نٿو بدلائي۔ SO₃ کي مرتڪز H₂SO₄ ۾ جذب ڪري oleum ٺاهيو ويندو آهي، پوءِ ان کي احتياط سان پاڻي ۾ ملائي sulphuric acid حاصل ڪجي ٿو۔ SO₃ کي سڌو پاڻي ۾ جذب ڪرڻ سان تيزابي ڌنڌ ٺهي ٿي، جنهن کي ڪنٽرول ڪرڻ ڏکيو آهي۔\n\n**اهم اصطلاح:** Contact process، catalyst، reversible reaction، equilibrium، oleum، گرمي خارج ڪندڙ۔"
+          }
+        },
+        {
+          "title": "1.8 Applied case study: identifying an unknown salt safely",
+          "type": "text",
+          "content": "**Case:** A teacher gives a class two coded, dilute salt solutions and a record of supervised observations. Sample A gives a lilac flame. Sample B contains a halide; adding chlorine water changes the solution to orange-brown. Students must infer the likely ions and justify their conclusion without touching or mixing unknown chemicals themselves.\n\n**Reasoning:** A lilac flame is consistent with K⁺. Chlorine is a stronger oxidising agent than bromine and can oxidise Br⁻ to Br₂, producing an orange-brown colour. The likely identity is therefore a potassium salt containing bromide, but confirmatory tests and teacher-controlled procedures are required. The case demonstrates how independent observations strengthen an identification.\n\n**Revision summary:** link electron structure to periodic trends; use displacement to compare halogen reactivity; treat flame colours as evidence that needs confirmation.",
+          "explanations": {
+            "ur": "**صورتِ حال:** استاد جماعت کو دو کوڈ والے پتلے نمکی محلول اور زیرِ نگرانی مشاہدات کا ریکارڈ دیتا ہے۔ نمونہ A شعلے میں ہلکا بنفشی رنگ دیتا ہے۔ نمونہ B میں ہیلائیڈ موجود ہے؛ اس میں کلورین واٹر ملانے سے محلول نارنجی مائل بھورا ہو جاتا ہے۔ طلبہ کو آئنوں کا ممکنہ اندازہ لگانا ہے اور وجہ بیان کرنی ہے؛ انہیں خود نامعلوم کیمیکل چھونے یا ملانے کی اجازت نہیں۔\n\n**استدلال:** ہلکا بنفشی شعلہ K⁺ کی موجودگی سے مطابقت رکھتا ہے۔ کلورین برومین سے زیادہ طاقتور آکسیڈائزنگ عامل ہے اور Br⁻ کو Br₂ میں تبدیل کر سکتی ہے، جس سے نارنجی مائل بھورا رنگ پیدا ہوتا ہے۔ اس لیے ممکنہ نمونہ پوٹاشیم برومائیڈ ہے، لیکن حتمی تصدیق کے لیے اضافی ٹیسٹ اور استاد کے زیرِ نگرانی طریقہ ضروری ہے۔ یہ مثال دکھاتی ہے کہ الگ الگ مشاہدات مل کر شناخت کو مضبوط بناتے ہیں۔\n\n**خلاصۂ دہرائی:** الیکٹرانی ترتیب کو دوری رجحانات سے جوڑیں؛ اخراجی تعامل سے ہیلوجنز کی سرگرمی کا موازنہ کریں؛ شعلے کے رنگ کو ایسا ثبوت سمجھیں جس کی تصدیق ضروری ہے۔",
+            "sd": "**صورتِ حال:** استاد ڪلاس کي ٻه ڪوڊ وارا dilute لوڻ جا محلول ۽ نگراني هيٺ ڪيل مشاهدن جو رڪارڊ ڏئي ٿو۔ نمونو A شعلي ۾ هلڪو واڱڻائي رنگ ڏئي ٿو۔ نمونو B ۾ halide آهي؛ chlorine water وجهڻ سان محلول نارنگي-ڀورو ٿي وڃي ٿو۔ شاگردن کي ممڪن آئن سڃاڻڻا ۽ دليل ڏيڻا آهن؛ انهن کي پاڻ نامعلوم ڪيميڪل هٿ ڪرڻ يا ملائڻ جي اجازت ناهي۔\n\n**دليل:** هلڪو واڱڻائي شعلو K⁺ سان مطابقت رکي ٿو۔ ڪلورين برومين کان وڌيڪ طاقتور oxidising agent آهي ۽ Br⁻ کي Br₂ ۾ تبديل ڪري سگهي ٿي، جنهن سان نارنگي-ڀورو رنگ پيدا ٿئي ٿو۔ تنهنڪري ممڪن نمونو potassium bromide آهي، پر حتمي تصديق لاءِ اضافي ٽيسٽ ۽ استاد جي نگراني ضروري آهي۔ هي مثال ڏيکاري ٿو ته الڳ الڳ مشاهدا گڏجي سڃاڻپ کي وڌيڪ مضبوط ڪن ٿا۔\n\n**ورجاءَ جو خلاصو:** اليڪٽران ترتيب کي periodic trends سان ڳنڍيو؛ displacement reaction سان halogens جي سرگرمي ڀيٽيو؛ flame colour کي اهڙو ثبوت سمجهو جنهن جي تصديق ضروري آهي۔"
           }
         }
       ],
@@ -64,7 +91,29 @@
             "D": "f"
           },
           "correctOption": "A",
-          "explanation": "The differentiating electron enters an s subshell; the outer configuration is generally ns¹ or ns²."
+          "explanation": "The differentiating electron enters an s subshell; the outer configuration is generally ns¹ or ns².",
+          "translations": {
+            "ur": {
+              "question": "در s-block عنصر میں امتیازی آخری الیکٹران کس ذیلی خول میں داخل ہوتا ہے؟",
+              "options": {
+                "A": "s",
+                "B": "p",
+                "C": "d",
+                "D": "f"
+              },
+              "explanation": "آخری الیکٹران s ذیلی خول میں داخل ہوتا ہے؛ بیرونی ترتیب عموماً ns¹ یا ns² ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "s-block عنصر ۾ فرق ڪندڙ آخري اليڪٽران ڪهڙي ذيلي خول ۾ داخل ٿئي ٿو؟",
+              "options": {
+                "A": "s",
+                "B": "p",
+                "C": "d",
+                "D": "f"
+              },
+              "explanation": "آخري اليڪٽران s ذيلي خول ۾ داخل ٿئي ٿو؛ ٻاهرين ترتيب عام طور ns¹ يا ns² هوندي آهي۔"
+            }
+          }
         },
         {
           "question": "What is the valence-shell configuration of a Group 17 element?",
@@ -75,7 +124,29 @@
             "D": "ns¹"
           },
           "correctOption": "B",
-          "explanation": "Group 17 elements have seven valence electrons, represented by ns²np⁵."
+          "explanation": "Group 17 elements have seven valence electrons, represented by ns²np⁵.",
+          "translations": {
+            "ur": {
+              "question": "گروپ 17 کے عنصر کی بیرونی الیکٹرانی ترتیب کیا ہوتی ہے؟",
+              "options": {
+                "A": "ns²np¹",
+                "B": "ns²np⁵",
+                "C": "ns²np⁶",
+                "D": "ns¹"
+              },
+              "explanation": "گروپ 17 کے عناصر کے سات ظرفیتی الیکٹران ہوتے ہیں، اس لیے ترتیب ns²np⁵ ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "گروپ 17 جي عنصر جي ٻاهرين اليڪٽران ترتيب ڪهڙي هوندي آهي؟",
+              "options": {
+                "A": "ns²np¹",
+                "B": "ns²np⁵",
+                "C": "ns²np⁶",
+                "D": "ns¹"
+              },
+              "explanation": "گروپ 17 جي عنصرن وٽ ست ظرفيتي اليڪٽران هوندا آهن، تنهنڪري ترتيب ns²np⁵ هوندي آهي۔"
+            }
+          }
         },
         {
           "question": "Which element has the electron configuration [Ne]3s¹?",
@@ -86,7 +157,29 @@
             "D": "Chlorine"
           },
           "correctOption": "B",
-          "explanation": "[Ne]3s¹ identifies sodium, a Group 1, Period 3 element."
+          "explanation": "[Ne]3s¹ identifies sodium, a Group 1, Period 3 element.",
+          "translations": {
+            "ur": {
+              "question": "[Ne]3s¹ کس عنصر کی الیکٹرانی ترتیب ہے؟",
+              "options": {
+                "A": "میگنیشیم",
+                "B": "سوڈیم",
+                "C": "ایلومینیم",
+                "D": "کلورین"
+              },
+              "explanation": "[Ne]3s¹ سوڈیم کی ترتیب ہے؛ یہ گروپ 1 اور دور 3 میں واقع ہے۔"
+            },
+            "sd": {
+              "question": "[Ne]3s¹ ڪهڙي عنصر جي اليڪٽران ترتيب آهي؟",
+              "options": {
+                "A": "ميگنيشيم",
+                "B": "سوڊيم",
+                "C": "ايلومينيم",
+                "D": "ڪلورين"
+              },
+              "explanation": "[Ne]3s¹ سوڊيم جي ترتيب آهي؛ اهو گروپ 1 ۽ دور 3 ۾ آهي۔"
+            }
+          }
         },
         {
           "question": "Which Group 2 element reacts very slowly with cold water but reacts with steam?",
@@ -97,7 +190,29 @@
             "D": "Strontium"
           },
           "correctOption": "C",
-          "explanation": "Magnesium reacts very slowly with cold water and more readily with steam."
+          "explanation": "Magnesium reacts very slowly with cold water and more readily with steam.",
+          "translations": {
+            "ur": {
+              "question": "گروپ 2 کا کون سا عنصر ٹھنڈے پانی سے بہت آہستہ مگر بھاپ سے ردِعمل کرتا ہے؟",
+              "options": {
+                "A": "کیلشیم",
+                "B": "بیریم",
+                "C": "میگنیشیم",
+                "D": "سٹرونشیم"
+              },
+              "explanation": "میگنیشیم ٹھنڈے پانی سے بہت آہستہ اور بھاپ سے نسبتاً تیزی سے ردِعمل کرتا ہے۔"
+            },
+            "sd": {
+              "question": "گروپ 2 جو ڪهڙو عنصر ٿڌي پاڻي سان تمام آهستي پر ٻاڦ سان ردعمل ڪري ٿو؟",
+              "options": {
+                "A": "ڪيلشيم",
+                "B": "بيريم",
+                "C": "ميگنيشيم",
+                "D": "اسٽرونشيم"
+              },
+              "explanation": "ميگنيشيم ٿڌي پاڻي سان تمام آهستي ۽ ٻاڦ سان وڌيڪ تيزيءَ سان ردعمل ڪري ٿو۔"
+            }
+          }
         },
         {
           "question": "What is the main reason alkali metals are stored under oil?",
@@ -108,7 +223,29 @@
             "D": "They dissolve in nitrogen"
           },
           "correctOption": "B",
-          "explanation": "Oil limits contact with oxygen and water vapour, preventing rapid reaction."
+          "explanation": "Oil limits contact with oxygen and water vapour, preventing rapid reaction.",
+          "translations": {
+            "ur": {
+              "question": "الکلی دھاتوں کو تیل میں کیوں محفوظ رکھا جاتا ہے؟",
+              "options": {
+                "A": "وہ تیل میں حل ہو جاتی ہیں",
+                "B": "وہ ہوا اور نمی سے تیزی سے ردِعمل کرتی ہیں",
+                "C": "وہ تابکار ہوتی ہیں",
+                "D": "وہ نائٹروجن میں حل ہوتی ہیں"
+              },
+              "explanation": "تیل دھات کو آکسیجن اور آبی بخارات سے الگ رکھتا ہے، اس لیے غیر ضروری ردِعمل سے بچاؤ ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "الڪلي ڌاتن کي تيل ۾ ڇو رکيو ويندو آهي؟",
+              "options": {
+                "A": "اهي تيل ۾ حل ٿين ٿيون",
+                "B": "اهي هوا ۽ نمي سان تيزيءَ سان ردعمل ڪن ٿيون",
+                "C": "اهي تابڪار آهن",
+                "D": "اهي نائٽروجن ۾ حل ٿين ٿيون"
+              },
+              "explanation": "تيل ڌات کي آڪسيجن ۽ پاڻيءَ جي ٻاڦ کان ڌار رکي ٿو، تنهنڪري غير ضروري ردعمل کان بچاءُ ٿئي ٿو۔"
+            }
+          }
         },
         {
           "question": "Which trend generally occurs down Group 1?",
@@ -119,7 +256,29 @@
             "D": "Metallic character decreases"
           },
           "correctOption": "C",
-          "explanation": "Larger atoms down Group 1 lose their outer electron more readily, so reactivity generally increases."
+          "explanation": "Larger atoms down Group 1 lose their outer electron more readily, so reactivity generally increases.",
+          "translations": {
+            "ur": {
+              "question": "گروپ 1 میں نیچے جانے پر عموماً کون سا رجحان دیکھا جاتا ہے؟",
+              "options": {
+                "A": "پہلی آئنائزیشن توانائی بڑھتی ہے",
+                "B": "ایٹمی رداس کم ہوتا ہے",
+                "C": "پانی کے ساتھ تعامل پذیری بڑھتی ہے",
+                "D": "دھاتی کردار کم ہوتا ہے"
+              },
+              "explanation": "نیچے جانے پر بیرونی الیکٹران نیوکلئیس سے دور ہوتا ہے اور اسے نکالنا آسان ہوتا ہے؛ اس لیے تعامل پذیری بڑھتی ہے۔"
+            },
+            "sd": {
+              "question": "گروپ 1 ۾ هيٺ وڃڻ سان عام طور ڪهڙو لاڙو ڏسڻ ۾ اچي ٿو؟",
+              "options": {
+                "A": "پهرين آئنائيزيشن توانائي وڌي ٿي",
+                "B": "ايٽمي ريڊيس گهٽجي ٿو",
+                "C": "پاڻي سان ردعمل وڌي ٿو",
+                "D": "ڌاتي خاصيت گهٽجي ٿي"
+              },
+              "explanation": "هيٺ وڃڻ سان ٻاهرين اليڪٽران نيوڪليس کان پري ٿئي ٿو ۽ آسانيءَ سان نڪري ٿو؛ تنهنڪري ردعمل وڌي ٿو۔"
+            }
+          }
         },
         {
           "question": "What products form when sodium reacts with water?",
@@ -130,7 +289,29 @@
             "D": "Sodium hydride and oxygen"
           },
           "correctOption": "B",
-          "explanation": "2Na + 2H₂O → 2NaOH + H₂."
+          "explanation": "2Na + 2H₂O → 2NaOH + H₂.",
+          "translations": {
+            "ur": {
+              "question": "سوڈیم پانی سے تعامل کرے تو کون سی مصنوعات بنتی ہیں؟",
+              "options": {
+                "A": "سوڈیم آکسائیڈ اور آکسیجن",
+                "B": "سوڈیم ہائیڈرو آکسائیڈ اور ہائیڈروجن",
+                "C": "سوڈیم کلورائیڈ اور ہائیڈروجن",
+                "D": "سوڈیم ہائیڈرائیڈ اور آکسیجن"
+              },
+              "explanation": "مساوات 2Na + 2H₂O → 2NaOH + H₂ ہے؛ سوڈیم ہائیڈرو آکسائیڈ اور ہائیڈروجن بنتے ہیں۔"
+            },
+            "sd": {
+              "question": "سوڊيم پاڻي سان ردعمل ڪري ته ڪهڙيون شيون ٺهن ٿيون؟",
+              "options": {
+                "A": "سوڊيم آڪسائيڊ ۽ آڪسيجن",
+                "B": "سوڊيم هائيڊرو آڪسائيڊ ۽ هائيڊروجن",
+                "C": "سوڊيم ڪلورائيڊ ۽ هائيڊروجن",
+                "D": "سوڊيم هائيڊرائيڊ ۽ آڪسيجن"
+              },
+              "explanation": "مساوات 2Na + 2H₂O → 2NaOH + H₂ آهي؛ سوڊيم هائيڊرو آڪسائيڊ ۽ هائيڊروجن ٺهن ٿا۔"
+            }
+          }
         },
         {
           "question": "Which statement about Group 2 hydroxides is generally correct?",
@@ -141,7 +322,29 @@
             "D": "They are neutral in water"
           },
           "correctOption": "B",
-          "explanation": "The solubility of Group 2 hydroxides generally increases down the group."
+          "explanation": "The solubility of Group 2 hydroxides generally increases down the group.",
+          "translations": {
+            "ur": {
+              "question": "گروپ 2 کے ہائیڈرو آکسائیڈز کی حل پذیری کا عمومی رجحان کیا ہے؟",
+              "options": {
+                "A": "گروپ میں نیچے جانے پر کم ہوتی ہے",
+                "B": "گروپ میں نیچے جانے پر بڑھتی ہے",
+                "C": "سب پانی میں ناقابلِ حل ہیں",
+                "D": "وہ غیر جانبدار ہوتے ہیں"
+              },
+              "explanation": "گروپ 2 کے ہائیڈرو آکسائیڈز کی حل پذیری عموماً نیچے جانے پر بڑھتی ہے۔"
+            },
+            "sd": {
+              "question": "گروپ 2 جي هائيڊرو آڪسائيڊن جي حل پذيري جو عام لاڙو ڪهڙو آهي؟",
+              "options": {
+                "A": "هيٺ وڃڻ سان گهٽجي ٿي",
+                "B": "هيٺ وڃڻ سان وڌي ٿي",
+                "C": "سڀ پاڻيءَ ۾ نه حل ٿينديون آهن",
+                "D": "اهي غير جانبدار آهن"
+              },
+              "explanation": "گروپ 2 جي هائيڊرو آڪسائيڊن جي حل پذيري عام طور گروپ ۾ هيٺ وڃڻ سان وڌي ٿي۔"
+            }
+          }
         },
         {
           "question": "Which halogen is the strongest oxidising agent?",
@@ -152,7 +355,29 @@
             "D": "Fluorine"
           },
           "correctOption": "D",
-          "explanation": "Fluorine has the greatest tendency to gain electrons and is the strongest oxidising halogen."
+          "explanation": "Fluorine has the greatest tendency to gain electrons and is the strongest oxidising halogen.",
+          "translations": {
+            "ur": {
+              "question": "سب سے طاقتور آکسیڈائزنگ ہیلوجن کون سا ہے؟",
+              "options": {
+                "A": "آیوڈین",
+                "B": "برومین",
+                "C": "کلورین",
+                "D": "فلورین"
+              },
+              "explanation": "فلورین الیکٹران حاصل کرنے کا سب سے زیادہ رجحان رکھتی ہے، اس لیے یہ سب سے طاقتور آکسیڈائزنگ ہیلوجن ہے۔"
+            },
+            "sd": {
+              "question": "سڀ کان طاقتور آڪسائيڊائيزنگ هيلوجن ڪهڙو آهي؟",
+              "options": {
+                "A": "آيوڊين",
+                "B": "برومين",
+                "C": "ڪلورين",
+                "D": "فلورين"
+              },
+              "explanation": "فلورين ۾ اليڪٽران حاصل ڪرڻ جو رجحان سڀ کان وڌيڪ آهي، تنهنڪري اها سڀ کان طاقتور آڪسائيڊائيزنگ هيلوجن آهي۔"
+            }
+          }
         },
         {
           "question": "What happens when chlorine is added to potassium bromide solution?",
@@ -163,7 +388,29 @@
             "D": "Potassium metal forms"
           },
           "correctOption": "B",
-          "explanation": "Chlorine is more reactive and oxidises bromide ions: Cl₂ + 2KBr → 2KCl + Br₂."
+          "explanation": "Chlorine is more reactive and oxidises bromide ions: Cl₂ + 2KBr → 2KCl + Br₂.",
+          "translations": {
+            "ur": {
+              "question": "کلورین کو پوٹاشیم برومائیڈ کے محلول میں ملانے سے کیا ہوتا ہے؟",
+              "options": {
+                "A": "کوئی ردِعمل نہیں ہوتا",
+                "B": "برومین خارج ہو جاتی ہے",
+                "C": "آیوڈین خارج ہو جاتی ہے",
+                "D": "پوٹاشیم دھات بنتی ہے"
+              },
+              "explanation": "کلورین برومین سے زیادہ تعامل پذیر ہے؛ یہ Br⁻ کو Br₂ میں آکسائڈائز کرتی ہے: Cl₂ + 2KBr → 2KCl + Br₂۔"
+            },
+            "sd": {
+              "question": "ڪلورين کي پوٽاشيم برومائيڊ جي محلول ۾ ملائڻ سان ڇا ٿئي ٿو؟",
+              "options": {
+                "A": "ڪو ردعمل نٿو ٿئي",
+                "B": "برومين خارج ٿئي ٿي",
+                "C": "آيوڊين خارج ٿئي ٿي",
+                "D": "پوٽاشيم ڌاتو ٺهي ٿي"
+              },
+              "explanation": "ڪلورين برومين کان وڌيڪ سرگرم آهي؛ اها Br⁻ کي Br₂ ۾ آڪسائيڊائيز ڪري ٿي: Cl₂ + 2KBr → 2KCl + Br₂۔"
+            }
+          }
         },
         {
           "question": "Why does hydrogen halide acid strength generally increase from HF to HI in water?",
@@ -174,7 +421,29 @@
             "D": "All molecules become non-polar"
           },
           "correctOption": "B",
-          "explanation": "The H–X bond becomes weaker down the group, making proton release easier."
+          "explanation": "The H–X bond becomes weaker down the group, making proton release easier.",
+          "translations": {
+            "ur": {
+              "question": "HF سے HI تک ہائیڈروجن ہیلائیڈز کے تیزابی کردار میں عموماً اضافہ کیوں ہوتا ہے؟",
+              "options": {
+                "A": "H–X بند مضبوط ہوتا ہے",
+                "B": "H–X بند کمزور ہوتا ہے",
+                "C": "ایٹمی رداس کم ہوتا ہے",
+                "D": "تمام سالمات غیر قطبی ہو جاتے ہیں"
+              },
+              "explanation": "گروپ میں نیچے جانے پر H–X بند کمزور ہوتا ہے، اس لیے ہائیڈروجن آئن کا اخراج نسبتاً آسان ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "HF کان HI تائين هائيڊروجن هيلائيڊ تيزابن جي طاقت عام طور ڇو وڌي ٿي؟",
+              "options": {
+                "A": "H–X بند مضبوط ٿئي ٿو",
+                "B": "H–X بند ڪمزور ٿئي ٿو",
+                "C": "ايٽمي ريڊيس گهٽجي ٿو",
+                "D": "سڀ ماليڪيول غير قطبي ٿين ٿا"
+              },
+              "explanation": "گروپ ۾ هيٺ وڃڻ سان H–X بند ڪمزور ٿئي ٿو، تنهنڪري هائيڊروجن آئن ڇڏڻ آسان ٿئي ٿو۔"
+            }
+          }
         },
         {
           "question": "Which statement best explains the low reactivity of noble gases?",
@@ -185,7 +454,29 @@
             "D": "They form ionic lattices"
           },
           "correctOption": "B",
-          "explanation": "A filled outer shell is energetically stable and usually resists electron gain or loss."
+          "explanation": "A filled outer shell is energetically stable and usually resists electron gain or loss.",
+          "translations": {
+            "ur": {
+              "question": "نوبل گیسوں کی کم تعامل پذیری کی بنیادی وجہ کیا ہے؟",
+              "options": {
+                "A": "ان کا ایک ظرفیتی الیکٹران ہوتا ہے",
+                "B": "ان کے بیرونی الیکٹرانی خول مکمل ہوتے ہیں",
+                "C": "وہ سب دھاتیں ہیں",
+                "D": "وہ آئنک جال بناتی ہیں"
+              },
+              "explanation": "مکمل بیرونی الیکٹرانی خول مستحکم ہوتا ہے، اس لیے یہ گیسیں عموماً الیکٹران لینے یا دینے سے گریز کرتی ہیں۔"
+            },
+            "sd": {
+              "question": "نوبل گيسن جي گهٽ ردعمل جو بنيادي سبب ڇا آهي؟",
+              "options": {
+                "A": "انهن وٽ هڪ ظرفيتي اليڪٽران آهي",
+                "B": "انهن جا ٻاهريان اليڪٽران خول مڪمل آهن",
+                "C": "اهي سڀ ڌاتون آهن",
+                "D": "اهي آئنڪ جال ٺاهين ٿيون"
+              },
+              "explanation": "مڪمل ٻاهريون اليڪٽران خول مستحڪم هوندو آهي، تنهنڪري اهي گيسون عام طور اليڪٽران وٺڻ يا ڏيڻ کان پاسو ڪن ٿيون۔"
+            }
+          }
         },
         {
           "question": "Which noble gas is commonly used to provide an inert atmosphere in welding?",
@@ -196,7 +487,29 @@
             "D": "Radon"
           },
           "correctOption": "C",
-          "explanation": "Argon is relatively unreactive and shields hot metal from atmospheric oxygen and nitrogen."
+          "explanation": "Argon is relatively unreactive and shields hot metal from atmospheric oxygen and nitrogen.",
+          "translations": {
+            "ur": {
+              "question": "ویلڈنگ میں غیر تعامل پذیر حفاظتی فضا کے لیے عموماً کون سی نوبل گیس استعمال ہوتی ہے؟",
+              "options": {
+                "A": "نیون",
+                "B": "ہیلیم",
+                "C": "آرگن",
+                "D": "ریڈون"
+              },
+              "explanation": "آرگن گرم دھات کو ہوا کی آکسیجن اور نائٹروجن سے بچانے کے لیے حفاظتی گیس کے طور پر استعمال ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "ويلڊنگ ۾ غير ردعمل ڪندڙ حفاظتي فضا لاءِ عام طور ڪهڙي نوبل گيس استعمال ٿئي ٿي؟",
+              "options": {
+                "A": "نيون",
+                "B": "هيليم",
+                "C": "آرگن",
+                "D": "ريڊون"
+              },
+              "explanation": "آرگن گرم ڌاتو کي هوا جي آڪسيجن ۽ نائٽروجن کان بچائڻ لاءِ حفاظتي گيس طور استعمال ٿئي ٿي۔"
+            }
+          }
         },
         {
           "question": "Why do boiling points of noble gases generally increase down Group 18?",
@@ -207,7 +520,29 @@
             "D": "Their molecules become diatomic"
           },
           "correctOption": "B",
-          "explanation": "Larger, more polarisable electron clouds produce stronger dispersion forces."
+          "explanation": "Larger, more polarisable electron clouds produce stronger dispersion forces.",
+          "translations": {
+            "ur": {
+              "question": "نوبل گیسوں کے نقطۂ ابال گروپ میں نیچے جانے پر کیوں بڑھتے ہیں؟",
+              "options": {
+                "A": "کوویلنٹ بند مضبوط ہوتے ہیں",
+                "B": "لندن ڈسپریشن قوتیں مضبوط ہوتی ہیں",
+                "C": "وہ آئنک بن جاتی ہیں",
+                "D": "ان کے سالمات دو ایٹمی ہو جاتے ہیں"
+              },
+              "explanation": "بڑے اور زیادہ قابلِ قطبیت الیکٹرانی بادلوں میں لندن ڈسپریشن قوتیں زیادہ ہوتی ہیں، اس لیے نقطۂ ابال بڑھتا ہے۔"
+            },
+            "sd": {
+              "question": "نوبل گيسن جا نقطا ابل گروپ ۾ هيٺ وڃڻ سان ڇو وڌن ٿا؟",
+              "options": {
+                "A": "ڪوويلنٽ بند مضبوط ٿين ٿا",
+                "B": "لنڊن ڊسپريشن قوتون مضبوط ٿين ٿيون",
+                "C": "اهي آئنڪ بڻجي وڃن ٿيون",
+                "D": "انهن جا ماليڪيول ٻه ايٽمي ٿين ٿا"
+              },
+              "explanation": "وڏن ۽ وڌيڪ قطبيت پذير اليڪٽران بادلن ۾ لنڊن ڊسپريشن قوتون وڌيڪ هونديون آهن، تنهنڪري نقطو ابل وڌي ٿو۔"
+            }
+          }
         },
         {
           "question": "Which statement about noble gases is scientifically accurate?",
@@ -218,7 +553,194 @@
             "D": "Helium has the largest atoms"
           },
           "correctOption": "B",
-          "explanation": "Xenon compounds show that noble-gas reactivity is low, not absolutely zero."
+          "explanation": "Xenon compounds show that noble-gas reactivity is low, not absolutely zero.",
+          "translations": {
+            "ur": {
+              "question": "نوبل گیسوں کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "کوئی نوبل گیس مرکب نہیں بناتی",
+                "B": "زینون مناسب حالات میں مرکبات بنا سکتی ہے",
+                "C": "تمام نوبل گیسیں کمرۂ درجہ حرارت پر مائع ہوتی ہیں",
+                "D": "ہیلیم سب سے بڑا ایٹم ہے"
+              },
+              "explanation": "زینون کے مرکبات ثابت کرتے ہیں کہ نوبل گیسوں کی تعامل پذیری کم ہے، بالکل صفر نہیں۔"
+            },
+            "sd": {
+              "question": "نوبل گيسن بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "ڪا به نوبل گيس مرڪب نٿي ٺاهي",
+                "B": "زينون مناسب حالتن ۾ مرڪب ٺاهي سگهي ٿي",
+                "C": "سڀ نوبل گيسون ڪمري جي گرمي پد تي مائع آهن",
+                "D": "هيليم سڀ کان وڏو ايٽم آهي"
+              },
+              "explanation": "زينون جا مرڪب ڏيکارين ٿا ته نوبل گيسن جو ردعمل گهٽ آهي، بلڪل صفر نه آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Which flame colour is characteristic of potassium ions?",
+          "options": {
+            "A": "Golden yellow",
+            "B": "Lilac / pale violet",
+            "C": "Brick red",
+            "D": "Apple green"
+          },
+          "correctOption": "B",
+          "explanation": "Potassium gives a lilac flame; sodium contamination may mask this weaker colour.",
+          "translations": {
+            "ur": {
+              "question": "پوٹاشیم آئن شعلے کے ٹیسٹ میں کون سا رنگ دیتا ہے؟",
+              "options": {
+                "A": "سنہری پیلا",
+                "B": "ہلکا بنفشی",
+                "C": "اینٹ جیسا سرخ",
+                "D": "سیب جیسا سبز"
+              },
+              "explanation": "پوٹاشیم کا شعلہ عموماً ہلکا بنفشی ہوتا ہے؛ سوڈیم کی زرد روشنی اسے چھپا سکتی ہے۔"
+            },
+            "sd": {
+              "question": "پوٽاشيم آئن جي شعلن واري ٽيسٽ جو رنگ ڪهڙو هوندو آهي؟",
+              "options": {
+                "A": "سونھري پيلو",
+                "B": "هلڪو واڱڻائي",
+                "C": "سرن جهڙو ڳاڙهو",
+                "D": "انب جهڙو سائو"
+              },
+              "explanation": "پوٽاشيم جو شعلو عام طور هلڪو واڱڻائي هوندو آهي؛ سوڊيم جو پيلو رنگ ان کي لڪائي سگهي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Why must a wire loop be cleaned between flame tests?",
+          "options": {
+            "A": "To raise its melting point",
+            "B": "To prevent contaminant ions altering the flame colour",
+            "C": "To oxidise the sample",
+            "D": "To cool the flame"
+          },
+          "correctOption": "B",
+          "explanation": "Residues from earlier samples can emit their own colours and produce a false identification.",
+          "translations": {
+            "ur": {
+              "question": "شعلے کے ٹیسٹ سے پہلے تار کو صاف کرنا کیوں ضروری ہے؟",
+              "options": {
+                "A": "تار کا نقطۂ پگھلاؤ بڑھانے کے لیے",
+                "B": "دوسرے آئنوں کی آلودگی سے غلط رنگ ظاہر ہونے سے بچانے کے لیے",
+                "C": "نمونے کو آکسائڈائز کرنے کے لیے",
+                "D": "شعلے کا درجہ حرارت کم کرنے کے لیے"
+              },
+              "explanation": "تار پر موجود دوسرے آئن اپنا رنگ دے سکتے ہیں؛ صفائی سے نمونے کا درست رنگ دیکھا جا سکتا ہے۔"
+            },
+            "sd": {
+              "question": "شعلن واري ٽيسٽ کان اڳ تار صاف ڪرڻ ڇو ضروري آهي؟",
+              "options": {
+                "A": "تار جو ڳرڻ وارو گرمي پد وڌائڻ لاءِ",
+                "B": "ٻين آئنن جي آلودگي سبب غلط رنگ کان بچڻ لاءِ",
+                "C": "نموني کي آڪسائيڊ ڪرڻ لاءِ",
+                "D": "شعلي جو گرمي پد گهٽائڻ لاءِ"
+              },
+              "explanation": "تار تي موجود ٻيا آئن پنهنجو رنگ ڏيئي سگهن ٿا؛ صفائي سان نموني جو صحيح رنگ ڏسي سگهجي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Which catalyst is used for oxidation of SO₂ to SO₃ in the Contact process?",
+          "options": {
+            "A": "Iron",
+            "B": "Nickel",
+            "C": "Vanadium(V) oxide",
+            "D": "Copper"
+          },
+          "correctOption": "C",
+          "explanation": "Vanadium(V) oxide catalyses the reversible oxidation of sulphur dioxide to sulphur trioxide.",
+          "translations": {
+            "ur": {
+              "question": "کانٹیکٹ عمل میں SO₂ کو SO₃ میں آکسائڈائز کرنے کے لیے کون سا عمل انگیز استعمال ہوتا ہے؟",
+              "options": {
+                "A": "آئرن",
+                "B": "نکل",
+                "C": "وینیڈیم پانچ آکسائیڈ",
+                "D": "صرف پلاٹینم بلیک"
+              },
+              "explanation": "V₂O₅ اس قابلِ واپسی آکسائڈیشن عمل کو تیز کرتا ہے اور صنعتی طور پر عام عمل انگیز ہے۔"
+            },
+            "sd": {
+              "question": "ڪانٽيڪٽ عمل ۾ SO₂ کي SO₃ ۾ آڪسائيڊ ڪرڻ لاءِ ڪهڙو عمل انگيز استعمال ٿئي ٿو؟",
+              "options": {
+                "A": "آئرن",
+                "B": "نڪل",
+                "C": "وينڊيم پنج آڪسائيڊ",
+                "D": "صرف پلاٽينم بليڪ"
+              },
+              "explanation": "V₂O₅ هن reversible oxidation کي تيز ڪري ٿو ۽ صنعتي طور عام عمل انگيز آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Why is SO₃ absorbed in concentrated sulphuric acid rather than directly in water?",
+          "options": {
+            "A": "The reaction is endothermic",
+            "B": "Direct absorption forms an acid mist that is difficult to control",
+            "C": "SO₃ is insoluble in water",
+            "D": "Oleum is the catalyst"
+          },
+          "correctOption": "B",
+          "explanation": "Direct hydration is highly exothermic and creates a fine acid mist; absorption in H₂SO₄ forms oleum.",
+          "translations": {
+            "ur": {
+              "question": "SO₃ کو براہِ راست پانی میں جذب کرنے کے بجائے پہلے اولیئم کیوں بنایا جاتا ہے؟",
+              "options": {
+                "A": "ردِعمل حرارت جذب کرتا ہے",
+                "B": "براہِ راست جذب کرنے سے تیزابی دھند بنتی ہے اور عمل مشکل ہو جاتا ہے",
+                "C": "SO₃ پانی میں حل نہیں ہوتا",
+                "D": "اولیئم عمل انگیز ہے"
+              },
+              "explanation": "SO₃ کا پانی سے براہِ راست ردِعمل شدید حرارت خارج کرتا ہے اور باریک تیزابی دھند بناتا ہے؛ اسے مرتکز H₂SO₄ میں جذب کر کے اولیئم بنایا جاتا ہے۔"
+            },
+            "sd": {
+              "question": "SO₃ کي سڌو پاڻيءَ ۾ جذب ڪرڻ بدران پهرين اوليئم ڇو ٺاهيو ويندو آهي؟",
+              "options": {
+                "A": "ردعمل گرمي جذب ڪري ٿو",
+                "B": "سڌي جذب سان تيزابي ڌنڌ ٺهي ٿي ۽ عمل ڏکيو ٿئي ٿو",
+                "C": "SO₃ پاڻيءَ ۾ نٿو حل ٿئي",
+                "D": "اوليئم عمل انگيز آهي"
+              },
+              "explanation": "SO₃ جو پاڻيءَ سان سڌو ردعمل تمام گهڻي گرمي خارج ڪري ٿو ۽ تيزابي ڌنڌ ٺاهي ٿو؛ ان کي مرتڪز H₂SO₄ ۾ جذب ڪري اوليئم ٺاهيو ويندو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Which factor helps explain the diagonal relationship between lithium and magnesium?",
+          "options": {
+            "A": "Equal atomic masses",
+            "B": "Similar ionic size and charge density",
+            "C": "Both are noble gases",
+            "D": "Both have full valence shells"
+          },
+          "correctOption": "B",
+          "explanation": "Their relatively similar ionic dimensions and charge density lead to similarities in some compound properties.",
+          "translations": {
+            "ur": {
+              "question": "لیتھیم اور میگنیشیم میں قطری مشابہت کی ایک وجہ کیا ہے؟",
+              "options": {
+                "A": "دونوں کے ایٹمی کمیت برابر ہیں",
+                "B": "ان کے آئنوں کے حجم اور چارج کثافت میں مشابہت ہے",
+                "C": "دونوں نوبل گیسیں ہیں",
+                "D": "دونوں کے بیرونی خول مکمل ہیں"
+              },
+              "explanation": "لیتھیم اور میگنیشیم کے آئنوں کی نسبتاً مماثل جسامت اور چارج کثافت بعض خواص میں مشابہت پیدا کرتی ہے۔"
+            },
+            "sd": {
+              "question": "ليٿيم ۽ ميگنيشيم ۾ قطري مشابهت جو هڪ سبب ڇا آهي؟",
+              "options": {
+                "A": "انهن جا ايٽمي ماس برابر آهن",
+                "B": "انهن جي آئنن جي جسامت ۽ چارج ڪثافت ۾ مشابهت آهي",
+                "C": "ٻئي نوبل گيسون آهن",
+                "D": "ٻنهي جا ٻاهريان خول مڪمل آهن"
+              },
+              "explanation": "ليٿيم ۽ ميگنيشيم جي آئنن جي نسبتاً مشابهت واري جسامت ۽ چارج ڪثافت ڪجهه خاصيتن ۾ مشابهت پيدا ڪري ٿي۔"
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -231,7 +753,27 @@
             "Correct Group 1 configuration and M⁺ (1)",
             "Correct Group 2 configuration and M²⁺ (1)",
             "Clear explanation of electron loss (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "گروپ 1 اور گروپ 2 کے عناصر کی عمومی بیرونی الیکٹرانی ترتیب لکھیں اور ہر گروپ سے بننے والے عام آئن کی وضاحت کریں۔",
+              "modelAnswer": "گروپ 1 کی ترتیب ns¹ ہوتی ہے؛ یہ عموماً ایک الیکٹران کھو کر M⁺ آئن بناتے ہیں۔ گروپ 2 کی ترتیب ns² ہوتی ہے؛ یہ عموماً دو الیکٹران کھو کر M²⁺ آئن بناتے ہیں۔",
+              "rubric": [
+                "گروپ 1 کی درست ترتیب اور M⁺ (1)",
+                "گروپ 2 کی درست ترتیب اور M²⁺ (1)",
+                "الیکٹران کے اخراج کی وضاحت (1)"
+              ]
+            },
+            "sd": {
+              "question": "گروپ 1 ۽ گروپ 2 جي عنصرن جي عام ٻاهرين اليڪٽران ترتيب لکو ۽ هر گروپ مان ٺهندڙ عام آئن ٻڌايو۔",
+              "modelAnswer": "گروپ 1 جي ترتيب ns¹ هوندي آهي؛ اهي عام طور هڪ اليڪٽران وڃائي M⁺ آئن ٺاهين ٿا۔ گروپ 2 جي ترتيب ns² هوندي آهي؛ اهي عام طور ٻه اليڪٽران وڃائي M²⁺ آئن ٺاهين ٿا۔",
+              "rubric": [
+                "گروپ 1 جي صحيح ترتيب ۽ M⁺ (1)",
+                "گروپ 2 جي صحيح ترتيب ۽ M²⁺ (1)",
+                "اليڪٽران وڃائڻ جي وضاحت (1)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -242,7 +784,27 @@
             "Correct reactants (1)",
             "Balanced equation (1)",
             "Both products named (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "کیلشیم کے ٹھنڈے پانی کے ساتھ تعامل کی متوازن مساوات لکھیں اور مصنوعات کے نام بتائیں۔",
+              "modelAnswer": "Ca + 2H₂O → Ca(OH)₂ + H₂۔ مصنوعات کیلشیم ہائیڈرو آکسائیڈ اور ہائیڈروجن گیس ہیں۔",
+              "rubric": [
+                "درست تعامل کرنے والے مادے (1)",
+                "متوازن مساوات (1)",
+                "دونوں مصنوعات کے نام (1)"
+              ]
+            },
+            "sd": {
+              "question": "ڪيلشيم جي ٿڌي پاڻي سان ردعمل جي متوازن مساوات لکو ۽ پيداوارن جا نالا ٻڌايو۔",
+              "modelAnswer": "Ca + 2H₂O → Ca(OH)₂ + H₂۔ پيداوارون ڪيلشيم هائيڊرو آڪسائيڊ ۽ هائيڊروجن گئس آهن۔",
+              "rubric": [
+                "صحيح reactants (1)",
+                "متوازن مساوات (1)",
+                "ٻنهي پيداوارن جا نالا (1)"
+              ]
+            }
+          }
         },
         {
           "type": "crq",
@@ -253,7 +815,27 @@
             "Correct reactivity/oxidising-power comparison (1)",
             "Correct displacement explanation (1)",
             "Balanced equation (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "وضاحت کریں کہ کلورین آبی پوٹاشیم برومائیڈ سے برومین کو کیوں خارج کرتی ہے۔ متوازن مساوات بھی لکھیں۔",
+              "modelAnswer": "کلورین برومین سے زیادہ طاقتور آکسیڈائزنگ عامل اور زیادہ تعامل پذیر ہے۔ یہ Br⁻ آئنوں کو Br₂ میں آکسائڈائز کرتی ہے: Cl₂ + 2KBr → 2KCl + Br₂۔",
+              "rubric": [
+                "تعامل پذیری/آکسیڈائزنگ طاقت کا درست موازنہ (1)",
+                "اخراجی تعامل کی وضاحت (1)",
+                "متوازن مساوات (1)"
+              ]
+            },
+            "sd": {
+              "question": "وضاحت ڪريو ته ڪلورين آبي پوٽاشيم برومائيڊ مان برومين کي ڇو خارج ڪري ٿي۔ متوازن مساوات به لکو۔",
+              "modelAnswer": "ڪلورين برومين کان وڌيڪ طاقتور آڪسائيڊائيزنگ عامل ۽ وڌيڪ سرگرم آهي۔ اها Br⁻ آئنن کي Br₂ ۾ آڪسائيڊائيز ڪري ٿي: Cl₂ + 2KBr → 2KCl + Br₂۔",
+              "rubric": [
+                "ردعمل/آڪسائيڊائيزنگ طاقت جو صحيح مقابلو (1)",
+                "displacement جي وضاحت (1)",
+                "متوازن مساوات (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -265,7 +847,29 @@
             "Comparison of reactivity (2)",
             "Correct balanced reactions (2)",
             "Periodic trend and suitable exception (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "گروپ 1 اور گروپ 2 کی دھاتوں کا تقابل کریں۔ بیرونی الیکٹرانی ترتیب، عام آئن، پانی سے تعامل اور گروپ میں نیچے جانے کا ایک رجحان شامل کریں۔",
+              "modelAnswer": "گروپ 1 کی دھاتوں کی ترتیب ns¹ اور عام آئن M⁺ ہوتا ہے، جبکہ گروپ 2 کی ترتیب ns² اور عام آئن M²⁺ ہوتا ہے۔ دونوں الیکٹروپازیٹو دھاتیں ہیں، مگر گروپ 1 کی دھاتیں عموماً پانی سے زیادہ تیزی سے تعامل کرتی ہیں۔ گروپ 1 کے لیے 2M + 2H₂O → 2MOH + H₂ اور کیلشیم کے لیے Ca + 2H₂O → Ca(OH)₂ + H₂۔ نیچے جانے پر ایٹمی رداس بڑھتا اور آئنائزیشن توانائی عموماً کم ہوتی ہے، اس لیے دھاتی تعامل پذیری بڑھتی ہے۔ بیریلیم پانی کے ساتھ اپنے رویے میں اہم استثنا ہے۔",
+              "rubric": [
+                "ترتیب اور عام آئن (2)",
+                "تعامل پذیری کا موازنہ (2)",
+                "درست متوازن مساواتیں (2)",
+                "رجحان اور مناسب استثنا (2)"
+              ]
+            },
+            "sd": {
+              "question": "گروپ 1 ۽ گروپ 2 جي ڌاتن جو مقابلو ڪريو۔ ٻاهرين اليڪٽران ترتيب، عام آئن، پاڻي سان ردعمل ۽ گروپ ۾ هيٺ وڃڻ جو هڪ لاڙو شامل ڪريو۔",
+              "modelAnswer": "گروپ 1 جي ڌاتن جي ترتيب ns¹ ۽ عام آئن M⁺ هوندو آهي، جڏهن ته گروپ 2 جي ترتيب ns² ۽ عام آئن M²⁺ هوندو آهي۔ ٻئي electropositive ڌاتون آهن، پر گروپ 1 جون ڌاتون عام طور پاڻي سان وڌيڪ تيزيءَ سان ردعمل ڪن ٿيون۔ گروپ 1 لاءِ 2M + 2H₂O → 2MOH + H₂ ۽ ڪيلشيم لاءِ Ca + 2H₂O → Ca(OH)₂ + H₂۔ هيٺ وڃڻ سان ايٽمي ريڊيس وڌي ۽ ionisation energy عام طور گهٽجي ٿي، تنهنڪري ڌاتي سرگرمي وڌي ٿي۔ بيريليم پاڻي سان پنهنجي رويي ۾ اهم استثنا آهي۔",
+              "rubric": [
+                "ترتيب ۽ عام آئن (2)",
+                "ردعمل جو مقابلو (2)",
+                "صحيح متوازن مساواتون (2)",
+                "لاڙو ۽ مناسب استثنا (2)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -277,7 +881,156 @@
             "Halogen trend and balanced reaction (2)",
             "Noble-gas configuration and properties/trend (2)",
             "Accurate application and qualification about xenon (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "ہیلوجنز اور نوبل گیسوں کی خصوصیات اور دوری رجحانات بیان کریں۔ ہر گروپ کے لیے ایک تعامل یا استعمال بھی دیں۔",
+              "modelAnswer": "ہیلوجنز گروپ 17 کے غیر دھاتی عناصر ہیں جن کی ترتیب ns²np⁵ ہے۔ یہ دو ایٹمی، رنگ دار اور تعامل پذیر ہوتے ہیں؛ گروپ میں نیچے جانے پر آکسیڈائزنگ طاقت کم ہوتی ہے۔ زیادہ تعامل پذیر ہیلوجن کم تعامل پذیر ہیلائیڈ کو خارج کرتی ہے، مثلاً Cl₂ + 2KBr → 2KCl + Br₂۔ نوبل گیسیں گروپ 18 کی یک ایٹمی گیسیں ہیں جن کے بیرونی خول مکمل ہوتے ہیں، اس لیے ان کی تعامل پذیری بہت کم ہے۔ ڈسپریشن قوتوں میں اضافے کی وجہ سے ان کے نقطۂ ابال نیچے جانے پر بڑھتے ہیں۔ آرگن ویلڈنگ میں حفاظتی گیس ہے؛ مناسب حالات میں زینون مرکبات بنا سکتی ہے۔",
+              "rubric": [
+                "ہیلوجن کی ترتیب اور خصوصیات (2)",
+                "ہیلوجن رجحان اور متوازن تعامل (2)",
+                "نوبل گیسوں کی ترتیب، خصوصیات اور رجحان (2)",
+                "درست استعمال اور زینون کے بارے میں وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هالوجنز ۽ نوبل گيسن جون خاصيتون ۽ periodic trends بيان ڪريو۔ هر گروپ لاءِ هڪ ردعمل يا استعمال به ڏيو۔",
+              "modelAnswer": "هالوجنز گروپ 17 جا غير ڌاتي عنصر آهن، جن جي ترتيب ns²np⁵ آهي۔ اهي diatomic، رنگدار ۽ سرگرم هوندا آهن؛ گروپ ۾ هيٺ وڃڻ سان oxidising power گهٽجي ٿي۔ وڌيڪ سرگرم هالوجن گهٽ سرگرم halide کي خارج ڪري ٿي، مثال طور Cl₂ + 2KBr → 2KCl + Br₂۔ نوبل گيسون گروپ 18 جون monoatomic گيسون آهن، جن جا ٻاهريان خول مڪمل هوندا آهن، تنهنڪري انهن جي سرگرمي تمام گهٽ آهي۔ dispersion forces وڌڻ سبب انهن جا boiling points هيٺ وڃڻ سان وڌن ٿا۔ آرگن ويلڊنگ ۾ حفاظتي گئس آهي؛ مناسب حالتن ۾ زينون مرڪب ٺاهي سگهي ٿي۔",
+              "rubric": [
+                "هالوجن ترتيب ۽ خاصيتون (2)",
+                "هالوجن لاڙو ۽ متوازن ردعمل (2)",
+                "نوبل گيسن جي ترتيب، خاصيتون ۽ لاڙو (2)",
+                "صحيح استعمال ۽ زينون بابت وضاحت (2)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 3,
+          "question": "شعلے کے ٹیسٹ میں پوٹاشیم اور سوڈیم کے رنگ بتائیں۔ تار کی صفائی اور سوڈیم کی آلودگی کے اثر کی وضاحت کریں۔",
+          "modelAnswer": "پوٹاشیم عموماً ہلکا بنفشی جبکہ سوڈیم تیز زرد شعلہ دیتا ہے۔ تار کو ہر ٹیسٹ سے پہلے صاف کرنا ضروری ہے تاکہ پچھلے نمونے کے آئن رنگ میں مداخلت نہ کریں۔ سوڈیم کی معمولی آلودگی بھی تیز زرد رنگ پیدا کر سکتی ہے جو دوسرے آئنوں کا رنگ چھپا دے۔",
+          "rubric": [
+            "پوٹاشیم کا رنگ (1)",
+            "سوڈیم کا رنگ (1)",
+            "صفائی/آلودگی کے اثر کی وضاحت (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "شعلے کے ٹیسٹ میں پوٹاشیم اور سوڈیم کے رنگ بتائیں۔ تار کی صفائی اور سوڈیم کی آلودگی کے اثر کی وضاحت کریں۔",
+              "modelAnswer": "پوٹاشیم عموماً ہلکا بنفشی جبکہ سوڈیم تیز زرد شعلہ دیتا ہے۔ تار کو ہر ٹیسٹ سے پہلے صاف کرنا ضروری ہے تاکہ پچھلے نمونے کے آئن رنگ میں مداخلت نہ کریں۔ سوڈیم کی معمولی آلودگی بھی تیز زرد رنگ پیدا کر سکتی ہے جو دوسرے آئنوں کا رنگ چھپا دے۔",
+              "rubric": [
+                "پوٹاشیم کا رنگ (1)",
+                "سوڈیم کا رنگ (1)",
+                "صفائی/آلودگی کے اثر کی وضاحت (1)"
+              ]
+            },
+            "sd": {
+              "question": "Flame test ۾ پوٽاشيم ۽ سوڊيم جا رنگ ٻڌايو۔ تار صاف ڪرڻ ۽ سوڊيم جي آلودگي جو اثر سمجهايو۔",
+              "modelAnswer": "پوٽاشيم عام طور هلڪو واڱڻائي جڏهن ته سوڊيم تيز پيلو شعلو ڏئي ٿو۔ هر ٽيسٽ کان اڳ تار صاف ڪرڻ ضروري آهي ته جيئن اڳئين نموني جا آئن رنگ ۾ مداخلت نه ڪن۔ سوڊيم جي ٿوري آلودگي به تيز پيلو رنگ پيدا ڪري سگهي ٿي، جيڪو ٻين آئنن جو رنگ لڪائي ڇڏي ٿو۔",
+              "rubric": [
+                "پوٽاشيم جو رنگ (1)",
+                "سوڊيم جو رنگ (1)",
+                "صفائي/آلودگي جي اثر جي وضاحت (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 3,
+          "question": "کانٹیکٹ عمل کے اہم مراحل لکھیں اور وضاحت کریں کہ SO₃ کو براہِ راست پانی میں جذب کرنے کے بجائے اولیئم کیوں بنایا جاتا ہے۔",
+          "modelAnswer": "سلفر یا سلفائیڈ ایسک جلا کر SO₂ بنایا جاتا ہے۔ پھر SO₂ کو اضافی آکسیجن کے ساتھ V₂O₅ عمل انگیز پر تقریباً 450°C پر SO₃ میں تبدیل کیا جاتا ہے: 2SO₂ + O₂ ⇌ 2SO₃۔ SO₃ کو مرتکز H₂SO₄ میں جذب کر کے اولیئم بنایا جاتا ہے، جسے احتیاط سے پانی میں ملا کر مطلوبہ تیزاب حاصل کیا جاتا ہے۔ براہِ راست پانی میں جذب کرنے سے شدید حرارت اور تیزابی دھند پیدا ہوتی ہے۔",
+          "rubric": [
+            "SO₂ کی تیاری (1)",
+            "متوازن reversible مساوات اور V₂O₅ (1)",
+            "اولیئم کی تیاری/پتلا کرنے کا مرحلہ (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "کانٹیکٹ عمل کے اہم مراحل لکھیں اور وضاحت کریں کہ SO₃ کو براہِ راست پانی میں جذب کرنے کے بجائے اولیئم کیوں بنایا جاتا ہے۔",
+              "modelAnswer": "سلفر یا سلفائیڈ ایسک جلا کر SO₂ بنایا جاتا ہے۔ پھر SO₂ کو اضافی آکسیجن کے ساتھ V₂O₅ عمل انگیز پر تقریباً 450°C پر SO₃ میں تبدیل کیا جاتا ہے: 2SO₂ + O₂ ⇌ 2SO₃۔ SO₃ کو مرتکز H₂SO₄ میں جذب کر کے اولیئم بنایا جاتا ہے، جسے احتیاط سے پانی میں ملا کر مطلوبہ تیزاب حاصل کیا جاتا ہے۔ براہِ راست پانی میں جذب کرنے سے شدید حرارت اور تیزابی دھند پیدا ہوتی ہے۔",
+              "rubric": [
+                "SO₂ کی تیاری (1)",
+                "متوازن reversible مساوات اور V₂O₅ (1)",
+                "اولیئم کی تیاری/پتلا کرنے کا مرحلہ (1)"
+              ]
+            },
+            "sd": {
+              "question": "Contact process جا اهم مرحلا لکو ۽ وضاحت ڪريو ته SO₃ کي سڌو پاڻيءَ ۾ جذب ڪرڻ بدران oleum ڇو ٺاهيو ويندو آهي۔",
+              "modelAnswer": "سلفر يا sulfide ore ساڙي SO₂ ٺاهيو ويندو آهي۔ پوءِ SO₂ کي اضافي آڪسيجن سان V₂O₅ catalyst تي لڳ ڀڳ 450°C تي SO₃ ۾ تبديل ڪيو ويندو آهي: 2SO₂ + O₂ ⇌ 2SO₃۔ SO₃ کي مرتڪز H₂SO₄ ۾ جذب ڪري oleum ٺاهيو ويندو آهي، جنهن کي احتياط سان پاڻي ۾ ملائي گهربل تيزاب حاصل ڪجي ٿو۔ سڌو پاڻيءَ ۾ جذب ڪرڻ سان گهڻي گرمي ۽ تيزابي ڌنڌ پيدا ٿئي ٿي۔",
+              "rubric": [
+                "SO₂ جي تياري (1)",
+                "متوازن reversible مساوات ۽ V₂O₅ (1)",
+                "oleum ٺاهڻ/پتلو ڪرڻ جو مرحلو (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 3,
+          "question": "لیتھیم اور میگنیشیم کی قطری مشابہت کی وضاحت کریں اور دو مشترک کیمیائی خصوصیات کی مثال دیں۔",
+          "modelAnswer": "لیتھیم گروپ 1 میں میگنیشیم کے اوپر اور میگنیشیم گروپ 2 میں لیتھیم کے دائیں جانب واقع ہے۔ دونوں کے آئنوں کی جسامت اور چارج کثافت میں نسبتاً مشابہت ہے، اس لیے ان کی قطبی بنانے کی صلاحیت اور بعض مرکبات کی خصوصیات ملتی جلتی ہیں۔ مثال کے طور پر دونوں نائٹرائڈ بناتے ہیں؛ ان کے کاربونیٹس گرم کرنے پر آکسائیڈ اور CO₂ دیتے ہیں۔",
+          "rubric": [
+            "قطری مقام کی وضاحت (1)",
+            "آئنک جسامت/چارج کثافت کی وجہ (1)",
+            "دو درست مشترک خواص (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "لیتھیم اور میگنیشیم کی قطری مشابہت کی وضاحت کریں اور دو مشترک کیمیائی خصوصیات کی مثال دیں۔",
+              "modelAnswer": "لیتھیم گروپ 1 میں میگنیشیم کے اوپر اور میگنیشیم گروپ 2 میں لیتھیم کے دائیں جانب واقع ہے۔ دونوں کے آئنوں کی جسامت اور چارج کثافت میں نسبتاً مشابہت ہے، اس لیے ان کی قطبی بنانے کی صلاحیت اور بعض مرکبات کی خصوصیات ملتی جلتی ہیں۔ مثال کے طور پر دونوں نائٹرائڈ بناتے ہیں؛ ان کے کاربونیٹس گرم کرنے پر آکسائیڈ اور CO₂ دیتے ہیں۔",
+              "rubric": [
+                "قطری مقام کی وضاحت (1)",
+                "آئنک جسامت/چارج کثافت کی وجہ (1)",
+                "دو درست مشترک خواص (1)"
+              ]
+            },
+            "sd": {
+              "question": "Lithium ۽ magnesium جي diagonal relationship سمجهايو ۽ ٻن گڏيل ڪيميائي خاصيتن جا مثال ڏيو۔",
+              "modelAnswer": "Lithium گروپ 1 ۾ ۽ magnesium گروپ 2 ۾ ان جي هيٺئين قطري پوزيشن ۾ آهي۔ ٻنهي جي آئنن جي جسامت ۽ charge density ۾ نسبتاً مشابهت آهي، تنهنڪري انهن جي polarising power ۽ ڪجهه مرڪبن جون خاصيتون ملندڙ جلندڙ آهن۔ مثال طور ٻئي nitrides ٺاهين ٿا؛ انهن جا carbonates گرم ڪرڻ سان oxide ۽ CO₂ ڏين ٿا۔",
+              "rubric": [
+                "قطري پوزيشن جي وضاحت (1)",
+                "ionic size/charge density جو سبب (1)",
+                "ٻه صحيح گڏيل خاصيتون (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 8,
+          "question": "ایک نامعلوم نمونے کے شعلے کا رنگ ہلکا بنفشی ہے اور اس کے ہیلائیڈ محلول میں کلورین ملانے سے بھورا مادہ بنتا ہے۔ ممکنہ دھاتی آئن اور ہیلائیڈ کی شناخت کریں اور استدلال دیں۔",
+          "modelAnswer": "ہلکا بنفشی شعلہ پوٹاشیم آئن K⁺ کی طرف اشارہ کرتا ہے۔ کلورین برومائیڈ آئن کو برومین میں آکسائڈائز کرتی ہے، جو محلول میں بھورا/نارنجی رنگ دیتی ہے؛ اس لیے ہیلائیڈ ممکنہ طور پر Br⁻ ہے۔ نتیجہ دو الگ مشاہدات سے اخذ کیا گیا ہے، صرف ایک ٹیسٹ سے نہیں۔",
+          "rubric": [
+            "K⁺ کی درست شناخت اور رنگ (2)",
+            "Br⁻/Br₂ کی درست شناخت (2)",
+            "کلورین کے اخراجی تعامل کی وضاحت (2)",
+            "شواہد کو درست جوڑنا (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ایک نامعلوم نمونے کے شعلے کا رنگ ہلکا بنفشی ہے اور اس کے ہیلائیڈ محلول میں کلورین ملانے سے بھورا مادہ بنتا ہے۔ ممکنہ دھاتی آئن اور ہیلائیڈ کی شناخت کریں اور استدلال دیں۔",
+              "modelAnswer": "ہلکا بنفشی شعلہ پوٹاشیم آئن K⁺ کی طرف اشارہ کرتا ہے۔ کلورین برومائیڈ آئن کو برومین میں آکسائڈائز کرتی ہے، جو محلول میں بھورا/نارنجی رنگ دیتی ہے؛ اس لیے ہیلائیڈ ممکنہ طور پر Br⁻ ہے۔ نتیجہ دو الگ مشاہدات سے اخذ کیا گیا ہے، صرف ایک ٹیسٹ سے نہیں۔",
+              "rubric": [
+                "K⁺ کی درست شناخت اور رنگ (2)",
+                "Br⁻/Br₂ کی درست شناخت (2)",
+                "کلورین کے اخراجی تعامل کی وضاحت (2)",
+                "شواہد کو درست جوڑنا (2)"
+              ]
+            },
+            "sd": {
+              "question": "هڪ نامعلوم نموني جي شعلي جو رنگ هلڪو واڱڻائي آهي ۽ ان جي halide محلول ۾ chlorine وجهڻ سان ڀورو مادو ٺهي ٿو۔ ممڪن ڌاتي آئن ۽ halide سڃاڻو ۽ دليل ڏيو۔",
+              "modelAnswer": "هلڪو واڱڻائي شعلو potassium ion K⁺ ڏانهن اشارو ڪري ٿو۔ Chlorine، bromide ion کي bromine ۾ oxidise ڪري ٿي، جيڪا محلول ۾ ڀورو/نارنگي رنگ ڏئي ٿي؛ تنهنڪري halide ممڪن طور Br⁻ آهي۔ نتيجو ٻن الڳ مشاهدن مان ڪڍيو ويو آهي، صرف هڪ ٽيسٽ مان نه۔",
+              "rubric": [
+                "K⁺ جي صحيح سڃاڻپ ۽ رنگ (2)",
+                "Br⁻/Br₂ جي صحيح سڃاڻپ (2)",
+                "chlorine displacement جي وضاحت (2)",
+                "ثبوتن کي صحيح نموني ڳنڍڻ (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -8813,5 +9566,23 @@
         }
       ]
     }
-  ]
+  ],
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Chemistry Grade IX–XII (2024), Government of Sindh/DCAR",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+      "note": "Notified 31 July 2024; learning-outcome progression and science practices used as the curriculum reference."
+    },
+    {
+      "title": "STBB eBooks — Class XII English-medium catalogue",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=15&medium=English",
+      "note": "Lists the official English Chemistry XII textbook edition 2023–24."
+    },
+    {
+      "title": "STBB eBooks portal",
+      "url": "https://portal.stbb.edu.pk/ebooks/",
+      "note": "Official free digital textbook catalogue."
+    }
+  ],
+  "curriculumAlignmentNote": "Chapter titles/order follow the STBB Chemistry XII 2023–24 textbook sequence. The 2024 DCAR curriculum is an outcomes-based progression grid rather than a chapter-by-chapter contents list; this package does not claim a full one-to-one mapping of every textbook section to every 2024 SLO. Chapter 1 is the reviewed bilingual unit in this release."
 }
