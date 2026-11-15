@@ -17,9 +17,10 @@
 <form id="postForm">
 <label for="title">Video title</label><input id="title" maxlength="180" required placeholder="e.g. Biology IX – Introduction to Cells">
 <div class="grid">
-<div><label for="videoUrl">Final video URL (HTTPS)</label><input id="videoUrl" type="url" placeholder="https://…" required></div>
+<div><label for="videoUrl">Final video URL (HTTPS, optional)</label><input id="videoUrl" type="url" placeholder="https://…"></div>
 <div><label for="websiteUrl">Academy lesson / website URL</label><input id="websiteUrl" type="url" placeholder="https://gahejo… (optional)"></div>
 </div>
+<label for="videoFile">Or attach a video file from this device</label><input id="videoFile" type="file" accept="video/*"><p class="hint">Local attachments are stored in this browser on this device. They are not uploaded to cloud storage yet.</p>
 <label for="description">Main description / teaching summary</label><textarea id="description" maxlength="5000" required></textarea>
 <div class="grid">
 <div><label for="language">Video language</label><select id="language"><option value="ur">Urdu</option><option value="sd">Sindhi</option><option value="en">English</option></select></div>
@@ -33,7 +34,7 @@
 <label><input type="checkbox" name="platform" value="tiktok" checked> TikTok</label>
 </div>
 <label for="scheduleAt">Preferred publishing time (optional)</label><input id="scheduleAt" type="datetime-local">
-<p class="hint">Captions can be refined per platform in the next integration step. Schedule is saved as the requested local time; it is not a live scheduler until the publishing worker is connected.</p>
+<p class="hint">Captions can be refined per platform in the next integration step. Schedule is saved as the requested local time; it is not a live scheduler until the publishing worker is connected.</p><p class="hint">A video may be attached from Studio automatically or selected above. For local attachments, keep using the same phone/browser; clearing site data may remove the video.</p>
 <button class="btn" type="submit">Save content draft</button>
 </form>
 <p class="status" id="status" role="status" aria-live="polite"></p>
