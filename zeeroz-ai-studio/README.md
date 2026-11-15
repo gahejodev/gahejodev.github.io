@@ -29,6 +29,12 @@ The procedural Three.js engine currently recognizes selected topics and provides
 
 The models are rule-based visual aids. They are not yet a universal AI model that understands every lesson or produces scientifically exact animations for all topics.
 
+## Social Queue handoff
+- The 3D WebM export can now be saved directly into the Academy Social Queue without copying a video URL.
+- Video bytes are stored in the browser's IndexedDB database `zeeroz-social-media`; Firestore stores only the admin-only post metadata and local attachment key.
+- Open the Social Queue in the same browser/device to preview or download the attached local video.
+- This is a local handoff, not a cloud upload. Clearing browser site data or changing devices can make the local attachment unavailable.
+
 ## Current limits
 - Teacher avatar: open-source 3D face/shoulders avatar with audio-driven lip-sync; no full-body gestures or custom Zeeroz rig yet.
 - Neural TTS: Urdu male/female (Fasih/Aegis) and English male/female (Ryan/Amy) models. Sindhi neural voice is not yet verified.
