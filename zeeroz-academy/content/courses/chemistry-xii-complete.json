@@ -2,7 +2,7 @@
   "id": "chemistry-xii-complete",
   "title": "Chemistry XII — Complete Course",
   "description": "Grade XII Chemistry study collection. Chapters 1–2 now contain reviewed, bilingual lessons and chapter-specific assessments aligned with the current DCAR 2024 learning outcomes where stated. Chapters 3–13 remain draft study aids under content review; package registration does not mean every unit is exam-ready.",
-  "version": "6",
+  "version": "7",
   "chapters": [
     {
       "title": "Chapter 1: Chemistry of Representative Elements",
@@ -1779,7 +1779,11 @@
           "marks": 4,
           "question": "Define a transition element and explain why zinc is excluded but copper is included under the strict definition.",
           "modelAnswer": "A transition element is a d-block element that forms at least one stable ion with an incomplete d subshell. Zn forms Zn²⁺ with 3d¹⁰, so its common stable ion has a complete d subshell and zinc is excluded. Cu forms Cu²⁺ with 3d⁹, so copper is included.",
-          "rubric": "Definition (1); Zn²⁺ configuration and conclusion (1); Cu²⁺ configuration and conclusion (2).",
+          "rubric": [
+            "Definition (1)",
+            "Zn²⁺ configuration and conclusion (1)",
+            "Cu²⁺ configuration and conclusion (2)."
+          ],
           "translations": {
             "ur": {
               "question": "transition element کی تعریف دیں اور سخت تعریف کے مطابق زنک کو خارج جبکہ کاپر کو شامل کرنے کی وجہ بیان کریں۔",
@@ -1806,7 +1810,12 @@
           "marks": 4,
           "question": "Calculate the oxidation state of cobalt in [Co(NH₃)₅Cl]²⁺ and state the charge of each ligand type.",
           "modelAnswer": "NH₃ is neutral (charge 0) and Cl⁻ has charge −1. Let cobalt be x: x + 5(0) − 1 = +2, so x = +3. Cobalt is in oxidation state +3.",
-          "rubric": "NH₃ neutral identified (1); chloride charge identified (1); correct charge equation (1); cobalt +3 (1).",
+          "rubric": [
+            "NH₃ neutral identified (1)",
+            "chloride charge identified (1)",
+            "correct charge equation (1)",
+            "cobalt +3 (1)."
+          ],
           "translations": {
             "ur": {
               "question": "[Co(NH₃)₅Cl]²⁺ میں کوبالٹ کی oxidation state معلوم کریں اور ہر ligand کی charge بتائیں۔",
@@ -1835,7 +1844,12 @@
           "marks": 4,
           "question": "Explain the difference between monodentate and bidentate ligands. Give one example of each and state the coordination number of [Co(en)₃]³⁺.",
           "modelAnswer": "A monodentate ligand attaches through one donor atom; NH₃ is an example. A bidentate ligand attaches through two donor atoms; ethane-1,2-diamine (en) is an example. Each of the three en ligands donates through two nitrogen atoms, so the coordination number is 3 × 2 = 6.",
-          "rubric": "Monodentate meaning/example (1); bidentate meaning/example (1); donor-atom count for en (1); coordination number 6 (1).",
+          "rubric": [
+            "Monodentate meaning/example (1)",
+            "bidentate meaning/example (1)",
+            "donor-atom count for en (1)",
+            "coordination number 6 (1)."
+          ],
           "translations": {
             "ur": {
               "question": "monodentate اور bidentate ligands میں فرق بیان کریں، ہر ایک کی مثال دیں اور [Co(en)₃]³⁺ کا coordination number بتائیں۔",
@@ -1864,7 +1878,12 @@
           "marks": 4,
           "question": "State the geometry and approximate bond angle for tetrahedral and octahedral complexes. Give one example of each.",
           "modelAnswer": "A tetrahedral complex has four donor atoms arranged around the metal with angles about 109.5°; [CuCl₄]²⁻ is an example. An octahedral complex has six donor atoms, with adjacent bond angles about 90°; [Co(NH₃)₆]³⁺ is an example.",
-          "rubric": "Tetrahedral geometry (1); 109.5° and example (1); octahedral geometry (1); 90° and example (1).",
+          "rubric": [
+            "Tetrahedral geometry (1)",
+            "109.5° and example (1)",
+            "octahedral geometry (1)",
+            "90° and example (1)."
+          ],
           "translations": {
             "ur": {
               "question": "tetrahedral اور octahedral complexes کی شکل اور تقریباً bond angle لکھیں۔ ہر ایک کی ایک مثال دیں۔",
@@ -1893,7 +1912,11 @@
           "marks": 5,
           "question": "Write the balanced ionic equation for the reaction of permanganate with iron(II) ions in acidic solution. Identify the species oxidised and reduced.",
           "modelAnswer": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. Fe²⁺ is oxidised to Fe³⁺ (loss of one electron per iron ion). Mn in MnO₄⁻ is reduced from +7 to +2.",
-          "rubric": "Correct balanced equation (3); Fe²⁺ oxidation identified (1); Mn(+7) reduction to Mn(+2) identified (1).",
+          "rubric": [
+            "Correct balanced equation (3)",
+            "Fe²⁺ oxidation identified (1)",
+            "Mn(+7) reduction to Mn(+2) identified (1)."
+          ],
           "translations": {
             "ur": {
               "question": "تیزابی محلول میں permanganate اور iron(II) کے ردعمل کی متوازن ionic مساوات لکھیں۔ oxidised اور reduced ہونے والی species بتائیں۔",
@@ -1920,7 +1943,12 @@
           "marks": 4,
           "question": "Define Kstab and write its expression for M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺. Explain what a large value indicates.",
           "modelAnswer": "Kstab is the equilibrium constant for complex-ion formation under specified conditions. Kstab = [[M(NH₃)₄]²⁺] / ([M²⁺][NH₃]⁴). A large value means the equilibrium strongly favours the complex ion; water as solvent is omitted.",
-          "rubric": "Definition (1); correct numerator (1); correct denominator and power (1); interpretation (1).",
+          "rubric": [
+            "Definition (1)",
+            "correct numerator (1)",
+            "correct denominator and power (1)",
+            "interpretation (1)."
+          ],
           "translations": {
             "ur": {
               "question": "Kstab کی تعریف دیں اور M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺ کے لیے expression لکھیں۔ بڑی قدر کیا ظاہر کرتی ہے؟",
@@ -1949,7 +1977,13 @@
           "marks": 7,
           "question": "Explain four characteristic properties of first-row transition elements and relate each to their electronic structure. Include one exception or qualification.",
           "modelAnswer": "First-row transition elements generally show: (1) variable oxidation states because 3d and 4s energies are similar, allowing different numbers of electrons to participate; (2) coloured ions because partially filled d orbitals split in ligand fields and absorb visible photons; (3) complex formation because metal ions accept lone pairs from ligands into accessible orbitals; (4) catalytic activity because variable oxidation states and surface/coordinate interactions provide alternative reaction pathways. They are often hard, dense, conductive metals with high melting points due to strong metallic bonding. These are trends, not universal rules: Zn²⁺ is d¹⁰ and does not meet the strict transition-element definition; not every complex is coloured, and physical properties vary across the series.",
-          "rubric": "Variable oxidation states and energy explanation (2); colour and d-splitting (2); complex formation/ligand donation (1); catalytic behaviour (1); accurate qualification/example (1).",
+          "rubric": [
+            "Variable oxidation states and energy explanation (2)",
+            "colour and d-splitting (2)",
+            "complex formation/ligand donation (1)",
+            "catalytic behaviour (1)",
+            "accurate qualification/example (1)."
+          ],
           "translations": {
             "ur": {
               "question": "پہلی قطار کے transition elements کی چار خصوصیات بیان کریں اور ہر ایک کو الیکٹرانی ساخت سے جوڑیں۔ ایک استثنا یا وضاحت بھی شامل کریں۔",
@@ -1980,7 +2014,13 @@
           "marks": 8,
           "question": "A 25.0 cm³ sample of Fe²⁺ solution is titrated with 0.0200 mol dm⁻³ acidified MnO₄⁻. The mean titre is 25.0 cm³. Write the equation, calculate the amount of MnO₄⁻ used, then calculate the concentration of Fe²⁺.",
           "modelAnswer": "Balanced equation: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. Moles MnO₄⁻ = cV = 0.0200 × 0.0250 = 5.00 × 10⁻⁴ mol. Ratio MnO₄⁻:Fe²⁺ = 1:5, so moles Fe²⁺ = 2.50 × 10⁻³ mol. Volume Fe²⁺ = 0.0250 dm³. Concentration = n/V = 0.00250/0.0250 = 0.100 mol dm⁻³.",
-          "rubric": "Balanced equation (3); correct volume conversion and moles MnO₄⁻ (2); 1:5 mole ratio (1); moles Fe²⁺ (1); final concentration with unit (1).",
+          "rubric": [
+            "Balanced equation (3)",
+            "correct volume conversion and moles MnO₄⁻ (2)",
+            "1:5 mole ratio (1)",
+            "moles Fe²⁺ (1)",
+            "final concentration with unit (1)."
+          ],
           "translations": {
             "ur": {
               "question": "25.0 cm³ محلول Fe²⁺ کو 0.0200 mol dm⁻³ تیزابی MnO₄⁻ سے titrate کیا گیا۔ اوسط titre 25.0 cm³ ہے۔ مساوات لکھیں، استعمال شدہ MnO₄⁻ کے moles اور پھر Fe²⁺ کا ارتکاز معلوم کریں۔",
@@ -2011,7 +2051,12 @@
           "marks": 7,
           "question": "Discuss geometrical and optical isomerism in transition-metal complexes. Explain how Kstab can be used to compare complex formation and give the expression for M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺.",
           "modelAnswer": "Geometrical isomerism occurs when ligands occupy different positions, for example cis and trans [Pt(NH₃)₂Cl₂]. Optical isomers are non-superimposable mirror images; [Ni(en)₃]²⁺ can show optical isomerism because the bidentate ligands create a chiral arrangement. Kstab is the equilibrium constant for complex formation under specified conditions. For M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺, Kstab = [[M(NH₃)₄]²⁺]/([M²⁺][NH₃]⁴). A larger Kstab indicates a greater equilibrium preference for the complex under the same temperature and solvent. Water is omitted because it is the solvent.",
-          "rubric": "Geometrical isomerism and example (2); optical isomerism and example (2); Kstab definition/expression (2); interpretation and solvent omission (1).",
+          "rubric": [
+            "Geometrical isomerism and example (2)",
+            "optical isomerism and example (2)",
+            "Kstab definition/expression (2)",
+            "interpretation and solvent omission (1)."
+          ],
           "translations": {
             "ur": {
               "question": "transition-metal complexes میں geometrical اور optical isomerism بیان کریں۔ Kstab سے complex formation کا موازنہ کیسے کیا جاتا ہے؟ M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺ کی expression بھی دیں۔",
