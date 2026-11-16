@@ -20,22 +20,12 @@ async function checkPublishingBackend(){
 async function connectYoutube(){
  try{say("Starting secure YouTube connection…");const headers=await apiHeaders(),r=await fetch(SOCIAL_PUBLISHER_URL+"/api/youtube/connect",{method:"POST",headers,body:"{}"}),d=await r.json();if(!r.ok||!d.ok)throw new Error(d.error||"Could not start YouTube authorization.");location.href=d.authorizationUrl;}catch(e){say("YouTube connection failed: "+e.message)}
 }
-async function inferVideoMimeType(fileName,reportedType,blob){
+function inferVideoMimeType(fileName,reportedType){
  const ext=String(fileName||"").split(".").pop().toLowerCase();
  const byExtension={mp4:"video/mp4",m4v:"video/mp4",mov:"video/quicktime",qt:"video/quicktime",webm:"video/webm"};
  if(byExtension[ext])return byExtension[ext];
  if(["video/mp4","video/quicktime","video/webm"].includes(reportedType))return reportedType;
- if(blob&&blob.size>=12){
-  const b=new Uint8Array(await blob.slice(0,32).arrayBuffer());
-  const ascii=(a,z)=>String.fromCharCode(...b.slice(a,z));
-  if(ascii(4,8)==="ftyp"){
-   const brand=ascii(8,12).toLowerCase();
-   return brand==="qt  "?"video/quicktime":"video/mp4";
-  }
-  if(b[0]===0x1a&&b[1]===0x45&&b[2]===0xdf&&b[3]===0xa3)return "video/webm";
- }
- if(typeof reportedType==="string"&&(/^video\/[a-z0-9.+-]+$/i.test(reportedType)||reportedType==="application/octet-stream"))return reportedType;
- return "application/octet-stream";
+ throw new Error("Unsupported video format. Please use MP4 (.mp4), MOV (.mov) or WebM (.webm).");
 }
 async function uploadYoutube(postId,post,button){
  button.disabled=true;button.textContent="Preparing YouTube upload…";
@@ -43,7 +33,7 @@ async function uploadYoutube(postId,post,button){
   if(post.status!=="approved_pending_platform_setup"&&post.status!=="approved")throw new Error("Approve this post before uploading.");
   if(!post.localVideoKey)throw new Error("Attach the video in this browser first.");
   const local=await getStoredSocialVideo(post.localVideoKey);if(!local?.blob)throw new Error("Local video file is missing. Reattach it from this device.");
-  const mimeType=await inferVideoMimeType(local.fileName||post.localVideoName,local.blob.type,local.blob);const headers=await apiHeaders(),init=await fetch(SOCIAL_PUBLISHER_URL+"/api/youtube/upload/init",{method:"POST",headers,body:JSON.stringify({title:post.title,description:post.platformCaptions?.youtube||post.description||"",mimeType,sizeBytes:local.blob.size,privacyStatus:$("youtubePrivacy")?.value||"private"})});
+  const mimeType=inferVideoMimeType(local.fileName||post.localVideoName,local.blob.type);const headers=await apiHeaders(),init=await fetch(SOCIAL_PUBLISHER_URL+"/api/youtube/upload/init",{method:"POST",headers,body:JSON.stringify({title:post.title,description:post.platformCaptions?.youtube||post.description||"",mimeType,sizeBytes:local.blob.size,privacyStatus:$("youtubePrivacy")?.value||"private"})});
   const data=await init.json();if(!init.ok||!data.ok)throw new Error(data.error||"YouTube upload could not be initialized.");
   button.textContent="Uploading video directly to YouTube…";
   await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),youtube:{status:"uploading",message:"Video is being transferred directly from this browser to YouTube."}},updatedAt:serverTimestamp()});
