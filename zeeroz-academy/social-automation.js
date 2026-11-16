@@ -4,26 +4,39 @@ const $=id=>document.getElementById(id), db=()=>window.ZeerozFirebase.db;
 let admin=false;
 const names={youtube:"YouTube",facebook:"Facebook",instagram:"Instagram",tiktok:"TikTok"};
 function say(s){$("status").textContent=s}
+async function apiHeaders(){const user=window.ZeerozFirebase.auth.currentUser;if(!user)throw new Error("Please sign in as administrator.");return {Authorization:"Bearer "+await user.getIdToken(),Accept:"application/json","Content-Type":"application/json"}}
 async function checkPublishingBackend(){
- const health=$("backendHealth"),details=$("backendDetails");
- if(!health||!details)return;
- health.textContent="Checking secure publishing backend…";
+ const health=$("backendHealth"),details=$("backendDetails");if(!health||!details)return;health.textContent="Checking secure publishing backend…";
  try{
-  const response=await fetch(SOCIAL_PUBLISHER_URL+"/health",{method:"GET",headers:{Accept:"application/json"}});
-  if(!response.ok)throw new Error("Backend returned HTTP "+response.status);
-  const data=await response.json();
-  if(!data.ok)throw new Error("Backend health check did not pass.");
-  const user=window.ZeerozFirebase.auth.currentUser;
-  const token=await user.getIdToken();
-  const authResponse=await fetch(SOCIAL_PUBLISHER_URL+"/api/admin/config-check",{method:"POST",headers:{Authorization:"Bearer "+token,Accept:"application/json"}});
-  const authData=await authResponse.json();
+  const response=await fetch(SOCIAL_PUBLISHER_URL+"/health",{headers:{Accept:"application/json"}});if(!response.ok)throw new Error("Backend returned HTTP "+response.status);
+  const data=await response.json();if(!data.ok)throw new Error("Backend health check did not pass.");
+  const headers=await apiHeaders(),authResponse=await fetch(SOCIAL_PUBLISHER_URL+"/api/admin/config-check",{method:"POST",headers,body:"{}"}),authData=await authResponse.json();
   if(!authResponse.ok||!authData.ok)throw new Error(authData.error||"Admin verification failed.");
+  const sr=await fetch(SOCIAL_PUBLISHER_URL+"/api/youtube/status",{headers}),sd=await sr.json();
   health.textContent="Connected: free Cloudflare Worker is responding; administrator verification passed.";
-  details.textContent="Video storage: disabled. KV metadata binding: "+(authData.kvBound?"ready":"not available")+". OAuth apps and platform permissions are still pending. YouTube, Facebook and TikTok will be enabled in stages; Instagram stays manual for now.";
- }catch(e){
-  health.textContent="Backend check failed: "+e.message;
-  details.textContent="The backend is deployed, but the browser could not complete its health/admin check. Check the Worker URL, deployment and Firebase admin claim.";
- }
+  details.textContent="Video storage: disabled. KV: "+(authData.kvBound?"ready":"not available")+". YouTube: "+(sd.connected?"connected":"not connected")+". OAuth credentials: "+(authData.youtubeOAuthSecretsConfigured?"configured":"waiting for Google OAuth setup")+". Facebook/TikTok are next; Instagram remains manual.";
+ }catch(e){health.textContent="Backend check failed: "+e.message;details.textContent="Check Worker deployment, internet access and Firebase administrator sign-in."}
+}
+async function connectYoutube(){
+ try{say("Starting secure YouTube connection…");const headers=await apiHeaders(),r=await fetch(SOCIAL_PUBLISHER_URL+"/api/youtube/connect",{method:"POST",headers,body:"{}"}),d=await r.json();if(!r.ok||!d.ok)throw new Error(d.error||"Could not start YouTube authorization.");location.href=d.authorizationUrl;}catch(e){say("YouTube connection failed: "+e.message)}
+}
+async function uploadYoutube(postId,post,button){
+ button.disabled=true;button.textContent="Preparing YouTube upload…";
+ try{
+  if(post.status!=="approved_pending_platform_setup"&&post.status!=="approved")throw new Error("Approve this post before uploading.");
+  if(!post.localVideoKey)throw new Error("Attach the video in this browser first.");
+  const local=await getStoredSocialVideo(post.localVideoKey);if(!local?.blob)throw new Error("Local video file is missing. Reattach it from this device.");
+  const headers=await apiHeaders(),init=await fetch(SOCIAL_PUBLISHER_URL+"/api/youtube/upload/init",{method:"POST",headers,body:JSON.stringify({title:post.title,description:post.platformCaptions?.youtube||post.description||"",mimeType:local.blob.type||"video/webm",sizeBytes:local.blob.size,privacyStatus:$("youtubePrivacy")?.value||"private"})});
+  const data=await init.json();if(!init.ok||!data.ok)throw new Error(data.error||"YouTube upload could not be initialized.");
+  button.textContent="Uploading video directly to YouTube…";
+  await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),youtube:{status:"uploading",message:"Video is being transferred directly from this browser to YouTube."}},updatedAt:serverTimestamp()});
+  const sent=await fetch(data.uploadUrl,{method:"PUT",headers:{"Content-Type":local.blob.type||"video/webm"},body:local.blob});
+  if(!sent.ok)throw new Error("YouTube rejected video upload (HTTP "+sent.status+").");
+  const result=await sent.json();if(!result.id)throw new Error("YouTube upload returned no video ID.");
+  const videoUrl="https://www.youtube.com/watch?v="+encodeURIComponent(result.id);
+  await updateDoc(doc(db(),"socialPosts",postId),{status:"published",platformResults:{...(post.platformResults||{}),youtube:{status:"published",postUrl:videoUrl,platformVideoId:result.id,message:"YouTube confirmed the upload."}},updatedAt:serverTimestamp()});
+  say("YouTube upload confirmed: "+videoUrl);await load();
+ }catch(e){try{await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),youtube:{status:"failed",message:e.message}},updatedAt:serverTimestamp()})}catch(_){}say("YouTube upload failed: "+e.message);button.disabled=false;button.textContent="Retry YouTube upload";}
 }
 
 function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
@@ -110,6 +123,12 @@ async function load(){
     }else{const missing=document.createElement("p");missing.className="hint";missing.textContent="Temporary video file is no longer available in this browser. Recreate or attach it again.";card.append(missing)}
    }catch(e){const missing=document.createElement("p");missing.className="hint";missing.textContent="Local video could not be opened: "+e.message;card.append(missing)}
   }
+  if((p.platforms||[]).includes("youtube")&&p.localVideoKey){
+   const yt=document.createElement("button");yt.className="btn";yt.type="button";yt.textContent="Upload to YouTube";
+   yt.disabled=!(p.status==="approved_pending_platform_setup"||p.status==="approved");
+   yt.title=yt.disabled?"Approve this post first":"Upload this local video directly to YouTube";
+   yt.addEventListener("click",()=>uploadYoutube(d.id,p,yt));card.append(yt);
+  }
   card.querySelector('[data-action="captions"]').addEventListener("click",()=>{
    const updated={};card.querySelectorAll("[data-caption]").forEach(el=>updated[el.dataset.caption]=el.value.trim());
    change(d.id,{platformCaptions:updated});
@@ -168,3 +187,4 @@ $("postForm").addEventListener("submit",async e=>{
 });
 
 $("checkBackend")?.addEventListener("click",checkPublishingBackend);
+$("connectYoutube")?.addEventListener("click",connectYoutube);
