@@ -1,0 +1,754 @@
+{
+  "id": "physics-xi-heat-thermodynamics",
+  "title": "Physics XI — Heat and Thermodynamics (DCAR 2024)",
+  "description": "Grade XI Physics unit aligned to the current Sindh DCAR Physics Curriculum 2024. Original bilingual lessons, worked examples, 15 explained MCQs, 3 CRQs and 2 ERQs with model answers and marking rubrics.",
+  "version": "1",
+  "curriculumAlignment": "DCAR Sindh Physics Curriculum 2024, Grade XI Domain D: SLOs P-11-D-01 to P-11-D-24. Official PDF: https://dcar.gos.pk/Sindh-Curriculum/Physics%20Curriculum%2019%20August%202024.pdf",
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Physics Grade IX–XII (2024), Government of Sindh/DCAR",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Physics%20Curriculum%2019%20August%202024.pdf",
+      "note": "Grade XI Domain D, SLOs P-11-D-01 to P-11-D-24; printed pages 40–44."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Grade XI Domain D: Heat and Thermodynamics",
+      "description": "Aligned to DCAR Sindh Physics Curriculum 2024 Grade XI Domain D, SLOs P-11-D-01 to P-11-D-24. Covers thermal equilibrium, gas laws, ideal-gas kinetic theory, first and second laws, internal energy, entropy, heat engines, Carnot limit and refrigerators.",
+      "lessons": [
+        {
+          "title": "XI-D.1 Thermal equilibrium and gas laws",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine thermal equilibrium and use Boyle's, Charles's and Avogadro's laws.\n\nTwo bodies are in thermal equilibrium when they have equal temperature and there is no net heat transfer between them while in thermal contact. Heat flows spontaneously from hotter to colder bodies until equilibrium is reached.\n\nFor a fixed amount of gas:\n- Boyle: at constant T, pV = constant.\n- Charles: at constant p, V/T = constant, with T in kelvin.\n- Avogadro: at constant p and T, V/n = constant.\n\nThe combined equation is pV=nRT. A p–V graph at constant temperature is a rectangular hyperbola called an isotherm. Always convert Celsius to kelvin: T(K)=θ(°C)+273.15.\n\n**Example:** a gas at 100 kPa occupies 2.0 L. At the same temperature, reducing the volume to 1.0 L doubles the pressure to 200 kPa.\n\n**Key terms:** thermal equilibrium, pressure, volume, absolute temperature, isotherm.\n\n**Revision check:** why is kelvin required in gas-law calculations?",
+          "explanations": {
+            "ur": "دو اجسام اس وقت thermal equilibrium میں ہوتے ہیں جب ان کا درجہ حرارت برابر ہو اور حرارتی رابطے میں خالص حرارت منتقل نہ ہو۔ حرارت خودبخود گرم جسم سے ٹھنڈے جسم کی طرف جاتی ہے، یہاں تک کہ توازن قائم ہو جائے۔\n\nمقررہ مقدار کی گیس کے لیے: Boyle کے قانون میں مستقل T پر pV مستقل ہے؛ Charles کے قانون میں مستقل p پر V/T مستقل ہے اور T kelvin میں ہوتا ہے؛ Avogadro کے قانون میں مستقل p اور T پر V/n مستقل ہے۔ مشترکہ مساوات pV=nRT ہے۔ مستقل درجہ حرارت پر p–V graph ایک rectangular hyperbola یعنی isotherm ہوتا ہے۔ Celsius کو kelvin میں بدلنے کے لیے T(K)=θ(°C)+273.15 استعمال کریں۔\n\n**مثال:** 100 kPa پر 2.0 L گیس کو اسی درجہ حرارت پر 1.0 L کیا جائے تو دباؤ 200 kPa ہو جاتا ہے۔\n\n**اہم اصطلاحات:** thermal equilibrium، pressure، volume، absolute temperature، isotherm۔\n\n**دہرائی:** gas-law حساب میں kelvin کیوں ضروری ہے؟",
+            "sd": "ٻه جسم thermal equilibrium ۾ تڏهن هوندا آهن جڏهن انهن جو گرمي پد برابر هجي ۽ حرارتي رابطي ۾ خالص گرمي منتقل نه ٿئي. گرمي گرم جسم کان ٿڌي جسم ڏانهن وڃي ٿي، جيستائين توازن ٿئي.\n\nمقرر گئس لاءِ: Boyle قانون موجب مقرر T تي pV مستقل؛ Charles قانون موجب مقرر p تي V/T مستقل ۽ T kelvin ۾؛ Avogadro قانون موجب مقرر p ۽ T تي V/n مستقل آهي. گڏيل مساوات pV=nRT آهي. مقرر temperature تي p–V graph rectangular hyperbola يعني isotherm هوندو آهي. Celsius کي kelvin ۾ بدلائڻ لاءِ T(K)=θ(°C)+273.15 استعمال ڪريو.\n\n**مثال:** 100 kPa تي 2.0 L گئس جو volume ساڳئي temperature تي 1.0 L ڪجي ته pressure 200 kPa ٿيندو.\n\n**اهم اصطلاح:** thermal equilibrium، pressure، volume، absolute temperature، isotherm.\n\n**ورجاءُ:** gas-law حساب ۾ kelvin ڇو ضروري آهي؟"
+          }
+        },
+        {
+          "title": "XI-D.2 Ideal-gas equation and kinetic theory",
+          "type": "text",
+          "content": "## Learning outcomes\nUse pV=nRT and pV=NkT; define k and state the assumptions of the ideal-gas model.\n\nThe ideal-gas equation is **pV=nRT=NkT**. Here n is amount in moles, N is number of molecules, R=8.314 J mol⁻¹ K⁻¹ and k is Boltzmann's constant. They are related by **k=R/Nₐ**, where Nₐ is Avogadro's constant.\n\nKinetic theory models gas molecules as tiny particles in continuous random motion. Their own volume is negligible; intermolecular forces are negligible except during collisions; collisions are perfectly elastic; and pressure is caused by impacts on container walls. The model is most accurate at low pressure and high temperature because molecules are far apart. At high pressure or low temperature, molecular volume and attractions become important and real gases deviate from ideal behaviour.\n\n**Example:** for n=0.50 mol, T=300 K and V=0.010 m³, p=nRT/V≈1.25×10⁵ Pa.\n\n**Key terms:** ideal gas, kinetic theory, elastic collision, Boltzmann constant, Avogadro constant.\n\n**Revision check:** state two conditions where a real gas behaves most ideally.",
+          "explanations": {
+            "ur": "ideal-gas equation **pV=nRT=NkT** ہے۔ n moles، N سالمات کی تعداد، R=8.314 J mol⁻¹ K⁻¹ اور k بولٹزمین مستقل ہے۔ تعلق **k=R/Nₐ** ہے، جہاں Nₐ Avogadro constant ہے۔\n\nkinetic theory میں سالمات مسلسل بے ترتیب حرکت کرتے ہیں۔ ان کا اپنا حجم نہایت کم، ٹکراؤ کے علاوہ باہمی قوتیں قابلِ نظر انداز، ٹکراؤ مکمل elastic اور دباؤ دیواروں سے ٹکرانے کے باعث ہوتا ہے۔ کم دباؤ اور زیادہ درجہ حرارت پر سالمات دور ہوتے ہیں، اس لیے حقیقی گیس ideal gas کے قریب ہوتی ہے۔ زیادہ دباؤ یا کم درجہ حرارت پر سالمات کا حجم اور کشش اہم ہو جاتے ہیں۔\n\n**مثال:** n=0.50 mol، T=300 K اور V=0.010 m³ ہو تو p≈1.25×10⁵ Pa۔\n\n**اہم اصطلاحات:** ideal gas، kinetic theory، elastic collision، Boltzmann constant، Avogadro constant۔\n\n**دہرائی:** حقیقی گیس کن دو حالات میں ideal behaviour دکھاتی ہے؟",
+            "sd": "ideal-gas equation **pV=nRT=NkT** آهي. n moles، N ماليڪيولن جو تعداد، R=8.314 J mol⁻¹ K⁻¹ ۽ k Boltzmann constant آهي. تعلق **k=R/Nₐ** آهي، جتي Nₐ Avogadro constant آهي.\n\nkinetic theory موجب ماليڪيول لڳاتار بي ترتيب حرڪت ڪن ٿا. انهن جو پنهنجو volume ننڍو، ٽڪراءَ کان سواءِ پاڻ ۾ قوتون نظرانداز، ٽڪراءَ مڪمل elastic ۽ pressure ڀتين سان ٽڪراءَ سبب ٿئي ٿو. گهٽ pressure ۽ وڌيڪ گرمي پد تي ماليڪيول پري هوندا آهن، تنهنڪري حقيقي گئس ideal gas جي ويجهو هوندي آهي. وڌيڪ pressure يا گهٽ گرمي پد تي ماليڪيولن جو volume ۽ ڪشش اهم ٿين ٿا.\n\n**مثال:** n=0.50 mol، T=300 K ۽ V=0.010 m³ هجي ته p≈1.25×10⁵ Pa.\n\n**اهم اصطلاح:** ideal gas، kinetic theory، elastic collision، Boltzmann constant، Avogadro constant.\n\n**ورجاءُ:** حقيقي گئس ڪهڙين ٻن حالتن ۾ ideal behaviour ڏيکاري ٿي؟"
+          }
+        },
+        {
+          "title": "XI-D.3 Heat, work and the first law",
+          "type": "text",
+          "content": "Heat is energy transferred because of a temperature difference. Work is energy transferred when a force acts through a distance or when a gas changes volume against pressure. Internal energy U is microscopic kinetic and potential energy of particles.\n\nUsing the convention that **W is work done by the system**, the first law is **ΔU=Q−W**. Q is positive when heat enters the system; W is positive when the system does work on its surroundings. If work is done on the system, W is negative in this convention. Some books write ΔU=Q+W_on; state the convention before calculating.\n\nFor constant pressure, gas work is W=pΔV. For heating without a phase change, Q=mcΔT.\n\n**Example:** a gas receives 400 J heat and does 150 J work: ΔU=400−150=+250 J.\n\n**Key terms:** heat, work, internal energy, system, surroundings, first law.\n\n**Revision check:** a gas is compressed by its surroundings. What is the sign of W?",
+          "explanations": {
+            "ur": "heat درجہ حرارت کے فرق سے منتقل ہونے والی توانائی ہے۔ work اس وقت توانائی کی منتقلی ہے جب قوت فاصلے تک کام کرے یا گیس دباؤ کے خلاف حجم بدلے۔ internal energy U ذرات کی خردبینی حرکی اور مخفی توانائی ہے۔\n\nاس convention میں **W نظام کا کیا ہوا کام** ہے اور پہلا قانون **ΔU=Q−W** ہے۔ حرارت نظام میں آئے تو Q مثبت، اور نظام ماحول پر کام کرے تو W مثبت ہے۔ اگر نظام پر کام کیا جائے تو اس convention میں W منفی ہے۔ کچھ کتابیں ΔU=Q+W_on لکھتی ہیں؛ حساب سے پہلے convention واضح کریں۔\n\nمستقل دباؤ پر W=pΔV اور phase change کے بغیر heating کے لیے Q=mcΔT ہے۔\n\n**مثال:** گیس 400 J حرارت لیتی اور 150 J کام کرتی ہے: ΔU=400−150=+250 J۔\n\n**اہم اصطلاحات:** heat، work، internal energy، system، surroundings، first law۔\n\n**دہرائی:** گیس کو باہر سے دبایا جائے تو W کا نشان کیا ہو گا؟",
+            "sd": "heat گرمي پد جي فرق سبب منتقل ٿيندڙ توانائي آهي. work تڏهن توانائي منتقل ڪري ٿو جڏهن قوت فاصلي تائين ڪم ڪري يا گئس pressure جي خلاف volume بدلائي. internal energy U ذرڙن جي microscopic kinetic ۽ potential energy آهي.\n\nهن convention ۾ **W system جو ڪيل ڪم** آهي ۽ پهريون قانون **ΔU=Q−W** آهي. گرمي system ۾ داخل ٿئي ته Q مثبت، system ماحول تي ڪم ڪري ته W مثبت. system تي ڪم ٿئي ته هن convention ۾ W منفي آهي. ڪجهه ڪتاب ΔU=Q+W_on لکندا آهن؛ حساب کان اڳ convention ٻڌايو.\n\nمقرر pressure تي W=pΔV ۽ phase change کان سواءِ heating لاءِ Q=mcΔT آهي.\n\n**مثال:** گئس 400 J گرمي وٺي ۽ 150 J ڪم ڪري: ΔU=400−150=+250 J.\n\n**اهم اصطلاح:** heat، work، internal energy، system، surroundings، first law.\n\n**ورجاءُ:** گئس کي ٻاهران دٻايو وڃي ته W جو نشان ڇا ٿيندو؟"
+          }
+        },
+        {
+          "title": "XI-D.4 Internal energy and thermodynamic processes",
+          "type": "text",
+          "content": "For an ideal gas, internal energy depends only on temperature. A temperature rise therefore increases its internal energy.\n\n- Isochoric: volume is constant, ΔV=0, so W=0 and ΔU=Q.\n- Isobaric: pressure is constant and W=pΔV.\n- Isothermal: temperature is constant; for an ideal gas ΔU=0 and Q=W.\n- Adiabatic: no heat transfer, Q=0, so ΔU=−W when W is work done by the gas.\n\nThe area under a quasi-static curve on a p–V diagram represents work done by the gas. These results rely on the ideal-gas model and the stated sign convention.\n\n**Key terms:** isochoric, isobaric, isothermal, adiabatic, p–V diagram.\n\n**Revision check:** why is ΔU zero for an ideal gas in an isothermal process?",
+          "explanations": {
+            "ur": "ideal gas کی internal energy صرف temperature پر منحصر ہوتی ہے، اس لیے temperature بڑھنے سے internal energy بڑھتی ہے۔\n\n- Isochoric: حجم مستقل، ΔV=0، اس لیے W=0 اور ΔU=Q۔\n- Isobaric: دباؤ مستقل اور W=pΔV۔\n- Isothermal: درجہ حرارت مستقل؛ ideal gas کے لیے ΔU=0 اور Q=W۔\n- Adiabatic: حرارت کا تبادلہ نہیں، Q=0، اس لیے ΔU=−W جب W گیس کا کیا ہوا کام ہو۔\n\np–V diagram میں quasi-static curve کے نیچے رقبہ گیس کے کام کو ظاہر کرتا ہے۔ یہ نتائج ideal-gas model اور واضح sign convention پر مبنی ہیں۔\n\n**اہم اصطلاحات:** isochoric، isobaric، isothermal، adiabatic، p–V diagram۔\n\n**دہرائی:** isothermal عمل میں ideal gas کے لیے ΔU صفر کیوں ہے؟",
+            "sd": "ideal gas جي internal energy رڳو temperature تي دارومدار رکي ٿي، تنهنڪري temperature وڌڻ سان internal energy وڌي ٿي.\n\n- Isochoric: volume مقرر، ΔV=0، تنهنڪري W=0 ۽ ΔU=Q.\n- Isobaric: pressure مقرر ۽ W=pΔV.\n- Isothermal: temperature مقرر؛ ideal gas لاءِ ΔU=0 ۽ Q=W.\n- Adiabatic: گرمي جي منتقلي نه، Q=0، تنهنڪري ΔU=−W جڏهن W گئس جو ڪيل ڪم هجي.\n\np–V diagram ۾ quasi-static curve هيٺان area گئس جو ڪم ڏيکاري ٿو. اهي نتيجا ideal-gas model ۽ واضح sign convention تي ٻڌل آهن.\n\n**اهم اصطلاح:** isochoric، isobaric، isothermal، adiabatic، p–V diagram.\n\n**ورجاءُ:** isothermal عمل ۾ ideal gas لاءِ ΔU صفر ڇو آهي؟"
+          }
+        },
+        {
+          "title": "XI-D.5 Second law and entropy",
+          "type": "text",
+          "content": "The first law conserves energy; the second law gives direction. Heat does not flow spontaneously from a colder body to a hotter body, and a cyclic heat engine cannot convert all input heat into work.\n\nEntropy S is a state quantity related to energy dispersal and microscopic arrangements. For reversible heat transfer at constant temperature, **ΔS=Qrev/T**, with unit J K⁻¹. Heat added gives positive entropy change for the system; heat removed gives negative change. In a natural irreversible process, the total entropy of system plus surroundings increases. Friction and heat flow across a finite temperature difference are irreversible.\n\n**Example:** 600 J added reversibly at 300 K gives ΔS=600/300=+2.0 J K⁻¹.\n\n**Key terms:** second law, entropy, reversible, irreversible, energy degradation.\n\n**Revision check:** how can energy be conserved while its ability to do useful work decreases?",
+          "explanations": {
+            "ur": "پہلا قانون توانائی کا تحفظ کرتا ہے جبکہ دوسرا قانون عمل کی سمت بتاتا ہے۔ حرارت خودبخود ٹھنڈے جسم سے گرم جسم کی طرف نہیں جاتی اور cyclic heat engine تمام حرارت کو work میں تبدیل نہیں کر سکتا۔\n\nentropy S ایک state quantity ہے جو توانائی کے پھیلاؤ اور microscopic arrangements سے متعلق ہے۔ مستقل temperature پر reversible heat transfer کے لیے **ΔS=Qrev/T** اور unit J K⁻¹ ہے۔ حرارت داخل ہونے سے system کی entropy مثبت اور نکلنے سے منفی بدلتی ہے۔ قدرتی irreversible عمل میں system اور surroundings کی مجموعی entropy بڑھتی ہے۔ رگڑ اور محدود temperature فرق سے حرارت کا بہاؤ irreversible ہیں۔\n\n**مثال:** 300 K پر 600 J reversible طور پر داخل ہوں تو ΔS=+2.0 J K⁻¹۔\n\n**اہم اصطلاحات:** second law، entropy، reversible، irreversible، energy degradation۔\n\n**دہرائی:** توانائی محفوظ رہتے ہوئے مفید کام کرنے کی صلاحیت کیسے کم ہوتی ہے؟",
+            "sd": "پهريون قانون توانائي محفوظ ڪري ٿو، جڏهن ته ٻيو قانون عمل جو رخ ٻڌائي ٿو. گرمي پاڻمرادو ٿڌي جسم کان گرم جسم ڏانهن نٿي وڃي ۽ cyclic heat engine سموري گرمي کي work ۾ تبديل نٿو ڪري سگهي.\n\nentropy S هڪ state quantity آهي، جيڪا توانائي جي پکڙجڻ ۽ microscopic arrangements سان لاڳاپيل آهي. مقرر temperature تي reversible heat transfer لاءِ **ΔS=Qrev/T** ۽ unit J K⁻¹ آهي. گرمي شامل ڪرڻ سان system جي entropy مثبت ۽ ڪڍڻ سان منفي بدلجي ٿي. قدرتي irreversible عمل ۾ system ۽ surroundings جي گڏيل entropy وڌي ٿي. رڳڙ ۽ محدود temperature فرق سان گرمي جو وهڪرو irreversible آهن.\n\n**مثال:** 300 K تي 600 J reversible طور شامل ٿين ته ΔS=+2.0 J K⁻¹.\n\n**اهم اصطلاح:** second law، entropy، reversible، irreversible، energy degradation.\n\n**ورجاءُ:** توانائي محفوظ هوندي به مفيد ڪم ڪرڻ جي صلاحيت ڪيئن گهٽجي ٿي؟"
+          }
+        },
+        {
+          "title": "XI-D.6 Heat engines, Carnot limit and refrigerators",
+          "type": "text",
+          "content": "A heat engine absorbs Qh from a hot reservoir, produces work W and rejects Qc to a cold reservoir: **W=Qh−Qc** and **η=W/Qh=1−Qc/Qh**. The ideal reversible Carnot limit is **ηC=1−Tc/Th**; use kelvin. Real engines are less efficient because of friction and other irreversible losses.\n\nA petrol engine uses spark ignition; a diesel engine compresses air until hot and injects fuel, which ignites by compression. A refrigerator works in reverse: it uses work W to remove Qc from a cold space and releases Qh=Qc+W to the room. Its coefficient of performance is **COP=Qc/W**. A Carnot refrigerator has **COPC=Tc/(Th−Tc)**. A refrigerator moves heat; it does not create cold. Reversible processes are ideal limiting cases; friction, turbulence and finite-temperature heat flow make real processes irreversible.\n\n**Case study:** a school compares two refrigerators. A removes 500 J using 250 J work (COP=2); B removes 600 J using 200 J (COP=3). B moves more heat per joule of work, but insulation, size and actual electricity use must also be compared.\n\n**Revision summary:** first law is energy conservation; second law limits conversion and sets direction; Carnot efficiency is a maximum; refrigerator COP is heat removed divided by work input.\n\n**Revision check:** calculate the Carnot efficiency between 600 K and 300 K.",
+          "explanations": {
+            "ur": "heat engine گرم reservoir سے Qh حرارت لیتا، W کام کرتا اور Qc ٹھنڈے reservoir کو دیتا ہے: **W=Qh−Qc** اور **η=W/Qh**۔ مثالی reversible Carnot حد **ηC=1−Tc/Th** ہے؛ temperature kelvin میں ہوں۔ حقیقی engines میں رگڑ اور irreversible نقصانات ہوتے ہیں، اس لیے کارکردگی کم ہوتی ہے۔\n\npetrol engine میں spark ignition اور diesel engine میں ہوا کو compress کر کے fuel جلایا جاتا ہے۔ refrigerator الٹا عمل کرتا ہے: work W استعمال کر کے ٹھنڈی جگہ سے Qc حرارت نکالتا اور Qh=Qc+W کمرے میں خارج کرتا ہے۔ اس کا COP=Qc/W ہے۔ Carnot refrigerator کے لیے COPC=Tc/(Th−Tc) ہے۔ refrigerator حرارت منتقل کرتا ہے، سردی پیدا نہیں کرتا۔ رگڑ، turbulence اور temperature کے فرق سے حرارت کا بہاؤ حقیقی عمل کو irreversible بناتے ہیں۔\n\n**کیس اسٹڈی:** اسکول دو refrigerators کا موازنہ کرتا ہے۔ A، 250 J work سے 500 J حرارت نکالتا ہے (COP=2)؛ B، 200 J work سے 600 J نکالتا ہے (COP=3)۔ B زیادہ مؤثر ہے، مگر insulation، سائز اور بجلی کے حقیقی استعمال کا بھی موازنہ ضروری ہے۔\n\n**خلاصہ:** پہلا قانون توانائی کا تحفظ، دوسرا قانون سمت اور حدود، Carnot efficiency زیادہ سے زیادہ حد اور COP حرارت نکالنے کو work سے تقسیم کرنے کا پیمانہ ہے۔\n\n**دہرائی:** 600 K اور 300 K کے درمیان Carnot efficiency معلوم کریں۔",
+            "sd": "heat engine گرم reservoir مان Qh گرمي وٺي، W ڪم ڪري ۽ Qc ٿڌي reservoir کي ڏئي ٿو: **W=Qh−Qc** ۽ **η=W/Qh**. مثالي reversible Carnot حد **ηC=1−Tc/Th** آهي؛ temperature kelvin ۾ هجن. حقيقي engines ۾ رڳڙ ۽ irreversible نقصان هوندا آهن، تنهنڪري ڪارڪردگي گهٽ هوندي آهي.\n\npetrol engine ۾ spark ignition ۽ diesel engine ۾ هوا کي compress ڪري fuel ٻاريو وڃي ٿو. refrigerator ابتو عمل ڪري ٿو: work W استعمال ڪري ٿڌي جاءِ مان Qc گرمي ڪڍي ۽ Qh=Qc+W ڪمري ۾ خارج ڪري ٿو. ان جو COP=Qc/W آهي. Carnot refrigerator لاءِ COPC=Tc/(Th−Tc) آهي. refrigerator گرمي منتقل ڪري ٿو، ٿڌ پيدا نٿو ڪري. رڳڙ، turbulence ۽ temperature فرق سبب حقيقي عمل irreversible ٿين ٿا.\n\n**ڪيس اسٽڊي:** اسڪول ٻن refrigerators جو مقابلو ڪري ٿو. A، 250 J work سان 500 J گرمي ڪڍي ٿو (COP=2)؛ B، 200 J work سان 600 J ڪڍي ٿو (COP=3). B وڌيڪ اثرائتو آهي، پر insulation، سائيز ۽ حقيقي بجلي خرچ به ڀيٽڻ گهرجي.\n\n**خلاصو:** پهريون قانون توانائي جو تحفظ، ٻيو قانون رخ ۽ حدون، Carnot efficiency وڌ ۾ وڌ حد ۽ COP ڪڍيل گرمي کي work سان ورهائڻ جو ماپو آهي.\n\n**ورجاءُ:** 600 K ۽ 300 K وچ ۾ Carnot efficiency ڪڍو؟"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "At thermal equilibrium, two bodies have:",
+          "options": {
+            "A": "equal temperatures",
+            "B": "equal masses",
+            "C": "equal volumes",
+            "D": "equal internal energies"
+          },
+          "correctOption": "A",
+          "explanation": "Thermal equilibrium means equal temperature and no net heat transfer.",
+          "translations": {
+            "ur": {
+              "question": "حرارتی توازن میں دو اجسام کا کیا برابر ہوتا ہے؟",
+              "options": {
+                "A": "درجہ حرارت",
+                "B": "کمیت",
+                "C": "حجم",
+                "D": "اندرونی توانائی"
+              },
+              "explanation": "حرارتی توازن میں دونوں کا درجہ حرارت برابر ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "حرارتي توازن ۾ ٻن جسمن جو ڇا برابر هوندو آهي؟",
+              "options": {
+                "A": "گرمي پد",
+                "B": "ڪتلو",
+                "C": "حجم",
+                "D": "اندروني توانائي"
+              },
+              "explanation": "حرارتي توازن ۾ ٻنهي جو گرمي پد برابر هوندو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Boyle's law at constant temperature is:",
+          "options": {
+            "A": "pV=constant",
+            "B": "p/T=constant",
+            "C": "V/T=constant",
+            "D": "p+V=constant"
+          },
+          "correctOption": "A",
+          "explanation": "Pressure is inversely proportional to volume, so pV is constant.",
+          "translations": {
+            "ur": {
+              "question": "مستقل درجہ حرارت پر Boyle's law کیا ہے؟",
+              "options": {
+                "A": "pV مستقل",
+                "B": "p/T مستقل",
+                "C": "V/T مستقل",
+                "D": "p+V مستقل"
+              },
+              "explanation": "دباؤ حجم کے الٹ متناسب ہے، اس لیے pV مستقل ہے۔"
+            },
+            "sd": {
+              "question": "مقرر گرمي پد تي Boyle's law ڇا آهي؟",
+              "options": {
+                "A": "pV مستقل",
+                "B": "p/T مستقل",
+                "C": "V/T مستقل",
+                "D": "p+V مستقل"
+              },
+              "explanation": "pressure، volume جي ابتڙ متناسب آهي، تنهنڪري pV مستقل آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Charles's law uses temperature measured in:",
+          "options": {
+            "A": "°C",
+            "B": "kelvin",
+            "C": "fahrenheit",
+            "D": "any scale with zero shifted"
+          },
+          "correctOption": "B",
+          "explanation": "Gas-law proportionality uses absolute temperature in kelvin.",
+          "translations": {
+            "ur": {
+              "question": "Charles's law میں درجہ حرارت کس پیمانے میں ہونا چاہیے؟",
+              "options": {
+                "A": "°C",
+                "B": "kelvin",
+                "C": "fahrenheit",
+                "D": "کوئی بھی پیمانہ"
+              },
+              "explanation": "gas laws میں مطلق درجہ حرارت kelvin میں ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "Charles's law ۾ گرمي پد ڪهڙي ماپ ۾ هجي؟",
+              "options": {
+                "A": "°C",
+                "B": "kelvin",
+                "C": "fahrenheit",
+                "D": "ڪو به scale"
+              },
+              "explanation": "gas laws ۾ مطلق گرمي پد kelvin ۾ هوندو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The ideal-gas equation is:",
+          "options": {
+            "A": "pV=nRT",
+            "B": "pV=nR/T",
+            "C": "pT=nRV",
+            "D": "p=nRTV"
+          },
+          "correctOption": "A",
+          "explanation": "The equation of state is pV=nRT.",
+          "translations": {
+            "ur": {
+              "question": "ideal-gas equation کون سی ہے؟",
+              "options": {
+                "A": "pV=nRT",
+                "B": "pV=nR/T",
+                "C": "pT=nRV",
+                "D": "p=nRTV"
+              },
+              "explanation": "ideal gas کی مساوات pV=nRT ہے۔"
+            },
+            "sd": {
+              "question": "ideal-gas equation ڪهڙي آهي؟",
+              "options": {
+                "A": "pV=nRT",
+                "B": "pV=nR/T",
+                "C": "pT=nRV",
+                "D": "p=nRTV"
+              },
+              "explanation": "ideal gas جي مساوات pV=nRT آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Boltzmann's constant is:",
+          "options": {
+            "A": "R×Nₐ",
+            "B": "R/Nₐ",
+            "C": "Nₐ/R",
+            "D": "R+Nₐ"
+          },
+          "correctOption": "B",
+          "explanation": "k=R/Nₐ.",
+          "translations": {
+            "ur": {
+              "question": "Boltzmann constant کا تعلق کیا ہے؟",
+              "options": {
+                "A": "R×Nₐ",
+                "B": "R/Nₐ",
+                "C": "Nₐ/R",
+                "D": "R+Nₐ"
+              },
+              "explanation": "k=R/Nₐ ہے۔"
+            },
+            "sd": {
+              "question": "Boltzmann constant جو تعلق ڇا آهي؟",
+              "options": {
+                "A": "R×Nₐ",
+                "B": "R/Nₐ",
+                "C": "Nₐ/R",
+                "D": "R+Nₐ"
+              },
+              "explanation": "k=R/Nₐ آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The ideal kinetic model assumes collisions are:",
+          "options": {
+            "A": "perfectly elastic",
+            "B": "perfectly inelastic",
+            "C": "never occur",
+            "D": "between stationary molecules"
+          },
+          "correctOption": "A",
+          "explanation": "Ideal-gas collisions conserve kinetic energy and are perfectly elastic.",
+          "translations": {
+            "ur": {
+              "question": "ideal kinetic model میں ٹکراؤ کیسے ہوتے ہیں؟",
+              "options": {
+                "A": "مکمل elastic",
+                "B": "مکمل inelastic",
+                "C": "نہیں ہوتے",
+                "D": "ساکن سالمات کے درمیان"
+              },
+              "explanation": "ideal gas میں ٹکراؤ مکمل elastic ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "ideal kinetic model ۾ ٽڪراءَ ڪيئن هوندا آهن؟",
+              "options": {
+                "A": "مڪمل elastic",
+                "B": "مڪمل inelastic",
+                "C": "نه ٿيندا",
+                "D": "بيٺل ماليڪيولن وچ ۾"
+              },
+              "explanation": "ideal gas ۾ ٽڪراءَ مڪمل elastic هوندا آهن۔"
+            }
+          }
+        },
+        {
+          "question": "A real gas is closest to ideal behaviour at:",
+          "options": {
+            "A": "high pressure, low T",
+            "B": "low pressure, high T",
+            "C": "high pressure, high density",
+            "D": "condensation"
+          },
+          "correctOption": "B",
+          "explanation": "Low pressure and high temperature reduce the effect of molecular volume and attractions.",
+          "translations": {
+            "ur": {
+              "question": "حقیقی گیس کب ideal gas کے قریب ہوتی ہے؟",
+              "options": {
+                "A": "زیادہ دباؤ، کم T",
+                "B": "کم دباؤ، زیادہ T",
+                "C": "زیادہ دباؤ، زیادہ کثافت",
+                "D": "condensation"
+              },
+              "explanation": "کم دباؤ اور زیادہ درجہ حرارت پر ideal behaviour بہتر ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "حقيقي گئس ڪڏهن ideal gas جي ويجهو هوندي آهي؟",
+              "options": {
+                "A": "وڌيڪ pressure، گهٽ T",
+                "B": "گهٽ pressure، وڌيڪ T",
+                "C": "وڌيڪ pressure، وڌيڪ density",
+                "D": "condensation"
+              },
+              "explanation": "گهٽ pressure ۽ وڌيڪ گرمي پد تي ideal behaviour بهتر هوندو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Using ΔU=Q−W, Q=400 J and W=150 J. ΔU equals:",
+          "options": {
+            "A": "550 J",
+            "B": "250 J",
+            "C": "−250 J",
+            "D": "−550 J"
+          },
+          "correctOption": "B",
+          "explanation": "ΔU=400−150=250 J.",
+          "translations": {
+            "ur": {
+              "question": "ΔU=Q−W، Q=400 J اور W=150 J ہو تو ΔU کیا ہے؟",
+              "options": {
+                "A": "550 J",
+                "B": "250 J",
+                "C": "−250 J",
+                "D": "−550 J"
+              },
+              "explanation": "ΔU=400−150=250 J ہے۔"
+            },
+            "sd": {
+              "question": "ΔU=Q−W، Q=400 J ۽ W=150 J هجي ته ΔU ڪيترو؟",
+              "options": {
+                "A": "550 J",
+                "B": "250 J",
+                "C": "−250 J",
+                "D": "−550 J"
+              },
+              "explanation": "ΔU=400−150=250 J آهي۔"
+            }
+          }
+        },
+        {
+          "question": "In an isochoric process:",
+          "options": {
+            "A": "volume is constant",
+            "B": "pressure is constant",
+            "C": "temperature is constant",
+            "D": "Q is zero"
+          },
+          "correctOption": "A",
+          "explanation": "Isochoric means constant volume; boundary work pΔV is zero.",
+          "translations": {
+            "ur": {
+              "question": "isochoric عمل میں کیا مستقل ہوتا ہے؟",
+              "options": {
+                "A": "حجم",
+                "B": "دباؤ",
+                "C": "درجہ حرارت",
+                "D": "Q صفر"
+              },
+              "explanation": "isochoric میں حجم مستقل ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "isochoric عمل ۾ ڇا مقرر هوندو آهي؟",
+              "options": {
+                "A": "volume",
+                "B": "pressure",
+                "C": "temperature",
+                "D": "Q صفر"
+              },
+              "explanation": "isochoric ۾ volume مستقل هوندو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "For an ideal gas in an isothermal process:",
+          "options": {
+            "A": "ΔU=0",
+            "B": "Q=0 always",
+            "C": "W=0 always",
+            "D": "pressure is zero"
+          },
+          "correctOption": "A",
+          "explanation": "Ideal-gas internal energy depends only on temperature; constant T means ΔU=0.",
+          "translations": {
+            "ur": {
+              "question": "ideal gas کے isothermal عمل میں کیا درست ہے؟",
+              "options": {
+                "A": "ΔU=0",
+                "B": "ہمیشہ Q=0",
+                "C": "ہمیشہ W=0",
+                "D": "دباؤ صفر"
+              },
+              "explanation": "مستقل temperature پر ideal gas کی ΔU صفر ہے۔"
+            },
+            "sd": {
+              "question": "ideal gas جي isothermal عمل ۾ ڇا صحيح آهي؟",
+              "options": {
+                "A": "ΔU=0",
+                "B": "هميشه Q=0",
+                "C": "هميشه W=0",
+                "D": "pressure صفر"
+              },
+              "explanation": "مقرر temperature تي ideal gas جي ΔU صفر آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The second law rules out spontaneous net heat flow:",
+          "options": {
+            "A": "hot to cold",
+            "B": "cold to hot",
+            "C": "during conduction",
+            "D": "within one body"
+          },
+          "correctOption": "B",
+          "explanation": "Cold-to-hot transfer requires external work; spontaneous net flow is hot to cold.",
+          "translations": {
+            "ur": {
+              "question": "دوسرا قانون کس خودبخود بہاؤ کو روکتا ہے؟",
+              "options": {
+                "A": "گرم سے ٹھنڈے",
+                "B": "ٹھنڈے سے گرم",
+                "C": "conduction",
+                "D": "ایک جسم میں"
+              },
+              "explanation": "ٹھنڈے سے گرم کی طرف حرارت کے لیے بیرونی work چاہیے۔"
+            },
+            "sd": {
+              "question": "ٻيو قانون ڪهڙي پاڻمرادي وهڪري کي روڪي ٿو؟",
+              "options": {
+                "A": "گرم کان ٿڌي",
+                "B": "ٿڌي کان گرم",
+                "C": "conduction",
+                "D": "هڪ جسم ۾"
+              },
+              "explanation": "ٿڌي کان گرم ڏانهن گرمي لاءِ ٻاهرين work کپي۔"
+            }
+          }
+        },
+        {
+          "question": "The SI unit of entropy is:",
+          "options": {
+            "A": "J",
+            "B": "J K⁻¹",
+            "C": "W",
+            "D": "Pa"
+          },
+          "correctOption": "B",
+          "explanation": "Entropy has units of energy divided by temperature, J K⁻¹.",
+          "translations": {
+            "ur": {
+              "question": "entropy کی SI unit کیا ہے؟",
+              "options": {
+                "A": "J",
+                "B": "J K⁻¹",
+                "C": "W",
+                "D": "Pa"
+              },
+              "explanation": "entropy کی اکائی J K⁻¹ ہے۔"
+            },
+            "sd": {
+              "question": "entropy جي SI unit ڪهڙي آهي؟",
+              "options": {
+                "A": "J",
+                "B": "J K⁻¹",
+                "C": "W",
+                "D": "Pa"
+              },
+              "explanation": "entropy جي unit J K⁻¹ آهي۔"
+            }
+          }
+        },
+        {
+          "question": "For 600 J reversible heat added at 300 K, ΔS is:",
+          "options": {
+            "A": "+2 J K⁻¹",
+            "B": "−2 J K⁻¹",
+            "C": "+1800 J K⁻¹",
+            "D": "0"
+          },
+          "correctOption": "A",
+          "explanation": "ΔS=Q/T=600/300=+2 J K⁻¹.",
+          "translations": {
+            "ur": {
+              "question": "300 K پر 600 J حرارت دینے سے ΔS کیا ہے؟",
+              "options": {
+                "A": "+2 J K⁻¹",
+                "B": "−2 J K⁻¹",
+                "C": "+1800 J K⁻¹",
+                "D": "0"
+              },
+              "explanation": "ΔS=600/300=+2 J K⁻¹ ہے۔"
+            },
+            "sd": {
+              "question": "300 K تي 600 J گرمي ڏيڻ سان ΔS ڪيترو؟",
+              "options": {
+                "A": "+2 J K⁻¹",
+                "B": "−2 J K⁻¹",
+                "C": "+1800 J K⁻¹",
+                "D": "0"
+              },
+              "explanation": "ΔS=600/300=+2 J K⁻¹ آهي۔"
+            }
+          }
+        },
+        {
+          "question": "A heat engine's work output is:",
+          "options": {
+            "A": "Qh−Qc",
+            "B": "Qh+Qc",
+            "C": "Qc−Qh",
+            "D": "Qh/Qc"
+          },
+          "correctOption": "A",
+          "explanation": "Energy conservation gives W=Qh−Qc.",
+          "translations": {
+            "ur": {
+              "question": "heat engine کا work output کیا ہے؟",
+              "options": {
+                "A": "Qh−Qc",
+                "B": "Qh+Qc",
+                "C": "Qc−Qh",
+                "D": "Qh/Qc"
+              },
+              "explanation": "توانائی کے تحفظ سے W=Qh−Qc ہے۔"
+            },
+            "sd": {
+              "question": "heat engine جو work output ڇا آهي؟",
+              "options": {
+                "A": "Qh−Qc",
+                "B": "Qh+Qc",
+                "C": "Qc−Qh",
+                "D": "Qh/Qc"
+              },
+              "explanation": "توانائي جي تحفظ موجب W=Qh−Qc آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Carnot efficiency between 600 K and 300 K is:",
+          "options": {
+            "A": "25%",
+            "B": "40%",
+            "C": "50%",
+            "D": "100%"
+          },
+          "correctOption": "C",
+          "explanation": "η=1−300/600=0.50=50%.",
+          "translations": {
+            "ur": {
+              "question": "600 K اور 300 K کے درمیان Carnot efficiency کیا ہے؟",
+              "options": {
+                "A": "25%",
+                "B": "40%",
+                "C": "50%",
+                "D": "100%"
+              },
+              "explanation": "η=1−300/600=50% ہے۔"
+            },
+            "sd": {
+              "question": "600 K ۽ 300 K وچ ۾ Carnot efficiency ڪيتري؟",
+              "options": {
+                "A": "25%",
+                "B": "40%",
+                "C": "50%",
+                "D": "100%"
+              },
+              "explanation": "η=1−300/600=50% آهي۔"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "State Boyle's, Charles's and Avogadro's laws and write the ideal-gas equation.",
+          "modelAnswer": "Boyle: pV is constant at fixed T. Charles: V/T is constant at fixed p, with T in kelvin. Avogadro: V/n is constant at fixed p and T. Combined equation: pV=nRT; molecule form pV=NkT.",
+          "rubric": [
+            "Boyle and condition (1)",
+            "Charles with kelvin (1)",
+            "Avogadro and condition (1)",
+            "Correct equation (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Boyle's، Charles's اور Avogadro's laws بیان کریں اور ideal-gas equation لکھیں۔",
+              "modelAnswer": "Boyle: مستقل T پر pV مستقل ہے۔ Charles: مستقل p پر V/T مستقل ہے، T kelvin میں ہو۔ Avogadro: مستقل p اور T پر V/n مستقل ہے۔ مساوات pV=nRT اور molecule form pV=NkT ہے۔",
+              "rubric": [
+                "Boyle اور شرط (1)",
+                "Charles اور kelvin (1)",
+                "Avogadro اور شرط (1)",
+                "درست مساوات (1)"
+              ]
+            },
+            "sd": {
+              "question": "Boyle's، Charles's ۽ Avogadro's laws بيان ڪريو ۽ ideal-gas equation لکو.",
+              "modelAnswer": "Boyle: مقرر T تي pV مستقل. Charles: مقرر p تي V/T مستقل، T kelvin ۾. Avogadro: مقرر p ۽ T تي V/n مستقل. مساوات pV=nRT ۽ molecule form pV=NkT آهي.",
+              "rubric": [
+                "Boyle ۽ شرط (1)",
+                "Charles ۽ kelvin (1)",
+                "Avogadro ۽ شرط (1)",
+                "صحيح مساوات (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "A gas receives 500 J heat and does 180 J work. Using ΔU=Q−W, calculate ΔU.",
+          "modelAnswer": "ΔU=500−180=+320 J. The internal energy increases by 320 J.",
+          "rubric": [
+            "Correct Q and W signs (1)",
+            "Correct first-law substitution (1)",
+            "Correct arithmetic (1)",
+            "Increase and unit (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "گیس 500 J حرارت لیتی اور 180 J کام کرتی ہے۔ ΔU=Q−W سے ΔU معلوم کریں۔",
+              "modelAnswer": "ΔU=500−180=+320 J۔ internal energy میں 320 J اضافہ ہوتا ہے۔",
+              "rubric": [
+                "Q اور W کے درست نشان (1)",
+                "درست مساوات میں قیمتیں (1)",
+                "درست حساب (1)",
+                "اکائی کے ساتھ اضافہ (1)"
+              ]
+            },
+            "sd": {
+              "question": "گئس 500 J گرمي وٺي ۽ 180 J ڪم ڪري ٿي. ΔU=Q−W سان ΔU ڪڍو.",
+              "modelAnswer": "ΔU=500−180=+320 J. internal energy ۾ 320 J واڌ ٿئي ٿي.",
+              "rubric": [
+                "Q ۽ W جا صحيح نشان (1)",
+                "مساوات ۾ صحيح قيمتون (1)",
+                "صحيح حساب (1)",
+                "unit سان واڌ (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Calculate the Carnot efficiency between 500 K and 300 K. State why a real engine is less efficient.",
+          "modelAnswer": "η=1−Tc/Th=1−300/500=0.40=40%. Friction, heat leakage and other irreversible effects reduce real-engine efficiency.",
+          "rubric": [
+            "Correct formula (1)",
+            "Kelvin substitution (1)",
+            "40% result (1)",
+            "Irreversible losses (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "500 K اور 300 K کے درمیان Carnot efficiency معلوم کریں اور حقیقی engine کی کم کارکردگی کی وجہ بتائیں۔",
+              "modelAnswer": "η=1−300/500=0.40 یعنی 40%۔ رگڑ، حرارت کا ضیاع اور irreversible اثرات حقیقی engine کی کارکردگی کم کرتے ہیں۔",
+              "rubric": [
+                "درست فارمولا (1)",
+                "kelvin میں قیمتیں (1)",
+                "40% جواب (1)",
+                "irreversible نقصانات (1)"
+              ]
+            },
+            "sd": {
+              "question": "500 K ۽ 300 K وچ ۾ Carnot efficiency ڪڍو ۽ حقيقي engine جي گهٽ ڪارڪردگي جو سبب ٻڌايو.",
+              "modelAnswer": "η=1−300/500=0.40 يعني 40%. رڳڙ، گرمي جو نقصان ۽ irreversible اثر حقيقي engine جي ڪارڪردگي گهٽائين ٿا.",
+              "rubric": [
+                "صحيح formula (1)",
+                "kelvin ۾ قيمتون (1)",
+                "40% جواب (1)",
+                "irreversible نقصان (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 7,
+          "question": "Explain the ideal-gas kinetic model and derive the conditions under which real gases approach ideal behaviour.",
+          "modelAnswer": "The model assumes continuous random molecular motion, negligible molecular volume and intermolecular forces except during collisions, and perfectly elastic collisions. Pressure is caused by impacts on the container walls. Real gases approach ideal behaviour at low pressure and high temperature because molecules are farther apart and attractions/finite volume are less important. At high pressure or low temperature, deviations increase.",
+          "rubric": [
+            "Random motion (1)",
+            "Negligible volume (1)",
+            "Negligible forces and elastic collisions (2)",
+            "Pressure from wall collisions (1)",
+            "Low-pressure/high-temperature explanation (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ideal-gas kinetic model کی وضاحت کریں اور بتائیں کہ حقیقی گیسیں کن حالات میں ideal behaviour کے قریب ہوتی ہیں۔",
+              "modelAnswer": "ماڈل میں سالمات مسلسل بے ترتیب حرکت کرتے ہیں، ان کا حجم اور ٹکراؤ کے علاوہ باہمی قوتیں قابلِ نظر انداز ہوتی ہیں اور ٹکراؤ مکمل elastic ہوتے ہیں۔ دیواروں سے ٹکراؤ دباؤ پیدا کرتا ہے۔ کم دباؤ اور زیادہ درجہ حرارت پر سالمات دور ہوتے ہیں، اس لیے حقیقی گیس ideal behaviour کے قریب ہوتی ہے؛ زیادہ دباؤ یا کم درجہ حرارت پر انحراف بڑھتا ہے۔",
+              "rubric": [
+                "بے ترتیب حرکت (1)",
+                "حجم کا کم ہونا (1)",
+                "قوتیں اور elastic collisions (2)",
+                "دیوار سے ٹکراؤ اور دباؤ (1)",
+                "کم دباؤ/زیادہ درجہ حرارت (2)"
+              ]
+            },
+            "sd": {
+              "question": "ideal-gas kinetic model سمجهايو ۽ ٻڌايو ته حقيقي گئسون ڪهڙين حالتن ۾ ideal behaviour جي ويجهو ٿين ٿيون.",
+              "modelAnswer": "ماڊل ۾ ماليڪيول لڳاتار بي ترتيب حرڪت ڪن ٿا، انهن جو volume ۽ ٽڪراءَ کان سواءِ پاڻ ۾ قوتون نظرانداز ٿين ٿيون ۽ ٽڪراءَ مڪمل elastic آهن. ڀتين سان ٽڪراءَ pressure پيدا ڪن ٿا. گهٽ pressure ۽ وڌيڪ گرمي پد تي ماليڪيول پري هوندا آهن، تنهنڪري حقيقي گئس ideal behaviour جي ويجهو هوندي آهي؛ وڌيڪ pressure يا گهٽ گرمي پد تي انحراف وڌي ٿو.",
+              "rubric": [
+                "بي ترتيب حرڪت (1)",
+                "volume ننڍو (1)",
+                "قوتون ۽ elastic collisions (2)",
+                "ڀت سان ٽڪراءَ ۽ pressure (1)",
+                "گهٽ pressure/وڌيڪ گرمي پد (2)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 8,
+          "question": "State the first and second laws of thermodynamics. Explain the roles of heat, work, internal energy and entropy in a heat engine and refrigerator.",
+          "modelAnswer": "First law: ΔU=Q−W when W is work done by the system. Heat and work are energy transfers; internal energy is stored microscopic energy. A heat engine takes Qh, produces W and rejects Qc, so W=Qh−Qc and η=W/Qh. A refrigerator uses work to remove Qc from a cold space and rejects Qh=Qc+W; COP=Qc/W. The second law requires heat rejection and prevents 100% conversion of heat to work in a cycle. Entropy change for reversible heat transfer is ΔS=Qrev/T; total entropy increases in natural irreversible processes.",
+          "rubric": [
+            "First law and convention (2)",
+            "Heat/work/internal energy distinction (1)",
+            "Engine balance and efficiency (1)",
+            "Refrigerator balance and COP (1)",
+            "Second law limitation (2)",
+            "Entropy equation and natural-process direction (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "thermodynamics کے پہلے اور دوسرے قوانین بیان کریں۔ heat engine اور refrigerator میں heat، work، internal energy اور entropy کا کردار سمجھائیں۔",
+              "modelAnswer": "پہلا قانون ΔU=Q−W ہے جب W نظام کا کیا ہوا کام ہو۔ heat اور work توانائی کی منتقلی ہیں جبکہ internal energy خردبینی ذخیرہ شدہ توانائی ہے۔ heat engine Qh لیتا، W کام کرتا اور Qc خارج کرتا ہے: W=Qh−Qc، η=W/Qh۔ refrigerator work سے ٹھنڈی جگہ سے Qc نکالتا اور Qh=Qc+W خارج کرتا ہے؛ COP=Qc/W۔ دوسرا قانون تمام حرارت کو work میں بدلنے سے روکتا ہے۔ reversible عمل میں ΔS=Qrev/T اور قدرتی irreversible عمل میں مجموعی entropy بڑھتی ہے۔",
+              "rubric": [
+                "پہلا قانون اور convention (2)",
+                "heat/work/internal energy کا فرق (1)",
+                "engine مساوات اور efficiency (1)",
+                "refrigerator مساوات اور COP (1)",
+                "دوسرے قانون کی حد (2)",
+                "entropy مساوات اور قدرتی عمل (1)"
+              ]
+            },
+            "sd": {
+              "question": "thermodynamics جا پهريون ۽ ٻيو قانون بيان ڪريو. heat engine ۽ refrigerator ۾ heat، work، internal energy ۽ entropy جو ڪردار سمجهايو.",
+              "modelAnswer": "پهريون قانون ΔU=Q−W آهي، جڏهن W system جو ڪيل ڪم هجي. heat ۽ work توانائي جي منتقلي آهن، جڏهن ته internal energy microscopic ذخيرو ٿيل توانائي آهي. heat engine Qh وٺي، W ڪم ڪري ۽ Qc خارج ڪري ٿو: W=Qh−Qc، η=W/Qh. refrigerator work سان ٿڌي جاءِ مان Qc ڪڍي ۽ Qh=Qc+W خارج ڪري ٿو؛ COP=Qc/W. ٻيو قانون سموري گرمي کي work ۾ بدلائڻ نٿو ڏئي. reversible عمل ۾ ΔS=Qrev/T ۽ قدرتي irreversible عمل ۾ گڏيل entropy وڌي ٿي.",
+              "rubric": [
+                "پهريون قانون ۽ convention (2)",
+                "heat/work/internal energy جو فرق (1)",
+                "engine مساوات ۽ efficiency (1)",
+                "refrigerator مساوات ۽ COP (1)",
+                "ٻئي قانون جي حد (2)",
+                "entropy مساوات ۽ قدرتي عمل (1)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

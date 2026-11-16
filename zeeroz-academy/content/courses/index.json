@@ -271,6 +271,12 @@
       "title": "Physics XII — Complete Course",
       "path": "zeeroz-academy/content/courses/physics-xii-complete.json",
       "version": "4"
+    },
+    {
+      "id": "physics-xi-heat-thermodynamics",
+      "title": "Physics XI — Heat and Thermodynamics (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-heat-thermodynamics.json",
+      "version": "1"
     }
   ]
 }
