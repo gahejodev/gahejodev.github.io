@@ -29,13 +29,14 @@ function inferVideoMimeType(fileName,reportedType){
 }
 async function uploadYoutube(postId,post,button){
  button.disabled=true;button.textContent="Preparing YouTube upload…";
+ let uploadStage="checking local video";
  try{
   if(post.status!=="approved_pending_platform_setup"&&post.status!=="approved")throw new Error("Approve this post before uploading.");
   if(!post.localVideoKey)throw new Error("Attach the video in this browser first.");
   const local=await getStoredSocialVideo(post.localVideoKey);if(!local?.blob)throw new Error("Local video file is missing. Reattach it from this device.");
   const mimeType=inferVideoMimeType(local.fileName||post.localVideoName,local.blob.type);const headers=await apiHeaders(),init=await fetch(SOCIAL_PUBLISHER_URL+"/api/youtube/upload/init",{method:"POST",headers,body:JSON.stringify({title:post.title,description:post.platformCaptions?.youtube||post.description||"",mimeType,sizeBytes:local.blob.size,privacyStatus:$("youtubePrivacy")?.value||"private"})});
   const data=await init.json();if(!init.ok||!data.ok)throw new Error(data.error||"YouTube upload could not be initialized.");
-  button.textContent="Uploading video directly to YouTube…";
+  button.textContent="Uploading video directly to YouTube…";uploadStage="sending video bytes to YouTube (browser-to-Google connection)";
   await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),youtube:{status:"uploading",message:"Video is being transferred directly from this browser to YouTube."}},updatedAt:serverTimestamp()});
   const sent=await fetch(data.uploadUrl,{method:"PUT",headers:{"Content-Type":mimeType},body:local.blob});
   if(!sent.ok)throw new Error("YouTube rejected video upload (HTTP "+sent.status+").");
@@ -43,7 +44,7 @@ async function uploadYoutube(postId,post,button){
   const videoUrl="https://www.youtube.com/watch?v="+encodeURIComponent(result.id);
   await updateDoc(doc(db(),"socialPosts",postId),{status:"published",platformResults:{...(post.platformResults||{}),youtube:{status:"published",postUrl:videoUrl,platformVideoId:result.id,message:"YouTube confirmed the upload."}},updatedAt:serverTimestamp()});
   say("YouTube upload confirmed: "+videoUrl);await load();
- }catch(e){try{await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),youtube:{status:"failed",message:e.message}},updatedAt:serverTimestamp()})}catch(_){}say("YouTube upload failed: "+e.message);button.disabled=false;button.textContent="Retry YouTube upload";}
+ }catch(e){const detail=e instanceof TypeError&&e.message==="Failed to fetch"?"Network/CORS request failed while "+uploadStage+".":(e.message||String(e));try{await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),youtube:{status:"failed",message:detail}},updatedAt:serverTimestamp()})}catch(_){}say("YouTube upload failed: "+detail);button.disabled=false;button.textContent="Retry YouTube upload";}
 }
 
 function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
