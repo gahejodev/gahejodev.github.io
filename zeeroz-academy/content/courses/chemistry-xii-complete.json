@@ -1,8 +1,8 @@
 {
   "id": "chemistry-xii-complete",
   "title": "Chemistry XII — Complete Course",
-  "description": "Grade XII Chemistry study collection. Chapter 1 now includes expanded bilingual lessons, 20 explained MCQs, 6 CRQs, 3 ERQs, revision notes and an applied case study. Chapters 2–13 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
-  "version": "5",
+  "description": "Grade XII Chemistry study collection. Chapters 1–2 now contain reviewed, bilingual lessons and chapter-specific assessments aligned with the current DCAR 2024 learning outcomes where stated. Chapters 3–13 remain draft study aids under content review; package registration does not mean every unit is exam-ready.",
+  "version": "6",
   "chapters": [
     {
       "title": "Chapter 1: Chemistry of Representative Elements",
@@ -1036,547 +1036,739 @@
     },
     {
       "title": "Chapter 2: Chemistry of Outer Transition (d-Block) Elements",
-      "description": "Grade XII Chemistry chapter.",
+      "description": "Reviewed unit aligned to the Grade XII Transition Metals learning outcomes in the DCAR Sindh Chemistry Curriculum 2024 (SLOs C-12-C-16 to C-12-C-47, printed pages 72–77). Covers first-row transition elements, oxidation states, catalysis, complex ions, ligands, geometry, ligand exchange, colour, redox chemistry, stereoisomerism and stability constants. Includes bilingual lessons, a metal-ion identification case study and original assessments. The chapter title follows the STBB Chemistry XII 2023–24 book sequence; the DCAR outcomes are the current curriculum reference.",
       "lessons": [
         {
-          "title": "2.1 d-block configuration",
+          "title": "2.1 The d-block and the first transition series",
           "type": "text",
-          "content": "## d-block configuration\nd-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "## Learning outcomes\n- Locate the d-block and identify the first transition series from titanium to copper.\n- Write ground-state configurations for common first-row elements and ions.\n- Apply the strict definition of a transition element.\n- Relate metallic properties to partially filled d subshells and metallic bonding.\n\nThe d-block occupies Groups 3–12. In these elements the differentiating electron enters an (n−1)d subshell. The first transition series is commonly studied from Sc to Zn, but the DCAR Grade XII outcome specifically asks students to identify and describe the first-row elements from **Ti to Cu**. A transition element is a d-block element that forms at least one stable ion with an incomplete d subshell. This definition matters: zinc forms Zn²⁺ with 3d¹⁰, so it is not a transition element under the strict definition; copper forms Cu²⁺ with 3d⁹ and therefore qualifies, even though Cu⁺ is 3d¹⁰.\n\nMost first-row atoms have configurations close to [Ar]3dⁿ4s². Two important exceptions are chromium, [Ar]3d⁵4s¹, and copper, [Ar]3d¹⁰4s¹. When these atoms form cations, the 4s electrons are removed before 3d electrons. For example, Fe is [Ar]3d⁶4s², while Fe²⁺ is [Ar]3d⁶.\n\nTransition metals generally have high densities, high melting points, good electrical and thermal conductivity, hardness and strength. Many ions are paramagnetic because they contain unpaired d electrons. These are broad trends, not universal rules: mercury is a liquid at room temperature and some d-block elements have unusual melting points.\n\n**d-orbital shapes:** the 3d(x²−y²) orbital has four lobes directed along the x and y axes. The 3d(z²) orbital has two lobes along the z-axis and a doughnut-shaped region around the centre.\n\n**Key terms:** d-block, transition element, incomplete d subshell, first transition series, paramagnetism.\n\n**Revision check:** explain why Zn²⁺ does not meet the strict definition but Cu²⁺ does.",
           "explanations": {
-            "ur": "d-block configuration کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "sd": "d-block configuration جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
+            "ur": "## سبق کے مقاصد\n- d-block کی جگہ اور ٹائٹینیم سے کاپر تک پہلی transition series پہچانیں۔\n- پہلے سلسلے کے عام عناصر اور آئنوں کی الیکٹرانی ترتیب لکھیں۔\n- transition element کی درست تعریف استعمال کریں۔\n- نامکمل d-subshell اور دھاتی بندش کے تعلق کو سمجھیں۔\n\nd-block گروپ 3 سے 12 تک پھیلا ہوتا ہے۔ ان عناصر میں آخری امتیازی الیکٹران عموماً (n−1)d ذیلی خول میں داخل ہوتا ہے۔ پہلی transition series کو عام طور پر Sc سے Zn تک پڑھا جاتا ہے، لیکن DCAR کے جماعت XII کے مخصوص learning outcome میں ٹائٹینیم سے کاپر تک عناصر کی شناخت اور خواص شامل ہیں۔ درست تعریف کے مطابق transition element ایسا d-block عنصر ہے جو کم از کم ایک مستحکم ایسا آئن بنائے جس کے d-subshell میں الیکٹران مکمل نہ ہوں۔ زنک کا Zn²⁺ آئن 3d¹⁰ رکھتا ہے، اس لیے سخت تعریف کے مطابق زنک transition element نہیں؛ کاپر کا Cu²⁺ آئن 3d⁹ ہے، اس لیے کاپر اس تعریف پر پورا اترتا ہے۔\n\nپہلی قطار کے اکثر ایٹموں کی ترتیب [Ar]3dⁿ4s² کے قریب ہوتی ہے۔ اہم استثنا کرومیم [Ar]3d⁵4s¹ اور کاپر [Ar]3d¹⁰4s¹ ہیں۔ مثبت آئن بناتے وقت 4s کے الیکٹران پہلے نکلتے ہیں۔ مثال کے طور پر Fe کی ترتیب [Ar]3d⁶4s² جبکہ Fe²⁺ کی [Ar]3d⁶ ہے۔\n\ntransition metals عموماً زیادہ کثافت، بلند نقطۂ پگھلاؤ، اچھی برقی و حرارتی ترسیل، سختی اور مضبوطی رکھتے ہیں۔ غیر جوڑا d الیکٹران رکھنے والے بہت سے آئن paramagnetic ہوتے ہیں۔ یہ عمومی رجحانات ہیں، ہر عنصر پر یکساں لاگو نہیں ہوتے۔\n\n3d(x²−y²) orbital کے چار لوب x اور y محوروں کی سمت ہوتے ہیں۔ 3d(z²) میں دو لوب z محور کے ساتھ اور درمیان میں حلقہ نما حصہ ہوتا ہے۔\n\n**اہم اصطلاحات:** d-block، transition element، نامکمل d-subshell، پہلی transition series، paramagnetism۔\n\n**دہرائی:** Zn²⁺ سخت تعریف پر کیوں پورا نہیں اترتا جبکہ Cu²⁺ پورا اترتا ہے؟",
+            "sd": "## سبق جا مقصد\n- d-block جي جاءِ ۽ ٽائيٽينيم کان ڪاپر تائين پهرين transition series سڃاڻو.\n- پهرين سلسلي جي عام عنصرن ۽ آئنن جون اليڪٽران ترتيبون لکو.\n- transition element جي صحيح تعريف لاڳو ڪريو.\n- نامڪمل d-subshell ۽ ڌاتي بندش جو تعلق سمجهو.\n\nd-block گروپ 3 کان 12 تائين آهي. انهن عنصرن ۾ آخري فرق ڪندڙ اليڪٽران عام طور (n−1)d ذيلي خول ۾ داخل ٿئي ٿو. پهرين transition series عام طور Sc کان Zn تائين پڙهي ويندي آهي، پر DCAR جي جماعت XII واري learning outcome ۾ خاص طور ٽائيٽينيم کان ڪاپر تائين عنصرن جي سڃاڻپ ۽ خاصيتون شامل آهن. صحيح تعريف موجب transition element اهو d-block عنصر آهي جيڪو گهٽ ۾ گهٽ هڪ اهڙو مستحڪم آئن ٺاهي جنهن جي d-subshell مڪمل نه هجي. زنڪ جو Zn²⁺ آئن 3d¹⁰ آهي، تنهنڪري سخت تعريف موجب زنڪ transition element نه آهي؛ ڪاپر جو Cu²⁺ آئن 3d⁹ آهي، تنهنڪري ڪاپر ان تعريف تي پورو لهي ٿو.\n\nپهرين قطار جي گهڻن ايٽمن جي ترتيب [Ar]3dⁿ4s² جي ويجهو هوندي آهي. اهم استثنا ڪروميم [Ar]3d⁵4s¹ ۽ ڪاپر [Ar]3d¹⁰4s¹ آهن. مثبت آئن ٺهڻ وقت 4s جا اليڪٽران پهرين نڪرن ٿا. مثال طور Fe جي ترتيب [Ar]3d⁶4s² ۽ Fe²⁺ جي [Ar]3d⁶ آهي.\n\ntransition metals عام طور وڌيڪ density، اوچا melting points، سٺي برقي ۽ حرارتي چالکائي، سختي ۽ مضبوطي رکن ٿا. اڻجوڙا d اليڪٽران رکندڙ ڪيترائي آئن paramagnetic هوندا آهن. اهي عام لاڙا آهن، هر عنصر لاءِ هڪجهڙا قانون نه آهن.\n\n3d(x²−y²) orbital جا چار حصا x ۽ y محور ڏانهن هوندا آهن. 3d(z²) ۾ z محور سان ٻه حصا ۽ وچ ۾ ڇلي جهڙو حصو هوندو آهي.\n\n**اهم اصطلاح:** d-block، transition element، نامڪمل d-subshell، پهرين transition series، paramagnetism.\n\n**ورجاءُ:** Zn²⁺ سخت تعريف تي ڇو پورو نٿو لهي، جڏهن ته Cu²⁺ پورو لهي ٿو؟"
           }
         },
         {
-          "title": "2.2 variable oxidation states",
+          "title": "2.2 Variable oxidation states and electron configurations",
           "type": "text",
-          "content": "## variable oxidation states\nvariable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "## Learning outcomes\nExplain why transition metals show more than one oxidation state and connect this behaviour to the similar energies of the 3d and 4s subshells.\n\nThe 3d and 4s subshells are close in energy. Both 4s and some 3d electrons can therefore participate in bonding or be removed during ion formation. After the atom is ionised, the 4s electrons are normally removed first. This allows one element to form ions with different charges. Examples include Fe²⁺/Fe³⁺, Cu⁺/Cu²⁺ and Cr²⁺/Cr³⁺; manganese can show several oxidation states, including +2, +4 and +7.\n\nDo not confuse oxidation state with the number of d electrons. To find the oxidation state in a complex, assign the known ligand charges and make the sum equal to the overall charge. For [Fe(CN)₆]⁴⁻, six CN⁻ ligands contribute −6. If the iron oxidation state is x, then x − 6 = −4, so x = +2.\n\nVariable oxidation states support redox chemistry. An ion in a higher oxidation state can often act as an oxidising agent by gaining electrons; a lower oxidation state may act as a reducing agent by losing electrons. The actual feasibility of a reaction must be judged from suitable standard electrode potentials, not from oxidation-state labels alone.\n\n**Key terms:** oxidation state, ionisation, redox, oxidising agent, reducing agent.\n\n**Worked example:** In [Co(NH₃)₅Cl]²⁺, NH₃ is neutral and Cl is −1. Therefore x − 1 = +2 and cobalt is +3.\n\n**Revision check:** why can iron form both Fe²⁺ and Fe³⁺?",
           "explanations": {
-            "ur": "variable oxidation states کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "sd": "variable oxidation states جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
+            "ur": "3d اور 4s ذیلی خولوں کی توانائی ایک دوسرے کے قریب ہوتی ہے۔ اسی لیے 4s اور بعض 3d الیکٹران بندش میں حصہ لے سکتے ہیں یا آئن بناتے وقت نکل سکتے ہیں۔ ایٹم کے آئن بننے پر عموماً 4s الیکٹران پہلے نکلتے ہیں۔ اس وجہ سے ایک عنصر مختلف چارج والے آئن بنا سکتا ہے۔ مثالیں Fe²⁺/Fe³⁺، Cu⁺/Cu²⁺ اور Cr²⁺/Cr³⁺ ہیں؛ مینگنیز +2، +4 اور +7 سمیت کئی oxidation states دکھا سکتا ہے۔\n\noxidation state کو d الیکٹرانوں کی تعداد نہ سمجھیں۔ کمپلیکس میں آئن کی oxidation state معلوم کرنے کے لیے ligands کے معلوم چارج جمع کریں اور مجموعہ کمپلیکس کے کل چارج کے برابر رکھیں۔ [Fe(CN)₆]⁴⁻ میں چھ CN⁻ ligands کا مجموعی چارج −6 ہے۔ اگر لوہے کی oxidation state x ہو تو x−6=−4، اس لیے x=+2 ہے۔\n\nمختلف oxidation states redox reactions کو ممکن بناتی ہیں۔ بلند oxidation state والا آئن الیکٹران حاصل کر کے oxidising agent بن سکتا ہے جبکہ کم oxidation state والا آئن الیکٹران دے کر reducing agent بن سکتا ہے۔ کسی ردعمل کی حقیقتاً feasibility کا فیصلہ standard electrode potentials سے کیا جاتا ہے، صرف oxidation state کے نام سے نہیں۔\n\n**اہم اصطلاحات:** oxidation state، ionisation، redox، oxidising agent، reducing agent۔\n\n**مثال:** [Co(NH₃)₅Cl]²⁺ میں NH₃ غیر چارج شدہ اور Cl کا چارج −1 ہے۔ x−1=+2، اس لیے کوبالٹ +3 ہے۔\n\n**دہرائی:** لوہا Fe²⁺ اور Fe³⁺ دونوں کیوں بنا سکتا ہے؟",
+            "sd": "3d ۽ 4s ذيلي خولن جون توانائيون هڪ ٻئي جي ويجهو آهن. تنهنڪري 4s ۽ ڪجهه 3d اليڪٽران بندش ۾ حصو وٺي سگهن ٿا يا آئن ٺهڻ وقت نڪري سگهن ٿا. ايٽم آئن بڻجي ته عام طور 4s جا اليڪٽران پهرين نڪرن ٿا. ان ڪري هڪ عنصر مختلف چارج وارا آئن ٺاهي سگهي ٿو. مثال Fe²⁺/Fe³⁺، Cu⁺/Cu²⁺ ۽ Cr²⁺/Cr³⁺ آهن؛ مينگنيز +2، +4 ۽ +7 سميت ڪيترائي oxidation states ڏيکاري سگهي ٿو.\n\noxidation state کي d اليڪٽرانن جي تعداد سان نه ملايو. ڪمپليڪس ۾ oxidation state معلوم ڪرڻ لاءِ ligands جا معلوم چارج گڏ ڪريو ۽ مجموعو ڪمپليڪس جي ڪل چارج برابر رکو. [Fe(CN)₆]⁴⁻ ۾ ڇهن CN⁻ ligands جو گڏيل چارج −6 آهي. جيڪڏهن لوهه جي oxidation state x هجي ته x−6=−4، تنهنڪري x=+2 آهي.\n\nمختلف oxidation states redox ردعملن ۾ مدد ڪن ٿيون. وڌيڪ oxidation state وارو آئن اليڪٽران وٺي oxidising agent ٿي سگهي ٿو، جڏهن ته گهٽ oxidation state وارو آئن اليڪٽران ڏئي reducing agent ٿي سگهي ٿو. ردعمل جي حقيقتي feasibility standard electrode potentials مان طئي ڪريو، رڳو oxidation state جي نالي مان نه.\n\n**اهم اصطلاح:** oxidation state، ionisation، redox، oxidising agent، reducing agent.\n\n**مثال:** [Co(NH₃)₅Cl]²⁺ ۾ NH₃ غير چارج ٿيل ۽ Cl جو چارج −1 آهي. x−1=+2، تنهنڪري ڪوبالٽ +3 آهي.\n\n**ورجاءُ:** لوهه Fe²⁺ ۽ Fe³⁺ ٻئي ڇو ٺاهي سگهي ٿو؟"
           }
         },
         {
-          "title": "2.3 complex ions",
+          "title": "2.3 Catalytic behaviour of transition metals",
           "type": "text",
-          "content": "## complex ions\ncomplex ions: explain its structure, characteristic properties, key reactions and a relevant application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "## Learning outcomes\nExplain how variable oxidation states and accessible d orbitals help transition metals catalyse reactions; identify industrial examples.\n\nA catalyst increases the rate of a reaction by providing an alternative pathway with a lower activation energy. It is regenerated in the overall reaction and does not change the equilibrium position; it helps the system reach equilibrium faster.\n\nTransition metals and their compounds often make effective catalysts for two related reasons. First, a metal can change oxidation state during a reaction, accepting and donating electrons in intermediate steps. Second, reactants can adsorb onto a metal surface or form temporary coordinate bonds with accessible orbitals. This can bring reactants together, weaken selected bonds and stabilise intermediates. The detailed mechanism depends on the particular catalyst and reaction.\n\nExamples include finely divided iron in the Haber process for ammonia manufacture and vanadium(V) oxide, V₂O₅, in the Contact process for sulfuric acid manufacture. Nickel is used in hydrogenation of some unsaturated organic compounds. Industrial catalysts require careful control of temperature, pressure, surface area and poisoning by impurities.\n\nA catalyst is not a source of energy. It cannot make a thermodynamically unfavourable reaction spontaneous; it changes the reaction pathway and rate. A catalyst may also be selective, favouring one product pathway over another.\n\n**Key terms:** catalyst, activation energy, adsorption, intermediate, catalyst poisoning, selectivity.\n\n**Application:** a catalytic converter in a vehicle uses metal surfaces to speed up reactions that convert harmful exhaust components into less harmful products.\n\n**Revision check:** distinguish the effect of a catalyst on reaction rate from its effect on equilibrium.",
           "explanations": {
-            "ur": "complex ions کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "sd": "complex ions جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
+            "ur": "## سبق کے مقاصد\nسمجھیں کہ variable oxidation states اور قابلِ رسائی d orbitals کس طرح transition metals کو catalyst بننے میں مدد دیتے ہیں، اور صنعتی مثالیں پہچانیں۔\n\ncatalyst ردعمل کے لیے کم activation energy والا متبادل راستہ فراہم کر کے رفتار بڑھاتا ہے۔ مجموعی ردعمل میں catalyst دوبارہ حاصل ہو جاتا ہے اور equilibrium کی جگہ نہیں بدلتا؛ صرف equilibrium تک پہنچنے کی رفتار بڑھتی ہے۔\n\ntransition metals اور ان کے مرکبات اکثر مؤثر catalysts ہوتے ہیں۔ پہلی وجہ یہ ہے کہ دھات ردعمل کے دوران oxidation state بدل کر درمیانی مراحل میں الیکٹران لے یا دے سکتی ہے۔ دوسری وجہ یہ ہے کہ reactants دھات کی سطح پر adsorb ہو سکتے ہیں یا دستیاب orbitals کے ساتھ عارضی coordinate bonds بنا سکتے ہیں۔ اس سے reactants قریب آتے ہیں، بعض بند کمزور ہوتے ہیں اور درمیانی مرکبات مستحکم ہو سکتے ہیں۔ اصل طریقۂ کار ہر catalyst اور ردعمل کے مطابق مختلف ہوتا ہے۔\n\nمثالوں میں Haber process میں باریک لوہا، Contact process میں vanadium(V) oxide V₂O₅، اور بعض نامکمل نامیاتی مرکبات کی hydrogenation میں nickel شامل ہیں۔ صنعتی catalyst کے لیے درجہ حرارت، دباؤ، سطحی رقبہ اور impurities سے poisoning پر قابو ضروری ہے۔\n\ncatalyst توانائی کا ذریعہ نہیں۔ یہ thermodynamically ناموافق ردعمل کو خودبخود ممکن نہیں بناتا؛ صرف راستہ اور رفتار بدلتا ہے۔ بعض catalysts مخصوص product کو ترجیح بھی دیتے ہیں۔\n\n**اہم اصطلاحات:** catalyst، activation energy، adsorption، intermediate، catalyst poisoning، selectivity۔\n\n**اطلاق:** گاڑی کے catalytic converter میں دھاتی سطحیں نقصان دہ exhaust اجزا کو کم نقصان دہ مصنوعات میں بدلنے والے ردعمل تیز کرتی ہیں۔\n\n**دہرائی:** catalyst کے reaction rate اور equilibrium پر اثر میں فرق بیان کریں۔",
+            "sd": "## سبق جا مقصد\nسمجهو ته variable oxidation states ۽ آسانيءَ سان دستياب d orbitals transition metals کي catalyst ٿيڻ ۾ ڪيئن مدد ڏين ٿا، ۽ صنعتي مثال سڃاڻو.\n\ncatalyst گهٽ activation energy وارو متبادل رستو ڏئي ردعمل جي رفتار وڌائي ٿو. مجموعي ردعمل ۾ catalyst ٻيهر حاصل ٿئي ٿو ۽ equilibrium جي جاءِ نٿو بدلائي؛ اهو رڳو equilibrium تائين پهچڻ کي تيز ڪري ٿو.\n\ntransition metals ۽ انهن جا مرڪب اثرائتا catalysts ٿي سگهن ٿا. پهريون سبب اهو آهي ته ڌاتو ردعمل دوران oxidation state بدلائي وچولي مرحلن ۾ اليڪٽران وٺي يا ڏئي سگهي ٿي. ٻيو سبب اهو آهي ته reactants ڌاتو جي مٿاڇري تي adsorb ٿي سگهن ٿا يا دستياب orbitals سان عارضي coordinate bonds ٺاهي سگهن ٿا. ان سان reactants ويجهو اچن ٿا، ڪجهه bonds ڪمزور ٿين ٿا ۽ intermediates مستحڪم ٿي سگهن ٿا. اصل mechanism هر catalyst ۽ ردعمل تي دارومدار رکي ٿو.\n\nمثالن ۾ Haber process ۾ بارڪ لوهه، Contact process ۾ vanadium(V) oxide V₂O₅ ۽ ڪجهه نامڪمل نامياتي مرڪبن جي hydrogenation ۾ nickel شامل آهن. صنعتي catalyst لاءِ گرمي، دٻاءُ، surface area ۽ impurities سبب poisoning تي ضابطو ضروري آهي.\n\ncatalyst توانائي جو ذريعو نه آهي. اهو thermodynamically ناموافق ردعمل کي پاڻمرادو ممڪن نٿو بڻائي؛ رڳو رستو ۽ رفتار بدلائي ٿو. ڪجهه catalysts هڪ خاص product کي ترجيح ڏين ٿا.\n\n**اهم اصطلاح:** catalyst، activation energy، adsorption، intermediate، catalyst poisoning، selectivity.\n\n**استعمال:** گاڏي جي catalytic converter ۾ ڌاتي سطحون نقصانڪار exhaust اجزا کي گهٽ نقصانڪار شين ۾ بدلائيندڙ ردعمل تيز ڪن ٿيون.\n\n**ورجاءُ:** catalyst جي reaction rate ۽ equilibrium تي اثر ۾ فرق ٻڌايو."
           }
         },
         {
-          "title": "2.4 transition-metal colour",
+          "title": "2.4 Complex ions, ligands and coordinate bonding",
           "type": "text",
-          "content": "## transition-metal colour\ntransition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "## Learning outcomes\nDefine a complex and a ligand; distinguish monodentate, bidentate and polydentate ligands; calculate complex-ion charge and the metal oxidation state.\n\nA complex is a species containing a central metal atom or ion surrounded by ligands. A ligand is an ion or molecule that donates a lone pair to the metal centre, forming a coordinate (dative covalent) bond. The ligand supplies both electrons in the shared pair. A complex may be neutral or charged; a charged complex is called a complex ion.\n\nMonodentate ligands attach through one donor atom: H₂O, NH₃, Cl⁻ and CN⁻ are common examples. Bidentate ligands attach through two donor atoms. Ethane-1,2-diamine (en, H₂NCH₂CH₂NH₂) and oxalate (C₂O₄²⁻) are examples. EDTA is a polydentate ligand because it can attach through several donor atoms and form a chelate ring system.\n\nTo calculate a complex charge, add the metal oxidation state to the charges of all ligands. In [Cu(NH₃)₄]²⁺, NH₃ is neutral, so copper is +2. In [CoCl₄]²⁻, four chloride ligands contribute −4; cobalt must be +2 because x−4=−2. The coordination number counts donor atoms directly bonded to the central metal, not simply the number of ligand molecules. Thus [Co(en)₃]³⁺ has three ligand molecules but coordination number six.\n\n**Key terms:** complex, central metal ion, ligand, lone pair, coordinate bond, denticity, chelate, coordination number.\n\n**Revision check:** why does [Co(en)₃]³⁺ have coordination number six?",
           "explanations": {
-            "ur": "transition-metal colour کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "sd": "transition-metal colour جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
+            "ur": "## سبق کے مقاصد\ncomplex اور ligand کی تعریف کریں؛ monodentate، bidentate اور polydentate ligands میں فرق کریں؛ کمپلیکس کا چارج اور دھات کی oxidation state معلوم کریں۔\n\ncomplex ایسا ذرہ ہے جس میں مرکزی دھاتی ایٹم یا آئن کے گرد ligands موجود ہوتے ہیں۔ ligand ایسا آئن یا سالمہ ہے جو اپنا lone pair مرکزی دھات کو دیتا ہے اور coordinate (dative covalent) بند بناتا ہے۔ مشترک جوڑے کے دونوں الیکٹران ligand فراہم کرتا ہے۔ complex غیر چارج شدہ بھی ہو سکتا ہے اور چارج شدہ بھی؛ چارج شدہ complex کو complex ion کہتے ہیں۔\n\nmonodentate ligand ایک donor atom سے جڑتا ہے، مثلاً H₂O، NH₃، Cl⁻ اور CN⁻۔ bidentate ligand دو donor atoms سے جڑتا ہے۔ ethane-1,2-diamine (en) اور oxalate (C₂O₄²⁻) مثالیں ہیں۔ EDTA polydentate ligand ہے کیونکہ یہ کئی donor atoms کے ذریعے دھات سے جڑ کر chelate بنا سکتا ہے۔\n\nکمپلیکس کا چارج معلوم کرنے کے لیے دھات کی oxidation state اور تمام ligands کے چارج جمع کریں۔ [Cu(NH₃)₄]²⁺ میں NH₃ غیر چارج شدہ ہے، اس لیے کاپر +2 ہے۔ [CoCl₄]²⁻ میں چار chloride ligands کا مجموعی چارج −4 ہے؛ x−4=−2 سے کوبالٹ +2 نکلتا ہے۔ coordination number مرکزی دھات سے براہِ راست جڑے donor atoms کی تعداد ہے، صرف ligand molecules کی تعداد نہیں۔ [Co(en)₃]³⁺ میں تین ligand molecules ہیں مگر coordination number چھ ہے۔\n\n**اہم اصطلاحات:** complex، مرکزی دھاتی آئن، ligand، lone pair، coordinate bond، denticity، chelate، coordination number۔\n\n**دہرائی:** [Co(en)₃]³⁺ کا coordination number چھ کیوں ہے؟",
+            "sd": "## سبق جا مقصد\ncomplex ۽ ligand جي تعريف ڏيو؛ monodentate، bidentate ۽ polydentate ligands ۾ فرق ڪريو؛ ڪمپليڪس جو چارج ۽ ڌاتو جي oxidation state معلوم ڪريو.\n\ncomplex اهڙو ذرو آهي جنهن ۾ مرڪزي ڌاتي ايٽم يا آئن جي چوڌاري ligands هوندا آهن. ligand اهڙو آئن يا ماليڪيول آهي جيڪو پنهنجو lone pair مرڪزي ڌاتو کي ڏئي coordinate (dative covalent) bond ٺاهي ٿو. گڏيل جوڙي جا ٻئي اليڪٽران ligand ڏئي ٿو. complex غير چارج ٿيل يا چارج ٿيل ٿي سگهي ٿو؛ چارج ٿيل complex کي complex ion چئبو آهي.\n\nmonodentate ligand هڪ donor atom سان ڳنڍجي ٿو، مثال H₂O، NH₃، Cl⁻ ۽ CN⁻. bidentate ligand ٻن donor atoms سان ڳنڍجي ٿو. ethane-1,2-diamine (en) ۽ oxalate (C₂O₄²⁻) مثال آهن. EDTA polydentate ligand آهي، ڇاڪاڻ ته اهو ڪيترن donor atoms وسيلي ڌاتو سان ڳنڍجي chelate ٺاهي سگهي ٿو.\n\nڪمپليڪس جو چارج معلوم ڪرڻ لاءِ ڌاتو جي oxidation state ۽ سڀني ligands جا چارج گڏ ڪريو. [Cu(NH₃)₄]²⁺ ۾ NH₃ غير چارج ٿيل آهي، تنهنڪري ڪاپر +2 آهي. [CoCl₄]²⁻ ۾ چار chloride ligands جو گڏيل چارج −4 آهي؛ x−4=−2 مان ڪوبالٽ +2 نڪري ٿو. coordination number مرڪزي ڌاتو سان سڌو ڳنڍيل donor atoms جو انگ آهي، رڳو ligand ماليڪيولن جو انگ نه. [Co(en)₃]³⁺ ۾ ٽي ligand ماليڪيول آهن پر coordination number ڇهه آهي.\n\n**اهم اصطلاح:** complex، مرڪزي ڌاتي آئن، ligand، lone pair، coordinate bond، denticity، chelate، coordination number.\n\n**ورجاءُ:** [Co(en)₃]³⁺ جو coordination number ڇهه ڇو آهي؟"
           }
         },
         {
-          "title": "2.5 catalytic activity",
+          "title": "2.5 Coordination geometry and ligand exchange",
           "type": "text",
-          "content": "## catalytic activity\ncatalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "## Learning outcomes\nDescribe common coordination geometries and explain ligand exchange using copper(II) and cobalt(II) examples.\n\nThe arrangement of ligands around a metal centre depends on coordination number, metal ion, ligand size and electronic factors. Common geometries are:\n- Coordination number 2: linear, approximately 180°.\n- Coordination number 4: tetrahedral, approximately 109.5°, or square planar, approximately 90°.\n- Coordination number 6: octahedral, approximately 90° between adjacent bonds.\n\nExamples include [Ag(NH₃)₂]⁺ (linear), [CuCl₄]²⁻ (tetrahedral), many d⁸ complexes such as [PtCl₄]²⁻ (square planar), and [Co(NH₃)₆]³⁺ (octahedral). Geometry should be inferred from the stated complex and syllabus data; coordination number four does not by itself prove whether a complex is tetrahedral or square planar.\n\nLigand exchange occurs when one ligand is replaced by another. A hydrated copper(II) ion is commonly represented as [Cu(H₂O)₆]²⁺ and is pale blue. Adding a small amount of ammonia can first produce a pale-blue Cu(OH)₂ precipitate because ammonia acts as a base in water. In excess ammonia, a deep-blue ammine complex forms. Chloride ions can replace water ligands and produce a yellow/green chloride complex; the observed colour depends on concentration and equilibrium conditions.\n\nCobalt(II) provides another example: [Co(H₂O)₆]²⁺ is pink, while excess chloride can form blue [CoCl₄]²⁻. The equilibrium is affected by chloride concentration and temperature. Do not identify a solution from colour alone; use a sequence of confirmatory tests.\n\n**Key terms:** coordination geometry, linear, tetrahedral, square planar, octahedral, ligand exchange, equilibrium.\n\n**Case application:** a laboratory technician records a colour change after adding chloride solution to a cobalt(II) sample. The observation suggests ligand exchange, but a control and concentration record are needed before drawing a conclusion.\n\n**Revision check:** state one reason a colour change can accompany ligand exchange.",
           "explanations": {
-            "ur": "catalytic activity کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "sd": "catalytic activity جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
+            "ur": "## سبق کے مقاصد\nعام coordination geometries بیان کریں اور کاپر(II) اور کوبالٹ(II) کی مثالوں سے ligand exchange سمجھیں۔\n\nدھاتی مرکز کے گرد ligands کی ترتیب coordination number، دھاتی آئن، ligand کے حجم اور الیکٹرانی عوامل پر منحصر ہوتی ہے۔ عام شکلیں یہ ہیں:\n- coordination number 2: خطی، تقریباً 180°۔\n- coordination number 4: tetrahedral، تقریباً 109.5°، یا square planar، تقریباً 90°۔\n- coordination number 6: octahedral، ملحقہ بندوں کے درمیان تقریباً 90°۔\n\nمثالیں [Ag(NH₃)₂]⁺ خطی، [CuCl₄]²⁻ tetrahedral، [PtCl₄]²⁻ square planar اور [Co(NH₃)₆]³⁺ octahedral ہیں۔ صرف coordination number چار ہونے سے یہ ثابت نہیں ہوتا کہ شکل tetrahedral ہے یا square planar۔\n\nligand exchange میں ایک ligand کی جگہ دوسرا ligand آ جاتا ہے۔ hydrated copper(II) کو عموماً [Cu(H₂O)₆]²⁺ لکھتے ہیں اور اس کا رنگ ہلکا نیلا ہوتا ہے۔ تھوڑی ammonia ڈالنے پر پہلے ہلکے نیلے Cu(OH)₂ کا رسوب بن سکتا ہے کیونکہ پانی میں ammonia base کا کام کرتی ہے۔ اضافی ammonia میں گہرا نیلا ammine complex بنتا ہے۔ chloride ions پانی کے ligands کی جگہ لے کر زرد/سبز chloride complex بنا سکتے ہیں؛ اصل رنگ concentration اور equilibrium پر منحصر ہے۔\n\ncobalt(II) کی مثال میں [Co(H₂O)₆]²⁺ گلابی جبکہ اضافی chloride کے ساتھ [CoCl₄]²⁻ نیلا ہوتا ہے۔ یہ equilibrium chloride کی مقدار اور درجہ حرارت سے متاثر ہوتا ہے۔ صرف رنگ سے محلول کی شناخت نہ کریں؛ تصدیقی تجربات بھی ضروری ہیں۔\n\n**اہم اصطلاحات:** coordination geometry، linear، tetrahedral، square planar، octahedral، ligand exchange، equilibrium۔\n\n**اطلاقی مثال:** لیبارٹری میں کوبالٹ(II) کے نمونے میں chloride محلول شامل کرنے سے رنگ بدلتا ہے۔ یہ ligand exchange کی طرف اشارہ ہے، مگر نتیجہ نکالنے سے پہلے control اور concentration کا ریکارڈ ضروری ہے۔\n\n**دہرائی:** ligand exchange کے ساتھ رنگ کیوں بدل سکتا ہے؟",
+            "sd": "## سبق جا مقصد\nعام coordination geometries بيان ڪريو ۽ ڪاپر(II) ۽ ڪوبالٽ(II) جي مثالن سان ligand exchange سمجهو.\n\nڌاتي مرڪز جي چوڌاري ligands جي ترتيب coordination number، ڌاتي آئن، ligand جي سائيز ۽ اليڪٽرانن وارن سببن تي دارومدار رکي ٿي. عام شڪليون:\n- coordination number 2: سڌي، لڳ ڀڳ 180°.\n- coordination number 4: tetrahedral، لڳ ڀڳ 109.5°، يا square planar، لڳ ڀڳ 90°.\n- coordination number 6: octahedral، ويجهن bonds وچ ۾ لڳ ڀڳ 90°.\n\nمثال [Ag(NH₃)₂]⁺ سڌو، [CuCl₄]²⁻ tetrahedral، [PtCl₄]²⁻ square planar ۽ [Co(NH₃)₆]³⁺ octahedral آهي. رڳو coordination number چار هجڻ سان اهو ثابت نٿو ٿئي ته شڪل tetrahedral آهي يا square planar.\n\nligand exchange ۾ هڪ ligand جي جاءِ ٻيو ligand وٺي ٿو. hydrated copper(II) کي عام طور [Cu(H₂O)₆]²⁺ لکبو آهي ۽ ان جو رنگ هلڪو نيرو آهي. ٿوري ammonia وجهڻ سان پهرين هلڪي نيري Cu(OH)₂ جو precipitate ٺهي سگهي ٿو، ڇو ته پاڻي ۾ ammonia base طور ڪم ڪري ٿي. وڌيڪ ammonia سان گهرو نيرو ammine complex ٺهي ٿو. chloride ions پاڻي وارن ligands جي جاءِ وٺي پيلو/سائو chloride complex ٺاهي سگهن ٿا؛ ڏسڻ ۾ ايندڙ رنگ concentration ۽ equilibrium تي دارومدار رکي ٿو.\n\ncobalt(II) ۾ [Co(H₂O)₆]²⁺ گلابي ۽ وڌيڪ chloride سان [CoCl₄]²⁻ نيرو هوندو آهي. equilibrium chloride جي مقدار ۽ گرميءَ سان بدلجي ٿو. رڳو رنگ مان محلول جي سڃاڻپ نه ڪريو؛ تصديقي تجربا به ضروري آهن.\n\n**اهم اصطلاح:** coordination geometry، linear، tetrahedral، square planar، octahedral، ligand exchange، equilibrium.\n\n**اطلاق:** ليبارٽري ۾ cobalt(II) جي نموني ۾ chloride محلول وجهڻ سان رنگ بدلجي ٿو. اهو ligand exchange جو اشارو آهي، پر نتيجي کان اڳ control ۽ concentration جو رڪارڊ رکڻ گهرجي.\n\n**ورجاءُ:** ligand exchange سان رنگ ڇو بدلجي سگهي ٿو؟"
+          }
+        },
+        {
+          "title": "2.6 Colour of transition-metal complexes",
+          "type": "text",
+          "content": "## Learning outcomes\nUse d-orbital splitting to explain why many transition-metal complexes are coloured and how ligand identity affects the colour.\n\nIn an isolated gaseous ion, the five d orbitals have the same energy; they are degenerate. When ligands approach, their electric fields interact with the d orbitals and split them into groups of different energy. In an octahedral field, three lower-energy orbitals are labelled t₂g and two higher-energy orbitals e_g. In a tetrahedral field the ordering is reversed: two lower e orbitals and three higher t₂ orbitals. The energy separation is represented by ΔE.\n\nA d electron can absorb a photon whose energy matches the gap: ΔE = hν. The electron is promoted to a higher-energy d orbital. The solution appears the complementary colour to the light absorbed, because the remaining transmitted or reflected light reaches the eye. Different ligands produce different splitting energies, so the same metal ion may show different colours with different ligands.\n\nMany transition-metal complexes are coloured because they have partially filled d orbitals and allow d–d transitions. Ions with d⁰ or d¹⁰ configurations often lack such transitions and are frequently colourless, although other charge-transfer transitions can produce colour in some compounds. Therefore “all transition compounds are coloured” is not a safe rule.\n\n**Key terms:** degenerate orbitals, ligand field, splitting, ΔE, photon, d–d transition, complementary colour.\n\n**Revision check:** why can changing water ligands to ammonia ligands change the colour of a copper(II) complex?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nd-orbital splitting سے سمجھیں کہ بہت سے transition-metal complexes رنگین کیوں ہوتے ہیں اور ligand کی نوعیت رنگ کو کیسے بدلتی ہے۔\n\nآزاد گیس نما آئن میں پانچ d orbitals کی توانائی برابر ہوتی ہے؛ انہیں degenerate کہتے ہیں۔ جب ligands قریب آتے ہیں تو ان کے برقی میدان d orbitals کے ساتھ تعامل کرتے ہیں اور انہیں مختلف توانائی والے گروہوں میں تقسیم کر دیتے ہیں۔ octahedral میدان میں تین کم توانائی والے orbitals کو t₂g اور دو زیادہ توانائی والے orbitals کو e_g کہتے ہیں۔ tetrahedral میدان میں ترتیب الٹ ہوتی ہے: دو کم توانائی والے e اور تین زیادہ توانائی والے t₂ orbitals۔ توانائی کے فرق کو ΔE لکھتے ہیں۔\n\nd الیکٹران ایسا photon جذب کر سکتا ہے جس کی توانائی اس فرق کے برابر ہو: ΔE=hν۔ الیکٹران بلند توانائی والے orbital میں چلا جاتا ہے۔ محلول میں نظر آنے والا رنگ جذب شدہ رنگ کا complementary رنگ ہوتا ہے کیونکہ باقی منتقل یا منعکس روشنی آنکھ تک پہنچتی ہے۔ مختلف ligands مختلف splitting energy پیدا کرتے ہیں، اس لیے ایک ہی دھاتی آئن مختلف ligands کے ساتھ مختلف رنگ دکھا سکتا ہے۔\n\nبہت سے transition-metal complexes جزوی طور پر بھرے d orbitals اور d–d transitions کی وجہ سے رنگین ہوتے ہیں۔ d⁰ یا d¹⁰ ترتیب والے آئنوں میں عموماً ایسی منتقلی ممکن نہیں ہوتی، اس لیے وہ اکثر بے رنگ ہوتے ہیں؛ تاہم بعض مرکبات میں charge-transfer transitions رنگ پیدا کر سکتی ہیں۔ اس لیے یہ کہنا درست نہیں کہ ہر transition compound لازماً رنگین ہوتا ہے۔\n\n**اہم اصطلاحات:** degenerate orbitals، ligand field، splitting، ΔE، photon، d–d transition، complementary colour۔\n\n**دہرائی:** پانی کے ligands کو ammonia سے بدلنے پر copper(II) complex کا رنگ کیوں بدل سکتا ہے؟",
+            "sd": "## سبق جا مقصد\nd-orbital splitting ذريعي سمجهو ته ڪيترائي transition-metal complexes رنگين ڇو هوندا آهن ۽ ligand جي قسم رنگ ڪيئن بدلائي ٿي.\n\nآزاد گئس جهڙي آئن ۾ پنج d orbitals جي توانائي برابر هوندي آهي؛ انهن کي degenerate چئبو آهي. جڏهن ligands ويجهو اچن ٿا ته انهن جا برقي ميدان d orbitals سان اثر ڪن ٿا ۽ انهن کي مختلف توانائي وارن گروهن ۾ ورهائين ٿا. octahedral ميدان ۾ ٽي گهٽ توانائي وارا orbitals t₂g ۽ ٻه وڌيڪ توانائي وارا e_g سڏجن ٿا. tetrahedral ميدان ۾ ترتيب ابتڙ هوندي آهي: ٻه گهٽ توانائي وارا e ۽ ٽي وڌيڪ توانائي وارا t₂ orbitals. توانائي جو فرق ΔE سان ڏيکاربو آهي.\n\nd اليڪٽران اهڙو photon جذب ڪري سگهي ٿو جنهن جي توانائي ان فرق جي برابر هجي: ΔE=hν. اليڪٽران وڌيڪ توانائي واري orbital ڏانهن وڃي ٿو. محلول ۾ نظر ايندڙ رنگ جذب ٿيل رنگ جو complementary رنگ هوندو آهي، ڇاڪاڻ ته باقي روشني اک تائين پهچي ٿي. مختلف ligands مختلف splitting energy ڏين ٿا، تنهنڪري ساڳيو ڌاتي آئن مختلف ligands سان مختلف رنگ ڏيکاري سگهي ٿو.\n\nڪيترائي transition-metal complexes جزوي ڀريل d orbitals ۽ d–d transitions سبب رنگين آهن. d⁰ يا d¹⁰ ترتيب وارن آئنن ۾ عام طور اهڙي منتقلي نه هوندي، تنهنڪري اهي گهڻو ڪري بي رنگ هوندا آهن؛ پر ڪجهه مرڪبن ۾ charge-transfer transitions رنگ پيدا ڪري سگهن ٿيون. تنهنڪري “سڀ transition compounds رنگين آهن” صحيح عام قانون نه آهي.\n\n**اهم اصطلاح:** degenerate orbitals، ligand field، splitting، ΔE، photon، d–d transition، complementary colour.\n\n**ورجاءُ:** پاڻي وارن ligands کي ammonia سان بدلائڻ سان copper(II) complex جو رنگ ڇو بدلجي سگهي ٿو؟"
+          }
+        },
+        {
+          "title": "2.7 Redox reactions of transition-metal ions",
+          "type": "text",
+          "content": "## Learning outcomes\nUse oxidation numbers and standard electrode potentials to analyse redox reactions involving permanganate, iron(II), oxalate and copper(II).\n\nA redox reaction transfers electrons. Oxidation is loss of electrons and an increase in oxidation number; reduction is gain of electrons and a decrease in oxidation number. In acidic solution, permanganate ion, MnO₄⁻, is a strong oxidising agent and is reduced from Mn(+7) to Mn²⁺.\n\nThe balanced ionic equation with iron(II) is:\n**MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O**\nOne mole of permanganate reacts with five moles of Fe²⁺.\n\nWith oxalate, the balanced equation is:\n**2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O**\nOxalate is oxidised to carbon dioxide while MnO₄⁻ is reduced.\n\nCopper(II) ions oxidise iodide to iodine while Cu²⁺ is reduced to Cu⁺, which precipitates as CuI:\n**2Cu²⁺ + 4I⁻ → 2CuI(s) + I₂**\n\nStandard electrode potentials help predict feasibility. When values are written as reduction potentials, E°cell = E°(cathode) − E°(anode). A positive E°cell indicates a thermodynamically feasible reaction under standard conditions. It does not tell you how fast the reaction occurs.\n\n**Worked numerical:** 25.0 cm³ of 0.0200 mol dm⁻³ MnO₄⁻ contains 0.000500 mol MnO₄⁻. From the 1:5 ratio it reacts with 0.00250 mol Fe²⁺. If the Fe²⁺ sample volume is 25.0 cm³, its concentration is 0.100 mol dm⁻³.\n\n**Key terms:** oxidation, reduction, half-equation, electrode potential, cathode, anode, stoichiometry.\n\n**Revision check:** why is the mole ratio Fe²⁺:MnO₄⁻ equal to 5:1 in acid?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\noxidation numbers اور standard electrode potentials استعمال کر کے permanganate، iron(II)، oxalate اور copper(II) کے redox reactions کا تجزیہ کریں۔\n\nredox ردعمل میں الیکٹران منتقل ہوتے ہیں۔ oxidation الیکٹران کے اخراج اور oxidation number بڑھنے کو کہتے ہیں؛ reduction الیکٹران کے حصول اور oxidation number کم ہونے کو کہتے ہیں۔ تیزابی محلول میں permanganate ion MnO₄⁻ طاقتور oxidising agent ہے اور Mn(+7) سے Mn²⁺ میں reduce ہوتا ہے۔\n\niron(II) کے ساتھ متوازن ionic مساوات:\n**MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O**\nایک mole permanganate پانچ moles Fe²⁺ سے ردعمل کرتا ہے۔\n\noxalate کے ساتھ:\n**2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O**\noxalate، carbon dioxide میں oxidise ہوتا ہے جبکہ MnO₄⁻ reduce ہوتا ہے۔\n\ncopper(II) ions، iodide کو iodine میں oxidise کرتے ہیں جبکہ Cu²⁺، Cu⁺ میں reduce ہوتا ہے اور CuI کا رسوب بناتا ہے:\n**2Cu²⁺ + 4I⁻ → 2CuI(s) + I₂**\n\nstandard electrode potentials ردعمل کی feasibility بتانے میں مدد دیتے ہیں۔ reduction potentials کی صورت میں E°cell = E°(cathode) − E°(anode)۔ مثبت E°cell معیاری حالات میں thermodynamically ممکن ردعمل کی نشانی ہے؛ یہ رفتار نہیں بتاتا۔\n\n**حل شدہ عددی مثال:** 25.0 cm³، 0.0200 mol dm⁻³ MnO₄⁻ میں 0.000500 mol موجود ہیں۔ 1:5 تناسب سے یہ 0.00250 mol Fe²⁺ سے ردعمل کرے گا۔ اگر Fe²⁺ کا حجم 25.0 cm³ ہو تو اس کا ارتکاز 0.100 mol dm⁻³ ہے۔\n\n**اہم اصطلاحات:** oxidation، reduction، half-equation، electrode potential، cathode، anode، stoichiometry۔\n\n**دہرائی:** تیزابی محلول میں Fe²⁺:MnO₄⁻ کا تناسب 5:1 کیوں ہے؟",
+            "sd": "## سبق جا مقصد\noxidation numbers ۽ standard electrode potentials استعمال ڪري permanganate، iron(II)، oxalate ۽ copper(II) وارن redox ردعملن جو تجزيو ڪريو.\n\nredox ردعمل ۾ اليڪٽران منتقل ٿين ٿا. oxidation اليڪٽران وڃائڻ ۽ oxidation number وڌڻ آهي؛ reduction اليڪٽران وٺڻ ۽ oxidation number گهٽجڻ آهي. تيزابي محلول ۾ permanganate ion MnO₄⁻ طاقتور oxidising agent آهي ۽ Mn(+7) کان Mn²⁺ ۾ reduce ٿئي ٿو.\n\niron(II) سان متوازن ionic مساوات:\n**MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O**\nهڪ mole permanganate پنج moles Fe²⁺ سان ردعمل ڪري ٿو.\n\noxalate سان:\n**2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O**\noxalate، carbon dioxide ۾ oxidise ٿئي ٿو جڏهن ته MnO₄⁻ reduce ٿئي ٿو.\n\ncopper(II) ions، iodide کي iodine ۾ oxidise ڪن ٿا، جڏهن ته Cu²⁺، Cu⁺ ۾ reduce ٿئي ٿو ۽ CuI جو precipitate ٺاهي ٿو:\n**2Cu²⁺ + 4I⁻ → 2CuI(s) + I₂**\n\nstandard electrode potentials ردعمل جي feasibility ڄاڻڻ ۾ مدد ڪن ٿا. reduction potentials لاءِ E°cell = E°(cathode) − E°(anode). مثبت E°cell معياري حالتن ۾ thermodynamically ممڪن ردعمل ڏيکاري ٿو؛ اهو رفتار نٿو ٻڌائي.\n\n**حل ٿيل عددي مثال:** 25.0 cm³، 0.0200 mol dm⁻³ MnO₄⁻ ۾ 0.000500 mol آهن. 1:5 تناسب موجب اهو 0.00250 mol Fe²⁺ سان ردعمل ڪندو. جيڪڏهن Fe²⁺ جو حجم 25.0 cm³ هجي ته concentration 0.100 mol dm⁻³ آهي.\n\n**اهم اصطلاح:** oxidation، reduction، half-equation، electrode potential، cathode، anode، stoichiometry.\n\n**ورجاءُ:** تيزابي محلول ۾ Fe²⁺:MnO₄⁻ جو تناسب 5:1 ڇو آهي؟"
+          }
+        },
+        {
+          "title": "2.8 Stereoisomerism, stability constants and case study",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe geometrical and optical isomerism in complexes, define Kstab and use its expression to compare complex stability.\n\nStereoisomers have the same formula and bonding connections but differ in the three-dimensional arrangement of ligands. In square-planar complexes, cis and trans forms can occur when two identical ligands are adjacent or opposite. For example, cis-[Pt(NH₃)₂Cl₂] has the two chloride ligands next to each other, whereas the trans form has them opposite. Octahedral complexes can also show cis–trans isomerism, such as [Co(NH₃)₄(H₂O)₂]²⁺. Optical isomers are non-superimposable mirror images; [Ni(en)₃]²⁺ is a classic example. A complex's overall polarity depends on its geometry and whether ligand dipoles cancel.\n\nThe stability constant, Kstab, is the equilibrium constant for formation of a complex from its component metal ion and ligands in a specified solvent and at a specified temperature. For:\n**M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺**\n**Kstab = [[M(NH₃)₄]²⁺] / ([M²⁺][NH₃]⁴)**\nThe solvent water is not included in the expression. A larger Kstab means the equilibrium lies further towards the complex under the stated conditions. Compare constants only when temperature, solvent and standard conventions are the same.\n\n**Case study — identifying a metal-ion sample:** a student receives an unknown blue solution labelled “copper or cobalt”. They record the initial colour, divide it into labelled portions, add controlled small amounts of ammonia and chloride solution, and compare with known reference samples. A deep-blue ammine complex supports Cu(II); a pink aqua-to-blue chloride change supports Co(II). The student records concentrations, keeps a blank control and repeats observations. Colour is supporting evidence, not final proof; confirmatory tests and safe waste disposal are required. Never mix unknown reagents or dispose of metal-ion waste down a drain.\n\n**Key terms:** stereoisomerism, geometrical isomer, optical isomer, cis, trans, polarity, stability constant, Kstab, chelate.\n\n**Revision summary**\n- Partially filled d ions explain many characteristic transition-metal properties.\n- Ligands donate lone pairs; coordination number counts donor atoms.\n- Ligand field splitting helps explain complex colours.\n- Redox equations must conserve atoms and charge.\n- Kstab measures complex formation at a stated temperature and solvent.\n\n**Revision check:** write the Kstab expression for [M(NH₃)₄]²⁺ and explain why water is omitted.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\ncomplexes میں geometrical اور optical isomerism بیان کریں، Kstab کی تعریف کریں اور اس کی مساوات سے کمپلیکس کے استحکام کا موازنہ کریں۔\n\nstereoisomers کا فارمولا اور بندش کا تعلق ایک جیسا ہوتا ہے مگر ligands کی سہ جہتی ترتیب مختلف ہوتی ہے۔ square-planar کمپلیکس میں cis اور trans شکلیں بن سکتی ہیں: cis میں ایک جیسے ligands ساتھ ہوتے ہیں جبکہ trans میں ایک دوسرے کے مقابل۔ مثال کے طور پر cis-[Pt(NH₃)₂Cl₂] میں دونوں chloride ligands ساتھ ہیں اور trans شکل میں آمنے سامنے ہیں۔ octahedral کمپلیکس بھی cis–trans isomerism دکھا سکتے ہیں، مثلاً [Co(NH₃)₄(H₂O)₂]²⁺۔ optical isomers ایک دوسرے کے غیر قابلِ تطبیق آئینے کے عکس ہوتے ہیں؛ [Ni(en)₃]²⁺ معروف مثال ہے۔ کمپلیکس کی مجموعی polarity اس کی geometry اور ligand dipoles کے باہمی ختم ہونے یا نہ ہونے پر منحصر ہے۔\n\nstability constant Kstab کسی مقررہ solvent اور temperature پر دھاتی آئن اور ligands سے کمپلیکس بننے کا equilibrium constant ہے۔ مساوات:\n**M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺**\n**Kstab = [[M(NH₃)₄]²⁺] / ([M²⁺][NH₃]⁴)**\nsolvent پانی کو expression میں شامل نہیں کرتے۔ بڑا Kstab مقررہ حالات میں کمپلیکس بننے کے حق میں زیادہ equilibrium ظاہر کرتا ہے۔ constants کا موازنہ اسی temperature، solvent اور standard conventions میں کریں۔\n\n**کیس اسٹڈی — دھاتی آئن کے نمونے کی شناخت:** طالب علم کو نیلا محلول دیا جاتا ہے جس پر “copper یا cobalt” لکھا ہے۔ وہ ابتدائی رنگ درج کرتا ہے، نمونے کو الگ حصوں میں تقسیم کرتا ہے اور ammonia اور chloride محلول کی نپی تلی مقدار شامل کر کے معلوم reference samples سے موازنہ کرتا ہے۔ گہرا نیلا ammine complex Cu(II) کی تائید کرتا ہے؛ گلابی aqua complex سے نیلے chloride complex میں تبدیلی Co(II) کی تائید کرتی ہے۔ طالب علم concentration درج کرتا، blank control رکھتا اور مشاہدہ دہراتا ہے۔ رنگ صرف معاون ثبوت ہے، حتمی تصدیق نہیں۔ نامعلوم reagents نہ ملائیں اور دھاتی فضلہ نالی میں نہ بہائیں۔\n\n**اہم اصطلاحات:** stereoisomerism، geometrical isomer، optical isomer، cis، trans، polarity، stability constant، Kstab، chelate۔\n\n**دہرائی کا خلاصہ**\n- جزوی بھرے d آئن transition metals کی کئی خصوصیات کی وضاحت کرتے ہیں۔\n- ligands lone pair دیتے ہیں؛ coordination number donor atoms گنتا ہے۔\n- ligand field splitting کمپلیکس کے رنگ کی وضاحت میں مدد دیتی ہے۔\n- redox مساوات میں ایٹم اور چارج دونوں محفوظ ہونے چاہئیں۔\n- Kstab مقررہ temperature اور solvent پر کمپلیکس بننے کا پیمانہ ہے۔\n\n**دہرائی:** [M(NH₃)₄]²⁺ کے لیے Kstab expression لکھیں اور بتائیں پانی کیوں شامل نہیں ہوتا۔",
+            "sd": "## سبق جا مقصد\ncomplexes ۾ geometrical ۽ optical isomerism بيان ڪريو، Kstab جي تعريف ڏيو ۽ ان جي expression سان ڪمپليڪس جي استحڪام جو مقابلو ڪريو.\n\nstereoisomers جو فارمولو ۽ bonding connections ساڳيا هوندا آهن پر ligands جي ٽن-dimensional ترتيب مختلف هوندي آهي. square-planar ڪمپليڪس ۾ cis ۽ trans شڪليون ٺهي سگهن ٿيون: cis ۾ ساڳيا ligands ڀرسان هوندا آهن، جڏهن ته trans ۾ هڪ ٻئي جي سامهون. مثال cis-[Pt(NH₃)₂Cl₂] ۾ ٻئي chloride ligands ڀرسان آهن ۽ trans شڪل ۾ سامهون آهن. octahedral ڪمپليڪس به cis–trans isomerism ڏيکاري سگهن ٿا، مثال [Co(NH₃)₄(H₂O)₂]²⁺. optical isomers هڪ ٻئي جا اهڙا mirror images آهن جيڪي پاڻ ۾ مڪمل طور نه ٺهڪن؛ [Ni(en)₃]²⁺ مثال آهي. ڪمپليڪس جي مجموعي polarity ان جي geometry ۽ ligand dipoles جي هڪ ٻئي کي ختم ڪرڻ تي دارومدار رکي ٿي.\n\nstability constant Kstab مقرر solvent ۽ temperature تي ڌاتي آئن ۽ ligands مان ڪمپليڪس ٺهڻ جو equilibrium constant آهي. مساوات:\n**M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺**\n**Kstab = [[M(NH₃)₄]²⁺] / ([M²⁺][NH₃]⁴)**\nsolvent پاڻي کي expression ۾ شامل نه ڪبو آهي. وڏو Kstab مقرر حالتن ۾ ڪمپليڪس ٺهڻ جي وڌيڪ ترجيح ڏيکاري ٿو. constants جو مقابلو ساڳئي temperature، solvent ۽ standard conventions ۾ ڪريو.\n\n**ڪيس اسٽڊي — ڌاتي آئن جي نموني جي سڃاڻپ:** شاگرد کي نيرو محلول ڏنو وڃي ٿو جنهن تي “copper يا cobalt” لکيل آهي. هو شروعاتي رنگ لکي ٿو، نموني کي جدا حصن ۾ ورهائي ammonia ۽ chloride محلول جون ماپيل مقدارون وجهي ٿو ۽ معلوم reference samples سان ڀيٽي ٿو. گهرو نيرو ammine complex، Cu(II) جي حمايت ڪري ٿو؛ گلابي aqua complex مان نيري chloride complex ۾ تبديلي، Co(II) جي حمايت ڪري ٿي. شاگرد concentration لکي ٿو، blank control رکي ٿو ۽ مشاهدو ورجائي ٿو. رنگ رڳو مددگار ثبوت آهي، آخري تصديق نه. اڻڄاتل reagents نه ملايو ۽ ڌاتي فضلو نالي ۾ نه ڇڏيو.\n\n**اهم اصطلاح:** stereoisomerism، geometrical isomer، optical isomer، cis، trans، polarity، stability constant، Kstab، chelate.\n\n**ورجاءَ جو خلاصو**\n- جزوي ڀريل d آئن transition metals جي ڪيترين خاصيتن جي وضاحت ڪن ٿا.\n- ligands lone pair ڏين ٿا؛ coordination number donor atoms ڳڻي ٿو.\n- ligand field splitting ڪمپليڪس جي رنگ کي سمجهڻ ۾ مدد ڪري ٿي.\n- redox مساوات ۾ ايٽم ۽ چارج ٻئي محفوظ هجڻ گهرجن.\n- Kstab مقرر temperature ۽ solvent تي ڪمپليڪس ٺهڻ جو ماپو آهي.\n\n**ورجاءُ:** [M(NH₃)₄]²⁺ لاءِ Kstab expression لکو ۽ ٻڌايو ته پاڻي ڇو شامل نٿو ٿئي."
           }
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes d-block configuration?",
+          "question": "A transition element is best defined as a d-block element that:",
           "options": {
-            "A": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "forms at least one stable ion with an incomplete d subshell",
+            "B": "has a completely filled d subshell in every ion",
+            "C": "must be in Period 4",
+            "D": "forms only colourless compounds"
           },
           "correctOption": "A",
-          "explanation": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "explanation": "A transition element must form at least one stable ion with an incomplete d subshell. Zinc does not satisfy this strict definition because Zn²⁺ is 3d¹⁰.",
           "translations": {
             "ur": {
-              "question": "d-block configuration کے بارے میں درست بیان منتخب کریں۔",
+              "question": "transition element کی درست تعریف کیا ہے؟",
               "options": {
-                "A": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "کم از کم ایک مستحکم نامکمل d-subshell والا آئن بناتا ہے",
+                "B": "ہر آئن میں مکمل d-subshell رکھتا ہے",
+                "C": "لازماً دور 4 میں ہوتا ہے",
+                "D": "صرف بے رنگ مرکبات بناتا ہے"
               },
-              "explanation": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "transition element ایسا d-block عنصر ہے جو کم از کم ایک مستحکم نامکمل d-subshell والا آئن بنائے۔"
             },
             "sd": {
-              "question": "d-block configuration بابت صحيح بيان چونڊيو۔",
+              "question": "transition element جي صحيح تعريف ڪهڙي آهي؟",
               "options": {
-                "A": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "گهٽ ۾ گهٽ هڪ مستحڪم نامڪمل d-subshell وارو آئن ٺاهي ٿو",
+                "B": "هر آئن ۾ مڪمل d-subshell رکي ٿو",
+                "C": "لازمي طور Period 4 ۾ آهي",
+                "D": "رڳو بي رنگ مرڪب ٺاهي ٿو"
               },
-              "explanation": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "transition element اهو d-block عنصر آهي جيڪو گهٽ ۾ گهٽ هڪ مستحڪم نامڪمل d-subshell وارو آئن ٺاهي ٿو۔"
             }
           }
         },
         {
-          "question": "Choose the correct principle for d-block configuration.",
+          "question": "Which ion does not contain an incomplete d subshell?",
           "options": {
-            "A": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "B",
-          "explanation": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "d-block configuration کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "d-block configuration بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about d-block configuration?",
-          "options": {
-            "A": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "C",
-          "explanation": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "d-block configuration کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "d-block configuration بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes variable oxidation states?",
-          "options": {
-            "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "B",
-          "explanation": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "variable oxidation states کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "variable oxidation states بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for variable oxidation states.",
-          "options": {
-            "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "C",
-          "explanation": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "variable oxidation states کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "variable oxidation states بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about variable oxidation states?",
-          "options": {
-            "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "Ti³⁺",
+            "B": "Fe²⁺",
+            "C": "Cu²⁺",
+            "D": "Zn²⁺"
           },
           "correctOption": "D",
-          "explanation": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "explanation": "Zn²⁺ has the configuration [Ar]3d¹⁰, a completely filled d subshell.",
           "translations": {
             "ur": {
-              "question": "variable oxidation states کے بارے میں درست بیان منتخب کریں۔",
+              "question": "کون سا آئن نامکمل d-subshell نہیں رکھتا؟",
               "options": {
-                "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "Ti³⁺",
+                "B": "Fe²⁺",
+                "C": "Cu²⁺",
+                "D": "Zn²⁺"
               },
-              "explanation": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "Zn²⁺ کی ترتیب [Ar]3d¹⁰ ہے، یعنی d-subshell مکمل ہے۔"
             },
             "sd": {
-              "question": "variable oxidation states بابت صحيح بيان چونڊيو۔",
+              "question": "ڪهڙو آئن نامڪمل d-subshell نٿو رکي؟",
               "options": {
-                "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "Ti³⁺",
+                "B": "Fe²⁺",
+                "C": "Cu²⁺",
+                "D": "Zn²⁺"
               },
-              "explanation": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "Zn²⁺ جي ترتيب [Ar]3d¹⁰ آهي، يعني d-subshell مڪمل آهي۔"
             }
           }
         },
         {
-          "question": "Which statement describes complex ions?",
+          "question": "The ground-state configuration of chromium is:",
           "options": {
-            "A": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "C",
-          "explanation": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "complex ions کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "complex ions بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for complex ions.",
-          "options": {
-            "A": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "D",
-          "explanation": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "complex ions کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "complex ions بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about complex ions?",
-          "options": {
-            "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "A",
-          "explanation": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "complex ions کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "complex ions بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes transition-metal colour?",
-          "options": {
-            "A": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "D",
-          "explanation": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "transition-metal colour کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "transition-metal colour بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for transition-metal colour.",
-          "options": {
-            "A": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "A",
-          "explanation": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "transition-metal colour کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "transition-metal colour بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about transition-metal colour?",
-          "options": {
-            "A": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "[Ar]3d⁴4s²",
+            "B": "[Ar]3d⁵4s¹",
+            "C": "[Ar]3d⁶4s⁰",
+            "D": "[Ar]3d³4s³"
           },
           "correctOption": "B",
-          "explanation": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "explanation": "Chromium is an important exception; the half-filled 3d⁵ arrangement is favoured, giving [Ar]3d⁵4s¹.",
           "translations": {
             "ur": {
-              "question": "transition-metal colour کے بارے میں درست بیان منتخب کریں۔",
+              "question": "کرومیم کی ground-state ترتیب کون سی ہے؟",
               "options": {
-                "A": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "[Ar]3d⁴4s²",
+                "B": "[Ar]3d⁵4s¹",
+                "C": "[Ar]3d⁶4s⁰",
+                "D": "[Ar]3d³4s³"
               },
-              "explanation": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "کرومیم کی مستحکم ترتیب [Ar]3d⁵4s¹ ہے؛ یہ اہم استثنا ہے۔"
             },
             "sd": {
-              "question": "transition-metal colour بابت صحيح بيان چونڊيو۔",
+              "question": "ڪروميم جي ground-state ترتيب ڪهڙي آهي؟",
               "options": {
-                "A": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "[Ar]3d⁴4s²",
+                "B": "[Ar]3d⁵4s¹",
+                "C": "[Ar]3d⁶4s⁰",
+                "D": "[Ar]3d³4s³"
               },
-              "explanation": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "ڪروميم جي مستحڪم ترتيب [Ar]3d⁵4s¹ آهي؛ هي اهم استثنا آهي۔"
             }
           }
         },
         {
-          "question": "Which statement describes catalytic activity?",
+          "question": "When a first-row transition-metal atom forms a cation, which electrons are normally removed first?",
           "options": {
-            "A": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "A",
-          "explanation": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "catalytic activity کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "catalytic activity بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for catalytic activity.",
-          "options": {
-            "A": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "B",
-          "explanation": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "catalytic activity کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "catalytic activity بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about catalytic activity?",
-          "options": {
-            "A": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "3d electrons",
+            "B": "1s electrons",
+            "C": "4s electrons",
+            "D": "all electrons together"
           },
           "correctOption": "C",
-          "explanation": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "explanation": "Although 4s fills before 3d in the simple filling sequence, 4s electrons are normally removed first when these atoms form cations.",
           "translations": {
             "ur": {
-              "question": "catalytic activity کے بارے میں درست بیان منتخب کریں۔",
+              "question": "پہلی قطار کی transition دھات کا مثبت آئن بنے تو پہلے کون سے الیکٹران نکلتے ہیں؟",
               "options": {
-                "A": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "3d الیکٹران",
+                "B": "1s الیکٹران",
+                "C": "4s الیکٹران",
+                "D": "تمام الیکٹران ایک ساتھ"
               },
-              "explanation": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "مثبت آئن بناتے وقت عموماً 4s الیکٹران پہلے نکلتے ہیں۔"
             },
             "sd": {
-              "question": "catalytic activity بابت صحيح بيان چونڊيو۔",
+              "question": "پهرين قطار جي transition ڌاتو مثبت آئن ٺاهي ته پهرين ڪهڙا اليڪٽران نڪرن ٿا؟",
               "options": {
-                "A": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "3d اليڪٽران",
+                "B": "1s اليڪٽران",
+                "C": "4s اليڪٽران",
+                "D": "سڀ اليڪٽران گڏ"
               },
-              "explanation": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "مثبت آئن ٺهڻ وقت عام طور 4s اليڪٽران پهرين نڪرن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "Which pair illustrates variable oxidation states of iron?",
+          "options": {
+            "A": "Fe⁰ and Fe⁰ only",
+            "B": "Fe²⁺ and Fe³⁺",
+            "C": "Fe⁴⁻ and Fe⁵⁻",
+            "D": "Fe²⁺ and Zn²⁺"
+          },
+          "correctOption": "B",
+          "explanation": "Iron commonly forms +2 and +3 oxidation states because 3d and 4s electrons are close in energy.",
+          "translations": {
+            "ur": {
+              "question": "لوہے کی متغیر oxidation states کی درست جوڑی کون سی ہے؟",
+              "options": {
+                "A": "صرف Fe⁰ اور Fe⁰",
+                "B": "Fe²⁺ اور Fe³⁺",
+                "C": "Fe⁴⁻ اور Fe⁵⁻",
+                "D": "Fe²⁺ اور Zn²⁺"
+              },
+              "explanation": "لوہا عموماً +2 اور +3 oxidation states بناتا ہے۔"
+            },
+            "sd": {
+              "question": "لوهه جي مختلف oxidation states جي صحيح جوڙي ڪهڙي آهي؟",
+              "options": {
+                "A": "رڳو Fe⁰ ۽ Fe⁰",
+                "B": "Fe²⁺ ۽ Fe³⁺",
+                "C": "Fe⁴⁻ ۽ Fe⁵⁻",
+                "D": "Fe²⁺ ۽ Zn²⁺"
+              },
+              "explanation": "لوهه عام طور +2 ۽ +3 oxidation states ٺاهي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "The main electronic reason for variable oxidation states is that:",
+          "options": {
+            "A": "3d and 4s subshells have similar energies",
+            "B": "all d orbitals are always empty",
+            "C": "the nucleus changes charge",
+            "D": "the 1s shell is incomplete"
+          },
+          "correctOption": "A",
+          "explanation": "The small energy difference between 3d and 4s allows different numbers of these electrons to participate in bonding or ion formation.",
+          "translations": {
+            "ur": {
+              "question": "متغیر oxidation states کی بنیادی الیکٹرانی وجہ کیا ہے؟",
+              "options": {
+                "A": "3d اور 4s کی توانائیاں قریب ہیں",
+                "B": "تمام d orbitals ہمیشہ خالی ہیں",
+                "C": "نیوکلئیس کا چارج بدلتا ہے",
+                "D": "1s خول نامکمل ہے"
+              },
+              "explanation": "3d اور 4s کی توانائیاں قریب ہونے سے دونوں کے الیکٹران آئن بننے میں حصہ لے سکتے ہیں۔"
+            },
+            "sd": {
+              "question": "مختلف oxidation states جوڙڻ جو بنيادي اليڪٽرانڪ سبب ڇا آهي؟",
+              "options": {
+                "A": "3d ۽ 4s جون توانائيون ويجهيون آهن",
+                "B": "سڀ d orbitals هميشه خالي آهن",
+                "C": "nucleus جو چارج بدلجي ٿو",
+                "D": "1s خول نامڪمل آهي"
+              },
+              "explanation": "3d ۽ 4s جون ويجهيون توانائيون ٻنهي جا اليڪٽران آئن ٺهڻ ۾ حصو وٺڻ ڏين ٿيون۔"
+            }
+          }
+        },
+        {
+          "question": "Which catalyst is used in the Contact process?",
+          "options": {
+            "A": "Iron",
+            "B": "Vanadium(V) oxide",
+            "C": "Sodium chloride",
+            "D": "Copper metal"
+          },
+          "correctOption": "B",
+          "explanation": "V₂O₅ catalyses the oxidation of sulfur dioxide to sulfur trioxide in the Contact process.",
+          "translations": {
+            "ur": {
+              "question": "Contact process میں کون سا catalyst استعمال ہوتا ہے؟",
+              "options": {
+                "A": "لوہا",
+                "B": "Vanadium(V) oxide",
+                "C": "Sodium chloride",
+                "D": "تانبا"
+              },
+              "explanation": "Contact process میں V₂O₅، SO₂ کو SO₃ میں oxidise کرنے کا عمل تیز کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Contact process ۾ ڪهڙو catalyst استعمال ٿئي ٿو؟",
+              "options": {
+                "A": "لوهه",
+                "B": "Vanadium(V) oxide",
+                "C": "Sodium chloride",
+                "D": "ٽامو"
+              },
+              "explanation": "Contact process ۾ V₂O₅، SO₂ کي SO₃ ۾ oxidise ڪرڻ تيز ڪري ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "A ligand forms a coordinate bond by:",
+          "options": {
+            "A": "accepting a proton only",
+            "B": "donating a lone pair to the metal centre",
+            "C": "transferring a neutron",
+            "D": "breaking the metal nucleus"
+          },
+          "correctOption": "B",
+          "explanation": "A ligand donates a lone pair to an electron-pair acceptor at the metal centre; both bonding electrons come from the ligand.",
+          "translations": {
+            "ur": {
+              "question": "ligand coordinate bond کیسے بناتا ہے؟",
+              "options": {
+                "A": "صرف proton لے کر",
+                "B": "دھاتی مرکز کو lone pair دے کر",
+                "C": "neutron منتقل کر کے",
+                "D": "دھاتی نیوکلیس توڑ کر"
+              },
+              "explanation": "ligand اپنا lone pair دھاتی مرکز کو دیتا ہے؛ بند کے دونوں الیکٹران ligand سے آتے ہیں۔"
+            },
+            "sd": {
+              "question": "ligand coordinate bond ڪيئن ٺاهي ٿو؟",
+              "options": {
+                "A": "رڳو proton وٺي",
+                "B": "ڌاتي مرڪز کي lone pair ڏئي",
+                "C": "neutron منتقل ڪري",
+                "D": "ڌاتي nucleus ٽوڙي"
+              },
+              "explanation": "ligand پنهنجو lone pair ڌاتي مرڪز کي ڏئي ٿو؛ bond جا ٻئي اليڪٽران ligand جا هوندا آهن۔"
+            }
+          }
+        },
+        {
+          "question": "Which of the following is a bidentate ligand?",
+          "options": {
+            "A": "NH₃",
+            "B": "Cl⁻",
+            "C": "H₂O",
+            "D": "ethane-1,2-diamine (en)"
+          },
+          "correctOption": "D",
+          "explanation": "Ethane-1,2-diamine has two nitrogen donor atoms and can attach to one metal centre through both.",
+          "translations": {
+            "ur": {
+              "question": "bidentate ligand کون سا ہے؟",
+              "options": {
+                "A": "NH₃",
+                "B": "Cl⁻",
+                "C": "H₂O",
+                "D": "ethane-1,2-diamine (en)"
+              },
+              "explanation": "en میں دو nitrogen donor atoms ہوتے ہیں، اس لیے یہ دو جگہوں سے دھات کے ساتھ جڑتا ہے۔"
+            },
+            "sd": {
+              "question": "bidentate ligand ڪهڙو آهي؟",
+              "options": {
+                "A": "NH₃",
+                "B": "Cl⁻",
+                "C": "H₂O",
+                "D": "ethane-1,2-diamine (en)"
+              },
+              "explanation": "en ۾ ٻه nitrogen donor atoms آهن، تنهنڪري اهو ٻن هنڌن تان ڌاتو سان ڳنڍجي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "What is the coordination number of cobalt in [Co(NH₃)₆]³⁺?",
+          "options": {
+            "A": "2",
+            "B": "4",
+            "C": "6",
+            "D": "9"
+          },
+          "correctOption": "C",
+          "explanation": "Six monodentate NH₃ ligands each donate one lone pair, so six donor atoms are attached to cobalt.",
+          "translations": {
+            "ur": {
+              "question": "[Co(NH₃)₆]³⁺ میں کوبالٹ کا coordination number کیا ہے؟",
+              "options": {
+                "A": "2",
+                "B": "4",
+                "C": "6",
+                "D": "9"
+              },
+              "explanation": "چھ NH₃ ligands ہر ایک ایک donor atom سے جڑتے ہیں، اس لیے coordination number چھ ہے۔"
+            },
+            "sd": {
+              "question": "[Co(NH₃)₆]³⁺ ۾ ڪوبالٽ جو coordination number ڪيترو آهي؟",
+              "options": {
+                "A": "2",
+                "B": "4",
+                "C": "6",
+                "D": "9"
+              },
+              "explanation": "ڇهه NH₃ ligands هر هڪ donor atom سان ڳنڍجن ٿا، تنهنڪري coordination number ڇهه آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The usual geometry of [CuCl₄]²⁻ is:",
+          "options": {
+            "A": "linear",
+            "B": "tetrahedral",
+            "C": "octahedral",
+            "D": "trigonal planar"
+          },
+          "correctOption": "B",
+          "explanation": "The four-coordinate tetrachlorocuprate(II) ion is commonly tetrahedral.",
+          "translations": {
+            "ur": {
+              "question": "[CuCl₄]²⁻ کی عام geometry کیا ہے؟",
+              "options": {
+                "A": "خطی",
+                "B": "tetrahedral",
+                "C": "octahedral",
+                "D": "trigonal planar"
+              },
+              "explanation": "چار-coordinate [CuCl₄]²⁻ آئن کی عام شکل tetrahedral ہے۔"
+            },
+            "sd": {
+              "question": "[CuCl₄]²⁻ جي عام geometry ڪهڙي آهي؟",
+              "options": {
+                "A": "سڌي",
+                "B": "tetrahedral",
+                "C": "octahedral",
+                "D": "trigonal planar"
+              },
+              "explanation": "چار-coordinate [CuCl₄]²⁻ آئن جي عام شڪل tetrahedral آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The ideal bond angle between adjacent ligands in an octahedral complex is:",
+          "options": {
+            "A": "60°",
+            "B": "90°",
+            "C": "109.5°",
+            "D": "180°"
+          },
+          "correctOption": "B",
+          "explanation": "Adjacent positions in an ideal octahedral arrangement are separated by 90°; opposite ligands are 180° apart.",
+          "translations": {
+            "ur": {
+              "question": "octahedral کمپلیکس میں ملحقہ ligands کا مثالی زاویہ کیا ہے؟",
+              "options": {
+                "A": "60°",
+                "B": "90°",
+                "C": "109.5°",
+                "D": "180°"
+              },
+              "explanation": "octahedral شکل میں ملحقہ ligands کے درمیان زاویہ 90° ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "octahedral ڪمپليڪس ۾ ويجهن ligands جو مثالي زاويه ڪيترو آهي؟",
+              "options": {
+                "A": "60°",
+                "B": "90°",
+                "C": "109.5°",
+                "D": "180°"
+              },
+              "explanation": "octahedral شڪل ۾ ويجهن ligands وچ ۾ زاويه 90° هوندو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The pale-blue aqueous copper(II) complex is commonly represented as:",
+          "options": {
+            "A": "[Cu(H₂O)₆]²⁺",
+            "B": "[CuCl₄]²⁻",
+            "C": "[Cu(NH₃)₄]²⁺",
+            "D": "[Cu(CN)₄]³⁻"
+          },
+          "correctOption": "A",
+          "explanation": "The hydrated copper(II) ion [Cu(H₂O)₆]²⁺ is pale blue in aqueous solution.",
+          "translations": {
+            "ur": {
+              "question": "پانی میں copper(II) کا ہلکا نیلا کمپلیکس کون سا ہے؟",
+              "options": {
+                "A": "[Cu(H₂O)₆]²⁺",
+                "B": "[CuCl₄]²⁻",
+                "C": "[Cu(NH₃)₄]²⁺",
+                "D": "[Cu(CN)₄]³⁻"
+              },
+              "explanation": "آبی محلول میں hydrated copper(II) ion [Cu(H₂O)₆]²⁺ ہلکا نیلا ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "پاڻي ۾ copper(II) جو هلڪو نيرو ڪمپليڪس ڪهڙو آهي؟",
+              "options": {
+                "A": "[Cu(H₂O)₆]²⁺",
+                "B": "[CuCl₄]²⁻",
+                "C": "[Cu(NH₃)₄]²⁺",
+                "D": "[Cu(CN)₄]³⁻"
+              },
+              "explanation": "آبي محلول ۾ hydrated copper(II) ion [Cu(H₂O)₆]²⁺ هلڪو نيرو هوندو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Adding excess ammonia to a suitable Cu(II) aqua solution produces a characteristic:",
+          "options": {
+            "A": "deep-blue ammine complex",
+            "B": "black metallic copper",
+            "C": "colourless gas",
+            "D": "white zinc precipitate"
+          },
+          "correctOption": "A",
+          "explanation": "In excess NH₃, ligand exchange produces a deep-blue copper(II) ammine complex. A small amount may first give Cu(OH)₂ precipitate.",
+          "translations": {
+            "ur": {
+              "question": "Cu(II) کے آبی محلول میں اضافی ammonia ملانے سے کیا بنتا ہے؟",
+              "options": {
+                "A": "گہرا نیلا ammine complex",
+                "B": "سیاہ دھاتی تانبا",
+                "C": "بے رنگ گیس",
+                "D": "سفید zinc رسوب"
+              },
+              "explanation": "اضافی NH₃ میں گہرا نیلا copper(II) ammine complex بنتا ہے؛ تھوڑی مقدار پہلے Cu(OH)₂ کا رسوب دے سکتی ہے۔"
+            },
+            "sd": {
+              "question": "Cu(II) جي آبي محلول ۾ وڌيڪ ammonia وجهڻ سان ڇا ٺهي ٿو؟",
+              "options": {
+                "A": "گهرو نيرو ammine complex",
+                "B": "ڪارو ڌاتي ٽامو",
+                "C": "بي رنگ گئس",
+                "D": "اڇو zinc precipitate"
+              },
+              "explanation": "وڌيڪ NH₃ سان گهرو نيرو copper(II) ammine complex ٺهي ٿو؛ ٿوري مقدار پهرين Cu(OH)₂ جو precipitate ڏئي سگهي ٿي۔"
+            }
+          }
+        },
+        {
+          "question": "In an octahedral ligand field, which set of d orbitals is higher in energy?",
+          "options": {
+            "A": "t₂g",
+            "B": "e_g",
+            "C": "both sets remain degenerate",
+            "D": "the 1s orbital"
+          },
+          "correctOption": "B",
+          "explanation": "In the octahedral model, the two e_g orbitals point more directly towards ligands and are higher in energy than the three t₂g orbitals.",
+          "translations": {
+            "ur": {
+              "question": "octahedral ligand field میں کون سا d-orbital set زیادہ توانائی رکھتا ہے؟",
+              "options": {
+                "A": "t₂g",
+                "B": "e_g",
+                "C": "دونوں برابر رہتے ہیں",
+                "D": "1s orbital"
+              },
+              "explanation": "octahedral میدان میں دو e_g orbitals کی توانائی تین t₂g orbitals سے زیادہ ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "octahedral ligand field ۾ ڪهڙو d-orbital set وڌيڪ توانائي رکي ٿو؟",
+              "options": {
+                "A": "t₂g",
+                "B": "e_g",
+                "C": "ٻئي برابر رهن ٿا",
+                "D": "1s orbital"
+              },
+              "explanation": "octahedral ميدان ۾ ٻن e_g orbitals جي توانائي ٽن t₂g orbitals کان وڌيڪ هوندي آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The energy of a photon absorbed in a d–d transition is:",
+          "options": {
+            "A": "ΔE = hν",
+            "B": "ΔE = mc² only",
+            "C": "ΔE = IR",
+            "D": "ΔE = pV"
+          },
+          "correctOption": "A",
+          "explanation": "The photon energy hν must match the energy gap ΔE between the split d-orbital levels.",
+          "translations": {
+            "ur": {
+              "question": "d–d transition میں جذب شدہ photon کی توانائی کا تعلق کیا ہے؟",
+              "options": {
+                "A": "ΔE = hν",
+                "B": "ΔE = mc² only",
+                "C": "ΔE = IR",
+                "D": "ΔE = pV"
+              },
+              "explanation": "جذب شدہ photon کی توانائی d-orbitals کے فرق ΔE کے برابر ہوتی ہے: ΔE=hν۔"
+            },
+            "sd": {
+              "question": "d–d transition ۾ جذب ٿيل photon جي توانائي جو تعلق ڇا آهي؟",
+              "options": {
+                "A": "ΔE = hν",
+                "B": "ΔE = mc² only",
+                "C": "ΔE = IR",
+                "D": "ΔE = pV"
+              },
+              "explanation": "جذب ٿيل photon جي توانائي d-orbitals جي فرق ΔE برابر هوندي آهي: ΔE=hν۔"
+            }
+          }
+        },
+        {
+          "question": "In acidic solution, one mole of MnO₄⁻ reacts with how many moles of Fe²⁺?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "5",
+            "D": "8"
+          },
+          "correctOption": "C",
+          "explanation": "The balanced equation contains 1 MnO₄⁻ for every 5 Fe²⁺: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O.",
+          "translations": {
+            "ur": {
+              "question": "تیزابی محلول میں ایک mole MnO₄⁻ کتنے moles Fe²⁺ سے ردعمل کرتا ہے؟",
+              "options": {
+                "A": "1",
+                "B": "2",
+                "C": "5",
+                "D": "8"
+              },
+              "explanation": "متوازن مساوات میں ایک MnO₄⁻ کے مقابلے میں پانچ Fe²⁺ ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "تيزابي محلول ۾ هڪ mole MnO₄⁻ ڪيترا moles Fe²⁺ سان ردعمل ڪري ٿو؟",
+              "options": {
+                "A": "1",
+                "B": "2",
+                "C": "5",
+                "D": "8"
+              },
+              "explanation": "متوازن مساوات ۾ هڪ MnO₄⁻ جي مقابلي ۾ پنج Fe²⁺ هوندا آهن۔"
+            }
+          }
+        },
+        {
+          "question": "If standard reduction potentials are used, E°cell is calculated as:",
+          "options": {
+            "A": "E°anode − E°cathode",
+            "B": "E°cathode − E°anode",
+            "C": "E°cathode + E°anode + 10",
+            "D": "the product of both potentials"
+          },
+          "correctOption": "B",
+          "explanation": "Using tabulated reduction potentials, subtract the anode reduction potential from the cathode reduction potential.",
+          "translations": {
+            "ur": {
+              "question": "standard reduction potentials سے E°cell کیسے نکالتے ہیں؟",
+              "options": {
+                "A": "E°anode − E°cathode",
+                "B": "E°cathode − E°anode",
+                "C": "E°cathode + E°anode + 10",
+                "D": "دونوں potentials کا حاصل ضرب"
+              },
+              "explanation": "reduction potentials استعمال کرتے ہوئے cathode potential میں سے anode potential منفی کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "standard reduction potentials مان E°cell ڪيئن ڪڍبو آهي؟",
+              "options": {
+                "A": "E°anode − E°cathode",
+                "B": "E°cathode − E°anode",
+                "C": "E°cathode + E°anode + 10",
+                "D": "ٻنهي potentials جو حاصل ضرب"
+              },
+              "explanation": "reduction potentials ۾ cathode potential مان anode potential گهٽائبو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Which pair is a geometrical cis–trans example?",
+          "options": {
+            "A": "[Pt(NH₃)₂Cl₂] forms cis and trans arrangements",
+            "B": "[Ag(NH₃)₂]⁺ only",
+            "C": "[Zn(H₂O)₆]²⁺ only",
+            "D": "NaCl crystal only"
+          },
+          "correctOption": "A",
+          "explanation": "Square-planar [Pt(NH₃)₂Cl₂] can place the two chloride ligands adjacent (cis) or opposite (trans).",
+          "translations": {
+            "ur": {
+              "question": "cis–trans geometrical isomerism کی مثال کون سی ہے؟",
+              "options": {
+                "A": "[Pt(NH₃)₂Cl₂] کی cis اور trans ترتیب",
+                "B": "صرف [Ag(NH₃)₂]⁺",
+                "C": "صرف [Zn(H₂O)₆]²⁺",
+                "D": "صرف NaCl crystal"
+              },
+              "explanation": "square-planar [Pt(NH₃)₂Cl₂] میں chloride ligands ساتھ یا ایک دوسرے کے مقابل ہو سکتے ہیں۔"
+            },
+            "sd": {
+              "question": "cis–trans geometrical isomerism جو مثال ڪهڙي آهي؟",
+              "options": {
+                "A": "[Pt(NH₃)₂Cl₂] جون cis ۽ trans ترتيبون",
+                "B": "رڳو [Ag(NH₃)₂]⁺",
+                "C": "رڳو [Zn(H₂O)₆]²⁺",
+                "D": "رڳو NaCl crystal"
+              },
+              "explanation": "square-planar [Pt(NH₃)₂Cl₂] ۾ chloride ligands ڀرسان يا هڪ ٻئي جي سامهون ٿي سگهن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "For M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺, the Kstab expression is:",
+          "options": {
+            "A": "[M²⁺][NH₃]⁴ / [[M(NH₃)₄]²⁺]",
+            "B": "[[M(NH₃)₄]²⁺] / ([M²⁺][NH₃]⁴)",
+            "C": "[[M(NH₃)₄]²⁺] × [H₂O]",
+            "D": "[NH₃] / [M²⁺]"
+          },
+          "correctOption": "B",
+          "explanation": "The equilibrium expression is product concentration divided by reactant concentrations raised to their stoichiometric powers; solvent water is omitted.",
+          "translations": {
+            "ur": {
+              "question": "اس equilibrium کے لیے Kstab expression کون سا ہے؟",
+              "options": {
+                "A": "[M²⁺][NH₃]⁴ / [[M(NH₃)₄]²⁺]",
+                "B": "[[M(NH₃)₄]²⁺] / ([M²⁺][NH₃]⁴)",
+                "C": "[[M(NH₃)₄]²⁺] × [H₂O]",
+                "D": "[NH₃] / [M²⁺]"
+              },
+              "explanation": "Kstab میں complex کی concentration کو دھاتی آئن اور NH₃ کی طاقتوں والی concentrations سے تقسیم کرتے ہیں؛ solvent پانی شامل نہیں ہوتا۔"
+            },
+            "sd": {
+              "question": "هن equilibrium لاءِ Kstab expression ڪهڙو آهي؟",
+              "options": {
+                "A": "[M²⁺][NH₃]⁴ / [[M(NH₃)₄]²⁺]",
+                "B": "[[M(NH₃)₄]²⁺] / ([M²⁺][NH₃]⁴)",
+                "C": "[[M(NH₃)₄]²⁺] × [H₂O]",
+                "D": "[NH₃] / [M²⁺]"
+              },
+              "explanation": "Kstab ۾ complex جي concentration کي ڌاتي آئن ۽ NH₃ جي powers واري concentrations سان ورهايو ويندو آهي؛ solvent پاڻي شامل نه ٿيندو۔"
             }
           }
         }
@@ -1584,161 +1776,261 @@
       "writtenQuestions": [
         {
           "type": "crq",
-          "marks": 3,
-          "question": "Define d-block configuration and give one example.",
-          "modelAnswer": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
+          "marks": 4,
+          "question": "Define a transition element and explain why zinc is excluded but copper is included under the strict definition.",
+          "modelAnswer": "A transition element is a d-block element that forms at least one stable ion with an incomplete d subshell. Zn forms Zn²⁺ with 3d¹⁰, so its common stable ion has a complete d subshell and zinc is excluded. Cu forms Cu²⁺ with 3d⁹, so copper is included.",
+          "rubric": "Definition (1); Zn²⁺ configuration and conclusion (1); Cu²⁺ configuration and conclusion (2).",
           "translations": {
             "ur": {
-              "question": "d-block configuration کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "transition element کی تعریف دیں اور سخت تعریف کے مطابق زنک کو خارج جبکہ کاپر کو شامل کرنے کی وجہ بیان کریں۔",
+              "modelAnswer": "transition element ایسا d-block عنصر ہے جو کم از کم ایک مستحکم نامکمل d-subshell والا آئن بنائے۔ Zn²⁺ کی ترتیب 3d¹⁰ ہے، اس لیے اس کا عام مستحکم آئن مکمل d-subshell رکھتا ہے اور زنک خارج ہے۔ Cu²⁺ کی ترتیب 3d⁹ ہے، اس لیے کاپر شامل ہے۔",
               "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "درست تعریف (1)",
+                "Zn²⁺ کی ترتیب اور نتیجہ (1)",
+                "Cu²⁺ کی ترتیب اور نتیجہ (2)"
               ]
             },
             "sd": {
-              "question": "d-block configuration جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "d-block configuration: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "transition element جي تعريف ڏيو ۽ سخت تعريف موجب زنڪ کي خارج ۽ ڪاپر کي شامل ڪرڻ جو سبب ٻڌايو.",
+              "modelAnswer": "transition element اهو d-block عنصر آهي جيڪو گهٽ ۾ گهٽ هڪ مستحڪم نامڪمل d-subshell وارو آئن ٺاهي. Zn²⁺ جي ترتيب 3d¹⁰ آهي، تنهنڪري ان جو عام مستحڪم آئن مڪمل d-subshell رکي ٿو ۽ زنڪ خارج آهي. Cu²⁺ جي ترتيب 3d⁹ آهي، تنهنڪري ڪاپر شامل آهي.",
               "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "صحيح تعريف (1)",
+                "Zn²⁺ جي ترتيب ۽ نتيجو (1)",
+                "Cu²⁺ جي ترتيب ۽ نتيجو (2)"
               ]
             }
           }
         },
         {
           "type": "crq",
-          "marks": 3,
-          "question": "Define complex ions and give one example.",
-          "modelAnswer": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
+          "marks": 4,
+          "question": "Calculate the oxidation state of cobalt in [Co(NH₃)₅Cl]²⁺ and state the charge of each ligand type.",
+          "modelAnswer": "NH₃ is neutral (charge 0) and Cl⁻ has charge −1. Let cobalt be x: x + 5(0) − 1 = +2, so x = +3. Cobalt is in oxidation state +3.",
+          "rubric": "NH₃ neutral identified (1); chloride charge identified (1); correct charge equation (1); cobalt +3 (1).",
           "translations": {
             "ur": {
-              "question": "complex ions کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "[Co(NH₃)₅Cl]²⁺ میں کوبالٹ کی oxidation state معلوم کریں اور ہر ligand کی charge بتائیں۔",
+              "modelAnswer": "NH₃ غیر چارج شدہ ہے (چارج 0) جبکہ Cl⁻ کا چارج −1 ہے۔ کوبالٹ کو x مانیں: x+5(0)−1=+2، لہٰذا x=+3 ہے۔ کوبالٹ کی oxidation state +3 ہے۔",
               "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "NH₃ کا صفر چارج (1)",
+                "Cl⁻ کا −1 چارج (1)",
+                "درست مساوات (1)",
+                "کوبالٹ +3 (1)"
               ]
             },
             "sd": {
-              "question": "complex ions جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "complex ions: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "[Co(NH₃)₅Cl]²⁺ ۾ ڪوبالٽ جي oxidation state معلوم ڪريو ۽ هر ligand جو چارج ٻڌايو.",
+              "modelAnswer": "NH₃ غير چارج ٿيل آهي (چارج 0) ۽ Cl⁻ جو چارج −1 آهي. ڪوبالٽ کي x وٺون: x+5(0)−1=+2، تنهنڪري x=+3. ڪوبالٽ جي oxidation state +3 آهي.",
               "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "NH₃ جو صفر چارج (1)",
+                "Cl⁻ جو −1 چارج (1)",
+                "صحيح مساوات (1)",
+                "ڪوبالٽ +3 (1)"
               ]
             }
           }
         },
         {
           "type": "crq",
-          "marks": 3,
-          "question": "Define catalytic activity and give one example.",
-          "modelAnswer": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
+          "marks": 4,
+          "question": "Explain the difference between monodentate and bidentate ligands. Give one example of each and state the coordination number of [Co(en)₃]³⁺.",
+          "modelAnswer": "A monodentate ligand attaches through one donor atom; NH₃ is an example. A bidentate ligand attaches through two donor atoms; ethane-1,2-diamine (en) is an example. Each of the three en ligands donates through two nitrogen atoms, so the coordination number is 3 × 2 = 6.",
+          "rubric": "Monodentate meaning/example (1); bidentate meaning/example (1); donor-atom count for en (1); coordination number 6 (1).",
           "translations": {
             "ur": {
-              "question": "catalytic activity کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "monodentate اور bidentate ligands میں فرق بیان کریں، ہر ایک کی مثال دیں اور [Co(en)₃]³⁺ کا coordination number بتائیں۔",
+              "modelAnswer": "monodentate ligand ایک donor atom سے جڑتا ہے، مثلاً NH₃۔ bidentate ligand دو donor atoms سے جڑتا ہے، مثلاً ethane-1,2-diamine (en)۔ تینوں en ligands دو دو nitrogen atoms سے جڑتے ہیں، اس لیے coordination number 3×2=6 ہے۔",
+              "rubric": [
+                "monodentate کی تعریف اور مثال (1)",
+                "bidentate کی تعریف اور مثال (1)",
+                "en کے donor atoms کی گنتی (1)",
+                "coordination number 6 (1)"
+              ]
+            },
+            "sd": {
+              "question": "monodentate ۽ bidentate ligands ۾ فرق ٻڌايو، هر هڪ جو مثال ڏيو ۽ [Co(en)₃]³⁺ جو coordination number ٻڌايو.",
+              "modelAnswer": "monodentate ligand هڪ donor atom سان ڳنڍجي ٿو، مثال NH₃. bidentate ligand ٻن donor atoms سان ڳنڍجي ٿو، مثال ethane-1,2-diamine (en). ٽيئي en ligands ٻه ٻه nitrogen atoms سان ڳنڍجن ٿا، تنهنڪري coordination number 3×2=6 آهي.",
+              "rubric": [
+                "monodentate جي تعريف ۽ مثال (1)",
+                "bidentate جي تعريف ۽ مثال (1)",
+                "en جي donor atoms جي ڳڻپ (1)",
+                "coordination number 6 (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "State the geometry and approximate bond angle for tetrahedral and octahedral complexes. Give one example of each.",
+          "modelAnswer": "A tetrahedral complex has four donor atoms arranged around the metal with angles about 109.5°; [CuCl₄]²⁻ is an example. An octahedral complex has six donor atoms, with adjacent bond angles about 90°; [Co(NH₃)₆]³⁺ is an example.",
+          "rubric": "Tetrahedral geometry (1); 109.5° and example (1); octahedral geometry (1); 90° and example (1).",
+          "translations": {
+            "ur": {
+              "question": "tetrahedral اور octahedral complexes کی شکل اور تقریباً bond angle لکھیں۔ ہر ایک کی ایک مثال دیں۔",
+              "modelAnswer": "tetrahedral complex میں چار donor atoms دھات کے گرد تقریباً 109.5° زاویوں پر ہوتے ہیں؛ [CuCl₄]²⁻ مثال ہے۔ octahedral complex میں چھ donor atoms ہوتے ہیں اور ملحقہ bond angle تقریباً 90° ہوتا ہے؛ [Co(NH₃)₆]³⁺ مثال ہے۔",
+              "rubric": [
+                "tetrahedral شکل (1)",
+                "109.5° اور مثال (1)",
+                "octahedral شکل (1)",
+                "90° اور مثال (1)"
+              ]
+            },
+            "sd": {
+              "question": "tetrahedral ۽ octahedral complexes جي شڪل ۽ لڳ ڀڳ bond angle لکو. هر هڪ جو مثال ڏيو.",
+              "modelAnswer": "tetrahedral complex ۾ چار donor atoms ڌاتو جي چوڌاري لڳ ڀڳ 109.5° تي هوندا آهن؛ [CuCl₄]²⁻ مثال آهي. octahedral complex ۾ ڇهه donor atoms هوندا آهن ۽ ويجهن bond جو زاويه لڳ ڀڳ 90° هوندو آهي؛ [Co(NH₃)₆]³⁺ مثال آهي.",
+              "rubric": [
+                "tetrahedral شڪل (1)",
+                "109.5° ۽ مثال (1)",
+                "octahedral شڪل (1)",
+                "90° ۽ مثال (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Write the balanced ionic equation for the reaction of permanganate with iron(II) ions in acidic solution. Identify the species oxidised and reduced.",
+          "modelAnswer": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. Fe²⁺ is oxidised to Fe³⁺ (loss of one electron per iron ion). Mn in MnO₄⁻ is reduced from +7 to +2.",
+          "rubric": "Correct balanced equation (3); Fe²⁺ oxidation identified (1); Mn(+7) reduction to Mn(+2) identified (1).",
+          "translations": {
+            "ur": {
+              "question": "تیزابی محلول میں permanganate اور iron(II) کے ردعمل کی متوازن ionic مساوات لکھیں۔ oxidised اور reduced ہونے والی species بتائیں۔",
+              "modelAnswer": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O۔ Fe²⁺، Fe³⁺ میں oxidise ہوتا ہے۔ MnO₄⁻ میں Mn کی oxidation state +7 سے +2 ہو کر reduce ہوتی ہے۔",
+              "rubric": [
+                "متوازن مساوات (3)",
+                "Fe²⁺ کی oxidation (1)",
+                "Mn کی +7 سے +2 reduction (1)"
+              ]
+            },
+            "sd": {
+              "question": "تيزابي محلول ۾ permanganate ۽ iron(II) جي ردعمل جي متوازن ionic مساوات لکو. oxidised ۽ reduced species سڃاڻو.",
+              "modelAnswer": "MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. Fe²⁺، Fe³⁺ ۾ oxidise ٿئي ٿو. MnO₄⁻ ۾ Mn جي oxidation state +7 کان +2 ٿي reduce ٿئي ٿي.",
+              "rubric": [
+                "متوازن مساوات (3)",
+                "Fe²⁺ جي oxidation (1)",
+                "Mn جي +7 کان +2 reduction (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Define Kstab and write its expression for M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺. Explain what a large value indicates.",
+          "modelAnswer": "Kstab is the equilibrium constant for complex-ion formation under specified conditions. Kstab = [[M(NH₃)₄]²⁺] / ([M²⁺][NH₃]⁴). A large value means the equilibrium strongly favours the complex ion; water as solvent is omitted.",
+          "rubric": "Definition (1); correct numerator (1); correct denominator and power (1); interpretation (1).",
+          "translations": {
+            "ur": {
+              "question": "Kstab کی تعریف دیں اور M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺ کے لیے expression لکھیں۔ بڑی قدر کیا ظاہر کرتی ہے؟",
+              "modelAnswer": "Kstab مقررہ حالات میں complex ion بننے کا equilibrium constant ہے۔ Kstab = [[M(NH₃)₄]²⁺] / ([M²⁺][NH₃]⁴)۔ بڑی قدر ظاہر کرتی ہے کہ equilibrium کمپلیکس آئن بننے کے حق میں ہے؛ solvent پانی کو شامل نہیں کرتے۔",
               "rubric": [
                 "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "درست numerator (1)",
+                "درست denominator اور power (1)",
+                "تشریح (1)"
               ]
             },
             "sd": {
-              "question": "catalytic activity جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "catalytic activity: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "Kstab جي تعريف ڏيو ۽ M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺ لاءِ expression لکو. وڏي قدر ڇا ڏيکاري ٿي؟",
+              "modelAnswer": "Kstab مقرر حالتن ۾ complex ion ٺهڻ جو equilibrium constant آهي. Kstab = [[M(NH₃)₄]²⁺] / ([M²⁺][NH₃]⁴). وڏي قدر ڏيکاري ٿي ته equilibrium ڪمپليڪس آئن ٺهڻ جي حق ۾ آهي؛ solvent پاڻي شامل نه ٿيندو.",
               "rubric": [
                 "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "صحيح numerator (1)",
+                "صحيح denominator ۽ power (1)",
+                "وضاحت (1)"
               ]
             }
           }
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain variable oxidation states with its principle, features and applications.",
-          "modelAnswer": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
+          "marks": 7,
+          "question": "Explain four characteristic properties of first-row transition elements and relate each to their electronic structure. Include one exception or qualification.",
+          "modelAnswer": "First-row transition elements generally show: (1) variable oxidation states because 3d and 4s energies are similar, allowing different numbers of electrons to participate; (2) coloured ions because partially filled d orbitals split in ligand fields and absorb visible photons; (3) complex formation because metal ions accept lone pairs from ligands into accessible orbitals; (4) catalytic activity because variable oxidation states and surface/coordinate interactions provide alternative reaction pathways. They are often hard, dense, conductive metals with high melting points due to strong metallic bonding. These are trends, not universal rules: Zn²⁺ is d¹⁰ and does not meet the strict transition-element definition; not every complex is coloured, and physical properties vary across the series.",
+          "rubric": "Variable oxidation states and energy explanation (2); colour and d-splitting (2); complex formation/ligand donation (1); catalytic behaviour (1); accurate qualification/example (1).",
           "translations": {
             "ur": {
-              "question": "variable oxidation states کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "پہلی قطار کے transition elements کی چار خصوصیات بیان کریں اور ہر ایک کو الیکٹرانی ساخت سے جوڑیں۔ ایک استثنا یا وضاحت بھی شامل کریں۔",
+              "modelAnswer": "پہلی قطار کے transition elements عموماً یہ خصوصیات دکھاتے ہیں: (1) متغیر oxidation states، کیونکہ 3d اور 4s کی توانائیاں قریب ہیں اور مختلف تعداد میں الیکٹران حصہ لے سکتے ہیں؛ (2) رنگین آئن، کیونکہ جزوی بھرے d orbitals ligand field میں split ہوتے اور نظر آنے والی روشنی جذب کرتے ہیں؛ (3) complexes کی تشکیل، کیونکہ دھاتی آئن ligands کے lone pairs قبول کرتے ہیں؛ (4) catalytic activity، کیونکہ متغیر oxidation states اور سطحی/coordinate تعامل متبادل راستے فراہم کرتے ہیں۔ یہ دھاتیں اکثر سخت، کثیف، اچھی conductor اور بلند melting points رکھتی ہیں۔ یہ عمومی رجحانات ہیں، ہر جگہ لاگو نہیں: Zn²⁺ کی ترتیب d¹⁰ ہے اور سخت تعریف کے مطابق transition element نہیں؛ ہر complex رنگین نہیں ہوتا۔",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
+                "متغیر oxidation states اور توانائی کی وضاحت (2)",
+                "رنگ اور d-splitting (2)",
+                "complex formation اور ligand donation (1)",
+                "catalytic behaviour (1)",
+                "درست استثنا یا وضاحت (1)"
               ]
             },
             "sd": {
-              "question": "variable oxidation states جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "variable oxidation states: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "پهرين قطار جي transition elements جون چار خاصيتون بيان ڪريو ۽ هر هڪ کي اليڪٽران ترتيب سان ڳنڍيو. هڪ استثنا يا وضاحت به ڏيو.",
+              "modelAnswer": "پهرين قطار جا transition elements عام طور: (1) مختلف oxidation states ڏيکارين ٿا، ڇو ته 3d ۽ 4s جون توانائيون ويجهيون آهن؛ (2) رنگين آئن ٺاهين ٿا، ڇو ته جزوي ڀريل d orbitals ligand field ۾ split ٿي روشني جذب ڪن ٿا؛ (3) complexes ٺاهين ٿا، ڇو ته ڌاتي آئن ligands جا lone pairs قبول ڪن ٿا؛ (4) catalyst طور ڪم ڪن ٿا، ڇو ته مختلف oxidation states ۽ سطح/coordinate interactions متبادل رستا ڏين ٿا. اهي ڌاتون اڪثر سخت، گهڻي density، سٺي conductor ۽ اوچا melting points رکن ٿيون. اهي عام لاڙا آهن، هر حالت ۾ نه: Zn²⁺ d¹⁰ آهي ۽ سخت تعريف موجب transition element نه آهي؛ هر complex رنگين ناهي.",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
+                "مختلف oxidation states ۽ توانائي جي وضاحت (2)",
+                "رنگ ۽ d-splitting (2)",
+                "complex formation ۽ ligand donation (1)",
+                "catalytic رويو (1)",
+                "صحيح استثنا يا وضاحت (1)"
               ]
             }
           }
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain transition-metal colour with its principle, features and applications.",
-          "modelAnswer": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
+          "marks": 8,
+          "question": "A 25.0 cm³ sample of Fe²⁺ solution is titrated with 0.0200 mol dm⁻³ acidified MnO₄⁻. The mean titre is 25.0 cm³. Write the equation, calculate the amount of MnO₄⁻ used, then calculate the concentration of Fe²⁺.",
+          "modelAnswer": "Balanced equation: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. Moles MnO₄⁻ = cV = 0.0200 × 0.0250 = 5.00 × 10⁻⁴ mol. Ratio MnO₄⁻:Fe²⁺ = 1:5, so moles Fe²⁺ = 2.50 × 10⁻³ mol. Volume Fe²⁺ = 0.0250 dm³. Concentration = n/V = 0.00250/0.0250 = 0.100 mol dm⁻³.",
+          "rubric": "Balanced equation (3); correct volume conversion and moles MnO₄⁻ (2); 1:5 mole ratio (1); moles Fe²⁺ (1); final concentration with unit (1).",
           "translations": {
             "ur": {
-              "question": "transition-metal colour کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "25.0 cm³ محلول Fe²⁺ کو 0.0200 mol dm⁻³ تیزابی MnO₄⁻ سے titrate کیا گیا۔ اوسط titre 25.0 cm³ ہے۔ مساوات لکھیں، استعمال شدہ MnO₄⁻ کے moles اور پھر Fe²⁺ کا ارتکاز معلوم کریں۔",
+              "modelAnswer": "متوازن مساوات: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O۔ MnO₄⁻ کے moles = cV = 0.0200×0.0250 = 5.00×10⁻⁴ mol۔ تناسب MnO₄⁻:Fe²⁺ = 1:5، اس لیے Fe²⁺ کے moles = 2.50×10⁻³ mol۔ Fe²⁺ کا حجم 0.0250 dm³ ہے۔ ارتکاز = n/V = 0.00250/0.0250 = 0.100 mol dm⁻³۔",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
+                "متوازن مساوات (3)",
+                "حجم کی درست تبدیلی اور MnO₄⁻ کے moles (2)",
+                "1:5 تناسب (1)",
+                "Fe²⁺ کے moles (1)",
+                "اکائی کے ساتھ حتمی ارتکاز (1)"
               ]
             },
             "sd": {
-              "question": "transition-metal colour جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "transition-metal colour: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "25.0 cm³ Fe²⁺ محلول کي 0.0200 mol dm⁻³ تيزابي MnO₄⁻ سان titrate ڪيو ويو. سراسري titre 25.0 cm³ آهي. مساوات لکو، استعمال ٿيل MnO₄⁻ جا moles ۽ پوءِ Fe²⁺ جي concentration ڪڍو.",
+              "modelAnswer": "متوازن مساوات: MnO₄⁻ + 5Fe²⁺ + 8H⁺ → Mn²⁺ + 5Fe³⁺ + 4H₂O. MnO₄⁻ جا moles = cV = 0.0200×0.0250 = 5.00×10⁻⁴ mol. تناسب MnO₄⁻:Fe²⁺ = 1:5، تنهنڪري Fe²⁺ جا moles = 2.50×10⁻³ mol. Fe²⁺ جو حجم 0.0250 dm³ آهي. concentration = n/V = 0.00250/0.0250 = 0.100 mol dm⁻³.",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
+                "متوازن مساوات (3)",
+                "حجم جي صحيح تبديلي ۽ MnO₄⁻ جا moles (2)",
+                "1:5 تناسب (1)",
+                "Fe²⁺ جا moles (1)",
+                "unit سان آخري concentration (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 7,
+          "question": "Discuss geometrical and optical isomerism in transition-metal complexes. Explain how Kstab can be used to compare complex formation and give the expression for M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺.",
+          "modelAnswer": "Geometrical isomerism occurs when ligands occupy different positions, for example cis and trans [Pt(NH₃)₂Cl₂]. Optical isomers are non-superimposable mirror images; [Ni(en)₃]²⁺ can show optical isomerism because the bidentate ligands create a chiral arrangement. Kstab is the equilibrium constant for complex formation under specified conditions. For M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺, Kstab = [[M(NH₃)₄]²⁺]/([M²⁺][NH₃]⁴). A larger Kstab indicates a greater equilibrium preference for the complex under the same temperature and solvent. Water is omitted because it is the solvent.",
+          "rubric": "Geometrical isomerism and example (2); optical isomerism and example (2); Kstab definition/expression (2); interpretation and solvent omission (1).",
+          "translations": {
+            "ur": {
+              "question": "transition-metal complexes میں geometrical اور optical isomerism بیان کریں۔ Kstab سے complex formation کا موازنہ کیسے کیا جاتا ہے؟ M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺ کی expression بھی دیں۔",
+              "modelAnswer": "geometrical isomerism اس وقت ہوتی ہے جب ligands مختلف جگہوں پر ہوں، مثلاً cis اور trans [Pt(NH₃)₂Cl₂]۔ optical isomers ایک دوسرے کے غیر قابلِ تطبیق آئینے کے عکس ہوتے ہیں؛ [Ni(en)₃]²⁺ میں bidentate ligands کی ترتیب chiral ہو سکتی ہے۔ Kstab مقررہ حالات میں complex formation کا equilibrium constant ہے۔ اس ردعمل کے لیے Kstab = [[M(NH₃)₄]²⁺]/([M²⁺][NH₃]⁴)۔ ایک ہی temperature اور solvent میں بڑی Kstab کمپلیکس بننے کے زیادہ رجحان کو ظاہر کرتی ہے۔ پانی solvent ہونے کی وجہ سے expression میں شامل نہیں ہوتا۔",
+              "rubric": [
+                "geometrical isomerism اور مثال (2)",
+                "optical isomerism اور مثال (2)",
+                "Kstab کی تعریف اور expression (2)",
+                "تشریح اور solvent کا اخراج (1)"
+              ]
+            },
+            "sd": {
+              "question": "transition-metal complexes ۾ geometrical ۽ optical isomerism بيان ڪريو. Kstab سان complex formation جو مقابلو ڪيئن ڪبو؟ M²⁺ + 4NH₃ ⇌ [M(NH₃)₄]²⁺ جو expression به ڏيو.",
+              "modelAnswer": "geometrical isomerism تڏهن ٿئي ٿي جڏهن ligands مختلف هنڌن تي هجن، مثال cis ۽ trans [Pt(NH₃)₂Cl₂]. optical isomers هڪ ٻئي جا اهڙا mirror images آهن جيڪي مڪمل نه ٺهڪن؛ [Ni(en)₃]²⁺ ۾ bidentate ligands جي ترتيب chiral ٿي سگهي ٿي. Kstab مقرر حالتن ۾ complex formation جو equilibrium constant آهي. هن ردعمل لاءِ Kstab = [[M(NH₃)₄]²⁺]/([M²⁺][NH₃]⁴). ساڳئي temperature ۽ solvent ۾ وڏي Kstab ڪمپليڪس ٺهڻ جي وڌيڪ ترجيح ڏيکاري ٿي. پاڻي solvent هجڻ سبب expression ۾ شامل نه ٿيندو.",
+              "rubric": [
+                "geometrical isomerism ۽ مثال (2)",
+                "optical isomerism ۽ مثال (2)",
+                "Kstab جي تعريف ۽ expression (2)",
+                "وضاحت ۽ solvent کي خارج ڪرڻ (1)"
               ]
             }
           }
@@ -9584,5 +9876,5 @@
       "note": "Official free digital textbook catalogue."
     }
   ],
-  "curriculumAlignmentNote": "Chapter titles/order follow the STBB Chemistry XII 2023–24 textbook sequence. The 2024 DCAR curriculum is an outcomes-based progression grid rather than a chapter-by-chapter contents list; this package does not claim a full one-to-one mapping of every textbook section to every 2024 SLO. Chapter 1 is the reviewed bilingual unit in this release."
+  "curriculumAlignmentNote": "Chapter headings/order follow the STBB Chemistry XII 2023–24 textbook listing. The 2024 DCAR Chemistry document is an outcomes-based progression grid, not a chapter-by-chapter textbook contents list. Chapter 1 was reviewed against representative-element outcomes; Chapter 2 is now mapped specifically to Grade XII Transition Metals SLOs C-12-C-16 through C-12-C-47 (printed pages 72–77). Chapters 3–13 remain draft until separately reconciled and authored. Do not interpret the entire legacy chapter sequence as a one-to-one mapping to the 2024 grid."
 }
