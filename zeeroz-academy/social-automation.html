@@ -42,10 +42,7 @@
 <p class="hint">Secure Cloudflare Worker for account authorization and publishing status. Video files are not uploaded to or stored by this backend.</p>
 <p id="backendHealth" class="status" role="status" aria-live="polite">Checking backend…</p>
 <p id="backendDetails" class="hint">YouTube, Facebook and TikTok connections will appear here after their official OAuth apps are configured. Instagram remains manual until a no-storage upload route is verified.</p>
-<div class="grid">
-<div><label for="youtubePrivacy">YouTube upload visibility</label><select id="youtubePrivacy"><option value="private">Private (test first)</option><option value="unlisted">Unlisted</option><option value="public">Public</option></select></div>
-<div style="align-self:end"><button class="btn" id="connectYoutube" type="button">Connect YouTube account</button><button class="btn secondary" id="checkBackend" type="button">Check backend connection</button></div>
-</div>
+<button class="btn secondary" id="checkBackend" type="button">Check backend connection</button>
 </section>
 <section class="card">
 <h2>Create a video post</h2>
