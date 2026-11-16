@@ -34,7 +34,8 @@ async function inferVideoMimeType(fileName,reportedType,blob){
   }
   if(b[0]===0x1a&&b[1]===0x45&&b[2]===0xdf&&b[3]===0xa3)return "video/webm";
  }
- throw new Error("Video format could not be identified. Please attach an MP4, MOV or WebM file.");
+ if(typeof reportedType==="string"&&(/^video\/[a-z0-9.+-]+$/i.test(reportedType)||reportedType==="application/octet-stream"))return reportedType;
+ return "application/octet-stream";
 }
 async function uploadYoutube(postId,post,button){
  button.disabled=true;button.textContent="Preparing YouTube upload…";
