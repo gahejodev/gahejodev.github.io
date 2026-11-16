@@ -1,48 +1,642 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "Initial catalogue — awaiting first scheduled refresh",
-  "description": "Official Sindh education source entry points. Automated refresh will discover and index resource titles and links.",
+  "generatedAt": "2026-11-16T11:57:01.114885+00:00",
+  "description": "Metadata-only index of public official Sindh education resource links. Open each source and verify the current syllabus/version before use.",
   "pages": [
     {
       "label": "Sindh Textbook Board eBooks",
       "kind": "textbooks",
       "url": "https://ebooks.stbb.edu.pk/",
-      "page_title": "Free textbooks for ECCE/Katchi to Class XII in Sindhi, Urdu and English",
-      "status": "official source"
+      "page_title": "Home - STBB eBooks",
+      "status": "ok"
     },
     {
       "label": "DCAR official downloads",
       "kind": "curriculum",
       "url": "https://www.dcar.gos.pk/Other_Download.html",
-      "page_title": "Schemes of studies, curriculum frameworks and learning outcomes",
-      "status": "official source"
+      "page_title": "Download Other Material",
+      "status": "ok"
     },
     {
       "label": "DCAR Sindh",
       "kind": "official",
       "url": "https://dcar.gos.pk/",
-      "page_title": "Directorate of Curriculum, Assessment and Research Sindh",
-      "status": "official source"
+      "page_title": "Directorate of Curriculum, Assessment & Research Sindh and Jamshoro. Right Social Media Sidebar Popup Banner",
+      "status": "ok"
     }
   ],
   "resources": [
     {
-      "title": "Sindh Textbook Board — Free eBooks (Classes IX–XII)",
-      "url": "https://ebooks.stbb.edu.pk/",
-      "source": "Sindh Textbook Board eBooks",
-      "kind": "textbooks"
+      "title": "Annual Report 2024-25",
+      "url": "https://www.dcar.gos.pk/other_notifications/DCAR Report 2024-25 Corrected.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
     },
     {
-      "title": "DCAR — Official downloads and schemes of studies",
+      "title": "Curriculum Review Committees",
+      "url": "https://www.dcar.gos.pk/PRC_Notifications.html",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Curriculum Review Reports",
+      "url": "https://www.dcar.gos.pk/Addendum.html",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Scheme of Studies Grade ECCE-XII 06 February 2024 Re-Notify.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Bid Doc.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Cyber Security Advisory.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Career Education Framework.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/DRAFT Comprehensive Textbook Evaluation Rating Scale-2025.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/ECCE Syllabus.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Expenditure-2019-20.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Expenditure-2020-21.pdf.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Expenditure-2021-22.pdf.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Expenditure-2022-23.pdf.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Gender-Inclusive Checklist -2025.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Inclusive Education Curriculum Final 10 Nov 2026.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Arabic Grade 4-5-6-7-8-2026.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Computer Science 6-7-8-2026.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/English Grade 4-5-6-7-8-2026.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Islamiat Grade 4-5-6-7-8-2026.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Maths Grade 4-5-6-7-8-2026.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Religious Studies 4-5-6-7-8-2026.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Science Grade 4-5-6-7-8-2026.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Sindhi Grade 4-5-6-7-8-2026.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Social Studies 4-5-6-7-8-2026.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Urdu Grade 4-5-6-7-8.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Arabic Grade 6-7-8.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Computer Science Grade 6-7.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/English Grade 4-5-6-7-8.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Islamiat Grade 4-5-6-7-8.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Mathematics Grade 4-5-6-7-8.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Religious Studies Grade 6-7-8.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Science Grade 4-5-6-7-8.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Sindhi Grade 4-5-6-7-8.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Social Studies Grade 4-5-6-7-8.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/All Model Papers G-5 and 8.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Newsletter-05 December 2023.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Notification of Curriculum- 2018-11-02 14.05.22.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Notification of SESLOAF Implmentation Policy.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Notification for Constitute Provincial Review Committees Sep-2018.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Notification Curriculum Counsil.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Advisory Committee Notification.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/SELECT NOC for Review Material  Grade-1&2.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/National Education Policy.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/notifications/proactive disclosure of information under section-6 and section-7 of the sindh tranparenty and right to information act,2016.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Scheme of Studies for Primary  Grades (2018).pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Notification for approve scheme of studies  VI to VIII.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Scheme of Studies VI-VIII.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Scheme of Studies for Grade IX-X 2020-2021.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Scheme of Studies and bifurcation of the subjects (Humanities Group) for Class IX and X.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Scheme of Studies XI & XII.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/CIF-Sindh Implementation Curriculum Framework.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Textbook and Learning Materials Policy.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/SESLOAF.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Scheme of Studies.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/SLOs Grade I to V.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/SLOs Grade VI To VIII.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Teaching Licence Policy 2023.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Download",
+      "url": "https://www.dcar.gos.pk/other_notifications/Curriculum ACT 2014.pdf",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "National Curriculum",
+      "url": "https://www.dcar.gos.pk/National Curriculum.html",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Other_Download.html",
       "url": "https://www.dcar.gos.pk/Other_Download.html",
       "source": "DCAR official downloads",
       "kind": "curriculum"
     },
     {
-      "title": "DCAR — Sindh curriculum and assessment",
+      "title": "Sindh Curriculum",
+      "url": "https://www.dcar.gos.pk/Sindh Curriculum.html",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Textbook Review Committees",
+      "url": "https://www.dcar.gos.pk/TRC_Notifications.html",
+      "source": "DCAR official downloads",
+      "kind": "curriculum"
+    },
+    {
+      "title": "Annual Report 2024-25",
+      "url": "https://dcar.gos.pk/other_notifications/DCAR Report 2024-25 Corrected.pdf",
+      "source": "DCAR Sindh",
+      "kind": "official"
+    },
+    {
+      "title": "Curriculum Review Committees",
+      "url": "https://dcar.gos.pk/PRC_Notifications.html",
+      "source": "DCAR Sindh",
+      "kind": "official"
+    },
+    {
+      "title": "Curriculum Review Directorate review developed Curriculum & National Curriculum",
+      "url": "https://dcar.gos.pk/Addendum.html",
+      "source": "DCAR Sindh",
+      "kind": "official"
+    },
+    {
+      "title": "Download",
       "url": "https://dcar.gos.pk/",
       "source": "DCAR Sindh",
       "kind": "official"
+    },
+    {
+      "title": "Grade I-XII 2025",
+      "url": "https://dcar.gos.pk/other_notifications/Scheme of Studies Grade ECCE-XII 06 February 2024 Re-Notify.pdf",
+      "source": "DCAR Sindh",
+      "kind": "official"
+    },
+    {
+      "title": "More Detail",
+      "url": "https://dcar.gos.pk/CV/Dr_Zulfiqar_Behan_CV_2026.pdf",
+      "source": "DCAR Sindh",
+      "kind": "official"
+    },
+    {
+      "title": "National Curriculum National Curriculum 2006 and above from Ministry of Education.",
+      "url": "https://dcar.gos.pk/National Curriculum.html",
+      "source": "DCAR Sindh",
+      "kind": "official"
+    },
+    {
+      "title": "Others",
+      "url": "https://dcar.gos.pk/Other_Download.html",
+      "source": "DCAR Sindh",
+      "kind": "official"
+    },
+    {
+      "title": "Sindh Curriculum Curriculum Developed by this Directorate.",
+      "url": "https://dcar.gos.pk/Sindh Curriculum.html",
+      "source": "DCAR Sindh",
+      "kind": "official"
+    },
+    {
+      "title": "Textbook Review Committee Notified by SE&LD, Government of Sindh",
+      "url": "https://dcar.gos.pk/Textbook Review Committee.html",
+      "source": "DCAR Sindh",
+      "kind": "official"
+    },
+    {
+      "title": "Textbook Review Committees",
+      "url": "https://dcar.gos.pk/TRC_Notifications.html",
+      "source": "DCAR Sindh",
+      "kind": "official"
+    },
+    {
+      "title": "All Mediums",
+      "url": "https://portal.stbb.edu.pk/ebooks/index.php",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "STBB eBooks Portal",
+      "url": "http://www.ebooks.stbb.edu.pk/",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "🎒 Class VIII 20 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=9",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "🎓 Class XI 9 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=14",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "🏫 Class X 16 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=11",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📒 Class VI 26 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=7",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📓 Class IV 17 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=5",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📔 Class V 17 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=6",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📕 Class III 15 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=4",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 Class VII 23 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=8",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 English Computer Education VII • 2026",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=317",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 English Computer Education VIII • 2026",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=322",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 English Computer Science XI XI • 2026-27",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=324",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 English Islamiyat VII VII • 2022-23",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=261",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 Sindhi Computer Ji Taleem - VI VI • 2025-26",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=289",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 Sindhi Computer Ji Taleem VII • 2026",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=319",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 Sindhi Riazi II Sindhi II • 2025-26",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=280",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 Sindhi Riazi Sindh IV IV • 2024-25",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=278",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 Sindhi Riazi Sindhi VI VI • 2024-25",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=270",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 Sindhi Riazi V V • 2024-25",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=268",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 Sindhi Salees Urdu XI • 2026",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=323",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 Sindhi Sindhi Reader VI • 2026",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=318",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 Urdu Asan Sindhi IX-X X • 2026",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=316",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📖 Urdu Computer Ki Taleem VII • 2026",
+      "url": "https://portal.stbb.edu.pk/ebooks/book.php?id=320",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📗 Class ECCE / KACHI 2 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=17",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📘 Class I 9 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=1",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📙 Class II 9 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=3",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "📚 Class IX 23 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=10",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
+    },
+    {
+      "title": "🔬 Class XII 6 books",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=15",
+      "source": "Sindh Textbook Board eBooks",
+      "kind": "textbooks"
     }
   ],
   "errors": [],
