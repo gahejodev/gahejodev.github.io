@@ -10,11 +10,11 @@
 <header class="top"><strong>ZEEROZ ACADEMY · SOCIAL CONTROL CENTER</strong><a href="./admin.html" style="color:#fff">← Admin Console</a></header>
 <main class="wrap">
 <h1>Social Media Content Queue</h1>
-<p class="hint">Create and review video-post records for YouTube, Facebook, Instagram and TikTok. This first release safely manages drafts and approvals; it does not claim a post is published until each platform's official API connection is configured and confirms success.</p>
-<div class="warn"><strong>Publishing connection status:</strong> Platform OAuth/API credentials are not connected yet. Approving a post records your instruction. Direct upload will be enabled after each platform's official account authorization and upload integration are connected.</div>
+<p class="hint">Create and review video-post records for YouTube, Facebook, Instagram and TikTok. Facebook Page Reels can now upload directly from this browser after you connect your Page; the system reports success only after Facebook confirms publishing.</p>
+<div class="warn"><strong>Publishing connection status:</strong> Connect each platform account below. Facebook Reels direct upload is implemented; YouTube upload is also available after its account connection. Other platforms remain disabled until their supported publishing routes are completed.</div>
 <section class="card" id="developerConnections">
 <h2>Developer Connections Setup</h2>
-<p class="hint">Yahan se official developer portals khol kar app setup shuru kar sakte hain. Filhal kisi platform ka account connected nahi hai. Ye setup guide hai — buttons abhi OAuth connect ya video publish nahi karte.</p>
+<p class="hint">Yahan se official platform accounts connect karein. Facebook Page connection uses the Meta OAuth callback already configured in your app. Publishing buttons appear on approved video drafts.</p>
 <div class="grid">
 <div class="post">
 <h3>Google / YouTube</h3><span class="tag">Not connected</span>
@@ -25,8 +25,8 @@
 <div class="post">
 <h3>Facebook + Instagram</h3><span class="tag" id="statusFacebook">Not connected</span>
 <p class="hint">Meta app, Facebook Page access aur Instagram Professional account ki authorization chahiye. Instagram publishing ke liye supported professional account zaroori hai.</p>
-<a class="btn" href="https://developers.facebook.com/apps/" target="_blank" rel="noopener">Open Meta for Developers</a><button class="btn secondary" id="connectFacebook" type="button">Connect Facebook Page</button><p class="hint">OAuth callback: https://zeeroz-social-publisher.gahejoqasimk.workers.dev/oauth/facebook/callback. Add this exact URL in your Meta app settings. Required permissions: pages_show_list, pages_read_engagement, pages_manage_posts.</p>
-<p class="hint">Agla qadam: Meta developer account mein app create karein. Facebook Page aur Instagram Professional account access confirm karein. Redirect URI / permissions abhi set na karein; exact configuration integration backend ke baad milegi.</p>
+<a class="btn" href="https://developers.facebook.com/apps/" target="_blank" rel="noopener">Open Meta for Developers</a><button class="btn secondary" id="connectFacebook" type="button">Connect Facebook Page</button><p class="hint">OAuth callback: https://zeeroz-social-publisher.gahejoqasimk.workers.dev/oauth/facebook/callback. Add this exact URL in your Meta app settings. Required permissions: pages_show_list, pages_read_engagement, pages_manage_posts. These are requested automatically when you press Connect Facebook Page.</p>
+<p class="hint">Facebook Reels upload is now supported: approve a post, attach a local video, then use “Upload Facebook Reel”. The video transfers from this browser directly to Facebook; the Cloudflare Worker only initializes and finalizes the upload and does not store the video. Instagram publishing is separate and currently requires a publicly accessible video URL, so local-only videos cannot be sent to Instagram without a hosting location.</p>
 </div>
 <div class="post">
 <h3>TikTok</h3><span class="tag" id="statusTiktok">Not connected</span>
