@@ -38,7 +38,7 @@ async function uploadYoutube(postId,post,button){
   const data=await init.json();if(!init.ok||!data.ok)throw new Error(data.error||"YouTube upload could not be initialized.");
   button.textContent="Uploading video directly to YouTube…";uploadStage="sending video bytes to YouTube (browser-to-Google connection)";
   await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),youtube:{status:"uploading",message:"Video is being transferred directly from this browser to YouTube."}},updatedAt:serverTimestamp()});
-  const sent=await fetch(data.uploadUrl,{method:"PUT",headers:{"Content-Type":mimeType},body:local.blob});
+  const sent=await fetch(data.uploadUrl,{method:"PUT",headers:{"Authorization":"Bearer "+data.accessToken,"Content-Type":mimeType},body:local.blob});
   if(!sent.ok)throw new Error("YouTube rejected video upload (HTTP "+sent.status+").");
   const result=await sent.json();if(!result.id)throw new Error("YouTube upload returned no video ID.");
   const videoUrl="https://www.youtube.com/watch?v="+encodeURIComponent(result.id);
