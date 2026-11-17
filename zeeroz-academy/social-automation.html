@@ -35,13 +35,13 @@
 <p class="hint">Agla qadam: developer account/app create karein aur Content Posting API documentation dekhein. App review aur redirect configuration integration endpoint milne ke baad complete hogi.</p>
 </div>
 </div>
-<div class="warn"><strong>Important:</strong> Abhi kisi ka password, client secret ya access token website/chat mein paste na karein. Video file cloud par save nahi hogi. YouTube/Facebook/TikTok ke direct upload flows platform APIs ke mutabiq implement honge; Instagram ka documented publishing flow video URL maang sakta hai, is liye zero-intermediary-storage requirement ko us platform par pehle technically verify karna hoga. Developer app banana/approval platform owner ke account se hi hoga.</div>
+<div class="warn"><strong>Important:</strong> Abhi kisi ka password, client secret ya access token website/chat mein paste na karein. Video file cloud par save nahi hogi. Facebook Reels aur YouTube ke direct upload flows available hain after account authorization. Facebook upload ke baad processing status alag se verify hoga. TikTok publishing abhi pending hai. Instagram ka documented publishing flow public video URL maangta hai, is liye local-only video ke liye abhi publishing available nahi. Developer app banana/approval platform owner ke account se hi hoga.</div>
 </section>
 <section class="card" id="publishingBackend">
 <h2>Free Publishing Backend</h2>
 <p class="hint">Secure Cloudflare Worker for account authorization and publishing status. Video files are not uploaded to or stored by this backend.</p>
 <p id="backendHealth" class="status" role="status" aria-live="polite">Checking backend…</p>
-<p id="backendDetails" class="hint">YouTube, Facebook and TikTok connections will appear here after their official OAuth apps are configured. Instagram remains manual until a no-storage upload route is verified.</p>
+<p id="backendDetails" class="hint">YouTube and Facebook connection status will appear here after authorization. TikTok publishing is pending; Instagram currently needs a public video URL.</p>
 <div class="grid">
 <div><label for="youtubePrivacy">YouTube upload visibility</label><select id="youtubePrivacy"><option value="private">Private (test first)</option><option value="unlisted">Unlisted</option><option value="public">Public</option></select></div>
 <div style="align-self:end"><button class="btn" id="connectYoutube" type="button">Connect YouTube account</button><button class="btn secondary" id="checkBackend" type="button">Check backend connection</button></div>
