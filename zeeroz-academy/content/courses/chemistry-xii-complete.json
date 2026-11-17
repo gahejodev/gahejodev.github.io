@@ -2,7 +2,7 @@
   "id": "chemistry-xii-complete",
   "title": "Chemistry XII — Complete Course",
   "description": "Grade XII Chemistry study collection. Chapters 1–2 now contain reviewed, bilingual lessons and chapter-specific assessments aligned with the current DCAR 2024 learning outcomes where stated. Chapters 3–13 remain draft study aids under content review; package registration does not mean every unit is exam-ready.",
-  "version": "7",
+  "version": "8",
   "chapters": [
     {
       "title": "Chapter 1: Chemistry of Representative Elements",
@@ -2084,547 +2084,730 @@
     },
     {
       "title": "Chapter 3: Organic Compounds",
-      "description": "Grade XII Chemistry chapter.",
+      "description": "Stereoisomerism, cis/trans isomerism, benzene bonding and delocalization, chiral centres, enantiomers, optical activity, racemic mixtures, meso compounds and chirality in medicines. Aligned to DCAR Sindh Chemistry 2024 Grade XII SLOs C-12-E-01 to C-12-E-08.",
       "lessons": [
         {
-          "title": "3.1 carbon bonding",
+          "title": "3.1 Stereoisomerism: same connections, different arrangement",
           "type": "text",
-          "content": "## carbon bonding\ncarbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "## Learning outcomes\n- Explain stereoisomerism and distinguish geometrical from optical isomerism (C-12-E-01).\n- Relate stereoisomerism to the three-dimensional arrangement of atoms.\n\nIsomers have the same molecular formula but differ in some aspect of structure. **Structural isomers** have different atom-to-atom connectivity. **Stereoisomers** have the same connectivity but differ in the three-dimensional arrangement of atoms or groups.\n\nTwo important forms in this unit are:\n- **Geometrical isomerism:** different arrangements around a restricted bond, especially a carbon-carbon double bond. The familiar terms are cis and trans.\n- **Optical isomerism:** arises when molecules are chiral and exist as non-superimposable mirror images called enantiomers.\n\nA useful way to avoid confusion is to compare both the molecular formula and the connectivity before examining the spatial arrangement. A cis/trans pair has the same groups attached to the same atoms, but their positions differ in space.\n\n**Example:** cis-but-2-ene and trans-but-2-ene both have formula C₄H₈ and the same connectivity. They differ in the positions of the two methyl groups around the C=C bond, so they are stereoisomers rather than structural isomers.\n\n## Key terms\nIsomer, structural isomer, stereoisomer, geometrical isomerism, optical isomerism, connectivity, three-dimensional arrangement.\n\n## Revision summary\n- Same formula alone does not prove that two molecules are stereoisomers.\n- Stereoisomers have the same connectivity but different spatial arrangements.\n- Geometrical and optical isomerism are distinct forms of stereoisomerism.\n\n## Revision check\n1. State one difference between structural isomers and stereoisomers.\n2. Why are cis-but-2-ene and trans-but-2-ene stereoisomers?",
           "explanations": {
-            "ur": "carbon bonding کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "sd": "carbon bonding جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
+            "ur": "## سبق کے مقاصد\n- stereoisomerism کی وضاحت کریں اور geometrical اور optical isomerism میں فرق کریں (C-12-E-01)۔\n- stereoisomerism کو ایٹموں کی تین جہتی ترتیب سے جوڑیں۔\n\nIsomers کا molecular formula ایک جیسا ہوتا ہے مگر ساخت کے کسی پہلو میں فرق ہوتا ہے۔ **Structural isomers** میں ایٹموں کے درمیان connectivity مختلف ہوتی ہے۔ **Stereoisomers** میں connectivity ایک جیسی ہوتی ہے مگر ایٹموں یا گروپوں کی تین جہتی ترتیب مختلف ہوتی ہے۔\n\nاس حصے میں دو اہم اقسام ہیں:\n- **Geometrical isomerism:** کسی ایسے bond کے گرد مختلف ترتیب جہاں آزادانہ rotation محدود ہو، خاص طور پر carbon-carbon double bond۔ عام نام cis اور trans ہیں۔\n- **Optical isomerism:** اس وقت پیدا ہوتی ہے جب molecules chiral ہوں اور ایک دوسرے کے non-superimposable mirror images بنائیں، جنہیں enantiomers کہتے ہیں۔\n\nفرق واضح کرنے کے لیے پہلے molecular formula اور connectivity کا موازنہ کریں، پھر spatial arrangement دیکھیں۔ cis/trans جوڑے میں ایک ہی ایٹموں سے وہی گروپ جڑے ہوتے ہیں، مگر خلا میں ان کی جگہ مختلف ہوتی ہے۔\n\n**مثال:** cis-but-2-ene اور trans-but-2-ene دونوں کا formula C₄H₈ اور connectivity ایک جیسی ہے۔ C=C bond کے گرد دونوں methyl گروپوں کی جگہ مختلف ہے، اس لیے یہ structural isomers نہیں بلکہ stereoisomers ہیں۔\n\n## اہم اصطلاحات\nIsomer، structural isomer، stereoisomer، geometrical isomerism، optical isomerism، connectivity، تین جہتی ترتیب۔\n\n## دہرائی کا خلاصہ\n- صرف formula ایک جیسا ہونا stereoisomerism ثابت نہیں کرتا۔\n- stereoisomers کی connectivity ایک جیسی مگر spatial arrangement مختلف ہوتی ہے۔\n- geometrical اور optical isomerism stereoisomerism کی الگ اقسام ہیں۔\n\n## دہرائی\n1. structural isomers اور stereoisomers میں ایک فرق لکھیں۔\n2. cis-but-2-ene اور trans-but-2-ene stereoisomers کیوں ہیں؟",
+            "sd": "## سبق جا مقصد\n- stereoisomerism جي وضاحت ڪريو ۽ geometrical ۽ optical isomerism ۾ فرق ڪريو (C-12-E-01)۔\n- stereoisomerism کي ايٽمن جي ٽن پاسن واري ترتيب سان ڳنڍيو.\n\nIsomers جو molecular formula ساڳيو هوندو آهي پر ساخت جي ڪنهن پهلوءَ ۾ فرق هوندو آهي. **Structural isomers** ۾ ايٽمن جي پاڻ ۾ ڳنڍجڻ (connectivity) مختلف هوندي آهي. **Stereoisomers** ۾ connectivity ساڳي هوندي آهي پر ايٽمن يا گروپن جي ٽن پاسن واري ترتيب مختلف هوندي آهي.\n\nهن حصي ۾ ٻه اهم قسم آهن:\n- **Geometrical isomerism:** اهڙي bond جي چوڌاري مختلف ترتيب جتي آزاد rotation محدود هجي، خاص طور carbon-carbon double bond. عام نالا cis ۽ trans آهن.\n- **Optical isomerism:** تڏهن ٿئي ٿي جڏهن molecules chiral هجن ۽ هڪ ٻئي جا non-superimposable mirror images هجن، جن کي enantiomers چوندا آهن.\n\nفرق سمجهڻ لاءِ پهرين molecular formula ۽ connectivity جو مقابلو ڪريو، پوءِ spatial arrangement ڏسو. cis/trans جوڙي ۾ ساڳيا گروپ ساڳين ايٽمن سان ڳنڍيل هوندا آهن، پر خلا ۾ انهن جي جاءِ مختلف هوندي آهي.\n\n**مثال:** cis-but-2-ene ۽ trans-but-2-ene ٻنهي جو formula C₄H₈ ۽ connectivity ساڳي آهي. C=C bond جي چوڌاري ٻن methyl گروپن جون جايون مختلف آهن، تنهنڪري اهي structural isomers نه پر stereoisomers آهن.\n\n## اهم اصطلاح\nIsomer، structural isomer، stereoisomer، geometrical isomerism، optical isomerism، connectivity، ٽن پاسن واري ترتيب.\n\n## ورجاءَ جو خلاصو\n- رڳو formula ساڳيو هجڻ stereoisomerism ثابت نٿو ڪري.\n- stereoisomers جي connectivity ساڳي پر spatial arrangement مختلف هوندي آهي.\n- geometrical ۽ optical isomerism stereoisomerism جا الڳ قسم آهن.\n\n## ورجاءُ\n1. structural isomers ۽ stereoisomers ۾ هڪ فرق لکو.\n2. cis-but-2-ene ۽ trans-but-2-ene stereoisomers ڇو آهن؟"
           }
         },
         {
-          "title": "3.2 functional groups",
+          "title": "3.2 Geometrical (cis/trans) isomerism in alkenes",
           "type": "text",
-          "content": "## functional groups\nfunctional groups: explain its structure, characteristic properties, key reactions and a relevant application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "## Learning outcomes\nDescribe geometrical (cis/trans) isomerism in alkenes and explain its origin in restricted rotation due to π bonds (C-12-E-02).\n\nA carbon-carbon double bond contains one sigma (σ) bond and one pi (π) bond. The π bond is formed by sideways overlap of p orbitals. Rotating one end of the double bond would disrupt this overlap, so ordinary free rotation is not possible without breaking the π bond. This restriction allows different fixed arrangements of substituents.\n\nFor a simple alkene to show cis/trans isomerism, **each carbon of the C=C bond must have two different groups attached**.\n- **Cis:** the selected matching groups are on the same side of the double bond.\n- **Trans:** those groups are on opposite sides.\n\n**Example:** but-2-ene, CH₃CH=CHCH₃, has a hydrogen and a methyl group attached to each double-bond carbon. It therefore has cis and trans forms. In but-1-ene, CH₂=CHCH₂CH₃, the terminal carbon has two identical hydrogen atoms, so a cis/trans pair is not possible.\n\nGeometrical isomers can have different physical properties, such as boiling points and dipole moments, because their shapes and distributions of charge differ.\n\n## Key terms\nC=C double bond, sigma bond, pi bond, restricted rotation, cis, trans, substituent.\n\n## Worked identification\nFor CH₃CH=CHCH₃, inspect each carbon of C=C: each is attached to H and CH₃. Both have two different substituents, so cis/trans isomerism is possible.\n\n## Revision check\n1. What feature of a π bond restricts rotation?\n2. Why does but-1-ene not show cis/trans isomerism?",
           "explanations": {
-            "ur": "functional groups کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "sd": "functional groups جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
+            "ur": "## سبق کے مقاصد\nalkenes میں geometrical (cis/trans) isomerism بیان کریں اور π bond کی وجہ سے محدود rotation کی وضاحت کریں (C-12-E-02)۔\n\ncarbon-carbon double bond میں ایک sigma (σ) bond اور ایک pi (π) bond ہوتا ہے۔ π bond، p orbitals کے پہلو بہ پہلو overlap سے بنتا ہے۔ double bond کے ایک سرے کو گھمانے سے یہ overlap ٹوٹ جائے گا، اس لیے π bond توڑے بغیر عام آزاد rotation ممکن نہیں۔ یہی پابندی substituents کی مختلف مقررہ ترتیب پیدا کرتی ہے۔\n\nکسی سادہ alkene میں cis/trans isomerism کے لیے **C=C کے ہر carbon کے ساتھ دو مختلف گروپ جڑے ہونا ضروری ہے**۔\n- **Cis:** منتخب ایک جیسے گروپ double bond کے ایک ہی طرف ہوں۔\n- **Trans:** وہ گروپ double bond کے مخالف طرف ہوں۔\n\n**مثال:** but-2-ene، CH₃CH=CHCH₃، میں double-bond کے ہر carbon کے ساتھ hydrogen اور methyl گروپ جڑا ہے۔ اس لیے اس کی cis اور trans شکلیں ممکن ہیں۔ but-1-ene، CH₂=CHCH₂CH₃، میں آخری carbon کے ساتھ دو ایک جیسے hydrogen ہیں، اس لیے cis/trans جوڑا نہیں بن سکتا۔\n\nGeometrical isomers کی جسمانی خصوصیات، مثلاً boiling point اور dipole moment، مختلف ہو سکتی ہیں کیونکہ ان کی شکل اور charge کی تقسیم مختلف ہوتی ہے۔\n\n## اہم اصطلاحات\nC=C double bond، sigma bond، pi bond، محدود rotation، cis، trans، substituent۔\n\n## حل شدہ شناخت\nCH₃CH=CHCH₃ میں C=C کے دونوں carbons دیکھیں: ہر ایک کے ساتھ H اور CH₃ ہے۔ دونوں پر دو مختلف گروپ ہیں، اس لیے cis/trans isomerism ممکن ہے۔\n\n## دہرائی\n1. π bond کی کون سی خصوصیت rotation کو محدود کرتی ہے؟\n2. but-1-ene میں cis/trans isomerism کیوں نہیں ہوتی؟",
+            "sd": "## سبق جا مقصد\nalkenes ۾ geometrical (cis/trans) isomerism بيان ڪريو ۽ π bond سبب محدود rotation جي وضاحت ڪريو (C-12-E-02)۔\n\ncarbon-carbon double bond ۾ هڪ sigma (σ) bond ۽ هڪ pi (π) bond هوندو آهي. π bond، p orbitals جي پاسن کان overlap ٿيڻ سان ٺهي ٿو. double bond جي هڪ پاسي کي گهمائڻ سان اهو overlap ٽٽي پوندو، تنهنڪري π bond ٽوڙڻ کان سواءِ عام آزاد rotation ممڪن ناهي. اها پابندي substituents جون مختلف مقرر ترتيبون پيدا ڪري ٿي.\n\nسادي alkene ۾ cis/trans isomerism لاءِ **C=C جي هر carbon سان ٻه مختلف گروپ ڳنڍيل هجڻ ضروري آهي**.\n- **Cis:** چونڊيل ساڳيا گروپ double bond جي ساڳئي پاسي هجن.\n- **Trans:** اهي گروپ double bond جي ابتڙ پاسن تي هجن.\n\n**مثال:** but-2-ene، CH₃CH=CHCH₃، ۾ double-bond جي هر carbon سان hydrogen ۽ methyl گروپ ڳنڍيل آهي. تنهنڪري cis ۽ trans صورتون ممڪن آهن. but-1-ene، CH₂=CHCH₂CH₃، ۾ آخري carbon سان ٻه ساڳيا hydrogen آهن، تنهنڪري cis/trans جوڙو نٿو ٺهي.\n\nGeometrical isomers جون physical properties، مثال طور boiling points ۽ dipole moments، مختلف ٿي سگهن ٿيون، ڇاڪاڻ ته انهن جي شڪل ۽ charge جي ورڇ مختلف هوندي آهي.\n\n## اهم اصطلاح\nC=C double bond، sigma bond، pi bond، محدود rotation، cis، trans، substituent.\n\n## حل ٿيل سڃاڻپ\nCH₃CH=CHCH₃ ۾ C=C جا ٻئي carbons ڏسو: هر هڪ سان H ۽ CH₃ ڳنڍيل آهن. ٻنهي تي ٻه مختلف گروپ آهن، تنهنڪري cis/trans isomerism ممڪن آهي.\n\n## ورجاءُ\n1. π bond جي ڪهڙي خاصيت rotation محدود ڪري ٿي؟\n2. but-1-ene ۾ cis/trans isomerism ڇو نٿي ٿئي؟"
           }
         },
         {
-          "title": "3.3 homologous series",
+          "title": "3.3 Benzene: planar structure, sp² hybridization and delocalized π electrons",
           "type": "text",
-          "content": "## homologous series\nhomologous series: explain its structure, characteristic properties, key reactions and a relevant application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "## Learning outcomes\nDescribe the shape of benzene and other aromatic molecules, including sp² hybridization, sigma bonds and a delocalized π system (C-12-E-03).\n\nBenzene has molecular formula C₆H₆. Its six carbon atoms form a **planar hexagonal ring**. Each carbon is sp²-hybridized and makes three sigma (σ) bonds: two to neighbouring carbon atoms and one to hydrogen. The three sigma-bond directions around each carbon are approximately 120° apart.\n\nEach carbon also has one unhybridized p orbital perpendicular to the ring. Sideways overlap of these six p orbitals forms a continuous **delocalized π-electron system** above and below the plane of the ring. The six π electrons are shared across the ring rather than being confined to three separate C=C bonds.\n\nThis model explains why all six carbon-carbon bonds in benzene have the same intermediate length, between a typical C-C single bond and C=C double bond. Delocalization also gives benzene extra stability, often described through resonance stabilization. It is therefore misleading to draw benzene as a molecule with three permanently fixed single bonds and three permanently fixed double bonds.\n\n## Key terms\nBenzene, aromatic, planar, sp² hybridization, sigma bond, p orbital, delocalization, resonance stabilization.\n\n## Application\nBenzene is an important starting material in chemical manufacturing, but it is also toxic and carcinogenic. Industrial handling requires closed systems and appropriate exposure controls.\n\n## Revision check\n1. How many sigma bonds does each carbon make in benzene?\n2. Where is the delocalized π-electron density found?\n3. Why are the six C-C bonds equivalent?",
           "explanations": {
-            "ur": "homologous series کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "sd": "homologous series جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
+            "ur": "## سبق کے مقاصد\nbenzene اور دوسرے aromatic molecules کی شکل بیان کریں، جس میں sp² hybridization، sigma bonds اور delocalized π system شامل ہوں (C-12-E-03)۔\n\nBenzene کا molecular formula C₆H₆ ہے۔ اس کے چھ carbon atoms ایک **ہموار مسدسی حلقہ** بناتے ہیں۔ ہر carbon، sp²-hybridized ہوتا ہے اور تین sigma (σ) bonds بناتا ہے: دو قریبی carbon atoms کے ساتھ اور ایک hydrogen کے ساتھ۔ ہر carbon کے گرد تین sigma-bond سمتیں تقریباً 120° کے زاویے پر ہوتی ہیں۔\n\nہر carbon کے پاس ایک غیر hybridized p orbital بھی ہوتا ہے جو ring کے عمود ہوتا ہے۔ ان چھ p orbitals کا پہلو بہ پہلو overlap ring کے اوپر اور نیچے ایک مسلسل **delocalized π-electron system** بناتا ہے۔ چھ π electrons پورے ring میں مشترک ہوتے ہیں، تین الگ الگ C=C bonds میں محدود نہیں۔\n\nیہ model سمجھاتا ہے کہ benzene کے تمام چھ carbon-carbon bonds کی لمبائی ایک جیسی اور عام C-C single bond اور C=C double bond کے درمیان ہوتی ہے۔ delocalization benzene کو اضافی استحکام بھی دیتی ہے، جسے resonance stabilization کہا جاتا ہے۔ اس لیے benzene کو تین مستقل single bonds اور تین مستقل double bonds والا molecule سمجھنا درست نہیں۔\n\n## اہم اصطلاحات\nBenzene، aromatic، planar، sp² hybridization، sigma bond، p orbital، delocalization، resonance stabilization۔\n\n## اطلاق\nBenzene کیمیائی صنعت میں اہم starting material ہے، مگر زہریلا اور cancer پیدا کرنے والا بھی ہے۔ صنعتی استعمال میں بند نظام اور exposure controls ضروری ہیں۔\n\n## دہرائی\n1. benzene میں ہر carbon کتنے sigma bonds بناتا ہے؟\n2. delocalized π-electron density کہاں ہوتی ہے؟\n3. چھ C-C bonds برابر کیوں ہیں؟",
+            "sd": "## سبق جا مقصد\nbenzene ۽ ٻين aromatic molecules جي شڪل بيان ڪريو، جنهن ۾ sp² hybridization، sigma bonds ۽ delocalized π system شامل آهن (C-12-E-03)۔\n\nBenzene جو molecular formula C₆H₆ آهي. ان جا ڇهه carbon atoms هڪ **هموار ڇهه-ڪنڊو ring** ٺاهين ٿا. هر carbon، sp²-hybridized آهي ۽ ٽي sigma (σ) bonds ٺاهي ٿو: ٻه پاڙيسري carbon atoms سان ۽ هڪ hydrogen سان. هر carbon وٽ ٽي sigma-bond رخ لڳ ڀڳ 120° تي هوندا آهن.\n\nهر carbon وٽ هڪ غير hybridized p orbital پڻ هوندو آهي، جيڪو ring جي عمود هوندو آهي. انهن ڇهن p orbitals جو پاسن کان overlap ring جي مٿان ۽ هيٺ هڪ مسلسل **delocalized π-electron system** ٺاهي ٿو. ڇهه π electrons سڄي ring ۾ گڏيل هوندا آهن، ٽن الڳ C=C bonds ۾ محدود نه هوندا آهن.\n\nهي model سمجهائي ٿو ته benzene جا ڇهه carbon-carbon bonds سڀ هڪجهڙي وچولي ڊيگهه رکن ٿا، جيڪا عام C-C single bond ۽ C=C double bond جي وچ ۾ آهي. delocalization benzene کي وڌيڪ stability پڻ ڏئي ٿي، جنهن کي resonance stabilization چوندا آهن. تنهنڪري benzene کي ٽي مستقل single bonds ۽ ٽي مستقل double bonds وارو molecule سمجهڻ درست ناهي.\n\n## اهم اصطلاح\nBenzene، aromatic، planar، sp² hybridization، sigma bond، p orbital، delocalization، resonance stabilization۔\n\n## استعمال\nBenzene chemical industry ۾ اهم starting material آهي، پر اهو زهريلو ۽ cancer پيدا ڪندڙ پڻ آهي. صنعتي استعمال ۾ بند نظام ۽ exposure controls ضروري آهن.\n\n## ورجاءُ\n1. benzene ۾ هر carbon ڪيترا sigma bonds ٺاهي ٿو؟\n2. delocalized π-electron density ڪٿي هوندي آهي؟\n3. ڇهه C-C bonds برابر ڇو آهن؟"
           }
         },
         {
-          "title": "3.4 structural isomerism",
+          "title": "3.4 Chiral centres and enantiomers",
           "type": "text",
-          "content": "## structural isomerism\nstructural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "## Learning outcomes\n- Explain what is meant by a chiral centre and how it gives rise to two optical isomers (C-12-E-04).\n- Identify enantiomers as non-superimposable mirror images.\n\nA tetrahedral carbon is a common chiral centre when it is attached to **four different atoms or groups**. Because the four groups occupy a three-dimensional arrangement, the molecule and its mirror image cannot be placed exactly on top of one another by rotation alone.\n\nThe two non-superimposable mirror-image forms are called **enantiomers**. They have the same molecular formula and connectivity, but differ in three-dimensional arrangement around the chiral centre. A molecule with one chiral centre normally has a pair of enantiomers.\n\n**Worked identification:** In 2-butanol, CH₃–CH(OH)–CH₂CH₃, the second carbon is attached to H, OH, CH₃ and CH₂CH₃. These are four different groups, so that carbon is chiral and the molecule has two enantiomeric forms.\n\nA carbon attached to two identical groups is not a chiral centre. Do not confuse the presence of a carbon atom with chirality; the four-different-groups test is essential.\n\n## Key terms\nChiral, chiral centre, tetrahedral, mirror image, superimposable, enantiomer.\n\n## Revision check\n1. State the four-group test for a tetrahedral carbon.\n2. Identify the chiral carbon in 2-butanol.\n3. What does non-superimposable mean?",
           "explanations": {
-            "ur": "structural isomerism کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "sd": "structural isomerism جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
+            "ur": "## سبق کے مقاصد\n- chiral centre کا مطلب اور اس سے دو optical isomers بننے کی وضاحت کریں (C-12-E-04)۔\n- enantiomers کو ایسے mirror images کے طور پر پہچانیں جو ایک دوسرے پر مکمل طور پر نہیں آ سکتے۔\n\nTetrahedral carbon ایک عام chiral centre اس وقت ہوتا ہے جب اس کے ساتھ **چار مختلف atoms یا groups** جڑے ہوں۔ چاروں گروپ تین جہتی ترتیب میں ہوتے ہیں، اس لیے molecule اور اس کا آئینہ دار عکس صرف گھما کر بالکل ایک دوسرے پر نہیں رکھے جا سکتے۔\n\nان دو non-superimposable mirror-image شکلوں کو **enantiomers** کہتے ہیں۔ ان کا molecular formula اور connectivity ایک جیسی ہوتی ہے، مگر chiral centre کے گرد تین جہتی ترتیب مختلف ہوتی ہے۔ ایک chiral centre والا molecule عموماً enantiomers کا ایک جوڑا بناتا ہے۔\n\n**حل شدہ شناخت:** 2-butanol، CH₃–CH(OH)–CH₂CH₃، میں دوسرا carbon، H، OH، CH₃ اور CH₂CH₃ کے ساتھ جڑا ہے۔ یہ چار مختلف گروپ ہیں، اس لیے وہ carbon chiral ہے اور molecule کی دو enantiomeric شکلیں ہیں۔\n\nجس carbon کے ساتھ دو ایک جیسے گروپ ہوں وہ chiral centre نہیں ہوتا۔ صرف carbon کی موجودگی کو chirality نہ سمجھیں؛ چار مختلف گروپوں کا امتحان ضروری ہے۔\n\n## اہم اصطلاحات\nChiral، chiral centre، tetrahedral، mirror image، superimposable، enantiomer۔\n\n## دہرائی\n1. tetrahedral carbon کے لیے چار گروپوں کا اصول لکھیں۔\n2. 2-butanol میں chiral carbon کی شناخت کریں۔\n3. non-superimposable کا کیا مطلب ہے؟",
+            "sd": "## سبق جا مقصد\n- chiral centre جو مطلب ۽ ان مان ٻه optical isomers ٺهڻ جي وضاحت ڪريو (C-12-E-04)۔\n- enantiomers کي اهڙن mirror images طور سڃاڻو جيڪي هڪ ٻئي تي مڪمل طور نه اچي سگهن.\n\nTetrahedral carbon عام chiral centre تڏهن هوندو آهي جڏهن ان سان **چار مختلف atoms يا groups** ڳنڍيل هجن. چارئي گروپ ٽن پاسن واري ترتيب ۾ هوندا آهن، تنهنڪري molecule ۽ ان جو mirror image رڳو گهمائڻ سان بلڪل هڪ ٻئي مٿان نٿا اچي سگهن.\n\nانهن ٻن non-superimposable mirror-image صورتن کي **enantiomers** چوندا آهن. انهن جو molecular formula ۽ connectivity ساڳيو هوندو آهي، پر chiral centre جي چوڌاري ٽن پاسن واري ترتيب مختلف هوندي آهي. هڪ chiral centre وارو molecule عام طور enantiomers جو جوڙو ٺاهي ٿو.\n\n**حل ٿيل سڃاڻپ:** 2-butanol، CH₃–CH(OH)–CH₂CH₃، ۾ ٻيو carbon، H، OH، CH₃ ۽ CH₂CH₃ سان ڳنڍيل آهي. اهي چار مختلف گروپ آهن، تنهنڪري اهو carbon chiral آهي ۽ molecule جون ٻه enantiomeric صورتون آهن.\n\nجنهن carbon سان ٻه ساڳيا گروپ ڳنڍيل هجن اهو chiral centre نه هوندو. رڳو carbon جي موجودگي کي chirality نه سمجهو؛ چار مختلف گروپن جو امتحان ضروري آهي.\n\n## اهم اصطلاح\nChiral، chiral centre، tetrahedral، mirror image، superimposable، enantiomer۔\n\n## ورجاءُ\n1. tetrahedral carbon لاءِ چار گروپن وارو اصول لکو.\n2. 2-butanol ۾ chiral carbon سڃاڻو.\n3. non-superimposable جو مطلب ڇا آهي؟"
           }
         },
         {
-          "title": "3.5 organic reactivity",
+          "title": "3.5 Optical activity and the properties of enantiomers",
           "type": "text",
-          "content": "## organic reactivity\norganic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.\n\nStudy the definition, principle, important terms and a textbook example.",
+          "content": "## Learning outcomes\n- Describe how enantiomers affect plane-polarized light (C-12-E-05 and C-12-E-07).\n- Apply the terms optically active and racemic mixture (C-12-E-06).\n\nPlane-polarized light has its electric-field vibration in one selected plane. A pure sample of one enantiomer can rotate the plane of polarization. Its mirror-image enantiomer rotates the plane by the same magnitude in the opposite direction when measured under identical conditions. One is described as dextrorotatory (+) and the other as levorotatory (−), according to the direction of rotation observed by the instrument.\n\nThe + or − sign does **not** tell you whether a molecule is labelled R or S. R/S describes configuration; +/− describes measured optical rotation.\n\nA polarimeter measures the angle through which the plane of polarized light is rotated. The observed rotation depends on the substance, concentration, path length, temperature and wavelength.\n\nA **racemic mixture** contains equal amounts of two enantiomers. Their opposite rotations cancel, so the mixture has no net optical rotation. This does not mean that either enantiomer is individually inactive.\n\nEnantiomers have identical physical properties in an achiral environment in most ordinary measurements, but they can behave differently in biological systems because enzymes and receptors are themselves chiral. This can lead to different biological activity.\n\n## Key terms\nPlane-polarized light, optical activity, polarimeter, dextrorotatory, levorotatory, racemic mixture, enantiomer.\n\n## Revision check\n1. How do two pure enantiomers rotate plane-polarized light?\n2. Why is a 1:1 racemic mixture optically inactive?\n3. Does + necessarily mean R?",
           "explanations": {
-            "ur": "organic reactivity کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "sd": "organic reactivity جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
+            "ur": "## سبق کے مقاصد\n- enantiomers کے plane-polarized light پر اثر کی وضاحت کریں (C-12-E-05 اور C-12-E-07)۔\n- optically active اور racemic mixture کی اصطلاحات استعمال کریں (C-12-E-06)۔\n\nPlane-polarized light میں electric-field کا ارتعاش ایک منتخب plane میں ہوتا ہے۔ کسی ایک enantiomer کا خالص نمونہ polarization کے plane کو گھما سکتا ہے۔ اس کا mirror-image enantiomer یکساں حالات میں اسی مقدار سے مگر مخالف سمت میں گھماتا ہے۔ آلے میں نظر آنے والی سمت کے مطابق ایک کو dextrorotatory (+) اور دوسرے کو levorotatory (−) کہتے ہیں۔\n\n+ یا − کا نشان یہ **نہیں** بتاتا کہ molecule کو R کہا جائے گا یا S۔ R/S ساختی ترتیب بتاتا ہے؛ +/− ناپی گئی optical rotation بتاتا ہے۔\n\nPolarimeter یہ زاویہ ناپتا ہے جس سے polarized light کا plane گھومتا ہے۔ rotation مادے، concentration، راستے کی لمبائی، temperature اور wavelength پر منحصر ہوتی ہے۔\n\n**Racemic mixture** میں دونوں enantiomers برابر مقدار میں ہوتے ہیں۔ ان کی مخالف rotations ایک دوسرے کو ختم کرتی ہیں، اس لیے mixture کی net optical rotation صفر ہوتی ہے۔ اس کا مطلب یہ نہیں کہ ہر enantiomer الگ سے inactive ہے۔\n\nAchiral ماحول میں enantiomers کی زیادہ تر عام physical properties ایک جیسی ہوتی ہیں، مگر biological systems میں ان کا رویہ مختلف ہو سکتا ہے کیونکہ enzymes اور receptors خود chiral ہوتے ہیں۔ اس سے biological activity مختلف ہو سکتی ہے۔\n\n## اہم اصطلاحات\nPlane-polarized light، optical activity، polarimeter، dextrorotatory، levorotatory، racemic mixture، enantiomer۔\n\n## دہرائی\n1. دو خالص enantiomers plane-polarized light کو کیسے گھماتے ہیں؟\n2. 1:1 racemic mixture کی net optical activity صفر کیوں ہوتی ہے؟\n3. کیا + کا مطلب لازماً R ہے؟",
+            "sd": "## سبق جا مقصد\n- enantiomers جو plane-polarized light تي اثر سمجهايو (C-12-E-05 ۽ C-12-E-07)۔\n- optically active ۽ racemic mixture جون اصطلاحون استعمال ڪريو (C-12-E-06)۔\n\nPlane-polarized light ۾ electric-field جو ارتعاش هڪ چونڊيل plane ۾ هوندو آهي. ڪنهن هڪ enantiomer جو خالص نمونو polarization جي plane کي گهمائي سگهي ٿو. ان جو mirror-image enantiomer ساڳين حالتن ۾ ساڳئي مقدار سان پر ابتڙ رخ ۾ گهمائيندو آهي. اوزار ۾ نظر ايندڙ رخ موجب هڪ کي dextrorotatory (+) ۽ ٻئي کي levorotatory (−) چوندا آهن.\n\n+ يا − جو نشان اهو **نه** ٻڌائي ٿو ته molecule کي R چوندا يا S. R/S ترتيب جي configuration ٻڌائي ٿو؛ +/− ماپيل optical rotation ٻڌائي ٿو.\n\nPolarimeter اهو زاويه ماپي ٿو جنهن سان polarized light جو plane ڦري ٿو. rotation substance، concentration، رستي جي ڊيگهه، temperature ۽ wavelength تي دارومدار رکي ٿي.\n\n**Racemic mixture** ۾ ٻنهي enantiomers جي برابر مقدار هوندي آهي. انهن جون ابتڙ rotations هڪ ٻئي کي ختم ڪن ٿيون، تنهنڪري mixture جي net optical rotation صفر هوندي آهي. ان جو مطلب اهو ناهي ته هر enantiomer الڳ طور inactive آهي.\n\nAchiral ماحول ۾ enantiomers جون گهڻيون عام physical properties ساڳيون هونديون آهن، پر biological systems ۾ انهن جو رويو مختلف ٿي سگهي ٿو، ڇاڪاڻ ته enzymes ۽ receptors پاڻ chiral هوندا آهن. ان ڪري biological activity مختلف ٿي سگهي ٿي.\n\n## اهم اصطلاح\nPlane-polarized light، optical activity، polarimeter، dextrorotatory، levorotatory، racemic mixture، enantiomer۔\n\n## ورجاءُ\n1. ٻه خالص enantiomers plane-polarized light کي ڪيئن گهمائين ٿا؟\n2. 1:1 racemic mixture جي net optical activity صفر ڇو آهي؟\n3. ڇا + جو مطلب لازمي R آهي؟"
+          }
+        },
+        {
+          "title": "3.6 Meso compounds and optical inactivity",
+          "type": "text",
+          "content": "## Learning outcomes\nApply the terms optically active, racemic mixture and meso compound to molecular structures (C-12-E-06).\n\nA molecule may contain two or more stereogenic centres and still be optically inactive. One important reason is an internal plane of symmetry. A **meso compound** has stereogenic centres but is achiral overall because its mirror image is superimposable on itself through an internal symmetry operation.\n\nDo not confuse a meso compound with a racemic mixture:\n- A meso compound is a single achiral molecular species. Its optical inactivity comes from its internal symmetry.\n- A racemic mixture contains equal quantities of two chiral enantiomers. Its net optical rotation is zero because the rotations cancel.\n\nA meso form is not made optically inactive by mixing two separate molecules. The symmetry is present within each molecule. When examining a structure, look for stereogenic centres and then test whether the whole molecule has an internal plane of symmetry.\n\n## Key terms\nMeso compound, stereogenic centre, internal plane of symmetry, achiral, racemate, optical inactivity.\n\n## Worked comparison\nA meso molecule may contain two stereogenic centres arranged so that one half mirrors the other. A racemate instead contains separate molecules of opposite handedness in a 1:1 ratio.\n\n## Revision check\n1. Can a molecule with stereogenic centres be achiral?\n2. State the main difference between a meso compound and a racemic mixture.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nmolecular structures میں optically active، racemic mixture اور meso compound کی اصطلاحات استعمال کریں (C-12-E-06)۔\n\nکسی molecule میں دو یا زیادہ stereogenic centres ہو سکتے ہیں، پھر بھی وہ optically inactive ہو سکتا ہے۔ اس کی ایک اہم وجہ اندرونی plane of symmetry ہے۔ **Meso compound** میں stereogenic centres موجود ہوتے ہیں مگر پورا molecule achiral ہوتا ہے کیونکہ اس کا mirror image اندرونی symmetry کی وجہ سے اسی molecule پر آ سکتا ہے۔\n\nMeso compound کو racemic mixture نہ سمجھیں:\n- Meso compound ایک واحد achiral molecular species ہے۔ اس کی optical inactivity اندرونی symmetry کی وجہ سے ہے۔\n- Racemic mixture میں دو chiral enantiomers برابر مقدار میں ہوتے ہیں۔ ان کی rotations ایک دوسرے کو ختم کرتی ہیں، اس لیے net optical rotation صفر ہوتی ہے۔\n\nMeso شکل دو الگ molecules کو ملانے سے inactive نہیں بنتی۔ symmetry ہر molecule کے اندر موجود ہوتی ہے۔ کسی structure کو دیکھتے وقت stereogenic centres تلاش کریں اور پھر جانچیں کہ پورے molecule میں اندرونی plane of symmetry ہے یا نہیں۔\n\n## اہم اصطلاحات\nMeso compound، stereogenic centre، اندرونی plane of symmetry، achiral، racemate، optical inactivity۔\n\n## حل شدہ موازنہ\nMeso molecule میں دو stereogenic centres اس طرح ہو سکتے ہیں کہ ایک نصف دوسرے کا عکس ہو۔ اس کے برعکس racemate میں مخالف handedness والے الگ molecules برابر مقدار میں ہوتے ہیں۔\n\n## دہرائی\n1. کیا stereogenic centres والا molecule achiral ہو سکتا ہے؟\n2. meso compound اور racemic mixture میں بنیادی فرق لکھیں۔",
+            "sd": "## سبق جا مقصد\nmolecular structures ۾ optically active، racemic mixture ۽ meso compound جون اصطلاحون لاڳو ڪريو (C-12-E-06)۔\n\nڪنهن molecule ۾ ٻه يا وڌيڪ stereogenic centres ٿي سگهن ٿا، پوءِ به اهو optically inactive ٿي سگهي ٿو. هڪ اهم سبب اندروني plane of symmetry آهي. **Meso compound** ۾ stereogenic centres موجود هوندا آهن، پر سڄو molecule achiral هوندو آهي، ڇاڪاڻ ته ان جو mirror image اندروني symmetry سبب ساڳئي molecule مٿان اچي سگهي ٿو.\n\nMeso compound کي racemic mixture سان نه ملايو:\n- Meso compound هڪ واحد achiral molecular species آهي. ان جي optical inactivity اندروني symmetry سبب آهي.\n- Racemic mixture ۾ ٻن chiral enantiomers جي برابر مقدار هوندي آهي. انهن جون rotations هڪ ٻئي کي ختم ڪن ٿيون، تنهنڪري net optical rotation صفر هوندي آهي.\n\nMeso صورت ٻن الڳ molecules کي ملائڻ سان inactive نٿي ٿئي. symmetry هر molecule جي اندر موجود هوندي آهي. structure ڏسندي stereogenic centres ڳوليو ۽ پوءِ جاچيو ته سڄي molecule ۾ اندروني plane of symmetry آهي يا نه.\n\n## اهم اصطلاح\nMeso compound، stereogenic centre، اندروني plane of symmetry، achiral، racemate، optical inactivity۔\n\n## حل ٿيل مقابلو\nMeso molecule ۾ ٻه stereogenic centres اهڙي ترتيب ۾ ٿي سگهن ٿا جو هڪ اڌ ٻئي جو عڪس هجي. ان جي ابتڙ racemate ۾ ابتڙ handedness وارا الڳ molecules برابر مقدار ۾ هوندا آهن.\n\n## ورجاءُ\n1. ڇا stereogenic centres وارو molecule achiral ٿي سگهي ٿو؟\n2. meso compound ۽ racemic mixture ۾ بنيادي فرق لکو."
+          }
+        },
+        {
+          "title": "3.7 Chirality in medicines: enantiomers and thalidomide",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the significance of chirality in the synthesis of drug molecules, including different biological activity, racemate separation and chiral catalysts, using thalidomide as an example (C-12-E-08).\n\nBiological targets such as enzymes, receptors and transport proteins are three-dimensional and chiral. Two enantiomers of a drug can therefore fit differently into a biological binding site. One may bind more strongly, produce a desired effect, have a different metabolism, or cause a different adverse effect.\n\n**Thalidomide** is a historically important example used to show why stereochemistry matters in medicines. Its enantiomers have different biological interactions, but the molecule can interconvert between forms in the body. It is therefore inaccurate to claim that simply giving one isolated enantiomer would remove all risk. The key lesson is that stereochemistry, metabolism, dose and biological context must all be evaluated.\n\nChemists may prepare a racemic mixture and then separate the enantiomers, a process called **resolution**. Alternatively, a **chiral catalyst** or chiral reagent can favour formation of one enantiomer during synthesis. This can produce an enantioenriched product and reduce the amount of unwanted isomer, although selectivity must be measured rather than assumed.\n\n## Application case: developing a chiral medicine\nA research team finds that one enantiomer binds strongly to a target receptor while the other binds weakly. Before selecting a manufacturing route, the team must measure enantiomeric purity, test metabolism and toxicity, and check whether the forms interconvert in the body.\n\n## Key terms\nChiral drug, enantiomer, biological activity, racemate, resolution, chiral catalyst, enantiomeric purity.\n\n## Revision check\n1. Why can two enantiomers have different biological effects?\n2. What is resolution?\n3. Why is thalidomide a caution against oversimplified claims about a single “safe” enantiomer?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nدواؤں کی تیاری میں chirality کی اہمیت بیان کریں، جس میں مختلف biological activity، racemate کی علیحدگی اور chiral catalysts شامل ہوں، اور thalidomide کی مثال استعمال کریں (C-12-E-08)۔\n\nEnzymes، receptors اور transport proteins جیسے biological targets تین جہتی اور chiral ہوتے ہیں۔ اس لیے دوا کے دو enantiomers کسی biological binding site میں مختلف انداز سے fit ہو سکتے ہیں۔ ایک زیادہ مضبوطی سے bind ہو سکتا ہے، مطلوبہ اثر دے سکتا ہے، مختلف metabolism رکھ سکتا ہے یا مختلف adverse effect پیدا کر سکتا ہے۔\n\n**Thalidomide** ادویات میں stereochemistry کی اہمیت سمجھانے کی تاریخی مثال ہے۔ اس کے enantiomers کے biological interactions مختلف ہیں، مگر جسم میں molecule ایک شکل سے دوسری شکل میں تبدیل ہو سکتا ہے۔ اس لیے یہ کہنا درست نہیں کہ صرف ایک الگ enantiomer دینے سے تمام خطرہ ختم ہو جائے گا۔ اصل سبق یہ ہے کہ stereochemistry، metabolism، dose اور biological context سب کا جائزہ ضروری ہے۔\n\nChemists پہلے racemic mixture بنا کر پھر enantiomers الگ کر سکتے ہیں؛ اس عمل کو **resolution** کہتے ہیں۔ متبادل طور پر **chiral catalyst** یا chiral reagent synthesis کے دوران ایک enantiomer کی تشکیل کو ترجیح دے سکتا ہے۔ اس سے enantioenriched product بن سکتا ہے اور ناپسندیدہ isomer کی مقدار کم ہو سکتی ہے، مگر selectivity کو ناپنا ضروری ہے، فرض نہیں کرنا چاہیے۔\n\n## عملی کیس: chiral medicine کی تیاری\nایک تحقیقی ٹیم دیکھتی ہے کہ ایک enantiomer target receptor کے ساتھ مضبوطی سے bind کرتا ہے جبکہ دوسرا کمزور۔ manufacturing route منتخب کرنے سے پہلے ٹیم کو enantiomeric purity، metabolism اور toxicity ناپنی چاہیے اور یہ بھی جانچنا چاہیے کہ جسم میں دونوں شکلیں ایک دوسرے میں تو تبدیل نہیں ہوتیں۔\n\n## اہم اصطلاحات\nChiral drug، enantiomer، biological activity، racemate، resolution، chiral catalyst، enantiomeric purity۔\n\n## دہرائی\n1. دو enantiomers کے biological effects مختلف کیوں ہو سکتے ہیں؟\n2. resolution کیا ہے؟\n3. thalidomide ایک “محفوظ” enantiomer کے سادہ دعوے کے خلاف احتیاط کیوں ہے؟",
+            "sd": "## سبق جا مقصد\nدوائن جي تياري ۾ chirality جي اهميت بيان ڪريو، جنهن ۾ مختلف biological activity، racemate جي الڳ ڪرڻ ۽ chiral catalysts شامل هجن، ۽ thalidomide جو مثال استعمال ڪريو (C-12-E-08)۔\n\nEnzymes، receptors ۽ transport proteins جهڙا biological targets ٽن پاسن وارا ۽ chiral هوندا آهن. تنهنڪري دوا جا ٻه enantiomers ڪنهن biological binding site ۾ مختلف نموني fit ٿي سگهن ٿا. هڪ وڌيڪ مضبوط bind ڪري سگهي ٿو، گهربل اثر ڏئي سگهي ٿو، مختلف metabolism رکي سگهي ٿو يا مختلف adverse effect پيدا ڪري سگهي ٿو.\n\n**Thalidomide** دوائن ۾ stereochemistry جي اهميت سمجهائڻ لاءِ تاريخي مثال آهي. ان جي enantiomers جا biological interactions مختلف آهن، پر جسم ۾ molecule هڪ صورت کان ٻي صورت ۾ بدلجي سگهي ٿو. تنهنڪري اهو چوڻ درست ناهي ته رڳو هڪ الڳ enantiomer ڏيڻ سان سڀ خطرا ختم ٿي ويندا. اهم سبق اهو آهي ته stereochemistry، metabolism، dose ۽ biological context سڀ جاچڻ ضروري آهن.\n\nChemists پهرين racemic mixture ٺاهي پوءِ enantiomers الڳ ڪري سگهن ٿا؛ هن عمل کي **resolution** چوندا آهن. ٻي صورت ۾ **chiral catalyst** يا chiral reagent synthesis دوران هڪ enantiomer جي ٺهڻ کي ترجيح ڏئي سگهي ٿو. ان سان enantioenriched product ٺهي سگهي ٿو ۽ اڻگهربل isomer گهٽجي سگهي ٿو، پر selectivity ماپڻ ضروري آهي، فرض نه ڪرڻ گهرجي.\n\n## عملي case: chiral medicine ٺاهڻ\nهڪ research team ڏسي ٿي ته هڪ enantiomer target receptor سان مضبوط bind ڪري ٿو، جڏهن ته ٻيو ڪمزور. manufacturing route چونڊڻ کان اڳ team کي enantiomeric purity، metabolism ۽ toxicity ماپڻ گهرجي ۽ اهو به جاچڻ گهرجي ته جسم ۾ ٻئي صورتون هڪ ٻئي ۾ ته نٿيون بدلجن.\n\n## اهم اصطلاح\nChiral drug، enantiomer، biological activity، racemate، resolution، chiral catalyst، enantiomeric purity۔\n\n## ورجاءُ\n1. ٻن enantiomers جا biological effects مختلف ڇو ٿي سگهن ٿا؟\n2. resolution ڇا آهي؟\n3. thalidomide هڪ “محفوظ” enantiomer بابت سادي دعويٰ خلاف احتياط ڇو آهي؟"
           }
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes carbon bonding?",
+          "question": "Stereoisomers are compounds that have:",
           "options": {
-            "A": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "A",
-          "explanation": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "carbon bonding کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "carbon bonding بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for carbon bonding.",
-          "options": {
-            "A": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "Different molecular formulae",
+            "B": "The same connectivity but different three-dimensional arrangements",
+            "C": "Different numbers of carbon atoms",
+            "D": "Different elements"
           },
           "correctOption": "B",
-          "explanation": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "explanation": "Stereoisomers retain the same atom-to-atom connectivity but differ in spatial arrangement.",
           "translations": {
             "ur": {
-              "question": "carbon bonding کے بارے میں درست بیان منتخب کریں۔",
+              "question": "Stereoisomers میں کیا مشترک اور کیا مختلف ہوتا ہے؟",
               "options": {
-                "A": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "molecular formula مختلف ہوتے ہیں",
+                "B": "connectivity ایک جیسی مگر تین جہتی ترتیب مختلف ہوتی ہے",
+                "C": "carbon atoms کی تعداد مختلف ہوتی ہے",
+                "D": "elements مختلف ہوتے ہیں"
               },
-              "explanation": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "Stereoisomers میں ایٹموں کی connectivity ایک جیسی مگر spatial arrangement مختلف ہوتی ہے۔"
             },
             "sd": {
-              "question": "carbon bonding بابت صحيح بيان چونڊيو۔",
+              "question": "Stereoisomers ۾ ڇا ساڳيو ۽ ڇا مختلف هوندو آهي؟",
               "options": {
-                "A": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "molecular formula مختلف هوندا آهن",
+                "B": "connectivity ساڳي پر ٽن پاسن واري ترتيب مختلف هوندي آهي",
+                "C": "carbon atoms جو تعداد مختلف هوندو آهي",
+                "D": "elements مختلف هوندا آهن"
               },
-              "explanation": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "Stereoisomers ۾ ايٽمن جي connectivity ساڳي پر spatial arrangement مختلف هوندي آهي."
             }
           }
         },
         {
-          "question": "What is the scientifically accurate point about carbon bonding?",
+          "question": "Cis/trans isomerism in an alkene is possible because rotation around C=C is restricted by the:",
           "options": {
-            "A": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "C",
-          "explanation": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "carbon bonding کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "carbon bonding بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes functional groups?",
-          "options": {
-            "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "Free rotation of sigma bonds",
+            "B": "Pi bond",
+            "C": "Hydrogen bond",
+            "D": "Ionic bond"
           },
           "correctOption": "B",
-          "explanation": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "explanation": "Sideways p-orbital overlap forms the pi bond; rotating the double bond would disrupt that overlap.",
           "translations": {
             "ur": {
-              "question": "functional groups کے بارے میں درست بیان منتخب کریں۔",
+              "question": "alkene میں C=C کے گرد cis/trans isomerism کس وجہ سے ممکن ہوتی ہے؟",
               "options": {
-                "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "sigma bonds کی آزاد rotation",
+                "B": "pi bond",
+                "C": "hydrogen bond",
+                "D": "ionic bond"
               },
-              "explanation": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "p orbitals کا پہلو بہ پہلو overlap pi bond بناتا ہے؛ double bond گھمانے سے یہ overlap ٹوٹے گا۔"
             },
             "sd": {
-              "question": "functional groups بابت صحيح بيان چونڊيو۔",
+              "question": "alkene ۾ C=C جي چوڌاري cis/trans isomerism ڪهڙي سبب ممڪن آهي؟",
               "options": {
-                "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "sigma bonds جي آزاد rotation",
+                "B": "pi bond",
+                "C": "hydrogen bond",
+                "D": "ionic bond"
               },
-              "explanation": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "p orbitals جو پاسن کان overlap pi bond ٺاهي ٿو؛ double bond گهمائڻ سان اهو overlap ٽٽي پوندو."
             }
           }
         },
         {
-          "question": "Choose the correct principle for functional groups.",
+          "question": "For a simple alkene to show cis/trans isomerism, each carbon of the double bond must have:",
           "options": {
-            "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "C",
-          "explanation": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "functional groups کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "functional groups بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about functional groups?",
-          "options": {
-            "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "D",
-          "explanation": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "functional groups کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "functional groups بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes homologous series?",
-          "options": {
-            "A": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "C",
-          "explanation": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "homologous series کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "homologous series بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for homologous series.",
-          "options": {
-            "A": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "D",
-          "explanation": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "homologous series کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "homologous series بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about homologous series?",
-          "options": {
-            "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "A",
-          "explanation": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "homologous series کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "homologous series بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes structural isomerism?",
-          "options": {
-            "A": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "D",
-          "explanation": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "structural isomerism کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "structural isomerism بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for structural isomerism.",
-          "options": {
-            "A": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "A",
-          "explanation": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "structural isomerism کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "structural isomerism بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about structural isomerism?",
-          "options": {
-            "A": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "Two identical groups",
+            "B": "Two different groups",
+            "C": "Three hydrogen atoms",
+            "D": "A positive charge"
           },
           "correctOption": "B",
-          "explanation": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "explanation": "Each C of C=C must have two different substituents so two distinct geometrical arrangements exist.",
           "translations": {
             "ur": {
-              "question": "structural isomerism کے بارے میں درست بیان منتخب کریں۔",
+              "question": "سادہ alkene میں cis/trans isomerism کے لیے double bond کے ہر carbon کے ساتھ کیا ہونا ضروری ہے؟",
               "options": {
-                "A": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "دو ایک جیسے گروپ",
+                "B": "دو مختلف گروپ",
+                "C": "تین hydrogen atoms",
+                "D": "مثبت charge"
               },
-              "explanation": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "C=C کے ہر carbon کے ساتھ دو مختلف substituents ہوں تاکہ دو الگ geometrical arrangements بن سکیں۔"
             },
             "sd": {
-              "question": "structural isomerism بابت صحيح بيان چونڊيو۔",
+              "question": "سادي alkene ۾ cis/trans isomerism لاءِ double bond جي هر carbon سان ڇا هجڻ ضروري آهي؟",
               "options": {
-                "A": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "ٻه ساڳيا گروپ",
+                "B": "ٻه مختلف گروپ",
+                "C": "ٽي hydrogen atoms",
+                "D": "positive charge"
               },
-              "explanation": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "C=C جي هر carbon سان ٻه مختلف substituents هجن ته ٻه الڳ geometrical arrangements ٺهي سگهن ٿا."
             }
           }
         },
         {
-          "question": "Which statement describes organic reactivity?",
+          "question": "Which compound can exist as cis and trans geometrical isomers?",
           "options": {
-            "A": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "A",
-          "explanation": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "organic reactivity کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "organic reactivity بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for organic reactivity.",
-          "options": {
-            "A": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-          },
-          "correctOption": "B",
-          "explanation": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-          "translations": {
-            "ur": {
-              "question": "organic reactivity کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
-            },
-            "sd": {
-              "question": "organic reactivity بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
-              },
-              "explanation": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about organic reactivity?",
-          "options": {
-            "A": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "B": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "C": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-            "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
+            "A": "Ethene",
+            "B": "But-1-ene",
+            "C": "But-2-ene",
+            "D": "Propane"
           },
           "correctOption": "C",
-          "explanation": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "explanation": "Each double-bond carbon in but-2-ene has H and CH3, so each has two different groups.",
           "translations": {
             "ur": {
-              "question": "organic reactivity کے بارے میں درست بیان منتخب کریں۔",
+              "question": "ان میں سے کون سا compound cis اور trans geometrical isomers رکھ سکتا ہے؟",
               "options": {
-                "A": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "Ethene",
+                "B": "But-1-ene",
+                "C": "But-2-ene",
+                "D": "Propane"
               },
-              "explanation": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "but-2-ene میں double-bond کے ہر carbon کے ساتھ H اور CH₃ ہے، اس لیے دونوں پر دو مختلف گروپ ہیں۔"
             },
             "sd": {
-              "question": "organic reactivity بابت صحيح بيان چونڊيو۔",
+              "question": "هيٺين مان ڪهڙو compound cis ۽ trans geometrical isomers رکي سگهي ٿو؟",
               "options": {
-                "A": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "B": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "C": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
-                "D": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application."
+                "A": "Ethene",
+                "B": "But-1-ene",
+                "C": "But-2-ene",
+                "D": "Propane"
               },
-              "explanation": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application."
+              "explanation": "but-2-ene ۾ double-bond جي هر carbon سان H ۽ CH₃ آهن، تنهنڪري ٻنهي تي ٻه مختلف گروپ آهن."
+            }
+          }
+        },
+        {
+          "question": "But-1-ene does not show cis/trans isomerism because:",
+          "options": {
+            "A": "It has no double bond",
+            "B": "One double-bond carbon has two identical hydrogen atoms",
+            "C": "It contains oxygen",
+            "D": "It is cyclic"
+          },
+          "correctOption": "B",
+          "explanation": "The terminal carbon of CH2=CHCH2CH3 has two identical H substituents, so the required condition fails.",
+          "translations": {
+            "ur": {
+              "question": "but-1-ene میں cis/trans isomerism کیوں نہیں ہوتی؟",
+              "options": {
+                "A": "اس میں double bond نہیں",
+                "B": "ایک double-bond carbon کے ساتھ دو ایک جیسے hydrogen ہیں",
+                "C": "اس میں oxygen ہے",
+                "D": "یہ cyclic ہے"
+              },
+              "explanation": "CH₂=CHCH₂CH₃ کے آخری carbon کے ساتھ دو ایک جیسے H ہیں، اس لیے شرط پوری نہیں ہوتی۔"
+            },
+            "sd": {
+              "question": "but-1-ene ۾ cis/trans isomerism ڇو نٿي ٿئي؟",
+              "options": {
+                "A": "ان ۾ double bond ناهي",
+                "B": "هڪ double-bond carbon سان ٻه ساڳيا hydrogen آهن",
+                "C": "ان ۾ oxygen آهي",
+                "D": "اهو cyclic آهي"
+              },
+              "explanation": "CH₂=CHCH₂CH₃ جي آخري carbon سان ٻه ساڳيا H آهن، تنهنڪري شرط پوري نٿي ٿئي."
+            }
+          }
+        },
+        {
+          "question": "Each carbon atom in benzene is approximately:",
+          "options": {
+            "A": "sp hybridized",
+            "B": "sp2 hybridized",
+            "C": "sp3 hybridized",
+            "D": "Unhybridized only"
+          },
+          "correctOption": "B",
+          "explanation": "Each benzene carbon is sp2 hybridized, forming three sigma bonds in a planar arrangement.",
+          "translations": {
+            "ur": {
+              "question": "benzene میں ہر carbon تقریباً کس طرح hybridized ہوتا ہے؟",
+              "options": {
+                "A": "sp",
+                "B": "sp2",
+                "C": "sp3",
+                "D": "صرف unhybridized"
+              },
+              "explanation": "ہر benzene carbon sp2 hybridized ہوتا ہے اور planar arrangement میں تین sigma bonds بناتا ہے۔"
+            },
+            "sd": {
+              "question": "benzene ۾ هر carbon لڳ ڀڳ ڪهڙي hybridization رکي ٿو؟",
+              "options": {
+                "A": "sp",
+                "B": "sp2",
+                "C": "sp3",
+                "D": "رڳو unhybridized"
+              },
+              "explanation": "هر benzene carbon sp2 hybridized هوندو آهي ۽ planar arrangement ۾ ٽي sigma bonds ٺاهيندو آهي."
+            }
+          }
+        },
+        {
+          "question": "The six carbon-carbon bonds in benzene have equal intermediate lengths mainly because:",
+          "options": {
+            "A": "All six are ordinary single bonds",
+            "B": "All six are isolated double bonds",
+            "C": "Pi electrons are delocalized around the ring",
+            "D": "The molecule is ionic"
+          },
+          "correctOption": "C",
+          "explanation": "A delocalized pi system spreads electron density over the ring, making all C-C bonds equivalent.",
+          "translations": {
+            "ur": {
+              "question": "benzene کے چھ carbon-carbon bonds کی لمبائی برابر اور درمیانی کیوں ہوتی ہے؟",
+              "options": {
+                "A": "تمام چھ عام single bonds ہیں",
+                "B": "تمام چھ الگ double bonds ہیں",
+                "C": "pi electrons پورے ring میں delocalized ہیں",
+                "D": "molecule ionic ہے"
+              },
+              "explanation": "delocalized pi system electron density کو ring میں پھیلاتا ہے، اس لیے تمام C-C bonds برابر ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "benzene جا ڇهه carbon-carbon bonds برابر ۽ وچولي ڊيگهه وارا ڇو آهن؟",
+              "options": {
+                "A": "سڀ ڇهه عام single bonds آهن",
+                "B": "سڀ ڇهه الڳ double bonds آهن",
+                "C": "pi electrons سڄي ring ۾ delocalized آهن",
+                "D": "molecule ionic آهي"
+              },
+              "explanation": "delocalized pi system electron density کي ring ۾ پکيڙي ٿو، تنهنڪري سڀ C-C bonds برابر آهن."
+            }
+          }
+        },
+        {
+          "question": "The benzene ring is best described as:",
+          "options": {
+            "A": "A non-planar chain",
+            "B": "A planar hexagon",
+            "C": "A tetrahedron",
+            "D": "A straight chain"
+          },
+          "correctOption": "B",
+          "explanation": "The six sp2-hybridized carbons form a planar hexagonal ring.",
+          "translations": {
+            "ur": {
+              "question": "benzene ring کی درست شکل کون سی ہے؟",
+              "options": {
+                "A": "غیر ہموار chain",
+                "B": "ہموار hexagon",
+                "C": "tetrahedron",
+                "D": "سیدھی chain"
+              },
+              "explanation": "چھ sp2-hybridized carbons ایک planar hexagonal ring بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "benzene ring جي صحيح شڪل ڪهڙي آهي؟",
+              "options": {
+                "A": "غير هموار chain",
+                "B": "هموار hexagon",
+                "C": "tetrahedron",
+                "D": "سڌي chain"
+              },
+              "explanation": "ڇهه sp2-hybridized carbons هڪ planar hexagonal ring ٺاهين ٿا."
+            }
+          }
+        },
+        {
+          "question": "A tetrahedral carbon is a chiral centre when it is attached to:",
+          "options": {
+            "A": "Four identical groups",
+            "B": "Two different groups only",
+            "C": "Four different groups",
+            "D": "Two double bonds"
+          },
+          "correctOption": "C",
+          "explanation": "Four different substituents make the tetrahedral carbon a stereogenic centre in the standard introductory test.",
+          "translations": {
+            "ur": {
+              "question": "tetrahedral carbon کب chiral centre ہوتا ہے؟",
+              "options": {
+                "A": "چار ایک جیسے گروپ ہوں",
+                "B": "صرف دو مختلف گروپ ہوں",
+                "C": "چار مختلف گروپ ہوں",
+                "D": "دو double bonds ہوں"
+              },
+              "explanation": "چار مختلف substituents tetrahedral carbon کو عام ابتدائی معیار کے مطابق stereogenic centre بناتے ہیں۔"
+            },
+            "sd": {
+              "question": "tetrahedral carbon ڪڏهن chiral centre هوندو آهي؟",
+              "options": {
+                "A": "چار ساڳيا گروپ هجن",
+                "B": "رڳو ٻه مختلف گروپ هجن",
+                "C": "چار مختلف گروپ هجن",
+                "D": "ٻه double bonds هجن"
+              },
+              "explanation": "چار مختلف substituents tetrahedral carbon کي عام بنيادي معيار موجب stereogenic centre بڻائين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Enantiomers are:",
+          "options": {
+            "A": "Identical molecules",
+            "B": "Non-superimposable mirror images",
+            "C": "Compounds with different formulae",
+            "D": "Always structural isomers"
+          },
+          "correctOption": "B",
+          "explanation": "Enantiomers have the same connectivity but are mirror images that cannot be superimposed.",
+          "translations": {
+            "ur": {
+              "question": "Enantiomers کیا ہوتے ہیں؟",
+              "options": {
+                "A": "بالکل ایک جیسے molecules",
+                "B": "ایسے mirror images جو ایک دوسرے پر مکمل نہیں آ سکتے",
+                "C": "مختلف formula والے compounds",
+                "D": "ہمیشہ structural isomers"
+              },
+              "explanation": "Enantiomers کی connectivity ایک جیسی ہوتی ہے مگر mirror images ایک دوسرے پر مکمل نہیں آتے۔"
+            },
+            "sd": {
+              "question": "Enantiomers ڇا هوندا آهن؟",
+              "options": {
+                "A": "بلڪل ساڳيا molecules",
+                "B": "اهڙا mirror images جيڪي هڪ ٻئي تي مڪمل نٿا اچي سگهن",
+                "C": "مختلف formula وارا compounds",
+                "D": "هميشه structural isomers"
+              },
+              "explanation": "Enantiomers جي connectivity ساڳي هوندي آهي پر mirror images هڪ ٻئي تي مڪمل نٿا اچي سگهن."
+            }
+          }
+        },
+        {
+          "question": "A pure sample of one enantiomer and its pure mirror-image partner rotate plane-polarized light:",
+          "options": {
+            "A": "In the same direction by the same amount",
+            "B": "In opposite directions by equal amounts under identical conditions",
+            "C": "Neither rotates it",
+            "D": "Only one rotates it"
+          },
+          "correctOption": "B",
+          "explanation": "Enantiomers have equal and opposite optical rotations under the same measurement conditions.",
+          "translations": {
+            "ur": {
+              "question": "ایک enantiomer اور اس کا خالص mirror-image partner plane-polarized light کو کیسے گھماتے ہیں؟",
+              "options": {
+                "A": "ایک ہی سمت میں برابر مقدار سے",
+                "B": "یکساں حالات میں مخالف سمتوں میں برابر مقدار سے",
+                "C": "دونوں نہیں گھماتے",
+                "D": "صرف ایک گھماتا ہے"
+              },
+              "explanation": "یکساں پیمائشی حالات میں enantiomers کی optical rotations برابر مگر مخالف ہوتی ہیں۔"
+            },
+            "sd": {
+              "question": "هڪ enantiomer ۽ ان جو خالص mirror-image partner plane-polarized light کي ڪيئن گهمائين ٿا؟",
+              "options": {
+                "A": "ساڳئي رخ ۾ برابر مقدار سان",
+                "B": "ساڳين حالتن ۾ ابتڙ رخن ۾ برابر مقدار سان",
+                "C": "ٻئي نٿا گهمائين",
+                "D": "رڳو هڪ گهمائي ٿو"
+              },
+              "explanation": "ساڳين ماپ وارين حالتن ۾ enantiomers جون optical rotations برابر پر ابتڙ هونديون آهن."
+            }
+          }
+        },
+        {
+          "question": "A 1:1 racemic mixture is optically inactive because:",
+          "options": {
+            "A": "It contains no chiral molecules",
+            "B": "Opposite rotations of equal enantiomer amounts cancel",
+            "C": "The molecules have no bonds",
+            "D": "Its molecular formula changes"
+          },
+          "correctOption": "B",
+          "explanation": "A racemate contains both chiral enantiomers in equal amounts, so their rotations cancel overall.",
+          "translations": {
+            "ur": {
+              "question": "1:1 racemic mixture optically inactive کیوں ہوتی ہے؟",
+              "options": {
+                "A": "اس میں chiral molecules نہیں ہوتے",
+                "B": "برابر مقدار والے enantiomers کی مخالف rotations ختم ہو جاتی ہیں",
+                "C": "molecules میں bonds نہیں ہوتے",
+                "D": "اس کا molecular formula بدل جاتا ہے"
+              },
+              "explanation": "racemate میں دونوں chiral enantiomers برابر مقدار میں ہوتے ہیں، اس لیے ان کی rotations مجموعی طور پر ختم ہو جاتی ہیں۔"
+            },
+            "sd": {
+              "question": "1:1 racemic mixture optically inactive ڇو هوندي آهي؟",
+              "options": {
+                "A": "ان ۾ chiral molecules ناهن",
+                "B": "برابر مقدار وارن enantiomers جون ابتڙ rotations ختم ٿين ٿيون",
+                "C": "molecules ۾ bonds ناهن",
+                "D": "ان جو molecular formula بدلجي ٿو"
+              },
+              "explanation": "racemate ۾ ٻئي chiral enantiomers برابر مقدار ۾ هوندا آهن، تنهنڪري انهن جون rotations مجموعي طور ختم ٿين ٿيون."
+            }
+          }
+        },
+        {
+          "question": "A meso compound is optically inactive mainly because it:",
+          "options": {
+            "A": "Contains no carbon",
+            "B": "Has an internal symmetry that makes it achiral",
+            "C": "Is always a racemic mixture",
+            "D": "Has no stereogenic centres"
+          },
+          "correctOption": "B",
+          "explanation": "A meso compound can contain stereogenic centres but is achiral overall due to internal symmetry.",
+          "translations": {
+            "ur": {
+              "question": "meso compound بنیادی طور optically inactive کیوں ہوتا ہے؟",
+              "options": {
+                "A": "اس میں carbon نہیں ہوتا",
+                "B": "اس میں اندرونی symmetry ہوتی ہے جو اسے achiral بناتی ہے",
+                "C": "یہ ہمیشہ racemic mixture ہوتا ہے",
+                "D": "اس میں stereogenic centres نہیں ہوتے"
+              },
+              "explanation": "meso compound میں stereogenic centres ہو سکتے ہیں مگر اندرونی symmetry کی وجہ سے پورا molecule achiral ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "meso compound بنيادي طور optically inactive ڇو هوندو آهي؟",
+              "options": {
+                "A": "ان ۾ carbon ناهي",
+                "B": "ان ۾ اندروني symmetry آهي جيڪا ان کي achiral بڻائي ٿي",
+                "C": "اهو هميشه racemic mixture آهي",
+                "D": "ان ۾ stereogenic centres ناهن"
+              },
+              "explanation": "meso compound ۾ stereogenic centres ٿي سگهن ٿا پر اندروني symmetry سبب سڄو molecule achiral هوندو آهي."
+            }
+          }
+        },
+        {
+          "question": "Which statement correctly distinguishes a meso compound from a racemic mixture?",
+          "options": {
+            "A": "Both are mixtures of two enantiomers",
+            "B": "A meso compound is one achiral species; a racemate is an equal mixture of two enantiomers",
+            "C": "A racemate has only one molecule",
+            "D": "A meso compound must rotate light"
+          },
+          "correctOption": "B",
+          "explanation": "Meso inactivity is due to symmetry within each molecule; racemic inactivity is due to cancellation between molecules.",
+          "translations": {
+            "ur": {
+              "question": "meso compound اور racemic mixture میں درست فرق کون سا ہے؟",
+              "options": {
+                "A": "دونوں دو enantiomers کے mixture ہیں",
+                "B": "meso ایک achiral species ہے؛ racemate دو enantiomers کا برابر mixture ہے",
+                "C": "racemate میں صرف ایک molecule ہے",
+                "D": "meso لازماً روشنی گھماتا ہے"
+              },
+              "explanation": "meso کی inactivity ہر molecule کی اندرونی symmetry سے اور racemate کی inactivity دو enantiomers کی باہمی cancellation سے ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "meso compound ۽ racemic mixture ۾ صحيح فرق ڪهڙو آهي؟",
+              "options": {
+                "A": "ٻئي ٻن enantiomers جا mixture آهن",
+                "B": "meso هڪ achiral species آهي؛ racemate ٻن enantiomers جو برابر mixture آهي",
+                "C": "racemate ۾ رڳو هڪ molecule آهي",
+                "D": "meso لازمي روشني گهمائي ٿو"
+              },
+              "explanation": "meso جي inactivity هر molecule جي اندروني symmetry سبب ۽ racemate جي inactivity ٻن enantiomers جي هڪ ٻئي کي ختم ڪرڻ سبب آهي."
+            }
+          }
+        },
+        {
+          "question": "Which carbon in 2-butanol, CH3–CH(OH)–CH2CH3, is chiral?",
+          "options": {
+            "A": "The terminal CH3 carbon",
+            "B": "The CH(OH) carbon",
+            "C": "The terminal CH3CH2 carbon",
+            "D": "No carbon is chiral"
+          },
+          "correctOption": "B",
+          "explanation": "The CH(OH) carbon is attached to H, OH, CH3 and CH2CH3, four different groups.",
+          "translations": {
+            "ur": {
+              "question": "2-butanol، CH₃–CH(OH)–CH₂CH₃، میں کون سا carbon chiral ہے؟",
+              "options": {
+                "A": "آخری CH₃ carbon",
+                "B": "CH(OH) carbon",
+                "C": "آخری CH₃CH₂ carbon",
+                "D": "کوئی carbon chiral نہیں"
+              },
+              "explanation": "CH(OH) carbon کے ساتھ H، OH، CH₃ اور CH₂CH₃ چار مختلف گروپ جڑے ہیں۔"
+            },
+            "sd": {
+              "question": "2-butanol، CH₃–CH(OH)–CH₂CH₃، ۾ ڪهڙو carbon chiral آهي؟",
+              "options": {
+                "A": "آخري CH₃ carbon",
+                "B": "CH(OH) carbon",
+                "C": "آخري CH₃CH₂ carbon",
+                "D": "ڪو به carbon chiral ناهي"
+              },
+              "explanation": "CH(OH) carbon سان H، OH، CH₃ ۽ CH₂CH₃ چار مختلف گروپ ڳنڍيل آهن."
+            }
+          }
+        },
+        {
+          "question": "The instrument commonly used to measure optical rotation is a:",
+          "options": {
+            "A": "Calorimeter",
+            "B": "Polarimeter",
+            "C": "Barometer",
+            "D": "Colorimeter"
+          },
+          "correctOption": "B",
+          "explanation": "A polarimeter measures the angle through which plane-polarized light is rotated.",
+          "translations": {
+            "ur": {
+              "question": "optical rotation ناپنے کے لیے کون سا آلہ استعمال ہوتا ہے؟",
+              "options": {
+                "A": "calorimeter",
+                "B": "polarimeter",
+                "C": "barometer",
+                "D": "colorimeter"
+              },
+              "explanation": "polarimeter plane-polarized light کے گھومنے کا زاویہ ناپتا ہے۔"
+            },
+            "sd": {
+              "question": "optical rotation ماپڻ لاءِ ڪهڙو اوزار استعمال ٿيندو آهي؟",
+              "options": {
+                "A": "calorimeter",
+                "B": "polarimeter",
+                "C": "barometer",
+                "D": "colorimeter"
+              },
+              "explanation": "polarimeter plane-polarized light جي ڦرڻ جو زاويه ماپي ٿو."
+            }
+          }
+        },
+        {
+          "question": "A chiral catalyst is useful in synthesis because it can:",
+          "options": {
+            "A": "Make every product achiral",
+            "B": "Favour formation of one enantiomer over the other",
+            "C": "Remove all carbon atoms",
+            "D": "Stop all chemical reactions"
+          },
+          "correctOption": "B",
+          "explanation": "A chiral catalyst can create different transition-state energies and favour one enantiomer, giving an enantioenriched product.",
+          "translations": {
+            "ur": {
+              "question": "chiral catalyst synthesis میں کیوں مفید ہوتا ہے؟",
+              "options": {
+                "A": "ہر product کو achiral بناتا ہے",
+                "B": "ایک enantiomer کی تشکیل کو دوسرے پر ترجیح دے سکتا ہے",
+                "C": "تمام carbon atoms ختم کرتا ہے",
+                "D": "تمام chemical reactions روک دیتا ہے"
+              },
+              "explanation": "chiral catalyst مختلف transition-state energies پیدا کر کے ایک enantiomer کو ترجیح دے سکتا ہے۔"
+            },
+            "sd": {
+              "question": "chiral catalyst synthesis ۾ ڇو فائديمند آهي؟",
+              "options": {
+                "A": "هر product کي achiral بڻائي ٿو",
+                "B": "هڪ enantiomer جي ٺهڻ کي ٻئي کان وڌيڪ ترجيح ڏئي سگهي ٿو",
+                "C": "سڀ carbon atoms ختم ڪري ٿو",
+                "D": "سڀ chemical reactions روڪي ٿو"
+              },
+              "explanation": "chiral catalyst مختلف transition-state energies پيدا ڪري هڪ enantiomer کي ترجيح ڏئي سگهي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Thalidomide is used in teaching stereochemistry because:",
+          "options": {
+            "A": "Its stereochemistry has no biological relevance",
+            "B": "Its enantiomers can have different biological interactions and the forms can interconvert in the body",
+            "C": "It has no stereogenic centre",
+            "D": "It is a simple inorganic salt"
+          },
+          "correctOption": "B",
+          "explanation": "Thalidomide illustrates why enantiomeric activity and in-body interconversion must be considered; it is not safe to assume one isolated form removes all risk.",
+          "translations": {
+            "ur": {
+              "question": "thalidomide کو stereochemistry پڑھانے میں مثال کیوں بنایا جاتا ہے؟",
+              "options": {
+                "A": "اس کی stereochemistry کا biological اثر نہیں",
+                "B": "اس کے enantiomers کے biological interactions مختلف ہو سکتے ہیں اور جسم میں شکلیں بدل سکتی ہیں",
+                "C": "اس میں stereogenic centre نہیں",
+                "D": "یہ سادہ inorganic salt ہے"
+              },
+              "explanation": "thalidomide یہ دکھاتا ہے کہ enantiomeric activity اور جسم میں interconversion دونوں اہم ہیں؛ ایک شکل کو الگ کرنے سے تمام خطرہ ختم سمجھنا درست نہیں۔"
+            },
+            "sd": {
+              "question": "thalidomide کي stereochemistry پڙهائڻ ۾ مثال ڇو بڻايو ويندو آهي؟",
+              "options": {
+                "A": "ان جي stereochemistry جو biological اثر ناهي",
+                "B": "ان جي enantiomers جا biological interactions مختلف ٿي سگهن ٿا ۽ جسم ۾ صورتون بدلجي سگهن ٿيون",
+                "C": "ان ۾ stereogenic centre ناهي",
+                "D": "اهو سادو inorganic salt آهي"
+              },
+              "explanation": "thalidomide ڏيکاري ٿو ته enantiomeric activity ۽ جسم اندر interconversion ٻئي اهم آهن؛ هڪ صورت الڳ ڪرڻ سان سڀ خطرا ختم سمجهڻ درست ناهي."
+            }
+          }
+        },
+        {
+          "question": "Separating the two enantiomers from a racemic mixture is called:",
+          "options": {
+            "A": "Cracking",
+            "B": "Resolution",
+            "C": "Hydrogenation",
+            "D": "Polymerization"
+          },
+          "correctOption": "B",
+          "explanation": "Resolution is the separation of enantiomers from a racemate, often using a chiral resolving agent or chiral separation method.",
+          "translations": {
+            "ur": {
+              "question": "racemic mixture سے دونوں enantiomers کو الگ کرنے کے عمل کو کیا کہتے ہیں؟",
+              "options": {
+                "A": "cracking",
+                "B": "resolution",
+                "C": "hydrogenation",
+                "D": "polymerization"
+              },
+              "explanation": "resolution وہ عمل ہے جس میں racemate سے enantiomers الگ کیے جاتے ہیں، مثلاً chiral resolving agent کے ذریعے۔"
+            },
+            "sd": {
+              "question": "racemic mixture مان ٻنهي enantiomers کي الڳ ڪرڻ واري عمل کي ڇا چوندا آهن؟",
+              "options": {
+                "A": "cracking",
+                "B": "resolution",
+                "C": "hydrogenation",
+                "D": "polymerization"
+              },
+              "explanation": "resolution اهو عمل آهي جنهن ۾ racemate مان enantiomers الڳ ڪيا وڃن ٿا، مثال طور chiral resolving agent سان."
+            }
+          }
+        },
+        {
+          "question": "The extra stability of benzene is best explained by:",
+          "options": {
+            "A": "Three isolated pi bonds",
+            "B": "Delocalization of six pi electrons over the ring",
+            "C": "Ionic bonding between carbon atoms",
+            "D": "A tetrahedral carbon framework"
+          },
+          "correctOption": "B",
+          "explanation": "Six pi electrons are delocalized across the planar ring, providing resonance stabilization and equivalent C-C bonds.",
+          "translations": {
+            "ur": {
+              "question": "benzene کا اضافی استحکام کس وجہ سے ہے؟",
+              "options": {
+                "A": "تین الگ pi bonds",
+                "B": "چھ pi electrons کا پورے ring میں delocalization",
+                "C": "carbon atoms کے درمیان ionic bonding",
+                "D": "tetrahedral carbon framework"
+              },
+              "explanation": "چھ pi electrons planar ring میں delocalized ہوتے ہیں، جس سے resonance stabilization اور برابر C-C bonds پیدا ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "benzene جي اضافي stability جو بهترين سبب ڪهڙو آهي؟",
+              "options": {
+                "A": "ٽي الڳ pi bonds",
+                "B": "ڇهن pi electrons جو سڄي ring ۾ delocalization",
+                "C": "carbon atoms جي وچ ۾ ionic bonding",
+                "D": "tetrahedral carbon framework"
+              },
+              "explanation": "ڇهه pi electrons planar ring ۾ delocalized آهن، جنهن سان resonance stabilization ۽ برابر C-C bonds پيدا ٿين ٿا."
             }
           }
         }
@@ -2632,161 +2815,306 @@
       "writtenQuestions": [
         {
           "type": "crq",
-          "marks": 3,
-          "question": "Define carbon bonding and give one example.",
-          "modelAnswer": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "marks": 4,
+          "question": "Define stereoisomerism and distinguish it from structural isomerism.",
+          "modelAnswer": "Stereoisomers have the same molecular formula and the same atom-to-atom connectivity but differ in three-dimensional arrangement. Structural isomers have the same molecular formula but different connectivity.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
+            "Defines same connectivity for stereoisomers (2)",
+            "States different spatial arrangement (1)",
+            "Contrasts structural isomers as different connectivity (1)"
           ],
           "translations": {
             "ur": {
-              "question": "carbon bonding کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "stereoisomerism کی تعریف دیں اور اسے structural isomerism سے مختلف بیان کریں۔",
+              "modelAnswer": "Stereoisomers کا molecular formula اور atom-to-atom connectivity ایک جیسی ہوتی ہے مگر تین جہتی ترتیب مختلف ہوتی ہے۔ Structural isomers کا molecular formula ایک جیسا مگر connectivity مختلف ہوتی ہے۔",
               "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "stereoisomers کی same connectivity بیان کرے (2)",
+                "مختلف spatial arrangement بتائے (1)",
+                "structural isomers کی مختلف connectivity بتائے (1)"
               ]
             },
             "sd": {
-              "question": "carbon bonding جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "carbon bonding: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "stereoisomerism جي تعريف ڏيو ۽ ان کي structural isomerism کان مختلف بيان ڪريو.",
+              "modelAnswer": "Stereoisomers جو molecular formula ۽ atom-to-atom connectivity ساڳيو هوندو آهي پر ٽن پاسن واري ترتيب مختلف هوندي آهي. Structural isomers جو molecular formula ساڳيو پر connectivity مختلف هوندي آهي.",
               "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "stereoisomers جي ساڳي connectivity بيان ڪري (2)",
+                "مختلف spatial arrangement ٻڌائي (1)",
+                "structural isomers جي مختلف connectivity ٻڌائي (1)"
               ]
             }
           }
         },
         {
           "type": "crq",
-          "marks": 3,
-          "question": "Define homologous series and give one example.",
-          "modelAnswer": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "marks": 4,
+          "question": "Explain why but-2-ene has cis/trans isomers but but-1-ene does not.",
+          "modelAnswer": "In but-2-ene, each carbon of C=C has two different groups (H and CH3), so two geometrical arrangements are possible. In but-1-ene, the terminal double-bond carbon has two identical H atoms, so the condition for cis/trans isomerism is not met.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
+            "Identifies the requirement: two different groups on each C (1)",
+            "Applies it correctly to but-2-ene (1)",
+            "Identifies two H atoms on terminal carbon of but-1-ene (1)",
+            "Correct conclusion (1)"
           ],
           "translations": {
             "ur": {
-              "question": "homologous series کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "وضاحت کریں کہ but-2-ene میں cis/trans isomers کیوں ہوتے ہیں مگر but-1-ene میں کیوں نہیں۔",
+              "modelAnswer": "but-2-ene میں C=C کے ہر carbon کے ساتھ دو مختلف گروپ (H اور CH₃) ہیں، اس لیے دو geometrical arrangements ممکن ہیں۔ but-1-ene میں آخری double-bond carbon کے ساتھ دو ایک جیسے H atoms ہیں، اس لیے cis/trans کی شرط پوری نہیں ہوتی۔",
               "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "ہر C کے ساتھ دو مختلف گروپ ہونے کی شرط (1)",
+                "but-2-ene پر درست اطلاق (1)",
+                "but-1-ene کے آخری carbon پر دو H کی شناخت (1)",
+                "درست نتیجہ (1)"
               ]
             },
             "sd": {
-              "question": "homologous series جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "homologous series: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "وضاحت ڪريو ته but-2-ene ۾ cis/trans isomers ڇو آهن پر but-1-ene ۾ ڇو ناهن.",
+              "modelAnswer": "but-2-ene ۾ C=C جي هر carbon سان ٻه مختلف گروپ (H ۽ CH₃) آهن، تنهنڪري ٻه geometrical arrangements ممڪن آهن. but-1-ene ۾ آخري double-bond carbon سان ٻه ساڳيا H atoms آهن، تنهنڪري cis/trans جي شرط پوري نٿي ٿئي.",
               "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "هر C سان ٻه مختلف گروپ هجڻ جي شرط (1)",
+                "but-2-ene تي صحيح لاڳو ڪري (1)",
+                "but-1-ene جي آخري carbon تي ٻه H سڃاڻي (1)",
+                "صحيح نتيجو (1)"
               ]
             }
           }
         },
         {
           "type": "crq",
-          "marks": 3,
-          "question": "Define organic reactivity and give one example.",
-          "modelAnswer": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "marks": 4,
+          "question": "Describe the bonding and shape of benzene.",
+          "modelAnswer": "Benzene is a planar hexagonal ring. Each carbon is sp2 hybridized and forms three sigma bonds. Each carbon has one unhybridized p orbital; sideways overlap of the six p orbitals creates a delocalized pi system above and below the ring. The six C-C bonds are equivalent.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
+            "Planar hexagonal ring (1)",
+            "sp2 carbon and three sigma bonds (1)",
+            "Six p orbitals form delocalized pi system (1)",
+            "Equivalent C-C bond lengths (1)"
           ],
           "translations": {
             "ur": {
-              "question": "organic reactivity کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "benzene کی bonding اور شکل بیان کریں۔",
+              "modelAnswer": "Benzene ایک planar hexagonal ring ہے۔ ہر carbon sp2 hybridized ہوتا ہے اور تین sigma bonds بناتا ہے۔ ہر carbon کے پاس ایک unhybridized p orbital ہوتا ہے؛ چھ p orbitals کا overlap ring کے اوپر اور نیچے delocalized pi system بناتا ہے۔ چھ C-C bonds برابر ہوتے ہیں۔",
               "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "planar hexagonal ring (1)",
+                "sp2 carbon اور تین sigma bonds (1)",
+                "چھ p orbitals سے delocalized pi system (1)",
+                "برابر C-C bond lengths (1)"
               ]
             },
             "sd": {
-              "question": "organic reactivity جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "organic reactivity: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "benzene جي bonding ۽ شڪل بيان ڪريو.",
+              "modelAnswer": "Benzene هڪ planar hexagonal ring آهي. هر carbon sp2 hybridized هوندو آهي ۽ ٽي sigma bonds ٺاهيندو آهي. هر carbon وٽ هڪ unhybridized p orbital هوندو آهي؛ ڇهن p orbitals جو overlap ring جي مٿان ۽ هيٺ delocalized pi system ٺاهي ٿو. ڇهه C-C bonds برابر هوندا آهن.",
               "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
+                "planar hexagonal ring (1)",
+                "sp2 carbon ۽ ٽي sigma bonds (1)",
+                "ڇهن p orbitals مان delocalized pi system (1)",
+                "برابر C-C bond lengths (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Identify the chiral centre in 2-butanol and explain why the molecule has enantiomers.",
+          "modelAnswer": "The second carbon in CH3–CH(OH)–CH2CH3 is attached to H, OH, CH3 and CH2CH3, four different groups. It is a chiral centre. The two arrangements are non-superimposable mirror images called enantiomers.",
+          "rubric": [
+            "Correct carbon identified (1)",
+            "Lists four different groups (2)",
+            "Defines the pair as non-superimposable mirror images (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "2-butanol میں chiral centre کی شناخت کریں اور بتائیں کہ molecule میں enantiomers کیوں ہوتے ہیں۔",
+              "modelAnswer": "CH₃–CH(OH)–CH₂CH₃ میں دوسرا carbon، H، OH، CH₃ اور CH₂CH₃ چار مختلف گروپوں سے جڑا ہے۔ یہ chiral centre ہے۔ دونوں ترتیبیں non-superimposable mirror images ہیں جنہیں enantiomers کہتے ہیں۔",
+              "rubric": [
+                "درست carbon کی شناخت (1)",
+                "چار مختلف گروپ لکھے (2)",
+                "جوڑے کو non-superimposable mirror images بتائے (1)"
+              ]
+            },
+            "sd": {
+              "question": "2-butanol ۾ chiral centre سڃاڻو ۽ ٻڌايو ته molecule ۾ enantiomers ڇو آهن.",
+              "modelAnswer": "CH₃–CH(OH)–CH₂CH₃ ۾ ٻيو carbon، H، OH، CH₃ ۽ CH₂CH₃ چئن مختلف گروپن سان ڳنڍيل آهي. اهو chiral centre آهي. ٻئي ترتيبون non-superimposable mirror images آهن، جن کي enantiomers چوندا آهن.",
+              "rubric": [
+                "صحيح carbon سڃاڻي (1)",
+                "چار مختلف گروپ لکي (2)",
+                "جوڙي کي non-superimposable mirror images ٻڌائي (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Compare the optical inactivity of a meso compound with that of a racemic mixture.",
+          "modelAnswer": "A meso compound is a single achiral molecule with stereogenic centres and internal symmetry; its mirror image is superimposable. A racemic mixture contains equal amounts of two chiral enantiomers whose opposite rotations cancel. Both show zero net optical rotation for different reasons.",
+          "rubric": [
+            "Meso compound: one achiral species with internal symmetry (2)",
+            "Racemate: equal enantiomer amounts (1)",
+            "Explains cancellation and distinguishes the reasons (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "meso compound اور racemic mixture کی optical inactivity کا موازنہ کریں۔",
+              "modelAnswer": "meso compound ایک واحد achiral molecule ہے جس میں stereogenic centres اور اندرونی symmetry ہوتی ہے؛ اس کا mirror image اسی پر آ سکتا ہے۔ racemic mixture میں دو chiral enantiomers برابر مقدار میں ہوتے ہیں جن کی مخالف rotations ختم ہو جاتی ہیں۔ دونوں کی net optical rotation صفر ہے مگر وجوہات مختلف ہیں۔",
+              "rubric": [
+                "meso compound: اندرونی symmetry والی ایک achiral species (2)",
+                "racemate: enantiomers کی برابر مقدار (1)",
+                "cancellation اور وجوہات کا فرق واضح کرے (1)"
+              ]
+            },
+            "sd": {
+              "question": "meso compound ۽ racemic mixture جي optical inactivity جو مقابلو ڪريو.",
+              "modelAnswer": "meso compound هڪ واحد achiral molecule آهي، جنهن ۾ stereogenic centres ۽ اندروني symmetry هوندي آهي؛ ان جو mirror image ساڳئي مٿان اچي سگهي ٿو. racemic mixture ۾ ٻن chiral enantiomers جي برابر مقدار هوندي آهي، جن جون ابتڙ rotations ختم ٿين ٿيون. ٻنهي جي net optical rotation صفر آهي پر سبب مختلف آهن.",
+              "rubric": [
+                "meso compound: اندروني symmetry واري هڪ achiral species (2)",
+                "racemate: enantiomers جي برابر مقدار (1)",
+                "cancellation ۽ سببن جو فرق واضح ڪري (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Explain why two enantiomers may have different biological activity even though many of their ordinary physical properties are the same.",
+          "modelAnswer": "Biological targets such as enzymes and receptors are chiral three-dimensional structures. The two enantiomers can fit differently into a chiral binding site, leading to different binding strength, metabolism or biological effects. In an achiral environment their ordinary physical properties are generally the same, apart from optical rotation.",
+          "rubric": [
+            "Identifies chiral biological targets (1)",
+            "Explains different fit/binding (1)",
+            "Links to different biological effect or metabolism (1)",
+            "Notes similar ordinary properties in achiral environments (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "وضاحت کریں کہ دو enantiomers کی عام physical properties ایک جیسی ہونے کے باوجود biological activity مختلف کیوں ہو سکتی ہے۔",
+              "modelAnswer": "Enzymes اور receptors جیسے biological targets تین جہتی اور chiral ہوتے ہیں۔ دونوں enantiomers chiral binding site میں مختلف انداز سے fit ہو سکتے ہیں، جس سے binding strength، metabolism یا biological effects مختلف ہو سکتے ہیں۔ achiral ماحول میں optical rotation کے علاوہ ان کی عام physical properties عموماً ایک جیسی ہوتی ہیں۔",
+              "rubric": [
+                "chiral biological targets کی شناخت (1)",
+                "مختلف fit/binding کی وضاحت (1)",
+                "مختلف biological effect یا metabolism سے تعلق (1)",
+                "achiral ماحول میں عام properties کی مماثلت (1)"
+              ]
+            },
+            "sd": {
+              "question": "وضاحت ڪريو ته ٻن enantiomers جون عام physical properties ساڳيون هجڻ باوجود biological activity مختلف ڇو ٿي سگهي ٿي.",
+              "modelAnswer": "Enzymes ۽ receptors جهڙا biological targets ٽن پاسن وارا ۽ chiral هوندا آهن. ٻئي enantiomers chiral binding site ۾ مختلف نموني fit ٿي سگهن ٿا، جنهن سان binding strength، metabolism يا biological effects مختلف ٿي سگهن ٿا. achiral ماحول ۾ optical rotation کان سواءِ انهن جون عام physical properties عام طور ساڳيون هونديون آهن.",
+              "rubric": [
+                "chiral biological targets جي سڃاڻپ (1)",
+                "مختلف fit/binding جي وضاحت (1)",
+                "مختلف biological effect يا metabolism سان تعلق (1)",
+                "achiral ماحول ۾ عام properties جي هڪجهڙائي (1)"
               ]
             }
           }
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain functional groups with its principle, features and applications.",
-          "modelAnswer": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "marks": 6,
+          "question": "Explain geometrical isomerism in alkenes. Include the role of the pi bond, the condition required on each carbon of C=C, and the difference between cis and trans forms.",
+          "modelAnswer": "A C=C bond contains one sigma and one pi bond. Sideways overlap of p orbitals forms the pi bond; rotation would disrupt this overlap, so rotation is restricted. Each carbon of C=C must have two different substituents for cis/trans isomerism. In a cis isomer, the selected matching groups lie on the same side; in a trans isomer they lie on opposite sides. But-2-ene is an example because each double-bond carbon has H and CH3.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
+            "Explains sigma/pi bonding and restricted rotation (2)",
+            "States two different substituents on each C (1)",
+            "Defines cis arrangement (1)",
+            "Defines trans arrangement (1)",
+            "Gives a valid example (1)"
           ],
           "translations": {
             "ur": {
-              "question": "functional groups کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "alkenes میں geometrical isomerism کی وضاحت کریں۔ pi bond کا کردار، C=C کے ہر carbon پر ضروری شرط، اور cis اور trans شکلوں کا فرق شامل کریں۔",
+              "modelAnswer": "C=C bond میں ایک sigma اور ایک pi bond ہوتا ہے۔ p orbitals کا sideways overlap pi bond بناتا ہے؛ rotation سے یہ overlap ٹوٹے گا، اس لیے rotation محدود ہوتی ہے۔ cis/trans isomerism کے لیے C=C کے ہر carbon کے ساتھ دو مختلف substituents ہونا ضروری ہے۔ cis میں منتخب گروپ ایک ہی طرف اور trans میں مخالف طرف ہوتے ہیں۔ but-2-ene مثال ہے کیونکہ ہر double-bond carbon کے ساتھ H اور CH₃ ہے۔",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
+                "sigma/pi bonding اور محدود rotation کی وضاحت (2)",
+                "ہر C پر دو مختلف substituents کی شرط (1)",
+                "cis ترتیب کی تعریف (1)",
+                "trans ترتیب کی تعریف (1)",
+                "درست مثال (1)"
               ]
             },
             "sd": {
-              "question": "functional groups جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "functional groups: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "alkenes ۾ geometrical isomerism جي وضاحت ڪريو. pi bond جو ڪردار، C=C جي هر carbon تي ضروري شرط، ۽ cis ۽ trans صورتن جو فرق شامل ڪريو.",
+              "modelAnswer": "C=C bond ۾ هڪ sigma ۽ هڪ pi bond هوندو آهي. p orbitals جو sideways overlap pi bond ٺاهي ٿو؛ rotation سان اهو overlap ٽٽي پوندو، تنهنڪري rotation محدود آهي. cis/trans isomerism لاءِ C=C جي هر carbon سان ٻه مختلف substituents هجڻ ضروري آهن. cis ۾ چونڊيل گروپ ساڳئي پاسي ۽ trans ۾ ابتڙ پاسن تي هوندا آهن. but-2-ene مثال آهي، ڇاڪاڻ ته هر double-bond carbon سان H ۽ CH₃ آهن.",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
+                "sigma/pi bonding ۽ محدود rotation جي وضاحت (2)",
+                "هر C تي ٻه مختلف substituents جي شرط (1)",
+                "cis ترتيب جي تعريف (1)",
+                "trans ترتيب جي تعريف (1)",
+                "صحيح مثال (1)"
               ]
             }
           }
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain structural isomerism with its principle, features and applications.",
-          "modelAnswer": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
+          "marks": 6,
+          "question": "Describe the structure and bonding of benzene and explain how delocalization accounts for its stability and equal carbon-carbon bond lengths.",
+          "modelAnswer": "Benzene is a planar hexagonal ring. Each carbon is sp2 hybridized and forms three sigma bonds: two C-C and one C-H. Each carbon retains one unhybridized p orbital perpendicular to the ring. Sideways overlap of all six p orbitals creates a delocalized pi system with six electrons above and below the ring. The electrons are shared around the ring, so all six C-C bonds are equivalent and intermediate in length. Delocalization lowers the energy and provides resonance stabilization.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
+            "Planar hexagonal structure (1)",
+            "sp2 hybridization and sigma framework (2)",
+            "p-orbital overlap and six delocalized pi electrons (1)",
+            "Explains equivalent bond lengths (1)",
+            "Explains resonance stabilization (1)"
           ],
           "translations": {
             "ur": {
-              "question": "structural isomerism کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "benzene کی ساخت اور bonding بیان کریں اور وضاحت کریں کہ delocalization اس کے استحکام اور برابر carbon-carbon bond lengths کی وجہ کیسے بنتی ہے۔",
+              "modelAnswer": "Benzene ایک planar hexagonal ring ہے۔ ہر carbon sp2 hybridized ہوتا ہے اور تین sigma bonds بناتا ہے: دو C-C اور ایک C-H۔ ہر carbon کے پاس ring کے عمود ایک unhybridized p orbital رہتا ہے۔ چھ p orbitals کا overlap ring کے اوپر اور نیچے چھ electrons والا delocalized pi system بناتا ہے۔ electrons پورے ring میں مشترک ہوتے ہیں، اس لیے چھ C-C bonds برابر اور درمیانی لمبائی کے ہوتے ہیں۔ delocalization توانائی کم کر کے resonance stabilization دیتی ہے۔",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
+                "planar hexagonal ساخت (1)",
+                "sp2 hybridization اور sigma framework (2)",
+                "p-orbital overlap اور چھ delocalized pi electrons (1)",
+                "برابر bond lengths کی وضاحت (1)",
+                "resonance stabilization کی وضاحت (1)"
               ]
             },
             "sd": {
-              "question": "structural isomerism جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "structural isomerism: explain its structure, characteristic properties, key reactions and a relevant application.",
+              "question": "benzene جي ساخت ۽ bonding بيان ڪريو ۽ وضاحت ڪريو ته delocalization ان جي stability ۽ برابر carbon-carbon bond lengths جو سبب ڪيئن بڻجي ٿي.",
+              "modelAnswer": "Benzene هڪ planar hexagonal ring آهي. هر carbon sp2 hybridized هوندو آهي ۽ ٽي sigma bonds ٺاهيندو آهي: ٻه C-C ۽ هڪ C-H. هر carbon وٽ ring جي عمود هڪ unhybridized p orbital رهندو آهي. ڇهن p orbitals جو overlap ring جي مٿان ۽ هيٺ ڇهن electrons وارو delocalized pi system ٺاهي ٿو. electrons سڄي ring ۾ گڏيل آهن، تنهنڪري ڇهه C-C bonds برابر ۽ وچولي ڊيگهه وارا آهن. delocalization توانائي گهٽائي resonance stabilization ڏئي ٿي.",
               "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
+                "planar hexagonal ساخت (1)",
+                "sp2 hybridization ۽ sigma framework (2)",
+                "p-orbital overlap ۽ ڇهه delocalized pi electrons (1)",
+                "برابر bond lengths جي وضاحت (1)",
+                "resonance stabilization جي وضاحت (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 6,
+          "question": "Discuss why chirality is important in drug development. Include enantiomeric biological activity, racemic mixtures, resolution, chiral catalysts and the lesson from thalidomide.",
+          "modelAnswer": "Enzymes and receptors are chiral, so enantiomers of a drug can bind differently and have different effects, metabolism or toxicity. A racemic mixture contains equal amounts of both enantiomers and can be separated by resolution. A chiral catalyst or reagent can favour synthesis of one enantiomer, producing an enantioenriched product. Thalidomide is a warning example: its enantiomers have different biological interactions, but the forms can interconvert in the body, so isolating one form cannot automatically be assumed to eliminate risk. Drug development must test stereochemistry, metabolism, dose and safety.",
+          "rubric": [
+            "Explains chiral biological targets and differing effects (2)",
+            "Defines racemate and resolution (1)",
+            "Explains chiral catalyst role (1)",
+            "Uses thalidomide accurately, including interconversion caution (1)",
+            "States need for testing safety/metabolism (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "دوا سازی میں chirality کی اہمیت پر بحث کریں۔ enantiomers کی biological activity، racemic mixtures، resolution، chiral catalysts اور thalidomide سے حاصل ہونے والا سبق شامل کریں۔",
+              "modelAnswer": "Enzymes اور receptors chiral ہوتے ہیں، اس لیے دوا کے enantiomers مختلف انداز سے bind کر سکتے ہیں اور ان کے effects، metabolism یا toxicity مختلف ہو سکتے ہیں۔ racemic mixture میں دونوں enantiomers برابر ہوتے ہیں اور resolution سے الگ کیے جا سکتے ہیں۔ chiral catalyst یا reagent ایک enantiomer کی synthesis کو ترجیح دے کر enantioenriched product بنا سکتا ہے۔ thalidomide احتیاط کی مثال ہے: اس کے enantiomers کے biological interactions مختلف ہیں مگر جسم میں صورتیں ایک دوسرے میں بدل سکتی ہیں، اس لیے ایک شکل الگ کرنے سے خطرہ خودبخود ختم نہیں سمجھنا چاہیے۔ دوا کی تیاری میں stereochemistry، metabolism، dose اور safety کی جانچ ضروری ہے۔",
+              "rubric": [
+                "chiral biological targets اور مختلف effects کی وضاحت (2)",
+                "racemate اور resolution کی تعریف (1)",
+                "chiral catalyst کا کردار (1)",
+                "thalidomide اور جسم میں interconversion کی درست وضاحت (1)",
+                "safety/metabolism کی جانچ کی ضرورت (1)"
+              ]
+            },
+            "sd": {
+              "question": "دوائن جي تياري ۾ chirality جي اهميت تي بحث ڪريو. enantiomers جي biological activity، racemic mixtures، resolution، chiral catalysts ۽ thalidomide مان سکيل سبق شامل ڪريو.",
+              "modelAnswer": "Enzymes ۽ receptors chiral هوندا آهن، تنهنڪري دوا جا enantiomers مختلف نموني bind ڪري سگهن ٿا ۽ انهن جا effects، metabolism يا toxicity مختلف ٿي سگهن ٿا. racemic mixture ۾ ٻئي enantiomers برابر هوندا آهن ۽ resolution سان الڳ ڪري سگهجن ٿا. chiral catalyst يا reagent هڪ enantiomer جي synthesis کي ترجيح ڏئي enantioenriched product ٺاهي سگهي ٿو. thalidomide احتياط جو مثال آهي: ان جي enantiomers جا biological interactions مختلف آهن پر جسم ۾ صورتون هڪ ٻئي ۾ بدلجي سگهن ٿيون، تنهنڪري هڪ صورت الڳ ڪرڻ سان خطرو پاڻمرادو ختم نٿو سمجهي سگهجي. دوا جي تياري ۾ stereochemistry، metabolism، dose ۽ safety جي جاچ ضروري آهي.",
+              "rubric": [
+                "chiral biological targets ۽ مختلف effects جي وضاحت (2)",
+                "racemate ۽ resolution جي تعريف (1)",
+                "chiral catalyst جو ڪردار (1)",
+                "thalidomide ۽ جسم اندر interconversion جي صحيح وضاحت (1)",
+                "safety/metabolism جي جاچ جي ضرورت (1)"
               ]
             }
           }
@@ -9921,5 +10249,5 @@
       "note": "Official free digital textbook catalogue."
     }
   ],
-  "curriculumAlignmentNote": "Chapter headings/order follow the STBB Chemistry XII 2023–24 textbook listing. The 2024 DCAR Chemistry document is an outcomes-based progression grid, not a chapter-by-chapter textbook contents list. Chapter 1 was reviewed against representative-element outcomes; Chapter 2 is now mapped specifically to Grade XII Transition Metals SLOs C-12-C-16 through C-12-C-47 (printed pages 72–77). Chapters 3–13 remain draft until separately reconciled and authored. Do not interpret the entire legacy chapter sequence as a one-to-one mapping to the 2024 grid."
+  "curriculumAlignmentNote": "Chapter headings/order follow the STBB Chemistry XII 2023–24 textbook listing. The 2024 DCAR Chemistry document is an outcomes-based progression grid, not a chapter-by-chapter textbook contents list. Chapter 1 was reviewed against representative-element outcomes; Chapter 2 is now mapped specifically to Grade XII Transition Metals SLOs C-12-C-16 through C-12-C-47 (printed pages 72–77). Chapters 3–13 remain draft until separately reconciled and authored. Do not interpret the entire legacy chapter sequence as a one-to-one mapping to the 2024 grid. Chapter 3 (Organic Compounds) has been substantively rewritten against DCAR Sindh Chemistry Curriculum 2024 Grade XII Domain E SLOs C-12-E-01 to C-12-E-08 (printed pages 85–86): geometrical and optical stereoisomerism, benzene structure, chirality, enantiomers, optical activity, racemates, meso compounds and chiral drug synthesis. The chapter heading is retained from the existing HSSC course sequence; this alignment does not assert a one-to-one current STBB chapter-number crosswalk."
 }
