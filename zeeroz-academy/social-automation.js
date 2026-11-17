@@ -14,7 +14,7 @@ async function checkPublishingBackend(){
   if(!authResponse.ok||!authData.ok)throw new Error(authData.error||"Admin verification failed.");
   const sr=await fetch(SOCIAL_PUBLISHER_URL+"/api/youtube/status",{headers}),sd=await sr.json();
   health.textContent="Connected: free Cloudflare Worker is responding; administrator verification passed.";
-  details.textContent="Video storage: disabled. KV: "+(authData.kvBound?"ready":"not available")+". YouTube: "+(sd.connected?"connected":"not connected")+". OAuth credentials: "+(authData.youtubeOAuthSecretsConfigured?"configured":"waiting for Google OAuth setup")+". Facebook/TikTok are next; Instagram remains manual.";
+  details.textContent="Video storage: disabled. KV: "+(authData.kvBound?"ready":"not available")+". YouTube: "+(sd.connected?"connected":"not connected")+". OAuth credentials: "+(authData.youtubeOAuthSecretsConfigured?"configured":"waiting for Google OAuth setup")+". Facebook Page Reels direct upload is enabled after Page authorization; TikTok publishing is pending; Instagram requires a public video URL.";
  }catch(e){health.textContent="Backend check failed: "+e.message;details.textContent="Check Worker deployment, internet access and Firebase administrator sign-in."}
 }
 async function connectYoutube(){
