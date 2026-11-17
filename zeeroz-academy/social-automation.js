@@ -20,6 +20,14 @@ async function checkPublishingBackend(){
 async function connectYoutube(){
  try{say("Starting secure YouTube connection…");const headers=await apiHeaders(),r=await fetch(SOCIAL_PUBLISHER_URL+"/api/youtube/connect",{method:"POST",headers,body:"{}"}),d=await r.json();if(!r.ok||!d.ok)throw new Error(d.error||"Could not start YouTube authorization.");location.href=d.authorizationUrl;}catch(e){say("YouTube connection failed: "+e.message)}
 }
+
+async function connectSocialProvider(provider){
+ try{say("Starting secure "+names[provider]+" authorization…");const headers=await apiHeaders(),r=await fetch(SOCIAL_PUBLISHER_URL+"/api/"+provider+"/connect",{method:"POST",headers,body:"{}"}),d=await r.json();if(!r.ok||!d.ok)throw new Error(d.error||"Could not start "+names[provider]+" authorization.");location.href=d.authorizationUrl}catch(e){say(names[provider]+" connection failed: "+e.message)}
+}
+async function refreshProviderStatuses(){
+ try{const headers=await apiHeaders(),r=await fetch(SOCIAL_PUBLISHER_URL+"/api/admin/status",{headers}),d=await r.json();if(!r.ok||!d.ok)throw new Error(d.error||"Could not read provider status.");const labels={connected:"Connected",not_connected:"Not connected",manual_only:"Manual only"};for(const p of ["facebook","tiktok"]){const el=$("status"+p[0].toUpperCase()+p.slice(1));if(el)el.textContent=labels[d.providers?.[p]]||d.providers?.[p]||"Unknown"} }catch(e){for(const p of ["facebook","tiktok"]){const el=$("status"+p[0].toUpperCase()+p.slice(1));if(el)el.textContent="Status unavailable"}}
+}
+
 function inferVideoMimeType(fileName,reportedType){
  const ext=String(fileName||"").split(".").pop().toLowerCase();
  const detected=String(reportedType||"").split(";")[0].trim().toLowerCase();
@@ -160,7 +168,7 @@ async function change(id,data){try{await updateDoc(doc(db(),"socialPosts",id),{.
 
 onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
  if(!user){location.href="./student-login.html";return}
- try{const token=await user.getIdTokenResult(true);if(token.claims.admin!==true){document.body.innerHTML="<main style='padding:30px;font:16px system-ui'><h2>Administrator access required</h2><a href='./student-login.html'>Sign in</a></main>";return}admin=true;await load();await checkPublishingBackend()}catch(e){say("Could not load queue: "+e.message)}
+ try{const token=await user.getIdTokenResult(true);if(token.claims.admin!==true){document.body.innerHTML="<main style='padding:30px;font:16px system-ui'><h2>Administrator access required</h2><a href='./student-login.html'>Sign in</a></main>";return}admin=true;await load();await checkPublishingBackend();await refreshProviderStatuses()}catch(e){say("Could not load queue: "+e.message)}
 });
 $("postForm").addEventListener("submit",async e=>{
  e.preventDefault();if(!admin)return;
@@ -197,3 +205,6 @@ $("postForm").addEventListener("submit",async e=>{
 
 $("checkBackend")?.addEventListener("click",checkPublishingBackend);
 $("connectYoutube")?.addEventListener("click",connectYoutube);
+
+$("connectFacebook")?.addEventListener("click",()=>connectSocialProvider("facebook"));
+$("connectTiktok")?.addEventListener("click",()=>connectSocialProvider("tiktok"));
