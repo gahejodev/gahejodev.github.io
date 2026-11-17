@@ -144,7 +144,7 @@ function getCaptions(description){
  return {youtube:val("captionYoutube")||description,facebook:val("captionFacebook")||description,instagram:val("captionInstagram")||description,tiktok:val("captionTiktok")||description};
 }
 function platformStatusText(value){
- const labels={not_started:"Not started",awaiting_platform_setup:"Awaiting platform connection",ready:"Ready to publish",uploading:"Uploading",published:"Published",failed:"Failed",scheduled:"Scheduled"};
+ const labels={not_started:"Not started",awaiting_platform_setup:"Awaiting platform connection",ready:"Ready to publish",uploading:"Uploading",processing:"Processing on Facebook",published:"Published",failed:"Failed",scheduled:"Scheduled"};
  return labels[value]||value||"Not started";
 }
 async function load(){
