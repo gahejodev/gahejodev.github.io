@@ -23,15 +23,15 @@
 <p class="hint">Agla qadam: Google Cloud project banayein/select karein aur YouTube Data API v3 enable karein. OAuth consent screen External rakhein (testing mode mein apna Google account test user add karein), phir OAuth Client ID ka type Web application select karein. Authorized redirect URI bilkul ye add karein: https://zeeroz-social-publisher.gahejoqasimk.workers.dev/oauth/youtube/callback. Client ID aur Client Secret ko GitHub/chat mein paste na karein; Worker secrets mein add karna hai.</p>
 </div>
 <div class="post">
-<h3>Facebook + Instagram</h3><span class="tag">Not connected</span>
+<h3>Facebook + Instagram</h3><span class="tag" id="statusFacebook">Not connected</span>
 <p class="hint">Meta app, Facebook Page access aur Instagram Professional account ki authorization chahiye. Instagram publishing ke liye supported professional account zaroori hai.</p>
-<a class="btn" href="https://developers.facebook.com/apps/" target="_blank" rel="noopener">Open Meta for Developers</a>
+<a class="btn" href="https://developers.facebook.com/apps/" target="_blank" rel="noopener">Open Meta for Developers</a><button class="btn secondary" id="connectFacebook" type="button">Connect Facebook Page</button><p class="hint">OAuth callback: https://zeeroz-social-publisher.gahejoqasimk.workers.dev/oauth/facebook/callback. Add this exact URL in your Meta app settings. Required permissions: pages_show_list, pages_read_engagement, pages_manage_posts.</p>
 <p class="hint">Agla qadam: Meta developer account mein app create karein. Facebook Page aur Instagram Professional account access confirm karein. Redirect URI / permissions abhi set na karein; exact configuration integration backend ke baad milegi.</p>
 </div>
 <div class="post">
-<h3>TikTok</h3><span class="tag">Not connected</span>
+<h3>TikTok</h3><span class="tag" id="statusTiktok">Not connected</span>
 <p class="hint">TikTok for Developers app aur Content Posting API access chahiye. Public posting ke liye <code>video.publish</code> permission ki approval lag sakti hai; unreviewed apps par posting private-only ho sakti hai.</p>
-<a class="btn" href="https://developers.tiktok.com/" target="_blank" rel="noopener">Open TikTok for Developers</a>
+<a class="btn" href="https://developers.tiktok.com/" target="_blank" rel="noopener">Open TikTok for Developers</a><button class="btn secondary" id="connectTiktok" type="button">Connect TikTok</button><p class="hint">OAuth callback: https://zeeroz-social-publisher.gahejoqasimk.workers.dev/oauth/tiktok/callback. Add this exact URL in your TikTok app. Request user.info.basic and video.publish scopes.</p>
 <p class="hint">Agla qadam: developer account/app create karein aur Content Posting API documentation dekhein. App review aur redirect configuration integration endpoint milne ke baad complete hogi.</p>
 </div>
 </div>
