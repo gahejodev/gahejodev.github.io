@@ -221,7 +221,7 @@ async function change(id,data){try{await updateDoc(doc(db(),"socialPosts",id),{.
 
 onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
  if(!user){location.href="./student-login.html";return}
- try{const token=await user.getIdTokenResult(true);if(token.claims.admin!==true){document.body.innerHTML="<main style='padding:30px;font:16px system-ui'><h2>Administrator access required</h2><a href='./student-login.html'>Sign in</a></main>";return}admin=true;await load();await checkPublishingBackend();await refreshProviderStatuses()}catch(e){say("Could not load queue: "+e.message)}
+ try{const token=await user.getIdTokenResult(true);if(token.claims.admin!==true){document.body.innerHTML="<main style='padding:30px;font:16px system-ui'><h2>Administrator access required</h2><a href='./student-login.html'>Sign in</a></main>";return}admin=true;await load();await checkPublishingBackend();await refreshProviderStatuses();const qp=new URLSearchParams(location.search),fbResult=qp.get("facebook");if(fbResult==="error")say("Facebook connection failed: "+(qp.get("reason")||"Unknown error"));else if(fbResult==="connected")say("Facebook connected successfully.")}catch(e){say("Could not load queue: "+e.message)}
 });
 $("postForm").addEventListener("submit",async e=>{
  e.preventDefault();if(!admin)return;
