@@ -31,7 +31,7 @@ async function refreshProviderStatuses(){
 function inferVideoMimeType(fileName,reportedType){
  const ext=String(fileName||"").split(".").pop().toLowerCase();
  const detected=String(reportedType||"").split(";")[0].trim().toLowerCase();
- const byExtension={mp4:"video/mp4",m4v:"video/mp4",mov:"video/quicktime",qt:"video/quicktime",webm:"video/webm",3gp:"video/3gpp",3gpp:"video/3gpp",avi:"video/x-msvideo",mkv:"video/x-matroska",mpeg:"video/mpeg",mpg:"video/mpeg",flv:"video/x-flv",wmv:"video/x-ms-wmv"};
+ const byExtension={mp4:"video/mp4",m4v:"video/mp4",mov:"video/quicktime",qt:"video/quicktime",webm:"video/webm","3gp":"video/3gpp","3gpp":"video/3gpp",avi:"video/x-msvideo",mkv:"video/x-matroska",mpeg:"video/mpeg",mpg:"video/mpeg",flv:"video/x-flv",wmv:"video/x-ms-wmv"};
  if(/^video\/[a-z0-9.+-]+$/.test(detected))return detected;
  if(detected==="application/octet-stream")return byExtension[ext]||detected;
  if(byExtension[ext])return byExtension[ext];
