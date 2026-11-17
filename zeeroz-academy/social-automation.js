@@ -22,10 +22,12 @@ async function connectYoutube(){
 }
 function inferVideoMimeType(fileName,reportedType){
  const ext=String(fileName||"").split(".").pop().toLowerCase();
- const byExtension={mp4:"video/mp4",m4v:"video/mp4",mov:"video/quicktime",qt:"video/quicktime",webm:"video/webm"};
+ const detected=String(reportedType||"").split(";")[0].trim().toLowerCase();
+ const byExtension={mp4:"video/mp4",m4v:"video/mp4",mov:"video/quicktime",qt:"video/quicktime",webm:"video/webm",3gp:"video/3gpp",3gpp:"video/3gpp",avi:"video/x-msvideo",mkv:"video/x-matroska",mpeg:"video/mpeg",mpg:"video/mpeg",flv:"video/x-flv",wmv:"video/x-ms-wmv"};
+ if(/^video\/[a-z0-9.+-]+$/.test(detected))return detected;
+ if(detected==="application/octet-stream")return byExtension[ext]||detected;
  if(byExtension[ext])return byExtension[ext];
- if(["video/mp4","video/quicktime","video/webm"].includes(reportedType))return reportedType;
- throw new Error("Unsupported video format. Please use MP4 (.mp4), MOV (.mov) or WebM (.webm).");
+ throw new Error("Unsupported video format. Detected MIME type: "+(detected||"unknown")+". Please attach a standard video file such as MP4, MOV or WebM.");
 }
 async function uploadYoutube(postId,post,button){
  button.disabled=true;button.textContent="Preparing YouTube upload…";
@@ -140,16 +142,9 @@ async function load(){
    const updated={};card.querySelectorAll("[data-caption]").forEach(el=>updated[el.dataset.caption]=el.value.trim());
    change(d.id,{platformCaptions:updated});
   });
-  card.querySelector('[data-action="approve"]').addEventListener("click",async()=>{
+  card.querySelector('[data-action="approve"]').addEventListener("click",()=>{
    const platformResults={...(p.platformResults||{})};
    (p.platforms||[]).forEach(x=>{platformResults[x]={status:"awaiting_platform_setup",message:"Official platform account authorization and direct-upload integration are not configured yet."}});
-   if((p.platforms||[]).includes("youtube")){
-    try{
-     const headers=await apiHeaders(),response=await fetch(SOCIAL_PUBLISHER_URL+"/api/youtube/status",{headers}),data=await response.json();
-     if(response.ok&&data.connected)platformResults.youtube={status:"ready",message:"YouTube account is connected. Ready for direct upload."};
-     else platformResults.youtube={status:"awaiting_platform_setup",message:"Connect the official YouTube account before uploading."};
-    }catch(e){platformResults.youtube={status:"awaiting_platform_setup",message:"Could not verify YouTube connection: "+e.message};}
-   }
    change(d.id,{status:"approved_pending_platform_setup",approvedAt:serverTimestamp(),platformResults});
   });
   card.querySelector('[data-action="draft"]').addEventListener("click",()=>change(d.id,{status:"draft",approvedAt:null}));
