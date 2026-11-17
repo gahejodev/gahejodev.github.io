@@ -1,0 +1,912 @@
+{
+  "id": "physics-xi-waves",
+  "title": "Physics XI — Waves (DCAR 2024)",
+  "description": "Original bilingual study course for Grade XI Domain E: Waves. Covers superposition, interference, stationary waves and harmonics, Doppler effect, polarization, diffraction, coherence, beats and gravitational-wave detection, with worked examples and board-style practice.",
+  "version": "1",
+  "curriculumAlignment": "DCAR Sindh Physics Curriculum 2024, Grade XI Domain E: Waves, SLOs P-11-E-01 to P-11-E-20 (printed pages 45–48). This package follows the Grade XI column of the 2024 progression grid; it is not a claim that an older textbook chapter numbering is identical.",
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Physics, Grade IX–XII (2024), Government of Sindh / DCAR",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Physics%20Curriculum%2019%20August%202024.pdf",
+      "note": "Domain E: Waves; Grade XI SLOs P-11-E-01 to P-11-E-20, printed pages 45–48."
+    },
+    {
+      "title": "Sindh Textbook Board eBooks portal",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "note": "Official portal for current STBB digital textbooks. A grade/edition-specific Physics XI textbook chapter crosswalk was not confirmed during this package build; DCAR 2024 SLOs are the controlling alignment."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Grade XI Domain E: Waves",
+      "description": "Superposition and interference; stationary waves and harmonics; Doppler effect; polarization and Malus's law; diffraction, coherence and beats; gravitational waves and interferometers.",
+      "lessons": [
+        {
+          "title": "XI-E.1 Superposition, interference and active noise cancellation",
+          "content": "## Learning outcomes\nBy the end of this lesson you should be able to:\n- Apply the principle of superposition to overlapping waves (P-11-E-01).\n- Distinguish constructive from destructive interference (P-11-E-02).\n- Explain active noise cancellation using superposition (P-11-E-03).\n\n## Principle of superposition\nWhen two or more waves meet at the same place at the same time in a linear medium, the resultant displacement is the **algebraic sum** of the individual displacements:\n**y = y₁ + y₂**.\nThe waves continue through one another; after overlap they retain their original forms in an ideal linear medium. Displacement is added with its sign, not by adding intensities or amplitudes blindly.\n\n## Interference\nInterference is the pattern produced when coherent waves overlap. Coherent sources have the same frequency and a constant phase difference.\n\n- **Constructive interference:** the waves arrive in phase. Crest meets crest and trough meets trough. For path difference Δr = mλ, where m = 0, 1, 2, …, the amplitude is reinforced. Equal amplitudes A can produce resultant amplitude 2A.\n- **Destructive interference:** the waves arrive in opposite phase. A crest meets a trough. For Δr = (m + 1/2)λ, cancellation occurs. Equal amplitudes can cancel completely; unequal amplitudes leave a residual displacement.\n\n**Worked example:** At one instant, two pulses produce displacements +3 mm and −2 mm at the same point. The resultant displacement is +3 + (−2) = **+1 mm**.\n\n## Active noise-cancelling headphones\nA microphone samples unwanted sound entering the ear cup. Electronics generate a second sound wave with approximately the same frequency and opposite phase. At the ear, the two pressure variations partially cancel by destructive interference. This is called active noise cancellation. It works especially well for steady, low-frequency sounds such as aircraft or bus-engine hum. It cannot remove every sound perfectly: changing speech, fit leaks, microphone position and processing delay limit cancellation.\n\n## Key terms\nSuperposition, resultant displacement, interference, coherent sources, phase difference, constructive interference, destructive interference, anti-noise.\n\n## Revision check\n1. Why must displacement be added algebraically?\n2. What path difference produces the first destructive minimum?\n3. Why is noise cancellation usually better for a steady engine hum than for a sudden shout?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nاس سبق کے بعد آپ:\n- ایک دوسرے پر آنے والی لہروں پر superposition کا اصول لاگو کر سکیں گے (P-11-E-01)۔\n- constructive اور destructive interference میں فرق کر سکیں گے (P-11-E-02)۔\n- active noise cancellation کو superposition سے سمجھا سکیں گے (P-11-E-03)۔\n\n## Superposition کا اصول\nجب دو یا زیادہ لہریں کسی خطی medium میں ایک ہی جگہ اور ایک ہی وقت پر ملتی ہیں تو نتیجہ خیز displacement انفرادی displacements کا **علامتی الجبری مجموعہ** ہوتا ہے:\n**y = y₁ + y₂**۔\nلہریں ایک دوسرے سے گزر جاتی ہیں؛ مثالی خطی medium میں overlap کے بعد اپنی اصل شکل برقرار رکھتی ہیں۔ displacement کو اس کے نشان سمیت جمع کیا جاتا ہے، صرف amplitudes یا intensities کو اندھا دھند جمع نہیں کیا جاتا۔\n\n## Interference\nجب coherent لہریں ملتی ہیں تو interference بنتا ہے۔ coherent ذرائع کی frequency برابر اور phase difference مستقل ہوتا ہے۔\n\n- **Constructive interference:** لہریں ہم phase میں پہنچتی ہیں؛ crest، crest سے اور trough، trough سے ملتا ہے۔ path difference Δr = mλ ہو، جہاں m = 0, 1, 2, …، تو amplitude بڑھتا ہے۔ برابر amplitudes A کا نتیجہ 2A ہو سکتا ہے۔\n- **Destructive interference:** لہریں مخالف phase میں پہنچتی ہیں؛ crest، trough سے ملتا ہے۔ Δr = (m + 1/2)λ پر cancellation ہوتی ہے۔ برابر amplitudes مکمل ختم ہو سکتے ہیں، جبکہ غیر برابر amplitudes میں کچھ displacement باقی رہتا ہے۔\n\n**حل شدہ مثال:** ایک لمحے میں دو pulses ایک نقطے پر +3 mm اور −2 mm displacement پیدا کریں تو نتیجہ +3 + (−2) = **+1 mm** ہے۔\n\n## Active noise-cancelling headphones\nMicrophone ear cup میں آنے والی ناپسندیدہ آواز کو محسوس کرتا ہے۔ electronics تقریباً اسی frequency مگر مخالف phase کی دوسری sound wave بناتے ہیں۔ کان کے مقام پر دونوں pressure variations destructive interference کے ذریعے جزوی طور پر ختم ہوتے ہیں۔ یہ active noise cancellation ہے۔ مسلسل کم frequency کی آواز، مثلاً جہاز یا بس کے انجن کی گونج، بہتر کم ہوتی ہے۔ ہر آواز مکمل ختم نہیں ہوتی؛ بدلتی ہوئی گفتگو، ear-cup کے خلا، microphone کی جگہ اور processing delay اس کی حدیں ہیں۔\n\n## اہم اصطلاحات\nSuperposition، نتیجہ خیز displacement، interference، coherent ذرائع، phase difference، constructive interference، destructive interference، anti-noise۔\n\n## دہرائی\n1. displacement کو الجبری طور پر جمع کرنا کیوں ضروری ہے؟\n2. پہلی destructive minimum کے لیے path difference کیا ہو گا؟\n3. مسلسل انجن کی آواز اچانک چیخ کے مقابلے میں زیادہ مؤثر طور پر کیوں کم ہوتی ہے؟",
+            "sd": "## سبق جا مقصد\nهن سبق کان پوءِ توهان:\n- هڪ ٻئي تي ايندڙ لهرن تي superposition جو اصول لاڳو ڪري سگهندا (P-11-E-01)۔\n- constructive ۽ destructive interference ۾ فرق ڪري سگهندا (P-11-E-02)۔\n- active noise cancellation کي superposition سان سمجهي سگهندا (P-11-E-03)۔\n\n## Superposition جو اصول\nجڏهن ٻه يا وڌيڪ لهرون هڪ ئي وقت ڪنهن linear medium ۾ ساڳئي هنڌ ملن ٿيون ته نتيجي وارو displacement انفرادي displacements جو **نشان سميت الجبري مجموعو** هوندو آهي:\n**y = y₁ + y₂**۔\nلهرون هڪ ٻئي مان گذري وڃن ٿيون؛ مثالي linear medium ۾ ملڻ کان پوءِ پنهنجي اصل شڪل برقرار رکن ٿيون. displacement کي ان جي نشان سميت جمع ڪيو ويندو آهي، amplitudes يا intensities کي بنا سوچ جي جمع نه ڪبو آهي.\n\n## Interference\nجڏهن coherent لهرون ملن ٿيون ته interference پيدا ٿئي ٿو. coherent ذريعن جي frequency ساڳي ۽ phase difference مستقل هوندي آهي.\n\n- **Constructive interference:** لهرون ساڳئي phase ۾ پهچن ٿيون؛ crest، crest سان ۽ trough، trough سان ملي ٿو. path difference Δr = mλ هجي، جتي m = 0, 1, 2, …، ته amplitude وڌي ٿو. برابر amplitudes A جو نتيجو 2A ٿي سگهي ٿو.\n- **Destructive interference:** لهرون ابتڙ phase ۾ پهچن ٿيون؛ crest، trough سان ملي ٿو. Δr = (m + 1/2)λ تي cancellation ٿئي ٿي. برابر amplitudes مڪمل ختم ٿي سگهن ٿا؛ اڻ برابر هجن ته ڪجهه displacement بچي ٿو.\n\n**حل ٿيل مثال:** هڪ لمحي تي ٻه pulses هڪ نقطي تي +3 mm ۽ −2 mm displacement پيدا ڪن ته نتيجو +3 + (−2) = **+1 mm** آهي.\n\n## Active noise-cancelling headphones\nMicrophone ear cup ۾ ايندڙ اڻ وڻندڙ آواز محسوس ڪري ٿو. electronics لڳ ڀڳ ساڳي frequency پر ابتڙ phase واري ٻي sound wave ٺاهي ٿو. ڪن وٽ ٻنهي pressure variations ۾ destructive interference سبب جزوي گهٽتائي ٿئي ٿي. مسلسل گهٽ frequency وارو آواز، مثال طور جهاز يا بس جي انجڻ جو شور، وڌيڪ سٺو گهٽجي ٿو. هر آواز مڪمل ختم نٿو ٿئي؛ بدلجندڙ ڳالهه ٻولهه، ear-cup جا خال، microphone جي جاءِ ۽ processing delay ان جون حدون آهن.\n\n## اهم اصطلاح\nSuperposition، نتيجي وارو displacement، interference، coherent ذريعا، phase difference، constructive interference، destructive interference، anti-noise۔\n\n## ورجاءُ\n1. displacement کي الجبري نموني جمع ڪرڻ ڇو ضروري آهي؟\n2. پهرين destructive minimum لاءِ path difference ڇا هوندو؟\n3. مسلسل انجڻ جو شور اوچتي رڙ جي ڀيٽ ۾ وڌيڪ اثرائتي نموني ڇو گهٽجي ٿو؟"
+          }
+        },
+        {
+          "title": "XI-E.2 Stationary waves, nodes, antinodes and harmonics",
+          "content": "## Learning outcomes\n- Describe experiments that demonstrate stationary waves in microwaves, strings and air columns (P-11-E-04).\n- Explain their formation graphically (P-11-E-05).\n- Explain harmonics in stationary waves (P-11-E-06).\n\n## How a stationary wave forms\nTwo waves of the same frequency and approximately equal amplitude travel in opposite directions along the same medium. Their superposition produces a **stationary (standing) wave**. A stationary pattern has:\n- **Nodes:** points that always have zero displacement.\n- **Antinodes:** points that oscillate with maximum amplitude.\n- No net transfer of energy along the stationary pattern, although particles between nodes oscillate and energy is exchanged locally.\n\nAdjacent nodes are separated by λ/2. A node and its nearest antinode are separated by λ/4.\n\n## A stretched string fixed at both ends\nBoth ends are nodes. For the fundamental mode, half a wavelength fits in the string:\n- λ₁ = 2L\n- f₁ = v/(2L)\n\nFor the nth harmonic, λₙ = 2L/n and **fₙ = n v/(2L) = n f₁**, where v is wave speed and L is the vibrating length.\n\n**Worked example:** A 0.80 m string carries waves at 160 m/s. Its fundamental frequency is f₁ = 160/(2 × 0.80) = **100 Hz**. The second harmonic is 200 Hz.\n\n## Stationary waves in experiments\n1. **Stretched string:** drive a string with a vibrator and adjust frequency or tension until clear nodes and antinodes appear. A resonance pattern indicates a harmonic.\n2. **Air column:** use a loudspeaker or tuning fork with a tube. Resonance occurs when the air column supports a stationary sound wave. For a tube open at both ends, the fundamental has λ₁ = 2L. For a tube closed at one end, the fundamental has λ₁ = 4L and only odd harmonics occur in the ideal model.\n3. **Microwaves:** send microwaves towards a reflecting metal plate. Incident and reflected waves form a stationary pattern; a detector moved along the line finds alternating strong and weak signal positions.\n\nEnd corrections are neglected in these ideal air-column relations, consistent with the stated curriculum scope.\n\n## Application case: a guitar string\nA plucked guitar string vibrates in several allowed modes at once. The fundamental sets the perceived note, while higher harmonics contribute to its tone quality. Pressing the string changes its vibrating length and therefore its allowed frequencies.\n\n## Key terms\nStationary wave, node, antinode, fundamental, harmonic, resonance, vibrating length.\n\n## Revision check\n1. Why are nodes always separated by half a wavelength?\n2. How does doubling the tension affect wave speed if linear density is unchanged?\n3. Why can a closed-end air column support only odd harmonics in the ideal model?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\n- microwaves، تار اور air columns میں stationary waves دکھانے والے تجربات بیان کریں (P-11-E-04)۔\n- ان کی تشکیل کو graphically سمجھائیں (P-11-E-05)۔\n- stationary waves میں harmonics کی وضاحت کریں (P-11-E-06)۔\n\n## Stationary wave کیسے بنتی ہے؟\nایک ہی frequency اور تقریباً برابر amplitude کی دو لہریں ایک medium میں مخالف سمتوں میں سفر کرتی ہیں۔ ان کا superposition **stationary یا standing wave** بناتا ہے۔ اس pattern میں:\n- **Nodes:** ایسے نقاط جن کا displacement ہمیشہ صفر ہوتا ہے۔\n- **Antinodes:** ایسے نقاط جو زیادہ سے زیادہ amplitude سے ارتعاش کرتے ہیں۔\n- stationary pattern کے ساتھ خالص توانائی آگے منتقل نہیں ہوتی، اگرچہ nodes کے درمیان ذرات حرکت کرتے اور مقامی طور پر توانائی کا تبادلہ کرتے ہیں۔\n\nقریب کے دو nodes کا فاصلہ λ/2 ہوتا ہے۔ node اور اس کے قریب ترین antinode کا فاصلہ λ/4 ہے۔\n\n## دونوں سروں سے بندھی ہوئی تار\nدونوں سرے nodes ہیں۔ بنیادی mode میں آدھی wavelength تار میں سما جاتی ہے:\n- λ₁ = 2L\n- f₁ = v/(2L)\n\nn ویں harmonic کے لیے λₙ = 2L/n اور **fₙ = n v/(2L) = n f₁**، جہاں v wave speed اور L ارتعاش کرنے والی لمبائی ہے۔\n\n**حل شدہ مثال:** 0.80 m تار میں wave speed 160 m/s ہو تو بنیادی frequency f₁ = 160/(2 × 0.80) = **100 Hz** ہے۔ دوسری harmonic 200 Hz ہے۔\n\n## Stationary waves کے تجربات\n1. **کھنچی ہوئی تار:** vibrator سے تار چلائیں اور frequency یا tension بدلیں، یہاں تک کہ واضح nodes اور antinodes بن جائیں۔ resonance pattern کسی harmonic کو ظاہر کرتا ہے۔\n2. **Air column:** tube کے ساتھ loudspeaker یا tuning fork استعمال کریں۔ resonance تب ہوتی ہے جب ہوا کا ستون stationary sound wave بنا سکے۔ دونوں سروں سے کھلی tube کی بنیادی wavelength λ₁ = 2L ہے۔ ایک سرے سے بند tube میں λ₁ = 4L اور مثالی model میں صرف طاق harmonics بنتی ہیں۔\n3. **Microwaves:** microwaves کو دھاتی reflector کی طرف بھیجیں۔ incident اور reflected waves stationary pattern بناتی ہیں؛ detector کو حرکت دے کر زیادہ اور کم signal کی باری باری جگہیں معلوم کی جا سکتی ہیں۔\n\nاس مثالی air-column حساب میں end corrections نظر انداز کیے گئے ہیں، جیسا کہ نصاب کے دائرے میں بتایا گیا ہے۔\n\n## عملی مثال: گٹار کی تار\nچھیڑی ہوئی guitar string ایک وقت میں کئی مجاز modes میں ارتعاش کرتی ہے۔ بنیادی frequency سنائی دینے والے note کو متعین کرتی ہے، جبکہ اوپر کی harmonics اس کے tone quality میں حصہ ڈالتی ہیں۔ تار کو دبانے سے اس کی vibrating length اور مجاز frequencies بدل جاتی ہیں۔\n\n## اہم اصطلاحات\nStationary wave، node، antinode، fundamental، harmonic، resonance، vibrating length۔\n\n## دہرائی\n1. قریب کے nodes ہمیشہ آدھی wavelength کے فاصلے پر کیوں ہوتے ہیں؟\n2. اگر linear density وہی رہے تو tension دوگنی کرنے سے wave speed کیسے بدلے گی؟\n3. مثالی model میں ایک سرے سے بند air column صرف odd harmonics کیوں بناتا ہے؟",
+            "sd": "## سبق جا مقصد\n- microwaves، تار ۽ air columns ۾ stationary waves ڏيکاريندڙ تجربا بيان ڪريو (P-11-E-04)۔\n- انهن جي ٺهڻ کي graphically سمجهايو (P-11-E-05)۔\n- stationary waves ۾ harmonics جي وضاحت ڪريو (P-11-E-06)۔\n\n## Stationary wave ڪيئن ٺهي ٿي؟\nساڳي frequency ۽ لڳ ڀڳ برابر amplitude واريون ٻه لهرون هڪ medium ۾ ابتڙ رخن ۾ هلن ٿيون. انهن جو superposition **stationary يا standing wave** ٺاهي ٿو. هن pattern ۾:\n- **Nodes:** اهڙا نقطا جن جو displacement هميشه صفر هوندو آهي.\n- **Antinodes:** اهڙا نقطا جيڪي وڌ ۾ وڌ amplitude سان ارتعاش ڪن ٿا.\n- stationary pattern سان گڏ خالص توانائي اڳتي منتقل نٿي ٿئي، جيتوڻيڪ nodes جي وچ ۾ ذرڙا ارتعاش ڪن ٿا ۽ مقامي طور توانائي مٽاسٽا ٿئي ٿي.\n\nويجهن ٻن nodes جو فاصلو λ/2 هوندو آهي. node ۽ ان جي ويجهي antinode جو فاصلو λ/4 آهي.\n\n## ٻنهي پاسن کان ٻڌل تار\nٻئي پاسا nodes آهن. بنيادي mode ۾ اڌ wavelength تار ۾ اچي ٿي:\n- λ₁ = 2L\n- f₁ = v/(2L)\n\nn هين harmonic لاءِ λₙ = 2L/n ۽ **fₙ = n v/(2L) = n f₁**، جتي v wave speed ۽ L ارتعاش ڪندڙ ڊيگهه آهي.\n\n**حل ٿيل مثال:** 0.80 m تار ۾ wave speed 160 m/s هجي ته بنيادي frequency f₁ = 160/(2 × 0.80) = **100 Hz** آهي. ٻي harmonic 200 Hz آهي.\n\n## Stationary waves جا تجربا\n1. **ڇڪيل تار:** vibrator سان تار هلائي frequency يا tension بدلايو، جيستائين واضح nodes ۽ antinodes نظر اچن. resonance pattern هڪ harmonic ڏيکاري ٿو.\n2. **Air column:** tube سان loudspeaker يا tuning fork استعمال ڪريو. resonance تڏهن ٿئي ٿي جڏهن هوا جو ستون stationary sound wave ٺاهي. ٻنهي پاسن کان کليل tube جي بنيادي wavelength λ₁ = 2L آهي. هڪ پاسي کان بند tube ۾ λ₁ = 4L ۽ مثالي model ۾ رڳو odd harmonics ٿين ٿيون.\n3. **Microwaves:** microwaves کي ڌاتو reflector ڏانهن موڪليو. incident ۽ reflected waves stationary pattern ٺاهين ٿيون؛ detector کي لڪير تي هلائي وڏي ۽ ننڍي signal واريون جايون ڳولي سگهجن ٿيون.\n\nهن مثالي air-column حساب ۾ end corrections نظرانداز ڪيا ويا آهن، جيئن نصاب جي حد ۾ آهي.\n\n## عملي مثال: گٽار جي تار\nڇيڙيل guitar string هڪ ئي وقت ڪيترن مجاز modes ۾ ارتعاش ڪري ٿي. بنيادي frequency ٻڌجندڙ note مقرر ڪري ٿي، جڏهن ته مٿيون harmonics ان جي tone quality ۾ حصو وٺن ٿيون. تار کي دٻائڻ سان ان جي vibrating length ۽ مجاز frequencies بدلجن ٿيون.\n\n## اهم اصطلاح\nStationary wave، node، antinode، fundamental، harmonic، resonance، vibrating length۔\n\n## ورجاءُ\n1. ويجها nodes هميشه اڌ wavelength جي فاصلي تي ڇو هوندا آهن؟\n2. جيڪڏهن linear density ساڳي رهي ته tension ٻيڻي ڪرڻ سان wave speed ڪيئن بدلبي؟\n3. مثالي model ۾ هڪ پاسي بند air column رڳو odd harmonics ڇو ٺاهي ٿو؟"
+          }
+        },
+        {
+          "title": "XI-E.3 Doppler effect and moving sound sources",
+          "content": "## Learning outcomes\n- Explain why the observed frequency changes when a mechanical-wave source moves towards or away from a stationary observer (P-11-E-07).\n- Use the specified moving-source Doppler equation (P-11-E-08).\n- Describe applications of the Doppler effect (P-11-E-09).\n\n## What is the Doppler effect?\nThe Doppler effect is the observed change in frequency caused by relative motion between a wave source and an observer. For a **moving source and stationary observer**, wavefronts are closer together in front of the source and farther apart behind it. The wave speed in the medium remains approximately the same, but wavelength changes; because v = fλ, observed frequency changes.\n\nFor sound in a stationary medium:\n- Source approaching: **fₒ = fₛ v/(v − vₛ)**.\n- Source moving away: **fₒ = fₛ v/(v + vₛ)**.\n\nHere fₛ is source frequency, v is sound speed in the medium, and vₛ is source speed. Use consistent units and keep vₛ below v for this ordinary sound-source case. The curriculum expression uses the ± sign; choose minus for approach and plus for recession.\n\n**Worked example:** A 500 Hz siren approaches at 20 m/s. If sound speed is 340 m/s:\nfₒ = 500 × 340/(340 − 20) = **531.25 Hz**.\nWhen it moves away at the same speed:\nfₒ = 500 × 340/(340 + 20) = **472.2 Hz**.\nThe pitch is higher on approach and lower on recession.\n\n## Applications\n- **Radar speed traps:** a reflected radio wave has a Doppler shift related to vehicle speed.\n- **Medical Doppler ultrasound:** frequency shift from moving blood cells helps estimate blood-flow speed and direction.\n- **Sonar:** Doppler shift can indicate motion of underwater objects.\n- **Astronomy:** shifts in spectral lines help infer motion of stars and galaxies; redshift indicates recession and blueshift approach in the simple radial-motion picture.\n\n## Application case: an ambulance\nAn ambulance siren sounds higher as it approaches a roadside listener and lower after it passes. The siren's emitted frequency has not suddenly changed; the listener receives wavefronts at a different rate because the source is moving.\n\n## Key terms\nDoppler effect, source frequency, observed frequency, wavefront, approach, recession, frequency shift.\n\n## Revision check\n1. Why does the wave speed in air not change merely because the siren moves?\n2. Which sign is used in the denominator for a source approaching a stationary observer?\n3. Give two medical or transport applications.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\n- وضاحت کریں کہ mechanical wave کا source ساکن observer کی طرف یا اس سے دور حرکت کرے تو محسوس ہونے والی frequency کیوں بدلتی ہے (P-11-E-07)۔\n- moving-source Doppler equation استعمال کریں (P-11-E-08)۔\n- Doppler effect کے استعمالات بیان کریں (P-11-E-09)۔\n\n## Doppler effect کیا ہے؟\nDoppler effect وہ محسوس شدہ frequency کی تبدیلی ہے جو wave source اور observer کی نسبتی حرکت سے پیدا ہوتی ہے۔ **حرکت کرتے source اور ساکن observer** کے لیے source کے آگے wavefronts قریب اور پیچھے دور ہو جاتے ہیں۔ medium میں wave speed تقریباً وہی رہتی ہے، مگر wavelength بدلتی ہے؛ چونکہ v = fλ ہے، اس لیے محسوس ہونے والی frequency بدل جاتی ہے۔\n\nساکن medium میں آواز کے لیے:\n- source قریب آ رہا ہو: **fₒ = fₛ v/(v − vₛ)**۔\n- source دور جا رہا ہو: **fₒ = fₛ v/(v + vₛ)**۔\n\nیہاں fₛ source frequency، v medium میں آواز کی رفتار اور vₛ source کی رفتار ہے۔ اکائیاں یکساں رکھیں اور عام sound-source صورت میں vₛ کو v سے کم رکھیں۔ نصاب کی مساوات میں ± نشان ہے؛ قریب آنے پر minus اور دور جانے پر plus استعمال کریں۔\n\n**حل شدہ مثال:** 500 Hz siren، 20 m/s سے قریب آ رہی ہے۔ آواز کی رفتار 340 m/s ہو تو:\nfₒ = 500 × 340/(340 − 20) = **531.25 Hz**۔\nاسی رفتار سے دور جانے پر:\nfₒ = 500 × 340/(340 + 20) = **472.2 Hz**۔\nقریب آنے پر pitch بلند اور دور جانے پر کم ہوتی ہے۔\n\n## استعمالات\n- **Radar speed traps:** منعکس radio wave کی Doppler shift گاڑی کی رفتار سے متعلق ہوتی ہے۔\n- **Medical Doppler ultrasound:** حرکت کرتے خون کے خلیوں کی frequency shift سے خون کے بہاؤ کی رفتار اور سمت معلوم کرنے میں مدد ملتی ہے۔\n- **Sonar:** زیرِ آب اجسام کی حرکت کا اندازہ Doppler shift سے ہو سکتا ہے۔\n- **Astronomy:** spectral lines کی shift سے ستاروں اور کہکشاؤں کی حرکت معلوم کی جاتی ہے؛ سادہ radial-motion تصور میں redshift دور جانے اور blueshift قریب آنے کو ظاہر کرتا ہے۔\n\n## عملی مثال: ایمبولینس\nایمبولینس قریب آتے وقت siren کی آواز زیادہ اونچی اور گزرنے کے بعد کم سنائی دیتی ہے۔ siren کی اصل خارج کردہ frequency اچانک نہیں بدلتی؛ source کی حرکت کے باعث سننے والے تک wavefronts مختلف شرح سے پہنچتے ہیں۔\n\n## اہم اصطلاحات\nDoppler effect، source frequency، observed frequency، wavefront، قریب آنا، دور جانا، frequency shift۔\n\n## دہرائی\n1. siren کی حرکت سے ہوا میں wave speed خودبخود کیوں نہیں بدلتی؟\n2. ساکن observer کی طرف آتے source کے لیے denominator میں کون سا نشان ہو گا؟\n3. طب یا transport میں اس کے دو استعمال بتائیں۔",
+            "sd": "## سبق جا مقصد\n- سمجهايو ته mechanical wave جو source ساکن observer ڏانهن يا ان کان پري هلي ته محسوس ٿيندڙ frequency ڇو بدلجي ٿي (P-11-E-07)۔\n- moving-source Doppler equation استعمال ڪريو (P-11-E-08)۔\n- Doppler effect جا استعمال بيان ڪريو (P-11-E-09)۔\n\n## Doppler effect ڇا آهي؟\nDoppler effect محسوس ٿيندڙ frequency جي اها تبديلي آهي جيڪا wave source ۽ observer جي هڪ ٻئي جي نسبت واري حرڪت سبب ٿئي ٿي. **هلندڙ source ۽ ساکن observer** لاءِ source جي اڳيان wavefronts ويجها ۽ پٺيان پري ٿين ٿا. medium ۾ wave speed لڳ ڀڳ ساڳي رهي ٿي، پر wavelength بدلجي ٿي؛ ڇاڪاڻ ته v = fλ آهي، تنهنڪري محسوس ٿيندڙ frequency بدلجي ٿي.\n\nساکن medium ۾ آواز لاءِ:\n- source ويجهو اچي: **fₒ = fₛ v/(v − vₛ)**۔\n- source پري وڃي: **fₒ = fₛ v/(v + vₛ)**۔\n\nهتي fₛ source frequency، v medium ۾ آواز جي رفتار ۽ vₛ source جي رفتار آهي. ساڳيون units استعمال ڪريو ۽ عام sound-source صورت ۾ vₛ کي v کان گهٽ رکو. نصاب واري مساوات ۾ ± نشان آهي؛ ويجهو اچڻ لاءِ minus ۽ پري وڃڻ لاءِ plus استعمال ڪريو.\n\n**حل ٿيل مثال:** 500 Hz siren، 20 m/s سان ويجهو اچي ٿي. آواز جي رفتار 340 m/s هجي ته:\nfₒ = 500 × 340/(340 − 20) = **531.25 Hz**۔\nساڳي رفتار سان پري وڃڻ تي:\nfₒ = 500 × 340/(340 + 20) = **472.2 Hz**۔\nويجهو اچڻ تي pitch وڌيڪ ۽ پري وڃڻ تي گهٽ ٻڌجي ٿي.\n\n## استعمال\n- **Radar speed traps:** موٽيل radio wave جي Doppler shift گاڏي جي رفتار سان لاڳاپيل هوندي آهي.\n- **Medical Doppler ultrasound:** هلندڙ رت جي خلين جي frequency shift مان رت جي وهڪري جي رفتار ۽ رخ معلوم ڪرڻ ۾ مدد ملي ٿي.\n- **Sonar:** پاڻي هيٺ شين جي حرڪت جو اندازو Doppler shift سان ٿي سگهي ٿو.\n- **Astronomy:** spectral lines جي shift مان تارن ۽ galaxies جي حرڪت معلوم ٿئي ٿي؛ سادي radial-motion تصوير ۾ redshift پري وڃڻ ۽ blueshift ويجهو اچڻ ڏيکاري ٿو.\n\n## عملي مثال: ايمبولينس\nايمبولينس ويجهو ايندي siren جو آواز وڌيڪ تيز ۽ گذرڻ کان پوءِ گهٽ ٻڌجي ٿو. siren جي خارج ڪيل اصل frequency اوچتو نٿي بدلجي؛ source جي حرڪت سبب ٻڌندڙ وٽ wavefronts مختلف شرح سان پهچن ٿا.\n\n## اهم اصطلاح\nDoppler effect، source frequency، observed frequency، wavefront، ويجهو اچڻ، پري وڃڻ، frequency shift۔\n\n## ورجاءُ\n1. siren جي حرڪت سان هوا ۾ wave speed پاڻمرادو ڇو نٿي بدلجي؟\n2. ساکن observer ڏانهن ايندڙ source لاءِ denominator ۾ ڪهڙو نشان هوندو؟\n3. طب يا transport ۾ ان جا ٻه استعمال ٻڌايو."
+          }
+        },
+        {
+          "title": "XI-E.4 Polarization, Malus's law and Polaroids",
+          "content": "## Learning outcomes\n- Explain that polarization is associated with transverse waves (P-11-E-10).\n- Define and apply Malus's law for plane-polarized light (P-11-E-11).\n- Explain Polaroid uses in sky photography and stress analysis (P-11-E-12).\n\n## Polarization\nA transverse wave has oscillations perpendicular to its direction of travel. Light is an electromagnetic transverse wave. Ordinary unpolarized light contains electric-field vibrations in many planes perpendicular to the direction of travel. A polarizing filter (Polaroid) transmits one preferred vibration direction, producing plane-polarized light.\n\nPolarization is evidence that light is transverse: a longitudinal sound wave in air cannot be polarized in this way because its particle oscillations are parallel to propagation.\n\n## Malus's law\nWhen plane-polarized light of intensity I₀ passes through an ideal analyzer whose transmission axis makes angle θ with the original polarization direction:\n**I = I₀ cos²θ**.\n\n- θ = 0°: I = I₀ (maximum transmission).\n- θ = 60°: I = 0.25 I₀.\n- θ = 90°: I = 0 for an ideal analyzer (crossed polarizers).\n\nThe law applies to plane-polarized incident light. Unpolarized light passing through the first ideal polarizer has half its original intensity on average; the curriculum does not require calculation of this first-filter reduction.\n\n**Worked example:** If I₀ = 80 W m⁻² and θ = 30°, then I = 80 × cos²30° = 80 × 3/4 = **60 W m⁻²**.\n\n## Uses of Polaroids\n- **Sky photography:** a rotating polarizing filter can reduce polarized scattered skylight and reflections from non-metallic surfaces, improving contrast and darkening parts of a blue sky.\n- **Stress analysis:** transparent plastic under mechanical stress can show colored or bright/dark patterns between crossed polarizers. These patterns reveal stress distribution and help engineers identify concentration of stress.\n\n## Key terms\nTransverse wave, polarization, plane-polarized light, polarizer, analyzer, transmission axis, Malus's law, stress analysis.\n\n## Revision check\n1. Why is polarization evidence for a transverse wave?\n2. Calculate I/I₀ when θ = 45°.\n3. Name two uses of Polaroids.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\n- وضاحت کریں کہ polarization عرضی لہروں سے وابستہ ہے (P-11-E-10)۔\n- plane-polarized light کے لیے Malus's law بیان اور استعمال کریں (P-11-E-11)۔\n- sky photography اور stress analysis میں Polaroid کے استعمال سمجھائیں (P-11-E-12)۔\n\n## Polarization\nعرضی wave میں ارتعاش سفر کی سمت کے عمود ہوتا ہے۔ روشنی ایک electromagnetic transverse wave ہے۔ عام unpolarized روشنی میں electric field کئی سمتوں میں ارتعاش کرتا ہے، مگر یہ سمتیں سفر کی سمت کے عمود ہوتی ہیں۔ polarizing filter (Polaroid) ایک پسندیدہ ارتعاشی سمت کو گزرنے دیتا ہے اور plane-polarized light پیدا کرتا ہے۔\n\nPolarization اس بات کا ثبوت ہے کہ روشنی transverse ہے۔ ہوا میں longitudinal sound wave کو اس طرح polarize نہیں کیا جا سکتا کیونکہ ذرات کا ارتعاش propagation کے متوازی ہوتا ہے۔\n\n## Malus's law\nجب intensity I₀ والی plane-polarized light ایک ideal analyzer سے گزرے اور analyzer کا transmission axis اصل polarization direction سے θ زاویہ بنائے تو:\n**I = I₀ cos²θ**۔\n\n- θ = 0°: I = I₀، یعنی زیادہ سے زیادہ روشنی۔\n- θ = 60°: I = 0.25 I₀۔\n- θ = 90°: ideal analyzer میں I = 0، یعنی crossed polarizers۔\n\nیہ قانون plane-polarized incident light کے لیے ہے۔ unpolarized light پہلے ideal polarizer سے گزرے تو اوسطاً اس کی اصل intensity کا نصف رہ جاتا ہے؛ نصاب میں اس پہلی کمی کا حساب مطلوب نہیں۔\n\n**حل شدہ مثال:** I₀ = 80 W m⁻² اور θ = 30° ہو تو I = 80 × cos²30° = 80 × 3/4 = **60 W m⁻²**۔\n\n## Polaroids کے استعمال\n- **Sky photography:** گھمایا جانے والا polarizing filter آسمان کی polarized scattered light اور غیر دھاتی سطحوں کے انعکاس کو کم کر سکتا ہے، جس سے contrast بہتر اور نیلے آسمان کے کچھ حصے گہرے نظر آتے ہیں۔\n- **Stress analysis:** دباؤ میں موجود شفاف plastic کو crossed polarizers کے درمیان رکھنے سے رنگین یا روشن/تاریک patterns بنتے ہیں۔ یہ patterns stress کی تقسیم دکھاتے ہیں اور engineers کو زیادہ stress والے مقامات پہچاننے میں مدد دیتے ہیں۔\n\n## اہم اصطلاحات\nTransverse wave، polarization، plane-polarized light، polarizer، analyzer، transmission axis، Malus's law، stress analysis۔\n\n## دہرائی\n1. polarization عرضی wave ہونے کا ثبوت کیوں ہے؟\n2. θ = 45° پر I/I₀ معلوم کریں۔\n3. Polaroids کے دو استعمال بتائیں۔",
+            "sd": "## سبق جا مقصد\n- سمجهايو ته polarization عرضي لهرن سان لاڳاپيل آهي (P-11-E-10)۔\n- plane-polarized light لاءِ Malus's law بيان ۽ استعمال ڪريو (P-11-E-11)۔\n- sky photography ۽ stress analysis ۾ Polaroid جا استعمال سمجهايو (P-11-E-12)۔\n\n## Polarization\nعرضي wave ۾ ارتعاش هلڻ جي رخ جي عمود هوندو آهي. روشني هڪ electromagnetic transverse wave آهي. عام unpolarized روشني ۾ electric field ڪيترن رخن ۾ ارتعاش ڪري ٿو، پر اهي رخ سفر جي رخ جي عمود هوندا آهن. polarizing filter (Polaroid) هڪ پسنديده ارتعاشي رخ کي گذرڻ ڏئي ٿو ۽ plane-polarized light ٺاهي ٿو.\n\nPolarization اهو ثبوت آهي ته روشني transverse آهي. هوا ۾ longitudinal sound wave کي هن نموني polarize نٿو ڪري سگهجي، ڇاڪاڻ ته ذرڙن جو ارتعاش propagation جي متوازي هوندو آهي.\n\n## Malus's law\nجڏهن intensity I₀ واري plane-polarized light هڪ ideal analyzer مان گذري ۽ analyzer جو transmission axis اصل polarization direction سان θ زاويه ٺاهي ته:\n**I = I₀ cos²θ**۔\n\n- θ = 0°: I = I₀، وڌ ۾ وڌ روشني.\n- θ = 60°: I = 0.25 I₀.\n- θ = 90°: ideal analyzer ۾ I = 0، يعني crossed polarizers.\n\nهي قانون plane-polarized incident light لاءِ آهي. unpolarized light پهرين ideal polarizer مان گذري ته سراسري طور اصل intensity جو اڌ رهي ٿو؛ نصاب ۾ هن پهرين گهٽتائي جو حساب گهربل ناهي.\n\n**حل ٿيل مثال:** I₀ = 80 W m⁻² ۽ θ = 30° هجي ته I = 80 × cos²30° = 80 × 3/4 = **60 W m⁻²**۔\n\n## Polaroids جا استعمال\n- **Sky photography:** گهمايل polarizing filter آسمان جي polarized scattered light ۽ غير ڌاتي سطحن جي reflection گهٽائي سگهي ٿو، جنهن سان contrast بهتر ۽ نيري آسمان جا ڪجهه حصا وڌيڪ گهرا نظر اچن ٿا.\n- **Stress analysis:** دٻاءَ هيٺ شفاف plastic کي crossed polarizers جي وچ ۾ رکڻ سان رنگين يا روشن/اونداهن patterns ٺهن ٿا. اهي patterns stress جي ورڇ ڏيکارين ٿا ۽ engineers کي stress concentration سڃاڻڻ ۾ مدد ڏين ٿا.\n\n## اهم اصطلاح\nTransverse wave، polarization، plane-polarized light، polarizer، analyzer، transmission axis، Malus's law، stress analysis۔\n\n## ورجاءُ\n1. polarization عرضي wave هجڻ جو ثبوت ڇو آهي؟\n2. θ = 45° تي I/I₀ ڳڻيو.\n3. Polaroids جا ٻه استعمال ٻڌايو."
+          }
+        },
+        {
+          "title": "XI-E.5 Diffraction, coherence and beats",
+          "content": "## Learning outcomes\n- Analyze diffraction experiments and the effect of gap width relative to wavelength (P-11-E-13).\n- Explain coherence (P-11-E-14).\n- Explain beats and how musical instruments produce them (P-11-E-15, P-11-E-16).\n\n## Diffraction\nDiffraction is the spreading or bending of waves as they pass through a gap or around an obstacle. It does not require a new medium. The amount of spreading depends strongly on the ratio of gap width to wavelength:\n- If the gap is much wider than λ, spreading is small.\n- If the gap is comparable to λ, spreading is pronounced.\n- A narrow gap can produce broad spreading.\n\nIn a ripple tank, compare water waves passing through different gap widths. Keep the wave frequency (and therefore wavelength in the same depth) constant while changing the gap. This is a fair test of the gap-width effect.\n\n## Coherence\nTwo sources are coherent when they produce waves of the same frequency with a constant phase difference. Stable interference requires coherence. Two independent lamps usually do not maintain a fixed phase relation, so their bright and dark interference pattern is not stable.\n\n## Beats\nWhen two sound waves of slightly different frequencies overlap, their phase relationship slowly changes. The sound alternates between louder and softer; this pulsation is called **beats**. The beat frequency is:\n**fᵦ = |f₁ − f₂|**.\nFor example, 256 Hz and 260 Hz produce 4 beats per second.\n\nMusicians use beats to tune instruments. If a reference note and a string produce beats, the string is adjusted until the beat rate decreases towards zero. Zero beats indicates equal frequencies (provided the notes are close enough and the comparison is valid).\n\n## Application case: tuning a classroom harmonium\nA student compares a harmonium note with a tuning reference. Four loudness pulses per second are heard. The frequencies differ by 4 Hz. Adjusting the reed so the pulses slow down improves tuning.\n\n## Key terms\nDiffraction, gap width, wavelength, coherent sources, phase difference, beats, beat frequency.\n\n## Revision check\n1. Under what condition is diffraction through a gap most noticeable?\n2. Why is a constant phase difference important for coherence?\n3. What beat frequency is produced by 392 Hz and 396 Hz?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\n- diffraction کے تجربات اور wavelength کے مقابلے میں gap width کا اثر سمجھیں (P-11-E-13)۔\n- coherence کی وضاحت کریں (P-11-E-14)۔\n- beats اور موسیقی کے آلات میں ان کی پیدائش سمجھیں (P-11-E-15، P-11-E-16)۔\n\n## Diffraction\nDiffraction وہ پھیلاؤ یا مڑنا ہے جو لہروں میں کسی شگاف سے گزرنے یا رکاوٹ کے کنارے سے آگے بڑھنے پر ہوتا ہے۔ اس کے لیے نیا medium ضروری نہیں۔ پھیلاؤ کا انحصار gap width اور wavelength کے تناسب پر ہے:\n- اگر gap، λ سے بہت زیادہ چوڑا ہو تو پھیلاؤ کم ہوتا ہے۔\n- اگر gap، λ کے برابر ہو تو پھیلاؤ نمایاں ہوتا ہے۔\n- بہت تنگ gap سے پھیلاؤ وسیع ہو سکتا ہے۔\n\nripple tank میں مختلف چوڑائی کے gaps سے گزرنے والی پانی کی لہروں کا موازنہ کریں۔ gap بدلتے وقت frequency (اور اسی گہرائی میں wavelength) مستقل رکھیں۔ اس طرح gap-width کے اثر کا منصفانہ تجربہ ہوتا ہے۔\n\n## Coherence\nدو ذرائع coherent تب ہوتے ہیں جب وہ ایک ہی frequency کی لہریں پیدا کریں اور ان کا phase difference مستقل رہے۔ مستحکم interference کے لیے coherence ضروری ہے۔ دو الگ lamps عموماً مستقل phase relation برقرار نہیں رکھتے، اس لیے ان کا روشن اور تاریک interference pattern مستحکم نہیں ہوتا۔\n\n## Beats\nجب تھوڑی مختلف frequencies کی دو sound waves ملتی ہیں تو ان کا باہمی phase relation آہستہ آہستہ بدلتا ہے۔ آواز باری باری بلند اور مدھم سنائی دیتی ہے؛ اس دھڑکن کو **beats** کہتے ہیں۔ beat frequency:\n**fᵦ = |f₁ − f₂|**۔\nمثلاً 256 Hz اور 260 Hz سے ہر سیکنڈ 4 beats بنتے ہیں۔\n\nموسیقار آلات کو tune کرنے کے لیے beats استعمال کرتے ہیں۔ اگر reference note اور تار کی آواز میں beats ہوں تو تار کو اس طرح adjust کرتے ہیں کہ beats کی شرح صفر کی طرف کم ہو۔ صفر beats برابر frequencies کی نشانی ہے، بشرطیکہ دونوں notes قریب ہوں اور موازنہ درست ہو۔\n\n## عملی مثال: کلاس روم کا ہارمونیم\nایک طالب علم harmonium کے note کا موازنہ tuning reference سے کرتا ہے۔ ہر سیکنڈ چار loudness pulses سنائی دیتی ہیں۔ frequencies میں 4 Hz فرق ہے۔ reed کو adjust کرنے سے pulses کم ہوتی ہیں اور tuning بہتر ہوتی ہے۔\n\n## اہم اصطلاحات\nDiffraction، gap width، wavelength، coherent ذرائع، phase difference، beats، beat frequency۔\n\n## دہرائی\n1. gap سے diffraction کب زیادہ نمایاں ہوتی ہے؟\n2. coherence کے لیے مستقل phase difference کیوں ضروری ہے؟\n3. 392 Hz اور 396 Hz سے کتنی beat frequency بنے گی؟",
+            "sd": "## سبق جا مقصد\n- diffraction جا تجربا ۽ wavelength جي ڀيٽ ۾ gap width جو اثر سمجهو (P-11-E-13)۔\n- coherence جي وضاحت ڪريو (P-11-E-14)۔\n- beats ۽ موسيقيءَ جي سازن ۾ انهن جي پيدا ٿيڻ کي سمجهو (P-11-E-15، P-11-E-16)۔\n\n## Diffraction\nDiffraction لهرن جو پکڙجڻ يا مڙڻ آهي، جيڪو ڪنهن gap مان گذرڻ يا رنڊڪ جي ڪناري وٽان وڃڻ وقت ٿئي ٿو. ان لاءِ نئون medium ضروري ناهي. پکڙجڻ gap width ۽ wavelength جي نسبت تي دارومدار رکي ٿو:\n- gap، λ کان گهڻو ويڪرو هجي ته پکڙجڻ گهٽ ٿيندو.\n- gap، λ جيترو هجي ته پکڙجڻ نمايان ٿيندو.\n- تمام سوڙهي gap مان پکڙجڻ وسيع ٿي سگهي ٿو.\n\nripple tank ۾ مختلف ويڪر وارن gaps مان گذرندڙ پاڻيءَ جي لهرن جو مقابلو ڪريو. gap بدلائيندي frequency (۽ ساڳئي depth ۾ wavelength) مقرر رکو. اهڙيءَ طرح gap-width جو اثر منصفاڻي نموني آزمائبو.\n\n## Coherence\nٻه ذريعا coherent تڏهن هوندا آهن جڏهن اهي ساڳي frequency جون لهرون پيدا ڪن ۽ انهن جو phase difference مستقل رهي. مستحڪم interference لاءِ coherence ضروري آهي. ٻه الڳ lamps عام طور مستقل phase relation نٿا رکن، تنهنڪري انهن جو روشن ۽ اونداهو interference pattern مستحڪم نٿو رهي.\n\n## Beats\nجڏهن ٿوري مختلف frequencies جون ٻه sound waves ملن ٿيون ته انهن جو phase relation آهستي آهستي بدلجي ٿو. آواز ڪڏهن وڌيڪ ۽ ڪڏهن گهٽ ٻڌجي ٿو؛ هن ڌڙڪن کي **beats** چوندا آهن. beat frequency:\n**fᵦ = |f₁ − f₂|**۔\nمثال طور 256 Hz ۽ 260 Hz مان هر سيڪنڊ 4 beats پيدا ٿين ٿا.\n\nموسيقيءَ جا ماهر ساز tune ڪرڻ لاءِ beats استعمال ڪن ٿا. جيڪڏهن reference note ۽ تار جي آواز ۾ beats هجن ته تار کي adjust ڪيو وڃي ٿو، جيستائين beats جي شرح صفر ڏانهن گهٽجي. صفر beats برابر frequencies جي نشاني آهي، بشرطيڪه ٻئي notes ويجها هجن ۽ مقابلو صحيح هجي.\n\n## عملي مثال: ڪلاس روم جو هارمونيم\nهڪ شاگرد harmonium جي note جو مقابلو tuning reference سان ڪري ٿو. هر سيڪنڊ چار loudness pulses ٻڌجن ٿا. frequencies ۾ 4 Hz فرق آهي. reed adjust ڪرڻ سان pulses گهٽجن ٿيون ۽ tuning بهتر ٿئي ٿي.\n\n## اهم اصطلاح\nDiffraction، gap width، wavelength، coherent ذريعا، phase difference، beats، beat frequency۔\n\n## ورجاءُ\n1. gap مان diffraction ڪڏهن وڌيڪ نمايان ٿيندي؟\n2. coherence لاءِ مستقل phase difference ڇو ضروري آهي؟\n3. 392 Hz ۽ 396 Hz مان ڪيتري beat frequency ٺهندي؟"
+          }
+        },
+        {
+          "title": "XI-E.6 Gravitational waves and interferometer detection",
+          "content": "## Learning outcomes\n- Describe gravitational waves qualitatively (P-11-E-17).\n- State how a passing gravitational wave can stretch and compress a body (P-11-E-18).\n- Explain that waves from distant events pass through Earth with extremely small amplitude (P-11-E-19).\n- Describe how interferometers detect them (P-11-E-20).\n\n## What are gravitational waves?\nIn general relativity, accelerating masses can produce ripples in spacetime. Strong, changing gravitational fields in systems such as two compact stars or black holes orbiting one another can generate gravitational waves. These disturbances propagate outwards at the speed of light. They are not ordinary sound waves and do not require air or another material medium.\n\nAs a gravitational wave passes, the relative distances between freely falling masses change very slightly: one direction is stretched while the perpendicular direction is compressed, then the pattern reverses. The fractional change in length is called **strain**. For waves reaching Earth from distant astronomical events, the strain is extraordinarily small.\n\n## Laser interferometers\nA laser interferometer splits one laser beam into two perpendicular arms. Mirrors reflect the beams back to a detector where they recombine. The combined light intensity depends on the relative phase of the two paths. A passing gravitational wave changes the arm lengths by a tiny amount, changing the phase difference and therefore the interference signal.\n\nThe instrument must isolate vibrations, temperature changes and other disturbances because ordinary environmental noise can be much larger than the desired signal. A coordinated network of detectors helps distinguish a genuine astrophysical signal from local noise and helps locate its source.\n\n## Application case: a distant binary merger\nWhen two compact objects orbit rapidly and merge, their changing mass distribution can send gravitational waves across space. By the time the waves reach Earth, the length change in a detector is far smaller than an atomic nucleus. A sensitive laser interferometer can still identify the characteristic time-varying signal after careful noise rejection and comparison with predicted waveforms.\n\n## Key terms\nGeneral relativity, gravitational wave, spacetime, strain, interferometer, laser, interference, detector noise.\n\n## Revision check\n1. Why are gravitational waves not sound waves?\n2. What physical quantity is called strain?\n3. How does a tiny arm-length change alter an interferometer's output?",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\n- gravitational waves کی عمومی وضاحت کریں (P-11-E-17)۔\n- بتائیں کہ گزرتی gravitational wave کسی جسم کو کس طرح کھینچ اور دبا سکتی ہے (P-11-E-18)۔\n- سمجھائیں کہ دور دراز واقعات کی لہریں زمین سے گزرتی ہیں مگر ان کا amplitude انتہائی کم ہوتا ہے (P-11-E-19)۔\n- interferometer سے ان کی شناخت بیان کریں (P-11-E-20)۔\n\n## Gravitational waves کیا ہیں؟\ngeneral relativity کے مطابق تیز رفتار سے بدلتی حرکت کرنے والے کمیت والے اجسام spacetime میں لہریں پیدا کر سکتے ہیں۔ دو compact stars یا black holes کے ایک دوسرے کے گرد گردش کرنے جیسے نظام میں بدلتا ہوا gravitational field gravitational waves پیدا کر سکتا ہے۔ یہ خلل روشنی کی رفتار سے باہر کی طرف سفر کرتے ہیں۔ یہ عام sound waves نہیں اور انہیں ہوا یا کسی مادی medium کی ضرورت نہیں۔\n\nجب gravitational wave گزرتی ہے تو آزادانہ گرنے والے اجسام کے درمیان فاصلہ نہایت معمولی طور پر بدلتا ہے: ایک سمت میں پھیلاؤ اور اس کے عمود سمت میں سکڑاؤ ہوتا ہے، پھر ترتیب الٹ جاتی ہے۔ لمبائی میں اس نسبتی تبدیلی کو **strain** کہتے ہیں۔ دور دراز فلکیاتی واقعات سے زمین تک پہنچنے والی لہروں کا strain انتہائی چھوٹا ہوتا ہے۔\n\n## Laser interferometer\nlaser interferometer ایک laser beam کو دو عمودی بازوؤں میں تقسیم کرتا ہے۔ آئینے شعاعوں کو واپس detector تک منعکس کرتے ہیں جہاں وہ دوبارہ ملتی ہیں۔ روشنی کی مشترکہ شدت دونوں راستوں کے phase کے فرق پر منحصر ہوتی ہے۔ گزرتی gravitational wave بازوؤں کی لمبائی میں نہایت معمولی تبدیلی کرتی ہے؛ اس سے phase difference اور interference signal بدلتا ہے۔\n\nآلے کو ارتعاش، درجہ حرارت کی تبدیلی اور دوسرے خلل سے محفوظ رکھنا ضروری ہے، کیونکہ عام ماحول کا noise مطلوبہ signal سے کہیں بڑا ہو سکتا ہے۔ detectors کا مربوط network حقیقی فلکیاتی signal کو مقامی noise سے الگ کرنے اور منبع کی سمت معلوم کرنے میں مدد دیتا ہے۔\n\n## عملی مثال: دور دراز binary merger\nجب دو compact اجسام تیزی سے ایک دوسرے کے گرد گردش کرتے ہوئے ضم ہوتے ہیں تو ان کی بدلتی ہوئی mass distribution spacetime میں gravitational waves بھیج سکتی ہے۔ زمین تک پہنچتے وقت detector کی لمبائی میں تبدیلی atomic nucleus سے بھی بہت کم ہو سکتی ہے۔ حساس laser interferometer noise کم کرنے اور متوقع waveforms سے موازنہ کرنے کے بعد اس مخصوص بدلتے signal کو شناخت کر سکتا ہے۔\n\n## اہم اصطلاحات\nGeneral relativity، gravitational wave، spacetime، strain، interferometer، laser، interference، detector noise۔\n\n## دہرائی\n1. gravitational waves، sound waves کیوں نہیں ہیں؟\n2. strain کس طبعی مقدار کو کہتے ہیں؟\n3. بازو کی معمولی لمبائی کی تبدیلی interferometer کے نتیجے کو کیسے بدلتی ہے؟",
+            "sd": "## سبق جا مقصد\n- gravitational waves جي عام وضاحت ڪريو (P-11-E-17)۔\n- ٻڌايو ته گذرندڙ gravitational wave ڪنهن جسم کي ڪيئن ڊگهو ۽ سوڙهو ڪري سگهي ٿي (P-11-E-18)۔\n- سمجهايو ته پري واقعن جون لهرون ڌرتيءَ مان گذرن ٿيون پر انهن جو amplitude تمام ننڍو هوندو آهي (P-11-E-19)۔\n- interferometer سان انهن جي سڃاڻپ بيان ڪريو (P-11-E-20)۔\n\n## Gravitational waves ڇا آهن؟\ngeneral relativity موجب تيز ٿيندڙ حرڪت ڪندڙ mass وارا جسم spacetime ۾ لهرون پيدا ڪري سگهن ٿا. ٻن compact stars يا black holes جي هڪ ٻئي چوڌاري گردش ڪندڙ نظام ۾ بدلجندڙ gravitational field gravitational waves پيدا ڪري سگهي ٿو. اهي خلل روشنيءَ جي رفتار سان ٻاهر پکڙجن ٿا. اهي عام sound waves نه آهن ۽ انهن کي هوا يا ڪنهن مادي medium جي ضرورت ناهي.\n\nجڏهن gravitational wave گذري ٿي ته آزادانه ڪرڻ وارن جسمن جي وچ ۾ فاصلو تمام ٿورو بدلجي ٿو: هڪ رخ ۾ ڇڪاءُ ۽ ان جي عمود رخ ۾ دٻاءُ ٿئي ٿو، پوءِ نمونو ابتڙ ٿئي ٿو. ڊيگهه جي هن نسبي تبديلي کي **strain** چوندا آهن. پري astronomical واقعن کان ڌرتيءَ تائين پهچندڙ لهرن جو strain انتهائي ننڍو هوندو آهي.\n\n## Laser interferometer\nlaser interferometer هڪ laser beam کي ٻن عمودي arms ۾ ورهائي ٿو. آئينا شعاعن کي واپس detector ڏانهن موٽائين ٿا، جتي اهي ٻيهر ملن ٿيون. گڏيل روشنيءَ جي intensity ٻنهي رستن جي phase difference تي دارومدار رکي ٿي. گذرندڙ gravitational wave arms جي ڊيگهه ۾ تمام ننڍڙي تبديلي ڪري ٿي؛ ان سان phase difference ۽ interference signal بدلجي ٿو.\n\nاوزار کي vibration، temperature جي تبديلي ۽ ٻين خللن کان الڳ رکڻ ضروري آهي، ڇاڪاڻ ته ماحول جو عام noise گهربل signal کان گهڻو وڏو ٿي سگهي ٿو. detectors جو گڏيل network حقيقي astronomical signal کي مقامي noise کان الڳ ڪرڻ ۽ ان جي source جي رخ جو اندازو لڳائڻ ۾ مدد ڪري ٿو.\n\n## عملي مثال: پري binary merger\nجڏهن ٻه compact جسم تيزيءَ سان هڪ ٻئي چوڌاري ڦرن ٿا ۽ ضم ٿين ٿا ته انهن جي بدلجندڙ mass distribution spacetime ۾ gravitational waves موڪلي سگهي ٿي. ڌرتيءَ تائين پهچڻ وقت detector جي ڊيگهه ۾ تبديلي atomic nucleus کان به تمام ننڍي ٿي سگهي ٿي. حساس laser interferometer noise گهٽائڻ ۽ متوقع waveforms سان مقابلو ڪرڻ کان پوءِ ان خاص بدلجندڙ signal کي سڃاڻي سگهي ٿو.\n\n## اهم اصطلاح\nGeneral relativity، gravitational wave، spacetime، strain، interferometer، laser، interference، detector noise۔\n\n## ورجاءُ\n1. gravitational waves، sound waves ڇو نه آهن؟\n2. strain ڪهڙي طبعياتي مقدار کي چوندا آهن؟\n3. arm جي ننڍڙي ڊيگهه واري تبديلي interferometer جي نتيجي کي ڪيئن بدلائي ٿي؟"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "At a point where two waves overlap in a linear medium, the resultant displacement is:",
+          "options": {
+            "A": "The algebraic sum of their individual displacements",
+            "B": "Always the larger displacement",
+            "C": "The product of their amplitudes",
+            "D": "The sum of their frequencies"
+          },
+          "correctOption": "A",
+          "explanation": "Superposition adds instantaneous displacements with their signs: y = y₁ + y₂.",
+          "translations": {
+            "ur": {
+              "question": "خطی medium میں دو لہریں ملیں تو نتیجہ خیز displacement کیا ہوتا ہے؟",
+              "options": {
+                "A": "انفرادی displacements کا علامتی الجبری مجموعہ",
+                "B": "ہمیشہ بڑا displacement",
+                "C": "ان کے amplitudes کا حاصلِ ضرب",
+                "D": "ان کی frequencies کا مجموعہ"
+              },
+              "explanation": "Superposition میں ہر لمحے کے displacements کو ان کے نشان سمیت جمع کیا جاتا ہے: y = y₁ + y₂۔"
+            },
+            "sd": {
+              "question": "linear medium ۾ ٻه لهرون ملن ته نتيجي وارو displacement ڇا هوندو؟",
+              "options": {
+                "A": "انفرادي displacements جو نشان سميت الجبري مجموعو",
+                "B": "هميشه وڏو displacement",
+                "C": "amplitudes جو حاصل ضرب",
+                "D": "frequencies جو مجموعو"
+              },
+              "explanation": "Superposition ۾ هر لمحي جا displacements انهن جي نشان سميت جمع ٿين ٿا: y = y₁ + y₂."
+            }
+          }
+        },
+        {
+          "question": "Two equal-amplitude waves arrive exactly in phase. Their resultant amplitude is:",
+          "options": {
+            "A": "Zero",
+            "B": "A",
+            "C": "2A",
+            "D": "A/2"
+          },
+          "correctOption": "C",
+          "explanation": "Crest meets crest and trough meets trough, so equal amplitudes add to 2A.",
+          "translations": {
+            "ur": {
+              "question": "برابر amplitude کی دو لہریں بالکل ہم phase میں پہنچیں تو نتیجہ خیز amplitude کیا ہو گا؟",
+              "options": {
+                "A": "صفر",
+                "B": "A",
+                "C": "2A",
+                "D": "A/2"
+              },
+              "explanation": "crest، crest سے اور trough، trough سے ملتا ہے، اس لیے برابر amplitudes جمع ہو کر 2A بنتے ہیں۔"
+            },
+            "sd": {
+              "question": "برابر amplitude واريون ٻه لهرون ساڳئي phase ۾ پهچن ته نتيجي وارو amplitude ڇا ٿيندو؟",
+              "options": {
+                "A": "صفر",
+                "B": "A",
+                "C": "2A",
+                "D": "A/2"
+              },
+              "explanation": "crest، crest سان ۽ trough، trough سان ملي ٿو، تنهنڪري برابر amplitudes گڏجي 2A ٿين ٿا."
+            }
+          }
+        },
+        {
+          "question": "For two coherent waves, a condition for destructive interference is a path difference of:",
+          "options": {
+            "A": "mλ",
+            "B": "(m + 1/2)λ",
+            "C": "2mλ",
+            "D": "λ/4 for every minimum"
+          },
+          "correctOption": "B",
+          "explanation": "A half-integer multiple of wavelength gives a phase difference of an odd multiple of π.",
+          "translations": {
+            "ur": {
+              "question": "دو coherent لہروں میں destructive interference کے لیے path difference کیا ہو گا؟",
+              "options": {
+                "A": "mλ",
+                "B": "(m + 1/2)λ",
+                "C": "2mλ",
+                "D": "ہر minimum کے لیے λ/4"
+              },
+              "explanation": "wavelength کا نصف صحیح عددی مضرب، odd multiple of π کا phase difference دیتا ہے۔"
+            },
+            "sd": {
+              "question": "ٻن coherent لهرن ۾ destructive interference لاءِ path difference ڇا هوندو؟",
+              "options": {
+                "A": "mλ",
+                "B": "(m + 1/2)λ",
+                "C": "2mλ",
+                "D": "هر minimum لاءِ λ/4"
+              },
+              "explanation": "wavelength جو اڌ-صحیح عدد وارو ضرب، odd multiple of π phase difference ڏئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Active noise-cancelling headphones reduce steady engine noise mainly by producing:",
+          "options": {
+            "A": "A louder wave in phase",
+            "B": "A wave of much higher frequency",
+            "C": "A wave with approximately opposite phase",
+            "D": "A wave that changes the speed of sound"
+          },
+          "correctOption": "C",
+          "explanation": "The generated anti-noise is arranged to oppose the incoming pressure variation, causing partial destructive interference.",
+          "translations": {
+            "ur": {
+              "question": "Active noise-cancelling headphones مسلسل انجن کے شور کو بنیادی طور پر کس طرح کم کرتے ہیں؟",
+              "options": {
+                "A": "زیادہ بلند اور ہم phase آواز سے",
+                "B": "بہت زیادہ frequency والی آواز سے",
+                "C": "تقریباً مخالف phase والی آواز سے",
+                "D": "آواز کی رفتار بدلنے والی آواز سے"
+              },
+              "explanation": "تیار کی گئی anti-noise incoming pressure variation کی مخالفت کرتی ہے، جس سے جزوی destructive interference ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "Active noise-cancelling headphones مسلسل انجڻ جو شور بنيادي طور ڪيئن گهٽائين ٿا؟",
+              "options": {
+                "A": "وڌيڪ وڏي ۽ ساڳئي phase واري لهر سان",
+                "B": "تمام وڌيڪ frequency واري لهر سان",
+                "C": "تقريباً ابتڙ phase واري لهر سان",
+                "D": "آواز جي رفتار بدلائيندڙ لهر سان"
+              },
+              "explanation": "ٺاهيل anti-noise ايندڙ pressure variation جي مخالفت ڪري ٿي، جنهن سان جزوي destructive interference ٿئي ٿي."
+            }
+          }
+        },
+        {
+          "question": "A stationary wave is formed when two waves of the same frequency and similar amplitude travel:",
+          "options": {
+            "A": "In the same direction at different speeds",
+            "B": "In opposite directions along the same medium",
+            "C": "At right angles in different media",
+            "D": "With unrelated frequencies"
+          },
+          "correctOption": "B",
+          "explanation": "Oppositely travelling waves superpose to form fixed nodes and antinodes.",
+          "translations": {
+            "ur": {
+              "question": "Stationary wave کب بنتی ہے؟",
+              "options": {
+                "A": "جب مختلف رفتار سے ایک سمت میں لہریں چلیں",
+                "B": "جب ایک ہی medium میں دو لہریں مخالف سمتوں میں چلیں",
+                "C": "جب مختلف media میں لہریں عموداً چلیں",
+                "D": "جب frequencies غیر متعلق ہوں"
+              },
+              "explanation": "مخالف سمتوں میں سفر کرنے والی لہریں مل کر مقررہ nodes اور antinodes بناتی ہیں۔"
+            },
+            "sd": {
+              "question": "Stationary wave ڪڏهن ٺهي ٿي؟",
+              "options": {
+                "A": "جڏهن مختلف رفتار سان لهرون ساڳئي رخ ۾ هلن",
+                "B": "جڏهن هڪ ئي medium ۾ ٻه لهرون ابتڙ رخن ۾ هلن",
+                "C": "جڏهن مختلف media ۾ لهرون عمودي هلن",
+                "D": "جڏهن frequencies جو پاڻ ۾ تعلق نه هجي"
+              },
+              "explanation": "ابتڙ رخن ۾ هلندڙ لهرون ملي مقرر nodes ۽ antinodes ٺاهين ٿيون."
+            }
+          }
+        },
+        {
+          "question": "At a node in an ideal stationary wave, the displacement is:",
+          "options": {
+            "A": "Always maximum",
+            "B": "Always zero",
+            "C": "Equal to the antinode displacement",
+            "D": "Increasing without limit"
+          },
+          "correctOption": "B",
+          "explanation": "A node is a point of permanent destructive interference and has zero displacement.",
+          "translations": {
+            "ur": {
+              "question": "مثالی stationary wave میں node پر displacement کیا ہوتا ہے؟",
+              "options": {
+                "A": "ہمیشہ زیادہ سے زیادہ",
+                "B": "ہمیشہ صفر",
+                "C": "antinode کے برابر",
+                "D": "بغیر حد بڑھتا رہتا ہے"
+              },
+              "explanation": "node مستقل destructive interference کا نقطہ ہے، اس لیے displacement صفر ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "مثالي stationary wave ۾ node تي displacement ڇا هوندو؟",
+              "options": {
+                "A": "هميشه وڌ ۾ وڌ",
+                "B": "هميشه صفر",
+                "C": "antinode جيترو",
+                "D": "بنا حد وڌندو"
+              },
+              "explanation": "node مستقل destructive interference جو نقطو آهي، تنهنڪري displacement صفر هوندو آهي."
+            }
+          }
+        },
+        {
+          "question": "The distance between two adjacent nodes in a stationary wave is:",
+          "options": {
+            "A": "λ/4",
+            "B": "λ/2",
+            "C": "λ",
+            "D": "2λ"
+          },
+          "correctOption": "B",
+          "explanation": "Adjacent nodes are separated by half a wavelength; a node and nearest antinode are λ/4 apart.",
+          "translations": {
+            "ur": {
+              "question": "Stationary wave میں دو قریبی nodes کا فاصلہ کتنا ہوتا ہے؟",
+              "options": {
+                "A": "λ/4",
+                "B": "λ/2",
+                "C": "λ",
+                "D": "2λ"
+              },
+              "explanation": "قریب کے nodes کے درمیان آدھی wavelength ہوتی ہے؛ node اور قریبی antinode کا فاصلہ λ/4 ہے۔"
+            },
+            "sd": {
+              "question": "Stationary wave ۾ ٻن ويجهن nodes جو فاصلو ڪيترو آهي؟",
+              "options": {
+                "A": "λ/4",
+                "B": "λ/2",
+                "C": "λ",
+                "D": "2λ"
+              },
+              "explanation": "ويجهن nodes جي وچ ۾ اڌ wavelength هوندي آهي؛ node ۽ ويجهي antinode جو فاصلو λ/4 آهي."
+            }
+          }
+        },
+        {
+          "question": "For a string fixed at both ends, the fundamental mode contains:",
+          "options": {
+            "A": "One complete wavelength in length L",
+            "B": "Half a wavelength in length L",
+            "C": "A quarter wavelength in length L",
+            "D": "Two wavelengths in length L"
+          },
+          "correctOption": "B",
+          "explanation": "Both ends are nodes, so the fundamental fits one half-wavelength into the vibrating length: L = λ₁/2.",
+          "translations": {
+            "ur": {
+              "question": "دونوں سروں سے بندھی تار کے fundamental mode میں لمبائی L کے اندر کیا سما جاتا ہے؟",
+              "options": {
+                "A": "ایک مکمل wavelength",
+                "B": "آدھی wavelength",
+                "C": "چوتھائی wavelength",
+                "D": "دو wavelengths"
+              },
+              "explanation": "دونوں سرے nodes ہوتے ہیں، اس لیے بنیادی mode میں L = λ₁/2 ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "ٻنهي پاسن کان ٻڌل تار جي fundamental mode ۾ ڊيگهه L اندر ڇا اچي ٿو؟",
+              "options": {
+                "A": "هڪ مڪمل wavelength",
+                "B": "اڌ wavelength",
+                "C": "چوٿين wavelength",
+                "D": "ٻه wavelengths"
+              },
+              "explanation": "ٻئي پاسا nodes آهن، تنهنڪري بنيادي mode ۾ L = λ₁/2 هوندو آهي."
+            }
+          }
+        },
+        {
+          "question": "A string of length 0.75 m is fixed at both ends. If wave speed is 120 m/s, its fundamental frequency is:",
+          "options": {
+            "A": "40 Hz",
+            "B": "60 Hz",
+            "C": "80 Hz",
+            "D": "160 Hz"
+          },
+          "correctOption": "C",
+          "explanation": "f₁ = v/(2L) = 120/(1.50) = 80 Hz.",
+          "translations": {
+            "ur": {
+              "question": "0.75 m لمبی بندھی تار میں wave speed 120 m/s ہو تو fundamental frequency کیا ہو گی؟",
+              "options": {
+                "A": "40 Hz",
+                "B": "60 Hz",
+                "C": "80 Hz",
+                "D": "160 Hz"
+              },
+              "explanation": "f₁ = v/(2L) = 120/1.50 = 80 Hz۔"
+            },
+            "sd": {
+              "question": "0.75 m ڊگهي ٻڌل تار ۾ wave speed 120 m/s هجي ته fundamental frequency ڇا ٿيندي؟",
+              "options": {
+                "A": "40 Hz",
+                "B": "60 Hz",
+                "C": "80 Hz",
+                "D": "160 Hz"
+              },
+              "explanation": "f₁ = v/(2L) = 120/1.50 = 80 Hz."
+            }
+          }
+        },
+        {
+          "question": "For a stationary observer, a sound source moving towards the observer produces an observed frequency that is:",
+          "options": {
+            "A": "Lower than the source frequency",
+            "B": "Higher than the source frequency",
+            "C": "Always unchanged",
+            "D": "Zero"
+          },
+          "correctOption": "B",
+          "explanation": "Wavefronts are compressed in front of an approaching source, reducing wavelength and raising observed frequency.",
+          "translations": {
+            "ur": {
+              "question": "ساکن observer کی طرف آتے sound source کی آواز کی محسوس frequency کیا ہوتی ہے؟",
+              "options": {
+                "A": "source frequency سے کم",
+                "B": "source frequency سے زیادہ",
+                "C": "ہمیشہ برابر",
+                "D": "صفر"
+              },
+              "explanation": "قریب آتے source کے آگے wavefronts قریب ہوتے ہیں، wavelength کم اور محسوس frequency زیادہ ہو جاتی ہے۔"
+            },
+            "sd": {
+              "question": "ساکن observer ڏانهن ايندڙ sound source جي محسوس ٿيندڙ frequency ڪهڙي هوندي؟",
+              "options": {
+                "A": "source frequency کان گهٽ",
+                "B": "source frequency کان وڌيڪ",
+                "C": "هميشه ساڳي",
+                "D": "صفر"
+              },
+              "explanation": "ويجهو ايندڙ source جي اڳيان wavefronts ويجها ٿين ٿا، wavelength گهٽ ۽ محسوس ٿيندڙ frequency وڌيڪ ٿئي ٿي."
+            }
+          }
+        },
+        {
+          "question": "For a source approaching a stationary observer, the correct sound Doppler formula is:",
+          "options": {
+            "A": "fₒ = fₛv/(v + vₛ)",
+            "B": "fₒ = fₛ(v − vₛ)/v",
+            "C": "fₒ = fₛv/(v − vₛ)",
+            "D": "fₒ = fₛ"
+          },
+          "correctOption": "C",
+          "explanation": "The denominator uses v − vₛ for approach because the wavefront spacing in front of the source is reduced.",
+          "translations": {
+            "ur": {
+              "question": "ساکن observer کی طرف آتے source کے لیے درست sound Doppler formula کون سا ہے؟",
+              "options": {
+                "A": "fₒ = fₛv/(v + vₛ)",
+                "B": "fₒ = fₛ(v − vₛ)/v",
+                "C": "fₒ = fₛv/(v − vₛ)",
+                "D": "fₒ = fₛ"
+              },
+              "explanation": "قریب آنے پر denominator میں v − vₛ ہوتا ہے کیونکہ source کے آگے wavefront spacing کم ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "ساکن observer ڏانهن ايندڙ source لاءِ صحيح sound Doppler formula ڪهڙو آهي؟",
+              "options": {
+                "A": "fₒ = fₛv/(v + vₛ)",
+                "B": "fₒ = fₛ(v − vₛ)/v",
+                "C": "fₒ = fₛv/(v − vₛ)",
+                "D": "fₒ = fₛ"
+              },
+              "explanation": "ويجهو اچڻ وقت denominator ۾ v − vₛ هوندو آهي، ڇاڪاڻ ته source جي اڳيان wavefront spacing گهٽجي ٿي."
+            }
+          }
+        },
+        {
+          "question": "A 400 Hz source approaches a stationary observer at 10 m/s. Take sound speed as 340 m/s. The observed frequency is approximately:",
+          "options": {
+            "A": "412 Hz",
+            "B": "388 Hz",
+            "C": "400 Hz",
+            "D": "425 Hz"
+          },
+          "correctOption": "A",
+          "explanation": "fₒ = 400 × 340/(340 − 10) = 136000/330 ≈ 412.1 Hz.",
+          "translations": {
+            "ur": {
+              "question": "400 Hz source، 10 m/s سے ساکن observer کی طرف آ رہا ہے۔ آواز کی رفتار 340 m/s ہو تو محسوس frequency تقریباً کتنی ہو گی؟",
+              "options": {
+                "A": "412 Hz",
+                "B": "388 Hz",
+                "C": "400 Hz",
+                "D": "425 Hz"
+              },
+              "explanation": "fₒ = 400 × 340/(340 − 10) = 136000/330 ≈ 412.1 Hz۔"
+            },
+            "sd": {
+              "question": "400 Hz source، 10 m/s سان ساکن observer ڏانهن اچي ٿو. آواز جي رفتار 340 m/s هجي ته محسوس frequency لڳ ڀڳ ڪيتري ٿيندي؟",
+              "options": {
+                "A": "412 Hz",
+                "B": "388 Hz",
+                "C": "400 Hz",
+                "D": "425 Hz"
+              },
+              "explanation": "fₒ = 400 × 340/(340 − 10) = 136000/330 ≈ 412.1 Hz."
+            }
+          }
+        },
+        {
+          "question": "Polarization is a property that can be demonstrated by:",
+          "options": {
+            "A": "Longitudinal sound waves in air only",
+            "B": "Transverse waves",
+            "C": "All waves equally",
+            "D": "Pressure waves with no oscillation"
+          },
+          "correctOption": "B",
+          "explanation": "Polarization selects a vibration direction perpendicular to propagation, which is possible for transverse waves.",
+          "translations": {
+            "ur": {
+              "question": "Polarization کس قسم کی لہروں میں ظاہر کی جا سکتی ہے؟",
+              "options": {
+                "A": "صرف ہوا کی longitudinal sound waves",
+                "B": "عرضی لہروں میں",
+                "C": "تمام لہروں میں یکساں",
+                "D": "ایسی pressure waves جن میں ارتعاش نہ ہو"
+              },
+              "explanation": "Polarization سفر کی سمت کے عمود ارتعاش کی ایک سمت منتخب کرتی ہے، جو عرضی لہروں میں ممکن ہے۔"
+            },
+            "sd": {
+              "question": "Polarization ڪهڙي قسم جي لهرن ۾ ڏيکاري سگهجي ٿي؟",
+              "options": {
+                "A": "رڳو هوا جي longitudinal sound waves",
+                "B": "عرضي لهرن ۾",
+                "C": "سڀني لهرن ۾ هڪجهڙي",
+                "D": "اهڙين pressure waves ۾ جن ۾ ارتعاش نه هجي"
+              },
+              "explanation": "Polarization سفر جي رخ جي عمود ارتعاش جو هڪ رخ چونڊي ٿي، جيڪو عرضي لهرن ۾ ممڪن آهي."
+            }
+          }
+        },
+        {
+          "question": "Plane-polarized light passes through an analyzer at 60° to its polarization direction. By Malus's law, the transmitted intensity is:",
+          "options": {
+            "A": "I₀",
+            "B": "0.75I₀",
+            "C": "0.50I₀",
+            "D": "0.25I₀"
+          },
+          "correctOption": "D",
+          "explanation": "I = I₀ cos²60° = I₀(1/2)² = 0.25I₀.",
+          "translations": {
+            "ur": {
+              "question": "Plane-polarized روشنی analyzer سے 60° کے زاویے پر گزرے تو Malus's law کے مطابق intensity کتنی ہو گی؟",
+              "options": {
+                "A": "I₀",
+                "B": "0.75I₀",
+                "C": "0.50I₀",
+                "D": "0.25I₀"
+              },
+              "explanation": "I = I₀ cos²60° = I₀(1/2)² = 0.25I₀۔"
+            },
+            "sd": {
+              "question": "Plane-polarized روشني analyzer مان 60° زاويي تي گذري ته Malus's law موجب intensity ڪيتري ٿيندي؟",
+              "options": {
+                "A": "I₀",
+                "B": "0.75I₀",
+                "C": "0.50I₀",
+                "D": "0.25I₀"
+              },
+              "explanation": "I = I₀ cos²60° = I₀(1/2)² = 0.25I₀."
+            }
+          }
+        },
+        {
+          "question": "A Polaroid filter used in sky photography can improve contrast mainly by reducing:",
+          "options": {
+            "A": "The speed of light",
+            "B": "Polarized scattered skylight and surface glare",
+            "C": "The wavelength of sunlight",
+            "D": "The Earth's gravitational field"
+          },
+          "correctOption": "B",
+          "explanation": "A suitable polarizing filter reduces polarized scattered light and reflections from non-metallic surfaces.",
+          "translations": {
+            "ur": {
+              "question": "Sky photography میں Polaroid filter بنیادی طور پر کس چیز کو کم کر کے contrast بہتر کرتا ہے؟",
+              "options": {
+                "A": "روشنی کی رفتار",
+                "B": "polarized scattered skylight اور سطحوں کی چکاچوند",
+                "C": "سورج کی روشنی کی wavelength",
+                "D": "زمین کا gravitational field"
+              },
+              "explanation": "مناسب polarizing filter polarized scattered light اور غیر دھاتی سطحوں کے reflections کم کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Sky photography ۾ Polaroid filter بنيادي طور ڪهڙي شيءِ گهٽائي contrast بهتر ڪري ٿو؟",
+              "options": {
+                "A": "روشنيءَ جي رفتار",
+                "B": "polarized scattered skylight ۽ سطحن جي چمڪ",
+                "C": "سج جي روشنيءَ جي wavelength",
+                "D": "ڌرتيءَ جو gravitational field"
+              },
+              "explanation": "مناسب polarizing filter polarized scattered light ۽ غير ڌاتي سطحن جا reflections گهٽائي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Diffraction through a gap is usually most pronounced when the gap width is:",
+          "options": {
+            "A": "Much greater than the wavelength",
+            "B": "Comparable to the wavelength",
+            "C": "Infinite",
+            "D": "Unrelated to wavelength"
+          },
+          "correctOption": "B",
+          "explanation": "A gap width comparable to wavelength produces substantial spreading; a much wider gap gives less spreading.",
+          "translations": {
+            "ur": {
+              "question": "کسی gap سے diffraction عموماً کب زیادہ نمایاں ہوتی ہے؟",
+              "options": {
+                "A": "جب gap wavelength سے بہت بڑا ہو",
+                "B": "جب gap width wavelength کے قریب ہو",
+                "C": "جب gap لامحدود ہو",
+                "D": "جب gap کا wavelength سے تعلق نہ ہو"
+              },
+              "explanation": "gap width، wavelength کے برابر ہو تو پھیلاؤ نمایاں ہوتا ہے؛ بہت چوڑا gap کم پھیلاؤ دیتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪنهن gap مان diffraction عام طور ڪڏهن وڌيڪ نمايان ٿيندي آهي؟",
+              "options": {
+                "A": "جڏهن gap wavelength کان گهڻو وڏو هجي",
+                "B": "جڏهن gap width wavelength جي ويجهو هجي",
+                "C": "جڏهن gap لامحدود هجي",
+                "D": "جڏهن gap جو wavelength سان تعلق نه هجي"
+              },
+              "explanation": "gap width، wavelength جيترو هجي ته پکڙجڻ نمايان ٿئي ٿو؛ تمام ويڪرو gap گهٽ پکڙجڻ ڏئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Two wave sources are coherent when they have:",
+          "options": {
+            "A": "Different frequencies and random phase",
+            "B": "The same frequency and a constant phase difference",
+            "C": "Different speeds in every medium",
+            "D": "Zero amplitude"
+          },
+          "correctOption": "B",
+          "explanation": "A constant phase relationship allows a stable interference pattern.",
+          "translations": {
+            "ur": {
+              "question": "دو wave sources کب coherent ہوتے ہیں؟",
+              "options": {
+                "A": "جب frequencies مختلف اور phase بے ترتیب ہو",
+                "B": "جب frequency برابر اور phase difference مستقل ہو",
+                "C": "جب ہر medium میں رفتار مختلف ہو",
+                "D": "جب amplitude صفر ہو"
+              },
+              "explanation": "مستقل phase relation مستحکم interference pattern بنانے دیتی ہے۔"
+            },
+            "sd": {
+              "question": "ٻه wave sources ڪڏهن coherent هوندا آهن؟",
+              "options": {
+                "A": "جڏهن frequencies مختلف ۽ phase بي ترتيب هجي",
+                "B": "جڏهن frequency ساڳي ۽ phase difference مستقل هجي",
+                "C": "جڏهن هر medium ۾ رفتار مختلف هجي",
+                "D": "جڏهن amplitude صفر هجي"
+              },
+              "explanation": "مستقل phase relation مستحڪم interference pattern ٺاهي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Two tuning notes have frequencies 440 Hz and 444 Hz. The beat frequency is:",
+          "options": {
+            "A": "884 Hz",
+            "B": "442 Hz",
+            "C": "4 Hz",
+            "D": "1 Hz"
+          },
+          "correctOption": "C",
+          "explanation": "Beat frequency is the absolute difference: |444 − 440| = 4 Hz.",
+          "translations": {
+            "ur": {
+              "question": "440 Hz اور 444 Hz کے دو notes کی beat frequency کیا ہو گی؟",
+              "options": {
+                "A": "884 Hz",
+                "B": "442 Hz",
+                "C": "4 Hz",
+                "D": "1 Hz"
+              },
+              "explanation": "Beat frequency دونوں frequencies کا مطلق فرق ہے: |444 − 440| = 4 Hz۔"
+            },
+            "sd": {
+              "question": "440 Hz ۽ 444 Hz وارن ٻن notes جي beat frequency ڪيتري ٿيندي؟",
+              "options": {
+                "A": "884 Hz",
+                "B": "442 Hz",
+                "C": "4 Hz",
+                "D": "1 Hz"
+              },
+              "explanation": "Beat frequency ٻنهي frequencies جو مطلق فرق آهي: |444 − 440| = 4 Hz."
+            }
+          }
+        },
+        {
+          "question": "A detector used to measure gravitational waves relies on:",
+          "options": {
+            "A": "A water ripple tank",
+            "B": "A laser interferometer",
+            "C": "A thermometer",
+            "D": "A tuning fork"
+          },
+          "correctOption": "B",
+          "explanation": "A laser interferometer detects tiny changes in the relative optical path lengths of perpendicular arms.",
+          "translations": {
+            "ur": {
+              "question": "Gravitational waves کی شناخت کے لیے کون سا detector استعمال ہوتا ہے؟",
+              "options": {
+                "A": "water ripple tank",
+                "B": "laser interferometer",
+                "C": "thermometer",
+                "D": "tuning fork"
+              },
+              "explanation": "laser interferometer عمودی arms کے optical path lengths میں نہایت معمولی تبدیلی محسوس کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Gravitational waves سڃاڻڻ لاءِ ڪهڙو detector استعمال ٿيندو آهي؟",
+              "options": {
+                "A": "water ripple tank",
+                "B": "laser interferometer",
+                "C": "thermometer",
+                "D": "tuning fork"
+              },
+              "explanation": "laser interferometer عمودي arms جي optical path lengths ۾ تمام ننڍڙي تبديلي محسوس ڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "As a gravitational wave passes freely falling test masses, it produces:",
+          "options": {
+            "A": "Only a rise in air temperature",
+            "B": "A periodic stretching and compression of relative distances",
+            "C": "A permanent increase in mass",
+            "D": "A change in the speed of light in vacuum"
+          },
+          "correctOption": "B",
+          "explanation": "A passing gravitational wave produces a tiny oscillating strain: distances stretch in one direction and compress in the perpendicular direction.",
+          "translations": {
+            "ur": {
+              "question": "Gravitational wave آزادانہ گرنے والے test masses سے گزرے تو کیا اثر پیدا کرتی ہے؟",
+              "options": {
+                "A": "صرف ہوا کے درجہ حرارت میں اضافہ",
+                "B": "فاصلوں میں وقفے وقفے سے کھنچاؤ اور سکڑاؤ",
+                "C": "کمیت میں مستقل اضافہ",
+                "D": "vacuum میں روشنی کی رفتار میں تبدیلی"
+              },
+              "explanation": "گزرتی gravitational wave نہایت چھوٹا oscillating strain پیدا کرتی ہے: ایک سمت میں فاصلہ کھنچتا اور عمود سمت میں سکڑتا ہے۔"
+            },
+            "sd": {
+              "question": "Gravitational wave آزادانه ڪرڻ وارن test masses وٽان گذري ته ڪهڙو اثر پيدا ڪري ٿي؟",
+              "options": {
+                "A": "رڳو هوا جي temperature ۾ واڌ",
+                "B": "فاصلن ۾ وقتي ڇڪاءُ ۽ سوڙهائپ",
+                "C": "mass ۾ مستقل واڌ",
+                "D": "vacuum ۾ روشنيءَ جي رفتار ۾ تبديلي"
+              },
+              "explanation": "گذرندڙ gravitational wave تمام ننڍڙو oscillating strain پيدا ڪري ٿي: هڪ رخ ۾ فاصلو ڊگهو ۽ عمود رخ ۾ سوڙهو ٿئي ٿو."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Two pulses produce displacements +3 mm and −2 mm at the same point. Use superposition to find the resultant displacement. Then state the phase condition for constructive interference.",
+          "modelAnswer": "The resultant displacement is y = +3 + (−2) = +1 mm. Constructive interference occurs when the waves arrive in phase; the path difference is mλ (m = 0, 1, 2, …).",
+          "rubric": [
+            "Correct algebraic addition with signs (1)",
+            "Resultant +1 mm with unit (1)",
+            "States in-phase condition (1)",
+            "Gives path difference mλ (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو pulses ایک ہی نقطے پر +3 mm اور −2 mm displacement پیدا کریں۔ superposition سے نتیجہ خیز displacement معلوم کریں، پھر constructive interference کی phase condition لکھیں۔",
+              "modelAnswer": "نتیجہ y = +3 + (−2) = +1 mm ہے۔ constructive interference اس وقت ہوتی ہے جب لہریں ہم phase میں پہنچیں؛ path difference mλ ہوتا ہے، جہاں m = 0, 1, 2, … ہے۔",
+              "rubric": [
+                "نشان سمیت درست الجبری جمع (1)",
+                "درست نتیجہ +1 mm اور unit (1)",
+                "ہم phase شرط بیان کرے (1)",
+                "path difference mλ لکھے (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه pulses هڪ ئي نقطي تي +3 mm ۽ −2 mm displacement پيدا ڪن ٿا. superposition سان نتيجو ڳڻيو، پوءِ constructive interference جي phase condition لکو.",
+              "modelAnswer": "نتيجو y = +3 + (−2) = +1 mm آهي. constructive interference تڏهن ٿئي ٿي جڏهن لهرون ساڳئي phase ۾ پهچن؛ path difference mλ هوندو، جتي m = 0, 1, 2, … آهي.",
+              "rubric": [
+                "نشان سميت صحيح الجبري جمع (1)",
+                "صحيح نتيجو +1 mm ۽ unit (1)",
+                "ساڳئي phase واري شرط بيان ڪري (1)",
+                "path difference mλ لکي (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "A string fixed at both ends has length 0.80 m and supports waves travelling at 160 m/s. Calculate its fundamental frequency and second-harmonic frequency.",
+          "modelAnswer": "For a string fixed at both ends, f₁ = v/(2L) = 160/(2 × 0.80) = 100 Hz. The second harmonic is f₂ = 2f₁ = 200 Hz.",
+          "rubric": [
+            "Uses f₁ = v/(2L) (1)",
+            "Substitutes length and speed correctly (1)",
+            "Fundamental frequency 100 Hz (1)",
+            "Second harmonic 200 Hz (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "دونوں سروں سے بندھی تار کی لمبائی 0.80 m ہے اور اس میں لہروں کی رفتار 160 m/s ہے۔ fundamental اور second-harmonic frequencies معلوم کریں۔",
+              "modelAnswer": "دونوں سروں سے بندھی تار کے لیے f₁ = v/(2L) = 160/(2 × 0.80) = 100 Hz۔ دوسری harmonic f₂ = 2f₁ = 200 Hz ہے۔",
+              "rubric": [
+                "f₁ = v/(2L) استعمال کرے (1)",
+                "لمبائی اور رفتار درست رکھے (1)",
+                "fundamental frequency 100 Hz (1)",
+                "second harmonic 200 Hz (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻنهي پاسن کان ٻڌل تار جي ڊيگهه 0.80 m آهي ۽ ان ۾ لهرن جي رفتار 160 m/s آهي. fundamental ۽ second-harmonic frequencies ڳڻيو.",
+              "modelAnswer": "ٻنهي پاسن کان ٻڌل تار لاءِ f₁ = v/(2L) = 160/(2 × 0.80) = 100 Hz. ٻي harmonic f₂ = 2f₁ = 200 Hz آهي.",
+              "rubric": [
+                "f₁ = v/(2L) استعمال ڪري (1)",
+                "ڊيگهه ۽ رفتار صحيح رکي (1)",
+                "fundamental frequency 100 Hz (1)",
+                "second harmonic 200 Hz (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "A 600 Hz sound source moves at 30 m/s relative to a stationary observer. Take the speed of sound as 330 m/s. Calculate the observed frequency when the source approaches and when it recedes.",
+          "modelAnswer": "Approaching: fₒ = fₛv/(v − vₛ) = 600 × 330/(330 − 30) = 660 Hz. Receding: fₒ = fₛv/(v + vₛ) = 600 × 330/(330 + 30) = 550 Hz.",
+          "rubric": [
+            "Correct approaching formula and substitution (1)",
+            "Approaching result 660 Hz (1)",
+            "Correct receding formula and substitution (1)",
+            "Receding result 550 Hz (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "600 Hz کا sound source ساکن observer کے مقابلے میں 30 m/s سے حرکت کرتا ہے۔ آواز کی رفتار 330 m/s لیں۔ source کے قریب آنے اور دور جانے پر محسوس frequency معلوم کریں۔",
+              "modelAnswer": "قریب آتے وقت: fₒ = fₛv/(v − vₛ) = 600 × 330/(330 − 30) = 660 Hz۔ دور جاتے وقت: fₒ = fₛv/(v + vₛ) = 600 × 330/(330 + 30) = 550 Hz۔",
+              "rubric": [
+                "قریب آنے کا درست formula اور substitution (1)",
+                "قریب آنے پر 660 Hz (1)",
+                "دور جانے کا درست formula اور substitution (1)",
+                "دور جانے پر 550 Hz (1)"
+              ]
+            },
+            "sd": {
+              "question": "600 Hz sound source ساکن observer جي ڀيٽ ۾ 30 m/s سان هلي ٿو. آواز جي رفتار 330 m/s وٺو. source ويجهو اچڻ ۽ پري وڃڻ وقت محسوس ٿيندڙ frequency ڳڻيو.",
+              "modelAnswer": "ويجهو اچڻ وقت: fₒ = fₛv/(v − vₛ) = 600 × 330/(330 − 30) = 660 Hz. پري وڃڻ وقت: fₒ = fₛv/(v + vₛ) = 600 × 330/(330 + 30) = 550 Hz.",
+              "rubric": [
+                "ويجهو اچڻ جو صحيح formula ۽ substitution (1)",
+                "ويجهو اچڻ تي 660 Hz (1)",
+                "پري وڃڻ جو صحيح formula ۽ substitution (1)",
+                "پري وڃڻ تي 550 Hz (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 6,
+          "question": "Explain how a stationary wave is produced on a stretched string fixed at both ends. Define nodes and antinodes, describe the fundamental and higher harmonics, and show how a resonance experiment can identify them.",
+          "modelAnswer": "A stationary wave is produced by superposition of an incident wave and its reflection travelling in opposite directions with the same frequency and similar amplitude. Nodes have zero displacement; antinodes have maximum displacement. For a string of vibrating length L fixed at both ends, the fundamental has λ₁ = 2L and f₁ = v/(2L). The nth harmonic has λₙ = 2L/n and fₙ = nf₁. In an experiment, drive the string with a vibrator, adjust frequency or tension, and identify resonances by clear stationary loops separated by nodes. The observed number of loops identifies the harmonic.",
+          "rubric": [
+            "Explains opposite travelling waves and superposition (2)",
+            "Defines nodes and antinodes correctly (1)",
+            "Gives fundamental and nth-harmonic relations (2)",
+            "Describes resonance procedure and identifying loops (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "دونوں سروں سے بندھی کھنچی ہوئی تار پر stationary wave کیسے بنتی ہے؟ nodes اور antinodes کی تعریف کریں، fundamental اور اعلیٰ harmonics بیان کریں، اور بتائیں کہ resonance experiment انہیں کیسے شناخت کرتا ہے۔",
+              "modelAnswer": "stationary wave اس وقت بنتی ہے جب incident wave اور اس کی reflected wave ایک ہی frequency اور تقریباً برابر amplitude کے ساتھ مخالف سمتوں میں سفر کرتے ہوئے ملتی ہیں۔ node پر displacement صفر اور antinode پر زیادہ سے زیادہ ہوتا ہے۔ دونوں سروں سے بندھی L لمبائی کی تار کے لیے fundamental میں λ₁ = 2L اور f₁ = v/(2L) ہے۔ n ویں harmonic میں λₙ = 2L/n اور fₙ = nf₁ ہے۔ تجربے میں vibrator سے تار چلائیں، frequency یا tension بدلیں، اور nodes کے درمیان واضح loops بننے پر resonance شناخت کریں۔ loops کی تعداد harmonic بتاتی ہے۔",
+              "rubric": [
+                "مخالف سمتوں کی لہروں اور superposition کی وضاحت (2)",
+                "nodes اور antinodes کی درست تعریف (1)",
+                "fundamental اور nth harmonic کے تعلقات (2)",
+                "resonance کا طریقہ اور loops کی شناخت (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻنهي پاسن کان ٻڌل ڇڪيل تار تي stationary wave ڪيئن ٺهي ٿي؟ nodes ۽ antinodes جي تعريف ڪريو، fundamental ۽ مٿين harmonics بيان ڪريو، ۽ ٻڌايو ته resonance experiment انهن کي ڪيئن سڃاڻي ٿو.",
+              "modelAnswer": "stationary wave تڏهن ٺهي ٿي جڏهن incident wave ۽ ان جي reflected wave ساڳي frequency ۽ لڳ ڀڳ برابر amplitude سان ابتڙ رخن ۾ هلندي ملن ٿيون. node تي displacement صفر ۽ antinode تي وڌ ۾ وڌ هوندو آهي. ٻنهي پاسن کان ٻڌل L ڊيگهه واري تار لاءِ fundamental ۾ λ₁ = 2L ۽ f₁ = v/(2L) آهي. n هين harmonic ۾ λₙ = 2L/n ۽ fₙ = nf₁ آهي. تجربي ۾ vibrator سان تار هلائي frequency يا tension بدلايو؛ nodes جي وچ ۾ واضح loops ٺهن ته resonance سڃاڻبو. loops جو تعداد harmonic ٻڌائي ٿو.",
+              "rubric": [
+                "ابتڙ رخن وارين لهرن ۽ superposition جي وضاحت (2)",
+                "nodes ۽ antinodes جي صحيح تعريف (1)",
+                "fundamental ۽ nth harmonic جا لاڳاپا (2)",
+                "resonance جو طريقو ۽ loops جي سڃاڻپ (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 6,
+          "question": "Explain how a laser interferometer can detect a gravitational wave. Include the origin of gravitational waves, the effect on test masses, the role of the two arms and recombined laser light, and why environmental noise must be controlled.",
+          "modelAnswer": "Accelerating masses in changing gravitational systems, such as compact binary stars or black holes, generate gravitational waves that propagate at the speed of light. A passing wave produces a tiny oscillating strain: relative distances stretch in one direction and compress in the perpendicular direction. A laser is split into two perpendicular arms; mirrors return the beams to be recombined. A change in arm lengths changes the relative phase and the interference signal at the detector. Seismic motion, temperature changes and other noise must be isolated or measured because they can imitate or hide the tiny signal. Multiple detectors help confirm an astrophysical event.",
+          "rubric": [
+            "Describes a credible source and propagation of gravitational waves (1)",
+            "Explains tiny alternating stretch/compression (1)",
+            "Describes two perpendicular laser arms and mirrors (2)",
+            "Links path/phase change to interference signal (1)",
+            "Explains environmental-noise control or detector network (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "وضاحت کریں کہ laser interferometer gravitational wave کو کیسے شناخت کرتا ہے۔ gravitational waves کا منبع، test masses پر اثر، دو arms اور دوبارہ ملنے والی laser light کا کردار، اور environmental noise کو قابو کرنا کیوں ضروری ہے، شامل کریں۔",
+              "modelAnswer": "بدلتے gravitational نظام، مثلاً compact binary stars یا black holes میں تیز رفتار کمیتیں gravitational waves پیدا کرتی ہیں جو روشنی کی رفتار سے سفر کرتی ہیں۔ گزرتی wave نہایت چھوٹا بدلتا ہوا strain پیدا کرتی ہے: ایک سمت میں فاصلہ کھنچتا اور عمود سمت میں سکڑتا ہے۔ laser کو دو عمودی arms میں تقسیم کیا جاتا ہے؛ آئینے شعاعوں کو واپس لا کر دوبارہ ملاتے ہیں۔ arms کی لمبائی بدلنے سے phase difference اور detector کا interference signal بدلتا ہے۔ زلزلہ نما ارتعاش، temperature کی تبدیلی اور دوسرے noise کو الگ یا ناپنا ضروری ہے کیونکہ یہ چھوٹے signal کی نقل کر سکتے یا اسے چھپا سکتے ہیں۔ متعدد detectors فلکیاتی واقعے کی تصدیق میں مدد دیتے ہیں۔",
+              "rubric": [
+                "gravitational waves کا منبع اور پھیلاؤ (1)",
+                "بہت معمولی متبادل کھنچاؤ/سکڑاؤ (1)",
+                "دو عمودی laser arms اور آئینوں کی وضاحت (2)",
+                "path/phase تبدیلی اور interference signal کا تعلق (1)",
+                "environmental noise یا detector network کی اہمیت (1)"
+              ]
+            },
+            "sd": {
+              "question": "وضاحت ڪريو ته laser interferometer gravitational wave کي ڪيئن سڃاڻي ٿو. gravitational waves جو source، test masses تي اثر، ٻن arms ۽ ٻيهر ملندڙ laser light جو ڪردار، ۽ environmental noise کي قابو ڪرڻ ڇو ضروري آهي، شامل ڪريو.",
+              "modelAnswer": "بدلجندڙ gravitational نظام، مثال طور compact binary stars يا black holes ۾ تيز ٿيندڙ masses gravitational waves پيدا ڪن ٿا، جيڪي روشنيءَ جي رفتار سان هلن ٿيون. گذرندڙ wave تمام ننڍڙو بدلجندڙ strain پيدا ڪري ٿي: هڪ رخ ۾ فاصلو ڊگهو ۽ عمود رخ ۾ سوڙهو ٿئي ٿو. laser کي ٻن عمودي arms ۾ ورهايو وڃي ٿو؛ آئينا شعاعن کي واپس موٽائي ٻيهر ملائين ٿا. arms جي ڊيگهه بدلجڻ سان phase difference ۽ detector جو interference signal بدلجي ٿو. زلزلي جهڙي vibration، temperature جي تبديلي ۽ ٻيو noise الڳ يا ماپڻ ضروري آهي، ڇاڪاڻ ته اهي ننڍڙي signal جهڙا ٿي سگهن ٿا يا ان کي لڪائي سگهن ٿا. ڪيترائي detectors astronomical واقعي جي تصديق ۾ مدد ڪن ٿا.",
+              "rubric": [
+                "gravitational waves جو source ۽ پکڙجڻ (1)",
+                "تمام ننڍڙو وقتي ڇڪاءُ/سوڙهائپ (1)",
+                "ٻن عمودي laser arms ۽ آئينن جي وضاحت (2)",
+                "path/phase تبديلي ۽ interference signal جو تعلق (1)",
+                "environmental noise يا detector network جي اهميت (1)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
