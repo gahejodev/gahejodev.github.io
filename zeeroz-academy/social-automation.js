@@ -56,6 +56,33 @@ async function uploadYoutube(postId,post,button){
  }catch(e){try{await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),youtube:{status:"failed",message:e.message}},updatedAt:serverTimestamp()})}catch(_){}say("YouTube upload failed: "+e.message);button.disabled=false;button.textContent="Retry YouTube upload";}
 }
 
+
+async function uploadFacebook(postId,post,button){
+ button.disabled=true;button.textContent="Preparing Facebook Reel…";
+ try{
+  if(post.status!=="approved_pending_platform_setup"&&post.status!=="approved")throw new Error("Approve this post before uploading.");
+  if(!post.localVideoKey)throw new Error("Attach the video in this browser first. Facebook direct upload does not need cloud storage.");
+  const local=await getStoredSocialVideo(post.localVideoKey);if(!local?.blob)throw new Error("Local video file is missing. Reattach it from this device.");
+  if(local.blob.size>1024*1024*1024)throw new Error("Facebook Reel file exceeds 1 GB.");
+  const headers=await apiHeaders(),init=await fetch(SOCIAL_PUBLISHER_URL+"/api/facebook/reels/start",{method:"POST",headers,body:JSON.stringify({title:post.title,sizeBytes:local.blob.size})});
+  const data=await init.json();if(!init.ok||!data.ok)throw new Error(data.error||"Facebook upload could not be initialized.");
+  button.textContent="Uploading directly to Facebook…";
+  await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),facebook:{status:"uploading",message:"Video is transferring directly from this browser to Facebook. No cloud video storage is used."}},updatedAt:serverTimestamp()});
+  const sent=await fetch(data.uploadUrl,{method:"POST",headers:{"Authorization":data.uploadAuthorization,"Content-Type":"application/octet-stream","offset":"0","file_size":String(local.blob.size)},body:local.blob});
+  const uploaded=await sent.json().catch(()=>({}));
+  if(!sent.ok||uploaded.success!==true)throw new Error(uploaded.error?.message||uploaded.error||"Facebook did not confirm the video transfer (HTTP "+sent.status+").");
+  button.textContent="Publishing Facebook Reel…";
+  const finish=await fetch(SOCIAL_PUBLISHER_URL+"/api/facebook/reels/finish",{method:"POST",headers,body:JSON.stringify({videoId:data.videoId,title:post.title,description:post.platformCaptions?.facebook||post.description||""})});
+  const result=await finish.json();if(!finish.ok||!result.ok||result.success!==true)throw new Error(result.error||"Facebook did not confirm Reel publishing.");
+  const postUrl="https://www.facebook.com/reel/"+encodeURIComponent(result.postId||data.videoId);
+  await updateDoc(doc(db(),"socialPosts",postId),{status:"published",platformResults:{...(post.platformResults||{}),facebook:{status:"published",postUrl,platformVideoId:result.postId||data.videoId,message:"Facebook accepted the Reel for publishing."}},updatedAt:serverTimestamp()});
+  say("Facebook Reel accepted: "+postUrl);await load();
+ }catch(e){
+  try{await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),facebook:{status:"failed",message:e.message}},updatedAt:serverTimestamp()})}catch(_){}
+  say("Facebook upload failed: "+e.message);button.disabled=false;button.textContent="Retry Facebook Reel upload";
+ }
+}
+
 function esc(s){return String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function when(v){if(!v)return "Not scheduled";const d=v.toDate?v.toDate():new Date(v);return Number.isNaN(d.getTime())?"Time not set":d.toLocaleString()}
 const SOCIAL_VIDEO_DB="zeeroz-social-media";
@@ -139,6 +166,13 @@ async function load(){
      card.append(video,download);
     }else{const missing=document.createElement("p");missing.className="hint";missing.textContent="Temporary video file is no longer available in this browser. Recreate or attach it again.";card.append(missing)}
    }catch(e){const missing=document.createElement("p");missing.className="hint";missing.textContent="Local video could not be opened: "+e.message;card.append(missing)}
+  }
+
+  if((p.platforms||[]).includes("facebook")&&p.localVideoKey){
+   const fb=document.createElement("button");fb.className="btn";fb.type="button";fb.textContent="Upload Facebook Reel";
+   fb.disabled=!(p.status==="approved_pending_platform_setup"||p.status==="approved");
+   fb.title=fb.disabled?"Approve this post first":"Upload this local video directly to your Facebook Page";
+   fb.addEventListener("click",()=>uploadFacebook(d.id,p,fb));card.append(fb);
   }
   if((p.platforms||[]).includes("youtube")&&p.localVideoKey){
    const yt=document.createElement("button");yt.className="btn";yt.type="button";yt.textContent="Upload to YouTube";
