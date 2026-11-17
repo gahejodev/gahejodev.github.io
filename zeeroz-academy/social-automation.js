@@ -140,9 +140,16 @@ async function load(){
    const updated={};card.querySelectorAll("[data-caption]").forEach(el=>updated[el.dataset.caption]=el.value.trim());
    change(d.id,{platformCaptions:updated});
   });
-  card.querySelector('[data-action="approve"]').addEventListener("click",()=>{
+  card.querySelector('[data-action="approve"]').addEventListener("click",async()=>{
    const platformResults={...(p.platformResults||{})};
    (p.platforms||[]).forEach(x=>{platformResults[x]={status:"awaiting_platform_setup",message:"Official platform account authorization and direct-upload integration are not configured yet."}});
+   if((p.platforms||[]).includes("youtube")){
+    try{
+     const headers=await apiHeaders(),response=await fetch(SOCIAL_PUBLISHER_URL+"/api/youtube/status",{headers}),data=await response.json();
+     if(response.ok&&data.connected)platformResults.youtube={status:"ready",message:"YouTube account is connected. Ready for direct upload."};
+     else platformResults.youtube={status:"awaiting_platform_setup",message:"Connect the official YouTube account before uploading."};
+    }catch(e){platformResults.youtube={status:"awaiting_platform_setup",message:"Could not verify YouTube connection: "+e.message};}
+   }
    change(d.id,{status:"approved_pending_platform_setup",approvedAt:serverTimestamp(),platformResults});
   });
   card.querySelector('[data-action="draft"]').addEventListener("click",()=>change(d.id,{status:"draft",approvedAt:null}));
