@@ -57,6 +57,20 @@ async function uploadYoutube(postId,post,button){
 }
 
 
+
+async function checkFacebookStatus(postId,post,button){
+ if(button){button.disabled=true;button.textContent="Checking Facebook…"}
+ try{
+  const videoId=post.platformResults?.facebook?.platformVideoId;if(!videoId)throw new Error("No Facebook video ID is saved for this post.");
+  const headers=await apiHeaders(),r=await fetch(SOCIAL_PUBLISHER_URL+"/api/facebook/reels/status",{method:"POST",headers,body:JSON.stringify({videoId})}),d=await r.json();
+  if(!r.ok||!d.ok)throw new Error(d.error||"Could not check Facebook status.");
+  const published=d.videoStatus==="published"||d.publishingPhase==="complete";
+  const postUrl="https://www.facebook.com/reel/"+encodeURIComponent(videoId);
+  const result={status:published?"published":"processing",platformVideoId:videoId,postUrl:published?postUrl:null,message:published?"Facebook confirms this Reel is published.":"Facebook accepted the Reel and is still processing/publishing it. Check again shortly.",videoStatus:d.videoStatus,publishingPhase:d.publishingPhase};
+  await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),facebook:result},updatedAt:serverTimestamp()});
+  say(result.message);await load();
+ }catch(e){say("Facebook status check failed: "+e.message);if(button){button.disabled=false;button.textContent="Check Facebook publishing status"}}
+}
 async function uploadFacebook(postId,post,button){
  button.disabled=true;button.textContent="Preparing Facebook Reel…";
  try{
@@ -73,10 +87,10 @@ async function uploadFacebook(postId,post,button){
   if(!sent.ok||uploaded.success!==true)throw new Error(uploaded.error?.message||uploaded.error||"Facebook did not confirm the video transfer (HTTP "+sent.status+").");
   button.textContent="Publishing Facebook Reel…";
   const finish=await fetch(SOCIAL_PUBLISHER_URL+"/api/facebook/reels/finish",{method:"POST",headers,body:JSON.stringify({videoId:data.videoId,title:post.title,description:post.platformCaptions?.facebook||post.description||""})});
-  const result=await finish.json();if(!finish.ok||!result.ok||result.success!==true)throw new Error(result.error||"Facebook did not confirm Reel publishing.");
-  const postUrl="https://www.facebook.com/reel/"+encodeURIComponent(result.postId||data.videoId);
-  await updateDoc(doc(db(),"socialPosts",postId),{status:"published",platformResults:{...(post.platformResults||{}),facebook:{status:"published",postUrl,platformVideoId:result.postId||data.videoId,message:"Facebook accepted the Reel for publishing."}},updatedAt:serverTimestamp()});
-  say("Facebook Reel accepted: "+postUrl);await load();
+  const result=await finish.json();if(!finish.ok||!result.ok||result.success!==true)throw new Error(result.error||"Facebook did not accept the Reel for publishing.");
+  const saved={...(post.platformResults||{}),facebook:{status:"processing",platformVideoId:data.videoId,message:"Facebook accepted the Reel. It is processing; use Check Facebook publishing status before treating it as published."}};
+  await updateDoc(doc(db(),"socialPosts",postId),{platformResults:saved,updatedAt:serverTimestamp()});
+  say("Facebook accepted the Reel; it may take a little time to finish processing.");await checkFacebookStatus(postId,{...post,platformResults:saved});
  }catch(e){
   try{await updateDoc(doc(db(),"socialPosts",postId),{platformResults:{...(post.platformResults||{}),facebook:{status:"failed",message:e.message}},updatedAt:serverTimestamp()})}catch(_){}
   say("Facebook upload failed: "+e.message);button.disabled=false;button.textContent="Retry Facebook Reel upload";
@@ -168,6 +182,11 @@ async function load(){
    }catch(e){const missing=document.createElement("p");missing.className="hint";missing.textContent="Local video could not be opened: "+e.message;card.append(missing)}
   }
 
+
+  if(p.platformResults?.facebook?.status==="processing"&&p.platformResults?.facebook?.platformVideoId){
+   const fbStatus=document.createElement("button");fbStatus.className="btn secondary";fbStatus.type="button";fbStatus.textContent="Check Facebook publishing status";
+   fbStatus.addEventListener("click",()=>checkFacebookStatus(d.id,p,fbStatus));card.append(fbStatus);
+  }
   if((p.platforms||[]).includes("facebook")&&p.localVideoKey){
    const fb=document.createElement("button");fb.className="btn";fb.type="button";fb.textContent="Upload Facebook Reel";
    fb.disabled=!(p.status==="approved_pending_platform_setup"||p.status==="approved");
