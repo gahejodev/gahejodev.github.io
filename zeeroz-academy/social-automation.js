@@ -22,7 +22,25 @@ async function connectYoutube(){
 }
 
 async function connectSocialProvider(provider){
- try{say("Starting secure "+names[provider]+" authorization…");const headers=await apiHeaders(),r=await fetch(SOCIAL_PUBLISHER_URL+"/api/"+provider+"/connect",{method:"POST",headers,body:"{}"}),d=await r.json();if(!r.ok||!d.ok)throw new Error(d.error||"Could not start "+names[provider]+" authorization.");location.href=d.authorizationUrl}catch(e){say(names[provider]+" connection failed: "+e.message)}
+ const button=$("connect"+provider[0].toUpperCase()+provider.slice(1));
+ const visible=$("facebookConnectStatus");
+ try{
+  if(button){button.disabled=true;button.textContent="Connecting…"}
+  if(visible&&provider==="facebook")visible.textContent="Starting secure Facebook connection…";
+  say("Starting secure "+names[provider]+" authorization…");
+  const headers=await apiHeaders();
+  const r=await fetch(SOCIAL_PUBLISHER_URL+"/api/"+provider+"/connect",{method:"POST",headers,body:"{}"});
+  const d=await r.json().catch(()=>({}));
+  if(!r.ok||!d.ok)throw new Error(d.error||"Could not start "+names[provider]+" authorization (HTTP "+r.status+").");
+  if(!d.authorizationUrl)throw new Error("Worker did not return an authorization link.");
+  if(visible&&provider==="facebook")visible.textContent="Opening Facebook login…";
+  location.assign(d.authorizationUrl);
+ }catch(e){
+  const message=names[provider]+" connection failed: "+e.message;
+  say(message);
+  if(visible&&provider==="facebook")visible.textContent=message;
+  if(button){button.disabled=false;button.textContent=provider==="facebook"?"Connect Facebook Page":"Connect TikTok"}
+ }
 }
 async function refreshProviderStatuses(){
  try{const headers=await apiHeaders(),r=await fetch(SOCIAL_PUBLISHER_URL+"/api/admin/status",{headers}),d=await r.json();if(!r.ok||!d.ok)throw new Error(d.error||"Could not read provider status.");const labels={connected:"Connected",not_connected:"Not connected",manual_only:"Manual only"};for(const p of ["facebook","tiktok"]){const el=$("status"+p[0].toUpperCase()+p.slice(1));if(el)el.textContent=labels[d.providers?.[p]]||d.providers?.[p]||"Unknown"}const diag=d.facebookDiagnostic;if(diag?.status==="error"){const detail=$("backendDetails");if(detail)detail.textContent+=" Facebook diagnostic: "+(diag.stage||"callback")+" — "+(diag.error||"Unknown error");} }catch(e){for(const p of ["facebook","tiktok"]){const el=$("status"+p[0].toUpperCase()+p.slice(1));if(el)el.textContent="Status unavailable"}}
