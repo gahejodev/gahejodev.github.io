@@ -363,12 +363,13 @@ async function exportReal3DTeacher(){
   const sceneImages=await Promise.all(scenes.map(s=>loadSceneImage(s.image)));
   const sourceStream=audioContext.createMediaStreamDestination();
   source=audioContext.createBufferSource();source.buffer=audioBuffer;source.connect(sourceStream);
-  const out=document.createElement("canvas");out.width=1280;out.height=720;
+  // Vertical 9:16 output for Reels and Shorts.
+  const out=document.createElement("canvas");out.width=1080;out.height=1920;
   const ctx=out.getContext("2d");
-  const videoStream=out.captureStream(25);recordStream=videoStream;
+  const videoStream=out.captureStream(30);recordStream=videoStream;
   sourceStream.stream.getAudioTracks().forEach(t=>videoStream.addTrack(t));
-  const mime=["video/webm;codecs=vp9,opus","video/webm;codecs=vp8,opus","video/webm"].find(x=>MediaRecorder.isTypeSupported(x));
-  if(!mime)throw new Error("WebM recording format is unavailable in this browser.");
+  const mime=["video/mp4;codecs=avc1.42E01E,mp4a.40.2","video/mp4","video/webm;codecs=vp9,opus","video/webm;codecs=vp8,opus","video/webm"].find(x=>MediaRecorder.isTypeSupported(x));
+  if(!mime)throw new Error("This browser does not support a compatible video recording format.");
   const chunks=[];
   recorder=new MediaRecorder(videoStream,{mimeType:mime,videoBitsPerSecond:3500000,audioBitsPerSecond:128000});
   recorder.ondataavailable=e=>{if(e.data?.size)chunks.push(e.data)};
@@ -389,26 +390,34 @@ async function exportReal3DTeacher(){
    const position=scenePositionAt(audioContext.currentTime-startedAt),sc=position.scene;
    const sceneKey=sc.title+"|"+sc.narration;if(lesson3D&&sceneKey!==lastExport3DScene){lesson3D.setScene(sc);lastExport3DScene=sceneKey}
    lesson3D?.setProgress?.(position.progress);
-   const w=1280,h=720,bg=ctx.createLinearGradient(0,0,w,h);bg.addColorStop(0,"#0d1835");bg.addColorStop(.55,"#172c58");bg.addColorStop(1,"#101b3d");
+   const w=1080,h=1920,rtl=($("language")?.value||"en")==="ur";
+   const bg=ctx.createLinearGradient(0,0,w,h);bg.addColorStop(0,"#0b1530");bg.addColorStop(.48,"#172d59");bg.addColorStop(1,"#081226");
    ctx.fillStyle=bg;ctx.fillRect(0,0,w,h);
-   ctx.fillStyle="rgba(255,255,255,.055)";ctx.beginPath();ctx.roundRect(18,22,365,676,24);ctx.fill();
-   try{const ratio=avatarCanvas.width/Math.max(1,avatarCanvas.height);let dw=335,dh=590;if(dw/dh>ratio)dw=dh*ratio;else dh=dw/ratio;ctx.drawImage(avatarCanvas,32+(335-dw)/2,42+(590-dh)/2,dw,dh)}catch(e){}
-   ctx.fillStyle="#ffffff";ctx.textAlign="center";ctx.font="bold 18px system-ui";ctx.fillText("ZEEROZ AI TEACHER",200,665);ctx.textAlign="left";
-   ctx.fillStyle="#f2ce60";ctx.font="bold 15px system-ui";ctx.fillText("ZEEROZ AI STUDIO",414,48);
-   ctx.fillStyle="#ffffff";ctx.font="bold 34px system-ui";
-   const wrap=(txt,x,y,max,lineH,maxLines)=>{const words=String(txt||"").split(/\s+/);let line="",count=0;for(const word of words){const test=line?line+" "+word:word;if(ctx.measureText(test).width>max&&line){ctx.fillText(line,x,y+count*lineH);line=word;if(++count>=maxLines)return}else line=test}if(line&&count<maxLines)ctx.fillText(line,x,y+count*lineH)};
-   wrap(sc.title,414,96,820,42,1);
-   ctx.fillStyle="rgba(255,255,255,.08)";ctx.beginPath();ctx.roundRect(405,120,855,445,20);ctx.fill();
-   const subject3D=lesson3D?.renderer?.domElement;
-   if(subject3D&&subject3D.width&&subject3D.height){ctx.save();ctx.beginPath();ctx.roundRect(414,129,837,427,15);ctx.clip();ctx.drawImage(subject3D,414,129,837,427);ctx.restore()}
-   const sceneImage=sceneImages[position.index];
-   if(!subject3D&&sceneImage){const scale=Math.min(810/sceneImage.width,405/sceneImage.height);ctx.drawImage(sceneImage,430,140,sceneImage.width*scale,sceneImage.height*scale)}
-   ctx.fillStyle="#e6edff";ctx.font="21px system-ui";wrap(sc.narration,416,605,825,29,2);
-   ctx.fillStyle="rgba(255,255,255,.16)";ctx.fillRect(414,672,830,7);ctx.fillStyle="#20c997";ctx.fillRect(414,672,830*Math.min(1,(audioContext.currentTime-startedAt)/audioBuffer.duration),7);
-   ctx.fillStyle="#d6e1f5";ctx.font="15px system-ui";ctx.fillText("SCENE "+(position.index+1)+" / "+Math.max(1,scenes.length),414,700);
-   ctx.textAlign="right";ctx.fillText("3D SCIENCE VISUAL",1245,700);ctx.textAlign="left";
-   progress.style.width=Math.min(100,(audioContext.currentTime-startedAt)/audioBuffer.duration*100)+"%";
-   raf=requestAnimationFrame(draw);
+   ctx.fillStyle="rgba(255,255,255,.045)";ctx.beginPath();ctx.roundRect(34,34,1012,1852,42);ctx.fill();
+   ctx.fillStyle="#f2ce60";ctx.font="800 28px system-ui";ctx.textAlign="center";ctx.fillText("ZEEROZ ACADEMY",540,94);
+   ctx.fillStyle="#d9e5ff";ctx.font="600 17px system-ui";ctx.fillText("LEARN  •  PRACTICE  •  EXCEL",540,128);
+   ctx.fillStyle="rgba(255,255,255,.075)";ctx.beginPath();ctx.roundRect(78,166,924,490,32);ctx.fill();
+   try{const ratio=avatarCanvas.width/Math.max(1,avatarCanvas.height);let dw=820,dh=420;if(dw/dh>ratio)dw=dh*ratio;else dh=dw/ratio;ctx.save();ctx.beginPath();ctx.roundRect(130,184,820,420,24);ctx.clip();ctx.drawImage(avatarCanvas,130+(820-dw)/2,184+(420-dh)/2,dw,dh);ctx.restore()}catch(e){}
+   ctx.fillStyle="#ffffff";ctx.textAlign="center";ctx.font="800 24px system-ui";ctx.fillText("YOUR ZEEROZ AI TEACHER",540,630);
+   ctx.fillStyle="#f2ce60";ctx.font="800 19px system-ui";ctx.fillText("TODAY'S LESSON",540,720);
+   ctx.fillStyle="#ffffff";ctx.font="800 40px system-ui";
+   const wrap=(txt,x,y,max,lineH,maxLines,align="left")=>{const words=String(txt||"").split(/\s+/);let line="",count=0;ctx.textAlign=align;for(const word of words){const test=line?line+" "+word:word;if(ctx.measureText(test).width>max&&line){ctx.fillText(line,x,y+count*lineH);line=word;if(++count>=maxLines)return}else line=test}if(line&&count<maxLines)ctx.fillText(line,x,y+count*lineH)};
+   wrap(sc.title,540,778,900,50,2,"center");
+   ctx.fillStyle="rgba(255,255,255,.075)";ctx.beginPath();ctx.roundRect(78,875,924,620,32);ctx.fill();
+   const subject3D=lesson3D?.renderer?.domElement,sceneImage=sceneImages[position.index];
+   ctx.save();ctx.beginPath();ctx.roundRect(96,893,888,584,24);ctx.clip();
+   if(subject3D&&subject3D.width&&subject3D.height){const sw=subject3D.width,sh=subject3D.height,scale=Math.max(888/sw,584/sh),dw=sw*scale,dh=sh*scale;ctx.drawImage(subject3D,96+(888-dw)/2,893+(584-dh)/2,dw,dh)}
+   else if(sceneImage){const scale=Math.min(850/sceneImage.width,540/sceneImage.height);ctx.drawImage(sceneImage,540-sceneImage.width*scale/2,1185-sceneImage.height*scale/2,sceneImage.width*scale,sceneImage.height*scale)}
+   else{const gradient=ctx.createRadialGradient(540,1170,30,540,1170,440);gradient.addColorStop(0,"#315a96");gradient.addColorStop(1,"#101d3a");ctx.fillStyle=gradient;ctx.fillRect(96,893,888,584);ctx.fillStyle="#dbe7ff";ctx.font="700 28px system-ui";ctx.textAlign="center";ctx.fillText("3D SCIENCE DEMONSTRATION",540,1180)}
+   ctx.restore();
+   ctx.fillStyle="rgba(255,255,255,.09)";ctx.beginPath();ctx.roundRect(78,1530,924,260,30);ctx.fill();
+   ctx.fillStyle="#f2ce60";ctx.font="800 18px system-ui";ctx.textAlign=rtl?"right":"left";ctx.fillText("TEACHER EXPLAINS",rtl?960:120,1580);
+   ctx.fillStyle="#ffffff";ctx.font="500 28px system-ui";ctx.direction=rtl?"rtl":"ltr";wrap(sc.narration,rtl?960:120,1635,840,43,4,rtl?"right":"left");
+   ctx.direction="ltr";ctx.textAlign="left";
+   ctx.fillStyle="rgba(255,255,255,.18)";ctx.fillRect(120,1820,840,8);ctx.fillStyle="#20c997";ctx.fillRect(120,1820,840*Math.min(1,(audioContext.currentTime-startedAt)/audioBuffer.duration),8);
+   ctx.fillStyle="#d6e1f5";ctx.font="600 18px system-ui";ctx.textAlign="center";ctx.fillText("SCENE "+(position.index+1)+" / "+Math.max(1,scenes.length),540,1858);
+   ctx.fillStyle="#f2ce60";ctx.font="700 18px system-ui";ctx.fillText("ZEEROZACADEMY.COM  •  EDUCATION FOR EVERYONE",540,1900);
+   ctx.textAlign="left";ctx.direction="ltr";progress.style.width=Math.min(100,(audioContext.currentTime-startedAt)/audioBuffer.duration*100)+"%";raf=requestAnimationFrame(draw);
   };
   recorder.start(500);
   lastExport3DScene="";lesson3D?.reset?.();
@@ -424,14 +433,15 @@ async function exportReal3DTeacher(){
   cancelAnimationFrame(raf);raf=0;
   const blob=new Blob(chunks,{type:mime});
   if(!blob.size)throw new Error("The recorded video is empty.");
-  latestExportedVideo={blob,title,mimeType:blob.type||mime,createdAt:Date.now()};
+  const actualMime=blob.type||mime,extension=actualMime.includes("mp4")?"mp4":"webm";
+  latestExportedVideo={blob,title,mimeType:actualMime,extension,createdAt:Date.now()};
   const socialButton=$("saveToSocialQueue");if(socialButton)socialButton.disabled=false;
   const socialStatus=$("socialQueueStatus");if(socialStatus)socialStatus.textContent="Video ready ("+(blob.size/1048576).toFixed(1)+" MB). Ab ise Social Queue mein save kar sakte hain.";
   const url=URL.createObjectURL(blob),a=document.createElement("a");
-  a.href=url;a.download=(title.replace(/[^a-z0-9-_]+/gi,"-").replace(/^-|-$/g,"")||"zeeroz-3d-lesson")+"-3d.webm";a.click();
+  a.href=url;a.download=(title.replace(/[^a-z0-9-_]+/gi,"-").replace(/^-|-$/g,"")||"zeeroz-3d-lesson")+"-reel."+extension;a.click();
   setTimeout(()=>URL.revokeObjectURL(url),60000);
   progress.style.width="100%";
-  status3D.textContent="Complete lesson video exported successfully ("+(blob.size/1048576).toFixed(1)+" MB).";
+  status3D.textContent="Professional vertical 9:16 Reel exported ("+(blob.size/1048576).toFixed(1)+" MB) as "+extension.toUpperCase()+". "+(extension==="mp4"?"MP4 is ready for Facebook Reels.":"This browser does not expose native MP4 recording; WebM was created. Facebook compatibility may vary.");
   return true;
  }catch(e){
   status3D.textContent="3D export could not finish: "+e.message;
@@ -493,7 +503,7 @@ $("saveToSocialQueue")?.addEventListener("click",async()=>{
  try{
   localKey="studio-"+crypto.randomUUID();
   const safeTitle=(latestExportedVideo.title||"zeeroz-lesson").replace(/[^a-z0-9-_]+/gi,"-").replace(/^-|-$/g,"")||"zeeroz-lesson";
-  const fileName=safeTitle+".webm";
+  const fileName=safeTitle+"-reel."+(latestExportedVideo.extension||((latestExportedVideo.mimeType||"").includes("mp4")?"mp4":"webm"));
   await storeSocialVideo(localKey,latestExportedVideo.blob,fileName);
   const publishMode=$("socialPublishMode").value;
   const lesson=window.currentLesson?.lesson;
