@@ -1,0 +1,1233 @@
+{
+  "id": "physics-xi-electricity-magnetism",
+  "title": "Physics XI — Electricity and Magnetism (DCAR 2024)",
+  "description": "Original bilingual Grade XI study course for DCAR 2024 Domain F: Electricity and Magnetism. It covers electrostatic fields and flux, DC resistive circuits, internal resistance, Kirchhoff laws, measuring instruments, magnetic fields and forces, Ampere’s law, and electromagnetic induction.",
+  "version": "1",
+  "curriculumAlignment": "DCAR Sindh Physics Curriculum 2024, Grade XI column of Domain F: Electricity and Magnetism, SLOs P-11-F-01 to P-11-F-13 (electrostatic force, electric fields and flux), P-11-F-14 to P-11-F-29 (resistance and DC circuits), and P-11-F-30 to P-11-F-61 (magnetic fields, magnetic forces, Ampere’s law and induction), printed pages 55–69. This is an original domain-based course, not a claim that an STBB textbook chapter has the same numbering. The seismometer lesson distinguishes the curriculum description from the instrument-specific calibration response.",
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Physics, Grade IX–XII (2024), Government of Sindh / DCAR",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Physics%20Curriculum%2019%20August%202024.pdf",
+      "note": "Domain F: Electricity and Magnetism; Grade XI progression-grid SLOs P-11-F-01 to P-11-F-61, printed pages 55–69."
+    },
+    {
+      "title": "Sindh Textbook Board eBooks portal",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "note": "Official digital textbook catalogue. A current edition-specific Physics XI chapter crosswalk was not confirmed; DCAR 2024 Grade XI SLOs control the alignment."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Grade XI Domain F: Electricity and Magnetism",
+      "description": "Electrostatics and electric flux; resistance, resistivity and sensors; EMF and DC circuit analysis; Kirchhoff laws and measuring instruments; magnetic fields, forces and flux; motors, Ampere’s law and electromagnetic induction.",
+      "lessons": [
+        {
+          "title": "XI-F.1 Electric charge, Coulomb’s law and force in a medium",
+          "content": "## Learning outcomes\nBy the end of this lesson you should be able to define electrostatic force, state Coulomb’s law, compare forces in different media and solve inverse-square problems (P-11-F-01 to P-11-F-03).\n\n## Electric charge and electrostatic force\nElectric charge is a property of matter that produces electrical interaction. There are two signs of charge: positive and negative. Like charges repel; unlike charges attract. Charge is measured in coulombs (C). In ordinary charging of solids, electrons move from one object to another; protons remain bound in nuclei.\n\n## Coulomb’s law\nFor two stationary point charges separated by distance r in a uniform medium,\n**F = (1 / 4πɛ) |q₁q₂| / r²**, where ɛ = ɛ₀ɛᵣ. In vacuum, ɛᵣ = 1 and k = 1/(4πɛ₀) ≈ 8.99 × 10⁹ N m² C⁻².\n\nThe force acts along the line joining the charges. It is repulsive for like signs and attractive for unlike signs. The magnitude is proportional to the product of charge magnitudes and inversely proportional to the square of separation.\n\n- Double one charge: force doubles.\n- Double both charges: force becomes four times as large.\n- Double separation: force becomes one quarter.\n- In a medium of relative permittivity ɛᵣ, the force is Fvacuum/ɛᵣ for the same charges and separation.\n\n**Worked example:** q₁ = +2.0 μC and q₂ = +3.0 μC are 0.30 m apart in air (take ɛᵣ ≈ 1). F = 8.99×10⁹ × (2×10⁻⁶)(3×10⁻⁶)/(0.30)² ≈ **0.60 N**, repulsive.\n\n## Limits and careful use\nCoulomb’s point-charge equation is an ideal model for stationary charges. For extended objects, use it only when the geometry permits a point-charge approximation or divide the charge distribution into suitable elements. Always convert μC to 10⁻⁶ C and cm to m before substitution.\n\n## Key terms\nCharge, electrostatic force, point charge, permittivity, relative permittivity, inverse-square law.\n\n## Revision check\n1. Why does doubling separation reduce the force to one quarter?\n2. What changes when the same two charges are placed in a medium with ɛᵣ = 4?\n3. Why must charge be converted to coulombs before calculation?\n\n## Application\nA dry plastic comb attracts small paper pieces after being rubbed. Explain the attraction in terms of charge separation and electrostatic force; do not assume that the paper must initially have a net charge.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nآپ electrostatic force کی تعریف، Coulomb’s law کا بیان، مختلف ذرائع میں قوت کا موازنہ اور inverse-square عددی سوال حل کر سکیں گے (P-11-F-01 تا P-11-F-03)۔\n\n## برقی بار اور قوت\nبرقی بار مادے کی وہ خاصیت ہے جو برقی تعامل پیدا کرتی ہے۔ بار کی دو علامتیں مثبت اور منفی ہیں۔ یکساں بار ایک دوسرے کو دفع اور مخالف بار ایک دوسرے کو جذب کرتے ہیں۔ بار کی اکائی coulomb (C) ہے۔ عام ٹھوس اجسام میں electron ایک جسم سے دوسرے میں منتقل ہوتے ہیں؛ proton مرکزے میں بند رہتے ہیں۔\n\n## Coulomb کا قانون\nدو ساکن نقطہ باروں کے درمیان فاصلہ r ہو تو:\n**F = (1 / 4πɛ) |q₁q₂| / r²**، جہاں ɛ = ɛ₀ɛᵣ ہے۔ خلا میں ɛᵣ = 1 اور k تقریباً 8.99 × 10⁹ N m² C⁻² ہے۔\n\nقوت دونوں باروں کو ملانے والی لکیر کے ساتھ لگتی ہے۔ یکساں نشان پر دفع اور مخالف نشان پر کشش ہوتی ہے۔ قوت باروں کے حاصلِ ضرب کے متناسب اور فاصلے کے مربع کے الٹ متناسب ہے۔\n\n- ایک بار دوگنا ہو تو قوت دوگنی۔\n- دونوں بار دوگنے ہوں تو قوت چار گنا۔\n- فاصلہ دوگنا ہو تو قوت ایک چوتھائی۔\n- ɛᵣ والے medium میں قوت خلا کی قوت کا 1/ɛᵣ حصہ ہوتی ہے۔\n\n**حل شدہ مثال:** +2.0 μC اور +3.0 μC بار 0.30 m دور ہوں تو ہوا میں قوت تقریباً **0.60 N** ہے اور دونوں بار ایک دوسرے کو دفع کریں گے۔\n\n## احتیاط\nیہ مساوات ساکن نقطہ باروں کے لیے مثالی model ہے۔ حساب سے پہلے μC کو 10⁻⁶ C اور cm کو m میں تبدیل کریں۔\n\n## اہم اصطلاحات\nبرقی بار، electrostatic force، نقطہ بار، permittivity، relative permittivity، inverse-square law۔\n\n## دہرائی\n1. فاصلہ دوگنا ہونے سے قوت ایک چوتھائی کیوں رہ جاتی ہے؟\n2. ɛᵣ = 4 medium میں قوت کیسے بدلے گی؟\n3. بار کو coulomb میں تبدیل کرنا کیوں ضروری ہے؟\n\n## اطلاق\nرگڑی ہوئی خشک پلاسٹک کنگھی کاغذ کے چھوٹے ٹکڑوں کو کھینچتی ہے۔ charge separation اور برقی قوت سے وضاحت کریں۔",
+            "sd": "## سبق جا مقصد\nتوهان electrostatic force جي تعريف، Coulomb’s law، مختلف medium ۾ قوت جو مقابلو ۽ inverse-square حساب ڪري سگهندا (P-11-F-01 کان P-11-F-03)۔\n\n## برقي بار ۽ قوت\nبرقي بار مادي جي اها خاصيت آهي جيڪا برقي اثر پيدا ڪري ٿي. بار جا ٻه قسم مثبت ۽ منفي آهن. هڪجهڙا بار هڪ ٻئي کي ڌڪين ٿا ۽ ابتڙ بار هڪ ٻئي کي ڇڪين ٿا. بار جي ماپ coulomb (C) ۾ ٿيندي آهي. عام charging ۾ electron هڪ جسم کان ٻئي ڏانهن منتقل ٿين ٿا؛ proton نيوڪليس ۾ بند رهن ٿا.\n\n## Coulomb جو قانون\nٻن ساکن نقطي بارن جي وچ ۾ فاصلو r هجي ته:\n**F = (1 / 4πɛ) |q₁q₂| / r²**، جتي ɛ = ɛ₀ɛᵣ آهي. خال ۾ ɛᵣ = 1 ۽ k لڳ ڀڳ 8.99 × 10⁹ N m² C⁻² آهي.\n\nقوت ٻنهي بارن کي ملائيندڙ ليڪ تي لڳندي آهي. ساڳئي نشان وارا بار ڌڪيندا ۽ ابتڙ نشان وارا ڇڪيندا آهن. قوت بارن جي حاصل ضرب جي سڌي ۽ فاصلي جي چورس جي ابتڙ متناسب آهي.\n\n- هڪ بار ٻيڻو ڪرڻ سان قوت ٻيڻي.\n- ٻئي بار ٻيڻا ڪرڻ سان قوت چار ڀيرا.\n- فاصلو ٻيڻو ڪرڻ سان قوت چوٿون حصو.\n- ɛᵣ واري medium ۾ قوت خال جي قوت جو 1/ɛᵣ حصو هوندي.\n\n**حل ٿيل مثال:** +2.0 μC ۽ +3.0 μC بار 0.30 m پري هجن ته هوا ۾ قوت لڳ ڀڳ **0.60 N** ۽ دفع ڪندڙ هوندي.\n\n## احتياط\nهي مساوات ساکن نقطي بارن لاءِ آهي. حساب کان اڳ μC کي 10⁻⁶ C ۽ cm کي m ۾ تبديل ڪريو.\n\n## اهم اصطلاح\nبرقي بار، electrostatic force، نقطي بار، permittivity، relative permittivity، inverse-square law۔\n\n## ورجاءُ\n1. فاصلو ٻيڻو ٿيڻ سان قوت چوٿون حصو ڇو ٿي وڃي ٿي؟\n2. ɛᵣ = 4 medium ۾ قوت ڪيئن بدلبي؟\n3. بار کي coulomb ۾ تبديل ڪرڻ ڇو ضروري آهي؟\n\n## استعمال\nرڳڙيل سڪي پلاسٽڪ ڪنگهي ڪاغذ جا ننڍڙا ٽڪرا ڇڪي ٿي. charge separation ۽ برقي قوت سان وضاحت ڪريو۔"
+          }
+        },
+        {
+          "title": "XI-F.2 Electric field strength, field patterns and shielding",
+          "content": "## Learning outcomes\nDefine electric field and field strength, use E = F/q and the point-charge field equation, sketch field patterns, predict charged-particle motion and explain a Faraday cage (P-11-F-04 to P-11-F-12).\n\n## Electric field\nAn electric field is a region in which a charge experiences an electric force. The field strength at a point is the force per unit positive test charge:\n**E = F/q**. Its SI unit is N C⁻¹ (equivalent to V m⁻¹). For a point charge Q in vacuum:\n**E = k|Q|/r²**.\nThe direction is the force direction on a small positive test charge: away from a positive source and toward a negative source.\n\n**Worked example:** A 4.0 μC positive test charge experiences 0.020 N eastward. E = 0.020/(4.0×10⁻⁶) = **5.0×10³ N C⁻¹ east**.\n\n## Field-line rules\n- Lines begin on positive charge and end on negative charge (or at infinity).\n- The tangent gives the field direction.\n- Closer spacing represents a stronger field.\n- Field lines never cross; otherwise the field would have two directions at one point.\n- Equal like charges have a separating pattern; equal unlike charges have lines joining them.\n\nFor two equal point charges, draw symmetric patterns. Around a conducting sphere, the external field is the same as if its total charge were concentrated at its centre.\n\n## Motion in a uniform electric field\nA charge q experiences **F = qE**. A positive charge accelerates along E; a negative charge accelerates opposite E. If the initial velocity is perpendicular to E, the path curves like projectile motion while the field supplies the transverse acceleration. The magnitude of acceleration is |q|E/m.\n\n## Faraday cage\nIn electrostatic equilibrium, free charges in a conductor redistribute until the electric field inside the conducting enclosure is zero (for a closed ideal cage). External static electric fields are therefore screened from the interior. A metal enclosure can protect sensitive equipment; openings and imperfect seams reduce shielding at some frequencies.\n\n## Key terms\nElectric field, test charge, field strength, field line, uniform field, shielding, Faraday cage.\n\n## Revision check\n1. Why is a positive test charge used to define field direction?\n2. What does dense field-line spacing indicate?\n3. Why does a negative electron accelerate opposite to E?\n\n## Application\nA technician works inside a conductive shielded enclosure. Explain why an external electrostatic field has little effect inside, and why the enclosure must have good electrical continuity.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nElectric field اور field strength کی تعریف، E = F/q اور point-charge equation کا استعمال، field patterns بنانا، charged particles کی حرکت اور Faraday cage کی وضاحت کریں (P-11-F-04 تا P-11-F-12)۔\n\n## برقی میدان\nبرقی میدان وہ خطہ ہے جہاں بار پر برقی قوت لگتی ہے۔ کسی نقطے پر field strength، مثبت test charge کی فی اکائی قوت ہے:\n**E = F/q**۔ اکائی N C⁻¹ ہے۔ خلا میں نقطہ بار Q کے لیے:\n**E = k|Q|/r²**۔\nسمت وہی ہے جس طرف چھوٹا مثبت test charge قوت محسوس کرے: مثبت source سے باہر اور منفی source کی طرف۔\n\n**مثال:** 4.0 μC مثبت test charge پر مشرق کی طرف 0.020 N قوت ہو تو E = **5.0×10³ N C⁻¹ مشرق** ہے۔\n\n## Field lines کے اصول\n- لکیریں مثبت بار سے نکلتی اور منفی بار پر ختم ہوتی ہیں۔\n- لکیر کا tangent میدان کی سمت بتاتا ہے۔\n- قریب قریب لکیریں زیادہ مضبوط میدان ظاہر کرتی ہیں۔\n- لکیریں کبھی ایک دوسرے کو نہیں کاٹتیں۔\n- یکساں مثبت باروں کے خطوط الگ اور مخالف باروں کے خطوط آپس میں ملتے ہیں۔\n\nConducting sphere کے باہر میدان ایسے سمجھا جا سکتا ہے جیسے کل بار مرکز پر ہو۔\n\n## یکساں میدان میں حرکت\nبار q پر **F = qE** قوت لگتی ہے۔ مثبت بار E کی سمت اور electron اس کے مخالف سمت accelerate کرتا ہے۔ رفتار E کے عمود ہو تو راستہ مڑ جاتا ہے۔ acceleration کی مقدار |q|E/m ہے۔\n\n## Faraday cage\nElectrostatic equilibrium میں conductor کے آزاد بار دوبارہ تقسیم ہو کر بند enclosure کے اندر میدان کو صفر کرتے ہیں۔ اس طرح بیرونی static field اندرونی حصے سے shield ہو جاتی ہے۔ دراڑیں یا خراب جوڑ shielding کم کرتے ہیں۔\n\n## اہم اصطلاحات\nElectric field، test charge، field strength، field line، uniform field، shielding، Faraday cage۔\n\n## دہرائی\n1. میدان کی سمت کے لیے مثبت test charge کیوں لیا جاتا ہے؟\n2. field lines کا زیادہ گھنا ہونا کیا بتاتا ہے؟\n3. electron، E کے مخالف کیوں accelerate کرتا ہے؟\n\n## اطلاق\nدھاتی shielded enclosure کے اندر موجود آلات بیرونی electrostatic field سے کیسے محفوظ رہتے ہیں؟",
+            "sd": "## سبق جا مقصد\nElectric field ۽ field strength جي تعريف، E = F/q ۽ point-charge مساوات جو استعمال، field pattern ٺاهڻ، charged particle جي حرڪت ۽ Faraday cage جي وضاحت ڪريو (P-11-F-04 کان P-11-F-12)۔\n\n## برقي ميدان\nبرقي ميدان اهو علائقو آهي جتي بار تي برقي قوت لڳي ٿي. ڪنهن نقطي تي field strength، مثبت test charge جي في يونٽ قوت آهي:\n**E = F/q**. SI unit N C⁻¹ آهي. خال ۾ نقطي بار Q لاءِ:\n**E = k|Q|/r²**.\nرخ اهو آهي جنهن طرف ننڍو مثبت test charge قوت محسوس ڪري: مثبت source کان ٻاهر ۽ منفي source ڏانهن.\n\n**مثال:** 4.0 μC مثبت test charge تي اوڀر طرف 0.020 N قوت هجي ته E = **5.0×10³ N C⁻¹ اوڀر** آهي.\n\n## Field lines جا اصول\n- لڪيرون مثبت بار کان نڪرن ۽ منفي بار تي ختم ٿين.\n- tangent ميدان جو رخ ڏيکاري ٿو.\n- ويجهي لڪيرون وڌيڪ مضبوط ميدان ڏيکارين ٿيون.\n- لڪيرون هڪ ٻئي کي ڪڏهن نه ڪٽين.\n- هڪجهڙا مثبت بار الڳ ٿيندڙ ۽ ابتڙ بار ڳنڍجندڙ pattern ٺاهين ٿا.\n\nConducting sphere جي ٻاهران ميدان کي ائين سمجهي سگهجي ٿو ڄڻ سڄو بار مرڪز تي هجي.\n\n## هڪجهڙي ميدان ۾ حرڪت\nبار q تي **F = qE** قوت لڳي ٿي. مثبت بار E جي رخ ۾ ۽ electron ان جي ابتڙ accelerate ڪري ٿو. جيڪڏهن شروعاتي رفتار E جي عمودي هجي ته رستو مڙي ٿو. acceleration جي مقدار |q|E/m آهي.\n\n## Faraday cage\nElectrostatic equilibrium ۾ conductor جا آزاد بار اهڙيءَ طرح ورهائجن ٿا جو بند enclosure جي اندر ميدان صفر ٿئي. ان ڪري ٻاهريون static field اندر shield ٿئي ٿو. کليل سوراخ يا خراب جوڙ shielding کي گهٽائين ٿا.\n\n## اهم اصطلاح\nElectric field، test charge، field strength، field line، uniform field، shielding، Faraday cage۔\n\n## ورجاءُ\n1. ميدان جي رخ لاءِ مثبت test charge ڇو استعمال ڪجي ٿو؟\n2. field lines جو ويجهو هجڻ ڇا ڏيکاري ٿو؟\n3. electron، E جي ابتڙ ڇو accelerate ڪري ٿو؟\n\n## استعمال\nڌاتوءَ جي shielded enclosure اندر اوزار ٻاهرين electrostatic field کان ڪيئن محفوظ رهن ٿا؟"
+          }
+        },
+        {
+          "title": "XI-F.3 Electric flux and the field through a closed surface",
+          "content": "## Learning outcomes\nDescribe electric flux and relate the flux through a surface to the field and the charge enclosed by a closed surface (P-11-F-13).\n\n## Meaning of electric flux\nElectric flux measures how much electric field passes through a surface. For a uniform field across a flat area:\n**ΦE = E A cosθ**, where θ is the angle between E and the area normal (the perpendicular to the surface). If E is perpendicular to the surface, θ = 0 and flux is maximum. If E is parallel to the surface, θ = 90° and flux is zero. The SI unit is N m² C⁻¹.\n\nFor a non-uniform field, flux is found by summing the contributions over small surface elements. For a closed surface, the outward normal is used.\n\n## Gauss’s law\nThe net electric flux through any closed surface equals the enclosed charge divided by the permittivity of free space:\n**∮ E·dA = Qinside/ɛ₀**.\nOnly the net enclosed charge determines total flux. Charges outside the surface can produce fields at the surface, but their total contribution to net closed-surface flux is zero.\n\nA spherical Gaussian surface around a point charge is especially useful because symmetry makes E constant in magnitude over the sphere:\nE(4πr²) = Q/ɛ₀, giving E = Q/(4πɛ₀r²) in the radial direction.\n\n**Worked example:** A uniform field of 300 N C⁻¹ passes normally through an area of 0.020 m². Φ = EA = **6.0 N m² C⁻¹**.\n\n## Key terms\nElectric flux, area normal, closed surface, Gaussian surface, enclosed charge, Gauss’s law.\n\n## Revision check\n1. Why does flux depend on the angle between field and area normal?\n2. Does a charge outside a closed surface change its net flux?\n3. Why is a spherical Gaussian surface useful for an isolated point charge?\n\n## Application\nAn imaginary closed surface encloses +2.0 nC. State the net outward flux in terms of ɛ₀ and explain why the surface's exact shape does not change the result.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nElectric flux کی وضاحت کریں اور سطح سے گزرنے والے میدان اور بند سطح کے اندر موجود بار کا تعلق بیان کریں (P-11-F-13)۔\n\n## Electric flux کا مطلب\nElectric flux بتاتا ہے کہ کسی سطح سے کتنا برقی میدان گزرتا ہے۔ یکساں میدان اور ہموار سطح کے لیے:\n**ΦE = E A cosθ**، جہاں θ میدان اور سطح کے عمود (area normal) کے درمیان زاویہ ہے۔ میدان سطح کے عمود ہو تو flux زیادہ سے زیادہ؛ سطح کے متوازی ہو تو صفر ہے۔ اکائی N m² C⁻¹ ہے۔\n\n## Gauss کا قانون\nکسی بھی بند سطح سے کل net electric flux، اندر بند کل بار کو ɛ₀ سے تقسیم کرنے کے برابر ہے:\n**∮ E·dA = Qinside/ɛ₀**۔\nصرف بند سطح کے اندر موجود net charge کل flux متعین کرتا ہے۔ باہر کے بار سطح پر میدان بنا سکتے ہیں مگر بند سطح سے ان کا net flux صفر ہوتا ہے۔\n\nنقطہ بار کے گرد کروی Gaussian surface میں symmetry کی وجہ سے E کی مقدار ہر جگہ یکساں ہوتی ہے:\nE(4πr²) = Q/ɛ₀، لہٰذا E = Q/(4πɛ₀r²)۔\n\n**مثال:** 300 N C⁻¹ میدان 0.020 m² سطح سے عموداً گزرے تو flux **6.0 N m² C⁻¹** ہے۔\n\n## اہم اصطلاحات\nElectric flux، area normal، بند سطح، Gaussian surface، enclosed charge، Gauss کا قانون۔\n\n## دہرائی\n1. flux، میدان اور area normal کے زاویے پر کیوں منحصر ہے؟\n2. کیا بند سطح سے باہر کا بار net flux بدلتا ہے؟\n3. نقطہ بار کے لیے کروی Gaussian surface کیوں مفید ہے؟\n\n## اطلاق\nایک فرضی بند سطح میں +2.0 nC بار ہو تو net outward flux کو ɛ₀ کی صورت میں لکھیں۔",
+            "sd": "## سبق جا مقصد\nElectric flux جي وضاحت ڪريو ۽ سطح مان گذرندڙ ميدان جو بند سطح اندر موجود بار سان تعلق بيان ڪريو (P-11-F-13)۔\n\n## Electric flux جو مطلب\nElectric flux ٻڌائي ٿو ته ڪنهن سطح مان ڪيترو برقي ميدان گذري ٿو. هڪجهڙي ميدان ۽ سڌي سطح لاءِ:\n**ΦE = E A cosθ**، جتي θ ميدان ۽ سطح جي عمودي رخ (area normal) وچ ۾ زاويه آهي. ميدان سطح جي عمودي هجي ته flux وڌ ۾ وڌ، سطح سان متوازي هجي ته صفر آهي. unit N m² C⁻¹ آهي.\n\n## Gauss جو قانون\nڪنهن به بند سطح مان net electric flux، اندر بند net charge کي ɛ₀ سان ورهائڻ جي برابر آهي:\n**∮ E·dA = Qinside/ɛ₀**.\nصرف اندر موجود net charge ڪل flux مقرر ڪري ٿو. ٻاهريان بار سطح تي ميدان پيدا ڪري سگهن ٿا، پر بند سطح مان انهن جو net flux صفر آهي.\n\nنقطي بار جي چوڌاري گول Gaussian surface ۾ symmetry سبب E جي مقدار هر هنڌ ساڳي هوندي:\nE(4πr²) = Q/ɛ₀، تنهنڪري E = Q/(4πɛ₀r²) آهي.\n\n**مثال:** 300 N C⁻¹ ميدان 0.020 m² ايراضيءَ مان عمودي گذري ته flux **6.0 N m² C⁻¹** آهي.\n\n## اهم اصطلاح\nElectric flux، area normal، بند سطح، Gaussian surface، enclosed charge، Gauss جو قانون۔\n\n## ورجاءُ\n1. flux ميدان ۽ area normal جي زاويه تي ڇو دارومدار رکي ٿو؟\n2. ڇا بند سطح کان ٻاهر وارو بار net flux بدلائي ٿو؟\n3. نقطي بار لاءِ گول Gaussian surface ڇو فائديمند آهي؟\n\n## استعمال\nفرض ڪريو بند سطح اندر +2.0 nC بار آهي. net outward flux کي ɛ₀ جي صورت ۾ لکو."
+          }
+        },
+        {
+          "title": "XI-F.4 Resistance, resistivity, temperature and light sensors",
+          "content": "## Learning outcomes\nRecall resistance, read a resistor colour code, define resistivity, use R = ρL/A, describe temperature dependence, conductance/conductivity and the response of an LDR (P-11-F-14 to P-11-F-18).\n\n## Resistance and resistors\nResistance is the opposition a component offers to electric current:\n**R = V/I**; its unit is the ohm (Ω). A resistor limits current and converts electrical energy into internal energy, usually heating.\n\nFor a uniform wire:\n**R = ρL/A**,\nwhere ρ is resistivity (Ω m), L is length and A is cross-sectional area. At fixed material and temperature, doubling L doubles R; doubling A halves R. Resistivity is a material property, not the resistance of a particular wire.\n\nConductance G = 1/R is measured in siemens (S). Conductivity σ = 1/ρ is measured in S m⁻¹.\n\n## Resistor colour code\nFor a common four-band resistor, the first two bands are significant digits, the third is the multiplier and the fourth is tolerance. Example: red–violet–brown–gold means 27 × 10¹ Ω = **270 Ω ±5%**. Read the bands from the end where the first band is closer to the edge; the tolerance band is usually spaced apart.\n\n## Temperature dependence\nFor many metals over a moderate temperature range:\n**R = R₀[1 + α(T − T₀)]**.\nThe resistance of a metal usually increases with temperature because lattice vibrations scatter conduction electrons more strongly. The relation is an approximation over a limited range; it is not universal for every material.\n\n## Light-dependent resistor\nAn LDR is a semiconductor sensor. As light intensity increases, more charge carriers become available and its resistance decreases. It is used in automatic street lights and light meters. A voltage-divider circuit can convert its resistance change into a changing output voltage.\n\n**Worked example:** A 2.0 m wire has 1.0 mm² area and resistivity 1.7×10⁻⁸ Ω m. R = ρL/A = 1.7×10⁻⁸×2/(1.0×10⁻⁶) = **0.034 Ω**.\n\n## Key terms\nResistance, resistivity, conductance, conductivity, colour code, temperature coefficient, LDR, sensor.\n\n## Revision check\n1. Why does a longer wire have greater resistance?\n2. What is the difference between resistance and resistivity?\n3. Why does an LDR's resistance fall when illumination increases?\n\n## Application\nDesign the principle of an automatic night lamp using an LDR and a switching circuit. Explain what happens to the LDR resistance in daylight and darkness.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nResistance یاد کریں، resistor colour code پڑھیں، resistivity کی تعریف اور R = ρL/A کا استعمال کریں، درجہ حرارت کا اثر، conductance/conductivity اور LDR کا عمل سمجھیں (P-11-F-14 تا P-11-F-18)۔\n\n## Resistance\nResistance برقی رو کی مخالفت ہے:\n**R = V/I**؛ اکائی ohm (Ω) ہے۔ Resistor رو محدود کرتا ہے اور برقی توانائی کو عموماً حرارت میں بدلتا ہے۔\n\nیکساں تار کے لیے:\n**R = ρL/A**،\nجہاں ρ resistivity، L لمبائی اور A مقطع کا رقبہ ہے۔ ایک ہی مادے اور temperature پر لمبائی دوگنی ہو تو R دوگنی؛ رقبہ دوگنا ہو تو R آدھی۔ Resistivity مادے کی خاصیت ہے، کسی مخصوص تار کی resistance نہیں۔\n\nConductance G = 1/R، اکائی siemens (S)؛ conductivity σ = 1/ρ، اکائی S m⁻¹ ہے۔\n\n## Resistor colour code\nچار band والے resistor میں پہلے دو ہندسے، تیسرا multiplier اور چوتھا tolerance بتاتا ہے۔ red–violet–brown–gold = 27×10¹ = **270 Ω ±5%**۔\n\n## درجہ حرارت کا اثر\nبہت سی دھاتوں کے لیے محدود temperature range میں:\n**R = R₀[1 + α(T − T₀)]**۔\nدھات گرم ہونے پر lattice vibrations بڑھتی ہیں اور electrons زیادہ scatter ہوتے ہیں، اس لیے resistance عموماً بڑھتی ہے۔\n\n## LDR\nLDR ایک semiconductor sensor ہے۔ روشنی بڑھنے پر charge carriers بڑھتے ہیں اور resistance کم ہوتی ہے۔ اسے automatic street lights اور light meters میں استعمال کیا جاتا ہے۔\n\n**مثال:** 2.0 m تار، area 1.0 mm² اور ρ = 1.7×10⁻⁸ Ω m ہو تو R = **0.034 Ω**۔\n\n## اہم اصطلاحات\nResistance، resistivity، conductance، conductivity، colour code، temperature coefficient، LDR، sensor۔\n\n## دہرائی\n1. لمبی تار کی resistance زیادہ کیوں ہوتی ہے؟\n2. resistance اور resistivity میں فرق کیا ہے؟\n3. روشنی بڑھنے سے LDR کی resistance کیوں گھٹتی ہے؟\n\n## اطلاق\nLDR سے خودکار رات کا lamp چلانے کا اصول بیان کریں۔",
+            "sd": "## سبق جا مقصد\nResistance ياد ڪريو، resistor colour code پڙهو، resistivity جي تعريف ۽ R = ρL/A استعمال ڪريو، گرمي پد جو اثر، conductance/conductivity ۽ LDR سمجهو (P-11-F-14 کان P-11-F-18)۔\n\n## Resistance\nResistance برقي ڪرنٽ جي مخالفت آهي:\n**R = V/I**؛ unit ohm (Ω) آهي. Resistor ڪرنٽ محدود ڪري ٿو ۽ برقي توانائي کي عام طور گرميءَ ۾ بدلائي ٿو.\n\nهڪجهڙي تار لاءِ:\n**R = ρL/A**،\nجتي ρ resistivity، L ڊيگهه ۽ A cross-sectional area آهي. ساڳئي material ۽ temperature تي ڊيگهه ٻيڻي ته R ٻيڻي؛ area ٻيڻو ته R اڌ. Resistivity مادي جي خاصيت آهي، مخصوص تار جي resistance نه.\n\nConductance G = 1/R، unit siemens (S)؛ conductivity σ = 1/ρ، unit S m⁻¹ آهي.\n\n## Resistor colour code\nچار band واري resistor ۾ پهريان ٻه انگ، ٽيون multiplier ۽ چوٿون tolerance ڏيکاري ٿو. red–violet–brown–gold = 27×10¹ = **270 Ω ±5%**.\n\n## گرمي پد جو اثر\nگهڻين ڌاتن لاءِ محدود range ۾:\n**R = R₀[1 + α(T − T₀)]**.\nگرمي وڌڻ سان lattice vibrations وڌن ٿيون ۽ electrons وڌيڪ scatter ٿين ٿا، تنهنڪري resistance عام طور وڌي ٿي.\n\n## LDR\nLDR هڪ semiconductor sensor آهي. روشني وڌڻ سان charge carriers وڌن ٿا ۽ resistance گهٽجي ٿي. اهو automatic street lights ۽ light meters ۾ ڪم اچي ٿو.\n\n**مثال:** 2.0 m تار، area 1.0 mm² ۽ ρ = 1.7×10⁻⁸ Ω m هجي ته R = **0.034 Ω** آهي.\n\n## اهم اصطلاح\nResistance، resistivity، conductance، conductivity، colour code، temperature coefficient، LDR، sensor۔\n\n## ورجاءُ\n1. ڊگهي تار جي resistance وڌيڪ ڇو هوندي آهي؟\n2. resistance ۽ resistivity ۾ ڪهڙو فرق آهي؟\n3. روشني وڌڻ سان LDR جي resistance ڇو گهٽجي ٿي؟\n\n## استعمال\nLDR سان پاڻمرادو رات جو lamp هلائڻ جو اصول بيان ڪريو."
+          }
+        },
+        {
+          "title": "XI-F.5 EMF, internal resistance and electrical power",
+          "content": "## Learning outcomes\nDistinguish emf from terminal potential difference, explain internal resistance, solve source-circuit problems, state the maximum-power-transfer condition and use electrical power equations (P-11-F-19 to P-11-F-22 and P-11-F-29).\n\n## EMF and potential difference\nElectromotive force (emf, ε) is energy supplied by a source per unit charge around the complete circuit. It is measured in volts (J C⁻¹); despite its name, it is not a mechanical force. Potential difference across a component is energy transferred per unit charge by that component.\n\nA real cell has internal resistance r. When it supplies current I to an external resistance R:\n**I = ε/(R+r)** and **Vterminal = ε − Ir = IR**.\nWhen no current flows, the terminal voltage equals the emf (ideal open-circuit measurement). Under load, the terminal voltage is lower because some energy per charge is dissipated inside the source.\n\n**Worked example:** ε = 12 V, r = 1 Ω and R = 5 Ω. I = 12/(5+1) = **2 A**. Terminal voltage = IR = 10 V; the lost volts inside the source are Ir = 2 V.\n\n## Maximum power transfer\nFor a simple source with fixed emf ε and internal resistance r supplying a variable resistive load R, the load power is maximum when **R = r**. This is a useful matching principle, but it does not mean maximum efficiency: at this condition, equal power is dissipated in internal resistance and load.\n\n## Power and heating\nElectrical power:\n**P = IV = I²R = V²/R**.\nFor a steady current over time t, energy transferred as heat is **W = Pt = I²Rt**. Use the version that matches the known quantities and ensure SI units.\n\n**Worked example:** A 6 Ω heater connected to 12 V draws I = 2 A and dissipates P = V²/R = **24 W**.\n\n## Key terms\nEMF, terminal potential difference, internal resistance, lost volts, load resistance, maximum power transfer, power dissipation.\n\n## Revision check\n1. Why is terminal voltage lower than emf when a cell supplies current?\n2. Does maximum power transfer imply maximum efficiency?\n3. Which power formula is most convenient if V and R are known?\n\n## Application\nA battery-powered torch becomes dimmer as the battery ages. Explain how an increase in effective internal resistance can reduce terminal voltage and lamp power.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nEMF اور terminal potential difference میں فرق، internal resistance، source-circuit numericals، maximum power transfer اور power equations استعمال کریں (P-11-F-19 تا P-11-F-22 اور P-11-F-29)۔\n\n## EMF اور potential difference\nEMF (ε) مکمل circuit میں source کی فی unit charge فراہم کردہ توانائی ہے۔ اکائی volt (J C⁻¹) ہے؛ نام کے باوجود یہ mechanical force نہیں۔ Component کے across potential difference فی charge منتقل ہونے والی توانائی ہے۔\n\nحقیقی cell کی internal resistance r ہوتی ہے۔ جب یہ R load کو I رو دے:\n**I = ε/(R+r)** اور **Vterminal = ε − Ir = IR**۔\nجب رو صفر ہو تو terminal voltage، emf کے برابر ہوتا ہے۔ Load پر کچھ توانائی source کے اندر ضائع ہوتی ہے، اس لیے terminal voltage کم ہوتا ہے۔\n\n**مثال:** ε = 12 V، r = 1 Ω، R = 5 Ω ہو تو I = **2 A**، terminal voltage 10 V اور lost volts 2 V ہیں۔\n\n## Maximum power transfer\nسادہ source کے لیے load power زیادہ سے زیادہ اس وقت ہوتی ہے جب **R = r**۔ یہ matching principle ہے، مگر maximum efficiency نہیں؛ اس حالت میں internal resistance اور load میں برابر power ضائع ہوتی ہے۔\n\n## Power اور heating\n**P = IV = I²R = V²/R**۔\nوقت t میں حرارتی توانائی **W = Pt = I²Rt** ہے۔\n\n**مثال:** 6 Ω heater کو 12 V دیں تو I = 2 A اور P = **24 W** ہے۔\n\n## اہم اصطلاحات\nEMF، terminal potential difference، internal resistance، lost volts، load resistance، maximum power transfer، power dissipation۔\n\n## دہرائی\n1. cell رو دے تو terminal voltage، emf سے کم کیوں ہوتا ہے؟\n2. کیا maximum power transfer کا مطلب maximum efficiency ہے؟\n3. V اور R معلوم ہوں تو کون سا power formula آسان ہے؟\n\n## اطلاق\nبیٹری پر چلنے والی torch پرانی ہونے سے مدھم کیوں ہوتی ہے؟ internal resistance کے اثر سے وضاحت کریں۔",
+            "sd": "## سبق جا مقصد\nEMF ۽ terminal potential difference ۾ فرق، internal resistance، source circuit جا حساب، maximum power transfer ۽ power مساوات استعمال ڪريو (P-11-F-19 کان P-11-F-22 ۽ P-11-F-29)۔\n\n## EMF ۽ potential difference\nEMF (ε) مڪمل circuit ۾ source طرفان في unit charge ڏنل توانائي آهي. unit volt (J C⁻¹) آهي؛ نالي باوجود هي mechanical force نه آهي. Component جو potential difference في charge منتقل ٿيل توانائي آهي.\n\nحقيقي cell ۾ internal resistance r هوندي آهي. جڏهن اهو R load کي I ڪرنٽ ڏئي:\n**I = ε/(R+r)** ۽ **Vterminal = ε − Ir = IR**.\nجڏهن ڪرنٽ نه هجي ته terminal voltage، emf برابر هوندو. Load تي ڪجهه توانائي source اندر ضايع ٿئي ٿي، تنهنڪري terminal voltage گهٽ ٿئي ٿو.\n\n**مثال:** ε = 12 V، r = 1 Ω ۽ R = 5 Ω هجن ته I = **2 A**، terminal voltage 10 V ۽ lost volts 2 V آهن.\n\n## Maximum power transfer\nسادو source ۾ load power وڌ ۾ وڌ تڏهن ٿيندي جڏهن **R = r**. هي matching principle آهي، پر maximum efficiency نه؛ ان حالت ۾ اندروني resistance ۽ load ۾ برابر power ضايع ٿئي ٿي.\n\n## Power ۽ heating\n**P = IV = I²R = V²/R**.\nوقت t ۾ گرميءَ جي صورت ۾ توانائي **W = Pt = I²Rt** آهي.\n\n**مثال:** 6 Ω heater کي 12 V سان ڳنڍيو ته I = 2 A ۽ P = **24 W** آهي.\n\n## اهم اصطلاح\nEMF، terminal potential difference، internal resistance، lost volts، load resistance، maximum power transfer، power dissipation۔\n\n## ورجاءُ\n1. cell ڪرنٽ ڏئي ته terminal voltage، emf کان گهٽ ڇو آهي؟\n2. ڇا maximum power transfer جو مطلب maximum efficiency آهي؟\n3. V ۽ R معلوم هجن ته ڪهڙي power مساوات آسان آهي؟\n\n## استعمال\nپراڻي ٿيندڙ بيٽري واري torch جي روشني گهٽ ڇو ٿئي ٿي؟ internal resistance جي اثر سان وضاحت ڪريو."
+          }
+        },
+        {
+          "title": "XI-F.6 Kirchhoff’s laws, circuit networks and electrical instruments",
+          "content": "## Learning outcomes\nApply Kirchhoff’s junction and loop laws, calculate equivalent resistance, explain a potentiometer's null method and describe galvanometer conversion into an ammeter and voltmeter (P-11-F-23 to P-11-F-28).\n\n## Kirchhoff’s first law: junction rule\nAt any junction, the total current entering equals the total current leaving:\n**ΣIin = ΣIout**.\nThis follows from conservation of electric charge: charge cannot continuously accumulate at an ideal circuit junction.\n\n## Kirchhoff’s second law: loop rule\nAround any complete closed loop, the algebraic sum of potential rises and drops is zero:\n**ΣΔV = 0**.\nThis follows from conservation of energy. Choose a direction around the loop and keep signs consistent: crossing a source from negative to positive is a rise; crossing a resistor in the direction of current is a drop IR.\n\n## Equivalent resistance\nFor resistors in series, the same current passes through each:\n**Rs = R₁ + R₂ + …**\nFor parallel branches, the same voltage is across each:\n**1/Rp = 1/R₁ + 1/R₂ + …**\nFor two parallel resistors, Rp = R₁R₂/(R₁+R₂).\n\n**Worked example:** 6 Ω and 3 Ω in parallel give Rp = 18/9 = 2 Ω. In series with 4 Ω, total resistance is 6 Ω.\n\n## Potentiometer and null method\nA potentiometer compares or measures potential difference by balancing an unknown emf against the potential drop along a uniform wire. At the balance point, the galvanometer shows zero current in the test branch. Because no current is drawn from the source being measured at balance, the method avoids loading error and can be more accurate than an ordinary voltmeter.\n\n## Galvanometer conversion\nA sensitive galvanometer has resistance G and full-scale current Ig.\n- To make an ammeter of range I, connect a small shunt resistance **S = IgG/(I−Ig)** in parallel.\n- To make a voltmeter of range V, connect a large series resistance **R = V/Ig − G**.\nAn ammeter is placed in series and has very low resistance; a voltmeter is placed in parallel and has very high resistance.\n\n**Key terms**\nJunction rule, loop rule, conservation of charge, conservation of energy, series, parallel, potentiometer, null point, galvanometer, shunt.\n\n## Revision check\n1. Which conservation law explains each Kirchhoff rule?\n2. Why is the shunt placed in parallel with a galvanometer?\n3. Why should a voltmeter have high resistance?\n\n## Application\nA student must measure a cell's emf accurately and then measure current in a lamp circuit. Choose the potentiometer/voltmeter and galvanometer/ammeter arrangements and justify each choice.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nKirchhoff کے junction اور loop laws، equivalent resistance، potentiometer کے null method اور galvanometer کو ammeter/voltmeter بنانے کی وضاحت کریں (P-11-F-23 تا P-11-F-28)۔\n\n## پہلا قانون: Junction rule\nکسی junction میں آنے والی کل رو، نکلنے والی کل رو کے برابر ہے:\n**ΣIin = ΣIout**۔\nیہ charge conservation سے نکلتا ہے؛ ideal junction پر بار مسلسل جمع نہیں ہو سکتا۔\n\n## دوسرا قانون: Loop rule\nبند loop میں تمام potential rises اور drops کا الجبری مجموعہ صفر ہے:\n**ΣΔV = 0**۔\nیہ energy conservation پر مبنی ہے۔ Source کو منفی سے مثبت طرف عبور کریں تو rise؛ resistor میں رو کی سمت جائیں تو drop IR ہے۔\n\n## Equivalent resistance\nSeries میں ایک ہی رو گزرتی ہے:\n**Rs = R₁ + R₂ + …**\nParallel میں ہر branch پر voltage ایک جیسا ہے:\n**1/Rp = 1/R₁ + 1/R₂ + …**\nدو parallel resistors کے لیے Rp = R₁R₂/(R₁+R₂)۔\n\n**مثال:** 6 Ω اور 3 Ω parallel ہوں تو Rp = 2 Ω۔ اسے 4 Ω کے ساتھ series کریں تو کل 6 Ω ہے۔\n\n## Potentiometer\nPotentiometer نامعلوم emf کو uniform wire کے potential drop سے balance کر کے ناپتا ہے۔ Balance point پر galvanometer میں صفر رو ہوتی ہے۔ اس وقت ماپی جانے والی cell سے رو نہیں لی جاتی، اس لیے loading error کم ہوتا ہے۔\n\n## Galvanometer کی تبدیلی\nGalvanometer کی resistance G اور full-scale current Ig ہو:\n- I range ammeter کے لیے چھوٹی shunt resistance **S = IgG/(I−Ig)** parallel لگائیں۔\n- V range voltmeter کے لیے بڑی series resistance **R = V/Ig − G** لگائیں۔\nAmmeter series میں اور بہت کم resistance کے ساتھ؛ voltmeter parallel میں اور بہت زیادہ resistance کے ساتھ لگتا ہے۔\n\n## اہم اصطلاحات\nJunction rule، loop rule، charge conservation، energy conservation، series، parallel، potentiometer، null point، galvanometer، shunt۔\n\n## دہرائی\n1. Kirchhoff کے دونوں قوانین کن conservation laws پر مبنی ہیں؟\n2. shunt کو parallel کیوں لگاتے ہیں؟\n3. voltmeter کی resistance زیادہ کیوں ہونی چاہیے؟\n\n## اطلاق\nCell کی emf درست ناپنے اور lamp میں current ناپنے کے لیے مناسب آلات کی ترتیب منتخب کر کے وجہ بتائیں۔",
+            "sd": "## سبق جا مقصد\nKirchhoff جا junction ۽ loop laws، equivalent resistance، potentiometer جو null method ۽ galvanometer کي ammeter/voltmeter بڻائڻ سمجهايو (P-11-F-23 کان P-11-F-28)۔\n\n## پهريون قانون: Junction rule\nڪنهن junction ۾ داخل ٿيندڙ ڪل ڪرنٽ، ٻاهر نڪرندڙ ڪل ڪرنٽ برابر آهي:\n**ΣIin = ΣIout**.\nهي charge conservation مان نڪري ٿو؛ ideal junction تي بار مسلسل گڏ نٿو ٿي سگهي.\n\n## ٻيو قانون: Loop rule\nبند loop ۾ potential rises ۽ drops جو الجبري مجموعو صفر آهي:\n**ΣΔV = 0**.\nهي energy conservation تي ٻڌل آهي. Source کي negative کان positive طرف پار ڪرڻ rise آهي؛ resistor ۾ ڪرنٽ جي رخ ۾ وڃڻ drop IR آهي.\n\n## Equivalent resistance\nSeries ۾ ساڳيو ڪرنٽ هر resistor مان گذري ٿو:\n**Rs = R₁ + R₂ + …**\nParallel ۾ هر branch تي voltage ساڳيو هوندو:\n**1/Rp = 1/R₁ + 1/R₂ + …**\nٻن parallel resistors لاءِ Rp = R₁R₂/(R₁+R₂) آهي.\n\n**مثال:** 6 Ω ۽ 3 Ω parallel هجن ته Rp = 2 Ω. ان کي 4 Ω سان series ۾ رکڻ سان ڪل 6 Ω ٿيندي.\n\n## Potentiometer\nPotentiometer نامعلوم emf کي uniform wire جي potential drop سان balance ڪري ٿو. Balance point تي galvanometer ۾ صفر ڪرنٽ هوندو آهي. ان ڪري ماپجندڙ cell مان ڪرنٽ نٿو ورتو وڃي ۽ loading error گهٽ ٿئي ٿو.\n\n## Galvanometer کي بدلائڻ\nجيڪڏهن galvanometer جي resistance G ۽ full-scale current Ig هجي:\n- I range ammeter لاءِ ننڍي shunt resistance **S = IgG/(I−Ig)** parallel ۾ لڳايو.\n- V range voltmeter لاءِ وڏي series resistance **R = V/Ig − G** لڳايو.\nAmmeter series ۾ گهٽ resistance سان ۽ voltmeter parallel ۾ وڏي resistance سان لڳندو آهي.\n\n## اهم اصطلاح\nJunction rule، loop rule، charge conservation، energy conservation، series، parallel، potentiometer، null point، galvanometer، shunt۔\n\n## ورجاءُ\n1. Kirchhoff جا ٻئي قانون ڪهڙن conservation laws تي ٻڌل آهن؟\n2. shunt کي parallel ۾ ڇو لڳائجي ٿو؟\n3. voltmeter جي resistance وڏي ڇو هئڻ گهرجي؟\n\n## استعمال\nCell جي emf صحيح ماپڻ ۽ lamp جو current ماپڻ لاءِ اوزارن جي صحيح ترتيب چونڊيو ۽ سبب ڏيو."
+          }
+        },
+        {
+          "title": "XI-F.7 Magnetic fields, magnetic flux and moving charged particles",
+          "content": "## Learning outcomes\nDescribe magnetic fields and flux, use ΦB = BA cosθ, define tesla, calculate magnetic force on a moving charge and explain charged-particle motion and e/m measurement (P-11-F-30 to P-11-F-45).\n\n## Magnetic field\nA magnetic field is a region where a magnet or moving charge/current experiences magnetic force. Field lines form closed loops; outside a bar magnet they go from north to south. Around a long straight current-carrying wire, field lines are concentric circles. The right-hand grip rule gives their direction: thumb in conventional current direction, curled fingers show B.\n\nFor a long straight wire:\n**B = μ₀I/(2πr)**.\nA magnetic field can be produced by permanent magnets or electric currents.\n\n## Magnetic flux\nMagnetic flux through a flat area:\n**ΦB = BA cosθ**,\nwhere θ is the angle between B and the area normal. Unit: weber (Wb). Magnetic flux density B is measured in tesla (T), with 1 T = 1 Wb m⁻². For a surface perpendicular to B, ΦB = BA.\n\n**Worked example:** B = 0.40 T through a 0.050 m² surface perpendicular to the field gives ΦB = **0.020 Wb**.\n\n## Force on a moving charge\nA charge q moving at speed v in a magnetic field B experiences:\n**F = |q|vB sinθ**.\nThere is no magnetic force when motion is parallel to B; force is maximum when motion is perpendicular. The force is perpendicular to both velocity and field, so it changes direction rather than speed in an ideal uniform field. A particle entering perpendicular to B follows a circular path:\n**r = mv/(|q|B)**.\n\nIn crossed electric and magnetic fields, undeflected particles satisfy qE = qvB, hence **v = E/B**. This is the principle of a velocity selector. CRT electron beams can be deflected by electric or magnetic fields; balancing the fields or observing curvature allows the charge-to-mass ratio e/m to be investigated.\n\n## Key terms\nMagnetic field, right-hand grip rule, magnetic flux, flux density, tesla, Lorentz force, velocity selector, charge-to-mass ratio.\n\n## Revision check\n1. What angle gives maximum magnetic flux through a flat surface?\n2. Why does a magnetic force not change the speed of a charged particle in an ideal field?\n3. What condition gives zero deflection in crossed E and B fields?\n\n## Application\nA charged-particle beam is used in a laboratory instrument. Explain how a known magnetic field and measured circular radius can provide information about the particle's mass-to-charge ratio.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nMagnetic field اور flux بیان کریں، ΦB = BA cosθ استعمال کریں، tesla کی تعریف، moving charge پر magnetic force اور e/m کی پیمائش سمجھیں (P-11-F-30 تا P-11-F-45)۔\n\n## Magnetic field\nMagnetic field وہ خطہ ہے جہاں magnet یا moving charge/current پر magnetic force لگتی ہے۔ Field lines بند حلقے بناتی ہیں؛ bar magnet کے باہر شمال سے جنوب کی طرف جاتی ہیں۔ سیدھی current-carrying wire کے گرد دائرہ نما field بنتا ہے۔ Right-hand grip rule میں انگوٹھا conventional current کی سمت اور مڑی انگلیاں B کی سمت دکھاتی ہیں۔\n\nلمبی سیدھی تار کے لیے:\n**B = μ₀I/(2πr)**۔\n\n## Magnetic flux\nہموار سطح سے magnetic flux:\n**ΦB = BA cosθ**،\nجہاں θ، B اور سطح کے عمود کے درمیان زاویہ ہے۔ اکائی weber (Wb) ہے۔ B کی اکائی tesla (T)، اور 1 T = 1 Wb m⁻² ہے۔\n\n**مثال:** B = 0.40 T اور area 0.050 m² ہو، سطح میدان کے عمود ہو، تو flux **0.020 Wb** ہے۔\n\n## Moving charge پر قوت\n**F = |q|vB sinθ**۔\nحرکت B کے متوازی ہو تو قوت صفر، عمود ہو تو زیادہ سے زیادہ ہے۔ قوت velocity اور field دونوں کے عمود ہوتی ہے، اس لیے مثالی میدان میں speed نہیں بلکہ direction بدلتی ہے۔ عمود داخل ہونے والا particle دائرے میں چلتا ہے:\n**r = mv/(|q|B)**۔\n\nCrossed electric اور magnetic fields میں undeflected particle کے لیے qE = qvB، لہٰذا **v = E/B**۔ اسے velocity selector کہتے ہیں۔ CRT electron beam کو electric یا magnetic field موڑ سکتا ہے۔\n\n## اہم اصطلاحات\nMagnetic field، right-hand grip rule، magnetic flux، flux density، tesla، Lorentz force، velocity selector، charge-to-mass ratio۔\n\n## دہرائی\n1. زیادہ سے زیادہ magnetic flux کس زاویے پر ہوگا؟\n2. magnetic force مثالی میدان میں particle کی speed کیوں نہیں بدلتی؟\n3. crossed E اور B fields میں deflection صفر کب ہوتا ہے؟\n\n## اطلاق\nمعلوم magnetic field اور circular radius سے particle کا mass-to-charge ratio کیسے معلوم کیا جا سکتا ہے؟",
+            "sd": "## سبق جا مقصد\nMagnetic field ۽ flux بيان ڪريو، ΦB = BA cosθ استعمال ڪريو، tesla جي تعريف، moving charge تي magnetic force ۽ e/m ماپڻ سمجهو (P-11-F-30 کان P-11-F-45)۔\n\n## Magnetic field\nMagnetic field اهو علائقو آهي جتي magnet يا moving charge/current تي magnetic force لڳي ٿي. Field lines بند loops ٺاهين ٿيون؛ bar magnet کان ٻاهر اتر کان ڏکڻ ڏانهن وڃن ٿيون. سڌي current-carrying wire جي چوڌاري گول field ٺهي ٿي. Right-hand grip rule ۾ آڱوٺو conventional current ۽ مڙيل آڱريون B جو رخ ڏيکارين ٿيون.\n\nڊگهي سڌي تار لاءِ:\n**B = μ₀I/(2πr)**.\n\n## Magnetic flux\nسڌي سطح مان magnetic flux:\n**ΦB = BA cosθ**،\nجتي θ، B ۽ سطح جي عمودي رخ وچ ۾ زاويه آهي. unit weber (Wb) آهي. B جي unit tesla (T)، ۽ 1 T = 1 Wb m⁻² آهي.\n\n**مثال:** B = 0.40 T ۽ area 0.050 m² هجي، سطح field جي عمودي هجي، ته flux **0.020 Wb** آهي.\n\n## Moving charge تي قوت\n**F = |q|vB sinθ**.\nحرڪت B سان متوازي هجي ته قوت صفر، عمودي هجي ته وڌ ۾ وڌ. قوت velocity ۽ field ٻنهي جي عمودي آهي، تنهنڪري ideal field ۾ speed نه پر رخ بدلجي ٿو. عمودي داخل ٿيندڙ particle گول رستي تي هلي ٿو:\n**r = mv/(|q|B)**.\n\nCrossed electric ۽ magnetic fields ۾ بغير موڙ جي particle لاءِ qE = qvB، تنهنڪري **v = E/B**. هن کي velocity selector چون ٿا. CRT electron beam کي electric يا magnetic field موڙي سگهي ٿو.\n\n## اهم اصطلاح\nMagnetic field، right-hand grip rule، magnetic flux، flux density، tesla، Lorentz force، velocity selector، charge-to-mass ratio۔\n\n## ورجاءُ\n1. وڌ ۾ وڌ magnetic flux ڪهڙي زاويه تي ٿيندو؟\n2. ideal field ۾ magnetic force particle جي speed ڇو نٿي بدلائي؟\n3. crossed E ۽ B fields ۾ deflection ڪڏهن صفر ٿيندو؟\n\n## استعمال\nمعلوم magnetic field ۽ circular radius مان particle جو mass-to-charge ratio ڪيئن معلوم ٿيندو؟"
+          }
+        },
+        {
+          "title": "XI-F.8 Magnetic force on wires, coils, Ampere’s law and induction",
+          "content": "## Learning outcomes\nUse F = BIL sinθ, Fleming’s left-hand rule, torque on a coil, Ampere’s law for wires/solenoids/toroids, velocity selection and Faraday/Lenz induction including a seismometer (P-11-F-46 to P-11-F-61).\n\n## Force on a current-carrying conductor\nA wire carrying current I in magnetic field B experiences:\n**F = BIL sinθ**,\nwhere L is the length inside the field and θ is the angle between current and B. Force is maximum at 90° and zero when wire and field are parallel. Fleming’s left-hand rule gives the force direction: first finger = field, second = conventional current, thumb = force.\n\nParallel currents in the same direction attract; opposite directions repel. The interaction comes from each wire's magnetic field acting on the current in the other wire.\n\nMagnetic flux density can be measured using a current balance: at right angles, **B = F/(IL)**.\n\n## Torque on a coil\nA rectangular coil with N turns and area A in a uniform field has maximum torque:\n**τ = BANI**.\nThe turning effect increases with B, A, N and I. This is the motor principle: electrical energy can be converted into mechanical rotation.\n\n## Ampere’s law and field patterns\nAmpere’s circuital law states:\n**∮B·dl = μ₀Ienclosed**.\nFor a long straight wire, B = μ₀I/(2πr). For an ideal long solenoid with n turns per metre:\n**B = μ₀nI** (inside; end effects neglected). A ferromagnetic core increases the field. For an ideal toroid:\n**B = μ₀NI/(2πr)** within the core region. Field patterns are circular around a straight wire, through the centre of a flat circular coil, and nearly uniform inside a long solenoid.\n\nA velocity selector uses crossed fields with v = E/B. This is useful for selecting particles of a particular speed.\n\n## Electromagnetic induction\nA changing magnetic flux linkage induces emf:\n**ε = −N ΔΦB/Δt** (average form).\nThe minus sign expresses Lenz’s law: induced current acts to oppose the change in flux that produced it. This is consistent with conservation of energy; an external agent must do work when pushing a magnet into a coil against the induced effect. Greater number of turns, stronger field, larger effective area or faster flux change can increase induced emf.\n\n**Case study: electromagnetic seismometer**\nIn a simple electromagnetic seismometer, the frame and coil move with the ground while a suspended magnet tends to remain in motion due to inertia. Relative motion changes magnetic flux through the coil and induces an emf. The recorded signal is calibrated to infer ground motion; actual response depends on the instrument's damping and calibration, so induced emf is not universally identical to displacement.\n\n## Key terms\nMotor effect, Fleming’s left-hand rule, magnetic flux density, torque, Ampere’s law, solenoid, toroid, flux linkage, Faraday’s law, Lenz’s law, seismometer.\n\n## Revision check\n1. How can reversing current reverse the force on a wire?\n2. Why does a ferromagnetic core strengthen a solenoid's field?\n3. How does Lenz’s law express conservation of energy?\n\n## Application\nA power-station generator and an earthquake seismometer both use electromagnetic induction. Compare what changes the magnetic flux in each device and what useful output is produced.",
+          "explanations": {
+            "ur": "## سبق کے مقاصد\nF = BIL sinθ، Fleming’s left-hand rule، coil کا torque، Ampere’s law، solenoid/toroid، velocity selector اور Faraday/Lenz induction کو seismometer سمیت استعمال کریں (P-11-F-46 تا P-11-F-61)۔\n\n## Current-carrying wire پر قوت\nمقناطیسی میدان B میں current I والی wire پر:\n**F = BIL sinθ**،\nجہاں L میدان کے اندر تار کی لمبائی اور θ current اور B کا زاویہ ہے۔ 90° پر قوت زیادہ سے زیادہ اور متوازی ہونے پر صفر ہے۔ Fleming’s left-hand rule میں پہلا finger field، دوسرا current اور thumb force دکھاتا ہے۔\n\nایک سمت میں متوازی currents ایک دوسرے کو جذب اور مخالف سمت والے دفع کرتے ہیں۔ ایک تار کا magnetic field دوسری تار کے current پر قوت لگاتا ہے۔\n\n90° پر current balance سے:\n**B = F/(IL)**۔\n\n## Coil کا torque\nN turns اور area A والی coil کا maximum torque:\n**τ = BANI**۔\nB، A، N اور I بڑھانے سے turning effect بڑھتا ہے۔ یہی motor principle ہے۔\n\n## Ampere’s law\n**∮B·dl = μ₀Ienclosed**۔\nلمبی سیدھی تار: B = μ₀I/(2πr)۔ مثالی لمبی solenoid کے اندر:\n**B = μ₀nI**۔ Ferromagnetic core میدان بڑھاتا ہے۔ مثالی toroid:\n**B = μ₀NI/(2πr)**۔\n\n## Electromagnetic induction\nبدلتا ہوا magnetic flux linkage emf پیدا کرتا ہے:\n**ε = −N ΔΦB/Δt**۔\nمنفی نشان Lenz’s law ہے: induced current اس تبدیلی کی مخالفت کرتا ہے جس نے اسے پیدا کیا۔ یہ conservation of energy سے مطابقت رکھتا ہے۔ زیادہ turns، زیادہ field یا flux کی تیز تبدیلی induced emf بڑھا سکتی ہے۔\n\n## Case study: Seismometer\nسادہ electromagnetic seismometer میں frame اور coil زمین کے ساتھ حرکت کرتے ہیں جبکہ لٹکا ہوا magnet inertia کی وجہ سے نسبتاً پیچھے رہتا ہے۔ relative motion سے coil کا flux بدلتا ہے اور emf پیدا ہوتی ہے۔ signal کی calibration سے زمینی حرکت معلوم کی جاتی ہے؛ اصل response damping اور instrument calibration پر منحصر ہے۔\n\n## اہم اصطلاحات\nMotor effect، Fleming’s left-hand rule، magnetic flux density، torque، Ampere’s law، solenoid، toroid، flux linkage، Faraday’s law، Lenz’s law، seismometer۔\n\n## دہرائی\n1. current الٹنے سے wire پر قوت کا رخ کیسے بدلتا ہے؟\n2. ferromagnetic core، solenoid کا میدان کیوں بڑھاتا ہے؟\n3. Lenz’s law توانائی کے تحفظ کو کیسے ظاہر کرتا ہے؟\n\n## اطلاق\nGenerator اور earthquake seismometer میں flux کس طرح بدلتا ہے اور دونوں سے کیا مفید output ملتا ہے؟",
+            "sd": "## سبق جا مقصد\nF = BIL sinθ، Fleming’s left-hand rule، coil جو torque، Ampere’s law، solenoid/toroid، velocity selector ۽ Faraday/Lenz induction کي seismometer سميت استعمال ڪريو (P-11-F-46 کان P-11-F-61)۔\n\n## Current-carrying wire تي قوت\nMagnetic field B ۾ current I واري تار تي:\n**F = BIL sinθ**،\nجتي L ميدان اندر تار جي ڊيگهه ۽ θ current ۽ B وچ ۾ زاويه آهي. 90° تي قوت وڌ ۾ وڌ ۽ متوازي حالت ۾ صفر آهي. Fleming’s left-hand rule ۾ پهرين آڱر field، ٻي current ۽ آڱوٺو force ڏيکاري ٿو.\n\nساڳئي رخ وارا parallel currents هڪ ٻئي کي ڇڪين ٿا؛ ابتڙ رخ وارا ڌڪين ٿا. هڪ تار جو magnetic field ٻي تار جي current تي قوت لڳائي ٿو.\n\n90° تي current balance سان:\n**B = F/(IL)**.\n\n## Coil جو torque\nN turns ۽ area A واري coil جو وڌ ۾ وڌ torque:\n**τ = BANI**.\nB، A، N ۽ I وڌائڻ سان turning effect وڌي ٿو. هي motor principle آهي.\n\n## Ampere’s law\n**∮B·dl = μ₀Ienclosed**.\nڊگهي سڌي تار: B = μ₀I/(2πr). Ideal ڊگهي solenoid اندر:\n**B = μ₀nI**. Ferromagnetic core ميدان وڌائي ٿو. Ideal toroid:\n**B = μ₀NI/(2πr)**.\n\n## Electromagnetic induction\nبدلجندڙ magnetic flux linkage emf پيدا ڪري ٿو:\n**ε = −N ΔΦB/Δt**.\nمنفي نشان Lenz’s law ڏيکاري ٿو: induced current ان تبديلي جي مخالفت ڪري ٿو جنهن ان کي پيدا ڪيو. هي conservation of energy سان ٺهڪي اچي ٿو. وڌيڪ turns، وڌيڪ field يا flux جي تيز تبديلي induced emf وڌائي سگهي ٿي.\n\n## Case study: Seismometer\nسادي electromagnetic seismometer ۾ frame ۽ coil زمين سان گڏ هلن ٿا، جڏهن ته لٽڪيل magnet inertia سبب نسبتاً پوئتي رهي ٿو. relative motion سان coil جو flux بدلجي ٿو ۽ emf پيدا ٿئي ٿي. signal جي calibration سان زمين جي حرڪت جو اندازو لڳائجي ٿو؛ اصل response damping ۽ instrument calibration تي دارومدار رکي ٿو.\n\n## اهم اصطلاح\nMotor effect، Fleming’s left-hand rule، magnetic flux density، torque، Ampere’s law، solenoid، toroid، flux linkage، Faraday’s law، Lenz’s law، seismometer۔\n\n## ورجاءُ\n1. current ابتو ڪرڻ سان wire تي قوت جو رخ ڪيئن بدلجي ٿو؟\n2. ferromagnetic core، solenoid جو ميدان ڇو وڌائي ٿو؟\n3. Lenz’s law توانائي جي تحفظ کي ڪيئن ڏيکاري ٿو؟\n\n## استعمال\nGenerator ۽ earthquake seismometer ۾ flux ڪيئن بدلجي ٿو ۽ ٻنهي مان ڪهڙو مفيد output ملي ٿو؟"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Two point charges are separated by distance r. If the separation is doubled, the electrostatic force magnitude becomes:",
+          "options": {
+            "A": "F/4",
+            "B": "F/2",
+            "C": "2F",
+            "D": "4F"
+          },
+          "correctOption": "A",
+          "explanation": "Coulomb’s law gives F ∝ 1/r², so doubling r gives F/4.",
+          "translations": {
+            "ur": {
+              "question": "دو نقطہ باروں کا فاصلہ دوگنا ہو تو قوت کتنی رہ جاتی ہے؟",
+              "options": {
+                "A": "F/4",
+                "B": "F/2",
+                "C": "2F",
+                "D": "4F"
+              },
+              "explanation": "Coulomb کے قانون میں F ∝ 1/r² ہے، اس لیے فاصلہ دوگنا کرنے سے قوت F/4 ہو جاتی ہے۔"
+            },
+            "sd": {
+              "question": "ٻن نقطي بارن جو فاصلو ٻيڻو ڪجي ته قوت ڪيتري رهندي؟",
+              "options": {
+                "A": "F/4",
+                "B": "F/2",
+                "C": "2F",
+                "D": "4F"
+              },
+              "explanation": "Coulomb جي قانون موجب F ∝ 1/r²، تنهنڪري فاصلو ٻيڻو ٿيڻ سان قوت F/4 ٿيندي."
+            }
+          }
+        },
+        {
+          "question": "Two positive charges of 2 μC and 3 μC are 0.30 m apart in air. The force magnitude is approximately:",
+          "options": {
+            "A": "0.06 N",
+            "B": "0.60 N",
+            "C": "6.0 N",
+            "D": "60 N"
+          },
+          "correctOption": "B",
+          "explanation": "F = kq₁q₂/r² = 8.99×10⁹×6×10⁻¹²/0.09 ≈ 0.60 N.",
+          "translations": {
+            "ur": {
+              "question": "ہوا میں +2 μC اور +3 μC بار 0.30 m دور ہوں تو قوت تقریباً کیا ہے؟",
+              "options": {
+                "A": "0.06 N",
+                "B": "0.60 N",
+                "C": "6.0 N",
+                "D": "60 N"
+              },
+              "explanation": "F = kq₁q₂/r² رکھنے سے تقریباً 0.60 N ملتا ہے۔"
+            },
+            "sd": {
+              "question": "هوا ۾ +2 μC ۽ +3 μC بار 0.30 m پري هجن ته قوت لڳ ڀڳ ڪيتري آهي؟",
+              "options": {
+                "A": "0.06 N",
+                "B": "0.60 N",
+                "C": "6.0 N",
+                "D": "60 N"
+              },
+              "explanation": "F = kq₁q₂/r² رکڻ سان لڳ ڀڳ 0.60 N ملي ٿو."
+            }
+          }
+        },
+        {
+          "question": "For the same charges and separation, a medium with relative permittivity 4 makes the Coulomb force:",
+          "options": {
+            "A": "Four times larger",
+            "B": "Twice larger",
+            "C": "One quarter as large",
+            "D": "Unchanged"
+          },
+          "correctOption": "C",
+          "explanation": "Fmedium = Fvacuum/εr = Fvacuum/4.",
+          "translations": {
+            "ur": {
+              "question": "ایک ہی باروں اور فاصلے کے لیے εr = 4 medium میں قوت کیا ہوگی؟",
+              "options": {
+                "A": "چار گنا زیادہ",
+                "B": "دو گنا زیادہ",
+                "C": "ایک چوتھائی",
+                "D": "بدلے گی نہیں"
+              },
+              "explanation": "Medium میں قوت خلا کی قوت کو εr سے تقسیم کرنے کے برابر ہے۔"
+            },
+            "sd": {
+              "question": "ساڳين بارن ۽ فاصلي لاءِ εr = 4 medium ۾ قوت ڇا ٿيندي؟",
+              "options": {
+                "A": "چار ڀيرا وڌيڪ",
+                "B": "ٻه ڀيرا وڌيڪ",
+                "C": "چوٿون حصو",
+                "D": "ساڳي"
+              },
+              "explanation": "Medium ۾ قوت خال واري قوت کي εr سان ورهائڻ برابر آهي."
+            }
+          }
+        },
+        {
+          "question": "A 4 μC test charge experiences a force of 0.020 N. The electric field strength is:",
+          "options": {
+            "A": "5 N C⁻¹",
+            "B": "50 N C⁻¹",
+            "C": "500 N C⁻¹",
+            "D": "5000 N C⁻¹"
+          },
+          "correctOption": "D",
+          "explanation": "E = F/q = 0.020/(4×10⁻⁶) = 5.0×10³ N C⁻¹.",
+          "translations": {
+            "ur": {
+              "question": "4 μC test charge پر 0.020 N قوت ہو تو electric field کتنا ہے؟",
+              "options": {
+                "A": "5 N C⁻¹",
+                "B": "50 N C⁻¹",
+                "C": "500 N C⁻¹",
+                "D": "5000 N C⁻¹"
+              },
+              "explanation": "E = F/q = 0.020/(4×10⁻⁶) = 5000 N C⁻¹۔"
+            },
+            "sd": {
+              "question": "4 μC test charge تي 0.020 N قوت هجي ته electric field ڪيترو آهي؟",
+              "options": {
+                "A": "5 N C⁻¹",
+                "B": "50 N C⁻¹",
+                "C": "500 N C⁻¹",
+                "D": "5000 N C⁻¹"
+              },
+              "explanation": "E = F/q = 0.020/(4×10⁻⁶) = 5000 N C⁻¹."
+            }
+          }
+        },
+        {
+          "question": "The direction of the electric field around an isolated positive point charge is:",
+          "options": {
+            "A": "Radially inward",
+            "B": "Radially outward",
+            "C": "Circular",
+            "D": "Zero everywhere"
+          },
+          "correctOption": "B",
+          "explanation": "A positive test charge is repelled, so the field points away from the positive source.",
+          "translations": {
+            "ur": {
+              "question": "اکیلے مثبت نقطہ بار کے گرد electric field کی سمت کیا ہوتی ہے؟",
+              "options": {
+                "A": "مرکز کی طرف",
+                "B": "مرکز سے باہر",
+                "C": "دائرے کی صورت",
+                "D": "ہر جگہ صفر"
+              },
+              "explanation": "مثبت test charge دفع ہوتا ہے، اس لیے میدان مثبت بار سے باہر کی طرف ہے۔"
+            },
+            "sd": {
+              "question": "اڪيلو مثبت نقطي بار جي چوڌاري electric field جو رخ ڪهڙو آهي؟",
+              "options": {
+                "A": "مرڪز ڏانهن",
+                "B": "مرڪز کان ٻاهر",
+                "C": "گول دائري ۾",
+                "D": "هر هنڌ صفر"
+              },
+              "explanation": "مثبت test charge ڌڪجي ٿو، تنهنڪري ميدان مثبت بار کان ٻاهر آهي."
+            }
+          }
+        },
+        {
+          "question": "A negative electron placed in a uniform electric field accelerates:",
+          "options": {
+            "A": "Along the field",
+            "B": "Opposite to the field",
+            "C": "At right angles to the field",
+            "D": "Without acceleration"
+          },
+          "correctOption": "B",
+          "explanation": "F = qE; because electron charge is negative, force and acceleration are opposite to E.",
+          "translations": {
+            "ur": {
+              "question": "یکساں electric field میں electron کس سمت accelerate کرتا ہے؟",
+              "options": {
+                "A": "میدان کی سمت",
+                "B": "میدان کے مخالف",
+                "C": "میدان کے عمود",
+                "D": "accelerate نہیں کرتا"
+              },
+              "explanation": "Electron کا charge منفی ہے، اس لیے qE قوت میدان کے مخالف ہے۔"
+            },
+            "sd": {
+              "question": "هڪجهڙي electric field ۾ electron ڪهڙي رخ accelerate ڪري ٿو؟",
+              "options": {
+                "A": "ميدان جي رخ ۾",
+                "B": "ميدان جي ابتڙ",
+                "C": "ميدان جي عمودي",
+                "D": "accelerate نٿو ڪري"
+              },
+              "explanation": "Electron جو charge منفي آهي، تنهنڪري qE قوت ميدان جي ابتڙ آهي."
+            }
+          }
+        },
+        {
+          "question": "A closed conducting Faraday cage in electrostatic equilibrium ideally has what electric field inside?",
+          "options": {
+            "A": "A stronger field than outside",
+            "B": "Zero field",
+            "C": "A field only at the centre",
+            "D": "A field that reverses every second"
+          },
+          "correctOption": "B",
+          "explanation": "Free charges redistribute on the conductor so the net electrostatic field inside the closed enclosure is zero.",
+          "translations": {
+            "ur": {
+              "question": "Electrostatic equilibrium میں بند Faraday cage کے اندر مثالی electric field کیا ہوتی ہے؟",
+              "options": {
+                "A": "باہر سے زیادہ",
+                "B": "صفر",
+                "C": "صرف مرکز پر",
+                "D": "ہر سیکنڈ الٹتی ہے"
+              },
+              "explanation": "Conductor کے آزاد بار اس طرح تقسیم ہوتے ہیں کہ اندر net electrostatic field صفر ہو جاتی ہے۔"
+            },
+            "sd": {
+              "question": "Electrostatic equilibrium ۾ بند Faraday cage اندر مثالي electric field ڪهڙي هوندي؟",
+              "options": {
+                "A": "ٻاهر کان وڌيڪ",
+                "B": "صفر",
+                "C": "صرف مرڪز تي",
+                "D": "هر سيڪنڊ ابتو"
+              },
+              "explanation": "Conductor جا آزاد بار اهڙيءَ طرح ورهائجن ٿا جو اندر net electrostatic field صفر ٿئي ٿي."
+            }
+          }
+        },
+        {
+          "question": "A uniform 300 N C⁻¹ field passes normally through an area of 0.020 m². The electric flux is:",
+          "options": {
+            "A": "0.006 N m² C⁻¹",
+            "B": "0.60 N m² C⁻¹",
+            "C": "6.0 N m² C⁻¹",
+            "D": "15 000 N m² C⁻¹"
+          },
+          "correctOption": "C",
+          "explanation": "Φ = EA cos0° = 300×0.020 = 6.0 N m² C⁻¹.",
+          "translations": {
+            "ur": {
+              "question": "300 N C⁻¹ میدان 0.020 m² رقبے سے عموداً گزرے تو flux کیا ہے؟",
+              "options": {
+                "A": "0.006 N m² C⁻¹",
+                "B": "0.60 N m² C⁻¹",
+                "C": "6.0 N m² C⁻¹",
+                "D": "15 000 N m² C⁻¹"
+              },
+              "explanation": "Φ = EA = 300×0.020 = 6.0 N m² C⁻¹۔"
+            },
+            "sd": {
+              "question": "300 N C⁻¹ ميدان 0.020 m² ايراضيءَ مان عمودي گذري ته flux ڪيترو آهي؟",
+              "options": {
+                "A": "0.006 N m² C⁻¹",
+                "B": "0.60 N m² C⁻¹",
+                "C": "6.0 N m² C⁻¹",
+                "D": "15 000 N m² C⁻¹"
+              },
+              "explanation": "Φ = EA = 300×0.020 = 6.0 N m² C⁻¹."
+            }
+          }
+        },
+        {
+          "question": "For a flat surface, electric flux is zero when the electric field is:",
+          "options": {
+            "A": "Perpendicular to the surface",
+            "B": "Parallel to the surface",
+            "C": "At 45° to the normal",
+            "D": "Uniform"
+          },
+          "correctOption": "B",
+          "explanation": "Flux is EA cosθ where θ is measured from the area normal. A field parallel to the surface has θ = 90° and zero flux.",
+          "translations": {
+            "ur": {
+              "question": "ہموار سطح سے electric flux کب صفر ہوتا ہے؟",
+              "options": {
+                "A": "میدان سطح کے عمود ہو",
+                "B": "میدان سطح کے متوازی ہو",
+                "C": "normal سے 45° ہو",
+                "D": "میدان یکساں ہو"
+              },
+              "explanation": "θ area normal سے ناپا جاتا ہے؛ سطح کے متوازی میدان کے لیے θ = 90° اور flux صفر ہے۔"
+            },
+            "sd": {
+              "question": "سڌي سطح مان electric flux ڪڏهن صفر ٿيندو؟",
+              "options": {
+                "A": "ميدان سطح جي عمودي هجي",
+                "B": "ميدان سطح سان متوازي هجي",
+                "C": "normal کان 45° هجي",
+                "D": "ميدان هڪجهڙو هجي"
+              },
+              "explanation": "θ area normal کان ماپجي ٿو؛ سطح سان متوازي ميدان لاءِ θ = 90° ۽ flux صفر آهي."
+            }
+          }
+        },
+        {
+          "question": "A 4 Ω resistor is connected in series with a 6 Ω resistor. Their equivalent resistance is:",
+          "options": {
+            "A": "2.4 Ω",
+            "B": "4 Ω",
+            "C": "6 Ω",
+            "D": "10 Ω"
+          },
+          "correctOption": "D",
+          "explanation": "Series resistances add: 4 + 6 = 10 Ω.",
+          "translations": {
+            "ur": {
+              "question": "4 Ω اور 6 Ω resistors series میں ہوں تو equivalent resistance کیا ہے؟",
+              "options": {
+                "A": "2.4 Ω",
+                "B": "4 Ω",
+                "C": "6 Ω",
+                "D": "10 Ω"
+              },
+              "explanation": "Series میں resistances جمع ہوتی ہیں: 4 + 6 = 10 Ω۔"
+            },
+            "sd": {
+              "question": "4 Ω ۽ 6 Ω resistors series ۾ هجن ته equivalent resistance ڪيتري آهي؟",
+              "options": {
+                "A": "2.4 Ω",
+                "B": "4 Ω",
+                "C": "6 Ω",
+                "D": "10 Ω"
+              },
+              "explanation": "Series ۾ resistances جمع ٿين ٿيون: 4 + 6 = 10 Ω."
+            }
+          }
+        },
+        {
+          "question": "Two resistors of 6 Ω and 3 Ω are connected in parallel. Their equivalent resistance is:",
+          "options": {
+            "A": "2 Ω",
+            "B": "3 Ω",
+            "C": "4.5 Ω",
+            "D": "9 Ω"
+          },
+          "correctOption": "A",
+          "explanation": "1/R = 1/6 + 1/3 = 1/2, so R = 2 Ω.",
+          "translations": {
+            "ur": {
+              "question": "6 Ω اور 3 Ω resistors parallel ہوں تو equivalent resistance کیا ہے؟",
+              "options": {
+                "A": "2 Ω",
+                "B": "3 Ω",
+                "C": "4.5 Ω",
+                "D": "9 Ω"
+              },
+              "explanation": "1/R = 1/6 + 1/3 = 1/2، اس لیے R = 2 Ω ہے۔"
+            },
+            "sd": {
+              "question": "6 Ω ۽ 3 Ω resistors parallel هجن ته equivalent resistance ڪيتري آهي؟",
+              "options": {
+                "A": "2 Ω",
+                "B": "3 Ω",
+                "C": "4.5 Ω",
+                "D": "9 Ω"
+              },
+              "explanation": "1/R = 1/6 + 1/3 = 1/2، تنهنڪري R = 2 Ω آهي."
+            }
+          }
+        },
+        {
+          "question": "A wire's length is doubled while its material, temperature and cross-sectional area remain unchanged. Its resistance:",
+          "options": {
+            "A": "Halves",
+            "B": "Doubles",
+            "C": "Becomes four times",
+            "D": "Does not change"
+          },
+          "correctOption": "B",
+          "explanation": "R = ρL/A, so resistance is directly proportional to length.",
+          "translations": {
+            "ur": {
+              "question": "تار کی لمبائی دوگنی ہو اور باقی چیزیں یکساں رہیں تو resistance کیا ہوگی؟",
+              "options": {
+                "A": "آدھی",
+                "B": "دوگنی",
+                "C": "چار گنا",
+                "D": "بدلے گی نہیں"
+              },
+              "explanation": "R = ρL/A کے مطابق resistance لمبائی کے متناسب ہے۔"
+            },
+            "sd": {
+              "question": "تار جي ڊيگهه ٻيڻي ٿئي ۽ ٻيا شرط ساڳيا رهن ته resistance ڇا ٿيندي؟",
+              "options": {
+                "A": "اڌ",
+                "B": "ٻيڻي",
+                "C": "چار ڀيرا",
+                "D": "ساڳي"
+              },
+              "explanation": "R = ρL/A موجب resistance ڊيگهه جي سڌي متناسب آهي."
+            }
+          }
+        },
+        {
+          "question": "An LDR is moved from darkness into bright daylight. Its resistance generally:",
+          "options": {
+            "A": "Increases",
+            "B": "Decreases",
+            "C": "Becomes infinite",
+            "D": "Remains fixed"
+          },
+          "correctOption": "B",
+          "explanation": "More light creates more mobile charge carriers in the LDR, lowering its resistance.",
+          "translations": {
+            "ur": {
+              "question": "LDR کو اندھیرے سے تیز روشنی میں لائیں تو resistance عموماً کیا ہوتی ہے؟",
+              "options": {
+                "A": "بڑھتی ہے",
+                "B": "کم ہوتی ہے",
+                "C": "لامتناہی ہوتی ہے",
+                "D": "یکساں رہتی ہے"
+              },
+              "explanation": "روشنی بڑھنے سے LDR میں charge carriers بڑھتے ہیں اور resistance کم ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "LDR کي اونداهي مان تيز روشني ۾ آڻجي ته resistance عام طور ڇا ٿيندي؟",
+              "options": {
+                "A": "وڌندي",
+                "B": "گهٽبي",
+                "C": "لامحدود ٿيندي",
+                "D": "ساڳي رهندي"
+              },
+              "explanation": "روشني وڌڻ سان LDR ۾ charge carriers وڌن ٿا ۽ resistance گهٽجي ٿي."
+            }
+          }
+        },
+        {
+          "question": "A resistor has colour bands red, violet, brown and gold. Its nominal resistance and tolerance are:",
+          "options": {
+            "A": "27 Ω ±1%",
+            "B": "270 Ω ±5%",
+            "C": "2.7 kΩ ±10%",
+            "D": "270 kΩ ±5%"
+          },
+          "correctOption": "B",
+          "explanation": "Red=2, violet=7, brown multiplier ×10, gold tolerance ±5%; 27×10 = 270 Ω.",
+          "translations": {
+            "ur": {
+              "question": "Red، violet، brown، gold bands والے resistor کی value کیا ہے؟",
+              "options": {
+                "A": "27 Ω ±1%",
+                "B": "270 Ω ±5%",
+                "C": "2.7 kΩ ±10%",
+                "D": "270 kΩ ±5%"
+              },
+              "explanation": "27 × 10 = 270 Ω اور gold band ±5% tolerance بتاتی ہے۔"
+            },
+            "sd": {
+              "question": "Red، violet، brown، gold bands واري resistor جي value ڪيتري آهي؟",
+              "options": {
+                "A": "27 Ω ±1%",
+                "B": "270 Ω ±5%",
+                "C": "2.7 kΩ ±10%",
+                "D": "270 kΩ ±5%"
+              },
+              "explanation": "27 × 10 = 270 Ω ۽ gold band ±5% tolerance ڏيکاري ٿي."
+            }
+          }
+        },
+        {
+          "question": "A cell has emf 12 V, internal resistance 1 Ω and external load 5 Ω. The circuit current is:",
+          "options": {
+            "A": "1 A",
+            "B": "2 A",
+            "C": "5 A",
+            "D": "12 A"
+          },
+          "correctOption": "B",
+          "explanation": "I = ε/(R+r) = 12/(5+1) = 2 A.",
+          "translations": {
+            "ur": {
+              "question": "12 V emf، 1 Ω internal اور 5 Ω external resistance والے cell میں current کیا ہے؟",
+              "options": {
+                "A": "1 A",
+                "B": "2 A",
+                "C": "5 A",
+                "D": "12 A"
+              },
+              "explanation": "I = ε/(R+r) = 12/6 = 2 A۔"
+            },
+            "sd": {
+              "question": "12 V emf، 1 Ω internal ۽ 5 Ω external resistance واري cell ۾ current ڪيترو آهي؟",
+              "options": {
+                "A": "1 A",
+                "B": "2 A",
+                "C": "5 A",
+                "D": "12 A"
+              },
+              "explanation": "I = ε/(R+r) = 12/6 = 2 A."
+            }
+          }
+        },
+        {
+          "question": "At a junction, 3 A and 2 A enter. If 1 A leaves through one branch, the current leaving through the other branch is:",
+          "options": {
+            "A": "1 A",
+            "B": "2 A",
+            "C": "4 A",
+            "D": "6 A"
+          },
+          "correctOption": "C",
+          "explanation": "Kirchhoff’s junction rule gives total outflow 5 A; the remaining branch carries 4 A.",
+          "translations": {
+            "ur": {
+              "question": "ایک junction میں 3 A اور 2 A داخل ہوں؛ ایک شاخ سے 1 A نکلے تو دوسری سے کتنا نکلے گا؟",
+              "options": {
+                "A": "1 A",
+                "B": "2 A",
+                "C": "4 A",
+                "D": "6 A"
+              },
+              "explanation": "کل داخل رو 5 A ہے؛ دوسری شاخ میں 5−1 = 4 A نکلے گی۔"
+            },
+            "sd": {
+              "question": "هڪ junction ۾ 3 A ۽ 2 A داخل ٿين؛ هڪ branch مان 1 A نڪري ته ٻي مان ڪيترو نڪرندو؟",
+              "options": {
+                "A": "1 A",
+                "B": "2 A",
+                "C": "4 A",
+                "D": "6 A"
+              },
+              "explanation": "ڪل داخل ڪرنٽ 5 A آهي؛ ٻي branch مان 5−1 = 4 A نڪرندو."
+            }
+          }
+        },
+        {
+          "question": "Kirchhoff’s loop rule is a direct consequence of conservation of:",
+          "options": {
+            "A": "Electric charge",
+            "B": "Energy",
+            "C": "Mass only",
+            "D": "Magnetic poles"
+          },
+          "correctOption": "B",
+          "explanation": "The algebraic sum of potential rises and drops around a closed loop is zero because energy is conserved.",
+          "translations": {
+            "ur": {
+              "question": "Kirchhoff کا loop rule کس conservation law سے نکلتا ہے؟",
+              "options": {
+                "A": "برقی بار",
+                "B": "توانائی",
+                "C": "صرف کمیت",
+                "D": "مقناطیسی قطب"
+              },
+              "explanation": "بند loop میں potential rises اور drops کا مجموعہ صفر ہے کیونکہ توانائی محفوظ رہتی ہے۔"
+            },
+            "sd": {
+              "question": "Kirchhoff جو loop rule ڪهڙي conservation law مان نڪري ٿو؟",
+              "options": {
+                "A": "برقي بار",
+                "B": "توانائي",
+                "C": "صرف mass",
+                "D": "مقناطيسي قطب"
+              },
+              "explanation": "بند loop ۾ potential rises ۽ drops جو مجموعو صفر آهي، ڇاڪاڻ ته توانائي محفوظ رهي ٿي."
+            }
+          }
+        },
+        {
+          "question": "At the balance point of a potentiometer measuring a cell emf, the current drawn from the test cell is:",
+          "options": {
+            "A": "Maximum",
+            "B": "Equal to the load current",
+            "C": "Zero",
+            "D": "Always 1 A"
+          },
+          "correctOption": "C",
+          "explanation": "At null balance there is no potential difference driving current through the galvanometer branch from the test cell.",
+          "translations": {
+            "ur": {
+              "question": "Cell emf ناپنے والے potentiometer کے balance point پر test cell سے current کیا ہوتی ہے؟",
+              "options": {
+                "A": "زیادہ سے زیادہ",
+                "B": "load current کے برابر",
+                "C": "صفر",
+                "D": "ہمیشہ 1 A"
+              },
+              "explanation": "Null balance پر test cell سے galvanometer branch میں current نہیں لی جاتی۔"
+            },
+            "sd": {
+              "question": "Cell emf ماپيندڙ potentiometer جي balance point تي test cell مان current ڪيترو هوندو؟",
+              "options": {
+                "A": "وڌ ۾ وڌ",
+                "B": "load current برابر",
+                "C": "صفر",
+                "D": "هميشه 1 A"
+              },
+              "explanation": "Null balance تي test cell مان galvanometer branch ۾ current نٿو ورتو وڃي."
+            }
+          }
+        },
+        {
+          "question": "To convert a galvanometer into an ammeter, a low resistance is connected:",
+          "options": {
+            "A": "In series",
+            "B": "In parallel as a shunt",
+            "C": "Across the supply only",
+            "D": "In place of the coil"
+          },
+          "correctOption": "B",
+          "explanation": "The shunt diverts most of the current around the sensitive galvanometer coil.",
+          "translations": {
+            "ur": {
+              "question": "Galvanometer کو ammeter بنانے کے لیے کم resistance کہاں لگاتے ہیں؟",
+              "options": {
+                "A": "series میں",
+                "B": "parallel میں shunt کے طور پر",
+                "C": "صرف supply کے across",
+                "D": "coil کی جگہ"
+              },
+              "explanation": "Shunt زیادہ current کو حساس galvanometer coil کے گرد گزارتی ہے۔"
+            },
+            "sd": {
+              "question": "Galvanometer کي ammeter بڻائڻ لاءِ گهٽ resistance ڪٿي لڳائجي؟",
+              "options": {
+                "A": "series ۾",
+                "B": "parallel ۾ shunt طور",
+                "C": "صرف supply سان",
+                "D": "coil جي جاءِ تي"
+              },
+              "explanation": "Shunt گهڻو current حساس galvanometer coil کان پاسو ڪرائي ٿي."
+            }
+          }
+        },
+        {
+          "question": "The magnetic field around a long straight wire carrying steady current has field lines that are:",
+          "options": {
+            "A": "Radial straight lines",
+            "B": "Concentric circles",
+            "C": "Parallel straight lines",
+            "D": "Ellipses along the wire"
+          },
+          "correctOption": "B",
+          "explanation": "The right-hand grip rule gives circular magnetic field lines centred on the wire.",
+          "translations": {
+            "ur": {
+              "question": "مستقل current والی لمبی سیدھی تار کے گرد magnetic field lines کیسی ہوتی ہیں؟",
+              "options": {
+                "A": "شعاعی سیدھی",
+                "B": "ہم مرکز دائرے",
+                "C": "متوازی سیدھی",
+                "D": "تار کے ساتھ بیضوی"
+              },
+              "explanation": "Right-hand grip rule کے مطابق تار کے گرد دائرہ نما میدان بنتا ہے۔"
+            },
+            "sd": {
+              "question": "مستقل current واري ڊگهي سڌي تار جي چوڌاري magnetic field lines ڪهڙيون ٿين ٿيون؟",
+              "options": {
+                "A": "شعاعي سڌيون",
+                "B": "مرڪزي دائرا",
+                "C": "متوازي سڌيون",
+                "D": "تار سان بيضوي"
+              },
+              "explanation": "Right-hand grip rule موجب تار جي چوڌاري گول ميدان ٺهي ٿو."
+            }
+          }
+        },
+        {
+          "question": "A 0.40 T magnetic field is perpendicular to a 0.050 m² surface. The magnetic flux is:",
+          "options": {
+            "A": "0.002 Wb",
+            "B": "0.020 Wb",
+            "C": "0.20 Wb",
+            "D": "8.0 Wb"
+          },
+          "correctOption": "B",
+          "explanation": "ΦB = BA cos0° = 0.40×0.050 = 0.020 Wb.",
+          "translations": {
+            "ur": {
+              "question": "0.40 T میدان 0.050 m² سطح کے عمود ہو تو magnetic flux کیا ہے؟",
+              "options": {
+                "A": "0.002 Wb",
+                "B": "0.020 Wb",
+                "C": "0.20 Wb",
+                "D": "8.0 Wb"
+              },
+              "explanation": "ΦB = BA = 0.40×0.050 = 0.020 Wb۔"
+            },
+            "sd": {
+              "question": "0.40 T ميدان 0.050 m² سطح جي عمودي هجي ته magnetic flux ڪيترو آهي؟",
+              "options": {
+                "A": "0.002 Wb",
+                "B": "0.020 Wb",
+                "C": "0.20 Wb",
+                "D": "8.0 Wb"
+              },
+              "explanation": "ΦB = BA = 0.40×0.050 = 0.020 Wb."
+            }
+          }
+        },
+        {
+          "question": "A 2 μC charge moves at 3×10⁵ m s⁻¹ perpendicular to a 0.20 T magnetic field. The magnetic force is:",
+          "options": {
+            "A": "0.012 N",
+            "B": "0.12 N",
+            "C": "1.2 N",
+            "D": "12 N"
+          },
+          "correctOption": "B",
+          "explanation": "F = qvB = 2×10⁻⁶×3×10⁵×0.20 = 0.12 N.",
+          "translations": {
+            "ur": {
+              "question": "2 μC بار 3×10⁵ m s⁻¹ رفتار سے 0.20 T میدان کے عمود حرکت کرے تو قوت کیا ہے؟",
+              "options": {
+                "A": "0.012 N",
+                "B": "0.12 N",
+                "C": "1.2 N",
+                "D": "12 N"
+              },
+              "explanation": "F = qvB = 0.12 N۔"
+            },
+            "sd": {
+              "question": "2 μC بار 3×10⁵ m s⁻¹ رفتار سان 0.20 T ميدان جي عمودي هلي ته قوت ڪيتري آهي؟",
+              "options": {
+                "A": "0.012 N",
+                "B": "0.12 N",
+                "C": "1.2 N",
+                "D": "12 N"
+              },
+              "explanation": "F = qvB = 0.12 N."
+            }
+          }
+        },
+        {
+          "question": "A charged particle enters a uniform magnetic field with velocity perpendicular to B. Its path is ideally:",
+          "options": {
+            "A": "A straight line",
+            "B": "A circle",
+            "C": "A parabola",
+            "D": "A stationary point"
+          },
+          "correctOption": "B",
+          "explanation": "The magnetic force remains perpendicular to velocity and acts as centripetal force.",
+          "translations": {
+            "ur": {
+              "question": "charged particle کی velocity، B کے عمود ہو تو مثالی راستہ کیا ہوگا؟",
+              "options": {
+                "A": "سیدھی لکیر",
+                "B": "دائرہ",
+                "C": "قطعِ مکافی",
+                "D": "ساکن نقطہ"
+              },
+              "explanation": "قوت velocity کے عمود رہتی ہے اور centripetal force بنتی ہے۔"
+            },
+            "sd": {
+              "question": "charged particle جي velocity، B جي عمودي هجي ته مثالي رستو ڪهڙو هوندو؟",
+              "options": {
+                "A": "سڌي ليڪ",
+                "B": "گول دائرو",
+                "C": "parabola",
+                "D": "ساڪن نقطو"
+              },
+              "explanation": "قوت velocity جي عمودي رهي ٿي ۽ centripetal force بڻجي ٿي."
+            }
+          }
+        },
+        {
+          "question": "A 0.50 m wire carries 4.0 A perpendicular to a 0.30 T field. The force on it is:",
+          "options": {
+            "A": "0.06 N",
+            "B": "0.60 N",
+            "C": "1.5 N",
+            "D": "6.0 N"
+          },
+          "correctOption": "B",
+          "explanation": "F = BIL = 0.30×4.0×0.50 = 0.60 N.",
+          "translations": {
+            "ur": {
+              "question": "0.50 m تار میں 4.0 A رو ہو اور 0.30 T میدان عمود ہو تو قوت کیا ہے؟",
+              "options": {
+                "A": "0.06 N",
+                "B": "0.60 N",
+                "C": "1.5 N",
+                "D": "6.0 N"
+              },
+              "explanation": "F = BIL = 0.30×4.0×0.50 = 0.60 N۔"
+            },
+            "sd": {
+              "question": "0.50 m تار ۾ 4.0 A ڪرنٽ ۽ 0.30 T ميدان عمودي هجي ته قوت ڪيتري آهي؟",
+              "options": {
+                "A": "0.06 N",
+                "B": "0.60 N",
+                "C": "1.5 N",
+                "D": "6.0 N"
+              },
+              "explanation": "F = BIL = 0.30×4.0×0.50 = 0.60 N."
+            }
+          }
+        },
+        {
+          "question": "A coil has 100 turns, area 0.010 m², current 0.50 A and is in a 0.20 T field. Its maximum torque is:",
+          "options": {
+            "A": "0.001 N m",
+            "B": "0.010 N m",
+            "C": "0.10 N m",
+            "D": "1.0 N m"
+          },
+          "correctOption": "C",
+          "explanation": "τmax = BANI = 0.20×100×0.010×0.50 = 0.10 N m.",
+          "translations": {
+            "ur": {
+              "question": "100 turns، 0.010 m² area، 0.50 A اور 0.20 T field والی coil کا maximum torque کیا ہے؟",
+              "options": {
+                "A": "0.001 N m",
+                "B": "0.010 N m",
+                "C": "0.10 N m",
+                "D": "1.0 N m"
+              },
+              "explanation": "τ = BANI = 0.10 N m۔"
+            },
+            "sd": {
+              "question": "100 turns، 0.010 m² area، 0.50 A ۽ 0.20 T field واري coil جو وڌ ۾ وڌ torque ڪيترو آهي؟",
+              "options": {
+                "A": "0.001 N m",
+                "B": "0.010 N m",
+                "C": "0.10 N m",
+                "D": "1.0 N m"
+              },
+              "explanation": "τ = BANI = 0.10 N m."
+            }
+          }
+        },
+        {
+          "question": "According to Faraday’s law, the magnitude of induced emf increases when:",
+          "options": {
+            "A": "Flux changes more slowly",
+            "B": "The number of turns is reduced",
+            "C": "Magnetic flux changes more rapidly",
+            "D": "The coil is removed from the circuit"
+          },
+          "correctOption": "C",
+          "explanation": "Induced emf magnitude is proportional to the rate of change of flux linkage, N|ΔΦ/Δt|.",
+          "translations": {
+            "ur": {
+              "question": "Faraday کے قانون کے مطابق induced emf کب بڑھتی ہے؟",
+              "options": {
+                "A": "flux آہستہ بدلے",
+                "B": "turns کم ہوں",
+                "C": "magnetic flux تیزی سے بدلے",
+                "D": "coil circuit سے نکال دیں"
+              },
+              "explanation": "Induced emf، flux linkage کی تبدیلی کی شرح کے متناسب ہے۔"
+            },
+            "sd": {
+              "question": "Faraday جي قانون موجب induced emf ڪڏهن وڌندي؟",
+              "options": {
+                "A": "flux آهستي بدلي",
+                "B": "turns گهٽجن",
+                "C": "magnetic flux تيزيءَ سان بدلي",
+                "D": "coil circuit مان ڪڍجي"
+              },
+              "explanation": "Induced emf، flux linkage جي تبديلي جي رفتار جي متناسب آهي."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Two charges +2.0 μC and +3.0 μC are 0.30 m apart in air. Calculate the electrostatic force and state its direction. Then calculate the field strength at the position of the second charge due to the first.",
+          "modelAnswer": "F = kq₁q₂/r² = 8.99×10⁹×(2×10⁻⁶)(3×10⁻⁶)/(0.30)² ≈ 0.60 N. Both charges are positive, so the force is repulsive; on the second charge it acts away from the first. E = F/q₂ = 0.60/(3×10⁻⁶) ≈ 2.0×10⁵ N C⁻¹, directed away from the first charge.",
+          "rubric": [
+            "Converts μC to C and uses Coulomb’s law (1)",
+            "Correct substitution and 0.60 N result (1)",
+            "Identifies repulsive direction (1)",
+            "Calculates E ≈ 2.0×10⁵ N C⁻¹ with direction (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو بار +2.0 μC اور +3.0 μC ہوا میں 0.30 m دور ہیں۔ قوت معلوم کریں، سمت بتائیں، پھر دوسرے بار کے مقام پر پہلے بار کی وجہ سے electric field strength معلوم کریں۔",
+              "modelAnswer": "F = kq₁q₂/r² ≈ 0.60 N ہے۔ دونوں مثبت ہیں، اس لیے قوت دفع کرنے والی ہے اور دوسرے بار پر پہلے سے دور لگتی ہے۔ E = F/q₂ = 0.60/(3×10⁻⁶) ≈ 2.0×10⁵ N C⁻¹ ہے، سمت پہلے بار سے باہر ہے۔",
+              "rubric": [
+                "μC کو C میں تبدیل کر کے Coulomb law استعمال کرے (1)",
+                "درست substitution اور 0.60 N (1)",
+                "دفع اور سمت بتائے (1)",
+                "E ≈ 2.0×10⁵ N C⁻¹ اور سمت (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه بار +2.0 μC ۽ +3.0 μC هوا ۾ 0.30 m پري آهن. قوت ڳڻيو، رخ ٻڌايو، پوءِ ٻئي بار جي جاءِ تي پهرئين بار سبب electric field strength ڳڻيو.",
+              "modelAnswer": "F = kq₁q₂/r² ≈ 0.60 N آهي. ٻئي مثبت آهن، تنهنڪري قوت ڌڪيندڙ آهي ۽ ٻئي بار تي پهرئين کان پري لڳندي. E = F/q₂ = 0.60/(3×10⁻⁶) ≈ 2.0×10⁵ N C⁻¹ آهي، رخ پهرئين بار کان ٻاهر آهي.",
+              "rubric": [
+                "μC کي C ۾ بدلائي Coulomb law استعمال ڪري (1)",
+                "صحيح substitution ۽ 0.60 N (1)",
+                "دفع ۽ رخ بيان ڪري (1)",
+                "E ≈ 2.0×10⁵ N C⁻¹ ۽ رخ (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "A 2.0 m wire has cross-sectional area 1.0 mm² and resistivity 1.7×10⁻⁸ Ω m. Calculate its resistance. Explain how the resistance of an LDR changes between daylight and darkness.",
+          "modelAnswer": "A = 1.0×10⁻⁶ m². R = ρL/A = (1.7×10⁻⁸×2.0)/(1.0×10⁻⁶) = 0.034 Ω. In daylight, more charge carriers are generated in the LDR and its resistance decreases. In darkness, fewer carriers are available and resistance increases.",
+          "rubric": [
+            "Converts area to 1.0×10⁻⁶ m² (1)",
+            "Uses R = ρL/A correctly (1)",
+            "Obtains 0.034 Ω (1)",
+            "Explains lower LDR resistance in light and higher in darkness (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ایک 2.0 m تار کا مقطع 1.0 mm² اور resistivity 1.7×10⁻⁸ Ω m ہے۔ resistance معلوم کریں۔ دن اور رات میں LDR کی resistance کی تبدیلی بھی سمجھائیں۔",
+              "modelAnswer": "A = 1.0×10⁻⁶ m²۔ R = ρL/A = 0.034 Ω ہے۔ دن کی روشنی میں LDR میں charge carriers زیادہ ہوتے ہیں، اس لیے resistance کم ہوتی ہے۔ اندھیرے میں carriers کم اور resistance زیادہ ہوتی ہے۔",
+              "rubric": [
+                "رقبہ 1.0×10⁻⁶ m² میں تبدیل کرے (1)",
+                "R = ρL/A درست استعمال کرے (1)",
+                "0.034 Ω حاصل کرے (1)",
+                "روشنی میں کم اور اندھیرے میں زیادہ LDR resistance سمجھائے (1)"
+              ]
+            },
+            "sd": {
+              "question": "هڪ 2.0 m تار جو cross-sectional area 1.0 mm² ۽ resistivity 1.7×10⁻⁸ Ω m آهي. resistance ڳڻيو. ڏينهن ۽ رات ۾ LDR جي resistance جي تبديلي به سمجهايو.",
+              "modelAnswer": "A = 1.0×10⁻⁶ m². R = ρL/A = 0.034 Ω آهي. ڏينهن جي روشني ۾ LDR جا charge carriers وڌن ٿا، تنهنڪري resistance گهٽجي ٿي. اونداهي ۾ carriers گهٽ ۽ resistance وڌيڪ ٿئي ٿي.",
+              "rubric": [
+                "area کي 1.0×10⁻⁶ m² ۾ بدلائي (1)",
+                "R = ρL/A صحيح استعمال ڪري (1)",
+                "0.034 Ω حاصل ڪري (1)",
+                "روشني ۾ گهٽ ۽ اونداهي ۾ وڌيڪ LDR resistance سمجهاڻي (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A 12 V cell has internal resistance 1 Ω and is connected to a 5 Ω load. Calculate the current, terminal voltage and power delivered to the load.",
+          "modelAnswer": "Total resistance = R+r = 6 Ω. I = ε/(R+r) = 12/6 = 2 A. Terminal voltage V = IR = 2×5 = 10 V (also ε−Ir = 12−2×1 = 10 V). Load power P = I²R = 4×5 = 20 W.",
+          "rubric": [
+            "Calculates total resistance 6 Ω (1)",
+            "Finds current 2 A (1)",
+            "Finds terminal voltage 10 V (1)",
+            "Uses a valid load-power equation (1)",
+            "Obtains 20 W with unit (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "12 V cell کی internal resistance 1 Ω ہے اور اسے 5 Ω load سے جوڑا گیا ہے۔ current، terminal voltage اور load کو دی جانے والی power معلوم کریں۔",
+              "modelAnswer": "کل resistance = 6 Ω۔ I = 12/6 = 2 A۔ Terminal voltage = IR = 2×5 = 10 V۔ Load power = I²R = 2²×5 = 20 W ہے۔",
+              "rubric": [
+                "کل resistance 6 Ω معلوم کرے (1)",
+                "current 2 A (1)",
+                "terminal voltage 10 V (1)",
+                "درست power مساوات (1)",
+                "20 W اور unit (1)"
+              ]
+            },
+            "sd": {
+              "question": "12 V cell جي internal resistance 1 Ω آهي ۽ ان کي 5 Ω load سان ڳنڍيو ويو آهي. current، terminal voltage ۽ load power ڳڻيو.",
+              "modelAnswer": "ڪل resistance = 6 Ω. I = 12/6 = 2 A. Terminal voltage = IR = 10 V. Load power = I²R = 20 W آهي.",
+              "rubric": [
+                "ڪل resistance 6 Ω ڳڻي (1)",
+                "current 2 A (1)",
+                "terminal voltage 10 V (1)",
+                "صحيح power مساوات (1)",
+                "20 W ۽ unit (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A coil of 100 turns and area 0.010 m² is in a 0.20 T magnetic field. The field is perpendicular to the coil. Calculate the flux through one turn and the flux linkage. If the flux falls to zero in 0.10 s, calculate the magnitude of the average induced emf.",
+          "modelAnswer": "Φ = BA = 0.20×0.010 = 0.0020 Wb per turn. Flux linkage NΦ = 100×0.0020 = 0.20 Wb-turn. |ε| = N|ΔΦ|/Δt = 100×0.0020/0.10 = 2.0 V.",
+          "rubric": [
+            "Uses Φ = BA cosθ with θ = 0° (1)",
+            "Flux per turn 0.0020 Wb (1)",
+            "Flux linkage 0.20 Wb-turn (1)",
+            "Applies Faraday’s law with time interval (1)",
+            "Average emf 2.0 V (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "100 turns اور 0.010 m² area والی coil، 0.20 T میدان میں ہے اور میدان coil کے عمود ہے۔ ایک turn کا flux اور flux linkage معلوم کریں۔ اگر flux 0.10 s میں صفر ہو جائے تو average induced emf معلوم کریں۔",
+              "modelAnswer": "Φ = BA = 0.20×0.010 = 0.0020 Wb فی turn۔ NΦ = 0.20 Wb-turn۔ |ε| = N|ΔΦ|/Δt = 100×0.0020/0.10 = 2.0 V۔",
+              "rubric": [
+                "Φ = BA cosθ اور θ = 0° استعمال کرے (1)",
+                "فی turn flux 0.0020 Wb (1)",
+                "flux linkage 0.20 Wb-turn (1)",
+                "Faraday law اور وقت درست استعمال کرے (1)",
+                "2.0 V induced emf (1)"
+              ]
+            },
+            "sd": {
+              "question": "100 turns ۽ 0.010 m² area واري coil، 0.20 T ميدان ۾ آهي ۽ ميدان coil جي عمودي آهي. هڪ turn جو flux ۽ flux linkage ڳڻيو. جيڪڏهن flux 0.10 s ۾ صفر ٿئي ته average induced emf ڳڻيو.",
+              "modelAnswer": "Φ = BA = 0.0020 Wb في turn. NΦ = 0.20 Wb-turn. |ε| = N|ΔΦ|/Δt = 2.0 V آهي.",
+              "rubric": [
+                "Φ = BA cosθ ۽ θ = 0° استعمال ڪري (1)",
+                "في turn flux 0.0020 Wb (1)",
+                "flux linkage 0.20 Wb-turn (1)",
+                "Faraday law ۽ وقت صحيح استعمال ڪري (1)",
+                "2.0 V induced emf (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 8,
+          "question": "A student investigates a two-loop DC circuit using a cell with internal resistance, two parallel resistors and a galvanometer. Explain how Kirchhoff’s laws can be applied, calculate equivalent resistance for 6 Ω and 3 Ω in parallel, and describe how the galvanometer can be converted into an ammeter and a voltmeter. Include safe instrument connections.",
+          "modelAnswer": "At each junction use ΣIin = ΣIout (charge conservation). Around each closed loop use ΣΔV = 0 (energy conservation), assigning consistent signs to source rises and resistor drops. For 6 Ω and 3 Ω in parallel, 1/Rp = 1/6 + 1/3 = 1/2, so Rp = 2 Ω. Include the cell's internal resistance in series with the external equivalent when calculating total current. A galvanometer becomes an ammeter by adding a low shunt in parallel so most current bypasses the coil; connect the ammeter in series with the circuit. It becomes a voltmeter by adding a high resistance in series; connect the voltmeter in parallel across the component. Never connect an ammeter directly across a cell.",
+          "rubric": [
+            "States junction law and charge conservation (1)",
+            "States loop law and energy conservation (1)",
+            "Calculates parallel equivalent 2 Ω (1)",
+            "Accounts for internal resistance in total circuit (1)",
+            "Explains low parallel shunt for ammeter (1)",
+            "Explains high series resistance for voltmeter (1)",
+            "Correct series/parallel meter connections (1)",
+            "Includes a relevant safety precaution (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ایک طالب علم internal resistance والی cell، دو parallel resistors اور galvanometer پر مشتمل دو-loop DC circuit کا مطالعہ کرتا ہے۔ Kirchhoff laws کا استعمال، 6 Ω اور 3 Ω کی parallel equivalent resistance، اور galvanometer کو ammeter اور voltmeter بنانے کا طریقہ بیان کریں۔ آلات کی محفوظ connection بھی لکھیں۔",
+              "modelAnswer": "Junction پر ΣIin = ΣIout (charge conservation) استعمال کریں۔ بند loop میں ΣΔV = 0 (energy conservation) ہے۔ 6 Ω اور 3 Ω parallel ہوں تو Rp = 2 Ω۔ کل current میں cell کی internal resistance بھی series میں شامل کریں۔ Ammeter کے لیے کم shunt parallel لگائیں تاکہ زیادہ رو coil کے بجائے shunt سے گزرے؛ ammeter series میں لگتا ہے۔ Voltmeter کے لیے بڑی resistance series میں لگائیں؛ voltmeter component کے parallel لگتا ہے۔ Ammeter کو کبھی cell کے across براہ راست نہ لگائیں۔",
+              "rubric": [
+                "Junction law اور charge conservation (1)",
+                "Loop law اور energy conservation (1)",
+                "Parallel equivalent 2 Ω (1)",
+                "Total circuit میں internal resistance شامل کرے (1)",
+                "Ammeter کے لیے کم parallel shunt (1)",
+                "Voltmeter کے لیے بڑی series resistance (1)",
+                "Meters کی درست series/parallel connection (1)",
+                "حفاظتی احتیاط (1)"
+              ]
+            },
+            "sd": {
+              "question": "هڪ شاگرد internal resistance واري cell، ٻن parallel resistors ۽ galvanometer واري two-loop DC circuit جو مطالعو ڪري ٿو. Kirchhoff laws جو استعمال، 6 Ω ۽ 3 Ω جي parallel equivalent resistance، ۽ galvanometer کي ammeter ۽ voltmeter بڻائڻ جو طريقو بيان ڪريو. محفوظ connections به لکو.",
+              "modelAnswer": "Junction تي ΣIin = ΣIout (charge conservation) استعمال ڪريو. بند loop ۾ ΣΔV = 0 (energy conservation) آهي. 6 Ω ۽ 3 Ω parallel هجن ته Rp = 2 Ω. ڪل current ۾ cell جي internal resistance به series ۾ شامل ڪريو. Ammeter لاءِ گهٽ shunt parallel ۾ لڳايو؛ ammeter series ۾ لڳندو. Voltmeter لاءِ وڏي resistance series ۾ لڳايو؛ voltmeter component جي parallel لڳندو. Ammeter کي ڪڏهن به cell جي across سڌو نه لڳايو.",
+              "rubric": [
+                "Junction law ۽ charge conservation (1)",
+                "Loop law ۽ energy conservation (1)",
+                "Parallel equivalent 2 Ω (1)",
+                "Total circuit ۾ internal resistance شامل ڪري (1)",
+                "Ammeter لاءِ گهٽ parallel shunt (1)",
+                "Voltmeter لاءِ وڏي series resistance (1)",
+                "Meters جون صحيح series/parallel connections (1)",
+                "حفاظتي احتياط (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 8,
+          "question": "Explain the magnetic force on a moving charge and on a current-carrying wire. A 0.50 m wire carries 4.0 A perpendicular to a 0.30 T field: calculate its force. Then explain the torque on a current-carrying coil and how Ampere’s law describes the field inside a long solenoid.",
+          "modelAnswer": "For a moving charge, F = |q|vB sinθ and the force is perpendicular to both v and B. For a straight wire, F = BIL sinθ; here F = 0.30×4.0×0.50 = 0.60 N. Reversing current or field reverses force direction. A coil with N turns and area A experiences torque τ = BANI at maximum orientation; the torque increases with B, A, N and I and forms the motor principle. Ampere’s law is ∮B·dl = μ₀Ienclosed; for an ideal long solenoid B = μ₀nI inside, with end effects neglected. A ferromagnetic core increases the field.",
+          "rubric": [
+            "Correct moving-charge force equation and direction (1)",
+            "Correct wire-force equation (1)",
+            "Substitution and 0.60 N result (1)",
+            "Explains direction reversal (1)",
+            "Gives coil torque equation (1)",
+            "Explains variables affecting torque (1)",
+            "States Ampere’s law (1)",
+            "Gives solenoid field relation and core effect (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Moving charge اور current-carrying wire پر magnetic force سمجھائیں۔ 0.50 m تار میں 4.0 A رو ہے اور 0.30 T میدان اس کے عمود ہے؛ قوت معلوم کریں۔ پھر current-carrying coil کا torque اور لمبی solenoid کے اندر میدان کے لیے Ampere’s law کی وضاحت کریں۔",
+              "modelAnswer": "Moving charge کے لیے F = |q|vB sinθ ہے اور قوت v اور B دونوں کے عمود ہے۔ تار کے لیے F = BIL sinθ = 0.30×4.0×0.50 = 0.60 N۔ current یا field الٹنے سے قوت کا رخ الٹتا ہے۔ N turns والی coil کا زیادہ سے زیادہ torque τ = BANI ہے۔ Ampere’s law ∮B·dl = μ₀Ienclosed ہے؛ ideal لمبی solenoid کے اندر B = μ₀nI ہے۔ Ferromagnetic core میدان بڑھاتا ہے۔",
+              "rubric": [
+                "Moving charge کی درست force equation اور سمت (1)",
+                "Wire-force equation (1)",
+                "0.60 N حساب (1)",
+                "سمت الٹنے کی وضاحت (1)",
+                "Coil torque equation (1)",
+                "Torque کے عوامل (1)",
+                "Ampere’s law (1)",
+                "Solenoid relation اور core effect (1)"
+              ]
+            },
+            "sd": {
+              "question": "Moving charge ۽ current-carrying wire تي magnetic force سمجهايو. 0.50 m تار ۾ 4.0 A ڪرنٽ آهي ۽ 0.30 T ميدان ان جي عمودي آهي؛ قوت ڳڻيو. پوءِ current-carrying coil جو torque ۽ ڊگهي solenoid اندر ميدان لاءِ Ampere’s law بيان ڪريو.",
+              "modelAnswer": "Moving charge لاءِ F = |q|vB sinθ آهي ۽ قوت v ۽ B ٻنهي جي عمودي آهي. تار لاءِ F = BIL sinθ = 0.60 N. current يا field ابتو ڪرڻ سان قوت جو رخ ابتو ٿئي ٿو. N turns واري coil جو وڌ ۾ وڌ torque τ = BANI آهي. Ampere’s law ∮B·dl = μ₀Ienclosed آهي؛ ideal ڊگهي solenoid اندر B = μ₀nI آهي. Ferromagnetic core ميدان وڌائي ٿو.",
+              "rubric": [
+                "Moving charge جي صحيح force equation ۽ رخ (1)",
+                "Wire-force equation (1)",
+                "0.60 N حساب (1)",
+                "رخ ابتو ٿيڻ جي وضاحت (1)",
+                "Coil torque equation (1)",
+                "Torque جا اثر ڪندڙ عنصر (1)",
+                "Ampere’s law (1)",
+                "Solenoid relation ۽ core effect (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 8,
+          "question": "Describe Faraday’s and Lenz’s laws and explain how a simple electromagnetic seismometer detects earthquake motion. Identify at least three ways to increase induced emf and explain why the induced current opposes the change in magnetic flux.",
+          "modelAnswer": "Faraday’s law states that induced emf is proportional to the rate of change of magnetic flux linkage: ε = −NΔΦ/Δt. Lenz’s law gives the direction: the induced current produces a magnetic effect that opposes the change in flux that caused it. This opposition is required by conservation of energy. In a simple seismometer, the frame and coil move with the ground while a suspended magnet tends to remain in its state of motion; relative motion changes flux through the coil and induces an emf that is recorded and calibrated to infer ground motion. Induced emf can be increased by increasing the number of turns, strengthening the magnetic field, increasing the effective coil area, or making the flux change faster (e.g. faster relative motion).",
+          "rubric": [
+            "States Faraday’s rate-of-change principle (1)",
+            "Includes flux linkage and N factor (1)",
+            "Explains Lenz’s opposing direction (1)",
+            "Links opposition to energy conservation (1)",
+            "Explains relative motion of coil and magnet (1)",
+            "Explains changing flux and recorded emf (1)",
+            "Gives three valid ways to increase emf (1)",
+            "Mentions calibration/instrument response appropriately (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Faraday اور Lenz کے قوانین بیان کریں اور سمجھائیں کہ سادہ electromagnetic seismometer زلزلے کی حرکت کیسے معلوم کرتا ہے۔ induced emf بڑھانے کے کم از کم تین طریقے لکھیں اور بتائیں کہ induced current flux کی تبدیلی کی مخالفت کیوں کرتی ہے۔",
+              "modelAnswer": "Faraday law کے مطابق induced emf، magnetic flux linkage کی تبدیلی کی شرح کے متناسب ہے: ε = −NΔΦ/Δt۔ Lenz law کے مطابق induced current ایسا magnetic effect پیدا کرتا ہے جو flux کی تبدیلی کی مخالفت کرے؛ یہ energy conservation کے لیے ضروری ہے۔ Seismometer میں زمین کے ساتھ frame اور coil حرکت کرتے ہیں جبکہ لٹکا magnet نسبتاً اپنی حالت برقرار رکھتا ہے۔ اس relative motion سے coil کا flux بدلتا اور emf پیدا ہوتی ہے؛ recorded signal کو calibrate کر کے زمینی حرکت معلوم کی جاتی ہے۔ Turns، magnetic field، coil area یا flux change کی رفتار بڑھانے سے emf بڑھتی ہے۔",
+              "rubric": [
+                "Faraday کا rate-of-change اصول (1)",
+                "Flux linkage اور N factor (1)",
+                "Lenz کی مخالف سمت (1)",
+                "Energy conservation سے تعلق (1)",
+                "Coil اور magnet کی relative motion (1)",
+                "بدلتے flux اور recorded emf کی وضاحت (1)",
+                "Emf بڑھانے کے تین درست طریقے (1)",
+                "Calibration/instrument response کا ذکر (1)"
+              ]
+            },
+            "sd": {
+              "question": "Faraday ۽ Lenz جا قانون بيان ڪريو ۽ سمجهايو ته سادو electromagnetic seismometer زلزلي جي حرڪت ڪيئن معلوم ڪري ٿو. induced emf وڌائڻ جا گهٽ ۾ گهٽ ٽي طريقا لکو ۽ ٻڌايو ته induced current، flux جي تبديلي جي مخالفت ڇو ڪري ٿو.",
+              "modelAnswer": "Faraday law موجب induced emf، magnetic flux linkage جي تبديلي جي رفتار جي متناسب آهي: ε = −NΔΦ/Δt. Lenz law موجب induced current اهڙو magnetic اثر پيدا ڪري ٿو جيڪو flux جي تبديلي جي مخالفت ڪري؛ اهو energy conservation لاءِ ضروري آهي. Seismometer ۾ frame ۽ coil زمين سان هلن ٿا، جڏهن ته لٽڪيل magnet نسبتاً پنهنجي حالت برقرار رکي ٿو. Relative motion سان flux بدلجي ۽ emf پيدا ٿئي ٿي؛ signal کي calibrate ڪري زميني حرڪت معلوم ڪجي ٿي. Turns، magnetic field، coil area يا flux جي تبديلي جي رفتار وڌائڻ سان emf وڌي ٿي.",
+              "rubric": [
+                "Faraday جو rate-of-change اصول (1)",
+                "Flux linkage ۽ N factor (1)",
+                "Lenz جي ابتڙ رخ (1)",
+                "Energy conservation سان تعلق (1)",
+                "Coil ۽ magnet جي relative motion (1)",
+                "بدلجندڙ flux ۽ recorded emf جي وضاحت (1)",
+                "Emf وڌائڻ جا ٽي صحيح طريقا (1)",
+                "Calibration/instrument response جو ذڪر (1)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

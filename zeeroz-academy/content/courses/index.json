@@ -283,6 +283,12 @@
       "title": "Physics XI — Waves (DCAR 2024)",
       "path": "zeeroz-academy/content/courses/physics-xi-waves.json",
       "version": "1"
+    },
+    {
+      "id": "physics-xi-electricity-magnetism",
+      "title": "Physics XI — Electricity and Magnetism (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-electricity-magnetism.json",
+      "version": "1"
     }
   ]
 }
