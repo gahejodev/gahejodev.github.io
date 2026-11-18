@@ -237,6 +237,14 @@ async function load(){
 }
 async function change(id,data){try{await updateDoc(doc(db(),"socialPosts",id),{...data,updatedAt:serverTimestamp()});say("Content record updated.");await load()}catch(e){say("Update failed: "+e.message)}}
 
+// Ensure Firebase has initialized before binding auth and UI handlers.
+if(!window.ZeerozFirebase){
+ await new Promise((resolve,reject)=>{
+  const timeout=setTimeout(()=>reject(new Error("Firebase initialization timed out. Please reload the page.")),15000);
+  window.addEventListener("zeeroz-firebase-ready",()=>{clearTimeout(timeout);resolve()}, {once:true});
+ });
+}
+
 onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
  if(!user){location.href="./student-login.html";return}
  try{const token=await user.getIdTokenResult(true);if(token.claims.admin!==true){document.body.innerHTML="<main style='padding:30px;font:16px system-ui'><h2>Administrator access required</h2><a href='./student-login.html'>Sign in</a></main>";return}admin=true;await load();await checkPublishingBackend();await refreshProviderStatuses();const qp=new URLSearchParams(location.search),fbResult=qp.get("facebook");if(fbResult==="error")say("Facebook connection failed: "+(qp.get("reason")||"Unknown error"));else if(fbResult==="connected")say("Facebook connected successfully.")}catch(e){say("Could not load queue: "+e.message)}
