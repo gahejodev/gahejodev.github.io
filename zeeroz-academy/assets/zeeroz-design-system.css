@@ -199,7 +199,7 @@ body:has(#courseForm) button{border-radius:12px;background:linear-gradient(120de
 body:has(#generateCompleteVideo) header{background:linear-gradient(110deg,#061638,#0a3b91 75%,#087e98);box-shadow:0 8px 25px #071b4920}
 body:has(#generateCompleteVideo) .wrap{max-width:1180px;margin:25px auto;padding-bottom:70px}
 body:has(#generateCompleteVideo) .intro{position:relative;overflow:hidden;border-radius:28px;padding:clamp(26px,4vw,46px);background:radial-gradient(circle at 88% 8%,#438bff 0,transparent 36%),linear-gradient(120deg,#061638,#0b4baf 75%,#087e98);box-shadow:0 22px 52px #0b347a30}
-body:has(#generateCompleteVideo) .intro:after{content:"";position:absolute;right:0;top:0;width:38%;height:100%;background:url("../zeeroz-academy/assets/academy-hero-illustration.svg") center/contain no-repeat;opacity:.17;pointer-events:none}
+body:has(#generateCompleteVideo) .intro:after{content:"";position:absolute;right:0;top:0;width:38%;height:100%;background:url("academy-hero-illustration.svg") center/contain no-repeat;opacity:.17;pointer-events:none}
 body:has(#generateCompleteVideo) .intro h1{font-size:clamp(28px,4.3vw,44px);letter-spacing:-1.4px;max-width:720px}
 body:has(#generateCompleteVideo) .card{border:1px solid #e3eaf5;border-radius:22px;padding:clamp(17px,2.4vw,26px);box-shadow:0 12px 32px #0b2b650c}
 body:has(#generateCompleteVideo) .section-number{width:31px;height:31px;background:#e8f0ff;color:#0757e8}
