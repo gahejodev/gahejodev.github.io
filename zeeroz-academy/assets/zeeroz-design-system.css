@@ -1,0 +1,110 @@
+/* ZEEROZ ACADEMY — unified responsive design system
+   Shared visual layer only. Existing HTML, Firebase and application scripts remain untouched. */
+:root{
+  --z-ink:#14213d;--z-navy:#0b1b3c;--z-blue:#2457d6;--z-blue-dark:#1744b8;
+  --z-cyan:#19a9b5;--z-gold:#f4c84b;--z-muted:#66748e;--z-line:#e3e9f3;
+  --z-paper:#f5f7fb;--z-white:#fff;--z-radius:20px;
+  --z-shadow:0 12px 34px rgba(16,35,76,.08);
+  --z-shadow-hover:0 20px 44px rgba(16,35,76,.13);
+}
+html{scroll-padding-top:88px}
+body{color:var(--z-ink);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a,button,input,select,textarea{ -webkit-tap-highlight-color:transparent}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #75a2ff;outline-offset:3px}
+button{cursor:pointer}
+::selection{background:#dce8ff;color:var(--z-navy)}
+/* Public academy */
+body:has(.hero-grid){background:#fff}
+body:has(.hero-grid) header{box-shadow:0 5px 24px rgba(10,27,60,.045)}
+body:has(.hero-grid) .nav{min-height:76px}
+body:has(.hero-grid) .brand{font-size:17px}
+body:has(.hero-grid) .links a{padding:9px 0;transition:color .2s}
+body:has(.hero-grid) .links a:last-child{background:var(--z-blue);color:#fff;padding:10px 16px;border-radius:12px}
+body:has(.hero-grid) .hero{padding:clamp(58px,8vw,104px) 0;background:radial-gradient(circle at 84% 14%,rgba(36,87,214,.56),transparent 28%),linear-gradient(118deg,#091a3d 0%,#123775 58%,#087c91 100%)}
+body:has(.hero-grid) .hero-grid{gap:clamp(28px,5vw,68px)}
+body:has(.hero-grid) .hero h1{max-width:760px;font-weight:850;letter-spacing:-2.8px}
+body:has(.hero-grid) .hero p{line-height:1.75}
+body:has(.hero-grid) .hero-art{border-radius:32px;background:linear-gradient(145deg,rgba(255,255,255,.14),rgba(255,255,255,.045));box-shadow:inset 0 1px 0 #ffffff25,0 24px 65px #07142e35}
+body:has(.hero-grid) .btn{min-height:48px;padding:13px 21px;border-radius:13px;transition:transform .2s,box-shadow .2s}
+body:has(.hero-grid) .btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px #07142e22}
+body:has(.hero-grid) section{padding:clamp(54px,7vw,86px) 0}
+body:has(.hero-grid) .section-head{margin-bottom:42px}
+body:has(.hero-grid) .card,body:has(.hero-grid) .path-card,body:has(.hero-grid) .tool-card{border-radius:20px;box-shadow:0 8px 28px rgba(13,35,78,.055);transition:transform .22s,box-shadow .22s,border-color .22s}
+body:has(.hero-grid) .card:hover,body:has(.hero-grid) .path-card:hover,body:has(.hero-grid) .tool-card:hover{transform:translateY(-4px);box-shadow:var(--z-shadow-hover);border-color:#cbd8f2}
+body:has(.hero-grid) .ico{border-radius:15px;background:linear-gradient(145deg,#edf3ff,#e0ebff)}
+body:has(.hero-grid) .feature-panel{border-radius:28px;box-shadow:var(--z-shadow)}
+body:has(.hero-grid) .cta{border-radius:26px;padding:clamp(24px,4vw,42px);box-shadow:0 12px 32px rgba(13,35,78,.045)}
+body:has(.hero-grid) footer{padding-top:52px}
+/* Creator workspace */
+body:has(.welcome) .top{min-height:70px;padding-left:max(18px,calc((100vw - 1160px)/2));padding-right:max(18px,calc((100vw - 1160px)/2))}
+body:has(.welcome) .wrap{max-width:1160px;margin:34px auto;padding-bottom:64px}
+body:has(.welcome) .welcome{padding:clamp(25px,4vw,42px);border-radius:26px;position:relative;overflow:hidden}
+body:has(.welcome) .welcome:after{content:"";position:absolute;width:270px;height:270px;border:1px solid #ffffff20;border-radius:50%;right:-70px;top:-130px;box-shadow:0 0 0 32px #ffffff08,0 0 0 68px #ffffff06;pointer-events:none}
+body:has(.welcome) .cards{gap:18px}
+body:has(.welcome) .card{min-height:200px;border-radius:20px;padding:23px}
+body:has(.welcome) .card h3{font-size:16px;line-height:1.35}
+body:has(.welcome) .open{border-radius:11px;padding:10px 13px}
+body:has(.welcome) .group{margin-top:34px}
+body:has(.welcome) .note{border-radius:16px}
+/* Student and admin workspaces */
+body:has(#courses) .wrap,body:has(#courseForm) .wrap{max-width:1160px}
+body:has(#courses) header,body:has(#courseForm) header{box-shadow:0 6px 24px #0b1b3c20}
+body:has(#courses) .card,body:has(#courseForm) .card{border:1px solid var(--z-line);border-radius:18px;box-shadow:0 8px 28px rgba(13,35,78,.055)}
+body:has(#courses) h1,body:has(#courseForm) h1{letter-spacing:-1px}
+body:has(#courses) button,body:has(#courseForm) button{border-radius:11px;min-height:44px}
+body:has(#courseForm) details.admin-panel{border:1px solid var(--z-line);border-radius:17px;background:#fff;overflow:hidden;margin:14px 0;box-shadow:0 6px 22px rgba(13,35,78,.045)}
+body:has(#courseForm) details.admin-panel>summary{padding:17px 19px;font-weight:800;color:var(--z-navy);cursor:pointer;display:flex;justify-content:space-between;gap:12px;align-items:center;list-style:none}
+body:has(#courseForm) details.admin-panel>summary::-webkit-details-marker{display:none}
+body:has(#courseForm) details.admin-panel>summary:after{content:"＋";color:var(--z-blue);font-size:19px}
+body:has(#courseForm) details.admin-panel[open]>summary:after{content:"−"}
+body:has(#courseForm) details.admin-panel>section{border-top:1px solid var(--z-line);padding:20px}
+body:has(#courseForm) label{font-weight:750;color:#34415d}
+body:has(#courseForm) input,body:has(#courseForm) select,body:has(#courseForm) textarea{border-radius:11px;max-width:100%}
+/* AI Studio */
+body:has(#generateCompleteVideo) .wrap{max-width:1160px}
+body:has(#generateCompleteVideo) .intro{padding:clamp(24px,4vw,42px);border-radius:26px;box-shadow:0 20px 48px #102a6530}
+body:has(#generateCompleteVideo) .card{border-radius:20px;padding:clamp(16px,2.4vw,25px);box-shadow:0 9px 28px rgba(16,35,76,.06)}
+body:has(#generateCompleteVideo) .section-number{border-radius:9px;background:#eaf0ff}
+body:has(#generateCompleteVideo) button,body:has(#generateCompleteVideo) .linkbtn{border-radius:12px;min-height:46px}
+body:has(#generateCompleteVideo) .preview,body:has(#generateCompleteVideo) .studio-stage,body:has(#generateCompleteVideo) .queue-panel{border-radius:18px}
+body:has(#generateCompleteVideo) label{font-weight:750;color:#34415d}
+body:has(#generateCompleteVideo) select,body:has(#generateCompleteVideo) input,body:has(#generateCompleteVideo) textarea{border-radius:11px}
+/* Tablet and mobile: spacing, tap targets, readable type, no horizontal overflow */
+@media(max-width:760px){
+  body{overflow-x:hidden}
+  body:has(.hero-grid) .nav{height:auto;min-height:66px}
+  body:has(.hero-grid) .links{top:66px;left:12px;right:12px;width:auto;border:1px solid var(--z-line);border-radius:16px;box-shadow:0 16px 35px #10204418;padding:12px}
+  body:has(.hero-grid) .links a{width:100%;padding:11px 12px}
+  body:has(.hero-grid) .hero{padding:54px 0 48px}
+  body:has(.hero-grid) .hero h1{font-size:clamp(36px,10vw,52px);letter-spacing:-1.7px;line-height:1.08}
+  body:has(.hero-grid) .hero p{font-size:16px}
+  body:has(.hero-grid) .hero-art{min-height:250px;border-radius:23px}
+  body:has(.hero-grid) .section-head{margin-bottom:27px}
+  body:has(.hero-grid) .cards{gap:12px}
+  body:has(.hero-grid) .card{padding:18px}
+  body:has(.hero-grid) .cta{padding:24px;border-radius:20px}
+  body:has(.welcome) .top{padding:10px 13px;min-height:60px;gap:8px}
+  body:has(.welcome) .wrap{margin:16px auto;padding:0 13px 45px}
+  body:has(.welcome) .welcome{padding:23px 20px;border-radius:21px}
+  body:has(.welcome) .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+  body:has(.welcome) .card{padding:16px;min-height:190px}
+  body:has(.welcome) .card p{font-size:12px;line-height:1.55}
+  body:has(#courses) .wrap,body:has(#courseForm) .wrap{padding-left:13px;padding-right:13px}
+  body:has(#courseForm) details.admin-panel>summary{padding:15px;font-size:14px}
+  body:has(#courseForm) details.admin-panel>section{padding:15px}
+  body:has(#courseForm) input,body:has(#courseForm) select,body:has(#courseForm) textarea{font-size:16px;min-height:46px}
+  body:has(#generateCompleteVideo) .wrap{margin:13px auto;padding:0 12px 42px}
+  body:has(#generateCompleteVideo) .intro{padding:23px 19px;border-radius:21px}
+  body:has(#generateCompleteVideo) .intro h1{font-size:clamp(25px,7vw,32px)}
+  body:has(#generateCompleteVideo) .card{padding:15px;margin:12px 0}
+  body:has(#generateCompleteVideo) .row>button,body:has(#generateCompleteVideo) .row>.linkbtn{flex:1 1 calc(50% - 8px)}
+}
+@media(max-width:420px){
+  body:has(.hero-grid) .cards{grid-template-columns:1fr}
+  body:has(.welcome) .cards{grid-template-columns:1fr}
+  body:has(.welcome) .card{min-height:0}
+  body:has(.welcome) .top nav a{font-size:10px;padding:7px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
