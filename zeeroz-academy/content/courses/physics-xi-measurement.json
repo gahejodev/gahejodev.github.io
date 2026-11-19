@@ -1,8 +1,8 @@
 {
   "id": "physics-xi-measurement",
   "title": "Physics XI — Measurement (DCAR 2024)",
-  "description": "Original bilingual Grade XI Physics course for DCAR 2024 Domain B: Measurement. Covers SI base and derived units, dimensional formulae, dimensional homogeneity, dimensional analysis, measurement uncertainty, systematic/random errors and uncertainty propagation, with 20 explained MCQs, 4 CRQs and 3 ERQs.",
-  "version": "1",
+  "description": "Original bilingual Grade XI Physics course for DCAR 2024 Domain B: Measurement. Covers SI base and derived units, dimensional formulae, dimensional homogeneity, dimensional analysis, measurement uncertainty, systematic/random errors and uncertainty propagation, with 22 explained MCQs, 4 CRQs and 3 ERQs.",
+  "version": "2",
   "curriculumAlignment": "DCAR Sindh Physics Curriculum 2024, Grade XI Domain B: Measurement, SLOs P-11-B-01 to P-11-B-08 (printed pages 20–21). This is a domain-based Grade XI package, not a claim about legacy STBB textbook chapter numbering.",
   "sourceReferences": [
     {
