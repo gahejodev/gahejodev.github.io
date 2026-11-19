@@ -153,7 +153,9 @@ body:has(.hero-grid) .cta{border-radius:27px;background:linear-gradient(115deg,#
 body:has(.hero-grid) footer{background:linear-gradient(120deg,#061638,#0c2d68);padding-top:50px}
 /* Shared hero illustration image is embedded as an actual local SVG asset */
 body:has(.hero-grid) .hero-art:before{content:"";position:absolute;inset:10px;background:url("./academy-hero-illustration.svg") center/contain no-repeat;opacity:.20;pointer-events:none}
-body:has(.hero-grid) .hero-art>*:not(.brand-halo){position:relative;z-index:1}
+/* Keep the floating labels absolutely positioned; only layer the logo itself. */
+body:has(.hero-grid) .hero-art .interactive-brand{position:relative;z-index:2;left:auto;right:auto;margin-inline:auto;flex:0 0 auto}
+body:has(.hero-grid) .hero-art .float{position:absolute;z-index:3}
 /* Creator workspace */
 body:has(.welcome) .top{min-height:72px;padding-left:max(18px,calc((100vw - 1180px)/2));padding-right:max(18px,calc((100vw - 1180px)/2));box-shadow:0 8px 28px #071b4920}
 body:has(.welcome) .wrap{max-width:1180px;margin:32px auto;padding-bottom:70px}
@@ -277,8 +279,8 @@ body:has(.hero-grid) .brand-stage .interactive-brand{position:relative;z-index:2
 
 /* Social links: a consistent button size on desktop and mobile */
 body:has(.hero-grid) .social-links{
-  display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));
-  gap:12px;align-items:stretch;
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;align-items:stretch;width:min(100%,420px);margin-left:auto;
 }
 body:has(.hero-grid) .social-links .social-link{
   box-sizing:border-box;width:100%;min-width:0;min-height:50px;
