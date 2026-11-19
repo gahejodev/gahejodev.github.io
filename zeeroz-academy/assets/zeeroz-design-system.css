@@ -108,3 +108,159 @@ body:has(#generateCompleteVideo) select,body:has(#generateCompleteVideo) input,b
 @media(prefers-reduced-motion:reduce){
   *,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+
+/* ZEEROZ 2026 — production visual system: real illustration assets, refined layouts and responsive components */
+:root{--z-ink:#14213d;--z-navy:#071b49;--z-blue:#0757e8;--z-cyan:#20b9c7;--z-gold:#ffd12f;--z-muted:#687792;--z-line:#e3eaf5;--z-paper:#f4f7fd;--z-shadow:0 14px 38px rgba(9,31,78,.08);--z-shadow-lg:0 24px 60px rgba(9,31,78,.15)}
+html{scroll-behavior:smooth;scroll-padding-top:90px}body{color:var(--z-ink);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}button,a,input,select,textarea{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #78a4ff;outline-offset:3px}
+/* Homepage: editorial hero and visual learning cards */
+body:has(.hero-grid){background:#fff}
+body:has(.hero-grid) header{background:#ffffffed;border-bottom:1px solid #e8edf6;box-shadow:0 8px 28px #061b4810}
+body:has(.hero-grid) .nav{height:78px}
+body:has(.hero-grid) .brand{font-size:16px;letter-spacing:.03em}
+body:has(.hero-grid) .brand .mark{width:44px;height:44px;border-radius:15px;background:linear-gradient(145deg,#ffe17a,#f0a900);color:#092252;box-shadow:0 8px 20px #f3bd3845}
+body:has(.hero-grid) .links{gap:18px;font-size:13px}
+body:has(.hero-grid) .links a{padding:9px 0;transition:color .2s}
+body:has(.hero-grid) .links a:last-child{background:#0757e8;color:#fff;padding:10px 15px;border-radius:12px}
+body:has(.hero-grid) .hero{position:relative;background:radial-gradient(circle at 82% 20%,#1768d9 0,transparent 29%),linear-gradient(118deg,#061638 0%,#0a347f 59%,#087e98 100%);padding:clamp(60px,8vw,104px) 0;overflow:hidden}
+body:has(.hero-grid) .hero:after{content:"";position:absolute;width:560px;height:560px;right:-220px;bottom:-370px;border:1px solid #ffffff1c;border-radius:50%;box-shadow:0 0 0 45px #ffffff08,0 0 0 90px #ffffff06;pointer-events:none}
+body:has(.hero-grid) .hero-grid{gap:clamp(25px,5vw,70px);position:relative;z-index:1}
+body:has(.hero-grid) .hero h1{font-size:clamp(42px,6vw,72px);font-weight:900;letter-spacing:-3px;line-height:1.04;max-width:720px}
+body:has(.hero-grid) .hero h1 span{color:#ffd64e}
+body:has(.hero-grid) .hero p{font-size:17px;line-height:1.8;max-width:580px}
+body:has(.hero-grid) .eyebrow{background:#ffffff12;border-color:#ffffff45;letter-spacing:.13em}
+body:has(.hero-grid) .hero-art{min-height:400px;border:1px solid #ffffff35;border-radius:34px;background:linear-gradient(145deg,#ffffff1e,#ffffff08);box-shadow:inset 0 1px 0 #ffffff2e,0 28px 70px #00133355;position:relative}
+body:has(.hero-grid) .brand-halo{width:340px;height:340px}
+body:has(.hero-grid) .interactive-brand{width:min(100%,360px)}
+body:has(.hero-grid) .float{border:1px solid #e9f1ff;background:#fff;color:#102958;box-shadow:0 14px 30px #00133340;padding:11px 15px}
+body:has(.hero-grid) .btn{min-height:50px;padding:13px 19px;border-radius:13px;transition:transform .2s,box-shadow .2s}
+body:has(.hero-grid) .btn.primary{background:linear-gradient(135deg,#ffe17a,#ffc52b);color:#071b49;box-shadow:0 10px 25px #f6c13b35}
+body:has(.hero-grid) .btn.secondary{background:#ffffff12;border:1px solid #ffffff65;color:#fff}
+body:has(.hero-grid) .btn:hover{transform:translateY(-3px);box-shadow:0 14px 28px #00133335}
+body:has(.hero-grid) section{padding:clamp(52px,7vw,88px) 0}
+body:has(.hero-grid) .section-head h2{font-size:clamp(29px,4vw,43px);letter-spacing:-1.5px}
+body:has(.hero-grid) .section-head p{font-size:15px;line-height:1.75}
+body:has(.hero-grid) .path-grid{gap:17px}
+body:has(.hero-grid) .path-card{position:relative;overflow:hidden;border:1px solid #e4eaf5;border-radius:21px;padding:23px;background:linear-gradient(155deg,#fff 40%,#f0f5ff);box-shadow:0 10px 30px #0b2b6510;transition:transform .22s,box-shadow .22s}
+body:has(.hero-grid) .path-card:after{content:"";position:absolute;width:125px;height:125px;right:-46px;top:-45px;border-radius:50%;background:linear-gradient(135deg,#dce9ff,#d5f6f5);opacity:.75}
+body:has(.hero-grid) .path-card .ico{position:relative;z-index:1;width:54px;height:54px;border-radius:17px;background:linear-gradient(145deg,#e5efff,#d7e7ff);font-size:26px;box-shadow:inset 0 1px #fff}
+body:has(.hero-grid) .path-card h3{font-size:18px;letter-spacing:-.3px}
+body:has(.hero-grid) .path-card:hover{transform:translateY(-5px);box-shadow:var(--z-shadow-lg);border-color:#bdcff4}
+body:has(.hero-grid) .card,body:has(.hero-grid) .tool-card{border-radius:21px;box-shadow:0 10px 30px #0b2b650c}
+body:has(.hero-grid) .feature{background:linear-gradient(180deg,#f4f7fd,#fff)}
+body:has(.hero-grid) .feature-panel{border-radius:28px;box-shadow:var(--z-shadow-lg)}
+body:has(.hero-grid) .cta{border-radius:27px;background:linear-gradient(115deg,#eaf1ff,#e4fbf8);padding:clamp(25px,4vw,43px);box-shadow:0 12px 32px #0b2b650b}
+body:has(.hero-grid) footer{background:linear-gradient(120deg,#061638,#0c2d68);padding-top:50px}
+/* Shared hero illustration image is embedded as an actual local SVG asset */
+body:has(.hero-grid) .hero-art:before{content:"";position:absolute;inset:10px;background:url("./academy-hero-illustration.svg") center/contain no-repeat;opacity:.20;pointer-events:none}
+body:has(.hero-grid) .hero-art>*{position:relative;z-index:1}
+/* Creator workspace */
+body:has(.welcome) .top{min-height:72px;padding-left:max(18px,calc((100vw - 1180px)/2));padding-right:max(18px,calc((100vw - 1180px)/2));box-shadow:0 8px 28px #071b4920}
+body:has(.welcome) .wrap{max-width:1180px;margin:32px auto;padding-bottom:70px}
+body:has(.welcome) .welcome{position:relative;overflow:hidden;border-radius:28px;padding:clamp(26px,4vw,46px);background:radial-gradient(circle at 85% 8%,#317eff 0,transparent 34%),linear-gradient(120deg,#061638,#0a3b91 72%,#07829a);box-shadow:0 22px 55px #092d7630}
+body:has(.welcome) .welcome:after{content:"";position:absolute;inset:0 0 0 auto;width:42%;background:url("./academy-hero-illustration.svg") center/contain no-repeat;opacity:.14;pointer-events:none}
+body:has(.welcome) .welcome h1{font-size:clamp(30px,4.4vw,46px);letter-spacing:-1.5px}
+body:has(.welcome) .group{margin-top:34px}
+body:has(.welcome) .group h2{font-size:21px;letter-spacing:-.5px}
+body:has(.welcome) .cards{gap:17px}
+body:has(.welcome) .card{position:relative;overflow:hidden;border:1px solid #e4eaf5;border-radius:22px;padding:23px;min-height:205px;box-shadow:0 12px 32px #0b2b6510;transition:transform .22s,box-shadow .22s}
+body:has(.welcome) .card:after{content:"";position:absolute;width:110px;height:110px;right:-42px;bottom:-48px;border-radius:50%;background:linear-gradient(145deg,#dce9ff,#d6f7f3);opacity:.75}
+body:has(.welcome) .card:hover{transform:translateY(-5px);box-shadow:var(--z-shadow-lg)}
+body:has(.welcome) .card .icon{width:52px;height:52px;border-radius:17px;background:linear-gradient(145deg,#e8f1ff,#d8e7ff);font-size:24px}
+body:has(.welcome) .card h3{font-size:17px;letter-spacing:-.25px}
+body:has(.welcome) .card p{font-size:13px;line-height:1.65}
+body:has(.welcome) .open{position:relative;z-index:1;background:#edf3ff;border:1px solid #dce7ff;border-radius:12px;padding:11px 14px}
+/* Student dashboard */
+body:has(#courses) .top{background:linear-gradient(110deg,#061638,#0a3b91 75%,#087e98);box-shadow:0 8px 25px #071b4920}
+body:has(#courses) .wrap{max-width:1180px;margin:30px auto;padding-bottom:75px}
+body:has(#courses) .welcome{position:relative;overflow:hidden;border-radius:28px;padding:clamp(26px,4vw,44px);background:radial-gradient(circle at 87% 10%,#4b91ff 0,transparent 35%),linear-gradient(120deg,#061638,#0757e8 76%,#07849c);box-shadow:0 22px 52px #0b347a30}
+body:has(#courses) .welcome:after{content:"";position:absolute;inset:0 0 0 auto;width:42%;background:url("./academy-hero-illustration.svg") center/contain no-repeat;opacity:.2;pointer-events:none}
+body:has(#courses) .welcome h1{font-size:clamp(28px,4vw,42px);letter-spacing:-1.3px}
+body:has(#courses) .grid{gap:17px;margin-top:22px}
+body:has(#courses) .card{position:relative;overflow:hidden;border:1px solid #e3eaf5;border-radius:22px;padding:24px;box-shadow:0 12px 32px #0b2b6510;transition:transform .2s,box-shadow .2s}
+body:has(#courses) .card:hover{transform:translateY(-4px);box-shadow:var(--z-shadow-lg)}
+body:has(#courses) .card h2{font-size:18px;letter-spacing:-.35px}
+body:has(#courses) .card .btn{border-radius:12px;background:linear-gradient(120deg,#0757e8,#1746bb);box-shadow:0 7px 18px #0757e825}
+body:has(#courses) .course-item{border-radius:15px;background:linear-gradient(120deg,#f8faff,#eef4ff);border:1px solid #e1e9f7}
+body:has(#courses) .student-mobile-nav{box-shadow:0 14px 35px #092d762c;border:1px solid #dce6f7}
+/* Admin content manager */
+body:has(#courseForm) .top{background:linear-gradient(110deg,#061638,#0a3b91 75%,#087e98);box-shadow:0 8px 25px #071b4920}
+body:has(#courseForm) .wrap{max-width:1180px;margin:28px auto;padding-bottom:70px}
+body:has(#courseForm) .welcome,body:has(#courseForm) .admin-hero{border-radius:25px;background:radial-gradient(circle at 88% 8%,#418aff 0,transparent 35%),linear-gradient(120deg,#061638,#0b4baf 78%,#087e98);box-shadow:0 18px 45px #0b347a25}
+body:has(#courseForm) details.admin-panel{border:1px solid #e2eaf5;border-radius:18px;background:#fff;overflow:hidden;margin:14px 0;box-shadow:0 8px 25px #0b2b650a}
+body:has(#courseForm) details.admin-panel>summary{padding:18px 20px;font-weight:800;color:#0b2456;cursor:pointer;display:flex;justify-content:space-between;gap:12px;align-items:center;list-style:none}
+body:has(#courseForm) details.admin-panel>summary::-webkit-details-marker{display:none}
+body:has(#courseForm) details.admin-panel>summary:after{content:"＋";color:#0757e8;font-size:20px}
+body:has(#courseForm) details.admin-panel[open]>summary:after{content:"−"}
+body:has(#courseForm) details.admin-panel>section{border-top:1px solid #e6edf7;padding:22px}
+body:has(#courseForm) input,body:has(#courseForm) select,body:has(#courseForm) textarea{border:1px solid #d9e3f1;border-radius:12px;background:#fbfcff;max-width:100%}
+body:has(#courseForm) button{border-radius:12px;background:linear-gradient(120deg,#0757e8,#1746bb);box-shadow:0 7px 18px #0757e825}
+/* AI Studio */
+body:has(#generateCompleteVideo) header{background:linear-gradient(110deg,#061638,#0a3b91 75%,#087e98);box-shadow:0 8px 25px #071b4920}
+body:has(#generateCompleteVideo) .wrap{max-width:1180px;margin:25px auto;padding-bottom:70px}
+body:has(#generateCompleteVideo) .intro{position:relative;overflow:hidden;border-radius:28px;padding:clamp(26px,4vw,46px);background:radial-gradient(circle at 88% 8%,#438bff 0,transparent 36%),linear-gradient(120deg,#061638,#0b4baf 75%,#087e98);box-shadow:0 22px 52px #0b347a30}
+body:has(#generateCompleteVideo) .intro:after{content:"";position:absolute;right:0;top:0;width:38%;height:100%;background:url("../zeeroz-academy/assets/academy-hero-illustration.svg") center/contain no-repeat;opacity:.17;pointer-events:none}
+body:has(#generateCompleteVideo) .intro h1{font-size:clamp(28px,4.3vw,44px);letter-spacing:-1.4px;max-width:720px}
+body:has(#generateCompleteVideo) .card{border:1px solid #e3eaf5;border-radius:22px;padding:clamp(17px,2.4vw,26px);box-shadow:0 12px 32px #0b2b650c}
+body:has(#generateCompleteVideo) .section-number{width:31px;height:31px;background:#e8f0ff;color:#0757e8}
+body:has(#generateCompleteVideo) button,body:has(#generateCompleteVideo) .linkbtn{border-radius:12px;min-height:47px}
+body:has(#generateCompleteVideo) label{font-weight:750;color:#34415d}
+body:has(#generateCompleteVideo) select,body:has(#generateCompleteVideo) input,body:has(#generateCompleteVideo) textarea{border:1px solid #d9e3f1;border-radius:12px;background:#fbfcff}
+body:has(#generateCompleteVideo) .preview{border-radius:20px;background:linear-gradient(145deg,#eaf1ff,#f9fbff)}
+/* Shared responsive rules */
+@media(max-width:760px){
+ body{overflow-x:hidden}
+ body:has(.hero-grid) .nav{height:66px}
+ body:has(.hero-grid) .links{top:66px;left:12px;right:12px;width:auto;border:1px solid #e3eaf5;border-radius:0 0 17px 17px;box-shadow:0 18px 35px #071b4920;padding:10px 16px;gap:0}
+ body:has(.hero-grid) .links a{width:100%;padding:12px 5px;border-bottom:1px solid #edf1f7}
+ body:has(.hero-grid) .links a:last-child{border:0}
+ body:has(.hero-grid) .hero{padding:48px 0 42px}
+ body:has(.hero-grid) .hero-grid{grid-template-columns:1fr;gap:25px}
+ body:has(.hero-grid) .hero h1{font-size:clamp(39px,10vw,54px);letter-spacing:-1.8px}
+ body:has(.hero-grid) .hero p{font-size:15px}
+ body:has(.hero-grid) .hero-art{min-height:320px;border-radius:23px;padding:12px}
+ body:has(.hero-grid) .actions{display:grid;grid-template-columns:1fr}
+ body:has(.hero-grid) .actions .btn{width:100%;min-height:50px}
+ body:has(.hero-grid) .section-head{text-align:left;margin-bottom:25px}
+ body:has(.hero-grid) .section-head h2{font-size:29px}
+ body:has(.hero-grid) .path-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ body:has(.hero-grid) .path-card{padding:16px;border-radius:17px}
+ body:has(.hero-grid) .path-card h3{font-size:15px}
+ body:has(.hero-grid) .path-card p{font-size:12px;line-height:1.5}
+ body:has(.hero-grid) section{padding:46px 0}
+ body:has(.hero-grid) .feature-grid{grid-template-columns:1fr;gap:20px}
+ body:has(.hero-grid) .cta{padding:23px;border-radius:20px;align-items:flex-start;flex-direction:column}
+ body:has(.welcome) .top{padding:10px 13px;min-height:62px;gap:8px}
+ body:has(.welcome) .wrap{margin:15px auto;padding:0 13px 88px}
+ body:has(.welcome) .welcome{padding:23px 20px;border-radius:22px}
+ body:has(.welcome) .cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ body:has(.welcome) .card{padding:16px;min-height:180px;border-radius:17px}
+ body:has(.welcome) .card h3{font-size:14px}
+ body:has(.welcome) .card p{font-size:11px}
+ body:has(#courses) .wrap{margin:14px auto;padding:0 13px 95px}
+ body:has(#courses) .welcome{padding:23px 19px;border-radius:21px}
+ body:has(#courses) .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:13px}
+ body:has(#courses) .card{padding:15px;border-radius:17px}
+ body:has(#courses) .card h2{font-size:14px;line-height:1.4}
+ body:has(#courses) .muted,body:has(#courses) .empty{font-size:11px}
+ body:has(#courses) .grid .card:nth-child(3),body:has(#courses) .grid .card:nth-child(4){grid-column:1/-1}
+ body:has(#courseForm) .wrap{padding:0 13px 70px}
+ body:has(#courseForm) details.admin-panel>summary{padding:15px;font-size:14px}
+ body:has(#courseForm) details.admin-panel>section{padding:15px}
+ body:has(#courseForm) input,body:has(#courseForm) select,body:has(#courseForm) textarea{font-size:16px;min-height:46px}
+ body:has(#generateCompleteVideo) .wrap{margin:13px auto;padding:0 12px 45px}
+ body:has(#generateCompleteVideo) .intro{padding:23px 19px;border-radius:21px}
+ body:has(#generateCompleteVideo) .intro h1{font-size:clamp(26px,7vw,34px)}
+ body:has(#generateCompleteVideo) .card{padding:15px;border-radius:17px;margin:12px 0}
+ body:has(#generateCompleteVideo) .grid{grid-template-columns:1fr;gap:6px}
+ body:has(#generateCompleteVideo) .row>button,body:has(#generateCompleteVideo) .row>.linkbtn{flex:1 1 calc(50% - 8px)}
+}
+@media(max-width:420px){
+ body:has(.hero-grid) .path-grid{grid-template-columns:1fr}
+ body:has(.hero-grid) .hero-art{min-height:285px}
+ body:has(.welcome) .cards{grid-template-columns:1fr}
+ body:has(.welcome) .card{min-height:0}
+ body:has(#courses) .grid{grid-template-columns:1fr}
+ body:has(#courses) .grid .card:nth-child(3),body:has(#courses) .grid .card:nth-child(4){grid-column:auto}
+}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
