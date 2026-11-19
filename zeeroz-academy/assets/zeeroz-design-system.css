@@ -277,7 +277,7 @@ body:has(.hero-grid) .brand-stage .interactive-brand{position:relative;z-index:2
 
 /* Social links: a consistent button size on desktop and mobile */
 body:has(.hero-grid) .social-links{
-  display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));
   gap:12px;align-items:stretch;
 }
 body:has(.hero-grid) .social-links .social-link{
