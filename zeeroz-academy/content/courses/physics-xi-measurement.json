@@ -1,0 +1,1064 @@
+{
+  "id": "physics-xi-measurement",
+  "title": "Physics XI — Measurement (DCAR 2024)",
+  "description": "Original bilingual Grade XI Physics course for DCAR 2024 Domain B: Measurement. Covers SI base and derived units, dimensional formulae, dimensional homogeneity, dimensional analysis, measurement uncertainty, systematic/random errors and uncertainty propagation, with 20 explained MCQs, 4 CRQs and 3 ERQs.",
+  "version": "1",
+  "curriculumAlignment": "DCAR Sindh Physics Curriculum 2024, Grade XI Domain B: Measurement, SLOs P-11-B-01 to P-11-B-08 (printed pages 20–21). This is a domain-based Grade XI package, not a claim about legacy STBB textbook chapter numbering.",
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Physics, Grade IX–XII (2024), Government of Sindh / DCAR",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Physics%20Curriculum%2019%20August%202024.pdf",
+      "note": "Domain B: Measurement; Grade XI SLOs P-11-B-01 to P-11-B-08, printed pages 20–21. The current Grade XI column covers SI base/derived units, dimensionality, and errors/uncertainty."
+    },
+    {
+      "title": "STBB eBooks portal",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "note": "Official digital textbook catalogue. A current edition-specific Physics XI textbook chapter crosswalk was not confirmed; DCAR 2024 Grade XI SLOs are the controlling alignment."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Grade XI Domain B: Measurement",
+      "description": "SI base and derived units; dimensional formulae; dimensional homogeneity and dimensional analysis; measurement uncertainty, precision, accuracy, systematic and random errors, zero correction and propagation of uncertainties.",
+      "lessons": [
+        {
+          "title": "XI-B.1 SI base units, derived units and unit conventions",
+          "content": "## Learning outcomes\nBy the end of this lesson, you should be able to:\n- State the seven SI base quantities, their units and symbols (P-11-B-01).\n- Identify derived units and express them using base units (P-11-B-01, P-11-B-02).\n- Apply standard conventions for writing unit symbols (P-11-B-03).\n\n## The seven SI base units\nThe International System of Units (SI) is built on seven base quantities.\n\n| Base quantity | SI unit | Symbol |\n|---|---|---|\n| Length | metre | m |\n| Mass | kilogram | kg |\n| Time | second | s |\n| Electric current | ampere | A |\n| Thermodynamic temperature | kelvin | K |\n| Amount of substance | mole | mol |\n| Luminous intensity | candela | cd |\n\nA base unit is selected independently in the SI system. A derived unit is formed by multiplying or dividing base units according to the definition of the physical quantity.\n\n## Derived-unit examples\n- Velocity: metre per second, m s⁻¹.\n- Acceleration: m s⁻².\n- Force: newton, N = kg m s⁻².\n- Work or energy: joule, J = N m = kg m² s⁻².\n- Power: watt, W = J s⁻¹ = kg m² s⁻³.\n- Pressure: pascal, Pa = N m⁻² = kg m⁻¹ s⁻².\n- Electric charge: coulomb, C = A s.\n\nPlane angle and solid angle use radian (rad) and steradian (sr). The curriculum may refer to these using the older term “supplementary units”; in the current SI they are dimensionless derived units.\n\n## Unit-writing conventions\n1. Leave a space between a number and its unit: 12 m, 4.5 s.\n2. Unit symbols are not plural and do not take a full stop: 5 kg, not 5 kgs.\n3. Symbols are case-sensitive: m means metre; M is not the metre symbol.\n4. Symbols named after people begin with a capital letter (N, J, Pa), while the unit names are written in lower case (newton, joule, pascal).\n5. Prefix symbols attach directly to the unit: 5 mm, 3 μA.\n6. Do not combine prefixes: write 1 nm, not 1 mμm.\n\n## Worked example\nA force of 6 N acts on a body. Since 1 N = 1 kg m s⁻², the force can be written as 6 kg m s⁻².\n\n## Key terms\nSI, base quantity, base unit, derived unit, unit symbol, prefix, radian, steradian.\n\n## Revision check\nWrite the SI base-unit expression for a joule and explain why a newton is a derived unit.",
+          "explanations": {
+            "ur": "SI یعنی International System of Units پیمائش کا معیاری نظام ہے۔ اس کی بنیاد سات بنیادی مقداروں پر ہے: لمبائی—metre (m)، کمیت—kilogram (kg)، وقت—second (s)، برقی رو—ampere (A)، حرارتی درجۂ حرارت—kelvin (K)، مقدارِ مادہ—mole (mol)، اور روشن شدت—candela (cd)۔ بنیادی اکائیاں الگ منتخب کی جاتی ہیں، جبکہ derived units بنیادی اکائیوں کو ضرب یا تقسیم کر کے بنتی ہیں۔ مثال کے طور پر رفتار m s⁻¹، تعجیل m s⁻²، قوت newton (N = kg m s⁻²)، توانائی joule (J = kg m² s⁻²)، طاقت watt (W = kg m² s⁻³)، دباؤ pascal (Pa = kg m⁻¹ s⁻²) اور برقی بار coulomb (C = A s) ہے۔ زاویہ کے لیے radian اور solid angle کے لیے steradian استعمال ہوتے ہیں؛ موجودہ SI میں یہ dimensionless derived units ہیں، اگرچہ پرانی درجہ بندی میں انہیں supplementary units کہا جاتا تھا۔ عدد اور unit symbol کے درمیان جگہ رکھیں، symbols کو plural نہ بنائیں، اور N، J، Pa جیسے symbols میں بڑے حروف کا خیال رکھیں۔ prefixes unit کے ساتھ جڑتے ہیں، مثلاً mm اور μA۔",
+            "sd": "SI يعني International System of Units ماپ جو معياري نظام آهي. ان جا ست بنيادي مقدار ۽ يونٽ آهن: ڊيگهه—metre (m)، ماس—kilogram (kg)، وقت—second (s)، برقي وهڪرو—ampere (A)، حرارتي گرمي پد—kelvin (K)، مادي جي مقدار—mole (mol)، ۽ روشني جي شدت—candela (cd). بنيادي يونٽ الڳ مقرر ڪيا وڃن ٿا، جڏهن ته derived units بنيادي يونٽن جي ضرب يا ورهاست سان ٺهن ٿا. مثال طور رفتار m s⁻¹، acceleration m s⁻²، قوت newton (N = kg m s⁻²)، توانائي joule (J = kg m² s⁻²)، طاقت watt (W = kg m² s⁻³)، دٻاءُ pascal (Pa = kg m⁻¹ s⁻²)، ۽ برقي بار coulomb (C = A s) آهي. زاويه لاءِ radian ۽ solid angle لاءِ steradian استعمال ٿين ٿا؛ موجوده SI ۾ اهي dimensionless derived units آهن، جيتوڻيڪ پراڻي درجي بندي ۾ supplementary units سڏيا ويندا هئا. عدد ۽ unit symbol جي وچ ۾ جاءِ رکو، symbols کي plural نه بڻايو، ۽ N، J، Pa جهڙن symbols ۾ وڏن/ننڍن اکرن جو خيال رکو. prefixes unit سان گڏ لکجن ٿا، جيئن mm ۽ μA."
+          }
+        },
+        {
+          "title": "XI-B.2 Dimensional formulae and derived quantities",
+          "content": "## Learning outcomes\n- Express derived units as products or quotients of SI base units (P-11-B-02).\n- Write dimensional formulae for common mechanical and electrical quantities.\n- Distinguish a unit from the dimensions of a quantity.\n\n## What dimensions mean\nDimensions describe the physical nature of a quantity in terms of base quantities. For mechanics, the most frequently used symbols are:\n- [M] for mass\n- [L] for length\n- [T] for time\n\nOther useful dimensions include [I] for electric current and [Θ] for thermodynamic temperature.\n\nA dimensional formula is written using powers of base dimensions. It is not the same as a unit: velocity has unit m s⁻¹ and dimensions [LT⁻¹].\n\n## Deriving dimensions\nStart from the defining equation and replace each quantity by its dimensions.\n\n| Quantity | Definition | Dimensions |\n|---|---|---|\n| Area | length × length | [L²] |\n| Volume | length³ | [L³] |\n| Velocity | displacement / time | [LT⁻¹] |\n| Acceleration | velocity / time | [LT⁻²] |\n| Momentum | mass × velocity | [MLT⁻¹] |\n| Force | mass × acceleration | [MLT⁻²] |\n| Work / energy | force × distance | [ML²T⁻²] |\n| Power | energy / time | [ML²T⁻³] |\n| Pressure | force / area | [ML⁻¹T⁻²] |\n| Density | mass / volume | [ML⁻³] |\n\nFor electric charge, Q = It, so its dimensions are [IT]. For potential difference, V = energy/charge, giving [ML²T⁻³I⁻¹].\n\n## Worked example: pressure\nPressure p = F/A. Force has dimensions [MLT⁻²] and area has [L²].\nTherefore [p] = [MLT⁻²]/[L²] = [ML⁻¹T⁻²].\n\n## Key terms\nDimension, dimensional formula, base dimension, derived quantity, dimensional exponent.\n\n## Revision check\nDerive the dimensions of density and power from their definitions. Do not confuse the dimensions with the SI units.",
+          "explanations": {
+            "ur": "Dimensions کسی physical quantity کی نوعیت کو بنیادی مقداروں، مثلاً mass، length اور time، کی طاقتوں میں ظاہر کرتی ہیں۔ [M] کمیت، [L] لمبائی اور [T] وقت کو ظاہر کرتے ہیں۔ Dimensional formula اور unit ایک چیز نہیں: velocity کی unit m s⁻¹ ہے جبکہ dimensions [LT⁻¹] ہیں۔ کسی quantity کی تعریف سے شروع کریں اور ہر مقدار کو اس کی dimensions سے بدلیں۔ Area [L²]، volume [L³]، velocity [LT⁻¹]، acceleration [LT⁻²]، momentum [MLT⁻¹]، force [MLT⁻²]، work/energy [ML²T⁻²]، power [ML²T⁻³]، pressure [ML⁻¹T⁻²] اور density [ML⁻³] ہیں۔ برقی رو کی dimension [I] اور temperature کی [Θ] لکھی جاتی ہے۔ Charge کے لیے Q=It، اس لیے [IT]؛ potential difference کے لیے energy/charge، یعنی [ML²T⁻³I⁻¹]۔ مثال: pressure = force/area؛ [MLT⁻²]/[L²] = [ML⁻¹T⁻²]۔",
+            "sd": "Dimensions ڪنهن physical quantity جي فطرت کي بنيادي مقدارَن، جهڙوڪ mass، length ۽ time، جي طاقتن ۾ ظاهر ڪن ٿيون. [M] ماس، [L] ڊيگهه ۽ [T] وقت لاءِ آهن. Dimensional formula ۽ unit ساڳي شيءِ نه آهن: velocity جي unit m s⁻¹ آهي، پر dimensions [LT⁻¹] آهن. Quantity جي تعريف کان شروع ڪريو ۽ هر مقدار کي ان جي dimensions سان بدلايو. Area [L²]، volume [L³]، velocity [LT⁻¹]، acceleration [LT⁻²]، momentum [MLT⁻¹]، force [MLT⁻²]، work/energy [ML²T⁻²]، power [ML²T⁻³]، pressure [ML⁻¹T⁻²] ۽ density [ML⁻³] آهن. برقي وهڪري جي dimension [I] ۽ temperature جي [Θ] آهي. Charge لاءِ Q=It، تنهنڪري [IT]؛ potential difference لاءِ energy/charge يعني [ML²T⁻³I⁻¹] آهي. مثال: pressure = force/area؛ [MLT⁻²]/[L²] = [ML⁻¹T⁻²]."
+          }
+        },
+        {
+          "title": "XI-B.3 Dimensional homogeneity and checking equations",
+          "content": "## Learning outcomes\n- Check the homogeneity of a physical equation using dimensions and base units (P-11-B-04).\n- Explain why every term in a valid sum must have the same dimensions.\n\n## Principle of dimensional homogeneity\nA physically meaningful equation must have the same dimensions on both sides. In addition, quantities that are added or subtracted must have identical dimensions. This is called dimensional homogeneity.\n\n## Worked check 1: equation of motion\nConsider v² = u² + 2as.\n- [v²] = [LT⁻¹]² = [L²T⁻²].\n- [u²] = [L²T⁻²].\n- [as] = [LT⁻²][L] = [L²T⁻²].\nEvery term has dimensions [L²T⁻²], so the equation is dimensionally homogeneous.\n\n## Worked check 2: an invalid expression\nThe expression v = u + at² is not homogeneous:\n- [v] and [u] are [LT⁻¹].\n- [at²] = [LT⁻²][T²] = [L].\nA velocity cannot be added to a length. The equation must be wrong as written.\n\n## What the test can and cannot do\nDimensional analysis can expose inconsistent equations and help find relationships. It cannot prove that an equation is physically correct: an equation may be dimensionally homogeneous yet omit a term or have an incorrect dimensionless numerical constant. It also cannot determine whether a vector direction or sign is correct.\n\n## Key terms\nHomogeneity, dimensionally consistent, equation, term, dimensionless constant.\n\n## Revision check\nCheck s = ut + ½at² dimensionally. Why does the test not establish that the equation is correct in every physical situation?",
+          "explanations": {
+            "ur": "Dimensional homogeneity کا اصول کہتا ہے کہ کسی درست physical equation کے دونوں طرف dimensions ایک جیسی ہونی چاہئیں۔ جمع یا تفریق ہونے والی تمام terms کی dimensions بھی برابر ہونی چاہئیں۔ مثال v² = u² + 2as میں v² اور u² کی dimensions [L²T⁻²] ہیں، جبکہ as = [LT⁻²][L] = [L²T⁻²] ہے؛ اس لیے مساوات dimensionally homogeneous ہے۔ اس کے برعکس v = u + at² میں v اور u کی dimensions [LT⁻¹] ہیں مگر at² کی [L] ہے۔ velocity کو length کے ساتھ جمع نہیں کیا جا سکتا، اس لیے یہ expression غلط ہے۔ Dimensional test غلط dimensions والی equation کو پکڑ سکتا ہے، مگر equation کی مکمل درستگی ثابت نہیں کرتا؛ کوئی dimensionless numerical constant غلط ہو سکتا ہے یا کوئی term غائب ہو سکتی ہے۔ یہ vector کی سمت یا sign بھی نہیں بتاتا۔",
+            "sd": "Dimensional homogeneity جو اصول چوي ٿو ته صحيح physical equation جي ٻنهي پاسن جون dimensions هڪجهڙيون هجن. جمع يا ڪٽجندڙ سڀني terms جون dimensions به برابر هجڻ گهرجن. مثال v² = u² + 2as ۾ v² ۽ u² جون dimensions [L²T⁻²] آهن، جڏهن ته as = [LT⁻²][L] = [L²T⁻²] آهي؛ تنهنڪري equation homogeneous آهي. پر v = u + at² ۾ v ۽ u جون dimensions [LT⁻¹] آهن، جڏهن ته at² جي [L] آهي. velocity کي length سان جمع نٿو ڪري سگهجي، تنهنڪري expression غلط آهي. Dimensional test غلط dimensions واري equation کي سڃاڻي سگهي ٿو، پر equation جي مڪمل درستگي ثابت نٿو ڪري؛ dimensionless numerical constant غلط ٿي سگهي ٿو يا ڪا term رهجي سگهي ٿي. هي vector جي رخ يا sign به نٿو ٻڌائي."
+          }
+        },
+        {
+          "title": "XI-B.4 Deriving simple relationships by dimensional analysis",
+          "content": "## Learning outcomes\n- Use dimensional analysis to derive a simple formula or proportional relationship (P-11-B-05).\n- State the limitations of the method.\n\n## Method\nAssume that a quantity depends on other quantities through powers. Write a proportional expression, substitute dimensions, and compare the powers of each base dimension.\n\n## Worked example: simple pendulum\nFor a small-amplitude simple pendulum, suppose its period T depends on length l and gravitational field strength g:\nT ∝ lᵃgᵇ.\nDimensions are:\n[T] = [L]ᵃ[LT⁻²]ᵇ = [Lᵃ⁺ᵇT⁻²ᵇ].\nCompare powers:\n- Time: 1 = −2b, so b = −½.\n- Length: 0 = a + b, so a = ½.\nTherefore T ∝ √(l/g), or T = C√(l/g), where C is dimensionless. Dimensional analysis alone cannot find C = 2π; that constant comes from the physical derivation or experiment.\n\n## Limitations\n- It cannot determine dimensionless constants such as 2, ½ or 2π.\n- It cannot show whether terms are added or subtracted.\n- It may not determine a unique relation if too many independent variables are involved.\n- It does not replace experiment or a physical model.\n\n## Key terms\nDimensional analysis, proportionality, exponent, dimensionless constant, pendulum period.\n\n## Revision check\nWhy does dimensional analysis give T ∝ √(l/g) but not the complete simple-pendulum equation?",
+          "explanations": {
+            "ur": "Dimensional analysis میں فرض کیا جاتا ہے کہ ایک quantity دوسری quantities کی powers پر منحصر ہے۔ پھر ہر مقدار کو dimensions میں لکھ کر بنیادی dimensions کی powers کا موازنہ کیا جاتا ہے۔ مثال کے طور پر چھوٹے زاویے پر سادہ pendulum کا period T، length l اور gravitational field strength g پر منحصر ہو: T ∝ lᵃgᵇ۔ Dimensions رکھنے سے [T]=[L]ᵃ[LT⁻²]ᵇ=[Lᵃ⁺ᵇT⁻²ᵇ] ملتا ہے۔ وقت کی power سے 1=−2b، لہٰذا b=−½؛ لمبائی سے 0=a+b، لہٰذا a=½۔ اس لیے T ∝ √(l/g) یا T=C√(l/g) ہے، جہاں C dimensionless constant ہے۔ یہ طریقہ C=2π نہیں بتا سکتا؛ اس کے لیے مکمل physical derivation یا experiment چاہیے۔ یہ method جمع/تفریق کے نشان، dimensionless constants اور تمام physical conditions بھی متعین نہیں کرتا۔",
+            "sd": "Dimensional analysis ۾ فرض ڪجي ٿو ته هڪ quantity ٻين quantities جي طاقتن تي دارومدار رکي ٿي. پوءِ هر quantity کي dimensions ۾ لکي بنيادي dimensions جي powers جو مقابلو ڪيو وڃي ٿو. مثال طور ننڍي amplitude واري سادي pendulum جو period T، length l ۽ gravitational field strength g تي دارومدار رکي: T ∝ lᵃgᵇ. Dimensions رکڻ سان [T]=[L]ᵃ[LT⁻²]ᵇ=[Lᵃ⁺ᵇT⁻²ᵇ] ملي ٿو. وقت جي power مان 1=−2b، تنهنڪري b=−½؛ ڊيگهه مان 0=a+b، تنهنڪري a=½. ان ڪري T ∝ √(l/g) يا T=C√(l/g) آهي، جتي C dimensionless constant آهي. هي طريقو C=2π نٿو ٻڌائي؛ ان لاءِ مڪمل physical derivation يا experiment گهرجي. هي طريقو جمع/ڪٽجڻ، dimensionless constants ۽ سڀ physical conditions به نٿو ٻڌائي."
+          }
+        },
+        {
+          "title": "XI-B.5 Measurement uncertainty, precision and accuracy",
+          "content": "## Learning outcomes\n- Explain why a measured value is never perfectly certain (P-11-B-06).\n- Interpret instrument resolution and repeated readings.\n- Distinguish accuracy from precision.\n\n## Why uncertainty exists\nEvery instrument has limited resolution. A ruler cannot reliably show an unlimited number of decimal places; a stopwatch has a finite display interval; a human observer may not align an eye exactly with a scale. Temperature changes, vibration and imperfect calibration also affect readings.\n\nA measurement should be reported with a value, unit and sensible uncertainty, for example:\nL = (12.40 ± 0.05) cm.\nThe ± value describes a reasonable interval associated with the measurement; it is not a guarantee that every possible error has been included.\n\n## Resolution and reading uncertainty\nFor an analogue scale, the smallest marked division is its resolution. In many school-laboratory situations, a single reading is assigned an uncertainty of about half the smallest division, provided the instrument has no larger known limitation. A digital instrument's last displayed digit gives a resolution; the manufacturer's accuracy specification may be larger than one digit.\n\nDo not report more decimal places than the instrument and method justify.\n\n## Repeated readings\nIf repeated readings scatter around a mean, calculate:\nmean = (sum of readings)/(number of readings).\nA simple school-level estimate of random uncertainty is often half the range:\nuncertainty ≈ (maximum − minimum)/2.\nState the method used. Repetition helps reveal random variation but does not remove a systematic offset.\n\n## Accuracy and precision\n- Accuracy: closeness to an accepted or true value.\n- Precision: closeness of repeated readings to one another.\n\nA set of readings can be precise but inaccurate if a balance has a zero offset. A well-calibrated instrument and careful technique improve accuracy.\n\n## Key terms\nUncertainty, resolution, repeatability, accuracy, precision, mean, range.\n\n## Revision check\nA digital balance gives the same reading every time, but a check mass shows that it is 0.20 g high. Are the readings precise, accurate, both or neither?",
+          "explanations": {
+            "ur": "کوئی پیمائش مکمل طور پر یقینی نہیں ہوتی کیونکہ ہر instrument کی resolution محدود ہوتی ہے اور calibration، ماحول، parallax، vibration اور انسانی reaction سے فرق پڑ سکتا ہے۔ پیمائش کو value، unit اور مناسب uncertainty کے ساتھ لکھیں، مثلاً L=(12.40±0.05) cm۔ Analogue scale کی سب سے چھوٹی division اس کی resolution ہے؛ کئی school-lab حالات میں single reading کی uncertainty تقریباً آدھی division لی جاتی ہے، بشرطیکہ کوئی بڑی known limitation نہ ہو۔ Digital instrument کا آخری digit resolution بتاتا ہے، مگر manufacturer کی accuracy اس سے کم بہتر ہو سکتی ہے۔ Repeated readings کا mean نکالیں؛ random uncertainty کا ایک سادہ اندازہ half-range یعنی (maximum−minimum)/2 ہے۔ Repetition random variation کو ظاہر کرتی ہے، مگر systematic offset ختم نہیں کرتی۔ Accuracy accepted value کے قریب ہونے کو اور precision repeated readings کے آپس میں قریب ہونے کو کہتے ہیں۔",
+            "sd": "ڪا به ماپ مڪمل يقيني نه هوندي، ڇو ته هر instrument جي resolution محدود هوندي آهي ۽ calibration، ماحول، parallax، vibration ۽ انساني reaction سبب فرق پئجي سگهي ٿو. ماپ کي value، unit ۽ مناسب uncertainty سان لکو، مثال L=(12.40±0.05) cm. Analogue scale جي سڀ کان ننڍي division ان جي resolution آهي؛ ڪيترن school-lab حالتن ۾ single reading جي uncertainty لڳ ڀڳ اڌ division ورتي وڃي ٿي، جيڪڏهن ڪا وڏي معلوم حد نه هجي. Digital instrument جو آخري digit resolution ڏيکاري ٿو، پر manufacturer جي accuracy ان کان گهٽ بهتر ٿي سگهي ٿي. بار بار readings وٺي mean ڪڍو؛ random uncertainty جو سادو اندازو half-range يعني (maximum−minimum)/2 آهي. Repetition random variation ڏيکاري ٿي، پر systematic offset ختم نٿي ڪري. Accuracy قبوليل value جي ويجهو هجڻ ۽ precision بار بار readings جو پاڻ ۾ ويجهو هجڻ آهي."
+          }
+        },
+        {
+          "title": "XI-B.6 Systematic and random errors; combining uncertainties",
+          "content": "## Learning outcomes\n- Distinguish systematic errors, including zero errors, from random errors (P-11-B-07).\n- Estimate uncertainty in a derived quantity by adding absolute, fractional or percentage uncertainties (P-11-B-08).\n\n## Systematic errors\nA systematic error shifts readings in a consistent direction or by a consistent amount. Examples include:\n- A ruler whose zero mark is damaged or displaced.\n- A balance that reads +0.20 g when empty.\n- A thermometer with incorrect calibration.\n\nA zero error is a systematic error present when the instrument should read zero. If a micrometer has a positive zero error of +0.03 mm, subtract 0.03 mm from the observed reading. If the zero error is negative, the correction has the opposite sign. Check the instrument before taking readings.\n\n## Random errors\nRandom errors vary unpredictably between readings. They may arise from reaction time, fluctuating conditions, vibration or difficulty judging a scale. Take repeated readings, use the mean, and improve the procedure to reduce their effect.\n\n## Combining uncertainties\nFor a sum or difference, add absolute uncertainties as a simple conservative estimate:\nIf x = (8.0 ± 0.1) cm and y = (3.0 ± 0.2) cm, then x + y = (11.0 ± 0.3) cm.\n\nFor a product or quotient, add fractional or percentage uncertainties:\nIf A = LW, and L has 2% uncertainty while W has 3%, the percentage uncertainty in A is approximately 5%.\n\nFor a power, multiply the percentage uncertainty by the absolute value of the power. If A = r² and r has 1.5% uncertainty, A has approximately 3% uncertainty.\n\n## Worked example\nL = (5.00 ± 0.02) cm and W = (2.00 ± 0.01) cm.\nA = LW = 10.00 cm².\nPercentage uncertainty in L = 0.02/5.00 × 100 = 0.4%.\nPercentage uncertainty in W = 0.01/2.00 × 100 = 0.5%.\nPercentage uncertainty in A ≈ 0.9%, so absolute uncertainty ≈ 0.009 × 10.00 = 0.09 cm².\nReport A ≈ (10.00 ± 0.09) cm², with rounding appropriate to the method.\n\n## Key terms\nSystematic error, random error, zero error, correction, absolute uncertainty, fractional uncertainty, percentage uncertainty.\n\n## Revision check\nWhy can taking 20 readings reduce random uncertainty but fail to correct a balance that is always 0.20 g high?",
+          "explanations": {
+            "ur": "Systematic error ہر reading کو ایک ہی سمت یا مستقل مقدار سے بدل دیتا ہے، مثلاً خالی balance کا +0.20 g دکھانا یا micrometer کا zero error۔ اگر zero error +0.03 mm ہو تو observed reading سے 0.03 mm منفی کریں؛ negative zero error کی correction مخالف نشان کے ساتھ ہوتی ہے۔ Random errors ہر reading میں غیر متوقع طور پر بدلتے ہیں، مثلاً reaction time یا vibration؛ repeated readings کا mean ان کا اثر کم کر سکتا ہے۔ جمع یا تفریق میں absolute uncertainties کو سادہ conservative اندازے کے طور پر جمع کریں۔ ضرب یا تقسیم میں fractional یا percentage uncertainties جمع کریں۔ مثال: L=5.00±0.02 cm اور W=2.00±0.01 cm ہوں تو A=10.00 cm²؛ L کی percentage uncertainty 0.4% اور W کی 0.5% ہے، لہٰذا area کی تقریباً 0.9% یعنی 0.09 cm² uncertainty ہے۔ اگر quantity کسی power پر ہو تو percentage uncertainty کو اس power کی absolute value سے ضرب دیں۔",
+            "sd": "Systematic error هر reading کي ساڳئي رخ يا مقرر مقدار سان بدلائي ٿو، مثال طور خالي balance جو +0.20 g ڏيکارڻ يا micrometer جو zero error. جيڪڏهن zero error +0.03 mm هجي ته observed reading مان 0.03 mm گهٽايو؛ negative zero error جي correction ابتڙ sign سان ٿيندي. Random errors هر reading ۾ اڻپوري نموني بدلجن ٿا، مثال reaction time يا vibration؛ بار بار readings جو mean انهن جو اثر گهٽائي سگهي ٿو. جمع يا ڪٽ ۾ absolute uncertainties کي سادي conservative اندازي طور جمع ڪريو. ضرب يا ورهاست ۾ fractional يا percentage uncertainties جمع ڪريو. مثال: L=5.00±0.02 cm ۽ W=2.00±0.01 cm هجن ته A=10.00 cm²؛ L جي percentage uncertainty 0.4% ۽ W جي 0.5% آهي، تنهنڪري area جي لڳ ڀڳ 0.9% يعني 0.09 cm² uncertainty آهي. جيڪڏهن quantity ڪنهن power تي هجي ته percentage uncertainty کي ان power جي absolute value سان ضرب ڏيو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which SI base unit is used for thermodynamic temperature?",
+          "options": {
+            "A": "kelvin (K)",
+            "B": "degree Celsius (°C)",
+            "C": "joule (J)",
+            "D": "watt (W)"
+          },
+          "correctOption": "A",
+          "explanation": "The SI base unit for thermodynamic temperature is the kelvin, symbol K.",
+          "translations": {
+            "ur": {
+              "question": "حرارتی درجۂ حرارت کی SI بنیادی اکائی کون سی ہے؟",
+              "options": {
+                "A": "kelvin (K)",
+                "B": "degree Celsius (°C)",
+                "C": "joule (J)",
+                "D": "watt (W)"
+              },
+              "explanation": "حرارتی درجۂ حرارت کی SI بنیادی اکائی kelvin ہے، جس کا symbol K ہے۔"
+            },
+            "sd": {
+              "question": "حرارتي گرمي پد لاءِ SI بنيادي يونٽ ڪهڙو آهي؟",
+              "options": {
+                "A": "kelvin (K)",
+                "B": "degree Celsius (°C)",
+                "C": "joule (J)",
+                "D": "watt (W)"
+              },
+              "explanation": "حرارتي گرمي پد جو SI بنيادي يونٽ kelvin آهي، جنهن جو symbol K آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Which symbol represents the SI base unit for amount of substance?",
+          "options": {
+            "A": "mol",
+            "B": "cd",
+            "C": "A",
+            "D": "K"
+          },
+          "correctOption": "A",
+          "explanation": "The mole, symbol mol, is the SI base unit for amount of substance.",
+          "translations": {
+            "ur": {
+              "question": "مقدارِ مادہ کی SI بنیادی اکائی کا symbol کیا ہے؟",
+              "options": {
+                "A": "mol",
+                "B": "cd",
+                "C": "A",
+                "D": "K"
+              },
+              "explanation": "mole کا symbol mol ہے اور یہ مقدارِ مادہ کی بنیادی اکائی ہے۔"
+            },
+            "sd": {
+              "question": "مادي جي مقدار جي SI بنيادي يونٽ جو symbol ڪهڙو آهي؟",
+              "options": {
+                "A": "mol",
+                "B": "cd",
+                "C": "A",
+                "D": "K"
+              },
+              "explanation": "mole جو symbol mol آهي ۽ اهو مادي جي مقدار جو بنيادي يونٽ آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The SI base-unit expression for one newton is:",
+          "options": {
+            "A": "kg m s⁻²",
+            "B": "kg m² s⁻²",
+            "C": "kg m⁻¹ s⁻²",
+            "D": "kg m s⁻¹"
+          },
+          "correctOption": "A",
+          "explanation": "N = kg m s⁻² because force equals mass multiplied by acceleration.",
+          "translations": {
+            "ur": {
+              "question": "هڪ newton کی بنیادی SI اکائیوں میں درست صورت کون سی ہے؟",
+              "options": {
+                "A": "kg m s⁻²",
+                "B": "kg m² s⁻²",
+                "C": "kg m⁻¹ s⁻²",
+                "D": "kg m s⁻¹"
+              },
+              "explanation": "قوت = کمیت × تعجیل، اس لیے N = kg m s⁻² ہے۔"
+            },
+            "sd": {
+              "question": "هڪ newton جي بنيادي SI يونٽن ۾ صحيح صورت ڪهڙي آهي؟",
+              "options": {
+                "A": "kg m s⁻²",
+                "B": "kg m² s⁻²",
+                "C": "kg m⁻¹ s⁻²",
+                "D": "kg m s⁻¹"
+              },
+              "explanation": "قوت = ماس × acceleration، تنهنڪري N = kg m s⁻² آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Which base-unit expression is equivalent to the pascal?",
+          "options": {
+            "A": "kg m⁻¹ s⁻²",
+            "B": "kg m s⁻²",
+            "C": "kg m² s⁻³",
+            "D": "kg m⁻³"
+          },
+          "correctOption": "A",
+          "explanation": "Pressure = force/area = (kg m s⁻²)/m² = kg m⁻¹ s⁻².",
+          "translations": {
+            "ur": {
+              "question": "pascal کی بنیادی اکائیوں میں درست صورت کیا ہے؟",
+              "options": {
+                "A": "kg m⁻¹ s⁻²",
+                "B": "kg m s⁻²",
+                "C": "kg m² s⁻³",
+                "D": "kg m⁻³"
+              },
+              "explanation": "دباؤ = قوت/رقبہ = kg m⁻¹ s⁻² ہے۔"
+            },
+            "sd": {
+              "question": "pascal جي بنيادي يونٽن ۾ صحيح صورت ڪهڙي آهي؟",
+              "options": {
+                "A": "kg m⁻¹ s⁻²",
+                "B": "kg m s⁻²",
+                "C": "kg m² s⁻³",
+                "D": "kg m⁻³"
+              },
+              "explanation": "دٻاءُ = قوت/ايراضي = kg m⁻¹ s⁻² آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Which prefix symbol means one millionth?",
+          "options": {
+            "A": "μ",
+            "B": "m",
+            "C": "k",
+            "D": "M"
+          },
+          "correctOption": "A",
+          "explanation": "The prefix micro, μ, means 10⁻⁶; milli is 10⁻³.",
+          "translations": {
+            "ur": {
+              "question": "کون سا prefix ایک ملینواں حصہ یعنی 10⁻⁶ ظاہر کرتا ہے؟",
+              "options": {
+                "A": "μ",
+                "B": "m",
+                "C": "k",
+                "D": "M"
+              },
+              "explanation": "micro کا symbol μ ہے اور اس کی قدر 10⁻⁶ ہے؛ milli کی قدر 10⁻³ ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو prefix هڪ ملينون حصو يعني 10⁻⁶ ڏيکاري ٿو؟",
+              "options": {
+                "A": "μ",
+                "B": "m",
+                "C": "k",
+                "D": "M"
+              },
+              "explanation": "micro جو symbol μ آهي ۽ ان جي قيمت 10⁻⁶ آهي؛ milli جي قيمت 10⁻³ آهي۔"
+            }
+          }
+        },
+        {
+          "question": "What is the dimensional formula of power?",
+          "options": {
+            "A": "[ML²T⁻³]",
+            "B": "[MLT⁻²]",
+            "C": "[ML²T⁻²]",
+            "D": "[ML⁻¹T⁻²]"
+          },
+          "correctOption": "A",
+          "explanation": "Power = energy/time, so [ML²T⁻²]/[T] = [ML²T⁻³].",
+          "translations": {
+            "ur": {
+              "question": "طاقت (power) کی dimensional formula کیا ہے؟",
+              "options": {
+                "A": "[ML²T⁻³]",
+                "B": "[MLT⁻²]",
+                "C": "[ML²T⁻²]",
+                "D": "[ML⁻¹T⁻²]"
+              },
+              "explanation": "Power = energy/time، اس لیے [ML²T⁻²]/[T] = [ML²T⁻³] ہے۔"
+            },
+            "sd": {
+              "question": "طاقت (power) جي dimensional formula ڪهڙي آهي؟",
+              "options": {
+                "A": "[ML²T⁻³]",
+                "B": "[MLT⁻²]",
+                "C": "[ML²T⁻²]",
+                "D": "[ML⁻¹T⁻²]"
+              },
+              "explanation": "Power = energy/time، تنهنڪري [ML²T⁻²]/[T] = [ML²T⁻³] آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The dimensions of density are:",
+          "options": {
+            "A": "[ML⁻³]",
+            "B": "[ML³]",
+            "C": "[M⁻¹L³]",
+            "D": "[ML⁻²T⁻¹]"
+          },
+          "correctOption": "A",
+          "explanation": "Density = mass/volume = [M]/[L³] = [ML⁻³].",
+          "translations": {
+            "ur": {
+              "question": "کثافت کی dimensions کیا ہیں؟",
+              "options": {
+                "A": "[ML⁻³]",
+                "B": "[ML³]",
+                "C": "[M⁻¹L³]",
+                "D": "[ML⁻²T⁻¹]"
+              },
+              "explanation": "کثافت = کمیت/حجم = [M]/[L³] = [ML⁻³] ہے۔"
+            },
+            "sd": {
+              "question": "کثافت جون dimensions ڪهڙيون آهن؟",
+              "options": {
+                "A": "[ML⁻³]",
+                "B": "[ML³]",
+                "C": "[M⁻¹L³]",
+                "D": "[ML⁻²T⁻¹]"
+              },
+              "explanation": "کثافت = ماس/حجم = [M]/[L³] = [ML⁻³] آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Which equation is dimensionally homogeneous?",
+          "options": {
+            "A": "v² = u² + 2as",
+            "B": "v = u + at²",
+            "C": "s = u + at",
+            "D": "F = mv"
+          },
+          "correctOption": "A",
+          "explanation": "Every term in v² = u² + 2as has dimensions [L²T⁻²]. The other expressions add or equate unlike dimensions.",
+          "translations": {
+            "ur": {
+              "question": "کون سی مساوات dimensional homogeneity کے اصول پر پوری اترتی ہے؟",
+              "options": {
+                "A": "v² = u² + 2as",
+                "B": "v = u + at²",
+                "C": "s = u + at",
+                "D": "F = mv"
+              },
+              "explanation": "v²، u² اور as سب کی dimensions [L²T⁻²] ہیں؛ باقی expressions میں مختلف dimensions جمع یا برابر کی گئی ہیں۔"
+            },
+            "sd": {
+              "question": "ڪهڙي مساوات dimensional homogeneity جي اصول تي پوري لهي ٿي؟",
+              "options": {
+                "A": "v² = u² + 2as",
+                "B": "v = u + at²",
+                "C": "s = u + at",
+                "D": "F = mv"
+              },
+              "explanation": "v²، u² ۽ as سڀني جون dimensions [L²T⁻²] آهن؛ ٻين expressions ۾ مختلف dimensions گڏ ڪيون ويون آهن۔"
+            }
+          }
+        },
+        {
+          "question": "Dimensional analysis cannot determine:",
+          "options": {
+            "A": "a pure numerical constant such as 2π",
+            "B": "whether two sides have equal dimensions",
+            "C": "the powers of length and time in a simple relation",
+            "D": "the dimensions of force from F = ma"
+          },
+          "correctOption": "A",
+          "explanation": "Dimensionless numerical constants such as 2π cannot be found by dimensional analysis alone.",
+          "translations": {
+            "ur": {
+              "question": "Dimensional analysis کس چیز کی قدر معلوم نہیں کر سکتی؟",
+              "options": {
+                "A": "2π جیسا خالص عددی مستقل",
+                "B": "دونوں طرف dimensions برابر ہیں یا نہیں",
+                "C": "سادہ تعلق میں length اور time کی powers",
+                "D": "F = ma سے قوت کی dimensions"
+              },
+              "explanation": "Dimensional analysis اکیلے 2π جیسے dimensionless عددی مستقل معلوم نہیں کر سکتی۔"
+            },
+            "sd": {
+              "question": "Dimensional analysis اڪيلي ڪهڙي شيءِ معلوم نٿي ڪري سگهي؟",
+              "options": {
+                "A": "2π جهڙو خالص عددي مستقل",
+                "B": "ٻنهي پاسن جون dimensions برابر آهن يا نه",
+                "C": "سادي تعلق ۾ length ۽ time جون powers",
+                "D": "F = ma مان قوت جون dimensions"
+              },
+              "explanation": "Dimensional analysis اڪيلي 2π جهڙا dimensionless عددي مستقل نٿي ڳڻي سگهي۔"
+            }
+          }
+        },
+        {
+          "question": "The dimensional formula of energy is:",
+          "options": {
+            "A": "[ML²T⁻²]",
+            "B": "[ML²T⁻³]",
+            "C": "[MLT⁻²]",
+            "D": "[ML⁻¹T⁻²]"
+          },
+          "correctOption": "A",
+          "explanation": "Energy = work = force × distance = [MLT⁻²][L] = [ML²T⁻²].",
+          "translations": {
+            "ur": {
+              "question": "توانائی کی dimensional formula کیا ہے؟",
+              "options": {
+                "A": "[ML²T⁻²]",
+                "B": "[ML²T⁻³]",
+                "C": "[MLT⁻²]",
+                "D": "[ML⁻¹T⁻²]"
+              },
+              "explanation": "توانائی = کام = قوت × فاصلہ = [MLT⁻²][L] = [ML²T⁻²] ہے۔"
+            },
+            "sd": {
+              "question": "توانائي جي dimensional formula ڪهڙي آهي؟",
+              "options": {
+                "A": "[ML²T⁻²]",
+                "B": "[ML²T⁻³]",
+                "C": "[MLT⁻²]",
+                "D": "[ML⁻¹T⁻²]"
+              },
+              "explanation": "توانائي = ڪم = قوت × فاصلو = [MLT⁻²][L] = [ML²T⁻²] آهي۔"
+            }
+          }
+        },
+        {
+          "question": "A zero error in a measuring instrument is normally classified as:",
+          "options": {
+            "A": "a systematic error",
+            "B": "a random error",
+            "C": "a rounding error only",
+            "D": "a unit conversion"
+          },
+          "correctOption": "A",
+          "explanation": "A zero offset shifts readings consistently, so it is a systematic error.",
+          "translations": {
+            "ur": {
+              "question": "پیمائشی آلے میں zero error عام طور پر کس قسم کی غلطی ہے؟",
+              "options": {
+                "A": "systematic error",
+                "B": "random error",
+                "C": "صرف rounding error",
+                "D": "unit conversion"
+              },
+              "explanation": "Zero offset تمام readings کو مسلسل ایک ہی انداز میں بدلتا ہے، اس لیے یہ systematic error ہے۔"
+            },
+            "sd": {
+              "question": "ماپ واري اوزار ۾ zero error عام طور تي ڪهڙي قسم جي غلطي آهي؟",
+              "options": {
+                "A": "systematic error",
+                "B": "random error",
+                "C": "رڳو rounding error",
+                "D": "unit conversion"
+              },
+              "explanation": "Zero offset سڀني readings کي هڪجهڙي نموني بدلائي ٿو، تنهنڪري اهو systematic error آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Which situation is most likely to produce random error?",
+          "options": {
+            "A": "small unpredictable changes in stopwatch reaction time",
+            "B": "a balance that always reads 0.2 g high",
+            "C": "a ruler with a damaged zero mark",
+            "D": "a thermometer calibrated 2 °C too high"
+          },
+          "correctOption": "A",
+          "explanation": "Reaction time varies from trial to trial, producing random scatter. The other examples are systematic offsets.",
+          "translations": {
+            "ur": {
+              "question": "ڪون سی صورت random error پیدا کرنے کا زیادہ امکان رکھتی ہے؟",
+              "options": {
+                "A": "stopwatch دبانے کے reaction time میں غیر متوقع فرق",
+                "B": "balance کا ہمیشہ 0.2 g زیادہ دکھانا",
+                "C": "ruler کا zero نشان خراب ہونا",
+                "D": "thermometer کا 2 °C زیادہ calibrated ہونا"
+              },
+              "explanation": "Reaction time ہر کوشش میں بدل سکتا ہے؛ باقی مثالیں مستقل systematic offset ہیں۔"
+            },
+            "sd": {
+              "question": "ڪهڙي حالت random error پيدا ڪرڻ جو وڌيڪ امڪان رکي ٿي؟",
+              "options": {
+                "A": "stopwatch جي reaction time ۾ اڻپورو فرق",
+                "B": "balance جو هميشه 0.2 g وڌيڪ ڏيکارڻ",
+                "C": "ruler جو zero نشان خراب هجڻ",
+                "D": "thermometer جو 2 °C وڌيڪ calibrated هجڻ"
+              },
+              "explanation": "Reaction time هر ڪوشش ۾ بدلجي سگهي ٿو؛ باقي مثالون مستقل systematic offset آهن۔"
+            }
+          }
+        },
+        {
+          "question": "Precision describes:",
+          "options": {
+            "A": "how close repeated readings are to one another",
+            "B": "how close a reading is to the accepted value",
+            "C": "the size of the measured object",
+            "D": "the unit chosen for a quantity"
+          },
+          "correctOption": "A",
+          "explanation": "Precision concerns repeatability or closeness among repeated readings; accuracy concerns closeness to an accepted value.",
+          "translations": {
+            "ur": {
+              "question": "Precision کس بات کو ظاہر کرتی ہے؟",
+              "options": {
+                "A": "بار بار readings کا آپس میں کتنا قریب ہونا",
+                "B": "reading کا accepted value کے کتنا قریب ہونا",
+                "C": "ناپی جانے والی چیز کا حجم",
+                "D": "quantity کے لیے منتخب unit"
+              },
+              "explanation": "Precision بار بار readings کے باہمی قرب کو ظاہر کرتی ہے؛ accepted value سے قرب accuracy ہے۔"
+            },
+            "sd": {
+              "question": "Precision ڪهڙي ڳالهه ڏيکاري ٿي؟",
+              "options": {
+                "A": "بار بار readings جو پاڻ ۾ ڪيترو ويجهو هجڻ",
+                "B": "reading جو قبوليل value جي ڪيترو ويجهو هجڻ",
+                "C": "ماپجندڙ شيءِ جو حجم",
+                "D": "quantity لاءِ چونڊيل unit"
+              },
+              "explanation": "Precision بار بار readings جي پاڻ ۾ ويجهڙائي ڏيکاري ٿي؛ قبوليل value کان ويجهڙائي accuracy آهي۔"
+            }
+          }
+        },
+        {
+          "question": "A set of readings is very close together but all are 0.5 cm above the accepted value. The set is:",
+          "options": {
+            "A": "precise but inaccurate",
+            "B": "accurate but imprecise",
+            "C": "both accurate and precise",
+            "D": "neither precise nor accurate"
+          },
+          "correctOption": "A",
+          "explanation": "The readings agree with one another (high precision) but are offset from the accepted value (low accuracy).",
+          "translations": {
+            "ur": {
+              "question": "اگر readings آپس میں بہت قریب ہوں مگر accepted value سے 0.5 cm زیادہ ہوں تو وہ کیسی ہیں؟",
+              "options": {
+                "A": "precise مگر inaccurate",
+                "B": "accurate مگر imprecise",
+                "C": "accurate اور precise دونوں",
+                "D": "نہ accurate نہ precise"
+              },
+              "explanation": "Readings ایک دوسرے کے قریب ہیں، اس لیے precise ہیں؛ مگر accepted value سے ہٹی ہوئی ہیں، اس لیے inaccurate ہیں۔"
+            },
+            "sd": {
+              "question": "جيڪڏهن readings پاڻ ۾ ويجهيون هجن پر accepted value کان 0.5 cm وڌيڪ هجن ته اهي ڪيئن آهن؟",
+              "options": {
+                "A": "precise پر inaccurate",
+                "B": "accurate پر imprecise",
+                "C": "ٻئي accurate ۽ precise",
+                "D": "نه accurate نه precise"
+              },
+              "explanation": "Readings پاڻ ۾ ويجهيون آهن، تنهنڪري precise آهن؛ پر accepted value کان پري آهن، تنهنڪري inaccurate آهن۔"
+            }
+          }
+        },
+        {
+          "question": "A length is measured as (8.0 ± 0.1) cm and another as (2.0 ± 0.2) cm. The conservative uncertainty in their sum is:",
+          "options": {
+            "A": "±0.3 cm",
+            "B": "±0.1 cm",
+            "C": "±0.2 cm",
+            "D": "±0.02 cm"
+          },
+          "correctOption": "A",
+          "explanation": "For a sum, add absolute uncertainties: 0.1 + 0.2 = 0.3 cm.",
+          "translations": {
+            "ur": {
+              "question": "(8.0 ± 0.1) cm اور (2.0 ± 0.2) cm کے مجموعے میں absolute uncertainty کیا ہو گی؟",
+              "options": {
+                "A": "±0.3 cm",
+                "B": "±0.1 cm",
+                "C": "±0.2 cm",
+                "D": "±0.02 cm"
+              },
+              "explanation": "جمع میں absolute uncertainties جمع ہوتی ہیں: 0.1 + 0.2 = 0.3 cm۔"
+            },
+            "sd": {
+              "question": "(8.0 ± 0.1) cm ۽ (2.0 ± 0.2) cm جي مجموعي ۾ absolute uncertainty ڪيتري ٿيندي؟",
+              "options": {
+                "A": "±0.3 cm",
+                "B": "±0.1 cm",
+                "C": "±0.2 cm",
+                "D": "±0.02 cm"
+              },
+              "explanation": "جمع ۾ absolute uncertainties گڏ ٿينديون آهن: 0.1 + 0.2 = 0.3 cm۔"
+            }
+          }
+        },
+        {
+          "question": "For A = LW, if L has 2% uncertainty and W has 3% uncertainty, the approximate percentage uncertainty in A is:",
+          "options": {
+            "A": "5%",
+            "B": "1%",
+            "C": "6%",
+            "D": "0.5%"
+          },
+          "correctOption": "A",
+          "explanation": "For a product, percentage uncertainties add: 2% + 3% = 5%.",
+          "translations": {
+            "ur": {
+              "question": "اگر A = LW میں L کی uncertainty 2% اور W کی 3% ہو تو A کی تقریباً percentage uncertainty کیا ہے؟",
+              "options": {
+                "A": "5%",
+                "B": "1%",
+                "C": "6%",
+                "D": "0.5%"
+              },
+              "explanation": "ضرب میں percentage uncertainties جمع ہوتی ہیں: 2% + 3% = 5%۔"
+            },
+            "sd": {
+              "question": "A = LW ۾ L جي uncertainty 2% ۽ W جي 3% هجي ته A جي لڳ ڀڳ percentage uncertainty ڪيتري آهي؟",
+              "options": {
+                "A": "5%",
+                "B": "1%",
+                "C": "6%",
+                "D": "0.5%"
+              },
+              "explanation": "ضرب ۾ percentage uncertainties گڏ ٿينديون آهن: 2% + 3% = 5%۔"
+            }
+          }
+        },
+        {
+          "question": "If x has a 1.5% uncertainty, the approximate percentage uncertainty in y = x² is:",
+          "options": {
+            "A": "3.0%",
+            "B": "1.5%",
+            "C": "0.75%",
+            "D": "4.5%"
+          },
+          "correctOption": "A",
+          "explanation": "For a power y = x², multiply the percentage uncertainty by 2: 2 × 1.5% = 3.0%.",
+          "translations": {
+            "ur": {
+              "question": "اگر x کی percentage uncertainty 1.5% ہو تو y = x² میں تقریباً کتنی ہو گی؟",
+              "options": {
+                "A": "3.0%",
+                "B": "1.5%",
+                "C": "0.75%",
+                "D": "4.5%"
+              },
+              "explanation": "کسی quantity کے مربع میں percentage uncertainty دو گنا ہوتی ہے: 2 × 1.5% = 3.0%۔"
+            },
+            "sd": {
+              "question": "جيڪڏهن x جي percentage uncertainty 1.5% هجي ته y = x² ۾ لڳ ڀڳ ڪيتري ٿيندي؟",
+              "options": {
+                "A": "3.0%",
+                "B": "1.5%",
+                "C": "0.75%",
+                "D": "4.5%"
+              },
+              "explanation": "ڪنهن quantity جي square ۾ percentage uncertainty ٻيڻي ٿيندي: 2 × 1.5% = 3.0%۔"
+            }
+          }
+        },
+        {
+          "question": "A micrometer has a positive zero error of +0.03 mm. If its observed reading is 1.26 mm, the corrected reading is:",
+          "options": {
+            "A": "1.23 mm",
+            "B": "1.29 mm",
+            "C": "1.26 mm",
+            "D": "1.20 mm"
+          },
+          "correctOption": "A",
+          "explanation": "Subtract a positive zero error: 1.26 − 0.03 = 1.23 mm.",
+          "translations": {
+            "ur": {
+              "question": "micrometer کا positive zero error +0.03 mm ہے اور observed reading 1.26 mm ہے۔ درست reading کیا ہو گی؟",
+              "options": {
+                "A": "1.23 mm",
+                "B": "1.29 mm",
+                "C": "1.26 mm",
+                "D": "1.20 mm"
+              },
+              "explanation": "مثبت zero error کو منفی کریں: 1.26 − 0.03 = 1.23 mm۔"
+            },
+            "sd": {
+              "question": "micrometer جو positive zero error +0.03 mm آهي ۽ observed reading 1.26 mm آهي. درست reading ڪهڙي ٿيندي؟",
+              "options": {
+                "A": "1.23 mm",
+                "B": "1.29 mm",
+                "C": "1.26 mm",
+                "D": "1.20 mm"
+              },
+              "explanation": "مثبت zero error گهٽايو: 1.26 − 0.03 = 1.23 mm۔"
+            }
+          }
+        },
+        {
+          "question": "How many significant figures are present in 0.00450?",
+          "options": {
+            "A": "3",
+            "B": "2",
+            "C": "4",
+            "D": "5"
+          },
+          "correctOption": "A",
+          "explanation": "Leading zeros are not significant; the digits 4, 5 and the final zero are significant.",
+          "translations": {
+            "ur": {
+              "question": "0.00450 میں کتنے significant figures ہیں؟",
+              "options": {
+                "A": "3",
+                "B": "2",
+                "C": "4",
+                "D": "5"
+              },
+              "explanation": "شروع کے zeros significant نہیں؛ 4، 5 اور آخری zero significant ہیں، اس لیے تین ہیں۔"
+            },
+            "sd": {
+              "question": "0.00450 ۾ ڪيترا significant figures آهن؟",
+              "options": {
+                "A": "3",
+                "B": "2",
+                "C": "4",
+                "D": "5"
+              },
+              "explanation": "شروع وارا zeros significant نه آهن؛ 4، 5 ۽ آخري zero significant آهن، تنهنڪري ٽي آهن۔"
+            }
+          }
+        },
+        {
+          "question": "The dimensions of the universal gravitational constant G, from F = Gm₁m₂/r², are:",
+          "options": {
+            "A": "[M⁻¹L³T⁻²]",
+            "B": "[ML³T⁻²]",
+            "C": "[M⁻¹L²T⁻¹]",
+            "D": "[ML⁻1T⁻²]"
+          },
+          "correctOption": "A",
+          "explanation": "Rearranging gives G = Fr²/(m₁m₂), so [G] = [MLT⁻²][L²]/[M²] = [M⁻¹L³T⁻²].",
+          "translations": {
+            "ur": {
+              "question": "F = Gm₁m₂/r² سے universal gravitational constant G کی dimensions کیا نکلتی ہیں؟",
+              "options": {
+                "A": "[M⁻¹L³T⁻²]",
+                "B": "[ML³T⁻²]",
+                "C": "[M⁻¹L²T⁻¹]",
+                "D": "[ML⁻1T⁻²]"
+              },
+              "explanation": "G = Fr²/(m₁m₂)، اس لیے [G] = [MLT⁻²][L²]/[M²] = [M⁻¹L³T⁻²]۔"
+            },
+            "sd": {
+              "question": "F = Gm₁m₂/r² مان universal gravitational constant G جون dimensions ڪهڙيون ٿينديون؟",
+              "options": {
+                "A": "[M⁻¹L³T⁻²]",
+                "B": "[ML³T⁻²]",
+                "C": "[M⁻¹L²T⁻¹]",
+                "D": "[ML⁻1T⁻²]"
+              },
+              "explanation": "G = Fr²/(m₁m₂)، تنهنڪري [G] = [MLT⁻²][L²]/[M²] = [M⁻¹L³T⁻²] آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The SI symbol for the unit of force is written:",
+          "options": {
+            "A": "N",
+            "B": "n",
+            "C": "Newton",
+            "D": "kg"
+          },
+          "correctOption": "A",
+          "explanation": "The unit is named newton, but its SI symbol is the capital letter N.",
+          "translations": {
+            "ur": {
+              "question": "قوت کی اکائی کا SI symbol کس طرح لکھا جاتا ہے؟",
+              "options": {
+                "A": "N",
+                "B": "n",
+                "C": "Newton",
+                "D": "kg"
+              },
+              "explanation": "اکائی کا نام newton ہے مگر SI symbol بڑا حرف N ہے۔"
+            },
+            "sd": {
+              "question": "قوت جي يونٽ جو SI symbol ڪيئن لکبو آهي؟",
+              "options": {
+                "A": "N",
+                "B": "n",
+                "C": "Newton",
+                "D": "kg"
+              },
+              "explanation": "يونٽ جو نالو newton آهي، پر SI symbol وڏو اکر N آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Which statement about a dimensional equation is correct?",
+          "options": {
+            "A": "Terms added together must have the same dimensions",
+            "B": "A dimensionally correct equation is always physically correct",
+            "C": "A dimensionless constant must equal one",
+            "D": "Units can be added even when their dimensions differ"
+          },
+          "correctOption": "A",
+          "explanation": "Dimensional homogeneity requires all terms in a sum to have the same dimensions; it is necessary but not sufficient for physical correctness.",
+          "translations": {
+            "ur": {
+              "question": "Dimensional equation کے بارے میں کون سا بیان درست ہے؟",
+              "options": {
+                "A": "جمع کی جانے والی terms کی dimensions ایک جیسی ہوں",
+                "B": "dimensionally درست equation ہمیشہ physical طور پر درست ہوتی ہے",
+                "C": "dimensionless constant لازماً ایک ہوتا ہے",
+                "D": "مختلف dimensions کی units کو جمع کیا جا سکتا ہے"
+              },
+              "explanation": "Dimensional homogeneity میں جمع ہونے والی terms کی dimensions برابر ہوتی ہیں؛ یہ ضروری شرط ہے مگر مکمل ثبوت نہیں۔"
+            },
+            "sd": {
+              "question": "Dimensional equation بابت ڪهڙو بيان صحيح آهي؟",
+              "options": {
+                "A": "گڏ ٿيندڙ terms جون dimensions هڪجهڙيون هجن",
+                "B": "dimensionally صحيح equation هميشه physical طور صحيح هوندي",
+                "C": "dimensionless constant لازمي هڪ هوندو",
+                "D": "مختلف dimensions وارا units گڏ ڪري سگهجن ٿا"
+              },
+              "explanation": "Dimensional homogeneity ۾ گڏ ٿيندڙ terms جون dimensions برابر ٿين ٿيون؛ اها ضروري شرط آهي پر مڪمل ثبوت نه آهي۔"
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Derive the SI base-unit expressions for (a) force and (b) work. Explain why both are derived units.",
+          "modelAnswer": "Force F = ma. Its unit is kg × m s⁻² = kg m s⁻², called the newton (N). Work W = Fs, so its unit is N m = kg m² s⁻², called the joule (J). Neither is an independent base unit; each is formed from SI base units.",
+          "rubric": [
+            "Uses F = ma and substitutes SI base units (1)",
+            "Obtains N = kg m s⁻² (1)",
+            "Uses work = force × distance (1)",
+            "Obtains J = kg m² s⁻² and identifies derived-unit status (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "(الف) قوت اور (ب) کام کی SI بنیادی اکائیوں میں صورت اخذ کریں۔ وضاحت کریں کہ دونوں derived units کیوں ہیں۔",
+              "modelAnswer": "قوت F=ma ہے۔ اس کی unit kg × m s⁻² = kg m s⁻² ہے، جسے newton (N) کہتے ہیں۔ کام W=Fs ہے، اس لیے unit N m = kg m² s⁻² ہے، جسے joule (J) کہتے ہیں۔ دونوں بنیادی units سے بنتے ہیں، الگ بنیادی units نہیں ہیں۔",
+              "rubric": [
+                "F=ma اور SI base units استعمال کرے (1)",
+                "N=kg m s⁻² حاصل کرے (1)",
+                "کام = قوت × فاصلہ استعمال کرے (1)",
+                "J=kg m² s⁻² اور derived-unit حیثیت بتائے (1)"
+              ]
+            },
+            "sd": {
+              "question": "(الف) قوت ۽ (ب) ڪم جي SI بنيادي يونٽن واري صورت ڪڍو. وضاحت ڪريو ته ٻئي derived units ڇو آهن.",
+              "modelAnswer": "قوت F=ma آهي. ان جي unit kg × m s⁻² = kg m s⁻² آهي، جنهن کي newton (N) چوندا آهن. ڪم W=Fs آهي، تنهنڪري unit N m = kg m² s⁻² آهي، جنهن کي joule (J) چوندا آهن. ٻئي بنيادي يونٽن مان ٺهن ٿا، الڳ بنيادي يونٽ نه آهن.",
+              "rubric": [
+                "F=ma ۽ SI base units استعمال ڪري (1)",
+                "N=kg m s⁻² حاصل ڪري (1)",
+                "ڪم = قوت × فاصلو استعمال ڪري (1)",
+                "J=kg m² s⁻² ۽ derived-unit حيثيت ٻڌائي (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "Check the dimensional homogeneity of s = ut + ½at². Show the dimensions of every term and state one limitation of the dimensional test.",
+          "modelAnswer": "[s] = [L]. [ut] = [LT⁻¹][T] = [L]. [at²] = [LT⁻²][T²] = [L]; ½ is dimensionless. All terms have dimension [L], so the equation is homogeneous. The test cannot determine the numerical coefficient ½ or prove that the equation applies under every physical condition.",
+          "rubric": [
+            "Correct dimension of displacement (1)",
+            "Correct dimension of ut (1)",
+            "Correct dimension of at² and notes ½ dimensionless (1)",
+            "Concludes homogeneous and states a limitation (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "s = ut + ½at² کی dimensional homogeneity جانچیں۔ ہر term کی dimensions دکھائیں اور dimensional test کی ایک حد بتائیں۔",
+              "modelAnswer": "[s]=[L]۔ [ut]=[LT⁻¹][T]=[L]۔ [at²]=[LT⁻²][T²]=[L]؛ ½ dimensionless ہے۔ تمام terms کی dimension [L] ہے، اس لیے equation homogeneous ہے۔ یہ test عددی coefficient ½ معلوم نہیں کر سکتا اور نہ ثابت کرتا ہے کہ equation ہر physical حالت میں لاگو ہے۔",
+              "rubric": [
+                "displacement کی درست dimension (1)",
+                "ut کی درست dimension (1)",
+                "at² کی درست dimension اور ½ کو dimensionless بتائے (1)",
+                "homogeneous نتیجہ اور ایک limitation بتائے (1)"
+              ]
+            },
+            "sd": {
+              "question": "s = ut + ½at² جي dimensional homogeneity چيڪ ڪريو. هر term جون dimensions ڏيکاريو ۽ dimensional test جي هڪ حد ٻڌايو.",
+              "modelAnswer": "[s]=[L]. [ut]=[LT⁻¹][T]=[L]. [at²]=[LT⁻²][T²]=[L]؛ ½ dimensionless آهي. سڀني terms جي dimension [L] آهي، تنهنڪري equation homogeneous آهي. هي test عددي coefficient ½ نٿو ٻڌائي ۽ نه ثابت ڪري ٿو ته equation هر physical حالت ۾ لاڳو آهي.",
+              "rubric": [
+                "displacement جي صحيح dimension (1)",
+                "ut جي صحيح dimension (1)",
+                "at² جي صحيح dimension ۽ ½ کي dimensionless ٻڌائي (1)",
+                "homogeneous نتيجو ۽ هڪ limitation ٻڌائي (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "A balance reads +0.20 g when empty. A sample then reads 15.64 g. Identify the error type, correct the mass, and explain why taking more readings alone will not remove this error.",
+          "modelAnswer": "The empty-balance reading is a positive zero error, which is systematic. Corrected mass = 15.64 − 0.20 = 15.44 g. Repeated readings may reduce random scatter, but the same zero offset remains until the balance is zeroed or calibrated.",
+          "rubric": [
+            "Identifies positive zero error (1)",
+            "Classifies it as systematic (1)",
+            "Applies correction and obtains 15.44 g (1)",
+            "Explains repetition does not remove a fixed offset (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "خالی balance +0.20 g دکھاتا ہے۔ sample کی reading 15.64 g ہے۔ error کی قسم بتائیں، درست mass نکالیں اور وضاحت کریں کہ صرف مزید readings لینے سے یہ error کیوں ختم نہیں ہو گا۔",
+              "modelAnswer": "خالی balance کی reading مثبت zero error ہے، جو systematic error ہے۔ درست mass = 15.64 − 0.20 = 15.44 g۔ بار بار readings random فرق کم کر سکتی ہیں، مگر مستقل zero offset اس وقت تک باقی رہے گا جب تک balance کو zero یا calibrate نہ کیا جائے۔",
+              "rubric": [
+                "positive zero error شناخت کرے (1)",
+                "systematic error قرار دے (1)",
+                "درست correction سے 15.44 g حاصل کرے (1)",
+                "بتائے کہ repetition مستقل offset ختم نہیں کرتی (1)"
+              ]
+            },
+            "sd": {
+              "question": "خالي balance +0.20 g ڏيکاري ٿو. sample جي reading 15.64 g آهي. error جو قسم ٻڌايو، صحيح mass ڳڻيو ۽ وضاحت ڪريو ته رڳو وڌيڪ readings وٺڻ سان اها غلطي ڇو ختم نه ٿيندي.",
+              "modelAnswer": "خالي balance جي reading مثبت zero error آهي، جيڪا systematic error آهي. صحيح mass = 15.64 − 0.20 = 15.44 g. بار بار readings random فرق گهٽائي سگهن ٿيون، پر مستقل zero offset تيسين رهندو جيستائين balance کي zero يا calibrate نه ڪيو وڃي.",
+              "rubric": [
+                "positive zero error سڃاڻي (1)",
+                "systematic error چوي (1)",
+                "صحيح correction سان 15.44 g حاصل ڪري (1)",
+                "ٻڌائي ته repetition مستقل offset ختم نٿي ڪري (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A rectangular plate has L = (5.00 ± 0.02) cm and W = (2.00 ± 0.01) cm. Calculate its area and estimate the absolute uncertainty using percentage-uncertainty addition.",
+          "modelAnswer": "A = LW = 5.00 × 2.00 = 10.00 cm². Percentage uncertainty in L = (0.02/5.00)×100 = 0.4%. In W = (0.01/2.00)×100 = 0.5%. For a product, percentage uncertainties add: 0.9%. Absolute uncertainty = 0.009 × 10.00 = 0.09 cm². Therefore A ≈ (10.00 ± 0.09) cm².",
+          "rubric": [
+            "Calculates area as 10.00 cm² (1)",
+            "Calculates length percentage uncertainty 0.4% (1)",
+            "Calculates width percentage uncertainty 0.5% (1)",
+            "Adds to 0.9% (1)",
+            "Converts to ±0.09 cm² and reports result (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ایک مستطیل پلیٹ کی L=(5.00±0.02) cm اور W=(2.00±0.01) cm ہیں۔ area نکالیں اور percentage-uncertainty addition سے absolute uncertainty معلوم کریں۔",
+              "modelAnswer": "A=LW=5.00×2.00=10.00 cm²۔ L کی percentage uncertainty (0.02/5.00)×100=0.4% ہے۔ W کی (0.01/2.00)×100=0.5% ہے۔ ضرب میں یہ جمع ہو کر 0.9% بنتی ہیں۔ Absolute uncertainty=0.009×10.00=0.09 cm²۔ نتیجہ A≈(10.00±0.09) cm² ہے۔",
+              "rubric": [
+                "area 10.00 cm² نکالے (1)",
+                "L کی 0.4% uncertainty (1)",
+                "W کی 0.5% uncertainty (1)",
+                "0.9% جمع کرے (1)",
+                "±0.09 cm² اور درست نتیجہ لکھے (1)"
+              ]
+            },
+            "sd": {
+              "question": "هڪ مستطيل پليٽ جي L=(5.00±0.02) cm ۽ W=(2.00±0.01) cm آهن. area ڳڻيو ۽ percentage-uncertainty addition سان absolute uncertainty معلوم ڪريو.",
+              "modelAnswer": "A=LW=5.00×2.00=10.00 cm². L جي percentage uncertainty (0.02/5.00)×100=0.4% آهي. W جي (0.01/2.00)×100=0.5% آهي. ضرب ۾ اهي گڏجي 0.9% ٿين ٿيون. Absolute uncertainty=0.009×10.00=0.09 cm². نتيجو A≈(10.00±0.09) cm² آهي.",
+              "rubric": [
+                "area 10.00 cm² ڳڻي (1)",
+                "L جي 0.4% uncertainty (1)",
+                "W جي 0.5% uncertainty (1)",
+                "0.9% گڏ ڪري (1)",
+                "±0.09 cm² ۽ صحيح نتيجو لکي (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 6,
+          "question": "Use dimensional analysis to derive the proportional relationship between the period T of a small-angle simple pendulum, its length l and gravitational field strength g. State the limitations of the result.",
+          "modelAnswer": "Assume T ∝ lᵃgᵇ. Dimensions: [T] = [L]ᵃ[LT⁻²]ᵇ = [Lᵃ⁺ᵇT⁻²ᵇ]. Comparing time powers gives 1 = −2b, so b = −1/2. Comparing length powers gives 0 = a + b, so a = 1/2. Thus T ∝ l¹ᐟ²g⁻¹ᐟ² = √(l/g), and T = C√(l/g) where C is dimensionless. The full ideal small-angle result is T = 2π√(l/g), but dimensional analysis cannot find 2π. It also cannot establish the small-angle assumption or account for damping and large amplitudes.",
+          "rubric": [
+            "Assumes T ∝ lᵃgᵇ (1)",
+            "Substitutes correct dimensions (1)",
+            "Obtains b = −½ from time powers (1)",
+            "Obtains a = ½ from length powers (1)",
+            "States T ∝ √(l/g) (1)",
+            "Explains dimensionless constant/physical limitations (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "Dimensional analysis سے چھوٹے زاویے والے simple pendulum کے period T، length l اور gravitational field strength g کے درمیان proportional relationship اخذ کریں۔ نتیجے کی حدود بھی لکھیں۔",
+              "modelAnswer": "فرض کریں T∝lᵃgᵇ۔ Dimensions: [T]=[L]ᵃ[LT⁻²]ᵇ=[Lᵃ⁺ᵇT⁻²ᵇ]۔ وقت کی powers سے 1=−2b، اس لیے b=−1/2۔ لمبائی کی powers سے 0=a+b، اس لیے a=1/2۔ لہٰذا T∝l¹ᐟ²g⁻¹ᐟ²=√(l/g)، یعنی T=C√(l/g) جہاں C dimensionless ہے۔ مکمل ideal small-angle نتیجہ T=2π√(l/g) ہے، مگر dimensional analysis 2π نہیں بتا سکتی۔ یہ چھوٹے زاویے کی شرط، damping اور بڑے amplitudes کو بھی ثابت یا شامل نہیں کرتی۔",
+              "rubric": [
+                "T∝lᵃgᵇ فرض کرے (1)",
+                "درست dimensions رکھے (1)",
+                "وقت کی powers سے b=−½ حاصل کرے (1)",
+                "لمبائی کی powers سے a=½ حاصل کرے (1)",
+                "T∝√(l/g) لکھے (1)",
+                "dimensionless constant اور physical حدود واضح کرے (1)"
+              ]
+            },
+            "sd": {
+              "question": "Dimensional analysis سان ننڍي زاويه واري simple pendulum جي period T، length l ۽ gravitational field strength g جي وچ ۾ proportional relationship ڪڍو. نتيجي جون حدون به لکو.",
+              "modelAnswer": "فرض ڪريو T∝lᵃgᵇ. Dimensions: [T]=[L]ᵃ[LT⁻²]ᵇ=[Lᵃ⁺ᵇT⁻²ᵇ]. وقت جي powers مان 1=−2b، تنهنڪري b=−1/2. ڊيگهه جي powers مان 0=a+b، تنهنڪري a=1/2. ان ڪري T∝l¹ᐟ²g⁻¹ᐟ²=√(l/g)، يعني T=C√(l/g) جتي C dimensionless آهي. مڪمل ideal small-angle نتيجو T=2π√(l/g) آهي، پر dimensional analysis 2π نٿي ٻڌائي. اها ننڍي زاويه واري شرط، damping ۽ وڏي amplitude کي به ثابت يا شامل نٿي ڪري.",
+              "rubric": [
+                "T∝lᵃgᵇ فرض ڪري (1)",
+                "صحيح dimensions رکي (1)",
+                "وقت جي powers مان b=−½ ڪڍي (1)",
+                "ڊيگهه جي powers مان a=½ ڪڍي (1)",
+                "T∝√(l/g) لکي (1)",
+                "dimensionless constant ۽ physical حدون بيان ڪري (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 6,
+          "question": "Describe a reliable method for measuring the diameter of a thin metal wire with a micrometer screw gauge. Include zero-error correction, repeated readings, uncertainty and precautions.",
+          "modelAnswer": "First inspect the micrometer and close the spindle gently using the ratchet; record any zero error. If the zero error is +e, corrected diameter = observed reading − e; for a negative zero error, apply the opposite correction. Place the wire between anvil and spindle, tighten with the ratchet (not excessive force), and read the sleeve and thimble scales. Repeat at several positions along the wire and rotate the wire to check for non-circularity. Apply zero correction to each reading, calculate the mean, and estimate random uncertainty, for example half the range. Report mean diameter with unit and uncertainty. Keep the instrument clean, avoid parallax, use consistent ratchet pressure, and ensure the wire is not compressed.",
+          "rubric": [
+            "Checks instrument and identifies zero error (1)",
+            "Correctly explains positive/negative zero correction (1)",
+            "Describes positioning and ratchet reading (1)",
+            "Takes repeated readings at different positions/orientations (1)",
+            "Uses mean and a stated uncertainty estimate (1)",
+            "Gives sensible precautions and reporting with unit (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "micrometer screw gauge سے باریک دھاتی تار کا قطر ناپنے کا قابلِ اعتماد طریقہ بیان کریں۔ zero-error correction، repeated readings، uncertainty اور احتیاطیں شامل کریں۔",
+              "modelAnswer": "پہلے micrometer دیکھیں اور ratchet سے spindle نرمی سے بند کر کے zero error نوٹ کریں۔ اگر zero error +e ہو تو corrected diameter = observed reading − e؛ negative zero error میں مخالف correction لگائیں۔ تار کو anvil اور spindle کے درمیان رکھیں، ratchet سے مناسب دباؤ دیں، sleeve اور thimble scales پڑھیں۔ تار کی مختلف جگہوں اور مختلف رخ پر readings دہرائیں تاکہ non-circularity معلوم ہو۔ ہر reading پر zero correction لگائیں، mean نکالیں اور random uncertainty مثلاً half-range سے اندازہ کریں۔ mean diameter کو unit اور uncertainty کے ساتھ لکھیں۔ آلہ صاف رکھیں، parallax سے بچیں، ratchet کا دباؤ یکساں رکھیں اور تار کو دبنے نہ دیں۔",
+              "rubric": [
+                "instrument چیک اور zero error شناخت کرے (1)",
+                "positive/negative zero correction درست بتائے (1)",
+                "تار رکھنے اور ratchet reading کا طریقہ (1)",
+                "مختلف جگہوں/رخ سے repeated readings (1)",
+                "mean اور uncertainty estimate استعمال کرے (1)",
+                "احتیاطیں اور unit کے ساتھ reporting (1)"
+              ]
+            },
+            "sd": {
+              "question": "micrometer screw gauge سان سنهي ڌاتوءَ جي تار جو قطر ماپڻ جو ڀروسي جوڳو طريقو بيان ڪريو. zero-error correction، repeated readings، uncertainty ۽ احتياطون شامل ڪريو.",
+              "modelAnswer": "پهريان micrometer چيڪ ڪريو ۽ ratchet سان spindle آهستي بند ڪري zero error نوٽ ڪريو. جيڪڏهن zero error +e هجي ته corrected diameter = observed reading − e؛ negative zero error لاءِ ابتڙ correction لڳايو. تار کي anvil ۽ spindle جي وچ ۾ رکو، ratchet سان مناسب دٻاءُ ڏيو، sleeve ۽ thimble scales پڙهو. تار جي مختلف هنڌن ۽ رخن تي readings ورجايو ته non-circularity معلوم ٿئي. هر reading تي zero correction لڳايو، mean ڪڍو ۽ random uncertainty جو اندازو، مثال half-range، لڳايو. mean diameter کي unit ۽ uncertainty سان لکو. اوزار صاف رکو، parallax کان بچو، ratchet جو دٻاءُ هڪجهڙو رکو ۽ تار کي دٻجڻ نه ڏيو.",
+              "rubric": [
+                "instrument چيڪ ۽ zero error سڃاڻي (1)",
+                "positive/negative zero correction صحيح ٻڌائي (1)",
+                "تار رکڻ ۽ ratchet reading جو طريقو (1)",
+                "مختلف هنڌن/رخن تان repeated readings (1)",
+                "mean ۽ uncertainty estimate استعمال ڪري (1)",
+                "احتياطون ۽ unit سان reporting (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 6,
+          "question": "A student measures the period of a pendulum ten times and obtains slightly different values. Explain how the student should process the data, distinguish random and systematic effects, and report a defensible result.",
+          "modelAnswer": "Calculate the arithmetic mean of the ten periods. Record the range (maximum minus minimum) and, if using the school-level half-range method, quote half the range as an estimate of random uncertainty; state that method. Repeat enough cycles per timing trial and divide total time by the number of cycles to reduce reaction-time influence. Random variation causes scatter and is reduced by repeated trials and averaging. A systematic effect, such as a stopwatch with a calibration offset or consistently starting/stopping late, shifts readings in one direction and is not removed by averaging; check calibration and improve timing method. Report T = (mean ± estimated uncertainty) s, with sensible significant figures, and describe the method and conditions (length, amplitude and number of cycles).",
+          "rubric": [
+            "Calculates/recommends arithmetic mean (1)",
+            "Uses range/half-range or justified uncertainty method (1)",
+            "Explains repeated cycles reduce reaction-time influence (1)",
+            "Distinguishes random scatter from systematic shift (1)",
+            "Suggests suitable checks/corrections for systematic effects (1)",
+            "Reports value, uncertainty, unit and method (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ایک طالب علم pendulum کا period دس بار ناپتا ہے اور readings تھوڑی مختلف آتی ہیں۔ وضاحت کریں کہ data کیسے process کرے، random اور systematic effects میں فرق کیسے کرے اور قابلِ دفاع نتیجہ کیسے لکھے۔",
+              "modelAnswer": "دس periods کا arithmetic mean نکالیں۔ maximum اور minimum کا فرق یعنی range نوٹ کریں؛ school-level half-range method استعمال ہو تو half-range کو random uncertainty کا اندازہ لکھیں اور طریقہ واضح کریں۔ ہر trial میں کئی oscillations کا total time لیں اور cycles کی تعداد سے تقسیم کریں تاکہ reaction-time کا اثر کم ہو۔ Random variation readings میں پھیلاؤ پیدا کرتی ہے اور repeated trials/mean سے کم ہوتی ہے۔ Systematic اثر، مثلاً stopwatch کی calibration یا ہمیشہ دیر سے start/stop کرنا، readings کو ایک سمت میں بدلتا ہے اور averaging سے ختم نہیں ہوتا؛ calibration چیک کریں اور طریقہ بہتر بنائیں۔ نتیجہ T=(mean±estimated uncertainty) s میں مناسب significant figures، length، amplitude اور cycles کی تعداد کے ساتھ لکھیں۔",
+              "rubric": [
+                "arithmetic mean نکالے/تجویز کرے (1)",
+                "range/half-range یا مناسب uncertainty method (1)",
+                "کئی cycles سے reaction-time اثر کم ہونا (1)",
+                "random scatter اور systematic shift میں فرق (1)",
+                "systematic اثر کی جانچ/correction تجویز کرے (1)",
+                "value، uncertainty، unit اور method رپورٹ کرے (1)"
+              ]
+            },
+            "sd": {
+              "question": "هڪ شاگرد pendulum جو period ڏهه ڀيرا ماپي ٿو ۽ readings ٿوريون مختلف اچن ٿيون. وضاحت ڪريو ته data ڪيئن process ڪري، random ۽ systematic effects ۾ فرق ڪيئن ڪري ۽ ڀروسي جوڳو نتيجو ڪيئن لکي.",
+              "modelAnswer": "ڏهن periods جو arithmetic mean ڪڍو. maximum ۽ minimum جو فرق يعني range نوٽ ڪريو؛ school-level half-range method استعمال ٿئي ته half-range کي random uncertainty جو اندازو لکو ۽ طريقو واضح ڪريو. هر trial ۾ ڪيترين oscillations جو total time وٺو ۽ cycles جي تعداد سان ورهايو ته reaction-time جو اثر گهٽجي. Random variation readings ۾ پکڙاءُ پيدا ڪري ٿي ۽ repeated trials/mean سان گهٽجي ٿي. Systematic اثر، مثال stopwatch جي calibration يا هميشه دير سان start/stop ڪرڻ، readings کي هڪ رخ ۾ بدلائي ٿو ۽ averaging سان ختم نٿو ٿئي؛ calibration چيڪ ڪريو ۽ طريقو بهتر ڪريو. نتيجو T=(mean±estimated uncertainty) s ۾ مناسب significant figures، length، amplitude ۽ cycles جي تعداد سان لکو.",
+              "rubric": [
+                "arithmetic mean ڪڍي/تجويز ڪري (1)",
+                "range/half-range يا مناسب uncertainty method (1)",
+                "گهڻن cycles سان reaction-time اثر گهٽجڻ (1)",
+                "random scatter ۽ systematic shift ۾ فرق (1)",
+                "systematic اثر جي جاچ/correction تجويز ڪري (1)",
+                "value، uncertainty، unit ۽ method رپورٽ ڪري (1)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
