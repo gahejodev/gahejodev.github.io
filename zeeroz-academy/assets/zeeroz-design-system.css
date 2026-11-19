@@ -153,7 +153,7 @@ body:has(.hero-grid) .cta{border-radius:27px;background:linear-gradient(115deg,#
 body:has(.hero-grid) footer{background:linear-gradient(120deg,#061638,#0c2d68);padding-top:50px}
 /* Shared hero illustration image is embedded as an actual local SVG asset */
 body:has(.hero-grid) .hero-art:before{content:"";position:absolute;inset:10px;background:url("./academy-hero-illustration.svg") center/contain no-repeat;opacity:.20;pointer-events:none}
-body:has(.hero-grid) .hero-art>*{position:relative;z-index:1}
+body:has(.hero-grid) .hero-art>*:not(.brand-halo){position:relative;z-index:1}
 /* Creator workspace */
 body:has(.welcome) .top{min-height:72px;padding-left:max(18px,calc((100vw - 1180px)/2));padding-right:max(18px,calc((100vw - 1180px)/2));box-shadow:0 8px 28px #071b4920}
 body:has(.welcome) .wrap{max-width:1180px;margin:32px auto;padding-bottom:70px}
@@ -264,3 +264,34 @@ body:has(#generateCompleteVideo) .preview{border-radius:20px;background:linear-g
  body:has(#courses) .grid .card:nth-child(3),body:has(#courses) .grid .card:nth-child(4){grid-column:auto}
 }
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+
+/* Targeted repair: keep the interactive Zeeroz logo animation intact */
+body:has(.hero-grid) .hero-art>*:not(.brand-halo){position:relative;z-index:1}
+body:has(.hero-grid) .brand-stage:before{display:none}
+body:has(.hero-grid) .brand-stage .brand-halo{
+  position:absolute;left:50%;top:50%;margin:-170px 0 0 -170px;
+  width:340px;height:340px;z-index:0;pointer-events:none;
+}
+body:has(.hero-grid) .brand-stage .interactive-brand{position:relative;z-index:2;flex:0 0 auto}
+
+/* Social links: a consistent button size on desktop and mobile */
+body:has(.hero-grid) .social-links{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));
+  gap:12px;align-items:stretch;
+}
+body:has(.hero-grid) .social-links .social-link{
+  box-sizing:border-box;width:100%;min-width:0;min-height:50px;
+  display:flex;align-items:center;justify-content:center;
+  gap:9px;padding:12px 14px;text-align:center;line-height:1.25;
+  border-radius:13px;font-size:13px;
+}
+body:has(.hero-grid) .social-links .social-link svg{
+  width:20px;height:20px;min-width:20px;flex:0 0 20px;
+}
+body:has(.hero-grid) .foot-social{gap:10px}
+body:has(.hero-grid) .foot-social a{
+  box-sizing:border-box;width:44px;height:44px;min-width:44px;min-height:44px;
+  flex:0 0 44px;padding:0;display:grid;place-items:center;
+}
+body:has(.hero-grid) .foot-social svg{width:20px;height:20px}
