@@ -269,7 +269,9 @@ body:has(#generateCompleteVideo) .preview{border-radius:20px;background:linear-g
 
 
 /* Targeted repair: keep the interactive Zeeroz logo animation intact */
-body:has(.hero-grid) .hero-art>*:not(.brand-halo){position:relative;z-index:1}
+/* Floating labels keep their absolute anchors; do not turn every hero child into a flex item. */
+body:has(.hero-grid) .hero-art .interactive-brand{position:relative;z-index:2;left:auto;right:auto;margin-inline:auto;flex:0 0 auto}
+body:has(.hero-grid) .hero-art .float{position:absolute;z-index:3}
 body:has(.hero-grid) .brand-stage:before{display:none}
 body:has(.hero-grid) .brand-stage .brand-halo{
   position:absolute;left:50%;top:50%;margin:-170px 0 0 -170px;
