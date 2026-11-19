@@ -30,7 +30,7 @@ async function finishGoogleUser(user){
   await setDoc(profileRef,{uid:user.uid,email:user.email||"",displayName:user.displayName||"",role:"student",createdAt:serverTimestamp(),updatedAt:serverTimestamp()});
  }
  const token=await user.getIdTokenResult(true);
- location.href=token.claims.admin===true?"./admin.html":"./student-dashboard.html";
+ location.href=token.claims.admin===true?"./creator-hub.html":"./student-dashboard.html";
 }
 (async()=>{
  try{
@@ -82,7 +82,7 @@ form.addEventListener("submit",async(e)=>{
     await setDoc(doc(fb.db,"profiles",cred.user.uid),{uid:cred.user.uid,email:cred.user.email||email,displayName:cred.user.displayName||"",role:"student",createdAt:serverTimestamp(),updatedAt:serverTimestamp()});
    }
    const token=await cred.user.getIdTokenResult(true);
-   location.href=token.claims.admin===true?"./admin.html":"./student-dashboard.html";
+   location.href=token.claims.admin===true?"./creator-hub.html":"./student-dashboard.html";
   }
  }catch(error){show(friendly(error),true)}finally{submit.disabled=false}
 });
