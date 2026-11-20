@@ -73,7 +73,9 @@ footer{background:#0d1734;color:#dbe4ff;padding:24px 0;font-size:12px}footer a{c
      return {id:item.id,title,description:data.description||'Published learning package.',level:levelName,subject,chapters:chapters.length,lessons,mcqs,written,chapterNames};
     }catch(error){console.warn('Could not load course package',item.id,error);return null}
    }));
-   records=loaded.filter(Boolean).sort((a,b)=>a.level.localeCompare(b.level)||a.title.localeCompare(b.title));
+   const gradeOrder={IX:0,X:1,XI:2,XII:3};
+   const naturalOrder=new Intl.Collator(undefined,{numeric:true,sensitivity:'base'});
+   records=loaded.filter(Boolean).sort((a,b)=>(gradeOrder[a.level]??99)-(gradeOrder[b.level]??99)||naturalOrder.compare(a.title,b.title));
    draw();
   }catch(error){summary.textContent='The published course list could not be loaded right now.';grid.innerHTML='<div class="empty">Please try again in a moment. The course catalogue could not reach its public registry.</div>';console.error(error)}
  }
