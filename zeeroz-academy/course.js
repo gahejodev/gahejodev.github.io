@@ -1,5 +1,6 @@
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { collection, doc, getDoc, getDocs, query, where } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+import {sortSequence} from "./course-order.mjs";
 
 const $=id=>document.getElementById(id),db=()=>window.ZeerozFirebase.db;
 const selectedLanguage=localStorage.getItem("zeerozCourseLanguage")||"en";
@@ -67,16 +68,16 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
   if(!snap.exists()||snap.data().published!==true){$("courseTitle").textContent="Course not available";$("courseDescription").textContent="This course may have been unpublished or removed.";host.textContent="Please return to the Student Dashboard.";return;}
   const data=snap.data();$("courseTitle").textContent=data.title||"Untitled course";$("courseDescription").textContent=data.description||"No course description has been added yet.";
   const chaptersSnap=await getDocs(query(collection(db(),"courses",id,"chapters"),where("published","==",true)));
-  const chapters=chaptersSnap.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.order||0)-(b.order||0));
+  const chapters=sortSequence(chaptersSnap.docs.map(d=>({id:d.id,...d.data()})));
   host.replaceChildren();if(!chapters.length){host.className="empty";host.textContent="No chapters have been added yet. Please check again later.";return;}host.className="";
   let lessonTotal=0,mcqTotal=0,writtenTotal=0;
   const prepared=[];
   for(let i=0;i<chapters.length;i++){
    const chapter=chapters[i];
    const lessonSnap=await getDocs(query(collection(db(),"courses",id,"chapters",chapter.id,"lessons"),where("published","==",true)));
-   const lessons=lessonSnap.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.order||0)-(b.order||0));
+   const lessons=sortSequence(lessonSnap.docs.map(d=>({id:d.id,...d.data()})));
    const writtenSnap=await getDocs(query(collection(db(),"courses",id,"chapters",chapter.id,"writtenQuestions"),where("published","==",true)));
-   const written=writtenSnap.docs.map(d=>d.data()).sort((a,b)=>(a.order||0)-(b.order||0));
+   const written=sortSequence(writtenSnap.docs.map(d=>d.data()));
    const questionSnap=await getDocs(query(collection(db(),"courses",id,"chapters",chapter.id,"questions"),where("published","==",true)));
    const mcqCount=questionSnap.size;
    lessonTotal+=lessons.length;mcqTotal+=mcqCount;writtenTotal+=written.length;prepared.push({chapter,lessons,written,mcqCount});

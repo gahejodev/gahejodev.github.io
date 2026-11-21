@@ -1,5 +1,6 @@
 import {onAuthStateChanged} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import {collection,doc,getDoc,getDocs,query,where,addDoc,serverTimestamp} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+import {sortSequence} from "./course-order.mjs";
 const $=id=>document.getElementById(id),db=()=>window.ZeerozFirebase.db;
 const params=new URLSearchParams(location.search),courseId=params.get("courseId"),chapterId=params.get("chapterId");
 let user=null,questions=[],courseTitle="",chapterTitle="";
@@ -17,7 +18,7 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async u=>{
   courseTitle=c.data().title||"Course";chapterTitle=ch.data().title||"Chapter";
   $("quizTitle").textContent=chapterTitle+" · Practice Quiz";$("quizInfo").textContent=courseTitle;
   const qs=await getDocs(query(collection(db(),"courses",courseId,"chapters",chapterId,"questions"),where("published","==",true)));
-  questions=qs.docs.map(d=>({id:d.id,...d.data()})).sort((a,b)=>(a.order||0)-(b.order||0));
+  questions=sortSequence(qs.docs.map(d=>({id:d.id,...d.data()})));
   const host=$("questions");host.replaceChildren();
   if(!questions.length){host.append(el("p","status","No published MCQs are available for this chapter yet."));$("submitQuiz").disabled=true;return}
   questions.forEach((q,i)=>{
