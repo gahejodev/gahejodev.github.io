@@ -73,7 +73,7 @@ import {getGrade,getSubject,sortCoursePackages,sortSequence} from "./course-orde
      const written=chapters.reduce((n,c)=>n+(Array.isArray(c.writtenQuestions)?c.writtenQuestions.length:0),0);
      const title=String(data.title||item.title||'Published course');
      const subject=getSubject(title);
-     return {id:item.id,title,description:data.description||'Published learning package.',level:levelName,subject,chapters:chapters.length,lessons,mcqs,written,chapterNames};
+     return {id:item.id,title,description:data.description||'Published learning package.',level:levelName,subject,order:item.order,chapters:chapters.length,lessons,mcqs,written,chapterNames};
     }catch(error){console.warn('Could not load course package',item.id,error);return null}
    }));
    records=sortCoursePackages(loaded.filter(Boolean));

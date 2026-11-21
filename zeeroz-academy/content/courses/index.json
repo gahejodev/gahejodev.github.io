@@ -6,301 +6,351 @@
       "id": "biology-ix-chapter-1-introduction",
       "title": "Biology IX — Chapter 1: Introduction to Biology",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-1-introduction.json",
-      "version": "7"
+      "version": "7",
+      "order": 1
     },
     {
       "id": "biology-ix-chapter-2-molecular-biology",
       "title": "Biology IX — Chapter 2: Molecular Biology",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-2-molecular-biology.json",
-      "version": "6"
+      "version": "6",
+      "order": 2
     },
     {
       "id": "biology-ix-chapter-3-enzymes",
       "title": "Biology IX — Chapter 3: Enzymes",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-3-enzymes.json",
-      "version": "6"
+      "version": "6",
+      "order": 3
     },
     {
       "id": "biology-ix-chapter-4-cell",
       "title": "Biology IX — Chapter 4: Cell",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-4-cell.json",
-      "version": "6"
+      "version": "6",
+      "order": 4
     },
     {
       "id": "biology-ix-chapter-5-cell-cycle",
       "title": "Biology IX — Chapter 5: Cell Cycle",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-5-cell-cycle.json",
-      "version": "6"
+      "version": "6",
+      "order": 5
     },
     {
       "id": "biology-ix-chapter-6-tissues-organs-systems",
       "title": "Biology IX — Chapter 6: Tissues, Organs and Systems",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-6-tissues-organs-systems.json",
-      "version": "6"
+      "version": "6",
+      "order": 6
     },
     {
       "id": "biology-ix-chapter-7-bioenergetics",
       "title": "Biology IX — Chapter 7: Bioenergetics",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-7-bioenergetics.json",
-      "version": "6"
+      "version": "6",
+      "order": 7
     },
     {
       "id": "biology-ix-chapter-8-biodiversity",
       "title": "Biology IX — Chapter 8: Biodiversity",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-8-biodiversity.json",
-      "version": "6"
+      "version": "6",
+      "order": 8
     },
     {
       "id": "biology-ix-chapter-9-form-functions-plants",
       "title": "Biology IX — Chapter 9: Form and Functions of Plants",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-9-form-functions-plants.json",
-      "version": "6"
+      "version": "6",
+      "order": 9
     },
     {
       "id": "biology-ix-chapter-10-evolution",
       "title": "Biology IX — Chapter 10: Evolution",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-10-evolution.json",
-      "version": "7"
+      "version": "7",
+      "order": 10
     },
     {
       "id": "biology-x-chapter-11-holozoic-nutrition",
       "title": "Biology X — Chapter 11: Holozoic Nutrition",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-11-holozoic-nutrition.json",
-      "version": "1"
+      "version": "1",
+      "order": 11
     },
     {
       "id": "biology-x-chapter-12-gaseous-exchange",
       "title": "Biology X — Chapter 12: Gaseous Exchange",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-12-gaseous-exchange.json",
-      "version": "1"
+      "version": "1",
+      "order": 12
     },
     {
       "id": "biology-x-chapter-13-circulation",
       "title": "Biology X — Chapter 13: Circulation",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-13-circulation.json",
-      "version": "1"
+      "version": "1",
+      "order": 13
     },
     {
       "id": "biology-x-chapter-14-excretory-system",
       "title": "Biology X — Chapter 14: Excretory System",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-14-excretory-system.json",
-      "version": "1"
+      "version": "1",
+      "order": 14
     },
     {
       "id": "biology-x-chapter-15-coordination-control",
       "title": "Biology X — Chapter 15: Coordination and Control",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-15-coordination-control.json",
-      "version": "1"
+      "version": "1",
+      "order": 15
     },
     {
       "id": "biology-x-chapter-16-reproduction",
       "title": "Biology X — Chapter 16: Reproduction",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-16-reproduction.json",
-      "version": "1"
+      "version": "1",
+      "order": 16
     },
     {
       "id": "biology-x-chapter-17-inheritance",
       "title": "Biology X — Chapter 17: Inheritance",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-17-inheritance.json",
-      "version": "1"
+      "version": "1",
+      "order": 17
     },
     {
       "id": "biology-x-chapter-18-diseases-immunity",
       "title": "Biology X — Chapter 18: Diseases and Immunity",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-18-diseases-immunity.json",
-      "version": "2"
+      "version": "2",
+      "order": 18
     },
     {
       "id": "biology-xi-chapter-1-biological-molecules",
       "title": "Biology XI — Chapter 1: Biological Molecules",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-1-biological-molecules.json",
-      "version": "2"
+      "version": "2",
+      "order": 1
     },
     {
       "id": "biology-xi-chapter-2-enzymes",
       "title": "Biology XI — Chapter 2: Enzymes",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-2-enzymes.json",
-      "version": "1"
+      "version": "1",
+      "order": 2
     },
     {
       "id": "biology-xi-chapter-3-cell-structure-function",
       "title": "Biology XI — Chapter 3: Cell Structure and Function",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-3-cell-structure-function.json",
-      "version": "2"
+      "version": "2",
+      "order": 3
     },
     {
       "id": "biology-xi-chapter-4-bioenergetics",
       "title": "Biology XI — Chapter 4: Bioenergetics",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-4-bioenergetics.json",
-      "version": "1"
+      "version": "1",
+      "order": 4
     },
     {
       "id": "biology-xi-chapter-5-acellular-life",
       "title": "Biology XI — Chapter 5: Acellular Life",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-5-acellular-life.json",
-      "version": "1"
+      "version": "1",
+      "order": 5
     },
     {
       "id": "biology-xi-chapter-6-prokaryotes",
       "title": "Biology XI — Chapter 6: Prokaryotes",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-6-prokaryotes.json",
-      "version": "1"
+      "version": "1",
+      "order": 6
     },
     {
       "id": "biology-xi-chapter-7-protista-fungi",
       "title": "Biology XI — Chapter 7: Protista and Fungi",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-7-protista-fungi.json",
-      "version": "1"
+      "version": "1",
+      "order": 7
     },
     {
       "id": "biology-xi-chapter-8-diversity-among-plants",
       "title": "Biology XI — Chapter 8: Diversity Among Plants",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-8-diversity-among-plants.json",
-      "version": "1"
+      "version": "1",
+      "order": 8
     },
     {
       "id": "biology-xi-chapter-9-diversity-among-animals",
       "title": "Biology XI — Chapter 9: Diversity Among Animals",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-9-diversity-among-animals.json",
-      "version": "1"
+      "version": "1",
+      "order": 9
     },
     {
       "id": "biology-xi-chapter-10-form-functions-plants",
       "title": "Biology XI — Chapter 10: Form and Functions of Plants",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-10-form-functions-plants.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-14-immunity",
-      "title": "Biology XII — Chapter 14: Immunity",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-14-immunity.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-15-homeostasis",
-      "title": "Biology XII — Chapter 15: Homeostasis",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-15-homeostasis.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-16-support-movement",
-      "title": "Biology XII — Chapter 16: Support and Movement",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-16-support-movement.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-17-nervous-coordination",
-      "title": "Biology XII — Chapter 17: Nervous Coordination",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-17-nervous-coordination.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-18-chemical-coordination",
-      "title": "Biology XII — Chapter 18: Chemical Coordination",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-18-chemical-coordination.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-19-reproduction",
-      "title": "Biology XII — Chapter 19: Reproduction",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-19-reproduction.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-20-organic-evolution",
-      "title": "Biology XII — Chapter 20: Organic Evolution",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-20-organic-evolution.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-21-inheritance",
-      "title": "Biology XII — Chapter 21: Inheritance",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-21-inheritance.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-22-chromosome-dna",
-      "title": "Biology XII — Chapter 22: Chromosome and DNA",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-22-chromosome-dna.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-23-biotechnology",
-      "title": "Biology XII — Chapter 23: Biotechnology",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-23-biotechnology.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-24-environmental-biology",
-      "title": "Biology XII — Chapter 24: Environmental Biology",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-24-environmental-biology.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-25-climatic-change",
-      "title": "Biology XII — Chapter 25: Climatic Change",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-25-climatic-change.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-26-pharmacological-drugs",
-      "title": "Biology XII — Chapter 26: Pharmacological Drugs",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-26-pharmacological-drugs.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-27-structural-computational-biology",
-      "title": "Biology XII — Chapter 27: Structural Biology and Computational Biology",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-27-structural-computational-biology.json",
-      "version": "1"
-    },
-    {
-      "id": "biology-xii-chapter-28-biostatistics-data-handling",
-      "title": "Biology XII — Chapter 28: Biostatistics and Data Handling",
-      "path": "zeeroz-academy/content/courses/biology-xii-chapter-28-biostatistics-data-handling.json",
-      "version": "2"
-    },
-    {
-      "id": "chemistry-xii-complete",
-      "title": "Chemistry XII — Complete Course",
-      "path": "zeeroz-academy/content/courses/chemistry-xii-complete.json",
-      "version": "8"
-    },
-    {
-      "id": "physics-xii-complete",
-      "title": "Physics XII — Complete Course",
-      "path": "zeeroz-academy/content/courses/physics-xii-complete.json",
-      "version": "4"
-    },
-    {
-      "id": "physics-xi-heat-thermodynamics",
-      "title": "Physics XI — Heat and Thermodynamics (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-heat-thermodynamics.json",
-      "version": "1"
-    },
-    {
-      "id": "physics-xi-waves",
-      "title": "Physics XI — Waves (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-waves.json",
-      "version": "1"
-    },
-    {
-      "id": "physics-xi-electricity-magnetism",
-      "title": "Physics XI — Electricity and Magnetism (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-electricity-magnetism.json",
-      "version": "2"
+      "version": "1",
+      "order": 10
     },
     {
       "id": "physics-xi-measurement",
       "title": "Physics XI — Measurement (DCAR 2024)",
       "path": "zeeroz-academy/content/courses/physics-xi-measurement.json",
-      "version": "2"
+      "version": "2",
+      "order": 1
     },
     {
       "id": "physics-xi-mechanics-foundations",
       "title": "Physics XI — Mechanics I: Vectors, Motion and Collisions (DCAR 2024)",
       "path": "zeeroz-academy/content/courses/physics-xi-mechanics-foundations.json",
-      "version": "1"
+      "version": "1",
+      "order": 2
+    },
+    {
+      "id": "physics-xi-heat-thermodynamics",
+      "title": "Physics XI — Heat and Thermodynamics (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-heat-thermodynamics.json",
+      "version": "1",
+      "order": 3
+    },
+    {
+      "id": "physics-xi-waves",
+      "title": "Physics XI — Waves (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-waves.json",
+      "version": "1",
+      "order": 4
+    },
+    {
+      "id": "physics-xi-electricity-magnetism",
+      "title": "Physics XI — Electricity and Magnetism (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-electricity-magnetism.json",
+      "version": "2",
+      "order": 5
+    },
+    {
+      "id": "biology-xii-chapter-14-immunity",
+      "title": "Biology XII — Chapter 14: Immunity",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-14-immunity.json",
+      "version": "1",
+      "order": 14
+    },
+    {
+      "id": "biology-xii-chapter-15-homeostasis",
+      "title": "Biology XII — Chapter 15: Homeostasis",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-15-homeostasis.json",
+      "version": "1",
+      "order": 15
+    },
+    {
+      "id": "biology-xii-chapter-16-support-movement",
+      "title": "Biology XII — Chapter 16: Support and Movement",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-16-support-movement.json",
+      "version": "1",
+      "order": 16
+    },
+    {
+      "id": "biology-xii-chapter-17-nervous-coordination",
+      "title": "Biology XII — Chapter 17: Nervous Coordination",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-17-nervous-coordination.json",
+      "version": "1",
+      "order": 17
+    },
+    {
+      "id": "biology-xii-chapter-18-chemical-coordination",
+      "title": "Biology XII — Chapter 18: Chemical Coordination",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-18-chemical-coordination.json",
+      "version": "1",
+      "order": 18
+    },
+    {
+      "id": "biology-xii-chapter-19-reproduction",
+      "title": "Biology XII — Chapter 19: Reproduction",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-19-reproduction.json",
+      "version": "1",
+      "order": 19
+    },
+    {
+      "id": "biology-xii-chapter-20-organic-evolution",
+      "title": "Biology XII — Chapter 20: Organic Evolution",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-20-organic-evolution.json",
+      "version": "1",
+      "order": 20
+    },
+    {
+      "id": "biology-xii-chapter-21-inheritance",
+      "title": "Biology XII — Chapter 21: Inheritance",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-21-inheritance.json",
+      "version": "1",
+      "order": 21
+    },
+    {
+      "id": "biology-xii-chapter-22-chromosome-dna",
+      "title": "Biology XII — Chapter 22: Chromosome and DNA",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-22-chromosome-dna.json",
+      "version": "1",
+      "order": 22
+    },
+    {
+      "id": "biology-xii-chapter-23-biotechnology",
+      "title": "Biology XII — Chapter 23: Biotechnology",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-23-biotechnology.json",
+      "version": "1",
+      "order": 23
+    },
+    {
+      "id": "biology-xii-chapter-24-environmental-biology",
+      "title": "Biology XII — Chapter 24: Environmental Biology",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-24-environmental-biology.json",
+      "version": "1",
+      "order": 24
+    },
+    {
+      "id": "biology-xii-chapter-25-climatic-change",
+      "title": "Biology XII — Chapter 25: Climatic Change",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-25-climatic-change.json",
+      "version": "1",
+      "order": 25
+    },
+    {
+      "id": "biology-xii-chapter-26-pharmacological-drugs",
+      "title": "Biology XII — Chapter 26: Pharmacological Drugs",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-26-pharmacological-drugs.json",
+      "version": "1",
+      "order": 26
+    },
+    {
+      "id": "biology-xii-chapter-27-structural-computational-biology",
+      "title": "Biology XII — Chapter 27: Structural Biology and Computational Biology",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-27-structural-computational-biology.json",
+      "version": "1",
+      "order": 27
+    },
+    {
+      "id": "biology-xii-chapter-28-biostatistics-data-handling",
+      "title": "Biology XII — Chapter 28: Biostatistics and Data Handling",
+      "path": "zeeroz-academy/content/courses/biology-xii-chapter-28-biostatistics-data-handling.json",
+      "version": "2",
+      "order": 28
+    },
+    {
+      "id": "chemistry-xii-complete",
+      "title": "Chemistry XII — Complete Course",
+      "path": "zeeroz-academy/content/courses/chemistry-xii-complete.json",
+      "version": "8",
+      "order": 1
+    },
+    {
+      "id": "physics-xii-complete",
+      "title": "Physics XII — Complete Course",
+      "path": "zeeroz-academy/content/courses/physics-xii-complete.json",
+      "version": "4",
+      "order": 1
     }
   ]
 }
