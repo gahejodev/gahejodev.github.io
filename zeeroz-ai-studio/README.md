@@ -43,3 +43,12 @@ The models are rule-based visual aids. They are not yet a universal AI model tha
 
 ## Privacy and security
 Urdu voice synthesis and video recording run in the browser. Firebase browser configuration is public by design. Admin authorization relies on Firebase custom claims and must also be enforced by Firebase Security Rules. Never commit service-account keys or private API secrets.
+
+
+## Verified free runtime and licence notes — 2026-11-21
+- Three.js 0.170.0 and ONNX Runtime Web 1.26.0 are pinned and MIT licensed.
+- Talking Avatar is pinned at `@interviewflowai/talking-avatar@0.3.0`; SDK/avatar/lip-sync model are MIT; training-data attribution is CC BY 4.0: https://github.com/interviewflowai/talking-avatar
+- `@diffusionstudio/piper-wasm@1.0.0` wrapper declares MIT, but its build includes eSpeak NG phonemizer/data under GPL-3.0-or-later. Keep source/licence notices available; the complete phonemizer stack is not MIT-only: https://github.com/diffusionstudio/piper-wasm and https://github.com/rhasspy/espeak-ng
+- Urdu Fasih/Aegis and English Ryan/Amy repositories declare MIT; retain author attribution. Voice models are about 63–64 MB and download on demand. Hugging Face anonymous limits can change; there is no guaranteed bandwidth quota. No API key, card or paid inference is required by the current browser path.
+- jsDelivr is available without a subscription, subject to service policies: https://www.jsdelivr.com/terms
+- GitHub Free includes 2,000 Actions minutes/month for private repos and 500 MB artifact storage; public Pages builds are free. Do not enable spending or larger runners: https://docs.github.com/en/billing/concepts/product-billing/github-actions

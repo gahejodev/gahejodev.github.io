@@ -1,5 +1,6 @@
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { addDoc, collection, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
+import {sortCoursePackages,sortSequence} from "../zeeroz-academy/course-order.mjs";
 const $=id=>document.getElementById(id);
 let packages=[],courseData=null,scenes=[],sceneIndex=0,allowed=false,playbackToken=0;
 let latestExportedVideo=null;
@@ -36,13 +37,13 @@ async function removeStoredSocialVideo(key){
 
 function clean(s){return String(s||"").replace(/!\[[^\]]*\]\([^)]*\)/g,"").replace(/\*\*(.*?)\*\*/g,"$1").replace(/\*(.*?)\*/g,"$1").replace(/^\s*[-*]\s+/gm,"").replace(/^\s*\d+[.)]\s+/gm,"").replace(/\s+/g," ").trim()}
 function fill(select,items,placeholder){select.replaceChildren(new Option(placeholder,""));items.forEach((x,i)=>select.add(new Option(x.label,String(i))));select.disabled=!items.length}
-async function init(){const reg=await fetch("https://gahejodev.github.io/zeeroz-academy/content/courses/index.json",{cache:"no-store"});if(!reg.ok)throw new Error("Course registry could not be loaded.");const data=await reg.json();packages=data.packages||[];fill($("course"),packages.map(p=>({label:p.title})),"Choose a course package")}
+async function init(){const reg=await fetch("https://gahejodev.github.io/zeeroz-academy/content/courses/index.json",{cache:"no-store"});if(!reg.ok)throw new Error("Course registry could not be loaded.");const data=await reg.json();packages=sortCoursePackages(data.packages||[]);fill($("course"),packages.map(p=>({label:p.title})),"Choose a course package")}
 onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
  if(!user){document.body.innerHTML="<main style='font:16px system-ui;max-width:560px;margin:12vh auto;padding:24px'><h2>Admin sign-in required</h2><p>Please sign in with your Academy administrator account.</p><a href='https://gahejodev.github.io/zeeroz-academy/student-login.html'>Open sign-in</a></main>";return}
  try{const token=await user.getIdTokenResult(true);if(token.claims.admin!==true){document.body.innerHTML="<main style='font:16px system-ui;max-width:560px;margin:12vh auto;padding:24px'><h2>Access denied</h2><p>This account is not authorised as an Academy administrator.</p><a href='https://gahejodev.github.io/zeeroz-academy/student-dashboard.html'>Return to Student Desk</a></main>";return}allowed=true;await init()}catch(e){status("Studio could not start: "+e.message)}
 });
-$("course").addEventListener("change",async()=>{const p=packages[Number($("course").value)];courseData=null;fill($("chapter"),[],"Loading chapters…");fill($("lesson"),[],"Select a chapter first");$("loadLesson").disabled=true;if(!p)return;try{const r=await fetch("https://gahejodev.github.io/zeeroz-academy/content/courses/"+p.id+".json");if(!r.ok)throw new Error("Course package unavailable.");courseData=await r.json();fill($("chapter"),(courseData.chapters||[]).map(c=>({label:c.title})),"Choose a chapter");status("Course loaded: "+p.title)}catch(e){status(e.message)}});
-$("chapter").addEventListener("change",()=>{const ch=courseData?.chapters?.[Number($("chapter").value)];fill($("lesson"),(ch?.lessons||[]).map(l=>({label:l.title})),"Choose a lesson");$("loadLesson").disabled=!ch?.lessons?.length});
+$("course").addEventListener("change",async()=>{const p=packages[Number($("course").value)];courseData=null;fill($("chapter"),[],"Loading chapters…");fill($("lesson"),[],"Select a chapter first");$("loadLesson").disabled=true;if(!p)return;try{const r=await fetch("https://gahejodev.github.io/zeeroz-academy/content/courses/"+p.id+".json");if(!r.ok)throw new Error("Course package unavailable.");courseData=await r.json();courseData.chapters=sortSequence(courseData.chapters||[]);fill($("chapter"),courseData.chapters.map(c=>({label:c.title})),"Choose a chapter");status("Course loaded: "+p.title)}catch(e){status(e.message)}});
+$("chapter").addEventListener("change",()=>{const ch=courseData?.chapters?.[Number($("chapter").value)];if(ch)ch.lessons=sortSequence(ch.lessons||[]);fill($("lesson"),(ch?.lessons||[]).map(l=>({label:l.title})),"Choose a lesson");$("loadLesson").disabled=!ch?.lessons?.length});
 function makeSceneList(markdown){const sections=[];let heading="Lesson introduction",lines=[],image="";for(const raw of markdown.split(/\r?\n/)){const line=raw.trim();if(!line||line==="---")continue;const im=line.match(/^!\[[^\]]*\]\(([^)]+)\)/);if(im){image=im[1];continue}const m=line.match(/^#{1,3}\s+(.+)$/);if(m){if(lines.length)sections.push({title:heading,body:lines.join(" "),image});heading=clean(m[1]);lines=[];image=""}else{const t=clean(line);if(t)lines.push(t)}}if(lines.length)sections.push({title:heading,body:lines.join(" "),image});const result=[];sections.forEach(s=>{const sentences=s.body.match(/[^.!?]+[.!?]?/g)||[s.body];let buf="";sentences.forEach(part=>{const t=part.trim();if(!t)return;if(buf&&buf.length+t.length>420){result.push({title:s.title,narration:buf.trim(),image:s.image});buf=""}buf+=(buf?" ":"")+t});if(buf)result.push({title:s.title,narration:buf.trim(),image:s.image})});return result}
 $("loadLesson").addEventListener("click",()=>{if(!allowed)return;const chapter=courseData.chapters[Number($("chapter").value)],lesson=chapter.lessons[Number($("lesson").value)];window.currentLesson={course:courseData.title,chapter:chapter.title,lesson};$("videoTitle").value=lesson.title+" | "+courseData.title;$("editor").hidden=false;$("previewCard").hidden=true;scenes=[];$("sceneList").replaceChildren();$("scriptOutput").value="";status("Lesson ready. Generate the storyboard when ready.")});
 let lesson3D=null,lesson3DLoading=null,lastExport3DScene="";
@@ -129,7 +130,7 @@ async function initStudioAvatar(){
  const play=$("play3DVoice"),style=$("studioAvatarStyle"),host=$("studioAvatar");
  if(!play||!host)return;
  try{
-  const mod=await import("https://esm.sh/@interviewflowai/talking-avatar?bundle");
+  const mod=await import("https://esm.sh/@interviewflowai/talking-avatar@0.3.0?bundle");
   const {AVATARS,TalkingAvatar}=mod;
   const create=async()=>{
    try{studioAvatar?.dispose()}catch(e){}
