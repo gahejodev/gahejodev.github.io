@@ -3,7 +3,7 @@ import { addDoc, collection, serverTimestamp } from "https://www.gstatic.com/fir
 import {sortCoursePackages,sortSequence} from "../zeeroz-academy/course-order.mjs";
 const $=id=>document.getElementById(id);
 let packages=[],courseData=null,scenes=[],sceneIndex=0,allowed=false,playbackToken=0;
-let latestExportedVideo=null;
+let latestExportedVideo=null,cancel3DExport=null;
 const status=m=>$("status").textContent=m;
 const SOCIAL_VIDEO_DB="zeeroz-social-media";
 function openSocialVideoDb(){
@@ -354,7 +354,10 @@ async function exportReal3DTeacher(){
  if(!avatarCanvas){status3D.textContent="3D render canvas was not found. Refresh and try again.";return}
  if(!window.MediaRecorder||!HTMLCanvasElement.prototype.captureStream){status3D.textContent="This browser does not support video recording. Use the latest Chrome.";return}
  button.disabled=true;progress.style.width="0%";
- let audioContext=null,source=null,recorder=null,raf=0,recordStream=null;
+ const cancelButton=$("cancel3DExport");if(cancelButton){cancelButton.hidden=false;cancelButton.disabled=true;}
+ let audioContext=null,source=null,recorder=null,raf=0,recordStream=null,recorderDone=null,playbackTimeout=null,cancelRequested=false,cancelReject=null;
+ const cancelPromise=new Promise((_,reject)=>{cancelReject=reject});
+ cancel3DExport=()=>{if(cancelRequested)return;cancelRequested=true;if(cancelButton)cancelButton.disabled=true;status3D.textContent="Cancelling export…";try{cancelReject?.(new Error("Export cancelled by user."))}catch(_){}try{source?.stop()}catch(_){}try{if(recorder&&recorder.state!=="inactive")recorder.stop()}catch(_){}};
  try{
   status3D.textContent="Preparing narration and 3D recording…";
   audioContext=new(window.AudioContext||window.webkitAudioContext)();
@@ -374,7 +377,7 @@ async function exportReal3DTeacher(){
   const chunks=[];
   recorder=new MediaRecorder(videoStream,{mimeType:mime,videoBitsPerSecond:3500000,audioBitsPerSecond:128000});
   recorder.ondataavailable=e=>{if(e.data?.size)chunks.push(e.data)};
-  const finished=new Promise((resolve,reject)=>{recorder.onstop=resolve;recorder.onerror=()=>reject(new Error("Recording failed."))});
+  const finished=new Promise((resolve,reject)=>{recorder.onstop=resolve;recorder.onerror=()=>reject(new Error("Recording failed."))});recorderDone=finished;finished.catch(()=>{});
   const title=$("videoTitle").value||window.currentLesson?.lesson?.title||"Zeeroz Academy Lesson";
   const scenePositionAt=(seconds)=>{
    const timeline=window.zeerozAudioTimeline||[];
@@ -426,9 +429,12 @@ async function exportReal3DTeacher(){
   await studioAvatar.attachStream(sourceStream.stream);
   const startedAt=audioContext.currentTime;
   source.onended=()=>{if(recorder&&recorder.state!=="inactive")recorder.stop()};
+  const playbackPromise=new Promise((resolve,reject)=>{playbackTimeout=setTimeout(()=>reject(new Error("Recording timed out before the narration finished.")),Math.max(30000,audioBuffer.duration*1000+15000));source.addEventListener("ended",()=>{clearTimeout(playbackTimeout);playbackTimeout=null;resolve()},{once:true})});
+  if(cancelButton)cancelButton.disabled=false;
   source.start();
   draw();
-  await new Promise((resolve,reject)=>{source.addEventListener("ended",resolve,{once:true});setTimeout(()=>reject(new Error("Recording timed out before the narration finished.")),Math.max(30000,audioBuffer.duration*1000+15000))});
+  await Promise.race([playbackPromise,cancelPromise]);
+  if(cancelRequested)throw new Error("Export cancelled by user.");
   if(recorder.state!=="inactive")recorder.stop();
   await finished;
   cancelAnimationFrame(raf);raf=0;
@@ -445,10 +451,14 @@ async function exportReal3DTeacher(){
   status3D.textContent="Professional vertical 9:16 Reel exported ("+(blob.size/1048576).toFixed(1)+" MB) as "+extension.toUpperCase()+". "+(extension==="mp4"?"MP4 is ready for Facebook Reels.":"This browser does not expose native MP4 recording; WebM was created. Facebook compatibility may vary.");
   return true;
  }catch(e){
-  status3D.textContent="3D export could not finish: "+e.message;
+  status3D.textContent=cancelRequested?"Export cancelled. No partial video was downloaded.":"3D export could not finish: "+e.message;
   if(recorder&&recorder.state!=="inactive")try{recorder.stop()}catch(_){}
+  if(recorderDone)await recorderDone.catch(()=>{});
   return false;
  }finally{
+  if(playbackTimeout)clearTimeout(playbackTimeout);
+  cancel3DExport=null;
+  if(cancelButton){cancelButton.hidden=true;cancelButton.disabled=true;}
   if(raf)cancelAnimationFrame(raf);
   try{source?.stop()}catch(e){}
   recordStream?.getTracks().forEach(t=>t.stop());
@@ -458,6 +468,7 @@ async function exportReal3DTeacher(){
 }
 
 $("export3DVideo")?.addEventListener("click",exportReal3DTeacher);
+$("cancel3DExport")?.addEventListener("click",()=>cancel3DExport?.());
 
 // One-click lesson production: generate fresh Urdu narration from the current
 // storyboard, attach it to the 3D teacher, then export one combined WebM.
