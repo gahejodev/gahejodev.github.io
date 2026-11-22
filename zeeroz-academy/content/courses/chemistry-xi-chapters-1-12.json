@@ -1,0 +1,897 @@
+{
+  "id": "chemistry-xi-chapters-1-12",
+  "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
+  "description": "Supplementary topic-based course with structured lessons, MCQs, CRQs and ERQs in English, Urdu and Sindhi. Use alongside the prescribed textbook.",
+  "version": "1",
+  "curriculumAlignment": "Chapter map follows the published DCAR Chemistry XI chapter-weightage listing (Stoichiometry through Electrochemistry). Cross-check with the current board textbook and notified syllabus before exam use.",
+  "sourceReferences": [
+    {
+      "title": "DCAR Sindh Curriculum Catalogue",
+      "url": "https://www.dcar.gos.pk/Sindh%20Curriculum.html",
+      "note": "Official subject curriculum listings."
+    },
+    {
+      "title": "Government of Sindh HSC Science Group syllabus notification",
+      "url": "https://www.dcar.gos.pk/other_notifications/HSC%20Science%20Group.pdf",
+      "note": "Notified 2024–25 XI science subject units; reduced-syllabus notice, not a substitute for the current full syllabus."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Chapter 1: Stoichiometry",
+      "description": "Supplementary topic 1: Chapter 1: Stoichiometry.",
+      "lessons": [
+        {
+          "title": "Chapter 1: Stoichiometry — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nStoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar mass converts between mass and moles. Use coefficients as mole ratios and check units and limiting reagents.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "اسٹوئکیومیٹری متوازن مساوات اور مول کے تناسب سے مادوں کی مقدار معلوم کرتی ہے۔ مول، ذرّات اور مادے کی مقدار کا تعلق ہے؛ مولر ماس کمیت اور مول میں تبدیلی دیتا ہے۔",
+            "sd": "اسٽوئيڪيوميٽري متوازن مساوات ۽ مول جي نسبت سان مادّن جي مقدار معلوم ڪري ٿي. مول ذرڙن ۽ مادي جي مقدار جو لاڳاپو آهي؛ مولر ماس وزن ۽ مول ۾ تبديلي ڏئي ٿو."
+          }
+        },
+        {
+          "title": "Chapter 1: Stoichiometry — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 1: stoichiometry to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 1: stoichiometry?",
+          "options": {
+            "A": "Stoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar m",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Stoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar mass converts between mass and moles. Use coefficients as mole ratios and check units and limiting reagents."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 1: stoichiometry?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Stoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar mass converts between mass and moles. Use coefficients as mole ratios and check units and limiting reagents."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 1: stoichiometry and explain their relationship.",
+          "modelAnswer": "Stoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar mass converts between mass and moles. Use coefficients as mole ratios and check units and limiting reagents.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 1: stoichiometry and discuss one practical or numerical application.",
+          "modelAnswer": "Stoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar mass converts between mass and moles. Use coefficients as mole ratios and check units and limiting reagents. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter 2: Atomic Structure",
+      "description": "Supplementary topic 2: Chapter 2: Atomic Structure.",
+      "lessons": [
+        {
+          "title": "Chapter 2: Atomic Structure — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nAtomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the same proton number but different neutron numbers. Electron arrangement helps explain periodic behaviour.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "ایٹم میں پروٹون اور نیوٹران کا مرکزہ اور اس کے گرد الیکٹران ہوتے ہیں۔ ایٹمی نمبر عنصر کی شناخت کرتا ہے؛ کمیتی نمبر پروٹون اور نیوٹران کی مجموعی تعداد ہے۔",
+            "sd": "ايٽم ۾ پروٽان ۽ نيوٽران جو مرڪز ۽ چوڌاري اليڪٽران هوندا آهن. ايٽمي نمبر عنصر جي سڃاڻپ ڪري ٿو؛ ماس نمبر پروٽان ۽ نيوٽران جو مجموعو آهي."
+          }
+        },
+        {
+          "title": "Chapter 2: Atomic Structure — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 2: atomic structure to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 2: atomic structure?",
+          "options": {
+            "A": "Atomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Atomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the same proton number but different neutron numbers. Electron arrangement helps explain periodic behaviour."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 2: atomic structure?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Atomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the same proton number but different neutron numbers. Electron arrangement helps explain periodic behaviour."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 2: atomic structure and explain their relationship.",
+          "modelAnswer": "Atomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the same proton number but different neutron numbers. Electron arrangement helps explain periodic behaviour.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 2: atomic structure and discuss one practical or numerical application.",
+          "modelAnswer": "Atomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the same proton number but different neutron numbers. Electron arrangement helps explain periodic behaviour. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter 3: Covalent Bonding and Molecular Shapes",
+      "description": "Supplementary topic 3: Chapter 3: Covalent Bonding and Molecular Shapes.",
+      "lessons": [
+        {
+          "title": "Chapter 3: Covalent Bonding and Molecular Shapes — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nCovalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion helps predict molecular shape, while bond angles and lone pairs influence geometry.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "کوویلنٹ بند میں ایٹم الیکٹران کے جوڑے مشترک کرتے ہیں۔ لیوس ساخت ظرفیتی الیکٹران دکھاتی ہے؛ برقی منفیّت کا فرق بند کی قطبیت طے کرتا ہے۔",
+            "sd": "ڪوويلنٽ بند ۾ ايٽم اليڪٽران جا جوڙا گڏيل ڪن ٿا. ليوس جوڙجڪ ظرفيتي اليڪٽران ڏيکاري ٿي؛ برقي منفيت جو فرق بند جي قطبيت طئي ڪري ٿو."
+          }
+        },
+        {
+          "title": "Chapter 3: Covalent Bonding and Molecular Shapes — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 3: covalent bonding and molecular shapes to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 3: covalent bonding and molecular shapes?",
+          "options": {
+            "A": "Covalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion he",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Covalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion helps predict molecular shape, while bond angles and lone pairs influence geometry."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 3: covalent bonding and molecular shapes?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Covalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion helps predict molecular shape, while bond angles and lone pairs influence geometry."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 3: covalent bonding and molecular shapes and explain their relationship.",
+          "modelAnswer": "Covalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion helps predict molecular shape, while bond angles and lone pairs influence geometry.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 3: covalent bonding and molecular shapes and discuss one practical or numerical application.",
+          "modelAnswer": "Covalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion helps predict molecular shape, while bond angles and lone pairs influence geometry. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter 4: States of Matter I — Gases",
+      "description": "Supplementary topic 4: Chapter 4: States of Matter I — Gases.",
+      "lessons": [
+        {
+          "title": "Chapter 4: States of Matter I — Gases — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nGas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for temperature and consistent units. The ideal gas equation is PV=nRT.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "گیس کے ذرات بے ترتیب حرکت کرتے اور ایک دوسرے سے دور ہوتے ہیں۔ دباؤ برتن کی دیواروں سے ٹکراؤ کے باعث بنتا ہے۔ گیس قوانین دباؤ، حجم، درجہ حرارت اور مقدار کا تعلق بتاتے ہیں؛ درجہ حرارت کیلون میں لیں۔",
+            "sd": "گئس جا ذرڙا بي ترتيب هلن ٿا ۽ هڪ ٻئي کان پري هوندا آهن. دٻاءُ ڀتين سان ٽڪرائن سبب پيدا ٿئي ٿو. گئس جا قانون دٻاءُ، حجم، گرمي پد ۽ مقدار جو لاڳاپو ٻڌائن ٿا؛ گرمي پد ڪيلون ۾ وٺو."
+          }
+        },
+        {
+          "title": "Chapter 4: States of Matter I — Gases — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 4: states of matter i — gases to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 4: states of matter i — gases?",
+          "options": {
+            "A": "Gas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for tempe",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Gas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for temperature and consistent units. The ideal gas equation is PV=nRT."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 4: states of matter i — gases?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Gas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for temperature and consistent units. The ideal gas equation is PV=nRT."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 4: states of matter i — gases and explain their relationship.",
+          "modelAnswer": "Gas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for temperature and consistent units. The ideal gas equation is PV=nRT.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 4: states of matter i — gases and discuss one practical or numerical application.",
+          "modelAnswer": "Gas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for temperature and consistent units. The ideal gas equation is PV=nRT. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter 5: States of Matter II — Liquids",
+      "description": "Supplementary topic 5: Chapter 5: States of Matter II — Liquids.",
+      "lessons": [
+        {
+          "title": "Chapter 5: States of Matter II — Liquids — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nLiquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions generally raise boiling point and viscosity and reduce vapour pressure at a given temperature.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "مائع کے ذرات قریب رہتے ہیں مگر ایک دوسرے کے پاس سے گزر سکتے ہیں۔ بین سالماتی قوتیں نقطۂ ابال، لزوجت، سطحی تناؤ اور بخاراتی دباؤ پر اثر ڈالتی ہیں۔",
+            "sd": "مائع جا ذرڙا ويجهو هوندا آهن پر هڪ ٻئي ڀرسان گذري سگهن ٿا. ماليڪيولن وچ جون قوتون ٽهڪڻ جو نقطو، گاڙهاڻ، سطحي ڇڪ ۽ بخاري دٻاءُ تي اثر ڪن ٿيون."
+          }
+        },
+        {
+          "title": "Chapter 5: States of Matter II — Liquids — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 5: states of matter ii — liquids to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 5: states of matter ii — liquids?",
+          "options": {
+            "A": "Liquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions gen",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Liquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions generally raise boiling point and viscosity and reduce vapour pressure at a given temperature."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 5: states of matter ii — liquids?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Liquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions generally raise boiling point and viscosity and reduce vapour pressure at a given temperature."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 5: states of matter ii — liquids and explain their relationship.",
+          "modelAnswer": "Liquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions generally raise boiling point and viscosity and reduce vapour pressure at a given temperature.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 5: states of matter ii — liquids and discuss one practical or numerical application.",
+          "modelAnswer": "Liquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions generally raise boiling point and viscosity and reduce vapour pressure at a given temperature. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter 6: States of Matter III — Solids",
+      "description": "Supplementary topic 6: Chapter 6: States of Matter III — Solids.",
+      "lessons": [
+        {
+          "title": "Chapter 6: States of Matter III — Solids — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nSolid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help explain hardness, melting behaviour and other physical properties.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "ٹھوس میں ذرات مقرر جگہوں کے گرد ارتعاش کرتے ہیں۔ قلمی ٹھوس میں باقاعدہ جالی ہوتی ہے؛ بے قلمی ٹھوس میں دور تک ترتیب نہیں ہوتی۔",
+            "sd": "ٺوس ۾ ذرڙا مقرر هنڌن تي ارتعاش ڪن ٿا. قلمی ٺوس ۾ باقاعده جال هوندو آهي؛ بي ترتيب ٺوس ۾ ڊگهي فاصلي جي ترتيب نه هوندي آهي."
+          }
+        },
+        {
+          "title": "Chapter 6: States of Matter III — Solids — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 6: states of matter iii — solids to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 6: states of matter iii — solids?",
+          "options": {
+            "A": "Solid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help ",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Solid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help explain hardness, melting behaviour and other physical properties."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 6: states of matter iii — solids?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Solid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help explain hardness, melting behaviour and other physical properties."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 6: states of matter iii — solids and explain their relationship.",
+          "modelAnswer": "Solid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help explain hardness, melting behaviour and other physical properties.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 6: states of matter iii — solids and discuss one practical or numerical application.",
+          "modelAnswer": "Solid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help explain hardness, melting behaviour and other physical properties. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter 7: Chemical Equilibrium",
+      "description": "Supplementary topic 7: Chapter 7: Chemical Equilibrium.",
+      "lessons": [
+        {
+          "title": "Chapter 7: Chemical Equilibrium — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nA reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's principle predicts how a system responds to changes in concentration, pressure or temperature.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "قابلِ واپسی تعامل میں آگے اور پیچھے کے تعامل کی رفتار برابر ہو جائے تو متحرک توازن قائم ہوتا ہے۔ ارتکاز مستقل رہتے ہیں، ضروری نہیں کہ برابر ہوں۔",
+            "sd": "واپس ٿيندڙ عمل ۾ اڳتي ۽ پوئتي عمل جون رفتارون برابر ٿين ته متحرڪ توازن قائم ٿئي ٿو. ارتڪاز مستقل رهن ٿا، پر لازمي ناهي ته برابر هجن."
+          }
+        },
+        {
+          "title": "Chapter 7: Chemical Equilibrium — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 7: chemical equilibrium to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 7: chemical equilibrium?",
+          "options": {
+            "A": "A reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's prin",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "A reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's principle predicts how a system responds to changes in concentration, pressure or temperature."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 7: chemical equilibrium?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "A reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's principle predicts how a system responds to changes in concentration, pressure or temperature."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 7: chemical equilibrium and explain their relationship.",
+          "modelAnswer": "A reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's principle predicts how a system responds to changes in concentration, pressure or temperature.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 7: chemical equilibrium and discuss one practical or numerical application.",
+          "modelAnswer": "A reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's principle predicts how a system responds to changes in concentration, pressure or temperature. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter 8: Acids, Bases and Salts",
+      "description": "Supplementary topic 8: Chapter 8: Acids, Bases and Salts.",
+      "lessons": [
+        {
+          "title": "Chapter 8: Acids, Bases and Salts — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nBrønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH changes when small amounts of acid or base are added.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "برونسٹڈ–لوری نظریے میں تیزاب پروٹون دیتا اور اساس پروٹون قبول کرتا ہے؛ لیوس تیزاب الیکٹران جوڑا قبول اور لیوس اساس عطیہ کرتی ہے۔ بفر محلول pH کی تبدیلی کم کرتا ہے۔",
+            "sd": "برونسٽڊ–لوري موجب تيزاب پروٽان ڏئي ٿو ۽ اساس قبول ڪري ٿي؛ ليوس تيزاب اليڪٽران جوڙو قبول ۽ ليوس اساس ڏئي ٿي. بفر محلول pH جي تبديلي کي گهٽائي ٿو."
+          }
+        },
+        {
+          "title": "Chapter 8: Acids, Bases and Salts — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 8: acids, bases and salts to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 8: acids, bases and salts?",
+          "options": {
+            "A": "Brønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH cha",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Brønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH changes when small amounts of acid or base are added."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 8: acids, bases and salts?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Brønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH changes when small amounts of acid or base are added."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 8: acids, bases and salts and explain their relationship.",
+          "modelAnswer": "Brønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH changes when small amounts of acid or base are added.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 8: acids, bases and salts and discuss one practical or numerical application.",
+          "modelAnswer": "Brønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH changes when small amounts of acid or base are added. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter 9: Chemical Kinetics",
+      "description": "Supplementary topic 9: Chapter 9: Chemical Kinetics.",
+      "lessons": [
+        {
+          "title": "Chapter 9: Chemical Kinetics — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nChemical kinetics studies reaction rates and factors that affect them, including concentration, temperature, surface area and catalysts. Collision theory explains that effective collisions need suitable energy and orientation. A catalyst provides an alternative pathway with lower activation energy.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "کیمیائی حرکیات تعامل کی رفتار اور اس پر اثر انداز عوامل مثلاً ارتکاز، درجہ حرارت، سطحی رقبہ اور عاملِ حفاز کا مطالعہ ہے۔ مؤثر تصادم کے لیے مناسب توانائی اور رخ ضروری ہیں۔",
+            "sd": "ڪيميائي حرڪيات عمل جي رفتار ۽ ان تي اثر ڪندڙ عنصرن جهڙوڪ ارتڪاز، گرمي پد، مٿاڇري ۽ ڪيٽالسٽ جو مطالعو آهي. اثرائتي ٽڪر لاءِ مناسب توانائي ۽ رخ ضروري آهن."
+          }
+        },
+        {
+          "title": "Chapter 9: Chemical Kinetics — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 9: chemical kinetics to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 9: chemical kinetics?",
+          "options": {
+            "A": "Chemical kinetics studies reaction rates and factors that affect them, including concentration, temperature, surface area and catalysts. Collision theory explains that effective co",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Chemical kinetics studies reaction rates and factors that affect them, including concentration, temperature, surface area and catalysts. Collision theory explains that effective collisions need suitable energy and orientation. A catalyst provides an alternative pathway with lower activation energy."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 9: chemical kinetics?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Chemical kinetics studies reaction rates and factors that affect them, including concentration, temperature, surface area and catalysts. Collision theory explains that effective collisions need suitable energy and orientation. A catalyst provides an alternative pathway with lower activation energy."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 9: chemical kinetics and explain their relationship.",
+          "modelAnswer": "Chemical kinetics studies reaction rates and factors that affect them, including concentration, temperature, surface area and catalysts. Collision theory explains that effective collisions need suitable energy and orientation. A catalyst provides an alternative pathway with lower activation energy.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 9: chemical kinetics and discuss one practical or numerical application.",
+          "modelAnswer": "Chemical kinetics studies reaction rates and factors that affect them, including concentration, temperature, surface area and catalysts. Collision theory explains that effective collisions need suitable energy and orientation. A catalyst provides an alternative pathway with lower activation energy. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter 10: Solutions and Colloids",
+      "description": "Supplementary topic 10: Chapter 10: Solutions and Colloids.",
+      "lessons": [
+        {
+          "title": "Chapter 10: Solutions and Colloids — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nA solution is a homogeneous mixture of solute and solvent. Solubility depends on the substances and conditions. Colloids contain dispersed particles larger than those in a true solution and can scatter light. Raoult's law relates a component's vapour pressure to its mole fraction in an ideal solution.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "محلول حل پذیر مادے اور محلل کا یکساں آمیزہ ہے۔ حل پذیری مادوں اور حالات پر منحصر ہے۔ کولائیڈ میں منتشر ذرات حقیقی محلول سے بڑے ہوتے اور روشنی بکھیر سکتے ہیں۔",
+            "sd": "محلول حل ٿيندڙ مادي ۽ محلل جو هم جنس آميزش آهي. حل پذيري مادن ۽ حالتن تي دارومدار رکي ٿي. ڪولائيڊ جا ذرڙا حقيقي محلول کان وڏا هوندا ۽ روشني پکيڙي سگهن ٿا."
+          }
+        },
+        {
+          "title": "Chapter 10: Solutions and Colloids — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 10: solutions and colloids to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 10: solutions and colloids?",
+          "options": {
+            "A": "A solution is a homogeneous mixture of solute and solvent. Solubility depends on the substances and conditions. Colloids contain dispersed particles larger than those in a true sol",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "A solution is a homogeneous mixture of solute and solvent. Solubility depends on the substances and conditions. Colloids contain dispersed particles larger than those in a true solution and can scatter light. Raoult's law relates a component's vapour pressure to its mole fraction in an ideal solution."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 10: solutions and colloids?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "A solution is a homogeneous mixture of solute and solvent. Solubility depends on the substances and conditions. Colloids contain dispersed particles larger than those in a true solution and can scatter light. Raoult's law relates a component's vapour pressure to its mole fraction in an ideal solution."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 10: solutions and colloids and explain their relationship.",
+          "modelAnswer": "A solution is a homogeneous mixture of solute and solvent. Solubility depends on the substances and conditions. Colloids contain dispersed particles larger than those in a true solution and can scatter light. Raoult's law relates a component's vapour pressure to its mole fraction in an ideal solution.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 10: solutions and colloids and discuss one practical or numerical application.",
+          "modelAnswer": "A solution is a homogeneous mixture of solute and solvent. Solubility depends on the substances and conditions. Colloids contain dispersed particles larger than those in a true solution and can scatter light. Raoult's law relates a component's vapour pressure to its mole fraction in an ideal solution. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter 11: Thermochemistry",
+      "description": "Supplementary topic 11: Chapter 11: Thermochemistry.",
+      "lessons": [
+        {
+          "title": "Chapter 11: Thermochemistry — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nThermochemistry studies heat changes in chemical and physical processes. Exothermic processes release heat; endothermic processes absorb it. Enthalpy change depends on initial and final states. Calorimetry estimates heat transfer using mass, specific heat capacity and temperature change.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "حرارتِ کیمیا میں کیمیائی و طبعی عملوں کی حرارت کی تبدیلی پڑھی جاتی ہے۔ خارج حرارت عمل حرارت دیتے اور داخل حرارت عمل جذب کرتے ہیں۔ کیلوری میٹری سے حرارت کا تبادلہ معلوم کیا جا سکتا ہے۔",
+            "sd": "ٿرموڪيمسٽري ۾ ڪيميائي ۽ جسماني عملن جي گرميءَ جي تبديلي پڙهي وڃي ٿي. خارج گرمي عمل گرمي ڇڏين ٿا ۽ داخل گرمي عمل جذب ڪن ٿا. ڪيلوريميٽري سان گرميءَ جو تبادلو معلوم ٿئي ٿو."
+          }
+        },
+        {
+          "title": "Chapter 11: Thermochemistry — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 11: thermochemistry to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 11: thermochemistry?",
+          "options": {
+            "A": "Thermochemistry studies heat changes in chemical and physical processes. Exothermic processes release heat; endothermic processes absorb it. Enthalpy change depends on initial and ",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Thermochemistry studies heat changes in chemical and physical processes. Exothermic processes release heat; endothermic processes absorb it. Enthalpy change depends on initial and final states. Calorimetry estimates heat transfer using mass, specific heat capacity and temperature change."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 11: thermochemistry?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Thermochemistry studies heat changes in chemical and physical processes. Exothermic processes release heat; endothermic processes absorb it. Enthalpy change depends on initial and final states. Calorimetry estimates heat transfer using mass, specific heat capacity and temperature change."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 11: thermochemistry and explain their relationship.",
+          "modelAnswer": "Thermochemistry studies heat changes in chemical and physical processes. Exothermic processes release heat; endothermic processes absorb it. Enthalpy change depends on initial and final states. Calorimetry estimates heat transfer using mass, specific heat capacity and temperature change.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 11: thermochemistry and discuss one practical or numerical application.",
+          "modelAnswer": "Thermochemistry studies heat changes in chemical and physical processes. Exothermic processes release heat; endothermic processes absorb it. Enthalpy change depends on initial and final states. Calorimetry estimates heat transfer using mass, specific heat capacity and temperature change. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Chapter 12: Electrochemistry",
+      "description": "Supplementary topic 12: Chapter 12: Electrochemistry.",
+      "lessons": [
+        {
+          "title": "Chapter 12: Electrochemistry — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nElectrochemistry links chemical reactions with electrical energy. Oxidation involves loss of electrons and reduction involves gain. Galvanic cells generate electrical energy from spontaneous redox reactions; electrolytic cells use electrical energy to drive non-spontaneous reactions.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "برقی کیمیا کیمیائی تعاملات اور برقی توانائی کا تعلق بیان کرتی ہے۔ تکسید میں الیکٹران خارج اور اختزال میں الیکٹران حاصل ہوتے ہیں۔ گیلوانک سیل توانائی پیدا اور الیکٹرولائٹک سیل توانائی استعمال کرتا ہے۔",
+            "sd": "اليڪٽروڪيمسٽري ڪيميائي عملن ۽ برقي توانائي جو لاڳاپو ڏيکاري ٿي. آڪسائيڊيشن ۾ اليڪٽران وڃائجن ۽ ريڊڪشن ۾ حاصل ٿين. گيلوانڪ سيل توانائي پيدا ۽ اليڪٽرولائيٽڪ سيل توانائي استعمال ڪري ٿو."
+          }
+        },
+        {
+          "title": "Chapter 12: Electrochemistry — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in chapter 12: electrochemistry to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes chapter 12: electrochemistry?",
+          "options": {
+            "A": "Electrochemistry links chemical reactions with electrical energy. Oxidation involves loss of electrons and reduction involves gain. Galvanic cells generate electrical energy from s",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Electrochemistry links chemical reactions with electrical energy. Oxidation involves loss of electrons and reduction involves gain. Galvanic cells generate electrical energy from spontaneous redox reactions; electrolytic cells use electrical energy to drive non-spontaneous reactions."
+        },
+        {
+          "question": "How should a student solve a problem in chapter 12: electrochemistry?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Electrochemistry links chemical reactions with electrical energy. Oxidation involves loss of electrons and reduction involves gain. Galvanic cells generate electrical energy from spontaneous redox reactions; electrolytic cells use electrical energy to drive non-spontaneous reactions."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in chapter 12: electrochemistry and explain their relationship.",
+          "modelAnswer": "Electrochemistry links chemical reactions with electrical energy. Oxidation involves loss of electrons and reduction involves gain. Galvanic cells generate electrical energy from spontaneous redox reactions; electrolytic cells use electrical energy to drive non-spontaneous reactions.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain chapter 12: electrochemistry and discuss one practical or numerical application.",
+          "modelAnswer": "Electrochemistry links chemical reactions with electrical energy. Oxidation involves loss of electrons and reduction involves gain. Galvanic cells generate electrical energy from spontaneous redox reactions; electrolytic cells use electrical energy to drive non-spontaneous reactions. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
