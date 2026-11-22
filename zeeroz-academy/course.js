@@ -61,15 +61,15 @@ function renderMarkdown(container,source){
 onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
  const languageSelect=$("courseLanguage");if(languageSelect){languageSelect.value=selectedLanguage;languageSelect.addEventListener("change",()=>{localStorage.setItem("zeerozCourseLanguage",languageSelect.value);location.reload()});}
  if(!user){location.href="./student-login.html";return;}
- const id=new URLSearchParams(location.search).get("id"),host=$("learningContent");
+ const params=new URLSearchParams(location.search),id=params.get("id"),selectedChapter=params.get("chapter"),host=$("learningContent");
  if(!id){$("courseTitle").textContent="Course not found";$("courseDescription").textContent="No course was selected. Return to the Student Dashboard.";host.textContent="Please open a course from your dashboard.";return;}
  try{
   const snap=await getDoc(doc(db(),"courses",id));
   if(!snap.exists()||snap.data().published!==true){$("courseTitle").textContent="Course not available";$("courseDescription").textContent="This course may have been unpublished or removed.";host.textContent="Please return to the Student Dashboard.";return;}
   const data=snap.data();$("courseTitle").textContent=data.title||"Untitled course";$("courseDescription").textContent=data.description||"No course description has been added yet.";
   const chaptersSnap=await getDocs(query(collection(db(),"courses",id,"chapters"),where("published","==",true)));
-  const chapters=sortSequence(chaptersSnap.docs.map(d=>({id:d.id,...d.data()})));
-  host.replaceChildren();if(!chapters.length){host.className="empty";host.textContent="No chapters have been added yet. Please check again later.";return;}host.className="";
+  let chapters=sortSequence(chaptersSnap.docs.map(d=>({id:d.id,...d.data()})));\n  if(selectedChapter)chapters=chapters.filter(ch=>ch.id===selectedChapter);
+  host.replaceChildren();if(!chapters.length){host.className="empty";host.textContent=selectedChapter?"This chapter is not published or is unavailable.":"No chapters have been added yet. Please check again later.";return;}host.className="";
   let lessonTotal=0,mcqTotal=0,writtenTotal=0;
   const prepared=[];
   for(let i=0;i<chapters.length;i++){
@@ -84,7 +84,7 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
   }
   const stats=node("div","course-stats");
   [["CHAPTERS",chapters.length],["LESSONS",lessonTotal],["MCQs",mcqTotal],["WRITTEN QUESTIONS",writtenTotal]].forEach(([label,value])=>{const box=node("div","course-stat");box.append(node("span","",label),node("strong","",String(value)));stats.append(box)});
-  host.append(stats);
+  host.append(stats);\n  if(selectedChapter){const back=node("a","quiz-button","← Back to subject chapters");back.href="./student-dashboard.html";host.prepend(back);}
   prepared.forEach(({chapter,lessons,written,mcqCount},i)=>{
    const card=node("article","chapter");
    const top=node("div","chapter-top");
