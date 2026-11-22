@@ -402,6 +402,13 @@
       "path": "zeeroz-academy/content/courses/physics-xii-complete.json",
       "version": "4",
       "order": 1
+    },
+    {
+      "id": "english-ix-xii-foundation",
+      "title": "English IX–XII — Language and Communication Foundations",
+      "path": "zeeroz-academy/content/courses/english-ix-xii-foundation.json",
+      "version": "1",
+      "order": 1
     }
   ]
 }
