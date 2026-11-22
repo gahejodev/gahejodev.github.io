@@ -2,7 +2,7 @@
   "id": "pakistan-studies-ix-x",
   "title": "Pakistan Studies IX–X — History, Geography and Citizenship",
   "description": "Supplementary grade-level study package with structured units, MCQs, CRQs and ERQs. Urdu/Sindhi support included where relevant; not a verified textbook reproduction.",
-  "version": "1",
+  "version": "2",
   "curriculumAlignment": "Supplementary Pakistan Studies learning map for Grades IX–X. DCAR catalogue lists Pakistan Studies Grade IX–X (2019/revised listing); detailed textbook chapter sequence and current edition crosswalk are not asserted.",
   "sourceReferences": [
     {
@@ -41,7 +41,29 @@
             "D": "Use unsupported claims."
           },
           "correctOption": "A",
-          "explanation": "Study the historical causes of Muslim political identity in South Asia, major milestones of the Pakistan Movement, and the constitutional challenges after independence. Distinguish chronology, cause and consequence; assess historical claims using reliable evidence."
+          "explanation": "Study the historical causes of Muslim political identity in South Asia, major milestones of the Pakistan Movement, and the constitutional challenges after independence. Distinguish chronology, cause and consequence; assess historical claims using reliable evidence.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "پاکستان موومنٹ کے تاریخی اسباب، اہم مراحل اور آزادی کے بعد آئینی مسائل کو زمانی ترتیب، سبب اور نتیجے کے ساتھ سمجھیں۔ تاریخی دعووں کو معتبر شواہد سے جانچیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "پاکستان موومنٹ کے تاریخی اسباب، اہم مراحل اور آزادی کے بعد آئینی مسائل کو زمانی ترتیب، سبب اور نتیجے کے ساتھ سمجھیں۔ تاریخی دعووں کو معتبر شواہد سے جانچیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "پاڪستان تحريڪ جا تاريخي سبب، اهم مرحلا ۽ آزاديءَ کان پوءِ آئيني مسئلا ترتيب، سبب ۽ نتيجي سان سمجهو. تاريخي دعوائن کي معتبر ثبوت سان پرکو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "پاڪستان تحريڪ جا تاريخي سبب، اهم مرحلا ۽ آزاديءَ کان پوءِ آئيني مسئلا ترتيب، سبب ۽ نتيجي سان سمجهو. تاريخي دعوائن کي معتبر ثبوت سان پرکو."
+            }
+          }
         },
         {
           "question": "What makes an answer on ix — pakistan movement and constitutional development strong?",
@@ -52,7 +74,29 @@
             "D": "Personal opinion only."
           },
           "correctOption": "B",
-          "explanation": "Study the historical causes of Muslim political identity in South Asia, major milestones of the Pakistan Movement, and the constitutional challenges after independence. Distinguish chronology, cause and consequence; assess historical claims using reliable evidence."
+          "explanation": "Study the historical causes of Muslim political identity in South Asia, major milestones of the Pakistan Movement, and the constitutional challenges after independence. Distinguish chronology, cause and consequence; assess historical claims using reliable evidence.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "پاکستان موومنٹ کے تاریخی اسباب، اہم مراحل اور آزادی کے بعد آئینی مسائل کو زمانی ترتیب، سبب اور نتیجے کے ساتھ سمجھیں۔ تاریخی دعووں کو معتبر شواہد سے جانچیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "پاکستان موومنٹ کے تاریخی اسباب، اہم مراحل اور آزادی کے بعد آئینی مسائل کو زمانی ترتیب، سبب اور نتیجے کے ساتھ سمجھیں۔ تاریخی دعووں کو معتبر شواہد سے جانچیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "پاڪستان تحريڪ جا تاريخي سبب، اهم مرحلا ۽ آزاديءَ کان پوءِ آئيني مسئلا ترتيب، سبب ۽ نتيجي سان سمجهو. تاريخي دعوائن کي معتبر ثبوت سان پرکو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "پاڪستان تحريڪ جا تاريخي سبب، اهم مرحلا ۽ آزاديءَ کان پوءِ آئيني مسئلا ترتيب، سبب ۽ نتيجي سان سمجهو. تاريخي دعوائن کي معتبر ثبوت سان پرکو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -65,7 +109,27 @@
             "Two accurate ideas (2)",
             "Relevant explanation/examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "پاکستان موومنٹ کے تاریخی اسباب، اہم مراحل اور آزادی کے بعد آئینی مسائل کو زمانی ترتیب، سبب اور نتیجے کے ساتھ سمجھیں۔ تاریخی دعووں کو معتبر شواہد سے جانچیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "پاڪستان تحريڪ جا تاريخي سبب، اهم مرحلا ۽ آزاديءَ کان پوءِ آئيني مسئلا ترتيب، سبب ۽ نتيجي سان سمجهو. تاريخي دعوائن کي معتبر ثبوت سان پرکو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -77,7 +141,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Language and clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "پاکستان موومنٹ کے تاریخی اسباب، اہم مراحل اور آزادی کے بعد آئینی مسائل کو زمانی ترتیب، سبب اور نتیجے کے ساتھ سمجھیں۔ تاریخی دعووں کو معتبر شواہد سے جانچیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "پاڪستان تحريڪ جا تاريخي سبب، اهم مرحلا ۽ آزاديءَ کان پوءِ آئيني مسئلا ترتيب، سبب ۽ نتيجي سان سمجهو. تاريخي دعوائن کي معتبر ثبوت سان پرکو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -105,7 +191,29 @@
             "D": "Use unsupported claims."
           },
           "correctOption": "A",
-          "explanation": "Pakistan's location, relief, climate, rivers and natural resources shape settlement, agriculture, transport and economic activity. Explain how monsoon patterns, water availability and landforms affect people and the environment. Use maps, scale and direction accurately."
+          "explanation": "Pakistan's location, relief, climate, rivers and natural resources shape settlement, agriculture, transport and economic activity. Explain how monsoon patterns, water availability and landforms affect people and the environment. Use maps, scale and direction accurately.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "پاکستان کا محلِ وقوع، زمینی ساخت، آب و ہوا، دریا اور وسائل آبادی، زراعت اور معیشت پر اثر انداز ہوتے ہیں۔ نقشے، سمت اور پیمانے کا درست استعمال کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "پاکستان کا محلِ وقوع، زمینی ساخت، آب و ہوا، دریا اور وسائل آبادی، زراعت اور معیشت پر اثر انداز ہوتے ہیں۔ نقشے، سمت اور پیمانے کا درست استعمال کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "پاڪستان جو هنڌ، زميني بناوت، موسم، درياهه ۽ وسيلا آبادي، زراعت ۽ معيشت تي اثر ڪن ٿا. نقشا، رخ ۽ ماپو صحيح استعمال ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "پاڪستان جو هنڌ، زميني بناوت، موسم، درياهه ۽ وسيلا آبادي، زراعت ۽ معيشت تي اثر ڪن ٿا. نقشا، رخ ۽ ماپو صحيح استعمال ڪريو."
+            }
+          }
         },
         {
           "question": "What makes an answer on ix — physical geography and resources strong?",
@@ -116,7 +224,29 @@
             "D": "Personal opinion only."
           },
           "correctOption": "B",
-          "explanation": "Pakistan's location, relief, climate, rivers and natural resources shape settlement, agriculture, transport and economic activity. Explain how monsoon patterns, water availability and landforms affect people and the environment. Use maps, scale and direction accurately."
+          "explanation": "Pakistan's location, relief, climate, rivers and natural resources shape settlement, agriculture, transport and economic activity. Explain how monsoon patterns, water availability and landforms affect people and the environment. Use maps, scale and direction accurately.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "پاکستان کا محلِ وقوع، زمینی ساخت، آب و ہوا، دریا اور وسائل آبادی، زراعت اور معیشت پر اثر انداز ہوتے ہیں۔ نقشے، سمت اور پیمانے کا درست استعمال کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "پاکستان کا محلِ وقوع، زمینی ساخت، آب و ہوا، دریا اور وسائل آبادی، زراعت اور معیشت پر اثر انداز ہوتے ہیں۔ نقشے، سمت اور پیمانے کا درست استعمال کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "پاڪستان جو هنڌ، زميني بناوت، موسم، درياهه ۽ وسيلا آبادي، زراعت ۽ معيشت تي اثر ڪن ٿا. نقشا، رخ ۽ ماپو صحيح استعمال ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "پاڪستان جو هنڌ، زميني بناوت، موسم، درياهه ۽ وسيلا آبادي، زراعت ۽ معيشت تي اثر ڪن ٿا. نقشا، رخ ۽ ماپو صحيح استعمال ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -129,7 +259,27 @@
             "Two accurate ideas (2)",
             "Relevant explanation/examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "پاکستان کا محلِ وقوع، زمینی ساخت، آب و ہوا، دریا اور وسائل آبادی، زراعت اور معیشت پر اثر انداز ہوتے ہیں۔ نقشے، سمت اور پیمانے کا درست استعمال کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "پاڪستان جو هنڌ، زميني بناوت، موسم، درياهه ۽ وسيلا آبادي، زراعت ۽ معيشت تي اثر ڪن ٿا. نقشا، رخ ۽ ماپو صحيح استعمال ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -141,7 +291,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Language and clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "پاکستان کا محلِ وقوع، زمینی ساخت، آب و ہوا، دریا اور وسائل آبادی، زراعت اور معیشت پر اثر انداز ہوتے ہیں۔ نقشے، سمت اور پیمانے کا درست استعمال کریں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "پاڪستان جو هنڌ، زميني بناوت، موسم، درياهه ۽ وسيلا آبادي، زراعت ۽ معيشت تي اثر ڪن ٿا. نقشا، رخ ۽ ماپو صحيح استعمال ڪريو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -169,7 +341,29 @@
             "D": "Use unsupported claims."
           },
           "correctOption": "A",
-          "explanation": "A constitution defines institutions, powers, rights and responsibilities. Citizenship includes legal status and participation in public life. Explain the roles of legislature, executive and judiciary, and why rule of law, accountability and equal protection matter."
+          "explanation": "A constitution defines institutions, powers, rights and responsibilities. Citizenship includes legal status and participation in public life. Explain the roles of legislature, executive and judiciary, and why rule of law, accountability and equal protection matter.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "آئین اداروں، اختیارات، حقوق اور ذمہ داریوں کی وضاحت کرتا ہے۔ مقننہ، انتظامیہ اور عدلیہ کے کردار اور قانون کی حکمرانی و جواب دہی کی اہمیت سمجھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "آئین اداروں، اختیارات، حقوق اور ذمہ داریوں کی وضاحت کرتا ہے۔ مقننہ، انتظامیہ اور عدلیہ کے کردار اور قانون کی حکمرانی و جواب دہی کی اہمیت سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "آئين ادارن، اختيارن، حقن ۽ ذميوارين کي بيان ڪري ٿو. قانون ساز، انتظاميه ۽ عدليه جا ڪردار ۽ قانون جي حڪمرانيءَ جي اهميت سمجهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "آئين ادارن، اختيارن، حقن ۽ ذميوارين کي بيان ڪري ٿو. قانون ساز، انتظاميه ۽ عدليه جا ڪردار ۽ قانون جي حڪمرانيءَ جي اهميت سمجهو."
+            }
+          }
         },
         {
           "question": "What makes an answer on x — constitution, citizenship and governance strong?",
@@ -180,7 +374,29 @@
             "D": "Personal opinion only."
           },
           "correctOption": "B",
-          "explanation": "A constitution defines institutions, powers, rights and responsibilities. Citizenship includes legal status and participation in public life. Explain the roles of legislature, executive and judiciary, and why rule of law, accountability and equal protection matter."
+          "explanation": "A constitution defines institutions, powers, rights and responsibilities. Citizenship includes legal status and participation in public life. Explain the roles of legislature, executive and judiciary, and why rule of law, accountability and equal protection matter.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "آئین اداروں، اختیارات، حقوق اور ذمہ داریوں کی وضاحت کرتا ہے۔ مقننہ، انتظامیہ اور عدلیہ کے کردار اور قانون کی حکمرانی و جواب دہی کی اہمیت سمجھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "آئین اداروں، اختیارات، حقوق اور ذمہ داریوں کی وضاحت کرتا ہے۔ مقننہ، انتظامیہ اور عدلیہ کے کردار اور قانون کی حکمرانی و جواب دہی کی اہمیت سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "آئين ادارن، اختيارن، حقن ۽ ذميوارين کي بيان ڪري ٿو. قانون ساز، انتظاميه ۽ عدليه جا ڪردار ۽ قانون جي حڪمرانيءَ جي اهميت سمجهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "آئين ادارن، اختيارن، حقن ۽ ذميوارين کي بيان ڪري ٿو. قانون ساز، انتظاميه ۽ عدليه جا ڪردار ۽ قانون جي حڪمرانيءَ جي اهميت سمجهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -193,7 +409,27 @@
             "Two accurate ideas (2)",
             "Relevant explanation/examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "آئین اداروں، اختیارات، حقوق اور ذمہ داریوں کی وضاحت کرتا ہے۔ مقننہ، انتظامیہ اور عدلیہ کے کردار اور قانون کی حکمرانی و جواب دہی کی اہمیت سمجھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "آئين ادارن، اختيارن، حقن ۽ ذميوارين کي بيان ڪري ٿو. قانون ساز، انتظاميه ۽ عدليه جا ڪردار ۽ قانون جي حڪمرانيءَ جي اهميت سمجهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -205,7 +441,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Language and clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "آئین اداروں، اختیارات، حقوق اور ذمہ داریوں کی وضاحت کرتا ہے۔ مقننہ، انتظامیہ اور عدلیہ کے کردار اور قانون کی حکمرانی و جواب دہی کی اہمیت سمجھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "آئين ادارن، اختيارن، حقن ۽ ذميوارين کي بيان ڪري ٿو. قانون ساز، انتظاميه ۽ عدليه جا ڪردار ۽ قانون جي حڪمرانيءَ جي اهميت سمجهو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -233,7 +491,29 @@
             "D": "Use unsupported claims."
           },
           "correctOption": "A",
-          "explanation": "Population, education, health, agriculture, industry, trade and infrastructure influence development. Analyse challenges through causes, effects and possible responses. Sustainable development balances economic progress, social inclusion and environmental protection."
+          "explanation": "Population, education, health, agriculture, industry, trade and infrastructure influence development. Analyse challenges through causes, effects and possible responses. Sustainable development balances economic progress, social inclusion and environmental protection.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "آبادی، تعلیم، صحت، زراعت، صنعت، تجارت اور بنیادی ڈھانچہ ترقی پر اثر ڈالتے ہیں۔ مسائل کو اسباب، اثرات اور ممکنہ حل کے ذریعے سمجھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "آبادی، تعلیم، صحت، زراعت، صنعت، تجارت اور بنیادی ڈھانچہ ترقی پر اثر ڈالتے ہیں۔ مسائل کو اسباب، اثرات اور ممکنہ حل کے ذریعے سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "آبادي، تعليم، صحت، زراعت، صنعت، واپار ۽ بنيادي ڍانچو ترقيءَ تي اثر ڪن ٿا. مسئلن کي سببن، اثرن ۽ حلن سان سمجهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "آبادي، تعليم، صحت، زراعت، صنعت، واپار ۽ بنيادي ڍانچو ترقيءَ تي اثر ڪن ٿا. مسئلن کي سببن، اثرن ۽ حلن سان سمجهو."
+            }
+          }
         },
         {
           "question": "What makes an answer on x — economy, society and national challenges strong?",
@@ -244,7 +524,29 @@
             "D": "Personal opinion only."
           },
           "correctOption": "B",
-          "explanation": "Population, education, health, agriculture, industry, trade and infrastructure influence development. Analyse challenges through causes, effects and possible responses. Sustainable development balances economic progress, social inclusion and environmental protection."
+          "explanation": "Population, education, health, agriculture, industry, trade and infrastructure influence development. Analyse challenges through causes, effects and possible responses. Sustainable development balances economic progress, social inclusion and environmental protection.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "آبادی، تعلیم، صحت، زراعت، صنعت، تجارت اور بنیادی ڈھانچہ ترقی پر اثر ڈالتے ہیں۔ مسائل کو اسباب، اثرات اور ممکنہ حل کے ذریعے سمجھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "آبادی، تعلیم، صحت، زراعت، صنعت، تجارت اور بنیادی ڈھانچہ ترقی پر اثر ڈالتے ہیں۔ مسائل کو اسباب، اثرات اور ممکنہ حل کے ذریعے سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "آبادي، تعليم، صحت، زراعت، صنعت، واپار ۽ بنيادي ڍانچو ترقيءَ تي اثر ڪن ٿا. مسئلن کي سببن، اثرن ۽ حلن سان سمجهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "آبادي، تعليم، صحت، زراعت، صنعت، واپار ۽ بنيادي ڍانچو ترقيءَ تي اثر ڪن ٿا. مسئلن کي سببن، اثرن ۽ حلن سان سمجهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -257,7 +559,27 @@
             "Two accurate ideas (2)",
             "Relevant explanation/examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "آبادی، تعلیم، صحت، زراعت، صنعت، تجارت اور بنیادی ڈھانچہ ترقی پر اثر ڈالتے ہیں۔ مسائل کو اسباب، اثرات اور ممکنہ حل کے ذریعے سمجھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "آبادي، تعليم، صحت، زراعت، صنعت، واپار ۽ بنيادي ڍانچو ترقيءَ تي اثر ڪن ٿا. مسئلن کي سببن، اثرن ۽ حلن سان سمجهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -269,7 +591,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Language and clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "آبادی، تعلیم، صحت، زراعت، صنعت، تجارت اور بنیادی ڈھانچہ ترقی پر اثر ڈالتے ہیں۔ مسائل کو اسباب، اثرات اور ممکنہ حل کے ذریعے سمجھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "آبادي، تعليم، صحت، زراعت، صنعت، واپار ۽ بنيادي ڍانچو ترقيءَ تي اثر ڪن ٿا. مسئلن کي سببن، اثرن ۽ حلن سان سمجهو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     }
