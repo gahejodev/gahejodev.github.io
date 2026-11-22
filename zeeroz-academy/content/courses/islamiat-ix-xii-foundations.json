@@ -1,0 +1,405 @@
+{
+  "id": "islamiat-ix-xii-foundations",
+  "title": "Islamiat IX–XII — Quran, Seerah, Ethics and Society",
+  "description": "Supplementary grade-level study package with structured units, MCQs, CRQs and ERQs. Urdu/Sindhi support included where relevant; not a verified textbook reproduction.",
+  "version": "1",
+  "curriculumAlignment": "Supplementary Islamiat study units for Grades IX–XII. DCAR catalogue lists Islamiat Grade IX–X and XI–XII separately; unit-level supplementary map pending edition-specific textbook mapping. Non-Muslim learners should use the applicable Ethics/Religious Studies curriculum.",
+  "sourceReferences": [
+    {
+      "title": "DCAR Sindh Curriculum Catalogue",
+      "url": "https://www.dcar.gos.pk/Sindh%20Curriculum.html",
+      "note": "Official subject curriculum listings and grade coverage."
+    },
+    {
+      "title": "STBB eBooks catalogue",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "note": "Use for future edition-specific textbook crosswalk."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "IX — Quranic guidance and core beliefs",
+      "description": "Supplementary unit 1: IX — Quranic guidance and core beliefs.",
+      "lessons": [
+        {
+          "title": "1.1 IX — Quranic guidance and core beliefs",
+          "type": "text",
+          "content": "## Learning outcomes\nStudy selected Quranic guidance through translation, context and practical lessons. Core beliefs include belief in Allah, angels, revealed books, prophets, the Last Day and divine decree. Connect belief with honesty, responsibility and compassion.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "قرآنی ہدایات کا ترجمہ، سیاق اور عملی سبق سمجھیں۔ بنیادی عقائد ایمان باللہ، فرشتوں، آسمانی کتابوں، انبیاء، آخرت اور تقدیر پر ایمان ہیں۔",
+            "sd": "قرآني هدايتن جو ترجمو، پسمنظر ۽ عملي سبق سمجهو. بنيادي عقيدا الله، ملائڪن، ڪتابن، نبين، آخرت ۽ تقدير تي ايمان آهن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying ix — quranic guidance and core beliefs?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "Study selected Quranic guidance through translation, context and practical lessons. Core beliefs include belief in Allah, angels, revealed books, prophets, the Last Day and divine decree. Connect belief with honesty, responsibility and compassion."
+        },
+        {
+          "question": "What makes an answer on ix — quranic guidance and core beliefs strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "Study selected Quranic guidance through translation, context and practical lessons. Core beliefs include belief in Allah, angels, revealed books, prophets, the Last Day and divine decree. Connect belief with honesty, responsibility and compassion."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in ix — quranic guidance and core beliefs and give relevant examples.",
+          "modelAnswer": "Study selected Quranic guidance through translation, context and practical lessons. Core beliefs include belief in Allah, angels, revealed books, prophets, the Last Day and divine decree. Connect belief with honesty, responsibility and compassion.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of ix — quranic guidance and core beliefs in the relevant grade-level course.",
+          "modelAnswer": "Study selected Quranic guidance through translation, context and practical lessons. Core beliefs include belief in Allah, angels, revealed books, prophets, the Last Day and divine decree. Connect belief with honesty, responsibility and compassion. Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "IX — Seerah and model character",
+      "description": "Supplementary unit 2: IX — Seerah and model character.",
+      "lessons": [
+        {
+          "title": "2.1 IX — Seerah and model character",
+          "type": "text",
+          "content": "## Learning outcomes\nStudy the Prophet Muhammad's (peace be upon him) life as a source of guidance in mercy, truthfulness, patience, justice and fulfilling trusts. Relate events to their historical context and identify lessons for personal and community life.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "سیرتِ نبوی ﷺ میں رحمت، سچائی، صبر، انصاف اور امانت داری کے نمونے سمجھیں اور ان سے روزمرہ زندگی کے اسباق اخذ کریں۔",
+            "sd": "نبي ڪريم ﷺ جي سيرت ۾ رحمت، سچائي، صبر، انصاف ۽ امانت جا مثال سمجهو ۽ روزاني زندگيءَ لاءِ سبق وٺو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying ix — seerah and model character?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "Study the Prophet Muhammad's (peace be upon him) life as a source of guidance in mercy, truthfulness, patience, justice and fulfilling trusts. Relate events to their historical context and identify lessons for personal and community life."
+        },
+        {
+          "question": "What makes an answer on ix — seerah and model character strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "Study the Prophet Muhammad's (peace be upon him) life as a source of guidance in mercy, truthfulness, patience, justice and fulfilling trusts. Relate events to their historical context and identify lessons for personal and community life."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in ix — seerah and model character and give relevant examples.",
+          "modelAnswer": "Study the Prophet Muhammad's (peace be upon him) life as a source of guidance in mercy, truthfulness, patience, justice and fulfilling trusts. Relate events to their historical context and identify lessons for personal and community life.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of ix — seerah and model character in the relevant grade-level course.",
+          "modelAnswer": "Study the Prophet Muhammad's (peace be upon him) life as a source of guidance in mercy, truthfulness, patience, justice and fulfilling trusts. Relate events to their historical context and identify lessons for personal and community life. Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "X — Worship, rights and responsibilities",
+      "description": "Supplementary unit 3: X — Worship, rights and responsibilities.",
+      "lessons": [
+        {
+          "title": "3.1 X — Worship, rights and responsibilities",
+          "type": "text",
+          "content": "## Learning outcomes\nWorship develops discipline and awareness of duties. Study the purposes and basic principles of prayer, fasting, zakat and hajj as taught in the prescribed syllabus. Islamic social ethics include respect for parents, neighbours, honesty, fairness and care for vulnerable people.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "عبادات نظم و ضبط اور ذمہ داری کا شعور پیدا کرتی ہیں۔ نماز، روزہ، زکوٰۃ اور حج کے مقاصد اور بنیادی اصول پڑھیں۔ معاشرتی اخلاق میں والدین و پڑوسیوں کا احترام اور انصاف شامل ہیں۔",
+            "sd": "عبادت نظم ۽ ذميواريءَ جو احساس پيدا ڪري ٿي. نماز، روزو، زڪوات ۽ حج جا مقصد ۽ بنيادي اصول پڙهو. سماجي اخلاق ۾ والدين ۽ پاڙيسرين جو احترام ۽ انصاف شامل آهن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying x — worship, rights and responsibilities?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "Worship develops discipline and awareness of duties. Study the purposes and basic principles of prayer, fasting, zakat and hajj as taught in the prescribed syllabus. Islamic social ethics include respect for parents, neighbours, honesty, fairness and care for vulnerable people."
+        },
+        {
+          "question": "What makes an answer on x — worship, rights and responsibilities strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "Worship develops discipline and awareness of duties. Study the purposes and basic principles of prayer, fasting, zakat and hajj as taught in the prescribed syllabus. Islamic social ethics include respect for parents, neighbours, honesty, fairness and care for vulnerable people."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in x — worship, rights and responsibilities and give relevant examples.",
+          "modelAnswer": "Worship develops discipline and awareness of duties. Study the purposes and basic principles of prayer, fasting, zakat and hajj as taught in the prescribed syllabus. Islamic social ethics include respect for parents, neighbours, honesty, fairness and care for vulnerable people.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of x — worship, rights and responsibilities in the relevant grade-level course.",
+          "modelAnswer": "Worship develops discipline and awareness of duties. Study the purposes and basic principles of prayer, fasting, zakat and hajj as taught in the prescribed syllabus. Islamic social ethics include respect for parents, neighbours, honesty, fairness and care for vulnerable people. Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "X — Islamic history and civic ethics",
+      "description": "Supplementary unit 4: X — Islamic history and civic ethics.",
+      "lessons": [
+        {
+          "title": "4.1 X — Islamic history and civic ethics",
+          "type": "text",
+          "content": "## Learning outcomes\nStudy major periods and contributions of Muslim civilisation with attention to historical evidence, scholarship, institutions and social change. Apply principles of consultation, justice, public trust and peaceful coexistence to civic life.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "مسلم تہذیب کے ادوار اور خدمات کو تاریخی شواہد، علم، اداروں اور سماجی تبدیلی کے تناظر میں پڑھیں۔ مشاورت، انصاف اور امانت کو شہری زندگی سے جوڑیں۔",
+            "sd": "مسلم تهذيب جا دور ۽ خدمتون تاريخي ثبوت، علم، ادارن ۽ سماجي تبديليءَ سان پڙهو. مشاورت، انصاف ۽ امانت کي شهري زندگيءَ سان ڳنڍيو۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying x — islamic history and civic ethics?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "Study major periods and contributions of Muslim civilisation with attention to historical evidence, scholarship, institutions and social change. Apply principles of consultation, justice, public trust and peaceful coexistence to civic life."
+        },
+        {
+          "question": "What makes an answer on x — islamic history and civic ethics strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "Study major periods and contributions of Muslim civilisation with attention to historical evidence, scholarship, institutions and social change. Apply principles of consultation, justice, public trust and peaceful coexistence to civic life."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in x — islamic history and civic ethics and give relevant examples.",
+          "modelAnswer": "Study major periods and contributions of Muslim civilisation with attention to historical evidence, scholarship, institutions and social change. Apply principles of consultation, justice, public trust and peaceful coexistence to civic life.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of x — islamic history and civic ethics in the relevant grade-level course.",
+          "modelAnswer": "Study major periods and contributions of Muslim civilisation with attention to historical evidence, scholarship, institutions and social change. Apply principles of consultation, justice, public trust and peaceful coexistence to civic life. Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "XI — Quran, Hadith and ethical reasoning",
+      "description": "Supplementary unit 5: XI — Quran, Hadith and ethical reasoning.",
+      "lessons": [
+        {
+          "title": "5.1 XI — Quran, Hadith and ethical reasoning",
+          "type": "text",
+          "content": "## Learning outcomes\nInterpret prescribed Quranic passages and Hadith with attention to meaning, context and reliable explanation. Apply ethical principles to honesty, contracts, family responsibilities, community welfare and respect for human dignity.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "مقررہ قرآنی آیات اور احادیث کا مفہوم، سیاق اور معتبر تشریح سمجھیں۔ دیانت، معاملات، خاندانی ذمہ داریوں اور انسانی وقار پر اصول لاگو کریں۔",
+            "sd": "مقرر ڪيل قرآني آيتن ۽ حديثن جو مطلب، پسمنظر ۽ معتبر تشريح سمجهو. ايمانداري، معاملن، خانداني ذميوارين ۽ انساني وقار تي اصول لاڳو ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying xi — quran, hadith and ethical reasoning?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "Interpret prescribed Quranic passages and Hadith with attention to meaning, context and reliable explanation. Apply ethical principles to honesty, contracts, family responsibilities, community welfare and respect for human dignity."
+        },
+        {
+          "question": "What makes an answer on xi — quran, hadith and ethical reasoning strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "Interpret prescribed Quranic passages and Hadith with attention to meaning, context and reliable explanation. Apply ethical principles to honesty, contracts, family responsibilities, community welfare and respect for human dignity."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in xi — quran, hadith and ethical reasoning and give relevant examples.",
+          "modelAnswer": "Interpret prescribed Quranic passages and Hadith with attention to meaning, context and reliable explanation. Apply ethical principles to honesty, contracts, family responsibilities, community welfare and respect for human dignity.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of xi — quran, hadith and ethical reasoning in the relevant grade-level course.",
+          "modelAnswer": "Interpret prescribed Quranic passages and Hadith with attention to meaning, context and reliable explanation. Apply ethical principles to honesty, contracts, family responsibilities, community welfare and respect for human dignity. Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "XII — Contemporary life and Islamic values",
+      "description": "Supplementary unit 6: XII — Contemporary life and Islamic values.",
+      "lessons": [
+        {
+          "title": "6.1 XII — Contemporary life and Islamic values",
+          "type": "text",
+          "content": "## Learning outcomes\nConsider how Islamic ethical principles guide contemporary questions involving knowledge, environment, social justice, economic conduct and peaceful plural societies. Distinguish established teachings from personal opinion and support answers with relevant prescribed evidence.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "علم، ماحول، سماجی انصاف، معاشی معاملات اور متنوع معاشرے میں اسلامی اخلاقی اصولوں کے اطلاق کا جائزہ لیں۔ مستند تعلیمات اور ذاتی رائے میں فرق رکھیں۔",
+            "sd": "علم، ماحول، سماجي انصاف، معاشي معاملن ۽ گهڻ رخي سماج ۾ اسلامي اخلاقي اصولن جو اطلاق ڏسو. مستند تعليم ۽ ذاتي راءِ ۾ فرق رکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying xii — contemporary life and islamic values?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "Consider how Islamic ethical principles guide contemporary questions involving knowledge, environment, social justice, economic conduct and peaceful plural societies. Distinguish established teachings from personal opinion and support answers with relevant prescribed evidence."
+        },
+        {
+          "question": "What makes an answer on xii — contemporary life and islamic values strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "Consider how Islamic ethical principles guide contemporary questions involving knowledge, environment, social justice, economic conduct and peaceful plural societies. Distinguish established teachings from personal opinion and support answers with relevant prescribed evidence."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in xii — contemporary life and islamic values and give relevant examples.",
+          "modelAnswer": "Consider how Islamic ethical principles guide contemporary questions involving knowledge, environment, social justice, economic conduct and peaceful plural societies. Distinguish established teachings from personal opinion and support answers with relevant prescribed evidence.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of xii — contemporary life and islamic values in the relevant grade-level course.",
+          "modelAnswer": "Consider how Islamic ethical principles guide contemporary questions involving knowledge, environment, social justice, economic conduct and peaceful plural societies. Distinguish established teachings from personal opinion and support answers with relevant prescribed evidence. Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
