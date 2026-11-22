@@ -437,6 +437,13 @@
       "path": "zeeroz-academy/content/courses/islamiat-ix-xii-foundations.json",
       "version": "1",
       "order": 1
+    },
+    {
+      "id": "commerce-humanities-xi-xii-foundations",
+      "title": "Commerce and Humanities XI–XII — Foundation Studies",
+      "path": "zeeroz-academy/content/courses/commerce-humanities-xi-xii-foundations.json",
+      "version": "1",
+      "order": 1
     }
   ]
 }
