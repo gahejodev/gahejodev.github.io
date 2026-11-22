@@ -1,0 +1,313 @@
+{
+  "id": "ethics-religious-studies-ix-xii",
+  "title": "Ethics and Religious Studies IX–XII — Inclusive Foundations",
+  "description": "Supplementary topic units with two lessons per unit, MCQs, CRQs and ERQs plus Urdu/Sindhi learner support. Confirm the learner's selected board subject and current textbook.",
+  "version": "1",
+  "curriculumAlignment": "Supplementary subject map for Ethics and Religious Studies options listed in the DCAR Sindh curriculum catalogue. Students should follow the subject assigned by their board and school; this is not a full prescribed textbook replacement.",
+  "sourceReferences": [
+    {
+      "title": "DCAR Sindh Curriculum Catalogue",
+      "url": "https://www.dcar.gos.pk/Sindh%20Curriculum.html",
+      "note": "Official subject listings and grade coverage."
+    },
+    {
+      "title": "DCAR National Curriculum Catalogue",
+      "url": "https://www.dcar.gos.pk/National%20Curriculum.html",
+      "note": "Additional subject curriculum listings."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "IX–X — Ethics and moral decision-making",
+      "description": "Supplementary unit 1: IX–X — Ethics and moral decision-making.",
+      "lessons": [
+        {
+          "title": "1.1 IX–X — Ethics and moral decision-making — key ideas",
+          "type": "text",
+          "content": "## Learning outcomes\nEthics examines how people decide what is right and responsible. Consider honesty, fairness, respect, compassion, duties, consequences and human dignity. Explain a moral choice by identifying stakeholders, possible effects and principles, while respecting different beliefs.\n\n## Study task\nDefine the key terms, identify the context and explain one practical or historical example.",
+          "explanations": {
+            "ur": "اخلاقیات میں درست اور ذمہ دارانہ فیصلوں کا مطالعہ کیا جاتا ہے۔ دیانت، انصاف، احترام، ہمدردی، فرائض، نتائج اور انسانی وقار کو سمجھیں۔",
+            "sd": "اخلاقيات ۾ صحيح ۽ ذميواراڻي فيصلي جو مطالعو ٿئي ٿو. ايمانداري، انصاف، احترام، همدردي، فرض، نتيجا ۽ انساني وقار سمجهو."
+          }
+        },
+        {
+          "title": "1.2 IX–X — Ethics and moral decision-making — analysis and reflection",
+          "type": "text",
+          "content": "Apply the unit's concepts to a short case or prescribed reading. Identify the evidence, explain the reasoning and present a respectful, well-organised conclusion.",
+          "explanations": {
+            "ur": "اس سبق کے تصورات کو ایک مختصر مثال یا مقررہ مطالعے پر لاگو کریں۔ شواہد، دلیل اور منظم نتیجہ پیش کریں۔",
+            "sd": "هن سبق جي تصورن کي مختصر مثال يا مقرر پڙهڻيءَ تي لاڳو ڪريو. ثبوت، دليل ۽ ترتيبوار نتيجو پيش ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach best supports the study of ix–x — ethics and moral decision-making?",
+          "options": {
+            "A": "Use accurate context, reliable sources and clear reasoning.",
+            "B": "Rely on stereotypes and unsupported claims.",
+            "C": "Ignore the source and historical setting.",
+            "D": "Treat every community or period as identical."
+          },
+          "correctOption": "A",
+          "explanation": "Ethics examines how people decide what is right and responsible. Consider honesty, fairness, respect, compassion, duties, consequences and human dignity. Explain a moral choice by identifying stakeholders, possible effects and principles, while respecting different beliefs."
+        },
+        {
+          "question": "What should a strong answer about ix–x — ethics and moral decision-making include?",
+          "options": {
+            "A": "Unrelated details only.",
+            "B": "Relevant concepts, evidence and a clear explanation.",
+            "C": "Personal judgement without reasons.",
+            "D": "No reference to context."
+          },
+          "correctOption": "B",
+          "explanation": "Ethics examines how people decide what is right and responsible. Consider honesty, fairness, respect, compassion, duties, consequences and human dignity. Explain a moral choice by identifying stakeholders, possible effects and principles, while respecting different beliefs."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas from ix–x — ethics and moral decision-making and give examples.",
+          "modelAnswer": "Ethics examines how people decide what is right and responsible. Consider honesty, fairness, respect, compassion, duties, consequences and human dignity. Explain a moral choice by identifying stakeholders, possible effects and principles, while respecting different beliefs.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of ix–x — ethics and moral decision-making using appropriate examples and context.",
+          "modelAnswer": "Ethics examines how people decide what is right and responsible. Consider honesty, fairness, respect, compassion, duties, consequences and human dignity. Explain a moral choice by identifying stakeholders, possible effects and principles, while respecting different beliefs. Develop the response with an introduction, supported explanation and conclusion.",
+          "rubric": [
+            "Knowledge and accuracy (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "IX–X — Religious Studies and respectful understanding",
+      "description": "Supplementary unit 2: IX–X — Religious Studies and respectful understanding.",
+      "lessons": [
+        {
+          "title": "2.1 IX–X — Religious Studies and respectful understanding — key ideas",
+          "type": "text",
+          "content": "## Learning outcomes\nReligious Studies explores beliefs, practices, values, texts and traditions in their historical and cultural contexts. Describe a tradition accurately, distinguish description from personal judgement, and practise respectful dialogue across communities.\n\n## Study task\nDefine the key terms, identify the context and explain one practical or historical example.",
+          "explanations": {
+            "ur": "مذہبیات میں عقائد، عبادات، اقدار، متون اور روایات کو تاریخی و ثقافتی پس منظر میں سمجھا جاتا ہے۔ مختلف برادریوں کے عقائد کا احترام کریں۔",
+            "sd": "مذهبي اڀياس ۾ عقيدا، عمل، قدرون، متن ۽ روايتون تاريخي ۽ ثقافتي پسمنظر ۾ سمجهيون وڃن ٿيون. مختلف برادرين جي عقيدن جو احترام ڪريو."
+          }
+        },
+        {
+          "title": "2.2 IX–X — Religious Studies and respectful understanding — analysis and reflection",
+          "type": "text",
+          "content": "Apply the unit's concepts to a short case or prescribed reading. Identify the evidence, explain the reasoning and present a respectful, well-organised conclusion.",
+          "explanations": {
+            "ur": "اس سبق کے تصورات کو ایک مختصر مثال یا مقررہ مطالعے پر لاگو کریں۔ شواہد، دلیل اور منظم نتیجہ پیش کریں۔",
+            "sd": "هن سبق جي تصورن کي مختصر مثال يا مقرر پڙهڻيءَ تي لاڳو ڪريو. ثبوت، دليل ۽ ترتيبوار نتيجو پيش ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach best supports the study of ix–x — religious studies and respectful understanding?",
+          "options": {
+            "A": "Use accurate context, reliable sources and clear reasoning.",
+            "B": "Rely on stereotypes and unsupported claims.",
+            "C": "Ignore the source and historical setting.",
+            "D": "Treat every community or period as identical."
+          },
+          "correctOption": "A",
+          "explanation": "Religious Studies explores beliefs, practices, values, texts and traditions in their historical and cultural contexts. Describe a tradition accurately, distinguish description from personal judgement, and practise respectful dialogue across communities."
+        },
+        {
+          "question": "What should a strong answer about ix–x — religious studies and respectful understanding include?",
+          "options": {
+            "A": "Unrelated details only.",
+            "B": "Relevant concepts, evidence and a clear explanation.",
+            "C": "Personal judgement without reasons.",
+            "D": "No reference to context."
+          },
+          "correctOption": "B",
+          "explanation": "Religious Studies explores beliefs, practices, values, texts and traditions in their historical and cultural contexts. Describe a tradition accurately, distinguish description from personal judgement, and practise respectful dialogue across communities."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas from ix–x — religious studies and respectful understanding and give examples.",
+          "modelAnswer": "Religious Studies explores beliefs, practices, values, texts and traditions in their historical and cultural contexts. Describe a tradition accurately, distinguish description from personal judgement, and practise respectful dialogue across communities.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of ix–x — religious studies and respectful understanding using appropriate examples and context.",
+          "modelAnswer": "Religious Studies explores beliefs, practices, values, texts and traditions in their historical and cultural contexts. Describe a tradition accurately, distinguish description from personal judgement, and practise respectful dialogue across communities. Develop the response with an introduction, supported explanation and conclusion.",
+          "rubric": [
+            "Knowledge and accuracy (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "XI–XII — Applied ethics and citizenship",
+      "description": "Supplementary unit 3: XI–XII — Applied ethics and citizenship.",
+      "lessons": [
+        {
+          "title": "3.1 XI–XII — Applied ethics and citizenship — key ideas",
+          "type": "text",
+          "content": "## Learning outcomes\nApply ethical reasoning to public life, education, employment, technology, environment and social media. Evaluate privacy, consent, fairness, accountability and the impact of decisions on vulnerable groups. Support conclusions with clear reasons.\n\n## Study task\nDefine the key terms, identify the context and explain one practical or historical example.",
+          "explanations": {
+            "ur": "اخلاقی اصولوں کو شہری زندگی، تعلیم، ملازمت، ٹیکنالوجی، ماحول اور سوشل میڈیا پر لاگو کریں۔ رازداری، رضامندی، انصاف اور جواب دہی کا جائزہ لیں۔",
+            "sd": "اخلاقي اصولن کي شهري زندگي، تعليم، روزگار، ٽيڪنالاجي، ماحول ۽ سوشل ميڊيا تي لاڳو ڪريو. رازداري، رضامندي، انصاف ۽ جوابدهي پرکو."
+          }
+        },
+        {
+          "title": "3.2 XI–XII — Applied ethics and citizenship — analysis and reflection",
+          "type": "text",
+          "content": "Apply the unit's concepts to a short case or prescribed reading. Identify the evidence, explain the reasoning and present a respectful, well-organised conclusion.",
+          "explanations": {
+            "ur": "اس سبق کے تصورات کو ایک مختصر مثال یا مقررہ مطالعے پر لاگو کریں۔ شواہد، دلیل اور منظم نتیجہ پیش کریں۔",
+            "sd": "هن سبق جي تصورن کي مختصر مثال يا مقرر پڙهڻيءَ تي لاڳو ڪريو. ثبوت، دليل ۽ ترتيبوار نتيجو پيش ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach best supports the study of xi–xii — applied ethics and citizenship?",
+          "options": {
+            "A": "Use accurate context, reliable sources and clear reasoning.",
+            "B": "Rely on stereotypes and unsupported claims.",
+            "C": "Ignore the source and historical setting.",
+            "D": "Treat every community or period as identical."
+          },
+          "correctOption": "A",
+          "explanation": "Apply ethical reasoning to public life, education, employment, technology, environment and social media. Evaluate privacy, consent, fairness, accountability and the impact of decisions on vulnerable groups. Support conclusions with clear reasons."
+        },
+        {
+          "question": "What should a strong answer about xi–xii — applied ethics and citizenship include?",
+          "options": {
+            "A": "Unrelated details only.",
+            "B": "Relevant concepts, evidence and a clear explanation.",
+            "C": "Personal judgement without reasons.",
+            "D": "No reference to context."
+          },
+          "correctOption": "B",
+          "explanation": "Apply ethical reasoning to public life, education, employment, technology, environment and social media. Evaluate privacy, consent, fairness, accountability and the impact of decisions on vulnerable groups. Support conclusions with clear reasons."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas from xi–xii — applied ethics and citizenship and give examples.",
+          "modelAnswer": "Apply ethical reasoning to public life, education, employment, technology, environment and social media. Evaluate privacy, consent, fairness, accountability and the impact of decisions on vulnerable groups. Support conclusions with clear reasons.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of xi–xii — applied ethics and citizenship using appropriate examples and context.",
+          "modelAnswer": "Apply ethical reasoning to public life, education, employment, technology, environment and social media. Evaluate privacy, consent, fairness, accountability and the impact of decisions on vulnerable groups. Support conclusions with clear reasons. Develop the response with an introduction, supported explanation and conclusion.",
+          "rubric": [
+            "Knowledge and accuracy (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "XI–XII — Comparative religious literacy and dialogue",
+      "description": "Supplementary unit 4: XI–XII — Comparative religious literacy and dialogue.",
+      "lessons": [
+        {
+          "title": "4.1 XI–XII — Comparative religious literacy and dialogue — key ideas",
+          "type": "text",
+          "content": "## Learning outcomes\nCompare religious traditions carefully by identifying the context and source of each teaching. Avoid stereotypes and generalisations. A respectful comparison describes similarities and differences accurately and recognises diversity within communities.\n\n## Study task\nDefine the key terms, identify the context and explain one practical or historical example.",
+          "explanations": {
+            "ur": "مختلف مذہبی روایات کا موازنہ مستند ماخذ اور سیاق کے ساتھ کریں۔ دقیانوسی تصورات سے بچیں اور برادریوں کے اندر موجود تنوع کو تسلیم کریں۔",
+            "sd": "مختلف مذهبي روايتن جو معتبر ماخذ ۽ سياق سان ڀيٽ ڪريو. عام غلط تصور کان پاسو ڪريو ۽ برادرين اندر تنوع کي تسليم ڪريو."
+          }
+        },
+        {
+          "title": "4.2 XI–XII — Comparative religious literacy and dialogue — analysis and reflection",
+          "type": "text",
+          "content": "Apply the unit's concepts to a short case or prescribed reading. Identify the evidence, explain the reasoning and present a respectful, well-organised conclusion.",
+          "explanations": {
+            "ur": "اس سبق کے تصورات کو ایک مختصر مثال یا مقررہ مطالعے پر لاگو کریں۔ شواہد، دلیل اور منظم نتیجہ پیش کریں۔",
+            "sd": "هن سبق جي تصورن کي مختصر مثال يا مقرر پڙهڻيءَ تي لاڳو ڪريو. ثبوت، دليل ۽ ترتيبوار نتيجو پيش ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach best supports the study of xi–xii — comparative religious literacy and dialogue?",
+          "options": {
+            "A": "Use accurate context, reliable sources and clear reasoning.",
+            "B": "Rely on stereotypes and unsupported claims.",
+            "C": "Ignore the source and historical setting.",
+            "D": "Treat every community or period as identical."
+          },
+          "correctOption": "A",
+          "explanation": "Compare religious traditions carefully by identifying the context and source of each teaching. Avoid stereotypes and generalisations. A respectful comparison describes similarities and differences accurately and recognises diversity within communities."
+        },
+        {
+          "question": "What should a strong answer about xi–xii — comparative religious literacy and dialogue include?",
+          "options": {
+            "A": "Unrelated details only.",
+            "B": "Relevant concepts, evidence and a clear explanation.",
+            "C": "Personal judgement without reasons.",
+            "D": "No reference to context."
+          },
+          "correctOption": "B",
+          "explanation": "Compare religious traditions carefully by identifying the context and source of each teaching. Avoid stereotypes and generalisations. A respectful comparison describes similarities and differences accurately and recognises diversity within communities."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas from xi–xii — comparative religious literacy and dialogue and give examples.",
+          "modelAnswer": "Compare religious traditions carefully by identifying the context and source of each teaching. Avoid stereotypes and generalisations. A respectful comparison describes similarities and differences accurately and recognises diversity within communities.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of xi–xii — comparative religious literacy and dialogue using appropriate examples and context.",
+          "modelAnswer": "Compare religious traditions carefully by identifying the context and source of each teaching. Avoid stereotypes and generalisations. A respectful comparison describes similarities and differences accurately and recognises diversity within communities. Develop the response with an introduction, supported explanation and conclusion.",
+          "rubric": [
+            "Knowledge and accuracy (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
