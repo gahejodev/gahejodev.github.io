@@ -2,7 +2,7 @@
   "id": "humanities-commerce-xi-xii-extended",
   "title": "XI–XII Humanities and Commerce Electives — Extended Foundations",
   "description": "Supplementary grade-level units with lessons, MCQs, CRQs and ERQs, including Urdu and Sindhi support. Confirm the student's board, group and prescribed textbook before treating any elective as part of an individual syllabus.",
-  "version": "1",
+  "version": "2",
   "curriculumAlignment": "Supplementary map for selected Sindh HSC Commerce and General Group subjects listed in the 2024 notification and DCAR curriculum catalogue. Subject availability varies by board, college and group; this is not a full textbook chapter reproduction.",
   "sourceReferences": [
     {
@@ -55,7 +55,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Study the evolution of Pakistan's constitutional, political, social and economic institutions. Analyse federalism, citizenship, regional diversity, public policy and international relations using historical context and evidence. Distinguish constitutional principles from political commentary."
+          "explanation": "Study the evolution of Pakistan's constitutional, political, social and economic institutions. Analyse federalism, citizenship, regional diversity, public policy and international relations using historical context and evidence. Distinguish constitutional principles from political commentary.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "پاکستان کے آئینی، سیاسی، سماجی اور معاشی اداروں کی تشکیل کا مطالعہ کریں۔ وفاقیت، شہریت، علاقائی تنوع، عوامی پالیسی اور خارجہ تعلقات کو شواہد سے سمجھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "پاکستان کے آئینی، سیاسی، سماجی اور معاشی اداروں کی تشکیل کا مطالعہ کریں۔ وفاقیت، شہریت، علاقائی تنوع، عوامی پالیسی اور خارجہ تعلقات کو شواہد سے سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "پاڪستان جي آئيني، سياسي، سماجي ۽ معاشي ادارن جي ارتقا جو مطالعو ڪريو. وفاقيت، شهريت، علائقائي تنوع، عوامي پاليسي ۽ پرڏيهي لاڳاپن کي ثبوت سان سمجهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "پاڪستان جي آئيني، سياسي، سماجي ۽ معاشي ادارن جي ارتقا جو مطالعو ڪريو. وفاقيت، شهريت، علائقائي تنوع، عوامي پاليسي ۽ پرڏيهي لاڳاپن کي ثبوت سان سمجهو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of advanced pakistan studies xi–xii?",
@@ -66,7 +88,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Study the evolution of Pakistan's constitutional, political, social and economic institutions. Analyse federalism, citizenship, regional diversity, public policy and international relations using historical context and evidence. Distinguish constitutional principles from political commentary."
+          "explanation": "Study the evolution of Pakistan's constitutional, political, social and economic institutions. Analyse federalism, citizenship, regional diversity, public policy and international relations using historical context and evidence. Distinguish constitutional principles from political commentary.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "پاکستان کے آئینی، سیاسی، سماجی اور معاشی اداروں کی تشکیل کا مطالعہ کریں۔ وفاقیت، شہریت، علاقائی تنوع، عوامی پالیسی اور خارجہ تعلقات کو شواہد سے سمجھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "پاکستان کے آئینی، سیاسی، سماجی اور معاشی اداروں کی تشکیل کا مطالعہ کریں۔ وفاقیت، شہریت، علاقائی تنوع، عوامی پالیسی اور خارجہ تعلقات کو شواہد سے سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "پاڪستان جي آئيني، سياسي، سماجي ۽ معاشي ادارن جي ارتقا جو مطالعو ڪريو. وفاقيت، شهريت، علائقائي تنوع، عوامي پاليسي ۽ پرڏيهي لاڳاپن کي ثبوت سان سمجهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "پاڪستان جي آئيني، سياسي، سماجي ۽ معاشي ادارن جي ارتقا جو مطالعو ڪريو. وفاقيت، شهريت، علائقائي تنوع، عوامي پاليسي ۽ پرڏيهي لاڳاپن کي ثبوت سان سمجهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -79,7 +123,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "پاکستان کے آئینی، سیاسی، سماجی اور معاشی اداروں کی تشکیل کا مطالعہ کریں۔ وفاقیت، شہریت، علاقائی تنوع، عوامی پالیسی اور خارجہ تعلقات کو شواہد سے سمجھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "پاڪستان جي آئيني، سياسي، سماجي ۽ معاشي ادارن جي ارتقا جو مطالعو ڪريو. وفاقيت، شهريت، علائقائي تنوع، عوامي پاليسي ۽ پرڏيهي لاڳاپن کي ثبوت سان سمجهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -91,7 +155,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "پاکستان کے آئینی، سیاسی، سماجی اور معاشی اداروں کی تشکیل کا مطالعہ کریں۔ وفاقیت، شہریت، علاقائی تنوع، عوامی پالیسی اور خارجہ تعلقات کو شواہد سے سمجھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "پاڪستان جي آئيني، سياسي، سماجي ۽ معاشي ادارن جي ارتقا جو مطالعو ڪريو. وفاقيت، شهريت، علائقائي تنوع، عوامي پاليسي ۽ پرڏيهي لاڳاپن کي ثبوت سان سمجهو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -128,7 +214,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Literary study examines genre, plot, character, setting, imagery, tone, structure and theme. Analyse how language creates meaning and how context shapes interpretation. Support a critical response with close reference to the prescribed text."
+          "explanation": "Literary study examines genre, plot, character, setting, imagery, tone, structure and theme. Analyse how language creates meaning and how context shapes interpretation. Support a critical response with close reference to the prescribed text.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "ادبی مطالعے میں صنف، پلاٹ، کردار، ماحول، منظر نگاری، لہجہ، ساخت اور موضوع کا تجزیہ کریں۔ تشریح میں مقررہ متن سے دلیل دیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "ادبی مطالعے میں صنف، پلاٹ، کردار، ماحول، منظر نگاری، لہجہ، ساخت اور موضوع کا تجزیہ کریں۔ تشریح میں مقررہ متن سے دلیل دیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "ادبي مطالعي ۾ صنف، پلاٽ، ڪردار، ماحول، تصويري ٻولي، لهجو، بناوت ۽ موضوع جو تجزيو ڪريو. تشريح ۾ مقرر متن مان دليل ڏيو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "ادبي مطالعي ۾ صنف، پلاٽ، ڪردار، ماحول، تصويري ٻولي، لهجو، بناوت ۽ موضوع جو تجزيو ڪريو. تشريح ۾ مقرر متن مان دليل ڏيو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of english literature xi–xii?",
@@ -139,7 +247,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Literary study examines genre, plot, character, setting, imagery, tone, structure and theme. Analyse how language creates meaning and how context shapes interpretation. Support a critical response with close reference to the prescribed text."
+          "explanation": "Literary study examines genre, plot, character, setting, imagery, tone, structure and theme. Analyse how language creates meaning and how context shapes interpretation. Support a critical response with close reference to the prescribed text.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "ادبی مطالعے میں صنف، پلاٹ، کردار، ماحول، منظر نگاری، لہجہ، ساخت اور موضوع کا تجزیہ کریں۔ تشریح میں مقررہ متن سے دلیل دیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "ادبی مطالعے میں صنف، پلاٹ، کردار، ماحول، منظر نگاری، لہجہ، ساخت اور موضوع کا تجزیہ کریں۔ تشریح میں مقررہ متن سے دلیل دیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "ادبي مطالعي ۾ صنف، پلاٽ، ڪردار، ماحول، تصويري ٻولي، لهجو، بناوت ۽ موضوع جو تجزيو ڪريو. تشريح ۾ مقرر متن مان دليل ڏيو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "ادبي مطالعي ۾ صنف، پلاٽ، ڪردار، ماحول، تصويري ٻولي، لهجو، بناوت ۽ موضوع جو تجزيو ڪريو. تشريح ۾ مقرر متن مان دليل ڏيو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -152,7 +282,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "ادبی مطالعے میں صنف، پلاٹ، کردار، ماحول، منظر نگاری، لہجہ، ساخت اور موضوع کا تجزیہ کریں۔ تشریح میں مقررہ متن سے دلیل دیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "ادبي مطالعي ۾ صنف، پلاٽ، ڪردار، ماحول، تصويري ٻولي، لهجو، بناوت ۽ موضوع جو تجزيو ڪريو. تشريح ۾ مقرر متن مان دليل ڏيو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -164,7 +314,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "ادبی مطالعے میں صنف، پلاٹ، کردار، ماحول، منظر نگاری، لہجہ، ساخت اور موضوع کا تجزیہ کریں۔ تشریح میں مقررہ متن سے دلیل دیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "ادبي مطالعي ۾ صنف، پلاٽ، ڪردار، ماحول، تصويري ٻولي، لهجو، بناوت ۽ موضوع جو تجزيو ڪريو. تشريح ۾ مقرر متن مان دليل ڏيو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -201,7 +373,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Ethical reasoning considers duties, consequences, fairness, dignity, honesty and care. Compare viewpoints respectfully, distinguish evidence from assumption, and apply ethical principles to family, community, work and public life. Religious Studies should follow the learner's applicable curriculum."
+          "explanation": "Ethical reasoning considers duties, consequences, fairness, dignity, honesty and care. Compare viewpoints respectfully, distinguish evidence from assumption, and apply ethical principles to family, community, work and public life. Religious Studies should follow the learner's applicable curriculum.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "اخلاقی فکر میں فرائض، نتائج، انصاف، انسانی وقار، دیانت اور ہمدردی شامل ہیں۔ مختلف نقطہ ہائے نظر کا احترام کریں اور اصولوں کو زندگی پر لاگو کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "اخلاقی فکر میں فرائض، نتائج، انصاف، انسانی وقار، دیانت اور ہمدردی شامل ہیں۔ مختلف نقطہ ہائے نظر کا احترام کریں اور اصولوں کو زندگی پر لاگو کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "اخلاقي سوچ ۾ فرض، نتيجا، انصاف، انساني وقار، ايمانداري ۽ همدردي شامل آهن. مختلف نظرين جو احترام ڪريو ۽ اصولن کي زندگيءَ تي لاڳو ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اخلاقي سوچ ۾ فرض، نتيجا، انصاف، انساني وقار، ايمانداري ۽ همدردي شامل آهن. مختلف نظرين جو احترام ڪريو ۽ اصولن کي زندگيءَ تي لاڳو ڪريو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of ethics and religious studies xi–xii?",
@@ -212,7 +406,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Ethical reasoning considers duties, consequences, fairness, dignity, honesty and care. Compare viewpoints respectfully, distinguish evidence from assumption, and apply ethical principles to family, community, work and public life. Religious Studies should follow the learner's applicable curriculum."
+          "explanation": "Ethical reasoning considers duties, consequences, fairness, dignity, honesty and care. Compare viewpoints respectfully, distinguish evidence from assumption, and apply ethical principles to family, community, work and public life. Religious Studies should follow the learner's applicable curriculum.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "اخلاقی فکر میں فرائض، نتائج، انصاف، انسانی وقار، دیانت اور ہمدردی شامل ہیں۔ مختلف نقطہ ہائے نظر کا احترام کریں اور اصولوں کو زندگی پر لاگو کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "اخلاقی فکر میں فرائض، نتائج، انصاف، انسانی وقار، دیانت اور ہمدردی شامل ہیں۔ مختلف نقطہ ہائے نظر کا احترام کریں اور اصولوں کو زندگی پر لاگو کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "اخلاقي سوچ ۾ فرض، نتيجا، انصاف، انساني وقار، ايمانداري ۽ همدردي شامل آهن. مختلف نظرين جو احترام ڪريو ۽ اصولن کي زندگيءَ تي لاڳو ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اخلاقي سوچ ۾ فرض، نتيجا، انصاف، انساني وقار، ايمانداري ۽ همدردي شامل آهن. مختلف نظرين جو احترام ڪريو ۽ اصولن کي زندگيءَ تي لاڳو ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -225,7 +441,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "اخلاقی فکر میں فرائض، نتائج، انصاف، انسانی وقار، دیانت اور ہمدردی شامل ہیں۔ مختلف نقطہ ہائے نظر کا احترام کریں اور اصولوں کو زندگی پر لاگو کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "اخلاقي سوچ ۾ فرض، نتيجا، انصاف، انساني وقار، ايمانداري ۽ همدردي شامل آهن. مختلف نظرين جو احترام ڪريو ۽ اصولن کي زندگيءَ تي لاڳو ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -237,7 +473,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "اخلاقی فکر میں فرائض، نتائج، انصاف، انسانی وقار، دیانت اور ہمدردی شامل ہیں۔ مختلف نقطہ ہائے نظر کا احترام کریں اور اصولوں کو زندگی پر لاگو کریں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "اخلاقي سوچ ۾ فرض، نتيجا، انصاف، انساني وقار، ايمانداري ۽ همدردي شامل آهن. مختلف نظرين جو احترام ڪريو ۽ اصولن کي زندگيءَ تي لاڳو ڪريو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -274,7 +532,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Banking intermediates between savers and borrowers and supports payments, credit and financial services. Study deposits, accounts, cheques, digital transfers, interest, risk, customer protection and responsible borrowing. Verify fees and terms before choosing a financial product."
+          "explanation": "Banking intermediates between savers and borrowers and supports payments, credit and financial services. Study deposits, accounts, cheques, digital transfers, interest, risk, customer protection and responsible borrowing. Verify fees and terms before choosing a financial product.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "بینکاری بچت کرنے والوں اور قرض لینے والوں کے درمیان مالی واسطہ ہے۔ کھاتے، چیک، ڈیجیٹل ادائیگی، سود، خطرات، صارف کے تحفظ اور ذمہ دار قرض کے اصول پڑھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "بینکاری بچت کرنے والوں اور قرض لینے والوں کے درمیان مالی واسطہ ہے۔ کھاتے، چیک، ڈیجیٹل ادائیگی، سود، خطرات، صارف کے تحفظ اور ذمہ دار قرض کے اصول پڑھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "بئنڪنگ بچت ڪندڙن ۽ قرض وٺندڙن جي وچ ۾ مالي واسطو آهي. کاتا، چيڪ، ڊجيٽل ادائيگي، وياج، خطرا، صارف جو تحفظ ۽ ذميوار قرض پڙهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "بئنڪنگ بچت ڪندڙن ۽ قرض وٺندڙن جي وچ ۾ مالي واسطو آهي. کاتا، چيڪ، ڊجيٽل ادائيگي، وياج، خطرا، صارف جو تحفظ ۽ ذميوار قرض پڙهو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of banking xi–xii?",
@@ -285,7 +565,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Banking intermediates between savers and borrowers and supports payments, credit and financial services. Study deposits, accounts, cheques, digital transfers, interest, risk, customer protection and responsible borrowing. Verify fees and terms before choosing a financial product."
+          "explanation": "Banking intermediates between savers and borrowers and supports payments, credit and financial services. Study deposits, accounts, cheques, digital transfers, interest, risk, customer protection and responsible borrowing. Verify fees and terms before choosing a financial product.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "بینکاری بچت کرنے والوں اور قرض لینے والوں کے درمیان مالی واسطہ ہے۔ کھاتے، چیک، ڈیجیٹل ادائیگی، سود، خطرات، صارف کے تحفظ اور ذمہ دار قرض کے اصول پڑھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "بینکاری بچت کرنے والوں اور قرض لینے والوں کے درمیان مالی واسطہ ہے۔ کھاتے، چیک، ڈیجیٹل ادائیگی، سود، خطرات، صارف کے تحفظ اور ذمہ دار قرض کے اصول پڑھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "بئنڪنگ بچت ڪندڙن ۽ قرض وٺندڙن جي وچ ۾ مالي واسطو آهي. کاتا، چيڪ، ڊجيٽل ادائيگي، وياج، خطرا، صارف جو تحفظ ۽ ذميوار قرض پڙهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "بئنڪنگ بچت ڪندڙن ۽ قرض وٺندڙن جي وچ ۾ مالي واسطو آهي. کاتا، چيڪ، ڊجيٽل ادائيگي، وياج، خطرا، صارف جو تحفظ ۽ ذميوار قرض پڙهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -298,7 +600,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "بینکاری بچت کرنے والوں اور قرض لینے والوں کے درمیان مالی واسطہ ہے۔ کھاتے، چیک، ڈیجیٹل ادائیگی، سود، خطرات، صارف کے تحفظ اور ذمہ دار قرض کے اصول پڑھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "بئنڪنگ بچت ڪندڙن ۽ قرض وٺندڙن جي وچ ۾ مالي واسطو آهي. کاتا، چيڪ، ڊجيٽل ادائيگي، وياج، خطرا، صارف جو تحفظ ۽ ذميوار قرض پڙهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -310,7 +632,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "بینکاری بچت کرنے والوں اور قرض لینے والوں کے درمیان مالی واسطہ ہے۔ کھاتے، چیک، ڈیجیٹل ادائیگی، سود، خطرات، صارف کے تحفظ اور ذمہ دار قرض کے اصول پڑھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "بئنڪنگ بچت ڪندڙن ۽ قرض وٺندڙن جي وچ ۾ مالي واسطو آهي. کاتا، چيڪ، ڊجيٽل ادائيگي، وياج، خطرا، صارف جو تحفظ ۽ ذميوار قرض پڙهو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -347,7 +691,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Statistics collects, organises, summarises and interprets data. Distinguish population from sample, qualitative from quantitative variables, and mean from median and mode. Graphs should have clear labels and scales; correlation alone does not prove causation."
+          "explanation": "Statistics collects, organises, summarises and interprets data. Distinguish population from sample, qualitative from quantitative variables, and mean from median and mode. Graphs should have clear labels and scales; correlation alone does not prove causation.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "شماریات ڈیٹا جمع، منظم، خلاصہ اور تشریح کرتی ہے۔ آبادی اور نمونے، معیاری و مقداری متغیرات اور اوسط، وسطانیہ و منوال میں فرق کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "شماریات ڈیٹا جمع، منظم، خلاصہ اور تشریح کرتی ہے۔ آبادی اور نمونے، معیاری و مقداری متغیرات اور اوسط، وسطانیہ و منوال میں فرق کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "شماريات ڊيٽا گڏ، ترتيب، خلاصو ۽ تشريح ڪري ٿي. آبادي ۽ نموني، معياري ۽ مقداري متغيرن، اوسط، وچين ۽ گهڻائي ۾ فرق ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "شماريات ڊيٽا گڏ، ترتيب، خلاصو ۽ تشريح ڪري ٿي. آبادي ۽ نموني، معياري ۽ مقداري متغيرن، اوسط، وچين ۽ گهڻائي ۾ فرق ڪريو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of statistics xi–xii?",
@@ -358,7 +724,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Statistics collects, organises, summarises and interprets data. Distinguish population from sample, qualitative from quantitative variables, and mean from median and mode. Graphs should have clear labels and scales; correlation alone does not prove causation."
+          "explanation": "Statistics collects, organises, summarises and interprets data. Distinguish population from sample, qualitative from quantitative variables, and mean from median and mode. Graphs should have clear labels and scales; correlation alone does not prove causation.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "شماریات ڈیٹا جمع، منظم، خلاصہ اور تشریح کرتی ہے۔ آبادی اور نمونے، معیاری و مقداری متغیرات اور اوسط، وسطانیہ و منوال میں فرق کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "شماریات ڈیٹا جمع، منظم، خلاصہ اور تشریح کرتی ہے۔ آبادی اور نمونے، معیاری و مقداری متغیرات اور اوسط، وسطانیہ و منوال میں فرق کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "شماريات ڊيٽا گڏ، ترتيب، خلاصو ۽ تشريح ڪري ٿي. آبادي ۽ نموني، معياري ۽ مقداري متغيرن، اوسط، وچين ۽ گهڻائي ۾ فرق ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "شماريات ڊيٽا گڏ، ترتيب، خلاصو ۽ تشريح ڪري ٿي. آبادي ۽ نموني، معياري ۽ مقداري متغيرن، اوسط، وچين ۽ گهڻائي ۾ فرق ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -371,7 +759,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "شماریات ڈیٹا جمع، منظم، خلاصہ اور تشریح کرتی ہے۔ آبادی اور نمونے، معیاری و مقداری متغیرات اور اوسط، وسطانیہ و منوال میں فرق کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "شماريات ڊيٽا گڏ، ترتيب، خلاصو ۽ تشريح ڪري ٿي. آبادي ۽ نموني، معياري ۽ مقداري متغيرن، اوسط، وچين ۽ گهڻائي ۾ فرق ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -383,7 +791,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "شماریات ڈیٹا جمع، منظم، خلاصہ اور تشریح کرتی ہے۔ آبادی اور نمونے، معیاری و مقداری متغیرات اور اوسط، وسطانیہ و منوال میں فرق کریں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "شماريات ڊيٽا گڏ، ترتيب، خلاصو ۽ تشريح ڪري ٿي. آبادي ۽ نموني، معياري ۽ مقداري متغيرن، اوسط، وچين ۽ گهڻائي ۾ فرق ڪريو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -420,7 +850,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Psychology studies behaviour and mental processes. Introductory themes include perception, learning, memory, motivation, emotion, development and social influence. Evaluate explanations using evidence and recognise individual and cultural differences."
+          "explanation": "Psychology studies behaviour and mental processes. Introductory themes include perception, learning, memory, motivation, emotion, development and social influence. Evaluate explanations using evidence and recognise individual and cultural differences.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "نفسیات رویے اور ذہنی عملوں کا مطالعہ ہے۔ ادراک، سیکھنا، یادداشت، محرک، جذبات، نشوونما اور سماجی اثرات جیسے موضوعات پڑھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "نفسیات رویے اور ذہنی عملوں کا مطالعہ ہے۔ ادراک، سیکھنا، یادداشت، محرک، جذبات، نشوونما اور سماجی اثرات جیسے موضوعات پڑھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "نفسيات رويي ۽ ذهني عملن جو مطالعو آهي. ادراڪ، سکيا، يادگيري، ترغيب، جذبا، واڌ ۽ سماجي اثر جهڙا موضوع پڙهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "نفسيات رويي ۽ ذهني عملن جو مطالعو آهي. ادراڪ، سکيا، يادگيري، ترغيب، جذبا، واڌ ۽ سماجي اثر جهڙا موضوع پڙهو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of psychology xi–xii?",
@@ -431,7 +883,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Psychology studies behaviour and mental processes. Introductory themes include perception, learning, memory, motivation, emotion, development and social influence. Evaluate explanations using evidence and recognise individual and cultural differences."
+          "explanation": "Psychology studies behaviour and mental processes. Introductory themes include perception, learning, memory, motivation, emotion, development and social influence. Evaluate explanations using evidence and recognise individual and cultural differences.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "نفسیات رویے اور ذہنی عملوں کا مطالعہ ہے۔ ادراک، سیکھنا، یادداشت، محرک، جذبات، نشوونما اور سماجی اثرات جیسے موضوعات پڑھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "نفسیات رویے اور ذہنی عملوں کا مطالعہ ہے۔ ادراک، سیکھنا، یادداشت، محرک، جذبات، نشوونما اور سماجی اثرات جیسے موضوعات پڑھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "نفسيات رويي ۽ ذهني عملن جو مطالعو آهي. ادراڪ، سکيا، يادگيري، ترغيب، جذبا، واڌ ۽ سماجي اثر جهڙا موضوع پڙهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "نفسيات رويي ۽ ذهني عملن جو مطالعو آهي. ادراڪ، سکيا، يادگيري، ترغيب، جذبا، واڌ ۽ سماجي اثر جهڙا موضوع پڙهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -444,7 +918,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "نفسیات رویے اور ذہنی عملوں کا مطالعہ ہے۔ ادراک، سیکھنا، یادداشت، محرک، جذبات، نشوونما اور سماجی اثرات جیسے موضوعات پڑھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "نفسيات رويي ۽ ذهني عملن جو مطالعو آهي. ادراڪ، سکيا، يادگيري، ترغيب، جذبا، واڌ ۽ سماجي اثر جهڙا موضوع پڙهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -456,7 +950,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "نفسیات رویے اور ذہنی عملوں کا مطالعہ ہے۔ ادراک، سیکھنا، یادداشت، محرک، جذبات، نشوونما اور سماجی اثرات جیسے موضوعات پڑھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "نفسيات رويي ۽ ذهني عملن جو مطالعو آهي. ادراڪ، سکيا، يادگيري، ترغيب، جذبا، واڌ ۽ سماجي اثر جهڙا موضوع پڙهو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -493,7 +1009,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Philosophy develops reasoned inquiry into knowledge, reality, values and arguments. Define terms, identify premises and conclusions, test validity, consider counterexamples and represent opposing positions fairly. A strong argument is clear, consistent and supported."
+          "explanation": "Philosophy develops reasoned inquiry into knowledge, reality, values and arguments. Define terms, identify premises and conclusions, test validity, consider counterexamples and represent opposing positions fairly. A strong argument is clear, consistent and supported.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "فلسفہ علم، حقیقت، اقدار اور دلائل کے بارے میں عقلی تحقیق ہے۔ اصطلاحات واضح کریں، مقدمات اور نتائج پہچانیں اور مخالف دلیل کا منصفانہ جائزہ لیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "فلسفہ علم، حقیقت، اقدار اور دلائل کے بارے میں عقلی تحقیق ہے۔ اصطلاحات واضح کریں، مقدمات اور نتائج پہچانیں اور مخالف دلیل کا منصفانہ جائزہ لیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "فلسفو ڄاڻ، حقيقت، قدرن ۽ دليلن بابت عقلي جاچ آهي. اصطلاحون واضح ڪريو، بنياد ۽ نتيجا سڃاڻو ۽ مخالف دليل کي انصاف سان پرکو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "فلسفو ڄاڻ، حقيقت، قدرن ۽ دليلن بابت عقلي جاچ آهي. اصطلاحون واضح ڪريو، بنياد ۽ نتيجا سڃاڻو ۽ مخالف دليل کي انصاف سان پرکو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of philosophy xi–xii?",
@@ -504,7 +1042,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Philosophy develops reasoned inquiry into knowledge, reality, values and arguments. Define terms, identify premises and conclusions, test validity, consider counterexamples and represent opposing positions fairly. A strong argument is clear, consistent and supported."
+          "explanation": "Philosophy develops reasoned inquiry into knowledge, reality, values and arguments. Define terms, identify premises and conclusions, test validity, consider counterexamples and represent opposing positions fairly. A strong argument is clear, consistent and supported.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "فلسفہ علم، حقیقت، اقدار اور دلائل کے بارے میں عقلی تحقیق ہے۔ اصطلاحات واضح کریں، مقدمات اور نتائج پہچانیں اور مخالف دلیل کا منصفانہ جائزہ لیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "فلسفہ علم، حقیقت، اقدار اور دلائل کے بارے میں عقلی تحقیق ہے۔ اصطلاحات واضح کریں، مقدمات اور نتائج پہچانیں اور مخالف دلیل کا منصفانہ جائزہ لیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "فلسفو ڄاڻ، حقيقت، قدرن ۽ دليلن بابت عقلي جاچ آهي. اصطلاحون واضح ڪريو، بنياد ۽ نتيجا سڃاڻو ۽ مخالف دليل کي انصاف سان پرکو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "فلسفو ڄاڻ، حقيقت، قدرن ۽ دليلن بابت عقلي جاچ آهي. اصطلاحون واضح ڪريو، بنياد ۽ نتيجا سڃاڻو ۽ مخالف دليل کي انصاف سان پرکو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -517,7 +1077,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "فلسفہ علم، حقیقت، اقدار اور دلائل کے بارے میں عقلی تحقیق ہے۔ اصطلاحات واضح کریں، مقدمات اور نتائج پہچانیں اور مخالف دلیل کا منصفانہ جائزہ لیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "فلسفو ڄاڻ، حقيقت، قدرن ۽ دليلن بابت عقلي جاچ آهي. اصطلاحون واضح ڪريو، بنياد ۽ نتيجا سڃاڻو ۽ مخالف دليل کي انصاف سان پرکو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -529,7 +1109,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "فلسفہ علم، حقیقت، اقدار اور دلائل کے بارے میں عقلی تحقیق ہے۔ اصطلاحات واضح کریں، مقدمات اور نتائج پہچانیں اور مخالف دلیل کا منصفانہ جائزہ لیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "فلسفو ڄاڻ، حقيقت، قدرن ۽ دليلن بابت عقلي جاچ آهي. اصطلاحون واضح ڪريو، بنياد ۽ نتيجا سڃاڻو ۽ مخالف دليل کي انصاف سان پرکو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -566,7 +1168,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Study Muslim civilisation through historical periods, institutions, scholarship, arts, science, trade and social change. Use chronology and primary or reliable secondary evidence. Avoid treating diverse societies and centuries as a single uniform experience."
+          "explanation": "Study Muslim civilisation through historical periods, institutions, scholarship, arts, science, trade and social change. Use chronology and primary or reliable secondary evidence. Avoid treating diverse societies and centuries as a single uniform experience.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "مسلم تہذیب کو تاریخی ادوار، اداروں، علم، فنون، سائنس، تجارت اور سماجی تبدیلی کے تناظر میں پڑھیں۔ معتبر تاریخی شواہد استعمال کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مسلم تہذیب کو تاریخی ادوار، اداروں، علم، فنون، سائنس، تجارت اور سماجی تبدیلی کے تناظر میں پڑھیں۔ معتبر تاریخی شواہد استعمال کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "مسلم تهذيب کي تاريخي دورن، ادارن، علم، فن، سائنس، واپار ۽ سماجي تبديليءَ سان پڙهو. معتبر تاريخي ثبوت استعمال ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مسلم تهذيب کي تاريخي دورن، ادارن، علم، فن، سائنس، واپار ۽ سماجي تبديليءَ سان پڙهو. معتبر تاريخي ثبوت استعمال ڪريو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of islamic culture and muslim history xi–xii?",
@@ -577,7 +1201,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Study Muslim civilisation through historical periods, institutions, scholarship, arts, science, trade and social change. Use chronology and primary or reliable secondary evidence. Avoid treating diverse societies and centuries as a single uniform experience."
+          "explanation": "Study Muslim civilisation through historical periods, institutions, scholarship, arts, science, trade and social change. Use chronology and primary or reliable secondary evidence. Avoid treating diverse societies and centuries as a single uniform experience.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "مسلم تہذیب کو تاریخی ادوار، اداروں، علم، فنون، سائنس، تجارت اور سماجی تبدیلی کے تناظر میں پڑھیں۔ معتبر تاریخی شواہد استعمال کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مسلم تہذیب کو تاریخی ادوار، اداروں، علم، فنون، سائنس، تجارت اور سماجی تبدیلی کے تناظر میں پڑھیں۔ معتبر تاریخی شواہد استعمال کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "مسلم تهذيب کي تاريخي دورن، ادارن، علم، فن، سائنس، واپار ۽ سماجي تبديليءَ سان پڙهو. معتبر تاريخي ثبوت استعمال ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مسلم تهذيب کي تاريخي دورن، ادارن، علم، فن، سائنس، واپار ۽ سماجي تبديليءَ سان پڙهو. معتبر تاريخي ثبوت استعمال ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -590,7 +1236,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "مسلم تہذیب کو تاریخی ادوار، اداروں، علم، فنون، سائنس، تجارت اور سماجی تبدیلی کے تناظر میں پڑھیں۔ معتبر تاریخی شواہد استعمال کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "مسلم تهذيب کي تاريخي دورن، ادارن، علم، فن، سائنس، واپار ۽ سماجي تبديليءَ سان پڙهو. معتبر تاريخي ثبوت استعمال ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -602,7 +1268,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "مسلم تہذیب کو تاریخی ادوار، اداروں، علم، فنون، سائنس، تجارت اور سماجی تبدیلی کے تناظر میں پڑھیں۔ معتبر تاریخی شواہد استعمال کریں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "مسلم تهذيب کي تاريخي دورن، ادارن، علم، فن، سائنس، واپار ۽ سماجي تبديليءَ سان پڙهو. معتبر تاريخي ثبوت استعمال ڪريو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -639,7 +1327,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Physiology explains how organs and body systems maintain internal balance. Study homeostasis, nervous and endocrine coordination, circulation, respiration, digestion and excretion at an appropriate introductory level. Use diagrams and explain relationships between structure and function."
+          "explanation": "Physiology explains how organs and body systems maintain internal balance. Study homeostasis, nervous and endocrine coordination, circulation, respiration, digestion and excretion at an appropriate introductory level. Use diagrams and explain relationships between structure and function.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "فعلیات میں اعضا اور جسمانی نظاموں کے ذریعے اندرونی توازن برقرار رکھنے کا مطالعہ کریں۔ ہومیوسٹیسس، اعصابی و ہارمونی رابطہ، دورانِ خون، تنفس اور اخراج پڑھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "فعلیات میں اعضا اور جسمانی نظاموں کے ذریعے اندرونی توازن برقرار رکھنے کا مطالعہ کریں۔ ہومیوسٹیسس، اعصابی و ہارمونی رابطہ، دورانِ خون، تنفس اور اخراج پڑھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "فعليات ۾ عضون ۽ جسماني نظامن وسيلي اندروني توازن قائم رکڻ جو مطالعو ڪريو. هوميوسٽيسس، اعصابي ۽ هارموني رابطو، رت جي گردش، ساهه ۽ اخراج پڙهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "فعليات ۾ عضون ۽ جسماني نظامن وسيلي اندروني توازن قائم رکڻ جو مطالعو ڪريو. هوميوسٽيسس، اعصابي ۽ هارموني رابطو، رت جي گردش، ساهه ۽ اخراج پڙهو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of physiology xi–xii?",
@@ -650,7 +1360,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Physiology explains how organs and body systems maintain internal balance. Study homeostasis, nervous and endocrine coordination, circulation, respiration, digestion and excretion at an appropriate introductory level. Use diagrams and explain relationships between structure and function."
+          "explanation": "Physiology explains how organs and body systems maintain internal balance. Study homeostasis, nervous and endocrine coordination, circulation, respiration, digestion and excretion at an appropriate introductory level. Use diagrams and explain relationships between structure and function.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "فعلیات میں اعضا اور جسمانی نظاموں کے ذریعے اندرونی توازن برقرار رکھنے کا مطالعہ کریں۔ ہومیوسٹیسس، اعصابی و ہارمونی رابطہ، دورانِ خون، تنفس اور اخراج پڑھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "فعلیات میں اعضا اور جسمانی نظاموں کے ذریعے اندرونی توازن برقرار رکھنے کا مطالعہ کریں۔ ہومیوسٹیسس، اعصابی و ہارمونی رابطہ، دورانِ خون، تنفس اور اخراج پڑھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "فعليات ۾ عضون ۽ جسماني نظامن وسيلي اندروني توازن قائم رکڻ جو مطالعو ڪريو. هوميوسٽيسس، اعصابي ۽ هارموني رابطو، رت جي گردش، ساهه ۽ اخراج پڙهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "فعليات ۾ عضون ۽ جسماني نظامن وسيلي اندروني توازن قائم رکڻ جو مطالعو ڪريو. هوميوسٽيسس، اعصابي ۽ هارموني رابطو، رت جي گردش، ساهه ۽ اخراج پڙهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -663,7 +1395,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "فعلیات میں اعضا اور جسمانی نظاموں کے ذریعے اندرونی توازن برقرار رکھنے کا مطالعہ کریں۔ ہومیوسٹیسس، اعصابی و ہارمونی رابطہ، دورانِ خون، تنفس اور اخراج پڑھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "فعليات ۾ عضون ۽ جسماني نظامن وسيلي اندروني توازن قائم رکڻ جو مطالعو ڪريو. هوميوسٽيسس، اعصابي ۽ هارموني رابطو، رت جي گردش، ساهه ۽ اخراج پڙهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -675,7 +1427,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "فعلیات میں اعضا اور جسمانی نظاموں کے ذریعے اندرونی توازن برقرار رکھنے کا مطالعہ کریں۔ ہومیوسٹیسس، اعصابی و ہارمونی رابطہ، دورانِ خون، تنفس اور اخراج پڑھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "فعليات ۾ عضون ۽ جسماني نظامن وسيلي اندروني توازن قائم رکڻ جو مطالعو ڪريو. هوميوسٽيسس، اعصابي ۽ هارموني رابطو، رت جي گردش، ساهه ۽ اخراج پڙهو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -712,7 +1486,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Analyse how ports, transport corridors, financial services, markets, energy and location shape national and international trade. Use maps and data to explain trade flows, logistics and regional connections."
+          "explanation": "Analyse how ports, transport corridors, financial services, markets, energy and location shape national and international trade. Use maps and data to explain trade flows, logistics and regional connections.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "بندرگاہوں، نقل و حمل، مالی خدمات، منڈیوں، توانائی اور محلِ وقوع کے ذریعے ملکی و عالمی تجارت کا تجزیہ کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "بندرگاہوں، نقل و حمل، مالی خدمات، منڈیوں، توانائی اور محلِ وقوع کے ذریعے ملکی و عالمی تجارت کا تجزیہ کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "بندرگاهن، ٽرانسپورٽ، مالي خدمتن، مارڪيٽن، توانائي ۽ هنڌ ذريعي ملڪي ۽ عالمي واپار جو تجزيو ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "بندرگاهن، ٽرانسپورٽ، مالي خدمتن، مارڪيٽن، توانائي ۽ هنڌ ذريعي ملڪي ۽ عالمي واپار جو تجزيو ڪريو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of commercial geography xii — banking and trade routes?",
@@ -723,7 +1519,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Analyse how ports, transport corridors, financial services, markets, energy and location shape national and international trade. Use maps and data to explain trade flows, logistics and regional connections."
+          "explanation": "Analyse how ports, transport corridors, financial services, markets, energy and location shape national and international trade. Use maps and data to explain trade flows, logistics and regional connections.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "بندرگاہوں، نقل و حمل، مالی خدمات، منڈیوں، توانائی اور محلِ وقوع کے ذریعے ملکی و عالمی تجارت کا تجزیہ کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "بندرگاہوں، نقل و حمل، مالی خدمات، منڈیوں، توانائی اور محلِ وقوع کے ذریعے ملکی و عالمی تجارت کا تجزیہ کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "بندرگاهن، ٽرانسپورٽ، مالي خدمتن، مارڪيٽن، توانائي ۽ هنڌ ذريعي ملڪي ۽ عالمي واپار جو تجزيو ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "بندرگاهن، ٽرانسپورٽ، مالي خدمتن، مارڪيٽن، توانائي ۽ هنڌ ذريعي ملڪي ۽ عالمي واپار جو تجزيو ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -736,7 +1554,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "بندرگاہوں، نقل و حمل، مالی خدمات، منڈیوں، توانائی اور محلِ وقوع کے ذریعے ملکی و عالمی تجارت کا تجزیہ کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "بندرگاهن، ٽرانسپورٽ، مالي خدمتن، مارڪيٽن، توانائي ۽ هنڌ ذريعي ملڪي ۽ عالمي واپار جو تجزيو ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -748,7 +1586,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "بندرگاہوں، نقل و حمل، مالی خدمات، منڈیوں، توانائی اور محلِ وقوع کے ذریعے ملکی و عالمی تجارت کا تجزیہ کریں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "بندرگاهن، ٽرانسپورٽ، مالي خدمتن، مارڪيٽن، توانائي ۽ هنڌ ذريعي ملڪي ۽ عالمي واپار جو تجزيو ڪريو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     }
