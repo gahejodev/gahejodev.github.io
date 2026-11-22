@@ -15,6 +15,7 @@ function addStyles(){
  document.head.append(style);
 }
 let courseRecords=[],selectedGrade=null,selectedSubject=null;
+function chapterBelongsToGrade(ch,record,grade){const chapterGrades=getGrades(ch);return chapterGrades.length?chapterGrades.includes(grade):record.grades.length===1&&record.grades[0]===grade;}
 function renderCourses(){
  const el=$("courses");el.replaceChildren();el.classList.remove("empty");addStyles();
  const path=document.createElement("div");path.className="course-path";
@@ -34,7 +35,7 @@ function renderCourses(){
   el.append(grid);return;
  }
  const rows=records.filter(r=>r.subject===selectedSubject),list=document.createElement("div");list.className="course-chapter-list";
- rows.forEach(r=>r.chapters.forEach(ch=>{const item=document.createElement("article");item.className="course-chapter";const info=document.createElement("div"),title=document.createElement("strong"),meta=document.createElement("small");title.textContent=ch.title||"Untitled chapter";meta.textContent=(r.title||selectedSubject)+" · "+(ch.lessonCount??0)+" lessons";info.append(title,meta);const link=document.createElement("a");link.href="./course.html?id="+encodeURIComponent(r.id)+"&chapter="+encodeURIComponent(ch.id);link.textContent="Open chapter →";item.append(info,link);list.append(item)}));
+ rows.forEach(r=>r.chapters.filter(ch=>chapterBelongsToGrade(ch,r,selectedGrade)).forEach(ch=>{const item=document.createElement("article");item.className="course-chapter";const info=document.createElement("div"),title=document.createElement("strong"),meta=document.createElement("small");title.textContent=ch.title||"Untitled chapter";meta.textContent=(r.title||selectedSubject)+" · "+(ch.lessonCount??0)+" lessons";info.append(title,meta);const link=document.createElement("a");link.href="./course.html?id="+encodeURIComponent(r.id)+"&chapter="+encodeURIComponent(ch.id);link.textContent="Open chapter →";item.append(info,link);list.append(item)}));
  if(!list.children.length){el.textContent="No published chapters in this subject yet.";}else el.append(list);
 }
 onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
