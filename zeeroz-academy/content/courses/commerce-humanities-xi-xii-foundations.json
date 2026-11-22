@@ -1,0 +1,532 @@
+{
+  "id": "commerce-humanities-xi-xii-foundations",
+  "title": "Commerce and Humanities XI–XII — Foundation Studies",
+  "description": "Introductory supplementary units covering Accounting, Principles of Commerce, Economics, Business Mathematics and Statistics, Education, Library Science and Commercial Geography. Urdu and Sindhi support included; not a complete textbook reproduction.",
+  "version": "1",
+  "curriculumAlignment": "Subject overview mapped to the DCAR Sindh curriculum catalogue listings: Accounting XI–XII (2025), Economics XI (2025), Education IX–XII (2025), Principles of Commerce XI (2025), Business Mathematics and Statistics XI–XII (2026), Commercial Geography XII (2026), and Library Science XI–XII. Exact board/textbook chapter mapping remains pending.",
+  "sourceReferences": [
+    {
+      "title": "DCAR Sindh Curriculum Catalogue",
+      "url": "https://www.dcar.gos.pk/Sindh%20Curriculum.html",
+      "note": "Official subject and grade listings."
+    },
+    {
+      "title": "STBB eBooks catalogue",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "note": "Official textbook portal for detailed chapter mapping."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Accounting XI–XII",
+      "description": "Supplementary unit for Accounting XI–XII.",
+      "lessons": [
+        {
+          "title": "1.1 Accounting XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nAccounting records, classifies and summarises financial transactions. The accounting equation is Assets = Liabilities + Owner's Equity. Every transaction has a dual effect; the double-entry system records equal debit and credit amounts. Source documents support entries, while journals and ledgers organise records before trial balance and financial statements.\n\n## Apply your learning\nDefine the key terms, solve a short practical example where relevant, and explain one real-world application. Check calculations and support claims with evidence.",
+          "explanations": {
+            "ur": "اکاؤنٹنگ مالی لین دین کو ریکارڈ، درجہ بند اور خلاصہ کرتی ہے۔ بنیادی مساوات اثاثے = واجبات + مالک کی ایکویٹی ہے۔ ہر لین دین کے دو اثرات ہوتے ہیں اور ڈبل انٹری میں ڈیبٹ اور کریڈٹ برابر ہوتے ہیں۔",
+            "sd": "اڪائونٽنگ مالي ڏيتي ليتي کي رڪارڊ ۽ ترتيب ڏئي ٿي. بنيادي مساوات اثاثا = واجبات + مالڪ جي ايڪوٽي آهي. هر ڏيتي ليتي جا ٻه اثر ٿين ٿا ۽ ڊبل انٽري ۾ ڊيبٽ ۽ ڪريڊٽ برابر هوندا آهن."
+          }
+        },
+        {
+          "title": "1.2 Accounting XI–XII — application and analysis",
+          "type": "text",
+          "content": "Apply the core ideas to a realistic case. Identify the information given, choose a suitable method, show each step and explain the result. For written analysis, distinguish evidence from opinion and state any assumptions.",
+          "explanations": {
+            "ur": "تصور کو عملی مثال پر لاگو کریں۔ دی گئی معلومات پہچانیں، مناسب طریقہ منتخب کریں، مراحل دکھائیں اور نتیجہ واضح کریں۔",
+            "sd": "تصور کي عملي مثال تي لاڳو ڪريو. ڏنل ڄاڻ سڃاڻو، مناسب طريقو چونڊيو، مرحلا ڏيکاريو ۽ نتيجو واضح ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes accounting xi–xii?",
+          "options": {
+            "A": "Accounting records, classifies and summarises financial transactions. The accounting equation is Assets = Liabilities + Owner's Equity. Every transaction has a dual effect; the dou",
+            "B": "It is unrelated to evidence or practical decisions.",
+            "C": "It requires memorising terms without applying them.",
+            "D": "It has no use outside the classroom."
+          },
+          "correctOption": "A",
+          "explanation": "Accounting records, classifies and summarises financial transactions. The accounting equation is Assets = Liabilities + Owner's Equity. Every transaction has a dual effect; the double-entry system records equal debit and credit amounts. Source documents support entries, while journals and ledgers organise records before trial balance and financial statements."
+        },
+        {
+          "question": "What is a sound way to apply accounting xi–xii?",
+          "options": {
+            "A": "Ignore assumptions and data.",
+            "B": "Use relevant concepts, evidence and clear reasoning.",
+            "C": "Select an answer without checking the question.",
+            "D": "Confuse opinion with verified information."
+          },
+          "correctOption": "B",
+          "explanation": "Accounting records, classifies and summarises financial transactions. The accounting equation is Assets = Liabilities + Owner's Equity. Every transaction has a dual effect; the double-entry system records equal debit and credit amounts. Source documents support entries, while journals and ledgers organise records before trial balance and financial statements."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key concepts from accounting xi–xii and explain their importance.",
+          "modelAnswer": "Accounting records, classifies and summarises financial transactions. The accounting equation is Assets = Liabilities + Owner's Equity. Every transaction has a dual effect; the double-entry system records equal debit and credit amounts. Source documents support entries, while journals and ledgers organise records before trial balance and financial statements.",
+          "rubric": [
+            "Accurate definitions (2)",
+            "Explanation of importance (2)",
+            "Clarity (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss how accounting xi–xii can be applied to a practical situation.",
+          "modelAnswer": "Accounting records, classifies and summarises financial transactions. The accounting equation is Assets = Liabilities + Owner's Equity. Every transaction has a dual effect; the double-entry system records equal debit and credit amounts. Source documents support entries, while journals and ledgers organise records before trial balance and financial statements. Include a relevant example, explain the reasoning and conclude with the implications.",
+          "rubric": [
+            "Subject knowledge (3)",
+            "Application/example (3)",
+            "Reasoning and structure (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Principles of Commerce XI",
+      "description": "Supplementary unit for Principles of Commerce XI.",
+      "lessons": [
+        {
+          "title": "2.1 Principles of Commerce XI — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nCommerce includes trade and the activities that support exchange, such as transport, banking, insurance, warehousing and communication. Business aims to create value while managing risk and meeting customer needs. Distinguish industry, trade and auxiliaries to trade.\n\n## Apply your learning\nDefine the key terms, solve a short practical example where relevant, and explain one real-world application. Check calculations and support claims with evidence.",
+          "explanations": {
+            "ur": "کامرس میں تجارت اور تبادلے کی معاون سرگرمیاں شامل ہیں، مثلاً نقل و حمل، بینکاری، بیمہ، گودام اور مواصلات۔ صنعت، تجارت اور معاون خدمات میں فرق کریں۔",
+            "sd": "ڪامرس ۾ واپار ۽ ڏيتي ليتيءَ جون مددگار سرگرميون شامل آهن، جهڙوڪ ٽرانسپورٽ، بئنڪنگ، بيمو، گودام ۽ رابطي جا ذريعا. صنعت، واپار ۽ مددگار خدمتن ۾ فرق ڪريو."
+          }
+        },
+        {
+          "title": "2.2 Principles of Commerce XI — application and analysis",
+          "type": "text",
+          "content": "Apply the core ideas to a realistic case. Identify the information given, choose a suitable method, show each step and explain the result. For written analysis, distinguish evidence from opinion and state any assumptions.",
+          "explanations": {
+            "ur": "تصور کو عملی مثال پر لاگو کریں۔ دی گئی معلومات پہچانیں، مناسب طریقہ منتخب کریں، مراحل دکھائیں اور نتیجہ واضح کریں۔",
+            "sd": "تصور کي عملي مثال تي لاڳو ڪريو. ڏنل ڄاڻ سڃاڻو، مناسب طريقو چونڊيو، مرحلا ڏيکاريو ۽ نتيجو واضح ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes principles of commerce xi?",
+          "options": {
+            "A": "Commerce includes trade and the activities that support exchange, such as transport, banking, insurance, warehousing and communication. Business aims to create value while managing",
+            "B": "It is unrelated to evidence or practical decisions.",
+            "C": "It requires memorising terms without applying them.",
+            "D": "It has no use outside the classroom."
+          },
+          "correctOption": "A",
+          "explanation": "Commerce includes trade and the activities that support exchange, such as transport, banking, insurance, warehousing and communication. Business aims to create value while managing risk and meeting customer needs. Distinguish industry, trade and auxiliaries to trade."
+        },
+        {
+          "question": "What is a sound way to apply principles of commerce xi?",
+          "options": {
+            "A": "Ignore assumptions and data.",
+            "B": "Use relevant concepts, evidence and clear reasoning.",
+            "C": "Select an answer without checking the question.",
+            "D": "Confuse opinion with verified information."
+          },
+          "correctOption": "B",
+          "explanation": "Commerce includes trade and the activities that support exchange, such as transport, banking, insurance, warehousing and communication. Business aims to create value while managing risk and meeting customer needs. Distinguish industry, trade and auxiliaries to trade."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key concepts from principles of commerce xi and explain their importance.",
+          "modelAnswer": "Commerce includes trade and the activities that support exchange, such as transport, banking, insurance, warehousing and communication. Business aims to create value while managing risk and meeting customer needs. Distinguish industry, trade and auxiliaries to trade.",
+          "rubric": [
+            "Accurate definitions (2)",
+            "Explanation of importance (2)",
+            "Clarity (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss how principles of commerce xi can be applied to a practical situation.",
+          "modelAnswer": "Commerce includes trade and the activities that support exchange, such as transport, banking, insurance, warehousing and communication. Business aims to create value while managing risk and meeting customer needs. Distinguish industry, trade and auxiliaries to trade. Include a relevant example, explain the reasoning and conclude with the implications.",
+          "rubric": [
+            "Subject knowledge (3)",
+            "Application/example (3)",
+            "Reasoning and structure (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Economics XI",
+      "description": "Supplementary unit for Economics XI.",
+      "lessons": [
+        {
+          "title": "3.1 Economics XI — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nEconomics studies choices under scarcity. Opportunity cost is the next best alternative forgone. Demand generally falls as price rises, other things equal; supply generally rises as price rises. Market equilibrium occurs where quantity demanded equals quantity supplied.\n\n## Apply your learning\nDefine the key terms, solve a short practical example where relevant, and explain one real-world application. Check calculations and support claims with evidence.",
+          "explanations": {
+            "ur": "معاشیات قلت کے تحت انتخاب کا مطالعہ ہے۔ موقعی لاگت اگلا بہترین متبادل ہے جسے چھوڑا جائے۔ دیگر حالات یکساں ہوں تو قیمت بڑھنے سے طلب عموماً کم اور رسد بڑھتی ہے۔",
+            "sd": "اقتصاديات کوٽ جي حالت ۾ چونڊ جو مطالعو آهي. موقعاتي لاڳت اهو بهترين متبادل آهي جيڪو ڇڏي ڏجي. ٻيون حالتون ساڳيون هجن ته قيمت وڌڻ سان طلب گهٽ ۽ رسد وڌي ٿي."
+          }
+        },
+        {
+          "title": "3.2 Economics XI — application and analysis",
+          "type": "text",
+          "content": "Apply the core ideas to a realistic case. Identify the information given, choose a suitable method, show each step and explain the result. For written analysis, distinguish evidence from opinion and state any assumptions.",
+          "explanations": {
+            "ur": "تصور کو عملی مثال پر لاگو کریں۔ دی گئی معلومات پہچانیں، مناسب طریقہ منتخب کریں، مراحل دکھائیں اور نتیجہ واضح کریں۔",
+            "sd": "تصور کي عملي مثال تي لاڳو ڪريو. ڏنل ڄاڻ سڃاڻو، مناسب طريقو چونڊيو، مرحلا ڏيکاريو ۽ نتيجو واضح ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes economics xi?",
+          "options": {
+            "A": "Economics studies choices under scarcity. Opportunity cost is the next best alternative forgone. Demand generally falls as price rises, other things equal; supply generally rises a",
+            "B": "It is unrelated to evidence or practical decisions.",
+            "C": "It requires memorising terms without applying them.",
+            "D": "It has no use outside the classroom."
+          },
+          "correctOption": "A",
+          "explanation": "Economics studies choices under scarcity. Opportunity cost is the next best alternative forgone. Demand generally falls as price rises, other things equal; supply generally rises as price rises. Market equilibrium occurs where quantity demanded equals quantity supplied."
+        },
+        {
+          "question": "What is a sound way to apply economics xi?",
+          "options": {
+            "A": "Ignore assumptions and data.",
+            "B": "Use relevant concepts, evidence and clear reasoning.",
+            "C": "Select an answer without checking the question.",
+            "D": "Confuse opinion with verified information."
+          },
+          "correctOption": "B",
+          "explanation": "Economics studies choices under scarcity. Opportunity cost is the next best alternative forgone. Demand generally falls as price rises, other things equal; supply generally rises as price rises. Market equilibrium occurs where quantity demanded equals quantity supplied."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key concepts from economics xi and explain their importance.",
+          "modelAnswer": "Economics studies choices under scarcity. Opportunity cost is the next best alternative forgone. Demand generally falls as price rises, other things equal; supply generally rises as price rises. Market equilibrium occurs where quantity demanded equals quantity supplied.",
+          "rubric": [
+            "Accurate definitions (2)",
+            "Explanation of importance (2)",
+            "Clarity (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss how economics xi can be applied to a practical situation.",
+          "modelAnswer": "Economics studies choices under scarcity. Opportunity cost is the next best alternative forgone. Demand generally falls as price rises, other things equal; supply generally rises as price rises. Market equilibrium occurs where quantity demanded equals quantity supplied. Include a relevant example, explain the reasoning and conclude with the implications.",
+          "rubric": [
+            "Subject knowledge (3)",
+            "Application/example (3)",
+            "Reasoning and structure (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Business Mathematics and Statistics XI–XII",
+      "description": "Supplementary unit for Business Mathematics and Statistics XI–XII.",
+      "lessons": [
+        {
+          "title": "4.1 Business Mathematics and Statistics XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nBusiness mathematics applies arithmetic, percentages, ratios, interest, discount, profit and loss to commercial decisions. Statistics organises data using tables, charts and measures such as mean, median and mode. Choose a measure that suits the data and question; distinguish correlation from causation.\n\n## Apply your learning\nDefine the key terms, solve a short practical example where relevant, and explain one real-world application. Check calculations and support claims with evidence.",
+          "explanations": {
+            "ur": "کاروباری ریاضی میں تناسب، فیصد، سود، رعایت، منافع اور نقصان شامل ہیں۔ شماریات اعداد کو جدولوں اور چارٹس میں منظم کرتی ہے اور اوسط، وسطانیہ اور منوال استعمال کرتی ہے۔",
+            "sd": "ڪاروباري رياضي ۾ نسبت، سيڪڙو، وياج، رعايت، نفعو ۽ نقصان شامل آهن. شماريات انگن کي جدولن ۽ چارٽن ۾ ترتيب ڏئي ٿي ۽ اوسط، وچين ۽ گهڻائي استعمال ڪري ٿي."
+          }
+        },
+        {
+          "title": "4.2 Business Mathematics and Statistics XI–XII — application and analysis",
+          "type": "text",
+          "content": "Apply the core ideas to a realistic case. Identify the information given, choose a suitable method, show each step and explain the result. For written analysis, distinguish evidence from opinion and state any assumptions.",
+          "explanations": {
+            "ur": "تصور کو عملی مثال پر لاگو کریں۔ دی گئی معلومات پہچانیں، مناسب طریقہ منتخب کریں، مراحل دکھائیں اور نتیجہ واضح کریں۔",
+            "sd": "تصور کي عملي مثال تي لاڳو ڪريو. ڏنل ڄاڻ سڃاڻو، مناسب طريقو چونڊيو، مرحلا ڏيکاريو ۽ نتيجو واضح ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes business mathematics and statistics xi–xii?",
+          "options": {
+            "A": "Business mathematics applies arithmetic, percentages, ratios, interest, discount, profit and loss to commercial decisions. Statistics organises data using tables, charts and measur",
+            "B": "It is unrelated to evidence or practical decisions.",
+            "C": "It requires memorising terms without applying them.",
+            "D": "It has no use outside the classroom."
+          },
+          "correctOption": "A",
+          "explanation": "Business mathematics applies arithmetic, percentages, ratios, interest, discount, profit and loss to commercial decisions. Statistics organises data using tables, charts and measures such as mean, median and mode. Choose a measure that suits the data and question; distinguish correlation from causation."
+        },
+        {
+          "question": "What is a sound way to apply business mathematics and statistics xi–xii?",
+          "options": {
+            "A": "Ignore assumptions and data.",
+            "B": "Use relevant concepts, evidence and clear reasoning.",
+            "C": "Select an answer without checking the question.",
+            "D": "Confuse opinion with verified information."
+          },
+          "correctOption": "B",
+          "explanation": "Business mathematics applies arithmetic, percentages, ratios, interest, discount, profit and loss to commercial decisions. Statistics organises data using tables, charts and measures such as mean, median and mode. Choose a measure that suits the data and question; distinguish correlation from causation."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key concepts from business mathematics and statistics xi–xii and explain their importance.",
+          "modelAnswer": "Business mathematics applies arithmetic, percentages, ratios, interest, discount, profit and loss to commercial decisions. Statistics organises data using tables, charts and measures such as mean, median and mode. Choose a measure that suits the data and question; distinguish correlation from causation.",
+          "rubric": [
+            "Accurate definitions (2)",
+            "Explanation of importance (2)",
+            "Clarity (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss how business mathematics and statistics xi–xii can be applied to a practical situation.",
+          "modelAnswer": "Business mathematics applies arithmetic, percentages, ratios, interest, discount, profit and loss to commercial decisions. Statistics organises data using tables, charts and measures such as mean, median and mode. Choose a measure that suits the data and question; distinguish correlation from causation. Include a relevant example, explain the reasoning and conclude with the implications.",
+          "rubric": [
+            "Subject knowledge (3)",
+            "Application/example (3)",
+            "Reasoning and structure (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Education IX–XII",
+      "description": "Supplementary unit for Education IX–XII.",
+      "lessons": [
+        {
+          "title": "5.1 Education IX–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nEducation develops knowledge, skills, values and participation. Effective learning objectives describe observable outcomes; teaching strategies should match learner needs, subject content and available resources. Assessment evidence helps teachers identify progress and adapt instruction.\n\n## Apply your learning\nDefine the key terms, solve a short practical example where relevant, and explain one real-world application. Check calculations and support claims with evidence.",
+          "explanations": {
+            "ur": "تعلیم علم، مہارت، اقدار اور سماجی شرکت کو فروغ دیتی ہے۔ مؤثر تدریسی مقاصد قابلِ مشاہدہ نتائج بیان کرتے ہیں۔ جائزہ طلبہ کی پیش رفت جانچنے اور تدریس بہتر بنانے میں مدد دیتا ہے۔",
+            "sd": "تعليم ڄاڻ، مهارتن، قدرن ۽ سماجي شرڪت کي وڌائي ٿي. اثرائتا تدريسي مقصد ڏسي سگهجندڙ نتيجا بيان ڪن ٿا. جائزو سکيا جي اڳڀرائي معلوم ڪري تدريس بهتر ڪرڻ ۾ مدد ڪري ٿو."
+          }
+        },
+        {
+          "title": "5.2 Education IX–XII — application and analysis",
+          "type": "text",
+          "content": "Apply the core ideas to a realistic case. Identify the information given, choose a suitable method, show each step and explain the result. For written analysis, distinguish evidence from opinion and state any assumptions.",
+          "explanations": {
+            "ur": "تصور کو عملی مثال پر لاگو کریں۔ دی گئی معلومات پہچانیں، مناسب طریقہ منتخب کریں، مراحل دکھائیں اور نتیجہ واضح کریں۔",
+            "sd": "تصور کي عملي مثال تي لاڳو ڪريو. ڏنل ڄاڻ سڃاڻو، مناسب طريقو چونڊيو، مرحلا ڏيکاريو ۽ نتيجو واضح ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes education ix–xii?",
+          "options": {
+            "A": "Education develops knowledge, skills, values and participation. Effective learning objectives describe observable outcomes; teaching strategies should match learner needs, subject ",
+            "B": "It is unrelated to evidence or practical decisions.",
+            "C": "It requires memorising terms without applying them.",
+            "D": "It has no use outside the classroom."
+          },
+          "correctOption": "A",
+          "explanation": "Education develops knowledge, skills, values and participation. Effective learning objectives describe observable outcomes; teaching strategies should match learner needs, subject content and available resources. Assessment evidence helps teachers identify progress and adapt instruction."
+        },
+        {
+          "question": "What is a sound way to apply education ix–xii?",
+          "options": {
+            "A": "Ignore assumptions and data.",
+            "B": "Use relevant concepts, evidence and clear reasoning.",
+            "C": "Select an answer without checking the question.",
+            "D": "Confuse opinion with verified information."
+          },
+          "correctOption": "B",
+          "explanation": "Education develops knowledge, skills, values and participation. Effective learning objectives describe observable outcomes; teaching strategies should match learner needs, subject content and available resources. Assessment evidence helps teachers identify progress and adapt instruction."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key concepts from education ix–xii and explain their importance.",
+          "modelAnswer": "Education develops knowledge, skills, values and participation. Effective learning objectives describe observable outcomes; teaching strategies should match learner needs, subject content and available resources. Assessment evidence helps teachers identify progress and adapt instruction.",
+          "rubric": [
+            "Accurate definitions (2)",
+            "Explanation of importance (2)",
+            "Clarity (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss how education ix–xii can be applied to a practical situation.",
+          "modelAnswer": "Education develops knowledge, skills, values and participation. Effective learning objectives describe observable outcomes; teaching strategies should match learner needs, subject content and available resources. Assessment evidence helps teachers identify progress and adapt instruction. Include a relevant example, explain the reasoning and conclude with the implications.",
+          "rubric": [
+            "Subject knowledge (3)",
+            "Application/example (3)",
+            "Reasoning and structure (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Library Science XI–XII",
+      "description": "Supplementary unit for Library Science XI–XII.",
+      "lessons": [
+        {
+          "title": "6.1 Library Science XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nA library organises information resources so users can discover and evaluate them. Classification groups resources by subject; cataloguing describes each item; indexing provides access points. Information literacy includes defining an information need, checking authority and currency, and citing sources ethically.\n\n## Apply your learning\nDefine the key terms, solve a short practical example where relevant, and explain one real-world application. Check calculations and support claims with evidence.",
+          "explanations": {
+            "ur": "لائبریری معلوماتی وسائل کو منظم کرتی ہے۔ درجہ بندی موضوع کے مطابق گروہ بناتی ہے، کیٹلاگ ہر کتاب یا وسیلے کی تفصیل دیتا ہے، اور اشاریہ تلاش میں مدد کرتا ہے۔",
+            "sd": "لائبريري معلوماتي وسيلن کي ترتيب ڏئي ٿي. درجابندي موضوع موجب وسيلا گڏ ڪري ٿي، ڪيٽلاگ هر شيءِ جي سڃاڻپ ڏئي ٿو ۽ انڊيڪس ڳولا ۾ مدد ڪري ٿو."
+          }
+        },
+        {
+          "title": "6.2 Library Science XI–XII — application and analysis",
+          "type": "text",
+          "content": "Apply the core ideas to a realistic case. Identify the information given, choose a suitable method, show each step and explain the result. For written analysis, distinguish evidence from opinion and state any assumptions.",
+          "explanations": {
+            "ur": "تصور کو عملی مثال پر لاگو کریں۔ دی گئی معلومات پہچانیں، مناسب طریقہ منتخب کریں، مراحل دکھائیں اور نتیجہ واضح کریں۔",
+            "sd": "تصور کي عملي مثال تي لاڳو ڪريو. ڏنل ڄاڻ سڃاڻو، مناسب طريقو چونڊيو، مرحلا ڏيکاريو ۽ نتيجو واضح ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes library science xi–xii?",
+          "options": {
+            "A": "A library organises information resources so users can discover and evaluate them. Classification groups resources by subject; cataloguing describes each item; indexing provides ac",
+            "B": "It is unrelated to evidence or practical decisions.",
+            "C": "It requires memorising terms without applying them.",
+            "D": "It has no use outside the classroom."
+          },
+          "correctOption": "A",
+          "explanation": "A library organises information resources so users can discover and evaluate them. Classification groups resources by subject; cataloguing describes each item; indexing provides access points. Information literacy includes defining an information need, checking authority and currency, and citing sources ethically."
+        },
+        {
+          "question": "What is a sound way to apply library science xi–xii?",
+          "options": {
+            "A": "Ignore assumptions and data.",
+            "B": "Use relevant concepts, evidence and clear reasoning.",
+            "C": "Select an answer without checking the question.",
+            "D": "Confuse opinion with verified information."
+          },
+          "correctOption": "B",
+          "explanation": "A library organises information resources so users can discover and evaluate them. Classification groups resources by subject; cataloguing describes each item; indexing provides access points. Information literacy includes defining an information need, checking authority and currency, and citing sources ethically."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key concepts from library science xi–xii and explain their importance.",
+          "modelAnswer": "A library organises information resources so users can discover and evaluate them. Classification groups resources by subject; cataloguing describes each item; indexing provides access points. Information literacy includes defining an information need, checking authority and currency, and citing sources ethically.",
+          "rubric": [
+            "Accurate definitions (2)",
+            "Explanation of importance (2)",
+            "Clarity (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss how library science xi–xii can be applied to a practical situation.",
+          "modelAnswer": "A library organises information resources so users can discover and evaluate them. Classification groups resources by subject; cataloguing describes each item; indexing provides access points. Information literacy includes defining an information need, checking authority and currency, and citing sources ethically. Include a relevant example, explain the reasoning and conclude with the implications.",
+          "rubric": [
+            "Subject knowledge (3)",
+            "Application/example (3)",
+            "Reasoning and structure (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Commercial Geography XII",
+      "description": "Supplementary unit for Commercial Geography XII.",
+      "lessons": [
+        {
+          "title": "7.1 Commercial Geography XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nCommercial geography studies how location, resources, transport, population and markets shape economic activity. Evaluate trade routes, ports, energy, agriculture and industrial location through physical and human factors. Use maps and data to support explanations rather than relying on stereotypes.\n\n## Apply your learning\nDefine the key terms, solve a short practical example where relevant, and explain one real-world application. Check calculations and support claims with evidence.",
+          "explanations": {
+            "ur": "تجارتی جغرافیہ میں مقام، وسائل، نقل و حمل، آبادی اور منڈیاں معاشی سرگرمیوں پر اثر انداز ہوتی ہیں۔ بندرگاہوں، تجارتی راستوں، توانائی، زراعت اور صنعت کے محلِ وقوع کا جائزہ لیں۔",
+            "sd": "واپاري جاگرافي ۾ هنڌ، وسيلا، ٽرانسپورٽ، آبادي ۽ مارڪيٽون معاشي سرگرمين تي اثر ڪن ٿيون. بندرگاهن، واپاري رستن، توانائي، زراعت ۽ صنعت جي هنڌ جو جائزو وٺو."
+          }
+        },
+        {
+          "title": "7.2 Commercial Geography XII — application and analysis",
+          "type": "text",
+          "content": "Apply the core ideas to a realistic case. Identify the information given, choose a suitable method, show each step and explain the result. For written analysis, distinguish evidence from opinion and state any assumptions.",
+          "explanations": {
+            "ur": "تصور کو عملی مثال پر لاگو کریں۔ دی گئی معلومات پہچانیں، مناسب طریقہ منتخب کریں، مراحل دکھائیں اور نتیجہ واضح کریں۔",
+            "sd": "تصور کي عملي مثال تي لاڳو ڪريو. ڏنل ڄاڻ سڃاڻو، مناسب طريقو چونڊيو، مرحلا ڏيکاريو ۽ نتيجو واضح ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes commercial geography xii?",
+          "options": {
+            "A": "Commercial geography studies how location, resources, transport, population and markets shape economic activity. Evaluate trade routes, ports, energy, agriculture and industrial lo",
+            "B": "It is unrelated to evidence or practical decisions.",
+            "C": "It requires memorising terms without applying them.",
+            "D": "It has no use outside the classroom."
+          },
+          "correctOption": "A",
+          "explanation": "Commercial geography studies how location, resources, transport, population and markets shape economic activity. Evaluate trade routes, ports, energy, agriculture and industrial location through physical and human factors. Use maps and data to support explanations rather than relying on stereotypes."
+        },
+        {
+          "question": "What is a sound way to apply commercial geography xii?",
+          "options": {
+            "A": "Ignore assumptions and data.",
+            "B": "Use relevant concepts, evidence and clear reasoning.",
+            "C": "Select an answer without checking the question.",
+            "D": "Confuse opinion with verified information."
+          },
+          "correctOption": "B",
+          "explanation": "Commercial geography studies how location, resources, transport, population and markets shape economic activity. Evaluate trade routes, ports, energy, agriculture and industrial location through physical and human factors. Use maps and data to support explanations rather than relying on stereotypes."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key concepts from commercial geography xii and explain their importance.",
+          "modelAnswer": "Commercial geography studies how location, resources, transport, population and markets shape economic activity. Evaluate trade routes, ports, energy, agriculture and industrial location through physical and human factors. Use maps and data to support explanations rather than relying on stereotypes.",
+          "rubric": [
+            "Accurate definitions (2)",
+            "Explanation of importance (2)",
+            "Clarity (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss how commercial geography xii can be applied to a practical situation.",
+          "modelAnswer": "Commercial geography studies how location, resources, transport, population and markets shape economic activity. Evaluate trade routes, ports, energy, agriculture and industrial location through physical and human factors. Use maps and data to support explanations rather than relying on stereotypes. Include a relevant example, explain the reasoning and conclude with the implications.",
+          "rubric": [
+            "Subject knowledge (3)",
+            "Application/example (3)",
+            "Reasoning and structure (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
