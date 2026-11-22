@@ -1,0 +1,756 @@
+{
+  "id": "humanities-commerce-xi-xii-extended",
+  "title": "XI–XII Humanities and Commerce Electives — Extended Foundations",
+  "description": "Supplementary grade-level units with lessons, MCQs, CRQs and ERQs, including Urdu and Sindhi support. Confirm the student's board, group and prescribed textbook before treating any elective as part of an individual syllabus.",
+  "version": "1",
+  "curriculumAlignment": "Supplementary map for selected Sindh HSC Commerce and General Group subjects listed in the 2024 notification and DCAR curriculum catalogue. Subject availability varies by board, college and group; this is not a full textbook chapter reproduction.",
+  "sourceReferences": [
+    {
+      "title": "DCAR Sindh Curriculum Catalogue",
+      "url": "https://www.dcar.gos.pk/Sindh%20Curriculum.html",
+      "note": "Official subject and grade listings."
+    },
+    {
+      "title": "Government of Sindh — Scheme of Studies and Humanities Group notification",
+      "url": "https://dcar.gos.pk/other_notifications/Scheme%20of%20Studies%20and%20bifurcation%20of%20the%20subjects%20%28Humanities%20Group%29%20for%20Class%20IX%20and%20X.pdf",
+      "note": "Official subject group options and allocations."
+    },
+    {
+      "title": "Government of Sindh — HSC Commerce and General Group notification",
+      "url": "https://dcar.gos.pk/other_notifications/HSC%20Commerce%20and%20General%20Group%20Final%20with%20notification.pdf",
+      "note": "Official Commerce and General Group subject listings."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Advanced Pakistan Studies XI–XII",
+      "description": "Supplementary topic 1: Advanced Pakistan Studies XI–XII.",
+      "lessons": [
+        {
+          "title": "1.1 Advanced Pakistan Studies XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nStudy the evolution of Pakistan's constitutional, political, social and economic institutions. Analyse federalism, citizenship, regional diversity, public policy and international relations using historical context and evidence. Distinguish constitutional principles from political commentary.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "پاکستان کے آئینی، سیاسی، سماجی اور معاشی اداروں کی تشکیل کا مطالعہ کریں۔ وفاقیت، شہریت، علاقائی تنوع، عوامی پالیسی اور خارجہ تعلقات کو شواہد سے سمجھیں۔",
+            "sd": "پاڪستان جي آئيني، سياسي، سماجي ۽ معاشي ادارن جي ارتقا جو مطالعو ڪريو. وفاقيت، شهريت، علائقائي تنوع، عوامي پاليسي ۽ پرڏيهي لاڳاپن کي ثبوت سان سمجهو."
+          }
+        },
+        {
+          "title": "1.2 Advanced Pakistan Studies XI–XII — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes advanced pakistan studies xi–xii?",
+          "options": {
+            "A": "Study the evolution of Pakistan's constitutional, political, social and economic institutions. Analyse federalism, citizenship, regional diversity, public policy and international ",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Study the evolution of Pakistan's constitutional, political, social and economic institutions. Analyse federalism, citizenship, regional diversity, public policy and international relations using historical context and evidence. Distinguish constitutional principles from political commentary."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of advanced pakistan studies xi–xii?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Study the evolution of Pakistan's constitutional, political, social and economic institutions. Analyse federalism, citizenship, regional diversity, public policy and international relations using historical context and evidence. Distinguish constitutional principles from political commentary."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in advanced pakistan studies xi–xii and explain their importance.",
+          "modelAnswer": "Study the evolution of Pakistan's constitutional, political, social and economic institutions. Analyse federalism, citizenship, regional diversity, public policy and international relations using historical context and evidence. Distinguish constitutional principles from political commentary.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss advanced pakistan studies xi–xii with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Study the evolution of Pakistan's constitutional, political, social and economic institutions. Analyse federalism, citizenship, regional diversity, public policy and international relations using historical context and evidence. Distinguish constitutional principles from political commentary. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "English Literature XI–XII",
+      "description": "Supplementary topic 2: English Literature XI–XII.",
+      "lessons": [
+        {
+          "title": "2.1 English Literature XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nLiterary study examines genre, plot, character, setting, imagery, tone, structure and theme. Analyse how language creates meaning and how context shapes interpretation. Support a critical response with close reference to the prescribed text.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "ادبی مطالعے میں صنف، پلاٹ، کردار، ماحول، منظر نگاری، لہجہ، ساخت اور موضوع کا تجزیہ کریں۔ تشریح میں مقررہ متن سے دلیل دیں۔",
+            "sd": "ادبي مطالعي ۾ صنف، پلاٽ، ڪردار، ماحول، تصويري ٻولي، لهجو، بناوت ۽ موضوع جو تجزيو ڪريو. تشريح ۾ مقرر متن مان دليل ڏيو."
+          }
+        },
+        {
+          "title": "2.2 English Literature XI–XII — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes english literature xi–xii?",
+          "options": {
+            "A": "Literary study examines genre, plot, character, setting, imagery, tone, structure and theme. Analyse how language creates meaning and how context shapes interpretation. Support a c",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Literary study examines genre, plot, character, setting, imagery, tone, structure and theme. Analyse how language creates meaning and how context shapes interpretation. Support a critical response with close reference to the prescribed text."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of english literature xi–xii?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Literary study examines genre, plot, character, setting, imagery, tone, structure and theme. Analyse how language creates meaning and how context shapes interpretation. Support a critical response with close reference to the prescribed text."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in english literature xi–xii and explain their importance.",
+          "modelAnswer": "Literary study examines genre, plot, character, setting, imagery, tone, structure and theme. Analyse how language creates meaning and how context shapes interpretation. Support a critical response with close reference to the prescribed text.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss english literature xi–xii with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Literary study examines genre, plot, character, setting, imagery, tone, structure and theme. Analyse how language creates meaning and how context shapes interpretation. Support a critical response with close reference to the prescribed text. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Ethics and Religious Studies XI–XII",
+      "description": "Supplementary topic 3: Ethics and Religious Studies XI–XII.",
+      "lessons": [
+        {
+          "title": "3.1 Ethics and Religious Studies XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nEthical reasoning considers duties, consequences, fairness, dignity, honesty and care. Compare viewpoints respectfully, distinguish evidence from assumption, and apply ethical principles to family, community, work and public life. Religious Studies should follow the learner's applicable curriculum.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "اخلاقی فکر میں فرائض، نتائج، انصاف، انسانی وقار، دیانت اور ہمدردی شامل ہیں۔ مختلف نقطہ ہائے نظر کا احترام کریں اور اصولوں کو زندگی پر لاگو کریں۔",
+            "sd": "اخلاقي سوچ ۾ فرض، نتيجا، انصاف، انساني وقار، ايمانداري ۽ همدردي شامل آهن. مختلف نظرين جو احترام ڪريو ۽ اصولن کي زندگيءَ تي لاڳو ڪريو."
+          }
+        },
+        {
+          "title": "3.2 Ethics and Religious Studies XI–XII — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes ethics and religious studies xi–xii?",
+          "options": {
+            "A": "Ethical reasoning considers duties, consequences, fairness, dignity, honesty and care. Compare viewpoints respectfully, distinguish evidence from assumption, and apply ethical prin",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Ethical reasoning considers duties, consequences, fairness, dignity, honesty and care. Compare viewpoints respectfully, distinguish evidence from assumption, and apply ethical principles to family, community, work and public life. Religious Studies should follow the learner's applicable curriculum."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of ethics and religious studies xi–xii?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Ethical reasoning considers duties, consequences, fairness, dignity, honesty and care. Compare viewpoints respectfully, distinguish evidence from assumption, and apply ethical principles to family, community, work and public life. Religious Studies should follow the learner's applicable curriculum."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in ethics and religious studies xi–xii and explain their importance.",
+          "modelAnswer": "Ethical reasoning considers duties, consequences, fairness, dignity, honesty and care. Compare viewpoints respectfully, distinguish evidence from assumption, and apply ethical principles to family, community, work and public life. Religious Studies should follow the learner's applicable curriculum.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss ethics and religious studies xi–xii with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Ethical reasoning considers duties, consequences, fairness, dignity, honesty and care. Compare viewpoints respectfully, distinguish evidence from assumption, and apply ethical principles to family, community, work and public life. Religious Studies should follow the learner's applicable curriculum. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Banking XI–XII",
+      "description": "Supplementary topic 4: Banking XI–XII.",
+      "lessons": [
+        {
+          "title": "4.1 Banking XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nBanking intermediates between savers and borrowers and supports payments, credit and financial services. Study deposits, accounts, cheques, digital transfers, interest, risk, customer protection and responsible borrowing. Verify fees and terms before choosing a financial product.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "بینکاری بچت کرنے والوں اور قرض لینے والوں کے درمیان مالی واسطہ ہے۔ کھاتے، چیک، ڈیجیٹل ادائیگی، سود، خطرات، صارف کے تحفظ اور ذمہ دار قرض کے اصول پڑھیں۔",
+            "sd": "بئنڪنگ بچت ڪندڙن ۽ قرض وٺندڙن جي وچ ۾ مالي واسطو آهي. کاتا، چيڪ، ڊجيٽل ادائيگي، وياج، خطرا، صارف جو تحفظ ۽ ذميوار قرض پڙهو."
+          }
+        },
+        {
+          "title": "4.2 Banking XI–XII — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes banking xi–xii?",
+          "options": {
+            "A": "Banking intermediates between savers and borrowers and supports payments, credit and financial services. Study deposits, accounts, cheques, digital transfers, interest, risk, custo",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Banking intermediates between savers and borrowers and supports payments, credit and financial services. Study deposits, accounts, cheques, digital transfers, interest, risk, customer protection and responsible borrowing. Verify fees and terms before choosing a financial product."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of banking xi–xii?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Banking intermediates between savers and borrowers and supports payments, credit and financial services. Study deposits, accounts, cheques, digital transfers, interest, risk, customer protection and responsible borrowing. Verify fees and terms before choosing a financial product."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in banking xi–xii and explain their importance.",
+          "modelAnswer": "Banking intermediates between savers and borrowers and supports payments, credit and financial services. Study deposits, accounts, cheques, digital transfers, interest, risk, customer protection and responsible borrowing. Verify fees and terms before choosing a financial product.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss banking xi–xii with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Banking intermediates between savers and borrowers and supports payments, credit and financial services. Study deposits, accounts, cheques, digital transfers, interest, risk, customer protection and responsible borrowing. Verify fees and terms before choosing a financial product. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Statistics XI–XII",
+      "description": "Supplementary topic 5: Statistics XI–XII.",
+      "lessons": [
+        {
+          "title": "5.1 Statistics XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nStatistics collects, organises, summarises and interprets data. Distinguish population from sample, qualitative from quantitative variables, and mean from median and mode. Graphs should have clear labels and scales; correlation alone does not prove causation.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "شماریات ڈیٹا جمع، منظم، خلاصہ اور تشریح کرتی ہے۔ آبادی اور نمونے، معیاری و مقداری متغیرات اور اوسط، وسطانیہ و منوال میں فرق کریں۔",
+            "sd": "شماريات ڊيٽا گڏ، ترتيب، خلاصو ۽ تشريح ڪري ٿي. آبادي ۽ نموني، معياري ۽ مقداري متغيرن، اوسط، وچين ۽ گهڻائي ۾ فرق ڪريو."
+          }
+        },
+        {
+          "title": "5.2 Statistics XI–XII — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes statistics xi–xii?",
+          "options": {
+            "A": "Statistics collects, organises, summarises and interprets data. Distinguish population from sample, qualitative from quantitative variables, and mean from median and mode. Graphs s",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Statistics collects, organises, summarises and interprets data. Distinguish population from sample, qualitative from quantitative variables, and mean from median and mode. Graphs should have clear labels and scales; correlation alone does not prove causation."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of statistics xi–xii?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Statistics collects, organises, summarises and interprets data. Distinguish population from sample, qualitative from quantitative variables, and mean from median and mode. Graphs should have clear labels and scales; correlation alone does not prove causation."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in statistics xi–xii and explain their importance.",
+          "modelAnswer": "Statistics collects, organises, summarises and interprets data. Distinguish population from sample, qualitative from quantitative variables, and mean from median and mode. Graphs should have clear labels and scales; correlation alone does not prove causation.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss statistics xi–xii with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Statistics collects, organises, summarises and interprets data. Distinguish population from sample, qualitative from quantitative variables, and mean from median and mode. Graphs should have clear labels and scales; correlation alone does not prove causation. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Psychology XI–XII",
+      "description": "Supplementary topic 6: Psychology XI–XII.",
+      "lessons": [
+        {
+          "title": "6.1 Psychology XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nPsychology studies behaviour and mental processes. Introductory themes include perception, learning, memory, motivation, emotion, development and social influence. Evaluate explanations using evidence and recognise individual and cultural differences.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "نفسیات رویے اور ذہنی عملوں کا مطالعہ ہے۔ ادراک، سیکھنا، یادداشت، محرک، جذبات، نشوونما اور سماجی اثرات جیسے موضوعات پڑھیں۔",
+            "sd": "نفسيات رويي ۽ ذهني عملن جو مطالعو آهي. ادراڪ، سکيا، يادگيري، ترغيب، جذبا، واڌ ۽ سماجي اثر جهڙا موضوع پڙهو."
+          }
+        },
+        {
+          "title": "6.2 Psychology XI–XII — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes psychology xi–xii?",
+          "options": {
+            "A": "Psychology studies behaviour and mental processes. Introductory themes include perception, learning, memory, motivation, emotion, development and social influence. Evaluate explana",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Psychology studies behaviour and mental processes. Introductory themes include perception, learning, memory, motivation, emotion, development and social influence. Evaluate explanations using evidence and recognise individual and cultural differences."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of psychology xi–xii?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Psychology studies behaviour and mental processes. Introductory themes include perception, learning, memory, motivation, emotion, development and social influence. Evaluate explanations using evidence and recognise individual and cultural differences."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in psychology xi–xii and explain their importance.",
+          "modelAnswer": "Psychology studies behaviour and mental processes. Introductory themes include perception, learning, memory, motivation, emotion, development and social influence. Evaluate explanations using evidence and recognise individual and cultural differences.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss psychology xi–xii with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Psychology studies behaviour and mental processes. Introductory themes include perception, learning, memory, motivation, emotion, development and social influence. Evaluate explanations using evidence and recognise individual and cultural differences. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Philosophy XI–XII",
+      "description": "Supplementary topic 7: Philosophy XI–XII.",
+      "lessons": [
+        {
+          "title": "7.1 Philosophy XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nPhilosophy develops reasoned inquiry into knowledge, reality, values and arguments. Define terms, identify premises and conclusions, test validity, consider counterexamples and represent opposing positions fairly. A strong argument is clear, consistent and supported.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "فلسفہ علم، حقیقت، اقدار اور دلائل کے بارے میں عقلی تحقیق ہے۔ اصطلاحات واضح کریں، مقدمات اور نتائج پہچانیں اور مخالف دلیل کا منصفانہ جائزہ لیں۔",
+            "sd": "فلسفو ڄاڻ، حقيقت، قدرن ۽ دليلن بابت عقلي جاچ آهي. اصطلاحون واضح ڪريو، بنياد ۽ نتيجا سڃاڻو ۽ مخالف دليل کي انصاف سان پرکو."
+          }
+        },
+        {
+          "title": "7.2 Philosophy XI–XII — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes philosophy xi–xii?",
+          "options": {
+            "A": "Philosophy develops reasoned inquiry into knowledge, reality, values and arguments. Define terms, identify premises and conclusions, test validity, consider counterexamples and rep",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Philosophy develops reasoned inquiry into knowledge, reality, values and arguments. Define terms, identify premises and conclusions, test validity, consider counterexamples and represent opposing positions fairly. A strong argument is clear, consistent and supported."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of philosophy xi–xii?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Philosophy develops reasoned inquiry into knowledge, reality, values and arguments. Define terms, identify premises and conclusions, test validity, consider counterexamples and represent opposing positions fairly. A strong argument is clear, consistent and supported."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in philosophy xi–xii and explain their importance.",
+          "modelAnswer": "Philosophy develops reasoned inquiry into knowledge, reality, values and arguments. Define terms, identify premises and conclusions, test validity, consider counterexamples and represent opposing positions fairly. A strong argument is clear, consistent and supported.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss philosophy xi–xii with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Philosophy develops reasoned inquiry into knowledge, reality, values and arguments. Define terms, identify premises and conclusions, test validity, consider counterexamples and represent opposing positions fairly. A strong argument is clear, consistent and supported. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Islamic Culture and Muslim History XI–XII",
+      "description": "Supplementary topic 8: Islamic Culture and Muslim History XI–XII.",
+      "lessons": [
+        {
+          "title": "8.1 Islamic Culture and Muslim History XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nStudy Muslim civilisation through historical periods, institutions, scholarship, arts, science, trade and social change. Use chronology and primary or reliable secondary evidence. Avoid treating diverse societies and centuries as a single uniform experience.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "مسلم تہذیب کو تاریخی ادوار، اداروں، علم، فنون، سائنس، تجارت اور سماجی تبدیلی کے تناظر میں پڑھیں۔ معتبر تاریخی شواہد استعمال کریں۔",
+            "sd": "مسلم تهذيب کي تاريخي دورن، ادارن، علم، فن، سائنس، واپار ۽ سماجي تبديليءَ سان پڙهو. معتبر تاريخي ثبوت استعمال ڪريو."
+          }
+        },
+        {
+          "title": "8.2 Islamic Culture and Muslim History XI–XII — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes islamic culture and muslim history xi–xii?",
+          "options": {
+            "A": "Study Muslim civilisation through historical periods, institutions, scholarship, arts, science, trade and social change. Use chronology and primary or reliable secondary evidence. ",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Study Muslim civilisation through historical periods, institutions, scholarship, arts, science, trade and social change. Use chronology and primary or reliable secondary evidence. Avoid treating diverse societies and centuries as a single uniform experience."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of islamic culture and muslim history xi–xii?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Study Muslim civilisation through historical periods, institutions, scholarship, arts, science, trade and social change. Use chronology and primary or reliable secondary evidence. Avoid treating diverse societies and centuries as a single uniform experience."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in islamic culture and muslim history xi–xii and explain their importance.",
+          "modelAnswer": "Study Muslim civilisation through historical periods, institutions, scholarship, arts, science, trade and social change. Use chronology and primary or reliable secondary evidence. Avoid treating diverse societies and centuries as a single uniform experience.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss islamic culture and muslim history xi–xii with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Study Muslim civilisation through historical periods, institutions, scholarship, arts, science, trade and social change. Use chronology and primary or reliable secondary evidence. Avoid treating diverse societies and centuries as a single uniform experience. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Physiology XI–XII",
+      "description": "Supplementary topic 9: Physiology XI–XII.",
+      "lessons": [
+        {
+          "title": "9.1 Physiology XI–XII — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nPhysiology explains how organs and body systems maintain internal balance. Study homeostasis, nervous and endocrine coordination, circulation, respiration, digestion and excretion at an appropriate introductory level. Use diagrams and explain relationships between structure and function.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "فعلیات میں اعضا اور جسمانی نظاموں کے ذریعے اندرونی توازن برقرار رکھنے کا مطالعہ کریں۔ ہومیوسٹیسس، اعصابی و ہارمونی رابطہ، دورانِ خون، تنفس اور اخراج پڑھیں۔",
+            "sd": "فعليات ۾ عضون ۽ جسماني نظامن وسيلي اندروني توازن قائم رکڻ جو مطالعو ڪريو. هوميوسٽيسس، اعصابي ۽ هارموني رابطو، رت جي گردش، ساهه ۽ اخراج پڙهو."
+          }
+        },
+        {
+          "title": "9.2 Physiology XI–XII — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes physiology xi–xii?",
+          "options": {
+            "A": "Physiology explains how organs and body systems maintain internal balance. Study homeostasis, nervous and endocrine coordination, circulation, respiration, digestion and excretion ",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Physiology explains how organs and body systems maintain internal balance. Study homeostasis, nervous and endocrine coordination, circulation, respiration, digestion and excretion at an appropriate introductory level. Use diagrams and explain relationships between structure and function."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of physiology xi–xii?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Physiology explains how organs and body systems maintain internal balance. Study homeostasis, nervous and endocrine coordination, circulation, respiration, digestion and excretion at an appropriate introductory level. Use diagrams and explain relationships between structure and function."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in physiology xi–xii and explain their importance.",
+          "modelAnswer": "Physiology explains how organs and body systems maintain internal balance. Study homeostasis, nervous and endocrine coordination, circulation, respiration, digestion and excretion at an appropriate introductory level. Use diagrams and explain relationships between structure and function.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss physiology xi–xii with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Physiology explains how organs and body systems maintain internal balance. Study homeostasis, nervous and endocrine coordination, circulation, respiration, digestion and excretion at an appropriate introductory level. Use diagrams and explain relationships between structure and function. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Commercial Geography XII — Banking and trade routes",
+      "description": "Supplementary topic 10: Commercial Geography XII — Banking and trade routes.",
+      "lessons": [
+        {
+          "title": "10.1 Commercial Geography XII — Banking and trade routes — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nAnalyse how ports, transport corridors, financial services, markets, energy and location shape national and international trade. Use maps and data to explain trade flows, logistics and regional connections.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "بندرگاہوں، نقل و حمل، مالی خدمات، منڈیوں، توانائی اور محلِ وقوع کے ذریعے ملکی و عالمی تجارت کا تجزیہ کریں۔",
+            "sd": "بندرگاهن، ٽرانسپورٽ، مالي خدمتن، مارڪيٽن، توانائي ۽ هنڌ ذريعي ملڪي ۽ عالمي واپار جو تجزيو ڪريو."
+          }
+        },
+        {
+          "title": "10.2 Commercial Geography XII — Banking and trade routes — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes commercial geography xii — banking and trade routes?",
+          "options": {
+            "A": "Analyse how ports, transport corridors, financial services, markets, energy and location shape national and international trade. Use maps and data to explain trade flows, logistics",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Analyse how ports, transport corridors, financial services, markets, energy and location shape national and international trade. Use maps and data to explain trade flows, logistics and regional connections."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of commercial geography xii — banking and trade routes?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Analyse how ports, transport corridors, financial services, markets, energy and location shape national and international trade. Use maps and data to explain trade flows, logistics and regional connections."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in commercial geography xii — banking and trade routes and explain their importance.",
+          "modelAnswer": "Analyse how ports, transport corridors, financial services, markets, energy and location shape national and international trade. Use maps and data to explain trade flows, logistics and regional connections.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss commercial geography xii — banking and trade routes with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Analyse how ports, transport corridors, financial services, markets, energy and location shape national and international trade. Use maps and data to explain trade flows, logistics and regional connections. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
