@@ -74,7 +74,7 @@ import {getGrades,getSubject,sortCoursePackages,sortSequence} from "./course-ord
    return;
   }
   const packages=inClass.filter(r=>r.subject===selectedSubject);
-  const chapters=packages.flatMap(r=>r.chapterNames.map((name,i)=>({name,course:r,number:i+1,chapterGrade:(String(name).match(/^Grade\\s+(XII|XI|IX|X)\\b/i)||[])[1]?.toUpperCase()||null})).filter(c=>c.chapterGrade?c.chapterGrade===selectedClass:r.levels.length===1&&r.levels[0]===selectedClass));
+  const chapters=packages.flatMap(r=>r.chapterNames.map((name,i)=>({name,course:r,number:i+1,chapterGrade:(String(name).match(/^Grade\s+(XII|XI|IX|X)\b/i)||[])[1]?.toUpperCase()||null})).filter(c=>c.chapterGrade?c.chapterGrade===selectedClass:r.levels.length===1&&r.levels[0]===selectedClass));
   const filtered=chapters.filter(c=>c.name.toLowerCase().includes(q));
   summary.textContent='Class '+selectedClass+' · '+selectedSubject+': '+chapters.length+' chapter entries. Select a chapter to continue to student learning.';
   grid.innerHTML=filtered.length?'<div class="chapter-list">'+filtered.map(c=>'<article class="chapter-row"><div><h3>'+esc(c.name)+'</h3><p>'+esc(c.course.title)+' · '+c.course.lessons+' lessons · '+c.course.mcqs+' MCQs · '+c.course.written+' written questions in this package</p></div><a class="btn" href="./student-login.html">Open chapter →</a></article>').join('')+'</div>':'<div class="empty">No chapters match your search.</div>';
