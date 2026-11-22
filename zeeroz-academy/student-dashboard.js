@@ -15,7 +15,7 @@ function addStyles(){
  document.head.append(style);
 }
 let courseRecords=[],selectedGrade=null,selectedSubject=null;
-function chapterBelongsToGrade(ch,record,grade){const chapterGrades=getGrades(ch);return chapterGrades.length?chapterGrades.includes(grade):record.grades.length===1&&record.grades[0]===grade;}
+function chapterBelongsToGrade(ch,record,grade){const match=String(ch.title||"").match(/^Grade\s+(XII|XI|IX|X)\b/i);return match?match[1].toUpperCase()===grade:record.grades.length===1&&record.grades[0]===grade;}
 function renderCourses(){
  const el=$("courses");el.replaceChildren();el.classList.remove("empty");addStyles();
  const path=document.createElement("div");path.className="course-path";
