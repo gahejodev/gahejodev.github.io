@@ -1,0 +1,240 @@
+{
+  "id": "physics-xi-work-energy-oscillations-acoustics",
+  "title": "Physics XI — Work, Energy, Oscillations and Acoustics",
+  "description": "Supplementary topic-based course with structured lessons, MCQs, CRQs and ERQs in English, Urdu and Sindhi. Use alongside the prescribed textbook.",
+  "version": "1",
+  "curriculumAlignment": "Supplementary Physics XI units informed by the Government of Sindh HSC Science Group 2024–25 Physics XI unit notification and DCAR Physics Grade IX–XII 2024 curriculum. Not a full textbook chapter replacement.",
+  "sourceReferences": [
+    {
+      "title": "DCAR Sindh Curriculum Catalogue",
+      "url": "https://www.dcar.gos.pk/Sindh%20Curriculum.html",
+      "note": "Official subject curriculum listings."
+    },
+    {
+      "title": "Government of Sindh HSC Science Group syllabus notification",
+      "url": "https://www.dcar.gos.pk/other_notifications/HSC%20Science%20Group.pdf",
+      "note": "Notified 2024–25 XI science subject units; reduced-syllabus notice, not a substitute for the current full syllabus."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Work, Energy and Power",
+      "description": "Supplementary topic 1: Work, Energy and Power.",
+      "lessons": [
+        {
+          "title": "Work, Energy and Power — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nWork is done when a force causes displacement; for a constant force W=Fs cosθ. Kinetic energy is ½mv² and gravitational potential energy near Earth's surface is mgh. Power is the rate of energy transfer. Conservation of energy relates changes between forms.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "کام اس وقت ہوتا ہے جب قوت کے باعث نقل مکانی ہو؛ مستقل قوت کے لیے W=Fs cosθ۔ حرکی توانائی ½mv² اور ثقلی وضعی توانائی mgh ہے۔ طاقت توانائی کی منتقلی کی شرح ہے۔",
+            "sd": "ڪم تڏهن ٿئي ٿو جڏهن قوت سبب بي گهر ٿيڻ ٿئي؛ مستقل قوت لاءِ W=Fs cosθ. حرڪتي توانائي ½mv² ۽ ثقلي امڪاني توانائي mgh آهي. طاقت توانائي جي منتقلي جي شرح آهي."
+          }
+        },
+        {
+          "title": "Work, Energy and Power — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in work, energy and power to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes work, energy and power?",
+          "options": {
+            "A": "Work is done when a force causes displacement; for a constant force W=Fs cosθ. Kinetic energy is ½mv² and gravitational potential energy near Earth's surface is mgh. Power is the r",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Work is done when a force causes displacement; for a constant force W=Fs cosθ. Kinetic energy is ½mv² and gravitational potential energy near Earth's surface is mgh. Power is the rate of energy transfer. Conservation of energy relates changes between forms."
+        },
+        {
+          "question": "How should a student solve a problem in work, energy and power?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Work is done when a force causes displacement; for a constant force W=Fs cosθ. Kinetic energy is ½mv² and gravitational potential energy near Earth's surface is mgh. Power is the rate of energy transfer. Conservation of energy relates changes between forms."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in work, energy and power and explain their relationship.",
+          "modelAnswer": "Work is done when a force causes displacement; for a constant force W=Fs cosθ. Kinetic energy is ½mv² and gravitational potential energy near Earth's surface is mgh. Power is the rate of energy transfer. Conservation of energy relates changes between forms.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain work, energy and power and discuss one practical or numerical application.",
+          "modelAnswer": "Work is done when a force causes displacement; for a constant force W=Fs cosθ. Kinetic energy is ½mv² and gravitational potential energy near Earth's surface is mgh. Power is the rate of energy transfer. Conservation of energy relates changes between forms. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Oscillations and Simple Harmonic Motion",
+      "description": "Supplementary topic 2: Oscillations and Simple Harmonic Motion.",
+      "lessons": [
+        {
+          "title": "Oscillations and Simple Harmonic Motion — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nAn oscillation is repeated motion about an equilibrium position. In simple harmonic motion, acceleration is proportional to displacement and directed towards equilibrium: a=−ω²x. Period, frequency, amplitude and phase describe the motion; energy transfers between kinetic and potential forms.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "ارتعاش توازن کی جگہ کے گرد بار بار حرکت ہے۔ سادہ ہم آہنگ حرکت میں تعجیل نقل مکانی کے متناسب اور مخالف سمت میں ہوتی ہے: a=−ω²x۔ دورانیہ، تعدد، وسعت اور فیز حرکت بیان کرتے ہیں۔",
+            "sd": "ارتعاش توازن واري جاءِ جي چوڌاري بار بار حرڪت آهي. سادي هم آهنگ حرڪت ۾ تعجيل بي گهر ٿيڻ جي متناسب ۽ ابتڙ رخ ۾ هوندي آهي: a=−ω²x. دور، فريڪوئنسي، وسعت ۽ فيز حرڪت بيان ڪن ٿا."
+          }
+        },
+        {
+          "title": "Oscillations and Simple Harmonic Motion — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in oscillations and simple harmonic motion to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes oscillations and simple harmonic motion?",
+          "options": {
+            "A": "An oscillation is repeated motion about an equilibrium position. In simple harmonic motion, acceleration is proportional to displacement and directed towards equilibrium: a=−ω²x. P",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "An oscillation is repeated motion about an equilibrium position. In simple harmonic motion, acceleration is proportional to displacement and directed towards equilibrium: a=−ω²x. Period, frequency, amplitude and phase describe the motion; energy transfers between kinetic and potential forms."
+        },
+        {
+          "question": "How should a student solve a problem in oscillations and simple harmonic motion?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "An oscillation is repeated motion about an equilibrium position. In simple harmonic motion, acceleration is proportional to displacement and directed towards equilibrium: a=−ω²x. Period, frequency, amplitude and phase describe the motion; energy transfers between kinetic and potential forms."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in oscillations and simple harmonic motion and explain their relationship.",
+          "modelAnswer": "An oscillation is repeated motion about an equilibrium position. In simple harmonic motion, acceleration is proportional to displacement and directed towards equilibrium: a=−ω²x. Period, frequency, amplitude and phase describe the motion; energy transfers between kinetic and potential forms.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain oscillations and simple harmonic motion and discuss one practical or numerical application.",
+          "modelAnswer": "An oscillation is repeated motion about an equilibrium position. In simple harmonic motion, acceleration is proportional to displacement and directed towards equilibrium: a=−ω²x. Period, frequency, amplitude and phase describe the motion; energy transfers between kinetic and potential forms. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Acoustics and Sound",
+      "description": "Supplementary topic 3: Acoustics and Sound.",
+      "lessons": [
+        {
+          "title": "Acoustics and Sound — concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nSound is a mechanical longitudinal wave that needs a medium. Its speed depends on the medium and conditions such as temperature. Frequency determines pitch; amplitude relates to loudness. The Doppler effect is the observed frequency change caused by relative motion between source and observer.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "explanations": {
+            "ur": "آواز ایک میکانی طولی موج ہے جسے پھیلنے کے لیے مادّی واسطہ چاہیے۔ اس کی رفتار واسطے اور درجہ حرارت پر منحصر ہے۔ تعدد زیر و بم اور وسعت بلندی سے تعلق رکھتی ہے۔ ڈوپلر اثر نسبتی حرکت سے تعدد کی تبدیلی ہے۔",
+            "sd": "آواز هڪ ميڪانيڪي ڊگهي موج آهي جنهن لاءِ وچولو ضروري آهي. ان جي رفتار وچولي ۽ گرمي پد تي دارومدار رکي ٿي. فريڪوئنسي سُر ۽ وسعت آواز جي بلندي سان لاڳاپيل آهي. ڊاپلر اثر لاڳاپي واري حرڪت سبب فريڪوئنسي جي تبديلي آهي."
+          }
+        },
+        {
+          "title": "Acoustics and Sound — applications and problem solving",
+          "type": "text",
+          "content": "Apply the concepts in acoustics and sound to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "explanations": {
+            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
+            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes acoustics and sound?",
+          "options": {
+            "A": "Sound is a mechanical longitudinal wave that needs a medium. Its speed depends on the medium and conditions such as temperature. Frequency determines pitch; amplitude relates to lo",
+            "B": "The topic is unrelated to measurable evidence.",
+            "C": "Units and definitions are unnecessary.",
+            "D": "The concept cannot be applied to problems."
+          },
+          "correctOption": "A",
+          "explanation": "Sound is a mechanical longitudinal wave that needs a medium. Its speed depends on the medium and conditions such as temperature. Frequency determines pitch; amplitude relates to loudness. The Doppler effect is the observed frequency change caused by relative motion between source and observer."
+        },
+        {
+          "question": "How should a student solve a problem in acoustics and sound?",
+          "options": {
+            "A": "Guess without identifying quantities.",
+            "B": "Apply the relevant principle, show steps and check units.",
+            "C": "Ignore the stated conditions.",
+            "D": "Use an unrelated equation."
+          },
+          "correctOption": "B",
+          "explanation": "Sound is a mechanical longitudinal wave that needs a medium. Its speed depends on the medium and conditions such as temperature. Frequency determines pitch; amplitude relates to loudness. The Doppler effect is the observed frequency change caused by relative motion between source and observer."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key terms in acoustics and sound and explain their relationship.",
+          "modelAnswer": "Sound is a mechanical longitudinal wave that needs a medium. Its speed depends on the medium and conditions such as temperature. Frequency determines pitch; amplitude relates to loudness. The Doppler effect is the observed frequency change caused by relative motion between source and observer.",
+          "rubric": [
+            "Correct definitions (2)",
+            "Relationship/explanation (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain acoustics and sound and discuss one practical or numerical application.",
+          "modelAnswer": "Sound is a mechanical longitudinal wave that needs a medium. Its speed depends on the medium and conditions such as temperature. Frequency determines pitch; amplitude relates to loudness. The Doppler effect is the observed frequency change caused by relative motion between source and observer. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "rubric": [
+            "Accurate concept (3)",
+            "Application/example (3)",
+            "Reasoning and steps (2)",
+            "Clarity and units (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
