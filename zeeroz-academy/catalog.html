@@ -36,7 +36,7 @@ footer{background:#0d1734;color:#dbe4ff;padding:24px 0;font-size:12px}footer a{c
 </main>
 <footer><div class="wrap">© 2026 Zeeroz Academy · <a href="./index.html">Academy Home</a> · <a href="./student-login.html">Student Login</a></div></footer>
 <script type="module">
-import {getGrade,getSubject,sortCoursePackages,sortSequence} from "./course-order.mjs";
+import {getGrades,getSubject,sortCoursePackages,sortSequence} from "./course-order.mjs";
 (()=>{
  const params=new URLSearchParams(location.search);let level=(params.get('level')||'all').toUpperCase();if(!['IX','X','XI','XII','JOBS','ALL'].includes(level))level='all';
  const $=id=>document.getElementById(id),grid=$('courseGrid'),summary=$('catalogSummary'),search=$('courseSearch');
@@ -46,13 +46,13 @@ import {getGrade,getSubject,sortCoursePackages,sortSequence} from "./course-orde
  $('pageTitle').textContent=titleMap[level]||titleMap.ALL;
  document.querySelectorAll('.filter').forEach(btn=>btn.classList.toggle('active',btn.dataset.level.toUpperCase()===level));
  let records=[];
- const classOf=item=>getGrade(item);
+ const classesOf=item=>getGrades(item);
  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  function draw(){
   updateFilterStates();
   const rawQuery=search.value.trim();
   const q=rawQuery.toLowerCase();
-  const list=records.filter(r=>(level==='ALL'||level==='all'||r.level===level)&&(!q||(r.title+' '+r.description+' '+r.chapterNames.join(' ')).toLowerCase().includes(q)));
+  const list=records.filter(r=>(level==='ALL'||level==='all'||r.levels.includes(level))&&(!q||(r.title+' '+r.description+' '+r.chapterNames.join(' ')).toLowerCase().includes(q)));
   summary.textContent=list.length+' published course package'+(list.length===1?'':'s')+(level==='all'||level==='ALL'?' across all available classes':' for Class '+level)+'.';
   if(!list.length){
    const scope=level==='ALL'||level==='all'?'any class':'Class '+level;
@@ -61,7 +61,7 @@ import {getGrade,getSubject,sortCoursePackages,sortSequence} from "./course-orde
    const clear=$('clearCourseSearch');if(clear)clear.addEventListener('click',()=>{search.value='';draw();search.focus()});
    return;
   }
-  const grades=new Map();for(const r of list){const g=r.level||'Other';if(!grades.has(g))grades.set(g,new Map());const subs=grades.get(g);if(!subs.has(r.subject))subs.set(r.subject,[]);subs.get(r.subject).push(r)}
+  const grades=new Map();for(const r of list){for(const g of (r.levels.length?r.levels:['Other'])){if(!grades.has(g))grades.set(g,new Map());const subs=grades.get(g);if(!subs.has(r.subject))subs.set(r.subject,[]);subs.get(r.subject).push(r)}}
   const card=r=>'<article class="course"><span class="tag">'+esc(r.level)+' · '+esc(r.subject)+'</span><h2>'+esc(r.title)+'</h2><p>'+esc(r.description)+'</p><div class="stats"><span>'+r.chapters+' chapter(s)</span><span>'+r.lessons+' lessons</span><span>'+r.mcqs+' MCQs</span><span>'+r.written+' written questions</span></div><ol class="chapters">'+r.chapterNames.slice(0,6).map(x=>'<li>'+esc(x)+'</li>').join('')+(r.chapterNames.length>6?'<li>… and '+(r.chapterNames.length-6)+' more</li>':'')+'</ol><div class="actions"><a class="btn" href="./student-login.html">Student login to learn →</a><a class="btn secondary" href="./student-login.html">Create free account</a></div></article>';
   grid.innerHTML=[...grades.entries()].map(([g,subs])=>{const n=[...subs.values()].reduce((v,x)=>v+x.length,0);const inner=[...subs.entries()].map(([s,items])=>'<section class="subject-group"><div class="subject-heading"><h3>'+esc(s)+'</h3><span>'+items.length+' package'+(items.length===1?'':'s')+'</span></div><div class="subject-course-grid">'+items.map(card).join('')+'</div></section>').join('');return '<section class="grade-group"><div class="grade-heading"><h2>'+(g==='Other'?'Other courses':'Class '+esc(g))+'</h2><p>'+n+' published package'+(n===1?'':'s')+'</p></div>'+inner+'</section>'}).join('');
  }
@@ -75,14 +75,14 @@ import {getGrade,getSubject,sortCoursePackages,sortSequence} from "./course-orde
      const path=rawPath.startsWith('zeeroz-academy/')?'./'+rawPath.slice('zeeroz-academy/'.length):rawPath;
      const res=await fetch(path,{cache:'no-store'});if(!res.ok)throw new Error('package unavailable');
      const data=await res.json(),chapters=sortSequence(Array.isArray(data.chapters)?data.chapters:[]);
-     const levelName=classOf(item);if(!levelName)return null;
+     const levelNames=classesOf(item);if(!levelNames.length)return null;
      const chapterNames=chapters.map(c=>c.title||'Chapter');
      const lessons=chapters.reduce((n,c)=>n+(Array.isArray(c.lessons)?c.lessons.length:0),0);
      const mcqs=chapters.reduce((n,c)=>n+(Array.isArray(c.questions)?c.questions.length:0),0);
      const written=chapters.reduce((n,c)=>n+(Array.isArray(c.writtenQuestions)?c.writtenQuestions.length:0),0);
      const title=String(data.title||item.title||'Published course');
      const subject=getSubject(title);
-     return {id:item.id,title,description:data.description||'Published learning package.',level:levelName,subject,order:item.order,chapters:chapters.length,lessons,mcqs,written,chapterNames};
+     return {id:item.id,title,description:data.description||'Published learning package.',level:levelNames[0],levels:levelNames,subject,order:item.order,chapters:chapters.length,lessons,mcqs,written,chapterNames};
     }catch(error){console.warn('Could not load course package',item.id,error);return null}
    }));
    records=sortCoursePackages(loaded.filter(Boolean));
