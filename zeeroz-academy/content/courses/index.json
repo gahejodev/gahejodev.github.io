@@ -428,21 +428,21 @@
       "id": "pakistan-studies-ix-x",
       "title": "Pakistan Studies IX–X — History, Geography and Citizenship",
       "path": "zeeroz-academy/content/courses/pakistan-studies-ix-x.json",
-      "version": "1",
+      "version": "2",
       "order": 1
     },
     {
       "id": "islamiat-ix-xii-foundations",
       "title": "Islamiat IX–XII — Quran, Seerah, Ethics and Society",
       "path": "zeeroz-academy/content/courses/islamiat-ix-xii-foundations.json",
-      "version": "1",
+      "version": "2",
       "order": 1
     },
     {
       "id": "commerce-humanities-xi-xii-foundations",
       "title": "Commerce and Humanities XI–XII — Foundation Studies",
       "path": "zeeroz-academy/content/courses/commerce-humanities-xi-xii-foundations.json",
-      "version": "1",
+      "version": "2",
       "order": 1
     },
     {
