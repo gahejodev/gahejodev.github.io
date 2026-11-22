@@ -61,20 +61,20 @@
             "ur": {
               "question": "دباؤ کی SI اکائی کیا ہے؟",
               "options": {
-                "A": "newton",
-                "B": "pascal",
-                "C": "joule",
-                "D": "watt"
+                "A": "نیوٹن",
+                "B": "پاسکل",
+                "C": "جول",
+                "D": "واٹ"
               },
               "explanation": "Pressure is force per unit area; 1 Pa = 1 N m⁻²."
             },
             "sd": {
               "question": "دٻاءُ جي SI ايڪائي ڪهڙي آهي؟",
               "options": {
-                "A": "newton",
-                "B": "pascal",
-                "C": "joule",
-                "D": "watt"
+                "A": "نيوٽن",
+                "B": "پاسڪل",
+                "C": "جول",
+                "D": "واٽ"
               },
               "explanation": "Pressure is force per unit area; 1 Pa = 1 N m⁻²."
             }
@@ -127,20 +127,20 @@
             "ur": {
               "question": "اسی مائع میں گہرائی دوگنی ہو تو گیج دباؤ کیا ہوگا؟",
               "options": {
-                "A": "half",
-                "B": "double",
-                "C": "four times",
-                "D": "unchanged"
+                "A": "آدھا",
+                "B": "دوگنا",
+                "C": "چار گنا",
+                "D": "بغیر تبدیلی"
               },
               "explanation": "Since p=ρgh, pressure is directly proportional to depth."
             },
             "sd": {
               "question": "ساڳئي مايع ۾ کوٽائي ٻيڻي ٿئي ته گيج دٻاءُ ڇا ٿيندو؟",
               "options": {
-                "A": "half",
-                "B": "double",
-                "C": "four times",
-                "D": "unchanged"
+                "A": "اڌ",
+                "B": "ٻيڻو",
+                "C": "چار ڀيرا",
+                "D": "ساڳيو"
               },
               "explanation": "Since p=ρgh, pressure is directly proportional to depth."
             }
@@ -160,20 +160,20 @@
             "ur": {
               "question": "کثافت کی تعریف کیا ہے؟",
               "options": {
-                "A": "volume/mass",
-                "B": "mass/volume",
-                "C": "force/area",
-                "D": "weight/volume only"
+                "A": "حجم/کمیت",
+                "B": "کمیت/حجم",
+                "C": "قوت/رقبہ",
+                "D": "صرف وزن/حجم"
               },
               "explanation": "Density is mass divided by volume: ρ=m/V."
             },
             "sd": {
               "question": "ڪثافت جي وصف ڇا آهي؟",
               "options": {
-                "A": "volume/mass",
-                "B": "mass/volume",
-                "C": "force/area",
-                "D": "weight/volume only"
+                "A": "حجم/ڪثافت",
+                "B": "ڪثافت/حجم",
+                "C": "قوت/ايراضي",
+                "D": "صرف وزن/حجم"
               },
               "explanation": "Density is mass divided by volume: ρ=m/V."
             }
@@ -193,20 +193,20 @@
             "ur": {
               "question": "ہائیڈرولک پریس کس اصول پر کام کرتا ہے؟",
               "options": {
-                "A": "Newton's law",
-                "B": "Pascal's principle",
-                "C": "Hooke's law",
-                "D": "Ohm's law"
+                "A": "نیوٹن کا قانون",
+                "B": "پاسکل کا اصول",
+                "C": "ہُک کا قانون",
+                "D": "اوہم کا قانون"
               },
               "explanation": "An applied pressure change is transmitted through an enclosed fluid."
             },
             "sd": {
               "question": "هائيڊرولڪ پريس ڪهڙي اصول تي ڪم ڪري ٿي؟",
               "options": {
-                "A": "Newton's law",
-                "B": "Pascal's principle",
-                "C": "Hooke's law",
-                "D": "Ohm's law"
+                "A": "نيوٽن جو قانون",
+                "B": "پاسڪل جو اصول",
+                "C": "هوڪ جو قانون",
+                "D": "اوهم جو قانون"
               },
               "explanation": "An applied pressure change is transmitted through an enclosed fluid."
             }
@@ -226,20 +226,20 @@
             "ur": {
               "question": "مثالی ہائیڈرولک نظام میں دونوں پسٹنوں پر دباؤ کیسا ہوتا ہے؟",
               "options": {
-                "A": "equal",
-                "B": "always zero",
-                "C": "greater at small piston",
-                "D": "unrelated"
+                "A": "برابر",
+                "B": "ہمیشہ صفر",
+                "C": "چھوٹے پسٹن پر زیادہ",
+                "D": "غیر متعلق"
               },
               "explanation": "Pascal's principle gives F₁/A₁=F₂/A₂."
             },
             "sd": {
               "question": "مثالي هائيڊرولڪ نظام ۾ ٻنهي پسٽنن تي دٻاءُ ڪيئن هوندو آهي؟",
               "options": {
-                "A": "equal",
-                "B": "always zero",
-                "C": "greater at small piston",
-                "D": "unrelated"
+                "A": "برابر",
+                "B": "هميشه صفر",
+                "C": "ننڍي پسٽن تي وڌيڪ",
+                "D": "لاڳاپو ناهي"
               },
               "explanation": "Pascal's principle gives F₁/A₁=F₂/A₂."
             }
@@ -259,20 +259,20 @@
             "ur": {
               "question": "ارشمیدس کے اصول کے مطابق اُبھار کس کے برابر ہے؟",
               "options": {
-                "A": "body mass",
-                "B": "displaced fluid's weight",
-                "C": "fluid pressure",
-                "D": "object volume"
+                "A": "جسم کی کمیت",
+                "B": "ہٹائے گئے مائع کا وزن",
+                "C": "مائع کا دباؤ",
+                "D": "جسم کا حجم"
               },
               "explanation": "Buoyant force equals the weight of displaced fluid."
             },
             "sd": {
               "question": "آرڪيميڊيز جي اصول موجب اُڀار ڪنهن جي برابر آهي؟",
               "options": {
-                "A": "body mass",
-                "B": "displaced fluid's weight",
-                "C": "fluid pressure",
-                "D": "object volume"
+                "A": "جسم جو ماس",
+                "B": "هٽايل مايع جو وزن",
+                "C": "مايع جو دٻاءُ",
+                "D": "جسم جو حجم"
               },
               "explanation": "Buoyant force equals the weight of displaced fluid."
             }
@@ -292,20 +292,20 @@
             "ur": {
               "question": "آزادانہ تیرتا جسم کتنے وزن کا مائع ہٹاتا ہے؟",
               "options": {
-                "A": "less than its weight",
-                "B": "equal to its weight",
-                "C": "zero",
-                "D": "always twice its weight"
+                "A": "اس کے وزن سے کم",
+                "B": "اس کے وزن کے برابر",
+                "C": "صفر",
+                "D": "ہمیشہ دوگنا"
               },
               "explanation": "For floating equilibrium, buoyancy balances the object's weight."
             },
             "sd": {
               "question": "آزاديءَ سان ترندڙ جسم ڪيتري وزن وارو مايع هٽائي ٿو؟",
               "options": {
-                "A": "less than its weight",
-                "B": "equal to its weight",
-                "C": "zero",
-                "D": "always twice its weight"
+                "A": "ان جي وزن کان گهٽ",
+                "B": "ان جي وزن جي برابر",
+                "C": "صفر",
+                "D": "هميشه ٻيڻو"
               },
               "explanation": "For floating equilibrium, buoyancy balances the object's weight."
             }
@@ -325,20 +325,20 @@
             "ur": {
               "question": "اسٹیل کا جہاز کیوں تیر سکتا ہے؟",
               "options": {
-                "A": "steel has no weight",
-                "B": "its hollow shape lowers average density",
-                "C": "gravity is absent",
-                "D": "water has no pressure"
+                "A": "اسٹیل کا وزن نہیں ہوتا",
+                "B": "کھوکھلی ساخت اوسط کثافت کم کرتی ہے",
+                "C": "کششِ ثقل موجود نہیں",
+                "D": "پانی کا دباؤ نہیں ہوتا"
               },
               "explanation": "The hull encloses air and displaces enough water for buoyancy to balance weight."
             },
             "sd": {
               "question": "اسٽيل جو جهاز ڇو تري سگهي ٿو؟",
               "options": {
-                "A": "steel has no weight",
-                "B": "its hollow shape lowers average density",
-                "C": "gravity is absent",
-                "D": "water has no pressure"
+                "A": "اسٽيل جو وزن ناهي",
+                "B": "کوکلي بناوت سراسري ڪثافت گهٽائي ٿي",
+                "C": "ڪشش ثقل ناهي",
+                "D": "پاڻي جو دٻاءُ ناهي"
               },
               "explanation": "The hull encloses air and displaces enough water for buoyancy to balance weight."
             }
@@ -360,8 +360,8 @@
               "options": {
                 "A": "A₁v₁=A₂v₂",
                 "B": "A₁/v₁=A₂/v₂",
-                "C": "p₁=p₂ always",
-                "D": "v₁=v₂ always"
+                "C": "ہمیشہ p₁=p₂",
+                "D": "ہمیشہ v₁=v₂"
               },
               "explanation": "Volume flow rate Av remains constant along the tube."
             },
@@ -370,8 +370,8 @@
               "options": {
                 "A": "A₁v₁=A₂v₂",
                 "B": "A₁/v₁=A₂/v₂",
-                "C": "p₁=p₂ always",
-                "D": "v₁=v₂ always"
+                "C": "هميشه p₁=p₂",
+                "D": "هميشه v₁=v₂"
               },
               "explanation": "Volume flow rate Av remains constant along the tube."
             }
@@ -391,20 +391,20 @@
             "ur": {
               "question": "اگر پائپ کا رقبہ نصف ہو جائے تو رفتار کیا ہوگی؟",
               "options": {
-                "A": "halves",
-                "B": "doubles",
-                "C": "is unchanged",
-                "D": "becomes zero"
+                "A": "آدھی",
+                "B": "دوگنی",
+                "C": "بغیر تبدیلی",
+                "D": "صفر"
               },
               "explanation": "A v is constant, so halving A doubles v."
             },
             "sd": {
               "question": "جيڪڏهن پائپ جو ايراضي اڌ ٿئي ته رفتار ڇا ٿيندي؟",
               "options": {
-                "A": "halves",
-                "B": "doubles",
-                "C": "is unchanged",
-                "D": "becomes zero"
+                "A": "اڌ",
+                "B": "ٻيڻي",
+                "C": "ساڳي",
+                "D": "صفر"
               },
               "explanation": "A v is constant, so halving A doubles v."
             }
@@ -424,20 +424,20 @@
             "ur": {
               "question": "برنولی کی مساوات اپنی عام صورت میں کن حالات میں لاگو ہوتی ہے؟",
               "options": {
-                "A": "steady incompressible non-viscous flow along a streamline",
-                "B": "any turbulent flow",
-                "C": "all stopped fluids only",
-                "D": "all compressible shock waves"
+                "A": "مستقل، ناقابلِ انضغاط اور غیر لزج بہاؤ",
+                "B": "ہر قسم کا ہنگامہ خیز بہاؤ",
+                "C": "صرف ساکن مائعات",
+                "D": "تمام قابلِ انضغاط جھٹکے"
               },
               "explanation": "The standard form assumes steady, incompressible, non-viscous flow along a streamline."
             },
             "sd": {
               "question": "برنولي جي مساوات پنهنجي عام صورت ۾ ڪهڙين حالتن ۾ لاڳو ٿئي ٿي؟",
               "options": {
-                "A": "steady incompressible non-viscous flow along a streamline",
-                "B": "any turbulent flow",
-                "C": "all stopped fluids only",
-                "D": "all compressible shock waves"
+                "A": "مسلسل، ناقابلِ دٻاءُ ۽ غير لزجي وهڪرو",
+                "B": "هر قسم جو انتشار وارو وهڪرو",
+                "C": "صرف بيٺل مايع",
+                "D": "سڀ دٻاءُ وارا جهٽڪا"
               },
               "explanation": "The standard form assumes steady, incompressible, non-viscous flow along a streamline."
             }
@@ -457,20 +457,20 @@
             "ur": {
               "question": "لزوجت کس چیز کو ظاہر کرتی ہے؟",
               "options": {
-                "A": "fluid's resistance to flow",
-                "B": "fluid's colour",
-                "C": "mass only",
-                "D": "temperature only"
+                "A": "بہاؤ کی مزاحمت",
+                "B": "مائع کا رنگ",
+                "C": "صرف کمیت",
+                "D": "صرف درجہ حرارت"
               },
               "explanation": "Viscosity measures internal resistance to shear and flow."
             },
             "sd": {
               "question": "لزوجت ڇا ظاهر ڪري ٿي؟",
               "options": {
-                "A": "fluid's resistance to flow",
-                "B": "fluid's colour",
-                "C": "mass only",
-                "D": "temperature only"
+                "A": "وهڪري جي مزاحمت",
+                "B": "مايع جو رنگ",
+                "C": "صرف ماس",
+                "D": "صرف گرمي پد"
               },
               "explanation": "Viscosity measures internal resistance to shear and flow."
             }
@@ -490,20 +490,20 @@
             "ur": {
               "question": "آخری رفتار پر گرتے کرہ پر نتیجہ قوت کیا ہوتی ہے؟",
               "options": {
-                "A": "maximum downward",
-                "B": "zero",
-                "C": "equal to its mass",
-                "D": "infinite"
+                "A": "زیادہ سے زیادہ نیچے کی طرف",
+                "B": "صفر",
+                "C": "اس کی کمیت کے برابر",
+                "D": "لامتناہی"
               },
               "explanation": "Weight is balanced by upthrust plus viscous drag."
             },
             "sd": {
               "question": "آخري رفتار تي ڪرندڙ گولي تي نتيجي واري قوت ڪيتري هوندي آهي؟",
               "options": {
-                "A": "maximum downward",
-                "B": "zero",
-                "C": "equal to its mass",
-                "D": "infinite"
+                "A": "وڌ ۾ وڌ هيٺ طرف",
+                "B": "صفر",
+                "C": "ان جي ماس جي برابر",
+                "D": "لامحدود"
               },
               "explanation": "Weight is balanced by upthrust plus viscous drag."
             }
@@ -523,20 +523,20 @@
             "ur": {
               "question": "مائع میں کسی نقطے کا گیج دباؤ کن چیزوں پر منحصر ہے؟",
               "options": {
-                "A": "container shape only",
-                "B": "depth, density and g",
-                "C": "surface area only",
-                "D": "colour and viscosity only"
+                "A": "صرف برتن کی شکل",
+                "B": "گہرائی، کثافت اور g",
+                "C": "صرف سطحی رقبہ",
+                "D": "صرف رنگ اور لزوجت"
               },
               "explanation": "For a static liquid p=ρgh; container shape does not appear."
             },
             "sd": {
               "question": "مايع ۾ ڪنهن نقطي جو گيج دٻاءُ ڪهڙين شين تي دارومدار رکي ٿو؟",
               "options": {
-                "A": "container shape only",
-                "B": "depth, density and g",
-                "C": "surface area only",
-                "D": "colour and viscosity only"
+                "A": "صرف ٿانوَ جي شڪل",
+                "B": "کوٽائي، ڪثافت ۽ g",
+                "C": "صرف سطح جو ايراضي",
+                "D": "صرف رنگ ۽ لزوجت"
               },
               "explanation": "For a static liquid p=ρgh; container shape does not appear."
             }
