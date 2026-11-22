@@ -1,0 +1,432 @@
+{
+  "id": "mathematics-ix-xii-dcar-2024",
+  "title": "Mathematics IX–XII (DCAR 2024)",
+  "description": "Four grade-level course maps aligned to the official Sindh Mathematics 2024 curriculum domains: Numbers & Algebra, Geometry, and Information & Handling. Includes lessons, practice MCQs, CRQs and ERQs per grade. Grade-level topic map; textbook chapter mapping remains to be verified.",
+  "version": "1",
+  "curriculumAlignment": "Sindh Curriculum for Mathematics Grade IX–XII 2024, based on National Curriculum of Pakistan 2023 minimum standards. Organized by grade and domain; not claiming exact STBB chapter order.",
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Mathematics Grade IX–XII 2024",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Maths%20Curriculum%202024%20Grade%20IX-XII-15%20JULY%202024.pdf",
+      "note": "Official DCAR Sindh curriculum."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Grade IX: Mathematics",
+      "description": "Grade-level sequence organized around the official DCAR curriculum domains: Numbers & Algebra, Geometry, and Information & Handling. Topics are a learning map, not a substitute for a verified textbook contents list.",
+      "lessons": [
+        {
+          "title": "Unit 1: Numbers, sets and algebra",
+          "content": "Use real numbers, rational and irrational numbers, indices and algebraic expressions. Simplify expressions by applying laws of operations and explain each transformation. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        },
+        {
+          "title": "Unit 2: Equations, inequalities and functions",
+          "content": "Solve linear equations and inequalities, represent solutions on number lines and interpret simple functions as rules mapping inputs to outputs. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        },
+        {
+          "title": "Unit 3: Geometry and data handling",
+          "content": "Use angle properties, triangle and circle reasoning, measurement and geometric constructions. Collect, organize and interpret data using suitable tables and graphs. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which property allows a(b+c)=ab+ac?",
+          "options": {
+            "A": "Commutative",
+            "B": "Distributive",
+            "C": "Identity",
+            "D": "Inverse"
+          },
+          "correctOption": "B",
+          "explanation": "Multiplication distributes over addition."
+        },
+        {
+          "question": "The gradient of a straight line is:",
+          "options": {
+            "A": "change in y / change in x",
+            "B": "change in x / change in y",
+            "C": "sum of coordinates",
+            "D": "product of coordinates"
+          },
+          "correctOption": "A",
+          "explanation": "Gradient is rise over run."
+        },
+        {
+          "question": "A derivative represents, among other meanings:",
+          "options": {
+            "A": "instantaneous rate of change",
+            "B": "only area",
+            "C": "only perimeter",
+            "D": "a random number"
+          },
+          "correctOption": "A",
+          "explanation": "The derivative measures instantaneous rate of change."
+        },
+        {
+          "question": "A data display should be selected according to:",
+          "options": {
+            "A": "the question and data type",
+            "B": "the brightest colour",
+            "C": "the longest title",
+            "D": "the page size only"
+          },
+          "correctOption": "A",
+          "explanation": "Choose a graph that communicates the structure of the data."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade IX: Solve a mathematical problem of your choice from this grade's algebra or geometry content and show each step.",
+          "modelAnswer": "A valid solution identifies the known information, selects a relevant rule or formula, substitutes accurately, performs correct operations and checks whether the answer is reasonable.",
+          "rubric": [
+            "Identifies information (1)",
+            "Selects correct method (1)",
+            "Shows substitution/work (1)",
+            "Correct calculation (1)",
+            "Checks or interprets result (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade IX: Explain how mathematical reasoning can be used to model and solve a real-life problem.",
+          "modelAnswer": "Define the problem and variables, translate the situation into mathematical relationships, select suitable algebraic, geometric or statistical methods, solve systematically, check assumptions and interpret the result in the original context.",
+          "rubric": [
+            "Defines variables and assumptions (2)",
+            "Builds mathematical model (2)",
+            "Uses suitable method (2)",
+            "Correct reasoning and calculations (2)",
+            "Interprets and checks result (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grade X: Mathematics",
+      "description": "Grade-level sequence organized around the official DCAR curriculum domains: Numbers & Algebra, Geometry, and Information & Handling. Topics are a learning map, not a substitute for a verified textbook contents list.",
+      "lessons": [
+        {
+          "title": "Unit 1: Algebraic manipulation and quadratic relationships",
+          "content": "Factorize expressions, solve quadratic equations by suitable methods and interpret roots in context. Check solutions by substitution. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        },
+        {
+          "title": "Unit 2: Coordinate geometry and trigonometry",
+          "content": "Use coordinates, gradients, distance and geometric relationships. Apply trigonometric ratios to right triangles and solve contextual problems. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        },
+        {
+          "title": "Unit 3: Geometry, mensuration and statistics",
+          "content": "Apply geometric theorems and formulas for perimeter, area, surface area and volume. Summarize and interpret grouped or ungrouped data. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which property allows a(b+c)=ab+ac?",
+          "options": {
+            "A": "Commutative",
+            "B": "Distributive",
+            "C": "Identity",
+            "D": "Inverse"
+          },
+          "correctOption": "B",
+          "explanation": "Multiplication distributes over addition."
+        },
+        {
+          "question": "The gradient of a straight line is:",
+          "options": {
+            "A": "change in y / change in x",
+            "B": "change in x / change in y",
+            "C": "sum of coordinates",
+            "D": "product of coordinates"
+          },
+          "correctOption": "A",
+          "explanation": "Gradient is rise over run."
+        },
+        {
+          "question": "A derivative represents, among other meanings:",
+          "options": {
+            "A": "instantaneous rate of change",
+            "B": "only area",
+            "C": "only perimeter",
+            "D": "a random number"
+          },
+          "correctOption": "A",
+          "explanation": "The derivative measures instantaneous rate of change."
+        },
+        {
+          "question": "A data display should be selected according to:",
+          "options": {
+            "A": "the question and data type",
+            "B": "the brightest colour",
+            "C": "the longest title",
+            "D": "the page size only"
+          },
+          "correctOption": "A",
+          "explanation": "Choose a graph that communicates the structure of the data."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade X: Solve a mathematical problem of your choice from this grade's algebra or geometry content and show each step.",
+          "modelAnswer": "A valid solution identifies the known information, selects a relevant rule or formula, substitutes accurately, performs correct operations and checks whether the answer is reasonable.",
+          "rubric": [
+            "Identifies information (1)",
+            "Selects correct method (1)",
+            "Shows substitution/work (1)",
+            "Correct calculation (1)",
+            "Checks or interprets result (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade X: Explain how mathematical reasoning can be used to model and solve a real-life problem.",
+          "modelAnswer": "Define the problem and variables, translate the situation into mathematical relationships, select suitable algebraic, geometric or statistical methods, solve systematically, check assumptions and interpret the result in the original context.",
+          "rubric": [
+            "Defines variables and assumptions (2)",
+            "Builds mathematical model (2)",
+            "Uses suitable method (2)",
+            "Correct reasoning and calculations (2)",
+            "Interprets and checks result (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grade XI: Mathematics",
+      "description": "Grade-level sequence organized around the official DCAR curriculum domains: Numbers & Algebra, Geometry, and Information & Handling. Topics are a learning map, not a substitute for a verified textbook contents list.",
+      "lessons": [
+        {
+          "title": "Unit 1: Functions, sequences and mathematical reasoning",
+          "content": "Represent and analyze functions, domain and range, sequences and series. Use mathematical induction where required to justify general statements. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        },
+        {
+          "title": "Unit 2: Algebra, polynomials and binomial theorem",
+          "content": "Use polynomial operations, division and remainder ideas, and apply the binomial theorem to expand suitable expressions. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        },
+        {
+          "title": "Unit 3: Coordinate geometry, vectors and information handling",
+          "content": "Represent vectors, perform vector operations and apply them to geometric problems. Interpret statistical information and graphical representations. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which property allows a(b+c)=ab+ac?",
+          "options": {
+            "A": "Commutative",
+            "B": "Distributive",
+            "C": "Identity",
+            "D": "Inverse"
+          },
+          "correctOption": "B",
+          "explanation": "Multiplication distributes over addition."
+        },
+        {
+          "question": "The gradient of a straight line is:",
+          "options": {
+            "A": "change in y / change in x",
+            "B": "change in x / change in y",
+            "C": "sum of coordinates",
+            "D": "product of coordinates"
+          },
+          "correctOption": "A",
+          "explanation": "Gradient is rise over run."
+        },
+        {
+          "question": "A derivative represents, among other meanings:",
+          "options": {
+            "A": "instantaneous rate of change",
+            "B": "only area",
+            "C": "only perimeter",
+            "D": "a random number"
+          },
+          "correctOption": "A",
+          "explanation": "The derivative measures instantaneous rate of change."
+        },
+        {
+          "question": "A data display should be selected according to:",
+          "options": {
+            "A": "the question and data type",
+            "B": "the brightest colour",
+            "C": "the longest title",
+            "D": "the page size only"
+          },
+          "correctOption": "A",
+          "explanation": "Choose a graph that communicates the structure of the data."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade XI: Solve a mathematical problem of your choice from this grade's algebra or geometry content and show each step.",
+          "modelAnswer": "A valid solution identifies the known information, selects a relevant rule or formula, substitutes accurately, performs correct operations and checks whether the answer is reasonable.",
+          "rubric": [
+            "Identifies information (1)",
+            "Selects correct method (1)",
+            "Shows substitution/work (1)",
+            "Correct calculation (1)",
+            "Checks or interprets result (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade XI: Explain how mathematical reasoning can be used to model and solve a real-life problem.",
+          "modelAnswer": "Define the problem and variables, translate the situation into mathematical relationships, select suitable algebraic, geometric or statistical methods, solve systematically, check assumptions and interpret the result in the original context.",
+          "rubric": [
+            "Defines variables and assumptions (2)",
+            "Builds mathematical model (2)",
+            "Uses suitable method (2)",
+            "Correct reasoning and calculations (2)",
+            "Interprets and checks result (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grade XII: Mathematics",
+      "description": "Grade-level sequence organized around the official DCAR curriculum domains: Numbers & Algebra, Geometry, and Information & Handling. Topics are a learning map, not a substitute for a verified textbook contents list.",
+      "lessons": [
+        {
+          "title": "Unit 1: Differentiation and applications",
+          "content": "Understand limits and derivatives, differentiate algebraic and standard transcendental functions, and apply derivatives to rates of change and optimization. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        },
+        {
+          "title": "Unit 2: Integration and differential equations",
+          "content": "Interpret integration as antiderivative and accumulation, evaluate standard integrals and solve introductory first-order differential equations in suitable contexts. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        },
+        {
+          "title": "Unit 3: Vectors, probability and advanced information handling",
+          "content": "Apply vector functions and their derivatives to motion. Analyze data, probability and statistical relationships using appropriate mathematical reasoning. Show every algebraic step, state assumptions, check results and interpret answers in context.",
+          "explanations": {
+            "ur": "ریاضی میں ہر مرحلہ واضح لکھیں، مفروضے بیان کریں، جواب کی جانچ کریں اور نتیجے کو سوال کے تناظر میں سمجھیں۔",
+            "sd": "رياضيءَ ۾ هر قدم واضح لکو، مفروضا بيان ڪريو، جواب جي جاچ ڪريو ۽ نتيجي کي سوال جي حوالي سان سمجهو۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which property allows a(b+c)=ab+ac?",
+          "options": {
+            "A": "Commutative",
+            "B": "Distributive",
+            "C": "Identity",
+            "D": "Inverse"
+          },
+          "correctOption": "B",
+          "explanation": "Multiplication distributes over addition."
+        },
+        {
+          "question": "The gradient of a straight line is:",
+          "options": {
+            "A": "change in y / change in x",
+            "B": "change in x / change in y",
+            "C": "sum of coordinates",
+            "D": "product of coordinates"
+          },
+          "correctOption": "A",
+          "explanation": "Gradient is rise over run."
+        },
+        {
+          "question": "A derivative represents, among other meanings:",
+          "options": {
+            "A": "instantaneous rate of change",
+            "B": "only area",
+            "C": "only perimeter",
+            "D": "a random number"
+          },
+          "correctOption": "A",
+          "explanation": "The derivative measures instantaneous rate of change."
+        },
+        {
+          "question": "A data display should be selected according to:",
+          "options": {
+            "A": "the question and data type",
+            "B": "the brightest colour",
+            "C": "the longest title",
+            "D": "the page size only"
+          },
+          "correctOption": "A",
+          "explanation": "Choose a graph that communicates the structure of the data."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade XII: Solve a mathematical problem of your choice from this grade's algebra or geometry content and show each step.",
+          "modelAnswer": "A valid solution identifies the known information, selects a relevant rule or formula, substitutes accurately, performs correct operations and checks whether the answer is reasonable.",
+          "rubric": [
+            "Identifies information (1)",
+            "Selects correct method (1)",
+            "Shows substitution/work (1)",
+            "Correct calculation (1)",
+            "Checks or interprets result (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade XII: Explain how mathematical reasoning can be used to model and solve a real-life problem.",
+          "modelAnswer": "Define the problem and variables, translate the situation into mathematical relationships, select suitable algebraic, geometric or statistical methods, solve systematically, check assumptions and interpret the result in the original context.",
+          "rubric": [
+            "Defines variables and assumptions (2)",
+            "Builds mathematical model (2)",
+            "Uses suitable method (2)",
+            "Correct reasoning and calculations (2)",
+            "Interprets and checks result (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}

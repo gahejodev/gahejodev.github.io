@@ -311,6 +311,18 @@
       "order": 1
     },
     {
+      "id": "computer-science-ix-xii-dcar-2024",
+      "title": "Computer Science & Entrepreneurship IX–XII (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/computer-science-ix-xii-dcar-2024.json",
+      "version": "1"
+    },
+    {
+      "id": "mathematics-ix-xii-dcar-2024",
+      "title": "Mathematics IX–XII (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/mathematics-ix-xii-dcar-2024.json",
+      "version": "1"
+    },
+    {
       "id": "physics-xi-electricity-magnetism",
       "title": "Physics XI — Electricity and Magnetism (DCAR 2024)",
       "path": "zeeroz-academy/content/courses/physics-xi-electricity-magnetism.json",
@@ -353,6 +365,13 @@
       "order": 3
     },
     {
+      "id": "physics-xi-solids-elasticity",
+      "title": "Physics XI — Solids and Elasticity (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-solids-elasticity.json",
+      "version": "1",
+      "order": 9
+    },
+    {
       "id": "physics-xi-waves",
       "title": "Physics XI — Waves (DCAR 2024)",
       "path": "zeeroz-academy/content/courses/physics-xi-waves.json",
@@ -365,13 +384,6 @@
       "path": "zeeroz-academy/content/courses/physics-xii-complete.json",
       "version": "4",
       "order": 1
-    },
-    {
-      "id": "physics-xi-solids-elasticity",
-      "title": "Physics XI — Solids and Elasticity (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-solids-elasticity.json",
-      "version": "1",
-      "order": 9
     }
   ]
 }
