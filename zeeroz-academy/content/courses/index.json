@@ -444,6 +444,27 @@
       "path": "zeeroz-academy/content/courses/commerce-humanities-xi-xii-foundations.json",
       "version": "1",
       "order": 1
+    },
+    {
+      "id": "urdu-sindhi-ix-x-language",
+      "title": "Urdu and Sindhi IX–X — Compulsory Language Skills",
+      "path": "zeeroz-academy/content/courses/urdu-sindhi-ix-x-language.json",
+      "version": "1",
+      "order": 1
+    },
+    {
+      "id": "electives-ix-x-foundations",
+      "title": "IX–X Electives and General Subjects — Foundation Learning",
+      "path": "zeeroz-academy/content/courses/electives-ix-x-foundations.json",
+      "version": "1",
+      "order": 1
+    },
+    {
+      "id": "humanities-commerce-xi-xii-extended",
+      "title": "XI–XII Humanities and Commerce Electives — Extended Foundations",
+      "path": "zeeroz-academy/content/courses/humanities-commerce-xi-xii-extended.json",
+      "version": "1",
+      "order": 1
     }
   ]
 }
