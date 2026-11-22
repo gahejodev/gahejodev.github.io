@@ -1,0 +1,255 @@
+{
+  "id": "chemistry-xi-core-concepts-dcar-2024",
+  "title": "Chemistry XI — Core Concepts (DCAR 2024)",
+  "description": "Grade XI chemistry package based on DCAR 2024 SLOs covering atomic structure, periodic trends, bonding, molecular shape, intermolecular forces, states of matter and energetics. Six lessons, 12 MCQs, 2 CRQs and 2 ERQs.",
+  "version": "1",
+  "curriculumAlignment": "Sindh Curriculum for Chemistry Grade IX–XII 2024, Grade XI SLOs C-11-B-01 to C-11-B-07 (atomic structure/configuration), C-11-B-29 to C-11-B-49 (periodicity and bonding), C-11-B-61 to C-11-B-74 (states of matter), C-11-B-75 to C-11-B-83 (energetics). Domain-based package; no unverified textbook chapter map claimed.",
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Chemistry Grade IX–XII 2024",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+      "note": "Official DCAR curriculum, Grade XI SLOs."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Grade XI: Core Concepts",
+      "description": "Atomic structure, periodicity, bonding, intermolecular forces, states of matter and energetics.",
+      "lessons": [
+        {
+          "title": "Unit 1: Atomic structure and orbitals",
+          "content": "Atoms contain a nucleus of protons and neutrons with electrons occupying orbitals. Shells contain subshells and orbitals; orbitals of equal energy are degenerate. Atomic number Z equals proton number; mass number A equals total protons plus neutrons. For an ion, electrons differ from protons according to charge. Electron configurations and valence electrons explain chemical behaviour.",
+          "explanations": {
+            "ur": "ایٹم میں پروٹون اور نیوٹران کا مرکزہ اور الیکٹران کے آربیٹلز ہوتے ہیں۔ ایٹمی نمبر پروٹونوں کی تعداد ہے؛ کمیتی نمبر پروٹون اور نیوٹران کا مجموعہ ہے۔ آئن میں چارج کے مطابق الیکٹران بدلتے ہیں۔",
+            "sd": "ايٽم ۾ پروٽان ۽ نيوٽران جو نيوڪليس ۽ اليڪٽرانن جا آربيٽل هوندا آهن۔ ايٽمي نمبر پروٽانن جو تعداد آهي؛ ماس نمبر پروٽان ۽ نيوٽران جو مجموعو آهي۔ آئن ۾ چارج موجب اليڪٽران بدلجن ٿا۔"
+          }
+        },
+        {
+          "title": "Unit 2: Periodic trends and electronegativity",
+          "content": "Across a period, effective nuclear attraction generally increases and atomic radius tends to decrease. Down a group, additional shells increase atomic radius. Electronegativity depends on nuclear charge, distance and shielding. Differences in electronegativity help predict bond polarity and ionic versus covalent character.",
+          "explanations": {
+            "ur": "دور میں عموماً مؤثر نیوکلیائی کشش بڑھتی اور ایٹمی رداس کم ہوتا ہے۔ گروپ میں نیچے نئے شیل شامل ہونے سے رداس بڑھتا ہے۔ الیکٹرونگیٹوٹی بانڈ کی قطبیت سمجھنے میں مدد دیتی ہے۔",
+            "sd": "دور ۾ عام طور مؤثر نيوڪليائي ڇڪ وڌي ۽ ايٽمي ريڊيس گهٽجي ٿو۔ گروپ ۾ هيٺ نوان شيل وڌڻ سان ريڊيس وڌي ٿو۔ اليڪٽرو نيگيٽوٽي بانڊ جي قطبيت سمجهڻ ۾ مدد ڪري ٿي۔"
+          }
+        },
+        {
+          "title": "Unit 3: Chemical bonding and molecular shape",
+          "content": "Ionic bonding is electrostatic attraction between oppositely charged ions; covalent bonding involves shared electron pairs. Hybridization models orbital mixing. VSEPR predicts molecular shapes by minimizing repulsion between electron domains. Molecular orbital theory explains bond order and the paramagnetism of oxygen.",
+          "explanations": {
+            "ur": "آئنک بانڈ مخالف چارج والے آئنوں کی کشش ہے؛ کوویلنٹ بانڈ میں الیکٹران جوڑے مشترک ہوتے ہیں۔ VSEPR نظریہ الیکٹران جوڑوں کی باہمی دفع کی بنیاد پر شکل بتاتا ہے۔",
+            "sd": "آئنڪ بانڊ ابتڙ چارج وارن آئنن جي ڇڪ آهي؛ ڪوويلنٽ بانڊ ۾ اليڪٽران جوڙا گڏيل هوندا آهن۔ VSEPR اليڪٽران جوڙن جي ڌڪ جي بنياد تي ماليڪيول جي شڪل ٻڌائي ٿو۔"
+          }
+        },
+        {
+          "title": "Unit 4: Intermolecular forces and states of matter",
+          "content": "London dispersion forces occur through temporary dipoles; permanent dipole attractions occur between polar molecules; hydrogen bonding is a strong special dipole interaction when H is bonded to N, O or F. These forces affect boiling point, viscosity, surface tension and water's unusual properties. Solids may be crystalline or amorphous.",
+          "explanations": {
+            "ur": "لندن فورسز عارضی ڈائی پول سے پیدا ہوتی ہیں؛ قطبی سالمات میں مستقل ڈائی پول کشش ہوتی ہے؛ N، O یا F سے جڑا H ہائیڈروجن بانڈ بنا سکتا ہے۔ یہ قوتیں نقطۂ ابال اور پانی کی خصوصیات پر اثر ڈالتی ہیں۔",
+            "sd": "لنڊن فورسز عارضي ڊائپول سبب ٿين ٿيون؛ قطبي ماليڪيولن ۾ مستقل ڊائپول ڇڪ هوندي آهي؛ N، O يا F سان ڳنڍيل H هائيڊروجن بانڊ ٺاهي سگهي ٿو۔ اهي قوتون ٽهڪڻ جي گرمي ۽ پاڻيءَ جي خاصيتن تي اثر ڪن ٿيون۔"
+          }
+        },
+        {
+          "title": "Unit 5: Energetics and enthalpy",
+          "content": "Chemical reactions involve energy transfer. Exothermic reactions have negative ΔH; endothermic reactions have positive ΔH. Breaking bonds absorbs energy; forming bonds releases energy. Reaction profiles show activation energy. Calorimetry uses q=mcΔT; molar enthalpy change can be calculated from heat transferred per mole.",
+          "explanations": {
+            "ur": "کیمیائی عمل میں توانائی منتقل ہوتی ہے۔ خارجی حرارتی عمل میں ΔH منفی اور داخلی حرارتی عمل میں مثبت ہوتا ہے۔ بانڈ توڑنے میں توانائی جذب اور بانڈ بنانے میں خارج ہوتی ہے۔ حرارت کے لیے q=mcΔT استعمال ہوتا ہے۔",
+            "sd": "ڪيميائي عمل ۾ توانائي منتقل ٿئي ٿي۔ گرمي خارج ڪندڙ عمل ۾ ΔH منفي ۽ گرمي جذب ڪندڙ عمل ۾ مثبت هوندو آهي۔ بانڊ ٽوڙڻ ۾ توانائي جذب ۽ بانڊ ٺاهڻ ۾ خارج ٿئي ٿي۔ گرمي لاءِ q=mcΔT استعمال ٿئي ٿو۔"
+          }
+        },
+        {
+          "title": "Unit 6: Chemical equilibrium and reaction rates",
+          "content": "A reversible reaction can reach dynamic equilibrium in a closed system when forward and reverse rates are equal. Concentrations remain constant, not necessarily equal. Temperature, concentration and pressure changes can shift equilibrium; catalysts change the rate of reaching equilibrium but do not change its position.",
+          "explanations": {
+            "ur": "بند نظام میں reversible reaction متحرک توازن تک پہنچ سکتی ہے جب آگے اور پیچھے کے عمل کی رفتار برابر ہو۔ ارتکاز مستقل رہتا ہے، لازماً برابر نہیں۔ catalyst توازن تک پہنچنے کی رفتار بدلتا ہے، مقام نہیں۔",
+            "sd": "بند نظام ۾ reversible عمل متحرڪ توازن تائين پهچي سگهي ٿو جڏهن اڳتي ۽ پوئتي عمل جون رفتارون برابر ٿين۔ مقدارون مستقل رهن ٿيون، لازمي برابر نه۔ catalyst توازن تائين پهچڻ جي رفتار بدلائي ٿو، توازن جي جاءِ نه۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Atomic number equals the number of:",
+          "options": {
+            "A": "protons",
+            "B": "neutrons",
+            "C": "nucleons",
+            "D": "orbitals"
+          },
+          "correctOption": "A",
+          "explanation": "Atomic number Z is the proton number."
+        },
+        {
+          "question": "Mass number is the total number of:",
+          "options": {
+            "A": "electrons and protons",
+            "B": "protons and neutrons",
+            "C": "neutrons and orbitals",
+            "D": "ions"
+          },
+          "correctOption": "B",
+          "explanation": "A is the sum of protons and neutrons."
+        },
+        {
+          "question": "A neutral atom has:",
+          "options": {
+            "A": "more protons than electrons",
+            "B": "equal protons and electrons",
+            "C": "no neutrons",
+            "D": "no nucleus"
+          },
+          "correctOption": "B",
+          "explanation": "Positive proton charge balances negative electron charge."
+        },
+        {
+          "question": "Across a period, atomic radius generally:",
+          "options": {
+            "A": "increases strongly",
+            "B": "decreases",
+            "C": "is always constant",
+            "D": "becomes zero"
+          },
+          "correctOption": "B",
+          "explanation": "Increasing effective nuclear attraction pulls electrons closer."
+        },
+        {
+          "question": "A covalent bond involves:",
+          "options": {
+            "A": "shared electron pair(s)",
+            "B": "transfer of neutrons",
+            "C": "only metallic ions",
+            "D": "gravity"
+          },
+          "correctOption": "A",
+          "explanation": "Covalent bonding shares electron density between nuclei."
+        },
+        {
+          "question": "VSEPR theory predicts:",
+          "options": {
+            "A": "molecular shape",
+            "B": "atomic mass",
+            "C": "reaction rate only",
+            "D": "isotope abundance"
+          },
+          "correctOption": "A",
+          "explanation": "Electron-domain repulsion determines molecular geometry."
+        },
+        {
+          "question": "Hydrogen bonding commonly requires H bonded to:",
+          "options": {
+            "A": "Na, K or Li",
+            "B": "N, O or F",
+            "C": "C, Si or P only",
+            "D": "any metal"
+          },
+          "correctOption": "B",
+          "explanation": "Strong hydrogen bonding occurs when hydrogen is bonded to highly electronegative N, O or F."
+        },
+        {
+          "question": "London dispersion forces arise from:",
+          "options": {
+            "A": "temporary dipoles",
+            "B": "nuclear fission",
+            "C": "ionic lattices only",
+            "D": "proton transfer"
+          },
+          "correctOption": "A",
+          "explanation": "Momentary electron distribution creates temporary dipoles."
+        },
+        {
+          "question": "An exothermic reaction has ΔH:",
+          "options": {
+            "A": "positive",
+            "B": "negative",
+            "C": "always zero",
+            "D": "undefined"
+          },
+          "correctOption": "B",
+          "explanation": "Heat is released to surroundings, so system enthalpy decreases."
+        },
+        {
+          "question": "Bond breaking is generally:",
+          "options": {
+            "A": "exothermic",
+            "B": "endothermic",
+            "C": "energy-free",
+            "D": "unrelated to energy"
+          },
+          "correctOption": "B",
+          "explanation": "Energy is required to separate bonded atoms."
+        },
+        {
+          "question": "The equation q=mcΔT is used in:",
+          "options": {
+            "A": "calorimetry",
+            "B": "electrolysis only",
+            "C": "chromatography only",
+            "D": "atomic numbering"
+          },
+          "correctOption": "A",
+          "explanation": "It calculates heat transfer from mass, specific heat and temperature change."
+        },
+        {
+          "question": "At dynamic equilibrium, forward and reverse rates are:",
+          "options": {
+            "A": "equal",
+            "B": "both zero",
+            "C": "always unequal",
+            "D": "infinite"
+          },
+          "correctOption": "A",
+          "explanation": "Equal rates make macroscopic concentrations constant."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "An ion has 17 protons, 18 neutrons and a 1− charge. Determine its mass number and number of electrons.",
+          "modelAnswer": "Mass number A=17+18=35. A 1− ion has gained one electron, so electrons=17+1=18.",
+          "rubric": [
+            "Uses A=protons+neutrons (2)",
+            "Calculates A=35 (1)",
+            "Interprets 1− charge correctly (1)",
+            "Gives 18 electrons (1)"
+          ]
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain why water has a higher boiling point than a similar small molecule without hydrogen bonding.",
+          "modelAnswer": "Water molecules form intermolecular hydrogen bonds because hydrogen is bonded to oxygen. Additional energy is needed to overcome these attractions during boiling, raising the boiling point.",
+          "rubric": [
+            "Identifies hydrogen bonding (2)",
+            "Explains intermolecular attraction (2)",
+            "Links extra energy to higher boiling point (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain how electron configuration and periodic trends help predict chemical properties and bonding.",
+          "modelAnswer": "Electron configuration identifies valence electrons, which govern bonding. Across a period effective nuclear charge generally increases and radius decreases; down a group added shells increase radius and shielding. Electronegativity reflects attraction for shared electrons and depends on nuclear charge, radius and shielding. Differences in electronegativity help predict bond polarity and ionic/covalent character.",
+          "rubric": [
+            "Electron configuration and valence electrons (2)",
+            "Across-period trend (2)",
+            "Down-group trend (2)",
+            "Electronegativity factors (2)",
+            "Bonding prediction (2)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "A 100 g sample of water warms from 20°C to 25°C. Taking c=4.18 J g⁻¹ °C⁻¹, calculate heat absorbed and explain how calorimetry can estimate reaction enthalpy.",
+          "modelAnswer": "q=mcΔT=100×4.18×5=2090 J=2.09 kJ absorbed by the water. In a simple calorimetry experiment, reaction heat is approximately the negative of the solution heat, after accounting for the system and assuming negligible heat loss. Divide by moles reacted to obtain molar enthalpy change.",
+          "rubric": [
+            "Identifies equation (2)",
+            "Correct substitution (2)",
+            "Correct 2090 J (2)",
+            "Explains sign relation (2)",
+            "Explains per-mole enthalpy (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
