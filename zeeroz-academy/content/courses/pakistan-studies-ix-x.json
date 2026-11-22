@@ -1,0 +1,277 @@
+{
+  "id": "pakistan-studies-ix-x",
+  "title": "Pakistan Studies IX–X — History, Geography and Citizenship",
+  "description": "Supplementary grade-level study package with structured units, MCQs, CRQs and ERQs. Urdu/Sindhi support included where relevant; not a verified textbook reproduction.",
+  "version": "1",
+  "curriculumAlignment": "Supplementary Pakistan Studies learning map for Grades IX–X. DCAR catalogue lists Pakistan Studies Grade IX–X (2019/revised listing); detailed textbook chapter sequence and current edition crosswalk are not asserted.",
+  "sourceReferences": [
+    {
+      "title": "DCAR Sindh Curriculum Catalogue",
+      "url": "https://www.dcar.gos.pk/Sindh%20Curriculum.html",
+      "note": "Official subject curriculum listings and grade coverage."
+    },
+    {
+      "title": "STBB eBooks catalogue",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "note": "Use for future edition-specific textbook crosswalk."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "IX — Pakistan movement and constitutional development",
+      "description": "Supplementary unit 1: IX — Pakistan movement and constitutional development.",
+      "lessons": [
+        {
+          "title": "1.1 IX — Pakistan movement and constitutional development",
+          "type": "text",
+          "content": "## Learning outcomes\nStudy the historical causes of Muslim political identity in South Asia, major milestones of the Pakistan Movement, and the constitutional challenges after independence. Distinguish chronology, cause and consequence; assess historical claims using reliable evidence.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "پاکستان موومنٹ کے تاریخی اسباب، اہم مراحل اور آزادی کے بعد آئینی مسائل کو زمانی ترتیب، سبب اور نتیجے کے ساتھ سمجھیں۔ تاریخی دعووں کو معتبر شواہد سے جانچیں۔",
+            "sd": "پاڪستان تحريڪ جا تاريخي سبب، اهم مرحلا ۽ آزاديءَ کان پوءِ آئيني مسئلا ترتيب، سبب ۽ نتيجي سان سمجهو. تاريخي دعوائن کي معتبر ثبوت سان پرکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying ix — pakistan movement and constitutional development?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "Study the historical causes of Muslim political identity in South Asia, major milestones of the Pakistan Movement, and the constitutional challenges after independence. Distinguish chronology, cause and consequence; assess historical claims using reliable evidence."
+        },
+        {
+          "question": "What makes an answer on ix — pakistan movement and constitutional development strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "Study the historical causes of Muslim political identity in South Asia, major milestones of the Pakistan Movement, and the constitutional challenges after independence. Distinguish chronology, cause and consequence; assess historical claims using reliable evidence."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in ix — pakistan movement and constitutional development and give relevant examples.",
+          "modelAnswer": "Study the historical causes of Muslim political identity in South Asia, major milestones of the Pakistan Movement, and the constitutional challenges after independence. Distinguish chronology, cause and consequence; assess historical claims using reliable evidence.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of ix — pakistan movement and constitutional development in the relevant grade-level course.",
+          "modelAnswer": "Study the historical causes of Muslim political identity in South Asia, major milestones of the Pakistan Movement, and the constitutional challenges after independence. Distinguish chronology, cause and consequence; assess historical claims using reliable evidence. Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "IX — Physical geography and resources",
+      "description": "Supplementary unit 2: IX — Physical geography and resources.",
+      "lessons": [
+        {
+          "title": "2.1 IX — Physical geography and resources",
+          "type": "text",
+          "content": "## Learning outcomes\nPakistan's location, relief, climate, rivers and natural resources shape settlement, agriculture, transport and economic activity. Explain how monsoon patterns, water availability and landforms affect people and the environment. Use maps, scale and direction accurately.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "پاکستان کا محلِ وقوع، زمینی ساخت، آب و ہوا، دریا اور وسائل آبادی، زراعت اور معیشت پر اثر انداز ہوتے ہیں۔ نقشے، سمت اور پیمانے کا درست استعمال کریں۔",
+            "sd": "پاڪستان جو هنڌ، زميني بناوت، موسم، درياهه ۽ وسيلا آبادي، زراعت ۽ معيشت تي اثر ڪن ٿا. نقشا، رخ ۽ ماپو صحيح استعمال ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying ix — physical geography and resources?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "Pakistan's location, relief, climate, rivers and natural resources shape settlement, agriculture, transport and economic activity. Explain how monsoon patterns, water availability and landforms affect people and the environment. Use maps, scale and direction accurately."
+        },
+        {
+          "question": "What makes an answer on ix — physical geography and resources strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "Pakistan's location, relief, climate, rivers and natural resources shape settlement, agriculture, transport and economic activity. Explain how monsoon patterns, water availability and landforms affect people and the environment. Use maps, scale and direction accurately."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in ix — physical geography and resources and give relevant examples.",
+          "modelAnswer": "Pakistan's location, relief, climate, rivers and natural resources shape settlement, agriculture, transport and economic activity. Explain how monsoon patterns, water availability and landforms affect people and the environment. Use maps, scale and direction accurately.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of ix — physical geography and resources in the relevant grade-level course.",
+          "modelAnswer": "Pakistan's location, relief, climate, rivers and natural resources shape settlement, agriculture, transport and economic activity. Explain how monsoon patterns, water availability and landforms affect people and the environment. Use maps, scale and direction accurately. Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "X — Constitution, citizenship and governance",
+      "description": "Supplementary unit 3: X — Constitution, citizenship and governance.",
+      "lessons": [
+        {
+          "title": "3.1 X — Constitution, citizenship and governance",
+          "type": "text",
+          "content": "## Learning outcomes\nA constitution defines institutions, powers, rights and responsibilities. Citizenship includes legal status and participation in public life. Explain the roles of legislature, executive and judiciary, and why rule of law, accountability and equal protection matter.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "آئین اداروں، اختیارات، حقوق اور ذمہ داریوں کی وضاحت کرتا ہے۔ مقننہ، انتظامیہ اور عدلیہ کے کردار اور قانون کی حکمرانی و جواب دہی کی اہمیت سمجھیں۔",
+            "sd": "آئين ادارن، اختيارن، حقن ۽ ذميوارين کي بيان ڪري ٿو. قانون ساز، انتظاميه ۽ عدليه جا ڪردار ۽ قانون جي حڪمرانيءَ جي اهميت سمجهو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying x — constitution, citizenship and governance?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "A constitution defines institutions, powers, rights and responsibilities. Citizenship includes legal status and participation in public life. Explain the roles of legislature, executive and judiciary, and why rule of law, accountability and equal protection matter."
+        },
+        {
+          "question": "What makes an answer on x — constitution, citizenship and governance strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "A constitution defines institutions, powers, rights and responsibilities. Citizenship includes legal status and participation in public life. Explain the roles of legislature, executive and judiciary, and why rule of law, accountability and equal protection matter."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in x — constitution, citizenship and governance and give relevant examples.",
+          "modelAnswer": "A constitution defines institutions, powers, rights and responsibilities. Citizenship includes legal status and participation in public life. Explain the roles of legislature, executive and judiciary, and why rule of law, accountability and equal protection matter.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of x — constitution, citizenship and governance in the relevant grade-level course.",
+          "modelAnswer": "A constitution defines institutions, powers, rights and responsibilities. Citizenship includes legal status and participation in public life. Explain the roles of legislature, executive and judiciary, and why rule of law, accountability and equal protection matter. Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "X — Economy, society and national challenges",
+      "description": "Supplementary unit 4: X — Economy, society and national challenges.",
+      "lessons": [
+        {
+          "title": "4.1 X — Economy, society and national challenges",
+          "type": "text",
+          "content": "## Learning outcomes\nPopulation, education, health, agriculture, industry, trade and infrastructure influence development. Analyse challenges through causes, effects and possible responses. Sustainable development balances economic progress, social inclusion and environmental protection.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "آبادی، تعلیم، صحت، زراعت، صنعت، تجارت اور بنیادی ڈھانچہ ترقی پر اثر ڈالتے ہیں۔ مسائل کو اسباب، اثرات اور ممکنہ حل کے ذریعے سمجھیں۔",
+            "sd": "آبادي، تعليم، صحت، زراعت، صنعت، واپار ۽ بنيادي ڍانچو ترقيءَ تي اثر ڪن ٿا. مسئلن کي سببن، اثرن ۽ حلن سان سمجهو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying x — economy, society and national challenges?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "Population, education, health, agriculture, industry, trade and infrastructure influence development. Analyse challenges through causes, effects and possible responses. Sustainable development balances economic progress, social inclusion and environmental protection."
+        },
+        {
+          "question": "What makes an answer on x — economy, society and national challenges strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "Population, education, health, agriculture, industry, trade and infrastructure influence development. Analyse challenges through causes, effects and possible responses. Sustainable development balances economic progress, social inclusion and environmental protection."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in x — economy, society and national challenges and give relevant examples.",
+          "modelAnswer": "Population, education, health, agriculture, industry, trade and infrastructure influence development. Analyse challenges through causes, effects and possible responses. Sustainable development balances economic progress, social inclusion and environmental protection.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of x — economy, society and national challenges in the relevant grade-level course.",
+          "modelAnswer": "Population, education, health, agriculture, industry, trade and infrastructure influence development. Analyse challenges through causes, effects and possible responses. Sustainable development balances economic progress, social inclusion and environmental protection. Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
