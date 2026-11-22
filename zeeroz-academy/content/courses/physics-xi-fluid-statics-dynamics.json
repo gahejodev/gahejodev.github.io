@@ -1,0 +1,735 @@
+{
+  "id": "physics-xi-fluid-statics-dynamics",
+  "title": "Physics XI — Fluid Statics and Dynamics (DCAR 2024)",
+  "description": "Original trilingual Grade XI Physics course aligned to DCAR 2024 Domain C SLOs P-11-C-30 to P-11-C-48. Covers fluid density and pressure, hydrostatics, Pascal's principle, buoyancy, continuity, Bernoulli's equation and viscosity; includes 3 detailed lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi support.",
+  "version": "1",
+  "curriculumAlignment": "DCAR Sindh Physics Curriculum 2024, Grade XI Domain C: Mechanics, SLOs P-11-C-30 to P-11-C-48 (fluid statics and dynamics). This domain-aligned package does not claim an unverified STBB textbook chapter number.",
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Physics, Grade IX–XII (2024), Government of Sindh / DCAR",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Physics%20Curriculum%2019%20August%202024.pdf",
+      "note": "Grade XI Domain C SLOs P-11-C-30 to P-11-C-48; fluid statics and dynamics."
+    },
+    {
+      "title": "STBB eBooks portal",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "note": "Official digital textbook catalogue; package is aligned to DCAR SLOs rather than an unverified textbook chapter number."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Fluid Statics and Dynamics",
+      "description": "Grade XI Domain C continuation — density, hydrostatic pressure, Pascal's principle, buoyancy, continuity, Bernoulli flow and viscosity.",
+      "lessons": [
+        {
+          "title": "XI-C.3.1 Density, pressure and hydrostatic pressure",
+          "content": "## Learning outcomes\nExplain density and pressure; calculate pressure in fluids; describe how pressure changes with depth (P-11-C-30 to P-11-C-33).\n\n## Density\nDensity is mass per unit volume: ρ=m/V. Its SI unit is kg m⁻³. A substance with greater density has more mass in the same volume. Relative density is the ratio of a substance's density to the density of water (for a specified temperature); it has no unit.\n\n## Pressure\nPressure is the normal force per unit area: p=F/A. Its SI unit is the pascal (Pa), where 1 Pa=1 N m⁻². For the same force, a smaller contact area produces greater pressure.\n\n## Pressure in a liquid at rest\nAt depth h below a free surface, the gauge pressure is p=ρgh. Absolute pressure is p_abs=p_atm+ρgh. The relation assumes a fluid of approximately constant density and gravitational field. Pressure at a point in a static fluid acts in all directions and increases with depth; it does not depend on the container's shape.\n\n## Worked example\nWater has density 1000 kg m⁻³. At 2.0 m depth, using g=9.8 m s⁻², gauge pressure is p=1000×9.8×2=19,600 Pa=19.6 kPa.\n\n## Applications and misconceptions\nA dam is made thicker near its base because water pressure is greater at greater depth. The pressure formula uses vertical depth, not the length of a sloping path. Do not confuse gauge pressure with absolute pressure.\n\n## Check your understanding\nWhy is the bottom of a swimming pool under greater water pressure than the surface?",
+          "explanations": {
+            "ur": "کثافت کمیت فی اکائی حجم کمیتِ مادہ ہے: ρ=m/V۔ دباؤ عمودی قوت فی اکائی رقبہ ہے: p=F/A، اور اس کی اکائی پاسکل ہے۔ ساکن مائع میں سطح سے h گہرائی پر گیج دباؤ p=ρgh ہوتا ہے۔ اس لیے گہرائی بڑھنے سے دباؤ بڑھتا ہے۔ مطلق دباؤ میں فضائی دباؤ بھی شامل ہوتا ہے: p_abs=p_atm+ρgh۔ پانی کی کثافت 1000 kg/m³ اور گہرائی 2 m ہو تو g=9.8 m/s² کے ساتھ گیج دباؤ 19.6 kPa ہوگا۔",
+            "sd": "کثافت هر هڪ حجمي ۾ مادي جو مقدار آهي: ρ=m/V۔ دٻاءُ عمودي قوت في ايڪائي ايراضي آهي: p=F/A، ۽ ان جي ايڪائي پاسڪل آهي۔ بيٺل مايع ۾ سطح کان h کوٽائي تي گيج دٻاءُ p=ρgh ٿيندو آهي۔ تنهنڪري کوٽائي وڌڻ سان دٻاءُ وڌندو آهي۔ مطلق دٻاءَ ۾ هوا جو دٻاءُ به شامل هوندو آهي: p_abs=p_atm+ρgh۔ پاڻي جي ڪثافت 1000 kg/m³ ۽ کوٽائي 2 m هجي ته g=9.8 m/s² سان گيج دٻاءُ 19.6 kPa ٿيندو۔"
+          }
+        },
+        {
+          "title": "XI-C.3.2 Pascal's principle and buoyancy",
+          "content": "## Learning outcomes\nApply Pascal's principle; explain upthrust and Archimedes' principle; determine whether an object floats or sinks (P-11-C-34 to P-11-C-39).\n\n## Pascal's principle\nA pressure change applied to an enclosed fluid is transmitted undiminished to every part of the fluid and to the container walls. In a hydraulic system, p₁=p₂, so F₁/A₁=F₂/A₂. A small force on a small piston can produce a larger force on a larger piston. The larger piston moves a shorter distance; energy is not created.\n\n## Worked hydraulic example\nIf A₁=0.01 m², A₂=0.20 m² and F₁=50 N, then F₂=F₁(A₂/A₁)=50×20=1000 N (ideal system).\n\n## Upthrust and Archimedes' principle\nA fluid exerts an upward buoyant force on an immersed body because pressure is greater at its lower surface than at its upper surface. Archimedes' principle states that upthrust equals the weight of displaced fluid: F_B=ρ_fluid g V_displaced.\n\nAn object floats when its weight is balanced by buoyancy. For a freely floating object, the weight of displaced fluid equals the object's weight. An object whose average density is less than the fluid can float; one with greater average density tends to sink.\n\n## Applications\nShips float because their hollow hull makes the average density of the ship-plus-air volume low enough to displace water whose weight balances the ship. A hydrometer uses floating depth to compare liquid density.\n\n## Common mistake\nBuoyant force depends on the displaced fluid's density and volume, not simply on the object's total mass. For a fully submerged rigid object in an incompressible liquid, changing depth alone does not change displaced volume.\n\n## Check your understanding\nWhy can a steel ship float although a small solid steel ball sinks?",
+          "explanations": {
+            "ur": "پاسکل کے اصول کے مطابق بند مائع پر لگایا گیا دباؤ بغیر کمی کے ہر سمت منتقل ہوتا ہے۔ ہائیڈرولک نظام میں F₁/A₁=F₂/A₂ ہوتا ہے۔ ارشمیدس کے اصول کے مطابق مائع میں ڈوبے جسم پر اوپر کی طرف قوت، یعنی اُبھار، ہٹائے گئے مائع کے وزن کے برابر ہوتی ہے: F_B=ρgV۔ تیرتے جسم کے لیے جسم کا وزن اور اُبھار برابر ہوتے ہیں۔ جہاز کے کھوکھلے ڈھانچے کی وجہ سے اس کی اوسط کثافت کم ہو جاتی ہے، اس لیے وہ کافی پانی ہٹا کر تیر سکتا ہے۔",
+            "sd": "پاسڪل جي اصول موجب بند مايع تي لڳايل دٻاءُ بغير گهٽجڻ جي هر طرف منتقل ٿئي ٿو۔ هائيڊرولڪ نظام ۾ F₁/A₁=F₂/A₂ هوندو آهي۔ آرڪيميڊيز جي اصول موجب مايع ۾ ٻڏل جسم تي مٿي طرف قوت، يعني اُڀار، هٽايل مايع جي وزن جي برابر هوندي آهي: F_B=ρgV۔ ترندڙ جسم لاءِ جسم جو وزن ۽ اُڀار برابر هوندا آهن۔ جهاز جي کوکلي بناوت سبب ان جي سراسري ڪثافت گهٽجي ٿي، تنهنڪري اهو ڪافي پاڻي هٽائي تري سگهي ٿو۔"
+          }
+        },
+        {
+          "title": "XI-C.3.3 Continuity, Bernoulli's equation and viscosity",
+          "content": "## Learning outcomes\nUse the continuity equation for steady incompressible flow; explain Bernoulli's principle; describe viscosity and terminal speed (P-11-C-40 to P-11-C-48).\n\n## Flow rate and continuity\nFor steady flow of an incompressible fluid, volume flow rate Q=Av is constant along a tube. Therefore A₁v₁=A₂v₂. Where a pipe narrows, the fluid speed increases. This equation assumes steady flow and no leakage or accumulation.\n\n## Bernoulli's equation\nFor steady, incompressible, non-viscous flow along a streamline, p+½ρv²+ρgh=constant. The three terms represent pressure energy, kinetic energy and gravitational potential energy per unit volume. At the same height, a region of higher speed has lower static pressure under these assumptions.\n\n## Worked example\nWater flows through a horizontal pipe whose area decreases from 4 cm² to 2 cm². If speed in the wider section is 1.5 m/s, continuity gives v₂=(4/2)×1.5=3.0 m/s.\n\n## Viscosity and terminal speed\nViscosity describes a fluid's resistance to flow or internal shear. For a small sphere moving slowly through a viscous fluid under laminar-flow conditions, Stokes' drag is F=6πηrv. As a falling sphere speeds up, drag increases. It reaches terminal speed when downward weight is balanced by upthrust plus viscous drag, making resultant force and acceleration zero.\n\n## Limitations and safety\nBernoulli's equation is not a universal rule for turbulent, strongly viscous or unsteady flow. Do not infer that every faster-moving real-world fluid always has lower pressure without checking the conditions.\n\n## Check your understanding\nA pipe becomes narrower. What happens to the speed of steady incompressible flow, and which conservation relation explains it?",
+          "explanations": {
+            "ur": "مستقل اور ناقابلِ انضغاط بہاؤ میں حجم کی شرح Av مستقل رہتی ہے، اس لیے A₁v₁=A₂v₂۔ پائپ تنگ ہو تو رفتار بڑھتی ہے۔ برنولی کی مساوات p+½ρv²+ρgh=مستقل ہے؛ یہ مخصوص شرائط، مثلاً مستقل، غیر لزج بہاؤ، میں لاگو ہوتی ہے۔ لزوجت مائع کی اندرونی رگڑ یا بہاؤ کی مزاحمت ہے۔ گرتا ہوا کرہ اس وقت آخری رفتار حاصل کرتا ہے جب وزن، اُبھار اور لزجی مزاحمت متوازن ہو جائیں اور نتیجہ قوت صفر ہو۔",
+            "sd": "مسلسل ۽ ناقابلِ دٻاءُ وهڪري ۾ حجم جي وهڪري جي شرح Av مستقل رهي ٿي، تنهنڪري A₁v₁=A₂v₂۔ پائپ سوڙهو ٿئي ته رفتار وڌي ٿي۔ برنولي جي مساوات p+½ρv²+ρgh=مستقل آهي؛ اها مخصوص حالتن، جهڙوڪ مسلسل ۽ غير لزجي وهڪري، ۾ لاڳو ٿئي ٿي۔ لزوجت مايع جي اندروني رگڙ يا وهڪري جي مزاحمت آهي۔ ڪرندو گولو آخري رفتار تڏهن حاصل ڪري ٿو جڏهن وزن، اُڀار ۽ لزجي مزاحمت متوازن ٿين ۽ نتيجي واري قوت صفر ٿئي۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "The SI unit of pressure is:",
+          "options": {
+            "A": "newton",
+            "B": "pascal",
+            "C": "joule",
+            "D": "watt"
+          },
+          "correctOption": "B",
+          "explanation": "Pressure is force per unit area; 1 Pa = 1 N m⁻².",
+          "translations": {
+            "ur": {
+              "question": "دباؤ کی SI اکائی کیا ہے؟",
+              "options": {
+                "A": "newton",
+                "B": "pascal",
+                "C": "joule",
+                "D": "watt"
+              },
+              "explanation": "Pressure is force per unit area; 1 Pa = 1 N m⁻²."
+            },
+            "sd": {
+              "question": "دٻاءُ جي SI ايڪائي ڪهڙي آهي؟",
+              "options": {
+                "A": "newton",
+                "B": "pascal",
+                "C": "joule",
+                "D": "watt"
+              },
+              "explanation": "Pressure is force per unit area; 1 Pa = 1 N m⁻²."
+            }
+          }
+        },
+        {
+          "question": "Pressure at depth h in a stationary liquid of density ρ is:",
+          "options": {
+            "A": "ρh/g",
+            "B": "ρgh",
+            "C": "ρg/h",
+            "D": "gh/ρ"
+          },
+          "correctOption": "B",
+          "explanation": "Gauge pressure in a static liquid is p=ρgh.",
+          "translations": {
+            "ur": {
+              "question": "ساکن مائع میں h گہرائی پر گیج دباؤ کیا ہے؟",
+              "options": {
+                "A": "ρh/g",
+                "B": "ρgh",
+                "C": "ρg/h",
+                "D": "gh/ρ"
+              },
+              "explanation": "Gauge pressure in a static liquid is p=ρgh."
+            },
+            "sd": {
+              "question": "بيٺل مايع ۾ h کوٽائي تي گيج دٻاءُ ڇا آهي؟",
+              "options": {
+                "A": "ρh/g",
+                "B": "ρgh",
+                "C": "ρg/h",
+                "D": "gh/ρ"
+              },
+              "explanation": "Gauge pressure in a static liquid is p=ρgh."
+            }
+          }
+        },
+        {
+          "question": "If the depth in the same liquid is doubled, gauge pressure becomes:",
+          "options": {
+            "A": "half",
+            "B": "double",
+            "C": "four times",
+            "D": "unchanged"
+          },
+          "correctOption": "B",
+          "explanation": "Since p=ρgh, pressure is directly proportional to depth.",
+          "translations": {
+            "ur": {
+              "question": "اسی مائع میں گہرائی دوگنی ہو تو گیج دباؤ کیا ہوگا؟",
+              "options": {
+                "A": "half",
+                "B": "double",
+                "C": "four times",
+                "D": "unchanged"
+              },
+              "explanation": "Since p=ρgh, pressure is directly proportional to depth."
+            },
+            "sd": {
+              "question": "ساڳئي مايع ۾ کوٽائي ٻيڻي ٿئي ته گيج دٻاءُ ڇا ٿيندو؟",
+              "options": {
+                "A": "half",
+                "B": "double",
+                "C": "four times",
+                "D": "unchanged"
+              },
+              "explanation": "Since p=ρgh, pressure is directly proportional to depth."
+            }
+          }
+        },
+        {
+          "question": "Density is defined as:",
+          "options": {
+            "A": "volume/mass",
+            "B": "mass/volume",
+            "C": "force/area",
+            "D": "weight/volume only"
+          },
+          "correctOption": "B",
+          "explanation": "Density is mass divided by volume: ρ=m/V.",
+          "translations": {
+            "ur": {
+              "question": "کثافت کی تعریف کیا ہے؟",
+              "options": {
+                "A": "volume/mass",
+                "B": "mass/volume",
+                "C": "force/area",
+                "D": "weight/volume only"
+              },
+              "explanation": "Density is mass divided by volume: ρ=m/V."
+            },
+            "sd": {
+              "question": "ڪثافت جي وصف ڇا آهي؟",
+              "options": {
+                "A": "volume/mass",
+                "B": "mass/volume",
+                "C": "force/area",
+                "D": "weight/volume only"
+              },
+              "explanation": "Density is mass divided by volume: ρ=m/V."
+            }
+          }
+        },
+        {
+          "question": "A hydraulic press works on:",
+          "options": {
+            "A": "Newton's law",
+            "B": "Pascal's principle",
+            "C": "Hooke's law",
+            "D": "Ohm's law"
+          },
+          "correctOption": "B",
+          "explanation": "An applied pressure change is transmitted through an enclosed fluid.",
+          "translations": {
+            "ur": {
+              "question": "ہائیڈرولک پریس کس اصول پر کام کرتا ہے؟",
+              "options": {
+                "A": "Newton's law",
+                "B": "Pascal's principle",
+                "C": "Hooke's law",
+                "D": "Ohm's law"
+              },
+              "explanation": "An applied pressure change is transmitted through an enclosed fluid."
+            },
+            "sd": {
+              "question": "هائيڊرولڪ پريس ڪهڙي اصول تي ڪم ڪري ٿي؟",
+              "options": {
+                "A": "Newton's law",
+                "B": "Pascal's principle",
+                "C": "Hooke's law",
+                "D": "Ohm's law"
+              },
+              "explanation": "An applied pressure change is transmitted through an enclosed fluid."
+            }
+          }
+        },
+        {
+          "question": "In an ideal hydraulic system, pressure at the two pistons is:",
+          "options": {
+            "A": "equal",
+            "B": "always zero",
+            "C": "greater at small piston",
+            "D": "unrelated"
+          },
+          "correctOption": "A",
+          "explanation": "Pascal's principle gives F₁/A₁=F₂/A₂.",
+          "translations": {
+            "ur": {
+              "question": "مثالی ہائیڈرولک نظام میں دونوں پسٹنوں پر دباؤ کیسا ہوتا ہے؟",
+              "options": {
+                "A": "equal",
+                "B": "always zero",
+                "C": "greater at small piston",
+                "D": "unrelated"
+              },
+              "explanation": "Pascal's principle gives F₁/A₁=F₂/A₂."
+            },
+            "sd": {
+              "question": "مثالي هائيڊرولڪ نظام ۾ ٻنهي پسٽنن تي دٻاءُ ڪيئن هوندو آهي؟",
+              "options": {
+                "A": "equal",
+                "B": "always zero",
+                "C": "greater at small piston",
+                "D": "unrelated"
+              },
+              "explanation": "Pascal's principle gives F₁/A₁=F₂/A₂."
+            }
+          }
+        },
+        {
+          "question": "Archimedes' principle states that upthrust equals:",
+          "options": {
+            "A": "body mass",
+            "B": "displaced fluid's weight",
+            "C": "fluid pressure",
+            "D": "object volume"
+          },
+          "correctOption": "B",
+          "explanation": "Buoyant force equals the weight of displaced fluid.",
+          "translations": {
+            "ur": {
+              "question": "ارشمیدس کے اصول کے مطابق اُبھار کس کے برابر ہے؟",
+              "options": {
+                "A": "body mass",
+                "B": "displaced fluid's weight",
+                "C": "fluid pressure",
+                "D": "object volume"
+              },
+              "explanation": "Buoyant force equals the weight of displaced fluid."
+            },
+            "sd": {
+              "question": "آرڪيميڊيز جي اصول موجب اُڀار ڪنهن جي برابر آهي؟",
+              "options": {
+                "A": "body mass",
+                "B": "displaced fluid's weight",
+                "C": "fluid pressure",
+                "D": "object volume"
+              },
+              "explanation": "Buoyant force equals the weight of displaced fluid."
+            }
+          }
+        },
+        {
+          "question": "A freely floating object displaces fluid whose weight is:",
+          "options": {
+            "A": "less than its weight",
+            "B": "equal to its weight",
+            "C": "zero",
+            "D": "always twice its weight"
+          },
+          "correctOption": "B",
+          "explanation": "For floating equilibrium, buoyancy balances the object's weight.",
+          "translations": {
+            "ur": {
+              "question": "آزادانہ تیرتا جسم کتنے وزن کا مائع ہٹاتا ہے؟",
+              "options": {
+                "A": "less than its weight",
+                "B": "equal to its weight",
+                "C": "zero",
+                "D": "always twice its weight"
+              },
+              "explanation": "For floating equilibrium, buoyancy balances the object's weight."
+            },
+            "sd": {
+              "question": "آزاديءَ سان ترندڙ جسم ڪيتري وزن وارو مايع هٽائي ٿو؟",
+              "options": {
+                "A": "less than its weight",
+                "B": "equal to its weight",
+                "C": "zero",
+                "D": "always twice its weight"
+              },
+              "explanation": "For floating equilibrium, buoyancy balances the object's weight."
+            }
+          }
+        },
+        {
+          "question": "A steel ship can float mainly because:",
+          "options": {
+            "A": "steel has no weight",
+            "B": "its hollow shape lowers average density",
+            "C": "gravity is absent",
+            "D": "water has no pressure"
+          },
+          "correctOption": "B",
+          "explanation": "The hull encloses air and displaces enough water for buoyancy to balance weight.",
+          "translations": {
+            "ur": {
+              "question": "اسٹیل کا جہاز کیوں تیر سکتا ہے؟",
+              "options": {
+                "A": "steel has no weight",
+                "B": "its hollow shape lowers average density",
+                "C": "gravity is absent",
+                "D": "water has no pressure"
+              },
+              "explanation": "The hull encloses air and displaces enough water for buoyancy to balance weight."
+            },
+            "sd": {
+              "question": "اسٽيل جو جهاز ڇو تري سگهي ٿو؟",
+              "options": {
+                "A": "steel has no weight",
+                "B": "its hollow shape lowers average density",
+                "C": "gravity is absent",
+                "D": "water has no pressure"
+              },
+              "explanation": "The hull encloses air and displaces enough water for buoyancy to balance weight."
+            }
+          }
+        },
+        {
+          "question": "For steady incompressible flow, the continuity equation is:",
+          "options": {
+            "A": "A₁v₁=A₂v₂",
+            "B": "A₁/v₁=A₂/v₂",
+            "C": "p₁=p₂ always",
+            "D": "v₁=v₂ always"
+          },
+          "correctOption": "A",
+          "explanation": "Volume flow rate Av remains constant along the tube.",
+          "translations": {
+            "ur": {
+              "question": "مستقل ناقابلِ انضغاط بہاؤ کی تسلسل مساوات کیا ہے؟",
+              "options": {
+                "A": "A₁v₁=A₂v₂",
+                "B": "A₁/v₁=A₂/v₂",
+                "C": "p₁=p₂ always",
+                "D": "v₁=v₂ always"
+              },
+              "explanation": "Volume flow rate Av remains constant along the tube."
+            },
+            "sd": {
+              "question": "مسلسل ناقابلِ دٻاءُ وهڪري جي تسلسل واري مساوات ڪهڙي آهي؟",
+              "options": {
+                "A": "A₁v₁=A₂v₂",
+                "B": "A₁/v₁=A₂/v₂",
+                "C": "p₁=p₂ always",
+                "D": "v₁=v₂ always"
+              },
+              "explanation": "Volume flow rate Av remains constant along the tube."
+            }
+          }
+        },
+        {
+          "question": "If a pipe's cross-sectional area is halved, steady incompressible flow speed:",
+          "options": {
+            "A": "halves",
+            "B": "doubles",
+            "C": "is unchanged",
+            "D": "becomes zero"
+          },
+          "correctOption": "B",
+          "explanation": "A v is constant, so halving A doubles v.",
+          "translations": {
+            "ur": {
+              "question": "اگر پائپ کا رقبہ نصف ہو جائے تو رفتار کیا ہوگی؟",
+              "options": {
+                "A": "halves",
+                "B": "doubles",
+                "C": "is unchanged",
+                "D": "becomes zero"
+              },
+              "explanation": "A v is constant, so halving A doubles v."
+            },
+            "sd": {
+              "question": "جيڪڏهن پائپ جو ايراضي اڌ ٿئي ته رفتار ڇا ٿيندي؟",
+              "options": {
+                "A": "halves",
+                "B": "doubles",
+                "C": "is unchanged",
+                "D": "becomes zero"
+              },
+              "explanation": "A v is constant, so halving A doubles v."
+            }
+          }
+        },
+        {
+          "question": "Bernoulli's equation applies in its usual form to:",
+          "options": {
+            "A": "steady incompressible non-viscous flow along a streamline",
+            "B": "any turbulent flow",
+            "C": "all stopped fluids only",
+            "D": "all compressible shock waves"
+          },
+          "correctOption": "A",
+          "explanation": "The standard form assumes steady, incompressible, non-viscous flow along a streamline.",
+          "translations": {
+            "ur": {
+              "question": "برنولی کی مساوات اپنی عام صورت میں کن حالات میں لاگو ہوتی ہے؟",
+              "options": {
+                "A": "steady incompressible non-viscous flow along a streamline",
+                "B": "any turbulent flow",
+                "C": "all stopped fluids only",
+                "D": "all compressible shock waves"
+              },
+              "explanation": "The standard form assumes steady, incompressible, non-viscous flow along a streamline."
+            },
+            "sd": {
+              "question": "برنولي جي مساوات پنهنجي عام صورت ۾ ڪهڙين حالتن ۾ لاڳو ٿئي ٿي؟",
+              "options": {
+                "A": "steady incompressible non-viscous flow along a streamline",
+                "B": "any turbulent flow",
+                "C": "all stopped fluids only",
+                "D": "all compressible shock waves"
+              },
+              "explanation": "The standard form assumes steady, incompressible, non-viscous flow along a streamline."
+            }
+          }
+        },
+        {
+          "question": "Viscosity describes:",
+          "options": {
+            "A": "fluid's resistance to flow",
+            "B": "fluid's colour",
+            "C": "mass only",
+            "D": "temperature only"
+          },
+          "correctOption": "A",
+          "explanation": "Viscosity measures internal resistance to shear and flow.",
+          "translations": {
+            "ur": {
+              "question": "لزوجت کس چیز کو ظاہر کرتی ہے؟",
+              "options": {
+                "A": "fluid's resistance to flow",
+                "B": "fluid's colour",
+                "C": "mass only",
+                "D": "temperature only"
+              },
+              "explanation": "Viscosity measures internal resistance to shear and flow."
+            },
+            "sd": {
+              "question": "لزوجت ڇا ظاهر ڪري ٿي؟",
+              "options": {
+                "A": "fluid's resistance to flow",
+                "B": "fluid's colour",
+                "C": "mass only",
+                "D": "temperature only"
+              },
+              "explanation": "Viscosity measures internal resistance to shear and flow."
+            }
+          }
+        },
+        {
+          "question": "At terminal speed, the resultant force on a falling sphere is:",
+          "options": {
+            "A": "maximum downward",
+            "B": "zero",
+            "C": "equal to its mass",
+            "D": "infinite"
+          },
+          "correctOption": "B",
+          "explanation": "Weight is balanced by upthrust plus viscous drag.",
+          "translations": {
+            "ur": {
+              "question": "آخری رفتار پر گرتے کرہ پر نتیجہ قوت کیا ہوتی ہے؟",
+              "options": {
+                "A": "maximum downward",
+                "B": "zero",
+                "C": "equal to its mass",
+                "D": "infinite"
+              },
+              "explanation": "Weight is balanced by upthrust plus viscous drag."
+            },
+            "sd": {
+              "question": "آخري رفتار تي ڪرندڙ گولي تي نتيجي واري قوت ڪيتري هوندي آهي؟",
+              "options": {
+                "A": "maximum downward",
+                "B": "zero",
+                "C": "equal to its mass",
+                "D": "infinite"
+              },
+              "explanation": "Weight is balanced by upthrust plus viscous drag."
+            }
+          }
+        },
+        {
+          "question": "A liquid's gauge pressure at a point depends on:",
+          "options": {
+            "A": "container shape only",
+            "B": "depth, density and g",
+            "C": "surface area only",
+            "D": "colour and viscosity only"
+          },
+          "correctOption": "B",
+          "explanation": "For a static liquid p=ρgh; container shape does not appear.",
+          "translations": {
+            "ur": {
+              "question": "مائع میں کسی نقطے کا گیج دباؤ کن چیزوں پر منحصر ہے؟",
+              "options": {
+                "A": "container shape only",
+                "B": "depth, density and g",
+                "C": "surface area only",
+                "D": "colour and viscosity only"
+              },
+              "explanation": "For a static liquid p=ρgh; container shape does not appear."
+            },
+            "sd": {
+              "question": "مايع ۾ ڪنهن نقطي جو گيج دٻاءُ ڪهڙين شين تي دارومدار رکي ٿو؟",
+              "options": {
+                "A": "container shape only",
+                "B": "depth, density and g",
+                "C": "surface area only",
+                "D": "colour and viscosity only"
+              },
+              "explanation": "For a static liquid p=ρgh; container shape does not appear."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A diver is 3.0 m below the surface of fresh water (ρ=1000 kg m⁻³, g=9.8 m s⁻²). Calculate the gauge pressure. State why absolute pressure is larger.",
+          "modelAnswer": "p=ρgh=1000×9.8×3.0=29,400 Pa=29.4 kPa. Absolute pressure is larger because atmospheric pressure is added: p_abs=p_atm+p_gauge.",
+          "rubric": [
+            "Selects p=ρgh (1)",
+            "Substitutes correct values (1)",
+            "Calculates 29,400 Pa (1)",
+            "Converts to 29.4 kPa (1)",
+            "Explains atmospheric pressure addition (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ایک غوطہ خور تازہ پانی کی سطح سے 3.0 m نیچے ہے (ρ=1000 kg m⁻³، g=9.8 m s⁻²)۔ گیج دباؤ معلوم کریں اور بتائیں کہ مطلق دباؤ زیادہ کیوں ہے۔",
+              "modelAnswer": "p=ρgh=1000×9.8×3.0=29,400 Pa=29.4 kPa۔ مطلق دباؤ میں فضائی دباؤ بھی شامل ہوتا ہے، اس لیے p_abs=p_atm+p_gauge۔",
+              "rubric": [
+                "p=ρgh منتخب کرے (1)",
+                "درست قدریں رکھے (1)",
+                "29,400 Pa حاصل کرے (1)",
+                "29.4 kPa میں تبدیل کرے (1)",
+                "فضائی دباؤ کے اضافے کی وضاحت کرے (1)"
+              ]
+            },
+            "sd": {
+              "question": "هڪ غوطه خور تازي پاڻي جي سطح کان 3.0 m هيٺ آهي (ρ=1000 kg m⁻³، g=9.8 m s⁻²)۔ گيج دٻاءُ معلوم ڪريو ۽ ٻڌايو ته مطلق دٻاءُ وڌيڪ ڇو آهي۔",
+              "modelAnswer": "p=ρgh=1000×9.8×3.0=29,400 Pa=29.4 kPa۔ مطلق دٻاءَ ۾ هوا جو دٻاءُ به شامل آهي، تنهنڪري p_abs=p_atm+p_gauge۔",
+              "rubric": [
+                "p=ρgh چونڊي (1)",
+                "صحيح قدر رکي (1)",
+                "29,400 Pa حاصل ڪري (1)",
+                "29.4 kPa ۾ تبديل ڪري (1)",
+                "هوا جي دٻاءَ جي اضافي جي وضاحت ڪري (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A hydraulic lift has piston areas A₁=0.005 m² and A₂=0.20 m². If the input force is 80 N, calculate the ideal output force and state one limitation of a real lift.",
+          "modelAnswer": "F₁/A₁=F₂/A₂, so F₂=80×(0.20/0.005)=3200 N. A real lift has friction and fluid losses, so output is less than the ideal value.",
+          "rubric": [
+            "Uses Pascal relation (1)",
+            "Forms correct area ratio (1)",
+            "Substitutes 80×40 (1)",
+            "Obtains 3200 N (1)",
+            "Names friction/leakage/energy loss (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ایک ہائیڈرولک لفٹ کے پسٹنوں کے رقبے A₁=0.005 m² اور A₂=0.20 m² ہیں۔ 80 N قوت لگانے پر مثالی آؤٹ پٹ قوت معلوم کریں اور حقیقی لفٹ کی ایک حد بتائیں۔",
+              "modelAnswer": "F₁/A₁=F₂/A₂، لہٰذا F₂=80×(0.20/0.005)=3200 N۔ حقیقی لفٹ میں رگڑ اور مائع کے نقصانات ہوتے ہیں، اس لیے قوت مثالی قدر سے کم ہوتی ہے۔",
+              "rubric": [
+                "پاسکل کا تعلق استعمال کرے (1)",
+                "رقبوں کا درست تناسب بنائے (1)",
+                "80×40 رکھے (1)",
+                "3200 N حاصل کرے (1)",
+                "رگڑ یا توانائی کے نقصان کا ذکر کرے (1)"
+              ]
+            },
+            "sd": {
+              "question": "هڪ هائيڊرولڪ لفٽ جي پسٽنن جا ايراضي A₁=0.005 m² ۽ A₂=0.20 m² آهن۔ 80 N قوت ڏيڻ سان مثالي ٻاهرين قوت معلوم ڪريو ۽ حقيقي لفٽ جي هڪ حد ٻڌايو۔",
+              "modelAnswer": "F₁/A₁=F₂/A₂، تنهنڪري F₂=80×(0.20/0.005)=3200 N۔ حقيقي لفٽ ۾ رگڙ ۽ مايع جا نقصان ٿين ٿا، تنهنڪري قوت مثالي قدر کان گهٽ هوندي آهي۔",
+              "rubric": [
+                "پاسڪل جو تعلق استعمال ڪري (1)",
+                "ايراضين جو صحيح تناسب ٺاهي (1)",
+                "80×40 رکي (1)",
+                "3200 N حاصل ڪري (1)",
+                "رگڙ يا توانائي جي نقصان جو ذڪر ڪري (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Water flows steadily through a horizontal pipe. Its area changes from 6 cm² to 2 cm². The speed in the wider section is 1.2 m/s. Find the speed in the narrow section and name the principle used.",
+          "modelAnswer": "A₁v₁=A₂v₂, so v₂=(6/2)×1.2=3.6 m/s. This is the continuity equation from conservation of mass for steady incompressible flow.",
+          "rubric": [
+            "Identifies continuity equation (1)",
+            "Uses correct area ratio 6/2 (1)",
+            "Substitutes 1.2 m/s (1)",
+            "Obtains 3.6 m/s (1)",
+            "Links to conservation of mass (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "پانی ایک افقی پائپ میں مستقل بہہ رہا ہے۔ رقبہ 6 cm² سے 2 cm² ہو جاتا ہے۔ چوڑے حصے میں رفتار 1.2 m/s ہے۔ تنگ حصے کی رفتار معلوم کریں اور اصول کا نام بتائیں۔",
+              "modelAnswer": "A₁v₁=A₂v₂، اس لیے v₂=(6/2)×1.2=3.6 m/s۔ یہ مستقل ناقابلِ انضغاط بہاؤ میں کمیت کے بقائے قانون سے حاصل ہونے والی تسلسل مساوات ہے۔",
+              "rubric": [
+                "تسلسل مساوات پہچانے (1)",
+                "رقبے کا درست تناسب 6/2 استعمال کرے (1)",
+                "1.2 m/s رکھے (1)",
+                "3.6 m/s حاصل کرے (1)",
+                "کمیت کے بقائے قانون سے تعلق بتائے (1)"
+              ]
+            },
+            "sd": {
+              "question": "پاڻي هڪ افقي پائپ ۾ مسلسل وهي رهيو آهي۔ ايراضي 6 cm² کان 2 cm² ٿئي ٿي۔ ويڪري حصي ۾ رفتار 1.2 m/s آهي۔ سوڙهي حصي جي رفتار معلوم ڪريو ۽ اصول جو نالو ٻڌايو۔",
+              "modelAnswer": "A₁v₁=A₂v₂، تنهنڪري v₂=(6/2)×1.2=3.6 m/s۔ هي مسلسل ناقابلِ دٻاءُ وهڪري ۾ ماس جي بقا مان حاصل ٿيندڙ تسلسل جي مساوات آهي۔",
+              "rubric": [
+                "تسلسل جي مساوات سڃاڻي (1)",
+                "ايراضيءَ جو صحيح تناسب 6/2 استعمال ڪري (1)",
+                "1.2 m/s رکي (1)",
+                "3.6 m/s حاصل ڪري (1)",
+                "ماس جي بقا سان تعلق ٻڌائي (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain Archimedes' principle and use it to explain floating and sinking. Include the forces on a floating object, the displaced-fluid relation, and two practical applications.",
+          "modelAnswer": "Archimedes' principle states that an immersed body experiences an upward buoyant force equal to the weight of the fluid it displaces: F_B=ρ_fluid g V_displaced. The pressure at the lower surface is greater than at the upper surface, producing upthrust. For a floating object at rest, F_B=W, so the displaced fluid's weight equals the object's weight. An object with average density below the fluid can float; if its average density is greater, it tends to sink unless supported. A ship's hollow hull lowers its average density and displaces enough water to balance its weight. A hydrometer floats at different depths in liquids of different density.",
+          "rubric": [
+            "States principle accurately (2)",
+            "Explains pressure difference/upthrust (2)",
+            "Gives F_B=ρgV relation (2)",
+            "Explains floating equilibrium/density (2)",
+            "Gives two valid applications (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ارشمیدس کے اصول کی وضاحت کریں اور اس سے تیرنے اور ڈوبنے کی تشریح کریں۔ تیرتے جسم پر قوتیں، ہٹائے گئے مائع کا تعلق اور دو عملی مثالیں شامل کریں۔",
+              "modelAnswer": "ارشمیدس کے اصول کے مطابق مائع میں ڈوبے جسم پر اوپر کی طرف اُبھار اس مائع کے وزن کے برابر ہوتا ہے جسے جسم ہٹاتا ہے: F_B=ρ_fluid g V_displaced۔ نچلی سطح پر دباؤ زیادہ ہونے سے اوپر کی طرف خالص قوت پیدا ہوتی ہے۔ ساکن تیرتے جسم کے لیے F_B=W، لہٰذا ہٹائے گئے مائع کا وزن جسم کے وزن کے برابر ہوتا ہے۔ کم اوسط کثافت والا جسم تیر سکتا ہے جبکہ زیادہ کثافت والا عموماً ڈوبتا ہے۔ کھوکھلا جہاز کافی پانی ہٹا کر تیرتا ہے؛ ہائیڈرومیٹر مائع کی کثافت کے مطابق مختلف گہرائی پر تیرتا ہے۔",
+              "rubric": [
+                "اصول درست بیان کرے (2)",
+                "دباؤ کے فرق اور اُبھار کی وضاحت کرے (2)",
+                "F_B=ρgV تعلق دے (2)",
+                "توازن اور کثافت سے تیرنے کی وضاحت کرے (2)",
+                "دو درست اطلاقات دے (2)"
+              ]
+            },
+            "sd": {
+              "question": "آرڪيميڊيز جي اصول جي وضاحت ڪريو ۽ ان سان ترڻ ۽ ٻڏڻ سمجهايو۔ ترندڙ جسم تي قوتون، هٽايل مايع جو تعلق ۽ ٻه عملي مثال شامل ڪريو۔",
+              "modelAnswer": "آرڪيميڊيز جي اصول موجب مايع ۾ ٻڏل جسم تي مٿي طرف اُڀار ان مايع جي وزن جي برابر هوندو آهي جيڪو جسم هٽائي ٿو: F_B=ρ_fluid g V_displaced۔ هيٺين سطح تي دٻاءُ وڌيڪ هجڻ ڪري مٿي طرف خالص قوت پيدا ٿئي ٿي۔ بيٺل ترندڙ جسم لاءِ F_B=W، تنهنڪري هٽايل مايع جو وزن جسم جي وزن جي برابر آهي۔ گهٽ سراسري ڪثافت وارو جسم تري سگهي ٿو، جڏهن ته وڌيڪ ڪثافت وارو عام طور ٻڏي ٿو۔ کوکلو جهاز پاڻي هٽائي تري ٿو؛ هائيڊروميٽر مختلف ڪثافت وارن مايع ۾ مختلف سطح تي تري ٿو۔",
+              "rubric": [
+                "اصول صحيح بيان ڪري (2)",
+                "دٻاءَ جي فرق ۽ اُڀار جي وضاحت ڪري (2)",
+                "F_B=ρgV تعلق ڏئي (2)",
+                "توازن ۽ ڪثافت سان ترڻ سمجهائي (2)",
+                "ٻه صحيح استعمال ڏئي (2)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Describe steady flow in a pipe using the continuity equation and Bernoulli's equation. State the assumptions behind both equations and solve this example: a horizontal pipe narrows from 5 cm² to 2 cm²; speed in the wider section is 2.0 m/s. Find the narrow-section speed.",
+          "modelAnswer": "For steady incompressible flow, conservation of mass gives A₁v₁=A₂v₂. Hence v₂=(5/2)×2.0=5.0 m/s. Bernoulli's equation along a streamline is p+½ρv²+ρgh=constant, assuming steady, incompressible, non-viscous flow. It expresses conservation of mechanical energy per unit volume. At equal height, increased speed corresponds to lower static pressure under these assumptions. Continuity additionally assumes no leakage or accumulation; real viscous/turbulent flows require care.",
+          "rubric": [
+            "Explains steady flow and assumptions (2)",
+            "States continuity equation (2)",
+            "Calculates 5.0 m/s correctly (2)",
+            "States Bernoulli equation and terms (2)",
+            "Explains limitations/pressure-speed implication accurately (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "پائپ میں مستقل بہاؤ کو تسلسل اور برنولی کی مساوات سے بیان کریں۔ دونوں مساوات کی شرائط لکھیں اور حل کریں: افقی پائپ کا رقبہ 5 cm² سے 2 cm² ہو جاتا ہے؛ چوڑے حصے کی رفتار 2.0 m/s ہے۔ تنگ حصے کی رفتار معلوم کریں۔",
+              "modelAnswer": "مستقل ناقابلِ انضغاط بہاؤ میں کمیت کے بقائے قانون سے A₁v₁=A₂v₂۔ لہٰذا v₂=(5/2)×2.0=5.0 m/s۔ ایک ہی بہاؤ خط پر برنولی مساوات p+½ρv²+ρgh=مستقل ہے، جس کے لیے بہاؤ مستقل، ناقابلِ انضغاط اور غیر لزج فرض کیا جاتا ہے۔ یہ فی اکائی حجم میکانی توانائی کے بقائے کو ظاہر کرتی ہے۔ یکساں بلندی پر ان شرائط کے تحت زیادہ رفتار کے ساتھ ساکن دباؤ کم ہوتا ہے۔",
+              "rubric": [
+                "مستقل بہاؤ اور شرائط بیان کرے (2)",
+                "تسلسل مساوات لکھے (2)",
+                "5.0 m/s درست نکالے (2)",
+                "برنولی مساوات اور اجزا لکھے (2)",
+                "حدود اور رفتار/دباؤ کا تعلق درست بیان کرے (2)"
+              ]
+            },
+            "sd": {
+              "question": "پائپ ۾ مسلسل وهڪري کي تسلسل ۽ برنولي جي مساوات سان بيان ڪريو۔ ٻنهي مساوات جون شرطون لکو ۽ حل ڪريو: افقي پائپ جي ايراضي 5 cm² کان 2 cm² ٿئي ٿي؛ ويڪري حصي جي رفتار 2.0 m/s آهي۔ سوڙهي حصي جي رفتار معلوم ڪريو۔",
+              "modelAnswer": "مسلسل ناقابلِ دٻاءُ وهڪري ۾ ماس جي بقا مان A₁v₁=A₂v₂۔ تنهنڪري v₂=(5/2)×2.0=5.0 m/s۔ هڪ ئي وهڪري واري لڪير تي برنولي مساوات p+½ρv²+ρgh=مستقل آهي؛ ان لاءِ وهڪرو مسلسل، ناقابلِ دٻاءُ ۽ غير لزجي فرض ڪيو وڃي ٿو۔ اها في ايڪائي حجم ميڪانيڪي توانائي جي بقا ظاهر ڪري ٿي۔ ساڳئي اوچائي تي انهن حالتن ۾ وڌيڪ رفتار سان جامد دٻاءُ گهٽ هوندو آهي۔",
+              "rubric": [
+                "مسلسل وهڪري ۽ شرطون بيان ڪري (2)",
+                "تسلسل جي مساوات لکي (2)",
+                "5.0 m/s صحيح ڪڍي (2)",
+                "برنولي مساوات ۽ جزا لکي (2)",
+                "حدون ۽ رفتار/دٻاءَ جو تعلق صحيح بيان ڪري (2)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
