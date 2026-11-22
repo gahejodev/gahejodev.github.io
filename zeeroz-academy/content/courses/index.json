@@ -213,25 +213,32 @@
       "order": 2
     },
     {
+      "id": "physics-xi-rotational-circular-motion",
+      "title": "Physics XI — Rotational and Circular Motion (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-rotational-circular-motion.json",
+      "version": "1",
+      "order": 3
+    },
+    {
       "id": "physics-xi-heat-thermodynamics",
       "title": "Physics XI — Heat and Thermodynamics (DCAR 2024)",
       "path": "zeeroz-academy/content/courses/physics-xi-heat-thermodynamics.json",
       "version": "1",
-      "order": 3
+      "order": 4
     },
     {
       "id": "physics-xi-waves",
       "title": "Physics XI — Waves (DCAR 2024)",
       "path": "zeeroz-academy/content/courses/physics-xi-waves.json",
       "version": "1",
-      "order": 4
+      "order": 5
     },
     {
       "id": "physics-xi-electricity-magnetism",
       "title": "Physics XI — Electricity and Magnetism (DCAR 2024)",
       "path": "zeeroz-academy/content/courses/physics-xi-electricity-magnetism.json",
       "version": "2",
-      "order": 5
+      "order": 6
     },
     {
       "id": "biology-xii-chapter-14-immunity",

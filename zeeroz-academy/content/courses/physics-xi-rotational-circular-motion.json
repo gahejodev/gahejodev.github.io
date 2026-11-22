@@ -1,0 +1,1209 @@
+{
+  "id": "physics-xi-rotational-circular-motion",
+  "title": "Physics XI — Rotational and Circular Motion (DCAR 2024)",
+  "description": "Original trilingual Grade XI Physics package covering rotational and circular motion, orbital velocity, apparent weightlessness, moment of inertia, angular momentum and torque. Eight detailed lessons, 25 explained MCQs, four CRQs and three ERQs with English, Urdu and Sindhi support.",
+  "version": "1",
+  "curriculumAlignment": "DCAR Sindh Physics Curriculum 2024, Grade XI Domain C: Mechanics, SLOs P-11-C-17 to P-11-C-29 (printed pages 27–29). This package covers angular-motion equations; centripetal acceleration/force and its physical sources; centrifuge applications; orbital velocity; apparent weightlessness and artificial gravity; moment of inertia; angular momentum and conservation; torque; and τ=Iα. It reviews prerequisite angular definitions and relations identified in the Grade IX column as P-09-C-13 to P-09-C-16; those prerequisites are not mislabeled as Grade XI SLOs. The 2024 progression grid places the Grade XI rotational outcomes at P-11-C-17 onward; the current edition-specific STBB chapter crosswalk is not asserted.",
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Physics, Grade IX–XII (2024), Government of Sindh / DCAR",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Physics%20Curriculum%2019%20August%202024.pdf",
+      "note": "Domain C: Mechanics, Grade XI SLOs P-11-C-17 to P-11-C-29, printed pages 27–29; prerequisite angular-motion outcomes P-09-C-13 to P-09-C-16 appear in the Grade IX column."
+    },
+    {
+      "title": "STBB eBooks portal",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "note": "Official digital textbook catalogue. An edition-specific Physics XI chapter-number crosswalk was not independently confirmed; this package is aligned directly to DCAR 2024 SLOs."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Rotational and Circular Motion",
+      "description": "Grade XI Domain C continuation — angular kinematics, centripetal force, centrifuges, satellite orbits, weightlessness, artificial gravity, moment of inertia, angular momentum and torque.",
+      "lessons": [
+        {
+          "title": "XI-C.2.1 Angular displacement, velocity and acceleration",
+          "content": "## Learning outcomes\nBy the end of this lesson, you should be able to:\n- Express angular displacement in radians and relate it to arc length.\n- Define angular velocity and angular acceleration.\n- Use the equations of angular motion when angular acceleration is constant (P-11-C-17; prerequisite review P-09-C-13 to P-09-C-14).\n\n## Angular displacement\nWhen a rigid body rotates about a fixed axis, every point turns through the same angle. Angular displacement \\(\\theta\\) is the angle swept out by a line from the axis to a point on the body. The SI unit is the radian (rad). One complete revolution is \\(2\\pi\\) rad; half a revolution is \\(\\pi\\) rad.\n\nFor a point at perpendicular distance \\(r\\) from the axis, the arc length is\n\\[\ns=r\\theta\n\\]\nprovided \\(\\theta\\) is measured in radians. Thus \\(\\theta=s/r\\). A radian is dimensionless because it is a ratio of two lengths.\n\n## Angular velocity and acceleration\nAverage angular velocity is \\(\\Delta\\theta/\\Delta t\\); instantaneous angular velocity is the rate of change of angular displacement:\n\\[\n\\omega=\\frac{d\\theta}{dt}\n\\]\nIts SI unit is rad s\\(^{-1}\\). Angular acceleration is the rate of change of angular velocity:\n\\[\n\\alpha=\\frac{\\Delta\\omega}{\\Delta t}\n\\]\nfor an average value, with unit rad s\\(^{-2}\\). Choose a positive rotation direction and keep the sign convention consistent.\n\nFor a point on a rotating rigid body, tangential speed is \\(v=r\\omega\\). Points farther from the axis have greater linear speed when they share the same \\(\\omega\\).\n\n## Constant-angular-acceleration equations\nWhen \\(\\alpha\\) is constant:\n\\[\n\\omega=\\omega_0+\\alpha t,\\quad\n\\theta=\\omega_0t+\\tfrac12\\alpha t^2,\\quad\n\\omega^2=\\omega_0^2+2\\alpha\\theta\n\\]\nThese are rotational counterparts of the constant-acceleration equations for straight-line motion. They must not be used unchanged when angular acceleration varies with time.\n\n## Worked example\nA wheel starts at \\(2\\,\\text{rad s}^{-1}\\) and reaches \\(8\\,\\text{rad s}^{-1}\\) in 3 s at constant angular acceleration. Then \\(\\alpha=(8-2)/3=2\\,\\text{rad s}^{-2}\\). Its angular displacement is \\(\\theta=2(3)+\\tfrac12(2)(3^2)=15\\) rad.\n\n## Key terms\nAngular displacement, radian, angular velocity, angular acceleration, tangential speed, fixed axis.\n\n## Common mistake\nDo not substitute degrees directly into \\(s=r\\theta\\). Convert degrees to radians first.\n\n## Revision check\nWhy do two points on the same rotating disc have the same angular velocity but different linear speeds?",
+          "explanations": {
+            "ur": "جب کوئی جسم ایک مقررہ محور کے گرد گھومتا ہے تو اس کے ہر نقطے کی زاویائی تبدیلی یکساں ہوتی ہے۔ زاویائی نقل مکانی θ کو ریڈین میں ناپتے ہیں؛ ایک مکمل چکر 2π ریڈین ہے۔ محور سے r فاصلے پر نقطے کے لیے قوس کی لمبائی s=rθ ہوتی ہے، بشرطیکہ زاویہ ریڈین میں ہو۔ زاویائی رفتار ω، زاویائی نقل مکانی کی وقت کے ساتھ تبدیلی ہے، جبکہ زاویائی تعجیل α، زاویائی رفتار کی تبدیلی کی شرح ہے۔ ان کی اکائیاں بالترتیب rad/s اور rad/s² ہیں۔ اگر α مستقل ہو تو ω=ω₀+αt، θ=ω₀t+½αt² اور ω²=ω₀²+2αθ استعمال کیے جا سکتے ہیں۔ ایک ہی ڈسک کے تمام نقطوں کی ω یکساں ہوتی ہے، مگر خطی رفتار v=rω ہے؛ اس لیے محور سے دور نقطہ زیادہ تیز چلتا ہے۔ درجات کو s=rθ میں رکھنے سے پہلے ریڈین میں تبدیل کرنا ضروری ہے۔",
+            "sd": "جڏهن ڪو جسم مقرر محور جي چوڌاري ڦرندو آهي ته ان جي سڀني نقطن جي زاويائي تبديلي ساڳي هوندي آهي. زاويائي بي گھرڻ θ کي ريڊين ۾ ماپبو آهي؛ هڪ مڪمل چڪر 2π ريڊين آهي. محور کان r فاصلي تي نقطي لاءِ قوس جي ڊيگهه s=rθ ٿيندي، بشرطيڪ زاويه ريڊين ۾ هجي. زاويائي رفتار ω، زاويائي بي گھرڻ جي وقت سان تبديلي آهي، جڏهن ته زاويائي تعجيل α، زاويائي رفتار جي تبديلي جي شرح آهي. انهن جون ايڪائيون rad/s ۽ rad/s² آهن. جيڪڏهن α مستقل هجي ته ω=ω₀+αt، θ=ω₀t+½αt² ۽ ω²=ω₀²+2αθ استعمال ڪري سگهجن ٿا. هڪ ئي ڊسڪ جا سڀ نقطا ساڳي ω رکن ٿا، پر خطي رفتار v=rω آهي؛ تنهنڪري محور کان پري نقطو وڌيڪ تيز هلندو آهي. s=rθ ۾ درجا استعمال ڪرڻ کان اڳ ريڊين ۾ تبديل ڪريو."
+          }
+        },
+        {
+          "title": "XI-C.2.2 Centripetal acceleration and force",
+          "content": "## Learning outcomes\n- Explain why velocity changes during motion along a curved path.\n- Calculate centripetal acceleration and the net inward force (P-11-C-18 to P-11-C-19).\n- Identify the physical force that supplies centripetal force in different situations (P-11-C-21).\n\n## Why circular motion needs an inward acceleration\nVelocity is a vector. Even if speed is constant, velocity changes when direction changes. A body moving in a circle therefore accelerates toward the centre. This inward acceleration is called centripetal acceleration:\n\\[\na_c=\\frac{v^2}{r}=r\\omega^2\n\\]\nwhere \\(v\\) is tangential speed, \\(r\\) is the radius and \\(\\omega\\) is angular speed.\n\nNewton's second law gives the required resultant inward force:\n\\[\nF_c=ma_c=\\frac{mv^2}{r}=mr\\omega^2\n\\]\n“Centripetal” describes the direction and role of the resultant force; it is not a separate new kind of force.\n\n## What supplies the centripetal force?\n- A stone on a string: tension pulls it toward the hand.\n- A car on a level circular road: static friction between tyres and road acts toward the centre.\n- A satellite: gravity supplies the inward force.\n- A car on a properly banked road: the horizontal component of the normal contact force helps provide the inward resultant.\n\nIf the required inward force is unavailable, the object does not continue around the circle; it moves along the tangent at the instant the constraint is removed.\n\n## Worked example\nA 1,000 kg car travels at 15 m/s around a level curve of radius 50 m. Its centripetal acceleration is \\(15^2/50=4.5\\,\\text{m s}^{-2}\\). The required inward resultant is \\(F_c=1,000(4.5)=4,500\\) N. On a level road, static friction must be able to supply this force.\n\n## How quantities affect the result\nAt fixed radius, doubling speed makes centripetal acceleration and force four times larger. At fixed speed, doubling radius halves them. The direction of the acceleration is always toward the centre, perpendicular to the instantaneous tangential velocity.\n\n## Key terms\nCentripetal acceleration, centripetal force, tangential velocity, static friction, tension, normal force.\n\n## Revision check\nA cyclist turns at constant speed. Explain why the cyclist is still accelerating.",
+          "explanations": {
+            "ur": "دائرے میں حرکت کرتے ہوئے رفتار کی مقدار مستقل ہو سکتی ہے، لیکن سمت بدلتی رہتی ہے؛ اس لیے velocity بدلتی ہے اور مرکز کی طرف تعجیل پیدا ہوتی ہے۔ اسے centripetal acceleration کہتے ہیں: ac=v²/r=rω²۔ نیوٹن کے دوسرے قانون کے مطابق مرکز کی طرف خالص قوت Fc=mac=mv²/r ہے۔ یہ کوئی نئی الگ قوت نہیں بلکہ موجودہ قوتوں کی اندرونی سمت والی resultant ہے۔ پتھر کو گھماتے وقت ڈوری کا تناؤ، ہموار سڑک پر گاڑی کے ٹائروں اور سڑک کے درمیان static friction، سیٹلائٹ کے لیے کششِ ثقل، اور banked road پر normal force کا افقی جزو یہ کردار ادا کر سکتا ہے۔ 1000 kg گاڑی 15 m/s سے 50 m رداس کے موڑ پر چلے تو ac=4.5 m/s² اور مطلوبہ قوت 4500 N ہے۔ رفتار دوگنی ہو تو اسی رداس پر قوت چار گنا ہو جاتی ہے۔",
+            "sd": "دائري ۾ هلندي رفتار جي مقدار مستقل ٿي سگهي ٿي، پر رخ بدلجندو رهي ٿو؛ تنهنڪري velocity بدلجي ٿي ۽ مرڪز ڏانهن تعجيل پيدا ٿئي ٿي. ان کي centripetal acceleration چوندا آهن: ac=v²/r=rω². نيوٽن جي ٻئي قانون موجب مرڪز ڏانهن خالص قوت Fc=mac=mv²/r آهي. اها ڪا نئين الڳ قوت نه آهي، پر موجود قوتن جو اندر ڏانهن resultant آهي. پٿر کي گهماڻ وقت رسي جو ڇڪ، سڌي سطح واري موڙ تي گاڏي جي ٽائرن ۽ روڊ وچ ۾ static friction، سيٽلائيٽ لاءِ ڪششِ ثقل، ۽ banked road تي normal force جو افقي جزو اهو ڪم ڪري سگهي ٿو. 1000 kg گاڏي 15 m/s رفتار سان 50 m رداس واري موڙ تي هلي ته ac=4.5 m/s² ۽ گهربل قوت 4500 N ٿيندي. ساڳئي رداس تي رفتار ٻيڻي ڪرڻ سان قوت چار ڀيرا ٿيندي."
+          }
+        },
+        {
+          "title": "XI-C.2.3 Centrifuges and practical circular-motion systems",
+          "content": "## Learning outcomes\n- Explain how centripetal force enables a centrifuge to separate materials (P-11-C-20).\n- Relate the rotation rate and radius to the acceleration experienced by a sample.\n- Distinguish the real inward force from the outward sensation described in a rotating frame.\n\n## How a centrifuge works\nA centrifuge rotates tubes or a container rapidly around an axis. The sample must continually change direction, so the tube wall or supporting liquid supplies the inward resultant force needed for circular motion. In the rotating frame, the contents appear to experience an outward centrifugal effect. This is a useful description in that rotating frame, but in an inertial frame the required real resultant force is directed inward.\n\nDifferent components of a mixture respond differently because of differences in density, particle size and drag. Under suitable conditions, denser suspended particles move outward relative to the rotating tube and form a pellet at the outer end, while the less dense liquid remains above them. The separation is not simply “mass alone”; the fluid, particle size, density contrast, viscosity, rotor geometry and spin time all matter.\n\n## Acceleration in a rotor\nThe radial acceleration is \\(a_c=r\\omega^2\\). Increasing angular speed has a strong effect because speed is squared. For example, doubling \\(\\omega\\) at the same radius makes the required centripetal acceleration four times as large.\n\nA centrifuge must be balanced and operated within its rated speed. Unequal tube masses can create vibration and dangerous mechanical stress. Always use matched tubes, secure lids and follow laboratory safety instructions.\n\n## Applications\nLaboratories use centrifuges to separate blood components, sediment cells, clarify suspensions and prepare samples. Industrial systems use the same principle to separate solids from liquids or liquids with different densities.\n\n## Worked reasoning\nIf a rotor radius is 0.12 m and its angular speed is 300 rad/s, the radial acceleration is \\(0.12(300)^2=10,800\\,\\text{m s}^{-2}\\), approximately 1,100 times gravitational acceleration. The high acceleration helps particles sediment quickly.\n\n## Key terms\nCentrifuge, rotor, pellet, supernatant, density, radial acceleration, rotating reference frame.\n\n## Revision check\nWhy must centrifuge tubes be balanced in opposite positions before a high-speed run?",
+          "explanations": {
+            "ur": "Centrifuge میں نمونے والی ٹیوبیں محور کے گرد تیزی سے گھومتی ہیں۔ دائرے میں حرکت برقرار رکھنے کے لیے ٹیوب کی دیوار یا مائع نمونے پر مرکز کی طرف resultant قوت لگاتا ہے۔ گھومتے ہوئے frame میں مواد کو باہر کی طرف centrifugal اثر محسوس ہوتا ہے، مگر ساکن observer کے frame میں حقیقی مطلوبہ resultant اندر کی طرف ہوتی ہے۔ آمیزے کے اجزا کثافت، ذرات کے حجم، drag اور مائع کی viscosity کے فرق سے الگ ہوتے ہیں؛ نسبتاً گھنے ذرات مناسب حالات میں ٹیوب کے بیرونی سرے پر pellet بناتے ہیں اور کم گھنا مائع اوپر رہتا ہے۔ ac=rω² ہے، اس لیے angular speed دوگنی کرنے سے acceleration چار گنا ہو جاتی ہے۔ خون کے اجزا، خلیات اور صنعتی mixtures الگ کرنے میں centrifuge استعمال ہوتا ہے۔ مخالف ٹیوبوں کا وزن برابر رکھنا ضروری ہے تاکہ vibration اور mechanical stress پیدا نہ ہو۔",
+            "sd": "Centrifuge ۾ نموني واريون ٽيوبون محور جي چوڌاري تيزيءَ سان ڦرن ٿيون. دائري واري حرڪت لاءِ ٽيوب جي ڀت يا مائع نموني تي مرڪز ڏانهن resultant قوت لڳائي ٿو. گهمندڙ frame ۾ مواد کي ٻاهر طرف centrifugal اثر محسوس ٿئي ٿو، پر ساکن observer جي frame ۾ حقيقي گهربل resultant اندر طرف هوندي آهي. آميزي جا جزا ڪثافت، ذرڙن جي ماپ، drag ۽ مائع جي viscosity جي فرق سبب الڳ ٿين ٿا؛ نسبتاً وڌيڪ ڪثافت وارا ذرڙا مناسب حالتن ۾ ٽيوب جي ٻاهرئين پڇاڙيءَ تي pellet ٺاهين ٿا ۽ گهٽ ڪثافت وارو مائع مٿي رهي ٿو. ac=rω² آهي، تنهنڪري angular speed ٻيڻي ڪرڻ سان acceleration چار ڀيرا ٿيندي. رت جا جزا، خليا ۽ صنعتي آميزا الڳ ڪرڻ لاءِ centrifuge استعمال ٿئي ٿو. سامهون رکيل ٽيوبن جو وزن برابر رکڻ ضروري آهي ته جيئن vibration ۽ مشيني دٻاءُ پيدا نه ٿئي."
+          }
+        },
+        {
+          "title": "XI-C.2.4 Orbital velocity of satellites",
+          "content": "## Learning outcomes\n- Define orbital velocity and derive its relationship with the central mass and orbital radius (P-11-C-22).\n- Solve circular-orbit problems.\n- Explain why a satellite's mass does not determine its ideal circular orbital speed.\n\n## Gravity supplies centripetal force\nConsider a satellite of mass \\(m\\) in a circular orbit of radius \\(r\\) around a planet of mass \\(M\\). For a circular orbit, the gravitational attraction supplies the centripetal force:\n\\[\n\\frac{GMm}{r^2}=\\frac{mv^2}{r}\n\\]\nCancel \\(m\\) and solve:\n\\[\nv_{orb}=\\sqrt{\\frac{GM}{r}}\n\\]\nHere \\(G\\) is the universal gravitational constant and \\(r\\) is measured from the planet's centre, not from its surface.\n\nThe equation assumes a circular orbit and neglects atmospheric drag and other perturbations. A higher circular orbit has a larger radius and therefore a lower orbital speed. The satellite's own mass cancels, so ideal orbital speed depends on the central body's mass and orbital radius.\n\n## Worked example\nFor an orbit 7.0 × 10⁶ m from Earth's centre, take \\(GM=3.986×10^{14}\\,\\text{m}^3\\text{s}^{-2}\\):\n\\[\nv=\\sqrt{\\frac{3.986×10^{14}}{7.0×10^6}}\n\\approx7.55×10^3\\,\\text{m s}^{-1}\n\\]\nSo the orbital speed is about 7.55 km/s.\n\n## Orbital period\nFor a circular path, one revolution covers \\(2\\pi r\\). If the period is \\(T\\), then \\(v=2\\pi r/T\\). Combining this with the orbital-speed equation gives the period-radius relationship for a circular orbit.\n\n## Common mistakes\n- Do not use altitude above Earth's surface as \\(r\\); add Earth's radius.\n- Do not use \\(g=9.8\\,\\text{m s}^{-2}\\) as a universal value at every orbital height.\n- Do not assume a satellite needs its engine continuously firing to remain in an ideal orbit.\n\n## Key terms\nOrbital velocity, circular orbit, gravitational force, centripetal force, orbital radius, orbital period.\n\n## Revision check\nWhy does a satellite in a higher circular orbit move more slowly than one in a lower circular orbit?",
+          "explanations": {
+            "ur": "اگر کمیت m کا سیٹلائٹ کمیت M والے سیارے کے گرد r رداس کے دائرہ نما مدار میں ہو تو کششِ ثقل ہی مرکز مائل قوت فراہم کرتی ہے۔ اس لیے GMm/r²=mv²/r۔ سیٹلائٹ کی کمیت منسوخ کرنے سے v_orb=√(GM/r) حاصل ہوتا ہے۔ r سیارے کے مرکز سے ناپا جاتا ہے، سطح سے نہیں۔ یہ تعلق دائرہ نما مدار اور drag کو نظر انداز کرنے کی صورت میں درست ہے۔ زیادہ بلند مدار میں r بڑا ہوتا ہے، اس لیے رفتار کم ہوتی ہے۔ مثال کے طور پر زمین کے مرکز سے 7.0×10⁶ m فاصلے پر GM=3.986×10¹⁴ m³/s² رکھنے سے v تقریباً 7.55×10³ m/s یا 7.55 km/s آتی ہے۔ ایک چکر کا فاصلہ 2πr ہے، اس لیے v=2πr/T بھی ہے۔ مدار میں رہنے کے لیے انجن مسلسل چلانا ضروری نہیں؛ سیٹلائٹ مسلسل آزادانہ سقوط میں رہتے ہوئے آگے بڑھتا ہے۔",
+            "sd": "جيڪڏهن m ماس وارو سيٽلائيٽ M ماس واري سياري جي چوڌاري r رداس واري دائري مدار ۾ هجي ته ڪششِ ثقل ئي مرڪز مائل قوت مهيا ڪري ٿي. تنهنڪري GMm/r²=mv²/r. سيٽلائيٽ جو ماس ختم ڪرڻ سان v_orb=√(GM/r) ملي ٿو. r سياري جي مرڪز کان ماپبو آهي، سطح کان نه. اهو تعلق دائري مدار ۽ هوا جي مزاحمت کي نظرانداز ڪرڻ وقت صحيح آهي. وڌيڪ اوچي مدار ۾ r وڏو هوندو، تنهنڪري رفتار گهٽ هوندي. مثال طور زمين جي مرڪز کان 7.0×10⁶ m فاصلي تي GM=3.986×10¹⁴ m³/s² رکڻ سان v لڳ ڀڳ 7.55×10³ m/s يا 7.55 km/s ٿئي ٿي. هڪ چڪر جو فاصلو 2πr آهي، تنهنڪري v=2πr/T پڻ آهي. مدار ۾ رهڻ لاءِ انجڻ کي مسلسل هلائڻ ضروري ناهي؛ سيٽلائيٽ مسلسل آزاد سقوط ۾ اڳتي وڌندو رهي ٿو."
+          }
+        },
+        {
+          "title": "XI-C.2.5 Weightlessness and artificial gravity",
+          "content": "## Learning outcomes\n- Explain apparent weightlessness in an orbiting satellite (P-11-C-23).\n- Describe how rotation can create an artificial-gravity effect (P-11-C-24).\n- Distinguish gravitational force from the normal contact force measured as apparent weight.\n\n## What does weightlessness mean?\nAn astronaut in an orbiting spacecraft is not beyond Earth's gravity. Gravity is still acting and provides the centripetal acceleration that bends the spacecraft's path. The astronaut and spacecraft are falling together. Because the floor does not need to support the astronaut with an ordinary normal contact force, the astronaut's apparent weight is nearly zero.\n\nA scale measures the support force, not gravitational force directly. In free fall, the scale reading approaches zero even though gravitational attraction is not zero. This is why “weightless” means weightless in the apparent/support-force sense, not free from gravity.\n\n## Artificial gravity by rotation\nA rotating habitat can press its floor against occupants and provide the inward centripetal force needed for circular motion. Occupants interpret the floor's support as weight. At radius \\(r\\), the required centripetal acceleration is \\(a=r\\omega^2\\). To imitate Earth's surface value, a design may choose \\(r\\) and \\(\\omega\\) so that \\(r\\omega^2\\approx9.8\\,\\text{m s}^{-2}\\).\n\nFor example, at radius 100 m, \\(\\omega=\\sqrt{9.8/100}\\approx0.313\\,\\text{rad s}^{-1}\\), about 3.0 revolutions per minute. Real designs must also consider motion sickness, Coriolis effects, structural loads and the difference in apparent gravity between a person's head and feet.\n\n## Key terms\nApparent weight, normal force, free fall, orbit, artificial gravity, rotating habitat, Coriolis effect.\n\n## Revision check\nIf gravity still acts on astronauts in orbit, why does a conventional scale show almost no reading?",
+          "explanations": {
+            "ur": "مدار میں موجود خلا باز زمین کی کششِ ثقل سے باہر نہیں ہوتا۔ کششِ ثقل خلائی جہاز اور خلا باز دونوں کو ایک ساتھ آزادانہ سقوط میں رکھتی ہے اور مدار کے لیے مرکز مائل تعجیل فراہم کرتی ہے۔ چونکہ فرش کو خلا باز کو عام حالت کی طرح سہارا دینے کی ضرورت نہیں رہتی، اس لیے normal force تقریباً صفر اور scale کی reading تقریباً صفر ہوتی ہے۔ اس کا مطلب یہ نہیں کہ gravity ختم ہو گئی؛ apparent weight یعنی سہارا دینے والی قوت صفر کے قریب ہے۔ مصنوعی کششِ ثقل کے لیے گھومتا ہوا habitat فرش کے ذریعے اندر کی طرف centripetal force فراہم کرتا ہے۔ مطلوبہ تعجیل a=rω² ہے۔ 100 m رداس پر زمین جیسی تعجیل کے لیے ω≈0.313 rad/s یعنی تقریباً 3 rpm درکار ہے۔ حقیقی ڈیزائن میں Coriolis اثر، متلی، ساختی بوجھ اور سر و پاؤں کے درمیان تعجیل کے فرق کو بھی دیکھنا ہوتا ہے۔",
+            "sd": "مدار ۾ موجود خلا باز زمين جي ڪششِ ثقل کان ٻاهر نه هوندو آهي. ڪششِ ثقل خلائي جهاز ۽ خلا باز ٻنهي کي گڏ آزاد سقوط ۾ رکي ٿي ۽ مدار لاءِ مرڪز مائل تعجيل ڏئي ٿي. فرش کي خلا باز کي عام حالت وانگر سهارو ڏيڻ جي ضرورت نه هوندي، تنهنڪري normal force لڳ ڀڳ صفر ۽ scale جي reading به لڳ ڀڳ صفر هوندي. ان جو مطلب gravity ختم ٿيڻ نه آهي؛ apparent weight يعني سهاري واري قوت صفر جي ويجهو آهي. مصنوعي ڪششِ ثقل لاءِ گهمندڙ habitat جو فرش اندر طرف centripetal force ڏئي ٿو. گهربل تعجيل a=rω² آهي. 100 m رداس تي زمين جهڙي تعجيل لاءِ ω≈0.313 rad/s يعني لڳ ڀڳ 3 rpm گهربل آهي. حقيقي ڊيزائن ۾ Coriolis اثر، متلي، بناوتي بار ۽ مٿي ۽ پيرن وچ ۾ تعجيل جي فرق کي به ڏسڻو پوندو."
+          }
+        },
+        {
+          "title": "XI-C.2.6 Moment of inertia and radius of gyration",
+          "content": "## Learning outcomes\n- Define and calculate moment of inertia about a stated axis (P-11-C-25).\n- Explain how mass distribution affects rotational resistance.\n- Use the radius of gyration relation.\n\n## Rotational inertia\nMoment of inertia \\(I\\) measures how strongly a body resists angular acceleration about a chosen axis. For discrete point masses:\n\\[\nI=\\sum m_ir_i^2\n\\]\nwhere \\(r_i\\) is each mass element's perpendicular distance from the axis. For a continuous body, the corresponding idea is \\(I=\\int r^2\\,dm\\). The SI unit is kg m².\n\nMoment of inertia depends not only on total mass but also on how that mass is distributed relative to the axis. Moving mass farther from the axis increases \\(I\\) strongly because distance is squared. The axis must always be stated.\n\n## Standard examples\n- A thin hoop about its central symmetry axis: \\(I=MR^2\\).\n- A uniform solid disc about its central axis: \\(I=\\tfrac12MR^2\\).\n- A point mass m at radius r: \\(I=mr^2\\).\n\nFor the same mass and radius, the hoop has a larger moment of inertia than the disc because more of its mass is farther from the axis.\n\n## Radius of gyration\nThe radius of gyration \\(k\\) is the distance from the axis at which the whole mass M could be imagined concentrated to give the same moment of inertia:\n\\[\nI=Mk^2,\\quad k=\\sqrt{I/M}\n\\]\nIt is a useful way to compare mass distribution.\n\n## Worked example\nTwo small masses, 2 kg at 0.50 m and 3 kg at 0.20 m from an axis, have\n\\[\nI=2(0.50)^2+3(0.20)^2=0.50+0.12=0.62\\,\\text{kg m}^2.\n\\]\n\n## Key terms\nMoment of inertia, rotational inertia, axis of rotation, mass distribution, radius of gyration.\n\n## Revision check\nWhy does a skater's moment of inertia decrease when the skater pulls both arms close to the body?",
+          "explanations": {
+            "ur": "Moment of inertia I کسی مقرر محور کے گرد زاویائی تعجیل کے خلاف جسم کی مزاحمت ناپتا ہے۔ نقطہ نما اجزا کے لیے I=Σmr² ہے، جہاں r محور سے عمودی فاصلہ ہے۔ اکائی kg m² ہے۔ I صرف کل کمیت پر منحصر نہیں؛ کمیت محور سے کتنی دور پھیلی ہے یہ بھی اہم ہے، کیونکہ فاصلہ مربع ہوتا ہے۔ اسی لیے ایک ہی M اور R کے لیے باریک hoop کا I=MR² اور یکساں ٹھوس disc کا I=½MR² ہوتا ہے۔ محور بدلنے سے بھی I بدل سکتا ہے۔ Radius of gyration k وہ مؤثر فاصلہ ہے جہاں پوری کمیت M کو رکھنے سے وہی I ملے: I=Mk²۔ مثال میں 2 kg کو 0.50 m اور 3 kg کو 0.20 m پر رکھنے سے I=0.62 kg m² آتا ہے۔ اسکیٹر بازو جسم کے قریب لاتا ہے تو کمیت محور کے قریب آتی ہے اور I کم ہو جاتا ہے۔",
+            "sd": "Moment of inertia I ڪنهن مقرر محور جي چوڌاري زاويائي تعجيل جي مخالفت ماپي ٿو. نقطي جهڙن حصن لاءِ I=Σmr² آهي، جتي r محور کان عمودي فاصلو آهي. ايڪائي kg m² آهي. I صرف ڪل ماس تي دارومدار نٿو رکي؛ ماس محور کان ڪيترو پري ورهايل آهي اهو به اهم آهي، ڇاڪاڻ ته فاصلو چورس ۾ آهي. تنهنڪري ساڳئي M ۽ R لاءِ سنهو hoop جو I=MR² ۽ هڪجهڙو ٺوس disc جو I=½MR² آهي. محور بدلجڻ سان I به بدلجي سگهي ٿو. Radius of gyration k اهو اثرائتو فاصلو آهي جتي سڄو ماس M رکڻ سان ساڳيو I ملي: I=Mk². مثال ۾ 2 kg کي 0.50 m ۽ 3 kg کي 0.20 m تي رکڻ سان I=0.62 kg m² ٿئي ٿو. اسڪيٽر ٻانهون جسم جي ويجهو آڻي ٿو ته ماس محور جي ويجهو اچي ٿو ۽ I گهٽجي ٿو."
+          }
+        },
+        {
+          "title": "XI-C.2.7 Angular momentum and its conservation",
+          "content": "## Learning outcomes\n- Define angular momentum for a particle and for a rigid body rotating about a fixed axis (P-11-C-26).\n- State and apply conservation of angular momentum when net external torque is zero (P-11-C-27).\n- Explain familiar applications such as a spinning skater and a flywheel.\n\n## Angular momentum\nFor a particle, angular momentum about an origin is \\(\\vec L=\\vec r\\times\\vec p\\), where \\(\\vec p=m\\vec v\\). For a rigid body rotating about a fixed principal axis, the magnitude is\n\\[\nL=I\\omega\n\\]\nIts SI unit is kg m² s\\(^{-1}\\). Angular momentum is a vector; its direction follows the right-hand rule for rotation about the axis.\n\n## External torque and conservation\nThe net external torque changes angular momentum:\n\\[\n\\vec\\tau_{net}=\\frac{d\\vec L}{dt}\n\\]\nIf the net external torque on a system is zero, total angular momentum remains constant:\n\\[\nI_1\\omega_1=I_2\\omega_2\n\\]\nfor a body whose effective moment of inertia changes while rotating about the same axis.\n\n## Worked example: a skater\nA skater initially has \\(I_1=4.0\\,\\text{kg m}^2\\) and \\(\\omega_1=2.0\\,\\text{rad s}^{-1}\\). When the arms are pulled inward, the moment of inertia becomes \\(I_2=2.0\\,\\text{kg m}^2\\). If external torque is negligible:\n\\[\n\\omega_2=\\frac{I_1\\omega_1}{I_2}=\\frac{4(2)}{2}=4\\,\\text{rad s}^{-1}\n\\]\nThe spin rate doubles; angular momentum remains 8 kg m² s\\(^{-1}\\).\n\n## Applications\nA flywheel stores rotational kinetic energy and helps smooth speed fluctuations. Gyroscopes use angular momentum to resist changes in orientation. A diver or skater changes body configuration to control rotation. These examples rely on the system's external torque being small enough for conservation to be a good approximation.\n\n## Important distinction\nAngular momentum is conserved only when net external torque about the chosen system and axis is zero. Internal forces may redistribute angular momentum between parts, but they do not change the total of an isolated system.\n\n## Key terms\nAngular momentum, external torque, conservation, flywheel, gyroscope, right-hand rule.\n\n## Revision check\nWhy does pulling the arms inward make a skater spin faster without creating angular momentum?",
+          "explanations": {
+            "ur": "کسی ذرّے کا angular momentum L⃗=r⃗×p⃗ ہے، جہاں p⃗=mv⃗ ہے۔ مقرر محور کے گرد گھومتے rigid body کے لیے L=Iω ہوتا ہے، اکائی kg m²/s ہے۔ خالص بیرونی torque angular momentum کی تبدیلی کی شرح ہے: τnet=dL/dt۔ اگر کسی نظام پر خالص بیرونی torque صفر ہو تو اس کا کل angular momentum مستقل رہتا ہے۔ اسکیٹر جب بازو اندر کھینچتا ہے تو کمیت محور کے قریب آتی ہے اور I کم ہوتا ہے؛ چونکہ Iω مستقل رہتا ہے، ω بڑھ جاتا ہے۔ مثال میں I چار سے دو kg m² ہو تو ω دو سے چار rad/s ہو جاتا ہے۔ Flywheel گردش کی توانائی ذخیرہ کر کے رفتار میں اتار چڑھاؤ کم کرتا ہے، جبکہ gyroscope angular momentum کی وجہ سے سمت کی تبدیلی کی مزاحمت کرتا ہے۔ تحفظ کا اصول اسی وقت لاگو ہے جب بیرونی torque نہ ہونے کے برابر ہو۔",
+            "sd": "ڪنهن ذرڙي جو angular momentum L⃗=r⃗×p⃗ آهي، جتي p⃗=mv⃗ آهي. مقرر محور جي چوڌاري گهمندڙ rigid body لاءِ L=Iω آهي، ايڪائي kg m²/s آهي. خالص ٻاهرين torque، angular momentum جي تبديلي جي شرح آهي: τnet=dL/dt. جيڪڏهن نظام تي خالص ٻاهرين torque صفر هجي ته ڪل angular momentum مستقل رهندو. اسڪيٽر جڏهن ٻانهون اندر ڇڪي ٿو ته ماس محور جي ويجهو اچي ٿو ۽ I گهٽجي ٿو؛ ڇاڪاڻ⁠تہ Iω مستقل رهي ٿو، ω وڌي وڃي ٿو. مثال ۾ I چار کان ٻه kg m² ٿئي ته ω ٻه کان چار rad/s ٿي وڃي ٿو. Flywheel ڦرڻ واري توانائي ذخيرو ڪري رفتار جي لاٿ چاڙهه گهٽائي ٿو، جڏهن ته gyroscope angular momentum سبب رخ جي تبديلي جي مخالفت ڪري ٿو. تحفظ جو اصول تڏهن لاڳو ٿئي ٿو جڏهن ٻاهرين torque تقريباً صفر هجي."
+          }
+        },
+        {
+          "title": "XI-C.2.8 Torque and rotational dynamics",
+          "content": "## Learning outcomes\n- Define torque as the vector product of position (moment arm) and force (P-11-C-28).\n- Derive and apply \\(\\tau=I\\alpha\\) for rotation about a fixed axis (P-11-C-29).\n- Solve problems using the perpendicular lever arm.\n\n## Turning effect of a force\nTorque measures the turning effect of a force about an axis. In vector form:\n\\[\n\\vec\\tau=\\vec r\\times\\vec F\n\\]\nIts magnitude is\n\\[\n\\tau=rF\\sin\\phi=F d_\\perp\n\\]\nwhere \\(\\phi\\) is the angle between \\(\\vec r\\) and \\(\\vec F\\), and \\(d_\\perp\\) is the perpendicular distance from the axis to the force's line of action. The SI unit is N m. Although this has the same base units as a joule, torque is not energy; it is a vector turning effect.\n\nA force applied perpendicular to a door at its handle produces maximum torque. A force directed along the line from hinge to handle produces zero torque because its perpendicular lever arm is zero.\n\n## Rotational form of Newton's second law\nFor a rigid body rotating about a fixed axis, each mass element contributes to the net torque. For a small angular acceleration \\(\\alpha\\), the tangential acceleration of a mass element at radius r is \\(r\\alpha\\), so its tangential force is \\(dm\\,r\\alpha\\). Its torque contribution is \\(r(dm\\,r\\alpha)=r^2dm\\,\\alpha\\). Summing over the body:\n\\[\n\\tau_{net}=\\alpha\\int r^2dm=I\\alpha\n\\]\nThus:\n\\[\n\\tau_{net}=I\\alpha\n\\]\nThis relation assumes a fixed axis and the net external torque about that axis.\n\n## Worked example\nA 12 N force acts perpendicular to a spanner 0.25 m from the nut. The torque is \\(12×0.25=3.0\\,\\text{N m}\\). If the same force is applied at 30° to the spanner, torque is \\(rF\\sin30°=1.5\\,\\text{N m}\\).\n\nA rotor with \\(I=2.0\\,\\text{kg m}^2\\) experiences a net torque of 6.0 N m. Its angular acceleration is \\(\\alpha=\\tau/I=3.0\\,\\text{rad s}^{-2}\\).\n\n## Key terms\nTorque, moment arm, line of action, lever arm, net torque, angular acceleration.\n\n## Revision check\nWhy is a long spanner more effective than a short one when the same perpendicular force is applied?",
+          "explanations": {
+            "ur": "Torque کسی محور کے گرد قوت کے گھمانے والے اثر کو کہتے ہیں۔ ویکٹر صورت τ⃗=r⃗×F⃗ ہے اور مقدار τ=rF sinφ=F d⊥ ہے، جہاں d⊥ محور سے قوت کی line of action تک عمودی فاصلہ ہے۔ اکائی N m ہے؛ اگرچہ یہ joule کی base units جیسی ہے، torque توانائی نہیں بلکہ vector turning effect ہے۔ دروازے کے ہینڈل پر عمودی قوت زیادہ torque دیتی ہے، جبکہ قبضے سے ہینڈل کی طرف سیدھی قوت کا torque صفر ہوتا ہے۔ مقرر محور کے گرد rigid body کے لیے ہر چھوٹے mass element کا tangential acceleration rα ہے۔ اس کے torque کو جمع کرنے سے τnet=α∫r²dm=Iα حاصل ہوتا ہے۔ یہ تعلق fixed axis اور اسی محور کے بارے میں net torque کے لیے ہے۔ 12 N قوت 0.25 m لمبی spanner پر عمودی لگے تو torque 3 N m ہے؛ 30° زاویے پر یہی 1.5 N m رہتا ہے۔",
+            "sd": "Torque ڪنهن محور جي چوڌاري قوت جي ڦيرائڻ واري اثر کي چوندا آهن. Vector صورت τ⃗=r⃗×F⃗ آهي ۽ مقدار τ=rF sinφ=F d⊥ آهي، جتي d⊥ محور کان قوت جي line of action تائين عمودي فاصلو آهي. ايڪائي N m آهي؛ جيتوڻيڪ اها joule جي بنيادي ايڪائين جهڙي آهي، torque توانائي نه پر vector turning effect آهي. دروازي جي handle تي عمودي قوت وڌيڪ torque ڏئي ٿي، جڏهن ته hinge کان handle ڏانهن سڌي قوت جو torque صفر آهي. مقرر محور جي چوڌاري rigid body لاءِ هر ننڍڙي mass element جي tangential acceleration rα آهي. انهن torque حصن کي گڏ ڪرڻ سان τnet=α∫r²dm=Iα ملي ٿو. اهو تعلق fixed axis ۽ انهي محور بابت net torque لاءِ آهي. 12 N قوت 0.25 m spanner تي عمودي لڳي ته torque 3 N m ٿيندو؛ 30° زاويي تي اهو 1.5 N m رهندو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "One complete revolution corresponds to which angular displacement?",
+          "options": {
+            "A": "2π rad",
+            "B": "π rad",
+            "C": "π/2 rad",
+            "D": "360 rad"
+          },
+          "correctOption": "A",
+          "explanation": "A complete turn is 360°, which equals 2π radians.",
+          "translations": {
+            "ur": {
+              "question": "ایک مکمل چکر کی زاویائی نقل مکانی کتنی ہوتی ہے؟",
+              "options": {
+                "A": "2π rad",
+                "B": "π rad",
+                "C": "π/2 rad",
+                "D": "360 rad"
+              },
+              "explanation": "هڪ مڪمل چڪر جي زاويائي بي گھرڻ ڪيتري آهي؟"
+            },
+            "sd": {
+              "question": "مکمل چکر 360° کے برابر ہے، یعنی 2π ریڈین۔",
+              "options": {
+                "A": "2π rad",
+                "B": "π rad",
+                "C": "π/2 rad",
+                "D": "360 rad"
+              },
+              "explanation": "مڪمل چڪر 360° جي برابر آهي، يعني 2π ريڊين."
+            }
+          }
+        },
+        {
+          "question": "A point 0.25 m from an axis rotates at 8 rad/s. What is its tangential speed?",
+          "options": {
+            "A": "0.25 m/s",
+            "B": "2.0 m/s",
+            "C": "8.25 m/s",
+            "D": "32 m/s"
+          },
+          "correctOption": "B",
+          "explanation": "Use v=rω=(0.25)(8)=2.0 m/s.",
+          "translations": {
+            "ur": {
+              "question": "محور سے 0.25 m دور نقطہ 8 rad/s سے گھومتا ہے۔ اس کی خطی رفتار کیا ہے؟",
+              "options": {
+                "A": "0.25 m/s",
+                "B": "2.0 m/s",
+                "C": "8.25 m/s",
+                "D": "32 m/s"
+              },
+              "explanation": "محور کان 0.25 m پري نقطو 8 rad/s سان ڦري ٿو. ان جي خطي رفتار ڪيتري آهي؟"
+            },
+            "sd": {
+              "question": "v=rω=0.25×8=2.0 m/s۔",
+              "options": {
+                "A": "0.25 m/s",
+                "B": "2.0 m/s",
+                "C": "8.25 m/s",
+                "D": "32 m/s"
+              },
+              "explanation": "v=rω=0.25×8=2.0 m/s."
+            }
+          }
+        },
+        {
+          "question": "Which equation is valid for constant angular acceleration?",
+          "options": {
+            "A": "ω=ω₀+αt",
+            "B": "ω=ω₀t+α",
+            "C": "θ=ω₀+αt²",
+            "D": "ω²=ω₀²+2αt"
+          },
+          "correctOption": "A",
+          "explanation": "For constant α, angular velocity changes linearly with time: ω=ω₀+αt.",
+          "translations": {
+            "ur": {
+              "question": "مستقل زاویائی تعجیل کے لیے کون سی مساوات درست ہے؟",
+              "options": {
+                "A": "ω=ω₀+αt",
+                "B": "ω=ω₀t+α",
+                "C": "θ=ω₀+αt²",
+                "D": "ω²=ω₀²+2αt"
+              },
+              "explanation": "مستقل زاويائي تعجيل لاءِ ڪهڙي مساوات صحيح آهي؟"
+            },
+            "sd": {
+              "question": "مستقل α کے لیے زاویائی رفتار وقت کے ساتھ خطی طور پر بدلتی ہے: ω=ω₀+αt۔",
+              "options": {
+                "A": "ω=ω₀+αt",
+                "B": "ω=ω₀t+α",
+                "C": "θ=ω₀+αt²",
+                "D": "ω²=ω₀²+2αt"
+              },
+              "explanation": "مستقل α لاءِ زاويائي رفتار وقت سان سڌي تناسب ۾ بدلجي ٿي: ω=ω₀+αt."
+            }
+          }
+        },
+        {
+          "question": "A body moves at 12 m/s in a circle of radius 6 m. Its centripetal acceleration is:",
+          "options": {
+            "A": "2 m/s²",
+            "B": "12 m/s²",
+            "C": "24 m/s²",
+            "D": "72 m/s²"
+          },
+          "correctOption": "C",
+          "explanation": "a_c=v²/r=144/6=24 m/s².",
+          "translations": {
+            "ur": {
+              "question": "جسم 12 m/s کی رفتار سے 6 m رداس کے دائرے میں چلتا ہے۔ مرکز مائل تعجیل کیا ہے؟",
+              "options": {
+                "A": "2 m/s²",
+                "B": "12 m/s²",
+                "C": "24 m/s²",
+                "D": "72 m/s²"
+              },
+              "explanation": "جسم 12 m/s رفتار سان 6 m رداس واري دائري ۾ هلي ٿو. مرڪز مائل تعجيل ڪيتري آهي؟"
+            },
+            "sd": {
+              "question": "ac=v²/r=144/6=24 m/s²۔",
+              "options": {
+                "A": "2 m/s²",
+                "B": "12 m/s²",
+                "C": "24 m/s²",
+                "D": "72 m/s²"
+              },
+              "explanation": "ac=v²/r=144/6=24 m/s²."
+            }
+          }
+        },
+        {
+          "question": "At fixed radius, if tangential speed doubles, centripetal force becomes:",
+          "options": {
+            "A": "Four times",
+            "B": "Twice",
+            "C": "Half",
+            "D": "Unchanged"
+          },
+          "correctOption": "A",
+          "explanation": "F_c=mv²/r, so doubling v multiplies the force by 2²=4.",
+          "translations": {
+            "ur": {
+              "question": "اگر رداس مستقل ہو اور خطی رفتار دوگنی ہو جائے تو مرکز مائل قوت کیا ہوگی؟",
+              "options": {
+                "A": "چار گنا",
+                "B": "دو گنا",
+                "C": "آدھی",
+                "D": "کوئی تبدیلی نہیں"
+              },
+              "explanation": "جيڪڏهن رداس مستقل هجي ۽ خطي رفتار ٻيڻي ٿئي ته مرڪز مائل قوت ڇا ٿيندي؟"
+            },
+            "sd": {
+              "question": "Fc=mv²/r ہے؛ رفتار دوگنی کرنے سے قوت چار گنا ہو جاتی ہے۔",
+              "options": {
+                "A": "چار ڀيرا",
+                "B": "ٻه ڀيرا",
+                "C": "اڌ",
+                "D": "ڪا تبديلي نه"
+              },
+              "explanation": "Fc=mv²/r آهي؛ رفتار ٻيڻي ڪرڻ سان قوت چار ڀيرا ٿئي ٿي."
+            }
+          }
+        },
+        {
+          "question": "On a level circular road, what normally supplies the centripetal force for a turning car?",
+          "options": {
+            "A": "Gravity alone",
+            "B": "Engine thrust alone",
+            "C": "Air resistance",
+            "D": "Static friction between tyres and road"
+          },
+          "correctOption": "D",
+          "explanation": "Static friction acts toward the centre and supplies the required horizontal resultant.",
+          "translations": {
+            "ur": {
+              "question": "ہموار افقی موڑ پر گاڑی کے لیے مرکز مائل قوت عموماً کون فراہم کرتا ہے؟",
+              "options": {
+                "A": "صرف کششِ ثقل",
+                "B": "صرف انجن کا دھکا",
+                "C": "ہوا کی مزاحمت",
+                "D": "ٹائروں اور سڑک کے درمیان ساکن رگڑ"
+              },
+              "explanation": "هموار افقي موڙ تي گاڏي لاءِ مرڪز مائل قوت عام طور ڪير مهيا ڪري ٿو؟"
+            },
+            "sd": {
+              "question": "ٹائروں اور سڑک کے درمیان static friction مرکز کی طرف قوت فراہم کرتی ہے۔",
+              "options": {
+                "A": "صرف ڪششِ ثقل",
+                "B": "صرف انجڻ جو ڌڪو",
+                "C": "هوا جي مزاحمت",
+                "D": "ٽائرن ۽ روڊ وچ ۾ static friction"
+              },
+              "explanation": "ٽائرن ۽ روڊ وچ ۾ static friction مرڪز ڏانهن قوت مهيا ڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "A centrifuge separates a suspension mainly because its components differ in:",
+          "options": {
+            "A": "Electrical charge only",
+            "B": "Density, particle size and drag behaviour",
+            "C": "Colour only",
+            "D": "Temperature only"
+          },
+          "correctOption": "B",
+          "explanation": "Sedimentation depends on density contrast, particle size, fluid viscosity and drag, not on mass alone.",
+          "translations": {
+            "ur": {
+              "question": "Centrifuge میں معلق آمیزے کے اجزا بنیادی طور کس فرق کی وجہ سے الگ ہوتے ہیں؟",
+              "options": {
+                "A": "صرف برقی چارج",
+                "B": "کثافت، ذرات کی جسامت اور drag کا رویہ",
+                "C": "صرف رنگ",
+                "D": "صرف درجۂ حرارت"
+              },
+              "explanation": "Centrifuge ۾ معلق آميزي جا جزا بنيادي طور ڪهڙي فرق سبب الڳ ٿين ٿا؟"
+            },
+            "sd": {
+              "question": "ذرات کی کثافت، جسامت، مائع کی viscosity اور drag الگ ہونے کی رفتار پر اثر انداز ہوتے ہیں۔",
+              "options": {
+                "A": "صرف برقي چارج",
+                "B": "ڪثافت، ذرڙن جي ماپ ۽ drag جو رويو",
+                "C": "صرف رنگ",
+                "D": "صرف گرمي پد"
+              },
+              "explanation": "ذرڙن جي ڪثافت، ماپ، مائع جي viscosity ۽ drag الڳ ٿيڻ جي رفتار تي اثر ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "For a satellite in a circular orbit, the ideal orbital speed is:",
+          "options": {
+            "A": "GM/r",
+            "B": "√(GMr)",
+            "C": "√(GM/r)",
+            "D": "Gm/r²"
+          },
+          "correctOption": "C",
+          "explanation": "Equating gravitational and centripetal forces gives v=√(GM/r).",
+          "translations": {
+            "ur": {
+              "question": "دائرہ نما مدار میں سیٹلائٹ کی مثالی مداری رفتار کیا ہے؟",
+              "options": {
+                "A": "GM/r",
+                "B": "√(GMr)",
+                "C": "√(GM/r)",
+                "D": "Gm/r²"
+              },
+              "explanation": "دائري مدار ۾ سيٽلائيٽ جي مثالي مداري رفتار ڪهڙي آهي؟"
+            },
+            "sd": {
+              "question": "کششِ ثقل اور مرکز مائل قوت برابر کرنے سے v=√(GM/r) ملتا ہے۔",
+              "options": {
+                "A": "GM/r",
+                "B": "√(GMr)",
+                "C": "√(GM/r)",
+                "D": "Gm/r²"
+              },
+              "explanation": "ڪششِ ثقل ۽ مرڪز مائل قوت برابر ڪرڻ سان v=√(GM/r) ملي ٿو."
+            }
+          }
+        },
+        {
+          "question": "For the same central body, a satellite at a larger circular orbital radius has:",
+          "options": {
+            "A": "Lower orbital speed",
+            "B": "Higher orbital speed",
+            "C": "The same orbital speed",
+            "D": "Zero orbital speed"
+          },
+          "correctOption": "A",
+          "explanation": "v=√(GM/r); increasing r reduces orbital speed.",
+          "translations": {
+            "ur": {
+              "question": "ایک ہی مرکزی سیارے کے گرد بڑے رداس کے مدار میں سیٹلائٹ کی رفتار کیسی ہوگی؟",
+              "options": {
+                "A": "کم رفتار",
+                "B": "زیادہ رفتار",
+                "C": "وہی رفتار",
+                "D": "صفر رفتار"
+              },
+              "explanation": "ساڳئي مرڪزي سياري جي چوڌاري وڏي رداس واري مدار ۾ سيٽلائيٽ جي رفتار ڪهڙي هوندي؟"
+            },
+            "sd": {
+              "question": "v=√(GM/r) کے مطابق r بڑھنے سے مداری رفتار کم ہوتی ہے۔",
+              "options": {
+                "A": "گهٽ رفتار",
+                "B": "وڌيڪ رفتار",
+                "C": "ساڳي رفتار",
+                "D": "صفر رفتار"
+              },
+              "explanation": "v=√(GM/r) موجب r وڌڻ سان مداري رفتار گهٽجي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Why does an astronaut in an orbiting spacecraft appear weightless?",
+          "options": {
+            "A": "Gravity is absent",
+            "B": "The astronaut has no mass",
+            "C": "The spacecraft is outside the atmosphere",
+            "D": "Astronaut and spacecraft are in continuous free fall together"
+          },
+          "correctOption": "D",
+          "explanation": "The support (normal) force is nearly zero because both fall together; gravity still acts.",
+          "translations": {
+            "ur": {
+              "question": "مدار میں خلا باز بے وزن کیوں محسوس ہوتا ہے؟",
+              "options": {
+                "A": "کششِ ثقل موجود نہیں",
+                "B": "خلا باز کی کمیت نہیں",
+                "C": "جہاز فضا سے باہر ہے",
+                "D": "خلا باز اور جہاز مسلسل ایک ساتھ آزادانہ سقوط میں ہیں"
+              },
+              "explanation": "مدار ۾ خلا باز بي وزن ڇو محسوس ڪندو آهي؟"
+            },
+            "sd": {
+              "question": "خلا باز اور جہاز ایک ساتھ آزادانہ سقوط میں ہوتے ہیں، اس لیے سہارا دینے والی قوت تقریباً صفر ہوتی ہے؛ gravity موجود رہتی ہے۔",
+              "options": {
+                "A": "ڪششِ ثقل موجود ناهي",
+                "B": "خلا باز جو ماس ناهي",
+                "C": "جهاز فضا کان ٻاهر آهي",
+                "D": "خلا باز ۽ جهاز گڏ مسلسل آزاد سقوط ۾ آهن"
+              },
+              "explanation": "خلا باز ۽ جهاز گڏ آزاد سقوط ۾ هوندا آهن، تنهنڪري سهاري واري قوت لڳ ڀڳ صفر هوندي آهي؛ gravity موجود رهندي آهي."
+            }
+          }
+        },
+        {
+          "question": "A rotating habitat can create an artificial-gravity effect because its floor:",
+          "options": {
+            "A": "Removes gravity from the room",
+            "B": "Provides the inward centripetal force to occupants",
+            "C": "Stops all motion",
+            "D": "Makes mass disappear"
+          },
+          "correctOption": "B",
+          "explanation": "The floor's normal force provides the centripetal acceleration of occupants moving in a circle.",
+          "translations": {
+            "ur": {
+              "question": "گھومتا ہوا رہائشی ڈھانچا مصنوعی کششِ ثقل کا احساس کیسے پیدا کرتا ہے؟",
+              "options": {
+                "A": "کمرے سے کششِ ثقل ختم کرتا ہے",
+                "B": "افراد کو اندر کی طرف مرکز مائل قوت فراہم کرتا ہے",
+                "C": "تمام حرکت روک دیتا ہے",
+                "D": "کمیت ختم کر دیتا ہے"
+              },
+              "explanation": "گهمندڙ رهائشي ڍانچو مصنوعي ڪششِ ثقل جو احساس ڪيئن پيدا ڪري ٿو؟"
+            },
+            "sd": {
+              "question": "فرش کی normal force گھومتے ہوئے افراد کو مرکز مائل تعجیل فراہم کرتی ہے۔",
+              "options": {
+                "A": "ڪمري مان ڪششِ ثقل ختم ڪري ٿو",
+                "B": "ماڻهن کي اندر طرف مرڪز مائل قوت ڏئي ٿو",
+                "C": "سڀ حرڪت روڪي ٿو",
+                "D": "ماس ختم ڪري ٿو"
+              },
+              "explanation": "فرش جي normal force گهمندڙ ماڻهن کي مرڪز مائل تعجيل ڏئي ٿي."
+            }
+          }
+        },
+        {
+          "question": "The moment of inertia of a point mass m at perpendicular distance r from an axis is:",
+          "options": {
+            "A": "mr",
+            "B": "mr²",
+            "C": "m/r²",
+            "D": "r²/m"
+          },
+          "correctOption": "B",
+          "explanation": "For a point mass, I=mr².",
+          "translations": {
+            "ur": {
+              "question": "محور سے عمودی فاصلے r پر نقطہ نما کمیت m کا moment of inertia کیا ہے؟",
+              "options": {
+                "A": "mr",
+                "B": "mr²",
+                "C": "m/r²",
+                "D": "r²/m"
+              },
+              "explanation": "محور کان عمودي فاصلي r تي نقطي جهڙي ماس m جو moment of inertia ڪهڙو آهي؟"
+            },
+            "sd": {
+              "question": "نقطہ نما کمیت کے لیے I=mr² ہوتا ہے۔",
+              "options": {
+                "A": "mr",
+                "B": "mr²",
+                "C": "m/r²",
+                "D": "r²/m"
+              },
+              "explanation": "نقطي جهڙي ماس لاءِ I=mr² آهي."
+            }
+          }
+        },
+        {
+          "question": "The moment of inertia of a thin hoop about its central symmetry axis is:",
+          "options": {
+            "A": "½MR²",
+            "B": "2MR²",
+            "C": "MR²",
+            "D": "¼MR²"
+          },
+          "correctOption": "C",
+          "explanation": "All hoop mass lies at radius R, so I=MR².",
+          "translations": {
+            "ur": {
+              "question": "باریک حلقے کا مرکزی محور کے گرد moment of inertia کیا ہے؟",
+              "options": {
+                "A": "½MR²",
+                "B": "2MR²",
+                "C": "MR²",
+                "D": "¼MR²"
+              },
+              "explanation": "سنهي ڇلي جو مرڪزي محور بابت moment of inertia ڪهڙو آهي؟"
+            },
+            "sd": {
+              "question": "حلقے کی پوری کمیت محور سے R فاصلے پر ہے، اس لیے I=MR²۔",
+              "options": {
+                "A": "½MR²",
+                "B": "2MR²",
+                "C": "MR²",
+                "D": "¼MR²"
+              },
+              "explanation": "ڇلي جو سڄو ماس محور کان R فاصلي تي آهي، تنهنڪري I=MR²."
+            }
+          }
+        },
+        {
+          "question": "The radius of gyration k is related to moment of inertia by:",
+          "options": {
+            "A": "I=Mk²",
+            "B": "I=M/k",
+            "C": "I=k/M²",
+            "D": "I=M²k"
+          },
+          "correctOption": "A",
+          "explanation": "By definition, I=Mk².",
+          "translations": {
+            "ur": {
+              "question": "Radius of gyration k اور moment of inertia کا تعلق کیا ہے؟",
+              "options": {
+                "A": "I=Mk²",
+                "B": "I=M/k",
+                "C": "I=k/M²",
+                "D": "I=M²k"
+              },
+              "explanation": "Radius of gyration k ۽ moment of inertia جو تعلق ڪهڙو آهي؟"
+            },
+            "sd": {
+              "question": "تعریف کے مطابق I=Mk² ہے۔",
+              "options": {
+                "A": "I=Mk²",
+                "B": "I=M/k",
+                "C": "I=k/M²",
+                "D": "I=M²k"
+              },
+              "explanation": "وصف موجب I=Mk² آهي."
+            }
+          }
+        },
+        {
+          "question": "If all the mass of a point object is moved to twice its original distance from the axis, its moment of inertia becomes:",
+          "options": {
+            "A": "Twice",
+            "B": "Four times",
+            "C": "Half",
+            "D": "Unchanged"
+          },
+          "correctOption": "B",
+          "explanation": "I=mr²; doubling r makes I four times larger.",
+          "translations": {
+            "ur": {
+              "question": "اگر نقطہ نما جسم کی کمیت محور سے دوگنے فاصلے پر منتقل کی جائے تو moment of inertia کیا ہوگا؟",
+              "options": {
+                "A": "دو گنا",
+                "B": "چار گنا",
+                "C": "آدھا",
+                "D": "کوئی تبدیلی نہیں"
+              },
+              "explanation": "جيڪڏهن نقطي جهڙي جسم جو ماس محور کان ٻيڻي فاصلي تي منتقل ڪجي ته moment of inertia ڇا ٿيندو؟"
+            },
+            "sd": {
+              "question": "I=mr² ہے؛ r دوگنا ہونے سے I چار گنا ہو جاتا ہے۔",
+              "options": {
+                "A": "ٻه ڀيرا",
+                "B": "چار ڀيرا",
+                "C": "اڌ",
+                "D": "ڪا تبديلي نه"
+              },
+              "explanation": "I=mr² آهي؛ r ٻيڻو ٿيڻ سان I چار ڀيرا ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "question": "For a rigid body rotating about a fixed axis, angular momentum magnitude is:",
+          "options": {
+            "A": "I/ω",
+            "B": "Iω",
+            "C": "ω/I",
+            "D": "Iα"
+          },
+          "correctOption": "B",
+          "explanation": "For fixed-axis rigid-body rotation, L=Iω.",
+          "translations": {
+            "ur": {
+              "question": "مقرر محور کے گرد گھومتے rigid body کا angular momentum کیا ہے؟",
+              "options": {
+                "A": "I/ω",
+                "B": "Iω",
+                "C": "ω/I",
+                "D": "Iα"
+              },
+              "explanation": "مقرر محور جي چوڌاري گهمندڙ rigid body جو angular momentum ڪهڙو آهي؟"
+            },
+            "sd": {
+              "question": "مقرر محور کے گرد L=Iω ہوتا ہے۔",
+              "options": {
+                "A": "I/ω",
+                "B": "Iω",
+                "C": "ω/I",
+                "D": "Iα"
+              },
+              "explanation": "مقرر محور بابت L=Iω هوندو آهي."
+            }
+          }
+        },
+        {
+          "question": "If net external torque is zero, the total angular momentum of a system:",
+          "options": {
+            "A": "Remains constant",
+            "B": "Must become zero",
+            "C": "Always doubles",
+            "D": "Changes with time"
+          },
+          "correctOption": "A",
+          "explanation": "Zero net external torque means dL/dt=0, so total angular momentum is conserved.",
+          "translations": {
+            "ur": {
+              "question": "اگر خالص بیرونی torque صفر ہو تو نظام کا کل angular momentum کیا ہوگا؟",
+              "options": {
+                "A": "مستقل رہتا ہے",
+                "B": "صفر ہو جاتا ہے",
+                "C": "ہمیشہ دوگنا ہوتا ہے",
+                "D": "وقت کے ساتھ بدلتا ہے"
+              },
+              "explanation": "جيڪڏهن خالص ٻاهرين torque صفر هجي ته نظام جو ڪل angular momentum ڇا ٿيندو؟"
+            },
+            "sd": {
+              "question": "خالص بیرونی torque صفر ہونے سے dL/dt=0 اور کل angular momentum مستقل رہتا ہے۔",
+              "options": {
+                "A": "مستقل رهي ٿو",
+                "B": "صفر ٿي وڃي ٿو",
+                "C": "هميشه ٻيڻو ٿئي ٿو",
+                "D": "وقت سان بدلجي ٿو"
+              },
+              "explanation": "خالص ٻاهرين torque صفر هجڻ سان dL/dt=0 ۽ ڪل angular momentum مستقل رهي ٿو."
+            }
+          }
+        },
+        {
+          "question": "A skater pulls in their arms while spinning. If external torque is negligible, the spin rate increases because:",
+          "options": {
+            "A": "Mass is created",
+            "B": "Angular momentum is destroyed",
+            "C": "Moment of inertia decreases while angular momentum is conserved",
+            "D": "Gravity becomes stronger"
+          },
+          "correctOption": "C",
+          "explanation": "With L=Iω constant, a decrease in I requires an increase in ω.",
+          "translations": {
+            "ur": {
+              "question": "گھومتا ہوا اسکیٹر بازو اندر کھینچنے سے تیز کیوں گھومتا ہے؟",
+              "options": {
+                "A": "کمیت پیدا ہوتی ہے",
+                "B": "angular momentum ختم ہو جاتا ہے",
+                "C": "moment of inertia کم ہوتا ہے جبکہ angular momentum محفوظ رہتا ہے",
+                "D": "کششِ ثقل مضبوط ہو جاتی ہے"
+              },
+              "explanation": "گهمندڙ اسڪيٽر ٻانهون اندر ڇڪڻ سان وڌيڪ تيز ڇو ڦري ٿو؟"
+            },
+            "sd": {
+              "question": "جب angular momentum مستقل ہو تو I کم ہونے پر ω بڑھتا ہے۔",
+              "options": {
+                "A": "ماس پيدا ٿئي ٿو",
+                "B": "angular momentum ختم ٿئي ٿو",
+                "C": "moment of inertia گهٽجي ٿو جڏهن angular momentum محفوظ رهي ٿو",
+                "D": "ڪششِ ثقل وڌيڪ مضبوط ٿئي ٿي"
+              },
+              "explanation": "جڏهن angular momentum مستقل هجي ته I گهٽجڻ تي ω وڌي ٿو."
+            }
+          }
+        },
+        {
+          "question": "The magnitude of torque produced by force F at position vector r is:",
+          "options": {
+            "A": "rF cosφ",
+            "B": "rF sinφ",
+            "C": "F/r",
+            "D": "r/F"
+          },
+          "correctOption": "B",
+          "explanation": "Torque magnitude is |r×F|=rF sinφ.",
+          "translations": {
+            "ur": {
+              "question": "قوت F سے پیدا ہونے والے torque کی مقدار کیا ہے؟",
+              "options": {
+                "A": "rF cosφ",
+                "B": "rF sinφ",
+                "C": "F/r",
+                "D": "r/F"
+              },
+              "explanation": "قوت F سان پيدا ٿيندڙ torque جي مقدار ڪهڙي آهي؟"
+            },
+            "sd": {
+              "question": "Torque کی مقدار |r×F|=rF sinφ ہے۔",
+              "options": {
+                "A": "rF cosφ",
+                "B": "rF sinφ",
+                "C": "F/r",
+                "D": "r/F"
+              },
+              "explanation": "Torque جي مقدار |r×F|=rF sinφ آهي."
+            }
+          }
+        },
+        {
+          "question": "A force directed exactly along the radius from the axis produces:",
+          "options": {
+            "A": "Maximum torque",
+            "B": "Torque equal to rF",
+            "C": "Zero torque",
+            "D": "Infinite torque"
+          },
+          "correctOption": "C",
+          "explanation": "The angle is 0° or 180°, so sinφ=0 and the perpendicular lever arm is zero.",
+          "translations": {
+            "ur": {
+              "question": "محور سے رداس کی سمت میں لگائی گئی قوت کتنا torque پیدا کرتی ہے؟",
+              "options": {
+                "A": "زیادہ سے زیادہ torque",
+                "B": "rF کے برابر torque",
+                "C": "صفر torque",
+                "D": "لامحدود torque"
+              },
+              "explanation": "محور کان رداس جي رخ ۾ لڳايل قوت ڪيترو torque پيدا ڪري ٿي؟"
+            },
+            "sd": {
+              "question": "قوت کا perpendicular lever arm صفر ہے، اس لیے torque صفر ہے۔",
+              "options": {
+                "A": "وڌ ۾ وڌ torque",
+                "B": "rF جي برابر torque",
+                "C": "صفر torque",
+                "D": "لامحدود torque"
+              },
+              "explanation": "قوت جو perpendicular lever arm صفر آهي، تنهنڪري torque صفر آهي."
+            }
+          }
+        },
+        {
+          "question": "A rotor has I=2.0 kg m² and experiences a net torque of 6.0 N m. Its angular acceleration is:",
+          "options": {
+            "A": "3.0 rad/s²",
+            "B": "12 rad/s²",
+            "C": "0.33 rad/s²",
+            "D": "8.0 rad/s²"
+          },
+          "correctOption": "A",
+          "explanation": "Using τ=Iα, α=6/2=3 rad/s².",
+          "translations": {
+            "ur": {
+              "question": "روٹر کا I=2.0 kg m² اور خالص torque 6.0 N m ہے۔ زاویائی تعجیل کیا ہے؟",
+              "options": {
+                "A": "3.0 rad/s²",
+                "B": "12 rad/s²",
+                "C": "0.33 rad/s²",
+                "D": "8.0 rad/s²"
+              },
+              "explanation": "روٽر جو I=2.0 kg m² ۽ خالص torque 6.0 N m آهي. زاويائي تعجيل ڪيتري آهي؟"
+            },
+            "sd": {
+              "question": "τ=Iα سے α=6/2=3 rad/s²۔",
+              "options": {
+                "A": "3.0 rad/s²",
+                "B": "12 rad/s²",
+                "C": "0.33 rad/s²",
+                "D": "8.0 rad/s²"
+              },
+              "explanation": "τ=Iα مان α=6/2=3 rad/s²."
+            }
+          }
+        },
+        {
+          "question": "The SI unit of moment of inertia is:",
+          "options": {
+            "A": "N m",
+            "B": "kg m",
+            "C": "kg m²",
+            "D": "kg m/s"
+          },
+          "correctOption": "C",
+          "explanation": "Moment of inertia is mass multiplied by distance squared, so its unit is kg m².",
+          "translations": {
+            "ur": {
+              "question": "Moment of inertia کی SI اکائی کیا ہے؟",
+              "options": {
+                "A": "N m",
+                "B": "kg m",
+                "C": "kg m²",
+                "D": "kg m/s"
+              },
+              "explanation": "Moment of inertia جي SI ايڪائي ڪهڙي آهي؟"
+            },
+            "sd": {
+              "question": "کمیت × فاصلہ² کی اکائی kg m² ہے۔",
+              "options": {
+                "A": "N m",
+                "B": "kg m",
+                "C": "kg m²",
+                "D": "kg m/s"
+              },
+              "explanation": "ماس × فاصلو² جي ايڪائي kg m² آهي."
+            }
+          }
+        },
+        {
+          "question": "In the ideal circular-orbit formula, orbital speed depends on:",
+          "options": {
+            "A": "The satellite's mass only",
+            "B": "The central body's mass and orbital radius",
+            "C": "The satellite's colour",
+            "D": "The satellite's shape"
+          },
+          "correctOption": "B",
+          "explanation": "The satellite mass cancels when gravity is equated to centripetal force.",
+          "translations": {
+            "ur": {
+              "question": "مثالی دائرہ نما مدار میں رفتار کن مقداروں پر منحصر ہے؟",
+              "options": {
+                "A": "صرف سیٹلائٹ کی کمیت",
+                "B": "مرکزی جسم کی کمیت اور مداری رداس",
+                "C": "سیٹلائٹ کا رنگ",
+                "D": "سیٹلائٹ کی شکل"
+              },
+              "explanation": "مثالي دائري مدار ۾ رفتار ڪهڙين مقدارن تي دارومدار رکي ٿي؟"
+            },
+            "sd": {
+              "question": "مداری رفتار مرکزی جسم کی کمیت اور مدار کے رداس پر منحصر ہے؛ سیٹلائٹ کی کمیت منسوخ ہو جاتی ہے۔",
+              "options": {
+                "A": "صرف سيٽلائيٽ جو ماس",
+                "B": "مرڪزي جسم جو ماس ۽ مداري رداس",
+                "C": "سيٽلائيٽ جو رنگ",
+                "D": "سيٽلائيٽ جي شڪل"
+              },
+              "explanation": "مداري رفتار مرڪزي جسم جي ماس ۽ مدار جي رداس تي دارومدار رکي ٿي؛ سيٽلائيٽ جو ماس ختم ٿي وڃي ٿو."
+            }
+          }
+        },
+        {
+          "question": "An angular speed of 2π rad/s corresponds to a rotation frequency of:",
+          "options": {
+            "A": "½ Hz",
+            "B": "2 Hz",
+            "C": "1 Hz",
+            "D": "2π Hz"
+          },
+          "correctOption": "C",
+          "explanation": "f=ω/(2π)=1 Hz.",
+          "translations": {
+            "ur": {
+              "question": "2π rad/s زاویائی رفتار کتنی چکر فی سیکنڈ کے برابر ہے؟",
+              "options": {
+                "A": "½ Hz",
+                "B": "2 Hz",
+                "C": "1 Hz",
+                "D": "2π Hz"
+              },
+              "explanation": "2π rad/s زاويائي رفتار ڪيترا چڪر في سيڪنڊ برابر آهي؟"
+            },
+            "sd": {
+              "question": "f=ω/(2π)=1 Hz۔",
+              "options": {
+                "A": "½ Hz",
+                "B": "2 Hz",
+                "C": "1 Hz",
+                "D": "2π Hz"
+              },
+              "explanation": "f=ω/(2π)=1 Hz."
+            }
+          }
+        },
+        {
+          "question": "Which change increases the moment of inertia of a rotating body about the same axis?",
+          "options": {
+            "A": "Moving some mass farther from the axis",
+            "B": "Moving all mass closer to the axis",
+            "C": "Reducing every radius by half",
+            "D": "Changing angular speed only"
+          },
+          "correctOption": "A",
+          "explanation": "I=∫r²dm increases when mass is redistributed farther from the axis.",
+          "translations": {
+            "ur": {
+              "question": "ایک ہی محور کے گرد جسم کا moment of inertia کون سی تبدیلی بڑھاتی ہے؟",
+              "options": {
+                "A": "کمیت کو محور سے دور منتقل کرنا",
+                "B": "تمام کمیت کو محور کے قریب لانا",
+                "C": "ہر رداس کو آدھا کرنا",
+                "D": "صرف زاویائی رفتار بدلنا"
+              },
+              "explanation": "ساڳئي محور بابت جسم جو moment of inertia ڪهڙي تبديلي وڌائي ٿي؟"
+            },
+            "sd": {
+              "question": "کمیت کو محور سے دور منتقل کرنے سے I=∫r²dm بڑھتا ہے۔",
+              "options": {
+                "A": "ماس کي محور کان پري منتقل ڪرڻ",
+                "B": "سڀ ماس محور جي ويجهو آڻڻ",
+                "C": "هر رداس اڌ ڪرڻ",
+                "D": "صرف زاويائي رفتار بدلائڻ"
+              },
+              "explanation": "ماس کي محور کان پري منتقل ڪرڻ سان I=∫r²dm وڌي ٿو."
+            }
+          }
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A wheel of radius 0.30 m rotates at 10 rad/s. (a) Find the tangential speed of a point on its rim. (b) It then changes from 2 rad/s to 8 rad/s in 3 s at constant angular acceleration. Find α and the angular displacement during those 3 s.",
+          "modelAnswer": "(a) v=rω=(0.30)(10)=3.0 m/s. (b) α=(ω−ω₀)/t=(8−2)/3=2 rad/s². θ=ω₀t+½αt²=(2)(3)+½(2)(9)=15 rad.",
+          "rubric": [
+            "Uses v=rω with correct substitution (1)",
+            "Obtains tangential speed 3.0 m/s (1)",
+            "Calculates α=(8−2)/3=2 rad/s² (1)",
+            "Uses constant-α angular displacement equation (1)",
+            "Obtains θ=15 rad with unit (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ایک پہیے کا رداس 0.30 m ہے اور وہ 10 rad/s سے گھومتا ہے۔ (الف) کنارے کے نقطے کی خطی رفتار معلوم کریں۔ (ب) زاویائی رفتار 3 s میں 2 سے 8 rad/s ہو جائے تو α اور زاویائی نقل مکانی معلوم کریں۔",
+              "modelAnswer": "(الف) v=rω=0.30×10=3.0 m/s۔ (ب) α=(8−2)/3=2 rad/s²۔ θ=ω₀t+½αt²=2×3+½×2×9=15 rad۔",
+              "rubric": [
+                "v=rω درست استعمال کرے (1)",
+                "خطی رفتار 3.0 m/s حاصل کرے (1)",
+                "α=2 rad/s² درست نکالے (1)",
+                "مستقل α کی زاویائی نقل مکانی کی مساوات استعمال کرے (1)",
+                "θ=15 rad اکائی سمیت حاصل کرے (1)"
+              ]
+            },
+            "sd": {
+              "question": "هڪ ڦيٿي جو رداس 0.30 m آهي ۽ اهو 10 rad/s سان ڦري ٿو. (الف) ڪناري واري نقطي جي خطي رفتار معلوم ڪريو. (ب) زاويائي رفتار 3 s ۾ 2 کان 8 rad/s ٿئي ته α ۽ زاويائي بي گھرڻ معلوم ڪريو.",
+              "modelAnswer": "(الف) v=rω=0.30×10=3.0 m/s. (ب) α=(8−2)/3=2 rad/s². θ=ω₀t+½αt²=2×3+½×2×9=15 rad.",
+              "rubric": [
+                "v=rω صحيح استعمال ڪري (1)",
+                "خطي رفتار 3.0 m/s حاصل ڪري (1)",
+                "α=2 rad/s² صحيح ڪڍي (1)",
+                "مستقل α واري زاويائي بي گھرڻ جي مساوات استعمال ڪري (1)",
+                "θ=15 rad ايڪائي سان حاصل ڪري (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A 1,000 kg car moves at 15 m/s around a level circular curve of radius 50 m. Calculate (a) its centripetal acceleration and (b) the required inward resultant force. State which contact force can provide it.",
+          "modelAnswer": "a_c=v²/r=15²/50=225/50=4.5 m/s². F_c=ma_c=1,000×4.5=4,500 N toward the centre. On a level road, static friction between the tyres and road supplies this inward force, provided the available friction is sufficient.",
+          "rubric": [
+            "Uses a_c=v²/r (1)",
+            "Obtains 4.5 m/s² (1)",
+            "Uses F=ma (1)",
+            "Obtains 4,500 N toward the centre (1)",
+            "Identifies static friction as the source on a level road (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "1000 kg کی گاڑی 15 m/s رفتار سے 50 m رداس کے ہموار افقی موڑ پر چلتی ہے۔ (الف) مرکز مائل تعجیل، (ب) مرکز کی طرف خالص قوت معلوم کریں۔ کون سی رابطہ قوت یہ قوت فراہم کر سکتی ہے؟",
+              "modelAnswer": "ac=v²/r=15²/50=4.5 m/s²۔ Fc=mac=1000×4.5=4500 N مرکز کی طرف ہے۔ ہموار افقی سڑک پر ٹائروں اور سڑک کے درمیان static friction یہ قوت فراہم کرتی ہے، بشرطیکہ دستیاب رگڑ کافی ہو۔",
+              "rubric": [
+                "ac=v²/r استعمال کرے (1)",
+                "4.5 m/s² حاصل کرے (1)",
+                "F=ma استعمال کرے (1)",
+                "مرکز کی طرف 4500 N حاصل کرے (1)",
+                "static friction کی درست شناخت کرے (1)"
+              ]
+            },
+            "sd": {
+              "question": "1000 kg گاڏي 15 m/s رفتار سان 50 m رداس واري هموار افقي موڙ تي هلي ٿي. (الف) مرڪز مائل تعجيل، (ب) مرڪز ڏانهن خالص قوت معلوم ڪريو. ڪهڙي رابطي واري قوت اها قوت ڏئي سگهي ٿي؟",
+              "modelAnswer": "ac=v²/r=15²/50=4.5 m/s². Fc=mac=1000×4.5=4500 N مرڪز ڏانهن آهي. هموار افقي روڊ تي ٽائرن ۽ روڊ وچ ۾ static friction اها قوت ڏئي ٿي، بشرطيڪ موجود رگڙ ڪافي هجي.",
+              "rubric": [
+                "ac=v²/r استعمال ڪري (1)",
+                "4.5 m/s² حاصل ڪري (1)",
+                "F=ma استعمال ڪري (1)",
+                "مرڪز ڏانهن 4500 N حاصل ڪري (1)",
+                "static friction جي صحيح سڃاڻپ ڪري (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Derive the circular-orbit speed formula for a satellite of mass m orbiting a planet of mass M at radius r. Then calculate the speed when GM=3.986×10¹⁴ m³/s² and r=7.0×10⁶ m.",
+          "modelAnswer": "For a circular orbit, gravitational force supplies centripetal force: GMm/r²=mv²/r. Cancelling m and rearranging gives v²=GM/r, hence v=√(GM/r). Substitution gives v=√(3.986×10¹⁴/7.0×10⁶)=√(5.694×10⁷)≈7.55×10³ m/s=7.55 km/s.",
+          "rubric": [
+            "Equates gravitational and centripetal forces (1)",
+            "Cancels satellite mass and rearranges correctly (1)",
+            "Derives v=√(GM/r) (1)",
+            "Substitutes the given values correctly (1)",
+            "Obtains approximately 7.55 km/s (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "M کمیت والے سیارے کے گرد r رداس پر m کمیت کے سیٹلائٹ کی دائرہ نما مداری رفتار کا فارمولا اخذ کریں۔ پھر GM=3.986×10¹⁴ m³/s² اور r=7.0×10⁶ m کے لیے رفتار معلوم کریں۔",
+              "modelAnswer": "دائرہ نما مدار میں کششِ ثقل مرکز مائل قوت کے برابر ہے: GMm/r²=mv²/r۔ m منسوخ اور ترتیب دینے سے v²=GM/r، لہٰذا v=√(GM/r)۔ قیمتیں رکھنے سے v=√(3.986×10¹⁴/7.0×10⁶)=√(5.694×10⁷)≈7.55×10³ m/s یعنی 7.55 km/s۔",
+              "rubric": [
+                "کششِ ثقل اور مرکز مائل قوت برابر کرے (1)",
+                "سیٹلائٹ کی کمیت منسوخ کرے (1)",
+                "v=√(GM/r) اخذ کرے (1)",
+                "اعداد درست رکھے (1)",
+                "تقریباً 7.55 km/s حاصل کرے (1)"
+              ]
+            },
+            "sd": {
+              "question": "M ماس واري سياري جي چوڌاري r رداس تي m ماس واري سيٽلائيٽ جي دائري مداري رفتار جو فارمولو اخذ ڪريو. پوءِ GM=3.986×10¹⁴ m³/s² ۽ r=7.0×10⁶ m لاءِ رفتار معلوم ڪريو.",
+              "modelAnswer": "دائري مدار ۾ ڪششِ ثقل مرڪز مائل قوت برابر آهي: GMm/r²=mv²/r. m ختم ڪري ترتيب ڏيڻ سان v²=GM/r، تنهنڪري v=√(GM/r). قيمتون رکڻ سان v=√(3.986×10¹⁴/7.0×10⁶)=√(5.694×10⁷)≈7.55×10³ m/s يعني 7.55 km/s.",
+              "rubric": [
+                "ڪششِ ثقل ۽ مرڪز مائل قوت برابر ڪري (1)",
+                "سيٽلائيٽ جو ماس ختم ڪري (1)",
+                "v=√(GM/r) اخذ ڪري (1)",
+                "قدر صحيح رکي (1)",
+                "تقريباً 7.55 km/s حاصل ڪري (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 6,
+          "question": "Two point masses, 2 kg at 0.50 m and 3 kg at 0.20 m from the same fixed axis, rotate together at 4 rad/s. Calculate their combined moment of inertia and angular momentum.",
+          "modelAnswer": "I=Σmr²=2(0.50²)+3(0.20²)=0.50+0.12=0.62 kg m². L=Iω=0.62×4=2.48 kg m²/s.",
+          "rubric": [
+            "Writes I=Σmr² (1)",
+            "Calculates the first contribution as 0.50 kg m² (1)",
+            "Calculates the second contribution as 0.12 kg m² (1)",
+            "Obtains total I=0.62 kg m² (1)",
+            "Uses L=Iω (1)",
+            "Obtains L=2.48 kg m²/s (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو نقطہ نما کمیتیں، 2 kg کو 0.50 m اور 3 kg کو 0.20 m پر ایک ہی مقرر محور سے رکھا گیا ہے۔ دونوں 4 rad/s سے گھومتی ہیں۔ کل moment of inertia اور angular momentum معلوم کریں۔",
+              "modelAnswer": "I=Σmr²=2(0.50²)+3(0.20²)=0.50+0.12=0.62 kg m²۔ L=Iω=0.62×4=2.48 kg m²/s۔",
+              "rubric": [
+                "I=Σmr² لکھے (1)",
+                "پہلا حصہ 0.50 kg m² نکالے (1)",
+                "دوسرا حصہ 0.12 kg m² نکالے (1)",
+                "کل I=0.62 kg m² حاصل کرے (1)",
+                "L=Iω استعمال کرے (1)",
+                "L=2.48 kg m²/s حاصل کرے (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه نقطي جهڙا ماس، 2 kg کي 0.50 m ۽ 3 kg کي 0.20 m تي ساڳئي مقرر محور کان رکيل آهن. ٻئي 4 rad/s سان ڦرن ٿا. گڏيل moment of inertia ۽ angular momentum معلوم ڪريو.",
+              "modelAnswer": "I=Σmr²=2(0.50²)+3(0.20²)=0.50+0.12=0.62 kg m². L=Iω=0.62×4=2.48 kg m²/s.",
+              "rubric": [
+                "I=Σmr² لکي (1)",
+                "پهريون حصو 0.50 kg m² ڪڍي (1)",
+                "ٻيو حصو 0.12 kg m² ڪڍي (1)",
+                "ڪل I=0.62 kg m² حاصل ڪري (1)",
+                "L=Iω استعمال ڪري (1)",
+                "L=2.48 kg m²/s حاصل ڪري (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 8,
+          "question": "Explain uniform circular motion using centripetal acceleration and force. Show how the required force changes with speed and radius, identify the source of centripetal force for a car, satellite and stone on a string, and explain one practical use of a centrifuge.",
+          "modelAnswer": "In uniform circular motion, speed may remain constant but velocity changes direction continuously. The acceleration is directed toward the centre and has magnitude a_c=v²/r=rω². Newton's second law gives F_c=mv²/r. At fixed radius, doubling speed makes the required force four times larger; at fixed speed, doubling radius halves it. The centripetal force is a resultant, not a separate force: static friction supplies it for a car on a level curve, gravity supplies it for a satellite, and tension supplies it for a stone on a string. A centrifuge rotates a sample rapidly; the tube supplies inward centripetal force while differences in density, particle size and drag cause components to sediment at different rates. Blood cells can be separated from plasma in this way. Safe operation requires balanced tubes and the manufacturer's rated speed.",
+          "rubric": [
+            "Explains that velocity changes direction even at constant speed (1)",
+            "States a_c=v²/r or rω² (1)",
+            "Relates force to F=mv²/r (1)",
+            "Explains speed-squared and radius dependence (1)",
+            "Identifies static friction for a car (1)",
+            "Identifies gravity and tension for satellite and string respectively (1)",
+            "Explains centrifuge separation using differential sedimentation (1)",
+            "Gives a correct application and safety point (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "یکساں دائرہ نما حرکت کو مرکز مائل تعجیل اور قوت کی مدد سے سمجھائیں۔ رفتار اور رداس بدلنے سے مطلوبہ قوت کیسے بدلتی ہے؟ گاڑی، سیٹلائٹ اور ڈوری سے بندھے پتھر کے لیے مرکز مائل قوت کا ذریعہ بتائیں اور centrifuge کا ایک عملی استعمال بیان کریں۔",
+              "modelAnswer": "یکساں دائرہ نما حرکت میں رفتار کی مقدار مستقل ہو سکتی ہے مگر سمت مسلسل بدلتی ہے، اس لیے تعجیل مرکز کی طرف ہوتی ہے: ac=v²/r=rω²۔ نیوٹن کے دوسرے قانون سے Fc=mv²/r۔ رداس مستقل ہو تو رفتار دوگنی کرنے سے قوت چار گنا ہوتی ہے؛ رفتار مستقل ہو تو رداس دوگنا کرنے سے قوت آدھی ہوتی ہے۔ مرکز مائل قوت کوئی الگ نئی قوت نہیں بلکہ resultant ہے: ہموار موڑ پر گاڑی کے لیے static friction، سیٹلائٹ کے لیے gravity اور ڈوری کے پتھر کے لیے tension یہ قوت فراہم کرتے ہیں۔ centrifuge نمونے کو تیزی سے گھماتا ہے؛ کثافت، ذرات کے حجم اور drag کے فرق سے اجزا مختلف رفتار سے بیٹھتے ہیں۔ اس طرح خون کے خلیات کو plasma سے الگ کیا جا سکتا ہے۔ محفوظ استعمال کے لیے ٹیوبیں متوازن اور رفتار مقررہ حد میں ہونی چاہیے۔",
+              "rubric": [
+                "مستقل رفتار کے باوجود سمت بدلنے کی وضاحت (1)",
+                "ac=v²/r یا rω² لکھے (1)",
+                "Fc=mv²/r بیان کرے (1)",
+                "رفتار کے مربع اور رداس کے اثر کی وضاحت (1)",
+                "گاڑی کے لیے static friction بتائے (1)",
+                "سیٹلائٹ کے لیے gravity اور پتھر کے لیے tension بتائے (1)",
+                "centrifuge میں مختلف sedimentation سمجھائے (1)",
+                "درست استعمال اور حفاظتی نکتہ دے (1)"
+              ]
+            },
+            "sd": {
+              "question": "هڪجهڙي دائري حرڪت کي مرڪز مائل تعجيل ۽ قوت سان سمجهايو. رفتار ۽ رداس بدلجڻ سان گهربل قوت ڪيئن بدلجي ٿي؟ گاڏي، سيٽلائيٽ ۽ رسي سان ٻڌل پٿر لاءِ مرڪز مائل قوت جو ذريعو ٻڌايو ۽ centrifuge جو هڪ عملي استعمال بيان ڪريو.",
+              "modelAnswer": "هڪجهڙي دائري حرڪت ۾ رفتار جي مقدار مستقل ٿي سگهي ٿي پر رخ مسلسل بدلجي ٿو، تنهنڪري تعجيل مرڪز ڏانهن هوندي آهي: ac=v²/r=rω². نيوٽن جي ٻئي قانون مان Fc=mv²/r. رداس مستقل هجي ته رفتار ٻيڻي ڪرڻ سان قوت چار ڀيرا ٿيندي؛ رفتار مستقل هجي ته رداس ٻيڻو ڪرڻ سان قوت اڌ ٿيندي. مرڪز مائل قوت ڪا نئين الڳ قوت نه پر resultant آهي: هموار موڙ تي گاڏي لاءِ static friction، سيٽلائيٽ لاءِ gravity ۽ رسي واري پٿر لاءِ tension اها قوت ڏين ٿا. centrifuge نموني کي تيزيءَ سان ڦيرائي ٿو؛ ڪثافت، ذرڙن جي ماپ ۽ drag جي فرق سبب جزا مختلف رفتار سان هيٺ ويهن ٿا. اهڙيءَ طرح رت جا خليا plasma کان الڳ ڪري سگهجن ٿا. محفوظ استعمال لاءِ ٽيوبون متوازن ۽ رفتار مقرر حد اندر هجڻ گهرجي.",
+              "rubric": [
+                "مستقل رفتار هوندي به رخ بدلجڻ جي وضاحت (1)",
+                "ac=v²/r يا rω² لکي (1)",
+                "Fc=mv²/r بيان ڪري (1)",
+                "رفتار جي چورس ۽ رداس جي اثر جي وضاحت (1)",
+                "گاڏي لاءِ static friction ٻڌائي (1)",
+                "سيٽلائيٽ لاءِ gravity ۽ پٿر لاءِ tension ٻڌائي (1)",
+                "centrifuge ۾ مختلف sedimentation سمجهاڻي (1)",
+                "درست استعمال ۽ حفاظتي نڪتو ڏئي (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Derive the circular orbital-speed equation for a satellite. Explain why astronauts in orbit experience apparent weightlessness although gravity acts, and describe how a rotating space habitat could provide an artificial-gravity effect. Include the assumptions and one limitation of the rotating-habitat idea.",
+          "modelAnswer": "For a satellite of mass m in a circular orbit of radius r around a central mass M, set gravitational force equal to centripetal force: GMm/r²=mv²/r. Cancelling m and rearranging gives v=√(GM/r). This assumes a circular orbit and neglects drag and perturbations. Gravity has not disappeared in orbit; it accelerates both spacecraft and astronaut together in continuous free fall. Their relative acceleration is small, so the floor exerts almost no normal support force and a scale reads nearly zero. In a rotating habitat, the floor pushes occupants inward and supplies centripetal acceleration a=rω². Choosing rω²≈9.8 m/s² can imitate Earth's apparent support. Limitations include Coriolis effects, motion sickness, structural stress, and a head-to-foot acceleration difference across the habitat radius.",
+          "rubric": [
+            "Sets gravitational force equal to centripetal force (2)",
+            "Derives v=√(GM/r) correctly (1)",
+            "States circular-orbit/ideal assumptions (1)",
+            "Explains continuous free fall and gravity still acting (2)",
+            "Connects apparent weight to near-zero normal force (1)",
+            "Explains rotating floor's inward force and a=rω² (1)",
+            "States a realistic design condition near 9.8 m/s² (1)",
+            "Identifies at least one meaningful limitation (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "سیٹلائٹ کی دائرہ نما مداری رفتار کی مساوات اخذ کریں۔ وضاحت کریں کہ مدار میں gravity موجود ہونے کے باوجود خلا باز کو بظاہر بے وزنی کیوں محسوس ہوتی ہے۔ یہ بھی بیان کریں کہ گھومتا ہوا خلائی رہائشی ڈھانچا مصنوعی کششِ ثقل کیسے پیدا کر سکتا ہے۔ مفروضے اور ایک حد بھی لکھیں۔",
+              "modelAnswer": "مرکزی کمیت M کے گرد r رداس پر m کمیت کے سیٹلائٹ کے لیے کششِ ثقل کو مرکز مائل قوت کے برابر رکھتے ہیں: GMm/r²=mv²/r۔ m منسوخ اور ترتیب دینے سے v=√(GM/r) ملتا ہے۔ یہ دائرہ نما مدار کا مفروضہ ہے اور drag و دیگر خلل نظر انداز کیے گئے ہیں۔ مدار میں gravity ختم نہیں ہوتی؛ جہاز اور خلا باز مسلسل ایک ساتھ آزادانہ سقوط میں ہوتے ہیں۔ اس لیے فرش کی normal support force تقریباً صفر اور scale کی reading تقریباً صفر ہوتی ہے۔ گھومتے habitat میں فرش افراد کو اندر کی طرف دھکیل کر centripetal acceleration a=rω² فراہم کرتا ہے۔ rω²≈9.8 m/s² رکھنے سے زمین جیسا سہارا محسوس ہو سکتا ہے۔ حدود میں Coriolis اثر، motion sickness، ساختی دباؤ اور سر و پاؤں کے درمیان تعجیل کا فرق شامل ہیں۔",
+              "rubric": [
+                "کششِ ثقل کو مرکز مائل قوت کے برابر رکھے (2)",
+                "v=√(GM/r) درست اخذ کرے (1)",
+                "دائرہ نما مدار کا مفروضہ بیان کرے (1)",
+                "آزادانہ سقوط اور gravity کے موجود رہنے کی وضاحت (2)",
+                "normal force تقریباً صفر ہونے کو apparent weight سے جوڑے (1)",
+                "گھومتے فرش اور a=rω² کی وضاحت (1)",
+                "9.8 m/s² کے قریب ڈیزائن شرط بتائے (1)",
+                "ایک حقیقی حد بیان کرے (1)"
+              ]
+            },
+            "sd": {
+              "question": "سيٽلائيٽ جي دائري مداري رفتار جي مساوات اخذ ڪريو. وضاحت ڪريو ته مدار ۾ gravity موجود هوندي به خلا باز کي ظاهري بي وزني ڇو محسوس ٿئي ٿي. اهو به بيان ڪريو ته گهمندڙ خلائي رهائشي ڍانچو مصنوعي ڪششِ ثقل ڪيئن پيدا ڪري سگهي ٿو. مفروضا ۽ هڪ حد به لکو.",
+              "modelAnswer": "مرڪزي ماس M جي چوڌاري r رداس تي m ماس واري سيٽلائيٽ لاءِ ڪششِ ثقل کي مرڪز مائل قوت برابر رکون ٿا: GMm/r²=mv²/r. m ختم ڪري ترتيب ڏيڻ سان v=√(GM/r) ملي ٿو. اهو دائري مدار جو مفروضو آهي ۽ drag ۽ ٻين خللن کي نظرانداز ڪيو ويو آهي. مدار ۾ gravity ختم نٿي ٿئي؛ جهاز ۽ خلا باز مسلسل گڏ آزاد سقوط ۾ هوندا آهن. تنهنڪري فرش جي normal support force لڳ ڀڳ صفر ۽ scale جي reading به لڳ ڀڳ صفر هوندي آهي. گهمندڙ habitat ۾ فرش ماڻهن کي اندر طرف ڌڪي centripetal acceleration a=rω² ڏئي ٿو. rω²≈9.8 m/s² رکڻ سان زمين جهڙو سهارو محسوس ٿي سگهي ٿو. حدن ۾ Coriolis اثر، motion sickness، بناوتي دٻاءُ ۽ مٿي ۽ پيرن وچ ۾ تعجيل جو فرق شامل آهن.",
+              "rubric": [
+                "ڪششِ ثقل کي مرڪز مائل قوت برابر رکي (2)",
+                "v=√(GM/r) صحيح اخذ ڪري (1)",
+                "دائري مدار جو مفروضو لکي (1)",
+                "آزاد سقوط ۽ gravity جي موجودگي سمجهاڻي (2)",
+                "normal force لڳ ڀڳ صفر کي ظاهري وزن سان ڳنڍي (1)",
+                "گهمندڙ فرش ۽ a=rω² سمجهاڻي (1)",
+                "9.8 m/s² جي ويجهو ڊيزائن شرط ٻڌائي (1)",
+                "هڪ حقيقي حد بيان ڪري (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss rotational inertia, angular momentum and torque for a rigid body. Derive τ=Iα for rotation about a fixed axis, explain the conservation of angular momentum, and use a skater or flywheel example to show how mass distribution changes rotational behaviour.",
+          "modelAnswer": "Moment of inertia about a specified axis is I=∫r²dm (or Σmr² for point masses); it depends on mass distribution and the chosen axis. For fixed-axis rotation, angular momentum is L=Iω. Net external torque is τnet=dL/dt. If net external torque is zero, total L is conserved, so a decrease in I produces an increase in ω. For a skater pulling in the arms, I decreases and spin rate increases while Iω remains constant. Torque is τ⃗=r⃗×F⃗, with magnitude rFsinφ=Fd⊥. For a mass element dm at radius r, tangential acceleration is rα and tangential force is dm·rα. Its torque is r²αdm. Summing over the body gives τnet=α∫r²dm=Iα. A flywheel places substantial mass away from the axis, giving a large I and helping smooth rotational-speed fluctuations. The relation τ=Iα assumes a rigid body and fixed axis; for changing axes or more general 3D rotation, vector treatment is required.",
+          "rubric": [
+            "Defines I and explains axis/mass-distribution dependence (2)",
+            "States L=Iω and the zero-external-torque conservation condition (2)",
+            "Explains the skater/flywheel example correctly (1)",
+            "Defines torque as r×F and gives perpendicular lever arm (1)",
+            "Connects tangential acceleration to rα (1)",
+            "Derives elemental torque r²αdm (1)",
+            "Integrates/sums to obtain τ=Iα (1)",
+            "States the fixed-axis assumption or a limitation (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "کسی rigid body کے لیے rotational inertia، angular momentum اور torque پر بحث کریں۔ مقرر محور کے گرد گردش کے لیے τ=Iα اخذ کریں، angular momentum کے تحفظ کی وضاحت کریں اور اسکیٹر یا flywheel کی مثال سے بتائیں کہ کمیت کی تقسیم گردش کو کیسے بدلتی ہے۔",
+              "modelAnswer": "مقرر محور کے گرد moment of inertia I=∫r²dm (نقطہ نما اجزا کے لیے Σmr²) ہے؛ یہ کمیت کی تقسیم اور محور پر منحصر ہے۔ مقرر محور کے گرد angular momentum L=Iω ہے۔ خالص بیرونی torque τnet=dL/dt ہے۔ اگر خالص بیرونی torque صفر ہو تو کل L محفوظ رہتا ہے، لہٰذا I کم ہونے پر ω بڑھتا ہے۔ اسکیٹر بازو اندر کھینچتا ہے تو I کم اور spin rate زیادہ ہو جاتی ہے جبکہ Iω مستقل رہتا ہے۔ Torque τ⃗=r⃗×F⃗ ہے، مقدار rFsinφ=Fd⊥ ہے۔ r فاصلے پر dm عنصر کی tangential acceleration rα اور قوت dm·rα ہے؛ اس کا torque r²αdm ہے۔ تمام اجزا جمع کرنے سے τnet=α∫r²dm=Iα ملتا ہے۔ Flywheel میں کمیت محور سے دور ہوتی ہے، اس لیے I بڑا ہوتا ہے اور رفتار کے اتار چڑھاؤ کم کرنے میں مدد ملتی ہے۔ τ=Iα مقرر محور اور rigid body کے مفروضے پر مبنی ہے۔",
+              "rubric": [
+                "I کی تعریف اور محور/کمیت کی تقسیم کا اثر (2)",
+                "L=Iω اور بیرونی torque صفر ہونے کی شرط (2)",
+                "اسکیٹر یا flywheel کی درست مثال (1)",
+                "τ=r×F اور عمودی lever arm (1)",
+                "rα tangential acceleration سے ربط (1)",
+                "عنصر کا torque r²αdm اخذ کرے (1)",
+                "جمع/تکمل سے τ=Iα حاصل کرے (1)",
+                "مقرر محور کا مفروضہ یا حد بتائے (1)"
+              ]
+            },
+            "sd": {
+              "question": "Rigid body لاءِ rotational inertia، angular momentum ۽ torque تي بحث ڪريو. مقرر محور بابت گردش لاءِ τ=Iα اخذ ڪريو، angular momentum جي تحفظ کي سمجهايو ۽ اسڪيٽر يا flywheel جي مثال سان ٻڌايو ته ماس جي ورڇ گردش کي ڪيئن بدلائي ٿي.",
+              "modelAnswer": "مقرر محور بابت moment of inertia I=∫r²dm (نقطي حصن لاءِ Σmr²) آهي؛ اهو ماس جي ورڇ ۽ محور تي دارومدار رکي ٿو. مقرر محور بابت angular momentum L=Iω آهي. خالص ٻاهرين torque τnet=dL/dt آهي. جيڪڏهن خالص ٻاهرين torque صفر هجي ته ڪل L محفوظ رهي ٿو، تنهنڪري I گهٽجڻ تي ω وڌي ٿو. اسڪيٽر ٻانهون اندر ڇڪي ٿو ته I گهٽجي ۽ spin rate وڌي ٿي، جڏهن ته Iω مستقل رهي ٿو. Torque τ⃗=r⃗×F⃗ آهي، مقدار rFsinφ=Fd⊥ آهي. r فاصلي تي dm حصي جي tangential acceleration rα ۽ قوت dm·rα آهي؛ ان جو torque r²αdm آهي. سڀ حصا گڏ ڪرڻ سان τnet=α∫r²dm=Iα ملي ٿو. Flywheel ۾ ماس محور کان پري هوندو آهي، تنهنڪري I وڏو ۽ رفتار جي ڦيرڦار گهٽ ڪرڻ ۾ مددگار هوندو آهي. τ=Iα مقرر محور ۽ rigid body جي مفروضي تي ٻڌل آهي.",
+              "rubric": [
+                "I جي وصف ۽ محور/ماس ورڇ جو اثر (2)",
+                "L=Iω ۽ ٻاهرين torque صفر هجڻ جي شرط (2)",
+                "اسڪيٽر يا flywheel جي صحيح مثال (1)",
+                "τ=r×F ۽ عمودي lever arm (1)",
+                "rα tangential acceleration سان لاڳاپو (1)",
+                "عنصر جو torque r²αdm اخذ ڪري (1)",
+                "جمع/تڪمل سان τ=Iα حاصل ڪري (1)",
+                "مقرر محور جو مفروضو يا حد ٻڌائي (1)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
