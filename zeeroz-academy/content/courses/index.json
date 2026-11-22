@@ -409,6 +409,34 @@
       "path": "zeeroz-academy/content/courses/english-ix-xii-foundation.json",
       "version": "1",
       "order": 1
+    },
+    {
+      "id": "urdu-xi-xii-literature-language",
+      "title": "Urdu XI–XII — Zaban, Adab aur Tahrir",
+      "path": "zeeroz-academy/content/courses/urdu-xi-xii-literature-language.json",
+      "version": "1",
+      "order": 1
+    },
+    {
+      "id": "sindhi-xi-xii-language-literature",
+      "title": "Sindhi XI–XII — Bhasha, Adab ain Likhat",
+      "path": "zeeroz-academy/content/courses/sindhi-xi-xii-language-literature.json",
+      "version": "1",
+      "order": 1
+    },
+    {
+      "id": "pakistan-studies-ix-x",
+      "title": "Pakistan Studies IX–X — History, Geography and Citizenship",
+      "path": "zeeroz-academy/content/courses/pakistan-studies-ix-x.json",
+      "version": "1",
+      "order": 1
+    },
+    {
+      "id": "islamiat-ix-xii-foundations",
+      "title": "Islamiat IX–XII — Quran, Seerah, Ethics and Society",
+      "path": "zeeroz-academy/content/courses/islamiat-ix-xii-foundations.json",
+      "version": "1",
+      "order": 1
     }
   ]
 }
