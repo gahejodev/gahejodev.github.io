@@ -2,7 +2,7 @@
   "id": "urdu-sindhi-ix-x-language",
   "title": "Urdu and Sindhi IX–X — Compulsory Language Skills",
   "description": "Supplementary grade-level units with lessons, MCQs, CRQs and ERQs, including Urdu and Sindhi support. Confirm the student's board, group and prescribed textbook before treating any elective as part of an individual syllabus.",
-  "version": "1",
+  "version": "2",
   "curriculumAlignment": "Supplementary language course for the Sindh SSC scheme. The official scheme includes Sindhi/Urdu mother-tongue and non-mother-tongue options in Grades IX–X. This package is a skills map, not a textbook chapter reproduction.",
   "sourceReferences": [
     {
@@ -55,7 +55,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Read a prose passage for its central idea, supporting details, vocabulary and author's purpose. Use context to infer unfamiliar words and support answers with a phrase or event from the passage."
+          "explanation": "Read a prose passage for its central idea, supporting details, vocabulary and author's purpose. Use context to infer unfamiliar words and support answers with a phrase or event from the passage.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "نثر میں مرکزی خیال، معاون تفصیلات، الفاظ کے مفہوم اور مصنف کے مقصد کو پہچانیں۔ نامانوس الفاظ کا مطلب سیاق سے اخذ کریں اور جواب میں متن کی دلیل دیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "نثر میں مرکزی خیال، معاون تفصیلات، الفاظ کے مفہوم اور مصنف کے مقصد کو پہچانیں۔ نامانوس الفاظ کا مطلب سیاق سے اخذ کریں اور جواب میں متن کی دلیل دیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "نثر ۾ مرڪزي خيال، مددگار تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سڃاڻو. اڻڄاتل لفظن جو مطلب سياق مان سمجهو ۽ جواب ۾ متن جو ثبوت ڏيو۔",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "نثر ۾ مرڪزي خيال، مددگار تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سڃاڻو. اڻڄاتل لفظن جو مطلب سياق مان سمجهو ۽ جواب ۾ متن جو ثبوت ڏيو۔"
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of ix — urdu reading and comprehension?",
@@ -66,7 +88,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Read a prose passage for its central idea, supporting details, vocabulary and author's purpose. Use context to infer unfamiliar words and support answers with a phrase or event from the passage."
+          "explanation": "Read a prose passage for its central idea, supporting details, vocabulary and author's purpose. Use context to infer unfamiliar words and support answers with a phrase or event from the passage.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "نثر میں مرکزی خیال، معاون تفصیلات، الفاظ کے مفہوم اور مصنف کے مقصد کو پہچانیں۔ نامانوس الفاظ کا مطلب سیاق سے اخذ کریں اور جواب میں متن کی دلیل دیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "نثر میں مرکزی خیال، معاون تفصیلات، الفاظ کے مفہوم اور مصنف کے مقصد کو پہچانیں۔ نامانوس الفاظ کا مطلب سیاق سے اخذ کریں اور جواب میں متن کی دلیل دیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "نثر ۾ مرڪزي خيال، مددگار تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سڃاڻو. اڻڄاتل لفظن جو مطلب سياق مان سمجهو ۽ جواب ۾ متن جو ثبوت ڏيو۔",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "نثر ۾ مرڪزي خيال، مددگار تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سڃاڻو. اڻڄاتل لفظن جو مطلب سياق مان سمجهو ۽ جواب ۾ متن جو ثبوت ڏيو۔"
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -79,7 +123,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "نثر میں مرکزی خیال، معاون تفصیلات، الفاظ کے مفہوم اور مصنف کے مقصد کو پہچانیں۔ نامانوس الفاظ کا مطلب سیاق سے اخذ کریں اور جواب میں متن کی دلیل دیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "نثر ۾ مرڪزي خيال، مددگار تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سڃاڻو. اڻڄاتل لفظن جو مطلب سياق مان سمجهو ۽ جواب ۾ متن جو ثبوت ڏيو۔",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -91,7 +155,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "نثر میں مرکزی خیال، معاون تفصیلات، الفاظ کے مفہوم اور مصنف کے مقصد کو پہچانیں۔ نامانوس الفاظ کا مطلب سیاق سے اخذ کریں اور جواب میں متن کی دلیل دیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "نثر ۾ مرڪزي خيال، مددگار تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سڃاڻو. اڻڄاتل لفظن جو مطلب سياق مان سمجهو ۽ جواب ۾ متن جو ثبوت ڏيو۔",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -128,7 +214,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Read a Sindhi passage for its main message, details, vocabulary and writer's intention. Explain ideas in your own words and support answers with evidence from the passage."
+          "explanation": "Read a Sindhi passage for its main message, details, vocabulary and writer's intention. Explain ideas in your own words and support answers with evidence from the passage.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سنڌي نثر جو مرڪزي پيغام، تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سمجهو. خيال پنهنجن لفظن ۾ بيان ڪريو ۽ متن مان ثبوت ڏيو۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "سنڌي نثر جو مرڪزي پيغام، تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سمجهو. خيال پنهنجن لفظن ۾ بيان ڪريو ۽ متن مان ثبوت ڏيو۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "اردو مدد: سندھی نثر کا مرکزی پیغام، تفصیلات، الفاظ کے معنی اور مصنف کا مقصد سمجھیں۔ خیالات اپنے الفاظ میں بیان کریں اور متن سے دلیل دیں۔",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اردو مدد: سندھی نثر کا مرکزی پیغام، تفصیلات، الفاظ کے معنی اور مصنف کا مقصد سمجھیں۔ خیالات اپنے الفاظ میں بیان کریں اور متن سے دلیل دیں۔"
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of ix — sindhi reading and comprehension?",
@@ -139,7 +247,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Read a Sindhi passage for its main message, details, vocabulary and writer's intention. Explain ideas in your own words and support answers with evidence from the passage."
+          "explanation": "Read a Sindhi passage for its main message, details, vocabulary and writer's intention. Explain ideas in your own words and support answers with evidence from the passage.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "سنڌي نثر جو مرڪزي پيغام، تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سمجهو. خيال پنهنجن لفظن ۾ بيان ڪريو ۽ متن مان ثبوت ڏيو۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "سنڌي نثر جو مرڪزي پيغام، تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سمجهو. خيال پنهنجن لفظن ۾ بيان ڪريو ۽ متن مان ثبوت ڏيو۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "اردو مدد: سندھی نثر کا مرکزی پیغام، تفصیلات، الفاظ کے معنی اور مصنف کا مقصد سمجھیں۔ خیالات اپنے الفاظ میں بیان کریں اور متن سے دلیل دیں۔",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اردو مدد: سندھی نثر کا مرکزی پیغام، تفصیلات، الفاظ کے معنی اور مصنف کا مقصد سمجھیں۔ خیالات اپنے الفاظ میں بیان کریں اور متن سے دلیل دیں۔"
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -152,7 +282,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "سنڌي نثر جو مرڪزي پيغام، تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سمجهو. خيال پنهنجن لفظن ۾ بيان ڪريو ۽ متن مان ثبوت ڏيو۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "اردو مدد: سندھی نثر کا مرکزی پیغام، تفصیلات، الفاظ کے معنی اور مصنف کا مقصد سمجھیں۔ خیالات اپنے الفاظ میں بیان کریں اور متن سے دلیل دیں۔",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -164,7 +314,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "سنڌي نثر جو مرڪزي پيغام، تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سمجهو. خيال پنهنجن لفظن ۾ بيان ڪريو ۽ متن مان ثبوت ڏيو۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "اردو مدد: سندھی نثر کا مرکزی پیغام، تفصیلات، الفاظ کے معنی اور مصنف کا مقصد سمجھیں۔ خیالات اپنے الفاظ میں بیان کریں اور متن سے دلیل دیں۔",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -201,7 +373,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Apply correct sentence structure, gender and number agreement, verb forms, punctuation and paragraph unity. A formal application should state its purpose clearly, use respectful language and present details in order."
+          "explanation": "Apply correct sentence structure, gender and number agreement, verb forms, punctuation and paragraph unity. A formal application should state its purpose clearly, use respectful language and present details in order.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "درست جملہ سازی، تذکیر و تانیث، واحد جمع، فعل، رموزِ اوقاف اور پیراگراف کی یکجائی استعمال کریں۔ درخواست میں مقصد واضح اور لہجہ مؤدبانہ رکھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "درست جملہ سازی، تذکیر و تانیث، واحد جمع، فعل، رموزِ اوقاف اور پیراگراف کی یکجائی استعمال کریں۔ درخواست میں مقصد واضح اور لہجہ مؤدبانہ رکھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "صحيح جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ پيراگراف جي يڪجهتي اختيار ڪريو. درخواست ۾ مقصد صاف ۽ لهجو ادب وارو رکو۔",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "صحيح جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ پيراگراف جي يڪجهتي اختيار ڪريو. درخواست ۾ مقصد صاف ۽ لهجو ادب وارو رکو۔"
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of x — urdu grammar and composition?",
@@ -212,7 +406,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Apply correct sentence structure, gender and number agreement, verb forms, punctuation and paragraph unity. A formal application should state its purpose clearly, use respectful language and present details in order."
+          "explanation": "Apply correct sentence structure, gender and number agreement, verb forms, punctuation and paragraph unity. A formal application should state its purpose clearly, use respectful language and present details in order.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "درست جملہ سازی، تذکیر و تانیث، واحد جمع، فعل، رموزِ اوقاف اور پیراگراف کی یکجائی استعمال کریں۔ درخواست میں مقصد واضح اور لہجہ مؤدبانہ رکھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "درست جملہ سازی، تذکیر و تانیث، واحد جمع، فعل، رموزِ اوقاف اور پیراگراف کی یکجائی استعمال کریں۔ درخواست میں مقصد واضح اور لہجہ مؤدبانہ رکھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "صحيح جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ پيراگراف جي يڪجهتي اختيار ڪريو. درخواست ۾ مقصد صاف ۽ لهجو ادب وارو رکو۔",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "صحيح جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ پيراگراف جي يڪجهتي اختيار ڪريو. درخواست ۾ مقصد صاف ۽ لهجو ادب وارو رکو۔"
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -225,7 +441,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "درست جملہ سازی، تذکیر و تانیث، واحد جمع، فعل، رموزِ اوقاف اور پیراگراف کی یکجائی استعمال کریں۔ درخواست میں مقصد واضح اور لہجہ مؤدبانہ رکھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "صحيح جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ پيراگراف جي يڪجهتي اختيار ڪريو. درخواست ۾ مقصد صاف ۽ لهجو ادب وارو رکو۔",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -237,7 +473,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "درست جملہ سازی، تذکیر و تانیث، واحد جمع، فعل، رموزِ اوقاف اور پیراگراف کی یکجائی استعمال کریں۔ درخواست میں مقصد واضح اور لہجہ مؤدبانہ رکھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "صحيح جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ پيراگراف جي يڪجهتي اختيار ڪريو. درخواست ۾ مقصد صاف ۽ لهجو ادب وارو رکو۔",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -274,7 +532,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Use sentence structure, gender and number agreement, verb forms, punctuation and coherent paragraphs accurately. In a formal application, state the purpose, relevant details and request politely."
+          "explanation": "Use sentence structure, gender and number agreement, verb forms, punctuation and coherent paragraphs accurately. In a formal application, state the purpose, relevant details and request politely.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ مربوط پيراگراف صحيح استعمال ڪريو. رسمي درخواست ۾ مقصد، تفصيل ۽ گذارش ادب سان لکو۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ مربوط پيراگراف صحيح استعمال ڪريو. رسمي درخواست ۾ مقصد، تفصيل ۽ گذارش ادب سان لکو۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "اردو مدد: جملے کی ساخت، جنس و عدد کی مطابقت، فعل، رموزِ اوقاف اور مربوط پیراگراف درست استعمال کریں۔ رسمی درخواست میں مقصد اور تفصیلات مؤدبانہ انداز میں لکھیں۔",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اردو مدد: جملے کی ساخت، جنس و عدد کی مطابقت، فعل، رموزِ اوقاف اور مربوط پیراگراف درست استعمال کریں۔ رسمی درخواست میں مقصد اور تفصیلات مؤدبانہ انداز میں لکھیں۔"
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of x — sindhi grammar and composition?",
@@ -285,7 +565,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Use sentence structure, gender and number agreement, verb forms, punctuation and coherent paragraphs accurately. In a formal application, state the purpose, relevant details and request politely."
+          "explanation": "Use sentence structure, gender and number agreement, verb forms, punctuation and coherent paragraphs accurately. In a formal application, state the purpose, relevant details and request politely.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ مربوط پيراگراف صحيح استعمال ڪريو. رسمي درخواست ۾ مقصد، تفصيل ۽ گذارش ادب سان لکو۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ مربوط پيراگراف صحيح استعمال ڪريو. رسمي درخواست ۾ مقصد، تفصيل ۽ گذارش ادب سان لکو۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "اردو مدد: جملے کی ساخت، جنس و عدد کی مطابقت، فعل، رموزِ اوقاف اور مربوط پیراگراف درست استعمال کریں۔ رسمی درخواست میں مقصد اور تفصیلات مؤدبانہ انداز میں لکھیں۔",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اردو مدد: جملے کی ساخت، جنس و عدد کی مطابقت، فعل، رموزِ اوقاف اور مربوط پیراگراف درست استعمال کریں۔ رسمی درخواست میں مقصد اور تفصیلات مؤدبانہ انداز میں لکھیں۔"
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -298,7 +600,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ مربوط پيراگراف صحيح استعمال ڪريو. رسمي درخواست ۾ مقصد، تفصيل ۽ گذارش ادب سان لکو۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "اردو مدد: جملے کی ساخت، جنس و عدد کی مطابقت، فعل، رموزِ اوقاف اور مربوط پیراگراف درست استعمال کریں۔ رسمی درخواست میں مقصد اور تفصیلات مؤدبانہ انداز میں لکھیں۔",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -310,7 +632,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ مربوط پيراگراف صحيح استعمال ڪريو. رسمي درخواست ۾ مقصد، تفصيل ۽ گذارش ادب سان لکو۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "اردو مدد: جملے کی ساخت، جنس و عدد کی مطابقت، فعل، رموزِ اوقاف اور مربوط پیراگراف درست استعمال کریں۔ رسمی درخواست میں مقصد اور تفصیلات مؤدبانہ انداز میں لکھیں۔",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     }
