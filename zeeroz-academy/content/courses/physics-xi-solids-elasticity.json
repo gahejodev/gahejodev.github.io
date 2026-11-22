@@ -1,0 +1,295 @@
+{
+  "id": "physics-xi-solids-elasticity",
+  "title": "Physics XI — Solids and Elasticity (DCAR 2024)",
+  "description": "Grade XI Domain C SLOs P-11-C-49 to P-11-C-63. Five lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi lesson support.",
+  "version": "1",
+  "curriculumAlignment": "DCAR Sindh Physics Curriculum 2024, Grade XI Domain C, SLOs P-11-C-49 to P-11-C-63. Domain-based; no unverified STBB chapter number claimed.",
+  "sourceReferences": [
+    {
+      "title": "DCAR Sindh Physics Curriculum 2024",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Physics%20Curriculum%2019%20August%202024.pdf",
+      "note": "Grade XI Domain C: solids and elasticity SLOs P-11-C-49 to P-11-C-63."
+    },
+    {
+      "title": "STBB eBooks catalogue",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "note": "Official textbook catalogue; exact edition chapter mapping not asserted."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Solids and Elasticity",
+      "description": "Mechanical properties of solids, deformation, stress, strain and elastic moduli.",
+      "lessons": [
+        {
+          "title": "Deformation and elasticity",
+          "content": "A force may change length, shape or volume. Elastic deformation is reversible after unloading within the elastic limit; plastic deformation remains. A spring under a modest load is elastic, while a permanently bent paper clip has undergone plastic deformation.",
+          "explanations": {
+            "ur": "قوت جسم کی لمبائی، شکل یا حجم بدل سکتی ہے۔ حدِ لچک کے اندر تبدیلی واپس ختم ہو سکتی ہے؛ پلاسٹک تبدیلی مستقل رہتی ہے۔",
+            "sd": "قوت جسم جي ڊيگهه، شڪل يا حجم بدلائي سگهي ٿي۔ لچڪ جي حد اندر تبديلي واپس ختم ٿي سگهي ٿي؛ پلاسٽڪ تبديلي مستقل رهي ٿي۔"
+          }
+        },
+        {
+          "title": "Stress and strain",
+          "content": "Stress is normal force per cross-sectional area: σ=F/A (Pa). Longitudinal strain is extension divided by original length: ε=ΔL/L (dimensionless). A 2 m wire extending 1 mm has strain 5×10⁻⁴.",
+          "explanations": {
+            "ur": "تناؤ قوت فی رقبہ σ=F/A ہے، اکائی پاسکل۔ اسٹرین اضافہ/اصل لمبائی ε=ΔL/L ہے اور بے اکائی ہے۔",
+            "sd": "اسٽريس قوت في ايراضي σ=F/A آهي، ايڪائي پاسڪل۔ اسٽرين واڌ/اصل ڊيگهه ε=ΔL/L آهي ۽ بي ايڪائي آهي۔"
+          }
+        },
+        {
+          "title": "Hooke's law and Young's modulus",
+          "content": "Within the proportional limit, σ=Eε. E is Young's modulus, measured in pascals. E=FL/(AΔL). A high E means high tensile stiffness. This relation is valid only in the linear elastic region.",
+          "explanations": {
+            "ur": "حدِ تناسب کے اندر σ=Eε۔ E ینگ ماڈیولس ہے، اکائی پاسکل۔ زیادہ E زیادہ سختی ظاہر کرتا ہے۔",
+            "sd": "تناسب جي حد اندر σ=Eε۔ E ينگ ماڊيولس آهي، ايڪائي پاسڪل۔ وڏو E وڌيڪ سختي ڏيکاري ٿو۔"
+          }
+        },
+        {
+          "title": "Elastic energy and limits",
+          "content": "A Hookean spring obeys F=kx and stores U=½kx². The area under a force–extension graph is work. The proportional limit ends linearity; the elastic limit is the greatest stress from which full recovery occurs.",
+          "explanations": {
+            "ur": "ہُک کے قانون والے اسپرنگ میں F=kx اور توانائی U=½kx² ہے۔ گراف کے نیچے رقبہ کام ہے۔ حدِ تناسب خطی تعلق کا اختتام، حدِ لچک واپسی کی آخری حد ہے۔",
+            "sd": "هُڪ جي قانون واري اسپرنگ ۾ F=kx ۽ توانائي U=½kx² آهي۔ گراف هيٺان ايراضي ڪم آهي۔ تناسب جي حد خطي تعلق جو انت، لچڪ جي حد واپسيءَ جي آخري حد آهي۔"
+          }
+        },
+        {
+          "title": "Bulk and shear moduli; applications",
+          "content": "Bulk modulus K=−Δp/(ΔV/V) measures resistance to volume change. Shear modulus relates shear stress to shear strain. Strength, stiffness and elasticity are different properties used to select materials for cables, springs and structures.",
+          "explanations": {
+            "ur": "بلک ماڈیولس حجم کی تبدیلی کے خلاف مزاحمت ہے: K=−Δp/(ΔV/V)۔ شیئر ماڈیولس شیئر تناؤ اور اسٹرین کا تعلق ہے۔ مضبوطی، سختی اور لچک مختلف خصوصیات ہیں۔",
+            "sd": "بلڪ ماڊيولس حجم جي تبديليءَ خلاف مزاحمت آهي: K=−Δp/(ΔV/V)۔ شيئر ماڊيولس شيئر اسٽريس ۽ اسٽرين جو تعلق آهي۔ مضبوطي، سختي ۽ لچڪ الڳ خاصيتون آهن۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Stress is force per unit:",
+          "options": {
+            "A": "area",
+            "B": "volume",
+            "C": "time",
+            "D": "mass"
+          },
+          "correctOption": "A",
+          "explanation": "σ=F/A."
+        },
+        {
+          "question": "Longitudinal strain equals:",
+          "options": {
+            "A": "F/A",
+            "B": "ΔL/L",
+            "C": "FL/A",
+            "D": "A/L"
+          },
+          "correctOption": "B",
+          "explanation": "Strain is extension divided by original length."
+        },
+        {
+          "question": "Young's modulus is measured in:",
+          "options": {
+            "A": "N",
+            "B": "J",
+            "C": "Pa",
+            "D": "m"
+          },
+          "correctOption": "C",
+          "explanation": "It has the unit of stress."
+        },
+        {
+          "question": "Hooke's law applies within the:",
+          "options": {
+            "A": "plastic region",
+            "B": "proportional limit",
+            "C": "fracture region",
+            "D": "all loads"
+          },
+          "correctOption": "B",
+          "explanation": "Stress is proportional to strain only in the linear region."
+        },
+        {
+          "question": "A high Young's modulus indicates:",
+          "options": {
+            "A": "high stiffness",
+            "B": "low mass",
+            "C": "high temperature",
+            "D": "zero strain always"
+          },
+          "correctOption": "A",
+          "explanation": "A higher modulus means less strain for the same stress."
+        },
+        {
+          "question": "If force doubles at fixed area, stress:",
+          "options": {
+            "A": "halves",
+            "B": "doubles",
+            "C": "is unchanged",
+            "D": "becomes zero"
+          },
+          "correctOption": "B",
+          "explanation": "Stress is directly proportional to force."
+        },
+        {
+          "question": "Strain is:",
+          "options": {
+            "A": "measured in Pa",
+            "B": "measured in N",
+            "C": "dimensionless",
+            "D": "measured in m"
+          },
+          "correctOption": "C",
+          "explanation": "It is a ratio of lengths."
+        },
+        {
+          "question": "A 2 m wire extends 1 mm. Strain is:",
+          "options": {
+            "A": "0.5",
+            "B": "0.05",
+            "C": "5×10⁻⁴",
+            "D": "5×10⁴"
+          },
+          "correctOption": "C",
+          "explanation": "0.001/2=5×10⁻⁴."
+        },
+        {
+          "question": "Elastic deformation is:",
+          "options": {
+            "A": "reversible",
+            "B": "always permanent",
+            "C": "fracture",
+            "D": "unrelated to force"
+          },
+          "correctOption": "A",
+          "explanation": "The material recovers after unloading within its elastic limit."
+        },
+        {
+          "question": "Area under a force-extension graph gives:",
+          "options": {
+            "A": "density",
+            "B": "work",
+            "C": "pressure",
+            "D": "momentum"
+          },
+          "correctOption": "B",
+          "explanation": "Work is force integrated over extension."
+        },
+        {
+          "question": "Energy in a Hookean spring is:",
+          "options": {
+            "A": "kx",
+            "B": "½kx²",
+            "C": "k/x",
+            "D": "2kx"
+          },
+          "correctOption": "B",
+          "explanation": "U=½kx²."
+        },
+        {
+          "question": "Bulk modulus concerns change in:",
+          "options": {
+            "A": "volume",
+            "B": "mass",
+            "C": "charge",
+            "D": "temperature"
+          },
+          "correctOption": "A",
+          "explanation": "It measures resistance to volume change."
+        },
+        {
+          "question": "The minus sign in bulk modulus indicates volume usually:",
+          "options": {
+            "A": "rises with pressure",
+            "B": "falls as pressure rises",
+            "C": "never changes",
+            "D": "equals pressure"
+          },
+          "correctOption": "B",
+          "explanation": "Compression gives negative volume change."
+        },
+        {
+          "question": "Strength and stiffness are:",
+          "options": {
+            "A": "identical",
+            "B": "different properties",
+            "C": "both lengths",
+            "D": "unrelated"
+          },
+          "correctOption": "B",
+          "explanation": "Strength concerns failure; stiffness concerns deformation."
+        },
+        {
+          "question": "Plastic deformation remains:",
+          "options": {
+            "A": "after unloading",
+            "B": "only under load",
+            "C": "only in liquids",
+            "D": "without deformation"
+          },
+          "correctOption": "A",
+          "explanation": "Plastic deformation is permanent."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define stress and strain, give their equations and SI units.",
+          "modelAnswer": "Stress σ=F/A is force per unit area and is measured in pascals. Strain ε=ΔL/L is extension divided by original length and is dimensionless.",
+          "rubric": [
+            "Stress definition and equation (2)",
+            "Strain definition and equation (2)",
+            "Correct units (1)"
+          ]
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A 1.5 m wire extends by 0.6 mm. Calculate strain.",
+          "modelAnswer": "0.6 mm=0.0006 m. ε=0.0006/1.5=4.0×10⁻⁴.",
+          "rubric": [
+            "Unit conversion (1)",
+            "Correct formula (2)",
+            "Correct answer (2)"
+          ]
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Differentiate between proportional limit and elastic limit.",
+          "modelAnswer": "Proportional limit ends the region where stress is proportional to strain. Elastic limit is the greatest stress from which a material still returns to its original dimensions after unloading.",
+          "rubric": [
+            "Defines proportional limit (2)",
+            "Defines elastic limit (2)",
+            "Clear distinction (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain the stress–strain behaviour of a ductile material and distinguish elastic and plastic deformation.",
+          "modelAnswer": "Initially stress is proportional to strain and Hooke's law applies. Beyond the proportional limit the graph becomes nonlinear. Up to the elastic limit, unloading restores original dimensions. Beyond it, permanent plastic deformation remains; sufficiently high stress causes failure.",
+          "rubric": [
+            "Linear region and Hooke's law (2)",
+            "Proportional and elastic limits (2)",
+            "Elastic recovery (2)",
+            "Plastic deformation and failure (2)",
+            "Clear explanation or labelled graph (2)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "A wire 2.0 m long, area 1.0×10⁻⁶ m², extends 1.0 mm under 100 N. Calculate stress, strain and Young's modulus.",
+          "modelAnswer": "Stress=100/(1.0×10⁻⁶)=1.0×10⁸ Pa. Strain=0.001/2.0=5.0×10⁻⁴. E=stress/strain=2.0×10¹¹ Pa.",
+          "rubric": [
+            "Stress calculation (2)",
+            "Strain calculation (2)",
+            "Correct modulus equation (2)",
+            "Correct numerical answer (2)",
+            "SI units and working (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
