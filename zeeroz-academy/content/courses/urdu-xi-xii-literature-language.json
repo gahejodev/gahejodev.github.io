@@ -2,7 +2,7 @@
   "id": "urdu-xi-xii-literature-language",
   "title": "Urdu XI–XII — Zaban, Adab aur Tahrir",
   "description": "Supplementary grade-level study package with structured units, MCQs, CRQs and ERQs. Urdu/Sindhi support included where relevant; not a verified textbook reproduction.",
-  "version": "1",
+  "version": "2",
   "curriculumAlignment": "Supplementary Urdu language and literature skills for Grades XI–XII. The DCAR catalogue lists Urdu Language Grades XI–XII (2019); chapter-by-chapter STBB edition mapping is not asserted.",
   "sourceReferences": [
     {
@@ -24,9 +24,10 @@
         {
           "title": "1.1 XI — Nasri mutala aur zaban",
           "type": "text",
-          "content": "## Learning outcomes\nنثر کے مطالعے میں مرکزی خیال، مصنف کا مقصد، کردار، واقعات اور اسلوب کو سمجھیں۔ مشکل الفاظ کا مفہوم سیاق سے اخذ کریں اور جواب میں متن سے دلیل دیں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nRead prose by identifying the central idea, author's purpose, characters, events and style. Use context to infer unfamiliar vocabulary and support answers with evidence from the passage.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "سنڌي مدد: نثر پڙهندي مرڪزي خيال، ليکڪ جو مقصد، ڪردار، واقعا ۽ اسلوب سڃاڻو. لفظن جو مطلب سياق مان سمجهو ۽ متن مان دليل ڏيو."
+            "ur": "نثر کے مطالعے میں مرکزی خیال، مصنف کا مقصد، کردار، واقعات اور اسلوب کو سمجھیں۔ مشکل الفاظ کا مفہوم سیاق سے اخذ کریں اور جواب میں متن سے دلیل دیں۔",
+            "sd": "سنڌي مدد: نثر پڙهندي مرڪزي خيال، ليکڪ جو مقصد، ڪردار، واقعا ۽ اسلوب سڃاڻو. لفظن جو مطلب سياق مان سمجهو ۽ متن مان دليل ڏيو."
           }
         }
       ],
@@ -87,9 +88,10 @@
         {
           "title": "2.1 XI — Shayari, tashbih aur istiara",
           "type": "text",
-          "content": "## Learning outcomes\nشاعری میں موضوع، لہجہ، ردیف، قافیہ، تشبیہ، استعارہ اور علامت کا جائزہ لیں۔ شعر کی تشریح میں پہلے مفہوم، پھر ادبی صنعت اور آخر میں مرکزی پیغام بیان کریں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nInterpret poetry by examining theme, tone, refrain, rhyme, simile, metaphor and symbolism. Explain the literal meaning first, then the literary device and the poem's message.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "سنڌي مدد: شاعريءَ ۾ موضوع، لهجو، رديف، قافيو، تشبيهه، استعارو ۽ علامت ڏسو. تشريح ۾ پهرين مطلب، پوءِ ادبي صنعت ۽ آخر ۾ پيغام بيان ڪريو."
+            "ur": "شاعری میں موضوع، لہجہ، ردیف، قافیہ، تشبیہ، استعارہ اور علامت کا جائزہ لیں۔ شعر کی تشریح میں پہلے مفہوم، پھر ادبی صنعت اور آخر میں مرکزی پیغام بیان کریں۔",
+            "sd": "سنڌي مدد: شاعريءَ ۾ موضوع، لهجو، رديف، قافيو، تشبيهه، استعارو ۽ علامت ڏسو. تشريح ۾ پهرين مطلب، پوءِ ادبي صنعت ۽ آخر ۾ پيغام بيان ڪريو."
           }
         }
       ],
@@ -150,9 +152,10 @@
         {
           "title": "3.1 XI — Khulasa aur mazmoon",
           "type": "text",
-          "content": "## Learning outcomes\nخلاصہ اصل متن کے اہم نکات کو مختصر اور غیر جانب دار انداز میں پیش کرتا ہے۔ مضمون میں واضح تمہید، مربوط دلائل، مثالیں اور نتیجہ ہونا چاہیے۔ غیر متعلقہ تکرار سے بچیں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nA summary presents the important ideas of a source briefly and objectively. An essay needs an introduction, connected arguments, examples and a conclusion. Avoid irrelevant repetition.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "سنڌي مدد: خلاصو متن جا اهم نڪتا مختصر ۽ غيرجانبدار نموني پيش ڪري ٿو. مضمون ۾ تمهيد، ڳنڍيل دليل، مثالون ۽ نتيجو هجي."
+            "ur": "خلاصہ اصل متن کے اہم نکات کو مختصر اور غیر جانب دار انداز میں پیش کرتا ہے۔ مضمون میں واضح تمہید، مربوط دلائل، مثالیں اور نتیجہ ہونا چاہیے۔ غیر متعلقہ تکرار سے بچیں۔",
+            "sd": "سنڌي مدد: خلاصو متن جا اهم نڪتا مختصر ۽ غيرجانبدار نموني پيش ڪري ٿو. مضمون ۾ تمهيد، ڳنڍيل دليل، مثالون ۽ نتيجو هجي."
           }
         }
       ],
@@ -213,9 +216,10 @@
         {
           "title": "4.1 XII — Tanqeedi mutala",
           "type": "text",
-          "content": "## Learning outcomes\nتنقیدی مطالعہ میں دعوے، دلیل، شواہد، مفروضات اور مصنف کے نقطۂ نظر کا جائزہ لیا جاتا ہے۔ محض پسند یا ناپسند کے بجائے متن کی بنیاد پر رائے قائم کریں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nCritical reading evaluates claims, arguments, evidence, assumptions and the author's point of view. Base an interpretation on textual evidence rather than personal preference.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "سنڌي مدد: تنقيدي مطالعي ۾ دعويٰ، دليل، ثبوت، مفروضا ۽ ليکڪ جو نقطه نظر پرکيو. ذاتي پسند بدران متن جي بنياد تي راءِ ڏيو."
+            "ur": "تنقیدی مطالعہ میں دعوے، دلیل، شواہد، مفروضات اور مصنف کے نقطۂ نظر کا جائزہ لیا جاتا ہے۔ محض پسند یا ناپسند کے بجائے متن کی بنیاد پر رائے قائم کریں۔",
+            "sd": "سنڌي مدد: تنقيدي مطالعي ۾ دعويٰ، دليل، ثبوت، مفروضا ۽ ليکڪ جو نقطه نظر پرکيو. ذاتي پسند بدران متن جي بنياد تي راءِ ڏيو."
           }
         }
       ],
@@ -276,9 +280,10 @@
         {
           "title": "5.1 XII — Tehqeeqi aur rasmi tehreer",
           "type": "text",
-          "content": "## Learning outcomes\nتحقیقی تحریر میں سوال واضح، ماخذ معتبر، حوالہ درست اور زبان غیر مبہم ہونی چاہیے۔ رسمی درخواست، رپورٹ اور خط میں مقصد، ترتیب اور مؤدبانہ اسلوب برقرار رکھیں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nResearch writing requires a focused question, credible sources and accurate references. Formal applications, reports and letters should have a clear purpose, logical order and appropriate language.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "سنڌي مدد: تحقيقي لکڻيءَ ۾ سوال صاف، ماخذ معتبر ۽ حوالو درست هجي. رسمي درخواست، رپورٽ ۽ خط ۾ مقصد ۽ ادب وارو انداز رکو."
+            "ur": "تحقیقی تحریر میں سوال واضح، ماخذ معتبر، حوالہ درست اور زبان غیر مبہم ہونی چاہیے۔ رسمی درخواست، رپورٹ اور خط میں مقصد، ترتیب اور مؤدبانہ اسلوب برقرار رکھیں۔",
+            "sd": "سنڌي مدد: تحقيقي لکڻيءَ ۾ سوال صاف، ماخذ معتبر ۽ حوالو درست هجي. رسمي درخواست، رپورٽ ۽ خط ۾ مقصد ۽ ادب وارو انداز رکو."
           }
         }
       ],
@@ -339,9 +344,10 @@
         {
           "title": "6.1 XII — Adabi tanqeed aur takhleeqi likhai",
           "type": "text",
-          "content": "## Learning outcomes\nادبی تنقید میں صنف، ساخت، کردار، منظر، علامت اور زبان کے اثرات کا تجزیہ کریں۔ تخلیقی تحریر میں موضوع، کردار اور واقعات میں داخلی ربط برقرار رکھیں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nLiterary criticism analyses genre, structure, character, setting, symbols and language. Creative writing should maintain coherence between its theme, characters and events.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "سنڌي مدد: ادبي تنقيد ۾ صنف، بناوت، ڪردار، منظر، علامت ۽ ٻوليءَ جا اثر ڏسو. تخليقي لکڻيءَ ۾ موضوع ۽ واقعن جو لاڳاپو قائم رکو."
+            "ur": "ادبی تنقید میں صنف، ساخت، کردار، منظر، علامت اور زبان کے اثرات کا تجزیہ کریں۔ تخلیقی تحریر میں موضوع، کردار اور واقعات میں داخلی ربط برقرار رکھیں۔",
+            "sd": "سنڌي مدد: ادبي تنقيد ۾ صنف، بناوت، ڪردار، منظر، علامت ۽ ٻوليءَ جا اثر ڏسو. تخليقي لکڻيءَ ۾ موضوع ۽ واقعن جو لاڳاپو قائم رکو."
           }
         }
       ],
