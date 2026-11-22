@@ -2,7 +2,7 @@
   "id": "english-ix-xii-foundation",
   "title": "English IX–XII — Language and Communication Foundations",
   "description": "Four grade-level English units covering reading, grammar, composition, literature, academic communication and research, with Urdu and Sindhi lesson support. Supplementary skills course, not a claim of complete STBB chapter-by-chapter coverage.",
-  "version": "1",
+  "version": "2",
   "curriculumAlignment": "Skill-based supplementary course for Grades IX–XII. Use alongside the current DCAR English Language curriculum and prescribed STBB textbooks; edition-specific textbook chapter mapping is not asserted.",
   "sourceReferences": [
     {
@@ -59,7 +59,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "Find the central idea, supporting details and evidence in a passage. Skimming gives an overview; scanning locates a detail. Inference combines textual clues with reasonable background knowledge. A strong answer refers to evidence rather than guessing."
+          "explanation": "Find the central idea, supporting details and evidence in a passage. Skimming gives an overview; scanning locates a detail. Inference combines textual clues with reasonable background knowledge. A strong answer refers to evidence rather than guessing.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي."
+            }
+          }
         },
         {
           "question": "Why is reading comprehension important?",
@@ -70,7 +92,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "Find the central idea, supporting details and evidence in a passage. Skimming gives an overview; scanning locates a detail. Inference combines textual clues with reasonable background knowledge. A strong answer refers to evidence rather than guessing."
+          "explanation": "Find the central idea, supporting details and evidence in a passage. Skimming gives an overview; scanning locates a detail. Inference combines textual clues with reasonable background knowledge. A strong answer refers to evidence rather than guessing.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي."
+            }
+          }
         },
         {
           "question": "Which practice best demonstrates parts of speech and sentence structure?",
@@ -81,7 +125,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "A sentence usually contains a subject and predicate. Nouns name people, places or ideas; pronouns replace nouns; verbs express actions or states; adjectives modify nouns; adverbs modify verbs or modifiers. Prepositions show relationships and conjunctions connect units. Identify a word by its function in context."
+          "explanation": "A sentence usually contains a subject and predicate. Nouns name people, places or ideas; pronouns replace nouns; verbs express actions or states; adjectives modify nouns; adverbs modify verbs or modifiers. Prepositions show relationships and conjunctions connect units. Identify a word by its function in context.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي."
+            }
+          }
         },
         {
           "question": "Why is parts of speech and sentence structure important?",
@@ -92,7 +158,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "A sentence usually contains a subject and predicate. Nouns name people, places or ideas; pronouns replace nouns; verbs express actions or states; adjectives modify nouns; adverbs modify verbs or modifiers. Prepositions show relationships and conjunctions connect units. Identify a word by its function in context."
+          "explanation": "A sentence usually contains a subject and predicate. Nouns name people, places or ideas; pronouns replace nouns; verbs express actions or states; adjectives modify nouns; adverbs modify verbs or modifiers. Prepositions show relationships and conjunctions connect units. Identify a word by its function in context.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي."
+            }
+          }
         },
         {
           "question": "Which practice best demonstrates paragraph unity and cohesion?",
@@ -103,7 +191,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "A paragraph develops one controlling idea. Begin with a topic sentence, add relevant evidence and examples, and finish with a conclusion. Transitions such as however, therefore and for example show relationships. Remove unrelated details and repetition."
+          "explanation": "A paragraph develops one controlling idea. Begin with a topic sentence, add relevant evidence and examples, and finish with a conclusion. Transitions such as however, therefore and for example show relationships. Remove unrelated details and repetition.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي."
+            }
+          }
         },
         {
           "question": "Why is paragraph unity and cohesion important?",
@@ -114,7 +224,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "A paragraph develops one controlling idea. Begin with a topic sentence, add relevant evidence and examples, and finish with a conclusion. Transitions such as however, therefore and for example show relationships. Remove unrelated details and repetition."
+          "explanation": "A paragraph develops one controlling idea. Begin with a topic sentence, add relevant evidence and examples, and finish with a conclusion. Transitions such as however, therefore and for example show relationships. Remove unrelated details and repetition.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -127,7 +259,27 @@
             "Two accurate principles (2)",
             "Relevant example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -139,7 +291,29 @@
             "Explanation and examples (3)",
             "Organisation (2)",
             "Grammar and vocabulary (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -185,7 +359,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "Tense locates an action in time; aspect shows whether it is simple, continuing or completed. The verb must agree with its subject in person and number. Check the true subject, especially in sentences with phrases between subject and verb."
+          "explanation": "Tense locates an action in time; aspect shows whether it is simple, continuing or completed. The verb must agree with its subject in person and number. Check the true subject, especially in sentences with phrases between subject and verb.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو."
+            }
+          }
         },
         {
           "question": "Why is tense and subject–verb agreement important?",
@@ -196,7 +392,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "Tense locates an action in time; aspect shows whether it is simple, continuing or completed. The verb must agree with its subject in person and number. Check the true subject, especially in sentences with phrases between subject and verb."
+          "explanation": "Tense locates an action in time; aspect shows whether it is simple, continuing or completed. The verb must agree with its subject in person and number. Check the true subject, especially in sentences with phrases between subject and verb.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو."
+            }
+          }
         },
         {
           "question": "Which practice best demonstrates formal letters and applications?",
@@ -207,7 +425,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "A formal letter has a clear subject, respectful salutation, concise paragraphs and suitable closing. State the purpose first, provide necessary facts in order and make a clear request. Avoid slang, repetition and exaggerated language."
+          "explanation": "A formal letter has a clear subject, respectful salutation, concise paragraphs and suitable closing. State the purpose first, provide necessary facts in order and make a clear request. Avoid slang, repetition and exaggerated language.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو."
+            }
+          }
         },
         {
           "question": "Why is formal letters and applications important?",
@@ -218,7 +458,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "A formal letter has a clear subject, respectful salutation, concise paragraphs and suitable closing. State the purpose first, provide necessary facts in order and make a clear request. Avoid slang, repetition and exaggerated language."
+          "explanation": "A formal letter has a clear subject, respectful salutation, concise paragraphs and suitable closing. State the purpose first, provide necessary facts in order and make a clear request. Avoid slang, repetition and exaggerated language.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو."
+            }
+          }
         },
         {
           "question": "Which practice best demonstrates poetry and prose interpretation?",
@@ -229,7 +491,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "Analyse speaker, narrator, setting, conflict, imagery, tone and theme. A simile uses like or as; a metaphor makes a direct comparison; personification gives human qualities to non-human things. Support interpretation with textual evidence."
+          "explanation": "Analyse speaker, narrator, setting, conflict, imagery, tone and theme. A simile uses like or as; a metaphor makes a direct comparison; personification gives human qualities to non-human things. Support interpretation with textual evidence.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو."
+            }
+          }
         },
         {
           "question": "Why is poetry and prose interpretation important?",
@@ -240,7 +524,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "Analyse speaker, narrator, setting, conflict, imagery, tone and theme. A simile uses like or as; a metaphor makes a direct comparison; personification gives human qualities to non-human things. Support interpretation with textual evidence."
+          "explanation": "Analyse speaker, narrator, setting, conflict, imagery, tone and theme. A simile uses like or as; a metaphor makes a direct comparison; personification gives human qualities to non-human things. Support interpretation with textual evidence.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -253,7 +559,27 @@
             "Two accurate principles (2)",
             "Relevant example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -265,7 +591,29 @@
             "Explanation and examples (3)",
             "Organisation (2)",
             "Grammar and vocabulary (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -311,7 +659,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "An argument contains a claim supported by reasons and evidence. Distinguish facts from opinions, identify assumptions, and test whether evidence is relevant and sufficient. Notice counterarguments and summarise the author's position fairly without adding personal opinion."
+          "explanation": "An argument contains a claim supported by reasons and evidence. Distinguish facts from opinions, identify assumptions, and test whether evidence is relevant and sufficient. Notice counterarguments and summarise the author's position fairly without adding personal opinion.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري."
+            }
+          }
         },
         {
           "question": "Why is critical reading and argument important?",
@@ -322,7 +692,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "An argument contains a claim supported by reasons and evidence. Distinguish facts from opinions, identify assumptions, and test whether evidence is relevant and sufficient. Notice counterarguments and summarise the author's position fairly without adding personal opinion."
+          "explanation": "An argument contains a claim supported by reasons and evidence. Distinguish facts from opinions, identify assumptions, and test whether evidence is relevant and sufficient. Notice counterarguments and summarise the author's position fairly without adding personal opinion.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري."
+            }
+          }
         },
         {
           "question": "Which practice best demonstrates essay structure and academic paragraphs?",
@@ -333,7 +725,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "Build an essay around a focused thesis. Each body paragraph develops one supporting point with explanation and evidence. Transitions show contrast, cause and sequence. The conclusion synthesises the argument rather than merely repeating the introduction."
+          "explanation": "Build an essay around a focused thesis. Each body paragraph develops one supporting point with explanation and evidence. Transitions show contrast, cause and sequence. The conclusion synthesises the argument rather than merely repeating the introduction.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري."
+            }
+          }
         },
         {
           "question": "Why is essay structure and academic paragraphs important?",
@@ -344,7 +758,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "Build an essay around a focused thesis. Each body paragraph develops one supporting point with explanation and evidence. Transitions show contrast, cause and sequence. The conclusion synthesises the argument rather than merely repeating the introduction."
+          "explanation": "Build an essay around a focused thesis. Each body paragraph develops one supporting point with explanation and evidence. Transitions show contrast, cause and sequence. The conclusion synthesises the argument rather than merely repeating the introduction.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري."
+            }
+          }
         },
         {
           "question": "Which practice best demonstrates presentation and active listening?",
@@ -355,7 +791,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "Adapt language to audience and purpose. A presentation needs an opening, organised points, examples and a concise conclusion. Active listening involves attention, clarification and accurate paraphrase. Respond to ideas respectfully with reasons."
+          "explanation": "Adapt language to audience and purpose. A presentation needs an opening, organised points, examples and a concise conclusion. Active listening involves attention, clarification and accurate paraphrase. Respond to ideas respectfully with reasons.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري."
+            }
+          }
         },
         {
           "question": "Why is presentation and active listening important?",
@@ -366,7 +824,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "Adapt language to audience and purpose. A presentation needs an opening, organised points, examples and a concise conclusion. Active listening involves attention, clarification and accurate paraphrase. Respond to ideas respectfully with reasons."
+          "explanation": "Adapt language to audience and purpose. A presentation needs an opening, organised points, examples and a concise conclusion. Active listening involves attention, clarification and accurate paraphrase. Respond to ideas respectfully with reasons.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -379,7 +859,27 @@
             "Two accurate principles (2)",
             "Relevant example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -391,7 +891,29 @@
             "Explanation and examples (3)",
             "Organisation (2)",
             "Grammar and vocabulary (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -437,7 +959,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "A research question should be focused and answerable. Evaluate sources by author expertise, publication context, evidence, date and bias. Distinguish quotation from paraphrase, keep accurate notes and acknowledge sources to avoid plagiarism."
+          "explanation": "A research question should be focused and answerable. Evaluate sources by author expertise, publication context, evidence, date and bias. Distinguish quotation from paraphrase, keep accurate notes and acknowledge sources to avoid plagiarism.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو."
+            }
+          }
         },
         {
           "question": "Why is research and source evaluation important?",
@@ -448,7 +992,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "A research question should be focused and answerable. Evaluate sources by author expertise, publication context, evidence, date and bias. Distinguish quotation from paraphrase, keep accurate notes and acknowledge sources to avoid plagiarism."
+          "explanation": "A research question should be focused and answerable. Evaluate sources by author expertise, publication context, evidence, date and bias. Distinguish quotation from paraphrase, keep accurate notes and acknowledge sources to avoid plagiarism.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو."
+            }
+          }
         },
         {
           "question": "Which practice best demonstrates reports, proposals and professional email?",
@@ -459,7 +1025,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "A report organises purpose, method or background, findings and recommendations. A proposal identifies a problem, offers a feasible solution and explains resources and expected outcomes. Professional email uses a meaningful subject, courteous tone and clear action request."
+          "explanation": "A report organises purpose, method or background, findings and recommendations. A proposal identifies a problem, offers a feasible solution and explains resources and expected outcomes. Professional email uses a meaningful subject, courteous tone and clear action request.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو."
+            }
+          }
         },
         {
           "question": "Why is reports, proposals and professional email important?",
@@ -470,7 +1058,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "A report organises purpose, method or background, findings and recommendations. A proposal identifies a problem, offers a feasible solution and explains resources and expected outcomes. Professional email uses a meaningful subject, courteous tone and clear action request."
+          "explanation": "A report organises purpose, method or background, findings and recommendations. A proposal identifies a problem, offers a feasible solution and explains resources and expected outcomes. Professional email uses a meaningful subject, courteous tone and clear action request.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو."
+            }
+          }
         },
         {
           "question": "Which practice best demonstrates rhetoric, tone and persuasive language?",
@@ -481,7 +1091,29 @@
             "D": "Avoid checking accuracy."
           },
           "correctOption": "A",
-          "explanation": "Persuasion may use logical reasoning, credible authority and emotional appeal. Evaluate whether each is ethical and supported. Tone is the writer's attitude; mood is the atmosphere created for readers. Word choice, repetition and rhetorical questions shape emphasis."
+          "explanation": "Persuasion may use logical reasoning, credible authority and emotional appeal. Evaluate whether each is ethical and supported. Tone is the writer's attitude; mood is the atmosphere created for readers. Word choice, repetition and rhetorical questions shape emphasis.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو."
+            }
+          }
         },
         {
           "question": "Why is rhetoric, tone and persuasive language important?",
@@ -492,7 +1124,29 @@
             "D": "It is only useful in one informal situation."
           },
           "correctOption": "B",
-          "explanation": "Persuasion may use logical reasoning, credible authority and emotional appeal. Evaluate whether each is ethical and supported. Tone is the writer's attitude; mood is the atmosphere created for readers. Word choice, repetition and rhetorical questions shape emphasis."
+          "explanation": "Persuasion may use logical reasoning, credible authority and emotional appeal. Evaluate whether each is ethical and supported. Tone is the writer's attitude; mood is the atmosphere created for readers. Word choice, repetition and rhetorical questions shape emphasis.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -505,7 +1159,27 @@
             "Two accurate principles (2)",
             "Relevant example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -517,7 +1191,29 @@
             "Explanation and examples (3)",
             "Organisation (2)",
             "Grammar and vocabulary (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     }
