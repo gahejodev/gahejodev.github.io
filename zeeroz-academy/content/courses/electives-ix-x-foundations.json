@@ -2,7 +2,7 @@
   "id": "electives-ix-x-foundations",
   "title": "IX–X Electives and General Subjects — Foundation Learning",
   "description": "Supplementary grade-level units with lessons, MCQs, CRQs and ERQs, including Urdu and Sindhi support. Confirm the student's board, group and prescribed textbook before treating any elective as part of an individual syllabus.",
-  "version": "1",
+  "version": "2",
   "curriculumAlignment": "Supplementary topic map for Sindh SSC science and humanities options. DCAR curriculum listings and the 2024 Sindh scheme notifications identify a range of general and elective subjects. Not a full textbook or board syllabus replacement; confirm the student's selected group and current board syllabus.",
   "sourceReferences": [
     {
@@ -55,7 +55,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Scientific investigation begins with a question, testable hypothesis, controlled procedure, observation and evidence-based conclusion. Study matter, energy, living systems, Earth and environment as connected systems. Distinguish observation from inference and use SI units."
+          "explanation": "Scientific investigation begins with a question, testable hypothesis, controlled procedure, observation and evidence-based conclusion. Study matter, energy, living systems, Earth and environment as connected systems. Distinguish observation from inference and use SI units.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سائنسی تحقیق سوال، قابلِ آزمائش مفروضے، منظم تجربے، مشاہدے اور شواہد پر مبنی نتیجے سے شروع ہوتی ہے۔ مادہ، توانائی، جاندار، زمین اور ماحول کو مربوط نظام سمجھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "سائنسی تحقیق سوال، قابلِ آزمائش مفروضے، منظم تجربے، مشاہدے اور شواہد پر مبنی نتیجے سے شروع ہوتی ہے۔ مادہ، توانائی، جاندار، زمین اور ماحول کو مربوط نظام سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سائنسي جاچ سوال، آزمائشي مفروضي، منظم تجربي، مشاهدي ۽ ثبوت تي ٻڌل نتيجي سان شروع ٿئي ٿي. مادو، توانائي، جاندار، ڌرتي ۽ ماحول کي ڳنڍيل نظام سمجهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "سائنسي جاچ سوال، آزمائشي مفروضي، منظم تجربي، مشاهدي ۽ ثبوت تي ٻڌل نتيجي سان شروع ٿئي ٿي. مادو، توانائي، جاندار، ڌرتي ۽ ماحول کي ڳنڍيل نظام سمجهو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of general science ix–x?",
@@ -66,7 +88,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Scientific investigation begins with a question, testable hypothesis, controlled procedure, observation and evidence-based conclusion. Study matter, energy, living systems, Earth and environment as connected systems. Distinguish observation from inference and use SI units."
+          "explanation": "Scientific investigation begins with a question, testable hypothesis, controlled procedure, observation and evidence-based conclusion. Study matter, energy, living systems, Earth and environment as connected systems. Distinguish observation from inference and use SI units.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "سائنسی تحقیق سوال، قابلِ آزمائش مفروضے، منظم تجربے، مشاہدے اور شواہد پر مبنی نتیجے سے شروع ہوتی ہے۔ مادہ، توانائی، جاندار، زمین اور ماحول کو مربوط نظام سمجھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "سائنسی تحقیق سوال، قابلِ آزمائش مفروضے، منظم تجربے، مشاہدے اور شواہد پر مبنی نتیجے سے شروع ہوتی ہے۔ مادہ، توانائی، جاندار، زمین اور ماحول کو مربوط نظام سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "سائنسي جاچ سوال، آزمائشي مفروضي، منظم تجربي، مشاهدي ۽ ثبوت تي ٻڌل نتيجي سان شروع ٿئي ٿي. مادو، توانائي، جاندار، ڌرتي ۽ ماحول کي ڳنڍيل نظام سمجهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "سائنسي جاچ سوال، آزمائشي مفروضي، منظم تجربي، مشاهدي ۽ ثبوت تي ٻڌل نتيجي سان شروع ٿئي ٿي. مادو، توانائي، جاندار، ڌرتي ۽ ماحول کي ڳنڍيل نظام سمجهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -79,7 +123,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "سائنسی تحقیق سوال، قابلِ آزمائش مفروضے، منظم تجربے، مشاہدے اور شواہد پر مبنی نتیجے سے شروع ہوتی ہے۔ مادہ، توانائی، جاندار، زمین اور ماحول کو مربوط نظام سمجھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "سائنسي جاچ سوال، آزمائشي مفروضي، منظم تجربي، مشاهدي ۽ ثبوت تي ٻڌل نتيجي سان شروع ٿئي ٿي. مادو، توانائي، جاندار، ڌرتي ۽ ماحول کي ڳنڍيل نظام سمجهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -91,7 +155,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "سائنسی تحقیق سوال، قابلِ آزمائش مفروضے، منظم تجربے، مشاہدے اور شواہد پر مبنی نتیجے سے شروع ہوتی ہے۔ مادہ، توانائی، جاندار، زمین اور ماحول کو مربوط نظام سمجھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "سائنسي جاچ سوال، آزمائشي مفروضي، منظم تجربي، مشاهدي ۽ ثبوت تي ٻڌل نتيجي سان شروع ٿئي ٿي. مادو، توانائي، جاندار، ڌرتي ۽ ماحول کي ڳنڍيل نظام سمجهو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -128,7 +214,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Use number operations, fractions, percentages, ratio, algebraic expressions, equations, geometry, measurement and data handling to solve practical problems. Show steps, check units and verify answers by substitution or estimation."
+          "explanation": "Use number operations, fractions, percentages, ratio, algebraic expressions, equations, geometry, measurement and data handling to solve practical problems. Show steps, check units and verify answers by substitution or estimation.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "اعداد، کسر، فیصد، تناسب، الجبرا، مساوات، ہندسہ، پیمائش اور اعداد کے تجزیے سے عملی مسائل حل کریں۔ مراحل دکھائیں اور جواب کی جانچ کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "اعداد، کسر، فیصد، تناسب، الجبرا، مساوات، ہندسہ، پیمائش اور اعداد کے تجزیے سے عملی مسائل حل کریں۔ مراحل دکھائیں اور جواب کی جانچ کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "انگن، ڪسرن، سيڪڙو، نسبت، الجبرا، مساوات، جاميٽري، ماپ ۽ انگن جي سنڀال سان عملي مسئلا حل ڪريو. مرحلا ڏيکاريو ۽ جواب جي تصديق ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "انگن، ڪسرن، سيڪڙو، نسبت، الجبرا، مساوات، جاميٽري، ماپ ۽ انگن جي سنڀال سان عملي مسئلا حل ڪريو. مرحلا ڏيکاريو ۽ جواب جي تصديق ڪريو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of general mathematics ix–x?",
@@ -139,7 +247,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Use number operations, fractions, percentages, ratio, algebraic expressions, equations, geometry, measurement and data handling to solve practical problems. Show steps, check units and verify answers by substitution or estimation."
+          "explanation": "Use number operations, fractions, percentages, ratio, algebraic expressions, equations, geometry, measurement and data handling to solve practical problems. Show steps, check units and verify answers by substitution or estimation.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "اعداد، کسر، فیصد، تناسب، الجبرا، مساوات، ہندسہ، پیمائش اور اعداد کے تجزیے سے عملی مسائل حل کریں۔ مراحل دکھائیں اور جواب کی جانچ کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "اعداد، کسر، فیصد، تناسب، الجبرا، مساوات، ہندسہ، پیمائش اور اعداد کے تجزیے سے عملی مسائل حل کریں۔ مراحل دکھائیں اور جواب کی جانچ کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "انگن، ڪسرن، سيڪڙو، نسبت، الجبرا، مساوات، جاميٽري، ماپ ۽ انگن جي سنڀال سان عملي مسئلا حل ڪريو. مرحلا ڏيکاريو ۽ جواب جي تصديق ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "انگن، ڪسرن، سيڪڙو، نسبت، الجبرا، مساوات، جاميٽري، ماپ ۽ انگن جي سنڀال سان عملي مسئلا حل ڪريو. مرحلا ڏيکاريو ۽ جواب جي تصديق ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -152,7 +282,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "اعداد، کسر، فیصد، تناسب، الجبرا، مساوات، ہندسہ، پیمائش اور اعداد کے تجزیے سے عملی مسائل حل کریں۔ مراحل دکھائیں اور جواب کی جانچ کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "انگن، ڪسرن، سيڪڙو، نسبت، الجبرا، مساوات، جاميٽري، ماپ ۽ انگن جي سنڀال سان عملي مسئلا حل ڪريو. مرحلا ڏيکاريو ۽ جواب جي تصديق ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -164,7 +314,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "اعداد، کسر، فیصد، تناسب، الجبرا، مساوات، ہندسہ، پیمائش اور اعداد کے تجزیے سے عملی مسائل حل کریں۔ مراحل دکھائیں اور جواب کی جانچ کریں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "انگن، ڪسرن، سيڪڙو، نسبت، الجبرا، مساوات، جاميٽري، ماپ ۽ انگن جي سنڀال سان عملي مسئلا حل ڪريو. مرحلا ڏيکاريو ۽ جواب جي تصديق ڪريو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -201,7 +373,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Pakistan's location, mountains, plains, deserts, rivers, climate and natural resources influence population, agriculture, transport and settlement. Read maps using direction, scale, symbols and coordinates. Explain links between physical geography and human activity."
+          "explanation": "Pakistan's location, mountains, plains, deserts, rivers, climate and natural resources influence population, agriculture, transport and settlement. Read maps using direction, scale, symbols and coordinates. Explain links between physical geography and human activity.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "پاکستان کا محلِ وقوع، پہاڑ، میدان، صحرا، دریا، آب و ہوا اور وسائل آبادی، زراعت اور نقل و حمل پر اثر انداز ہوتے ہیں۔ نقشے کی سمت، پیمانہ اور علامات سمجھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "پاکستان کا محلِ وقوع، پہاڑ، میدان، صحرا، دریا، آب و ہوا اور وسائل آبادی، زراعت اور نقل و حمل پر اثر انداز ہوتے ہیں۔ نقشے کی سمت، پیمانہ اور علامات سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "پاڪستان جو هنڌ، جبل، ميدان، ريگستان، درياهه، موسم ۽ وسيلا آبادي، زراعت ۽ آمدرفت تي اثر ڪن ٿا. نقشي جا رخ، ماپو ۽ نشانيون سمجهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "پاڪستان جو هنڌ، جبل، ميدان، ريگستان، درياهه، موسم ۽ وسيلا آبادي، زراعت ۽ آمدرفت تي اثر ڪن ٿا. نقشي جا رخ، ماپو ۽ نشانيون سمجهو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of geography of pakistan ix–x?",
@@ -212,7 +406,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Pakistan's location, mountains, plains, deserts, rivers, climate and natural resources influence population, agriculture, transport and settlement. Read maps using direction, scale, symbols and coordinates. Explain links between physical geography and human activity."
+          "explanation": "Pakistan's location, mountains, plains, deserts, rivers, climate and natural resources influence population, agriculture, transport and settlement. Read maps using direction, scale, symbols and coordinates. Explain links between physical geography and human activity.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "پاکستان کا محلِ وقوع، پہاڑ، میدان، صحرا، دریا، آب و ہوا اور وسائل آبادی، زراعت اور نقل و حمل پر اثر انداز ہوتے ہیں۔ نقشے کی سمت، پیمانہ اور علامات سمجھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "پاکستان کا محلِ وقوع، پہاڑ، میدان، صحرا، دریا، آب و ہوا اور وسائل آبادی، زراعت اور نقل و حمل پر اثر انداز ہوتے ہیں۔ نقشے کی سمت، پیمانہ اور علامات سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "پاڪستان جو هنڌ، جبل، ميدان، ريگستان، درياهه، موسم ۽ وسيلا آبادي، زراعت ۽ آمدرفت تي اثر ڪن ٿا. نقشي جا رخ، ماپو ۽ نشانيون سمجهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "پاڪستان جو هنڌ، جبل، ميدان، ريگستان، درياهه، موسم ۽ وسيلا آبادي، زراعت ۽ آمدرفت تي اثر ڪن ٿا. نقشي جا رخ، ماپو ۽ نشانيون سمجهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -225,7 +441,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "پاکستان کا محلِ وقوع، پہاڑ، میدان، صحرا، دریا، آب و ہوا اور وسائل آبادی، زراعت اور نقل و حمل پر اثر انداز ہوتے ہیں۔ نقشے کی سمت، پیمانہ اور علامات سمجھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "پاڪستان جو هنڌ، جبل، ميدان، ريگستان، درياهه، موسم ۽ وسيلا آبادي، زراعت ۽ آمدرفت تي اثر ڪن ٿا. نقشي جا رخ، ماپو ۽ نشانيون سمجهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -237,7 +473,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "پاکستان کا محلِ وقوع، پہاڑ، میدان، صحرا، دریا، آب و ہوا اور وسائل آبادی، زراعت اور نقل و حمل پر اثر انداز ہوتے ہیں۔ نقشے کی سمت، پیمانہ اور علامات سمجھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "پاڪستان جو هنڌ، جبل، ميدان، ريگستان، درياهه، موسم ۽ وسيلا آبادي، زراعت ۽ آمدرفت تي اثر ڪن ٿا. نقشي جا رخ، ماپو ۽ نشانيون سمجهو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -274,7 +532,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Civics studies citizens, rights, responsibilities and public institutions. Explain the rule of law, equality, participation, local government and democratic decision-making. Responsible citizenship includes respecting others, following lawful processes and contributing to community welfare."
+          "explanation": "Civics studies citizens, rights, responsibilities and public institutions. Explain the rule of law, equality, participation, local government and democratic decision-making. Responsible citizenship includes respecting others, following lawful processes and contributing to community welfare.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "شہریات میں شہریوں کے حقوق، ذمہ داریاں اور عوامی ادارے شامل ہیں۔ قانون کی حکمرانی، مساوات، شرکت، مقامی حکومت اور جمہوری فیصلوں کو سمجھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "شہریات میں شہریوں کے حقوق، ذمہ داریاں اور عوامی ادارے شامل ہیں۔ قانون کی حکمرانی، مساوات، شرکت، مقامی حکومت اور جمہوری فیصلوں کو سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "شهريت ۾ شهرين جا حق، ذميواريون ۽ عوامي ادارا شامل آهن. قانون جي حڪمراني، برابري، شرڪت، مقامي حڪومت ۽ جمهوري فيصلن کي سمجهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "شهريت ۾ شهرين جا حق، ذميواريون ۽ عوامي ادارا شامل آهن. قانون جي حڪمراني، برابري، شرڪت، مقامي حڪومت ۽ جمهوري فيصلن کي سمجهو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of civics ix–x?",
@@ -285,7 +565,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Civics studies citizens, rights, responsibilities and public institutions. Explain the rule of law, equality, participation, local government and democratic decision-making. Responsible citizenship includes respecting others, following lawful processes and contributing to community welfare."
+          "explanation": "Civics studies citizens, rights, responsibilities and public institutions. Explain the rule of law, equality, participation, local government and democratic decision-making. Responsible citizenship includes respecting others, following lawful processes and contributing to community welfare.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "شہریات میں شہریوں کے حقوق، ذمہ داریاں اور عوامی ادارے شامل ہیں۔ قانون کی حکمرانی، مساوات، شرکت، مقامی حکومت اور جمہوری فیصلوں کو سمجھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "شہریات میں شہریوں کے حقوق، ذمہ داریاں اور عوامی ادارے شامل ہیں۔ قانون کی حکمرانی، مساوات، شرکت، مقامی حکومت اور جمہوری فیصلوں کو سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "شهريت ۾ شهرين جا حق، ذميواريون ۽ عوامي ادارا شامل آهن. قانون جي حڪمراني، برابري، شرڪت، مقامي حڪومت ۽ جمهوري فيصلن کي سمجهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "شهريت ۾ شهرين جا حق، ذميواريون ۽ عوامي ادارا شامل آهن. قانون جي حڪمراني، برابري، شرڪت، مقامي حڪومت ۽ جمهوري فيصلن کي سمجهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -298,7 +600,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "شہریات میں شہریوں کے حقوق، ذمہ داریاں اور عوامی ادارے شامل ہیں۔ قانون کی حکمرانی، مساوات، شرکت، مقامی حکومت اور جمہوری فیصلوں کو سمجھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "شهريت ۾ شهرين جا حق، ذميواريون ۽ عوامي ادارا شامل آهن. قانون جي حڪمراني، برابري، شرڪت، مقامي حڪومت ۽ جمهوري فيصلن کي سمجهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -310,7 +632,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "شہریات میں شہریوں کے حقوق، ذمہ داریاں اور عوامی ادارے شامل ہیں۔ قانون کی حکمرانی، مساوات، شرکت، مقامی حکومت اور جمہوری فیصلوں کو سمجھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "شهريت ۾ شهرين جا حق، ذميواريون ۽ عوامي ادارا شامل آهن. قانون جي حڪمراني، برابري، شرڪت، مقامي حڪومت ۽ جمهوري فيصلن کي سمجهو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -347,7 +691,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Economics examines how people and societies allocate scarce resources. Needs and wants differ; opportunity cost is the next best option forgone. Study basic demand, supply, markets, production, saving and household budgeting using simple examples."
+          "explanation": "Economics examines how people and societies allocate scarce resources. Needs and wants differ; opportunity cost is the next best option forgone. Study basic demand, supply, markets, production, saving and household budgeting using simple examples.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "معاشیات وسائل کی قلت اور انتخاب کا مطالعہ ہے۔ ضرورت اور خواہش میں فرق ہے؛ موقعی لاگت چھوڑا گیا اگلا بہترین متبادل ہے۔ طلب، رسد، منڈی، پیداوار، بچت اور بجٹ کی بنیادی باتیں پڑھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "معاشیات وسائل کی قلت اور انتخاب کا مطالعہ ہے۔ ضرورت اور خواہش میں فرق ہے؛ موقعی لاگت چھوڑا گیا اگلا بہترین متبادل ہے۔ طلب، رسد، منڈی، پیداوار، بچت اور بجٹ کی بنیادی باتیں پڑھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "اقتصاديات وسيلن جي کوٽ ۽ چونڊ جو مطالعو آهي. ضرورت ۽ خواهش ۾ فرق آهي؛ موقعاتي لاڳت ڇڏي ڏنل بهترين متبادل آهي. طلب، رسد، مارڪيٽ، پيداوار، بچت ۽ بجيٽ پڙهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اقتصاديات وسيلن جي کوٽ ۽ چونڊ جو مطالعو آهي. ضرورت ۽ خواهش ۾ فرق آهي؛ موقعاتي لاڳت ڇڏي ڏنل بهترين متبادل آهي. طلب، رسد، مارڪيٽ، پيداوار، بچت ۽ بجيٽ پڙهو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of economics elective ix–x?",
@@ -358,7 +724,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Economics examines how people and societies allocate scarce resources. Needs and wants differ; opportunity cost is the next best option forgone. Study basic demand, supply, markets, production, saving and household budgeting using simple examples."
+          "explanation": "Economics examines how people and societies allocate scarce resources. Needs and wants differ; opportunity cost is the next best option forgone. Study basic demand, supply, markets, production, saving and household budgeting using simple examples.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "معاشیات وسائل کی قلت اور انتخاب کا مطالعہ ہے۔ ضرورت اور خواہش میں فرق ہے؛ موقعی لاگت چھوڑا گیا اگلا بہترین متبادل ہے۔ طلب، رسد، منڈی، پیداوار، بچت اور بجٹ کی بنیادی باتیں پڑھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "معاشیات وسائل کی قلت اور انتخاب کا مطالعہ ہے۔ ضرورت اور خواہش میں فرق ہے؛ موقعی لاگت چھوڑا گیا اگلا بہترین متبادل ہے۔ طلب، رسد، منڈی، پیداوار، بچت اور بجٹ کی بنیادی باتیں پڑھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "اقتصاديات وسيلن جي کوٽ ۽ چونڊ جو مطالعو آهي. ضرورت ۽ خواهش ۾ فرق آهي؛ موقعاتي لاڳت ڇڏي ڏنل بهترين متبادل آهي. طلب، رسد، مارڪيٽ، پيداوار، بچت ۽ بجيٽ پڙهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اقتصاديات وسيلن جي کوٽ ۽ چونڊ جو مطالعو آهي. ضرورت ۽ خواهش ۾ فرق آهي؛ موقعاتي لاڳت ڇڏي ڏنل بهترين متبادل آهي. طلب، رسد، مارڪيٽ، پيداوار، بچت ۽ بجيٽ پڙهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -371,7 +759,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "معاشیات وسائل کی قلت اور انتخاب کا مطالعہ ہے۔ ضرورت اور خواہش میں فرق ہے؛ موقعی لاگت چھوڑا گیا اگلا بہترین متبادل ہے۔ طلب، رسد، منڈی، پیداوار، بچت اور بجٹ کی بنیادی باتیں پڑھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "اقتصاديات وسيلن جي کوٽ ۽ چونڊ جو مطالعو آهي. ضرورت ۽ خواهش ۾ فرق آهي؛ موقعاتي لاڳت ڇڏي ڏنل بهترين متبادل آهي. طلب، رسد، مارڪيٽ، پيداوار، بچت ۽ بجيٽ پڙهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -383,7 +791,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "معاشیات وسائل کی قلت اور انتخاب کا مطالعہ ہے۔ ضرورت اور خواہش میں فرق ہے؛ موقعی لاگت چھوڑا گیا اگلا بہترین متبادل ہے۔ طلب، رسد، منڈی، پیداوار، بچت اور بجٹ کی بنیادی باتیں پڑھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "اقتصاديات وسيلن جي کوٽ ۽ چونڊ جو مطالعو آهي. ضرورت ۽ خواهش ۾ فرق آهي؛ موقعاتي لاڳت ڇڏي ڏنل بهترين متبادل آهي. طلب، رسد، مارڪيٽ، پيداوار، بچت ۽ بجيٽ پڙهو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -420,7 +850,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Commercial geography links location, resources, transport, communication and markets with production and trade. Compare how ports, roads, energy and raw materials influence the location of industries and services."
+          "explanation": "Commercial geography links location, resources, transport, communication and markets with production and trade. Compare how ports, roads, energy and raw materials influence the location of industries and services.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "تجارتی جغرافیہ مقام، وسائل، نقل و حمل، مواصلات اور منڈیوں کو پیداوار و تجارت سے جوڑتا ہے۔ بندرگاہوں، سڑکوں اور توانائی کے صنعتی محلِ وقوع پر اثرات دیکھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "تجارتی جغرافیہ مقام، وسائل، نقل و حمل، مواصلات اور منڈیوں کو پیداوار و تجارت سے جوڑتا ہے۔ بندرگاہوں، سڑکوں اور توانائی کے صنعتی محلِ وقوع پر اثرات دیکھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "واپاري جاگرافي هنڌ، وسيلا، ٽرانسپورٽ، رابطي ۽ مارڪيٽن کي پيداوار ۽ واپار سان ڳنڍي ٿي. بندرگاهن، رستن ۽ توانائيءَ جو صنعتن جي هنڌ تي اثر ڏسو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "واپاري جاگرافي هنڌ، وسيلا، ٽرانسپورٽ، رابطي ۽ مارڪيٽن کي پيداوار ۽ واپار سان ڳنڍي ٿي. بندرگاهن، رستن ۽ توانائيءَ جو صنعتن جي هنڌ تي اثر ڏسو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of commercial geography ix–x?",
@@ -431,7 +883,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Commercial geography links location, resources, transport, communication and markets with production and trade. Compare how ports, roads, energy and raw materials influence the location of industries and services."
+          "explanation": "Commercial geography links location, resources, transport, communication and markets with production and trade. Compare how ports, roads, energy and raw materials influence the location of industries and services.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "تجارتی جغرافیہ مقام، وسائل، نقل و حمل، مواصلات اور منڈیوں کو پیداوار و تجارت سے جوڑتا ہے۔ بندرگاہوں، سڑکوں اور توانائی کے صنعتی محلِ وقوع پر اثرات دیکھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "تجارتی جغرافیہ مقام، وسائل، نقل و حمل، مواصلات اور منڈیوں کو پیداوار و تجارت سے جوڑتا ہے۔ بندرگاہوں، سڑکوں اور توانائی کے صنعتی محلِ وقوع پر اثرات دیکھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "واپاري جاگرافي هنڌ، وسيلا، ٽرانسپورٽ، رابطي ۽ مارڪيٽن کي پيداوار ۽ واپار سان ڳنڍي ٿي. بندرگاهن، رستن ۽ توانائيءَ جو صنعتن جي هنڌ تي اثر ڏسو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "واپاري جاگرافي هنڌ، وسيلا، ٽرانسپورٽ، رابطي ۽ مارڪيٽن کي پيداوار ۽ واپار سان ڳنڍي ٿي. بندرگاهن، رستن ۽ توانائيءَ جو صنعتن جي هنڌ تي اثر ڏسو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -444,7 +918,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "تجارتی جغرافیہ مقام، وسائل، نقل و حمل، مواصلات اور منڈیوں کو پیداوار و تجارت سے جوڑتا ہے۔ بندرگاہوں، سڑکوں اور توانائی کے صنعتی محلِ وقوع پر اثرات دیکھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "واپاري جاگرافي هنڌ، وسيلا، ٽرانسپورٽ، رابطي ۽ مارڪيٽن کي پيداوار ۽ واپار سان ڳنڍي ٿي. بندرگاهن، رستن ۽ توانائيءَ جو صنعتن جي هنڌ تي اثر ڏسو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -456,7 +950,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "تجارتی جغرافیہ مقام، وسائل، نقل و حمل، مواصلات اور منڈیوں کو پیداوار و تجارت سے جوڑتا ہے۔ بندرگاہوں، سڑکوں اور توانائی کے صنعتی محلِ وقوع پر اثرات دیکھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "واپاري جاگرافي هنڌ، وسيلا، ٽرانسپورٽ، رابطي ۽ مارڪيٽن کي پيداوار ۽ واپار سان ڳنڍي ٿي. بندرگاهن، رستن ۽ توانائيءَ جو صنعتن جي هنڌ تي اثر ڏسو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -493,7 +1009,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Human physiology studies how body systems function together. Hygiene reduces disease risk through clean water, sanitation, nutrition, physical activity, sleep and appropriate prevention. Explain how habits affect health without replacing professional medical advice."
+          "explanation": "Human physiology studies how body systems function together. Hygiene reduces disease risk through clean water, sanitation, nutrition, physical activity, sleep and appropriate prevention. Explain how habits affect health without replacing professional medical advice.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "انسانی فعلیات جسمانی نظاموں کے کام کا مطالعہ ہے۔ صفائی، صاف پانی، غذائیت، ورزش، نیند اور احتیاط بیماری کے خطرات کم کرتے ہیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "انسانی فعلیات جسمانی نظاموں کے کام کا مطالعہ ہے۔ صفائی، صاف پانی، غذائیت، ورزش، نیند اور احتیاط بیماری کے خطرات کم کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "انساني فعليات جسم جي نظامن جي ڪم جو مطالعو آهي. صفائي، صاف پاڻي، خوراڪ، ورزش، ننڊ ۽ احتياط بيمارين جو خطرو گهٽائين ٿا.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "انساني فعليات جسم جي نظامن جي ڪم جو مطالعو آهي. صفائي، صاف پاڻي، خوراڪ، ورزش، ننڊ ۽ احتياط بيمارين جو خطرو گهٽائين ٿا."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of physiology and hygiene ix–x?",
@@ -504,7 +1042,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Human physiology studies how body systems function together. Hygiene reduces disease risk through clean water, sanitation, nutrition, physical activity, sleep and appropriate prevention. Explain how habits affect health without replacing professional medical advice."
+          "explanation": "Human physiology studies how body systems function together. Hygiene reduces disease risk through clean water, sanitation, nutrition, physical activity, sleep and appropriate prevention. Explain how habits affect health without replacing professional medical advice.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "انسانی فعلیات جسمانی نظاموں کے کام کا مطالعہ ہے۔ صفائی، صاف پانی، غذائیت، ورزش، نیند اور احتیاط بیماری کے خطرات کم کرتے ہیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "انسانی فعلیات جسمانی نظاموں کے کام کا مطالعہ ہے۔ صفائی، صاف پانی، غذائیت، ورزش، نیند اور احتیاط بیماری کے خطرات کم کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "انساني فعليات جسم جي نظامن جي ڪم جو مطالعو آهي. صفائي، صاف پاڻي، خوراڪ، ورزش، ننڊ ۽ احتياط بيمارين جو خطرو گهٽائين ٿا.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "انساني فعليات جسم جي نظامن جي ڪم جو مطالعو آهي. صفائي، صاف پاڻي، خوراڪ، ورزش، ننڊ ۽ احتياط بيمارين جو خطرو گهٽائين ٿا."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -517,7 +1077,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "انسانی فعلیات جسمانی نظاموں کے کام کا مطالعہ ہے۔ صفائی، صاف پانی، غذائیت، ورزش، نیند اور احتیاط بیماری کے خطرات کم کرتے ہیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "انساني فعليات جسم جي نظامن جي ڪم جو مطالعو آهي. صفائي، صاف پاڻي، خوراڪ، ورزش، ننڊ ۽ احتياط بيمارين جو خطرو گهٽائين ٿا.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -529,7 +1109,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "انسانی فعلیات جسمانی نظاموں کے کام کا مطالعہ ہے۔ صفائی، صاف پانی، غذائیت، ورزش، نیند اور احتیاط بیماری کے خطرات کم کرتے ہیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "انساني فعليات جسم جي نظامن جي ڪم جو مطالعو آهي. صفائي، صاف پاڻي، خوراڪ، ورزش، ننڊ ۽ احتياط بيمارين جو خطرو گهٽائين ٿا.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -566,7 +1168,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "A balanced diet provides energy and nutrients for growth, repair and normal body functions. Carbohydrates, fats, proteins, vitamins, minerals, water and fibre have different roles. Food safety includes clean preparation, storage and handwashing."
+          "explanation": "A balanced diet provides energy and nutrients for growth, repair and normal body functions. Carbohydrates, fats, proteins, vitamins, minerals, water and fibre have different roles. Food safety includes clean preparation, storage and handwashing.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "متوازن غذا جسم کو توانائی، نشوونما اور مرمت کے لیے غذائی اجزا دیتی ہے۔ کاربوہائیڈریٹس، چکنائی، پروٹین، وٹامن، معدنیات، پانی اور ریشہ مختلف کردار رکھتے ہیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "متوازن غذا جسم کو توانائی، نشوونما اور مرمت کے لیے غذائی اجزا دیتی ہے۔ کاربوہائیڈریٹس، چکنائی، پروٹین، وٹامن، معدنیات، پانی اور ریشہ مختلف کردار رکھتے ہیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "متوازن خوراڪ جسم کي توانائي، واڌ ۽ مرمت لاءِ غذائي جزا ڏئي ٿي. ڪاربوهائيڊريٽ، چرٻي، پروٽين، وٽامن، معدنيات، پاڻي ۽ فائبر جا الڳ ڪم آهن.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "متوازن خوراڪ جسم کي توانائي، واڌ ۽ مرمت لاءِ غذائي جزا ڏئي ٿي. ڪاربوهائيڊريٽ، چرٻي، پروٽين، وٽامن، معدنيات، پاڻي ۽ فائبر جا الڳ ڪم آهن."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of food and nutrition ix–x?",
@@ -577,7 +1201,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "A balanced diet provides energy and nutrients for growth, repair and normal body functions. Carbohydrates, fats, proteins, vitamins, minerals, water and fibre have different roles. Food safety includes clean preparation, storage and handwashing."
+          "explanation": "A balanced diet provides energy and nutrients for growth, repair and normal body functions. Carbohydrates, fats, proteins, vitamins, minerals, water and fibre have different roles. Food safety includes clean preparation, storage and handwashing.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "متوازن غذا جسم کو توانائی، نشوونما اور مرمت کے لیے غذائی اجزا دیتی ہے۔ کاربوہائیڈریٹس، چکنائی، پروٹین، وٹامن، معدنیات، پانی اور ریشہ مختلف کردار رکھتے ہیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "متوازن غذا جسم کو توانائی، نشوونما اور مرمت کے لیے غذائی اجزا دیتی ہے۔ کاربوہائیڈریٹس، چکنائی، پروٹین، وٹامن، معدنیات، پانی اور ریشہ مختلف کردار رکھتے ہیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "متوازن خوراڪ جسم کي توانائي، واڌ ۽ مرمت لاءِ غذائي جزا ڏئي ٿي. ڪاربوهائيڊريٽ، چرٻي، پروٽين، وٽامن، معدنيات، پاڻي ۽ فائبر جا الڳ ڪم آهن.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "متوازن خوراڪ جسم کي توانائي، واڌ ۽ مرمت لاءِ غذائي جزا ڏئي ٿي. ڪاربوهائيڊريٽ، چرٻي، پروٽين، وٽامن، معدنيات، پاڻي ۽ فائبر جا الڳ ڪم آهن."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -590,7 +1236,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "متوازن غذا جسم کو توانائی، نشوونما اور مرمت کے لیے غذائی اجزا دیتی ہے۔ کاربوہائیڈریٹس، چکنائی، پروٹین، وٹامن، معدنیات، پانی اور ریشہ مختلف کردار رکھتے ہیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "متوازن خوراڪ جسم کي توانائي، واڌ ۽ مرمت لاءِ غذائي جزا ڏئي ٿي. ڪاربوهائيڊريٽ، چرٻي، پروٽين، وٽامن، معدنيات، پاڻي ۽ فائبر جا الڳ ڪم آهن.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -602,7 +1268,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "متوازن غذا جسم کو توانائی، نشوونما اور مرمت کے لیے غذائی اجزا دیتی ہے۔ کاربوہائیڈریٹس، چکنائی، پروٹین، وٹامن، معدنیات، پانی اور ریشہ مختلف کردار رکھتے ہیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "متوازن خوراڪ جسم کي توانائي، واڌ ۽ مرمت لاءِ غذائي جزا ڏئي ٿي. ڪاربوهائيڊريٽ، چرٻي، پروٽين، وٽامن، معدنيات، پاڻي ۽ فائبر جا الڳ ڪم آهن.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -639,7 +1327,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Home economics applies knowledge of nutrition, clothing, textiles, budgeting, household management, child development and family wellbeing. Plan resources safely and economically, and evaluate decisions for health, sustainability and inclusion."
+          "explanation": "Home economics applies knowledge of nutrition, clothing, textiles, budgeting, household management, child development and family wellbeing. Plan resources safely and economically, and evaluate decisions for health, sustainability and inclusion.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "گھریلو معاشیات میں غذائیت، لباس، ٹیکسٹائل، بجٹ، گھر کا انتظام، بچوں کی نشوونما اور خاندانی فلاح شامل ہیں۔ وسائل کو محفوظ اور کفایت سے استعمال کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "گھریلو معاشیات میں غذائیت، لباس، ٹیکسٹائل، بجٹ، گھر کا انتظام، بچوں کی نشوونما اور خاندانی فلاح شامل ہیں۔ وسائل کو محفوظ اور کفایت سے استعمال کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "گهر جي معاشيات ۾ خوراڪ، ڪپڙا، ڪپڙي جي ڄاڻ، بجيٽ، گهر جو انتظام، ٻارن جي واڌ ۽ خاندان جي ڀلائي شامل آهن. وسيلا محفوظ ۽ بچت سان استعمال ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "گهر جي معاشيات ۾ خوراڪ، ڪپڙا، ڪپڙي جي ڄاڻ، بجيٽ، گهر جو انتظام، ٻارن جي واڌ ۽ خاندان جي ڀلائي شامل آهن. وسيلا محفوظ ۽ بچت سان استعمال ڪريو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of home economics ix–x?",
@@ -650,7 +1360,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Home economics applies knowledge of nutrition, clothing, textiles, budgeting, household management, child development and family wellbeing. Plan resources safely and economically, and evaluate decisions for health, sustainability and inclusion."
+          "explanation": "Home economics applies knowledge of nutrition, clothing, textiles, budgeting, household management, child development and family wellbeing. Plan resources safely and economically, and evaluate decisions for health, sustainability and inclusion.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "گھریلو معاشیات میں غذائیت، لباس، ٹیکسٹائل، بجٹ، گھر کا انتظام، بچوں کی نشوونما اور خاندانی فلاح شامل ہیں۔ وسائل کو محفوظ اور کفایت سے استعمال کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "گھریلو معاشیات میں غذائیت، لباس، ٹیکسٹائل، بجٹ، گھر کا انتظام، بچوں کی نشوونما اور خاندانی فلاح شامل ہیں۔ وسائل کو محفوظ اور کفایت سے استعمال کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "گهر جي معاشيات ۾ خوراڪ، ڪپڙا، ڪپڙي جي ڄاڻ، بجيٽ، گهر جو انتظام، ٻارن جي واڌ ۽ خاندان جي ڀلائي شامل آهن. وسيلا محفوظ ۽ بچت سان استعمال ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "گهر جي معاشيات ۾ خوراڪ، ڪپڙا، ڪپڙي جي ڄاڻ، بجيٽ، گهر جو انتظام، ٻارن جي واڌ ۽ خاندان جي ڀلائي شامل آهن. وسيلا محفوظ ۽ بچت سان استعمال ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -663,7 +1395,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "گھریلو معاشیات میں غذائیت، لباس، ٹیکسٹائل، بجٹ، گھر کا انتظام، بچوں کی نشوونما اور خاندانی فلاح شامل ہیں۔ وسائل کو محفوظ اور کفایت سے استعمال کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "گهر جي معاشيات ۾ خوراڪ، ڪپڙا، ڪپڙي جي ڄاڻ، بجيٽ، گهر جو انتظام، ٻارن جي واڌ ۽ خاندان جي ڀلائي شامل آهن. وسيلا محفوظ ۽ بچت سان استعمال ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -675,7 +1427,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "گھریلو معاشیات میں غذائیت، لباس، ٹیکسٹائل، بجٹ، گھر کا انتظام، بچوں کی نشوونما اور خاندانی فلاح شامل ہیں۔ وسائل کو محفوظ اور کفایت سے استعمال کریں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "گهر جي معاشيات ۾ خوراڪ، ڪپڙا، ڪپڙي جي ڄاڻ، بجيٽ، گهر جو انتظام، ٻارن جي واڌ ۽ خاندان جي ڀلائي شامل آهن. وسيلا محفوظ ۽ بچت سان استعمال ڪريو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -712,7 +1486,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Arabic learning develops reading, vocabulary, pronunciation and basic grammar. Identify roots and patterns, recognise noun and verb forms, and use simple sentence structures. Translate short passages by preserving meaning rather than matching words mechanically."
+          "explanation": "Arabic learning develops reading, vocabulary, pronunciation and basic grammar. Identify roots and patterns, recognise noun and verb forms, and use simple sentence structures. Translate short passages by preserving meaning rather than matching words mechanically.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور بنیادی قواعد سیکھیں۔ مادہ، اسم و فعل کی صورتیں اور سادہ جملے پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور بنیادی قواعد سیکھیں۔ مادہ، اسم و فعل کی صورتیں اور سادہ جملے پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "عربي سکيا سان پڙهڻ، لفظن جو ذخيرو، اچار ۽ بنيادي گرامر بهتر ٿئي ٿي. لفظن جا مادا، اسم ۽ فعل سڃاڻو ۽ سادن جملن جو ترجمو مطلب برقرار رکندي ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "عربي سکيا سان پڙهڻ، لفظن جو ذخيرو، اچار ۽ بنيادي گرامر بهتر ٿئي ٿي. لفظن جا مادا، اسم ۽ فعل سڃاڻو ۽ سادن جملن جو ترجمو مطلب برقرار رکندي ڪريو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of arabic elective ix–x?",
@@ -723,7 +1519,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Arabic learning develops reading, vocabulary, pronunciation and basic grammar. Identify roots and patterns, recognise noun and verb forms, and use simple sentence structures. Translate short passages by preserving meaning rather than matching words mechanically."
+          "explanation": "Arabic learning develops reading, vocabulary, pronunciation and basic grammar. Identify roots and patterns, recognise noun and verb forms, and use simple sentence structures. Translate short passages by preserving meaning rather than matching words mechanically.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور بنیادی قواعد سیکھیں۔ مادہ، اسم و فعل کی صورتیں اور سادہ جملے پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور بنیادی قواعد سیکھیں۔ مادہ، اسم و فعل کی صورتیں اور سادہ جملے پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "عربي سکيا سان پڙهڻ، لفظن جو ذخيرو، اچار ۽ بنيادي گرامر بهتر ٿئي ٿي. لفظن جا مادا، اسم ۽ فعل سڃاڻو ۽ سادن جملن جو ترجمو مطلب برقرار رکندي ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "عربي سکيا سان پڙهڻ، لفظن جو ذخيرو، اچار ۽ بنيادي گرامر بهتر ٿئي ٿي. لفظن جا مادا، اسم ۽ فعل سڃاڻو ۽ سادن جملن جو ترجمو مطلب برقرار رکندي ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -736,7 +1554,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور بنیادی قواعد سیکھیں۔ مادہ، اسم و فعل کی صورتیں اور سادہ جملے پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "عربي سکيا سان پڙهڻ، لفظن جو ذخيرو، اچار ۽ بنيادي گرامر بهتر ٿئي ٿي. لفظن جا مادا، اسم ۽ فعل سڃاڻو ۽ سادن جملن جو ترجمو مطلب برقرار رکندي ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -748,7 +1586,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور بنیادی قواعد سیکھیں۔ مادہ، اسم و فعل کی صورتیں اور سادہ جملے پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "عربي سکيا سان پڙهڻ، لفظن جو ذخيرو، اچار ۽ بنيادي گرامر بهتر ٿئي ٿي. لفظن جا مادا، اسم ۽ فعل سڃاڻو ۽ سادن جملن جو ترجمو مطلب برقرار رکندي ڪريو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -785,7 +1645,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "A computer system combines hardware, software, data and users. Study input, processing, storage and output; file management; operating systems; networks; safe browsing; privacy; and algorithmic problem solving. Use strong passwords and verify information before sharing."
+          "explanation": "A computer system combines hardware, software, data and users. Study input, processing, storage and output; file management; operating systems; networks; safe browsing; privacy; and algorithmic problem solving. Use strong passwords and verify information before sharing.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "کمپیوٹر نظام ہارڈویئر، سافٹ ویئر، ڈیٹا اور صارفین پر مشتمل ہوتا ہے۔ اِن پٹ، پروسیسنگ، اسٹوریج، آؤٹ پٹ، نیٹ ورک، رازداری اور محفوظ انٹرنیٹ استعمال پڑھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "کمپیوٹر نظام ہارڈویئر، سافٹ ویئر، ڈیٹا اور صارفین پر مشتمل ہوتا ہے۔ اِن پٹ، پروسیسنگ، اسٹوریج، آؤٹ پٹ، نیٹ ورک، رازداری اور محفوظ انٹرنیٹ استعمال پڑھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "ڪمپيوٽر نظام هارڊويئر، سافٽ ويئر، ڊيٽا ۽ استعمال ڪندڙن تي ٻڌل آهي. ان پٽ، پروسيسنگ، اسٽوريج، آئوٽ پٽ، نيٽ ورڪ، رازداري ۽ محفوظ انٽرنيٽ استعمال پڙهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "ڪمپيوٽر نظام هارڊويئر، سافٽ ويئر، ڊيٽا ۽ استعمال ڪندڙن تي ٻڌل آهي. ان پٽ، پروسيسنگ، اسٽوريج، آئوٽ پٽ، نيٽ ورڪ، رازداري ۽ محفوظ انٽرنيٽ استعمال پڙهو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of computer studies elective ix–x?",
@@ -796,7 +1678,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "A computer system combines hardware, software, data and users. Study input, processing, storage and output; file management; operating systems; networks; safe browsing; privacy; and algorithmic problem solving. Use strong passwords and verify information before sharing."
+          "explanation": "A computer system combines hardware, software, data and users. Study input, processing, storage and output; file management; operating systems; networks; safe browsing; privacy; and algorithmic problem solving. Use strong passwords and verify information before sharing.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "کمپیوٹر نظام ہارڈویئر، سافٹ ویئر، ڈیٹا اور صارفین پر مشتمل ہوتا ہے۔ اِن پٹ، پروسیسنگ، اسٹوریج، آؤٹ پٹ، نیٹ ورک، رازداری اور محفوظ انٹرنیٹ استعمال پڑھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "کمپیوٹر نظام ہارڈویئر، سافٹ ویئر، ڈیٹا اور صارفین پر مشتمل ہوتا ہے۔ اِن پٹ، پروسیسنگ، اسٹوریج، آؤٹ پٹ، نیٹ ورک، رازداری اور محفوظ انٹرنیٹ استعمال پڑھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "ڪمپيوٽر نظام هارڊويئر، سافٽ ويئر، ڊيٽا ۽ استعمال ڪندڙن تي ٻڌل آهي. ان پٽ، پروسيسنگ، اسٽوريج، آئوٽ پٽ، نيٽ ورڪ، رازداري ۽ محفوظ انٽرنيٽ استعمال پڙهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "ڪمپيوٽر نظام هارڊويئر، سافٽ ويئر، ڊيٽا ۽ استعمال ڪندڙن تي ٻڌل آهي. ان پٽ، پروسيسنگ، اسٽوريج، آئوٽ پٽ، نيٽ ورڪ، رازداري ۽ محفوظ انٽرنيٽ استعمال پڙهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -809,7 +1713,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "کمپیوٹر نظام ہارڈویئر، سافٹ ویئر، ڈیٹا اور صارفین پر مشتمل ہوتا ہے۔ اِن پٹ، پروسیسنگ، اسٹوریج، آؤٹ پٹ، نیٹ ورک، رازداری اور محفوظ انٹرنیٹ استعمال پڑھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "ڪمپيوٽر نظام هارڊويئر، سافٽ ويئر، ڊيٽا ۽ استعمال ڪندڙن تي ٻڌل آهي. ان پٽ، پروسيسنگ، اسٽوريج، آئوٽ پٽ، نيٽ ورڪ، رازداري ۽ محفوظ انٽرنيٽ استعمال پڙهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -821,7 +1745,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "کمپیوٹر نظام ہارڈویئر، سافٹ ویئر، ڈیٹا اور صارفین پر مشتمل ہوتا ہے۔ اِن پٹ، پروسیسنگ، اسٹوریج، آؤٹ پٹ، نیٹ ورک، رازداری اور محفوظ انٹرنیٹ استعمال پڑھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "ڪمپيوٽر نظام هارڊويئر، سافٽ ويئر، ڊيٽا ۽ استعمال ڪندڙن تي ٻڌل آهي. ان پٽ، پروسيسنگ، اسٽوريج، آئوٽ پٽ، نيٽ ورڪ، رازداري ۽ محفوظ انٽرنيٽ استعمال پڙهو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -858,7 +1804,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Education supports cognitive, social, emotional and physical development. Child development occurs across connected domains and is influenced by family, school, health and environment. Inclusive teaching respects learner differences and creates safe participation."
+          "explanation": "Education supports cognitive, social, emotional and physical development. Child development occurs across connected domains and is influenced by family, school, health and environment. Inclusive teaching respects learner differences and creates safe participation.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "تعلیم ذہنی، سماجی، جذباتی اور جسمانی نشوونما میں مدد دیتی ہے۔ بچے کی نشوونما پر خاندان، اسکول، صحت اور ماحول اثر انداز ہوتے ہیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "تعلیم ذہنی، سماجی، جذباتی اور جسمانی نشوونما میں مدد دیتی ہے۔ بچے کی نشوونما پر خاندان، اسکول، صحت اور ماحول اثر انداز ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "تعليم ذهني، سماجي، جذباتي ۽ جسماني واڌ ۾ مدد ڪري ٿي. ٻار جي واڌ تي خاندان، اسڪول، صحت ۽ ماحول اثر ڪن ٿا.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "تعليم ذهني، سماجي، جذباتي ۽ جسماني واڌ ۾ مدد ڪري ٿي. ٻار جي واڌ تي خاندان، اسڪول، صحت ۽ ماحول اثر ڪن ٿا."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of education and child development ix–x?",
@@ -869,7 +1837,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Education supports cognitive, social, emotional and physical development. Child development occurs across connected domains and is influenced by family, school, health and environment. Inclusive teaching respects learner differences and creates safe participation."
+          "explanation": "Education supports cognitive, social, emotional and physical development. Child development occurs across connected domains and is influenced by family, school, health and environment. Inclusive teaching respects learner differences and creates safe participation.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "تعلیم ذہنی، سماجی، جذباتی اور جسمانی نشوونما میں مدد دیتی ہے۔ بچے کی نشوونما پر خاندان، اسکول، صحت اور ماحول اثر انداز ہوتے ہیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "تعلیم ذہنی، سماجی، جذباتی اور جسمانی نشوونما میں مدد دیتی ہے۔ بچے کی نشوونما پر خاندان، اسکول، صحت اور ماحول اثر انداز ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "تعليم ذهني، سماجي، جذباتي ۽ جسماني واڌ ۾ مدد ڪري ٿي. ٻار جي واڌ تي خاندان، اسڪول، صحت ۽ ماحول اثر ڪن ٿا.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "تعليم ذهني، سماجي، جذباتي ۽ جسماني واڌ ۾ مدد ڪري ٿي. ٻار جي واڌ تي خاندان، اسڪول، صحت ۽ ماحول اثر ڪن ٿا."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -882,7 +1872,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "تعلیم ذہنی، سماجی، جذباتی اور جسمانی نشوونما میں مدد دیتی ہے۔ بچے کی نشوونما پر خاندان، اسکول، صحت اور ماحول اثر انداز ہوتے ہیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "تعليم ذهني، سماجي، جذباتي ۽ جسماني واڌ ۾ مدد ڪري ٿي. ٻار جي واڌ تي خاندان، اسڪول، صحت ۽ ماحول اثر ڪن ٿا.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -894,7 +1904,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "تعلیم ذہنی، سماجی، جذباتی اور جسمانی نشوونما میں مدد دیتی ہے۔ بچے کی نشوونما پر خاندان، اسکول، صحت اور ماحول اثر انداز ہوتے ہیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "تعليم ذهني، سماجي، جذباتي ۽ جسماني واڌ ۾ مدد ڪري ٿي. ٻار جي واڌ تي خاندان، اسڪول، صحت ۽ ماحول اثر ڪن ٿا.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -931,7 +1963,29 @@
             "D": "It depends only on personal opinion."
           },
           "correctOption": "A",
-          "explanation": "Textile study examines fibres, yarns, fabrics, construction, care labels and garment choices. Natural and manufactured fibres have different properties. Select materials by durability, comfort, purpose, cost and environmental impact."
+          "explanation": "Textile study examines fibres, yarns, fabrics, construction, care labels and garment choices. Natural and manufactured fibres have different properties. Select materials by durability, comfort, purpose, cost and environmental impact.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "ٹیکسٹائل میں ریشے، دھاگے، کپڑے، تیاری، نگہداشت کی علامات اور لباس کا انتخاب شامل ہیں۔ کپڑا پائیداری، آرام، مقصد، قیمت اور ماحول کے اثرات دیکھ کر منتخب کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "ٹیکسٹائل میں ریشے، دھاگے، کپڑے، تیاری، نگہداشت کی علامات اور لباس کا انتخاب شامل ہیں۔ کپڑا پائیداری، آرام، مقصد، قیمت اور ماحول کے اثرات دیکھ کر منتخب کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "ٽيڪسٽائل ۾ ريشا، ڌاڳو، ڪپڙو، تياري، سنڀال جون نشانيون ۽ لباس جي چونڊ شامل آهن. ڪپڙو مضبوطي، آرام، مقصد، قيمت ۽ ماحول جي اثر سان چونڊيو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "ٽيڪسٽائل ۾ ريشا، ڌاڳو، ڪپڙو، تياري، سنڀال جون نشانيون ۽ لباس جي چونڊ شامل آهن. ڪپڙو مضبوطي، آرام، مقصد، قيمت ۽ ماحول جي اثر سان چونڊيو."
+            }
+          }
         },
         {
           "question": "What is the best way to demonstrate understanding of textiles and clothing ix–x?",
@@ -942,7 +1996,29 @@
             "D": "Ignore the question's context."
           },
           "correctOption": "B",
-          "explanation": "Textile study examines fibres, yarns, fabrics, construction, care labels and garment choices. Natural and manufactured fibres have different properties. Select materials by durability, comfort, purpose, cost and environmental impact."
+          "explanation": "Textile study examines fibres, yarns, fabrics, construction, care labels and garment choices. Natural and manufactured fibres have different properties. Select materials by durability, comfort, purpose, cost and environmental impact.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "ٹیکسٹائل میں ریشے، دھاگے، کپڑے، تیاری، نگہداشت کی علامات اور لباس کا انتخاب شامل ہیں۔ کپڑا پائیداری، آرام، مقصد، قیمت اور ماحول کے اثرات دیکھ کر منتخب کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "ٹیکسٹائل میں ریشے، دھاگے، کپڑے، تیاری، نگہداشت کی علامات اور لباس کا انتخاب شامل ہیں۔ کپڑا پائیداری، آرام، مقصد، قیمت اور ماحول کے اثرات دیکھ کر منتخب کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "ٽيڪسٽائل ۾ ريشا، ڌاڳو، ڪپڙو، تياري، سنڀال جون نشانيون ۽ لباس جي چونڊ شامل آهن. ڪپڙو مضبوطي، آرام، مقصد، قيمت ۽ ماحول جي اثر سان چونڊيو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "ٽيڪسٽائل ۾ ريشا، ڌاڳو، ڪپڙو، تياري، سنڀال جون نشانيون ۽ لباس جي چونڊ شامل آهن. ڪپڙو مضبوطي، آرام، مقصد، قيمت ۽ ماحول جي اثر سان چونڊيو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -955,7 +2031,27 @@
             "Two accurate ideas (2)",
             "Explanation and example (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "ٹیکسٹائل میں ریشے، دھاگے، کپڑے، تیاری، نگہداشت کی علامات اور لباس کا انتخاب شامل ہیں۔ کپڑا پائیداری، آرام، مقصد، قیمت اور ماحول کے اثرات دیکھ کر منتخب کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "ٽيڪسٽائل ۾ ريشا، ڌاڳو، ڪپڙو، تياري، سنڀال جون نشانيون ۽ لباس جي چونڊ شامل آهن. ڪپڙو مضبوطي، آرام، مقصد، قيمت ۽ ماحول جي اثر سان چونڊيو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -967,7 +2063,29 @@
             "Analysis and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "ٹیکسٹائل میں ریشے، دھاگے، کپڑے، تیاری، نگہداشت کی علامات اور لباس کا انتخاب شامل ہیں۔ کپڑا پائیداری، آرام، مقصد، قیمت اور ماحول کے اثرات دیکھ کر منتخب کریں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "ٽيڪسٽائل ۾ ريشا، ڌاڳو، ڪپڙو، تياري، سنڀال جون نشانيون ۽ لباس جي چونڊ شامل آهن. ڪپڙو مضبوطي، آرام، مقصد، قيمت ۽ ماحول جي اثر سان چونڊيو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     }
