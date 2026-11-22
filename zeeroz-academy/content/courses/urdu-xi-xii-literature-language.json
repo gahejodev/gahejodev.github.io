@@ -1,0 +1,399 @@
+{
+  "id": "urdu-xi-xii-literature-language",
+  "title": "Urdu XI–XII — Zaban, Adab aur Tahrir",
+  "description": "Supplementary grade-level study package with structured units, MCQs, CRQs and ERQs. Urdu/Sindhi support included where relevant; not a verified textbook reproduction.",
+  "version": "1",
+  "curriculumAlignment": "Supplementary Urdu language and literature skills for Grades XI–XII. The DCAR catalogue lists Urdu Language Grades XI–XII (2019); chapter-by-chapter STBB edition mapping is not asserted.",
+  "sourceReferences": [
+    {
+      "title": "DCAR Sindh Curriculum Catalogue",
+      "url": "https://www.dcar.gos.pk/Sindh%20Curriculum.html",
+      "note": "Official subject curriculum listings and grade coverage."
+    },
+    {
+      "title": "STBB eBooks catalogue",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "note": "Use for future edition-specific textbook crosswalk."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "XI — Nasri mutala aur zaban",
+      "description": "Supplementary unit 1: XI — Nasri mutala aur zaban.",
+      "lessons": [
+        {
+          "title": "1.1 XI — Nasri mutala aur zaban",
+          "type": "text",
+          "content": "## Learning outcomes\nنثر کے مطالعے میں مرکزی خیال، مصنف کا مقصد، کردار، واقعات اور اسلوب کو سمجھیں۔ مشکل الفاظ کا مفہوم سیاق سے اخذ کریں اور جواب میں متن سے دلیل دیں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "سنڌي مدد: نثر پڙهندي مرڪزي خيال، ليکڪ جو مقصد، ڪردار، واقعا ۽ اسلوب سڃاڻو. لفظن جو مطلب سياق مان سمجهو ۽ متن مان دليل ڏيو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying xi — nasri mutala aur zaban?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "نثر کے مطالعے میں مرکزی خیال، مصنف کا مقصد، کردار، واقعات اور اسلوب کو سمجھیں۔ مشکل الفاظ کا مفہوم سیاق سے اخذ کریں اور جواب میں متن سے دلیل دیں۔"
+        },
+        {
+          "question": "What makes an answer on xi — nasri mutala aur zaban strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "نثر کے مطالعے میں مرکزی خیال، مصنف کا مقصد، کردار، واقعات اور اسلوب کو سمجھیں۔ مشکل الفاظ کا مفہوم سیاق سے اخذ کریں اور جواب میں متن سے دلیل دیں۔"
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in xi — nasri mutala aur zaban and give relevant examples.",
+          "modelAnswer": "نثر کے مطالعے میں مرکزی خیال، مصنف کا مقصد، کردار، واقعات اور اسلوب کو سمجھیں۔ مشکل الفاظ کا مفہوم سیاق سے اخذ کریں اور جواب میں متن سے دلیل دیں۔",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of xi — nasri mutala aur zaban in the relevant grade-level course.",
+          "modelAnswer": "نثر کے مطالعے میں مرکزی خیال، مصنف کا مقصد، کردار، واقعات اور اسلوب کو سمجھیں۔ مشکل الفاظ کا مفہوم سیاق سے اخذ کریں اور جواب میں متن سے دلیل دیں۔ Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "XI — Shayari, tashbih aur istiara",
+      "description": "Supplementary unit 2: XI — Shayari, tashbih aur istiara.",
+      "lessons": [
+        {
+          "title": "2.1 XI — Shayari, tashbih aur istiara",
+          "type": "text",
+          "content": "## Learning outcomes\nشاعری میں موضوع، لہجہ، ردیف، قافیہ، تشبیہ، استعارہ اور علامت کا جائزہ لیں۔ شعر کی تشریح میں پہلے مفہوم، پھر ادبی صنعت اور آخر میں مرکزی پیغام بیان کریں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "سنڌي مدد: شاعريءَ ۾ موضوع، لهجو، رديف، قافيو، تشبيهه، استعارو ۽ علامت ڏسو. تشريح ۾ پهرين مطلب، پوءِ ادبي صنعت ۽ آخر ۾ پيغام بيان ڪريو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying xi — shayari, tashbih aur istiara?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "شاعری میں موضوع، لہجہ، ردیف، قافیہ، تشبیہ، استعارہ اور علامت کا جائزہ لیں۔ شعر کی تشریح میں پہلے مفہوم، پھر ادبی صنعت اور آخر میں مرکزی پیغام بیان کریں۔"
+        },
+        {
+          "question": "What makes an answer on xi — shayari, tashbih aur istiara strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "شاعری میں موضوع، لہجہ، ردیف، قافیہ، تشبیہ، استعارہ اور علامت کا جائزہ لیں۔ شعر کی تشریح میں پہلے مفہوم، پھر ادبی صنعت اور آخر میں مرکزی پیغام بیان کریں۔"
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in xi — shayari, tashbih aur istiara and give relevant examples.",
+          "modelAnswer": "شاعری میں موضوع، لہجہ، ردیف، قافیہ، تشبیہ، استعارہ اور علامت کا جائزہ لیں۔ شعر کی تشریح میں پہلے مفہوم، پھر ادبی صنعت اور آخر میں مرکزی پیغام بیان کریں۔",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of xi — shayari, tashbih aur istiara in the relevant grade-level course.",
+          "modelAnswer": "شاعری میں موضوع، لہجہ، ردیف، قافیہ، تشبیہ، استعارہ اور علامت کا جائزہ لیں۔ شعر کی تشریح میں پہلے مفہوم، پھر ادبی صنعت اور آخر میں مرکزی پیغام بیان کریں۔ Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "XI — Khulasa aur mazmoon",
+      "description": "Supplementary unit 3: XI — Khulasa aur mazmoon.",
+      "lessons": [
+        {
+          "title": "3.1 XI — Khulasa aur mazmoon",
+          "type": "text",
+          "content": "## Learning outcomes\nخلاصہ اصل متن کے اہم نکات کو مختصر اور غیر جانب دار انداز میں پیش کرتا ہے۔ مضمون میں واضح تمہید، مربوط دلائل، مثالیں اور نتیجہ ہونا چاہیے۔ غیر متعلقہ تکرار سے بچیں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "سنڌي مدد: خلاصو متن جا اهم نڪتا مختصر ۽ غيرجانبدار نموني پيش ڪري ٿو. مضمون ۾ تمهيد، ڳنڍيل دليل، مثالون ۽ نتيجو هجي."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying xi — khulasa aur mazmoon?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "خلاصہ اصل متن کے اہم نکات کو مختصر اور غیر جانب دار انداز میں پیش کرتا ہے۔ مضمون میں واضح تمہید، مربوط دلائل، مثالیں اور نتیجہ ہونا چاہیے۔ غیر متعلقہ تکرار سے بچیں۔"
+        },
+        {
+          "question": "What makes an answer on xi — khulasa aur mazmoon strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "خلاصہ اصل متن کے اہم نکات کو مختصر اور غیر جانب دار انداز میں پیش کرتا ہے۔ مضمون میں واضح تمہید، مربوط دلائل، مثالیں اور نتیجہ ہونا چاہیے۔ غیر متعلقہ تکرار سے بچیں۔"
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in xi — khulasa aur mazmoon and give relevant examples.",
+          "modelAnswer": "خلاصہ اصل متن کے اہم نکات کو مختصر اور غیر جانب دار انداز میں پیش کرتا ہے۔ مضمون میں واضح تمہید، مربوط دلائل، مثالیں اور نتیجہ ہونا چاہیے۔ غیر متعلقہ تکرار سے بچیں۔",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of xi — khulasa aur mazmoon in the relevant grade-level course.",
+          "modelAnswer": "خلاصہ اصل متن کے اہم نکات کو مختصر اور غیر جانب دار انداز میں پیش کرتا ہے۔ مضمون میں واضح تمہید، مربوط دلائل، مثالیں اور نتیجہ ہونا چاہیے۔ غیر متعلقہ تکرار سے بچیں۔ Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "XII — Tanqeedi mutala",
+      "description": "Supplementary unit 4: XII — Tanqeedi mutala.",
+      "lessons": [
+        {
+          "title": "4.1 XII — Tanqeedi mutala",
+          "type": "text",
+          "content": "## Learning outcomes\nتنقیدی مطالعہ میں دعوے، دلیل، شواہد، مفروضات اور مصنف کے نقطۂ نظر کا جائزہ لیا جاتا ہے۔ محض پسند یا ناپسند کے بجائے متن کی بنیاد پر رائے قائم کریں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "سنڌي مدد: تنقيدي مطالعي ۾ دعويٰ، دليل، ثبوت، مفروضا ۽ ليکڪ جو نقطه نظر پرکيو. ذاتي پسند بدران متن جي بنياد تي راءِ ڏيو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying xii — tanqeedi mutala?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "تنقیدی مطالعہ میں دعوے، دلیل، شواہد، مفروضات اور مصنف کے نقطۂ نظر کا جائزہ لیا جاتا ہے۔ محض پسند یا ناپسند کے بجائے متن کی بنیاد پر رائے قائم کریں۔"
+        },
+        {
+          "question": "What makes an answer on xii — tanqeedi mutala strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "تنقیدی مطالعہ میں دعوے، دلیل، شواہد، مفروضات اور مصنف کے نقطۂ نظر کا جائزہ لیا جاتا ہے۔ محض پسند یا ناپسند کے بجائے متن کی بنیاد پر رائے قائم کریں۔"
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in xii — tanqeedi mutala and give relevant examples.",
+          "modelAnswer": "تنقیدی مطالعہ میں دعوے، دلیل، شواہد، مفروضات اور مصنف کے نقطۂ نظر کا جائزہ لیا جاتا ہے۔ محض پسند یا ناپسند کے بجائے متن کی بنیاد پر رائے قائم کریں۔",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of xii — tanqeedi mutala in the relevant grade-level course.",
+          "modelAnswer": "تنقیدی مطالعہ میں دعوے، دلیل، شواہد، مفروضات اور مصنف کے نقطۂ نظر کا جائزہ لیا جاتا ہے۔ محض پسند یا ناپسند کے بجائے متن کی بنیاد پر رائے قائم کریں۔ Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "XII — Tehqeeqi aur rasmi tehreer",
+      "description": "Supplementary unit 5: XII — Tehqeeqi aur rasmi tehreer.",
+      "lessons": [
+        {
+          "title": "5.1 XII — Tehqeeqi aur rasmi tehreer",
+          "type": "text",
+          "content": "## Learning outcomes\nتحقیقی تحریر میں سوال واضح، ماخذ معتبر، حوالہ درست اور زبان غیر مبہم ہونی چاہیے۔ رسمی درخواست، رپورٹ اور خط میں مقصد، ترتیب اور مؤدبانہ اسلوب برقرار رکھیں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "سنڌي مدد: تحقيقي لکڻيءَ ۾ سوال صاف، ماخذ معتبر ۽ حوالو درست هجي. رسمي درخواست، رپورٽ ۽ خط ۾ مقصد ۽ ادب وارو انداز رکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying xii — tehqeeqi aur rasmi tehreer?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "تحقیقی تحریر میں سوال واضح، ماخذ معتبر، حوالہ درست اور زبان غیر مبہم ہونی چاہیے۔ رسمی درخواست، رپورٹ اور خط میں مقصد، ترتیب اور مؤدبانہ اسلوب برقرار رکھیں۔"
+        },
+        {
+          "question": "What makes an answer on xii — tehqeeqi aur rasmi tehreer strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "تحقیقی تحریر میں سوال واضح، ماخذ معتبر، حوالہ درست اور زبان غیر مبہم ہونی چاہیے۔ رسمی درخواست، رپورٹ اور خط میں مقصد، ترتیب اور مؤدبانہ اسلوب برقرار رکھیں۔"
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in xii — tehqeeqi aur rasmi tehreer and give relevant examples.",
+          "modelAnswer": "تحقیقی تحریر میں سوال واضح، ماخذ معتبر، حوالہ درست اور زبان غیر مبہم ہونی چاہیے۔ رسمی درخواست، رپورٹ اور خط میں مقصد، ترتیب اور مؤدبانہ اسلوب برقرار رکھیں۔",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of xii — tehqeeqi aur rasmi tehreer in the relevant grade-level course.",
+          "modelAnswer": "تحقیقی تحریر میں سوال واضح، ماخذ معتبر، حوالہ درست اور زبان غیر مبہم ہونی چاہیے۔ رسمی درخواست، رپورٹ اور خط میں مقصد، ترتیب اور مؤدبانہ اسلوب برقرار رکھیں۔ Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "XII — Adabi tanqeed aur takhleeqi likhai",
+      "description": "Supplementary unit 6: XII — Adabi tanqeed aur takhleeqi likhai.",
+      "lessons": [
+        {
+          "title": "6.1 XII — Adabi tanqeed aur takhleeqi likhai",
+          "type": "text",
+          "content": "## Learning outcomes\nادبی تنقید میں صنف، ساخت، کردار، منظر، علامت اور زبان کے اثرات کا تجزیہ کریں۔ تخلیقی تحریر میں موضوع، کردار اور واقعات میں داخلی ربط برقرار رکھیں۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "explanations": {
+            "ur": "سنڌي مدد: ادبي تنقيد ۾ صنف، بناوت، ڪردار، منظر، علامت ۽ ٻوليءَ جا اثر ڏسو. تخليقي لکڻيءَ ۾ موضوع ۽ واقعن جو لاڳاپو قائم رکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which approach is most appropriate when studying xii — adabi tanqeed aur takhleeqi likhai?",
+          "options": {
+            "A": "Use the prescribed text, context and supporting evidence.",
+            "B": "Memorise isolated words without understanding.",
+            "C": "Ignore chronology or context.",
+            "D": "Use unsupported claims."
+          },
+          "correctOption": "A",
+          "explanation": "ادبی تنقید میں صنف، ساخت، کردار، منظر، علامت اور زبان کے اثرات کا تجزیہ کریں۔ تخلیقی تحریر میں موضوع، کردار اور واقعات میں داخلی ربط برقرار رکھیں۔"
+        },
+        {
+          "question": "What makes an answer on xii — adabi tanqeed aur takhleeqi likhai strong?",
+          "options": {
+            "A": "Unrelated details and repetition.",
+            "B": "Clear explanation supported by relevant facts or examples.",
+            "C": "No structure or evidence.",
+            "D": "Personal opinion only."
+          },
+          "correctOption": "B",
+          "explanation": "ادبی تنقید میں صنف، ساخت، کردار، منظر، علامت اور زبان کے اثرات کا تجزیہ کریں۔ تخلیقی تحریر میں موضوع، کردار اور واقعات میں داخلی ربط برقرار رکھیں۔"
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two important ideas in xii — adabi tanqeed aur takhleeqi likhai and give relevant examples.",
+          "modelAnswer": "ادبی تنقید میں صنف، ساخت، کردار، منظر، علامت اور زبان کے اثرات کا تجزیہ کریں۔ تخلیقی تحریر میں موضوع، کردار اور واقعات میں داخلی ربط برقرار رکھیں۔",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Relevant explanation/examples (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss the importance of xii — adabi tanqeed aur takhleeqi likhai in the relevant grade-level course.",
+          "modelAnswer": "ادبی تنقید میں صنف، ساخت، کردار، منظر، علامت اور زبان کے اثرات کا تجزیہ کریں۔ تخلیقی تحریر میں موضوع، کردار اور واقعات میں داخلی ربط برقرار رکھیں۔ Organise the answer with an introduction, developed explanation and conclusion; refer to the prescribed textbook where applicable.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Explanation and evidence (3)",
+            "Organisation (2)",
+            "Language and clarity (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
