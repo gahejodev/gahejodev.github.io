@@ -479,6 +479,20 @@
       "path": "zeeroz-academy/content/courses/language-culture-electives-ix-xii.json",
       "version": "2",
       "order": 1
+    },
+    {
+      "id": "chemistry-xi-chapters-1-12",
+      "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
+      "path": "zeeroz-academy/content/courses/chemistry-xi-chapters-1-12.json",
+      "version": "1",
+      "order": 1
+    },
+    {
+      "id": "physics-xi-work-energy-oscillations-acoustics",
+      "title": "Physics XI — Work, Energy, Oscillations and Acoustics",
+      "path": "zeeroz-academy/content/courses/physics-xi-work-energy-oscillations-acoustics.json",
+      "version": "1",
+      "order": 1
     }
   ]
 }
