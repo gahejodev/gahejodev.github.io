@@ -2,7 +2,7 @@
   "id": "ethics-religious-studies-ix-xii",
   "title": "Ethics and Religious Studies IX–XII — Inclusive Foundations",
   "description": "Supplementary topic units with two lessons per unit, MCQs, CRQs and ERQs plus Urdu/Sindhi learner support. Confirm the learner's selected board subject and current textbook.",
-  "version": "1",
+  "version": "2",
   "curriculumAlignment": "Supplementary subject map for Ethics and Religious Studies options listed in the DCAR Sindh curriculum catalogue. Students should follow the subject assigned by their board and school; this is not a full prescribed textbook replacement.",
   "sourceReferences": [
     {
@@ -50,7 +50,29 @@
             "D": "Treat every community or period as identical."
           },
           "correctOption": "A",
-          "explanation": "Ethics examines how people decide what is right and responsible. Consider honesty, fairness, respect, compassion, duties, consequences and human dignity. Explain a moral choice by identifying stakeholders, possible effects and principles, while respecting different beliefs."
+          "explanation": "Ethics examines how people decide what is right and responsible. Consider honesty, fairness, respect, compassion, duties, consequences and human dignity. Explain a moral choice by identifying stakeholders, possible effects and principles, while respecting different beliefs.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "اخلاقیات میں درست اور ذمہ دارانہ فیصلوں کا مطالعہ کیا جاتا ہے۔ دیانت، انصاف، احترام، ہمدردی، فرائض، نتائج اور انسانی وقار کو سمجھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "اخلاقیات میں درست اور ذمہ دارانہ فیصلوں کا مطالعہ کیا جاتا ہے۔ دیانت، انصاف، احترام، ہمدردی، فرائض، نتائج اور انسانی وقار کو سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "اخلاقيات ۾ صحيح ۽ ذميواراڻي فيصلي جو مطالعو ٿئي ٿو. ايمانداري، انصاف، احترام، همدردي، فرض، نتيجا ۽ انساني وقار سمجهو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اخلاقيات ۾ صحيح ۽ ذميواراڻي فيصلي جو مطالعو ٿئي ٿو. ايمانداري، انصاف، احترام، همدردي، فرض، نتيجا ۽ انساني وقار سمجهو."
+            }
+          }
         },
         {
           "question": "What should a strong answer about ix–x — ethics and moral decision-making include?",
@@ -61,7 +83,29 @@
             "D": "No reference to context."
           },
           "correctOption": "B",
-          "explanation": "Ethics examines how people decide what is right and responsible. Consider honesty, fairness, respect, compassion, duties, consequences and human dignity. Explain a moral choice by identifying stakeholders, possible effects and principles, while respecting different beliefs."
+          "explanation": "Ethics examines how people decide what is right and responsible. Consider honesty, fairness, respect, compassion, duties, consequences and human dignity. Explain a moral choice by identifying stakeholders, possible effects and principles, while respecting different beliefs.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "اخلاقیات میں درست اور ذمہ دارانہ فیصلوں کا مطالعہ کیا جاتا ہے۔ دیانت، انصاف، احترام، ہمدردی، فرائض، نتائج اور انسانی وقار کو سمجھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "اخلاقیات میں درست اور ذمہ دارانہ فیصلوں کا مطالعہ کیا جاتا ہے۔ دیانت، انصاف، احترام، ہمدردی، فرائض، نتائج اور انسانی وقار کو سمجھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "اخلاقيات ۾ صحيح ۽ ذميواراڻي فيصلي جو مطالعو ٿئي ٿو. ايمانداري، انصاف، احترام، همدردي، فرض، نتيجا ۽ انساني وقار سمجهو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اخلاقيات ۾ صحيح ۽ ذميواراڻي فيصلي جو مطالعو ٿئي ٿو. ايمانداري، انصاف، احترام، همدردي، فرض، نتيجا ۽ انساني وقار سمجهو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -74,7 +118,27 @@
             "Two accurate ideas (2)",
             "Relevant examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "اخلاقیات میں درست اور ذمہ دارانہ فیصلوں کا مطالعہ کیا جاتا ہے۔ دیانت، انصاف، احترام، ہمدردی، فرائض، نتائج اور انسانی وقار کو سمجھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "اخلاقيات ۾ صحيح ۽ ذميواراڻي فيصلي جو مطالعو ٿئي ٿو. ايمانداري، انصاف، احترام، همدردي، فرض، نتيجا ۽ انساني وقار سمجهو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -86,7 +150,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "موضوع پر منظم جواب لکھیں اور مثالیں شامل کریں۔",
+              "modelAnswer": "اخلاقیات میں درست اور ذمہ دارانہ فیصلوں کا مطالعہ کیا جاتا ہے۔ دیانت، انصاف، احترام، ہمدردی، فرائض، نتائج اور انسانی وقار کو سمجھیں۔",
+              "rubric": [
+                "درست معلومات (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان (2)"
+              ]
+            },
+            "sd": {
+              "question": "موضوع تي ترتيبوار جواب لکو ۽ مثالون شامل ڪريو.",
+              "modelAnswer": "اخلاقيات ۾ صحيح ۽ ذميواراڻي فيصلي جو مطالعو ٿئي ٿو. ايمانداري، انصاف، احترام، همدردي، فرض، نتيجا ۽ انساني وقار سمجهو.",
+              "rubric": [
+                "صحيح ڄاڻ (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -123,7 +209,29 @@
             "D": "Treat every community or period as identical."
           },
           "correctOption": "A",
-          "explanation": "Religious Studies explores beliefs, practices, values, texts and traditions in their historical and cultural contexts. Describe a tradition accurately, distinguish description from personal judgement, and practise respectful dialogue across communities."
+          "explanation": "Religious Studies explores beliefs, practices, values, texts and traditions in their historical and cultural contexts. Describe a tradition accurately, distinguish description from personal judgement, and practise respectful dialogue across communities.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "مذہبیات میں عقائد، عبادات، اقدار، متون اور روایات کو تاریخی و ثقافتی پس منظر میں سمجھا جاتا ہے۔ مختلف برادریوں کے عقائد کا احترام کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مذہبیات میں عقائد، عبادات، اقدار، متون اور روایات کو تاریخی و ثقافتی پس منظر میں سمجھا جاتا ہے۔ مختلف برادریوں کے عقائد کا احترام کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "مذهبي اڀياس ۾ عقيدا، عمل، قدرون، متن ۽ روايتون تاريخي ۽ ثقافتي پسمنظر ۾ سمجهيون وڃن ٿيون. مختلف برادرين جي عقيدن جو احترام ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مذهبي اڀياس ۾ عقيدا، عمل، قدرون، متن ۽ روايتون تاريخي ۽ ثقافتي پسمنظر ۾ سمجهيون وڃن ٿيون. مختلف برادرين جي عقيدن جو احترام ڪريو."
+            }
+          }
         },
         {
           "question": "What should a strong answer about ix–x — religious studies and respectful understanding include?",
@@ -134,7 +242,29 @@
             "D": "No reference to context."
           },
           "correctOption": "B",
-          "explanation": "Religious Studies explores beliefs, practices, values, texts and traditions in their historical and cultural contexts. Describe a tradition accurately, distinguish description from personal judgement, and practise respectful dialogue across communities."
+          "explanation": "Religious Studies explores beliefs, practices, values, texts and traditions in their historical and cultural contexts. Describe a tradition accurately, distinguish description from personal judgement, and practise respectful dialogue across communities.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "مذہبیات میں عقائد، عبادات، اقدار، متون اور روایات کو تاریخی و ثقافتی پس منظر میں سمجھا جاتا ہے۔ مختلف برادریوں کے عقائد کا احترام کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مذہبیات میں عقائد، عبادات، اقدار، متون اور روایات کو تاریخی و ثقافتی پس منظر میں سمجھا جاتا ہے۔ مختلف برادریوں کے عقائد کا احترام کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "مذهبي اڀياس ۾ عقيدا، عمل، قدرون، متن ۽ روايتون تاريخي ۽ ثقافتي پسمنظر ۾ سمجهيون وڃن ٿيون. مختلف برادرين جي عقيدن جو احترام ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مذهبي اڀياس ۾ عقيدا، عمل، قدرون، متن ۽ روايتون تاريخي ۽ ثقافتي پسمنظر ۾ سمجهيون وڃن ٿيون. مختلف برادرين جي عقيدن جو احترام ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -147,7 +277,27 @@
             "Two accurate ideas (2)",
             "Relevant examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "مذہبیات میں عقائد، عبادات، اقدار، متون اور روایات کو تاریخی و ثقافتی پس منظر میں سمجھا جاتا ہے۔ مختلف برادریوں کے عقائد کا احترام کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "مذهبي اڀياس ۾ عقيدا، عمل، قدرون، متن ۽ روايتون تاريخي ۽ ثقافتي پسمنظر ۾ سمجهيون وڃن ٿيون. مختلف برادرين جي عقيدن جو احترام ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -159,7 +309,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "موضوع پر منظم جواب لکھیں اور مثالیں شامل کریں۔",
+              "modelAnswer": "مذہبیات میں عقائد، عبادات، اقدار، متون اور روایات کو تاریخی و ثقافتی پس منظر میں سمجھا جاتا ہے۔ مختلف برادریوں کے عقائد کا احترام کریں۔",
+              "rubric": [
+                "درست معلومات (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان (2)"
+              ]
+            },
+            "sd": {
+              "question": "موضوع تي ترتيبوار جواب لکو ۽ مثالون شامل ڪريو.",
+              "modelAnswer": "مذهبي اڀياس ۾ عقيدا، عمل، قدرون، متن ۽ روايتون تاريخي ۽ ثقافتي پسمنظر ۾ سمجهيون وڃن ٿيون. مختلف برادرين جي عقيدن جو احترام ڪريو.",
+              "rubric": [
+                "صحيح ڄاڻ (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -196,7 +368,29 @@
             "D": "Treat every community or period as identical."
           },
           "correctOption": "A",
-          "explanation": "Apply ethical reasoning to public life, education, employment, technology, environment and social media. Evaluate privacy, consent, fairness, accountability and the impact of decisions on vulnerable groups. Support conclusions with clear reasons."
+          "explanation": "Apply ethical reasoning to public life, education, employment, technology, environment and social media. Evaluate privacy, consent, fairness, accountability and the impact of decisions on vulnerable groups. Support conclusions with clear reasons.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "اخلاقی اصولوں کو شہری زندگی، تعلیم، ملازمت، ٹیکنالوجی، ماحول اور سوشل میڈیا پر لاگو کریں۔ رازداری، رضامندی، انصاف اور جواب دہی کا جائزہ لیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "اخلاقی اصولوں کو شہری زندگی، تعلیم، ملازمت، ٹیکنالوجی، ماحول اور سوشل میڈیا پر لاگو کریں۔ رازداری، رضامندی، انصاف اور جواب دہی کا جائزہ لیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "اخلاقي اصولن کي شهري زندگي، تعليم، روزگار، ٽيڪنالاجي، ماحول ۽ سوشل ميڊيا تي لاڳو ڪريو. رازداري، رضامندي، انصاف ۽ جوابدهي پرکو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اخلاقي اصولن کي شهري زندگي، تعليم، روزگار، ٽيڪنالاجي، ماحول ۽ سوشل ميڊيا تي لاڳو ڪريو. رازداري، رضامندي، انصاف ۽ جوابدهي پرکو."
+            }
+          }
         },
         {
           "question": "What should a strong answer about xi–xii — applied ethics and citizenship include?",
@@ -207,7 +401,29 @@
             "D": "No reference to context."
           },
           "correctOption": "B",
-          "explanation": "Apply ethical reasoning to public life, education, employment, technology, environment and social media. Evaluate privacy, consent, fairness, accountability and the impact of decisions on vulnerable groups. Support conclusions with clear reasons."
+          "explanation": "Apply ethical reasoning to public life, education, employment, technology, environment and social media. Evaluate privacy, consent, fairness, accountability and the impact of decisions on vulnerable groups. Support conclusions with clear reasons.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "اخلاقی اصولوں کو شہری زندگی، تعلیم، ملازمت، ٹیکنالوجی، ماحول اور سوشل میڈیا پر لاگو کریں۔ رازداری، رضامندی، انصاف اور جواب دہی کا جائزہ لیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "اخلاقی اصولوں کو شہری زندگی، تعلیم، ملازمت، ٹیکنالوجی، ماحول اور سوشل میڈیا پر لاگو کریں۔ رازداری، رضامندی، انصاف اور جواب دہی کا جائزہ لیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "اخلاقي اصولن کي شهري زندگي، تعليم، روزگار، ٽيڪنالاجي، ماحول ۽ سوشل ميڊيا تي لاڳو ڪريو. رازداري، رضامندي، انصاف ۽ جوابدهي پرکو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "اخلاقي اصولن کي شهري زندگي، تعليم، روزگار، ٽيڪنالاجي، ماحول ۽ سوشل ميڊيا تي لاڳو ڪريو. رازداري، رضامندي، انصاف ۽ جوابدهي پرکو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -220,7 +436,27 @@
             "Two accurate ideas (2)",
             "Relevant examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "اخلاقی اصولوں کو شہری زندگی، تعلیم، ملازمت، ٹیکنالوجی، ماحول اور سوشل میڈیا پر لاگو کریں۔ رازداری، رضامندی، انصاف اور جواب دہی کا جائزہ لیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "اخلاقي اصولن کي شهري زندگي، تعليم، روزگار، ٽيڪنالاجي، ماحول ۽ سوشل ميڊيا تي لاڳو ڪريو. رازداري، رضامندي، انصاف ۽ جوابدهي پرکو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -232,7 +468,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "موضوع پر منظم جواب لکھیں اور مثالیں شامل کریں۔",
+              "modelAnswer": "اخلاقی اصولوں کو شہری زندگی، تعلیم، ملازمت، ٹیکنالوجی، ماحول اور سوشل میڈیا پر لاگو کریں۔ رازداری، رضامندی، انصاف اور جواب دہی کا جائزہ لیں۔",
+              "rubric": [
+                "درست معلومات (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان (2)"
+              ]
+            },
+            "sd": {
+              "question": "موضوع تي ترتيبوار جواب لکو ۽ مثالون شامل ڪريو.",
+              "modelAnswer": "اخلاقي اصولن کي شهري زندگي، تعليم، روزگار، ٽيڪنالاجي، ماحول ۽ سوشل ميڊيا تي لاڳو ڪريو. رازداري، رضامندي، انصاف ۽ جوابدهي پرکو.",
+              "rubric": [
+                "صحيح ڄاڻ (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -269,7 +527,29 @@
             "D": "Treat every community or period as identical."
           },
           "correctOption": "A",
-          "explanation": "Compare religious traditions carefully by identifying the context and source of each teaching. Avoid stereotypes and generalisations. A respectful comparison describes similarities and differences accurately and recognises diversity within communities."
+          "explanation": "Compare religious traditions carefully by identifying the context and source of each teaching. Avoid stereotypes and generalisations. A respectful comparison describes similarities and differences accurately and recognises diversity within communities.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "مختلف مذہبی روایات کا موازنہ مستند ماخذ اور سیاق کے ساتھ کریں۔ دقیانوسی تصورات سے بچیں اور برادریوں کے اندر موجود تنوع کو تسلیم کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مختلف مذہبی روایات کا موازنہ مستند ماخذ اور سیاق کے ساتھ کریں۔ دقیانوسی تصورات سے بچیں اور برادریوں کے اندر موجود تنوع کو تسلیم کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "مختلف مذهبي روايتن جو معتبر ماخذ ۽ سياق سان ڀيٽ ڪريو. عام غلط تصور کان پاسو ڪريو ۽ برادرين اندر تنوع کي تسليم ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مختلف مذهبي روايتن جو معتبر ماخذ ۽ سياق سان ڀيٽ ڪريو. عام غلط تصور کان پاسو ڪريو ۽ برادرين اندر تنوع کي تسليم ڪريو."
+            }
+          }
         },
         {
           "question": "What should a strong answer about xi–xii — comparative religious literacy and dialogue include?",
@@ -280,7 +560,29 @@
             "D": "No reference to context."
           },
           "correctOption": "B",
-          "explanation": "Compare religious traditions carefully by identifying the context and source of each teaching. Avoid stereotypes and generalisations. A respectful comparison describes similarities and differences accurately and recognises diversity within communities."
+          "explanation": "Compare religious traditions carefully by identifying the context and source of each teaching. Avoid stereotypes and generalisations. A respectful comparison describes similarities and differences accurately and recognises diversity within communities.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "مختلف مذہبی روایات کا موازنہ مستند ماخذ اور سیاق کے ساتھ کریں۔ دقیانوسی تصورات سے بچیں اور برادریوں کے اندر موجود تنوع کو تسلیم کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مختلف مذہبی روایات کا موازنہ مستند ماخذ اور سیاق کے ساتھ کریں۔ دقیانوسی تصورات سے بچیں اور برادریوں کے اندر موجود تنوع کو تسلیم کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "مختلف مذهبي روايتن جو معتبر ماخذ ۽ سياق سان ڀيٽ ڪريو. عام غلط تصور کان پاسو ڪريو ۽ برادرين اندر تنوع کي تسليم ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مختلف مذهبي روايتن جو معتبر ماخذ ۽ سياق سان ڀيٽ ڪريو. عام غلط تصور کان پاسو ڪريو ۽ برادرين اندر تنوع کي تسليم ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -293,7 +595,27 @@
             "Two accurate ideas (2)",
             "Relevant examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "مختلف مذہبی روایات کا موازنہ مستند ماخذ اور سیاق کے ساتھ کریں۔ دقیانوسی تصورات سے بچیں اور برادریوں کے اندر موجود تنوع کو تسلیم کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "مختلف مذهبي روايتن جو معتبر ماخذ ۽ سياق سان ڀيٽ ڪريو. عام غلط تصور کان پاسو ڪريو ۽ برادرين اندر تنوع کي تسليم ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -305,7 +627,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "موضوع پر منظم جواب لکھیں اور مثالیں شامل کریں۔",
+              "modelAnswer": "مختلف مذہبی روایات کا موازنہ مستند ماخذ اور سیاق کے ساتھ کریں۔ دقیانوسی تصورات سے بچیں اور برادریوں کے اندر موجود تنوع کو تسلیم کریں۔",
+              "rubric": [
+                "درست معلومات (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان (2)"
+              ]
+            },
+            "sd": {
+              "question": "موضوع تي ترتيبوار جواب لکو ۽ مثالون شامل ڪريو.",
+              "modelAnswer": "مختلف مذهبي روايتن جو معتبر ماخذ ۽ سياق سان ڀيٽ ڪريو. عام غلط تصور کان پاسو ڪريو ۽ برادرين اندر تنوع کي تسليم ڪريو.",
+              "rubric": [
+                "صحيح ڄاڻ (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي (2)"
+              ]
+            }
+          }
         }
       ]
     }
