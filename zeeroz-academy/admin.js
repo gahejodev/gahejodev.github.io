@@ -230,83 +230,40 @@ function safeCourseId(value) {
 
 async function publishGitHubPackage(item) {
  const courseId = safeCourseId(item.id);
- if (typeof item.path !== "string" || !/^zeeroz-academy\/content\/courses\/[a-z0-9-]+\.json$/.test(item.path)) {
-  throw new Error("GitHub course index contains an unsafe package path.");
+ if (typeof item.path !== "string" || !/^zeeroz-academy\/content\/courses\/[a-z0-9-]+\.json$/.test(item.path)) throw new Error("GitHub course index contains an unsafe package path.");
+ const courseRef = doc(db(),"courses",courseId),existing = await getDoc(courseRef);
+ const response=await fetch(GITHUB_COURSE_BASE+item.path+"?v="+encodeURIComponent(item.version||"1"),{cache:"no-store"});
+ if(!response.ok)throw new Error("Could not download course package: "+item.path+" ("+response.status+")");
+ const parsed=validateCoursePackage(await response.text()),p=parsed.package,version=String(item.version||"1");
+ if(existing.exists()){
+  const old=existing.data();
+  if(String(old.sourceVersion||"")===version&&old.sourcePackageId===courseId)return {status:"already",title:old.title||p.title};
+  if((old.title||"").trim().toLowerCase()!==p.title.trim().toLowerCase())return {status:"duplicate",title:p.title};
  }
- const courseRef = doc(db(),"courses",courseId);
- const existing = await getDoc(courseRef);
- const response = await fetch(GITHUB_COURSE_BASE + item.path + "?v=" + encodeURIComponent(item.version||"1"),{cache:"no-store"});
- if (!response.ok) throw new Error("Could not download course package: "+item.path+" ("+response.status+")");
- const parsed = validateCoursePackage(await response.text());
- const p = parsed.package;
- const version = String(item.version||"1");
- if (existing.exists()) {
-  const old = existing.data();
-  if (String(old.sourceVersion||"") === version && old.sourcePackageId === courseId) {
-   return {status:"already",title:old.title||p.title};
-  }
-  if ((old.title||"").trim().toLowerCase() !== p.title.trim().toLowerCase()) {
-   return {status:"duplicate",title:p.title};
-  }
- }
- const allCourses = await getDocs(collection(db(),"courses"));
- if (allCourses.docs.some(d=>d.id!==courseId&&(d.data().title||"").trim().toLowerCase()===p.title.trim().toLowerCase())) {
-  return {status:"duplicate",title:p.title};
- }
-
- // Keep the parent course hidden while replacing its content. If a later batch fails,
- // students never see a half-imported course; the next sync can safely retry it.
+ const allCourses=await getDocs(collection(db(),"courses"));
+ if(allCourses.docs.some(d=>d.id!==courseId&&(d.data().title||"").trim().toLowerCase()===p.title.trim().toLowerCase()))return {status:"duplicate",title:p.title};
  const uid=window.ZeerozFirebase.auth.currentUser.uid,stamp=serverTimestamp();
+ // Keep the parent hidden while replacing content; failed imports can be safely retried.
  if(existing.exists()){
   await updateDoc(courseRef,{title:p.title.trim(),description:p.description.trim(),published:false,updatedAt:stamp});
-  const oldChapters=await getDocs(collection(db(),"courses",courseId,"chapters"));
-  const deleteRefs=[];
-  for(const oldChapter of oldChapters.docs){
-   const [oldLessons,oldQuestions,oldWritten]=await Promise.all([
-    getDocs(collection(db(),"courses",courseId,"chapters",oldChapter.id,"lessons")),
-    getDocs(collection(db(),"courses",courseId,"chapters",oldChapter.id,"questions")),
-    getDocs(collection(db(),"courses",courseId,"chapters",oldChapter.id,"writtenQuestions"))
-   ]);
-   oldLessons.docs.forEach(d=>deleteRefs.push(d.ref));
-   oldQuestions.docs.forEach(d=>deleteRefs.push(d.ref));
-   oldWritten.docs.forEach(d=>deleteRefs.push(d.ref));
-   deleteRefs.push(oldChapter.ref);
+  const oldChapters=await getDocs(collection(db(),"courses",courseId,"chapters")),deleteRefs=[];
+  for(const ch of oldChapters.docs){
+   const [ls,qs,ws]=await Promise.all([getDocs(collection(db(),"courses",courseId,"chapters",ch.id,"lessons")),getDocs(collection(db(),"courses",courseId,"chapters",ch.id,"questions")),getDocs(collection(db(),"courses",courseId,"chapters",ch.id,"writtenQuestions"))]);
+   ls.docs.forEach(d=>deleteRefs.push(d.ref));qs.docs.forEach(d=>deleteRefs.push(d.ref));ws.docs.forEach(d=>deleteRefs.push(d.ref));deleteRefs.push(ch.ref);
   }
-  for(let i=0;i<deleteRefs.length;i+=400){
-   const batch=writeBatch(db());
-   deleteRefs.slice(i,i+400).forEach(ref=>batch.delete(ref));
-   await batch.commit();
-  }
+  for(let i=0;i<deleteRefs.length;i+=400){const batch=writeBatch(db());deleteRefs.slice(i,i+400).forEach(ref=>batch.delete(ref));await batch.commit();}
  }else{
-  await setDoc(courseRef,{
-   title:p.title.trim(),description:p.description.trim(),published:false,
-   createdAt:stamp,updatedAt:stamp,createdBy:uid,sourcePackageId:courseId
-  });
+  await setDoc(courseRef,{title:p.title.trim(),description:p.description.trim(),published:false,createdAt:stamp,updatedAt:stamp,createdBy:uid,sourcePackageId:courseId});
  }
-
- // Firestore batches are limited to 500 writes. Chunk child records safely below that limit.
  const operations=[];
  p.chapters.forEach((chapter,ci)=>{
   const chapterRef=doc(collection(db(),"courses",courseId,"chapters"));
   operations.push(batch=>batch.set(chapterRef,{title:chapter.title.trim(),description:(chapter.description||"").trim(),order:ci+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid}));
-  (chapter.lessons||[]).forEach((lesson,li)=>{
-   const lessonRef=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"lessons"));
-   operations.push(batch=>batch.set(lessonRef,{title:lesson.title.trim(),type:lesson.type||"text",content:lesson.content.trim(),explanations:{en:lesson.content.trim(),ur:(lesson.explanations?.ur||"").trim(),sd:(lesson.explanations?.sd||"").trim()},order:li+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid}));
-  });
-  (chapter.writtenQuestions||[]).forEach((q,qi)=>{
-   const writtenRef=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"writtenQuestions"));
-   operations.push(batch=>batch.set(writtenRef,{type:q.type,question:q.question.trim(),marks:q.marks,modelAnswer:q.modelAnswer.trim(),rubric:q.rubric,translations:q.translations||{},order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid}));
-  });
-  (chapter.questions||[]).forEach((q,qi)=>{
-   const questionRef=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"questions"));
-   operations.push(batch=>batch.set(questionRef,{question:q.question.trim(),options:{A:q.options.A.trim(),B:q.options.B.trim(),C:q.options.C.trim(),D:q.options.D.trim()},correctOption:q.correctOption,explanation:(q.explanation||"").trim(),translations:q.translations||{},order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid}));
-  });
+  (chapter.lessons||[]).forEach((lesson,li)=>{const ref=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"lessons"));operations.push(batch=>batch.set(ref,{title:lesson.title.trim(),type:lesson.type||"text",content:lesson.content.trim(),explanations:{en:lesson.content.trim(),ur:(lesson.explanations?.ur||"").trim(),sd:(lesson.explanations?.sd||"").trim()},order:li+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid}));});
+  (chapter.writtenQuestions||[]).forEach((q,qi)=>{const ref=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"writtenQuestions"));operations.push(batch=>batch.set(ref,{type:q.type,question:q.question.trim(),marks:q.marks,modelAnswer:q.modelAnswer.trim(),rubric:q.rubric,translations:q.translations||{},order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid}));});
+  (chapter.questions||[]).forEach((q,qi)=>{const ref=doc(collection(db(),"courses",courseId,"chapters",chapterRef.id,"questions"));operations.push(batch=>batch.set(ref,{question:q.question.trim(),options:{A:q.options.A.trim(),B:q.options.B.trim(),C:q.options.C.trim(),D:q.options.D.trim()},correctOption:q.correctOption,explanation:(q.explanation||"").trim(),translations:q.translations||{},order:qi+1,published:true,createdAt:stamp,updatedAt:stamp,createdBy:uid}));});
  });
- for(let i=0;i<operations.length;i+=400){
-  const batch=writeBatch(db());
-  operations.slice(i,i+400).forEach(write=>write(batch));
-  await batch.commit();
- }
+ for(let i=0;i<operations.length;i+=400){const batch=writeBatch(db());operations.slice(i,i+400).forEach(write=>write(batch));await batch.commit();}
  await updateDoc(courseRef,{published:true,sourcePackageId:courseId,sourceVersion:version,updatedAt:serverTimestamp()});
  return {status:existing.exists()?"updated":"published",title:p.title};
 }
