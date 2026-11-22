@@ -2,7 +2,7 @@
   "id": "islamiat-ix-xii-foundations",
   "title": "Islamiat IX–XII — Quran, Seerah, Ethics and Society",
   "description": "Supplementary grade-level study package with structured units, MCQs, CRQs and ERQs. Urdu/Sindhi support included where relevant; not a verified textbook reproduction.",
-  "version": "1",
+  "version": "2",
   "curriculumAlignment": "Supplementary Islamiat study units for Grades IX–XII. DCAR catalogue lists Islamiat Grade IX–X and XI–XII separately; unit-level supplementary map pending edition-specific textbook mapping. Non-Muslim learners should use the applicable Ethics/Religious Studies curriculum.",
   "sourceReferences": [
     {
@@ -41,7 +41,29 @@
             "D": "Use unsupported claims."
           },
           "correctOption": "A",
-          "explanation": "Study selected Quranic guidance through translation, context and practical lessons. Core beliefs include belief in Allah, angels, revealed books, prophets, the Last Day and divine decree. Connect belief with honesty, responsibility and compassion."
+          "explanation": "Study selected Quranic guidance through translation, context and practical lessons. Core beliefs include belief in Allah, angels, revealed books, prophets, the Last Day and divine decree. Connect belief with honesty, responsibility and compassion.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "قرآنی ہدایات کا ترجمہ، سیاق اور عملی سبق سمجھیں۔ بنیادی عقائد ایمان باللہ، فرشتوں، آسمانی کتابوں، انبیاء، آخرت اور تقدیر پر ایمان ہیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "قرآنی ہدایات کا ترجمہ، سیاق اور عملی سبق سمجھیں۔ بنیادی عقائد ایمان باللہ، فرشتوں، آسمانی کتابوں، انبیاء، آخرت اور تقدیر پر ایمان ہیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "قرآني هدايتن جو ترجمو، پسمنظر ۽ عملي سبق سمجهو. بنيادي عقيدا الله، ملائڪن، ڪتابن، نبين، آخرت ۽ تقدير تي ايمان آهن.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "قرآني هدايتن جو ترجمو، پسمنظر ۽ عملي سبق سمجهو. بنيادي عقيدا الله، ملائڪن، ڪتابن، نبين، آخرت ۽ تقدير تي ايمان آهن."
+            }
+          }
         },
         {
           "question": "What makes an answer on ix — quranic guidance and core beliefs strong?",
@@ -52,7 +74,29 @@
             "D": "Personal opinion only."
           },
           "correctOption": "B",
-          "explanation": "Study selected Quranic guidance through translation, context and practical lessons. Core beliefs include belief in Allah, angels, revealed books, prophets, the Last Day and divine decree. Connect belief with honesty, responsibility and compassion."
+          "explanation": "Study selected Quranic guidance through translation, context and practical lessons. Core beliefs include belief in Allah, angels, revealed books, prophets, the Last Day and divine decree. Connect belief with honesty, responsibility and compassion.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "قرآنی ہدایات کا ترجمہ، سیاق اور عملی سبق سمجھیں۔ بنیادی عقائد ایمان باللہ، فرشتوں، آسمانی کتابوں، انبیاء، آخرت اور تقدیر پر ایمان ہیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "قرآنی ہدایات کا ترجمہ، سیاق اور عملی سبق سمجھیں۔ بنیادی عقائد ایمان باللہ، فرشتوں، آسمانی کتابوں، انبیاء، آخرت اور تقدیر پر ایمان ہیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "قرآني هدايتن جو ترجمو، پسمنظر ۽ عملي سبق سمجهو. بنيادي عقيدا الله، ملائڪن، ڪتابن، نبين، آخرت ۽ تقدير تي ايمان آهن.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "قرآني هدايتن جو ترجمو، پسمنظر ۽ عملي سبق سمجهو. بنيادي عقيدا الله، ملائڪن، ڪتابن، نبين، آخرت ۽ تقدير تي ايمان آهن."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -65,7 +109,27 @@
             "Two accurate ideas (2)",
             "Relevant explanation/examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "قرآنی ہدایات کا ترجمہ، سیاق اور عملی سبق سمجھیں۔ بنیادی عقائد ایمان باللہ، فرشتوں، آسمانی کتابوں، انبیاء، آخرت اور تقدیر پر ایمان ہیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "قرآني هدايتن جو ترجمو، پسمنظر ۽ عملي سبق سمجهو. بنيادي عقيدا الله، ملائڪن، ڪتابن، نبين، آخرت ۽ تقدير تي ايمان آهن.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -77,7 +141,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Language and clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "قرآنی ہدایات کا ترجمہ، سیاق اور عملی سبق سمجھیں۔ بنیادی عقائد ایمان باللہ، فرشتوں، آسمانی کتابوں، انبیاء، آخرت اور تقدیر پر ایمان ہیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "قرآني هدايتن جو ترجمو، پسمنظر ۽ عملي سبق سمجهو. بنيادي عقيدا الله، ملائڪن، ڪتابن، نبين، آخرت ۽ تقدير تي ايمان آهن.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -105,7 +191,29 @@
             "D": "Use unsupported claims."
           },
           "correctOption": "A",
-          "explanation": "Study the Prophet Muhammad's (peace be upon him) life as a source of guidance in mercy, truthfulness, patience, justice and fulfilling trusts. Relate events to their historical context and identify lessons for personal and community life."
+          "explanation": "Study the Prophet Muhammad's (peace be upon him) life as a source of guidance in mercy, truthfulness, patience, justice and fulfilling trusts. Relate events to their historical context and identify lessons for personal and community life.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیرتِ نبوی ﷺ میں رحمت، سچائی، صبر، انصاف اور امانت داری کے نمونے سمجھیں اور ان سے روزمرہ زندگی کے اسباق اخذ کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "سیرتِ نبوی ﷺ میں رحمت، سچائی، صبر، انصاف اور امانت داری کے نمونے سمجھیں اور ان سے روزمرہ زندگی کے اسباق اخذ کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "نبي ڪريم ﷺ جي سيرت ۾ رحمت، سچائي، صبر، انصاف ۽ امانت جا مثال سمجهو ۽ روزاني زندگيءَ لاءِ سبق وٺو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "نبي ڪريم ﷺ جي سيرت ۾ رحمت، سچائي، صبر، انصاف ۽ امانت جا مثال سمجهو ۽ روزاني زندگيءَ لاءِ سبق وٺو."
+            }
+          }
         },
         {
           "question": "What makes an answer on ix — seerah and model character strong?",
@@ -116,7 +224,29 @@
             "D": "Personal opinion only."
           },
           "correctOption": "B",
-          "explanation": "Study the Prophet Muhammad's (peace be upon him) life as a source of guidance in mercy, truthfulness, patience, justice and fulfilling trusts. Relate events to their historical context and identify lessons for personal and community life."
+          "explanation": "Study the Prophet Muhammad's (peace be upon him) life as a source of guidance in mercy, truthfulness, patience, justice and fulfilling trusts. Relate events to their historical context and identify lessons for personal and community life.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "سیرتِ نبوی ﷺ میں رحمت، سچائی، صبر، انصاف اور امانت داری کے نمونے سمجھیں اور ان سے روزمرہ زندگی کے اسباق اخذ کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "سیرتِ نبوی ﷺ میں رحمت، سچائی، صبر، انصاف اور امانت داری کے نمونے سمجھیں اور ان سے روزمرہ زندگی کے اسباق اخذ کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "نبي ڪريم ﷺ جي سيرت ۾ رحمت، سچائي، صبر، انصاف ۽ امانت جا مثال سمجهو ۽ روزاني زندگيءَ لاءِ سبق وٺو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "نبي ڪريم ﷺ جي سيرت ۾ رحمت، سچائي، صبر، انصاف ۽ امانت جا مثال سمجهو ۽ روزاني زندگيءَ لاءِ سبق وٺو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -129,7 +259,27 @@
             "Two accurate ideas (2)",
             "Relevant explanation/examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "سیرتِ نبوی ﷺ میں رحمت، سچائی، صبر، انصاف اور امانت داری کے نمونے سمجھیں اور ان سے روزمرہ زندگی کے اسباق اخذ کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "نبي ڪريم ﷺ جي سيرت ۾ رحمت، سچائي، صبر، انصاف ۽ امانت جا مثال سمجهو ۽ روزاني زندگيءَ لاءِ سبق وٺو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -141,7 +291,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Language and clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "سیرتِ نبوی ﷺ میں رحمت، سچائی، صبر، انصاف اور امانت داری کے نمونے سمجھیں اور ان سے روزمرہ زندگی کے اسباق اخذ کریں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "نبي ڪريم ﷺ جي سيرت ۾ رحمت، سچائي، صبر، انصاف ۽ امانت جا مثال سمجهو ۽ روزاني زندگيءَ لاءِ سبق وٺو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -169,7 +341,29 @@
             "D": "Use unsupported claims."
           },
           "correctOption": "A",
-          "explanation": "Worship develops discipline and awareness of duties. Study the purposes and basic principles of prayer, fasting, zakat and hajj as taught in the prescribed syllabus. Islamic social ethics include respect for parents, neighbours, honesty, fairness and care for vulnerable people."
+          "explanation": "Worship develops discipline and awareness of duties. Study the purposes and basic principles of prayer, fasting, zakat and hajj as taught in the prescribed syllabus. Islamic social ethics include respect for parents, neighbours, honesty, fairness and care for vulnerable people.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "عبادات نظم و ضبط اور ذمہ داری کا شعور پیدا کرتی ہیں۔ نماز، روزہ، زکوٰۃ اور حج کے مقاصد اور بنیادی اصول پڑھیں۔ معاشرتی اخلاق میں والدین و پڑوسیوں کا احترام اور انصاف شامل ہیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "عبادات نظم و ضبط اور ذمہ داری کا شعور پیدا کرتی ہیں۔ نماز، روزہ، زکوٰۃ اور حج کے مقاصد اور بنیادی اصول پڑھیں۔ معاشرتی اخلاق میں والدین و پڑوسیوں کا احترام اور انصاف شامل ہیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "عبادت نظم ۽ ذميواريءَ جو احساس پيدا ڪري ٿي. نماز، روزو، زڪوات ۽ حج جا مقصد ۽ بنيادي اصول پڙهو. سماجي اخلاق ۾ والدين ۽ پاڙيسرين جو احترام ۽ انصاف شامل آهن.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "عبادت نظم ۽ ذميواريءَ جو احساس پيدا ڪري ٿي. نماز، روزو، زڪوات ۽ حج جا مقصد ۽ بنيادي اصول پڙهو. سماجي اخلاق ۾ والدين ۽ پاڙيسرين جو احترام ۽ انصاف شامل آهن."
+            }
+          }
         },
         {
           "question": "What makes an answer on x — worship, rights and responsibilities strong?",
@@ -180,7 +374,29 @@
             "D": "Personal opinion only."
           },
           "correctOption": "B",
-          "explanation": "Worship develops discipline and awareness of duties. Study the purposes and basic principles of prayer, fasting, zakat and hajj as taught in the prescribed syllabus. Islamic social ethics include respect for parents, neighbours, honesty, fairness and care for vulnerable people."
+          "explanation": "Worship develops discipline and awareness of duties. Study the purposes and basic principles of prayer, fasting, zakat and hajj as taught in the prescribed syllabus. Islamic social ethics include respect for parents, neighbours, honesty, fairness and care for vulnerable people.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "عبادات نظم و ضبط اور ذمہ داری کا شعور پیدا کرتی ہیں۔ نماز، روزہ، زکوٰۃ اور حج کے مقاصد اور بنیادی اصول پڑھیں۔ معاشرتی اخلاق میں والدین و پڑوسیوں کا احترام اور انصاف شامل ہیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "عبادات نظم و ضبط اور ذمہ داری کا شعور پیدا کرتی ہیں۔ نماز، روزہ، زکوٰۃ اور حج کے مقاصد اور بنیادی اصول پڑھیں۔ معاشرتی اخلاق میں والدین و پڑوسیوں کا احترام اور انصاف شامل ہیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "عبادت نظم ۽ ذميواريءَ جو احساس پيدا ڪري ٿي. نماز، روزو، زڪوات ۽ حج جا مقصد ۽ بنيادي اصول پڙهو. سماجي اخلاق ۾ والدين ۽ پاڙيسرين جو احترام ۽ انصاف شامل آهن.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "عبادت نظم ۽ ذميواريءَ جو احساس پيدا ڪري ٿي. نماز، روزو، زڪوات ۽ حج جا مقصد ۽ بنيادي اصول پڙهو. سماجي اخلاق ۾ والدين ۽ پاڙيسرين جو احترام ۽ انصاف شامل آهن."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -193,7 +409,27 @@
             "Two accurate ideas (2)",
             "Relevant explanation/examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "عبادات نظم و ضبط اور ذمہ داری کا شعور پیدا کرتی ہیں۔ نماز، روزہ، زکوٰۃ اور حج کے مقاصد اور بنیادی اصول پڑھیں۔ معاشرتی اخلاق میں والدین و پڑوسیوں کا احترام اور انصاف شامل ہیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "عبادت نظم ۽ ذميواريءَ جو احساس پيدا ڪري ٿي. نماز، روزو، زڪوات ۽ حج جا مقصد ۽ بنيادي اصول پڙهو. سماجي اخلاق ۾ والدين ۽ پاڙيسرين جو احترام ۽ انصاف شامل آهن.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -205,7 +441,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Language and clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "عبادات نظم و ضبط اور ذمہ داری کا شعور پیدا کرتی ہیں۔ نماز، روزہ، زکوٰۃ اور حج کے مقاصد اور بنیادی اصول پڑھیں۔ معاشرتی اخلاق میں والدین و پڑوسیوں کا احترام اور انصاف شامل ہیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "عبادت نظم ۽ ذميواريءَ جو احساس پيدا ڪري ٿي. نماز، روزو، زڪوات ۽ حج جا مقصد ۽ بنيادي اصول پڙهو. سماجي اخلاق ۾ والدين ۽ پاڙيسرين جو احترام ۽ انصاف شامل آهن.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -233,7 +491,29 @@
             "D": "Use unsupported claims."
           },
           "correctOption": "A",
-          "explanation": "Study major periods and contributions of Muslim civilisation with attention to historical evidence, scholarship, institutions and social change. Apply principles of consultation, justice, public trust and peaceful coexistence to civic life."
+          "explanation": "Study major periods and contributions of Muslim civilisation with attention to historical evidence, scholarship, institutions and social change. Apply principles of consultation, justice, public trust and peaceful coexistence to civic life.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "مسلم تہذیب کے ادوار اور خدمات کو تاریخی شواہد، علم، اداروں اور سماجی تبدیلی کے تناظر میں پڑھیں۔ مشاورت، انصاف اور امانت کو شہری زندگی سے جوڑیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مسلم تہذیب کے ادوار اور خدمات کو تاریخی شواہد، علم، اداروں اور سماجی تبدیلی کے تناظر میں پڑھیں۔ مشاورت، انصاف اور امانت کو شہری زندگی سے جوڑیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "مسلم تهذيب جا دور ۽ خدمتون تاريخي ثبوت، علم، ادارن ۽ سماجي تبديليءَ سان پڙهو. مشاورت، انصاف ۽ امانت کي شهري زندگيءَ سان ڳنڍيو۔",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مسلم تهذيب جا دور ۽ خدمتون تاريخي ثبوت، علم، ادارن ۽ سماجي تبديليءَ سان پڙهو. مشاورت، انصاف ۽ امانت کي شهري زندگيءَ سان ڳنڍيو۔"
+            }
+          }
         },
         {
           "question": "What makes an answer on x — islamic history and civic ethics strong?",
@@ -244,7 +524,29 @@
             "D": "Personal opinion only."
           },
           "correctOption": "B",
-          "explanation": "Study major periods and contributions of Muslim civilisation with attention to historical evidence, scholarship, institutions and social change. Apply principles of consultation, justice, public trust and peaceful coexistence to civic life."
+          "explanation": "Study major periods and contributions of Muslim civilisation with attention to historical evidence, scholarship, institutions and social change. Apply principles of consultation, justice, public trust and peaceful coexistence to civic life.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "مسلم تہذیب کے ادوار اور خدمات کو تاریخی شواہد، علم، اداروں اور سماجی تبدیلی کے تناظر میں پڑھیں۔ مشاورت، انصاف اور امانت کو شہری زندگی سے جوڑیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مسلم تہذیب کے ادوار اور خدمات کو تاریخی شواہد، علم، اداروں اور سماجی تبدیلی کے تناظر میں پڑھیں۔ مشاورت، انصاف اور امانت کو شہری زندگی سے جوڑیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "مسلم تهذيب جا دور ۽ خدمتون تاريخي ثبوت، علم، ادارن ۽ سماجي تبديليءَ سان پڙهو. مشاورت، انصاف ۽ امانت کي شهري زندگيءَ سان ڳنڍيو۔",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مسلم تهذيب جا دور ۽ خدمتون تاريخي ثبوت، علم، ادارن ۽ سماجي تبديليءَ سان پڙهو. مشاورت، انصاف ۽ امانت کي شهري زندگيءَ سان ڳنڍيو۔"
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -257,7 +559,27 @@
             "Two accurate ideas (2)",
             "Relevant explanation/examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "مسلم تہذیب کے ادوار اور خدمات کو تاریخی شواہد، علم، اداروں اور سماجی تبدیلی کے تناظر میں پڑھیں۔ مشاورت، انصاف اور امانت کو شہری زندگی سے جوڑیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "مسلم تهذيب جا دور ۽ خدمتون تاريخي ثبوت، علم، ادارن ۽ سماجي تبديليءَ سان پڙهو. مشاورت، انصاف ۽ امانت کي شهري زندگيءَ سان ڳنڍيو۔",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -269,7 +591,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Language and clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "مسلم تہذیب کے ادوار اور خدمات کو تاریخی شواہد، علم، اداروں اور سماجی تبدیلی کے تناظر میں پڑھیں۔ مشاورت، انصاف اور امانت کو شہری زندگی سے جوڑیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "مسلم تهذيب جا دور ۽ خدمتون تاريخي ثبوت، علم، ادارن ۽ سماجي تبديليءَ سان پڙهو. مشاورت، انصاف ۽ امانت کي شهري زندگيءَ سان ڳنڍيو۔",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -297,7 +641,29 @@
             "D": "Use unsupported claims."
           },
           "correctOption": "A",
-          "explanation": "Interpret prescribed Quranic passages and Hadith with attention to meaning, context and reliable explanation. Apply ethical principles to honesty, contracts, family responsibilities, community welfare and respect for human dignity."
+          "explanation": "Interpret prescribed Quranic passages and Hadith with attention to meaning, context and reliable explanation. Apply ethical principles to honesty, contracts, family responsibilities, community welfare and respect for human dignity.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "مقررہ قرآنی آیات اور احادیث کا مفہوم، سیاق اور معتبر تشریح سمجھیں۔ دیانت، معاملات، خاندانی ذمہ داریوں اور انسانی وقار پر اصول لاگو کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مقررہ قرآنی آیات اور احادیث کا مفہوم، سیاق اور معتبر تشریح سمجھیں۔ دیانت، معاملات، خاندانی ذمہ داریوں اور انسانی وقار پر اصول لاگو کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "مقرر ڪيل قرآني آيتن ۽ حديثن جو مطلب، پسمنظر ۽ معتبر تشريح سمجهو. ايمانداري، معاملن، خانداني ذميوارين ۽ انساني وقار تي اصول لاڳو ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مقرر ڪيل قرآني آيتن ۽ حديثن جو مطلب، پسمنظر ۽ معتبر تشريح سمجهو. ايمانداري، معاملن، خانداني ذميوارين ۽ انساني وقار تي اصول لاڳو ڪريو."
+            }
+          }
         },
         {
           "question": "What makes an answer on xi — quran, hadith and ethical reasoning strong?",
@@ -308,7 +674,29 @@
             "D": "Personal opinion only."
           },
           "correctOption": "B",
-          "explanation": "Interpret prescribed Quranic passages and Hadith with attention to meaning, context and reliable explanation. Apply ethical principles to honesty, contracts, family responsibilities, community welfare and respect for human dignity."
+          "explanation": "Interpret prescribed Quranic passages and Hadith with attention to meaning, context and reliable explanation. Apply ethical principles to honesty, contracts, family responsibilities, community welfare and respect for human dignity.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "مقررہ قرآنی آیات اور احادیث کا مفہوم، سیاق اور معتبر تشریح سمجھیں۔ دیانت، معاملات، خاندانی ذمہ داریوں اور انسانی وقار پر اصول لاگو کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مقررہ قرآنی آیات اور احادیث کا مفہوم، سیاق اور معتبر تشریح سمجھیں۔ دیانت، معاملات، خاندانی ذمہ داریوں اور انسانی وقار پر اصول لاگو کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "مقرر ڪيل قرآني آيتن ۽ حديثن جو مطلب، پسمنظر ۽ معتبر تشريح سمجهو. ايمانداري، معاملن، خانداني ذميوارين ۽ انساني وقار تي اصول لاڳو ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مقرر ڪيل قرآني آيتن ۽ حديثن جو مطلب، پسمنظر ۽ معتبر تشريح سمجهو. ايمانداري، معاملن، خانداني ذميوارين ۽ انساني وقار تي اصول لاڳو ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -321,7 +709,27 @@
             "Two accurate ideas (2)",
             "Relevant explanation/examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "مقررہ قرآنی آیات اور احادیث کا مفہوم، سیاق اور معتبر تشریح سمجھیں۔ دیانت، معاملات، خاندانی ذمہ داریوں اور انسانی وقار پر اصول لاگو کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "مقرر ڪيل قرآني آيتن ۽ حديثن جو مطلب، پسمنظر ۽ معتبر تشريح سمجهو. ايمانداري، معاملن، خانداني ذميوارين ۽ انساني وقار تي اصول لاڳو ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -333,7 +741,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Language and clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "مقررہ قرآنی آیات اور احادیث کا مفہوم، سیاق اور معتبر تشریح سمجھیں۔ دیانت، معاملات، خاندانی ذمہ داریوں اور انسانی وقار پر اصول لاگو کریں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "مقرر ڪيل قرآني آيتن ۽ حديثن جو مطلب، پسمنظر ۽ معتبر تشريح سمجهو. ايمانداري، معاملن، خانداني ذميوارين ۽ انساني وقار تي اصول لاڳو ڪريو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -361,7 +791,29 @@
             "D": "Use unsupported claims."
           },
           "correctOption": "A",
-          "explanation": "Consider how Islamic ethical principles guide contemporary questions involving knowledge, environment, social justice, economic conduct and peaceful plural societies. Distinguish established teachings from personal opinion and support answers with relevant prescribed evidence."
+          "explanation": "Consider how Islamic ethical principles guide contemporary questions involving knowledge, environment, social justice, economic conduct and peaceful plural societies. Distinguish established teachings from personal opinion and support answers with relevant prescribed evidence.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "علم، ماحول، سماجی انصاف، معاشی معاملات اور متنوع معاشرے میں اسلامی اخلاقی اصولوں کے اطلاق کا جائزہ لیں۔ مستند تعلیمات اور ذاتی رائے میں فرق رکھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "علم، ماحول، سماجی انصاف، معاشی معاملات اور متنوع معاشرے میں اسلامی اخلاقی اصولوں کے اطلاق کا جائزہ لیں۔ مستند تعلیمات اور ذاتی رائے میں فرق رکھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "علم، ماحول، سماجي انصاف، معاشي معاملن ۽ گهڻ رخي سماج ۾ اسلامي اخلاقي اصولن جو اطلاق ڏسو. مستند تعليم ۽ ذاتي راءِ ۾ فرق رکو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "علم، ماحول، سماجي انصاف، معاشي معاملن ۽ گهڻ رخي سماج ۾ اسلامي اخلاقي اصولن جو اطلاق ڏسو. مستند تعليم ۽ ذاتي راءِ ۾ فرق رکو."
+            }
+          }
         },
         {
           "question": "What makes an answer on xii — contemporary life and islamic values strong?",
@@ -372,7 +824,29 @@
             "D": "Personal opinion only."
           },
           "correctOption": "B",
-          "explanation": "Consider how Islamic ethical principles guide contemporary questions involving knowledge, environment, social justice, economic conduct and peaceful plural societies. Distinguish established teachings from personal opinion and support answers with relevant prescribed evidence."
+          "explanation": "Consider how Islamic ethical principles guide contemporary questions involving knowledge, environment, social justice, economic conduct and peaceful plural societies. Distinguish established teachings from personal opinion and support answers with relevant prescribed evidence.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "علم، ماحول، سماجی انصاف، معاشی معاملات اور متنوع معاشرے میں اسلامی اخلاقی اصولوں کے اطلاق کا جائزہ لیں۔ مستند تعلیمات اور ذاتی رائے میں فرق رکھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "علم، ماحول، سماجی انصاف، معاشی معاملات اور متنوع معاشرے میں اسلامی اخلاقی اصولوں کے اطلاق کا جائزہ لیں۔ مستند تعلیمات اور ذاتی رائے میں فرق رکھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "علم، ماحول، سماجي انصاف، معاشي معاملن ۽ گهڻ رخي سماج ۾ اسلامي اخلاقي اصولن جو اطلاق ڏسو. مستند تعليم ۽ ذاتي راءِ ۾ فرق رکو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "علم، ماحول، سماجي انصاف، معاشي معاملن ۽ گهڻ رخي سماج ۾ اسلامي اخلاقي اصولن جو اطلاق ڏسو. مستند تعليم ۽ ذاتي راءِ ۾ فرق رکو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -385,7 +859,27 @@
             "Two accurate ideas (2)",
             "Relevant explanation/examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "علم، ماحول، سماجی انصاف، معاشی معاملات اور متنوع معاشرے میں اسلامی اخلاقی اصولوں کے اطلاق کا جائزہ لیں۔ مستند تعلیمات اور ذاتی رائے میں فرق رکھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع جا ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "علم، ماحول، سماجي انصاف، معاشي معاملن ۽ گهڻ رخي سماج ۾ اسلامي اخلاقي اصولن جو اطلاق ڏسو. مستند تعليم ۽ ذاتي راءِ ۾ فرق رکو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -397,7 +891,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Language and clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "اس موضوع پر منظم جواب لکھیں، دلائل اور مثالیں شامل کریں۔",
+              "modelAnswer": "علم، ماحول، سماجی انصاف، معاشی معاملات اور متنوع معاشرے میں اسلامی اخلاقی اصولوں کے اطلاق کا جائزہ لیں۔ مستند تعلیمات اور ذاتی رائے میں فرق رکھیں۔",
+              "rubric": [
+                "موضوع کی درست سمجھ (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان اور وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "هن موضوع تي ترتيبوار جواب لکو ۽ دليل ۽ مثال شامل ڪريو.",
+              "modelAnswer": "علم، ماحول، سماجي انصاف، معاشي معاملن ۽ گهڻ رخي سماج ۾ اسلامي اخلاقي اصولن جو اطلاق ڏسو. مستند تعليم ۽ ذاتي راءِ ۾ فرق رکو.",
+              "rubric": [
+                "موضوع جي صحيح سمجهه (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي ۽ وضاحت (2)"
+              ]
+            }
+          }
         }
       ]
     }
