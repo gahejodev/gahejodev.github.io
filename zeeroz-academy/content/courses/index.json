@@ -304,12 +304,6 @@
       "order": 28
     },
     {
-      "id": "chemistry-xi-core-concepts-dcar-2024",
-      "title": "Chemistry XI — Core Concepts (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/chemistry-xi-core-concepts-dcar-2024.json",
-      "version": "1"
-    },
-    {
       "id": "chemistry-xii-complete",
       "title": "Chemistry XII — Complete Course",
       "path": "zeeroz-academy/content/courses/chemistry-xii-complete.json",
@@ -390,6 +384,12 @@
       "path": "zeeroz-academy/content/courses/physics-xii-complete.json",
       "version": "4",
       "order": 1
+    },
+    {
+      "id": "chemistry-xi-core-concepts-dcar-2024",
+      "title": "Chemistry XI — Core Concepts (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/chemistry-xi-core-concepts-dcar-2024.json",
+      "version": "1"
     }
   ]
 }
