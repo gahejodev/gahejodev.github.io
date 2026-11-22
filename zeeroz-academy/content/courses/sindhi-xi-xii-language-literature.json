@@ -2,7 +2,7 @@
   "id": "sindhi-xi-xii-language-literature",
   "title": "Sindhi XI–XII — Bhasha, Adab ain Likhat",
   "description": "Supplementary grade-level study package with structured units, MCQs, CRQs and ERQs. Urdu/Sindhi support included where relevant; not a verified textbook reproduction.",
-  "version": "1",
+  "version": "2",
   "curriculumAlignment": "Supplementary Sindhi language and literature skills for Grades XI–XII. DCAR catalogue lists Sindhi Language Grades XI–XII (2019); exact STBB edition chapter mapping is not asserted.",
   "sourceReferences": [
     {
@@ -24,9 +24,10 @@
         {
           "title": "1.1 XI — Nasri adab jo mutalo",
           "type": "text",
-          "content": "## Learning outcomes\nنثر ۾ مرڪزي خيال، ليکڪ جو مقصد، ڪردار، واقعا ۽ ٻوليءَ جو انداز سڃاڻو. اڻڄاتل لفظن جو مطلب جملي جي حوالي سان سمجهو ۽ جواب ۾ متن مان مثال ڏيو۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nRead prose by identifying the central idea, writer's purpose, characters, events and language style. Infer unfamiliar words from context and support answers with examples from the text.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "اردو مدد: نثر میں مرکزی خیال، مصنف کا مقصد، کردار، واقعات اور اسلوب پہچانیں۔ نامانوس الفاظ کا مطلب سیاق سے سمجھیں اور متن سے مثال دیں۔"
+            "ur": "اردو مدد: نثر میں مرکزی خیال، مصنف کا مقصد، کردار، واقعات اور اسلوب پہچانیں۔ نامانوس الفاظ کا مطلب سیاق سے سمجھیں اور متن سے مثال دیں۔",
+            "sd": "نثر ۾ مرڪزي خيال، ليکڪ جو مقصد، ڪردار، واقعا ۽ ٻوليءَ جو انداز سڃاڻو. اڻڄاتل لفظن جو مطلب جملي جي حوالي سان سمجهو ۽ جواب ۾ متن مان مثال ڏيو۔"
           }
         }
       ],
@@ -87,9 +88,10 @@
         {
           "title": "2.1 XI — Shaeri ain adabi san'at",
           "type": "text",
-          "content": "## Learning outcomes\nشاعريءَ ۾ موضوع، لهجو، رديف، قافيو، تشبيهه، استعارو ۽ علامت جو جائزو وٺو. شعر جي تشريح ۾ مفهوم، ادبي صنعت ۽ پيغام کي ترتيب سان بيان ڪريو۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nStudy poetry through its theme, tone, refrain, rhyme, simile, metaphor and symbols. In an explanation, state the meaning, literary device and message in a clear order.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "اردو مدد: شاعری میں موضوع، لہجہ، ردیف، قافیہ، تشبیہ، استعارہ اور علامت دیکھیں۔ تشریح میں مفہوم، ادبی صنعت اور پیغام بیان کریں۔"
+            "ur": "اردو مدد: شاعری میں موضوع، لہجہ، ردیف، قافیہ، تشبیہ، استعارہ اور علامت دیکھیں۔ تشریح میں مفہوم، ادبی صنعت اور پیغام بیان کریں۔",
+            "sd": "شاعريءَ ۾ موضوع، لهجو، رديف، قافيو، تشبيهه، استعارو ۽ علامت جو جائزو وٺو. شعر جي تشريح ۾ مفهوم، ادبي صنعت ۽ پيغام کي ترتيب سان بيان ڪريو۔"
           }
         }
       ],
@@ -150,9 +152,10 @@
         {
           "title": "3.1 XI — Khulasa ain mazmoon",
           "type": "text",
-          "content": "## Learning outcomes\nخلاصو اصل لکڻيءَ جا اهم خيال مختصر نموني پيش ڪري ٿو. مضمون ۾ تمهيد، دليل، مثالون ۽ نتيجو هئڻ گهرجي. غير لاڳاپيل ڳالهين ۽ ورجاءَ کان پاسو ڪريو۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nA summary presents the main ideas briefly and objectively. An essay should contain an introduction, connected arguments, examples and a conclusion. Avoid irrelevant repetition.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "اردو مدد: خلاصہ اصل تحریر کے اہم خیالات مختصر کرتا ہے۔ مضمون میں تمہید، دلائل، مثالیں اور نتیجہ ہونا چاہیے۔ غیر متعلقہ باتوں سے بچیں۔"
+            "ur": "اردو مدد: خلاصہ اصل تحریر کے اہم خیالات مختصر کرتا ہے۔ مضمون میں تمہید، دلائل، مثالیں اور نتیجہ ہونا چاہیے۔ غیر متعلقہ باتوں سے بچیں۔",
+            "sd": "خلاصو اصل لکڻيءَ جا اهم خيال مختصر نموني پيش ڪري ٿو. مضمون ۾ تمهيد، دليل، مثالون ۽ نتيجو هئڻ گهرجي. غير لاڳاپيل ڳالهين ۽ ورجاءَ کان پاسو ڪريو۔"
           }
         }
       ],
@@ -213,9 +216,10 @@
         {
           "title": "4.1 XII — Tanqeedi mutalo",
           "type": "text",
-          "content": "## Learning outcomes\nتنقيدي مطالعي ۾ دعويٰ، دليل، ثبوت، مفروضا ۽ ليکڪ جو نقطه نظر پرکيو. ذاتي پسند يا ناپسند بدران لکڻيءَ جي ثبوت تي ٻڌل راءِ ڏيو۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nCritical reading examines claims, reasoning, evidence, assumptions and the writer's point of view. Build an interpretation from evidence in the text.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "اردو مدد: تنقیدی مطالعے میں دعوے، دلیل، شواہد، مفروضات اور مصنف کا نقطۂ نظر جانچیں۔ متن کے ثبوت سے رائے قائم کریں۔"
+            "ur": "اردو مدد: تنقیدی مطالعے میں دعوے، دلیل، شواہد، مفروضات اور مصنف کا نقطۂ نظر جانچیں۔ متن کے ثبوت سے رائے قائم کریں۔",
+            "sd": "تنقيدي مطالعي ۾ دعويٰ، دليل، ثبوت، مفروضا ۽ ليکڪ جو نقطه نظر پرکيو. ذاتي پسند يا ناپسند بدران لکڻيءَ جي ثبوت تي ٻڌل راءِ ڏيو۔"
           }
         }
       ],
@@ -276,9 +280,10 @@
         {
           "title": "5.1 XII — Tehqeeqi ain rasmi likhat",
           "type": "text",
-          "content": "## Learning outcomes\nتحقيقي لکڻيءَ ۾ سوال واضح، ماخذ معتبر ۽ حوالا درست هجن. رسمي درخواست، رپورٽ ۽ خط ۾ مقصد، ترتيب ۽ مناسب ٻولي اختيار ڪريو۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nResearch writing needs a clear question, reliable sources and correct references. Formal applications, reports and letters should be purposeful, organised and appropriately worded.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "اردو مدد: تحقیقی تحریر میں سوال واضح، ماخذ معتبر اور حوالہ درست ہو۔ درخواست، رپورٹ اور خط میں مقصد اور مناسب زبان رکھیں۔"
+            "ur": "اردو مدد: تحقیقی تحریر میں سوال واضح، ماخذ معتبر اور حوالہ درست ہو۔ درخواست، رپورٹ اور خط میں مقصد اور مناسب زبان رکھیں۔",
+            "sd": "تحقيقي لکڻيءَ ۾ سوال واضح، ماخذ معتبر ۽ حوالا درست هجن. رسمي درخواست، رپورٽ ۽ خط ۾ مقصد، ترتيب ۽ مناسب ٻولي اختيار ڪريو۔"
           }
         }
       ],
@@ -339,9 +344,10 @@
         {
           "title": "6.1 XII — Adabi tanqeed ain takhleeqi likhat",
           "type": "text",
-          "content": "## Learning outcomes\nادبي تنقيد ۾ صنف، بناوت، ڪردار، منظر، علامت ۽ ٻوليءَ جي اثرن جو تجزيو ڪريو. تخليقي لکڻيءَ ۾ موضوع ۽ واقعن جو اندروني لاڳاپو قائم رکو۔\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
+          "content": "## Learning outcomes\nLiterary criticism analyses genre, structure, characters, setting, symbols and language. Creative writing should keep its theme and events internally connected.\n\n## Study method\nRead the prescribed textbook section, note key terms, prepare a short outline and answer using relevant examples or evidence.",
           "explanations": {
-            "ur": "اردو مدد: ادبی تنقید میں صنف، ساخت، کردار، منظر، علامت اور زبان کے اثرات کا تجزیہ کریں۔ تخلیقی تحریر میں ربط قائم رکھیں۔"
+            "ur": "اردو مدد: ادبی تنقید میں صنف، ساخت، کردار، منظر، علامت اور زبان کے اثرات کا تجزیہ کریں۔ تخلیقی تحریر میں ربط قائم رکھیں۔",
+            "sd": "ادبي تنقيد ۾ صنف، بناوت، ڪردار، منظر، علامت ۽ ٻوليءَ جي اثرن جو تجزيو ڪريو. تخليقي لکڻيءَ ۾ موضوع ۽ واقعن جو اندروني لاڳاپو قائم رکو۔"
           }
         }
       ],
