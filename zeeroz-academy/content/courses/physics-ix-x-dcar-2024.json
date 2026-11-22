@@ -1,0 +1,208 @@
+{
+  "id": "physics-ix-x-dcar-2024",
+  "title": "Physics IX–X (DCAR 2024)",
+  "description": "Two grade-level course maps covering measurement, mechanics, matter, fluids, thermal physics, waves, optics, electricity, magnetism and experimental skills. Includes lessons, practice MCQs, CRQs and ERQs for each grade.",
+  "version": "1",
+  "curriculumAlignment": "Sindh Curriculum for Physics Grade IX–XII 2024, aligned with National Curriculum of Pakistan. This package provides grade-level domain maps; it does not claim exact textbook chapter sequence.",
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Physics Grade IX–XII 2024",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Physics%20Curriculum%2019%20August%202024.pdf",
+      "note": "Official DCAR Physics curriculum."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Grade IX: Physics",
+      "description": "Grade-level learning map across the DCAR Physics 2024 domains. This outline is organized by curriculum concepts, not textbook chapter numbers.",
+      "lessons": [
+        {
+          "title": "Unit 1: Nature of physics and measurement",
+          "content": "Physics studies matter, energy and their interactions through observation, models and experiments. Distinguish physical quantities, SI base units and derived units. Use suitable instruments, prefixes and significant figures; estimate uncertainty and avoid parallax when reading scales."
+        },
+        {
+          "title": "Unit 2: Motion, forces and energy",
+          "content": "Describe distance and displacement, speed and velocity, acceleration and motion graphs. Apply Newton's laws, momentum conservation and work-energy ideas to simple situations. Resolve forces and explain friction and equilibrium."
+        },
+        {
+          "title": "Unit 3: Properties of matter and fluids",
+          "content": "Relate density to mass and volume. Explain pressure as force per area and how pressure acts normal to a surface. Describe atmospheric pressure and its variation with altitude; apply pressure ideas to everyday examples."
+        },
+        {
+          "title": "Unit 4: Heat, waves and practical investigation",
+          "content": "Explain temperature and thermal energy, heat transfer and expansion. Describe wave properties, reflection and sound. Plan fair tests, identify variables, record measurements and communicate results with tables and graphs."
+        }
+      ],
+      "questions": [
+        {
+          "question": "The SI unit of force is:",
+          "options": {
+            "A": "newton",
+            "B": "joule",
+            "C": "watt",
+            "D": "pascal"
+          },
+          "correctOption": "A",
+          "explanation": "Force is measured in newtons."
+        },
+        {
+          "question": "Density is calculated by:",
+          "options": {
+            "A": "mass × volume",
+            "B": "mass / volume",
+            "C": "volume / mass",
+            "D": "force / area"
+          },
+          "correctOption": "B",
+          "explanation": "Density is mass divided by volume."
+        },
+        {
+          "question": "The gradient of a displacement-time graph represents:",
+          "options": {
+            "A": "acceleration",
+            "B": "velocity",
+            "C": "force",
+            "D": "energy"
+          },
+          "correctOption": "B",
+          "explanation": "Gradient is change in displacement per unit time."
+        },
+        {
+          "question": "In a series circuit, the current through each component is:",
+          "options": {
+            "A": "different always",
+            "B": "the same",
+            "C": "zero",
+            "D": "infinite"
+          },
+          "correctOption": "B",
+          "explanation": "There is only one path for charge flow in a series circuit."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade IX: Explain how to plan a fair physics experiment to test a relationship between two quantities.",
+          "modelAnswer": "State a testable question, identify independent and dependent variables, control other factors, select suitable apparatus and ranges, repeat readings, record units and plot an appropriate graph.",
+          "rubric": [
+            "Testable question (1)",
+            "Variables identified (1)",
+            "Controls and apparatus (1)",
+            "Repeats and units (1)",
+            "Graph and interpretation (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade IX: Explain how a physics model, equation and experiment work together to solve a real-world problem.",
+          "modelAnswer": "A model simplifies the situation and identifies relevant quantities. An equation expresses the relationship and enables prediction. An experiment measures the quantities, tests the prediction and reveals uncertainty or limitations. Results are interpreted in context and the model is refined if evidence disagrees.",
+          "rubric": [
+            "Model and assumptions (2)",
+            "Correct physical relationship (2)",
+            "Experimental method (2)",
+            "Data/uncertainty (2)",
+            "Interpretation and limitations (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grade X: Physics",
+      "description": "Grade-level learning map across the DCAR Physics 2024 domains. This outline is organized by curriculum concepts, not textbook chapter numbers.",
+      "lessons": [
+        {
+          "title": "Unit 1: Thermal physics and gas behaviour",
+          "content": "Use particle theory to explain changes of state, internal energy and heating/cooling curves. Apply Boyle's, Charles's and pressure laws within their stated conditions and explain diffusion in terms of particle motion."
+        },
+        {
+          "title": "Unit 2: Waves, light and optics",
+          "content": "Describe wave speed, frequency and wavelength. Explain reflection and refraction, use refractive index and Snell's law for simple calculations, and describe image formation by plane mirrors and lenses."
+        },
+        {
+          "title": "Unit 3: Electricity, magnetism and circuits",
+          "content": "Relate current, potential difference and resistance using Ohm's law. Analyze series and parallel circuits, electrical power and energy, magnetic effects of current and basic electromagnetic induction."
+        },
+        {
+          "title": "Unit 4: Atomic physics and experimental skills",
+          "content": "Describe atomic and nuclear structure, isotopes and basic radiation concepts. Evaluate experimental methods, control variables, reduce random/systematic errors and interpret data with appropriate graphs."
+        }
+      ],
+      "questions": [
+        {
+          "question": "The SI unit of force is:",
+          "options": {
+            "A": "newton",
+            "B": "joule",
+            "C": "watt",
+            "D": "pascal"
+          },
+          "correctOption": "A",
+          "explanation": "Force is measured in newtons."
+        },
+        {
+          "question": "Density is calculated by:",
+          "options": {
+            "A": "mass × volume",
+            "B": "mass / volume",
+            "C": "volume / mass",
+            "D": "force / area"
+          },
+          "correctOption": "B",
+          "explanation": "Density is mass divided by volume."
+        },
+        {
+          "question": "The gradient of a displacement-time graph represents:",
+          "options": {
+            "A": "acceleration",
+            "B": "velocity",
+            "C": "force",
+            "D": "energy"
+          },
+          "correctOption": "B",
+          "explanation": "Gradient is change in displacement per unit time."
+        },
+        {
+          "question": "In a series circuit, the current through each component is:",
+          "options": {
+            "A": "different always",
+            "B": "the same",
+            "C": "zero",
+            "D": "infinite"
+          },
+          "correctOption": "B",
+          "explanation": "There is only one path for charge flow in a series circuit."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade X: Explain how to plan a fair physics experiment to test a relationship between two quantities.",
+          "modelAnswer": "State a testable question, identify independent and dependent variables, control other factors, select suitable apparatus and ranges, repeat readings, record units and plot an appropriate graph.",
+          "rubric": [
+            "Testable question (1)",
+            "Variables identified (1)",
+            "Controls and apparatus (1)",
+            "Repeats and units (1)",
+            "Graph and interpretation (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade X: Explain how a physics model, equation and experiment work together to solve a real-world problem.",
+          "modelAnswer": "A model simplifies the situation and identifies relevant quantities. An equation expresses the relationship and enables prediction. An experiment measures the quantities, tests the prediction and reveals uncertainty or limitations. Results are interpreted in context and the model is refined if evidence disagrees.",
+          "rubric": [
+            "Model and assumptions (2)",
+            "Correct physical relationship (2)",
+            "Experimental method (2)",
+            "Data/uncertainty (2)",
+            "Interpretation and limitations (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
