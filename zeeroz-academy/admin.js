@@ -280,7 +280,9 @@ async function syncGitHubCourses() {
   if(index.schemaVersion!==1 || !Array.isArray(index.packages))throw new Error("GitHub course index format invalid hai.");
   if(!index.packages.length){out.textContent="GitHub sync ready hai. Abhi repository mein koi course package listed nahi; naya package aate hi auto-publish hoga.";return}
   let published=0,updated=0,already=0,duplicates=0,failed=[];
-  for(const item of index.packages){
+  for(let i=0;i<index.packages.length;i++){
+   const item=index.packages[i];
+   out.textContent="Importing "+(i+1)+"/"+index.packages.length+": "+(item.title||item.id||"Course")+"…";
    try{
     const result=await publishGitHubPackage(item);
     if(result.status==="published")published++;
