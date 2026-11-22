@@ -1,0 +1,464 @@
+{
+  "id": "computer-science-ix-xii-dcar-2024",
+  "title": "Computer Science & Entrepreneurship IX–XII (DCAR 2024)",
+  "description": "Four grade-level units aligned to the Sindh DCAR Computer Science & Entrepreneurship 2024 curriculum. Covers systems, computational thinking, programming, data analysis, AI and responsible computing. Grade-level domain overview; add textbook-specific chapter mapping only after verification.",
+  "version": "1",
+  "curriculumAlignment": "Sindh Curriculum Computer Science & Entrepreneurship 2024, Grades IX–XII, based on National Curriculum Standards 2022–23. The course is organized by grade and domain rather than claiming unverified STBB chapter numbering.",
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum Computer Science & Entrepreneurship 2024",
+      "url": "https://www.dcar.gos.pk/Sindh-Curriculum/Computer%20Science%20Curriculum%20with%20NOC-2024.pdf",
+      "note": "Official DCAR Sindh curriculum, Grade IX–XII."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Grade IX: Computer Science & Entrepreneurship",
+      "description": "Grade IX learning sequence across the DCAR 2024 domains: Computer Systems, Computational Thinking, Programming, Data Analysis and Applications of Computer Science.",
+      "lessons": [
+        {
+          "title": "Unit 1: Computer systems and software",
+          "content": "A computer system combines hardware, software, data and users. Hardware includes input, processing, storage and output devices. System software manages hardware; application software helps users perform tasks. Programming languages range from low-level machine-oriented forms to high-level languages.",
+          "explanations": {
+            "ur": "کمپیوٹر سسٹم ہارڈویئر، سافٹ ویئر، ڈیٹا اور صارفین پر مشتمل ہوتا ہے۔ سسٹم سافٹ ویئر ہارڈویئر چلاتا ہے جبکہ ایپلیکیشن سافٹ ویئر مخصوص کام کرتا ہے۔",
+            "sd": "ڪمپيوٽر سسٽم هارڊويئر، سافٽ ويئر، ڊيٽا ۽ استعمال ڪندڙن تي مشتمل آهي۔ سسٽم سافٽ ويئر هارڊويئر هلائي ٿو، جڏهن ته ايپليڪيشن سافٽ ويئر خاص ڪم ڪري ٿو۔"
+          }
+        },
+        {
+          "title": "Unit 2: Computational thinking and algorithms",
+          "content": "Decompose a problem into smaller parts, identify patterns, abstract irrelevant detail and design an algorithm. Algorithms use clear finite steps. Trace tables help test the sequence, selection and repetition in a solution.",
+          "explanations": {
+            "ur": "مسئلے کو چھوٹے حصوں میں تقسیم کرنا، پیٹرن پہچاننا اور غیر ضروری تفصیل الگ کرنا کمپیوٹیشنل تھنکنگ ہے۔ الگورتھم واضح اور محدود مراحل پر مشتمل ہوتا ہے۔",
+            "sd": "مسئلي کي ننڍن حصن ۾ ورهائڻ، نمونو سڃاڻڻ ۽ غيرضروري تفصيل هٽائڻ ڪمپيوٽيشنل سوچ آهي۔ الگورٿم واضح ۽ محدود مرحلن تي ٻڌل هوندو آهي۔"
+          }
+        },
+        {
+          "title": "Unit 3: Web development and JavaScript",
+          "content": "A website is a collection of linked web pages; a web application provides interactive functions. HTML structures content, CSS styles it and JavaScript adds behaviour. Sequence, selection and repetition are core programming constructs.",
+          "explanations": {
+            "ur": "ويب سائيٽ صفحات جو مجموعو ہے جبکہ ویب ایپلیکیشن انٹرایکٹو کام کرتی ہے۔ HTML ساخت، CSS ڈیزائن اور JavaScript رویہ فراہم کرتی ہے۔",
+            "sd": "ويب سائيٽ ڳنڍيل صفحن جو مجموعو آهي؛ ويب ايپليڪيشن انٽرايڪٽو ڪم ڪري ٿي۔ HTML بناوت، CSS ڊزائن ۽ JavaScript عمل ڏئي ٿي۔"
+          }
+        },
+        {
+          "title": "Unit 4: Data science and responsible AI",
+          "content": "Data science combines computing, mathematics, statistics and domain knowledge. Data types, collection and storage influence analysis. AI can support decisions, but bias, privacy, explainability and human oversight matter.",
+          "explanations": {
+            "ur": "ڈیٹا سائنس کمپیوٹنگ، ریاضی، شماریات اور موضوعی علم کو ملاتی ہے۔ AI فیصلوں میں مدد دے سکتا ہے مگر تعصب، رازداری اور انسانی نگرانی اہم ہیں۔",
+            "sd": "ڊيٽا سائنس ڪمپيوٽنگ، رياضي، شماريات ۽ موضوعي ڄاڻ کي گڏ ڪري ٿي۔ AI فيصلا ڪرڻ ۾ مدد ڪري سگهي ٿو، پر تعصب، رازداري ۽ انساني نگراني اهم آهن۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which component executes program instructions?",
+          "options": {
+            "A": "CPU",
+            "B": "Monitor",
+            "C": "Keyboard",
+            "D": "Printer"
+          },
+          "correctOption": "A",
+          "explanation": "The CPU fetches, decodes and executes instructions."
+        },
+        {
+          "question": "Which construct repeats a block of instructions?",
+          "options": {
+            "A": "Sequence",
+            "B": "Iteration",
+            "C": "Selection",
+            "D": "Comment"
+          },
+          "correctOption": "B",
+          "explanation": "Iteration repeats instructions while a condition or count requires it."
+        },
+        {
+          "question": "What is the main purpose of encryption?",
+          "options": {
+            "A": "Compress files",
+            "B": "Protect information from unauthorized reading",
+            "C": "Increase screen size",
+            "D": "Sort a list"
+          },
+          "correctOption": "B",
+          "explanation": "Encryption transforms readable data into ciphertext using a key."
+        },
+        {
+          "question": "Which practice helps find software defects?",
+          "options": {
+            "A": "Avoid testing",
+            "B": "Debugging",
+            "C": "Deleting requirements",
+            "D": "Ignoring errors"
+          },
+          "correctOption": "B",
+          "explanation": "Debugging locates and corrects faults."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade IX: Describe one way computational thinking can help solve a real-world problem.",
+          "modelAnswer": "Decompose the task into smaller parts, identify patterns, abstract irrelevant details and design a finite algorithm. Test the solution with representative inputs and refine it.",
+          "rubric": [
+            "Problem decomposition (1)",
+            "Pattern recognition or abstraction (1)",
+            "Clear algorithm (1)",
+            "Testing (1)",
+            "Relevant example (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade IX: Explain how a responsible software solution should be designed, implemented and evaluated.",
+          "modelAnswer": "Start by identifying users and requirements. Design a modular solution and select appropriate algorithms and data structures. Implement with clear code, test normal, boundary and invalid cases, debug faults, and evaluate correctness, efficiency, accessibility, privacy and security. Improve the solution using feedback.",
+          "rubric": [
+            "Requirements and design (2)",
+            "Algorithms/programming (2)",
+            "Testing and debugging (2)",
+            "Security/privacy/accessibility (2)",
+            "Evaluation and improvement (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grade X: Computer Science & Entrepreneurship",
+      "description": "Grade X learning sequence across the DCAR 2024 domains: Computer Systems, Computational Thinking, Programming, Data Analysis and Applications of Computer Science.",
+      "lessons": [
+        {
+          "title": "Unit 1: Number systems and system software",
+          "content": "Computers represent information using binary digits. Decimal, binary and hexadecimal are positional systems. System software coordinates input, output, processing and storage; translators convert source code into executable forms.",
+          "explanations": {
+            "ur": "ڪمپیوٹر معلومات کو بائنری ہندسوں سے ظاہر کرتا ہے۔ اعشاری، بائنری اور ہیکساڈیسیمل positional نظام ہیں۔ سسٹم سافٹ ویئر ان پٹ، آؤٹ پٹ، پروسیسنگ اور اسٹوریج کو منظم کرتا ہے۔",
+            "sd": "ڪمپيوٽر معلومات بائنري انگن سان ڏيکاري ٿو۔ ڏهائي، بائنري ۽ هيڪساڊيمل جڳهه وارا نظام آهن۔ سسٽم سافٽ ويئر ان پٽ، آئوٽ پٽ، پروسيسنگ ۽ اسٽوريج سنڀالي ٿو۔"
+          }
+        },
+        {
+          "title": "Unit 2: Algorithms and abstraction",
+          "content": "Searching locates data; sorting arranges it. Abstraction hides unnecessary detail and generalizes a solution. Modular design divides a program into reusable components with clear responsibilities.",
+          "explanations": {
+            "ur": "سرچنگ ڈیٹا تلاش کرتی ہے اور sorting اسے ترتیب دیتی ہے۔ Abstraction غیر ضروری تفصیل چھپاتی ہے۔ Modular design پروگرام کو دوبارہ استعمال ہونے والے حصوں میں تقسیم کرتی ہے۔",
+            "sd": "سرچ ڊيٽا ڳولي ٿي ۽ sorting ان کي ترتيب ڏئي ٿي۔ Abstraction غيرضروري تفصيل لڪائي ٿي۔ Modular design پروگرام کي ٻيهر استعمال لائق حصن ۾ ورهائي ٿي۔"
+          }
+        },
+        {
+          "title": "Unit 3: Dynamic websites and debugging",
+          "content": "Front-end code runs in the browser; back-end services handle server-side logic and data. JavaScript arrays and functions support richer applications. Debugging uses console output, breakpoints and systematic test cases.",
+          "explanations": {
+            "ur": "فرنٹ اینڈ براؤزر میں چلتا ہے؛ بیک اینڈ سرور پر منطق اور ڈیٹا سنبھالتا ہے۔ JavaScript arrays اور functions سے ویب ایپ بہتر بنتی ہے۔",
+            "sd": "فرنٽ اينڊ برائوزر ۾ هلندو آهي؛ بيڪ اينڊ سرور تي منطق ۽ ڊيٽا سنڀاليندو آهي۔ JavaScript arrays ۽ functions سان ويب ايپ بهتر ٿئي ٿي۔"
+          }
+        },
+        {
+          "title": "Unit 4: AI, machine learning and data lifecycle",
+          "content": "AI includes systems performing tasks associated with human intelligence. Machine learning uses data to learn patterns; supervised learning uses labelled examples and unsupervised learning finds structure without labels. A data science lifecycle moves from problem framing to data, modelling and interpretation.",
+          "explanations": {
+            "ur": "AI ذہانت سے متعلق کام کرتا ہے۔ مشین لرننگ ڈیٹا سے پیٹرن سیکھتی ہے؛ supervised learning میں labels ہوتے ہیں جبکہ unsupervised میں نہیں۔",
+            "sd": "AI ذهانت سان لاڳاپيل ڪم ڪري ٿو۔ مشين لرننگ ڊيٽا مان نمونا سکي ٿي؛ supervised ۾ labels هوندا آهن، unsupervised ۾ نه۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which component executes program instructions?",
+          "options": {
+            "A": "CPU",
+            "B": "Monitor",
+            "C": "Keyboard",
+            "D": "Printer"
+          },
+          "correctOption": "A",
+          "explanation": "The CPU fetches, decodes and executes instructions."
+        },
+        {
+          "question": "Which construct repeats a block of instructions?",
+          "options": {
+            "A": "Sequence",
+            "B": "Iteration",
+            "C": "Selection",
+            "D": "Comment"
+          },
+          "correctOption": "B",
+          "explanation": "Iteration repeats instructions while a condition or count requires it."
+        },
+        {
+          "question": "What is the main purpose of encryption?",
+          "options": {
+            "A": "Compress files",
+            "B": "Protect information from unauthorized reading",
+            "C": "Increase screen size",
+            "D": "Sort a list"
+          },
+          "correctOption": "B",
+          "explanation": "Encryption transforms readable data into ciphertext using a key."
+        },
+        {
+          "question": "Which practice helps find software defects?",
+          "options": {
+            "A": "Avoid testing",
+            "B": "Debugging",
+            "C": "Deleting requirements",
+            "D": "Ignoring errors"
+          },
+          "correctOption": "B",
+          "explanation": "Debugging locates and corrects faults."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade X: Describe one way computational thinking can help solve a real-world problem.",
+          "modelAnswer": "Decompose the task into smaller parts, identify patterns, abstract irrelevant details and design a finite algorithm. Test the solution with representative inputs and refine it.",
+          "rubric": [
+            "Problem decomposition (1)",
+            "Pattern recognition or abstraction (1)",
+            "Clear algorithm (1)",
+            "Testing (1)",
+            "Relevant example (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade X: Explain how a responsible software solution should be designed, implemented and evaluated.",
+          "modelAnswer": "Start by identifying users and requirements. Design a modular solution and select appropriate algorithms and data structures. Implement with clear code, test normal, boundary and invalid cases, debug faults, and evaluate correctness, efficiency, accessibility, privacy and security. Improve the solution using feedback.",
+          "rubric": [
+            "Requirements and design (2)",
+            "Algorithms/programming (2)",
+            "Testing and debugging (2)",
+            "Security/privacy/accessibility (2)",
+            "Evaluation and improvement (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grade XI: Computer Science & Entrepreneurship",
+      "description": "Grade XI learning sequence across the DCAR 2024 domains: Computer Systems, Computational Thinking, Programming, Data Analysis and Applications of Computer Science.",
+      "lessons": [
+        {
+          "title": "Unit 1: Digital logic and Boolean algebra",
+          "content": "Logic gates implement Boolean operations. AND is true only when both inputs are true; OR is true when at least one is true; NOT reverses a value. Truth tables enumerate every input combination. NAND and XOR are useful building blocks.",
+          "explanations": {
+            "ur": "لاجک گیٹس Boolean operations انجام دیتے ہیں۔ AND دونوں inputs کے درست ہونے پر درست، OR کم از کم ایک درست ہونے پر درست، اور NOT قدر الٹ دیتا ہے۔",
+            "sd": "لاجڪ گيٽ Boolean عمل ڪن ٿا۔ AND ٻنهي inputs جي صحيح هجڻ تي صحيح، OR گهٽ ۾ گهٽ هڪ صحيح هجڻ تي صحيح، ۽ NOT قدر ابتو ڪري ٿو۔"
+          }
+        },
+        {
+          "title": "Unit 2: Software development lifecycle",
+          "content": "A software project typically proceeds through requirements analysis, design, implementation, testing, deployment and maintenance. Iterative methods refine a product through feedback. Testing should cover normal, boundary and invalid inputs.",
+          "explanations": {
+            "ur": "سافٹ ویئر کی تیاری میں ضروریات، ڈیزائن، کوڈنگ، ٹیسٹنگ، اجرا اور دیکھ بھال شامل ہیں۔ Iterative طریقہ فیڈبیک سے بہتری لاتا ہے۔",
+            "sd": "سافٽ ويئر ٺاهڻ ۾ گهرجون، ڊزائن، ڪوڊنگ، ٽيسٽنگ، جاري ڪرڻ ۽ سار سنڀال شامل آهن۔ Iterative طريقو موٽ سان بهتري آڻي ٿو۔"
+          }
+        },
+        {
+          "title": "Unit 3: Python functions, libraries and problem solving",
+          "content": "A function groups reusable instructions and may accept parameters and return a value. Libraries provide tested functionality. Turtle graphics can draw shapes using movement and rotation commands. Debugging checks logic, syntax and runtime errors.",
+          "explanations": {
+            "ur": "Python function ٻيهر استعمال لائق هدايتون گڏ ڪري ٿو۔ Libraries تيار ڪيل ڪم مهيا ڪن ٿيون۔ Turtle graphics حرڪت ۽ رخ سان شڪليون ٺاهي ٿو۔",
+            "sd": "فنڪشن ٻيهر استعمال لائق هدايتون گڏ ڪري ٿو۔ Libraries تيار سهولتون ڏين ٿيون۔ Turtle graphics حرڪت ۽ ڦيري سان شڪليون ٺاهي ٿو۔"
+          }
+        },
+        {
+          "title": "Unit 4: Networks, cybersecurity and data analysis",
+          "content": "Network topology affects scalability and reliability. Encryption protects information in transit. Data analysis uses summary statistics and visualizations to communicate patterns; experimental design should control variables and avoid misleading conclusions.",
+          "explanations": {
+            "ur": "نیٹ ورک کی ساخت قابلِ توسیع ہونے اور قابلِ اعتماد ہونے پر اثر ڈالتی ہے۔ Encryption ڈیٹا کی حفاظت کرتی ہے۔ اعدادوشمار اور چارٹس ڈیٹا کے پیٹرن واضح کرتے ہیں۔",
+            "sd": "نيٽ ورڪ جي بناوت واڌ ۽ ڀروسي تي اثر ڪري ٿي۔ Encryption ڊيٽا جي حفاظت ڪري ٿي۔ شمارياتي خلاصا ۽ چارٽ ڊيٽا جا نمونا واضح ڪن ٿا۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which component executes program instructions?",
+          "options": {
+            "A": "CPU",
+            "B": "Monitor",
+            "C": "Keyboard",
+            "D": "Printer"
+          },
+          "correctOption": "A",
+          "explanation": "The CPU fetches, decodes and executes instructions."
+        },
+        {
+          "question": "Which construct repeats a block of instructions?",
+          "options": {
+            "A": "Sequence",
+            "B": "Iteration",
+            "C": "Selection",
+            "D": "Comment"
+          },
+          "correctOption": "B",
+          "explanation": "Iteration repeats instructions while a condition or count requires it."
+        },
+        {
+          "question": "What is the main purpose of encryption?",
+          "options": {
+            "A": "Compress files",
+            "B": "Protect information from unauthorized reading",
+            "C": "Increase screen size",
+            "D": "Sort a list"
+          },
+          "correctOption": "B",
+          "explanation": "Encryption transforms readable data into ciphertext using a key."
+        },
+        {
+          "question": "Which practice helps find software defects?",
+          "options": {
+            "A": "Avoid testing",
+            "B": "Debugging",
+            "C": "Deleting requirements",
+            "D": "Ignoring errors"
+          },
+          "correctOption": "B",
+          "explanation": "Debugging locates and corrects faults."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade XI: Describe one way computational thinking can help solve a real-world problem.",
+          "modelAnswer": "Decompose the task into smaller parts, identify patterns, abstract irrelevant details and design a finite algorithm. Test the solution with representative inputs and refine it.",
+          "rubric": [
+            "Problem decomposition (1)",
+            "Pattern recognition or abstraction (1)",
+            "Clear algorithm (1)",
+            "Testing (1)",
+            "Relevant example (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade XI: Explain how a responsible software solution should be designed, implemented and evaluated.",
+          "modelAnswer": "Start by identifying users and requirements. Design a modular solution and select appropriate algorithms and data structures. Implement with clear code, test normal, boundary and invalid cases, debug faults, and evaluate correctness, efficiency, accessibility, privacy and security. Improve the solution using feedback.",
+          "rubric": [
+            "Requirements and design (2)",
+            "Algorithms/programming (2)",
+            "Testing and debugging (2)",
+            "Security/privacy/accessibility (2)",
+            "Evaluation and improvement (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grade XII: Computer Science & Entrepreneurship",
+      "description": "Grade XII learning sequence across the DCAR 2024 domains: Computer Systems, Computational Thinking, Programming, Data Analysis and Applications of Computer Science.",
+      "lessons": [
+        {
+          "title": "Unit 1: Usability, accessibility and secure systems",
+          "content": "Good systems balance usability, accessibility, privacy and security. Security choices involve trade-offs in cost, performance and convenience. Threat modelling helps identify assets, threats and suitable controls.",
+          "explanations": {
+            "ur": "سٺو نظام استعمال ۾ آساني، رسائي، رازداري ۽ حفاظت ۾ توازن رکي ٿو۔ حفاظتي قدمن ۾ قيمت، رفتار ۽ سهولت جا سمجھوتا ٿين ٿا۔",
+            "sd": "سٺو نظام استعمال ۾ آساني، رسائي، رازداري ۽ حفاظت ۾ توازن رکي ٿو۔ حفاظتي فيصلن ۾ قيمت، ڪارڪردگي ۽ سهولت جا سمجھوتا ٿين ٿا۔"
+          }
+        },
+        {
+          "title": "Unit 2: Algorithms and data structures",
+          "content": "Complex problems can use trees and binary search trees. A balanced search tree can reduce search time compared with a linear scan. Evaluate solutions for correctness, clarity and efficiency, including time and space costs.",
+          "explanations": {
+            "ur": "درخت جیسے data structures پیچیدہ مسائل میں مدد دیتے ہیں۔ متوازن search tree میں تلاش عموماً linear scan سے تیز ہو سکتی ہے۔",
+            "sd": "وڻ جهڙيون data structures پيچيده مسئلن ۾ مدد ڏين ٿيون۔ متوازن search tree ۾ ڳولا عام طور linear scan کان تيز ٿي سگهي ٿي۔"
+          }
+        },
+        {
+          "title": "Unit 3: Python, databases and programming paradigms",
+          "content": "Programs use functions, data structures, file handling and databases to manage information. Programming paradigms organize code in different ways, such as procedural and object-oriented approaches. Choose a paradigm based on the problem.",
+          "explanations": {
+            "ur": "پروگرام معلومات سنبھالنے کے لیے functions، data structures، files اور databases استعمال کرتے ہیں۔ Procedural اور object-oriented انداز مسئلے کے مطابق منتخب کیے جاتے ہیں۔",
+            "sd": "پروگرام معلومات سنڀالڻ لاءِ functions، data structures، files ۽ databases استعمال ڪن ٿا۔ Procedural ۽ object-oriented طريقا مسئلي موجب چونڊجن ٿا۔"
+          }
+        },
+        {
+          "title": "Unit 4: Machine learning, AI applications and policy",
+          "content": "Evaluate machine-learning models using appropriate metrics and test data. Deep learning uses layered neural networks. AI policies should address fairness, privacy, safety, stakeholder interests and transparent data-sharing decisions.",
+          "explanations": {
+            "ur": "مشین لرننگ ماڈلز کو درست metrics اور test data سے جانچیں۔ Deep learning تہہ دار neural networks استعمال کرتی ہے۔ AI پالیسی میں انصاف، رازداری اور حفاظت شامل ہوں۔",
+            "sd": "مشين لرننگ ماڊل مناسب metrics ۽ test data سان پرکجن۔ Deep learning گهڻ-تهن neural networks استعمال ڪري ٿي۔ AI پاليسي ۾ انصاف، رازداري ۽ حفاظت شامل هجن۔"
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which component executes program instructions?",
+          "options": {
+            "A": "CPU",
+            "B": "Monitor",
+            "C": "Keyboard",
+            "D": "Printer"
+          },
+          "correctOption": "A",
+          "explanation": "The CPU fetches, decodes and executes instructions."
+        },
+        {
+          "question": "Which construct repeats a block of instructions?",
+          "options": {
+            "A": "Sequence",
+            "B": "Iteration",
+            "C": "Selection",
+            "D": "Comment"
+          },
+          "correctOption": "B",
+          "explanation": "Iteration repeats instructions while a condition or count requires it."
+        },
+        {
+          "question": "What is the main purpose of encryption?",
+          "options": {
+            "A": "Compress files",
+            "B": "Protect information from unauthorized reading",
+            "C": "Increase screen size",
+            "D": "Sort a list"
+          },
+          "correctOption": "B",
+          "explanation": "Encryption transforms readable data into ciphertext using a key."
+        },
+        {
+          "question": "Which practice helps find software defects?",
+          "options": {
+            "A": "Avoid testing",
+            "B": "Debugging",
+            "C": "Deleting requirements",
+            "D": "Ignoring errors"
+          },
+          "correctOption": "B",
+          "explanation": "Debugging locates and corrects faults."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade XII: Describe one way computational thinking can help solve a real-world problem.",
+          "modelAnswer": "Decompose the task into smaller parts, identify patterns, abstract irrelevant details and design a finite algorithm. Test the solution with representative inputs and refine it.",
+          "rubric": [
+            "Problem decomposition (1)",
+            "Pattern recognition or abstraction (1)",
+            "Clear algorithm (1)",
+            "Testing (1)",
+            "Relevant example (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade XII: Explain how a responsible software solution should be designed, implemented and evaluated.",
+          "modelAnswer": "Start by identifying users and requirements. Design a modular solution and select appropriate algorithms and data structures. Implement with clear code, test normal, boundary and invalid cases, debug faults, and evaluate correctness, efficiency, accessibility, privacy and security. Improve the solution using feedback.",
+          "rubric": [
+            "Requirements and design (2)",
+            "Algorithms/programming (2)",
+            "Testing and debugging (2)",
+            "Security/privacy/accessibility (2)",
+            "Evaluation and improvement (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
