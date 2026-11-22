@@ -1,0 +1,318 @@
+{
+  "id": "urdu-sindhi-ix-x-language",
+  "title": "Urdu and Sindhi IX–X — Compulsory Language Skills",
+  "description": "Supplementary grade-level units with lessons, MCQs, CRQs and ERQs, including Urdu and Sindhi support. Confirm the student's board, group and prescribed textbook before treating any elective as part of an individual syllabus.",
+  "version": "1",
+  "curriculumAlignment": "Supplementary language course for the Sindh SSC scheme. The official scheme includes Sindhi/Urdu mother-tongue and non-mother-tongue options in Grades IX–X. This package is a skills map, not a textbook chapter reproduction.",
+  "sourceReferences": [
+    {
+      "title": "DCAR Sindh Curriculum Catalogue",
+      "url": "https://www.dcar.gos.pk/Sindh%20Curriculum.html",
+      "note": "Official subject and grade listings."
+    },
+    {
+      "title": "Government of Sindh — Scheme of Studies and Humanities Group notification",
+      "url": "https://dcar.gos.pk/other_notifications/Scheme%20of%20Studies%20and%20bifurcation%20of%20the%20subjects%20%28Humanities%20Group%29%20for%20Class%20IX%20and%20X.pdf",
+      "note": "Official subject group options and allocations."
+    },
+    {
+      "title": "Government of Sindh — HSC Commerce and General Group notification",
+      "url": "https://dcar.gos.pk/other_notifications/HSC%20Commerce%20and%20General%20Group%20Final%20with%20notification.pdf",
+      "note": "Official Commerce and General Group subject listings."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "IX — Urdu reading and comprehension",
+      "description": "Supplementary topic 1: IX — Urdu reading and comprehension.",
+      "lessons": [
+        {
+          "title": "1.1 IX — Urdu reading and comprehension — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nRead a prose passage for its central idea, supporting details, vocabulary and author's purpose. Use context to infer unfamiliar words and support answers with a phrase or event from the passage.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "نثر میں مرکزی خیال، معاون تفصیلات، الفاظ کے مفہوم اور مصنف کے مقصد کو پہچانیں۔ نامانوس الفاظ کا مطلب سیاق سے اخذ کریں اور جواب میں متن کی دلیل دیں۔",
+            "sd": "نثر ۾ مرڪزي خيال، مددگار تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سڃاڻو. اڻڄاتل لفظن جو مطلب سياق مان سمجهو ۽ جواب ۾ متن جو ثبوت ڏيو۔"
+          }
+        },
+        {
+          "title": "1.2 IX — Urdu reading and comprehension — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes ix — urdu reading and comprehension?",
+          "options": {
+            "A": "Read a prose passage for its central idea, supporting details, vocabulary and author's purpose. Use context to infer unfamiliar words and support answers with a phrase or event fro",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Read a prose passage for its central idea, supporting details, vocabulary and author's purpose. Use context to infer unfamiliar words and support answers with a phrase or event from the passage."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of ix — urdu reading and comprehension?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Read a prose passage for its central idea, supporting details, vocabulary and author's purpose. Use context to infer unfamiliar words and support answers with a phrase or event from the passage."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in ix — urdu reading and comprehension and explain their importance.",
+          "modelAnswer": "Read a prose passage for its central idea, supporting details, vocabulary and author's purpose. Use context to infer unfamiliar words and support answers with a phrase or event from the passage.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss ix — urdu reading and comprehension with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Read a prose passage for its central idea, supporting details, vocabulary and author's purpose. Use context to infer unfamiliar words and support answers with a phrase or event from the passage. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "IX — Sindhi reading and comprehension",
+      "description": "Supplementary topic 2: IX — Sindhi reading and comprehension.",
+      "lessons": [
+        {
+          "title": "2.1 IX — Sindhi reading and comprehension — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nRead a Sindhi passage for its main message, details, vocabulary and writer's intention. Explain ideas in your own words and support answers with evidence from the passage.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "سنڌي نثر جو مرڪزي پيغام، تفصيل، لفظن جا مطلب ۽ ليکڪ جو مقصد سمجهو. خيال پنهنجن لفظن ۾ بيان ڪريو ۽ متن مان ثبوت ڏيو۔",
+            "sd": "اردو مدد: سندھی نثر کا مرکزی پیغام، تفصیلات، الفاظ کے معنی اور مصنف کا مقصد سمجھیں۔ خیالات اپنے الفاظ میں بیان کریں اور متن سے دلیل دیں۔"
+          }
+        },
+        {
+          "title": "2.2 IX — Sindhi reading and comprehension — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes ix — sindhi reading and comprehension?",
+          "options": {
+            "A": "Read a Sindhi passage for its main message, details, vocabulary and writer's intention. Explain ideas in your own words and support answers with evidence from the passage.",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Read a Sindhi passage for its main message, details, vocabulary and writer's intention. Explain ideas in your own words and support answers with evidence from the passage."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of ix — sindhi reading and comprehension?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Read a Sindhi passage for its main message, details, vocabulary and writer's intention. Explain ideas in your own words and support answers with evidence from the passage."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in ix — sindhi reading and comprehension and explain their importance.",
+          "modelAnswer": "Read a Sindhi passage for its main message, details, vocabulary and writer's intention. Explain ideas in your own words and support answers with evidence from the passage.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss ix — sindhi reading and comprehension with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Read a Sindhi passage for its main message, details, vocabulary and writer's intention. Explain ideas in your own words and support answers with evidence from the passage. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "X — Urdu grammar and composition",
+      "description": "Supplementary topic 3: X — Urdu grammar and composition.",
+      "lessons": [
+        {
+          "title": "3.1 X — Urdu grammar and composition — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nApply correct sentence structure, gender and number agreement, verb forms, punctuation and paragraph unity. A formal application should state its purpose clearly, use respectful language and present details in order.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "درست جملہ سازی، تذکیر و تانیث، واحد جمع، فعل، رموزِ اوقاف اور پیراگراف کی یکجائی استعمال کریں۔ درخواست میں مقصد واضح اور لہجہ مؤدبانہ رکھیں۔",
+            "sd": "صحيح جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ پيراگراف جي يڪجهتي اختيار ڪريو. درخواست ۾ مقصد صاف ۽ لهجو ادب وارو رکو۔"
+          }
+        },
+        {
+          "title": "3.2 X — Urdu grammar and composition — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes x — urdu grammar and composition?",
+          "options": {
+            "A": "Apply correct sentence structure, gender and number agreement, verb forms, punctuation and paragraph unity. A formal application should state its purpose clearly, use respectful la",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Apply correct sentence structure, gender and number agreement, verb forms, punctuation and paragraph unity. A formal application should state its purpose clearly, use respectful language and present details in order."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of x — urdu grammar and composition?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Apply correct sentence structure, gender and number agreement, verb forms, punctuation and paragraph unity. A formal application should state its purpose clearly, use respectful language and present details in order."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in x — urdu grammar and composition and explain their importance.",
+          "modelAnswer": "Apply correct sentence structure, gender and number agreement, verb forms, punctuation and paragraph unity. A formal application should state its purpose clearly, use respectful language and present details in order.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss x — urdu grammar and composition with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Apply correct sentence structure, gender and number agreement, verb forms, punctuation and paragraph unity. A formal application should state its purpose clearly, use respectful language and present details in order. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "X — Sindhi grammar and composition",
+      "description": "Supplementary topic 4: X — Sindhi grammar and composition.",
+      "lessons": [
+        {
+          "title": "4.1 X — Sindhi grammar and composition — core concepts",
+          "type": "text",
+          "content": "## Learning outcomes\nUse sentence structure, gender and number agreement, verb forms, punctuation and coherent paragraphs accurately. In a formal application, state the purpose, relevant details and request politely.\n\n## Key study task\nDefine the important terms, explain one relationship and give a relevant local or practical example.",
+          "explanations": {
+            "ur": "جملي جي بناوت، جنس ۽ عدد جي موافقت، فعل، اوقاف ۽ مربوط پيراگراف صحيح استعمال ڪريو. رسمي درخواست ۾ مقصد، تفصيل ۽ گذارش ادب سان لکو۔",
+            "sd": "اردو مدد: جملے کی ساخت، جنس و عدد کی مطابقت، فعل، رموزِ اوقاف اور مربوط پیراگراف درست استعمال کریں۔ رسمی درخواست میں مقصد اور تفصیلات مؤدبانہ انداز میں لکھیں۔"
+          }
+        },
+        {
+          "title": "4.2 X — Sindhi grammar and composition — application and review",
+          "type": "text",
+          "content": "Apply the main ideas to a short case or classroom problem. Identify the relevant facts, organise your reasoning and write a concise conclusion. Where data or historical claims are used, explain the source and any limitations.",
+          "explanations": {
+            "ur": "اہم تصورات کو ایک مختصر عملی مثال پر لاگو کریں۔ متعلقہ حقائق شناخت کریں، دلیل ترتیب دیں اور واضح نتیجہ لکھیں۔",
+            "sd": "اهم تصورن کي مختصر عملي مثال تي لاڳو ڪريو. لاڳاپيل حقيقتون سڃاڻو، دليل ترتيب ڏيو ۽ صاف نتيجو لکو."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which statement best describes x — sindhi grammar and composition?",
+          "options": {
+            "A": "Use sentence structure, gender and number agreement, verb forms, punctuation and coherent paragraphs accurately. In a formal application, state the purpose, relevant details and re",
+            "B": "It should be studied without context or evidence.",
+            "C": "It has no practical or academic application.",
+            "D": "It depends only on personal opinion."
+          },
+          "correctOption": "A",
+          "explanation": "Use sentence structure, gender and number agreement, verb forms, punctuation and coherent paragraphs accurately. In a formal application, state the purpose, relevant details and request politely."
+        },
+        {
+          "question": "What is the best way to demonstrate understanding of x — sindhi grammar and composition?",
+          "options": {
+            "A": "Repeat unrelated definitions.",
+            "B": "Explain key ideas with relevant evidence and examples.",
+            "C": "Avoid showing reasoning.",
+            "D": "Ignore the question's context."
+          },
+          "correctOption": "B",
+          "explanation": "Use sentence structure, gender and number agreement, verb forms, punctuation and coherent paragraphs accurately. In a formal application, state the purpose, relevant details and request politely."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Define two key ideas in x — sindhi grammar and composition and explain their importance.",
+          "modelAnswer": "Use sentence structure, gender and number agreement, verb forms, punctuation and coherent paragraphs accurately. In a formal application, state the purpose, relevant details and request politely.",
+          "rubric": [
+            "Two accurate ideas (2)",
+            "Explanation and example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss x — sindhi grammar and composition with reference to an appropriate practical, historical or academic example.",
+          "modelAnswer": "Use sentence structure, gender and number agreement, verb forms, punctuation and coherent paragraphs accurately. In a formal application, state the purpose, relevant details and request politely. Develop the answer with an introduction, evidence-based explanation and a concise conclusion.",
+          "rubric": [
+            "Accurate knowledge (3)",
+            "Analysis and evidence (3)",
+            "Organisation (2)",
+            "Clarity (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
