@@ -414,14 +414,14 @@
       "id": "urdu-xi-xii-literature-language",
       "title": "Urdu XI–XII — Zaban, Adab aur Tahrir",
       "path": "zeeroz-academy/content/courses/urdu-xi-xii-literature-language.json",
-      "version": "1",
+      "version": "2",
       "order": 1
     },
     {
       "id": "sindhi-xi-xii-language-literature",
       "title": "Sindhi XI–XII — Bhasha, Adab ain Likhat",
       "path": "zeeroz-academy/content/courses/sindhi-xi-xii-language-literature.json",
-      "version": "1",
+      "version": "2",
       "order": 1
     },
     {
