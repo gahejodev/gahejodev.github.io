@@ -1,0 +1,206 @@
+{
+  "id": "chemistry-ix-x-dcar-2024",
+  "title": "Chemistry IX–X (DCAR 2024)",
+  "description": "Grade IX and X learning maps for matter, mixtures, atomic structure, bonding, reactions, energetics, gas laws, stoichiometry, electrochemistry, organic chemistry and polymers. Lessons and practice assessments per grade.",
+  "version": "1",
+  "curriculumAlignment": "Sindh Curriculum for Chemistry Grade IX–XII 2024, official DCAR curriculum. This package is organized as grade-level conceptual units and does not assert textbook chapter numbers.",
+  "sourceReferences": [
+    {
+      "title": "Sindh Curriculum for Chemistry Grade IX–XII 2024",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+      "note": "Official DCAR Chemistry curriculum."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Grade IX: Chemistry",
+      "description": "Grade-level conceptual map based on DCAR Chemistry 2024; chapter labels are curriculum units, not claimed STBB chapter numbers.",
+      "lessons": [
+        {
+          "title": "Unit 1: Fundamentals, mixtures and separation",
+          "content": "Chemistry studies the composition, structure and changes of matter. Distinguish elements, compounds and mixtures. Compare solutions, colloids and suspensions; explain solubility and saturated/unsaturated solutions. Select filtration, crystallization, distillation or chromatography according to mixture properties."
+        },
+        {
+          "title": "Unit 2: Atomic structure and periodicity",
+          "content": "Describe protons, neutrons and electrons, atomic number and mass number, isotopes and ions. Relate electron arrangement to the periodic table and chemical behaviour. Explain basic periodic trends and the formation of cations and anions."
+        },
+        {
+          "title": "Unit 3: Chemical bonding and formulae",
+          "content": "Explain ionic, covalent and metallic bonding and relate bonding to conductivity, melting point and strength. Write formulae for common compounds, draw simple dot-and-cross structures and balance straightforward chemical equations."
+        },
+        {
+          "title": "Unit 4: Energetics, reactions and laboratory chemistry",
+          "content": "Distinguish exothermic and endothermic changes, activation energy and catalysts. Describe acids, bases and salts, simple reaction types and safe laboratory practice. Identify selected gases and cations using appropriate tests."
+        }
+      ],
+      "questions": [
+        {
+          "question": "The atomic number of an element is the number of:",
+          "options": {
+            "A": "protons",
+            "B": "neutrons",
+            "C": "shells",
+            "D": "molecules"
+          },
+          "correctOption": "A",
+          "explanation": "Atomic number equals the number of protons."
+        },
+        {
+          "question": "A saturated solution at a given temperature:",
+          "options": {
+            "A": "contains no solute",
+            "B": "cannot dissolve more solute at equilibrium",
+            "C": "is always a suspension",
+            "D": "contains only solvent"
+          },
+          "correctOption": "B",
+          "explanation": "A saturated solution holds the maximum dissolved solute under those conditions."
+        },
+        {
+          "question": "A catalyst increases reaction rate by:",
+          "options": {
+            "A": "raising product mass",
+            "B": "providing an alternative lower activation-energy pathway",
+            "C": "being consumed completely",
+            "D": "changing the equilibrium constant"
+          },
+          "correctOption": "B",
+          "explanation": "Catalysts provide an alternative pathway with lower activation energy."
+        },
+        {
+          "question": "In electrolysis, reduction occurs at the:",
+          "options": {
+            "A": "anode",
+            "B": "cathode",
+            "C": "salt bridge",
+            "D": "power switch"
+          },
+          "correctOption": "B",
+          "explanation": "Reduction is gain of electrons and occurs at the cathode."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade IX: Explain how you would separate a mixture containing an insoluble solid and a dissolved salt.",
+          "modelAnswer": "Filter the mixture to remove the insoluble solid. The filtrate contains the dissolved salt. Evaporate some solvent and cool to crystallize the salt, then collect and dry the crystals.",
+          "rubric": [
+            "Correct filtration (2)",
+            "Identifies filtrate (1)",
+            "Crystallization/evaporation (1)",
+            "Collection/drying (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade IX: Explain how particle theory helps account for a chemical or physical change and how evidence can test the explanation.",
+          "modelAnswer": "Describe particle arrangement, motion and interactions before and after the change. Explain how energy transfer or rearrangement accounts for observations. Identify measurable evidence such as temperature, mass, gas production or rate, and describe a controlled experiment with repeats and safe procedures.",
+          "rubric": [
+            "Particle model before/after (2)",
+            "Energy or interaction explanation (2)",
+            "Observable evidence (2)",
+            "Controlled method and repeats (2)",
+            "Safety and conclusion (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grade X: Chemistry",
+      "description": "Grade-level conceptual map based on DCAR Chemistry 2024; chapter labels are curriculum units, not claimed STBB chapter numbers.",
+      "lessons": [
+        {
+          "title": "Unit 1: States of matter and gas laws",
+          "content": "Use kinetic particle theory to explain melting, boiling, evaporation, condensation, sublimation and diffusion. Interpret heating/cooling curves and apply Boyle's, Charles's and Avogadro's laws in suitable conditions."
+        },
+        {
+          "title": "Unit 2: Stoichiometry and electrochemistry",
+          "content": "Use balanced equations and the mole concept to calculate reacting quantities. Identify limiting reactants in simple cases. Explain electrolysis, electrode reactions, electroplating and the operation of a simple voltaic cell."
+        },
+        {
+          "title": "Unit 3: Organic chemistry and fuels",
+          "content": "Recognize hydrocarbons and common functional groups. Describe fossil fuels, crude oil fractions and basic reactions of alkanes and alkenes. Relate structure to properties and discuss responsible fuel use."
+        },
+        {
+          "title": "Unit 4: Polymers, environment and practical analysis",
+          "content": "Distinguish addition and condensation polymers at an introductory level. Discuss materials, recycling and environmental effects. Use observations, gas tests and simple experimental data to identify substances."
+        }
+      ],
+      "questions": [
+        {
+          "question": "The atomic number of an element is the number of:",
+          "options": {
+            "A": "protons",
+            "B": "neutrons",
+            "C": "shells",
+            "D": "molecules"
+          },
+          "correctOption": "A",
+          "explanation": "Atomic number equals the number of protons."
+        },
+        {
+          "question": "A saturated solution at a given temperature:",
+          "options": {
+            "A": "contains no solute",
+            "B": "cannot dissolve more solute at equilibrium",
+            "C": "is always a suspension",
+            "D": "contains only solvent"
+          },
+          "correctOption": "B",
+          "explanation": "A saturated solution holds the maximum dissolved solute under those conditions."
+        },
+        {
+          "question": "A catalyst increases reaction rate by:",
+          "options": {
+            "A": "raising product mass",
+            "B": "providing an alternative lower activation-energy pathway",
+            "C": "being consumed completely",
+            "D": "changing the equilibrium constant"
+          },
+          "correctOption": "B",
+          "explanation": "Catalysts provide an alternative pathway with lower activation energy."
+        },
+        {
+          "question": "In electrolysis, reduction occurs at the:",
+          "options": {
+            "A": "anode",
+            "B": "cathode",
+            "C": "salt bridge",
+            "D": "power switch"
+          },
+          "correctOption": "B",
+          "explanation": "Reduction is gain of electrons and occurs at the cathode."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Grade X: Explain how you would separate a mixture containing an insoluble solid and a dissolved salt.",
+          "modelAnswer": "Filter the mixture to remove the insoluble solid. The filtrate contains the dissolved salt. Evaporate some solvent and cool to crystallize the salt, then collect and dry the crystals.",
+          "rubric": [
+            "Correct filtration (2)",
+            "Identifies filtrate (1)",
+            "Crystallization/evaporation (1)",
+            "Collection/drying (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Grade X: Explain how particle theory helps account for a chemical or physical change and how evidence can test the explanation.",
+          "modelAnswer": "Describe particle arrangement, motion and interactions before and after the change. Explain how energy transfer or rearrangement accounts for observations. Identify measurable evidence such as temperature, mass, gas production or rate, and describe a controlled experiment with repeats and safe procedures.",
+          "rubric": [
+            "Particle model before/after (2)",
+            "Energy or interaction explanation (2)",
+            "Observable evidence (2)",
+            "Controlled method and repeats (2)",
+            "Safety and conclusion (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
