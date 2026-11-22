@@ -2,7 +2,7 @@
   "id": "language-culture-electives-ix-xii",
   "title": "Language and Culture Electives IX–XII — Arabic, Urdu Literature and History",
   "description": "Supplementary topic units with two lessons per unit, MCQs, CRQs and ERQs plus Urdu/Sindhi learner support. Confirm the learner's selected board subject and current textbook.",
-  "version": "1",
+  "version": "2",
   "curriculumAlignment": "Supplementary topic map for selected elective subjects identified in DCAR curriculum catalogues and Sindh scheme notifications. Subject availability varies by board and group; verify the current prescribed textbook and subject selection.",
   "sourceReferences": [
     {
@@ -50,7 +50,29 @@
             "D": "Treat every community or period as identical."
           },
           "correctOption": "A",
-          "explanation": "Develop Arabic reading, vocabulary, pronunciation and grammar. Recognise roots, patterns, noun and verb forms, sentence structure and basic connectors. Translate short passages by preserving meaning and context rather than replacing words mechanically."
+          "explanation": "Develop Arabic reading, vocabulary, pronunciation and grammar. Recognise roots, patterns, noun and verb forms, sentence structure and basic connectors. Translate short passages by preserving meaning and context rather than replacing words mechanically.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور قواعد بہتر کریں۔ مادہ، صیغے، اسم و فعل اور جملے کی ساخت پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور قواعد بہتر کریں۔ مادہ، صیغے، اسم و فعل اور جملے کی ساخت پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "عربي ۾ پڙهڻ، لفظن جو ذخيرو، اچار ۽ گرامر بهتر ڪريو. مادا، صورتون، اسم ۽ فعل سڃاڻو. ترجمي ۾ مطلب ۽ سياق برقرار رکو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "عربي ۾ پڙهڻ، لفظن جو ذخيرو، اچار ۽ گرامر بهتر ڪريو. مادا، صورتون، اسم ۽ فعل سڃاڻو. ترجمي ۾ مطلب ۽ سياق برقرار رکو."
+            }
+          }
         },
         {
           "question": "What should a strong answer about arabic xi–xii — language foundations include?",
@@ -61,7 +83,29 @@
             "D": "No reference to context."
           },
           "correctOption": "B",
-          "explanation": "Develop Arabic reading, vocabulary, pronunciation and grammar. Recognise roots, patterns, noun and verb forms, sentence structure and basic connectors. Translate short passages by preserving meaning and context rather than replacing words mechanically."
+          "explanation": "Develop Arabic reading, vocabulary, pronunciation and grammar. Recognise roots, patterns, noun and verb forms, sentence structure and basic connectors. Translate short passages by preserving meaning and context rather than replacing words mechanically.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور قواعد بہتر کریں۔ مادہ، صیغے، اسم و فعل اور جملے کی ساخت پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور قواعد بہتر کریں۔ مادہ، صیغے، اسم و فعل اور جملے کی ساخت پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "عربي ۾ پڙهڻ، لفظن جو ذخيرو، اچار ۽ گرامر بهتر ڪريو. مادا، صورتون، اسم ۽ فعل سڃاڻو. ترجمي ۾ مطلب ۽ سياق برقرار رکو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "عربي ۾ پڙهڻ، لفظن جو ذخيرو، اچار ۽ گرامر بهتر ڪريو. مادا، صورتون، اسم ۽ فعل سڃاڻو. ترجمي ۾ مطلب ۽ سياق برقرار رکو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -74,7 +118,27 @@
             "Two accurate ideas (2)",
             "Relevant examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور قواعد بہتر کریں۔ مادہ، صیغے، اسم و فعل اور جملے کی ساخت پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "عربي ۾ پڙهڻ، لفظن جو ذخيرو، اچار ۽ گرامر بهتر ڪريو. مادا، صورتون، اسم ۽ فعل سڃاڻو. ترجمي ۾ مطلب ۽ سياق برقرار رکو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -86,7 +150,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "موضوع پر منظم جواب لکھیں اور مثالیں شامل کریں۔",
+              "modelAnswer": "عربی میں مطالعہ، ذخیرۂ الفاظ، تلفظ اور قواعد بہتر کریں۔ مادہ، صیغے، اسم و فعل اور جملے کی ساخت پہچانیں۔ ترجمے میں مفہوم برقرار رکھیں۔",
+              "rubric": [
+                "درست معلومات (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان (2)"
+              ]
+            },
+            "sd": {
+              "question": "موضوع تي ترتيبوار جواب لکو ۽ مثالون شامل ڪريو.",
+              "modelAnswer": "عربي ۾ پڙهڻ، لفظن جو ذخيرو، اچار ۽ گرامر بهتر ڪريو. مادا، صورتون، اسم ۽ فعل سڃاڻو. ترجمي ۾ مطلب ۽ سياق برقرار رکو.",
+              "rubric": [
+                "صحيح ڄاڻ (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -123,7 +209,29 @@
             "D": "Treat every community or period as identical."
           },
           "correctOption": "A",
-          "explanation": "Study poetry, short stories, essays and drama by identifying genre, theme, narrator, character, setting and style. Explain literary devices and support interpretations with examples from the prescribed text."
+          "explanation": "Study poetry, short stories, essays and drama by identifying genre, theme, narrator, character, setting and style. Explain literary devices and support interpretations with examples from the prescribed text.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "شاعری، افسانہ، مضمون اور ڈراما پڑھتے ہوئے صنف، موضوع، راوی، کردار، ماحول اور اسلوب پہچانیں۔ ادبی صنعتوں کی وضاحت متن کی مثالوں سے کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "شاعری، افسانہ، مضمون اور ڈراما پڑھتے ہوئے صنف، موضوع، راوی، کردار، ماحول اور اسلوب پہچانیں۔ ادبی صنعتوں کی وضاحت متن کی مثالوں سے کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "شاعري، ڪهاڻي، مضمون ۽ ڊرامو پڙهندي صنف، موضوع، راوي، ڪردار، ماحول ۽ اسلوب سڃاڻو. ادبي صنعتن جي وضاحت متن جي مثالن سان ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "شاعري، ڪهاڻي، مضمون ۽ ڊرامو پڙهندي صنف، موضوع، راوي، ڪردار، ماحول ۽ اسلوب سڃاڻو. ادبي صنعتن جي وضاحت متن جي مثالن سان ڪريو."
+            }
+          }
         },
         {
           "question": "What should a strong answer about urdu literature ix–x — literary forms include?",
@@ -134,7 +242,29 @@
             "D": "No reference to context."
           },
           "correctOption": "B",
-          "explanation": "Study poetry, short stories, essays and drama by identifying genre, theme, narrator, character, setting and style. Explain literary devices and support interpretations with examples from the prescribed text."
+          "explanation": "Study poetry, short stories, essays and drama by identifying genre, theme, narrator, character, setting and style. Explain literary devices and support interpretations with examples from the prescribed text.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "شاعری، افسانہ، مضمون اور ڈراما پڑھتے ہوئے صنف، موضوع، راوی، کردار، ماحول اور اسلوب پہچانیں۔ ادبی صنعتوں کی وضاحت متن کی مثالوں سے کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "شاعری، افسانہ، مضمون اور ڈراما پڑھتے ہوئے صنف، موضوع، راوی، کردار، ماحول اور اسلوب پہچانیں۔ ادبی صنعتوں کی وضاحت متن کی مثالوں سے کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "شاعري، ڪهاڻي، مضمون ۽ ڊرامو پڙهندي صنف، موضوع، راوي، ڪردار، ماحول ۽ اسلوب سڃاڻو. ادبي صنعتن جي وضاحت متن جي مثالن سان ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "شاعري، ڪهاڻي، مضمون ۽ ڊرامو پڙهندي صنف، موضوع، راوي، ڪردار، ماحول ۽ اسلوب سڃاڻو. ادبي صنعتن جي وضاحت متن جي مثالن سان ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -147,7 +277,27 @@
             "Two accurate ideas (2)",
             "Relevant examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "شاعری، افسانہ، مضمون اور ڈراما پڑھتے ہوئے صنف، موضوع، راوی، کردار، ماحول اور اسلوب پہچانیں۔ ادبی صنعتوں کی وضاحت متن کی مثالوں سے کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "شاعري، ڪهاڻي، مضمون ۽ ڊرامو پڙهندي صنف، موضوع، راوي، ڪردار، ماحول ۽ اسلوب سڃاڻو. ادبي صنعتن جي وضاحت متن جي مثالن سان ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -159,7 +309,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "موضوع پر منظم جواب لکھیں اور مثالیں شامل کریں۔",
+              "modelAnswer": "شاعری، افسانہ، مضمون اور ڈراما پڑھتے ہوئے صنف، موضوع، راوی، کردار، ماحول اور اسلوب پہچانیں۔ ادبی صنعتوں کی وضاحت متن کی مثالوں سے کریں۔",
+              "rubric": [
+                "درست معلومات (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان (2)"
+              ]
+            },
+            "sd": {
+              "question": "موضوع تي ترتيبوار جواب لکو ۽ مثالون شامل ڪريو.",
+              "modelAnswer": "شاعري، ڪهاڻي، مضمون ۽ ڊرامو پڙهندي صنف، موضوع، راوي، ڪردار، ماحول ۽ اسلوب سڃاڻو. ادبي صنعتن جي وضاحت متن جي مثالن سان ڪريو.",
+              "rubric": [
+                "صحيح ڄاڻ (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -196,7 +368,29 @@
             "D": "Treat every community or period as identical."
           },
           "correctOption": "A",
-          "explanation": "Study major periods, institutions, personalities and developments in Muslim history through chronology and reliable sources. Distinguish historical evidence from later interpretation and explain causes, consequences and continuity over time."
+          "explanation": "Study major periods, institutions, personalities and developments in Muslim history through chronology and reliable sources. Distinguish historical evidence from later interpretation and explain causes, consequences and continuity over time.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "مسلم تاریخ کے ادوار، اداروں، شخصیات اور واقعات کو زمانی ترتیب اور معتبر ماخذ سے پڑھیں۔ تاریخی شواہد اور بعد کی تشریح میں فرق کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مسلم تاریخ کے ادوار، اداروں، شخصیات اور واقعات کو زمانی ترتیب اور معتبر ماخذ سے پڑھیں۔ تاریخی شواہد اور بعد کی تشریح میں فرق کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "مسلم تاريخ جا دور، ادارا، شخصيتون ۽ واقعا ترتيب ۽ معتبر ماخذ سان پڙهو. تاريخي ثبوت ۽ پوءِ ڪيل تشريح ۾ فرق ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مسلم تاريخ جا دور، ادارا، شخصيتون ۽ واقعا ترتيب ۽ معتبر ماخذ سان پڙهو. تاريخي ثبوت ۽ پوءِ ڪيل تشريح ۾ فرق ڪريو."
+            }
+          }
         },
         {
           "question": "What should a strong answer about muslim history ix–x — chronology and historical evidence include?",
@@ -207,7 +401,29 @@
             "D": "No reference to context."
           },
           "correctOption": "B",
-          "explanation": "Study major periods, institutions, personalities and developments in Muslim history through chronology and reliable sources. Distinguish historical evidence from later interpretation and explain causes, consequences and continuity over time."
+          "explanation": "Study major periods, institutions, personalities and developments in Muslim history through chronology and reliable sources. Distinguish historical evidence from later interpretation and explain causes, consequences and continuity over time.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "مسلم تاریخ کے ادوار، اداروں، شخصیات اور واقعات کو زمانی ترتیب اور معتبر ماخذ سے پڑھیں۔ تاریخی شواہد اور بعد کی تشریح میں فرق کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مسلم تاریخ کے ادوار، اداروں، شخصیات اور واقعات کو زمانی ترتیب اور معتبر ماخذ سے پڑھیں۔ تاریخی شواہد اور بعد کی تشریح میں فرق کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "مسلم تاريخ جا دور، ادارا، شخصيتون ۽ واقعا ترتيب ۽ معتبر ماخذ سان پڙهو. تاريخي ثبوت ۽ پوءِ ڪيل تشريح ۾ فرق ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مسلم تاريخ جا دور، ادارا، شخصيتون ۽ واقعا ترتيب ۽ معتبر ماخذ سان پڙهو. تاريخي ثبوت ۽ پوءِ ڪيل تشريح ۾ فرق ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -220,7 +436,27 @@
             "Two accurate ideas (2)",
             "Relevant examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "مسلم تاریخ کے ادوار، اداروں، شخصیات اور واقعات کو زمانی ترتیب اور معتبر ماخذ سے پڑھیں۔ تاریخی شواہد اور بعد کی تشریح میں فرق کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "مسلم تاريخ جا دور، ادارا، شخصيتون ۽ واقعا ترتيب ۽ معتبر ماخذ سان پڙهو. تاريخي ثبوت ۽ پوءِ ڪيل تشريح ۾ فرق ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -232,7 +468,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "موضوع پر منظم جواب لکھیں اور مثالیں شامل کریں۔",
+              "modelAnswer": "مسلم تاریخ کے ادوار، اداروں، شخصیات اور واقعات کو زمانی ترتیب اور معتبر ماخذ سے پڑھیں۔ تاریخی شواہد اور بعد کی تشریح میں فرق کریں۔",
+              "rubric": [
+                "درست معلومات (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان (2)"
+              ]
+            },
+            "sd": {
+              "question": "موضوع تي ترتيبوار جواب لکو ۽ مثالون شامل ڪريو.",
+              "modelAnswer": "مسلم تاريخ جا دور، ادارا، شخصيتون ۽ واقعا ترتيب ۽ معتبر ماخذ سان پڙهو. تاريخي ثبوت ۽ پوءِ ڪيل تشريح ۾ فرق ڪريو.",
+              "rubric": [
+                "صحيح ڄاڻ (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي (2)"
+              ]
+            }
+          }
         }
       ]
     },
@@ -269,7 +527,29 @@
             "D": "Treat every community or period as identical."
           },
           "correctOption": "A",
-          "explanation": "Study prescribed Islamic Studies themes through reliable texts, historical context and ethical application. Define key concepts accurately, distinguish primary teachings from personal interpretation and explain how values guide conduct and social responsibility."
+          "explanation": "Study prescribed Islamic Studies themes through reliable texts, historical context and ethical application. Define key concepts accurately, distinguish primary teachings from personal interpretation and explain how values guide conduct and social responsibility.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "مقررہ اسلامیات کے موضوعات کو معتبر متون، تاریخی پس منظر اور اخلاقی اطلاق کے ساتھ پڑھیں۔ بنیادی تعلیمات اور ذاتی تشریح میں فرق کریں۔",
+                "B": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مقررہ اسلامیات کے موضوعات کو معتبر متون، تاریخی پس منظر اور اخلاقی اطلاق کے ساتھ پڑھیں۔ بنیادی تعلیمات اور ذاتی تشریح میں فرق کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "مقرر اسلامي مطالعي جا موضوع معتبر متن، تاريخي پسمنظر ۽ اخلاقي لاڳو سان پڙهو. بنيادي تعليم ۽ ذاتي تشريح ۾ فرق ڪريو.",
+                "B": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مقرر اسلامي مطالعي جا موضوع معتبر متن، تاريخي پسمنظر ۽ اخلاقي لاڳو سان پڙهو. بنيادي تعليم ۽ ذاتي تشريح ۾ فرق ڪريو."
+            }
+          }
         },
         {
           "question": "What should a strong answer about islamic studies elective ix–x — concepts and context include?",
@@ -280,7 +560,29 @@
             "D": "No reference to context."
           },
           "correctOption": "B",
-          "explanation": "Study prescribed Islamic Studies themes through reliable texts, historical context and ethical application. Define key concepts accurately, distinguish primary teachings from personal interpretation and explain how values guide conduct and social responsibility."
+          "explanation": "Study prescribed Islamic Studies themes through reliable texts, historical context and ethical application. Define key concepts accurately, distinguish primary teachings from personal interpretation and explain how values guide conduct and social responsibility.",
+          "translations": {
+            "ur": {
+              "question": "اس موضوع کے بارے میں درست بیان کون سا ہے؟",
+              "options": {
+                "A": "سیاق اور شواہد کو نظر انداز کریں۔",
+                "B": "مقررہ اسلامیات کے موضوعات کو معتبر متون، تاریخی پس منظر اور اخلاقی اطلاق کے ساتھ پڑھیں۔ بنیادی تعلیمات اور ذاتی تشریح میں فرق کریں۔",
+                "C": "غیر متعلقہ معلومات شامل کریں۔",
+                "D": "بغیر دلیل کے دعویٰ کریں۔"
+              },
+              "explanation": "مقررہ اسلامیات کے موضوعات کو معتبر متون، تاریخی پس منظر اور اخلاقی اطلاق کے ساتھ پڑھیں۔ بنیادی تعلیمات اور ذاتی تشریح میں فرق کریں۔"
+            },
+            "sd": {
+              "question": "هن موضوع بابت صحيح بيان ڪهڙو آهي؟",
+              "options": {
+                "A": "سياق ۽ ثبوت کي نظرانداز ڪريو.",
+                "B": "مقرر اسلامي مطالعي جا موضوع معتبر متن، تاريخي پسمنظر ۽ اخلاقي لاڳو سان پڙهو. بنيادي تعليم ۽ ذاتي تشريح ۾ فرق ڪريو.",
+                "C": "غير لاڳاپيل ڄاڻ شامل ڪريو.",
+                "D": "بغير دليل جي دعويٰ ڪريو."
+              },
+              "explanation": "مقرر اسلامي مطالعي جا موضوع معتبر متن، تاريخي پسمنظر ۽ اخلاقي لاڳو سان پڙهو. بنيادي تعليم ۽ ذاتي تشريح ۾ فرق ڪريو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -293,7 +595,27 @@
             "Two accurate ideas (2)",
             "Relevant examples (2)",
             "Clear expression (1)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "دو اہم نکات کی وضاحت کریں اور مثال دیں۔",
+              "modelAnswer": "مقررہ اسلامیات کے موضوعات کو معتبر متون، تاریخی پس منظر اور اخلاقی اطلاق کے ساتھ پڑھیں۔ بنیادی تعلیمات اور ذاتی تشریح میں فرق کریں۔",
+              "rubric": [
+                "درست نکات (2)",
+                "وضاحت اور مثال (2)",
+                "واضح تحریر (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻه اهم نڪتا بيان ڪريو ۽ مثال ڏيو.",
+              "modelAnswer": "مقرر اسلامي مطالعي جا موضوع معتبر متن، تاريخي پسمنظر ۽ اخلاقي لاڳو سان پڙهو. بنيادي تعليم ۽ ذاتي تشريح ۾ فرق ڪريو.",
+              "rubric": [
+                "صحيح نڪتا (2)",
+                "وضاحت ۽ مثال (2)",
+                "صاف لکڻي (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
@@ -305,7 +627,29 @@
             "Explanation and evidence (3)",
             "Organisation (2)",
             "Clarity (2)"
-          ]
+          ],
+          "translations": {
+            "ur": {
+              "question": "موضوع پر منظم جواب لکھیں اور مثالیں شامل کریں۔",
+              "modelAnswer": "مقررہ اسلامیات کے موضوعات کو معتبر متون، تاریخی پس منظر اور اخلاقی اطلاق کے ساتھ پڑھیں۔ بنیادی تعلیمات اور ذاتی تشریح میں فرق کریں۔",
+              "rubric": [
+                "درست معلومات (3)",
+                "وضاحت اور مثالیں (3)",
+                "ترتیب (2)",
+                "زبان (2)"
+              ]
+            },
+            "sd": {
+              "question": "موضوع تي ترتيبوار جواب لکو ۽ مثالون شامل ڪريو.",
+              "modelAnswer": "مقرر اسلامي مطالعي جا موضوع معتبر متن، تاريخي پسمنظر ۽ اخلاقي لاڳو سان پڙهو. بنيادي تعليم ۽ ذاتي تشريح ۾ فرق ڪريو.",
+              "rubric": [
+                "صحيح ڄاڻ (3)",
+                "وضاحت ۽ مثالون (3)",
+                "ترتيب (2)",
+                "ٻولي (2)"
+              ]
+            }
+          }
         }
       ]
     }
