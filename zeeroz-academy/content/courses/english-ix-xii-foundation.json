@@ -1,0 +1,525 @@
+{
+  "id": "english-ix-xii-foundation",
+  "title": "English IX–XII — Language and Communication Foundations",
+  "description": "Four grade-level English units covering reading, grammar, composition, literature, academic communication and research, with Urdu and Sindhi lesson support. Supplementary skills course, not a claim of complete STBB chapter-by-chapter coverage.",
+  "version": "1",
+  "curriculumAlignment": "Skill-based supplementary course for Grades IX–XII. Use alongside the current DCAR English Language curriculum and prescribed STBB textbooks; edition-specific textbook chapter mapping is not asserted.",
+  "sourceReferences": [
+    {
+      "title": "DCAR Sindh Curriculum Catalogue — English Language Grade IX–XII (2024)",
+      "url": "https://www.dcar.gos.pk/Sindh%20Curriculum.html",
+      "note": "Official curriculum listing."
+    },
+    {
+      "title": "STBB eBooks catalogue",
+      "url": "https://ebooks.stbb.edu.pk/",
+      "note": "Official textbook portal for subsequent chapter-level mapping."
+    }
+  ],
+  "chapters": [
+    {
+      "title": "Grade IX — Reading, vocabulary and sentence foundations",
+      "description": "Grade IX English supplementary learning unit.",
+      "lessons": [
+        {
+          "title": "IX.1 Reading comprehension",
+          "type": "text",
+          "content": "## Learning outcomes\nFind the central idea, supporting details and evidence in a passage. Skimming gives an overview; scanning locates a detail. Inference combines textual clues with reasonable background knowledge. A strong answer refers to evidence rather than guessing.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "مرکزی خیال اور معاون تفصیلات پہچانیں۔ سرسری مطالعہ مجموعی خیال اور مخصوص تلاش کسی حقیقت کو ڈھونڈتی ہے۔ نتیجہ متن کے شواہد پر مبنی ہونا چاہیے۔",
+            "sd": "مرڪزي خيال ۽ مددگار تفصيل سڃاڻو. سرسري پڙهڻ سان مجموعي خيال ۽ مخصوص ڳولا سان حقيقت ملي ٿي. نتيجو متن جي ثبوت تي ٻڌل هجي."
+          }
+        },
+        {
+          "title": "IX.2 Parts of speech and sentence structure",
+          "type": "text",
+          "content": "## Learning outcomes\nA sentence usually contains a subject and predicate. Nouns name people, places or ideas; pronouns replace nouns; verbs express actions or states; adjectives modify nouns; adverbs modify verbs or modifiers. Prepositions show relationships and conjunctions connect units. Identify a word by its function in context.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "جملے میں عموماً فاعل اور خبر ہوتے ہیں۔ اسم نام، ضمیر اسم کی جگہ، فعل عمل یا حالت، صفت اسم اور متعلقِ فعل فعل کی وضاحت کرتا ہے۔",
+            "sd": "جملي ۾ عام طور فاعل ۽ خبر هوندا آهن. اسم نالو، ضمير اسم جي جاءِ، فعل عمل يا حالت، صفت اسم ۽ ظرف فعل جي وضاحت ڪري ٿو."
+          }
+        },
+        {
+          "title": "IX.3 Paragraph unity and cohesion",
+          "type": "text",
+          "content": "## Learning outcomes\nA paragraph develops one controlling idea. Begin with a topic sentence, add relevant evidence and examples, and finish with a conclusion. Transitions such as however, therefore and for example show relationships. Remove unrelated details and repetition.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "پیراگراف ایک مرکزی خیال پر قائم ہو۔ موضوعی جملے کے بعد متعلقہ شواہد اور مثالیں دیں، پھر اختتام کریں۔ ربط کے الفاظ خیالات کا تعلق واضح کرتے ہیں۔",
+            "sd": "پيراگراف هڪ بنيادي خيال تي هجي. موضوعي جملي کان پوءِ لاڳاپيل ثبوت ۽ مثال ڏيو، پوءِ نتيجو لکو. ڳانڍاپي وارا لفظ خيالن جو لاڳاپو ظاهر ڪن ٿا."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which practice best demonstrates reading comprehension?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "Find the central idea, supporting details and evidence in a passage. Skimming gives an overview; scanning locates a detail. Inference combines textual clues with reasonable background knowledge. A strong answer refers to evidence rather than guessing."
+        },
+        {
+          "question": "Why is reading comprehension important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "Find the central idea, supporting details and evidence in a passage. Skimming gives an overview; scanning locates a detail. Inference combines textual clues with reasonable background knowledge. A strong answer refers to evidence rather than guessing."
+        },
+        {
+          "question": "Which practice best demonstrates parts of speech and sentence structure?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "A sentence usually contains a subject and predicate. Nouns name people, places or ideas; pronouns replace nouns; verbs express actions or states; adjectives modify nouns; adverbs modify verbs or modifiers. Prepositions show relationships and conjunctions connect units. Identify a word by its function in context."
+        },
+        {
+          "question": "Why is parts of speech and sentence structure important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "A sentence usually contains a subject and predicate. Nouns name people, places or ideas; pronouns replace nouns; verbs express actions or states; adjectives modify nouns; adverbs modify verbs or modifiers. Prepositions show relationships and conjunctions connect units. Identify a word by its function in context."
+        },
+        {
+          "question": "Which practice best demonstrates paragraph unity and cohesion?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "A paragraph develops one controlling idea. Begin with a topic sentence, add relevant evidence and examples, and finish with a conclusion. Transitions such as however, therefore and for example show relationships. Remove unrelated details and repetition."
+        },
+        {
+          "question": "Why is paragraph unity and cohesion important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "A paragraph develops one controlling idea. Begin with a topic sentence, add relevant evidence and examples, and finish with a conclusion. Transitions such as however, therefore and for example show relationships. Remove unrelated details and repetition."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two principles of reading comprehension and provide an example.",
+          "modelAnswer": "Find the central idea, supporting details and evidence in a passage. Skimming gives an overview; scanning locates a detail. Inference combines textual clues with reasonable background knowledge. A strong answer refers to evidence rather than guessing.",
+          "rubric": [
+            "Two accurate principles (2)",
+            "Relevant example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Write a structured response explaining how parts of speech and sentence structure improves effective English communication.",
+          "modelAnswer": "A sentence usually contains a subject and predicate. Nouns name people, places or ideas; pronouns replace nouns; verbs express actions or states; adjectives modify nouns; adverbs modify verbs or modifiers. Prepositions show relationships and conjunctions connect units. Identify a word by its function in context. Apply these principles in a relevant academic or everyday example. Organise the answer with an introduction, developed points and conclusion.",
+          "rubric": [
+            "Accurate understanding (3)",
+            "Explanation and examples (3)",
+            "Organisation (2)",
+            "Grammar and vocabulary (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grade X — Grammar, composition and literary response",
+      "description": "Grade X English supplementary learning unit.",
+      "lessons": [
+        {
+          "title": "X.1 Tense and subject–verb agreement",
+          "type": "text",
+          "content": "## Learning outcomes\nTense locates an action in time; aspect shows whether it is simple, continuing or completed. The verb must agree with its subject in person and number. Check the true subject, especially in sentences with phrases between subject and verb.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "زمانہ عمل کا وقت اور نوعیت ظاہر کرتا ہے۔ فعل فاعل کے واحد یا جمع ہونے کے مطابق ہونا چاہیے۔ فاعل اور فعل کے درمیان آنے والے الفاظ سے دھوکا نہ کھائیں۔",
+            "sd": "زمانو عمل جو وقت ۽ نوعيت ڏيکاري ٿو. فعل فاعل جي واحد يا جمع سان ٺهڪڻ گهرجي. وچ ۾ ايندڙ لفظن سبب اصل فاعل کان غلطي نه ڪريو."
+          }
+        },
+        {
+          "title": "X.2 Formal letters and applications",
+          "type": "text",
+          "content": "## Learning outcomes\nA formal letter has a clear subject, respectful salutation, concise paragraphs and suitable closing. State the purpose first, provide necessary facts in order and make a clear request. Avoid slang, repetition and exaggerated language.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "رسمی خط میں واضح عنوان، مؤدبانہ خطاب، مختصر پیراگراف اور مناسب اختتام ہوتا ہے۔ مقصد پہلے بتائیں اور درخواست واضح رکھیں۔",
+            "sd": "رسمي خط ۾ صاف عنوان، ادب وارو خطاب، مختصر پيراگراف ۽ مناسب پڄاڻي هوندي آهي. مقصد شروع ۾ ٻڌايو ۽ درخواست واضح رکو."
+          }
+        },
+        {
+          "title": "X.3 Poetry and prose interpretation",
+          "type": "text",
+          "content": "## Learning outcomes\nAnalyse speaker, narrator, setting, conflict, imagery, tone and theme. A simile uses like or as; a metaphor makes a direct comparison; personification gives human qualities to non-human things. Support interpretation with textual evidence.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "متکلم، راوی، ماحول، کشمکش، منظر نگاری، لہجے اور موضوع کا جائزہ لیں۔ تشبیہ like یا as سے، استعارہ براہِ راست تقابل سے اور تشخیص انسانی صفات دینے سے بنتی ہے۔",
+            "sd": "ڳالهائيندڙ، راوي، ماحول، تڪرار، تصويري ٻولي، لهجو ۽ موضوع ڏسو. تشبيهه like يا as سان، استعارو سڌي ڀيٽ سان ۽ تشخيص انساني خوبيون ڏيڻ سان ٺهي ٿي."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which practice best demonstrates tense and subject–verb agreement?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "Tense locates an action in time; aspect shows whether it is simple, continuing or completed. The verb must agree with its subject in person and number. Check the true subject, especially in sentences with phrases between subject and verb."
+        },
+        {
+          "question": "Why is tense and subject–verb agreement important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "Tense locates an action in time; aspect shows whether it is simple, continuing or completed. The verb must agree with its subject in person and number. Check the true subject, especially in sentences with phrases between subject and verb."
+        },
+        {
+          "question": "Which practice best demonstrates formal letters and applications?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "A formal letter has a clear subject, respectful salutation, concise paragraphs and suitable closing. State the purpose first, provide necessary facts in order and make a clear request. Avoid slang, repetition and exaggerated language."
+        },
+        {
+          "question": "Why is formal letters and applications important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "A formal letter has a clear subject, respectful salutation, concise paragraphs and suitable closing. State the purpose first, provide necessary facts in order and make a clear request. Avoid slang, repetition and exaggerated language."
+        },
+        {
+          "question": "Which practice best demonstrates poetry and prose interpretation?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "Analyse speaker, narrator, setting, conflict, imagery, tone and theme. A simile uses like or as; a metaphor makes a direct comparison; personification gives human qualities to non-human things. Support interpretation with textual evidence."
+        },
+        {
+          "question": "Why is poetry and prose interpretation important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "Analyse speaker, narrator, setting, conflict, imagery, tone and theme. A simile uses like or as; a metaphor makes a direct comparison; personification gives human qualities to non-human things. Support interpretation with textual evidence."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two principles of tense and subject–verb agreement and provide an example.",
+          "modelAnswer": "Tense locates an action in time; aspect shows whether it is simple, continuing or completed. The verb must agree with its subject in person and number. Check the true subject, especially in sentences with phrases between subject and verb.",
+          "rubric": [
+            "Two accurate principles (2)",
+            "Relevant example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Write a structured response explaining how formal letters and applications improves effective English communication.",
+          "modelAnswer": "A formal letter has a clear subject, respectful salutation, concise paragraphs and suitable closing. State the purpose first, provide necessary facts in order and make a clear request. Avoid slang, repetition and exaggerated language. Apply these principles in a relevant academic or everyday example. Organise the answer with an introduction, developed points and conclusion.",
+          "rubric": [
+            "Accurate understanding (3)",
+            "Explanation and examples (3)",
+            "Organisation (2)",
+            "Grammar and vocabulary (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grade XI — Academic reading, argument and communication",
+      "description": "Grade XI English supplementary learning unit.",
+      "lessons": [
+        {
+          "title": "XI.1 Critical reading and argument",
+          "type": "text",
+          "content": "## Learning outcomes\nAn argument contains a claim supported by reasons and evidence. Distinguish facts from opinions, identify assumptions, and test whether evidence is relevant and sufficient. Notice counterarguments and summarise the author's position fairly without adding personal opinion.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "دلیل میں دعویٰ، وجوہات اور شواہد ہوتے ہیں۔ حقیقت اور رائے میں فرق کریں، مفروضات پہچانیں اور شواہد کی مناسبت و کفایت جانچیں۔ خلاصہ مصنف کا مؤقف درست پیش کرے۔",
+            "sd": "دليل ۾ دعويٰ، سبب ۽ ثبوت هوندا آهن. حقيقت ۽ راءِ ۾ فرق ڪريو، مفروضا سڃاڻو ۽ ثبوت جي مناسبت ۽ ڪفايت پرکو. خلاصو ليکڪ جو موقف صحيح ڏيکاري."
+          }
+        },
+        {
+          "title": "XI.2 Essay structure and academic paragraphs",
+          "type": "text",
+          "content": "## Learning outcomes\nBuild an essay around a focused thesis. Each body paragraph develops one supporting point with explanation and evidence. Transitions show contrast, cause and sequence. The conclusion synthesises the argument rather than merely repeating the introduction.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "مضمون واضح مرکزی مؤقف پر بنائیں۔ ہر پیراگراف ایک دلیل کو وضاحت اور ثبوت سے ترقی دے۔ اختتام میں دلائل کو یکجا کریں۔",
+            "sd": "مضمون واضح مرڪزي موقف تي ٺاهيو. هر پيراگراف هڪ دليل کي وضاحت ۽ ثبوت سان وڌائي. نتيجي ۾ دليلن کي گڏ ڪري پيش ڪريو."
+          }
+        },
+        {
+          "title": "XI.3 Presentation and active listening",
+          "type": "text",
+          "content": "## Learning outcomes\nAdapt language to audience and purpose. A presentation needs an opening, organised points, examples and a concise conclusion. Active listening involves attention, clarification and accurate paraphrase. Respond to ideas respectfully with reasons.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "زبان سامعین اور مقصد کے مطابق رکھیں۔ پریزنٹیشن میں آغاز، منظم نکات، مثالیں اور نتیجہ ضروری ہیں۔ فعال سماعت میں توجہ اور وضاحت شامل ہے۔",
+            "sd": "ٻولي سامعين ۽ مقصد مطابق رکو. پيشڪش ۾ شروعات، ترتيبوار نڪتا، مثالون ۽ نتيجو هئڻ گهرجي. ڌيان سان ٻڌڻ ۽ وضاحت اهم آهن."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which practice best demonstrates critical reading and argument?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "An argument contains a claim supported by reasons and evidence. Distinguish facts from opinions, identify assumptions, and test whether evidence is relevant and sufficient. Notice counterarguments and summarise the author's position fairly without adding personal opinion."
+        },
+        {
+          "question": "Why is critical reading and argument important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "An argument contains a claim supported by reasons and evidence. Distinguish facts from opinions, identify assumptions, and test whether evidence is relevant and sufficient. Notice counterarguments and summarise the author's position fairly without adding personal opinion."
+        },
+        {
+          "question": "Which practice best demonstrates essay structure and academic paragraphs?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "Build an essay around a focused thesis. Each body paragraph develops one supporting point with explanation and evidence. Transitions show contrast, cause and sequence. The conclusion synthesises the argument rather than merely repeating the introduction."
+        },
+        {
+          "question": "Why is essay structure and academic paragraphs important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "Build an essay around a focused thesis. Each body paragraph develops one supporting point with explanation and evidence. Transitions show contrast, cause and sequence. The conclusion synthesises the argument rather than merely repeating the introduction."
+        },
+        {
+          "question": "Which practice best demonstrates presentation and active listening?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "Adapt language to audience and purpose. A presentation needs an opening, organised points, examples and a concise conclusion. Active listening involves attention, clarification and accurate paraphrase. Respond to ideas respectfully with reasons."
+        },
+        {
+          "question": "Why is presentation and active listening important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "Adapt language to audience and purpose. A presentation needs an opening, organised points, examples and a concise conclusion. Active listening involves attention, clarification and accurate paraphrase. Respond to ideas respectfully with reasons."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two principles of critical reading and argument and provide an example.",
+          "modelAnswer": "An argument contains a claim supported by reasons and evidence. Distinguish facts from opinions, identify assumptions, and test whether evidence is relevant and sufficient. Notice counterarguments and summarise the author's position fairly without adding personal opinion.",
+          "rubric": [
+            "Two accurate principles (2)",
+            "Relevant example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Write a structured response explaining how essay structure and academic paragraphs improves effective English communication.",
+          "modelAnswer": "Build an essay around a focused thesis. Each body paragraph develops one supporting point with explanation and evidence. Transitions show contrast, cause and sequence. The conclusion synthesises the argument rather than merely repeating the introduction. Apply these principles in a relevant academic or everyday example. Organise the answer with an introduction, developed points and conclusion.",
+          "rubric": [
+            "Accurate understanding (3)",
+            "Explanation and examples (3)",
+            "Organisation (2)",
+            "Grammar and vocabulary (2)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Grade XII — Research, professional writing and rhetoric",
+      "description": "Grade XII English supplementary learning unit.",
+      "lessons": [
+        {
+          "title": "XII.1 Research and source evaluation",
+          "type": "text",
+          "content": "## Learning outcomes\nA research question should be focused and answerable. Evaluate sources by author expertise, publication context, evidence, date and bias. Distinguish quotation from paraphrase, keep accurate notes and acknowledge sources to avoid plagiarism.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "تحقیقی سوال واضح اور قابلِ جواب ہو۔ ماخذ کو مصنف کی مہارت، اشاعت، شواہد، تاریخ اور تعصب کی بنیاد پر جانچیں۔ اقتباس اور اپنے الفاظ میں بیان میں فرق رکھیں اور حوالہ دیں۔",
+            "sd": "تحقيقي سوال واضح ۽ جواب لائق هجي. ماخذ کي ليکڪ جي ڄاڻ، اشاعت، ثبوت، تاريخ ۽ جانبداري سان پرکو. اقتباس ۽ پنهنجي لفظن ۾ بيان ۾ فرق رکو ۽ حوالو ڏيو."
+          }
+        },
+        {
+          "title": "XII.2 Reports, proposals and professional email",
+          "type": "text",
+          "content": "## Learning outcomes\nA report organises purpose, method or background, findings and recommendations. A proposal identifies a problem, offers a feasible solution and explains resources and expected outcomes. Professional email uses a meaningful subject, courteous tone and clear action request.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "رپورٹ میں مقصد، طریقہ، نتائج اور سفارشات منظم ہوں۔ تجویز مسئلہ، قابلِ عمل حل، وسائل اور متوقع نتائج واضح کرتی ہے۔ پیشہ ورانہ ای میل کا عنوان بامعنی اور لہجہ مؤدبانہ ہو۔",
+            "sd": "رپورٽ ۾ مقصد، طريقو، نتيجا ۽ سفارشون ترتيب سان هجن. تجويز مسئلو، عملي حل، وسيلا ۽ امڪاني نتيجا واضح ڪري ٿي. پيشاور اي ميل جو عنوان بامعني ۽ لهجو ادب وارو هجي."
+          }
+        },
+        {
+          "title": "XII.3 Rhetoric, tone and persuasive language",
+          "type": "text",
+          "content": "## Learning outcomes\nPersuasion may use logical reasoning, credible authority and emotional appeal. Evaluate whether each is ethical and supported. Tone is the writer's attitude; mood is the atmosphere created for readers. Word choice, repetition and rhetorical questions shape emphasis.\n\n## Apply your learning\nUse the skill in a short passage, paragraph or spoken response. Check accuracy, clarity, purpose and audience.",
+          "explanations": {
+            "ur": "قائل کرنے میں منطقی دلیل، معتبر حوالہ اور جذباتی اپیل استعمال ہو سکتی ہے۔ ان کے شواہد اور اخلاقی حیثیت جانچیں۔ لہجہ مصنف کا رویہ اور فضا قاری پر پیدا ہونے والا احساس ہے۔",
+            "sd": "قائل ڪرڻ ۾ منطقي دليل، معتبر اختيار ۽ جذباتي اپيل استعمال ٿي سگهي ٿي. انهن جا ثبوت ۽ اخلاقي حيثيت پرکو. لهجو ليکڪ جو رويو ۽ فضا پڙهندڙ تي پيدا ٿيندڙ احساس آهي."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "question": "Which practice best demonstrates research and source evaluation?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "A research question should be focused and answerable. Evaluate sources by author expertise, publication context, evidence, date and bias. Distinguish quotation from paraphrase, keep accurate notes and acknowledge sources to avoid plagiarism."
+        },
+        {
+          "question": "Why is research and source evaluation important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "A research question should be focused and answerable. Evaluate sources by author expertise, publication context, evidence, date and bias. Distinguish quotation from paraphrase, keep accurate notes and acknowledge sources to avoid plagiarism."
+        },
+        {
+          "question": "Which practice best demonstrates reports, proposals and professional email?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "A report organises purpose, method or background, findings and recommendations. A proposal identifies a problem, offers a feasible solution and explains resources and expected outcomes. Professional email uses a meaningful subject, courteous tone and clear action request."
+        },
+        {
+          "question": "Why is reports, proposals and professional email important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "A report organises purpose, method or background, findings and recommendations. A proposal identifies a problem, offers a feasible solution and explains resources and expected outcomes. Professional email uses a meaningful subject, courteous tone and clear action request."
+        },
+        {
+          "question": "Which practice best demonstrates rhetoric, tone and persuasive language?",
+          "options": {
+            "A": "Use evidence and adapt language to context and purpose.",
+            "B": "Ignore the meaning of the text.",
+            "C": "Add unrelated details.",
+            "D": "Avoid checking accuracy."
+          },
+          "correctOption": "A",
+          "explanation": "Persuasion may use logical reasoning, credible authority and emotional appeal. Evaluate whether each is ethical and supported. Tone is the writer's attitude; mood is the atmosphere created for readers. Word choice, repetition and rhetorical questions shape emphasis."
+        },
+        {
+          "question": "Why is rhetoric, tone and persuasive language important?",
+          "options": {
+            "A": "It makes communication less clear.",
+            "B": "It supports accurate understanding and effective communication.",
+            "C": "It removes the need for revision.",
+            "D": "It is only useful in one informal situation."
+          },
+          "correctOption": "B",
+          "explanation": "Persuasion may use logical reasoning, credible authority and emotional appeal. Evaluate whether each is ethical and supported. Tone is the writer's attitude; mood is the atmosphere created for readers. Word choice, repetition and rhetorical questions shape emphasis."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain two principles of research and source evaluation and provide an example.",
+          "modelAnswer": "A research question should be focused and answerable. Evaluate sources by author expertise, publication context, evidence, date and bias. Distinguish quotation from paraphrase, keep accurate notes and acknowledge sources to avoid plagiarism.",
+          "rubric": [
+            "Two accurate principles (2)",
+            "Relevant example (2)",
+            "Clear expression (1)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Write a structured response explaining how reports, proposals and professional email improves effective English communication.",
+          "modelAnswer": "A report organises purpose, method or background, findings and recommendations. A proposal identifies a problem, offers a feasible solution and explains resources and expected outcomes. Professional email uses a meaningful subject, courteous tone and clear action request. Apply these principles in a relevant academic or everyday example. Organise the answer with an introduction, developed points and conclusion.",
+          "rubric": [
+            "Accurate understanding (3)",
+            "Explanation and examples (3)",
+            "Organisation (2)",
+            "Grammar and vocabulary (2)"
+          ]
+        }
+      ]
+    }
+  ]
+}
