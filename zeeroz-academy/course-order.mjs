@@ -1,6 +1,7 @@
 const gradeRank={IX:0,X:1,XI:2,XII:3};const natural=new Intl.Collator("en",{numeric:true,sensitivity:"base"});
 function titleOf(v){return typeof v==="string"?v:String(v?.title||v?.name||v?.id||"")}
-export function getGrades(v){const s=typeof v==="string"?v:[v?.title,v?.id,v?.grade,v?.level].filter(Boolean).join(" ");return [...new Set([...String(s).matchAll(/\b(XII|XI|IX|X)\b/gi)].map(m=>m[1].toUpperCase()))].sort((a,b)=>(gradeRank[a]??99)-(gradeRank[b]??99))}\nexport function getGrade(v){return getGrades(v)[0]||""}
+export function getGrades(v){const s=typeof v==="string"?v:[v?.title,v?.id,v?.grade,v?.level].filter(Boolean).join(" ");return [...new Set([...String(s).matchAll(/\b(XII|XI|IX|X)\b/gi)].map(m=>m[1].toUpperCase()))].sort((a,b)=>(gradeRank[a]??99)-(gradeRank[b]??99))}
+export function getGrade(v){return getGrades(v)[0]||""}
 export function getSubject(v){return titleOf(v).split(/[—–-]/,1)[0].replace(/\b(?:GRADE\s*)?(?:XII|XI|IX|X)\b/gi,"").replace(/\s+/g," ").trim()||"Other"}
 export function getSequenceNumber(v){const s=titleOf(v),m=s.match(/\b(?:chapter|unit|domain|part|lesson)\s*(?:no\.?\s*)?[-:#]?\s*(\d+)\b/i)||s.match(/^\s*(\d+)\s*[.)-]/);return m?Number(m[1]):null}
 function explicit(v){const n=Number(v?.order);return Number.isFinite(n)&&n>0?n:null}
