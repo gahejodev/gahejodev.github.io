@@ -365,6 +365,13 @@
       "path": "zeeroz-academy/content/courses/physics-xii-complete.json",
       "version": "4",
       "order": 1
+    },
+    {
+      "id": "physics-xi-solids-elasticity",
+      "title": "Physics XI — Solids and Elasticity (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-solids-elasticity.json",
+      "version": "1",
+      "order": 9
     }
   ]
 }
