@@ -68,7 +68,8 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
   if(!snap.exists()||snap.data().published!==true){$("courseTitle").textContent="Course not available";$("courseDescription").textContent="This course may have been unpublished or removed.";host.textContent="Please return to the Student Dashboard.";return;}
   const data=snap.data();$("courseTitle").textContent=data.title||"Untitled course";$("courseDescription").textContent=data.description||"No course description has been added yet.";
   const chaptersSnap=await getDocs(query(collection(db(),"courses",id,"chapters"),where("published","==",true)));
-  let chapters=sortSequence(chaptersSnap.docs.map(d=>({id:d.id,...d.data()})));\n  if(selectedChapter)chapters=chapters.filter(ch=>ch.id===selectedChapter);
+  let chapters=sortSequence(chaptersSnap.docs.map(d=>({id:d.id,...d.data()})));
+  if(selectedChapter)chapters=chapters.filter(ch=>ch.id===selectedChapter);
   host.replaceChildren();if(!chapters.length){host.className="empty";host.textContent=selectedChapter?"This chapter is not published or is unavailable.":"No chapters have been added yet. Please check again later.";return;}host.className="";
   let lessonTotal=0,mcqTotal=0,writtenTotal=0;
   const prepared=[];
