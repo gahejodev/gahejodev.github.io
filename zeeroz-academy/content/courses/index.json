@@ -465,6 +465,20 @@
       "path": "zeeroz-academy/content/courses/humanities-commerce-xi-xii-extended.json",
       "version": "1",
       "order": 1
+    },
+    {
+      "id": "ethics-religious-studies-ix-xii",
+      "title": "Ethics and Religious Studies IX–XII — Inclusive Foundations",
+      "path": "zeeroz-academy/content/courses/ethics-religious-studies-ix-xii.json",
+      "version": "1",
+      "order": 1
+    },
+    {
+      "id": "language-culture-electives-ix-xii",
+      "title": "Language and Culture Electives IX–XII — Arabic, Urdu Literature and History",
+      "path": "zeeroz-academy/content/courses/language-culture-electives-ix-xii.json",
+      "version": "1",
+      "order": 1
     }
   ]
 }
