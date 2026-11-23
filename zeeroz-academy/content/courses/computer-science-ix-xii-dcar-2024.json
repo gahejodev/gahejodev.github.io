@@ -1,8 +1,8 @@
 {
   "id": "computer-science-ix-xii-dcar-2024",
   "title": "Computer Science & Entrepreneurship IX–XII (DCAR 2024)",
-  "description": "Four grade-level Computer Science & Entrepreneurship learning pathways for IX–XII, covering systems, algorithms, programming, web, data, AI, networks, cybersecurity and responsible innovation. Use alongside the current official syllabus.",
-  "version": "2",
+  "description": "Grade-level foundation maps for IX–XII aligned to the DCAR 2024 Computer Science and Entrepreneurship progression. These are not yet complete chapter-by-chapter textbook replacements; detailed SLO coverage and full Urdu/Sindhi assessment translation remain in progress.",
+  "version": "3",
   "curriculumAlignment": "Sindh Curriculum Computer Science & Entrepreneurship 2024, Grades IX–XII, based on National Curriculum Standards 2022–23. The course is organized by grade and domain rather than claiming unverified STBB chapter numbering.",
   "sourceReferences": [
     {
@@ -278,15 +278,37 @@
           "explanation": "Routers forward packets between different networks."
         },
         {
-          "question": "What is the main purpose of encryption?",
+          "question": "Which measure makes an account safer if its password is stolen?",
           "options": {
-            "A": "Protect information from unauthorized reading",
-            "B": "Increase screen brightness",
-            "C": "Delete duplicate files",
-            "D": "Sort a list"
+            "A": "Increasing screen resolution",
+            "B": "Using multi-factor authentication",
+            "C": "Compressing every file",
+            "D": "Defragmenting the storage drive"
           },
-          "correctOption": "A",
-          "explanation": "Encryption transforms readable data into ciphertext using a key."
+          "correctOption": "B",
+          "explanation": "Multi-factor authentication asks for an additional independent factor, such as a security key or one-time code. A stolen password alone is then less likely to be enough to access the account.",
+          "translations": {
+            "ur": {
+              "question": "اگر پاس ورڈ چوری ہو جائے تو اکاؤنٹ کو زیادہ محفوظ بنانے کے لیے کون سا طریقہ مدد دیتا ہے؟",
+              "options": {
+                "A": "اسکرین کی ریزولوشن بڑھانا",
+                "B": "کثیر مرحلہ توثیق استعمال کرنا",
+                "C": "ہر فائل کو کمپریس کرنا",
+                "D": "اسٹوریج ڈرائیو ڈیفراگمنٹ کرنا"
+              },
+              "explanation": "کثیر مرحلہ توثیق پاس ورڈ کے علاوہ ایک اضافی آزاد ثبوت، مثلاً سکیورٹی کی یا یک وقتی کوڈ، مانگتی ہے۔ اس لیے صرف چوری شدہ پاس ورڈ سے اکاؤنٹ کھولنا مشکل ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "جيڪڏهن پاسورڊ چوري ٿي وڃي ته اڪائونٽ کي وڌيڪ محفوظ ڪرڻ لاءِ ڪهڙو طريقو مدد ڪري ٿو؟",
+              "options": {
+                "A": "اسڪرين جي ريزوليوشن وڌائڻ",
+                "B": "گهڻ-مرحلي تصديق استعمال ڪرڻ",
+                "C": "هر فائل کي ڪمپريس ڪرڻ",
+                "D": "اسٽوريج ڊرائيو کي ڊيفريگمينٽ ڪرڻ"
+              },
+              "explanation": "گهڻ-مرحلي تصديق پاسورڊ کان علاوه هڪ ٻيو آزاد ثبوت، مثال طور سيڪيورٽي ڪي يا هڪ ڀيرو استعمال ٿيندڙ ڪوڊ، گهري ٿي. تنهنڪري رڳو چوري ٿيل پاسورڊ سان اڪائونٽ کولڻ وڌيڪ ڏکيو ٿئي ٿو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -624,5 +646,6 @@
         }
       ]
     }
-  ]
+  ],
+  "contentTier": "foundation"
 }
