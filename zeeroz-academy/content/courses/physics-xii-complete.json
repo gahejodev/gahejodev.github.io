@@ -2,7 +2,7 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics study course for Chapters 15–28. Chapter 15 and Chapters 16–28 include concept lessons and examination practice. Check the latest board syllabus for local sequencing and prescribed depth.",
-  "version": "20",
+  "version": "23",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1212,33 +1212,44 @@
       ],
       "questions": [
         {
-          "question": "Which statement about magnetic fields is scientifically correct?",
+          "question": "A wire is perpendicular to a uniform magnetic field. The force on it is:",
           "options": {
-            "A": "The relevant physical laws do not apply",
-            "B": "The chapter principles must be applied with stated conditions and SI units",
-            "C": "All quantities are dimensionless",
-            "D": "Measurements are unnecessary"
+            "A": "BIL",
+            "B": "BI/L",
+            "C": "BL/I",
+            "D": "Zero for any current"
           },
-          "correctOption": "B",
-          "explanation": "Physics explanations require correct principles, stated conditions and consistent units."
+          "correctOption": "A",
+          "explanation": "F=BIL sinθ; at 90°, sinθ=1."
         },
         {
-          "question": "What should a student identify before solving a numerical in magnetic fields?",
+          "question": "A charged particle moves parallel to a uniform magnetic field. Its magnetic force is:",
           "options": {
-            "A": "Only the final answer",
-            "B": "The relevant quantities, units and physical relation",
-            "C": "An unrelated formula",
-            "D": "No assumptions"
+            "A": "qvB",
+            "B": "qvB/2",
+            "C": "Zero",
+            "D": "Infinite"
+          },
+          "correctOption": "C",
+          "explanation": "F=|q|vB sinθ and θ=0°, so the force is zero."
+        },
+        {
+          "question": "For an ideal long solenoid, increasing turns per metre while keeping current fixed will:",
+          "options": {
+            "A": "Decrease B",
+            "B": "Increase B",
+            "C": "Reverse B",
+            "D": "Make B zero"
           },
           "correctOption": "B",
-          "explanation": "Identify knowns, unknowns, units and the relation that models the situation."
+          "explanation": "B=μ₀nI, so field strength increases with n."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Explain one key principle of magnetic fields and state a relevant equation or example.",
+          "question": "Solve a short numerical or explain a core principle from Magnetic Fields. Show the relevant relation, substitution and units where appropriate.",
           "modelAnswer": "A magnetic field B describes magnetic influence at a point; its SI unit is tesla (T). Around a long straight current-carrying wire, field lines are concentric circles. The right-hand grip rule gives their direction. For a long wire in air, B=μ₀I/(2πr).",
           "rubric": [
             "Accurate principle (1)",
@@ -1249,7 +1260,7 @@
         {
           "type": "erq",
           "marks": 6,
-          "question": "Describe the main concepts of magnetic fields, including the important variables, equations and one practical application.",
+          "question": "Explain the key principles of Magnetic Fields. Include relevant equations, define symbols and discuss one practical application.",
           "modelAnswer": "A magnetic field B describes magnetic influence at a point; its SI unit is tesla (T). Around a long straight current-carrying wire, field lines are concentric circles. The right-hand grip rule gives their direction. For a long wire in air, B=μ₀I/(2πr).\n\nA straight wire of length L carrying current I in a uniform field experiences F=BIL sinθ. The force is maximum when the wire is perpendicular to the field and zero when parallel.\n\nA charge q moving with velocity v in magnetic field B experiences F=|q|vB sinθ. The magnetic force is perpendicular to velocity, so it changes direction but does no work and does not change speed. For v perpendicular to B, the path is circular with radius r=mv/(|q|B).\n\nA particle moving parallel to the field experiences no magnetic force. The right-hand rule gives the force direction for a positive charge; a negative charge experiences the opposite direction.\n\nA solenoid is a coil of many turns. Its field inside is approximately uniform; for an ideal long solenoid B=μ₀nI, where n is turns per metre. Increasing current or turns per unit length increases the field. A ferromagnetic core can strengthen it.\n\nElectromagnets use current to create controllable fields. Applications include relays, lifting magnets, electric bells and motors. Soft iron is useful because much of its magnetism disappears when current is switched off.",
           "rubric": [
             "Core concept explanation (2)",
@@ -1283,33 +1294,44 @@
       ],
       "questions": [
         {
-          "question": "Which statement about electromagnetic induction is scientifically correct?",
+          "question": "Magnetic flux through a flat coil is greatest when the field is:",
           "options": {
-            "A": "The relevant physical laws do not apply",
-            "B": "The chapter principles must be applied with stated conditions and SI units",
-            "C": "All quantities are dimensionless",
-            "D": "Measurements are unnecessary"
+            "A": "Parallel to the plane of the coil",
+            "B": "Perpendicular to the plane of the coil",
+            "C": "At 45° to the normal",
+            "D": "Zero"
           },
           "correctOption": "B",
-          "explanation": "Physics explanations require correct principles, stated conditions and consistent units."
+          "explanation": "Φ=BA cosθ, where θ is measured from the area normal."
         },
         {
-          "question": "What should a student identify before solving a numerical in electromagnetic induction?",
+          "question": "The negative sign in Faraday's law represents:",
           "options": {
-            "A": "Only the final answer",
-            "B": "The relevant quantities, units and physical relation",
-            "C": "An unrelated formula",
-            "D": "No assumptions"
+            "A": "Ohm's law",
+            "B": "Lenz's law",
+            "C": "Coulomb's law",
+            "D": "Newton's third law"
           },
           "correctOption": "B",
-          "explanation": "Identify knowns, unknowns, units and the relation that models the situation."
+          "explanation": "The induced emf opposes the change in magnetic flux that produces it."
+        },
+        {
+          "question": "Laminating a transformer core mainly reduces:",
+          "options": {
+            "A": "Copper resistance",
+            "B": "Eddy-current loss",
+            "C": "The number of turns",
+            "D": "Supply frequency"
+          },
+          "correctOption": "B",
+          "explanation": "Thin insulated laminations interrupt large circulating current paths."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Explain one key principle of electromagnetic induction and state a relevant equation or example.",
+          "question": "Solve a short numerical or explain a core principle from Electromagnetic Induction. Show the relevant relation, substitution and units where appropriate.",
           "modelAnswer": "Magnetic flux through a flat area is Φ=BA cosθ, where θ is the angle between B and the area normal. Its SI unit is weber (Wb). Flux changes if field strength, area or orientation changes. Faraday's law gives induced emf ε=−NΔΦ/Δt for an average change.",
           "rubric": [
             "Accurate principle (1)",
@@ -1320,7 +1342,7 @@
         {
           "type": "erq",
           "marks": 6,
-          "question": "Describe the main concepts of electromagnetic induction, including the important variables, equations and one practical application.",
+          "question": "Explain the key principles of Electromagnetic Induction. Include relevant equations, define symbols and discuss one practical application.",
           "modelAnswer": "Magnetic flux through a flat area is Φ=BA cosθ, where θ is the angle between B and the area normal. Its SI unit is weber (Wb). Flux changes if field strength, area or orientation changes. Faraday's law gives induced emf ε=−NΔΦ/Δt for an average change.\n\nA coil produces greater emf when it has more turns, the field changes faster, or the flux change is larger. A stationary coil in a steady field has no induced emf because its flux is not changing.\n\nThe negative sign in Faraday's law expresses Lenz's law: induced current produces a magnetic field that opposes the change in flux that caused it. If a north pole approaches a coil, the near face behaves like a north pole to oppose the approach. If the magnet moves away, the coil acts to oppose the decrease in flux.\n\nThe induced field opposes the change, not necessarily the original field. Lenz's law is consistent with conservation of energy.\n\nAn AC generator rotates a coil in a magnetic field. Flux through the coil changes periodically, inducing alternating emf. Mechanical energy supplied to rotate the coil is converted into electrical energy.\n\nEddy currents are circulating currents induced in bulk conductors by changing magnetic flux. Laminated transformer cores reduce eddy-current loss by interrupting current paths. Eddy currents are also useful in induction heating and magnetic braking.",
           "rubric": [
             "Core concept explanation (2)",
@@ -1354,33 +1376,44 @@
       ],
       "questions": [
         {
-          "question": "Which relation is central to alternating current?",
+          "question": "The RMS value of a sinusoidal voltage with peak value 100 V is approximately:",
           "options": {
-            "A": "The chapter's physical relations must be selected according to the situation",
-            "B": "All quantities are dimensionless",
-            "C": "No laws apply",
-            "D": "Units can be ignored"
-          },
-          "correctOption": "A",
-          "explanation": "Use the correct physical model and check conditions and units."
-        },
-        {
-          "question": "Which is a good method for solving a numerical in alternating current?",
-          "options": {
-            "A": "Guess the answer",
-            "B": "Write known values, convert units and choose the relevant equation",
-            "C": "Ignore the physical conditions",
-            "D": "Use any equation with matching symbols"
+            "A": "50 V",
+            "B": "70.7 V",
+            "C": "100 V",
+            "D": "141 V"
           },
           "correctOption": "B",
-          "explanation": "A reliable solution identifies knowns, unknowns, units and a physically appropriate equation."
+          "explanation": "Vrms=V₀/√2≈70.7 V."
+        },
+        {
+          "question": "At series RLC resonance:",
+          "options": {
+            "A": "XL is greater than XC",
+            "B": "XC is greater than XL",
+            "C": "XL equals XC",
+            "D": "Impedance is infinite"
+          },
+          "correctOption": "C",
+          "explanation": "At resonance the reactances cancel and impedance is equal to R."
+        },
+        {
+          "question": "An ideal transformer has 500 primary turns and 100 secondary turns. If primary voltage is 200 V, secondary voltage is:",
+          "options": {
+            "A": "40 V",
+            "B": "100 V",
+            "C": "200 V",
+            "D": "1000 V"
+          },
+          "correctOption": "A",
+          "explanation": "Vs/Vp=Ns/Np=100/500, so Vs=40 V."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Explain one key concept in alternating current and state a relevant equation or practical example.",
+          "question": "Solve a short numerical or explain a core principle from Alternating Current. Show the relevant relation, substitution and units where appropriate.",
           "modelAnswer": "Alternating current changes magnitude and direction periodically. A sinusoidal voltage is v=V₀ sin(ωt), where V₀ is peak voltage and ω=2πf. Frequency f is measured in hertz and period T=1/f. For a sinusoidal signal, Vrms=V₀/√2 and Irms=I₀/√2.",
           "rubric": [
             "Accurate concept (1)",
@@ -1391,7 +1424,7 @@
         {
           "type": "erq",
           "marks": 6,
-          "question": "Describe the main concepts of alternating current, including important variables, equations and a practical application.",
+          "question": "Explain the key principles of Alternating Current. Include relevant equations, define symbols and discuss one practical application.",
           "modelAnswer": "Alternating current changes magnitude and direction periodically. A sinusoidal voltage is v=V₀ sin(ωt), where V₀ is peak voltage and ω=2πf. Frequency f is measured in hertz and period T=1/f. For a sinusoidal signal, Vrms=V₀/√2 and Irms=I₀/√2.\n\nRMS is the equivalent steady DC value that produces the same average heating effect in a resistor. Electrical supply ratings normally quote RMS voltage, not peak voltage.\n\nA capacitor has capacitive reactance XC=1/(ωC), while an inductor has inductive reactance XL=ωL. In a pure resistor voltage and current are in phase. In an ideal inductor current lags voltage by 90°; in an ideal capacitor current leads voltage by 90°.\n\nFor a series RLC circuit, Z=√[R²+(XL−XC)²]. At resonance XL=XC, so Z=R and current is maximum for a fixed supply voltage.\n\nAverage AC power is P=VrmsIrms cosφ, where cosφ is the power factor. An ideal transformer uses mutual induction and obeys Vs/Vp=Ns/Np. A step-up transformer raises voltage while lowering current.\n\nTransformers require changing magnetic flux and do not operate from steady DC in the normal way. High-voltage transmission reduces current for a given power and therefore reduces resistive line loss I²R.",
           "rubric": [
             "Core concept explanation (2)",
