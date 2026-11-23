@@ -30,7 +30,7 @@ The procedural Three.js engine currently recognizes selected topics and provides
 The models are rule-based visual aids. They are not yet a universal AI model that understands every lesson or produces scientifically exact animations for all topics.
 
 ## Social Queue handoff
-- The 3D WebM export can now be saved directly into the Academy Social Queue without copying a video URL.
+- The selected narration file now has an in-browser audio preview showing its decoded duration and file size before 3D lip-sync/export. Preview uses native media controls, does not autoplay, and stays local to the browser. The 3D WebM export can be saved directly into the Academy Social Queue without copying a video URL.
 - Video bytes are stored in the browser's IndexedDB database `zeeroz-social-media`; Firestore stores only the admin-only post metadata and local attachment key.
 - Open the Social Queue in the same browser/device to preview or download the attached local video.
 - This is a local handoff, not a cloud upload. Clearing browser site data or changing devices can make the local attachment unavailable.
@@ -38,7 +38,7 @@ The models are rule-based visual aids. They are not yet a universal AI model tha
 ## Current limits
 - Teacher avatar: open-source 3D face/shoulders avatar with audio-driven lip-sync; no full-body gestures or custom Zeeroz rig yet.
 - Neural TTS: Urdu male/female (Fasih/Aegis) and English male/female (Ryan/Amy) models. Sindhi neural voice is not yet verified.
-- Export: browser MediaRecorder output (MP4 only when natively supported; otherwise WebM). Long 3D exports can be cancelled before download; cancellation stops audio/video streams and does not create a partial output. Direct YouTube publishing is not included.
+- Export: browser MediaRecorder output (MP4 only when natively supported; otherwise WebM). Long 3D exports can be cancelled before download; cancellation stops audio/video streams and does not create a partial output. Voice-track preview object URLs are released on file replacement and page exit. Direct YouTube publishing is not included.
 - Requires a modern browser with WebGL, Web Audio and MediaRecorder; the first Urdu voice use downloads a model of roughly 64 MB. Keep the tab open during generation.
 
 ## Privacy and security
