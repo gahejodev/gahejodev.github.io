@@ -2,7 +2,7 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics study collection. Chapter 15 has expanded bilingual explanations, 20 explained MCQs, 6 CRQs, 3 ERQs, worked numericals and an applied case study. Chapters 16–28 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
-  "version": "17",
+  "version": "18",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1866,712 +1866,84 @@
     },
     {
       "title": "Chapter 27: Nuclear Physics",
-      "description": "Grade XII Physics chapter.",
+      "description": "Grade XII Physics: Nuclear structure, binding energy, radioactive decay, half-life, fission, fusion and radiation safety.",
       "lessons": [
         {
-          "title": "27.1 nuclear structure",
+          "title": "27.1 Nuclear structure and binding energy",
           "type": "text",
-          "content": "## nuclear structure\nnuclear structure: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "nuclear structure کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "nuclear structure جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "A nucleus contains protons and neutrons, collectively called nucleons. Atomic number Z is the number of protons; mass number A is the total number of nucleons, so neutron number is A−Z. Isotopes have the same Z but different neutron numbers.\n\nThe measured nuclear mass is less than the sum of the masses of separate nucleons. This mass defect corresponds to binding energy Eb=Δmc². Binding energy per nucleon is a useful indicator of nuclear stability."
         },
         {
-          "title": "27.2 radioactivity",
+          "title": "27.2 Radioactive decay and half-life",
           "type": "text",
-          "content": "## radioactivity\nradioactivity: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "radioactivity کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "radioactivity جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Unstable nuclei may emit alpha particles (helium nuclei), beta particles (electrons or positrons) or gamma photons. In alpha decay, A decreases by 4 and Z by 2. In beta-minus decay, a neutron changes into a proton, so Z increases by 1 while A remains unchanged. Gamma emission changes neither A nor Z.\n\nRadioactive decay is random for an individual nucleus but predictable statistically for a large sample. N=N₀(1/2)^(t/T½), where T½ is half-life. Activity is measured in becquerels (Bq)."
         },
         {
-          "title": "27.3 half-life",
+          "title": "27.3 Fission, fusion and safety",
           "type": "text",
-          "content": "## half-life\nhalf-life: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "half-life کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ half-life: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "half-life جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ half-life: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "27.4 fission",
-          "type": "text",
-          "content": "## fission\nfission: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "fission کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ fission: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "fission جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ fission: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "27.5 fusion",
-          "type": "text",
-          "content": "## fusion\nfusion: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "fusion کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ fusion: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "fusion جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ fusion: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Nuclear fission splits a heavy nucleus into smaller nuclei, releasing energy and often neutrons. A controlled chain reaction is used in a reactor; control rods absorb neutrons and coolant removes heat. Fusion joins light nuclei and can release energy when products are more tightly bound per nucleon.\n\nIonising radiation can damage living tissue. Risk depends on radiation type, dose, exposure time and tissue. Reduce exposure using time, distance and suitable shielding; radioactive sources require trained handling."
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes nuclear structure?",
+          "question": "In alpha decay, the mass number A and atomic number Z change by:",
           "options": {
-            "A": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "fusion: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "A−4, Z−2",
+            "B": "A−2, Z−4",
+            "C": "A unchanged, Z+1",
+            "D": "A+4, Z+2"
           },
           "correctOption": "A",
-          "explanation": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "nuclear structure کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "nuclear structure بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "An alpha particle contains two protons and two neutrons."
         },
         {
-          "question": "Choose the correct principle for nuclear structure.",
+          "question": "After three half-lives, the remaining fraction of a radioactive sample is:",
           "options": {
-            "A": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "nuclear structure کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "nuclear structure بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about nuclear structure?",
-          "options": {
-            "A": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "fusion: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "1/2",
+            "B": "1/4",
+            "C": "1/8",
+            "D": "1/16"
           },
           "correctOption": "C",
-          "explanation": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "nuclear structure کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "nuclear structure بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "Each half-life halves the sample: (1/2)³ = 1/8."
         },
         {
-          "question": "Which statement describes radioactivity?",
+          "question": "Which process joins light nuclei?",
           "options": {
-            "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Fission",
+            "B": "Fusion",
+            "C": "Alpha decay",
+            "D": "Ionisation"
           },
           "correctOption": "B",
-          "explanation": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "radioactivity کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "radioactivity بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for radioactivity.",
-          "options": {
-            "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "radioactivity کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "radioactivity بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about radioactivity?",
-          "options": {
-            "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "radioactivity کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "radioactivity بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes half-life?",
-          "options": {
-            "A": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "half-life کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "half-life بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for half-life.",
-          "options": {
-            "A": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "half-life کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "half-life بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about half-life?",
-          "options": {
-            "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "half-life کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "half-life بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "radioactivity: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes fission?",
-          "options": {
-            "A": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "fission کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fission: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "fission بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fission: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for fission.",
-          "options": {
-            "A": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "fission کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fission: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "fission بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fission: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about fission?",
-          "options": {
-            "A": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "fission کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fission: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "fission بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "half-life: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fission: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes fusion?",
-          "options": {
-            "A": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "fusion کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "fusion بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for fusion.",
-          "options": {
-            "A": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "fusion کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "fusion بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about fusion?",
-          "options": {
-            "A": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "fusion کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "fusion بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fission: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fusion: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "Fusion combines light nuclei; fission splits a heavy nucleus."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define nuclear structure and give one example.",
-          "modelAnswer": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "A radioactive isotope has a half-life of 6 hours. What fraction remains after 18 hours?",
+          "modelAnswer": "18 hours is three half-lives, so fraction=(1/2)³=1/8 or 12.5%.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "nuclear structure کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "nuclear structure جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "nuclear structure: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define half-life and give one example.",
-          "modelAnswer": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "half-life کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "half-life جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "half-life: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define fusion and give one example.",
-          "modelAnswer": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "fusion کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "fusion جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "fusion: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Identifies three half-lives (1)",
+            "Uses repeated halving (1)",
+            "Answer 1/8 or 12.5% (1)"
+          ]
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain radioactivity with its principle, features and applications.",
-          "modelAnswer": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
+          "marks": 6,
+          "question": "Describe alpha, beta and gamma radiation and compare nuclear fission with fusion.",
+          "modelAnswer": "Alpha radiation is a helium nucleus and reduces A by 4 and Z by 2. Beta-minus radiation is an electron emitted when a neutron changes to a proton; A is unchanged and Z increases by 1. Gamma radiation is a photon and changes neither A nor Z. Fission splits a heavy nucleus; fusion joins light nuclei. Both can release energy when products have greater binding energy per nucleon.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "radioactivity کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "radioactivity جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "radioactivity: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "erq",
-          "marks": 5,
-          "question": "Explain fission with its principle, features and applications.",
-          "modelAnswer": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "fission کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "fission جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "fission: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
+            "Alpha properties and changes (1)",
+            "Beta properties and changes (1)",
+            "Gamma properties and changes (1)",
+            "Explains fission (1)",
+            "Explains fusion (1)",
+            "Links energy release to binding energy (1)"
+          ]
         }
       ]
     },
