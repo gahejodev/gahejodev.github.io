@@ -2,7 +2,7 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics study course for Chapters 15–28. Chapter 15 and Chapters 16–28 include concept lessons and examination practice. Check the latest board syllabus for local sequencing and prescribed depth.",
-  "version": "23",
+  "version": "25",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1458,33 +1458,44 @@
       ],
       "questions": [
         {
-          "question": "Which relation is central to physics of solids?",
+          "question": "Young's modulus is the ratio of:",
           "options": {
-            "A": "The chapter's physical relations must be selected according to the situation",
-            "B": "All quantities are dimensionless",
-            "C": "No laws apply",
-            "D": "Units can be ignored"
-          },
-          "correctOption": "A",
-          "explanation": "Use the correct physical model and check conditions and units."
-        },
-        {
-          "question": "Which is a good method for solving a numerical in physics of solids?",
-          "options": {
-            "A": "Guess the answer",
-            "B": "Write known values, convert units and choose the relevant equation",
-            "C": "Ignore the physical conditions",
-            "D": "Use any equation with matching symbols"
+            "A": "Strain to stress",
+            "B": "Stress to strain",
+            "C": "Force to extension",
+            "D": "Extension to area"
           },
           "correctOption": "B",
-          "explanation": "A reliable solution identifies knowns, unknowns, units and a physically appropriate equation."
+          "explanation": "Within the linear elastic region E=stress/strain."
+        },
+        {
+          "question": "Which material structure has long-range periodic order?",
+          "options": {
+            "A": "Amorphous glass",
+            "B": "Crystalline solid",
+            "C": "Rubber only",
+            "D": "Liquid"
+          },
+          "correctOption": "B",
+          "explanation": "Crystalline solids have a repeating lattice arrangement."
+        },
+        {
+          "question": "A metal's resistance generally rises with temperature because:",
+          "options": {
+            "A": "Its atoms stop vibrating",
+            "B": "Lattice vibrations scatter electrons more",
+            "C": "Its length becomes zero",
+            "D": "Electrons become protons"
+          },
+          "correctOption": "B",
+          "explanation": "Increased lattice vibration generally increases electron scattering in metals."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Explain one key concept in physics of solids and state a relevant equation or practical example.",
+          "question": "Solve a short numerical or explain a core principle from Physics of Solids. Show the relevant relation, substitution and units where appropriate.",
           "modelAnswer": "A crystalline solid has long-range periodic arrangement of particles; an amorphous solid lacks this regular long-range order. A unit cell is the repeating structural building block of a crystal. Structure influences density, melting behaviour, strength and electrical properties.",
           "rubric": [
             "Accurate concept (1)",
@@ -1495,7 +1506,7 @@
         {
           "type": "erq",
           "marks": 6,
-          "question": "Describe the main concepts of physics of solids, including important variables, equations and a practical application.",
+          "question": "Explain the key principles of Physics of Solids. Include relevant equations, define symbols and discuss one practical application.",
           "modelAnswer": "A crystalline solid has long-range periodic arrangement of particles; an amorphous solid lacks this regular long-range order. A unit cell is the repeating structural building block of a crystal. Structure influences density, melting behaviour, strength and electrical properties.\n\nMetals generally contain mobile electrons and conduct electricity well. Ceramics are often hard and heat resistant but brittle; polymers consist of long molecular chains and may be flexible.\n\nStress is force per cross-sectional area: σ=F/A, measured in pascals. Longitudinal strain is change in length divided by original length: ε=ΔL/L. Within the linear elastic region, Hooke's law gives σ=Eε, where E is Young's modulus. A large E means the material is stiff, not necessarily strong.\n\nElastic deformation is reversible when the load is removed; plastic deformation is permanent. A stress–strain graph identifies proportional limit, elastic limit, yield region and breaking point.\n\nMost solids expand when heated because average atomic separation increases. For a small temperature rise, linear expansion is ΔL=αL₀ΔT, where α is in K⁻¹. Expansion joints in bridges and railway tracks allow for this change.\n\nIn metals, resistance usually rises with temperature because lattice vibrations scatter electrons. In semiconductors, conductivity generally increases with temperature as more charge carriers become available.",
           "rubric": [
             "Core concept explanation (2)",
@@ -1529,33 +1540,44 @@
       ],
       "questions": [
         {
-          "question": "Which relation is central to solid state electronics?",
+          "question": "Doping silicon with a pentavalent donor impurity usually produces:",
           "options": {
-            "A": "The chapter's physical relations must be selected according to the situation",
-            "B": "All quantities are dimensionless",
-            "C": "No laws apply",
-            "D": "Units can be ignored"
-          },
-          "correctOption": "A",
-          "explanation": "Use the correct physical model and check conditions and units."
-        },
-        {
-          "question": "Which is a good method for solving a numerical in solid state electronics?",
-          "options": {
-            "A": "Guess the answer",
-            "B": "Write known values, convert units and choose the relevant equation",
-            "C": "Ignore the physical conditions",
-            "D": "Use any equation with matching symbols"
+            "A": "p-type semiconductor",
+            "B": "n-type semiconductor",
+            "C": "An insulator",
+            "D": "A perfect conductor"
           },
           "correctOption": "B",
-          "explanation": "A reliable solution identifies knowns, unknowns, units and a physically appropriate equation."
+          "explanation": "Donor atoms contribute extra mobile electrons, making electrons the majority carriers."
+        },
+        {
+          "question": "A p–n diode is forward biased when:",
+          "options": {
+            "A": "p-side is connected to negative and n-side positive",
+            "B": "p-side is positive relative to n-side",
+            "C": "Both sides are grounded",
+            "D": "No voltage is applied"
+          },
+          "correctOption": "B",
+          "explanation": "Forward bias reduces the junction barrier and permits current."
+        },
+        {
+          "question": "In a transistor used as a switch, saturation represents the:",
+          "options": {
+            "A": "OFF state",
+            "B": "ON state",
+            "C": "Breakdown state only",
+            "D": "Open circuit at all terminals"
+          },
+          "correctOption": "B",
+          "explanation": "In saturation the transistor is driven strongly on and conducts between collector and emitter."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Explain one key concept in solid state electronics and state a relevant equation or practical example.",
+          "question": "Solve a short numerical or explain a core principle from Solid State Electronics. Show the relevant relation, substitution and units where appropriate.",
           "modelAnswer": "A semiconductor has conductivity between that of a good conductor and an insulator. Silicon and germanium are common examples. In an intrinsic semiconductor, thermal energy generates electron-hole pairs. A hole behaves as a positive mobile charge carrier.",
           "rubric": [
             "Accurate concept (1)",
@@ -1566,7 +1588,7 @@
         {
           "type": "erq",
           "marks": 6,
-          "question": "Describe the main concepts of solid state electronics, including important variables, equations and a practical application.",
+          "question": "Explain the key principles of Solid State Electronics. Include relevant equations, define symbols and discuss one practical application.",
           "modelAnswer": "A semiconductor has conductivity between that of a good conductor and an insulator. Silicon and germanium are common examples. In an intrinsic semiconductor, thermal energy generates electron-hole pairs. A hole behaves as a positive mobile charge carrier.\n\nDoping adds a controlled impurity. Pentavalent donor atoms provide extra electrons and produce n-type material; trivalent acceptor atoms create holes and produce p-type material. The material remains electrically neutral overall.\n\nJoining p-type and n-type semiconductor forms a p–n junction. Electrons and holes diffuse across the junction and recombine, leaving a depletion region and built-in potential barrier. Forward bias reduces the barrier and allows substantial current; reverse bias widens the depletion region and permits only small leakage current until breakdown.\n\nA diode conducts much more readily in one direction than the other. It is used for rectification, signal detection and circuit protection. A bridge rectifier uses four diodes to produce full-wave pulsating DC from AC.\n\nA bipolar junction transistor has emitter, base and collector regions. A small base current controls a larger collector current when correctly biased. It can act as an amplifier or electronic switch. In switching applications, cutoff represents OFF and saturation represents ON.\n\nReal circuits require suitable resistors and supply limits to avoid excessive current. Transistors are building blocks of logic circuits, sensors and amplifiers.",
           "rubric": [
             "Core concept explanation (2)",
