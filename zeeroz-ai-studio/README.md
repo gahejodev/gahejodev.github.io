@@ -30,7 +30,7 @@ The procedural Three.js engine currently recognizes selected topics and provides
 The models are rule-based visual aids. They are not yet a universal AI model that understands every lesson or produces scientifically exact animations for all topics.
 
 ## Social Queue handoff
-- The selected narration file now has an in-browser audio preview showing its decoded duration and file size before 3D lip-sync/export. Preview uses native media controls, does not autoplay, and stays local to the browser. The 3D WebM export can be saved directly into the Academy Social Queue without copying a video URL.
+- The selected narration file now has an in-browser audio preview showing its decoded duration and file size before 3D lip-sync/export. Preview uses native media controls, does not autoplay, and stays local to the browser. A Clear selected audio control removes the current external or generated voice track, stops preview playback and releases its temporary object URL. The 3D WebM export can be saved directly into the Academy Social Queue without copying a video URL.
 - Video bytes are stored in the browser's IndexedDB database `zeeroz-social-media`; Firestore stores only the admin-only post metadata and local attachment key.
 - Open the Social Queue in the same browser/device to preview or download the attached local video.
 - This is a local handoff, not a cloud upload. Clearing browser site data or changing devices can make the local attachment unavailable.

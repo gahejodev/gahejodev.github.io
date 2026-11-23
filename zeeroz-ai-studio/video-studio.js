@@ -27,6 +27,8 @@ function updateVoiceTrackPreview(){
  clearVoiceTrackPreview();
  const token=voiceTrackPreviewToken;
  const file=input.files?.[0];
+ const clearButton=$("clearVoiceTrack");
+ if(clearButton)clearButton.disabled=!file;
  if(!file){info.textContent="No external voice-over selected. Generate a local voice or choose an audio file.";return}
  if(!file.size){info.textContent="The selected audio file is empty. Choose another file.";return}
  if(file.type&&!file.type.startsWith("audio/")){info.textContent="This file is not identified as audio. Choose an MP3, WAV or M4A file.";return}
@@ -47,6 +49,7 @@ function updateVoiceTrackPreview(){
  preview.load();
 }
 $("voiceTrack")?.addEventListener("change",updateVoiceTrackPreview);
+$("clearVoiceTrack")?.addEventListener("click",()=>{const input=$("voiceTrack");if(!input)return;input.value="";updateVoiceTrackPreview();input.focus()});
 window.addEventListener("pagehide",clearVoiceTrackPreview);
 let packages=[],courseData=null,scenes=[],sceneIndex=0,allowed=false,playbackToken=0;
 let latestExportedVideo=null,cancel3DExport=null;
