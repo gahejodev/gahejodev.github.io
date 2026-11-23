@@ -1035,7 +1035,8 @@
             }
           }
         }
-      ]
+      ],
+      "contentTier": "exam-ready"
     },
     {
       "title": "Chapter 16: First Law of Thermodynamics",
@@ -1106,7 +1107,8 @@
             "Uses correct equations (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 17: Second Law of Thermodynamics",
@@ -1188,7 +1190,8 @@
             "Correct units and terminology (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 18: Magnetic Fields",
@@ -1270,7 +1273,8 @@
             "Correct units and terminology (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 19: Electromagnetic Induction",
@@ -1352,7 +1356,8 @@
             "Correct units and terminology (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 20: Alternating Current",
@@ -1434,7 +1439,8 @@
             "Correct units and terminology (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 21: Physics of Solids",
@@ -1516,7 +1522,8 @@
             "Correct units and terminology (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 22: Solid State Electronics",
@@ -1598,7 +1605,8 @@
             "Correct units and terminology (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 23: Digital Electronics",
@@ -1681,7 +1689,8 @@
             "Gives valid circuit examples (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 24: Relativity",
@@ -1763,7 +1772,8 @@
             "Identifies high-speed condition (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 25: Quantum Physics",
@@ -1845,7 +1855,8 @@
             "Distinguishes intensity and frequency effects (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 26: Atomic Physics",
@@ -1928,7 +1939,8 @@
             "Mentions optical cavity/coherent output (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 27: Nuclear Physics",
@@ -2011,7 +2023,8 @@
             "Links energy release to binding energy (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 28: Particles Physics",
@@ -2094,7 +2107,8 @@
             "Mentions interaction bosons (1)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     }
   ],
   "sourceReferences": [
@@ -2114,5 +2128,6 @@
       "note": "Official STBB record confirms the current English Physics XII edition as 2025–26."
     }
   ],
-  "curriculumAlignmentNote": "This chapter maps to DCAR 2024 Grade XII Domain D SLOs P-12-D-01–P-12-D-06, rather than relying only on legacy chapter numbering. The current STBB Physics XII catalogue lists the English edition as 2025–26. The remaining legacy chapter sequence in this aggregate package requires rechecking against the current textbook before being described as complete."
+  "curriculumAlignmentNote": "This chapter maps to DCAR 2024 Grade XII Domain D SLOs P-12-D-01–P-12-D-06, rather than relying only on legacy chapter numbering. The current STBB Physics XII catalogue lists the English edition as 2025–26. The remaining legacy chapter sequence in this aggregate package requires rechecking against the current textbook before being described as complete.",
+  "contentTier": "mixed"
 }

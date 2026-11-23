@@ -1,94 +1,748 @@
 {
   "id": "chemistry-xi-chapters-1-12",
   "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
-  "description": "Supplementary topic-based course with structured lessons, MCQs, CRQs and ERQs in English, Urdu and Sindhi. Use alongside the prescribed textbook.",
-  "version": "1",
-  "curriculumAlignment": "Chapter map follows the published DCAR Chemistry XI chapter-weightage listing (Stoichiometry through Electrochemistry). Cross-check with the current board textbook and notified syllabus before exam use.",
+  "description": "Supplementary Chemistry XI course with 12 chapter units. Chapter 1 Stoichiometry is expanded to exam-ready depth against DCAR 2024 SLOs C-11-B-50 to C-11-B-59; Chapters 2–12 remain outline-stage and are explicitly marked for sequential expansion.",
+  "version": "2",
+  "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B Stoichiometry, SLOs C-11-B-50 to C-11-B-59. The course is mixed-depth: Chapter 1 is exam-ready; Chapters 2–12 are outline-stage supplementary maps.",
   "sourceReferences": [
     {
-      "title": "DCAR Sindh Curriculum Catalogue",
-      "url": "https://www.dcar.gos.pk/Sindh%20Curriculum.html",
-      "note": "Official subject curriculum listings."
+      "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+      "note": "Grade XI Stoichiometry SLOs C-11-B-50 to C-11-B-59, printed pages 37–38; controlling curriculum outcomes."
     },
     {
-      "title": "Government of Sindh HSC Science Group syllabus notification",
-      "url": "https://www.dcar.gos.pk/other_notifications/HSC%20Science%20Group.pdf",
-      "note": "Notified 2024–25 XI science subject units; reduced-syllabus notice, not a substitute for the current full syllabus."
+      "title": "Sindh Textbook Board — Class XI English eBooks",
+      "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=14&medium=English",
+      "note": "The portal currently lists Chemistry XI as 2022–23; this is a textbook cross-reference, not a claim of a newer edition."
     }
   ],
   "chapters": [
     {
       "title": "Chapter 1: Stoichiometry",
-      "description": "Supplementary topic 1: Chapter 1: Stoichiometry.",
+      "description": "Grade XI Stoichiometry: mole and Avogadro constant, balanced equations, mole ratios, reacting masses, gas volume at STP, limiting and excess reactants, theoretical/actual/percentage yield, purity and medicine-production applications. Aligned to DCAR 2024 SLOs C-11-B-50–C-11-B-59.",
       "lessons": [
         {
-          "title": "Chapter 1: Stoichiometry — concepts",
+          "title": "Chapter 1: Stoichiometry — mole, particles and molar mass",
           "type": "text",
-          "content": "## Learning outcomes\nStoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar mass converts between mass and moles. Use coefficients as mole ratios and check units and limiting reagents.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "content": "## Learning outcomes\nBy the end of this lesson, you should be able to:\n- Define a mole and Avogadro's constant.\n- Convert between mass, moles and number of particles.\n- Calculate molar mass from a chemical formula.\n- Show every step with correct units and significant figures.\n\n## Key terms\n**Stoichiometry:** quantitative relationships between reactants and products in a balanced chemical equation.\n**Mole (mol):** the amount of substance containing approximately (6.022\\times10^{23}) specified particles.\n**Avogadro's constant:** (N_A=6.022\\times10^{23}\\ mol^{-1}).\n**Molar mass (M):** mass of one mole of a substance, usually in g mol⁻¹.\n\n## Core relationships\n\\[\nn=\\frac{m}{M},\\qquad m=nM,\\qquad N=nN_A\n\\]\nHere (n) is amount in mol, (m) is mass in g, (M) is molar mass in g mol⁻¹ and (N) is number of particles. The particles must be named: atoms, molecules, ions or formula units.\n\n## Worked example\nA water sample has a mass of 18.0 g. Its molar mass is (2(1.0)+16.0=18.0\\ g\\ mol^{-1}).\n\\[\nn=18.0/18.0=1.00\\ mol\n\\]\nIt therefore contains (1.00\\times6.022\\times10^{23}) water molecules. Each molecule has two hydrogen atoms and one oxygen atom, so atom counts must be calculated from that molecular composition.\n\n## Method for every calculation\n1. Write the chemical formula and calculate its molar mass.\n2. Convert the given mass to moles using (n=m/M).\n3. Use Avogadro's constant only when particle count is requested.\n4. Keep units in each line and round only at the end.\n\n## Quick revision\n- One mole is a counting unit, not a mass.\n- Different substances have different molar masses.\n- A balanced equation is needed before using reaction mole ratios.",
           "explanations": {
-            "ur": "اسٹوئکیومیٹری متوازن مساوات اور مول کے تناسب سے مادوں کی مقدار معلوم کرتی ہے۔ مول، ذرّات اور مادے کی مقدار کا تعلق ہے؛ مولر ماس کمیت اور مول میں تبدیلی دیتا ہے۔",
-            "sd": "اسٽوئيڪيوميٽري متوازن مساوات ۽ مول جي نسبت سان مادّن جي مقدار معلوم ڪري ٿي. مول ذرڙن ۽ مادي جي مقدار جو لاڳاپو آهي؛ مولر ماس وزن ۽ مول ۾ تبديلي ڏئي ٿو."
+            "ur": "## سیکھنے کے نتائج\nاس سبق کے بعد آپ مول، ایووگاڈرو مستقل اور مولر ماس کی تعریف کر سکیں گے اور کمیت، مول اور ذرّات کی تعداد کے درمیان تبدیلی کر سکیں گے۔\n\n## بنیادی اصطلاحات\n**اسٹوئکیومیٹری:** متوازن کیمیائی مساوات میں عامل مادّوں اور پیداوار کے مقداری تعلقات۔\n**مول:** مادّے کی وہ مقدار جس میں تقریباً (6.022\\times10^{23}) متعین ذرّات ہوں۔\n**ایووگاڈرو مستقل:** (N_A=6.022\\times10^{23}\\ mol^{-1})۔\n**مولر ماس:** ایک مول مادّے کی کمیت، عموماً g mol⁻¹ میں۔\n\n## بنیادی فارمولے\n\\(n=m/M\\)، \\(m=nM\\)، اور \\(N=nN_A\\)۔ یہاں n مول، m گرام میں کمیت، M مولر ماس اور N ذرّات کی تعداد ہے۔\n\n## حل شدہ مثال\n18.0 g پانی کا مولر ماس 18.0 g mol⁻¹ ہے، اس لیے n=18.0/18.0=1.00 mol۔ اس میں تقریباً (6.022\\times10^{23}) پانی کے سالمات ہوں گے۔ ہر سالمے میں دو ہائیڈروجن اور ایک آکسیجن ایٹم ہوتا ہے۔\n\n## دہرائی\nمول گنتی کی اکائی ہے، کمیت نہیں۔ ہر مادّے کا مولر ماس مختلف ہو سکتا ہے۔ ردِعمل کے مول تناسب کے لیے مساوات کو پہلے متوازن کریں۔",
+            "sd": "## سکيا جا مقصد\nهن سبق کان پوءِ توهان مول، ايواگاڊرو مستقل ۽ مولر ماس جي وضاحت ڪري سگهندا ۽ وزن، مول ۽ ذرڙن جي تعداد ۾ تبديلي آڻي سگهندا.\n\n## اهم اصطلاح\n**اسٽوئيڪيوميٽري:** متوازن ڪيميائي مساوات ۾ عامل مادن ۽ پيداوار جي مقداري لاڳاپن جو مطالعو.\n**مول:** مادي جي اها مقدار جنهن ۾ لڳ ڀڳ (6.022\\times10^{23}) مقرر ذرڙا هجن.\n**ايواگاڊرو مستقل:** (N_A=6.022\\times10^{23}\\ mol^{-1})۔\n**مولر ماس:** هڪ مول مادي جو وزن، عام طور g mol⁻¹ ۾.\n\n## بنيادي لاڳاپا\n\\(n=m/M\\)، \\(m=nM\\)، ۽ \\(N=nN_A\\)۔ هتي n مول، m گرام ۾ وزن، M مولر ماس ۽ N ذرڙن جو تعداد آهي.\n\n## حل ٿيل مثال\n18.0 g پاڻي جو مولر ماس 18.0 g mol⁻¹ آهي، تنهنڪري n=18.0/18.0=1.00 mol۔ ان ۾ لڳ ڀڳ (6.022\\times10^{23}) پاڻي جا ماليڪيول هوندا. هر ماليڪيول ۾ ٻه هائيڊروجن ۽ هڪ آڪسيجن جو ايٽم هوندو آهي.\n\n## ورجاءُ\nمول ڳڻپ جي اکائي آهي، وزن نه. هر مادي جو مولر ماس الڳ هوندو آهي. ردِعمل جا مول تناسب ڪڍڻ کان اڳ مساوات متوازن ڪريو."
           }
         },
         {
-          "title": "Chapter 1: Stoichiometry — applications and problem solving",
+          "title": "Chapter 1: Stoichiometry — balanced equations and mole ratios",
           "type": "text",
-          "content": "Apply the concepts in chapter 1: stoichiometry to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "content": "## Why equations must be balanced\nA balanced chemical equation obeys conservation of atoms: the number of atoms of each element is the same on both sides. Coefficients, not subscripts, give the mole ratio.\n\nFor example:\n\\[\n2Mg+O_2\\rightarrow2MgO\n\\]\nThe equation means 2 mol Mg react with 1 mol O₂ to form 2 mol MgO. It does not mean 2 g, 1 g and 2 g.\n\n## From mass to product mass\nA reliable sequence is:\n1. Balance the equation.\n2. Convert the known mass to moles.\n3. Use the coefficient ratio to find moles of the required substance.\n4. Convert those moles to mass using its molar mass.\n5. Check that the answer and units are reasonable.\n\n## Worked example\nIf 4.8 g magnesium reacts with excess oxygen:\n- (M(Mg)=24.0\\ g\\ mol^{-1}), so (n(Mg)=4.8/24.0=0.20\\ mol).\n- The ratio Mg:MgO is 2:2, therefore (n(MgO)=0.20\\ mol).\n- (M(MgO)=24.0+16.0=40.0\\ g\\ mol^{-1}).\n- Product mass (=0.20\\times40.0=8.0\\ g).\n\n## Gas and solution quantities\nFor a gas, use the molar volume stated in the question. This course uses the conventional school STP value **22.4 dm³ mol⁻¹ at 273 K and 1 atm** when that convention is specified. For solutions, first convert cm³ to dm³ where needed, then use (n=cV), with concentration in mol dm⁻³ and volume in dm³.\n\n## Quick revision\nCoefficients provide mole ratios. Never use an unbalanced equation for a quantitative calculation.",
           "explanations": {
-            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
-            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+            "ur": "## مساوات کو متوازن کرنا کیوں ضروری ہے؟\nمتوازن مساوات میں ہر عنصر کے ایٹم دونوں طرف برابر ہوتے ہیں۔ مساوات کے coefficients مول کا تناسب بتاتے ہیں، گرام یا سالمات کی براہِ راست تعداد نہیں۔\n\nمثال: \\(2Mg+O_2\\rightarrow2MgO\\)۔ اس کا مطلب ہے 2 mol میگنیشیم، 1 mol آکسیجن سے ردِعمل کر کے 2 mol میگنیشیم آکسائیڈ بناتے ہیں۔\n\n## کمیت سے پیداوار کی کمیت تک\nپہلے مساوات متوازن کریں، دی گئی کمیت کو مول میں بدلیں، coefficients کا تناسب لگائیں، مطلوبہ مول کو مولر ماس سے کمیت میں بدلیں اور اکائیاں چیک کریں۔\n\n4.8 g Mg کے لیے: n=4.8/24.0=0.20 mol۔ Mg:MgO تناسب 1:1 ہے، اس لیے MgO=0.20 mol۔ MgO کا مولر ماس 40.0 g mol⁻¹ ہے؛ پیداوار=8.0 g۔\n\n## گیس اور محلول\nسوال میں دی گئی گیس کی مولر والیوم استعمال کریں۔ اس کورس میں روایتی تعلیمی STP قدر 22.4 dm³ mol⁻¹ (273 K اور 1 atm) استعمال ہوتی ہے جب یہی شرط دی گئی ہو۔ محلول کے لیے \\(n=cV\\) استعمال کریں اور V کو dm³ میں رکھیں۔",
+            "sd": "## مساوات کي متوازن ڪرڻ ڇو ضروري آهي؟\nمتوازن مساوات ۾ هر عنصر جا ايٽم ٻنهي پاسن تي برابر هوندا آهن. مساوات جا coefficients مول جو تناسب ٻڌائين ٿا، گرام يا ذرڙن جو سڌو تعداد نه.\n\nمثال: \\(2Mg+O_2\\rightarrow2MgO\\)۔ ان جو مطلب آهي 2 mol ميگنيشيم، 1 mol آڪسيجن سان ردِعمل ڪري 2 mol ميگنيشيم آڪسائيڊ ٺاهين ٿا.\n\n## وزن مان پيداوار جو وزن\nپهريان مساوات متوازن ڪريو، ڏنل وزن کي مول ۾ بدلايو، coefficients جو تناسب استعمال ڪريو، پوءِ مول کي مولر ماس سان وزن ۾ بدلايو ۽ اکايون چيڪ ڪريو.\n\n4.8 g Mg لاءِ: n=4.8/24.0=0.20 mol۔ Mg:MgO جو تناسب 1:1 آهي، تنهنڪري MgO=0.20 mol۔ MgO جو مولر ماس 40.0 g mol⁻¹ آهي؛ پيداوار=8.0 g.\n\n## گئس ۽ محلول\nسوال ۾ ڏنل مولر حجم استعمال ڪريو. هن ڪورس ۾ روايتي تعليمي STP قدر 22.4 dm³ mol⁻¹ (273 K ۽ 1 atm) استعمال ٿيندي جڏهن اها شرط ڏنل هجي. محلول لاءِ \\(n=cV\\) ۽ V کي dm³ ۾ رکو."
+          }
+        },
+        {
+          "title": "Chapter 1: Stoichiometry — limiting reactants and yield",
+          "type": "text",
+          "content": "## Limiting and excess reactants\nThe **limiting reactant** is consumed first and fixes the maximum amount of product. An **excess reactant** remains after the limiting reactant is used up.\n\nFor (N_2+3H_2\\rightarrow2NH_3), 1 mol N₂ needs 3 mol H₂. If only 1.5 mol H₂ is available, hydrogen is limiting. The reaction extent is 1.5/3=0.5 mol of the written reaction:\n- NH₃ formed = (2\\times0.5=1.0\\ mol), or 17.0 g.\n- N₂ used = 0.5 mol; N₂ left = 0.5 mol, or 14.0 g.\n\n## Theoretical and actual yield\n**Theoretical yield** is the maximum product predicted by the balanced equation and available limiting reactant. **Actual yield** is the amount isolated in the experiment or process.\n\n\\[\n\\%\\,yield=\\frac{actual\\ yield}{theoretical\\ yield}\\times100\n\\]\n\nIf the theoretical yield is 15.0 g and the actual yield is 12.0 g, percentage yield is (12.0/15.0\\times100=80.0\\%).\n\n## Why yield may be below 100%\nProduct may be lost during transfer, purification or filtration; a side reaction may form another product; or the reaction may not go to completion. Do not change a balanced equation simply to force a 100% yield.\n\n## Quick revision\nAlways compare the available mole amounts with the balanced coefficient ratio. Identify the limiting reactant before calculating maximum product.",
+          "explanations": {
+            "ur": "## محدود اور زائد عامل\n**محدود عامل** وہ مادہ ہے جو پہلے ختم ہوتا ہے اور پیداوار کی زیادہ سے زیادہ مقدار طے کرتا ہے۔ **زائد عامل** وہ مادہ ہے جو محدود عامل ختم ہونے کے بعد باقی رہ جاتا ہے۔\n\n\\(N_2+3H_2\\rightarrow2NH_3\\) میں 1 mol نائٹروجن کے لیے 3 mol ہائیڈروجن درکار ہے۔ اگر صرف 1.5 mol ہائیڈروجن ہو تو ہائیڈروجن محدود عامل ہے۔ 0.5 mol ردِعمل کے تناسب سے 1.0 mol یا 17.0 g امونیا بنتی ہے؛ 0.5 mol نائٹروجن (14.0 g) باقی رہتی ہے۔\n\n## نظری اور عملی پیداوار\nنظری پیداوار مساوات کے مطابق زیادہ سے زیادہ مقدار ہے؛ عملی پیداوار تجربے یا عمل میں حاصل ہونے والی مقدار ہے۔\n\\(\\%yield=(actual/theoretical)\\times100\\)۔ اگر نظری پیداوار 15.0 g اور عملی 12.0 g ہو تو فیصد پیداوار 80.0% ہے۔\n\nپیداوار کم ہونے کی وجوہات میں منتقلی یا صفائی کے دوران نقصان، ضمنی ردِعمل اور نامکمل ردِعمل شامل ہیں۔",
+            "sd": "## محدود ۽ وڌيڪ عامل\n**محدود عامل** اهو مادو آهي جيڪو سڀ کان پهرين ختم ٿئي ٿو ۽ پيداوار جي وڌ ۾ وڌ مقدار مقرر ڪري ٿو. **وڌيڪ عامل** اهو مادو آهي جيڪو محدود عامل ختم ٿيڻ کان پوءِ بچي وڃي ٿو.\n\n\\(N_2+3H_2\\rightarrow2NH_3\\) ۾ 1 mol نائٽروجن لاءِ 3 mol هائيڊروجن گهربل آهي. جيڪڏهن صرف 1.5 mol هائيڊروجن هجي ته هائيڊروجن محدود عامل آهي. 0.5 mol ردِعمل جي تناسب سان 1.0 mol يا 17.0 g امونيا ٺهندي؛ 0.5 mol نائٽروجن (14.0 g) بچندي.\n\n## نظري ۽ حقيقي پيداوار\nنظري پيداوار مساوات مطابق وڌ ۾ وڌ مقدار آهي؛ حقيقي پيداوار تجربي يا عمل ۾ حاصل ڪيل مقدار آهي.\n\\(\\%yield=(actual/theoretical)\\times100\\)۔ جيڪڏهن نظري پيداوار 15.0 g ۽ حقيقي 12.0 g هجي ته پيداوار 80.0% آهي.\n\nگهٽ پيداوار جا سبب منتقلي يا صفائي دوران نقصان، ضمني ردِعمل ۽ نامڪمل ردِعمل ٿي سگهن ٿا."
+          }
+        },
+        {
+          "title": "Chapter 1: Stoichiometry — purity, STP gas volume and medicine manufacture",
+          "type": "text",
+          "content": "## Gas volume at STP\nUse the molar gas volume specified by the syllabus or question. Under the conventional school STP convention used here (273 K, 1 atm), one mole of an ideal gas occupies approximately **22.4 dm³**.\n\\[\nV=n\\times22.4\\ dm^3\n\\]\nThus 2.00 mol of gas occupies 44.8 dm³ under those stated conditions. If a question gives a different temperature/pressure or molar volume, use the value provided rather than mixing conventions.\n\n## Purity\nAn impure sample contains the desired substance plus impurities.\n\\[\n\\%\\,purity=\\frac{mass\\ of\\ pure\\ substance}{mass\\ of\\ sample}\\times100\n\\]\nA 20.0 g sample containing 18.0 g of the desired compound is 90.0% pure. For a reaction calculation, use the mass of the pure reactant, not the total impure sample mass.\n\n## Stoichiometry in medicine production\nManufacturers use balanced equations and measured quantities to control the amount of starting materials and active ingredient in a batch. Purity and percentage-yield calculations help estimate material requirements and identify losses. Quality-control testing checks identity, strength and batch uniformity. These calculations explain manufacturing control; they are **not instructions for choosing or changing a patient's medicine dose**.\n\n## Applied case study\nA production plan requires 250 g of an active ingredient in a finished batch. If the validated process has an expected isolated yield of 80%, the theoretical product target is:\n\\[\n250/0.80=312.5\\ g\n\\]\nThe manufacturer must still test the finished batch for purity and uniformity. Stoichiometry supports planning; laboratory quality checks confirm the actual product.\n\n## Revision checklist\n- Balance first; use coefficients as mole ratios.\n- Convert mass to moles before using the equation.\n- Identify the limiting reactant.\n- State the STP convention and units.\n- Distinguish purity from percentage yield.",
+          "explanations": {
+            "ur": "## STP پر گیس کا حجم\nسوال یا نصاب میں دی گئی مولر والیوم استعمال کریں۔ یہاں روایتی تعلیمی STP (273 K، 1 atm) کے تحت ایک مول مثالی گیس کا حجم تقریباً **22.4 dm³** لیا گیا ہے۔ اس لیے 2.00 mol گیس کا حجم 44.8 dm³ ہوگا۔ اگر سوال مختلف درجۂ حرارت، دباؤ یا مولر والیوم دے تو وہی قدر استعمال کریں۔\n\n## خالص پن\nناخالص نمونے میں مطلوبہ مادہ اور نجاستیں ہوتی ہیں۔ فیصد خالص پن = (خالص مادے کی کمیت / نمونے کی کل کمیت) ×100۔ 20.0 g نمونے میں 18.0 g خالص مادہ ہو تو خالص پن 90.0% ہے۔ ردِعمل کے حساب میں خالص عامل کی کمیت استعمال کریں۔\n\n## ادویات کی تیاری میں استعمال\nکارخانے متوازن مساوات اور نپی تلی مقداروں سے خام مادوں اور فعال جز کی مقدار قابو میں رکھتے ہیں۔ خالص پن اور فیصد پیداوار سے خام مال اور نقصان کا اندازہ لگایا جاتا ہے۔ یہ صنعتی معیار کی وضاحت ہے، مریض کی دوا کی خوراک بدلنے کی ہدایت نہیں۔\n\n## اطلاقی مثال\nاگر تیار بیچ میں 250 g فعال جز درکار ہو اور تصدیق شدہ عمل کی متوقع الگ شدہ پیداوار 80% ہو تو نظری پیداوار 250/0.80=312.5 g ہوگی۔ تیار بیچ کی خالصیت اور یکسانیت پھر بھی لیبارٹری میں جانچنا ضروری ہے۔",
+            "sd": "## STP تي گئس جو حجم\nسوال يا نصاب ۾ ڏنل مولر حجم استعمال ڪريو. هتي روايتي تعليمي STP (273 K، 1 atm) هيٺ هڪ مول مثالي گئس جو حجم لڳ ڀڳ **22.4 dm³** ورتو ويو آهي. تنهنڪري 2.00 mol گئس جو حجم 44.8 dm³ ٿيندو. جيڪڏهن سوال ٻيو گرمي پد، دٻاءُ يا مولر حجم ڏئي ته اهو ئي استعمال ڪريو.\n\n## خالص هجڻ\nناخالص نموني ۾ گهربل مادو ۽ ملاوٽ هوندي آهي. فيصد خالص هجڻ = (خالص مادي جو وزن / نموني جو ڪل وزن) ×100۔ 20.0 g نموني ۾ 18.0 g خالص مادو هجي ته خالص هجڻ 90.0% آهي. ردِعمل جي حساب ۾ خالص عامل جو وزن استعمال ڪريو.\n\n## دوائن جي تياري ۾ اسٽوئيڪيوميٽري\nڪارخانا متوازن مساوات ۽ ماپيل مقدار سان خام مال ۽ فعال جزو جي مقدار ڪنٽرول ڪن ٿا. خالص هجڻ ۽ پيداوار جي فيصد سان گهربل مواد ۽ نقصان جو اندازو لڳائجي ٿو. هي صنعتي معيار بابت وضاحت آهي، مريض جي دوا جي مقدار چونڊڻ يا بدلائڻ جي هدايت نه آهي.\n\n## عملي مثال\nجيڪڏهن تيار ٿيل بيچ ۾ 250 g فعال جزو گهربل هجي ۽ تصديق ٿيل عمل جي متوقع پيداوار 80% هجي ته نظري پيداوار 250/0.80=312.5 g ٿيندي. تيار ٿيل بيچ جي خالص هجڻ ۽ هڪجهڙائي ليبارٽري ۾ جانچڻ ضروري آهي."
           }
         }
       ],
       "questions": [
         {
-          "question": "Which statement best describes chapter 1: stoichiometry?",
+          "question": "A sample contains 18.0 g of water (molar mass 18.0 g mol⁻¹). How many moles of water are present?",
           "options": {
-            "A": "Stoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar m",
-            "B": "The topic is unrelated to measurable evidence.",
-            "C": "Units and definitions are unnecessary.",
-            "D": "The concept cannot be applied to problems."
+            "A": "1.00 mol",
+            "B": "0.50 mol",
+            "C": "2.00 mol",
+            "D": "18.0 mol"
           },
           "correctOption": "A",
-          "explanation": "Stoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar mass converts between mass and moles. Use coefficients as mole ratios and check units and limiting reagents."
+          "explanation": "Use n=m/M=18.0/18.0=1.00 mol.",
+          "translations": {
+            "ur": {
+              "question": "18.0 g پانی کا مولر ماس 18.0 g mol⁻¹ ہے۔ اس میں کتنے مول پانی ہیں؟",
+              "options": {
+                "A": "1.00 mol",
+                "B": "0.50 mol",
+                "C": "2.00 mol",
+                "D": "18.0 mol"
+              },
+              "explanation": "فارمولا n=m/M کے مطابق 18.0/18.0=1.00 mol۔"
+            },
+            "sd": {
+              "question": "18.0 g پاڻي جو مولر ماس 18.0 g mol⁻¹ آهي. ان ۾ ڪيترا مول پاڻي آهن؟",
+              "options": {
+                "A": "1.00 mol",
+                "B": "0.50 mol",
+                "C": "2.00 mol",
+                "D": "18.0 mol"
+              },
+              "explanation": "n=m/M موجب 18.0/18.0=1.00 mol."
+            }
+          }
         },
         {
-          "question": "How should a student solve a problem in chapter 1: stoichiometry?",
+          "question": "How many molecules are present in 0.50 mol of a molecular substance? Use NA=6.02×10²³ mol⁻¹.",
           "options": {
-            "A": "Guess without identifying quantities.",
-            "B": "Apply the relevant principle, show steps and check units.",
-            "C": "Ignore the stated conditions.",
-            "D": "Use an unrelated equation."
+            "A": "6.02×10²³",
+            "B": "3.01×10²³",
+            "C": "1.20×10²⁴",
+            "D": "3.01×10²²"
           },
           "correctOption": "B",
-          "explanation": "Stoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar mass converts between mass and moles. Use coefficients as mole ratios and check units and limiting reagents."
+          "explanation": "N=nNA=0.50×6.02×10²³=3.01×10²³ molecules.",
+          "translations": {
+            "ur": {
+              "question": "0.50 mol مادے میں کتنے سالمات ہوں گے؟ NA=6.02×10²³ mol⁻¹ استعمال کریں۔",
+              "options": {
+                "A": "6.02×10²³",
+                "B": "3.01×10²³",
+                "C": "1.20×10²⁴",
+                "D": "3.01×10²²"
+              },
+              "explanation": "N=nNA=0.50×6.02×10²³=3.01×10²³ سالمات۔"
+            },
+            "sd": {
+              "question": "0.50 mol مادي ۾ ڪيترا ماليڪيول هوندا؟ NA=6.02×10²³ mol⁻¹ استعمال ڪريو.",
+              "options": {
+                "A": "6.02×10²³",
+                "B": "3.01×10²³",
+                "C": "1.20×10²⁴",
+                "D": "3.01×10²²"
+              },
+              "explanation": "N=nNA=0.50×6.02×10²³=3.01×10²³ ماليڪيول."
+            }
+          }
+        },
+        {
+          "question": "For N₂+3H₂→2NH₃, what is the mole ratio N₂:H₂?",
+          "options": {
+            "A": "3:1",
+            "B": "2:3",
+            "C": "1:3",
+            "D": "1:2"
+          },
+          "correctOption": "C",
+          "explanation": "The balanced coefficients show that 1 mol N₂ reacts with 3 mol H₂.",
+          "translations": {
+            "ur": {
+              "question": "N₂+3H₂→2NH₃ میں N₂:H₂ کا مول تناسب کیا ہے؟",
+              "options": {
+                "A": "3:1",
+                "B": "2:3",
+                "C": "1:3",
+                "D": "1:2"
+              },
+              "explanation": "متوازن مساوات کے مطابق 1 mol N₂ کے لیے 3 mol H₂ درکار ہیں۔"
+            },
+            "sd": {
+              "question": "N₂+3H₂→2NH₃ ۾ N₂:H₂ جو مول تناسب ڇا آهي؟",
+              "options": {
+                "A": "3:1",
+                "B": "2:3",
+                "C": "1:3",
+                "D": "1:2"
+              },
+              "explanation": "متوازن مساوات موجب 1 mol N₂ لاءِ 3 mol H₂ گهربل آهن."
+            }
+          }
+        },
+        {
+          "question": "4.8 g Mg reacts with excess oxygen: 2Mg+O₂→2MgO. What mass of MgO forms? (Mg=24, O=16)",
+          "options": {
+            "A": "4.0 g",
+            "B": "6.0 g",
+            "C": "12.0 g",
+            "D": "8.0 g"
+          },
+          "correctOption": "D",
+          "explanation": "n(Mg)=4.8/24=0.20 mol; the Mg:MgO ratio is 1:1; mass MgO=0.20×40=8.0 g.",
+          "translations": {
+            "ur": {
+              "question": "4.8 g Mg زائد آکسیجن سے ردِعمل کرتا ہے: 2Mg+O₂→2MgO۔ MgO کی کمیت کیا ہوگی؟ (Mg=24، O=16)",
+              "options": {
+                "A": "4.0 g",
+                "B": "6.0 g",
+                "C": "12.0 g",
+                "D": "8.0 g"
+              },
+              "explanation": "n(Mg)=4.8/24=0.20 mol؛ تناسب 1:1 ہے؛ MgO کی کمیت=0.20×40=8.0 g۔"
+            },
+            "sd": {
+              "question": "4.8 g Mg وڌيڪ آڪسيجن سان ردِعمل ڪري ٿو: 2Mg+O₂→2MgO۔ MgO جو وزن ڪيترو ٿيندو؟ (Mg=24، O=16)",
+              "options": {
+                "A": "4.0 g",
+                "B": "6.0 g",
+                "C": "12.0 g",
+                "D": "8.0 g"
+              },
+              "explanation": "n(Mg)=4.8/24=0.20 mol؛ تناسب 1:1؛ MgO جو وزن=0.20×40=8.0 g."
+            }
+          }
+        },
+        {
+          "question": "What amount of nitrogen gas is present in 28.0 g N₂? (Molar mass N₂=28.0 g mol⁻¹)",
+          "options": {
+            "A": "0.25 mol",
+            "B": "1.00 mol",
+            "C": "2.00 mol",
+            "D": "28.0 mol"
+          },
+          "correctOption": "B",
+          "explanation": "n=m/M=28.0/28.0=1.00 mol.",
+          "translations": {
+            "ur": {
+              "question": "28.0 g نائٹروجن گیس N₂ میں کتنے مول ہیں؟ (مولر ماس 28.0 g mol⁻¹)",
+              "options": {
+                "A": "0.25 mol",
+                "B": "1.00 mol",
+                "C": "2.00 mol",
+                "D": "28.0 mol"
+              },
+              "explanation": "n=m/M=28.0/28.0=1.00 mol۔"
+            },
+            "sd": {
+              "question": "28.0 g نائٽروجن گئس N₂ ۾ ڪيترا مول آهن؟ (مولر ماس 28.0 g mol⁻¹)",
+              "options": {
+                "A": "0.25 mol",
+                "B": "1.00 mol",
+                "C": "2.00 mol",
+                "D": "28.0 mol"
+              },
+              "explanation": "n=m/M=28.0/28.0=1.00 mol."
+            }
+          }
+        },
+        {
+          "question": "How many moles are present in 3.0 g H₂? (Molar mass H₂=2.0 g mol⁻¹)",
+          "options": {
+            "A": "0.50 mol",
+            "B": "1.00 mol",
+            "C": "1.50 mol",
+            "D": "6.00 mol"
+          },
+          "correctOption": "C",
+          "explanation": "n=3.0/2.0=1.50 mol.",
+          "translations": {
+            "ur": {
+              "question": "3.0 g ہائیڈروجن H₂ میں کتنے مول ہیں؟ (مولر ماس 2.0 g mol⁻¹)",
+              "options": {
+                "A": "0.50 mol",
+                "B": "1.00 mol",
+                "C": "1.50 mol",
+                "D": "6.00 mol"
+              },
+              "explanation": "n=3.0/2.0=1.50 mol۔"
+            },
+            "sd": {
+              "question": "3.0 g هائيڊروجن H₂ ۾ ڪيترا مول آهن؟ (مولر ماس 2.0 g mol⁻¹)",
+              "options": {
+                "A": "0.50 mol",
+                "B": "1.00 mol",
+                "C": "1.50 mol",
+                "D": "6.00 mol"
+              },
+              "explanation": "n=3.0/2.0=1.50 mol."
+            }
+          }
+        },
+        {
+          "question": "In N₂+3H₂→2NH₃, 1.0 mol N₂ is mixed with 1.5 mol H₂. Which reactant is limiting?",
+          "options": {
+            "A": "H₂",
+            "B": "N₂",
+            "C": "NH₃",
+            "D": "Neither; both are exactly sufficient"
+          },
+          "correctOption": "A",
+          "explanation": "1.0 mol N₂ requires 3.0 mol H₂, but only 1.5 mol is available; H₂ is limiting.",
+          "translations": {
+            "ur": {
+              "question": "N₂+3H₂→2NH₃ میں 1.0 mol N₂ کے ساتھ 1.5 mol H₂ ملایا گیا۔ محدود عامل کون سا ہے؟",
+              "options": {
+                "A": "H₂",
+                "B": "N₂",
+                "C": "NH₃",
+                "D": "دونوں بالکل کافی ہیں"
+              },
+              "explanation": "1.0 mol N₂ کے لیے 3.0 mol H₂ چاہیے، مگر صرف 1.5 mol ہے؛ اس لیے H₂ محدود عامل ہے۔"
+            },
+            "sd": {
+              "question": "N₂+3H₂→2NH₃ ۾ 1.0 mol N₂ سان 1.5 mol H₂ ملايو ويو. محدود عامل ڪهڙو آهي؟",
+              "options": {
+                "A": "H₂",
+                "B": "N₂",
+                "C": "NH₃",
+                "D": "ٻئي پوري مقدار ۾ آهن"
+              },
+              "explanation": "1.0 mol N₂ لاءِ 3.0 mol H₂ کپي، پر صرف 1.5 mol موجود آهي؛ تنهنڪري H₂ محدود عامل آهي."
+            }
+          }
+        },
+        {
+          "question": "For the mixture in the previous question, what maximum amount of NH₃ can form?",
+          "options": {
+            "A": "0.50 mol",
+            "B": "0.75 mol",
+            "C": "1.50 mol",
+            "D": "1.00 mol"
+          },
+          "correctOption": "D",
+          "explanation": "1.5 mol H₂ divided by the coefficient 3 gives 0.5 mol reaction extent; NH₃ coefficient 2 gives 1.0 mol.",
+          "translations": {
+            "ur": {
+              "question": "پچھلے سوال کے آمیزے سے NH₃ کی زیادہ سے زیادہ کتنی مقدار بن سکتی ہے؟",
+              "options": {
+                "A": "0.50 mol",
+                "B": "0.75 mol",
+                "C": "1.50 mol",
+                "D": "1.00 mol"
+              },
+              "explanation": "1.5 mol H₂ کو coefficient 3 سے تقسیم کرنے پر 0.5 mol ردِعمل بنتا ہے؛ NH₃ کا coefficient 2 ہے، اس لیے 1.0 mol بنتی ہے۔"
+            },
+            "sd": {
+              "question": "اڳئين سوال واري ملاوٽ مان NH₃ جي وڌ ۾ وڌ ڪيتري مقدار ٺهندي؟",
+              "options": {
+                "A": "0.50 mol",
+                "B": "0.75 mol",
+                "C": "1.50 mol",
+                "D": "1.00 mol"
+              },
+              "explanation": "1.5 mol H₂ کي coefficient 3 سان ورهائڻ سان 0.5 mol ردِعمل ملي ٿو؛ NH₃ جو coefficient 2 آهي، تنهنڪري 1.0 mol ٺهندي."
+            }
+          }
+        },
+        {
+          "question": "A reaction has a theoretical yield of 15.0 g and an actual yield of 12.0 g. What is the percentage yield?",
+          "options": {
+            "A": "80.0%",
+            "B": "20.0%",
+            "C": "125%",
+            "D": "3.0%"
+          },
+          "correctOption": "A",
+          "explanation": "Percentage yield=(12.0/15.0)×100=80.0%.",
+          "translations": {
+            "ur": {
+              "question": "نظری پیداوار 15.0 g اور عملی پیداوار 12.0 g ہے۔ فیصد پیداوار کیا ہے؟",
+              "options": {
+                "A": "80.0%",
+                "B": "20.0%",
+                "C": "125%",
+                "D": "3.0%"
+              },
+              "explanation": "فیصد پیداوار=(12.0/15.0)×100=80.0%۔"
+            },
+            "sd": {
+              "question": "نظري پيداوار 15.0 g ۽ حقيقي پيداوار 12.0 g آهي. پيداوار جو فيصد ڪيترو آهي؟",
+              "options": {
+                "A": "80.0%",
+                "B": "20.0%",
+                "C": "125%",
+                "D": "3.0%"
+              },
+              "explanation": "پيداوار جو فيصد=(12.0/15.0)×100=80.0%."
+            }
+          }
+        },
+        {
+          "question": "Using a molar gas volume of 22.4 dm³ mol⁻¹ at the stated school STP, what volume is occupied by 2.00 mol gas?",
+          "options": {
+            "A": "11.2 dm³",
+            "B": "22.4 dm³",
+            "C": "44.8 dm³",
+            "D": "67.2 dm³"
+          },
+          "correctOption": "C",
+          "explanation": "V=n×22.4=2.00×22.4=44.8 dm³.",
+          "translations": {
+            "ur": {
+              "question": "مقررہ تعلیمی STP پر مولر گیس والیوم 22.4 dm³ mol⁻¹ ہے۔ 2.00 mol گیس کا حجم کیا ہوگا؟",
+              "options": {
+                "A": "11.2 dm³",
+                "B": "22.4 dm³",
+                "C": "44.8 dm³",
+                "D": "67.2 dm³"
+              },
+              "explanation": "V=n×22.4=2.00×22.4=44.8 dm³۔"
+            },
+            "sd": {
+              "question": "مقرر ڪيل تعليمي STP تي مولر گئس حجم 22.4 dm³ mol⁻¹ آهي. 2.00 mol گئس جو حجم ڪيترو ٿيندو؟",
+              "options": {
+                "A": "11.2 dm³",
+                "B": "22.4 dm³",
+                "C": "44.8 dm³",
+                "D": "67.2 dm³"
+              },
+              "explanation": "V=n×22.4=2.00×22.4=44.8 dm³."
+            }
+          }
+        },
+        {
+          "question": "Which equation converts a known mass into amount of substance?",
+          "options": {
+            "A": "n=m×M",
+            "B": "n=m/M",
+            "C": "n=M/m",
+            "D": "n=m+M"
+          },
+          "correctOption": "B",
+          "explanation": "Divide mass in grams by molar mass in g mol⁻¹ to obtain moles.",
+          "translations": {
+            "ur": {
+              "question": "دی گئی کمیت کو مول میں بدلنے کا درست فارمولا کون سا ہے؟",
+              "options": {
+                "A": "n=m×M",
+                "B": "n=m/M",
+                "C": "n=M/m",
+                "D": "n=m+M"
+              },
+              "explanation": "گرام میں کمیت کو g mol⁻¹ میں مولر ماس سے تقسیم کریں۔"
+            },
+            "sd": {
+              "question": "ڏنل وزن کي مول ۾ بدلائڻ جو صحيح فارمولو ڪهڙو آهي؟",
+              "options": {
+                "A": "n=m×M",
+                "B": "n=m/M",
+                "C": "n=M/m",
+                "D": "n=m+M"
+              },
+              "explanation": "گرام ۾ وزن کي g mol⁻¹ واري مولر ماس سان ورهايو."
+            }
+          }
+        },
+        {
+          "question": "What mass of NaCl is present in 0.25 mol? (Na=23.0, Cl=35.5 g mol⁻¹)",
+          "options": {
+            "A": "5.85 g",
+            "B": "29.25 g",
+            "C": "58.5 g",
+            "D": "14.625 g"
+          },
+          "correctOption": "D",
+          "explanation": "M(NaCl)=58.5 g mol⁻¹; m=nM=0.25×58.5=14.625 g.",
+          "translations": {
+            "ur": {
+              "question": "0.25 mol NaCl کی کمیت کیا ہوگی؟ (Na=23.0، Cl=35.5 g mol⁻¹)",
+              "options": {
+                "A": "5.85 g",
+                "B": "29.25 g",
+                "C": "58.5 g",
+                "D": "14.625 g"
+              },
+              "explanation": "M(NaCl)=58.5 g mol⁻¹؛ m=nM=0.25×58.5=14.625 g۔"
+            },
+            "sd": {
+              "question": "0.25 mol NaCl جو وزن ڪيترو ٿيندو؟ (Na=23.0، Cl=35.5 g mol⁻¹)",
+              "options": {
+                "A": "5.85 g",
+                "B": "29.25 g",
+                "C": "58.5 g",
+                "D": "14.625 g"
+              },
+              "explanation": "M(NaCl)=58.5 g mol⁻¹؛ m=nM=0.25×58.5=14.625 g."
+            }
+          }
+        },
+        {
+          "question": "How many moles are present in 11.0 g CO₂? (Molar mass CO₂=44.0 g mol⁻¹)",
+          "options": {
+            "A": "0.25 mol",
+            "B": "0.50 mol",
+            "C": "2.00 mol",
+            "D": "4.00 mol"
+          },
+          "correctOption": "A",
+          "explanation": "n=11.0/44.0=0.25 mol.",
+          "translations": {
+            "ur": {
+              "question": "11.0 g CO₂ میں کتنے مول ہیں؟ (مولر ماس 44.0 g mol⁻¹)",
+              "options": {
+                "A": "0.25 mol",
+                "B": "0.50 mol",
+                "C": "2.00 mol",
+                "D": "4.00 mol"
+              },
+              "explanation": "n=11.0/44.0=0.25 mol۔"
+            },
+            "sd": {
+              "question": "11.0 g CO₂ ۾ ڪيترا مول آهن؟ (مولر ماس 44.0 g mol⁻¹)",
+              "options": {
+                "A": "0.25 mol",
+                "B": "0.50 mol",
+                "C": "2.00 mol",
+                "D": "4.00 mol"
+              },
+              "explanation": "n=11.0/44.0=0.25 mol."
+            }
+          }
+        },
+        {
+          "question": "A 20.0 g impure sample contains 18.0 g of the desired pure compound. What is its percentage purity?",
+          "options": {
+            "A": "18%",
+            "B": "80%",
+            "C": "90%",
+            "D": "111%"
+          },
+          "correctOption": "C",
+          "explanation": "Purity=(18.0/20.0)×100=90.0%.",
+          "translations": {
+            "ur": {
+              "question": "20.0 g ناخالص نمونے میں مطلوبہ خالص مرکب 18.0 g ہے۔ خالص پن کا فیصد کیا ہے؟",
+              "options": {
+                "A": "18%",
+                "B": "80%",
+                "C": "90%",
+                "D": "111%"
+              },
+              "explanation": "خالص پن=(18.0/20.0)×100=90.0%۔"
+            },
+            "sd": {
+              "question": "20.0 g ناخالص نموني ۾ گهربل خالص مرڪب 18.0 g آهي. خالص هجڻ جو فيصد ڪيترو آهي؟",
+              "options": {
+                "A": "18%",
+                "B": "80%",
+                "C": "90%",
+                "D": "111%"
+              },
+              "explanation": "خالص هجڻ=(18.0/20.0)×100=90.0%."
+            }
+          }
+        },
+        {
+          "question": "For 2H₂+O₂→2H₂O, 4.0 mol H₂ reacts with 2.0 mol O₂. How much water forms if the reaction is complete?",
+          "options": {
+            "A": "1.0 mol",
+            "B": "4.0 mol",
+            "C": "2.0 mol",
+            "D": "6.0 mol"
+          },
+          "correctOption": "B",
+          "explanation": "The 2:1 ratio is exactly met; the coefficient ratio gives 4.0 mol H₂O.",
+          "translations": {
+            "ur": {
+              "question": "2H₂+O₂→2H₂O میں 4.0 mol H₂ اور 2.0 mol O₂ مکمل ردِعمل کرتے ہیں۔ کتنا پانی بنے گا؟",
+              "options": {
+                "A": "1.0 mol",
+                "B": "4.0 mol",
+                "C": "2.0 mol",
+                "D": "6.0 mol"
+              },
+              "explanation": "2:1 تناسب پورا ہے؛ مساوات کے مطابق 4.0 mol H₂O بنے گا۔"
+            },
+            "sd": {
+              "question": "2H₂+O₂→2H₂O ۾ 4.0 mol H₂ ۽ 2.0 mol O₂ مڪمل ردِعمل ڪن ٿا. ڪيترو پاڻي ٺهندو؟",
+              "options": {
+                "A": "1.0 mol",
+                "B": "4.0 mol",
+                "C": "2.0 mol",
+                "D": "6.0 mol"
+              },
+              "explanation": "2:1 تناسب پورو آهي؛ مساوات موجب 4.0 mol H₂O ٺهندو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 5,
-          "question": "Define two key terms in chapter 1: stoichiometry and explain their relationship.",
-          "modelAnswer": "Stoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar mass converts between mass and moles. Use coefficients as mole ratios and check units and limiting reagents.",
+          "question": "Calculate the amount of substance and number of molecules in 9.0 g of water. Use M(H₂O)=18.0 g mol⁻¹ and NA=6.02×10²³ mol⁻¹.",
+          "modelAnswer": "n=m/M=9.0/18.0=0.50 mol. Number of molecules N=nNA=0.50×6.02×10²³=3.01×10²³ molecules. Units and the particle name should be stated.",
           "rubric": [
-            "Correct definitions (2)",
-            "Relationship/explanation (2)",
-            "Clear expression (1)"
-          ]
+            "Correct use of n=m/M (1)",
+            "Correct amount: 0.50 mol (1)",
+            "Correct use of Avogadro's constant (1)",
+            "Correct particle count: 3.01×10²³ molecules (1)",
+            "Units and clear working (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "9.0 g پانی میں مادے کی مقدار اور سالمات کی تعداد معلوم کریں۔ M(H₂O)=18.0 g mol⁻¹ اور NA=6.02×10²³ mol⁻¹ استعمال کریں۔",
+              "modelAnswer": "n=m/M=9.0/18.0=0.50 mol۔ سالمات کی تعداد N=nNA=0.50×6.02×10²³=3.01×10²³ سالمات۔ اکائیاں اور ذرّے کی قسم واضح لکھیں۔",
+              "rubric": [
+                "n=m/M کا درست استعمال (1)",
+                "درست مقدار 0.50 mol (1)",
+                "ایووگاڈرو مستقل کا درست استعمال (1)",
+                "3.01×10²³ سالمات (1)",
+                "اکائیاں اور واضح مراحل (1)"
+              ]
+            },
+            "sd": {
+              "question": "9.0 g پاڻي ۾ مادي جي مقدار ۽ ماليڪيولن جو تعداد ڳڻيو. M(H₂O)=18.0 g mol⁻¹ ۽ NA=6.02×10²³ mol⁻¹ استعمال ڪريو.",
+              "modelAnswer": "n=m/M=9.0/18.0=0.50 mol۔ ماليڪيولن جو تعداد N=nNA=0.50×6.02×10²³=3.01×10²³ ماليڪيول. اکايون ۽ ذرڙي جو نالو لکو.",
+              "rubric": [
+                "n=m/M جو صحيح استعمال (1)",
+                "صحيح مقدار 0.50 mol (1)",
+                "ايواگاڊرو مستقل جو صحيح استعمال (1)",
+                "3.01×10²³ ماليڪيول (1)",
+                "اکايون ۽ صاف مرحلا (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "4.8 g magnesium reacts with excess oxygen according to 2Mg+O₂→2MgO. Calculate the theoretical mass of MgO. (Mg=24, O=16)",
+          "modelAnswer": "M(Mg)=24 g mol⁻¹, so n(Mg)=4.8/24=0.20 mol. The balanced ratio Mg:MgO is 2:2, so n(MgO)=0.20 mol. M(MgO)=40 g mol⁻¹; m=0.20×40=8.0 g.",
+          "rubric": [
+            "Moles of Mg calculated correctly (1)",
+            "Correct 1:1 mole ratio (1)",
+            "Molar mass of MgO = 40 g mol⁻¹ (1)",
+            "Theoretical mass = 8.0 g (1)",
+            "Clear units and working (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "4.8 g میگنیشیم زائد آکسیجن کے ساتھ 2Mg+O₂→2MgO کے مطابق ردِعمل کرتا ہے۔ MgO کی نظری کمیت معلوم کریں۔ (Mg=24، O=16)",
+              "modelAnswer": "M(Mg)=24 g mol⁻¹، اس لیے n(Mg)=4.8/24=0.20 mol۔ Mg:MgO تناسب 2:2 یعنی 1:1 ہے، لہٰذا n(MgO)=0.20 mol۔ M(MgO)=40 g mol⁻¹؛ m=0.20×40=8.0 g۔",
+              "rubric": [
+                "Mg کے مول درست نکالے (1)",
+                "1:1 مول تناسب درست (1)",
+                "MgO کا مولر ماس 40 g mol⁻¹ (1)",
+                "نظری کمیت 8.0 g (1)",
+                "واضح اکائیاں اور مراحل (1)"
+              ]
+            },
+            "sd": {
+              "question": "4.8 g ميگنيشيم وڌيڪ آڪسيجن سان 2Mg+O₂→2MgO مطابق ردِعمل ڪري ٿو. MgO جو نظري وزن ڳڻيو. (Mg=24، O=16)",
+              "modelAnswer": "M(Mg)=24 g mol⁻¹، تنهنڪري n(Mg)=4.8/24=0.20 mol۔ Mg:MgO جو تناسب 2:2 يعني 1:1 آهي، تنهنڪري n(MgO)=0.20 mol۔ M(MgO)=40 g mol⁻¹؛ m=0.20×40=8.0 g.",
+              "rubric": [
+                "Mg جا مول صحيح ڳڻيا (1)",
+                "1:1 مول تناسب صحيح (1)",
+                "MgO جو مولر ماس 40 g mol⁻¹ (1)",
+                "نظري وزن 8.0 g (1)",
+                "صاف اکايون ۽ مرحلا (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 6,
+          "question": "For N₂+3H₂→2NH₃, a vessel contains 28.0 g N₂ and 3.0 g H₂. Identify the limiting reactant, calculate the maximum mass of NH₃, and state the mass of N₂ left over. (N₂=28, H₂=2, NH₃=17 g mol⁻¹)",
+          "modelAnswer": "n(N₂)=28/28=1.0 mol; n(H₂)=3/2=1.5 mol. One mole N₂ requires 3 mol H₂, so H₂ is limiting. Reaction extent=1.5/3=0.5 mol. NH₃ formed=2×0.5=1.0 mol=17.0 g. N₂ used=0.5 mol, so 0.5 mol remains; mass left=0.5×28=14.0 g.",
+          "rubric": [
+            "Moles of both reactants (2)",
+            "Correct limiting reactant: H₂ (1)",
+            "Correct reaction extent and NH₃ amount (1)",
+            "Maximum NH₃ mass = 17.0 g (1)",
+            "Excess N₂ remaining = 14.0 g (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "N₂+3H₂→2NH₃ کے لیے برتن میں 28.0 g N₂ اور 3.0 g H₂ ہیں۔ محدود عامل شناخت کریں، NH₃ کی زیادہ سے زیادہ کمیت اور باقی N₂ کی کمیت معلوم کریں۔",
+              "modelAnswer": "n(N₂)=28/28=1.0 mol؛ n(H₂)=3/2=1.5 mol۔ 1 mol N₂ کے لیے 3 mol H₂ چاہیے، اس لیے H₂ محدود عامل ہے۔ ردِعمل کی مقدار 1.5/3=0.5 mol ہے۔ NH₃=2×0.5=1.0 mol=17.0 g۔ N₂ استعمال 0.5 mol ہے؛ 0.5 mol یعنی 14.0 g باقی رہتا ہے۔",
+              "rubric": [
+                "دونوں عاملوں کے مول (2)",
+                "H₂ کو محدود عامل شناخت کیا (1)",
+                "ردِعمل کی مقدار اور NH₃ کے مول (1)",
+                "زیادہ سے زیادہ NH₃=17.0 g (1)",
+                "باقی N₂=14.0 g (1)"
+              ]
+            },
+            "sd": {
+              "question": "N₂+3H₂→2NH₃ لاءِ برتن ۾ 28.0 g N₂ ۽ 3.0 g H₂ آهن. محدود عامل سڃاڻو، NH₃ جو وڌ ۾ وڌ وزن ۽ بچيل N₂ جو وزن ڳڻيو.",
+              "modelAnswer": "n(N₂)=28/28=1.0 mol؛ n(H₂)=3/2=1.5 mol۔ 1 mol N₂ لاءِ 3 mol H₂ کپي، تنهنڪري H₂ محدود عامل آهي. ردِعمل جي مقدار 1.5/3=0.5 mol آهي. NH₃=2×0.5=1.0 mol=17.0 g۔ N₂ جو 0.5 mol استعمال ٿيو؛ 0.5 mol يعني 14.0 g بچندو.",
+              "rubric": [
+                "ٻنهي عاملن جا مول (2)",
+                "H₂ کي محدود عامل سڃاتو (1)",
+                "ردِعمل جي مقدار ۽ NH₃ جا مول (1)",
+                "وڌ ۾ وڌ NH₃=17.0 g (1)",
+                "بچيل N₂=14.0 g (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
           "marks": 10,
-          "question": "Explain chapter 1: stoichiometry and discuss one practical or numerical application.",
-          "modelAnswer": "Stoichiometry uses balanced chemical equations and mole relationships to calculate amounts of reactants and products. The mole links particle number to amount of substance; molar mass converts between mass and moles. Use coefficients as mole ratios and check units and limiting reagents. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "question": "Explain a systematic method for solving a stoichiometry problem. Apply it to N₂+3H₂→2NH₃ when 28.0 g N₂ reacts with 3.0 g H₂. Identify the limiting and excess reactants, maximum ammonia formed and excess nitrogen remaining.",
+          "modelAnswer": "A complete solution balances the equation, calculates moles and compares them with the coefficient ratio. n(N₂)=28/28=1.0 mol and n(H₂)=3/2=1.5 mol. One mole N₂ needs 3 mol H₂, so H₂ is limiting. The reaction extent is 1.5/3=0.5 mol. NH₃ formed is 2×0.5=1.0 mol, or 17.0 g. N₂ consumed is 0.5 mol; 0.5 mol (14.0 g) remains. The method is: balance, convert to moles, identify the limiting reactant, use the ratio, convert to the requested unit and check the result.",
           "rubric": [
-            "Accurate concept (3)",
-            "Application/example (3)",
-            "Reasoning and steps (2)",
-            "Clarity and units (2)"
-          ]
+            "Balanced equation and method (2)",
+            "Correct mole conversions (2)",
+            "Limiting/excess identification (2)",
+            "NH₃ calculation (2)",
+            "Excess N₂ and clear conclusion (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "اسٹوئکیومیٹری کا سوال حل کرنے کا منظم طریقہ بیان کریں۔ N₂+3H₂→2NH₃ میں 28.0 g N₂ اور 3.0 g H₂ کے ردِعمل پر لاگو کریں۔ محدود اور زائد عامل، زیادہ سے زیادہ امونیا اور باقی نائٹروجن معلوم کریں۔",
+              "modelAnswer": "مکمل حل میں مساوات متوازن کی جاتی ہے، مول نکالے جاتے ہیں اور coefficients کے تناسب سے موازنہ کیا جاتا ہے۔ n(N₂)=28/28=1.0 mol اور n(H₂)=3/2=1.5 mol۔ 1 mol N₂ کے لیے 3 mol H₂ چاہیے، اس لیے H₂ محدود عامل ہے۔ ردِعمل کی مقدار 1.5/3=0.5 mol ہے۔ NH₃=2×0.5=1.0 mol یعنی 17.0 g۔ N₂ کے 0.5 mol استعمال ہوتے ہیں اور 0.5 mol یعنی 14.0 g باقی رہتا ہے۔ طریقہ: مساوات متوازن کریں، مول نکالیں، محدود عامل شناخت کریں، تناسب لگائیں، مطلوبہ اکائی میں بدلیں اور جواب جانچیں۔",
+              "rubric": [
+                "متوازن مساوات اور طریقہ (2)",
+                "مول کی درست تبدیلی (2)",
+                "محدود/زائد عامل کی شناخت (2)",
+                "NH₃ کا حساب (2)",
+                "باقی N₂ اور واضح نتیجہ (2)"
+              ]
+            },
+            "sd": {
+              "question": "اسٽوئيڪيوميٽري جو سوال حل ڪرڻ جو منظم طريقو بيان ڪريو. N₂+3H₂→2NH₃ ۾ 28.0 g N₂ ۽ 3.0 g H₂ جي ردِعمل تي لاڳو ڪريو. محدود ۽ وڌيڪ عامل، وڌ ۾ وڌ امونيا ۽ بچيل نائٽروجن ڳڻيو.",
+              "modelAnswer": "مڪمل حل ۾ مساوات متوازن ڪجي ٿي، مول ڳڻجن ٿا ۽ coefficients جي تناسب سان ڀيٽ ڪجي ٿي. n(N₂)=28/28=1.0 mol ۽ n(H₂)=3/2=1.5 mol۔ 1 mol N₂ لاءِ 3 mol H₂ کپي، تنهنڪري H₂ محدود عامل آهي. ردِعمل جي مقدار 1.5/3=0.5 mol آهي. NH₃=2×0.5=1.0 mol يعني 17.0 g۔ N₂ جا 0.5 mol استعمال ٿين ٿا ۽ 0.5 mol يعني 14.0 g بچن ٿا. طريقو: مساوات متوازن ڪريو، مول ڳڻيو، محدود عامل سڃاڻو، تناسب لڳايو، گهربل اکائي ۾ بدلايو ۽ جواب چيڪ ڪريو.",
+              "rubric": [
+                "متوازن مساوات ۽ طريقو (2)",
+                "مول جون صحيح تبديليون (2)",
+                "محدود/وڌيڪ عامل جي سڃاڻپ (2)",
+                "NH₃ جو حساب (2)",
+                "بچيل N₂ ۽ واضح نتيجو (2)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Distinguish theoretical yield, actual yield, percentage yield and percentage purity. A process has a theoretical product yield of 25.0 g and produces 20.0 g. Calculate the percentage yield. Explain why purity and yield checks matter in medicine manufacture.",
+          "modelAnswer": "Theoretical yield is the maximum amount predicted from the balanced equation and limiting reactant. Actual yield is the amount isolated. Percentage yield=(actual/theoretical)×100=(20.0/25.0)×100=80.0%. Percentage purity is the mass of the desired pure substance divided by the total sample mass, multiplied by 100. In medicine manufacture, stoichiometry controls raw-material ratios and expected active-ingredient output; purity and batch-uniformity tests help confirm identity and strength. These are manufacturing quality checks, not instructions for selecting a patient's dose.",
+          "rubric": [
+            "Correct distinction of theoretical and actual yield (2)",
+            "Correct percentage-yield calculation (2)",
+            "Correct definition of percentage purity (2)",
+            "Relevant medicine-production application (2)",
+            "Safety/quality-control conclusion (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "نظری پیداوار، عملی پیداوار، فیصد پیداوار اور فیصد خالص پن میں فرق بیان کریں۔ نظری پیداوار 25.0 g اور حاصل شدہ پیداوار 20.0 g ہے۔ فیصد پیداوار نکالیں اور ادویات کی تیاری میں خالص پن اور پیداوار کی جانچ کی اہمیت بیان کریں۔",
+              "modelAnswer": "نظری پیداوار متوازن مساوات اور محدود عامل سے متوقع زیادہ سے زیادہ مقدار ہے۔ عملی پیداوار حقیقت میں حاصل شدہ مقدار ہے۔ فیصد پیداوار=(20.0/25.0)×100=80.0%۔ فیصد خالص پن مطلوبہ خالص مادے کی کمیت کو کل نمونے کی کمیت سے تقسیم کر کے 100 سے ضرب دینے سے ملتا ہے۔ ادویات کی تیاری میں اسٹوئکیومیٹری خام مال کے تناسب اور فعال جز کی متوقع مقدار قابو کرتی ہے؛ خالص پن اور بیچ کی یکسانیت کے ٹیسٹ شناخت اور طاقت کی تصدیق کرتے ہیں۔ یہ صنعتی معیار کی جانچ ہے، مریض کی خوراک مقرر کرنے کی ہدایت نہیں۔",
+              "rubric": [
+                "نظری اور عملی پیداوار کا فرق (2)",
+                "فیصد پیداوار کا درست حساب (2)",
+                "فیصد خالص پن کی درست تعریف (2)",
+                "ادویات کی تیاری میں اطلاق (2)",
+                "حفاظت اور معیار کا نتیجہ (2)"
+              ]
+            },
+            "sd": {
+              "question": "نظري پيداوار، حقيقي پيداوار، پيداوار جو فيصد ۽ خالص هجڻ جي فيصد ۾ فرق بيان ڪريو. نظري پيداوار 25.0 g ۽ حاصل ٿيل پيداوار 20.0 g آهي. پيداوار جو فيصد ڳڻيو ۽ دوائن جي تياري ۾ خالص هجڻ ۽ پيداوار جي جاچ جي اهميت بيان ڪريو.",
+              "modelAnswer": "نظري پيداوار متوازن مساوات ۽ محدود عامل مان اڳڪٿي ڪيل وڌ ۾ وڌ مقدار آهي. حقيقي پيداوار عمل ۾ حاصل ٿيل مقدار آهي. پيداوار جو فيصد=(20.0/25.0)×100=80.0%۔ خالص هجڻ جو فيصد گهربل خالص مادي جي وزن کي ڪل نموني جي وزن سان ورهائي 100 سان ضرب ڪرڻ سان ملي ٿو. دوائن جي تياري ۾ اسٽوئيڪيوميٽري خام مال جا تناسب ۽ فعال جزو جي متوقع مقدار ڪنٽرول ڪري ٿي؛ خالص هجڻ ۽ بيچ جي هڪجهڙائي جا ٽيسٽ سڃاڻپ ۽ طاقت جي تصديق ڪن ٿا. هي صنعتي معيار جاچڻ آهي، مريض جي دوا جي مقدار چونڊڻ جي هدايت نه.",
+              "rubric": [
+                "نظري ۽ حقيقي پيداوار جو فرق (2)",
+                "پيداوار جي فيصد جو صحيح حساب (2)",
+                "خالص هجڻ جي فيصد جي تعريف (2)",
+                "دوائن جي تياري ۾ استعمال (2)",
+                "حفاظت ۽ معيار جو نتيجو (2)"
+              ]
+            }
+          }
         }
-      ]
+      ],
+      "contentTier": "exam-ready"
     },
     {
       "title": "Chapter 2: Atomic Structure",
@@ -161,7 +815,8 @@
             "Clarity and units (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 3: Covalent Bonding and Molecular Shapes",
@@ -234,7 +889,8 @@
             "Clarity and units (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 4: States of Matter I — Gases",
@@ -307,7 +963,8 @@
             "Clarity and units (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 5: States of Matter II — Liquids",
@@ -380,7 +1037,8 @@
             "Clarity and units (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 6: States of Matter III — Solids",
@@ -453,7 +1111,8 @@
             "Clarity and units (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 7: Chemical Equilibrium",
@@ -526,7 +1185,8 @@
             "Clarity and units (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 8: Acids, Bases and Salts",
@@ -599,7 +1259,8 @@
             "Clarity and units (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 9: Chemical Kinetics",
@@ -672,7 +1333,8 @@
             "Clarity and units (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 10: Solutions and Colloids",
@@ -745,7 +1407,8 @@
             "Clarity and units (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 11: Thermochemistry",
@@ -818,7 +1481,8 @@
             "Clarity and units (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     },
     {
       "title": "Chapter 12: Electrochemistry",
@@ -891,7 +1555,9 @@
             "Clarity and units (2)"
           ]
         }
-      ]
+      ],
+      "contentTier": "outline"
     }
-  ]
+  ],
+  "contentTier": "mixed"
 }
