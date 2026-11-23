@@ -2,7 +2,7 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics study collection. Chapter 15 has expanded bilingual explanations, 20 explained MCQs, 6 CRQs, 3 ERQs, worked numericals and an applied case study. Chapters 16–28 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
-  "version": "11",
+  "version": "12",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1323,712 +1323,72 @@
     },
     {
       "title": "Chapter 20: Alternating Current",
-      "description": "Grade XII Physics chapter.",
+      "description": "Grade XII Physics: Alternating Current, with concept explanations, equations and applications.",
       "lessons": [
         {
-          "title": "20.1 AC waveform",
+          "title": "20.1 AC waveforms and RMS values",
           "type": "text",
-          "content": "## AC waveform\nAC waveform: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "AC waveform کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "AC waveform جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Alternating current changes magnitude and direction periodically. A sinusoidal voltage is v=V₀ sin(ωt), where V₀ is peak voltage and ω=2πf. Frequency f is measured in hertz and period T=1/f. For a sinusoidal signal, Vrms=V₀/√2 and Irms=I₀/√2.\n\nRMS is the equivalent steady DC value that produces the same average heating effect in a resistor. Electrical supply ratings normally quote RMS voltage, not peak voltage."
         },
         {
-          "title": "20.2 RMS value",
+          "title": "20.2 Reactance and impedance",
           "type": "text",
-          "content": "## RMS value\nRMS value: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "RMS value کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "RMS value جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ RMS value: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "A capacitor has capacitive reactance XC=1/(ωC), while an inductor has inductive reactance XL=ωL. In a pure resistor voltage and current are in phase. In an ideal inductor current lags voltage by 90°; in an ideal capacitor current leads voltage by 90°.\n\nFor a series RLC circuit, Z=√[R²+(XL−XC)²]. At resonance XL=XC, so Z=R and current is maximum for a fixed supply voltage."
         },
         {
-          "title": "20.3 reactance",
+          "title": "20.3 Power and transformers",
           "type": "text",
-          "content": "## reactance\nreactance: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "reactance کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ reactance: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "reactance جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ reactance: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "20.4 RLC resonance",
-          "type": "text",
-          "content": "## RLC resonance\nRLC resonance: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "RLC resonance کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "RLC resonance جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "20.5 transformers",
-          "type": "text",
-          "content": "## transformers\ntransformers: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "transformers کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ transformers: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "transformers جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ transformers: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Average AC power is P=VrmsIrms cosφ, where cosφ is the power factor. An ideal transformer uses mutual induction and obeys Vs/Vp=Ns/Np. A step-up transformer raises voltage while lowering current.\n\nTransformers require changing magnetic flux and do not operate from steady DC in the normal way. High-voltage transmission reduces current for a given power and therefore reduces resistive line loss I²R."
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes AC waveform?",
+          "question": "Which relation is central to alternating current?",
           "options": {
-            "A": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "transformers: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "The chapter's physical relations must be selected according to the situation",
+            "B": "All quantities are dimensionless",
+            "C": "No laws apply",
+            "D": "Units can be ignored"
           },
           "correctOption": "A",
-          "explanation": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "AC waveform کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "AC waveform بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "Use the correct physical model and check conditions and units."
         },
         {
-          "question": "Choose the correct principle for AC waveform.",
+          "question": "Which is a good method for solving a numerical in alternating current?",
           "options": {
-            "A": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "transformers: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Guess the answer",
+            "B": "Write known values, convert units and choose the relevant equation",
+            "C": "Ignore the physical conditions",
+            "D": "Use any equation with matching symbols"
           },
           "correctOption": "B",
-          "explanation": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "AC waveform کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "AC waveform بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about AC waveform?",
-          "options": {
-            "A": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "AC waveform کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "AC waveform بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes RMS value?",
-          "options": {
-            "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "RMS value کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "RMS value بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for RMS value.",
-          "options": {
-            "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "RMS value کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "RMS value بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "AC waveform: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about RMS value?",
-          "options": {
-            "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "RMS value کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "RMS value بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes reactance?",
-          "options": {
-            "A": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "reactance کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "reactance بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for reactance.",
-          "options": {
-            "A": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "reactance کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "reactance بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about reactance?",
-          "options": {
-            "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "reactance کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "reactance بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RMS value: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes RLC resonance?",
-          "options": {
-            "A": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "RLC resonance کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "RLC resonance بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for RLC resonance.",
-          "options": {
-            "A": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "RLC resonance کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "RLC resonance بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about RLC resonance?",
-          "options": {
-            "A": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "RLC resonance کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "RLC resonance بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "reactance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes transformers?",
-          "options": {
-            "A": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "transformers کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "transformers بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for transformers.",
-          "options": {
-            "A": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "transformers کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "transformers بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about transformers?",
-          "options": {
-            "A": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "transformers کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "transformers بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "transformers: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "A reliable solution identifies knowns, unknowns, units and a physically appropriate equation."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define AC waveform and give one example.",
-          "modelAnswer": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "Explain one key concept in alternating current and state a relevant equation or practical example.",
+          "modelAnswer": "Alternating current changes magnitude and direction periodically. A sinusoidal voltage is v=V₀ sin(ωt), where V₀ is peak voltage and ω=2πf. Frequency f is measured in hertz and period T=1/f. For a sinusoidal signal, Vrms=V₀/√2 and Irms=I₀/√2.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "AC waveform کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "AC waveform جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "AC waveform: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define reactance and give one example.",
-          "modelAnswer": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "reactance کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "reactance جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "reactance: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define transformers and give one example.",
-          "modelAnswer": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "transformers کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "transformers جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "transformers: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Accurate concept (1)",
+            "Relevant equation or explanation (1)",
+            "Suitable example (1)"
+          ]
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain RMS value with its principle, features and applications.",
-          "modelAnswer": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
+          "marks": 6,
+          "question": "Describe the main concepts of alternating current, including important variables, equations and a practical application.",
+          "modelAnswer": "Alternating current changes magnitude and direction periodically. A sinusoidal voltage is v=V₀ sin(ωt), where V₀ is peak voltage and ω=2πf. Frequency f is measured in hertz and period T=1/f. For a sinusoidal signal, Vrms=V₀/√2 and Irms=I₀/√2.\n\nRMS is the equivalent steady DC value that produces the same average heating effect in a resistor. Electrical supply ratings normally quote RMS voltage, not peak voltage.\n\nA capacitor has capacitive reactance XC=1/(ωC), while an inductor has inductive reactance XL=ωL. In a pure resistor voltage and current are in phase. In an ideal inductor current lags voltage by 90°; in an ideal capacitor current leads voltage by 90°.\n\nFor a series RLC circuit, Z=√[R²+(XL−XC)²]. At resonance XL=XC, so Z=R and current is maximum for a fixed supply voltage.\n\nAverage AC power is P=VrmsIrms cosφ, where cosφ is the power factor. An ideal transformer uses mutual induction and obeys Vs/Vp=Ns/Np. A step-up transformer raises voltage while lowering current.\n\nTransformers require changing magnetic flux and do not operate from steady DC in the normal way. High-voltage transmission reduces current for a given power and therefore reduces resistive line loss I²R.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "RMS value کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "RMS value جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "RMS value: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "erq",
-          "marks": 5,
-          "question": "Explain RLC resonance with its principle, features and applications.",
-          "modelAnswer": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "RLC resonance کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "RLC resonance جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "RLC resonance: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
+            "Core concept explanation (2)",
+            "Correct equation and symbols (1)",
+            "Explains variable relationships (1)",
+            "Practical application (1)",
+            "Correct units and terminology (1)"
+          ]
         }
       ]
     },
