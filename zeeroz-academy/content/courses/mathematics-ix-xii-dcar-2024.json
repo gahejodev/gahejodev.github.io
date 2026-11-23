@@ -2,7 +2,7 @@
   "id": "mathematics-ix-xii-dcar-2024",
   "title": "Mathematics IX–XII (DCAR 2024)",
   "description": "Four grade-level Mathematics learning pathways for IX–XII with expanded explanations, worked methods, practice MCQs, CRQs and ERQs. Use alongside the current board textbook and official syllabus.",
-  "version": "2",
+  "version": "3",
   "curriculumAlignment": "Sindh Curriculum for Mathematics Grade IX–XII 2024, based on National Curriculum of Pakistan 2023 minimum standards. Organized by grade and domain; not claiming exact STBB chapter order.",
   "sourceReferences": [
     {
@@ -51,50 +51,6 @@
       ],
       "questions": [
         {
-          "question": "Which property allows a(b+c)=ab+ac?",
-          "options": {
-            "A": "Commutative",
-            "B": "Distributive",
-            "C": "Identity",
-            "D": "Inverse"
-          },
-          "correctOption": "B",
-          "explanation": "Multiplication distributes over addition."
-        },
-        {
-          "question": "The gradient of a straight line is:",
-          "options": {
-            "A": "change in y / change in x",
-            "B": "change in x / change in y",
-            "C": "sum of coordinates",
-            "D": "product of coordinates"
-          },
-          "correctOption": "A",
-          "explanation": "Gradient is rise over run."
-        },
-        {
-          "question": "A derivative represents, among other meanings:",
-          "options": {
-            "A": "instantaneous rate of change",
-            "B": "only area",
-            "C": "only perimeter",
-            "D": "a random number"
-          },
-          "correctOption": "A",
-          "explanation": "The derivative measures instantaneous rate of change."
-        },
-        {
-          "question": "A data display should be selected according to:",
-          "options": {
-            "A": "the question and data type",
-            "B": "the brightest colour",
-            "C": "the longest title",
-            "D": "the page size only"
-          },
-          "correctOption": "A",
-          "explanation": "Choose a graph that communicates the structure of the data."
-        },
-        {
           "question": "Simplify 2³×2⁴.",
           "options": {
             "A": "2⁷",
@@ -103,7 +59,7 @@
             "D": "4⁷"
           },
           "correctOption": "A",
-          "explanation": "When multiplying powers with the same base, add exponents: 2³×2⁴=2⁷."
+          "explanation": "When multiplying powers with the same base, add exponents."
         },
         {
           "question": "Which number is irrational?",
@@ -125,14 +81,47 @@
             "D": "9"
           },
           "correctOption": "B",
-          "explanation": "The ordered list has five values; the middle value is 7."
+          "explanation": "The middle value in the ordered list is 7."
+        },
+        {
+          "question": "Solve 3x+5=20.",
+          "options": {
+            "A": "3",
+            "B": "5",
+            "C": "8",
+            "D": "15"
+          },
+          "correctOption": "B",
+          "explanation": "3x=15, so x=5."
+        },
+        {
+          "question": "The sum of angles in a triangle is:",
+          "options": {
+            "A": "90°",
+            "B": "180°",
+            "C": "270°",
+            "D": "360°"
+          },
+          "correctOption": "B",
+          "explanation": "The interior angles of a Euclidean triangle sum to 180°."
+        },
+        {
+          "question": "For equally likely outcomes, probability is:",
+          "options": {
+            "A": "Favourable outcomes/total outcomes",
+            "B": "Total/favourable",
+            "C": "Always 1",
+            "D": "Always 0"
+          },
+          "correctOption": "A",
+          "explanation": "Probability is the ratio of favourable outcomes to all possible outcomes."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 5,
-          "question": "Grade IX: Solve a mathematical problem of your choice from this grade's algebra or geometry content and show each step.",
+          "question": "Grade IX: Solve a multi-step problem from the grade's mathematics topics. Show each step, state the rule or formula used and verify the result.",
           "modelAnswer": "A valid solution identifies the known information, selects a relevant rule or formula, substitutes accurately, performs correct operations and checks whether the answer is reasonable.",
           "rubric": [
             "Identifies information (1)",
@@ -145,7 +134,7 @@
         {
           "type": "erq",
           "marks": 10,
-          "question": "Grade IX: Explain how mathematical reasoning can be used to model and solve a real-life problem.",
+          "question": "Grade IX: Explain how mathematical reasoning and checking can be used to solve a real-world problem from the grade's curriculum.",
           "modelAnswer": "Define the problem and variables, translate the situation into mathematical relationships, select suitable algebraic, geometric or statistical methods, solve systematically, check assumptions and interpret the result in the original context.",
           "rubric": [
             "Defines variables and assumptions (2)",
@@ -196,50 +185,6 @@
       ],
       "questions": [
         {
-          "question": "Which property allows a(b+c)=ab+ac?",
-          "options": {
-            "A": "Commutative",
-            "B": "Distributive",
-            "C": "Identity",
-            "D": "Inverse"
-          },
-          "correctOption": "B",
-          "explanation": "Multiplication distributes over addition."
-        },
-        {
-          "question": "The gradient of a straight line is:",
-          "options": {
-            "A": "change in y / change in x",
-            "B": "change in x / change in y",
-            "C": "sum of coordinates",
-            "D": "product of coordinates"
-          },
-          "correctOption": "A",
-          "explanation": "Gradient is rise over run."
-        },
-        {
-          "question": "A derivative represents, among other meanings:",
-          "options": {
-            "A": "instantaneous rate of change",
-            "B": "only area",
-            "C": "only perimeter",
-            "D": "a random number"
-          },
-          "correctOption": "A",
-          "explanation": "The derivative measures instantaneous rate of change."
-        },
-        {
-          "question": "A data display should be selected according to:",
-          "options": {
-            "A": "the question and data type",
-            "B": "the brightest colour",
-            "C": "the longest title",
-            "D": "the page size only"
-          },
-          "correctOption": "A",
-          "explanation": "Choose a graph that communicates the structure of the data."
-        },
-        {
           "question": "For x²−5x+6=0, the roots are:",
           "options": {
             "A": "1 and 6",
@@ -248,7 +193,7 @@
             "D": "0 and 5"
           },
           "correctOption": "B",
-          "explanation": "x²−5x+6=(x−2)(x−3), so x=2 or x=3."
+          "explanation": "Factorise: (x−2)(x−3)=0."
         },
         {
           "question": "The discriminant of ax²+bx+c=0 is:",
@@ -270,14 +215,47 @@
             "D": "Hypotenuse/opposite"
           },
           "correctOption": "B",
-          "explanation": "Tangent is the ratio of opposite side to adjacent side."
+          "explanation": "Tangent is opposite divided by adjacent."
+        },
+        {
+          "question": "The gradient between (1,2) and (3,6) is:",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "4"
+          },
+          "correctOption": "B",
+          "explanation": "Gradient=(6−2)/(3−1)=2."
+        },
+        {
+          "question": "The area of a circle of radius r is:",
+          "options": {
+            "A": "2πr",
+            "B": "πr²",
+            "C": "πd",
+            "D": "πr³"
+          },
+          "correctOption": "B",
+          "explanation": "Area of a circle is πr²."
+        },
+        {
+          "question": "If D=b²−4ac is zero, a quadratic has:",
+          "options": {
+            "A": "Two distinct real roots",
+            "B": "One repeated real root",
+            "C": "No real roots",
+            "D": "Three roots"
+          },
+          "correctOption": "B",
+          "explanation": "A zero discriminant gives equal real roots."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 5,
-          "question": "Grade X: Solve a mathematical problem of your choice from this grade's algebra or geometry content and show each step.",
+          "question": "Grade X: Solve a multi-step problem from the grade's mathematics topics. Show each step, state the rule or formula used and verify the result.",
           "modelAnswer": "A valid solution identifies the known information, selects a relevant rule or formula, substitutes accurately, performs correct operations and checks whether the answer is reasonable.",
           "rubric": [
             "Identifies information (1)",
@@ -290,7 +268,7 @@
         {
           "type": "erq",
           "marks": 10,
-          "question": "Grade X: Explain how mathematical reasoning can be used to model and solve a real-life problem.",
+          "question": "Grade X: Explain how mathematical reasoning and checking can be used to solve a real-world problem from the grade's curriculum.",
           "modelAnswer": "Define the problem and variables, translate the situation into mathematical relationships, select suitable algebraic, geometric or statistical methods, solve systematically, check assumptions and interpret the result in the original context.",
           "rubric": [
             "Defines variables and assumptions (2)",
@@ -341,50 +319,6 @@
       ],
       "questions": [
         {
-          "question": "Which property allows a(b+c)=ab+ac?",
-          "options": {
-            "A": "Commutative",
-            "B": "Distributive",
-            "C": "Identity",
-            "D": "Inverse"
-          },
-          "correctOption": "B",
-          "explanation": "Multiplication distributes over addition."
-        },
-        {
-          "question": "The gradient of a straight line is:",
-          "options": {
-            "A": "change in y / change in x",
-            "B": "change in x / change in y",
-            "C": "sum of coordinates",
-            "D": "product of coordinates"
-          },
-          "correctOption": "A",
-          "explanation": "Gradient is rise over run."
-        },
-        {
-          "question": "A derivative represents, among other meanings:",
-          "options": {
-            "A": "instantaneous rate of change",
-            "B": "only area",
-            "C": "only perimeter",
-            "D": "a random number"
-          },
-          "correctOption": "A",
-          "explanation": "The derivative measures instantaneous rate of change."
-        },
-        {
-          "question": "A data display should be selected according to:",
-          "options": {
-            "A": "the question and data type",
-            "B": "the brightest colour",
-            "C": "the longest title",
-            "D": "the page size only"
-          },
-          "correctOption": "A",
-          "explanation": "Choose a graph that communicates the structure of the data."
-        },
-        {
           "question": "An arithmetic sequence has first term 3 and common difference 4. Its fifth term is:",
           "options": {
             "A": "15",
@@ -416,13 +350,46 @@
           },
           "correctOption": "B",
           "explanation": "Each term is three times the previous term."
+        },
+        {
+          "question": "The domain of a function is the set of:",
+          "options": {
+            "A": "Possible inputs",
+            "B": "Possible outputs only",
+            "C": "Only positive values",
+            "D": "Only roots"
+          },
+          "correctOption": "A",
+          "explanation": "The domain contains all permitted input values."
+        },
+        {
+          "question": "The coefficient of x in (1+x)⁴ is:",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "4",
+            "D": "6"
+          },
+          "correctOption": "C",
+          "explanation": "The binomial expansion begins 1+4x+6x²+4x³+x⁴."
+        },
+        {
+          "question": "For perpendicular vectors a·b is:",
+          "options": {
+            "A": "1",
+            "B": "−1",
+            "C": "0",
+            "D": "|a||b|"
+          },
+          "correctOption": "C",
+          "explanation": "a·b=|a||b|cos90°=0."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 5,
-          "question": "Grade XI: Solve a mathematical problem of your choice from this grade's algebra or geometry content and show each step.",
+          "question": "Grade XI: Solve a multi-step problem from the grade's mathematics topics. Show each step, state the rule or formula used and verify the result.",
           "modelAnswer": "A valid solution identifies the known information, selects a relevant rule or formula, substitutes accurately, performs correct operations and checks whether the answer is reasonable.",
           "rubric": [
             "Identifies information (1)",
@@ -435,7 +402,7 @@
         {
           "type": "erq",
           "marks": 10,
-          "question": "Grade XI: Explain how mathematical reasoning can be used to model and solve a real-life problem.",
+          "question": "Grade XI: Explain how mathematical reasoning and checking can be used to solve a real-world problem from the grade's curriculum.",
           "modelAnswer": "Define the problem and variables, translate the situation into mathematical relationships, select suitable algebraic, geometric or statistical methods, solve systematically, check assumptions and interpret the result in the original context.",
           "rubric": [
             "Defines variables and assumptions (2)",
@@ -486,50 +453,6 @@
       ],
       "questions": [
         {
-          "question": "Which property allows a(b+c)=ab+ac?",
-          "options": {
-            "A": "Commutative",
-            "B": "Distributive",
-            "C": "Identity",
-            "D": "Inverse"
-          },
-          "correctOption": "B",
-          "explanation": "Multiplication distributes over addition."
-        },
-        {
-          "question": "The gradient of a straight line is:",
-          "options": {
-            "A": "change in y / change in x",
-            "B": "change in x / change in y",
-            "C": "sum of coordinates",
-            "D": "product of coordinates"
-          },
-          "correctOption": "A",
-          "explanation": "Gradient is rise over run."
-        },
-        {
-          "question": "A derivative represents, among other meanings:",
-          "options": {
-            "A": "instantaneous rate of change",
-            "B": "only area",
-            "C": "only perimeter",
-            "D": "a random number"
-          },
-          "correctOption": "A",
-          "explanation": "The derivative measures instantaneous rate of change."
-        },
-        {
-          "question": "A data display should be selected according to:",
-          "options": {
-            "A": "the question and data type",
-            "B": "the brightest colour",
-            "C": "the longest title",
-            "D": "the page size only"
-          },
-          "correctOption": "A",
-          "explanation": "Choose a graph that communicates the structure of the data."
-        },
-        {
           "question": "The derivative of x³ is:",
           "options": {
             "A": "x²",
@@ -561,13 +484,46 @@
           },
           "correctOption": "B",
           "explanation": "For independent events, the probability of both is the product."
+        },
+        {
+          "question": "The derivative of sin x is:",
+          "options": {
+            "A": "−sin x",
+            "B": "cos x",
+            "C": "tan x",
+            "D": "−cos x"
+          },
+          "correctOption": "B",
+          "explanation": "d(sin x)/dx=cos x."
+        },
+        {
+          "question": "The indefinite integral of 1/x is:",
+          "options": {
+            "A": "x²/2+C",
+            "B": "ln|x|+C",
+            "C": "eˣ+C",
+            "D": "1/x²+C"
+          },
+          "correctOption": "B",
+          "explanation": "The antiderivative of 1/x is ln|x|+C for x≠0."
+        },
+        {
+          "question": "At a stationary point of y=f(x), a necessary condition is:",
+          "options": {
+            "A": "f(x)=0",
+            "B": "f′(x)=0",
+            "C": "f″(x)=0 always",
+            "D": "x=0"
+          },
+          "correctOption": "B",
+          "explanation": "A differentiable function has a stationary point where its first derivative is zero."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 5,
-          "question": "Grade XII: Solve a mathematical problem of your choice from this grade's algebra or geometry content and show each step.",
+          "question": "Grade XII: Solve a multi-step problem from the grade's mathematics topics. Show each step, state the rule or formula used and verify the result.",
           "modelAnswer": "A valid solution identifies the known information, selects a relevant rule or formula, substitutes accurately, performs correct operations and checks whether the answer is reasonable.",
           "rubric": [
             "Identifies information (1)",
@@ -580,7 +536,7 @@
         {
           "type": "erq",
           "marks": 10,
-          "question": "Grade XII: Explain how mathematical reasoning can be used to model and solve a real-life problem.",
+          "question": "Grade XII: Explain how mathematical reasoning and checking can be used to solve a real-world problem from the grade's curriculum.",
           "modelAnswer": "Define the problem and variables, translate the situation into mathematical relationships, select suitable algebraic, geometric or statistical methods, solve systematically, check assumptions and interpret the result in the original context.",
           "rubric": [
             "Defines variables and assumptions (2)",
