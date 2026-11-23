@@ -1,8 +1,8 @@
 {
   "id": "computer-science-ix-xii-dcar-2024",
   "title": "Computer Science & Entrepreneurship IX–XII (DCAR 2024)",
-  "description": "Four grade-level units aligned to the Sindh DCAR Computer Science & Entrepreneurship 2024 curriculum. Covers systems, computational thinking, programming, data analysis, AI and responsible computing. Grade-level domain overview; add textbook-specific chapter mapping only after verification.",
-  "version": "1",
+  "description": "Four grade-level Computer Science & Entrepreneurship learning pathways for IX–XII, covering systems, algorithms, programming, web, data, AI, networks, cybersecurity and responsible innovation. Use alongside the current official syllabus.",
+  "version": "2",
   "curriculumAlignment": "Sindh Curriculum Computer Science & Entrepreneurship 2024, Grades IX–XII, based on National Curriculum Standards 2022–23. The course is organized by grade and domain rather than claiming unverified STBB chapter numbering.",
   "sourceReferences": [
     {
@@ -47,6 +47,14 @@
             "ur": "ڈیٹا سائنس کمپیوٹنگ، ریاضی، شماریات اور موضوعی علم کو ملاتی ہے۔ AI فیصلوں میں مدد دے سکتا ہے مگر تعصب، رازداری اور انسانی نگرانی اہم ہیں۔",
             "sd": "ڊيٽا سائنس ڪمپيوٽنگ، رياضي، شماريات ۽ موضوعي ڄاڻ کي گڏ ڪري ٿي۔ AI فيصلا ڪرڻ ۾ مدد ڪري سگهي ٿو، پر تعصب، رازداري ۽ انساني نگراني اهم آهن۔"
           }
+        },
+        {
+          "title": "Unit 5: Programming fundamentals and debugging",
+          "content": "A program is a set of instructions written in a programming language. Variables store values; data types describe the kind of value, such as number, text or Boolean. An expression combines values and operators. Sequence runs instructions in order, selection chooses a path using a condition, and iteration repeats a block.\n\nA trace table records variable values step by step. Test normal, boundary and invalid inputs. A syntax error breaks language rules, a runtime error occurs while the program runs, and a logic error produces an incorrect result."
+        },
+        {
+          "title": "Unit 6: Cyber safety, privacy and digital citizenship",
+          "content": "Use unique passwords, multi-factor authentication and software updates to reduce account risk. Phishing messages imitate trusted organisations to steal information; check sender identity and links before responding. Personal data should be collected only when needed and shared only with appropriate permission.\n\nA digital footprint is the record of activity left online. Respect copyright, cite sources, communicate responsibly and report harmful or suspicious activity to a trusted adult or responsible authority."
         }
       ],
       "questions": [
@@ -93,6 +101,39 @@
           },
           "correctOption": "B",
           "explanation": "Debugging locates and corrects faults."
+        },
+        {
+          "question": "Which data type is most suitable for storing a true/false value?",
+          "options": {
+            "A": "Boolean",
+            "B": "String",
+            "C": "Image",
+            "D": "Date"
+          },
+          "correctOption": "A",
+          "explanation": "A Boolean value represents true or false."
+        },
+        {
+          "question": "A trace table is used to:",
+          "options": {
+            "A": "Decorate a program",
+            "B": "Track variable values during execution",
+            "C": "Encrypt a file",
+            "D": "Create a network cable"
+          },
+          "correctOption": "B",
+          "explanation": "A trace table follows changes in variables as an algorithm runs."
+        },
+        {
+          "question": "Which action best helps identify a phishing message?",
+          "options": {
+            "A": "Click every link quickly",
+            "B": "Check sender, link destination and unexpected requests",
+            "C": "Share your password",
+            "D": "Disable updates"
+          },
+          "correctOption": "B",
+          "explanation": "Verify the sender and link independently; never share passwords in response to unsolicited messages."
         }
       ],
       "writtenQuestions": [
@@ -159,6 +200,14 @@
             "ur": "AI ذہانت سے متعلق کام کرتا ہے۔ مشین لرننگ ڈیٹا سے پیٹرن سیکھتی ہے؛ supervised learning میں labels ہوتے ہیں جبکہ unsupervised میں نہیں۔",
             "sd": "AI ذهانت سان لاڳاپيل ڪم ڪري ٿو۔ مشين لرننگ ڊيٽا مان نمونا سکي ٿي؛ supervised ۾ labels هوندا آهن، unsupervised ۾ نه۔"
           }
+        },
+        {
+          "title": "Unit 5: Data representation and databases",
+          "content": "Computers represent text, images, sound and numbers as binary data. Character encodings map symbols to numeric codes; image files store pixel colour values; audio is sampled and quantised. File size depends on resolution, colour depth, sample rate, bit depth and duration as appropriate.\n\nA database stores related data in organised tables. A primary key uniquely identifies a record; a foreign key links related tables. Good database design reduces unnecessary duplication and improves consistency."
+        },
+        {
+          "title": "Unit 6: Networks and cybersecurity",
+          "content": "A computer network connects devices to share data and resources. A LAN covers a limited area; a WAN spans larger distances. Routers forward packets between networks, while switches connect devices within a local network. Protocols define how systems communicate.\n\nUse encryption to protect data in transit, access control to limit permissions, backups to recover information and updates to correct known vulnerabilities. No single security measure prevents every threat."
         }
       ],
       "questions": [
@@ -205,6 +254,39 @@
           },
           "correctOption": "B",
           "explanation": "Debugging locates and corrects faults."
+        },
+        {
+          "question": "A primary key in a database:",
+          "options": {
+            "A": "May identify many records",
+            "B": "Uniquely identifies a record",
+            "C": "Is always a password",
+            "D": "Deletes a table"
+          },
+          "correctOption": "B",
+          "explanation": "A primary key uniquely identifies each row in a table."
+        },
+        {
+          "question": "Which device forwards packets between networks?",
+          "options": {
+            "A": "Router",
+            "B": "Keyboard",
+            "C": "Monitor",
+            "D": "Microphone"
+          },
+          "correctOption": "A",
+          "explanation": "Routers forward packets between different networks."
+        },
+        {
+          "question": "What is the main purpose of encryption?",
+          "options": {
+            "A": "Protect information from unauthorized reading",
+            "B": "Increase screen brightness",
+            "C": "Delete duplicate files",
+            "D": "Sort a list"
+          },
+          "correctOption": "A",
+          "explanation": "Encryption transforms readable data into ciphertext using a key."
         }
       ],
       "writtenQuestions": [
@@ -271,6 +353,14 @@
             "ur": "نیٹ ورک کی ساخت قابلِ توسیع ہونے اور قابلِ اعتماد ہونے پر اثر ڈالتی ہے۔ Encryption ڈیٹا کی حفاظت کرتی ہے۔ اعدادوشمار اور چارٹس ڈیٹا کے پیٹرن واضح کرتے ہیں۔",
             "sd": "نيٽ ورڪ جي بناوت واڌ ۽ ڀروسي تي اثر ڪري ٿي۔ Encryption ڊيٽا جي حفاظت ڪري ٿي۔ شمارياتي خلاصا ۽ چارٽ ڊيٽا جا نمونا واضح ڪن ٿا۔"
           }
+        },
+        {
+          "title": "Unit 5: Python data structures and algorithms",
+          "content": "Python lists store ordered mutable collections; tuples are ordered and immutable; dictionaries map keys to values; sets store unique elements. Choose a structure according to the operations required. A function groups reusable code, accepts parameters and may return a result.\n\nAn algorithm should be correct, finite and clear. Linear search checks items one by one; binary search repeatedly halves a sorted search interval. Binary search is efficient but requires sorted data."
+        },
+        {
+          "title": "Unit 6: Networks, privacy and secure development",
+          "content": "The internet uses packet switching: data is divided into packets that may travel by different routes and are reassembled at the destination. DNS maps domain names to IP addresses. HTTPS uses TLS to protect web traffic against interception and tampering.\n\nSecure development includes validating input, limiting privileges, protecting secrets, logging important events and testing access controls. Do not store passwords as plain text; use a suitable password-hashing method on systems you develop."
         }
       ],
       "questions": [
@@ -317,6 +407,39 @@
           },
           "correctOption": "B",
           "explanation": "Debugging locates and corrects faults."
+        },
+        {
+          "question": "Which Python structure stores key-value pairs?",
+          "options": {
+            "A": "List",
+            "B": "Tuple",
+            "C": "Dictionary",
+            "D": "String"
+          },
+          "correctOption": "C",
+          "explanation": "A Python dictionary maps keys to values."
+        },
+        {
+          "question": "Binary search requires the data to be:",
+          "options": {
+            "A": "Randomly ordered",
+            "B": "Sorted",
+            "C": "Encrypted",
+            "D": "Duplicated"
+          },
+          "correctOption": "B",
+          "explanation": "Binary search repeatedly halves a sorted search interval."
+        },
+        {
+          "question": "DNS is primarily used to:",
+          "options": {
+            "A": "Map domain names to IP addresses",
+            "B": "Encrypt hard drives",
+            "C": "Edit images",
+            "D": "Compile Python"
+          },
+          "correctOption": "A",
+          "explanation": "The Domain Name System resolves domain names to IP addresses."
         }
       ],
       "writtenQuestions": [
@@ -383,6 +506,14 @@
             "ur": "مشین لرننگ ماڈلز کو درست metrics اور test data سے جانچیں۔ Deep learning تہہ دار neural networks استعمال کرتی ہے۔ AI پالیسی میں انصاف، رازداری اور حفاظت شامل ہوں۔",
             "sd": "مشين لرننگ ماڊل مناسب metrics ۽ test data سان پرکجن۔ Deep learning گهڻ-تهن neural networks استعمال ڪري ٿي۔ AI پاليسي ۾ انصاف، رازداري ۽ حفاظت شامل هجن۔"
           }
+        },
+        {
+          "title": "Unit 5: Databases, SQL and software architecture",
+          "content": "A relational database organises data into tables linked through keys. SQL can create, read, update and delete records. SELECT retrieves data, WHERE filters rows, ORDER BY sorts results and JOIN combines related tables. Transactions help keep related updates consistent.\n\nSeparate an application into presentation, logic and data layers where appropriate. Modular architecture makes systems easier to test and maintain. Validate user input and use parameterised queries to reduce injection risk."
+        },
+        {
+          "title": "Unit 6: Machine learning evaluation and responsible AI",
+          "content": "A machine-learning model learns patterns from training data and is evaluated on data it has not seen. Classification predicts categories; regression predicts numerical values; clustering groups similar observations. Accuracy alone can be misleading when classes are imbalanced, so examine precision, recall and the confusion matrix.\n\nData quality, consent, privacy, bias, explainability and human oversight matter. AI outputs can be incorrect or fabricated; verify important claims against reliable evidence and keep people accountable for consequential decisions."
         }
       ],
       "questions": [
@@ -429,6 +560,39 @@
           },
           "correctOption": "B",
           "explanation": "Debugging locates and corrects faults."
+        },
+        {
+          "question": "Which SQL clause filters rows?",
+          "options": {
+            "A": "WHERE",
+            "B": "ORDER BY",
+            "C": "CREATE",
+            "D": "DROP"
+          },
+          "correctOption": "A",
+          "explanation": "WHERE selects rows that satisfy a condition."
+        },
+        {
+          "question": "Which metric is especially useful when false negatives are costly?",
+          "options": {
+            "A": "Recall",
+            "B": "File size",
+            "C": "Screen resolution",
+            "D": "Clock speed"
+          },
+          "correctOption": "A",
+          "explanation": "Recall measures the proportion of actual positive cases correctly identified."
+        },
+        {
+          "question": "A model should be evaluated using:",
+          "options": {
+            "A": "Only the training data",
+            "B": "Unseen test data",
+            "C": "The developer's opinion",
+            "D": "Random labels"
+          },
+          "correctOption": "B",
+          "explanation": "Unseen test data estimates how well the model generalises."
         }
       ],
       "writtenQuestions": [
