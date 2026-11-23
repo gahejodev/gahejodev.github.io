@@ -1,8 +1,8 @@
 {
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
-  "description": "Grade XII Physics study collection. Chapter 15 has expanded bilingual explanations, 20 explained MCQs, 6 CRQs, 3 ERQs, worked numericals and an applied case study. Chapters 16–28 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
-  "version": "18",
+  "description": "Grade XII Physics study course for Chapters 15–28. Chapter 15 and Chapters 16–28 include concept lessons and examination practice. Check the latest board syllabus for local sequencing and prescribed depth.",
+  "version": "19",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1949,712 +1949,84 @@
     },
     {
       "title": "Chapter 28: Particles Physics",
-      "description": "Grade XII Physics chapter.",
+      "description": "Grade XII Physics: Standard Model, fundamental particles, quarks, leptons, hadrons, antimatter and conservation laws.",
       "lessons": [
         {
-          "title": "28.1 fundamental particles",
+          "title": "28.1 Fundamental particles and interactions",
           "type": "text",
-          "content": "## fundamental particles\nfundamental particles: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "fundamental particles کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "fundamental particles جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "The Standard Model describes fundamental matter particles and the electromagnetic, weak and strong interactions. Matter fermions include six quarks and six leptons, arranged in three generations. The electron is a lepton; protons and neutrons are composite particles made from quarks.\n\nForce-carrier bosons include the photon for electromagnetism, gluons for the strong interaction, and W and Z bosons for the weak interaction. The Higgs boson is associated with the Higgs field. Gravity is not included in the Standard Model."
         },
         {
-          "title": "28.2 quarks and hadrons",
+          "title": "28.2 Quarks, leptons and antimatter",
           "type": "text",
-          "content": "## quarks and hadrons\nquarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "quarks and hadrons کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "quarks and hadrons جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Quarks combine to form hadrons. Baryons contain three quarks (a proton is uud and a neutron is udd); mesons contain a quark and an antiquark. Quarks carry fractional electric charge and are not normally observed in isolation because of confinement.\n\nLeptons include electrons, muons, taus and neutrinos. Every particle has a corresponding antiparticle with the same mass and opposite additive charges. Annihilation can produce energy and other particles while conservation laws remain satisfied."
         },
         {
-          "title": "28.3 leptons",
+          "title": "28.3 Conservation laws and experiments",
           "type": "text",
-          "content": "## leptons\nleptons: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "leptons کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ leptons: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "leptons جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ leptons: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "28.4 antiparticles",
-          "type": "text",
-          "content": "## antiparticles\nantiparticles: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "antiparticles کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "antiparticles جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "28.5 conservation laws",
-          "type": "text",
-          "content": "## conservation laws\nconservation laws: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "conservation laws کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "conservation laws جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Particle reactions obey conservation rules such as electric charge, energy, momentum and angular momentum. Other quantum numbers, including baryon and lepton number, help classify allowed processes. Compare total values before and after a proposed reaction.\n\nParticle accelerators use electric fields to accelerate charged particles and magnetic fields to steer them. Detectors record tracks, energy deposits and decay signatures. Scientists infer short-lived particles from measured products and conservation laws."
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes fundamental particles?",
+          "question": "A proton is composed of which valence quarks?",
           "options": {
-            "A": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "uud",
+            "B": "udd",
+            "C": "uuu",
+            "D": "ddd"
           },
           "correctOption": "A",
-          "explanation": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "fundamental particles کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "fundamental particles بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "A proton contains two up quarks and one down quark."
         },
         {
-          "question": "Choose the correct principle for fundamental particles.",
+          "question": "Which particle is a lepton?",
           "options": {
-            "A": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "fundamental particles کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "fundamental particles بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about fundamental particles?",
-          "options": {
-            "A": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Proton",
+            "B": "Neutron",
+            "C": "Electron",
+            "D": "Pion"
           },
           "correctOption": "C",
-          "explanation": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "fundamental particles کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "fundamental particles بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "The electron is a fundamental lepton; protons and neutrons are composite baryons."
         },
         {
-          "question": "Which statement describes quarks and hadrons?",
+          "question": "A particle and its antiparticle have:",
           "options": {
-            "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Always different masses",
+            "B": "Same mass and opposite additive charges",
+            "C": "Same charge in all cases",
+            "D": "No energy"
           },
           "correctOption": "B",
-          "explanation": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "quarks and hadrons کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "quarks and hadrons بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for quarks and hadrons.",
-          "options": {
-            "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "quarks and hadrons کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "quarks and hadrons بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about quarks and hadrons?",
-          "options": {
-            "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "quarks and hadrons کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "quarks and hadrons بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes leptons?",
-          "options": {
-            "A": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "leptons کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "leptons بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for leptons.",
-          "options": {
-            "A": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "leptons کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "leptons بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about leptons?",
-          "options": {
-            "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "leptons کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "leptons بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes antiparticles?",
-          "options": {
-            "A": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "antiparticles کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "antiparticles بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for antiparticles.",
-          "options": {
-            "A": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "antiparticles کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "antiparticles بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about antiparticles?",
-          "options": {
-            "A": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "antiparticles کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "antiparticles بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "leptons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes conservation laws?",
-          "options": {
-            "A": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "conservation laws کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "conservation laws بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for conservation laws.",
-          "options": {
-            "A": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "conservation laws کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "conservation laws بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about conservation laws?",
-          "options": {
-            "A": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "conservation laws کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "conservation laws بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "antiparticles: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "conservation laws: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "A particle and antiparticle have equal mass and opposite additive quantum numbers such as electric charge."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define fundamental particles and give one example.",
-          "modelAnswer": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "Identify the quark composition of a neutron and state its total electric charge.",
+          "modelAnswer": "A neutron is udd: one up quark (+2/3e) and two down quarks (−1/3e each), giving total charge 0.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "fundamental particles کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "fundamental particles جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "fundamental particles: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define leptons and give one example.",
-          "modelAnswer": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "leptons کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "leptons جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "leptons: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define conservation laws and give one example.",
-          "modelAnswer": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "conservation laws کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "conservation laws جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "conservation laws: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Correct composition udd (1)",
+            "Correct quark charges (1)",
+            "Total charge zero (1)"
+          ]
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain quarks and hadrons with its principle, features and applications.",
-          "modelAnswer": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
+          "marks": 6,
+          "question": "Outline the Standard Model classification of matter particles and explain the difference between quarks, leptons, hadrons and antiparticles.",
+          "modelAnswer": "Matter fermions are six quarks and six leptons in three generations. Quarks combine into hadrons: baryons contain three quarks and mesons contain a quark-antiquark pair. Leptons include electrons and neutrinos and do not experience the strong interaction. Antiparticles have the same mass as their partners but opposite additive charges. Gauge bosons mediate the electromagnetic, weak and strong interactions.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "quarks and hadrons کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "quarks and hadrons جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "quarks and hadrons: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "erq",
-          "marks": 5,
-          "question": "Explain antiparticles with its principle, features and applications.",
-          "modelAnswer": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "antiparticles کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "antiparticles جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "antiparticles: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
+            "Identifies quarks and leptons (1)",
+            "Explains hadrons (1)",
+            "Distinguishes baryons and mesons (1)",
+            "Gives lepton examples/property (1)",
+            "Explains antiparticles (1)",
+            "Mentions interaction bosons (1)"
+          ]
         }
       ]
     }
