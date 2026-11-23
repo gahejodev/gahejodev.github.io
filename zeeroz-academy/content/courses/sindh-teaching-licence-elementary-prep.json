@@ -1,0 +1,530 @@
+{
+  "id": "sindh-teaching-licence-elementary-prep",
+  "title": "Sindh Teaching Licence Test Preparation — Elementary (2024 syllabus)",
+  "version": "1",
+  "contentTier": "developing",
+  "description": "Original preparation content aligned to the Elementary Teaching Licence Test 2024 syllabus currently linked by STEDA. It covers published school-content and pedagogical domains with clearly labelled general reasoning practice. This is not an official STEDA paper and does not claim coverage of an unverified Secondary Teaching Licence syllabus.",
+  "curriculumReferences": [
+    {
+      "title": "STEDA Teaching Licence Policy and downloads",
+      "url": "https://steda.gos.pk/tlicense.aspx",
+      "scope": "Policy and official download links; page links the Elementary Test 2024 syllabus and model paper."
+    },
+    {
+      "title": "SIBA Testing Services — Teaching License Test 2024 syllabus",
+      "url": "https://steda.gos.pk/Downloads/Teaching_Licence_Test_2024.pdf",
+      "scope": "Part I Classes 1–8 content; Part II pedagogical content knowledge and B.Ed themes."
+    },
+    {
+      "title": "STEDA official homepage FAQs",
+      "url": "https://steda.gos.pk/",
+      "scope": "100-mark test description and 30/20/50 content/psychometric/PCK weighting displayed on the official site."
+    }
+  ],
+  "scopeNotes": [
+    "The detailed 2024 PDF describes content knowledge and pedagogical content knowledge. The 20% psychometric weighting is separately stated in the STEDA homepage FAQ; the PDF does not list definitive psychometric sub-domains.",
+    "The four psychometric MCQs are original general reasoning practice, not an official STEDA blueprint or personality assessment.",
+    "STEDA's current page links an Elementary Test 2024 syllabus. No current Secondary Teaching Licence syllabus was verified during this audit. Candidates should check the latest STEDA notice.",
+    "The 20-question practice bank uses 6 content, 4 reasoning and 10 pedagogical items to mirror the 30/20/50 study allocation; this is not a claim about the official paper's item count."
+  ],
+  "chapters": [
+    {
+      "title": "Elementary Teaching Licence Test — syllabus preparation",
+      "contentTier": "developing",
+      "lessons": [
+        {
+          "title": "1. Official test framework and syllabus scope",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain the published Elementary Teaching Licence Test 2024 scope and distinguish content knowledge from pedagogical content knowledge.\n\n## Official reference\nThe STEDA page links the SIBA Testing Services *Teaching License Test 2024* syllabus. Part I covers Mathematics, Science, Social Studies, English and Urdu or Sindhi from the Classes 1–8 school curriculum. Part II covers pedagogical content knowledge drawn from relevant B.Ed courses. STEDA's homepage FAQ separately describes a 100-mark test with 30% content knowledge, 20% psychometric assessment and 50% pedagogical content knowledge.\n\nThe detailed 2024 PDF describes content and pedagogical sections; the 20% psychometric weighting is separately stated in the FAQ. This course is original practice, not an official paper. It is specifically for the Elementary 2024 syllabus linked by STEDA, not an unverified Secondary syllabus or an exam-date notice. Check current STEDA announcements.",
+          "explanations": {
+            "ur": "STEDA کی ویب سائٹ پر موجود 2024 کے Elementary Teaching Licence syllabus میں جماعت 1 تا 8 کے مضامین اور تدریسی علم شامل ہیں۔ STEDA FAQ میں 30% مضمون کا علم، 20% نفسیاتی/استدلالی جائزہ اور 50% تدریسی علم بتایا گیا ہے۔ یہ تیاری کا مواد ہے، سرکاری پرچہ نہیں؛ تازہ اعلان دیکھیں۔",
+            "sd": "STEDA جي ويب سائيٽ تي ڏنل 2024 واري Elementary Teaching Licence نصاب ۾ ڪلاس 1 کان 8 جا مضمون ۽ تدريسي ڄاڻ شامل آهن. STEDA FAQ ۾ 30 سيڪڙو مضمون جي ڄاڻ، 20 سيڪڙو نفسياتي/استدلالي جائزو ۽ 50 سيڪڙو تدريسي ڄاڻ ڄاڻايل آهي. هي تياري جو مواد آهي، سرڪاري پرچو ناهي؛ تازا اعلان ڏسو."
+          }
+        },
+        {
+          "title": "2. Content knowledge: Mathematics and Science",
+          "type": "text",
+          "content": "## Mathematics\nReview place value, whole-number operations, fractions, decimals, percentages, ratio, measurement, geometry and basic data interpretation. Equivalent fractions have the same value. Perimeter measures boundary length; area measures surface. For example, 3/4 + 1/8 = 7/8, and a rectangle 8 cm by 5 cm has perimeter 26 cm.\n\n## Science\nUse evidence and fair testing. Identify the independent variable (deliberately changed), dependent variable (measured) and controlled variables. Distinguish observation from inference. Review force and motion, matter, energy, photosynthesis, body systems, the water cycle and environmental care at age-appropriate school level.\n\n## Teaching application\nUse counters, fraction strips, diagrams and safe demonstrations. Ask learners to explain a result and connect it to evidence.",
+          "explanations": {
+            "ur": "ریاضی میں جگہ کی قیمت، کسر، اعشاریہ، فیصد، تناسب، پیمائش، ہندسہ اور اعداد کی تشریح دہرائیں۔ سائنس میں مشاہدہ، منصفانہ تجربہ، قوت و حرکت، مادہ، توانائی، ضیائی تالیف اور ماحولیات سمجھیں۔ بچوں کو اشیا، خاکوں اور محفوظ تجربات سے تصور واضح کریں۔",
+            "sd": "رياضي ۾ مڪاني قيمت، ڪسر، اعشاري، سيڪڙو، تناسب، ماپ، جاميٽري ۽ انگن جي تشريح ورجايو. سائنس ۾ مشاهدو، منصفاڻو تجربو، قوت ۽ حرڪت، مادو، توانائي، ضيائي ترڪيب ۽ ماحوليات سمجهو. ٻارن کي شين، خاڪن ۽ محفوظ تجربن سان تصور واضح ڪريو."
+          }
+        },
+        {
+          "title": "3. Content knowledge: Languages and Social Studies",
+          "type": "text",
+          "content": "## Languages\nReading comprehension includes central idea, supporting detail, evidence-based inference and accurate summary. Grammar supports clear meaning. In a multilingual classroom, respect the learner's home language while teaching the language required for the task. The STEDA 2024 syllabus identifies English and Urdu or Sindhi in its content-knowledge component.\n\n## Social Studies\nReview maps, scale, timelines, local geography, civic responsibilities, community institutions and environmental stewardship. Use sources and evidence when comparing accounts; distinguish a fact from an unsupported opinion.\n\n## Example\nAt a scale of 1 cm : 10 km, a 4 cm map distance represents 40 km. In reading, a valid inference must be supported by clues in the passage.",
+          "explanations": {
+            "ur": "زبان میں مرکزی خیال، معاون تفصیل، متن کے شواہد، خلاصہ اور درست قواعد اہم ہیں۔ سماجی علوم میں نقشہ، پیمانہ، تاریخ، شہریت اور مقامی جغرافیہ دہرائیں۔ رائے اور ثابت شدہ حقیقت میں فرق رکھیں اور مادری زبان کا احترام کریں۔",
+            "sd": "ٻوليءَ ۾ مرڪزي خيال، مددگار تفصيل، متن جا ثبوت، خلاصو ۽ صحيح گرامر اهم آهن. سماجي علمن ۾ نقشو، ماپو، تاريخ، شهريت ۽ مقامي جاگرافي ورجايو. راءِ ۽ ثابت ٿيل حقيقت ۾ فرق رکو ۽ مادري ٻوليءَ جو احترام ڪريو."
+          }
+        },
+        {
+          "title": "4. Teaching methods, foundations and professional standards",
+          "type": "text",
+          "content": "## Methods\nUse explanation, modelling, guided practice, discussion, inquiry and cooperative learning according to the learning outcome. Cooperative tasks need clear roles and individual accountability. Ask purposeful questions, provide wait time and move from recall to application, analysis, evaluation and creation using Bloom's taxonomy.\n\n## Foundations\nPhilosophical foundations concern educational purposes and values; historical foundations explain how education developed; sociological foundations examine education and society; psychological foundations consider learning and development.\n\n## Professional practice\nPlan from outcomes, use accurate subject knowledge, treat learners fairly, protect confidentiality, reflect on evidence and maintain a safe environment. Professional standards guide practice but do not replace the official test syllabus.",
+          "explanations": {
+            "ur": "تدریس میں وضاحت، نمونہ، رہنمائی کے ساتھ مشق، گفتگو، تحقیق اور تعاون کو مقصد کے مطابق استعمال کریں۔ بلوم کی درجہ بندی میں یادداشت سے تجزیہ، جانچ اور تخلیق تک سطحیں شامل ہیں۔ تعلیم کی فلسفیانہ، تاریخی، سماجی اور نفسیاتی بنیادیں سمجھیں اور پیشہ ورانہ اخلاق، انصاف اور رازداری برقرار رکھیں۔",
+            "sd": "تدريس ۾ وضاحت، نمونو، رهنمائي سان مشق، ڳالهه ٻولهه، تحقيق ۽ سهڪار کي مقصد مطابق استعمال ڪريو. بلوم جي درجابندي ۾ يادگيري کان تجزيو، جائزو ۽ تخليق تائين سطحون آهن. تعليم جون فلسفياتي، تاريخي، سماجي ۽ نفسياتي بنيادون سمجهو ۽ پيشه ورانه اخلاق، انصاف ۽ رازداري رکو."
+          }
+        },
+        {
+          "title": "5. Child development, learning psychology and classroom management",
+          "type": "text",
+          "content": "## Development and learning\nDevelopment includes physical, cognitive, language, social and emotional domains. Learners differ in prior knowledge, pace, interests and support needs. Behaviourism examines consequences and practice; cognitivism focuses on attention and memory; constructivism emphasises building understanding through experience; humanistic approaches emphasise dignity and belonging.\n\n## Scaffolding\nBreak complex tasks into steps, model one example and gradually withdraw prompts. Specific feedback identifies what was successful and what to try next.\n\n## Classroom management and inclusion\nTeach routines before problems arise. Respond to behaviour calmly, protect safety, listen and teach an acceptable alternative. Use accessible explanations, diagrams, tactile materials and appropriate accommodations while preserving meaningful learning outcomes.",
+          "explanations": {
+            "ur": "نشوونما کے جسمانی، ذہنی، لسانی، سماجی اور جذباتی پہلو ہوتے ہیں۔ رویہ جاتی، ادراکی، تعمیری اور انسانی نظریات سیکھنے کو مختلف زاویوں سے سمجھاتے ہیں۔ مشکل کام کو مراحل میں بانٹیں، مدد بتدریج کم کریں، واضح معمولات رکھیں اور شمولیتی ماحول بنائیں۔",
+            "sd": "واڌ ويجهه جا جسماني، ذهني، لساني، سماجي ۽ جذباتي پاسا آهن. رويي، ادراڪي، تعميري ۽ انساني نظريا سکيا کي مختلف رخن کان سمجهن ٿا. ڏکيو ڪم مرحلن ۾ ورهايو، مدد آهستي گهٽايو، واضح معمول رکو ۽ شموليت وارو ماحول ٺاهيو."
+          }
+        },
+        {
+          "title": "6. Assessment, test development and feedback",
+          "type": "text",
+          "content": "## Assessment purposes\nDiagnostic assessment identifies prior knowledge and misconceptions. Formative assessment gathers evidence during learning to guide next steps. Summative assessment judges achievement at the end of a unit or course.\n\n## Test quality\nValidity concerns whether an assessment supports the intended interpretation and use. Reliability concerns consistency across comparable occasions or markers. A test can be reliable without being valid for its intended purpose.\n\n## Tools and feedback\nUse MCQs, constructed responses, practical tasks, observation and portfolios for different outcomes. A rubric states criteria and performance levels. A test blueprint maps marks to learning outcomes and cognitive demand. Give timely, specific feedback: one strength, one misconception and one next step.",
+          "explanations": {
+            "ur": "تشخیصی جائزہ سابقہ علم معلوم کرتا ہے، تشکیلی جائزہ دورانِ تدریس رہنمائی دیتا ہے، اور اختتامی جائزہ یونٹ کے آخر میں کامیابی دیکھتا ہے۔ Validity مطلوبہ چیز کی درست پیمائش اور reliability نتائج کی مستقل مزاجی ہے۔ واضح rubric، test blueprint اور قابلِ عمل feedback اہم ہیں۔",
+            "sd": "تشخيصي جائزو اڳوڻي ڄاڻ معلوم ڪري ٿو، تشڪيل وارو جائزو تدريس دوران رهنمائي ڏئي ٿو، ۽ اختتامي جائزو يونٽ جي آخر ۾ ڪاميابي ڏسي ٿو. Validity گهربل شيءِ جي صحيح ماپ ۽ reliability نتيجن جي مستقل مزاجي آهي. واضح rubric، test blueprint ۽ عملي feedback اهم آهن."
+          }
+        },
+        {
+          "title": "7. Psychometric and analytical reasoning practice",
+          "type": "text",
+          "content": "## Scope note\nSTEDA's homepage FAQ reports a 20% psychometric component. The detailed 2024 syllabus PDF does not publish a definitive list of psychometric sub-domains. This lesson supports general numerical, verbal and logical reasoning; it is not an official STEDA blueprint or a personality test.\n\n## Method\nFor number patterns, examine differences or ratios. For analogies, state the relationship in words. In logic questions, separate what is stated from what merely seems likely. In professional scenarios, prioritise safety, fairness, confidentiality and evidence.\n\n## Example\nFor 2, 6, 12, 20, 30, the differences are 4, 6, 8 and 10; the next difference is 12, so the next term is 42. “All teachers are learners” does not prove that any teacher is a researcher.",
+          "explanations": {
+            "ur": "STEDA FAQ میں psychometric حصے کا ذکر ہے، مگر 2024 PDF میں اس کے ذیلی موضوعات کی مکمل فہرست نہیں۔ یہاں عددی، لفظی اور منطقی سوچ کی عمومی مشق ہے، سرکاری نفسیاتی خاکہ یا شخصیت کی تشخیص نہیں۔",
+            "sd": "STEDA FAQ ۾ psychometric حصي جو ذڪر آهي، پر 2024 PDF ۾ ان جا ذيلي موضوع مڪمل درج ناهن. هتي عددي، لفظي ۽ منطقي سوچ جي عام مشق آهي، سرڪاري نفسياتي خاڪو يا شخصيت جي تشخيص ناهي."
+          }
+        }
+      ],
+      "questions": [
+        {
+          "section": "content-knowledge",
+          "question": "What is 3/4 + 1/8?",
+          "options": {
+            "A": "7/8",
+            "B": "4/12",
+            "C": "5/8",
+            "D": "1"
+          },
+          "correctOption": "A",
+          "explanation": "Convert 3/4 to 6/8, then add 1/8."
+        },
+        {
+          "section": "content-knowledge",
+          "question": "A rectangle is 8 cm by 5 cm. What is its perimeter?",
+          "options": {
+            "A": "13 cm",
+            "B": "26 cm",
+            "C": "40 cm",
+            "D": "80 cm"
+          },
+          "correctOption": "B",
+          "explanation": "Perimeter = 2(8+5) = 26 cm."
+        },
+        {
+          "section": "content-knowledge",
+          "question": "In a fair seedling experiment, which variable is deliberately changed?",
+          "options": {
+            "A": "Dependent",
+            "B": "Controlled",
+            "C": "Independent",
+            "D": "Error"
+          },
+          "correctOption": "C",
+          "explanation": "The independent variable is deliberately changed."
+        },
+        {
+          "section": "content-knowledge",
+          "question": "Which combination is required for photosynthesis?",
+          "options": {
+            "A": "Light, carbon dioxide and water",
+            "B": "Oxygen and soil only",
+            "C": "Nitrogen and oxygen only",
+            "D": "Glucose and darkness"
+          },
+          "correctOption": "A",
+          "explanation": "Photosynthesis uses light energy, carbon dioxide and water."
+        },
+        {
+          "section": "content-knowledge",
+          "question": "A map scale is 1 cm : 10 km. What does 4 cm represent?",
+          "options": {
+            "A": "14 km",
+            "B": "40 km",
+            "C": "4 km",
+            "D": "400 km"
+          },
+          "correctOption": "B",
+          "explanation": "Four centimetres represent 40 km."
+        },
+        {
+          "section": "content-knowledge",
+          "question": "Which sentence is grammatically correct?",
+          "options": {
+            "A": "Neither pupils are absent.",
+            "B": "Neither of the pupils is absent.",
+            "C": "Neither pupils is absent.",
+            "D": "Neither of pupil are absent."
+          },
+          "correctOption": "B",
+          "explanation": "Neither is singular in this construction."
+        },
+        {
+          "section": "psychometric-practice",
+          "question": "What completes 2, 6, 12, 20, 30, __?",
+          "options": {
+            "A": "36",
+            "B": "40",
+            "C": "42",
+            "D": "44"
+          },
+          "correctOption": "C",
+          "explanation": "Differences are 4, 6, 8, 10; next is 12."
+        },
+        {
+          "section": "psychometric-practice",
+          "question": "Seed is to plant as egg is to:",
+          "options": {
+            "A": "Nest",
+            "B": "Bird",
+            "C": "Feather",
+            "D": "Tree"
+          },
+          "correctOption": "B",
+          "explanation": "A seed can develop into a plant; an egg into a bird."
+        },
+        {
+          "section": "psychometric-practice",
+          "question": "What is 15% of 200?",
+          "options": {
+            "A": "15",
+            "B": "20",
+            "C": "25",
+            "D": "30"
+          },
+          "correctOption": "D",
+          "explanation": "10% is 20 and 5% is 10; total 30."
+        },
+        {
+          "section": "psychometric-practice",
+          "question": "Which is three-dimensional?",
+          "options": {
+            "A": "Triangle",
+            "B": "Square",
+            "C": "Circle",
+            "D": "Cube"
+          },
+          "correctOption": "D",
+          "explanation": "A cube is a solid; the others are plane shapes."
+        },
+        {
+          "section": "pedagogical-content-knowledge",
+          "question": "Which task requires analysis?",
+          "options": {
+            "A": "List plant parts.",
+            "B": "Define a root.",
+            "C": "Compare how roots and leaves support survival.",
+            "D": "Copy a sentence."
+          },
+          "correctOption": "C",
+          "explanation": "Comparison connects evidence and examines relationships."
+        },
+        {
+          "section": "pedagogical-content-knowledge",
+          "question": "Which is formative assessment?",
+          "options": {
+            "A": "Final board examination",
+            "B": "Exit ticket used to plan next lesson",
+            "C": "Annual certificate",
+            "D": "School report"
+          },
+          "correctOption": "B",
+          "explanation": "An exit ticket gathers evidence during learning."
+        },
+        {
+          "section": "pedagogical-content-knowledge",
+          "question": "Effective cooperative learning requires:",
+          "options": {
+            "A": "One pupil does all work.",
+            "B": "Clear roles and individual accountability.",
+            "C": "No task instructions.",
+            "D": "Competition without discussion."
+          },
+          "correctOption": "B",
+          "explanation": "Clear roles and accountability support collaboration."
+        },
+        {
+          "section": "pedagogical-content-knowledge",
+          "question": "Same outcome, different scaffolds and extension tasks is:",
+          "options": {
+            "A": "Differentiated instruction",
+            "B": "Punishment",
+            "C": "Summative grading",
+            "D": "Unplanned repetition"
+          },
+          "correctOption": "A",
+          "explanation": "Differentiation varies support or challenge while retaining the goal."
+        },
+        {
+          "section": "pedagogical-content-knowledge",
+          "question": "Which question best elicits reasoning?",
+          "options": {
+            "A": "Only yes/no",
+            "B": "Teacher answers first",
+            "C": "Open question, wait time and request for evidence",
+            "D": "Call only fastest pupil"
+          },
+          "correctOption": "C",
+          "explanation": "Open questions and wait time support deeper responses."
+        },
+        {
+          "section": "pedagogical-content-knowledge",
+          "question": "Constructivist teaching often begins by:",
+          "options": {
+            "A": "Copying final answer",
+            "B": "Eliciting prior ideas and investigating with evidence",
+            "C": "Punishing predictions",
+            "D": "Avoiding observation"
+          },
+          "correctOption": "B",
+          "explanation": "Learners refine prior ideas through experience and evidence."
+        },
+        {
+          "section": "pedagogical-content-knowledge",
+          "question": "Which is positive reinforcement?",
+          "options": {
+            "A": "Publicly shame an error",
+            "B": "Specific praise for agreed positive behaviour",
+            "C": "Remove all challenge",
+            "D": "Ignore helpful behaviour"
+          },
+          "correctOption": "B",
+          "explanation": "Specific recognition can strengthen desired behaviour."
+        },
+        {
+          "section": "pedagogical-content-knowledge",
+          "question": "A learner needs a hint to solve a task. The teacher should:",
+          "options": {
+            "A": "Remove all support",
+            "B": "Scaffold and gradually withdraw help",
+            "C": "Give answer only",
+            "D": "Stop teaching"
+          },
+          "correctOption": "B",
+          "explanation": "Scaffolding fades as competence develops."
+        },
+        {
+          "section": "pedagogical-content-knowledge",
+          "question": "Validity is best described as:",
+          "options": {
+            "A": "Consistency under similar conditions",
+            "B": "Evidence supports the intended interpretation",
+            "C": "Popularity of the topic",
+            "D": "Length of the paper"
+          },
+          "correctOption": "B",
+          "explanation": "Validity concerns intended meaning and use of assessment results."
+        },
+        {
+          "section": "pedagogical-content-knowledge",
+          "question": "A marking rubric mainly helps to:",
+          "options": {
+            "A": "Hide criteria",
+            "B": "Describe criteria and performance levels",
+            "C": "Give everyone same score",
+            "D": "Replace feedback"
+          },
+          "correctOption": "B",
+          "explanation": "Rubrics clarify expectations and support consistent marking."
+        }
+      ],
+      "writtenQuestions": [
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Differentiate diagnostic, formative and summative assessment with one example of each.",
+          "modelAnswer": "Diagnostic assessment identifies prior knowledge before teaching. Formative assessment gathers evidence during learning, such as an exit ticket. Summative assessment judges achievement at the end of a unit, such as a unit test.",
+          "rubric": [
+            "Diagnostic purpose/example (1)",
+            "Formative purpose/example (2)",
+            "Summative purpose/example (1)",
+            "Clear distinction (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "تشخیصی، تشکیلی اور اختتامی جائزے میں فرق اور مثال دیں۔",
+              "modelAnswer": "تشخیصی جائزہ تدریس سے پہلے سابقہ علم معلوم کرتا ہے۔ تشکیلی جائزہ دورانِ سیکھنے شواہد جمع کرتا ہے، مثلاً exit ticket۔ اختتامی جائزہ یونٹ کے آخر میں کامیابی دیکھتا ہے، مثلاً ٹیسٹ۔",
+              "rubric": [
+                "Diagnostic purpose/example (1)",
+                "Formative purpose/example (2)",
+                "Summative purpose/example (1)",
+                "Clear distinction (1)"
+              ]
+            },
+            "sd": {
+              "question": "تشخيصي، تشڪيل واري ۽ اختتامي جائزي ۾ فرق ۽ مثال ڏيو.",
+              "modelAnswer": "تشخيصي جائزو تدريس کان اڳ ڄاڻ معلوم ڪري ٿو. تشڪيل وارو جائزو سکيا دوران ثبوت گڏ ڪري ٿو، مثال طور exit ticket. اختتامي جائزو يونٽ جي آخر ۾ ڪاميابي ڏسي ٿو، مثال طور ٽيسٽ.",
+              "rubric": [
+                "Diagnostic purpose/example (1)",
+                "Formative purpose/example (2)",
+                "Summative purpose/example (1)",
+                "Clear distinction (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A pupil repeatedly interrupts during group work. Describe a fair, positive teacher response.",
+          "modelAnswer": "Check safety, calmly state the observable behaviour and restate the routine. Speak privately to identify triggers, assign a clear role and teach turn-taking. Apply fair expectations and follow school policy if needed.",
+          "rubric": [
+            "Safety/calm response (1)",
+            "Clear routine (1)",
+            "Listen for cause (1)",
+            "Teach alternative behaviour (1)",
+            "Consistency/policy (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "گروہی کام میں طالب علم بار بار بات کاٹتا ہے۔ منصفانہ اور مثبت ردعمل لکھیں۔",
+              "modelAnswer": "حفاظت یقینی بنائیں، پرسکون انداز میں رویہ بیان کر کے اصول یاد دلائیں۔ الگ بات کر کے وجہ سمجھیں، واضح ذمہ داری دیں اور باری سے بولنا سکھائیں۔ مستقل اصول اپنائیں۔",
+              "rubric": [
+                "Safety/calm response (1)",
+                "Clear routine (1)",
+                "Listen for cause (1)",
+                "Teach alternative behaviour (1)",
+                "Consistency/policy (1)"
+              ]
+            },
+            "sd": {
+              "question": "گروهي ڪم ۾ شاگرد بار بار وچ ۾ ڳالهائي ٿو. منصفاڻو ۽ مثبت جواب لکو.",
+              "modelAnswer": "حفاظت يقيني بڻايو، آرام سان رويو بيان ڪري اصول ياد ڏياريو. الڳ ڳالهائي سبب سمجهو، واضح ذميواري ڏيو ۽ واري سان ڳالهائڻ سيکاريو. مستقل اصول رکو.",
+              "rubric": [
+                "Safety/calm response (1)",
+                "Clear routine (1)",
+                "Listen for cause (1)",
+                "Teach alternative behaviour (1)",
+                "Consistency/policy (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Explain validity and reliability in classroom assessment and give one way to improve each.",
+          "modelAnswer": "Validity is whether evidence supports the intended learning judgement; improve it by aligning tasks with outcomes. Reliability is consistency; improve it with clear marking criteria, moderation and consistent administration.",
+          "rubric": [
+            "Validity definition (1)",
+            "Validity improvement (1)",
+            "Reliability definition (1)",
+            "Reliability improvement (1)",
+            "Example/clarity (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "کلاس کے جائزے میں validity اور reliability سمجھائیں اور ہر ایک بہتر بنانے کا طریقہ دیں۔",
+              "modelAnswer": "Validity مطلوبہ سیکھنے کی درست جانچ ہے؛ سوالات کو نتائج سے ملائیں۔ Reliability نتائج کی مستقل مزاجی ہے؛ واضح معیار، مشترکہ مارکنگ اور یکساں انتظام اپنائیں۔",
+              "rubric": [
+                "Validity definition (1)",
+                "Validity improvement (1)",
+                "Reliability definition (1)",
+                "Reliability improvement (1)",
+                "Example/clarity (1)"
+              ]
+            },
+            "sd": {
+              "question": "ڪلاس جي جائزي ۾ validity ۽ reliability سمجهايو ۽ هر هڪ بهتر ڪرڻ جو طريقو ڏيو.",
+              "modelAnswer": "Validity گهربل سکيا جي صحيح جانچ آهي؛ سوالن کي نتيجن سان ملايو. Reliability نتيجن جي مستقل مزاجي آهي؛ واضح معيار، گڏيل مارڪنگ ۽ هڪجهڙو انتظام رکو.",
+              "rubric": [
+                "Validity definition (1)",
+                "Validity improvement (1)",
+                "Reliability definition (1)",
+                "Reliability improvement (1)",
+                "Example/clarity (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Design a Grade 6 inquiry lesson on evaporation, including outcome, fair test, safety, differentiation and assessment.",
+          "modelAnswer": "Outcome: learners explain evaporation as liquid changing to vapour. Ask how a wet cloth dries. Compare equal water amounts in identical dishes, changing only one factor such as airflow while keeping time and location consistent. Record observations. Keep water away from electrical equipment and clean spills. Provide diagrams and sentence frames where needed; extend learners with a particle-model explanation. Use an observation table and exit question.",
+          "rubric": [
+            "Accurate outcome (2)",
+            "Fair test/variables (2)",
+            "Safety (1)",
+            "Differentiation (2)",
+            "Aligned assessment (2)",
+            "Organisation (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "تبخیر پر جماعت ششم کا تحقیق پر مبنی سبق بنائیں، جس میں نتیجہ، منصفانہ تجربہ، حفاظت، تفریق اور جائزہ شامل ہوں۔",
+              "modelAnswer": "نتیجہ: بچے تبخیر کو مائع سے بخارات میں تبدیلی سمجھیں۔ برابر پانی والے ایک جیسے برتنوں میں صرف ایک عامل بدلیں، باقی حالات یکساں رکھیں اور مشاہدات لکھیں۔ پانی بجلی سے دور رکھیں۔ خاکہ اور جملوں کے سانچے دیں اور جدول و آخری سوال سے سمجھ جانچیں۔",
+              "rubric": [
+                "Accurate outcome (2)",
+                "Fair test/variables (2)",
+                "Safety (1)",
+                "Differentiation (2)",
+                "Aligned assessment (2)",
+                "Organisation (1)"
+              ]
+            },
+            "sd": {
+              "question": "تبخير بابت ڪلاس ڇهين جو تحقيق وارو سبق ٺاهيو، جنهن ۾ نتيجو، منصفاڻو تجربو، حفاظت، فرقائتي مدد ۽ جائزو هجي.",
+              "modelAnswer": "نتيجو: ٻار تبخير کي مائع مان ٻاڦ ۾ تبديلي سمجهن. برابر پاڻي وارن هڪجهڙن ٿانون ۾ صرف هڪ عنصر بدلايو، ٻيا حالتون ساڳيون رکو ۽ مشاهدا لکو. پاڻي کي بجليءَ کان پري رکو. خاڪو ۽ جملي جا نمونا ڏيو ۽ جدول ۽ آخري سوال سان سمجهه جانچيو.",
+              "rubric": [
+                "Accurate outcome (2)",
+                "Fair test/variables (2)",
+                "Safety (1)",
+                "Differentiation (2)",
+                "Aligned assessment (2)",
+                "Organisation (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "A learner with a visual impairment joins a class relying on small print and board copying. Propose an inclusive plan.",
+          "modelAnswer": "Consult the learner and family, provide large-print or accessible digital text, high-contrast diagrams, verbal descriptions and tactile models where appropriate. Read board information aloud, adjust seating and lighting, share notes in advance and allow equivalent oral or typed responses. Maintain confidentiality and review the plan with the learner.",
+          "rubric": [
+            "Consultation/dignity (2)",
+            "Accessible materials (2)",
+            "Environment adjustments (2)",
+            "Equivalent response modes (2)",
+            "Confidentiality/review (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "بصارت سے محروم طالب علم کے لیے شمولیتی منصوبہ دیں جو نتائج اور عزت برقرار رکھے۔",
+              "modelAnswer": "طالب علم اور خاندان سے مشورہ کریں۔ بڑے حروف یا قابلِ رسائی ڈیجیٹل متن، واضح خاکے، زبانی وضاحت اور لمس والے ماڈل دیں۔ تختے کی تحریر پڑھیں، نشست و روشنی درست کریں، نوٹس پہلے دیں اور مساوی زبانی یا ٹائپ شدہ جواب قبول کریں۔ رازداری رکھیں۔",
+              "rubric": [
+                "Consultation/dignity (2)",
+                "Accessible materials (2)",
+                "Environment adjustments (2)",
+                "Equivalent response modes (2)",
+                "Confidentiality/review (2)"
+              ]
+            },
+            "sd": {
+              "question": "نظر جي معذوري رکندڙ شاگرد لاءِ شموليت وارو منصوبو ڏيو جيڪو نتيجا ۽ عزت برقرار رکي.",
+              "modelAnswer": "شاگرد ۽ خاندان سان صلاح ڪريو. وڏي اکرن يا رسائي واري ڊجيٽل متن، چٽا خاڪا، زباني وضاحت ۽ ڇهڻ وارا ماڊل ڏيو. تختي جي لکڻي پڙهو، جاءِ ۽ روشني درست ڪريو، نوٽس اڳواٽ ڏيو ۽ برابر زباني يا ٽائپ ڪيل جواب قبول ڪريو. رازداري رکو.",
+              "rubric": [
+                "Consultation/dignity (2)",
+                "Accessible materials (2)",
+                "Environment adjustments (2)",
+                "Equivalent response modes (2)",
+                "Confidentiality/review (2)"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

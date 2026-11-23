@@ -514,6 +514,14 @@
       "version": "25",
       "order": 1,
       "contentTier": "mixed"
+    },
+    {
+      "id": "sindh-teaching-licence-elementary-prep",
+      "title": "Sindh Teaching Licence Test Preparation — Elementary (2024 syllabus)",
+      "path": "zeeroz-academy/content/courses/sindh-teaching-licence-elementary-prep.json",
+      "version": "1",
+      "order": 1,
+      "contentTier": "developing"
     }
   ]
 }
