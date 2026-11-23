@@ -2,7 +2,7 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics study collection. Chapter 15 has expanded bilingual explanations, 20 explained MCQs, 6 CRQs, 3 ERQs, worked numericals and an applied case study. Chapters 16–28 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
-  "version": "4",
+  "version": "10",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1039,712 +1039,72 @@
     },
     {
       "title": "Chapter 16: First Law of Thermodynamics",
-      "description": "Grade XII Physics chapter.",
+      "description": "Grade XII Physics: First Law of Thermodynamics. Expanded lessons, equations and assessment.",
       "lessons": [
         {
-          "title": "16.1 thermodynamic system",
+          "title": "16.1 Thermodynamic systems and state variables",
           "type": "text",
-          "content": "## thermodynamic system\nthermodynamic system: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "thermodynamic system کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "thermodynamic system جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "A thermodynamic system is the matter or region selected for study; everything else is the surroundings. An open system exchanges matter and energy, a closed system exchanges energy but not matter, and an isolated system exchanges neither. Pressure, volume, temperature and internal energy describe a macroscopic state.\n\nInternal energy is the microscopic kinetic and potential energy of particles. For an ideal gas it depends only on temperature. Heat is energy transferred because of a temperature difference; work is energy transferred when a force acts through a distance."
         },
         {
-          "title": "16.2 internal energy",
+          "title": "16.2 First law and sign convention",
           "type": "text",
-          "content": "## internal energy\ninternal energy: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "internal energy کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "internal energy جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ internal energy: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "The first law applies conservation of energy to thermodynamics. With Q positive when heat enters the system and W positive when the system does work on its surroundings, ΔU = Q − W. If 500 J of heat enters and the gas does 180 J of work, ΔU = 500 − 180 = +320 J.\n\nAlways state the sign convention before substitution. Work done on the gas is negative in this convention. A positive ΔU means internal energy increases; a negative ΔU means it decreases."
         },
         {
-          "title": "16.3 first law",
+          "title": "16.3 Gas work and thermodynamic processes",
           "type": "text",
-          "content": "## first law\nfirst law: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "first law کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ first law: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "first law جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ first law: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "16.4 gas work",
-          "type": "text",
-          "content": "## gas work\ngas work: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "gas work کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ gas work: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "gas work جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ gas work: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "16.5 thermodynamic processes",
-          "type": "text",
-          "content": "## thermodynamic processes\nthermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "thermodynamic processes کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "thermodynamic processes جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "For a quasistatic pressure-volume change, W = ∫p dV; on a p–V graph it is the signed area under the curve. At constant pressure, W = pΔV. Expansion gives positive work and compression negative work.\n\nIsochoric: ΔV=0, W=0 and ΔU=Q. Isothermal ideal-gas change: ΔT=0, ΔU=0 and Q=W. Adiabatic: Q=0 and ΔU=−W. In a cyclic process net ΔU=0 and net heat equals net work."
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes thermodynamic system?",
+          "question": "With Q positive into a system and W positive when done by the gas, which equation is the first law?",
           "options": {
-            "A": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "thermodynamic system کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "thermodynamic system بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for thermodynamic system.",
-          "options": {
-            "A": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "ΔU = Q + W",
+            "B": "ΔU = Q − W",
+            "C": "ΔU = W − Q",
+            "D": "ΔU = −Q − W"
           },
           "correctOption": "B",
-          "explanation": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "thermodynamic system کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "thermodynamic system بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "Energy entering as heat increases internal energy; work done by the system transfers energy out."
         },
         {
-          "question": "What is the scientifically accurate point about thermodynamic system?",
+          "question": "A gas absorbs 500 J of heat and does 180 J of work. What is its change in internal energy?",
           "options": {
-            "A": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "thermodynamic system کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "thermodynamic system بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes internal energy?",
-          "options": {
-            "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "internal energy کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "internal energy بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for internal energy.",
-          "options": {
-            "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "internal energy کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "internal energy بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about internal energy?",
-          "options": {
-            "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "internal energy کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "internal energy بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes first law?",
-          "options": {
-            "A": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "first law کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "first law: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "first law بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "first law: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for first law.",
-          "options": {
-            "A": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "first law: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "first law کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "first law: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "first law: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "first law بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "first law: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "first law: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about first law?",
-          "options": {
-            "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "320 J",
+            "B": "680 J",
+            "C": "−320 J",
+            "D": "−680 J"
           },
           "correctOption": "A",
-          "explanation": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "first law کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "first law: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "first law بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "internal energy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "first law: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes gas work?",
-          "options": {
-            "A": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "gas work کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "gas work بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for gas work.",
-          "options": {
-            "A": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "first law: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "gas work کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "first law: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "gas work بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "first law: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about gas work?",
-          "options": {
-            "A": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "first law: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "gas work کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "first law: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "gas work بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "first law: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes thermodynamic processes?",
-          "options": {
-            "A": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "thermodynamic processes کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "thermodynamic processes بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for thermodynamic processes.",
-          "options": {
-            "A": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "thermodynamic processes کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "thermodynamic processes بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about thermodynamic processes?",
-          "options": {
-            "A": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "thermodynamic processes کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "thermodynamic processes بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "gas work: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "ΔU = Q − W = 500 − 180 = 320 J."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define thermodynamic system and give one example.",
-          "modelAnswer": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "A gas absorbs 750 J of heat and does 280 J of work. Calculate its change in internal energy.",
+          "modelAnswer": "Using ΔU = Q − W, ΔU = 750 − 280 = +470 J. The internal energy increases by 470 J.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "thermodynamic system کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "thermodynamic system جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "thermodynamic system: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define first law and give one example.",
-          "modelAnswer": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "first law کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "first law جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "first law: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define thermodynamic processes and give one example.",
-          "modelAnswer": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "thermodynamic processes کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "thermodynamic processes جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "thermodynamic processes: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Correct first-law equation (1)",
+            "Correct substitution and answer (1)",
+            "Correct interpretation of sign (1)"
+          ]
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain internal energy with its principle, features and applications.",
-          "modelAnswer": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
+          "marks": 6,
+          "question": "Explain the first law of thermodynamics and compare isochoric, isothermal and adiabatic processes.",
+          "modelAnswer": "The first law is ΔU = Q − W when Q is heat supplied and W is work done by the system. Isochoric: volume is constant, W=0 and ΔU=Q. Isothermal ideal-gas process: temperature and internal energy remain constant, ΔU=0 and Q=W. Adiabatic: Q=0 and ΔU=−W.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "internal energy کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "internal energy جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "internal energy: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "erq",
-          "marks": 5,
-          "question": "Explain gas work with its principle, features and applications.",
-          "modelAnswer": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "gas work کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "gas work جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "gas work: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
+            "States first law and sign convention (2)",
+            "Explains isochoric process (1)",
+            "Explains isothermal process (1)",
+            "Explains adiabatic process (1)",
+            "Uses correct equations (1)"
+          ]
         }
       ]
     },
