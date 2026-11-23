@@ -2,7 +2,7 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics study collection. Chapter 15 has expanded bilingual explanations, 20 explained MCQs, 6 CRQs, 3 ERQs, worked numericals and an applied case study. Chapters 16–28 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
-  "version": "15",
+  "version": "16",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1701,712 +1701,83 @@
     },
     {
       "title": "Chapter 25: Quantum Physics",
-      "description": "Grade XII Physics chapter.",
+      "description": "Grade XII Physics: Photon energy, photoelectric effect, matter waves and uncertainty principle.",
       "lessons": [
         {
-          "title": "25.1 photons",
+          "title": "25.1 Photons and quantised energy",
           "type": "text",
-          "content": "## photons\nphotons: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "photons کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ photons: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "photons جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ photons: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Quantum physics describes phenomena for which classical models fail. Light energy is exchanged in packets called photons. A photon has energy E=hf=hc/λ, where h is Planck's constant, f is frequency and λ is wavelength. Higher frequency means higher photon energy.\n\nThe photoelectric effect shows that electrons are emitted from a metal only when light frequency exceeds a threshold value. Increasing intensity above threshold increases the number of emitted electrons, while increasing frequency raises their maximum kinetic energy."
         },
         {
-          "title": "25.2 photoelectric effect",
+          "title": "25.2 Photoelectric equation",
           "type": "text",
-          "content": "## photoelectric effect\nphotoelectric effect: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "photoelectric effect کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "photoelectric effect جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Einstein's photoelectric equation is hf=φ+Kmax, where φ is the work function and Kmax is the maximum kinetic energy of emitted electrons. The threshold frequency f₀ satisfies φ=hf₀. A stopping potential Vs gives Kmax=eVs.\n\nIf frequency is below threshold, increasing intensity alone does not eject electrons. Above threshold, intensity mainly affects photocurrent, while frequency affects the maximum kinetic energy."
         },
         {
-          "title": "25.3 wave-particle duality",
+          "title": "25.3 Matter waves and uncertainty",
           "type": "text",
-          "content": "## wave-particle duality\nwave-particle duality: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "wave-particle duality کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "wave-particle duality جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "25.4 de Broglie wavelength",
-          "type": "text",
-          "content": "## de Broglie wavelength\nde Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "de Broglie wavelength کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "de Broglie wavelength جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "25.5 uncertainty principle",
-          "type": "text",
-          "content": "## uncertainty principle\nuncertainty principle: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "uncertainty principle کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "uncertainty principle جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "De Broglie's relation assigns wavelength λ=h/p to a particle with momentum p. Electron diffraction demonstrates wave behaviour of matter. The wavelength is significant for microscopic particles but extremely small for everyday objects because their momentum is large.\n\nHeisenberg's uncertainty principle states ΔxΔp≥ħ/2, where ħ=h/(2π). It is a fundamental limit on simultaneous precision, not merely a weakness of measuring instruments."
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes photons?",
+          "question": "Photon energy is directly proportional to:",
           "options": {
-            "A": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "photons کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photons: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "photons بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photons: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for photons.",
-          "options": {
-            "A": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Wavelength",
+            "B": "Frequency",
+            "C": "Amplitude only",
+            "D": "Speed of the source"
           },
           "correctOption": "B",
-          "explanation": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "photons کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photons: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "photons بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photons: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "E=hf; higher frequency means higher photon energy."
         },
         {
-          "question": "What is the scientifically accurate point about photons?",
+          "question": "In the photoelectric effect, increasing light intensity above threshold mainly increases:",
           "options": {
-            "A": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "photons کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photons: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "photons بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photons: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes photoelectric effect?",
-          "options": {
-            "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "photons: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Maximum electron kinetic energy",
+            "B": "Photocurrent",
+            "C": "Work function",
+            "D": "Threshold frequency"
           },
           "correctOption": "B",
-          "explanation": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "photoelectric effect کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "photons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "photoelectric effect بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "photons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "At fixed frequency above threshold, greater intensity means more photons and usually more emitted electrons."
         },
         {
-          "question": "Choose the correct principle for photoelectric effect.",
+          "question": "The de Broglie wavelength of a particle is:",
           "options": {
-            "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "photons: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "photoelectric effect کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "photons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "photoelectric effect بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "photons: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about photoelectric effect?",
-          "options": {
-            "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "photoelectric effect کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "photoelectric effect بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes wave-particle duality?",
-          "options": {
-            "A": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "wave-particle duality کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "wave-particle duality بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for wave-particle duality.",
-          "options": {
-            "A": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "wave-particle duality کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "wave-particle duality بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about wave-particle duality?",
-          "options": {
-            "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "wave-particle duality کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "wave-particle duality بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes de Broglie wavelength?",
-          "options": {
-            "A": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "de Broglie wavelength کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "de Broglie wavelength بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for de Broglie wavelength.",
-          "options": {
-            "A": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "de Broglie wavelength کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "de Broglie wavelength بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about de Broglie wavelength?",
-          "options": {
-            "A": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "λ=hp",
+            "B": "λ=h/p",
+            "C": "λ=p/h²",
+            "D": "λ=mc²"
           },
           "correctOption": "B",
-          "explanation": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "de Broglie wavelength کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "de Broglie wavelength بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes uncertainty principle?",
-          "options": {
-            "A": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "uncertainty principle کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "uncertainty principle بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for uncertainty principle.",
-          "options": {
-            "A": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "uncertainty principle کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "uncertainty principle بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about uncertainty principle?",
-          "options": {
-            "A": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "uncertainty principle کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "uncertainty principle بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "Matter-wave wavelength is λ=h/p."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define photons and give one example.",
-          "modelAnswer": "photons: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "Calculate the energy of a photon of frequency 6.0×10¹⁴ Hz. Use h=6.63×10⁻³⁴ J s.",
+          "modelAnswer": "E=hf=(6.63×10⁻³⁴)(6.0×10¹⁴)=3.98×10⁻¹⁹ J.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "photons کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "photons جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "photons: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define wave-particle duality and give one example.",
-          "modelAnswer": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "wave-particle duality کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "wave-particle duality جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "wave-particle duality: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define uncertainty principle and give one example.",
-          "modelAnswer": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "uncertainty principle کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "uncertainty principle جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "uncertainty principle: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Uses E=hf (1)",
+            "Correct substitution (1)",
+            "Answer 3.98×10⁻¹⁹ J (1)"
+          ]
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain photoelectric effect with its principle, features and applications.",
-          "modelAnswer": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
+          "marks": 6,
+          "question": "Describe the photoelectric effect and explain how it supports the photon model. Include threshold frequency and Einstein's equation.",
+          "modelAnswer": "Light ejects electrons from a metal only when frequency reaches the threshold. Each photon has energy hf. Some energy overcomes the work function φ and the remainder becomes maximum kinetic energy: hf=φ+Kmax. Above threshold, greater intensity increases emitted electron number/current; greater frequency increases Kmax. Below threshold, intensity alone cannot cause emission.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "photoelectric effect کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "photoelectric effect جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "photoelectric effect: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "erq",
-          "marks": 5,
-          "question": "Explain de Broglie wavelength with its principle, features and applications.",
-          "modelAnswer": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "de Broglie wavelength کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "de Broglie wavelength جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "de Broglie wavelength: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
+            "Describes electron emission (1)",
+            "Explains photon energy hf (1)",
+            "Defines work function/threshold (1)",
+            "States Einstein equation (1)",
+            "Distinguishes intensity and frequency effects (2)"
+          ]
         }
       ]
     },
