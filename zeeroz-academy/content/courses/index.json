@@ -11,13 +11,6 @@
       "contentTier": "exam-ready"
     },
     {
-      "id": "biology-ix-chapter-10-evolution",
-      "title": "Biology IX — Chapter 10: Evolution",
-      "path": "zeeroz-academy/content/courses/biology-ix-chapter-10-evolution.json",
-      "version": "7",
-      "order": 10
-    },
-    {
       "id": "biology-ix-chapter-2-molecular-biology",
       "title": "Biology IX — Chapter 2: Molecular Biology",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-2-molecular-biology.json",
@@ -72,6 +65,97 @@
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-9-form-functions-plants.json",
       "version": "6",
       "order": 9
+    },
+    {
+      "id": "biology-ix-chapter-10-evolution",
+      "title": "Biology IX — Chapter 10: Evolution",
+      "path": "zeeroz-academy/content/courses/biology-ix-chapter-10-evolution.json",
+      "version": "7",
+      "order": 10
+    },
+    {
+      "id": "chemistry-ix-x-dcar-2024",
+      "title": "Chemistry IX–X (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/chemistry-ix-x-dcar-2024.json",
+      "version": "1",
+      "contentTier": "outline"
+    },
+    {
+      "id": "computer-science-ix-xii-dcar-2024",
+      "title": "Computer Science & Entrepreneurship IX–XII (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/computer-science-ix-xii-dcar-2024.json",
+      "version": "3",
+      "contentTier": "foundation"
+    },
+    {
+      "id": "english-ix-xii-foundation",
+      "title": "English IX–XII — Language and Communication Foundations",
+      "path": "zeeroz-academy/content/courses/english-ix-xii-foundation.json",
+      "version": "2",
+      "order": 1,
+      "contentTier": "foundation"
+    },
+    {
+      "id": "ethics-religious-studies-ix-xii",
+      "title": "Ethics and Religious Studies IX–XII — Inclusive Foundations",
+      "path": "zeeroz-academy/content/courses/ethics-religious-studies-ix-xii.json",
+      "version": "2",
+      "order": 1,
+      "contentTier": "outline"
+    },
+    {
+      "id": "islamiat-ix-xii-foundations",
+      "title": "Islamiat IX–XII — Quran, Seerah, Ethics and Society",
+      "path": "zeeroz-academy/content/courses/islamiat-ix-xii-foundations.json",
+      "version": "2",
+      "order": 1,
+      "contentTier": "outline"
+    },
+    {
+      "id": "language-culture-electives-ix-xii",
+      "title": "Language and Culture Electives IX–XII — Arabic, Urdu Literature and History",
+      "path": "zeeroz-academy/content/courses/language-culture-electives-ix-xii.json",
+      "version": "2",
+      "order": 1,
+      "contentTier": "outline"
+    },
+    {
+      "id": "mathematics-ix-xii-dcar-2024",
+      "title": "Mathematics IX–XII (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/mathematics-ix-xii-dcar-2024.json",
+      "version": "3",
+      "contentTier": "foundation"
+    },
+    {
+      "id": "electives-ix-x-foundations",
+      "title": "IX–X Electives and General Subjects — Foundation Learning",
+      "path": "zeeroz-academy/content/courses/electives-ix-x-foundations.json",
+      "version": "1",
+      "order": 1,
+      "contentTier": "outline"
+    },
+    {
+      "id": "pakistan-studies-ix-x",
+      "title": "Pakistan Studies IX–X — History, Geography and Citizenship",
+      "path": "zeeroz-academy/content/courses/pakistan-studies-ix-x.json",
+      "version": "2",
+      "order": 1,
+      "contentTier": "outline"
+    },
+    {
+      "id": "physics-ix-x-dcar-2024",
+      "title": "Physics IX–X (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-ix-x-dcar-2024.json",
+      "version": "1",
+      "contentTier": "outline"
+    },
+    {
+      "id": "urdu-sindhi-ix-x-language",
+      "title": "Urdu and Sindhi IX–X — Compulsory Language Skills",
+      "path": "zeeroz-academy/content/courses/urdu-sindhi-ix-x-language.json",
+      "version": "1",
+      "order": 1,
+      "contentTier": "outline"
     },
     {
       "id": "biology-x-chapter-11-holozoic-nutrition",
@@ -137,13 +221,6 @@
       "order": 1
     },
     {
-      "id": "biology-xi-chapter-10-form-functions-plants",
-      "title": "Biology XI — Chapter 10: Form and Functions of Plants",
-      "path": "zeeroz-academy/content/courses/biology-xi-chapter-10-form-functions-plants.json",
-      "version": "1",
-      "order": 10
-    },
-    {
       "id": "biology-xi-chapter-2-enzymes",
       "title": "Biology XI — Chapter 2: Enzymes",
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-2-enzymes.json",
@@ -198,6 +275,125 @@
       "path": "zeeroz-academy/content/courses/biology-xi-chapter-9-diversity-among-animals.json",
       "version": "1",
       "order": 9
+    },
+    {
+      "id": "biology-xi-chapter-10-form-functions-plants",
+      "title": "Biology XI — Chapter 10: Form and Functions of Plants",
+      "path": "zeeroz-academy/content/courses/biology-xi-chapter-10-form-functions-plants.json",
+      "version": "1",
+      "order": 10
+    },
+    {
+      "id": "chemistry-xi-chapters-1-12",
+      "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
+      "path": "zeeroz-academy/content/courses/chemistry-xi-chapters-1-12.json",
+      "version": "2",
+      "order": 1,
+      "contentTier": "mixed"
+    },
+    {
+      "id": "chemistry-xi-core-concepts-dcar-2024",
+      "title": "Chemistry XI — Core Concepts (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/chemistry-xi-core-concepts-dcar-2024.json",
+      "version": "1",
+      "contentTier": "foundation"
+    },
+    {
+      "id": "commerce-humanities-xi-xii-foundations",
+      "title": "Commerce and Humanities XI–XII — Foundation Studies",
+      "path": "zeeroz-academy/content/courses/commerce-humanities-xi-xii-foundations.json",
+      "version": "2",
+      "order": 1,
+      "contentTier": "outline"
+    },
+    {
+      "id": "humanities-commerce-xi-xii-extended",
+      "title": "XI–XII Humanities and Commerce Electives — Extended Foundations",
+      "path": "zeeroz-academy/content/courses/humanities-commerce-xi-xii-extended.json",
+      "version": "1",
+      "order": 1,
+      "contentTier": "outline"
+    },
+    {
+      "id": "physics-xi-measurement",
+      "title": "Physics XI — Measurement (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-measurement.json",
+      "version": "2",
+      "order": 1
+    },
+    {
+      "id": "physics-xi-mechanics-foundations",
+      "title": "Physics XI — Mechanics I: Vectors, Motion and Collisions (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-mechanics-foundations.json",
+      "version": "1",
+      "order": 2
+    },
+    {
+      "id": "physics-xi-rotational-circular-motion",
+      "title": "Physics XI — Rotational and Circular Motion (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-rotational-circular-motion.json",
+      "version": "1",
+      "order": 3
+    },
+    {
+      "id": "physics-xi-fluid-statics-dynamics",
+      "title": "Physics XI — Fluid Statics and Dynamics (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-fluid-statics-dynamics.json",
+      "version": "1",
+      "order": 4
+    },
+    {
+      "id": "physics-xi-heat-thermodynamics",
+      "title": "Physics XI — Heat and Thermodynamics (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-heat-thermodynamics.json",
+      "version": "1",
+      "order": 5
+    },
+    {
+      "id": "physics-xi-waves",
+      "title": "Physics XI — Waves (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-waves.json",
+      "version": "1",
+      "order": 6
+    },
+    {
+      "id": "physics-xi-electricity-magnetism",
+      "title": "Physics XI — Electricity and Magnetism (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-electricity-magnetism.json",
+      "version": "2",
+      "order": 7
+    },
+    {
+      "id": "physics-xi-work-energy-oscillations-acoustics",
+      "title": "Physics XI — Work, Energy, Oscillations and Acoustics",
+      "path": "zeeroz-academy/content/courses/physics-xi-work-energy-oscillations-acoustics.json",
+      "version": "1",
+      "order": 8,
+      "contentTier": "outline"
+    },
+    {
+      "id": "physics-xi-solids-elasticity",
+      "title": "Physics XI — Solids and Elasticity (DCAR 2024)",
+      "path": "zeeroz-academy/content/courses/physics-xi-solids-elasticity.json",
+      "version": "1",
+      "order": 9,
+      "contentTier": "developing"
+    },
+    {
+      "id": "sindhi-xi-xii-language-literature",
+      "title": "Sindhi XI–XII — Bhasha, Adab ain Likhat",
+      "path": "zeeroz-academy/content/courses/sindhi-xi-xii-language-literature.json",
+      "version": "3",
+      "order": 1,
+      "contentTier": "outline"
+    },
+    {
+      "id": "urdu-xi-xii-literature-language",
+      "title": "Urdu XI–XII — Zaban, Adab aur Tahrir",
+      "path": "zeeroz-academy/content/courses/urdu-xi-xii-literature-language.json",
+      "version": "3",
+      "order": 1,
+      "contentTier": "outline"
     },
     {
       "id": "biology-xii-chapter-14-immunity",
@@ -305,103 +501,11 @@
       "order": 28
     },
     {
-      "id": "chemistry-ix-x-dcar-2024",
-      "title": "Chemistry IX–X (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/chemistry-ix-x-dcar-2024.json",
-      "version": "1",
-      "contentTier": "outline"
-    },
-    {
-      "id": "chemistry-xi-core-concepts-dcar-2024",
-      "title": "Chemistry XI — Core Concepts (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/chemistry-xi-core-concepts-dcar-2024.json",
-      "version": "1",
-      "contentTier": "foundation"
-    },
-    {
       "id": "chemistry-xii-complete",
       "title": "Chemistry XII — Complete Course",
       "path": "zeeroz-academy/content/courses/chemistry-xii-complete.json",
       "version": "8",
       "order": 1
-    },
-    {
-      "id": "computer-science-ix-xii-dcar-2024",
-      "title": "Computer Science & Entrepreneurship IX–XII (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/computer-science-ix-xii-dcar-2024.json",
-      "version": "3",
-      "contentTier": "foundation"
-    },
-    {
-      "id": "mathematics-ix-xii-dcar-2024",
-      "title": "Mathematics IX–XII (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/mathematics-ix-xii-dcar-2024.json",
-      "version": "3",
-      "contentTier": "foundation"
-    },
-    {
-      "id": "physics-ix-x-dcar-2024",
-      "title": "Physics IX–X (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-ix-x-dcar-2024.json",
-      "version": "1",
-      "contentTier": "outline"
-    },
-    {
-      "id": "physics-xi-electricity-magnetism",
-      "title": "Physics XI — Electricity and Magnetism (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-electricity-magnetism.json",
-      "version": "2",
-      "order": 7
-    },
-    {
-      "id": "physics-xi-fluid-statics-dynamics",
-      "title": "Physics XI — Fluid Statics and Dynamics (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-fluid-statics-dynamics.json",
-      "version": "1",
-      "order": 4
-    },
-    {
-      "id": "physics-xi-heat-thermodynamics",
-      "title": "Physics XI — Heat and Thermodynamics (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-heat-thermodynamics.json",
-      "version": "1",
-      "order": 5
-    },
-    {
-      "id": "physics-xi-measurement",
-      "title": "Physics XI — Measurement (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-measurement.json",
-      "version": "2",
-      "order": 1
-    },
-    {
-      "id": "physics-xi-mechanics-foundations",
-      "title": "Physics XI — Mechanics I: Vectors, Motion and Collisions (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-mechanics-foundations.json",
-      "version": "1",
-      "order": 2
-    },
-    {
-      "id": "physics-xi-rotational-circular-motion",
-      "title": "Physics XI — Rotational and Circular Motion (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-rotational-circular-motion.json",
-      "version": "1",
-      "order": 3
-    },
-    {
-      "id": "physics-xi-solids-elasticity",
-      "title": "Physics XI — Solids and Elasticity (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-solids-elasticity.json",
-      "version": "1",
-      "order": 9,
-      "contentTier": "developing"
-    },
-    {
-      "id": "physics-xi-waves",
-      "title": "Physics XI — Waves (DCAR 2024)",
-      "path": "zeeroz-academy/content/courses/physics-xi-waves.json",
-      "version": "1",
-      "order": 6
     },
     {
       "id": "physics-xii-complete",
@@ -410,110 +514,6 @@
       "version": "25",
       "order": 1,
       "contentTier": "mixed"
-    },
-    {
-      "id": "english-ix-xii-foundation",
-      "title": "English IX–XII — Language and Communication Foundations",
-      "path": "zeeroz-academy/content/courses/english-ix-xii-foundation.json",
-      "version": "2",
-      "order": 1,
-      "contentTier": "foundation"
-    },
-    {
-      "id": "urdu-xi-xii-literature-language",
-      "title": "Urdu XI–XII — Zaban, Adab aur Tahrir",
-      "path": "zeeroz-academy/content/courses/urdu-xi-xii-literature-language.json",
-      "version": "3",
-      "order": 1,
-      "contentTier": "outline"
-    },
-    {
-      "id": "sindhi-xi-xii-language-literature",
-      "title": "Sindhi XI–XII — Bhasha, Adab ain Likhat",
-      "path": "zeeroz-academy/content/courses/sindhi-xi-xii-language-literature.json",
-      "version": "3",
-      "order": 1,
-      "contentTier": "outline"
-    },
-    {
-      "id": "pakistan-studies-ix-x",
-      "title": "Pakistan Studies IX–X — History, Geography and Citizenship",
-      "path": "zeeroz-academy/content/courses/pakistan-studies-ix-x.json",
-      "version": "2",
-      "order": 1,
-      "contentTier": "outline"
-    },
-    {
-      "id": "islamiat-ix-xii-foundations",
-      "title": "Islamiat IX–XII — Quran, Seerah, Ethics and Society",
-      "path": "zeeroz-academy/content/courses/islamiat-ix-xii-foundations.json",
-      "version": "2",
-      "order": 1,
-      "contentTier": "outline"
-    },
-    {
-      "id": "commerce-humanities-xi-xii-foundations",
-      "title": "Commerce and Humanities XI–XII — Foundation Studies",
-      "path": "zeeroz-academy/content/courses/commerce-humanities-xi-xii-foundations.json",
-      "version": "2",
-      "order": 1,
-      "contentTier": "outline"
-    },
-    {
-      "id": "urdu-sindhi-ix-x-language",
-      "title": "Urdu and Sindhi IX–X — Compulsory Language Skills",
-      "path": "zeeroz-academy/content/courses/urdu-sindhi-ix-x-language.json",
-      "version": "1",
-      "order": 1,
-      "contentTier": "outline"
-    },
-    {
-      "id": "electives-ix-x-foundations",
-      "title": "IX–X Electives and General Subjects — Foundation Learning",
-      "path": "zeeroz-academy/content/courses/electives-ix-x-foundations.json",
-      "version": "1",
-      "order": 1,
-      "contentTier": "outline"
-    },
-    {
-      "id": "humanities-commerce-xi-xii-extended",
-      "title": "XI–XII Humanities and Commerce Electives — Extended Foundations",
-      "path": "zeeroz-academy/content/courses/humanities-commerce-xi-xii-extended.json",
-      "version": "1",
-      "order": 1,
-      "contentTier": "outline"
-    },
-    {
-      "id": "ethics-religious-studies-ix-xii",
-      "title": "Ethics and Religious Studies IX–XII — Inclusive Foundations",
-      "path": "zeeroz-academy/content/courses/ethics-religious-studies-ix-xii.json",
-      "version": "2",
-      "order": 1,
-      "contentTier": "outline"
-    },
-    {
-      "id": "language-culture-electives-ix-xii",
-      "title": "Language and Culture Electives IX–XII — Arabic, Urdu Literature and History",
-      "path": "zeeroz-academy/content/courses/language-culture-electives-ix-xii.json",
-      "version": "2",
-      "order": 1,
-      "contentTier": "outline"
-    },
-    {
-      "id": "chemistry-xi-chapters-1-12",
-      "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
-      "path": "zeeroz-academy/content/courses/chemistry-xi-chapters-1-12.json",
-      "version": "2",
-      "order": 1,
-      "contentTier": "mixed"
-    },
-    {
-      "id": "physics-xi-work-energy-oscillations-acoustics",
-      "title": "Physics XI — Work, Energy, Oscillations and Acoustics",
-      "path": "zeeroz-academy/content/courses/physics-xi-work-energy-oscillations-acoustics.json",
-      "version": "1",
-      "order": 8,
-      "contentTier": "outline"
     }
   ]
 }
