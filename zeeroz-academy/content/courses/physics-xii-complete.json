@@ -2,7 +2,7 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics study collection. Chapter 15 has expanded bilingual explanations, 20 explained MCQs, 6 CRQs, 3 ERQs, worked numericals and an applied case study. Chapters 16–28 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
-  "version": "10",
+  "version": "11",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1110,712 +1110,72 @@
     },
     {
       "title": "Chapter 17: Second Law of Thermodynamics",
-      "description": "Grade XII Physics chapter.",
+      "description": "Grade XII Physics: Second Law of Thermodynamics, with concept explanations, equations and applications.",
       "lessons": [
         {
-          "title": "17.1 heat-flow direction",
+          "title": "17.1 Direction of heat flow",
           "type": "text",
-          "content": "## heat-flow direction\nheat-flow direction: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "heat-flow direction کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "heat-flow direction جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "The first law accounts for energy but does not determine the natural direction of a process. Heat flows spontaneously from a hotter body to a colder body; transfer from cold to hot requires external work. The Clausius statement says no cyclic device can transfer heat from cold to hot as its only effect.\n\nThe Kelvin–Planck statement says no cyclic heat engine can convert all the heat taken from a single reservoir completely into work. A refrigerator uses work to move heat from a colder space to warmer surroundings."
         },
         {
-          "title": "17.2 entropy",
+          "title": "17.2 Entropy",
           "type": "text",
-          "content": "## entropy\nentropy: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "entropy کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ entropy: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "entropy جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ entropy: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Entropy S is a state function related to energy dispersal and the number of microscopic arrangements compatible with a macroscopic state. For a reversible transfer, ΔS=Qrev/T, where T is in kelvin and entropy is measured in J K⁻¹. For an isolated system, total entropy never decreases: it rises for an irreversible process and remains constant for an ideal reversible process.\n\nDiffusion of perfume and spontaneous mixing of warm and cold water are examples of entropy increase. Explain entropy using energy dispersal and microscopic states rather than simply calling it disorder."
         },
         {
-          "title": "17.3 heat engines",
+          "title": "17.3 Engines and refrigerators",
           "type": "text",
-          "content": "## heat engines\nheat engines: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "heat engines کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "heat engines جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ heat engines: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "17.4 efficiency",
-          "type": "text",
-          "content": "## efficiency\nefficiency: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "efficiency کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "efficiency جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ efficiency: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "17.5 refrigerators",
-          "type": "text",
-          "content": "## refrigerators\nrefrigerators: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "refrigerators کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "refrigerators جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "A heat engine absorbs QH from a hot reservoir, performs work W and rejects QC to a cold reservoir. W=QH−QC and efficiency η=W/QH=1−QC/QH. A reversible engine between TH and TC has maximum efficiency ηCarnot=1−TC/TH; temperatures must be in kelvin.\n\nA refrigerator removes QC from a cold space using work W, so COPR=QC/W. A heat pump delivers QH, so COPHP=QH/W. COP and efficiency are different quantities."
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes heat-flow direction?",
+          "question": "Which statement about second law of thermodynamics is scientifically correct?",
           "options": {
-            "A": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "heat-flow direction کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "heat-flow direction بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for heat-flow direction.",
-          "options": {
-            "A": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "The relevant physical laws do not apply",
+            "B": "The chapter principles must be applied with stated conditions and SI units",
+            "C": "All quantities are dimensionless",
+            "D": "Measurements are unnecessary"
           },
           "correctOption": "B",
-          "explanation": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "heat-flow direction کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "heat-flow direction بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "Physics explanations require correct principles, stated conditions and consistent units."
         },
         {
-          "question": "What is the scientifically accurate point about heat-flow direction?",
+          "question": "What should a student identify before solving a numerical in second law of thermodynamics?",
           "options": {
-            "A": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "heat-flow direction کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "heat-flow direction بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes entropy?",
-          "options": {
-            "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Only the final answer",
+            "B": "The relevant quantities, units and physical relation",
+            "C": "An unrelated formula",
+            "D": "No assumptions"
           },
           "correctOption": "B",
-          "explanation": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "entropy کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "entropy بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for entropy.",
-          "options": {
-            "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "entropy کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "entropy بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about entropy?",
-          "options": {
-            "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "entropy کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "entropy بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes heat engines?",
-          "options": {
-            "A": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "heat engines کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "heat engines بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for heat engines.",
-          "options": {
-            "A": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "heat engines کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "heat engines بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about heat engines?",
-          "options": {
-            "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "heat engines کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "heat engines بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "entropy: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes efficiency?",
-          "options": {
-            "A": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "efficiency کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "efficiency بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for efficiency.",
-          "options": {
-            "A": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "efficiency کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "efficiency بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about efficiency?",
-          "options": {
-            "A": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "efficiency کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "efficiency بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "heat engines: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes refrigerators?",
-          "options": {
-            "A": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "refrigerators کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "refrigerators بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for refrigerators.",
-          "options": {
-            "A": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "refrigerators کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "refrigerators بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about refrigerators?",
-          "options": {
-            "A": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "refrigerators کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "refrigerators بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "efficiency: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "refrigerators: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "Identify knowns, unknowns, units and the relation that models the situation."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define heat-flow direction and give one example.",
-          "modelAnswer": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "Explain one key principle of second law of thermodynamics and state a relevant equation or example.",
+          "modelAnswer": "The first law accounts for energy but does not determine the natural direction of a process. Heat flows spontaneously from a hotter body to a colder body; transfer from cold to hot requires external work. The Clausius statement says no cyclic device can transfer heat from cold to hot as its only effect.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "heat-flow direction کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "heat-flow direction جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "heat-flow direction: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define heat engines and give one example.",
-          "modelAnswer": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "heat engines کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "heat engines جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "heat engines: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define refrigerators and give one example.",
-          "modelAnswer": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "refrigerators کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "refrigerators جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "refrigerators: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Accurate principle (1)",
+            "Relevant equation or explanation (1)",
+            "Suitable example (1)"
+          ]
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain entropy with its principle, features and applications.",
-          "modelAnswer": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
+          "marks": 6,
+          "question": "Describe the main concepts of second law of thermodynamics, including the important variables, equations and one practical application.",
+          "modelAnswer": "The first law accounts for energy but does not determine the natural direction of a process. Heat flows spontaneously from a hotter body to a colder body; transfer from cold to hot requires external work. The Clausius statement says no cyclic device can transfer heat from cold to hot as its only effect.\n\nThe Kelvin–Planck statement says no cyclic heat engine can convert all the heat taken from a single reservoir completely into work. A refrigerator uses work to move heat from a colder space to warmer surroundings.\n\nEntropy S is a state function related to energy dispersal and the number of microscopic arrangements compatible with a macroscopic state. For a reversible transfer, ΔS=Qrev/T, where T is in kelvin and entropy is measured in J K⁻¹. For an isolated system, total entropy never decreases: it rises for an irreversible process and remains constant for an ideal reversible process.\n\nDiffusion of perfume and spontaneous mixing of warm and cold water are examples of entropy increase. Explain entropy using energy dispersal and microscopic states rather than simply calling it disorder.\n\nA heat engine absorbs QH from a hot reservoir, performs work W and rejects QC to a cold reservoir. W=QH−QC and efficiency η=W/QH=1−QC/QH. A reversible engine between TH and TC has maximum efficiency ηCarnot=1−TC/TH; temperatures must be in kelvin.\n\nA refrigerator removes QC from a cold space using work W, so COPR=QC/W. A heat pump delivers QH, so COPHP=QH/W. COP and efficiency are different quantities.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "entropy کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "entropy جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "entropy: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "erq",
-          "marks": 5,
-          "question": "Explain efficiency with its principle, features and applications.",
-          "modelAnswer": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "efficiency کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "efficiency جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "efficiency: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
+            "Core concept explanation (2)",
+            "Correct equation and symbols (1)",
+            "Explains variable relationships (1)",
+            "Practical application (1)",
+            "Correct units and terminology (1)"
+          ]
         }
       ]
     },
