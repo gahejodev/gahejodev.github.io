@@ -2,7 +2,7 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics study collection. Chapter 15 has expanded bilingual explanations, 20 explained MCQs, 6 CRQs, 3 ERQs, worked numericals and an applied case study. Chapters 16–28 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
-  "version": "12",
+  "version": "14",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1536,712 +1536,84 @@
     },
     {
       "title": "Chapter 23: Digital Electronics",
-      "description": "Grade XII Physics chapter.",
+      "description": "Grade XII Physics: Digital Electronics, including binary representation, logic gates, Boolean algebra and circuit types.",
       "lessons": [
         {
-          "title": "23.1 digital signals",
+          "title": "23.1 Digital signals and binary numbers",
           "type": "text",
-          "content": "## digital signals\ndigital signals: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "digital signals کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "digital signals جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ digital signals: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "An analog signal varies continuously; a digital signal represents information using discrete levels, commonly 0 and 1. Binary is a base-2 number system. Each binary digit is a bit; eight bits form a byte. Place values are powers of two: 1011₂ = 8 + 2 + 1 = 11₁₀.\n\nDigital systems can tolerate small noise while signals remain within valid logic ranges. Conversion from real-world signals may require sampling and quantisation; more converter bits generally allow finer quantisation."
         },
         {
-          "title": "23.2 binary numbers",
+          "title": "23.2 Logic gates and Boolean algebra",
           "type": "text",
-          "content": "## binary numbers\nbinary numbers: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "binary numbers کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "binary numbers جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "AND outputs 1 only when all inputs are 1; OR outputs 1 when at least one input is 1; NOT reverses the input. NAND and NOR are universal gates because combinations of either can implement any Boolean function. XOR outputs 1 when its inputs differ.\n\nTruth tables list every possible input combination and output. Boolean algebra simplifies logic expressions; for example A·1=A and A+0=A. Distinguish logical OR from ordinary arithmetic addition."
         },
         {
-          "title": "23.3 logic gates",
+          "title": "23.3 Combinational and sequential circuits",
           "type": "text",
-          "content": "## logic gates\nlogic gates: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "logic gates کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "logic gates جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ logic gates: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "23.4 combinational circuits",
-          "type": "text",
-          "content": "## combinational circuits\ncombinational circuits: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "combinational circuits کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "combinational circuits جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "23.5 sequential circuits",
-          "type": "text",
-          "content": "## sequential circuits\nsequential circuits: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "sequential circuits کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "sequential circuits جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "A combinational circuit's output depends only on current inputs. Examples include adders, comparators, multiplexers and decoders. A half-adder produces sum S=A XOR B and carry C=A AND B.\n\nA sequential circuit has memory; its output depends on current inputs and previous state. Flip-flops store one bit, and registers store groups of bits. Counters, memory and digital controllers use sequential logic."
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes digital signals?",
+          "question": "The binary number 1011₂ is equal to which decimal number?",
           "options": {
-            "A": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "digital signals کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "digital signals بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for digital signals.",
-          "options": {
-            "A": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "digital signals کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "digital signals بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about digital signals?",
-          "options": {
-            "A": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "9",
+            "B": "10",
+            "C": "11",
+            "D": "13"
           },
           "correctOption": "C",
-          "explanation": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "digital signals کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "digital signals بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "1011₂ = 1×8 + 0×4 + 1×2 + 1×1 = 11."
         },
         {
-          "question": "Which statement describes binary numbers?",
+          "question": "Which gate outputs 1 only when both inputs are 1?",
           "options": {
-            "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "OR",
+            "B": "AND",
+            "C": "XOR",
+            "D": "NOT"
           },
           "correctOption": "B",
-          "explanation": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "binary numbers کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "binary numbers بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "The AND operation is true only when all its inputs are true."
         },
         {
-          "question": "Choose the correct principle for binary numbers.",
+          "question": "A circuit whose output depends on stored previous state is:",
           "options": {
-            "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "binary numbers کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "binary numbers بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "digital signals: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about binary numbers?",
-          "options": {
-            "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "binary numbers کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "binary numbers بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes logic gates?",
-          "options": {
-            "A": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "logic gates کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "logic gates بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for logic gates.",
-          "options": {
-            "A": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "logic gates کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "logic gates بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about logic gates?",
-          "options": {
-            "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "logic gates کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "logic gates بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "binary numbers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes combinational circuits?",
-          "options": {
-            "A": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "combinational circuits کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "combinational circuits بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for combinational circuits.",
-          "options": {
-            "A": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "combinational circuits کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "combinational circuits بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about combinational circuits?",
-          "options": {
-            "A": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Combinational",
+            "B": "Sequential",
+            "C": "Purely resistive",
+            "D": "An analogue sensor"
           },
           "correctOption": "B",
-          "explanation": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "combinational circuits کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "combinational circuits بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "logic gates: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes sequential circuits?",
-          "options": {
-            "A": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "sequential circuits کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "sequential circuits بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for sequential circuits.",
-          "options": {
-            "A": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "sequential circuits کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "sequential circuits بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about sequential circuits?",
-          "options": {
-            "A": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "sequential circuits کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "sequential circuits بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "Sequential circuits contain memory elements such as flip-flops."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define digital signals and give one example.",
-          "modelAnswer": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "Write the output of an AND gate for inputs A=1 and B=0, and explain the result.",
+          "modelAnswer": "The output is 0. AND produces 1 only when both inputs are 1; here one input is 0.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "digital signals کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "digital signals جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "digital signals: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define logic gates and give one example.",
-          "modelAnswer": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "logic gates کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "logic gates جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "logic gates: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define sequential circuits and give one example.",
-          "modelAnswer": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "sequential circuits کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "sequential circuits جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "sequential circuits: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Correct output 0 (1)",
+            "States AND condition (1)",
+            "Applies condition to inputs (1)"
+          ]
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain binary numbers with its principle, features and applications.",
-          "modelAnswer": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
+          "marks": 6,
+          "question": "Compare combinational and sequential logic. Explain AND, OR, NOT and XOR gates and give one example of each circuit type.",
+          "modelAnswer": "Combinational outputs depend only on present inputs; examples include adders and multiplexers. Sequential outputs depend on current inputs and stored state; examples include counters and registers. AND is 1 only for all-one inputs, OR for at least one 1, NOT inverts, and XOR is 1 when inputs differ. Truth tables show every input combination.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "binary numbers کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "binary numbers جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "binary numbers: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "erq",
-          "marks": 5,
-          "question": "Explain combinational circuits with its principle, features and applications.",
-          "modelAnswer": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "combinational circuits کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "combinational circuits جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "combinational circuits: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
+            "Combinational definition/example (1)",
+            "Sequential definition/example (1)",
+            "AND and OR behaviour (1)",
+            "NOT and XOR behaviour (1)",
+            "Explains truth table use (1)",
+            "Gives valid circuit examples (1)"
+          ]
         }
       ]
     },
