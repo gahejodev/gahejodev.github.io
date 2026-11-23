@@ -2,7 +2,7 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics study collection. Chapter 15 has expanded bilingual explanations, 20 explained MCQs, 6 CRQs, 3 ERQs, worked numericals and an applied case study. Chapters 16–28 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
-  "version": "16",
+  "version": "17",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1783,712 +1783,84 @@
     },
     {
       "title": "Chapter 26: Atomic Physics",
-      "description": "Grade XII Physics chapter.",
+      "description": "Grade XII Physics: Atomic energy levels, spectra, Bohr model, X-rays and laser operation.",
       "lessons": [
         {
-          "title": "26.1 energy levels",
+          "title": "26.1 Atomic energy levels and spectra",
           "type": "text",
-          "content": "## energy levels\nenergy levels: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "energy levels کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "energy levels جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ energy levels: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Atoms have discrete allowed energy states. When an electron moves from a higher energy level to a lower one, a photon is emitted with hf=Ei−Ef. Absorption occurs when a photon supplies the required energy difference. Because only particular energy differences are allowed, atoms produce line spectra.\n\nSpectral lines act as fingerprints for elements and are used in laboratory analysis and astronomy. A larger energy gap produces a higher-frequency photon and shorter wavelength."
         },
         {
-          "title": "26.2 atomic spectra",
+          "title": "26.2 Bohr model and X-rays",
           "type": "text",
-          "content": "## atomic spectra\natomic spectra: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "atomic spectra کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "atomic spectra جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "In the Bohr model of hydrogen, allowed electron energies are En=−13.6 eV/n². A transition between levels produces a photon whose energy equals the difference between the levels. The model explains hydrogen's main spectral pattern but is not a complete model for multi-electron atoms.\n\nX-rays are high-frequency electromagnetic waves. They can be produced when fast electrons are decelerated at a target or when inner-shell vacancies are filled. Exposure must be controlled because ionising radiation can damage tissue."
         },
         {
-          "title": "26.3 Bohr model",
+          "title": "26.3 Lasers and stimulated emission",
           "type": "text",
-          "content": "## Bohr model\nBohr model: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "Bohr model کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "Bohr model جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "26.4 X-rays",
-          "type": "text",
-          "content": "## X-rays\nX-rays: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "X-rays کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "X-rays جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ X-rays: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "26.5 lasers",
-          "type": "text",
-          "content": "## lasers\nlasers: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "lasers کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ lasers: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "lasers جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ lasers: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "A laser uses stimulated emission to produce light with a narrow range of wavelengths, strong directionality and coherence. Atoms or other active-medium systems are pumped to create population inversion, where more particles occupy an excited state than a lower state. An optical cavity provides feedback.\n\nLaser applications include fibre-optic communication, precision measurement, surgery, barcode scanning and materials processing. Direct or reflected beams can damage eyes, so appropriate safety controls are essential."
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes energy levels?",
+          "question": "An atom emits a photon when an electron:",
           "options": {
-            "A": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "energy levels کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "energy levels بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for energy levels.",
-          "options": {
-            "A": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "lasers: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Moves to a higher energy level",
+            "B": "Moves to a lower energy level",
+            "C": "Remains in the same stationary state",
+            "D": "Leaves the nucleus"
           },
           "correctOption": "B",
-          "explanation": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "energy levels کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "energy levels بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "The photon energy equals the difference between the initial and final energy levels."
         },
         {
-          "question": "What is the scientifically accurate point about energy levels?",
+          "question": "A spectral line is produced because atomic energy levels are:",
           "options": {
-            "A": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "energy levels کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "energy levels بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes atomic spectra?",
-          "options": {
-            "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Continuous at all energies",
+            "B": "Discrete",
+            "C": "Always zero",
+            "D": "The same for every element"
           },
           "correctOption": "B",
-          "explanation": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "atomic spectra کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "atomic spectra بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "Only specific energy differences are allowed, producing characteristic spectral lines."
         },
         {
-          "question": "Choose the correct principle for atomic spectra.",
+          "question": "Laser light is characterised by:",
           "options": {
-            "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "atomic spectra کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "atomic spectra بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "energy levels: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about atomic spectra?",
-          "options": {
-            "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "atomic spectra کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "atomic spectra بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes Bohr model?",
-          "options": {
-            "A": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "Bohr model کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "Bohr model بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for Bohr model.",
-          "options": {
-            "A": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "Bohr model کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "Bohr model بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about Bohr model?",
-          "options": {
-            "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "Bohr model کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "Bohr model بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes X-rays?",
-          "options": {
-            "A": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "X-rays کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "X-rays بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for X-rays.",
-          "options": {
-            "A": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "X-rays کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "X-rays بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about X-rays?",
-          "options": {
-            "A": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Random phase and all directions",
+            "B": "Coherence and strong directionality",
+            "C": "Only low frequency",
+            "D": "No stimulated emission"
           },
           "correctOption": "B",
-          "explanation": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "X-rays کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "X-rays بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "Bohr model: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes lasers?",
-          "options": {
-            "A": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "lasers کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "lasers بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for lasers.",
-          "options": {
-            "A": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "lasers کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "lasers بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about lasers?",
-          "options": {
-            "A": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "lasers کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "lasers بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "X-rays: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "lasers: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "Stimulated emission and optical feedback produce coherent, directional light."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define energy levels and give one example.",
-          "modelAnswer": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "An atom emits a photon when an electron falls by 2.0 eV. What is the photon's energy in joules? Use 1 eV=1.60×10⁻¹⁹ J.",
+          "modelAnswer": "E=2.0×1.60×10⁻¹⁹=3.20×10⁻¹⁹ J.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "energy levels کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "energy levels جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "energy levels: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define Bohr model and give one example.",
-          "modelAnswer": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "Bohr model کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "Bohr model جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "Bohr model: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define lasers and give one example.",
-          "modelAnswer": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "lasers کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "lasers جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "lasers: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Recognises photon energy equals level difference (1)",
+            "Correct conversion (1)",
+            "Answer 3.20×10⁻¹⁹ J (1)"
+          ]
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain atomic spectra with its principle, features and applications.",
-          "modelAnswer": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
+          "marks": 6,
+          "question": "Explain atomic line spectra, the Bohr model and the principle of laser operation.",
+          "modelAnswer": "Atomic electrons occupy discrete energy levels. A transition between levels emits or absorbs a photon with energy equal to the level difference, producing line spectra. The Bohr model gives hydrogen energies En=−13.6 eV/n². A laser uses pumping to create population inversion; stimulated emission amplifies coherent light in an optical cavity.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "atomic spectra کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "atomic spectra جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "atomic spectra: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "erq",
-          "marks": 5,
-          "question": "Explain X-rays with its principle, features and applications.",
-          "modelAnswer": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "X-rays کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "X-rays جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "X-rays: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
+            "Explains discrete levels (1)",
+            "Explains photon transition and line spectrum (1)",
+            "States Bohr energy relation (1)",
+            "Explains pumping/population inversion (1)",
+            "Explains stimulated emission (1)",
+            "Mentions optical cavity/coherent output (1)"
+          ]
         }
       ]
     },
