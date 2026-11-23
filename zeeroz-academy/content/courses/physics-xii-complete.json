@@ -2,7 +2,7 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics study course for Chapters 15–28. Chapter 15 and Chapters 16–28 include concept lessons and examination practice. Check the latest board syllabus for local sequencing and prescribed depth.",
-  "version": "19",
+  "version": "20",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1130,33 +1130,44 @@
       ],
       "questions": [
         {
-          "question": "Which statement about second law of thermodynamics is scientifically correct?",
+          "question": "Which statement is a form of the second law?",
           "options": {
-            "A": "The relevant physical laws do not apply",
-            "B": "The chapter principles must be applied with stated conditions and SI units",
-            "C": "All quantities are dimensionless",
-            "D": "Measurements are unnecessary"
+            "A": "All heat can be converted to work in a cyclic engine",
+            "B": "Heat spontaneously flows from cold to hot",
+            "C": "No cyclic engine can convert all heat from one reservoir into work",
+            "D": "Entropy of an isolated system always decreases"
           },
-          "correctOption": "B",
-          "explanation": "Physics explanations require correct principles, stated conditions and consistent units."
+          "correctOption": "C",
+          "explanation": "The Kelvin–Planck statement rules out a 100% efficient cyclic heat engine."
         },
         {
-          "question": "What should a student identify before solving a numerical in second law of thermodynamics?",
+          "question": "A reversible engine operates between 600 K and 300 K. Its Carnot efficiency is:",
           "options": {
-            "A": "Only the final answer",
-            "B": "The relevant quantities, units and physical relation",
-            "C": "An unrelated formula",
-            "D": "No assumptions"
+            "A": "25%",
+            "B": "50%",
+            "C": "75%",
+            "D": "100%"
           },
           "correctOption": "B",
-          "explanation": "Identify knowns, unknowns, units and the relation that models the situation."
+          "explanation": "η=1−TC/TH=1−300/600=0.50."
+        },
+        {
+          "question": "What does a refrigerator require to transfer heat from a cold space to a warmer room?",
+          "options": {
+            "A": "No energy input",
+            "B": "Work input",
+            "C": "A decrease in room temperature only",
+            "D": "A perfect insulator"
+          },
+          "correctOption": "B",
+          "explanation": "A refrigerator uses external work to move heat against its natural direction."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Explain one key principle of second law of thermodynamics and state a relevant equation or example.",
+          "question": "Solve a short numerical or explain a core principle from Second Law of Thermodynamics. Show the relevant relation, substitution and units where appropriate.",
           "modelAnswer": "The first law accounts for energy but does not determine the natural direction of a process. Heat flows spontaneously from a hotter body to a colder body; transfer from cold to hot requires external work. The Clausius statement says no cyclic device can transfer heat from cold to hot as its only effect.",
           "rubric": [
             "Accurate principle (1)",
@@ -1167,7 +1178,7 @@
         {
           "type": "erq",
           "marks": 6,
-          "question": "Describe the main concepts of second law of thermodynamics, including the important variables, equations and one practical application.",
+          "question": "Explain the key principles of Second Law of Thermodynamics. Include relevant equations, define symbols and discuss one practical application.",
           "modelAnswer": "The first law accounts for energy but does not determine the natural direction of a process. Heat flows spontaneously from a hotter body to a colder body; transfer from cold to hot requires external work. The Clausius statement says no cyclic device can transfer heat from cold to hot as its only effect.\n\nThe Kelvin–Planck statement says no cyclic heat engine can convert all the heat taken from a single reservoir completely into work. A refrigerator uses work to move heat from a colder space to warmer surroundings.\n\nEntropy S is a state function related to energy dispersal and the number of microscopic arrangements compatible with a macroscopic state. For a reversible transfer, ΔS=Qrev/T, where T is in kelvin and entropy is measured in J K⁻¹. For an isolated system, total entropy never decreases: it rises for an irreversible process and remains constant for an ideal reversible process.\n\nDiffusion of perfume and spontaneous mixing of warm and cold water are examples of entropy increase. Explain entropy using energy dispersal and microscopic states rather than simply calling it disorder.\n\nA heat engine absorbs QH from a hot reservoir, performs work W and rejects QC to a cold reservoir. W=QH−QC and efficiency η=W/QH=1−QC/QH. A reversible engine between TH and TC has maximum efficiency ηCarnot=1−TC/TH; temperatures must be in kelvin.\n\nA refrigerator removes QC from a cold space using work W, so COPR=QC/W. A heat pump delivers QH, so COPHP=QH/W. COP and efficiency are different quantities.",
           "rubric": [
             "Core concept explanation (2)",
