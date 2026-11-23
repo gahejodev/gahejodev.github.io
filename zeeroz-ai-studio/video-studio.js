@@ -2,7 +2,7 @@ import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/f
 import { addDoc, collection, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 import {sortCoursePackages,sortSequence} from "../zeeroz-academy/course-order.mjs";
 const $=id=>document.getElementById(id);
-let voiceTrackPreviewUrl=null;
+let voiceTrackPreviewUrl=null,voiceTrackPreviewToken=0;
 function formatAudioDuration(seconds){
  if(!Number.isFinite(seconds)||seconds<0)return "duration unavailable";
  const total=Math.floor(seconds),hours=Math.floor(total/3600),minutes=Math.floor((total%3600)/60),secs=total%60;
@@ -16,6 +16,7 @@ function formatAudioFileSize(bytes){
  return size.toFixed(size>=10?0:1)+" "+units[index];
 }
 function clearVoiceTrackPreview(){
+ voiceTrackPreviewToken++;
  const preview=$("voiceTrackPreview");
  if(preview){preview.pause();preview.removeAttribute("src");preview.load();preview.hidden=true}
  if(voiceTrackPreviewUrl){URL.revokeObjectURL(voiceTrackPreviewUrl);voiceTrackPreviewUrl=null}
@@ -24,6 +25,7 @@ function updateVoiceTrackPreview(){
  const input=$("voiceTrack"),preview=$("voiceTrackPreview"),info=$("voiceTrackInfo");
  if(!input||!preview||!info)return;
  clearVoiceTrackPreview();
+ const token=voiceTrackPreviewToken;
  const file=input.files?.[0];
  if(!file){info.textContent="No external voice-over selected. Generate a local voice or choose an audio file.";return}
  if(!file.size){info.textContent="The selected audio file is empty. Choose another file.";return}
@@ -33,11 +35,13 @@ function updateVoiceTrackPreview(){
  const summary="Selected: "+file.name+" · "+formatAudioFileSize(file.size);
  info.textContent=summary+" · Reading duration…";
  preview.addEventListener("loadedmetadata",()=>{
+  if(token!==voiceTrackPreviewToken)return;
   const duration=formatAudioDuration(preview.duration);
   info.textContent=summary+" · "+duration;
   if(file.size>=75*1024*1024)info.textContent+=" · Large file: mobile browser memory may be limited during export.";
  },{once:true});
  preview.addEventListener("error",()=>{
+  if(token!==voiceTrackPreviewToken)return;
   info.textContent=summary+" · This browser could not decode the preview. Try MP3 or WAV before exporting.";
  },{once:true});
  preview.load();
