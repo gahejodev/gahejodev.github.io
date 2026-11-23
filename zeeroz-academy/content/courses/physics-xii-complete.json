@@ -2,7 +2,7 @@
   "id": "physics-xii-complete",
   "title": "Physics XII — Complete Course",
   "description": "Grade XII Physics study collection. Chapter 15 has expanded bilingual explanations, 20 explained MCQs, 6 CRQs, 3 ERQs, worked numericals and an applied case study. Chapters 16–28 remain under content review and should be treated as draft study aids until their chapter-specific material is completed.",
-  "version": "14",
+  "version": "15",
   "chapters": [
     {
       "title": "Chapter 15: Molecular Theory of Gases",
@@ -1619,712 +1619,83 @@
     },
     {
       "title": "Chapter 24: Relativity",
-      "description": "Grade XII Physics chapter.",
+      "description": "Grade XII Physics: Special relativity, time dilation, length contraction and relativistic energy.",
       "lessons": [
         {
-          "title": "24.1 relativity principle",
+          "title": "24.1 Special relativity and its postulates",
           "type": "text",
-          "content": "## relativity principle\nrelativity principle: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "relativity principle کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "relativity principle جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Special relativity applies to inertial reference frames. Its two postulates are: the laws of physics are the same in all inertial frames, and the speed of light in vacuum has the same value c for all inertial observers. These ideas replace the classical assumption that time and space intervals are absolute.\n\nEvents simultaneous in one inertial frame need not be simultaneous in another. Measurements of time and length depend on the observer's frame."
         },
         {
-          "title": "24.2 light speed",
+          "title": "24.2 Time dilation and length contraction",
           "type": "text",
-          "content": "## light speed\nlight speed: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "light speed کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ light speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "light speed جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ light speed: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "A moving clock is measured to run slow relative to an observer for whom the clock is moving. The time dilation relation is Δt=γΔτ, where Δτ is proper time and γ=1/√(1−v²/c²). As v approaches c, γ increases.\n\nAn object's length parallel to its motion is measured shorter by an observer who sees it moving: L=L₀/γ, where L₀ is proper length in the object's rest frame. These effects become significant at speeds close to c."
         },
         {
-          "title": "24.3 time dilation",
+          "title": "24.3 Relativistic energy",
           "type": "text",
-          "content": "## time dilation\ntime dilation: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "time dilation کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "time dilation جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ time dilation: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "24.4 length contraction",
-          "type": "text",
-          "content": "## length contraction\nlength contraction: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "length contraction کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "length contraction جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ length contraction: state the physical principle, relevant equation or law, units and one practical application."
-          }
-        },
-        {
-          "title": "24.5 mass-energy equivalence",
-          "type": "text",
-          "content": "## mass-energy equivalence\nmass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.\n\nStudy the definition, principle, important terms and a textbook example.",
-          "explanations": {
-            "ur": "mass-energy equivalence کی تعریف، بنیادی اصول، اہم اصطلاحات اور کتابی مثال سمجھیں۔ mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-            "sd": "mass-energy equivalence جي تعريف، بنيادي اصول، اهم اصطلاحون ۽ ڪتابي مثال سمجهو۔ mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-          }
+          "content": "Rest energy is E₀=mc². The full relativistic energy of a particle is E=γmc², and its momentum is p=γmv. At speeds much smaller than c, classical mechanics is a good approximation; near c, relativistic effects matter.\n\nMass–energy equivalence explains why small mass changes correspond to large energy changes. In nuclear reactions, the mass defect gives ΔE=Δmc². Use SI units and c=3.00×10⁸ m s⁻¹."
         }
       ],
       "questions": [
         {
-          "question": "Which statement describes relativity principle?",
+          "question": "The speed of light in vacuum according to special relativity is:",
           "options": {
-            "A": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "relativity principle کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "relativity principle بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for relativity principle.",
-          "options": {
-            "A": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Different for every inertial observer",
+            "B": "The same for all inertial observers",
+            "C": "Dependent on source speed",
+            "D": "Zero in a moving frame"
           },
           "correctOption": "B",
-          "explanation": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "relativity principle کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "relativity principle بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "The invariant speed of light in vacuum is one of the postulates of special relativity."
         },
         {
-          "question": "What is the scientifically accurate point about relativity principle?",
+          "question": "The Lorentz factor γ increases when relative speed:",
           "options": {
-            "A": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "relativity principle کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "relativity principle بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes light speed?",
-          "options": {
-            "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "Decreases toward zero",
+            "B": "Increases toward c",
+            "C": "Is negative",
+            "D": "Equals the speed of sound"
           },
           "correctOption": "B",
-          "explanation": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "light speed کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "light speed بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "γ=1/√(1−v²/c²), which grows as v approaches c."
         },
         {
-          "question": "Choose the correct principle for light speed.",
+          "question": "Rest energy is given by:",
           "options": {
-            "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "light speed کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "light speed بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "relativity principle: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about light speed?",
-          "options": {
-            "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "light speed کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "light speed بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes time dilation?",
-          "options": {
-            "A": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "time dilation کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "time dilation بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for time dilation.",
-          "options": {
-            "A": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "time dilation کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "time dilation بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about time dilation?",
-          "options": {
-            "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "time dilation کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "time dilation بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "light speed: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes length contraction?",
-          "options": {
-            "A": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "D",
-          "explanation": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "length contraction کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "length contraction بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for length contraction.",
-          "options": {
-            "A": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "length contraction کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "length contraction بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about length contraction?",
-          "options": {
-            "A": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
+            "A": "E=mv",
+            "B": "E=mc²",
+            "C": "E=mgh",
+            "D": "E=½mv² only"
           },
           "correctOption": "B",
-          "explanation": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "length contraction کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "length contraction بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "time dilation: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Which statement describes mass-energy equivalence?",
-          "options": {
-            "A": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "A",
-          "explanation": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "mass-energy equivalence کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "mass-energy equivalence بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "Choose the correct principle for mass-energy equivalence.",
-          "options": {
-            "A": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "B",
-          "explanation": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "mass-energy equivalence کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "mass-energy equivalence بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
-        },
-        {
-          "question": "What is the scientifically accurate point about mass-energy equivalence?",
-          "options": {
-            "A": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-            "B": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-            "C": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-            "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-          },
-          "correctOption": "C",
-          "explanation": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-          "translations": {
-            "ur": {
-              "question": "mass-energy equivalence کے بارے میں درست بیان منتخب کریں۔",
-              "options": {
-                "A": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-            },
-            "sd": {
-              "question": "mass-energy equivalence بابت صحيح بيان چونڊيو۔",
-              "options": {
-                "A": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-                "B": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-                "C": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-                "D": "length contraction: state the physical principle, relevant equation or law, units and one practical application."
-              },
-              "explanation": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application."
-            }
-          }
+          "explanation": "The rest energy of an object is E₀=mc²."
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 3,
-          "question": "Define relativity principle and give one example.",
-          "modelAnswer": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
+          "question": "Calculate the Lorentz factor for an object moving at 0.8c.",
+          "modelAnswer": "γ=1/√(1−0.8²)=1/√0.36=1/0.6≈1.67.",
           "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "relativity principle کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "relativity principle جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "relativity principle: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define time dilation and give one example.",
-          "modelAnswer": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "time dilation کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "time dilation جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "time dilation: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "crq",
-          "marks": 3,
-          "question": "Define mass-energy equivalence and give one example.",
-          "modelAnswer": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Definition (1)",
-            "Explanation (1)",
-            "Example (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "mass-energy equivalence کی تعریف اور ایک مثال دیں۔",
-              "modelAnswer": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعریف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            },
-            "sd": {
-              "question": "mass-energy equivalence جي تعريف ۽ هڪ مثال ڏيو۔",
-              "modelAnswer": "mass-energy equivalence: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعريف (1)",
-                "وضاحت (1)",
-                "مثال (1)"
-              ]
-            }
-          }
+            "Correct Lorentz-factor equation (1)",
+            "Correct substitution (1)",
+            "Answer approximately 1.67 (1)"
+          ]
         },
         {
           "type": "erq",
-          "marks": 5,
-          "question": "Explain light speed with its principle, features and applications.",
-          "modelAnswer": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
+          "marks": 6,
+          "question": "State the two postulates of special relativity and explain time dilation, length contraction and mass–energy equivalence.",
+          "modelAnswer": "The laws of physics are identical in all inertial frames, and light speed in vacuum is invariant. Moving clocks are measured to run slow: Δt=γΔτ. Length parallel to motion is measured contracted: L=L₀/γ. Rest energy is E₀=mc². These effects become significant when speed is a substantial fraction of c.",
           "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "light speed کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "light speed جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "light speed: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
-        },
-        {
-          "type": "erq",
-          "marks": 5,
-          "question": "Explain length contraction with its principle, features and applications.",
-          "modelAnswer": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-          "rubric": [
-            "Introduction (1)",
-            "Principle (2)",
-            "Features (1)",
-            "Application (1)"
-          ],
-          "translations": {
-            "ur": {
-              "question": "length contraction کا اصول، خصوصیات اور اطلاق بیان کریں۔",
-              "modelAnswer": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خصوصیات (1)",
-                "اطلاق (1)"
-              ]
-            },
-            "sd": {
-              "question": "length contraction جو اصول، خاصيتون ۽ استعمال بيان ڪريو۔",
-              "modelAnswer": "length contraction: state the physical principle, relevant equation or law, units and one practical application.",
-              "rubric": [
-                "تعارف (1)",
-                "اصول (2)",
-                "خاصيتون (1)",
-                "استعمال (1)"
-              ]
-            }
-          }
+            "Both postulates (2)",
+            "Explains time dilation (1)",
+            "Explains length contraction (1)",
+            "States mass–energy relation (1)",
+            "Identifies high-speed condition (1)"
+          ]
         }
       ]
     },
