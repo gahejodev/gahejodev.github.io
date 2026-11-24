@@ -2,6 +2,13 @@ import { onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/
 import { collection, getDocs, query, where, limit } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 import {getGrades,getSubject,sortCoursePackages,sortSequence} from "./course-order.mjs";
 const $=id=>document.getElementById(id);
+function renderOverview(){
+ const grades=new Set(courseRecords.flatMap(r=>r.grades));
+ const subjects=new Set(courseRecords.map(r=>r.subject).filter(Boolean));
+ const chapters=courseRecords.reduce((n,r)=>n+r.chapters.length,0);
+ const values={overviewClasses:grades.size,overviewSubjects:subjects.size,overviewChapters:chapters};
+ for(const [id,value] of Object.entries(values)){const el=$(id);if(el)el.textContent=String(value)}
+}
 $("logout").addEventListener("click",async()=>{if(window.ZeerozFirebase)await signOut(window.ZeerozFirebase.auth);location.href="./student-login.html"});
 function renderAnnouncements(target,items,empty){
  const el=$(target);el.innerHTML="";
@@ -24,14 +31,14 @@ function renderCourses(){
  const records=courseRecords.filter(r=>!selectedGrade||r.grades.includes(selectedGrade));
  if(selectedGrade===null){
   const grid=document.createElement("div");grid.className="course-select-grid";
-  ["IX","X","XI","XII"].forEach(g=>{const rows=courseRecords.filter(r=>r.grades.includes(g));const subjects=new Set(rows.map(r=>r.subject));const card=document.createElement("button");card.className="course-select-card";const strong=document.createElement("strong");strong.textContent="Class "+g;const small=document.createElement("small");small.textContent=subjects.size+" subjects available";card.append(strong,small);card.addEventListener("click",()=>{selectedGrade=g;selectedSubject=null;renderCourses()});grid.append(card)});
+  ["IX","X","XI","XII"].forEach(g=>{const rows=courseRecords.filter(r=>r.grades.includes(g));const subjects=new Set(rows.map(r=>r.subject));const card=document.createElement("button");card.className="course-select-card";card.dataset.grade=g;card.setAttribute("aria-label","Open Class "+g+", "+subjects.size+" subjects");const strong=document.createElement("strong");strong.textContent="Class "+g;const small=document.createElement("small");small.textContent=subjects.size+" subjects · "+rows.reduce((n,r)=>n+r.chapters.length,0)+" chapters";card.append(strong,small);card.addEventListener("click",()=>{selectedGrade=g;selectedSubject=null;renderCourses()});grid.append(card)});
   el.append(grid);return;
  }
  if(selectedSubject===null){
   const subjects=[...new Set(records.map(r=>r.subject))].sort((x,y)=>x.localeCompare(y));
   if(!subjects.length){el.textContent="No published subjects for this class yet.";return}
   const grid=document.createElement("div");grid.className="course-select-grid";
-  subjects.forEach(subject=>{const rows=records.filter(r=>r.subject===subject);const count=rows.reduce((n,r)=>n+r.chapters.length,0);const card=document.createElement("button");card.className="course-select-card";const strong=document.createElement("strong");strong.textContent=subject;const small=document.createElement("small");small.textContent=count+" chapters";card.append(strong,small);card.addEventListener("click",()=>{selectedSubject=subject;renderCourses()});grid.append(card)});
+  subjects.forEach(subject=>{const rows=records.filter(r=>r.subject===subject);const count=rows.reduce((n,r)=>n+r.chapters.length,0);const card=document.createElement("button");card.className="course-select-card";card.dataset.subject=subject;card.setAttribute("aria-label","Open "+subject+", "+count+" chapters");const strong=document.createElement("strong");strong.textContent=subject;const small=document.createElement("small");small.textContent=count+" chapters";card.append(strong,small);card.addEventListener("click",()=>{selectedSubject=subject;renderCourses()});grid.append(card)});
   el.append(grid);return;
  }
  const rows=records.filter(r=>r.subject===selectedSubject),list=document.createElement("div");list.className="course-chapter-list";
@@ -52,6 +59,7 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
    return {id:course.id,title:course.title||"Untitled course",subject:getSubject(course),grades,chapters};
   }))).filter(Boolean);
   courseRecords=sortCoursePackages(courseRecords);
+  renderOverview();
   renderCourses();
   const announcementItems=a.docs.map(x=>x.data()).sort((x,y)=>(y.createdAt?.seconds||0)-(x.createdAt?.seconds||0));
   renderAnnouncements("announcements",announcementItems,"No announcements yet.");
