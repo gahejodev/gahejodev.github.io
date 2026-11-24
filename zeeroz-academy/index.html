@@ -87,6 +87,34 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
 }
 @media(max-width:390px){.path-grid{grid-template-columns:1fr}.hero-art{min-height:255px}}
 
+
+/* Visual Learning Lab — lightweight browser-native interactive demos */
+.visual-lab{background:linear-gradient(180deg,#f4f8ff 0%,#fff 100%)}
+.visual-lab .section-head{margin-bottom:28px}
+.visual-lab-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:stretch}
+.visual-card{background:#fff;border:1px solid #dfe7f5;border-radius:22px;padding:22px;box-shadow:0 12px 30px #08265d0b;min-width:0}
+.visual-card h3{margin:8px 0;color:#071b49;font-size:21px}
+.visual-card p{color:#5f6d86;font-size:13px;margin:0 0 12px}
+.visual-tag{display:inline-flex;border-radius:30px;padding:5px 10px;background:#eaf1ff;color:#1748ad;font-size:10px;font-weight:900;letter-spacing:1px;text-transform:uppercase}
+.visual-stage{width:100%;display:block;background:linear-gradient(145deg,#f7faff,#edf4ff);border:1px solid #e0e8f5;border-radius:15px;overflow:hidden}
+.visual-controls{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.visual-control{min-width:0}
+.visual-control label{display:flex;justify-content:space-between;gap:8px;color:#243452;font-size:12px;font-weight:800;margin-bottom:5px}
+.visual-control input{width:100%;accent-color:#0757e8}
+.visual-readouts{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.visual-readout{background:#f3f7ff;border:1px solid #e2eaf7;border-radius:12px;padding:9px}
+.visual-readout small{display:block;color:#65718a;font-size:10px;font-weight:750}
+.visual-readout strong{display:block;color:#071b49;font-size:15px;font-variant-numeric:tabular-nums}
+.visual-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:13px}
+.visual-actions button,.visual-actions a{border:0;border-radius:10px;padding:10px 13px;background:#0757e8;color:#fff;font-size:12px;font-weight:850;cursor:pointer}
+.visual-actions .light{background:#edf2fb;color:#1a315f}
+.visual-actions button:focus-visible,.visual-actions a:focus-visible,.visual-control input:focus-visible{outline:3px solid #f2bd45;outline-offset:3px}
+.visual-caption{font-size:11px!important;color:#6c7890!important;margin-top:10px!important}
+.mitosis-label{font-weight:850;color:#0d347d;font-size:13px;margin:10px 0 4px}
+.mitosis-desc{min-height:40px}
+@media(max-width:760px){.visual-lab-grid{grid-template-columns:1fr}.visual-card{padding:17px}.visual-readouts{gap:6px}.visual-readout{padding:8px 6px}.visual-readout strong{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.visual-stage *{animation:none!important;transition:none!important}}
+
 </style>
   <link rel="stylesheet" href="./assets/zeeroz-design-system.css?v=20261119-brand-social-fix-2">
   <link rel="manifest" href="./manifest.webmanifest">
@@ -142,6 +170,59 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
   </button>
   <span class="float f1">School Learning</span><span class="float f2">Exam Preparation</span><span class="float f3">Digital Skills</span>
 </div></div></section>
+
+
+<section class="visual-lab" id="visual-learning-lab" aria-labelledby="visualLabTitle">
+ <div class="wrap">
+  <div class="section-head">
+   <span class="kicker">Learn by seeing · Explore by doing</span>
+   <h2 id="visualLabTitle">Visual Learning Lab</h2>
+   <p>Real, interactive science models that let you change a variable, observe the result and connect it with the lesson.</p>
+  </div>
+  <div class="visual-lab-grid">
+   <article class="visual-card" aria-labelledby="projectileTitle">
+    <span class="visual-tag">Live Physics experiment</span>
+    <h3 id="projectileTitle">Projectile Motion</h3>
+    <p>Change the launch speed and angle. Follow the path of an ideal projectile under constant gravity.</p>
+    <svg id="projectilePlot" class="visual-stage" viewBox="0 0 360 205" role="img" aria-labelledby="projectileSvgTitle projectileSvgDesc">
+     <title id="projectileSvgTitle">Projectile trajectory graph</title><desc id="projectileSvgDesc">A ball follows a curved path from launch to landing. The curve updates when speed or angle changes.</desc>
+     <path d="M30 12V176H342" fill="none" stroke="#8292ad" stroke-width="1.5"/>
+     <path d="M30 45H342M30 88H342M30 132H342" stroke="#dce5f3" stroke-width="1" stroke-dasharray="3 5"/>
+     <path id="projectilePath" d="M30 176 Q180 10 330 176" fill="none" stroke="#0757e8" stroke-width="3.5" stroke-linecap="round"/>
+     <circle id="projectileApex" cx="180" cy="65" r="5" fill="#e6a700" stroke="#fff" stroke-width="2"/>
+     <circle cx="30" cy="176" r="5" fill="#0c806e"/><circle cx="330" cy="176" r="5" fill="#0c806e"/>
+     <text x="34" y="192" fill="#526078" font-size="10">Launch</text><text x="304" y="192" fill="#526078" font-size="10">Land</text>
+     <text x="35" y="22" fill="#526078" font-size="10">Height</text><text x="342" y="190" fill="#526078" font-size="10" text-anchor="end">Range →</text>
+    </svg>
+    <div class="visual-controls">
+     <div class="visual-control"><label for="launchSpeed">Launch speed <output id="speedValue">20 m/s</output></label><input id="launchSpeed" type="range" min="5" max="40" step="1" value="20"></div>
+     <div class="visual-control"><label for="launchAngle">Launch angle <output id="angleValue">45°</output></label><input id="launchAngle" type="range" min="15" max="75" step="1" value="45"></div>
+    </div>
+    <div class="visual-readouts" aria-live="polite" aria-atomic="true">
+     <div class="visual-readout"><small>Flight time</small><strong id="flightTime">2.88 s</strong></div>
+     <div class="visual-readout"><small>Maximum height</small><strong id="maxHeight">10.19 m</strong></div>
+     <div class="visual-readout"><small>Horizontal range</small><strong id="rangeValue">40.77 m</strong></div>
+    </div>
+    <p class="visual-caption">Model assumptions: level launch and landing, no air resistance, and constant gravitational acceleration g = 9.81 m/s².</p>
+    <div class="visual-actions"><a href="catalog.html?level=XI">Explore Class XI Physics →</a><button class="light" id="resetProjectile" type="button">Reset experiment</button></div>
+   </article>
+   <article class="visual-card" aria-labelledby="mitosisTitle">
+    <span class="visual-tag">Live Biology model</span>
+    <h3 id="mitosisTitle">Explore Mitosis</h3>
+    <p>Move through the main stages of cell division and observe how duplicated chromosomes are separated.</p>
+    <svg id="mitosisDiagram" class="visual-stage" viewBox="0 0 360 205" role="img" aria-labelledby="mitosisSvgTitle mitosisSvgDesc">
+     <title id="mitosisSvgTitle">Mitosis stage diagram</title><desc id="mitosisSvgDesc">A labelled simplified cell diagram showing chromosome arrangement during mitosis.</desc>
+     <g id="mitosisDrawing"></g>
+    </svg>
+    <div class="mitosis-label" id="mitosisStage" aria-live="polite">Stage 1 of 5 · Prophase</div>
+    <p class="mitosis-desc" id="mitosisDescription">Chromosomes condense and become visible. The nuclear envelope begins to break down and the spindle starts to form.</p>
+    <div class="visual-actions"><button id="mitosisPrev" class="light" type="button">← Previous stage</button><button id="mitosisNext" type="button">Next stage →</button><button id="mitosisReset" class="light" type="button">Start again</button></div>
+    <p class="visual-caption">Simplified teaching diagram: real cells are three-dimensional and the timing and appearance of mitosis vary by organism and cell type.</p>
+    <div class="visual-actions"><a href="catalog.html?level=IX">Explore Biology courses →</a></div>
+   </article>
+  </div>
+ </div>
+</section>
 
 <section id="pathways"><div class="wrap"><div class="section-head"><span class="kicker">Choose your pathway</span><h2>Learning for school, exams and careers</h2><p>Start from the goal that matters to you. New class-wise and job-wise study material will be published here as it is prepared and verified.</p></div><input class="site-search" id="academySearch" type="search" placeholder="Search learning pathways…" aria-label="Search learning pathways"><div class="path-grid" id="pathGrid">
 <a class="path-card" href="catalog.html?level=IX" data-search="class ix 9 secondary school science mathematics english sindhi"><div class="ico">📘</div><h3>Class IX</h3><p>Explore the published subject and chapter resources for Class IX.</p><span class="status live-count" data-level="IX">Checking published courses…</span><span class="path-action">Explore Class IX →</span></a>
@@ -331,4 +412,72 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
 })();
 </script>
   <script type="module" src="./firebase-init.js"></script>
+
+<script>
+(()=> {
+ const speed=document.getElementById("launchSpeed"), angle=document.getElementById("launchAngle");
+ const path=document.getElementById("projectilePath"), apex=document.getElementById("projectileApex");
+ if(speed&&angle&&path&&apex){
+  const update=()=>{
+   const v=Number(speed.value),deg=Number(angle.value),rad=deg*Math.PI/180,g=9.81;
+   const t=2*v*Math.sin(rad)/g,range=v*v*Math.sin(2*rad)/g,height=Math.pow(v*Math.sin(rad),2)/(2*g);
+   let d="",steps=48;
+   for(let i=0;i<=steps;i++){const q=i/steps,x=30+300*q,y=176-148*(4*q*(1-q))*Math.sin(rad)*Math.sin(rad);d+=(i?" L":"M")+x.toFixed(2)+" "+y.toFixed(2)}
+   path.setAttribute("d",d);
+   apex.setAttribute("cx","180");apex.setAttribute("cy",String(176-148));
+   document.getElementById("speedValue").textContent=v+" m/s";
+   document.getElementById("angleValue").textContent=deg+"°";
+   document.getElementById("flightTime").textContent=t.toFixed(2)+" s";
+   document.getElementById("maxHeight").textContent=height.toFixed(2)+" m";
+   document.getElementById("rangeValue").textContent=range.toFixed(2)+" m";
+   const desc="Projectile launched at "+v+" metres per second and "+deg+" degrees. Ideal flight time "+t.toFixed(2)+" seconds, maximum height "+height.toFixed(2)+" metres, horizontal range "+range.toFixed(2)+" metres.";
+   document.getElementById("projectileSvgDesc").textContent=desc;
+  };
+  speed.addEventListener("input",update);angle.addEventListener("input",update);
+  document.getElementById("resetProjectile").addEventListener("click",()=>{speed.value="20";angle.value="45";update()});
+  update();
+ }
+ const drawing=document.getElementById("mitosisDrawing"),stage=document.getElementById("mitosisStage"),description=document.getElementById("mitosisDescription");
+ if(drawing&&stage&&description){
+  const names=["Prophase","Metaphase","Anaphase","Telophase","Cytokinesis"];
+  const notes=[
+   "Chromosomes condense and become visible. The nuclear envelope begins to break down and the spindle starts to form.",
+   "Chromosomes line up near the cell equator. Spindle fibres attach to chromosome regions called kinetochores.",
+   "Sister chromatids separate and move towards opposite poles of the cell.",
+   "Chromosomes reach the poles and new nuclear envelopes begin to form around each set.",
+   "The cytoplasm divides, producing two daughter cells with the same chromosome number as the parent cell."
+  ];
+  let current=0;
+  const xShape=(x,y)=>'<path d="M'+(x-8)+' '+(y-11)+' L'+(x+8)+' '+(y+11)+' M'+(x+8)+' '+(y-11)+' L'+(x-8)+' '+(y+11)+'" stroke="#3157d5" stroke-width="4" stroke-linecap="round"/>';
+  const render=()=>{
+   let s='<rect width="360" height="205" rx="14" fill="#f7faff"/>';
+   if(current===4){
+    s+='<path d="M28 102 Q28 30 100 30 Q172 30 172 102 Q172 174 100 174 Q28 174 28 102Z M188 102 Q188 30 260 30 Q332 30 332 102 Q332 174 260 174 Q188 174 188 102Z" fill="#e8f2ff" stroke="#6d8fc4" stroke-width="3"/>';
+    s+='<ellipse cx="100" cy="102" rx="26" ry="34" fill="#d8c9ff" stroke="#8666c5" stroke-width="2"/><ellipse cx="260" cy="102" rx="26" ry="34" fill="#d8c9ff" stroke="#8666c5" stroke-width="2"/>';
+    s+=xShape(91,91)+xShape(108,111)+xShape(251,91)+xShape(268,111);
+    s+='<text x="100" y="194" text-anchor="middle" font-size="10" fill="#425573">Daughter cell 1</text><text x="260" y="194" text-anchor="middle" font-size="10" fill="#425573">Daughter cell 2</text>';
+   }else{
+    s+='<ellipse cx="180" cy="103" rx="143" ry="76" fill="#e8f2ff" stroke="#6d8fc4" stroke-width="3"/>';
+    s+='<circle cx="48" cy="103" r="7" fill="#e4a51b"/><circle cx="312" cy="103" r="7" fill="#e4a51b"/>';
+    if(current===0){s+='<circle cx="180" cy="103" r="47" fill="#e7ddff" stroke="#9277c7" stroke-width="2" stroke-dasharray="4 3"/>';s+=xShape(160,90)+xShape(194,112)+xShape(178,125)+xShape(205,82)}
+    if(current===1){s+='<path d="M48 103L180 103M312 103L180 103" stroke="#e4a51b" stroke-width="1.5" stroke-dasharray="4 4"/>';s+=xShape(180,73)+xShape(180,93)+xShape(180,113)+xShape(180,133)}
+    if(current===2){s+='<path d="M48 103L150 103M312 103L210 103" stroke="#e4a51b" stroke-width="1.5" stroke-dasharray="4 4"/>';s+='<path d="M150 80l-15 10 15 10 15-10z M210 80l-15 10 15 10 15-10z" fill="#3157d5"/>';s+='<path d="M140 103l-12-8m12 8-12 8m92-8 12-8m-12 8 12 8" stroke="#3157d5" stroke-width="3" stroke-linecap="round"/>'}
+    if(current===3){s+='<ellipse cx="112" cy="103" rx="35" ry="42" fill="#e7ddff" stroke="#9277c7" stroke-width="2"/><ellipse cx="248" cy="103" rx="35" ry="42" fill="#e7ddff" stroke="#9277c7" stroke-width="2"/>';s+=xShape(102,91)+xShape(120,115)+xShape(238,91)+xShape(256,115)}
+    s+='<text x="180" y="195" text-anchor="middle" font-size="10" fill="#425573">Cell membrane · spindle poles</text>';
+   }
+   drawing.innerHTML=s;
+   stage.textContent="Stage "+(current+1)+" of 5 · "+names[current];
+   description.textContent=notes[current];
+   document.getElementById("mitosisSvgDesc").textContent="Mitosis "+names[current]+": "+notes[current];
+   document.getElementById("mitosisPrev").disabled=current===0;
+   document.getElementById("mitosisNext").disabled=current===4;
+  };
+  document.getElementById("mitosisPrev").addEventListener("click",()=>{current=Math.max(0,current-1);render()});
+  document.getElementById("mitosisNext").addEventListener("click",()=>{current=Math.min(4,current+1);render()});
+  document.getElementById("mitosisReset").addEventListener("click",()=>{current=0;render()});
+  render();
+ }
+})();
+</script>
+
 </body></html>
