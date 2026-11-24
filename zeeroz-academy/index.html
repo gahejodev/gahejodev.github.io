@@ -593,7 +593,7 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
   const renderCell=()=>{
    plant.style.display=cellType==="plant"?"":"none";animal.style.display=cellType==="animal"?"":"none";
    plantButton.setAttribute("aria-pressed",String(cellType==="plant"));animalButton.setAttribute("aria-pressed",String(cellType==="animal"));
-   const targets={plant:{membrane:["plantMembrane"],nucleus:["plantNucleus"],mitochondrion:["plantMitochondrion"],chloroplast:["chloroplastOne"],vacuole:["centralVacuole"],cellwall:[]},animal:{membrane:["animalMembrane"],nucleus:["animalNucleus"],mitochondrion:["animalMitochondrionOne","animalMitochondrionTwo"],chloroplast:[],vacuole:[],cellwall:[]}};
+   const targets={plant:{membrane:["plantMembrane"],nucleus:["plantNucleus"],mitochondrion:["plantMitochondrion"],chloroplast:["chloroplastOne"],vacuole:["centralVacuole"],cellwall:["plantCellWall"]},animal:{membrane:["animalMembrane"],nucleus:["animalNucleus"],mitochondrion:["animalMitochondrionOne","animalMitochondrionTwo"],chloroplast:[],vacuole:[],cellwall:[]}};
    document.querySelectorAll("#cellExplorerSvg .organelle").forEach(el=>el.classList.remove("focus"));
    (targets[cellType][selected]||[]).forEach(id=>document.getElementById(id)?.classList.add("focus"));
    cellControls.querySelectorAll("button").forEach(b=>{
