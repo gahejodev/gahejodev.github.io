@@ -115,6 +115,22 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
 @media(max-width:760px){.visual-lab-grid{grid-template-columns:1fr}.visual-card{padding:17px}.visual-readouts{gap:6px}.visual-readout{padding:8px 6px}.visual-readout strong{font-size:13px}}
 @media(prefers-reduced-motion:reduce){.visual-stage *{animation:none!important;transition:none!important}}
 
+
+/* Expanded visual learning lab: cell explorer and fluid model */
+.visual-actions button[aria-pressed="true"]{background:#0d806e;color:#fff}
+.visual-actions button:disabled{opacity:.45;cursor:not-allowed}
+.cell-organelles{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.cell-organelles button{border:1px solid #dce5f3;background:#f4f7fc;color:#23385f;border-radius:999px;padding:8px 11px;font-size:11px;font-weight:800;cursor:pointer}
+.cell-organelles button[aria-pressed="true"]{background:#e8f1ff;border-color:#0757e8;color:#0643b8}
+.cell-detail{background:#f3f7ff;border:1px solid #e2eaf7;border-radius:12px;padding:12px;margin-top:10px;min-height:72px}
+.cell-detail strong{display:block;color:#102b5b;font-size:13px;margin-bottom:4px}
+.cell-detail p{margin:0;color:#4f607c;font-size:12px}
+.cell-diagram .organelle{transition:stroke .15s,stroke-width .15s}
+.cell-diagram .organelle.focus{stroke:#e59b00!important;stroke-width:5!important;filter:drop-shadow(0 0 3px #e9bb52)}
+.fluid-flow-line{stroke:#0878c9;stroke-width:3;stroke-linecap:round;stroke-dasharray:7 7}
+.fluid-pipe-wall{fill:#d9edff;stroke:#4d83b8;stroke-width:3}
+@media(prefers-reduced-motion:reduce){.cell-diagram .organelle{transition:none}}
+
 </style>
   <link rel="stylesheet" href="./assets/zeeroz-design-system.css?v=20261119-brand-social-fix-2">
   <link rel="manifest" href="./manifest.webmanifest">
@@ -219,6 +235,88 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
     <div class="visual-actions"><button id="mitosisPrev" class="light" type="button">← Previous stage</button><button id="mitosisNext" type="button">Next stage →</button><button id="mitosisReset" class="light" type="button">Start again</button></div>
     <p class="visual-caption">Simplified teaching diagram: real cells are three-dimensional and the timing and appearance of mitosis vary by organism and cell type.</p>
     <div class="visual-actions"><a href="catalog.html?level=IX">Explore Biology courses →</a></div>
+   </article>
+
+   <article class="visual-card" id="cellExplorerCard" aria-labelledby="cellExplorerTitle">
+    <span class="visual-tag">Live Biology explorer</span>
+    <h3 id="cellExplorerTitle">Explore a Cell</h3>
+    <p>Switch between a typical plant and animal cell, then select an organelle to discover its role.</p>
+    <div class="visual-actions" role="group" aria-label="Choose cell type"><button id="plantCellButton" type="button" aria-pressed="true">Plant cell</button><button id="animalCellButton" class="light" type="button" aria-pressed="false">Animal cell</button></div>
+    <svg id="cellExplorerSvg" class="visual-stage cell-diagram" viewBox="0 0 360 205" role="img" aria-labelledby="cellExplorerSvgTitle cellExplorerSvgDesc">
+     <title id="cellExplorerSvgTitle">Interactive plant and animal cell diagrams</title><desc id="cellExplorerSvgDesc">A simplified plant cell showing a cell wall, membrane, nucleus, chloroplasts, mitochondrion and central vacuole.</desc>
+     <g id="plantCellDrawing">
+      <rect x="22" y="18" width="316" height="169" rx="23" fill="#e8f5e5" stroke="#4d9862" stroke-width="9"/>
+      <rect x="32" y="28" width="296" height="149" rx="17" fill="#f4fbef" stroke="#72b27e" stroke-width="3" class="organelle" id="plantMembrane"/>
+      <rect x="120" y="58" width="145" height="91" rx="17" fill="#c9eafa" stroke="#5e9ec2" stroke-width="2" class="organelle" id="centralVacuole"/>
+      <circle cx="83" cy="100" r="25" fill="#d8c9ff" stroke="#8465b9" stroke-width="3" class="organelle" id="plantNucleus"/>
+      <circle cx="83" cy="100" r="8" fill="#9675c7"/>
+      <ellipse cx="293" cy="60" rx="20" ry="10" fill="#8bd28d" stroke="#398b4d" stroke-width="2" class="organelle" id="chloroplastOne"/>
+      <path d="M278 60h30" stroke="#398b4d" stroke-width="2"/>
+      <ellipse cx="75" cy="151" rx="17" ry="9" fill="#f5c17a" stroke="#bd7834" stroke-width="2" class="organelle" id="plantMitochondrion"/>
+      <path d="M62 151q7-9 13 0t13 0" fill="none" stroke="#bd7834" stroke-width="2"/>
+      <text x="180" y="107" text-anchor="middle" fill="#34617e" font-size="11">Central vacuole</text>
+      <text x="180" y="122" text-anchor="middle" fill="#34617e" font-size="9">Cell sap</text>
+      <text x="82" y="68" text-anchor="middle" fill="#51406e" font-size="9">Nucleus</text>
+      <text x="291" y="42" text-anchor="middle" fill="#397347" font-size="9">Chloroplast</text>
+      <text x="180" y="198" text-anchor="middle" fill="#425573" font-size="10">Cell wall surrounds the membrane</text>
+     </g>
+     <g id="animalCellDrawing" style="display:none">
+      <ellipse cx="180" cy="103" rx="147" ry="79" fill="#fff0e5" stroke="#d18c62" stroke-width="3" class="organelle" id="animalMembrane"/>
+      <circle cx="173" cy="101" r="32" fill="#d8c9ff" stroke="#8465b9" stroke-width="3" class="organelle" id="animalNucleus"/>
+      <circle cx="173" cy="101" r="10" fill="#9675c7"/>
+      <ellipse cx="82" cy="78" rx="23" ry="12" fill="#f5c17a" stroke="#bd7834" stroke-width="2" class="organelle" id="animalMitochondrionOne"/>
+      <path d="M64 78q8-12 16 0t17 0" fill="none" stroke="#bd7834" stroke-width="2"/>
+      <ellipse cx="265" cy="135" rx="23" ry="12" fill="#f5c17a" stroke="#bd7834" stroke-width="2" class="organelle" id="animalMitochondrionTwo"/>
+      <path d="M247 135q8-12 16 0t17 0" fill="none" stroke="#bd7834" stroke-width="2"/>
+      <circle cx="252" cy="72" r="11" fill="#c5e4ff" stroke="#6a9dc9" stroke-width="2"/>
+      <circle cx="103" cy="143" r="8" fill="#c5e4ff" stroke="#6a9dc9" stroke-width="2"/>
+      <text x="173" y="56" text-anchor="middle" fill="#51406e" font-size="10">Nucleus</text>
+      <text x="180" y="198" text-anchor="middle" fill="#425573" font-size="10">Animal cell · no cell wall or chloroplasts</text>
+     </g>
+    </svg>
+    <div class="cell-organelles" id="cellOrganelleControls" aria-label="Choose an organelle">
+     <button type="button" data-organelle="membrane" aria-pressed="true">Cell membrane</button>
+     <button type="button" data-organelle="nucleus" aria-pressed="false">Nucleus</button>
+     <button type="button" data-organelle="mitochondrion" aria-pressed="false">Mitochondrion</button>
+     <button type="button" data-organelle="chloroplast" aria-pressed="false">Chloroplast</button>
+     <button type="button" data-organelle="vacuole" aria-pressed="false">Vacuole</button>
+     <button type="button" data-organelle="cellwall" aria-pressed="false">Cell wall</button>
+    </div>
+    <div class="cell-detail" aria-live="polite" aria-atomic="true"><strong id="cellOrganelleName">Cell membrane</strong><p id="cellOrganelleDescription">A selectively permeable boundary that regulates movement of substances into and out of the cell.</p></div>
+    <p class="visual-caption">Teaching model, not to scale. Plant and animal cells vary by cell type; not every plant cell contains chloroplasts.</p>
+    <div class="visual-actions"><a href="catalog.html?level=IX">Explore Biology IX →</a></div>
+   </article>
+   <article class="visual-card" id="fluidLabCard" aria-labelledby="fluidLabTitle">
+    <span class="visual-tag">Live Physics experiment</span>
+    <h3 id="fluidLabTitle">Fluids: Pressure & Flow</h3>
+    <p>Explore how depth changes liquid pressure and how a narrowing pipe changes the speed of steady incompressible flow.</p>
+    <svg id="fluidLabSvg" class="visual-stage" viewBox="0 0 360 205" role="img" aria-labelledby="fluidSvgTitle fluidSvgDesc">
+     <title id="fluidSvgTitle">Fluid pressure and continuity model</title><desc id="fluidSvgDesc">A water column indicates depth-dependent pressure. A horizontal pipe narrows, so the flow speed increases in the narrower section.</desc>
+     <rect x="18" y="18" width="94" height="164" rx="8" fill="#eaf5ff" stroke="#7399bd" stroke-width="2"/>
+     <rect id="fluidWater" x="20" y="48" width="90" height="132" rx="5" fill="#a8dcfa"/>
+     <path d="M20 48H110" stroke="#1684c6" stroke-width="3"/>
+     <path d="M34 49V164M29 49h10M29 164h10" stroke="#356b98" stroke-width="1.5"/>
+     <text x="43" y="38" fill="#345b7b" font-size="10">Surface</text>
+     <text x="43" y="178" fill="#345b7b" font-size="10">Depth h</text>
+     <path id="fluidUpperWall" class="fluid-pipe-wall" d="M126 76H195L235 93H342V107H235L195 124H126Z"/>
+     <path id="fluidLowerWall" d="" fill="#d9edff" stroke="#4d83b8" stroke-width="3" opacity="0"/>
+     <path id="fluidStreamlineOne" class="fluid-flow-line" d="M130 100H340" fill="none"/>
+     <path id="fluidStreamlineTwo" class="fluid-flow-line" d="M130 88H340" fill="none" opacity=".5"/>
+     <path d="M165 96l8 4-8 4M274 96l8 4-8 4" fill="none" stroke="#0878c9" stroke-width="2"/>
+     <text x="158" y="66" fill="#345b7b" font-size="10">Wide section</text><text x="270" y="82" fill="#345b7b" font-size="10">Narrow</text>
+     <text id="fluidSpeedLabel" x="280" y="135" fill="#0757e8" font-size="11" font-weight="bold">v₂ = 2.0 m/s</text>
+    </svg>
+    <div class="visual-controls">
+     <div class="visual-control"><label for="fluidDepth">Depth <output id="fluidDepthValue">2.0 m</output></label><input id="fluidDepth" type="range" min="0.5" max="10" step="0.5" value="2"></div>
+     <div class="visual-control"><label for="fluidRatio">Area ratio A₁/A₂ <output id="fluidRatioValue">2.0</output></label><input id="fluidRatio" type="range" min="1" max="4" step="0.5" value="2"></div>
+    </div>
+    <div class="visual-readouts" aria-live="polite" aria-atomic="true">
+     <div class="visual-readout"><small>Gauge pressure</small><strong id="fluidPressure">19.6 kPa</strong></div>
+     <div class="visual-readout"><small>Wide-pipe speed</small><strong>1.0 m/s</strong></div>
+     <div class="visual-readout"><small>Narrow-pipe speed</small><strong id="fluidSpeed">2.0 m/s</strong></div>
+    </div>
+    <p class="visual-caption">Assumptions: water density 1000 kg/m³, g = 9.81 m/s², steady incompressible flow and no leakage. Continuity gives A₁v₁ = A₂v₂; pressure is gauge pressure ρgh.</p>
+    <div class="visual-actions"><a href="catalog.html?level=XI">Explore Class XI Physics →</a><button class="light" id="resetFluid" type="button">Reset experiment</button></div>
    </article>
   </div>
  </div>
@@ -476,6 +574,60 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
   document.getElementById("mitosisNext").addEventListener("click",()=>{current=Math.min(4,current+1);render()});
   document.getElementById("mitosisReset").addEventListener("click",()=>{current=0;render()});
   render();
+ }
+
+ const cellControls=document.getElementById("cellOrganelleControls");
+ if(cellControls){
+  const plant=document.getElementById("plantCellDrawing"),animal=document.getElementById("animalCellDrawing");
+  const plantButton=document.getElementById("plantCellButton"),animalButton=document.getElementById("animalCellButton");
+  const name=document.getElementById("cellOrganelleName"),detail=document.getElementById("cellOrganelleDescription");
+  const info={
+   membrane:["Cell membrane","A selectively permeable boundary that regulates movement of substances into and out of the cell."],
+   nucleus:["Nucleus","Contains most of the cell's DNA. Gene expression helps regulate cell activities."],
+   mitochondrion:["Mitochondrion","Carries out most aerobic respiration in eukaryotic cells and produces much of the cell's ATP."],
+   chloroplast:["Chloroplast","Contains chlorophyll and is the main site of photosynthesis in green plant cells."],
+   vacuole:["Large central vacuole","Stores cell sap and helps maintain turgor pressure in many plant cells."],
+   cellwall:["Cell wall","A cellulose-rich layer outside the plant cell membrane that supports and protects the cell."]
+  };
+  let cellType="plant",selected="membrane";
+  const renderCell=()=>{
+   plant.style.display=cellType==="plant"?"":"none";animal.style.display=cellType==="animal"?"":"none";
+   plantButton.setAttribute("aria-pressed",String(cellType==="plant"));animalButton.setAttribute("aria-pressed",String(cellType==="animal"));
+   const targets={plant:{membrane:["plantMembrane"],nucleus:["plantNucleus"],mitochondrion:["plantMitochondrion"],chloroplast:["chloroplastOne"],vacuole:["centralVacuole"],cellwall:[]},animal:{membrane:["animalMembrane"],nucleus:["animalNucleus"],mitochondrion:["animalMitochondrionOne","animalMitochondrionTwo"],chloroplast:[],vacuole:[],cellwall:[]}};
+   document.querySelectorAll("#cellExplorerSvg .organelle").forEach(el=>el.classList.remove("focus"));
+   (targets[cellType][selected]||[]).forEach(id=>document.getElementById(id)?.classList.add("focus"));
+   cellControls.querySelectorAll("button").forEach(b=>{
+    const key=b.dataset.organelle,available=cellType==="plant"||["membrane","nucleus","mitochondrion"].includes(key);
+    b.hidden=!available;b.setAttribute("aria-pressed",String(key===selected));
+   });
+   const data=info[selected];name.textContent=data[0];detail.textContent=data[1];
+   if(selected==="chloroplast"&&cellType==="animal"||selected==="vacuole"&&cellType==="animal"||selected==="cellwall"&&cellType==="animal")return;
+   document.getElementById("cellExplorerSvgDesc").textContent=(cellType==="plant"?"Plant":"Animal")+" cell diagram. Selected structure: "+data[0]+". "+data[1];
+  };
+  plantButton.addEventListener("click",()=>{cellType="plant";selected="membrane";renderCell()});
+  animalButton.addEventListener("click",()=>{cellType="animal";selected="membrane";renderCell()});
+  cellControls.addEventListener("click",e=>{const b=e.target.closest("button[data-organelle]");if(!b)return;selected=b.dataset.organelle;renderCell()});
+  renderCell();
+ }
+ const depth=document.getElementById("fluidDepth"),ratio=document.getElementById("fluidRatio");
+ if(depth&&ratio){
+  const updateFluid=()=>{
+   const h=Number(depth.value),r=Number(ratio.value),pressure=1000*9.81*h/1000,v2=r;
+   document.getElementById("fluidDepthValue").textContent=h.toFixed(1)+" m";
+   document.getElementById("fluidRatioValue").textContent=r.toFixed(1);
+   document.getElementById("fluidPressure").textContent=pressure.toFixed(2)+" kPa";
+   document.getElementById("fluidSpeed").textContent=v2.toFixed(1)+" m/s";
+   document.getElementById("fluidSpeedLabel").textContent="v₂ = "+v2.toFixed(1)+" m/s";
+   const gap=56/r,mid=100;
+   const d="M126 "+(mid-gap)+" H195 L235 "+(mid-gap/2)+" H342 V"+(mid+gap/2)+" H235 L195 "+(mid+gap)+" H126 Z";
+   document.getElementById("fluidUpperWall").setAttribute("d",d);
+   document.getElementById("fluidStreamlineOne").setAttribute("d","M130 "+mid+" H340");
+   document.getElementById("fluidStreamlineTwo").setAttribute("d","M130 "+(mid- Math.min(12,gap/3))+" H340");
+   document.getElementById("fluidSvgDesc").textContent="Water pressure at depth "+h.toFixed(1)+" metres is "+pressure.toFixed(2)+" kilopascals gauge. In the pipe, the area ratio is "+r.toFixed(1)+" to 1; speed rises from 1 metre per second to "+v2.toFixed(1)+" metres per second in the narrow section.";
+  };
+  depth.addEventListener("input",updateFluid);ratio.addEventListener("input",updateFluid);
+  document.getElementById("resetFluid").addEventListener("click",()=>{depth.value="2";ratio.value="2";updateFluid()});
+  updateFluid();
  }
 })();
 </script>
