@@ -1,14 +1,14 @@
 {
   "id": "physics-xi-solids-elasticity",
   "title": "Physics XI — Solids and Elasticity (DCAR 2024)",
-  "description": "Grade XI Domain C solids/elasticity unit aligned to DCAR SLOs P-11-C-54 to P-11-C-63. Seven bilingual lessons, 20 explained MCQs, 4 CRQs and 3 ERQs; assessment translation remains in progress.",
-  "version": "2",
+  "description": "Grade XI Domain C solids/elasticity unit aligned to DCAR SLOs P-11-C-54 to P-11-C-63. Eight bilingual lessons, 20 explained MCQs, 5 CRQs and 3 ERQs; assessment translation remains in progress.",
+  "version": "3",
   "curriculumAlignment": "DCAR Sindh Physics Curriculum 2024, Grade XI Domain C, Physics of Solids / Elasticity, SLOs P-11-C-54 to P-11-C-63. P-11-C-58 is included as a cross-topic continuity application. P-11-C-49 to P-11-C-53 (work/energy) remain in the companion Work, Energy, Oscillations and Acoustics package. Domain-based; no unverified STBB chapter number claimed.",
   "sourceReferences": [
     {
       "title": "DCAR Sindh Physics Curriculum 2024",
       "url": "https://dcar.gos.pk/Sindh-Curriculum/Physics%20Curriculum%2019%20August%202024.pdf",
-      "note": "Grade XI Domain C: solids and elasticity SLOs P-11-C-49 to P-11-C-63."
+      "note": "Grade XI Domain C SLOs P-11-C-54 to P-11-C-63, PDF progression grid pp. 32–33. Work/energy outcomes P-11-C-49 to P-11-C-53 are tracked in the companion package."
     },
     {
       "title": "STBB eBooks catalogue",
@@ -75,6 +75,14 @@
           "explanations": {
             "ur": "تار کی اصل لمبائی L ناپیں۔ مائیکرو میٹر سے قطر کئی جگہ ناپ کر A=πd²/4 نکالیں۔ معلوم بوجھ آہستہ بڑھائیں اور بڑھاؤ ΔL درج کریں۔ خطی حصے میں F بمقابلہ بڑھاؤ گراف بنائیں۔ E=FL/(AΔL) یا E=(L/A)×گراف کی ڈھلوان استعمال کریں۔ صفر اور زاویائی غلطی کم کریں، پیمائش دہرائیں، حدِ لچک سے آگے نہ جائیں اور گرتے وزن سے بچیں۔ Young's modulus اکیلا محفوظ بوجھ کی ضمانت نہیں۔",
             "sd": "تار جي اصل ڊيگهه L ماپيو. Micrometer سان قطر ماپي A=πd²/4 ڪڍو. ڄاتل بار آهستي وڌايو ۽ extension ΔL لکو. Linear حصي ۾ F بمقابله extension graph ٺاهيو. E=FL/(AΔL) يا E=(L/A)×graph slope استعمال ڪريو. Zero/parallax error گهٽايو، پڙهڻيون ورجايو، elastic limit کان اڳتي نه وڃو ۽ ڪرڻ وارن وزنن کان بچو. Young's modulus اڪيلو محفوظ بار جي ضمانت ناهي."
+          }
+        },
+        {
+          "title": "Squeezed rubber pipe: continuity and flow speed (SLO P-11-C-58)",
+          "content": "When the end of a flexible rubber pipe is squeezed, its cross-sectional area becomes smaller. For a steady flow of an incompressible liquid, the volume flow rate is conserved, so \\(A_1v_1=A_2v_2\\). If the area is reduced, the average speed must increase in the narrower section. This explains why water can leave a hose as a faster, narrower jet when the opening is partly covered.\n\nExample: if the outlet area becomes one quarter of the original area, \\(A_2=A_1/4\\). From \\(A_1v_1=A_2v_2\\), \\(v_2=4v_1\\): the speed becomes four times as large, assuming steady incompressible flow. The flow rate is not created; the same volume passes each section per second.\n\nThis is a fluid-continuity application included because DCAR Grade XI SLO P-11-C-58 explicitly asks learners to explain the increased inflow velocity when a rubber pipe end is squeezed. It is related to the solids unit by the flexible pipe, but the calculation uses fluid dynamics.",
+          "explanations": {
+            "ur": "ربڑ کی لچکیلی نلکی کا سرا دبانے سے اس کا عرضی رقبہ کم ہو جاتا ہے۔ مستقل غیر قابلِ انضغاط مائع کے بہاؤ میں حجم کے بہاؤ کی شرح محفوظ رہتی ہے، اس لیے A₁v₁=A₂v₂۔ رقبہ کم ہونے پر تنگ حصے میں اوسط رفتار بڑھتی ہے۔ مثال: اگر آخری رقبہ پہلے کا ایک چوتھائی ہو تو v₂=4v₁، یعنی رفتار چار گنا ہو جاتی ہے۔ یہ DCAR Grade XI SLO P-11-C-58 کی مثال ہے؛ اس کا حساب fluid continuity سے ہوتا ہے۔",
+            "sd": "رٻڙ جي لچڪدار پائپ جو پاسو دٻائڻ سان cross-sectional area گهٽجي ٿو. Steady incompressible liquid flow ۾ volume flow rate محفوظ رهي ٿو، تنهنڪري A₁v₁=A₂v₂. Area گهٽجڻ سان سوڙهي حصي ۾ رفتار وڌي ٿي. مثال: جيڪڏهن نئون area اڳئين جو چوٿون حصو هجي ته v₂=4v₁، يعني رفتار چار ڀيرا ٿيندي. هي DCAR Grade XI SLO P-11-C-58 جو مثال آهي؛ حساب fluid continuity سان ٿئي ٿو."
           }
         }
       ],
@@ -384,6 +392,37 @@
             "Measurement precautions (2)",
             "Safety/elastic limit (1)"
           ]
+        },
+        {
+          "type": "crq",
+          "marks": 4,
+          "question": "A rubber pipe is squeezed so its cross-sectional area becomes one quarter of its original value. For steady incompressible flow, by what factor does the liquid speed change? Show the relation used.",
+          "modelAnswer": "Continuity gives A₁v₁=A₂v₂. With A₂=A₁/4, v₂=(A₁/A₂)v₁=4v₁. The speed becomes four times the original speed.",
+          "rubric": [
+            "States continuity equation (1)",
+            "Substitutes A₂=A₁/4 (1)",
+            "Correct speed ratio v₂=4v₁ (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ربڑ کی نلکی دبانے سے اس کا رقبہ اصل کا ایک چوتھائی ہو جاتا ہے۔ مستقل غیر قابلِ انضغاط بہاؤ میں مائع کی رفتار کتنے گنا ہوگی؟ مساوات لکھیں۔",
+              "modelAnswer": "مساواتِ تسلسل A₁v₁=A₂v₂ ہے۔ A₂=A₁/4 رکھنے سے v₂=4v₁۔ رفتار اصل سے چار گنا ہو جاتی ہے۔",
+              "rubric": [
+                "مساواتِ تسلسل (1)",
+                "A₂=A₁/4 رکھنا (1)",
+                "درست تناسب v₂=4v₁ (2)"
+              ]
+            },
+            "sd": {
+              "question": "رٻڙ جي پائپ کي دٻائڻ سان area اصل جو چوٿون حصو ٿئي ٿو. Steady incompressible flow ۾ رفتار ڪيترا ڀيرا ٿيندي؟ فارمولو ڏيکاريو.",
+              "modelAnswer": "Continuity A₁v₁=A₂v₂ آهي. A₂=A₁/4 رکڻ سان v₂=4v₁. رفتار اصل کان چار ڀيرا ٿيندي.",
+              "rubric": [
+                "Continuity equation (1)",
+                "A₂=A₁/4 رکڻ (1)",
+                "درست تناسب v₂=4v₁ (2)"
+              ]
+            }
+          }
         }
       ]
     }
