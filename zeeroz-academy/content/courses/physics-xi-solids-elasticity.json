@@ -1,9 +1,9 @@
 {
   "id": "physics-xi-solids-elasticity",
   "title": "Physics XI — Solids and Elasticity (DCAR 2024)",
-  "description": "Grade XI Domain C SLOs P-11-C-49 to P-11-C-63. Five lessons, 15 explained MCQs, 3 CRQs and 2 ERQs with Urdu and Sindhi lesson support.",
-  "version": "1",
-  "curriculumAlignment": "DCAR Sindh Physics Curriculum 2024, Grade XI Domain C, SLOs P-11-C-49 to P-11-C-63. Domain-based; no unverified STBB chapter number claimed.",
+  "description": "Grade XI Domain C solids/elasticity unit aligned to DCAR SLOs P-11-C-54 to P-11-C-63. Seven bilingual lessons, 20 explained MCQs, 4 CRQs and 3 ERQs; assessment translation remains in progress.",
+  "version": "2",
+  "curriculumAlignment": "DCAR Sindh Physics Curriculum 2024, Grade XI Domain C, Physics of Solids / Elasticity, SLOs P-11-C-54 to P-11-C-63. P-11-C-58 is included as a cross-topic continuity application. P-11-C-49 to P-11-C-53 (work/energy) remain in the companion Work, Energy, Oscillations and Acoustics package. Domain-based; no unverified STBB chapter number claimed.",
   "sourceReferences": [
     {
       "title": "DCAR Sindh Physics Curriculum 2024",
@@ -19,7 +19,7 @@
   "chapters": [
     {
       "title": "Solids and Elasticity",
-      "description": "Mechanical properties of solids, deformation, stress, strain and elastic moduli.",
+      "description": "Mechanical properties and structure of solids: deformation, stress, strain, Hooke's law, Young's/bulk/shear moduli, material graphs and experimental determination of Young's modulus.",
       "lessons": [
         {
           "title": "Deformation and elasticity",
@@ -59,6 +59,22 @@
           "explanations": {
             "ur": "بلک ماڈیولس حجم کی تبدیلی کے خلاف مزاحمت ہے: K=−Δp/(ΔV/V)۔ شیئر ماڈیولس شیئر تناؤ اور اسٹرین کا تعلق ہے۔ مضبوطی، سختی اور لچک مختلف خصوصیات ہیں۔",
             "sd": "بلڪ ماڊيولس حجم جي تبديليءَ خلاف مزاحمت آهي: K=−Δp/(ΔV/V)۔ شيئر ماڊيولس شيئر اسٽريس ۽ اسٽرين جو تعلق آهي۔ مضبوطي، سختي ۽ لچڪ الڳ خاصيتون آهن۔"
+          }
+        },
+        {
+          "title": "Structure of solids and force–extension curves",
+          "content": "Crystalline solids have long-range repeating particle order; amorphous or glassy solids lack long-range periodic order. Polymeric solids contain long-chain molecules; some are mostly amorphous while others have partly crystalline regions. Their mechanical response depends on chain structure, cross-linking, temperature and loading rate.\n\nA ductile metal usually shows a linear elastic region, then yields and extends plastically before reaching ultimate tensile stress and eventually fracturing. A brittle material generally fractures after little plastic extension. Polymeric materials may show nonlinear, time-dependent viscoelastic extension. A stress–strain graph allows better comparison of different-sized specimens because force is divided by area and extension by original length.",
+          "explanations": {
+            "ur": "Crystalline solids میں ذرات کی دور رس باقاعدہ ترتیب ہوتی ہے؛ amorphous/glassy solids میں نہیں۔ Polymeric solids لمبی سالماتی زنجیروں پر مشتمل ہوتے ہیں۔ Ductile دھات میں خطی لچکیلا حصہ، پھر yielding اور پلاسٹک بڑھاؤ، پھر ultimate tensile stress اور شکست ہو سکتی ہے۔ Brittle مادہ کم پلاسٹک بڑھاؤ کے بعد ٹوٹتا ہے۔ Polymer میں وقت پر منحصر viscoelastic رویہ ہو سکتا ہے۔ Stress–strain گراف مختلف جسامت کے نمونوں کا بہتر موازنہ دیتا ہے۔",
+            "sd": "Crystalline solids ۾ ذرڙن جي ڊگهي باقاعده ترتيب هوندي آهي؛ amorphous/glassy solids ۾ نه. Polymeric solids ڊگهي molecular chains وارا آهن. Ductile ڌاتو ۾ linear elastic حصو، پوءِ yielding ۽ plastic واڌ، پوءِ ultimate tensile stress ۽ fracture ٿي سگهي ٿو. Brittle مادو ٿوري plastic واڌ کان پوءِ ٽٽي ٿو. Polymer ۾ وقت تي دارومدار رکندڙ viscoelastic رويي ٿي سگهي ٿو. Stress-strain graph مختلف ماپن وارن نمونن جو ڀلو مقابلو ڏئي ٿو."
+          }
+        },
+        {
+          "title": "Young's modulus experiment and safe applications",
+          "content": "Measure the original wire length L. Measure diameter at several points with a micrometer and calculate A=πd²/4. Add known loads gradually and record extension ΔL after each reading settles. Plot force F against extension in the straight-line region. Use E=FL/(AΔL), or E=(L/A)×the graph gradient. Use SI units.\n\nReduce uncertainty by checking zero error, avoiding parallax, repeating readings and measuring diameter carefully; area depends on diameter squared. Do not exceed the elastic limit. Secure the wire and keep clear of falling masses. Young's modulus helps compare cables, springs and structures, but it alone does not certify a safe working load; engineers also check yield/ultimate strength, fatigue, corrosion and a safety factor.",
+          "explanations": {
+            "ur": "تار کی اصل لمبائی L ناپیں۔ مائیکرو میٹر سے قطر کئی جگہ ناپ کر A=πd²/4 نکالیں۔ معلوم بوجھ آہستہ بڑھائیں اور بڑھاؤ ΔL درج کریں۔ خطی حصے میں F بمقابلہ بڑھاؤ گراف بنائیں۔ E=FL/(AΔL) یا E=(L/A)×گراف کی ڈھلوان استعمال کریں۔ صفر اور زاویائی غلطی کم کریں، پیمائش دہرائیں، حدِ لچک سے آگے نہ جائیں اور گرتے وزن سے بچیں۔ Young's modulus اکیلا محفوظ بوجھ کی ضمانت نہیں۔",
+            "sd": "تار جي اصل ڊيگهه L ماپيو. Micrometer سان قطر ماپي A=πd²/4 ڪڍو. ڄاتل بار آهستي وڌايو ۽ extension ΔL لکو. Linear حصي ۾ F بمقابله extension graph ٺاهيو. E=FL/(AΔL) يا E=(L/A)×graph slope استعمال ڪريو. Zero/parallax error گهٽايو، پڙهڻيون ورجايو، elastic limit کان اڳتي نه وڃو ۽ ڪرڻ وارن وزنن کان بچو. Young's modulus اڪيلو محفوظ بار جي ضمانت ناهي."
           }
         }
       ],
@@ -227,6 +243,61 @@
           },
           "correctOption": "A",
           "explanation": "Plastic deformation is permanent."
+        },
+        {
+          "question": "Crystalline solids are characterised by:",
+          "options": {
+            "A": "long-range repeating particle order",
+            "B": "no particles",
+            "C": "random liquid motion",
+            "D": "zero intermolecular force"
+          },
+          "correctOption": "A",
+          "explanation": "Crystalline solids have an ordered repeating structure over long distances."
+        },
+        {
+          "question": "A brittle material usually fractures after:",
+          "options": {
+            "A": "very large plastic extension",
+            "B": "little plastic deformation",
+            "C": "infinite strain",
+            "D": "no applied force"
+          },
+          "correctOption": "B",
+          "explanation": "Brittle materials usually show little plastic deformation before fracture."
+        },
+        {
+          "question": "The cross-sectional area of a circular wire of diameter d is:",
+          "options": {
+            "A": "πd²/4",
+            "B": "πd",
+            "C": "2πd",
+            "D": "d²/π"
+          },
+          "correctOption": "A",
+          "explanation": "A=πr² and r=d/2, so A=πd²/4."
+        },
+        {
+          "question": "Shear modulus is the ratio of:",
+          "options": {
+            "A": "shear stress to shear strain",
+            "B": "pressure to volume",
+            "C": "force to time",
+            "D": "mass to area"
+          },
+          "correctOption": "A",
+          "explanation": "G=shear stress/shear strain."
+        },
+        {
+          "question": "Squeezing the end of a flexible pipe makes steady incompressible flow speed:",
+          "options": {
+            "A": "increase",
+            "B": "fall to zero",
+            "C": "stay unchanged",
+            "D": "reverse"
+          },
+          "correctOption": "A",
+          "explanation": "Continuity A₁v₁=A₂v₂ means a smaller area requires greater speed."
         }
       ],
       "writtenQuestions": [
@@ -288,8 +359,34 @@
             "Correct numerical answer (2)",
             "SI units and working (2)"
           ]
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A 1.0 m wire of area 2.0×10⁻⁶ m² extends by 0.50 mm under 100 N. Calculate stress and strain.",
+          "modelAnswer": "Stress=F/A=100/(2.0×10⁻⁶)=5.0×10⁷ Pa. Extension=0.50 mm=5.0×10⁻⁴ m. Strain=ΔL/L=5.0×10⁻⁴/1.0=5.0×10⁻⁴.",
+          "rubric": [
+            "Stress formula and substitution (2)",
+            "mm-to-m conversion (1)",
+            "Strain calculation (2)"
+          ]
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Describe an experiment to determine Young's modulus of a metal wire, including measurements, calculation and precautions.",
+          "modelAnswer": "Measure original length L. Measure diameter at several points with a micrometer and calculate A=πd²/4. Add known loads gradually and record extension ΔL. Plot F against ΔL in the linear region. Use E=FL/(AΔL), or E=(L/A)×the graph gradient. Use SI units, check zero error, avoid parallax, repeat readings, stay below the elastic limit and keep clear of falling masses.",
+          "rubric": [
+            "Length and apparatus (1)",
+            "Diameter/area measurement (2)",
+            "Loading and extension readings (2)",
+            "Formula/graph method (2)",
+            "Measurement precautions (2)",
+            "Safety/elastic limit (1)"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "contentTier": "developing"
 }
