@@ -85,7 +85,8 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
   }
   const stats=node("div","course-stats");
   [["CHAPTERS",chapters.length],["LESSONS",lessonTotal],["MCQs",mcqTotal],["WRITTEN QUESTIONS",writtenTotal]].forEach(([label,value])=>{const box=node("div","course-stat");box.append(node("span","",label),node("strong","",String(value)));stats.append(box)});
-  host.append(stats);\n  if(selectedChapter){const back=node("a","quiz-button","← Back to subject chapters");back.href="./student-dashboard.html";host.prepend(back);}
+  host.append(stats);
+  if(selectedChapter){const back=node("a","quiz-button","← Back to subject chapters");back.href="./student-dashboard.html";host.prepend(back);}
   prepared.forEach(({chapter,lessons,written,mcqCount},i)=>{
    const card=node("article","chapter");
    const top=node("div","chapter-top");
