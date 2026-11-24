@@ -422,9 +422,9 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
    const v=Number(speed.value),deg=Number(angle.value),rad=deg*Math.PI/180,g=9.81;
    const t=2*v*Math.sin(rad)/g,range=v*v*Math.sin(2*rad)/g,height=Math.pow(v*Math.sin(rad),2)/(2*g);
    let d="",steps=48;
-   for(let i=0;i<=steps;i++){const q=i/steps,x=30+300*q,y=176-148*(4*q*(1-q))*Math.sin(rad)*Math.sin(rad);d+=(i?" L":"M")+x.toFixed(2)+" "+y.toFixed(2)}
+   for(let i=0;i<=steps;i++){const q=i/steps,ti=t*q,xm=v*Math.cos(rad)*ti,ym=v*Math.sin(rad)*ti-.5*g*ti*ti,x=30+(xm/170)*300,y=176-(ym/80)*148;d+=(i?" L":"M")+x.toFixed(2)+" "+y.toFixed(2)}
    path.setAttribute("d",d);
-   apex.setAttribute("cx","180");apex.setAttribute("cy",String(176-148));
+   apex.setAttribute("cx",String(30+(range/2/170)*300));apex.setAttribute("cy",String(176-(height/80)*148));
    document.getElementById("speedValue").textContent=v+" m/s";
    document.getElementById("angleValue").textContent=deg+"°";
    document.getElementById("flightTime").textContent=t.toFixed(2)+" s";
