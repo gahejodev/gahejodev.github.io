@@ -38,7 +38,7 @@ The models are rule-based visual aids. They are not yet a universal AI model tha
 ## Current limits
 - Teacher avatar: open-source 3D face/shoulders avatar with audio-driven lip-sync; no full-body gestures or custom Zeeroz rig yet.
 - Neural TTS: Urdu male/female (Fasih/Aegis) and English male/female (Ryan/Amy) models. Sindhi neural voice is not yet verified.
-- Export: browser MediaRecorder output (MP4 only when natively supported; otherwise WebM). Long 3D exports can be cancelled before download; cancellation stops audio/video streams and does not create a partial output. Voice-track preview object URLs are released on file replacement and page exit. Direct YouTube publishing is not included.
+- Export: browser MediaRecorder output (MP4 only when natively supported by the 3D path; otherwise WebM). Both 16:9 scene-preview and 9:16 3D teacher exports can be cancelled before download; cancellation stops recording/playback, releases local streams and does not create a partial output. Voice-track preview object URLs are released on file replacement and page exit. Direct YouTube publishing is not included.
 - Requires a modern browser with WebGL, Web Audio and MediaRecorder; the first Urdu voice use downloads a model of roughly 64 MB. Keep the tab open during generation.
 
 ## Privacy and security
