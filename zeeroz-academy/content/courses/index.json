@@ -28,7 +28,7 @@
       "id": "biology-ix-chapter-4-cell",
       "title": "Biology IX — Chapter 4: Cell",
       "path": "zeeroz-academy/content/courses/biology-ix-chapter-4-cell.json",
-      "version": "6",
+      "version": "4",
       "order": 4
     },
     {
@@ -339,7 +339,7 @@
       "id": "physics-xi-fluid-statics-dynamics",
       "title": "Physics XI — Fluid Statics and Dynamics (DCAR 2024)",
       "path": "zeeroz-academy/content/courses/physics-xi-fluid-statics-dynamics.json",
-      "version": "1",
+      "version": "2",
       "order": 4
     },
     {
