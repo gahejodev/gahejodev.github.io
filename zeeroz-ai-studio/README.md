@@ -18,7 +18,7 @@ https://gahejodev.github.io/zeeroz-ai-studio/
 4. For the current one-click narration pipeline, select English or Urdu and a male/female neural voice (Urdu: Fasih/Aegis; English: Ryan/Amy).
 5. The browser synthesizes narration scene by scene, retaining exact audio timing for scene transitions.
 6. The 3D teacher lip-syncs to the generated audio while the science visual changes with the matching scene.
-7. The browser records a single combined WebM file for download.
+7. The browser records one combined video in the best browser-reported native format (MP4 where supported, otherwise WebM).
 
 ## 3D subject templates
 The procedural Three.js engine currently recognizes selected topics and provides reusable animated templates for:
@@ -30,7 +30,7 @@ The procedural Three.js engine currently recognizes selected topics and provides
 The models are rule-based visual aids. They are not yet a universal AI model that understands every lesson or produces scientifically exact animations for all topics.
 
 ## Social Queue handoff
-- The selected narration file now has an in-browser audio preview showing its decoded duration and file size before 3D lip-sync/export. Preview uses native media controls, does not autoplay, and stays local to the browser. A Clear selected audio control removes the current external or generated voice track, stops preview playback and releases its temporary object URL. The 3D WebM export can be saved directly into the Academy Social Queue without copying a video URL.
+- The selected narration file now has an in-browser audio preview showing its decoded duration and file size before 3D lip-sync/export. Preview uses native media controls, does not autoplay, and stays local to the browser. A Clear selected audio control removes the current external or generated voice track, stops preview playback and releases its temporary object URL. The 3D video export (MP4 or WebM) can be saved directly into the Academy Social Queue without copying a video URL.
 - Video bytes are stored in the browser's IndexedDB database `zeeroz-social-media`; Firestore stores only the admin-only post metadata and local attachment key.
 - Open the Social Queue in the same browser/device to preview or download the attached local video.
 - This is a local handoff, not a cloud upload. Clearing browser site data or changing devices can make the local attachment unavailable.
@@ -38,8 +38,8 @@ The models are rule-based visual aids. They are not yet a universal AI model tha
 ## Current limits
 - Teacher avatar: open-source 3D face/shoulders avatar with audio-driven lip-sync; no full-body gestures or custom Zeeroz rig yet.
 - Neural TTS: Urdu male/female (Fasih/Aegis) and English male/female (Ryan/Amy) models. Sindhi neural voice is not yet verified.
-- Export: browser MediaRecorder output (MP4 only when natively supported by the 3D path; otherwise WebM). Both 16:9 scene-preview and 9:16 3D teacher exports can be cancelled before download; cancellation stops recording/playback, releases local streams and does not create a partial output. Voice-track preview object URLs are released on file replacement and page exit. Direct YouTube publishing is not included.
-- Requires a modern browser with WebGL, Web Audio and MediaRecorder; the first Urdu voice use downloads a model of roughly 64 MB. Keep the tab open during generation.
+- Export: browser MediaRecorder output; both 16:9 scene-preview and 9:16 3D teacher paths select MP4 when the browser reports support, otherwise WebM. The Device readiness panel checks canvas capture, MediaRecorder, reported MIME types, Web Audio, WebGL 2, AudioWorklet, IndexedDB and online/offline state. A reported MIME type does not guarantee a low-memory device can finish a long encode. Both exports can be cancelled before download; cancellation stops recording/playback, releases local streams and does not create a partial output. Voice-track preview object URLs are released on file replacement and page exit. Direct YouTube publishing is not included.
+- Requires a modern browser with WebGL 2, AudioWorklet, Web Audio and MediaRecorder for the full 3D teacher workflow; the first Urdu voice use downloads a model of roughly 64 MB. Keep the tab open during generation.
 
 ## Privacy and security
 Urdu voice synthesis and video recording run in the browser. Firebase browser configuration is public by design. Admin authorization relies on Firebase custom claims and must also be enforced by Firebase Security Rules. Never commit service-account keys or private API secrets.
@@ -51,4 +51,10 @@ Urdu voice synthesis and video recording run in the browser. Firebase browser co
 - `@diffusionstudio/piper-wasm@1.0.0` wrapper declares MIT, but its build includes eSpeak NG phonemizer/data under GPL-3.0-or-later. Keep source/licence notices available; the complete phonemizer stack is not MIT-only: https://github.com/diffusionstudio/piper-wasm and https://github.com/rhasspy/espeak-ng
 - Urdu Fasih/Aegis and English Ryan/Amy repositories declare MIT; retain author attribution. Voice models are about 63–64 MB and download on demand. Hugging Face anonymous limits can change; there is no guaranteed bandwidth quota. No API key, card or paid inference is required by the current browser path.
 - jsDelivr is available without a subscription, subject to service policies: https://www.jsdelivr.com/terms
-- GitHub Free includes 2,000 Actions minutes/month for private repos and 500 MB artifact storage; public Pages builds are free. Do not enable spending or larger runners: https://docs.github.com/en/billing/concepts/product-billing/github-actions
+- Current GitHub Free Actions terms (checked 2026-11-25): private-repository standard runners draw from a $12 USD/month included compute amount, not a fixed minutes quota; at the standard 2-core Linux rate of $0.006/minute this is roughly 2,000 minutes, while Windows/macOS and other runner types cost differently. GitHub Free includes 500 MB artifact storage and 10 GB cache per repository. Standard runners in public repositories and GitHub Pages remain free. If no valid payment method is on file, usage is blocked after included compute is exhausted; if a valid payment method is on file, additional use can be billed. No billing settings or paid services are changed by this project: https://docs.github.com/en/billing/concepts/product-billing/github-actions
+
+## Device preflight and format-aware export — 2026-11-25
+- Added a browser-native compatibility panel before lesson selection. It reports canvas capture, MediaRecorder, the first browser-reported MP4/WebM type, Web Audio, WebGL 2, AudioWorklet, IndexedDB and online/offline state.
+- 16:9 scene exports now use MP4 when reported as supported, otherwise WebM; the downloaded extension and status reflect the selected MIME type. The 9:16 3D path already used native MP4/WebM selection.
+- These checks use browser APIs only; no new package, API key, account, backend, storage service or billing activation was added. A reported MIME type does not guarantee a long encode will finish on a constrained device.
+- References: https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/isTypeSupported_static and https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/captureStream. GitHub Free limits above were checked against current GitHub billing documentation.
