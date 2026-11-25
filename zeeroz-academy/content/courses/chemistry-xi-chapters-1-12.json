@@ -2,7 +2,7 @@
   "id": "chemistry-xi-chapters-1-12",
   "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
   "description": "Supplementary Chemistry XI course with 12 units. Chapters 1 Stoichiometry and 2 Atomic Structure are exam-ready against DCAR 2024 Grade XI SLOs; Chapters 3–12 remain outline-stage and are tracked for sequential expansion.",
-  "version": "3",
+  "version": "4",
   "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B: Stoichiometry SLOs C-11-B-50 to C-11-B-59; Atomic Structure SLOs C-11-B-01 to C-11-B-27. Chapters 1–2 are exam-ready; Chapters 3–12 remain outline-stage. No unverified textbook chapter-number crosswalk is claimed.",
   "sourceReferences": [
     {
@@ -1488,17 +1488,27 @@
           "marks": 5,
           "question": "For ³⁷₁₇Cl⁻ calculate protons, neutrons and electrons. Explain its charge.",
           "modelAnswer": "p=Z=17; n=A−Z=37−17=20; neutral chlorine has 17 electrons, so Cl⁻ has 18 after gaining one. Ion formation changes electrons, not protons.",
-          "rubric": "Protons 17 (1); neutrons 20 (1); electrons 18 (1); gained electron (1); nucleus/Z unchanged (1).",
+          "rubric": [
+            "Protons 17 (1)",
+            "neutrons 20 (1)",
+            "electrons 18 (1)",
+            "gained electron (1)",
+            "nucleus/Z unchanged (1)."
+          ],
           "translations": {
             "ur": {
               "question": "³⁷₁₇Cl⁻ میں پروٹون، نیوٹران اور الیکٹران نکالیں اور چارج سمجھائیں۔",
               "modelAnswer": "p=17؛ n=37−17=20؛ Cl⁻ نے ایک الیکٹران حاصل کیا، اس لیے 18 ہیں۔ آئن بننے سے پروٹون نہیں بدلتے۔",
-              "rubric": "پروٹون 17 (1)؛ نیوٹران 20 (1)؛ الیکٹران 18 (1)؛ اضافی الیکٹران (1)؛ مرکزہ برقرار (1)۔"
+              "rubric": [
+                "پروٹون 17 (1)؛ نیوٹران 20 (1)؛ الیکٹران 18 (1)؛ اضافی الیکٹران (1)؛ مرکزہ برقرار (1)۔"
+              ]
             },
             "sd": {
               "question": "³⁷₁₇Cl⁻ ۾ پروٽان، نيوٽران ۽ اليڪٽران ڳڻيو ۽ چارج سمجهايو.",
               "modelAnswer": "p=17؛ n=37−17=20؛ Cl⁻ هڪ اليڪٽران حاصل ڪيو، تنهنڪري 18 آهن. آئن ٺهڻ سان پروٽان نٿا بدلجن.",
-              "rubric": "پروٽان 17 (1)؛ نيوٽران 20 (1)؛ اليڪٽران 18 (1)؛ اضافي اليڪٽران (1)؛ مرڪز برقرار (1)."
+              "rubric": [
+                "پروٽان 17 (1)؛ نيوٽران 20 (1)؛ اليڪٽران 18 (1)؛ اضافي اليڪٽران (1)؛ مرڪز برقرار (1)."
+              ]
             }
           }
         },
@@ -1507,17 +1517,25 @@
           "marks": 5,
           "question": "Write the configurations of sulfur (Z=16) and S²⁻. Name the filling principles.",
           "modelAnswer": "S: 1s²2s²2p⁶3s²3p⁴=[Ne]3s²3p⁴. S²⁻ gains two electrons and has 18: [Ar]. Aufbau fills lower energy first; Pauli limits an orbital to two opposite-spin electrons; Hund fills equal-energy orbitals singly before pairing.",
-          "rubric": "Sulfur configuration (2); S²⁻ count/configuration (2); principles (1).",
+          "rubric": [
+            "Sulfur configuration (2)",
+            "S²⁻ count/configuration (2)",
+            "principles (1)."
+          ],
           "translations": {
             "ur": {
               "question": "سلفر اور S²⁻ کی الیکٹران ترتیب لکھیں اور بھرنے کے اصول بتائیں۔",
               "modelAnswer": "S=[Ne]3s²3p⁴۔ S²⁻ دو الیکٹران حاصل کر کے 18 الیکٹران اور [Ar] ترتیب رکھتا ہے۔ Aufbau کم توانائی پہلے، Pauli دو مخالف اسپن کی حد، Hund پہلے الگ آربیٹلز بھرتا ہے۔",
-              "rubric": "S کی درست ترتیب (2)؛ S²⁻ کے 18 الیکٹران/ترتیب (2)؛ اصول (1)۔"
+              "rubric": [
+                "S کی درست ترتیب (2)؛ S²⁻ کے 18 الیکٹران/ترتیب (2)؛ اصول (1)۔"
+              ]
             },
             "sd": {
               "question": "سلفر ۽ S²⁻ جي اليڪٽران ترتيب لکو ۽ ڀرڻ جا اصول ٻڌايو.",
               "modelAnswer": "S=[Ne]3s²3p⁴۔ S²⁻ ٻه اليڪٽران حاصل ڪري 18 ۽ [Ar] ترتيب رکي ٿو. Aufbau گهٽ توانائي پهرين، Pauli ٻن ابتڙ اسپن جي حد، Hund پهرين الڳ آربيٽل ڀري ٿو.",
-              "rubric": "S جي صحيح ترتيب (2)؛ S²⁻ جا 18 اليڪٽران/ترتيب (2)؛ اصول (1)."
+              "rubric": [
+                "S جي صحيح ترتيب (2)؛ S²⁻ جا 18 اليڪٽران/ترتيب (2)؛ اصول (1)."
+              ]
             }
           }
         },
@@ -1526,17 +1544,26 @@
           "marks": 5,
           "question": "An element has isotopes 69 (60%) and 71 (40%). Calculate Aᵣ and explain the weighted mean.",
           "modelAnswer": "Aᵣ=(69×60+71×40)/100=69.8. A weighted mean is needed because isotope abundances are unequal.",
-          "rubric": "Formula (1); products (2); division (1); answer and explanation (1).",
+          "rubric": [
+            "Formula (1)",
+            "products (2)",
+            "division (1)",
+            "answer and explanation (1)."
+          ],
           "translations": {
             "ur": {
               "question": "آئسوٹوپس 69 (60%) اور 71 (40%) ہوں تو Aᵣ نکالیں اور weighted mean کی وجہ بتائیں۔",
               "modelAnswer": "Aᵣ=(69×60+71×40)/100=69.8۔ abundance برابر نہیں، اس لیے weighted mean درکار ہے۔",
-              "rubric": "فارمولا/ضربیں (3)؛ تقسیم (1)؛ جواب اور وجہ (1)۔"
+              "rubric": [
+                "فارمولا/ضربیں (3)؛ تقسیم (1)؛ جواب اور وجہ (1)۔"
+              ]
             },
             "sd": {
               "question": "آئسوٽوپ 69 (60%) ۽ 71 (40%) هجن ته Aᵣ ڳڻيو ۽ weighted mean جو سبب ٻڌايو.",
               "modelAnswer": "Aᵣ=(69×60+71×40)/100=69.8۔ abundance برابر نه آهي، تنهنڪري weighted mean ضروري آهي.",
-              "rubric": "فارمولو/ضربون (3)؛ ورهاست (1)؛ جواب ۽ سبب (1)."
+              "rubric": [
+                "فارمولو/ضربون (3)؛ ورهاست (1)؛ جواب ۽ سبب (1)."
+              ]
             }
           }
         },
@@ -1545,17 +1572,27 @@
           "marks": 10,
           "question": "Explain atomic/ionic-radius and first-ionization-energy trends across a period and down a group. Interpret a large jump in successive ionization energies.",
           "modelAnswer": "Across a period, effective nuclear charge rises while electrons enter the same shell, so atomic radius generally decreases and first ionization energy increases. Down a group, new shells and shielding increase distance, so radius generally increases and first ionization energy decreases. Cations are usually smaller and anions larger than their parent atoms; ionic radii generally increase down a group. In an isoelectronic series, more protons means smaller radius. Successive ionization energies rise; a very large jump marks removal from an inner shell. The number removed before the jump estimates valence electrons and helps infer group/configuration with Z.",
-          "rubric": "Period radius/IE (3); group radius/IE (2); ionic radii (2); shielding/distance (1); jump interpretation (2).",
+          "rubric": [
+            "Period radius/IE (3)",
+            "group radius/IE (2)",
+            "ionic radii (2)",
+            "shielding/distance (1)",
+            "jump interpretation (2)."
+          ],
           "translations": {
             "ur": {
               "question": "دور اور گروپ میں ایٹمی و آئنک رداس اور پہلی آئنائزیشن توانائی کے رجحانات بیان کریں اور بڑے jump کی تشریح کریں۔",
               "modelAnswer": "دور میں مؤثر چارج بڑھنے سے رداس کم اور پہلی آئنائزیشن توانائی بڑھتی ہے۔ گروپ میں نیچے نئے شیل اور shielding سے رداس بڑھتا اور آئنائزیشن توانائی کم ہوتی ہے۔ مثبت آئن چھوٹا اور منفی بڑا ہوتا ہے؛ یکساں الیکٹرانوں میں زیادہ پروٹون والا چھوٹا ہے۔ مسلسل توانائیاں بڑھتی ہیں؛ بڑا jump اندرونی شیل سے الیکٹران نکلنے کو ظاہر کرتا ہے۔ اس سے پہلے نکالے گئے الیکٹران valence electrons بتاتے ہیں۔",
-              "rubric": "دور کے رجحانات (3)؛ گروپ (2)؛ آئنک رداس (2)؛ shielding (1)؛ jump (2)۔"
+              "rubric": [
+                "دور کے رجحانات (3)؛ گروپ (2)؛ آئنک رداس (2)؛ shielding (1)؛ jump (2)۔"
+              ]
             },
             "sd": {
               "question": "دور ۽ گروپ ۾ ايٽمي ۽ آئنڪ ريڊيس ۽ پهرين آئنائيزيشن توانائي جا رجحان بيان ڪريو ۽ وڏي jump جي تشريح ڪريو.",
               "modelAnswer": "دور ۾ اثرائتي چارج وڌڻ سبب ريڊيس گهٽ ۽ پهرين آئنائيزيشن توانائي وڌي ٿي. گروپ ۾ هيٺ نوان شيل ۽ shielding سبب ريڊيس وڌي ۽ آئنائيزيشن توانائي گهٽجي ٿي. مثبت آئن ننڍو ۽ منفي وڏو؛ ساڳيا اليڪٽران رکندڙن ۾ وڌيڪ پروٽان وارو ننڍو آهي. لڳاتار توانائيون وڌن ٿيون؛ وڏو jump اندروني شيل مان اليڪٽران نڪرڻ ڏيکاري ٿو. ان کان اڳ نڪتل اليڪٽران valence electrons ٻڌائين ٿا.",
-              "rubric": "دور جا رجحان (3)؛ گروپ (2)؛ آئنڪ ريڊيس (2)؛ shielding (1)؛ jump (2)."
+              "rubric": [
+                "دور جا رجحان (3)؛ گروپ (2)؛ آئنڪ ريڊيس (2)؛ shielding (1)؛ jump (2)."
+              ]
             }
           }
         },
@@ -1564,17 +1601,28 @@
           "marks": 10,
           "question": "Explain how mass spectrometry and emission spectra provide evidence about atomic structure. Calculate Aᵣ for masses 35 (75%) and 37 (25%); include the photon equation, a free radical and silicon.",
           "modelAnswer": "A mass spectrometer ionises and accelerates atoms, separates ions by m/z and detects peaks. Peak positions show m/z; intensities estimate abundance. Assuming singly charged isotopes, Aᵣ=(35×75+37×25)/100=35.5. Electrons occupy quantized states; a downward transition emits a photon with ΔE=hν=hc/λ, producing characteristic lines. Comparing lines with references helps identify an element and infer its electronic structure. A free radical has one or more unpaired electrons. Silicon [Ne]3s²3p² has four valence electrons; its covalent crystal and controllable conductivity make it a semiconductor.",
-          "rubric": "Mass-spectrometer process/mz (2); weighted calculation (2); quantized transition/equation (2); line spectrum (1); radical (1); silicon application (2).",
+          "rubric": [
+            "Mass-spectrometer process/mz (2)",
+            "weighted calculation (2)",
+            "quantized transition/equation (2)",
+            "line spectrum (1)",
+            "radical (1)",
+            "silicon application (2)."
+          ],
           "translations": {
             "ur": {
               "question": "بیان کریں کہ mass spectrometry اور emission spectra ایٹمی ساخت کے بارے میں کیا ثبوت دیتے ہیں۔ 35 (75%) اور 37 (25%) سے Aᵣ نکالیں؛ فوٹون مساوات، ریڈیکل اور سلیکان شامل کریں۔",
               "modelAnswer": "Mass spectrometer آئن بناتا، m/z کے مطابق جدا اور peaks ناپتا ہے۔ شدت abundance بتاتی ہے۔ Aᵣ=(35×75+37×25)/100=35.5۔ الیکٹران کی نچلی توانائی حالت میں منتقلی پر ΔE=hν=hc/λ فوٹون نکلتا ہے اور مخصوص لائنیں بنتی ہیں۔ line pattern عنصر کی شناخت میں مدد دیتا ہے۔ ریڈیکل میں غیر جوڑی الیکٹران ہوتے ہیں۔ سلیکان [Ne]3s²3p² کے چار بیرونی الیکٹران اور سیمی کنڈکٹر استعمال ہیں۔",
-              "rubric": "mass spectrometer/mz (2)؛ حساب (2)؛ توانائي/مساوات (2)؛ لائينون (1)؛ ريڊيڪل (1)؛ سلیکان (2)۔"
+              "rubric": [
+                "mass spectrometer/mz (2)؛ حساب (2)؛ توانائي/مساوات (2)؛ لائينون (1)؛ ريڊيڪل (1)؛ سلیکان (2)۔"
+              ]
             },
             "sd": {
               "question": "بيان ڪريو ته mass spectrometry ۽ emission spectra ايٽمي بناوت بابت ڪهڙو ثبوت ڏين ٿا. 35 (75%) ۽ 37 (25%) مان Aᵣ ڳڻيو؛ photon مساوات، ريڊيڪل ۽ سليڪان شامل ڪريو.",
               "modelAnswer": "Mass spectrometer آئن ٺاهي، m/z مطابق جدا ۽ peaks ماپي ٿو. شدت abundance ڏيکاري ٿي. Aᵣ=(35×75+37×25)/100=35.5۔ اليڪٽران جي هيٺين توانائي حالت ۾ منتقلي تي ΔE=hν=hc/λ photon نڪري ٿو ۽ خاص لائينون ٺهن ٿيون. line pattern عنصر سڃاڻڻ ۾ مدد ڪري ٿو. ريڊيڪل ۾ اڻجوڙا اليڪٽران آهن. سليڪان [Ne]3s²3p² جا چار ٻاهريان اليڪٽران ۽ semiconductor استعمال آهن.",
-              "rubric": "mass spectrometer/mz (2)؛ حساب (2)؛ توانائي/مساوات (2)؛ لائينون (1)؛ ريڊيڪل (1)؛ سليڪان (2)."
+              "rubric": [
+                "mass spectrometer/mz (2)؛ حساب (2)؛ توانائي/مساوات (2)؛ لائينون (1)؛ ريڊيڪل (1)؛ سليڪان (2)."
+              ]
             }
           }
         }
