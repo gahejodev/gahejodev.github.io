@@ -54,6 +54,38 @@ window.addEventListener("pagehide",clearVoiceTrackPreview);
 let packages=[],courseData=null,scenes=[],sceneIndex=0,allowed=false,playbackToken=0;
 let latestExportedVideo=null,cancel3DExport=null;
 const status=m=>$("status").textContent=m;
+let studioPreflight={sceneExport:false,full3DExport:false,mime:""};
+function runStudioPreflight(){
+ const recorder=typeof window.MediaRecorder==="function";
+ const canvasCapture=typeof HTMLCanvasElement!=="undefined"&&typeof HTMLCanvasElement.prototype.captureStream==="function";
+ const audioApi=typeof window.AudioContext==="function"||typeof window.webkitAudioContext==="function";
+ const webgl2=typeof window.WebGL2RenderingContext!=="undefined";
+ const audioWorklet=typeof window.AudioWorkletNode==="function";
+ const mimeCandidates=["video/mp4;codecs=avc1.42E01E,mp4a.40.2","video/mp4","video/webm;codecs=vp9,opus","video/webm;codecs=vp8,opus","video/webm"];
+ let mime="";
+ if(recorder)for(const candidate of mimeCandidates){try{if(MediaRecorder.isTypeSupported(candidate)){mime=candidate;break}}catch(_){}}
+ const indexedDBAvailable="indexedDB" in window;
+ const online=typeof navigator.onLine==="boolean"?navigator.onLine:null;
+ studioPreflight={sceneExport:recorder&&canvasCapture&&!!mime,full3DExport:recorder&&canvasCapture&&!!mime&&audioApi&&webgl2&&audioWorklet,mime,webgl2,audioWorklet,audioApi,indexedDBAvailable};
+ const items=[
+  {label:"Canvas recording",ok:canvasCapture,detail:canvasCapture?"Canvas captureStream is available.":"This browser cannot capture a canvas stream."},
+  {label:"MediaRecorder",ok:recorder,detail:recorder?"Browser recording API is available.":"MediaRecorder is unavailable."},
+  {label:"Recording format",ok:!!mime,detail:mime?"Browser reports "+mime+"; actual encoding can still depend on device resources.":"No supported MP4/WebM recording type was reported."},
+  {label:"Web Audio",ok:audioApi,detail:audioApi?"AudioContext is available for narration.":"Web Audio is unavailable."},
+  {label:"WebGL 2",ok:webgl2,detail:webgl2?"WebGL 2 API is present for the 3D teacher.":"The 3D teacher requires WebGL 2."},
+  {label:"AudioWorklet",ok:audioWorklet,detail:audioWorklet?"AudioWorklet is present for lip-sync processing.":"The 3D lip-sync engine requires AudioWorklet."},
+  {label:"Local Social Queue",ok:indexedDBAvailable,detail:indexedDBAvailable?"IndexedDB is available for browser-local video attachments.":"Local video queue storage is unavailable."},
+  {label:"Network",ok:online!==false,detail:online===false?"Offline: cached models may work; first-time model downloads need a connection.":online===true?"Online: remote model files can be requested when needed.":"Network state is not exposed by this browser."}
+ ];
+ const list=$("readinessChecks");
+ if(list){list.replaceChildren();for(const item of items){const li=document.createElement("li");li.className=item.ok?"ready":"needs-attention";const mark=document.createElement("span");mark.className="mark";mark.setAttribute("aria-hidden","true");mark.textContent=item.ok?"✓":"!";const label=document.createElement("strong");label.textContent=item.label;const detail=document.createElement("small");detail.textContent=item.detail;li.append(mark,label,detail);list.append(li)}}
+ const summary=$("readinessSummary");
+ if(summary)summary.textContent=studioPreflight.full3DExport?"3D export prerequisites are present ("+(mime.includes("mp4")?"MP4":"WebM")+"). A long recording can still fail if this device runs short of memory or encoder resources.":studioPreflight.sceneExport?"16:9 scene export is available; 3D teacher export needs WebGL 2, Web Audio and AudioWorklet.":"Video recording is not fully supported here. You can still review lesson text and storyboard scenes.";
+ if($("exportVideo"))$("exportVideo").disabled=!studioPreflight.sceneExport;
+ if($("generateCompleteVideo"))$("generateCompleteVideo").disabled=!studioPreflight.full3DExport;
+ if($("export3DVideo"))$("export3DVideo").disabled=!studioPreflight.full3DExport||!studioAvatarReady||!$("voiceTrack")?.files?.[0];
+ return studioPreflight;
+}
 const SOCIAL_VIDEO_DB="zeeroz-social-media";
 function openSocialVideoDb(){
  return new Promise((resolve,reject)=>{
@@ -165,7 +197,7 @@ function drawExportFrame(ctx,s,index,total,img,seconds){ctx.fillStyle="#f4f7fc";
 let cancelPreviewExport=null;
 async function exportLessonVideo(){
  if(!scenes.length){status("Generate the storyboard before exporting.");return}
- if(!window.MediaRecorder||!HTMLCanvasElement.prototype.captureStream){status("Video export is not supported by this browser. Please use the latest Chrome.");return}
+ if(!studioPreflight.sceneExport){status("This browser does not report a compatible canvas-recording format. Review the storyboard or use a supported browser.");return}
  const button=$("exportVideo"),cancelButton=$("cancelPreviewExport");button.disabled=true;cancelButton.hidden=false;cancelButton.disabled=false;$("exportProgress").style.width="0%";
  const canvas=document.createElement("canvas");canvas.width=1280;canvas.height=720;const ctx=canvas.getContext("2d"),stream=canvas.captureStream(25);
  let audioContext=null,audioElement=null,audioUrl=null,recorder=null,recorderDone=null,chunks=[],cancelled=false,cancelResolve;
@@ -175,14 +207,14 @@ async function exportLessonVideo(){
  cancelPreviewExport=()=>{if(cancelled)return;cancelled=true;cancelButton.disabled=true;status("Cancelling preview export…");try{audioElement?.pause()}catch(_){}try{if(recorder&&recorder.state!=="inactive")recorder.stop()}catch(_){}cancelResolve(token)};
  try{
   if(file){audioUrl=URL.createObjectURL(file);audioElement=new Audio(audioUrl);audioElement.preload="auto";await waitFor(new Promise((resolve,reject)=>{audioElement.onloadedmetadata=resolve;audioElement.onerror=()=>reject(new Error("Voice-over audio could not be opened."))}));audioContext=new(window.AudioContext||window.webkitAudioContext)();await waitFor(audioContext.resume());const source=audioContext.createMediaElementSource(audioElement),dest=audioContext.createMediaStreamDestination();source.connect(dest);source.connect(audioContext.destination);dest.stream.getAudioTracks().forEach(t=>stream.addTrack(t))}
-  const mime=["video/webm;codecs=vp9,opus","video/webm;codecs=vp8,opus","video/webm"].find(x=>MediaRecorder.isTypeSupported(x));if(!mime)throw new Error("WebM recording is not supported by this browser.");
+  const mime=["video/mp4;codecs=avc1.42E01E,mp4a.40.2","video/mp4","video/webm;codecs=vp9,opus","video/webm;codecs=vp8,opus","video/webm"].find(x=>MediaRecorder.isTypeSupported(x));if(!mime)throw new Error("No compatible MP4/WebM recording format is available.");
   recorder=new MediaRecorder(stream,{mimeType:mime,videoBitsPerSecond:2500000});recorder.ondataavailable=e=>{if(e.data?.size)chunks.push(e.data)};recorderDone=new Promise((resolve,reject)=>{recorder.onstop=resolve;recorder.onerror=()=>reject(new Error("Video recording failed."))});recorder.start(500);if(audioElement)await waitFor(audioElement.play());
   const totalWeight=scenes.reduce((n,s)=>n+Math.max(1,s.narration.length),0);let elapsed=0;
   for(let i=0;i<scenes.length;i++){const s=scenes[i],img=await waitFor(loadSceneImage(s.image));const duration=audioElement?Math.max(1200,(audioElement.duration||60)*1000*Math.max(1,s.narration.length)/totalWeight):Math.max(5000,Math.min(18000,s.narration.split(/\\s+/).length/2.5*1000));const began=performance.now();while(performance.now()-began<duration){drawExportFrame(ctx,s,i,scenes.length,img,(performance.now()-began)/1000);$("exportProgress").style.width=Math.min(100,(elapsed+performance.now()-began)/((audioElement?.duration||scenes.length*8)*1000)*100)+"%";await waitFor(new Promise(resolve=>setTimeout(resolve,40)))}elapsed+=duration}
   if(cancelled)throw new Error("Export cancelled by user.");if(audioElement){audioElement.pause();audioElement.currentTime=0}recorder.stop();await recorderDone;if(cancelled)throw new Error("Export cancelled by user.");
-  const blob=new Blob(chunks,{type:"video/webm"});if(!blob.size)throw new Error("The exported video was empty.");const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=(($("videoTitle").value||"zeeroz-lesson").replace(/[^a-z0-9-_]+/gi,"-").replace(/^-|-$/g,"")||"zeeroz-lesson")+".webm";a.click();setTimeout(()=>URL.revokeObjectURL(url),60000);status("Video exported ("+(blob.size/1048576).toFixed(1)+" MB). "+(file?"Uploaded narration included.":"This export has no voice-over; upload narration audio to include sound."));$("exportProgress").style.width="100%";
+  const blob=new Blob(chunks,{type:mime});const extension=mime.includes("mp4")?"mp4":"webm";if(!blob.size)throw new Error("The exported video was empty.");const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=(($("videoTitle").value||"zeeroz-lesson").replace(/[^a-z0-9-_]+/gi,"-").replace(/^-|-$/g,"")||"zeeroz-lesson")+"."+extension;a.click();setTimeout(()=>URL.revokeObjectURL(url),60000);status("Video exported as "+extension.toUpperCase()+" ("+(blob.size/1048576).toFixed(1)+" MB). "+(file?"Uploaded narration included.":"This export has no voice-over; upload narration audio to include sound."));$("exportProgress").style.width="100%";
  }catch(e){if(recorder&&recorder.state!=="inactive")try{recorder.stop()}catch(_){}if(cancelled){chunks.length=0;status("Export cancelled. No partial video was downloaded.")}else status("Export error: "+e.message)}
- finally{if(audioElement)try{audioElement.pause();audioElement.currentTime=0}catch(_){}stream.getTracks().forEach(t=>t.stop());if(audioContext)await audioContext.close().catch(()=>{});if(audioUrl)URL.revokeObjectURL(audioUrl);cancelPreviewExport=null;cancelButton.hidden=true;cancelButton.disabled=true;button.disabled=false}
+ finally{if(audioElement)try{audioElement.pause();audioElement.currentTime=0}catch(_){}stream.getTracks().forEach(t=>t.stop());if(audioContext)await audioContext.close().catch(()=>{});if(audioUrl)URL.revokeObjectURL(audioUrl);cancelPreviewExport=null;cancelButton.hidden=true;cancelButton.disabled=true;button.disabled=!studioPreflight.sceneExport}
 }
 $("cancelPreviewExport").addEventListener("click",()=>cancelPreviewExport?.());
 $("exportVideo").addEventListener("click",exportLessonVideo);
@@ -204,6 +236,7 @@ async function initStudioAvatar(){
    studioAvatar=new TalkingAvatar({container:host,avatarUrl:style.value==="male"?AVATARS.male:undefined,onError:e=>avatarStatus("3D avatar error: "+(e?.message||e))});
    try{await studioAvatar.ready}catch(e){studioAvatarReady=false;avatarStatus("3D teacher failed to load: "+e.message);return}
    studioAvatarReady=true;
+   runStudioPreflight();
    const file=$("voiceTrack").files?.[0];
    play.disabled=!file;
    if($("export3DVideo"))$("export3DVideo").disabled=!file;
@@ -214,7 +247,7 @@ async function initStudioAvatar(){
    const file=$("voiceTrack").files?.[0];
    play.disabled=!studioAvatarReady||!file;
    if($("export3DVideo"))$("export3DVideo").disabled=!studioAvatarReady||!file;
-   avatarStatus(file?"Narration selected: "+file.name+". Ready for 3D lip-sync.":"Upload a narration audio file.");
+   avatarStatus(file?"Narration selected: "+file.name+". Ready for 3D lip-sync.":"Upload a narration audio file.");runStudioPreflight();
   });
   play.addEventListener("click",async()=>{
    const file=$("voiceTrack").files?.[0];if(!studioAvatar||!file)return;
@@ -417,7 +450,7 @@ async function exportReal3DTeacher(){
  if(!file){status3D.textContent="Upload the complete narration audio first.";return}
  const avatarCanvas=$("studioAvatar").querySelector("canvas");
  if(!avatarCanvas){status3D.textContent="3D render canvas was not found. Refresh and try again.";return}
- if(!window.MediaRecorder||!HTMLCanvasElement.prototype.captureStream){status3D.textContent="This browser does not support video recording. Use the latest Chrome.";return}
+ if(!studioPreflight.full3DExport){status3D.textContent="This browser/device is missing a 3D export requirement. Check Device readiness above.";return}
  button.disabled=true;progress.style.width="0%";
  const cancelButton=$("cancel3DExport");if(cancelButton){cancelButton.hidden=false;cancelButton.disabled=true;}
  let audioContext=null,source=null,recorder=null,raf=0,recordStream=null,recorderDone=null,playbackTimeout=null,cancelRequested=false,cancelReject=null;
@@ -528,7 +561,7 @@ async function exportReal3DTeacher(){
   try{source?.stop()}catch(e){}
   recordStream?.getTracks().forEach(t=>t.stop());
   if(audioContext)await audioContext.close().catch(()=>{});
-  button.disabled=!studioAvatarReady||!$("voiceTrack").files?.[0];
+  button.disabled=!studioPreflight.full3DExport||!studioAvatarReady||!$("voiceTrack").files?.[0];
  }
 }
 
@@ -562,11 +595,12 @@ async function generateCompleteLessonVideo(){
   if(!exported)throw new Error("Video export failed. Detailed status neeche dekhein.");
   status("Complete lesson video successfully export ho gayi.");
  }catch(e){status("Complete video could not be generated: "+(e?.message||String(e)))}
- finally{button.disabled=false}
+ finally{button.disabled=!studioPreflight.full3DExport}
 }
 $("generateCompleteVideo")?.addEventListener("click",generateCompleteLessonVideo);
 
-$("voiceTrack")?.addEventListener("change",()=>{const b=$("export3DVideo");if(b)b.disabled=!studioAvatarReady||!$("voiceTrack").files?.[0]});
+$("voiceTrack")?.addEventListener("change",()=>{const b=$("export3DVideo");if(b)b.disabled=!studioPreflight.full3DExport||!studioAvatarReady||!$("voiceTrack").files?.[0];runStudioPreflight()});
+$("checkStudioReadiness")?.addEventListener("click",runStudioPreflight);
 
 $("saveToSocialQueue")?.addEventListener("click",async()=>{
  const button=$("saveToSocialQueue"),note=$("socialQueueStatus");
@@ -619,4 +653,5 @@ $("saveToSocialQueue")?.addEventListener("click",async()=>{
  }
 });
 
+runStudioPreflight();
 window.addEventListener("beforeunload",()=>{if(studioAudioUrl)URL.revokeObjectURL(studioAudioUrl);try{studioAvatar?.dispose()}catch(e){}});
