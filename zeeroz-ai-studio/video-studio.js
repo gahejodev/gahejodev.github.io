@@ -53,6 +53,7 @@ $("clearVoiceTrack")?.addEventListener("click",()=>{const input=$("voiceTrack");
 window.addEventListener("pagehide",clearVoiceTrackPreview);
 let packages=[],courseData=null,scenes=[],sceneIndex=0,allowed=false,playbackToken=0;
 let latestExportedVideo=null,cancel3DExport=null;
+let aiVisualClipElement=null,aiVisualClipUrl=null;
 const status=m=>$("status").textContent=m;
 let studioPreflight={sceneExport:false,full3DExport:false,mime:""};
 function runStudioPreflight(){
@@ -441,6 +442,56 @@ $("ttsGenerate")?.addEventListener("click",()=>generateLessonAudio().catch(()=>{
 $("ttsStop")?.addEventListener("click",()=>{ttsGeneration++;ttsBusy=false;if(ttsButton)ttsButton.disabled=false;if(ttsAudio){ttsAudio.pause();ttsAudio.currentTime=0}ttsStatus.textContent="Audio generation/playback stopped.";});
 initStudioAvatar();
 
+/* AI VISUAL HYBRID: optional externally generated clip, composited by the free local renderer. */
+function createAiVisualPrompt(){
+ const scene=scenes[sceneIndex]||{title:window.currentLesson?.lesson?.title||"Selected lesson",narration:(window.currentLesson?.lesson?.content||"").slice(0,700)};
+ const course=courseData?.title||window.currentLesson?.course||"Zeeroz Academy";
+ const chapter=window.currentLesson?.chapter||"";
+ const lang=({en:"English",ur:"Urdu",sd:"Sindhi"})[$("language")?.value||"en"]||"English";
+ return [
+  "Create a scientifically accurate, visually rich educational B-roll video for Zeeroz Academy.",
+  "Topic: "+course+". "+chapter+". Scene: "+scene.title+".",
+  "Learning context: "+String(scene.narration||"").slice(0,900),
+  "Visual direction: polished semi-realistic 3D educational animation, clear subject, physically plausible motion, cinematic but uncluttered lighting, smooth camera movement, detailed scientific visualization, accessible for secondary-school students.",
+  "Format: vertical 9:16, 720p, 8 seconds. One continuous shot. No cuts, no captions, no written labels, no logos, no watermark, no presenter, no narration or music. Keep the science visually accurate and avoid adding unsupported objects.",
+  "The clip will be used as the science visual while a separate Zeeroz teacher voice explains the lesson in "+lang+"."
+ ].join("\n");
+}
+$("buildAiPrompt")?.addEventListener("click",()=>{
+ const prompt=$("aiVisualPrompt");if(!prompt)return;
+ if(!window.currentLesson?.lesson){$("aiVisualStatus").textContent="Pehle Academy se lesson select aur load karein.";return}
+ if(!scenes.length&&!buildSelectedLessonScenes())return;
+ prompt.value=createAiVisualPrompt();
+ $("aiVisualStatus").textContent="Selected lesson scene ke liye AI visual prompt tayyar hai. Isay Google Flow mein paste karein.";
+});
+$("copyAiPrompt")?.addEventListener("click",async()=>{
+ const prompt=$("aiVisualPrompt");if(!prompt?.value){$("buildAiPrompt")?.click();if(!prompt?.value)return}
+ try{await navigator.clipboard.writeText(prompt.value);$("aiVisualStatus").textContent="AI visual prompt copied. Ab Google Flow mein paste karein."}
+ catch(e){prompt.focus();prompt.select();$("aiVisualStatus").textContent="Prompt select kar diya hai. Phone par Copy use karein."}
+});
+$("aiVisualClip")?.addEventListener("change",()=>{
+ const input=$("aiVisualClip"),file=input?.files?.[0],preview=$("aiVisualPreview"),note=$("aiVisualStatus");
+ if(!file||!preview||!note)return;
+ const ext=(file.name.split(".").pop()||"").toLowerCase();
+ if(!(file.type==="video/mp4"||file.type==="video/webm"||["mp4","webm"].includes(ext))){note.textContent="Sirf MP4 ya WebM AI clip select karein.";input.value="";return}
+ if(file.size>150*1024*1024){note.textContent="Clip 150 MB se chhoti rakhein, warna mobile export memory limit hit kar sakta hai.";input.value="";return}
+ if(aiVisualClipUrl)URL.revokeObjectURL(aiVisualClipUrl);
+ aiVisualClipUrl=URL.createObjectURL(file);
+ aiVisualClipElement=preview;
+ preview.pause();preview.src=aiVisualClipUrl;preview.muted=true;preview.loop=true;preview.playsInline=true;preview.hidden=false;preview.load();
+ $("useAiVisualClip").checked=true;
+ note.textContent="AI clip ready: "+file.name+" · "+(file.size/1048576).toFixed(1)+" MB. Final 9:16 export mein science display ke andar use hogi; Zeeroz teacher aur narration local rahenge.";
+});
+$("clearAiVisualClip")?.addEventListener("click",()=>{
+ const input=$("aiVisualClip"),preview=$("aiVisualPreview");
+ if(aiVisualClipElement){aiVisualClipElement.pause();aiVisualClipElement.removeAttribute("src");aiVisualClipElement.load()}
+ if(aiVisualClipUrl){URL.revokeObjectURL(aiVisualClipUrl);aiVisualClipUrl=null}
+ aiVisualClipElement=null;if(input)input.value="";if(preview)preview.hidden=true;
+ if($("useAiVisualClip"))$("useAiVisualClip").checked=false;
+ if($("aiVisualStatus"))$("aiVisualStatus").textContent="AI clip cleared. Export will use the free local 3D science engine.";
+});
+window.addEventListener("pagehide",()=>{try{aiVisualClipElement?.pause()}catch(_){}if(aiVisualClipUrl)URL.revokeObjectURL(aiVisualClipUrl)});
+
 /* Record the real 3D avatar canvas together with the lesson narration. */
 async function exportReal3DTeacher(){
  const button=$("export3DVideo"),status3D=$("export3DStatus"),progress=$("export3DProgress");
@@ -508,7 +559,7 @@ async function exportReal3DTeacher(){
    ctx.fillStyle="rgba(255,255,255,.075)";ctx.beginPath();ctx.roundRect(78,875,924,620,32);ctx.fill();
    const subject3D=lesson3D?.renderer?.domElement,sceneImage=sceneImages[position.index];
    ctx.save();ctx.beginPath();ctx.roundRect(96,893,888,584,24);ctx.clip();
-   if(subject3D&&subject3D.width&&subject3D.height){const sw=subject3D.width,sh=subject3D.height,scale=Math.max(888/sw,584/sh),dw=sw*scale,dh=sh*scale;ctx.drawImage(subject3D,96+(888-dw)/2,893+(584-dh)/2,dw,dh)}
+   if($("useAiVisualClip")?.checked&&aiVisualClipElement&&aiVisualClipElement.readyState>=2){try{ctx.drawImage(aiVisualClipElement,96,893,888,584)}catch(e){}}else if(subject3D&&subject3D.width&&subject3D.height){const sw=subject3D.width,sh=subject3D.height,scale=Math.max(888/sw,584/sh),dw=sw*scale,dh=sh*scale;ctx.drawImage(subject3D,96+(888-dw)/2,893+(584-dh)/2,dw,dh)}
    else if(sceneImage){const scale=Math.min(850/sceneImage.width,540/sceneImage.height);ctx.drawImage(sceneImage,540-sceneImage.width*scale/2,1185-sceneImage.height*scale/2,sceneImage.width*scale,sceneImage.height*scale)}
    else{const gradient=ctx.createRadialGradient(540,1170,30,540,1170,440);gradient.addColorStop(0,"#315a96");gradient.addColorStop(1,"#101d3a");ctx.fillStyle=gradient;ctx.fillRect(96,893,888,584);ctx.fillStyle="#dbe7ff";ctx.font="700 28px system-ui";ctx.textAlign="center";ctx.fillText("3D SCIENCE DEMONSTRATION",540,1180)}
    ctx.restore();
@@ -525,6 +576,7 @@ async function exportReal3DTeacher(){
   lastExport3DScene="";lesson3D?.reset?.();
   status3D.textContent="Starting synchronized 3D teacher, animated science scene and audio recording…";
   await studioAvatar.attachStream(sourceStream.stream);
+  if($("useAiVisualClip")?.checked){if(!aiVisualClipElement||aiVisualClipElement.readyState<2)throw new Error("AI visual clip is not ready. Wait for its preview to load or uncheck Use AI clip.");aiVisualClipElement.currentTime=0;await aiVisualClipElement.play();}
   const startedAt=audioContext.currentTime;
   source.onended=()=>{if(recorder&&recorder.state!=="inactive")recorder.stop()};
   const playbackPromise=new Promise((resolve,reject)=>{playbackTimeout=setTimeout(()=>reject(new Error("Recording timed out before the narration finished.")),Math.max(30000,audioBuffer.duration*1000+15000));source.addEventListener("ended",()=>{clearTimeout(playbackTimeout);playbackTimeout=null;resolve()},{once:true})});
@@ -559,6 +611,7 @@ async function exportReal3DTeacher(){
   if(cancelButton){cancelButton.hidden=true;cancelButton.disabled=true;}
   if(raf)cancelAnimationFrame(raf);
   try{source?.stop()}catch(e){}
+  try{if(aiVisualClipElement){aiVisualClipElement.pause();aiVisualClipElement.currentTime=0}}catch(e){}
   recordStream?.getTracks().forEach(t=>t.stop());
   if(audioContext)await audioContext.close().catch(()=>{});
   button.disabled=!studioPreflight.full3DExport||!studioAvatarReady||!$("voiceTrack").files?.[0];
