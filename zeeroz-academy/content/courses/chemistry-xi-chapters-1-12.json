@@ -1,9 +1,9 @@
 {
   "id": "chemistry-xi-chapters-1-12",
   "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
-  "description": "Supplementary Chemistry XI course with 12 chapter units. Chapter 1 Stoichiometry is expanded to exam-ready depth against DCAR 2024 SLOs C-11-B-50 to C-11-B-59; Chapters 2–12 remain outline-stage and are explicitly marked for sequential expansion.",
-  "version": "2",
-  "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B Stoichiometry, SLOs C-11-B-50 to C-11-B-59. The course is mixed-depth: Chapter 1 is exam-ready; Chapters 2–12 are outline-stage supplementary maps.",
+  "description": "Supplementary Chemistry XI course with 12 units. Chapters 1 Stoichiometry and 2 Atomic Structure are exam-ready against DCAR 2024 Grade XI SLOs; Chapters 3–12 remain outline-stage and are tracked for sequential expansion.",
+  "version": "3",
+  "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B: Stoichiometry SLOs C-11-B-50 to C-11-B-59; Atomic Structure SLOs C-11-B-01 to C-11-B-27. Chapters 1–2 are exam-ready; Chapters 3–12 remain outline-stage. No unverified textbook chapter-number crosswalk is claimed.",
   "sourceReferences": [
     {
       "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
@@ -14,6 +14,11 @@
       "title": "Sindh Textbook Board — Class XI English eBooks",
       "url": "https://portal.stbb.edu.pk/ebooks/class.php?id=14&medium=English",
       "note": "The portal currently lists Chemistry XI as 2022–23; this is a textbook cross-reference, not a claim of a newer edition."
+    },
+    {
+      "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+      "note": "Grade XI Domain B Atomic Structure SLOs C-11-B-01 to C-11-B-27, printed pages 27–33; Grade IX outcomes are prerequisite review only."
     }
   ],
   "chapters": [
@@ -746,77 +751,836 @@
     },
     {
       "title": "Chapter 2: Atomic Structure",
-      "description": "Supplementary topic 2: Chapter 2: Atomic Structure.",
+      "description": "Grade XI Atomic Structure expanded to exam-ready depth against DCAR 2024 Grade XI Domain B SLOs C-11-B-01 to C-11-B-27: nuclear composition, ions/isotopes, particle beams, shells/orbitals/quantum numbers, electron configuration, periodic trends, ionization energies, mass spectrometry, emission spectra, radicals and semiconductors.",
+      "learningOutcomes": [
+        "Calculate protons, neutrons and electrons from Z, A and charge",
+        "Explain shells, subshells, orbitals, quantum numbers, capacities and shapes",
+        "Apply Aufbau, Pauli and Hund to atoms and ions",
+        "Explain atomic/ionic radius and ionization-energy trends",
+        "Interpret successive ionization-energy jumps",
+        "Calculate relative atomic mass from isotope abundance",
+        "Explain emission spectra and photon energy; define radicals and semiconductor applications"
+      ],
+      "keyTerms": [
+        "atomic number",
+        "mass number",
+        "isotope",
+        "cation",
+        "anion",
+        "shell",
+        "subshell",
+        "orbital",
+        "quantum numbers",
+        "Aufbau",
+        "Pauli exclusion",
+        "Hund's rule",
+        "valence electron",
+        "ionization energy",
+        "mass-to-charge ratio",
+        "relative atomic mass",
+        "emission spectrum",
+        "free radical",
+        "semiconductor"
+      ],
       "lessons": [
         {
-          "title": "Chapter 2: Atomic Structure — concepts",
+          "title": "Atomic structure: nucleus, isotopes, ions and particle beams",
           "type": "text",
-          "content": "## Learning outcomes\nAtomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the same proton number but different neutron numbers. Electron arrangement helps explain periodic behaviour.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "content": "## Learning outcomes\nUse atomic number Z, mass number A and charge to calculate subatomic particles; explain isotopes and charged-particle deflection.\n\nThe nucleus contains positive protons and neutral neutrons; negative electrons occupy quantum regions around it. **Atomic number Z = protons** and identifies the element. **Mass number A = protons + neutrons**, so neutrons = A − Z. Nuclide notation is ᴬ_ZX. For ²³₁₁Na, p=11 and n=12.\n\nA neutral atom has equal protons and electrons. A cation loses electrons; an anion gains them. For charge +q, electrons = Z−q; for charge −q, electrons = Z+q. Ordinary ion formation does not change the nucleus. Isotopes have the same Z but different neutron numbers; ¹²C and ¹⁴C both have six protons but six and eight neutrons.\n\n**Worked example:** ³⁷₁₇Cl⁻ has 17 protons, 20 neutrons and 18 electrons. The −1 charge means one extra electron.\n\nIn a uniform electric field, a proton bends towards the negative plate, an electron towards the positive plate, and a neutron is not deflected. At equal entry speed in the same field, the electron generally bends more because its mass is much smaller. The path also depends on field strength and geometry.\n\n**Revision:** Z counts protons; A counts protons plus neutrons. Isotopes differ in neutrons. Ion formation changes electrons, not protons.",
           "explanations": {
-            "ur": "ایٹم میں پروٹون اور نیوٹران کا مرکزہ اور اس کے گرد الیکٹران ہوتے ہیں۔ ایٹمی نمبر عنصر کی شناخت کرتا ہے؛ کمیتی نمبر پروٹون اور نیوٹران کی مجموعی تعداد ہے۔",
-            "sd": "ايٽم ۾ پروٽان ۽ نيوٽران جو مرڪز ۽ چوڌاري اليڪٽران هوندا آهن. ايٽمي نمبر عنصر جي سڃاڻپ ڪري ٿو؛ ماس نمبر پروٽان ۽ نيوٽران جو مجموعو آهي."
+            "ur": "## سیکھنے کے نتائج\nZ، A اور چارج سے پروٹون، نیوٹران اور الیکٹران نکالیں؛ آئسوٹوپس اور برقی میدان میں ذرّات کا رخ سمجھیں۔\n\nمرکزے میں مثبت پروٹون اور غیر جانبدار نیوٹران ہوتے ہیں؛ منفی الیکٹران اس کے گرد موجود ہوتے ہیں۔ ایٹمی نمبر Z پروٹون کی تعداد ہے اور عنصر کی شناخت کرتا ہے۔ کمیتی نمبر A پروٹون اور نیوٹران کا مجموعہ ہے، اس لیے نیوٹران=A−Z۔ ²³₁₁Na میں 11 پروٹون اور 12 نیوٹران ہیں۔\n\nغیر جانبدار ایٹم میں پروٹون اور الیکٹران برابر ہوتے ہیں۔ مثبت آئن الیکٹران کھوتا اور منفی آئن حاصل کرتا ہے۔ +q آئن میں الیکٹران Z−q اور −q آئن میں Z+q ہوتے ہیں۔ عام آئن بننے سے مرکزہ نہیں بدلتا۔ آئسوٹوپس کا Z یکساں مگر نیوٹران مختلف ہوتے ہیں؛ ¹²C اور ¹⁴C دونوں میں 6 پروٹون ہیں۔\n\nمثال: ³⁷₁₇Cl⁻ میں 17 پروٹون، 20 نیوٹران اور 18 الیکٹران ہیں۔ منفی ایک چارج ایک اضافی الیکٹران ظاہر کرتا ہے۔\n\nبرقی میدان میں پروٹون منفی پلیٹ اور الیکٹران مثبت پلیٹ کی طرف مڑتا ہے؛ نیوٹران نہیں مڑتا۔ یکساں رفتار پر ہلکا الیکٹران عموماً زیادہ مڑتا ہے۔",
+            "sd": "## سکيا جا مقصد\nZ، A ۽ چارج مان پروٽان، نيوٽران ۽ اليڪٽران ڳڻيو؛ آئسوٽوپ ۽ برقي ميدان ۾ ذرڙن جو رخ سمجهو.\n\nمرڪز ۾ مثبت پروٽان ۽ غير جانبدار نيوٽران هوندا آهن؛ منفي اليڪٽران چوڌاري هوندا آهن. ايٽمي نمبر Z پروٽانن جو تعداد آهي ۽ عنصر جي سڃاڻپ ڪري ٿو. ماس نمبر A پروٽان ۽ نيوٽران جو مجموعو آهي، تنهنڪري نيوٽران=A−Z۔ ²³₁₁Na ۾ 11 پروٽان ۽ 12 نيوٽران آهن.\n\nغير جانبدار ايٽم ۾ پروٽان ۽ اليڪٽران برابر هوندا آهن. مثبت آئن اليڪٽران وڃائي ۽ منفي آئن حاصل ڪري ٿو. +q آئن ۾ اليڪٽران Z−q ۽ −q آئن ۾ Z+q هوندا آهن. عام آئن ٺهڻ سان مرڪز نٿو بدلجي. آئسوٽوپن جو Z ساڳيو پر نيوٽران مختلف هوندا آهن.\n\nمثال: ³⁷₁₇Cl⁻ ۾ 17 پروٽان، 20 نيوٽران ۽ 18 اليڪٽران آهن. منفي هڪ چارج هڪ اضافي اليڪٽران ڏيکاري ٿو.\n\nبرقي ميدان ۾ پروٽان منفي پليٽ ۽ اليڪٽران مثبت پليٽ ڏانهن مڙي ٿو؛ نيوٽران نٿو مڙي. ساڳي رفتار تي هلڪو اليڪٽران عام طور وڌيڪ مڙي ٿو."
           }
         },
         {
-          "title": "Chapter 2: Atomic Structure — applications and problem solving",
+          "title": "Shells, orbitals, quantum numbers and electron configuration",
           "type": "text",
-          "content": "Apply the concepts in chapter 2: atomic structure to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "content": "## Learning outcomes\nExplain shells, subshells, orbitals and quantum numbers; state orbital capacities and shapes; apply Aufbau, Pauli and Hund to atoms and ions.\n\nA shell is a principal energy level labelled n=1,2,3… and holds at most 2n² electrons. It contains subshells s, p, d and f. These contain orbitals: probability regions, not fixed circular tracks.\n\n| Subshell | l | Orbitals | Maximum electrons |\n|---|---:|---:|---:|\n| s | 0 | 1 | 2 |\n| p | 1 | 3 | 6 |\n| d | 2 | 5 | 10 |\n| f | 3 | 7 | 14 |\n\nEach orbital holds at most two opposite-spin electrons. Equal-energy orbitals in one subshell are degenerate. Four quantum numbers: n identifies the shell; l the subshell (s=0,p=1,d=2,f=3); mₗ orientation (−l to +l); mₛ spin (+½ or −½). s orbitals are spherical, p orbitals have two main lobes and d orbitals have several shapes.\n\n**Aufbau:** lower-energy orbitals fill first; common order for the first 20 elements is 1s,2s,2p,3s,3p,4s,3d,4p. **Pauli:** no two electrons in one atom share all four quantum numbers, so one orbital holds at most two opposite-spin electrons. **Hund:** degenerate orbitals fill singly with parallel spins before pairing, reducing electron-pair repulsion.\n\nExamples: Na (Z=11) = 1s²2s²2p⁶3s¹; S = [Ne]3s²3p⁴; S²⁻ gains two electrons and becomes [Ar]; Cl⁻ also has [Ar]. Check total electrons against charge. For transition-metal cations, 4s electrons are generally removed before 3d electrons.\n\nValence electrons are outer electrons involved in bonding. Silicon is [Ne]3s²3p², with four valence electrons; its covalent crystal and controllable conductivity make it a semiconductor.",
           "explanations": {
-            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
-            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+            "ur": "شیل بنیادی توانائی سطح ہے جسے n ظاہر کرتا ہے اور اس میں زیادہ سے زیادہ 2n² الیکٹران آتے ہیں۔ اس میں s، p، d، f سب شیل ہوتے ہیں اور ان میں آربیٹلز۔ آربیٹل امکان کا خطہ ہے، مقررہ دائرہ نما راستہ نہیں۔ s میں 1 آربیٹل/2 الیکٹران، p میں 3/6، d میں 5/10 اور f میں 7/14 ہوتے ہیں۔ ہر آربیٹل میں دو مخالف اسپن الیکٹران آ سکتے ہیں۔\n\nچار کوانٹم نمبرز: n شیل، l سب شیل، mₗ سمت اور mₛ اسپن بتاتا ہے۔ s کروی، p دو لوب اور d کی کئی شکلیں ہوتی ہیں۔ Aufbau کم توانائی والے آربیٹلز پہلے بھرتا ہے؛ Pauli ایک آربیٹل میں دو مخالف اسپن الیکٹران کی حد بتاتا ہے؛ Hund برابر توانائی والے آربیٹلز پہلے الگ الگ متوازی اسپن سے بھرتا ہے۔\n\nمثالیں: Na=1s²2s²2p⁶3s¹؛ S=[Ne]3s²3p⁴؛ S²⁻ اور Cl⁻ میں [Ar] ترتیب ہے۔ آئن کے الیکٹران چارج کے مطابق چیک کریں۔ سلیکان [Ne]3s²3p² ہے، اس کے چار بیرونی الیکٹران ہیں اور اسی وجہ سے اس کی سیمی کنڈکٹر خصوصیات اہم ہیں۔",
+            "sd": "شيل بنيادي توانائي سطح آهي جنهن کي n سان ڏيکارجي ٿو ۽ ان ۾ وڌ ۾ وڌ 2n² اليڪٽران اچن ٿا. ان ۾ s، p، d، f سب شيل ۽ انهن ۾ آربيٽل هوندا آهن. آربيٽل امڪان جو علائقو آهي، مقرر گول رستو نه. s ۾ 1 آربيٽل/2 اليڪٽران، p ۾ 3/6، d ۾ 5/10 ۽ f ۾ 7/14 هوندا آهن. هر آربيٽل ۾ ابتڙ اسپن وارا ٻه اليڪٽران اچن ٿا.\n\nچار ڪوانٽم نمبر: n شيل، l سب شيل، mₗ رخ ۽ mₛ اسپن ڏيکاري ٿو. s گول، p جا ٻه لوب ۽ d جون مختلف شڪليون آهن. Aufbau گهٽ توانائي وارا آربيٽل پهرين ڀري ٿو؛ Pauli هڪ آربيٽل ۾ ابتڙ اسپن وارن ٻن اليڪٽرانن جي حد ڏئي ٿو؛ Hund برابر توانائي وارا آربيٽل پهرين الڳ متوازي اسپن سان ڀري ٿو.\n\nمثال: Na=1s²2s²2p⁶3s¹؛ S=[Ne]3s²3p⁴؛ S²⁻ ۽ Cl⁻ ۾ [Ar] ترتيب آهي. آئن جا اليڪٽران چارج مطابق چيڪ ڪريو. سليڪان [Ne]3s²3p² آهي، ان جا چار ٻاهريان اليڪٽران آهن ۽ اها semiconductor خاصيت سمجهائين ٿا."
+          }
+        },
+        {
+          "title": "Atomic and ionic radius; first and successive ionization energy",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain periodic radius and ionization-energy trends; use successive ionization data to infer valence electrons and likely group.\n\nAcross a period, proton number and effective nuclear attraction rise while added electrons enter the same main shell; atomic radius generally decreases. Down a group, new occupied shells and greater shielding place outer electrons farther away; radius generally increases. Cations are usually smaller than their atoms and anions larger. Ionic radii generally increase down a group. In an isoelectronic series, more protons means a smaller radius: Mg²⁺ (12p,10e) is smaller than Na⁺ (11p,10e).\n\nFirst ionization energy is the energy needed to remove one electron from each atom in one mole of gaseous atoms: X(g) → X⁺(g)+e⁻. It is endothermic. Across a period it generally increases; down a group it generally decreases. Explain the trends using nuclear charge, distance and shielding. Subshell energy and spin-pair repulsion cause some local exceptions.\n\nSuccessive ionization energies rise. A very large jump after two electrons means the third is removed from an inner shell; the atom likely has two valence electrons. Combine the jump with atomic number and the periodic table to infer configuration and likely group. The same method applies when the jump follows one, three or more removals.",
+          "explanations": {
+            "ur": "دور میں پروٹون اور مؤثر نیوکلیائی کشش بڑھتی ہے جبکہ الیکٹران اسی شیل میں آتے ہیں، اس لیے ایٹمی رداس عموماً کم ہوتا ہے۔ گروپ میں نیچے نئے شیل اور shielding بڑھنے سے رداس بڑھتا ہے۔ مثبت آئن عموماً ایٹم سے چھوٹا اور منفی آئن بڑا ہوتا ہے۔ یکساں الیکٹران والے ذرات میں زیادہ پروٹون والا چھوٹا ہوتا ہے؛ Mg²⁺، Na⁺ سے چھوٹا ہے۔\n\nپہلی آئنائزیشن توانائی ایک مول گیس حالت کے ایٹموں سے ایک ایک الیکٹران نکالنے کی توانائی ہے: X(g)→X⁺(g)+e⁻۔ دور میں عموماً بڑھتی اور گروپ میں نیچے کم ہوتی ہے۔ نیوکلیائی چارج، فاصلہ، shielding، سب شیل توانائی اور جوڑی کے الیکٹرانوں کی دفع اثر انداز ہوتے ہیں۔\n\nمسلسل آئنائزیشن توانائیاں بڑھتی ہیں۔ دو الیکٹرانوں کے بعد بڑا jump ظاہر کرتا ہے کہ اگلا الیکٹران اندرونی شیل سے نکلے گا؛ بیرونی الیکٹران دو ہیں۔ اسے atomic number اور دوری جدول کے ساتھ استعمال کر کے ترتیب اور گروپ کا اندازہ لگائیں۔",
+            "sd": "دور ۾ پروٽان ۽ اثرائتي نيوڪليائي ڇڪ وڌي ٿي ۽ اليڪٽران ساڳئي شيل ۾ اچن ٿا، تنهنڪري ايٽمي ريڊيس عام طور گهٽجي ٿو. گروپ ۾ هيٺ نوان شيل ۽ shielding وڌڻ سبب ريڊيس وڌي ٿو. مثبت آئن عام طور ايٽم کان ننڍو ۽ منفي آئن وڏو هوندو آهي. ساڳيا اليڪٽران رکندڙن ۾ وڌيڪ پروٽان وارو ننڍو هوندو آهي؛ Mg²⁺، Na⁺ کان ننڍو آهي.\n\nپهرين آئنائيزيشن توانائي هڪ مول گئسي ايٽمن مان هڪ هڪ اليڪٽران ڪڍڻ جي توانائي آهي: X(g)→X⁺(g)+e⁻۔ دور ۾ عام طور وڌي ۽ گروپ ۾ هيٺ گهٽجي ٿي. نيوڪليائي چارج، فاصلو، shielding، سب شيل توانائي ۽ جوڙي اليڪٽرانن جي ڌڪ اثر ڪن ٿا.\n\nلڳاتار آئنائيزيشن توانائيون وڌن ٿيون. ٻن اليڪٽرانن کان پوءِ وڏو jump ڏيکاري ٿو ته ايندڙ اليڪٽران اندروني شيل مان نڪرندو؛ ٻاهريان اليڪٽران ٻه آهن. atomic number ۽ periodic table سان گڏ استعمال ڪري ترتيب ۽ گروپ جو اندازو لڳايو."
+          }
+        },
+        {
+          "title": "Mass spectrometry, emission spectra and atomic applications",
+          "type": "text",
+          "content": "## Learning outcomes\nInterpret a simple mass spectrum; calculate relative atomic mass; explain emission lines and photon energy; define free radicals and connect silicon to semiconductor behaviour.\n\nA simplified mass spectrometer ionises atoms, accelerates ions, separates them by mass-to-charge ratio (m/z) and detects peaks. Peak position gives m/z; relative intensity estimates abundance. Introductory calculations assume singly charged isotopes and intensity proportional to abundance; real instruments require calibration and may show fragments or multiple charge states.\n\nRelative atomic mass is a weighted mean: Aᵣ=(m₁a₁+m₂a₂+…)/100, where a is percentage abundance. For masses 35 (75%) and 37 (25%), Aᵣ=(35×75+37×25)/100=35.5, not a simple mean.\n\nElectrons occupy quantized energy states. A transition from higher to lower state emits a photon: ΔE=hν=hc/λ. Only certain energy differences occur, so each element has a characteristic line spectrum. Comparing observed lines with reference spectra helps identify the element and infer its electronic structure.\n\nA free radical contains one or more unpaired electrons; it may be neutral or charged. Silicon is [Ne]3s²3p² with four valence electrons. Its covalent crystal and controllable conductivity make it useful in transistors and solar cells.\n\n**Case study:** a sample has singly charged peaks at m/z 35 and 37 in a 3:1 intensity ratio. Estimate abundances as 75% and 25%, calculate Aᵣ=35.5, then check calibration, sample purity and interfering peaks before reporting an identification.",
+          "explanations": {
+            "ur": "Mass spectrometer ایٹموں کو آئن بناتا، تیز کرتا، m/z کے مطابق جدا اور detector سے ناپتا ہے۔ چوٹی کی جگہ m/z اور شدت abundance بتاتی ہے۔ ابتدائی حساب میں singly charged آئسوٹوپس اور intensity کو abundance کے متناسب فرض کریں؛ حقیقی آلے میں calibration اور مداخلت بھی دیکھیں۔\n\nنسبتی ایٹمی کمیت weighted mean ہے: Aᵣ=(m₁a₁+m₂a₂+…)/100۔ کمیت 35 (75%) اور 37 (25%) سے Aᵣ=35.5 بنتا ہے۔\n\nالیکٹران مخصوص توانائی حالتوں میں ہوتے ہیں۔ بلند سے نچلی حالت میں آنے پر فوٹون نکلتا ہے: ΔE=hν=hc/λ۔ مخصوص توانائی فرق کے باعث ہر عنصر کا line spectrum الگ ہوتا ہے۔ reference spectrum سے عنصر کی شناخت اور الیکٹران ساخت کا اندازہ ہوتا ہے۔\n\nFree radical میں ایک یا زیادہ غیر جوڑی الیکٹران ہوتے ہیں۔ سلیکان [Ne]3s²3p² ہے اور چار بیرونی الیکٹران رکھتا ہے؛ اس کی covalent crystal ساخت اور قابو شدہ چالکائی اسے transistors اور solar cells میں مفید بناتی ہے۔\n\nکیس: m/z 35 اور 37 کی چوٹیوں کی نسبت 3:1 ہو تو abundance 75% اور 25% اور Aᵣ=35.5 ہے۔ نتیجہ دینے سے پہلے calibration، خالص پن اور مداخلت کرنے والی چوٹیوں کو چیک کریں۔",
+            "sd": "Mass spectrometer ايٽم کي آئن بڻائي، تيز ڪري، m/z مطابق جدا ۽ detector سان ماپي ٿو. چوٽي جي جاءِ m/z ۽ شدت abundance ڏيکاري ٿي. ابتدائي حساب ۾ singly charged آئسوٽوپ ۽ intensity کي abundance جي متناسب فرض ڪريو؛ حقيقي اوزار ۾ calibration ۽ مداخلت به ڏسو.\n\nنسبتي ايٽمي ماس weighted mean آهي: Aᵣ=(m₁a₁+m₂a₂+…)/100۔ ماس 35 (75%) ۽ 37 (25%) مان Aᵣ=35.5 ملي ٿو.\n\nاليڪٽران مخصوص توانائي حالتن ۾ هوندا آهن. مٿانهين کان هيٺين حالت ۾ اچڻ وقت photon نڪري ٿو: ΔE=hν=hc/λ۔ مخصوص توانائي فرق سبب هر عنصر جو line spectrum الڳ هوندو آهي. reference spectrum سان عنصر ۽ اليڪٽران بناوت جي سڃاڻپ ۾ مدد ملي ٿي.\n\nFree radical ۾ هڪ يا وڌيڪ اڻجوڙا اليڪٽران هوندا آهن. سليڪان [Ne]3s²3p² آهي ۽ چار ٻاهريان اليڪٽران رکي ٿو؛ ان جي covalent crystal ۽ ڪنٽرول ٿيندڙ چالڪائي ان کي transistors ۽ solar cells ۾ مفيد بڻائي ٿي.\n\nCase: m/z 35 ۽ 37 جي چوٽين جو تناسب 3:1 هجي ته abundance 75% ۽ 25% ۽ Aᵣ=35.5 ٿيندو. نتيجو ڏيڻ کان اڳ calibration، خالص هجڻ ۽ مداخلت ڪندڙ چوٽيون چيڪ ڪريو."
           }
         }
       ],
       "questions": [
         {
-          "question": "Which statement best describes chapter 2: atomic structure?",
+          "question": "What does atomic number Z count?",
           "options": {
-            "A": "Atomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the",
-            "B": "The topic is unrelated to measurable evidence.",
-            "C": "Units and definitions are unnecessary.",
-            "D": "The concept cannot be applied to problems."
+            "A": "Protons",
+            "B": "Neutrons",
+            "C": "Occupied shells",
+            "D": "Protons plus neutrons"
           },
           "correctOption": "A",
-          "explanation": "Atomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the same proton number but different neutron numbers. Electron arrangement helps explain periodic behaviour."
+          "explanation": "Z is the number of protons and identifies the element.",
+          "translations": {
+            "ur": {
+              "question": "ایٹمی نمبر Z کس کی تعداد ہے؟",
+              "options": {
+                "A": "پروٹون",
+                "B": "نیوٹران",
+                "C": "بھرے ہوئے شیل",
+                "D": "پروٹون اور نیوٹران کا مجموعہ"
+              },
+              "explanation": "Z پروٹون کی تعداد ہے۔"
+            },
+            "sd": {
+              "question": "ايٽمي نمبر Z ڇا ڳڻي ٿو؟",
+              "options": {
+                "A": "پروٽان",
+                "B": "نيوٽران",
+                "C": "ڀريل شيل",
+                "D": "پروٽان ۽ نيوٽران جو مجموعو"
+              },
+              "explanation": "Z پروٽانن جو تعداد آهي."
+            }
+          }
         },
         {
-          "question": "How should a student solve a problem in chapter 2: atomic structure?",
+          "question": "Which expression gives mass number A?",
           "options": {
-            "A": "Guess without identifying quantities.",
-            "B": "Apply the relevant principle, show steps and check units.",
-            "C": "Ignore the stated conditions.",
-            "D": "Use an unrelated equation."
+            "A": "p + e",
+            "B": "p + n",
+            "C": "n − p",
+            "D": "e + n"
           },
           "correctOption": "B",
-          "explanation": "Atomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the same proton number but different neutron numbers. Electron arrangement helps explain periodic behaviour."
+          "explanation": "Mass number is protons plus neutrons.",
+          "translations": {
+            "ur": {
+              "question": "کمیتی نمبر A کا درست اظہار کون سا ہے؟",
+              "options": {
+                "A": "p + e",
+                "B": "p + n",
+                "C": "n − p",
+                "D": "e + n"
+              },
+              "explanation": "A پروٹون اور نیوٹران کا مجموعہ ہے۔"
+            },
+            "sd": {
+              "question": "ماس نمبر A جو صحيح اظهار ڪهڙو آهي؟",
+              "options": {
+                "A": "p + e",
+                "B": "p + n",
+                "C": "n − p",
+                "D": "e + n"
+              },
+              "explanation": "A پروٽان ۽ نيوٽران جو مجموعو آهي."
+            }
+          }
+        },
+        {
+          "question": "How many electrons are in ³⁷₁₇Cl⁻?",
+          "options": {
+            "A": "16",
+            "B": "17",
+            "C": "18",
+            "D": "20"
+          },
+          "correctOption": "C",
+          "explanation": "Cl⁻ has gained one electron: 17+1=18.",
+          "translations": {
+            "ur": {
+              "question": "³⁷₁₇Cl⁻ میں کتنے الیکٹران ہیں؟",
+              "options": {
+                "A": "16",
+                "B": "17",
+                "C": "18",
+                "D": "20"
+              },
+              "explanation": "منفی ایک چارج ایک اضافی الیکٹران ظاہر کرتا ہے: 17+1=18۔"
+            },
+            "sd": {
+              "question": "³⁷₁₇Cl⁻ ۾ ڪيترا اليڪٽران آهن؟",
+              "options": {
+                "A": "16",
+                "B": "17",
+                "C": "18",
+                "D": "20"
+              },
+              "explanation": "منفي هڪ چارج هڪ اضافي اليڪٽران ڏيکاري ٿو: 17+1=18."
+            }
+          }
+        },
+        {
+          "question": "Which pair are isotopes of the same element?",
+          "options": {
+            "A": "¹²₆C and ¹⁴₆C",
+            "B": "²³₁₁Na and ²⁴₁₂Mg",
+            "C": "¹⁶₈O and ¹⁶₇N",
+            "D": "²³₁₁Na and ²³₁₂Mg"
+          },
+          "correctOption": "A",
+          "explanation": "Isotopes have the same proton number but different neutron numbers.",
+          "translations": {
+            "ur": {
+              "question": "کون سا جوڑا ایک ہی عنصر کے آئسوٹوپس ہے؟",
+              "options": {
+                "A": "¹²₆C اور ¹⁴₆C",
+                "B": "²³₁₁Na اور ²⁴₁₂Mg",
+                "C": "¹⁶₈O اور ¹⁶₇N",
+                "D": "²³₁₁Na اور ²³₁₂Mg"
+              },
+              "explanation": "آئسوٹوپس کا پروٹون نمبر یکساں اور نیوٹران مختلف ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "ڪهڙو جوڙو ساڳئي عنصر جا آئسوٽوپ آهن؟",
+              "options": {
+                "A": "¹²₆C ۽ ¹⁴₆C",
+                "B": "²³₁₁Na ۽ ²⁴₁₂Mg",
+                "C": "¹⁶₈O ۽ ¹⁶₇N",
+                "D": "²³₁₁Na ۽ ²³₁₂Mg"
+              },
+              "explanation": "آئسوٽوپن جو پروٽان نمبر ساڳيو ۽ نيوٽران مختلف هوندا آهن."
+            }
+          }
+        },
+        {
+          "question": "Which particle is not deflected by a uniform electric field?",
+          "options": {
+            "A": "Proton",
+            "B": "Electron",
+            "C": "Neutron",
+            "D": "Positron"
+          },
+          "correctOption": "C",
+          "explanation": "A neutron has zero electric charge.",
+          "translations": {
+            "ur": {
+              "question": "برقی میدان میں کون سا ذرّہ نہیں مڑتا؟",
+              "options": {
+                "A": "پروٹون",
+                "B": "الیکٹران",
+                "C": "نیوٹران",
+                "D": "پوزیٹرون"
+              },
+              "explanation": "نیوٹران کا برقی چارج صفر ہے۔"
+            },
+            "sd": {
+              "question": "برقي ميدان ۾ ڪهڙو ذرڙو نٿو مڙي؟",
+              "options": {
+                "A": "پروٽان",
+                "B": "اليڪٽران",
+                "C": "نيوٽران",
+                "D": "پوزيٽرون"
+              },
+              "explanation": "نيوٽران جو برقي چارج صفر آهي."
+            }
+          }
+        },
+        {
+          "question": "How many orbitals are in a p subshell?",
+          "options": {
+            "A": "1",
+            "B": "3",
+            "C": "5",
+            "D": "7"
+          },
+          "correctOption": "B",
+          "explanation": "A p subshell contains three orbitals.",
+          "translations": {
+            "ur": {
+              "question": "p سب شیل میں کتنے آربیٹلز ہوتے ہیں؟",
+              "options": {
+                "A": "1",
+                "B": "3",
+                "C": "5",
+                "D": "7"
+              },
+              "explanation": "p سب شیل میں تین آربیٹلز ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "p سب شيل ۾ ڪيترا آربيٽل هوندا آهن؟",
+              "options": {
+                "A": "1",
+                "B": "3",
+                "C": "5",
+                "D": "7"
+              },
+              "explanation": "p سب شيل ۾ ٽي آربيٽل هوندا آهن."
+            }
+          }
+        },
+        {
+          "question": "What is the maximum capacity of a d subshell?",
+          "options": {
+            "A": "2",
+            "B": "6",
+            "C": "10",
+            "D": "14"
+          },
+          "correctOption": "C",
+          "explanation": "Five d orbitals hold two electrons each: 5×2=10.",
+          "translations": {
+            "ur": {
+              "question": "d سب شیل میں زیادہ سے زیادہ کتنے الیکٹران آتے ہیں؟",
+              "options": {
+                "A": "2",
+                "B": "6",
+                "C": "10",
+                "D": "14"
+              },
+              "explanation": "پانچ d آربیٹلز میں دو دو الیکٹران، کل 10 آتے ہیں۔"
+            },
+            "sd": {
+              "question": "d سب شيل ۾ وڌ ۾ وڌ ڪيترا اليڪٽران اچن ٿا؟",
+              "options": {
+                "A": "2",
+                "B": "6",
+                "C": "10",
+                "D": "14"
+              },
+              "explanation": "پنج d آربيٽلن ۾ ٻه ٻه اليڪٽران، ڪل 10 اچن ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which quantum number identifies the principal shell?",
+          "options": {
+            "A": "n",
+            "B": "l",
+            "C": "mₗ",
+            "D": "mₛ"
+          },
+          "correctOption": "A",
+          "explanation": "The principal quantum number n identifies the shell.",
+          "translations": {
+            "ur": {
+              "question": "بنیادی شیل کی شناخت کون سا کوانٹم نمبر کرتا ہے؟",
+              "options": {
+                "A": "n",
+                "B": "l",
+                "C": "mₗ",
+                "D": "mₛ"
+              },
+              "explanation": "n بنیادی شیل بتاتا ہے۔"
+            },
+            "sd": {
+              "question": "مکيه شيل جي سڃاڻپ ڪهڙو ڪوانٽم نمبر ڪري ٿو؟",
+              "options": {
+                "A": "n",
+                "B": "l",
+                "C": "mₗ",
+                "D": "mₛ"
+              },
+              "explanation": "n مکيه شيل ڏيکاري ٿو."
+            }
+          }
+        },
+        {
+          "question": "According to Hund's rule, equal-energy orbitals fill:",
+          "options": {
+            "A": "By pairing first",
+            "B": "Singly with parallel spins before pairing",
+            "C": "Only with opposite spins in different shells",
+            "D": "From highest energy down"
+          },
+          "correctOption": "B",
+          "explanation": "Hund's rule places electrons singly in degenerate orbitals before pairing.",
+          "translations": {
+            "ur": {
+              "question": "Hund کے اصول کے مطابق برابر توانائی والے آربیٹلز کیسے بھرتے ہیں؟",
+              "options": {
+                "A": "پہلے جوڑے بناتے ہیں",
+                "B": "جوڑا بنانے سے پہلے متوازی اسپن کے ساتھ الگ الگ بھرتے ہیں",
+                "C": "صرف مختلف شیلز میں مخالف اسپن رکھتے ہیں",
+                "D": "زیادہ توانائی سے نیچے بھرتے ہیں"
+              },
+              "explanation": "پہلے الگ آربیٹلز میں متوازی اسپن، پھر جوڑا بنتا ہے۔"
+            },
+            "sd": {
+              "question": "Hund جي اصول موجب برابر توانائي وارا آربيٽل ڪيئن ڀرجن ٿا؟",
+              "options": {
+                "A": "پهريان جوڙا ٺاهين ٿا",
+                "B": "جوڙو ٺاهڻ کان اڳ متوازي اسپن سان الڳ ڀرجن ٿا",
+                "C": "صرف الڳ شيلن ۾ ابتڙ اسپن رکن ٿا",
+                "D": "وڌيڪ توانائي کان هيٺ ڀرجن ٿا"
+              },
+              "explanation": "پهريان الڳ آربيٽلن ۾ متوازي اسپن، پوءِ جوڙو ٺهي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which statement describes the Pauli exclusion principle?",
+          "options": {
+            "A": "One orbital holds four electrons",
+            "B": "No two electrons in one atom share all four quantum numbers",
+            "C": "All electrons have the same spin",
+            "D": "p always fills before s"
+          },
+          "correctOption": "B",
+          "explanation": "An orbital holds at most two opposite-spin electrons; no two electrons share all four quantum numbers.",
+          "translations": {
+            "ur": {
+              "question": "Pauli exclusion principle کیا کہتا ہے؟",
+              "options": {
+                "A": "ایک آربیٹل میں چار الیکٹران",
+                "B": "ایک ایٹم کے دو الیکٹران کے چاروں کوانٹم نمبر یکساں نہیں ہو سکتے",
+                "C": "تمام الیکٹران کا اسپن یکساں ہوتا ہے",
+                "D": "p ہمیشہ s سے پہلے بھرتا ہے"
+              },
+              "explanation": "ایک آربیٹل میں دو مخالف اسپن الیکٹران ہوتے ہیں؛ چاروں کوانٹم نمبر یکساں نہیں ہو سکتے۔"
+            },
+            "sd": {
+              "question": "Pauli exclusion principle ڇا چوي ٿو؟",
+              "options": {
+                "A": "هڪ آربيٽل ۾ چار اليڪٽران",
+                "B": "هڪ ايٽم جي ٻن اليڪٽرانن جا چارئي ڪوانٽم نمبر ساڳيا نٿا ٿي سگهن",
+                "C": "سڀني اليڪٽرانن جو اسپن ساڳيو هوندو آهي",
+                "D": "p هميشه s کان اڳ ڀرجي ٿو"
+              },
+              "explanation": "هڪ آربيٽل ۾ ٻه ابتڙ اسپن اليڪٽران هوندا آهن؛ چارئي ڪوانٽم نمبر ساڳيا نٿا ٿي سگهن."
+            }
+          }
+        },
+        {
+          "question": "What does the Aufbau principle state?",
+          "options": {
+            "A": "Highest-energy orbitals fill first",
+            "B": "Lowest-energy orbitals fill first",
+            "C": "Only p orbitals can contain electrons",
+            "D": "Electrons do not occupy 1s"
+          },
+          "correctOption": "B",
+          "explanation": "The ground-state arrangement fills lower-energy orbitals before higher-energy orbitals.",
+          "translations": {
+            "ur": {
+              "question": "Aufbau principle کیا بتاتا ہے؟",
+              "options": {
+                "A": "زیادہ توانائی والے آربیٹلز پہلے بھرتے ہیں",
+                "B": "کم توانائی والے آربیٹلز پہلے بھرتے ہیں",
+                "C": "صرف p آربیٹلز میں الیکٹران ہوتے ہیں",
+                "D": "الیکٹران 1s میں نہیں آتے"
+              },
+              "explanation": "زمینی حالت میں کم توانائی والے آربیٹلز پہلے بھرتے ہیں۔"
+            },
+            "sd": {
+              "question": "Aufbau principle ڇا ٻڌائي ٿو؟",
+              "options": {
+                "A": "وڌيڪ توانائي وارا آربيٽل پهرين ڀرجن ٿا",
+                "B": "گهٽ توانائي وارا آربيٽل پهرين ڀرجن ٿا",
+                "C": "صرف p آربيٽلن ۾ اليڪٽران هوندا آهن",
+                "D": "اليڪٽران 1s ۾ نٿا اچن"
+              },
+              "explanation": "گرائونڊ اسٽيٽ ۾ گهٽ توانائي وارا آربيٽل پهرين ڀرجن ٿا."
+            }
+          }
+        },
+        {
+          "question": "What is the ground-state configuration of sodium (Z=11)?",
+          "options": {
+            "A": "1s²2s²2p⁶3s¹",
+            "B": "1s²2s²2p⁵3s²",
+            "C": "1s²2s²2p⁶3p¹",
+            "D": "1s²2s²2p⁶3s²"
+          },
+          "correctOption": "A",
+          "explanation": "Sodium has 11 electrons: 2+2+6+1=11.",
+          "translations": {
+            "ur": {
+              "question": "سوڈیم (Z=11) کی الیکٹران ترتیب کیا ہے؟",
+              "options": {
+                "A": "1s²2s²2p⁶3s¹",
+                "B": "1s²2s²2p⁵3s²",
+                "C": "1s²2s²2p⁶3p¹",
+                "D": "1s²2s²2p⁶3s²"
+              },
+              "explanation": "سوڈیم کے 11 الیکٹران ہیں: 2+2+6+1=11۔"
+            },
+            "sd": {
+              "question": "سوڊيم (Z=11) جي اليڪٽران ترتيب ڪهڙي آهي؟",
+              "options": {
+                "A": "1s²2s²2p⁶3s¹",
+                "B": "1s²2s²2p⁵3s²",
+                "C": "1s²2s²2p⁶3p¹",
+                "D": "1s²2s²2p⁶3s²"
+              },
+              "explanation": "سوڊيم جا 11 اليڪٽران آهن: 2+2+6+1=11."
+            }
+          }
+        },
+        {
+          "question": "What is the usual atomic-radius trend across a period?",
+          "options": {
+            "A": "It increases",
+            "B": "It decreases",
+            "C": "It is constant",
+            "D": "It becomes zero"
+          },
+          "correctOption": "B",
+          "explanation": "Increasing effective nuclear attraction pulls electrons in the same shell closer.",
+          "translations": {
+            "ur": {
+              "question": "دور میں ایٹمی رداس کا عمومی رجحان کیا ہے؟",
+              "options": {
+                "A": "بڑھتا ہے",
+                "B": "کم ہوتا ہے",
+                "C": "مستقل رہتا ہے",
+                "D": "صفر ہو جاتا ہے"
+              },
+              "explanation": "مؤثر نیوکلیائی کشش بڑھنے سے رداس کم ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "دور ۾ ايٽمي ريڊيس جو عام رجحان ڪهڙو آهي؟",
+              "options": {
+                "A": "وڌي ٿو",
+                "B": "گهٽجي ٿو",
+                "C": "ساڳيو رهي ٿو",
+                "D": "صفر ٿئي ٿو"
+              },
+              "explanation": "اثرائتي نيوڪليائي ڇڪ وڌڻ سبب ريڊيس گهٽجي ٿو."
+            }
+          }
+        },
+        {
+          "question": "What is the usual first-ionization-energy trend down a group?",
+          "options": {
+            "A": "It increases",
+            "B": "It decreases",
+            "C": "It is always zero",
+            "D": "It becomes infinite"
+          },
+          "correctOption": "B",
+          "explanation": "The outer electron is farther away and more shielded down a group.",
+          "translations": {
+            "ur": {
+              "question": "گروپ میں نیچے پہلی آئنائزیشن توانائی کا عمومی رجحان کیا ہے؟",
+              "options": {
+                "A": "بڑھتی ہے",
+                "B": "کم ہوتی ہے",
+                "C": "ہمیشہ صفر ہے",
+                "D": "لامحدود ہوتی ہے"
+              },
+              "explanation": "بیرونی الیکٹران دور اور زیادہ shielded ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "گروپ ۾ هيٺ پهرين آئنائيزيشن توانائي جو عام رجحان ڪهڙو آهي؟",
+              "options": {
+                "A": "وڌي ٿي",
+                "B": "گهٽجي ٿي",
+                "C": "هميشه صفر آهي",
+                "D": "لامحدود ٿئي ٿي"
+              },
+              "explanation": "ٻاهريون اليڪٽران پري ۽ وڌيڪ shielded هوندو آهي."
+            }
+          }
+        },
+        {
+          "question": "A very large jump after the second ionization energy suggests:",
+          "options": {
+            "A": "Two valence electrons",
+            "B": "Three valence electrons",
+            "C": "No valence electrons",
+            "D": "Two neutrons"
+          },
+          "correctOption": "A",
+          "explanation": "After two outer electrons are removed, the third comes from an inner shell.",
+          "translations": {
+            "ur": {
+              "question": "دوسری آئنائزیشن کے بعد بڑا jump کیا ظاہر کرتا ہے؟",
+              "options": {
+                "A": "دو بیرونی الیکٹران",
+                "B": "تین بیرونی الیکٹران",
+                "C": "کوئی بیرونی الیکٹران نہیں",
+                "D": "دو نیوٹران"
+              },
+              "explanation": "دو بیرونی الیکٹران نکلنے کے بعد اگلا اندرونی شیل سے نکلتا ہے۔"
+            },
+            "sd": {
+              "question": "ٻي آئنائيزيشن کان پوءِ وڏو jump ڇا ڏيکاري ٿو؟",
+              "options": {
+                "A": "ٻه ٻاهريان اليڪٽران",
+                "B": "ٽي ٻاهريان اليڪٽران",
+                "C": "ڪو ٻاهريون اليڪٽران نه",
+                "D": "ٻه نيوٽران"
+              },
+              "explanation": "ٻه ٻاهريان اليڪٽران نڪرڻ کان پوءِ ايندڙ اندروني شيل مان نڪري ٿو."
+            }
+          }
+        },
+        {
+          "question": "In a simplified mass spectrum, what does relative peak intensity indicate?",
+          "options": {
+            "A": "Relative isotope abundance",
+            "B": "Atomic number",
+            "C": "Number of shells",
+            "D": "Sample temperature"
+          },
+          "correctOption": "A",
+          "explanation": "Under the stated assumptions, peak intensity is proportional to ion abundance.",
+          "translations": {
+            "ur": {
+              "question": "سادہ mass spectrum میں چوٹی کی شدت کیا ظاہر کرتی ہے؟",
+              "options": {
+                "A": "آئسوٹوپ کی نسبتی abundance",
+                "B": "ایٹمی نمبر",
+                "C": "شیلز کی تعداد",
+                "D": "نمونے کا درجۂ حرارت"
+              },
+              "explanation": "چوٹی کی شدت آئسوٹوپ abundance کے متناسب ہے۔"
+            },
+            "sd": {
+              "question": "سادي mass spectrum ۾ چوٽي جي شدت ڇا ڏيکاري ٿي؟",
+              "options": {
+                "A": "آئسوٽوپ جي نسبتي abundance",
+                "B": "ايٽمي نمبر",
+                "C": "شيلن جو تعداد",
+                "D": "نموني جو گرمي پد"
+              },
+              "explanation": "چوٽي جي شدت آئسوٽوپ abundance جي متناسب آهي."
+            }
+          }
+        },
+        {
+          "question": "Masses 35 (75%) and 37 (25%) give which relative atomic mass?",
+          "options": {
+            "A": "35.0",
+            "B": "35.5",
+            "C": "36.0",
+            "D": "37.0"
+          },
+          "correctOption": "B",
+          "explanation": "Aᵣ=(35×75+37×25)/100=35.5.",
+          "translations": {
+            "ur": {
+              "question": "کمیت 35 (75%) اور 37 (25%) سے نسبتی ایٹمی کمیت کیا ہے؟",
+              "options": {
+                "A": "35.0",
+                "B": "35.5",
+                "C": "36.0",
+                "D": "37.0"
+              },
+              "explanation": "وزنی اوسط 35.5 ہے۔"
+            },
+            "sd": {
+              "question": "ماس 35 (75%) ۽ 37 (25%) مان نسبتي ايٽمي ماس ڪيترو آهي؟",
+              "options": {
+                "A": "35.0",
+                "B": "35.5",
+                "C": "36.0",
+                "D": "37.0"
+              },
+              "explanation": "weighted mean 35.5 آهي."
+            }
+          }
+        },
+        {
+          "question": "Which equation gives the energy of an emitted photon?",
+          "options": {
+            "A": "E=mc²",
+            "B": "E=hν=hc/λ",
+            "C": "E=V/I",
+            "D": "E=nRT"
+          },
+          "correctOption": "B",
+          "explanation": "Photon energy equals Planck's constant times frequency, or hc divided by wavelength.",
+          "translations": {
+            "ur": {
+              "question": "خارج ہونے والے فوٹون کی توانائی کا فارمولا کون سا ہے؟",
+              "options": {
+                "A": "E=mc²",
+                "B": "E=hν=hc/λ",
+                "C": "E=V/I",
+                "D": "E=nRT"
+              },
+              "explanation": "فوٹون کی توانائی E=hν=hc/λ ہے۔"
+            },
+            "sd": {
+              "question": "خارج ٿيندڙ photon جي توانائي جو فارمولو ڪهڙو آهي؟",
+              "options": {
+                "A": "E=mc²",
+                "B": "E=hν=hc/λ",
+                "C": "E=V/I",
+                "D": "E=nRT"
+              },
+              "explanation": "photon جي توانائي E=hν=hc/λ آهي."
+            }
+          }
+        },
+        {
+          "question": "Why are atomic emission spectra made of discrete lines?",
+          "options": {
+            "A": "Only certain energy differences are allowed",
+            "B": "Electrons have any energy",
+            "C": "The nucleus emits sound",
+            "D": "All wavelengths are identical"
+          },
+          "correctOption": "A",
+          "explanation": "Transitions between quantized electron states emit photons of specific energies.",
+          "translations": {
+            "ur": {
+              "question": "ایٹمی اخراجی طیف میں مخصوص لائنیں کیوں ہوتی ہیں؟",
+              "options": {
+                "A": "صرف مخصوص توانائی فرق ممکن ہیں",
+                "B": "الیکٹران کوئی بھی توانائی رکھتے ہیں",
+                "C": "مرکزہ آواز خارج کرتا ہے",
+                "D": "تمام طول موج یکساں ہیں"
+              },
+              "explanation": "مخصوص توانائی حالتوں کے درمیان منتقلی مخصوص فوٹون پیدا کرتی ہے۔"
+            },
+            "sd": {
+              "question": "ايٽمي اخراجي spectrum ۾ مخصوص لائينون ڇو هونديون آهن؟",
+              "options": {
+                "A": "صرف مخصوص توانائي فرق ممڪن آهن",
+                "B": "اليڪٽران ڪا به توانائي رکن ٿا",
+                "C": "مرڪز آواز خارج ڪري ٿو",
+                "D": "سڀ wavelength ساڳيا آهن"
+              },
+              "explanation": "مخصوص توانائي حالتن جي منتقلي مخصوص photon پيدا ڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "A free radical is a species containing:",
+          "options": {
+            "A": "One or more unpaired electrons",
+            "B": "No protons",
+            "C": "No nucleus",
+            "D": "Only paired electrons"
+          },
+          "correctOption": "A",
+          "explanation": "A radical is defined by unpaired electrons; it may be neutral or charged.",
+          "translations": {
+            "ur": {
+              "question": "فری ریڈیکل میں کیا ہوتا ہے؟",
+              "options": {
+                "A": "ایک یا زیادہ غیر جوڑی الیکٹران",
+                "B": "کوئی پروٹون نہیں",
+                "C": "کوئی مرکزہ نہیں",
+                "D": "صرف جوڑی والے الیکٹران"
+              },
+              "explanation": "ریڈیکل کی تعریف غیر جوڑی الیکٹرانوں سے ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "فري ريڊيڪل ۾ ڇا هوندو آهي؟",
+              "options": {
+                "A": "هڪ يا وڌيڪ اڻجوڙا اليڪٽران",
+                "B": "ڪو پروٽان نه",
+                "C": "ڪو مرڪز نه",
+                "D": "صرف جوڙي وارا اليڪٽران"
+              },
+              "explanation": "ريڊيڪل جي سڃاڻپ اڻجوڙن اليڪٽرانن سان ٿئي ٿي."
+            }
+          }
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 5,
-          "question": "Define two key terms in chapter 2: atomic structure and explain their relationship.",
-          "modelAnswer": "Atomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the same proton number but different neutron numbers. Electron arrangement helps explain periodic behaviour.",
-          "rubric": [
-            "Correct definitions (2)",
-            "Relationship/explanation (2)",
-            "Clear expression (1)"
-          ]
+          "question": "For ³⁷₁₇Cl⁻ calculate protons, neutrons and electrons. Explain its charge.",
+          "modelAnswer": "p=Z=17; n=A−Z=37−17=20; neutral chlorine has 17 electrons, so Cl⁻ has 18 after gaining one. Ion formation changes electrons, not protons.",
+          "rubric": "Protons 17 (1); neutrons 20 (1); electrons 18 (1); gained electron (1); nucleus/Z unchanged (1).",
+          "translations": {
+            "ur": {
+              "question": "³⁷₁₇Cl⁻ میں پروٹون، نیوٹران اور الیکٹران نکالیں اور چارج سمجھائیں۔",
+              "modelAnswer": "p=17؛ n=37−17=20؛ Cl⁻ نے ایک الیکٹران حاصل کیا، اس لیے 18 ہیں۔ آئن بننے سے پروٹون نہیں بدلتے۔",
+              "rubric": "پروٹون 17 (1)؛ نیوٹران 20 (1)؛ الیکٹران 18 (1)؛ اضافی الیکٹران (1)؛ مرکزہ برقرار (1)۔"
+            },
+            "sd": {
+              "question": "³⁷₁₇Cl⁻ ۾ پروٽان، نيوٽران ۽ اليڪٽران ڳڻيو ۽ چارج سمجهايو.",
+              "modelAnswer": "p=17؛ n=37−17=20؛ Cl⁻ هڪ اليڪٽران حاصل ڪيو، تنهنڪري 18 آهن. آئن ٺهڻ سان پروٽان نٿا بدلجن.",
+              "rubric": "پروٽان 17 (1)؛ نيوٽران 20 (1)؛ اليڪٽران 18 (1)؛ اضافي اليڪٽران (1)؛ مرڪز برقرار (1)."
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Write the configurations of sulfur (Z=16) and S²⁻. Name the filling principles.",
+          "modelAnswer": "S: 1s²2s²2p⁶3s²3p⁴=[Ne]3s²3p⁴. S²⁻ gains two electrons and has 18: [Ar]. Aufbau fills lower energy first; Pauli limits an orbital to two opposite-spin electrons; Hund fills equal-energy orbitals singly before pairing.",
+          "rubric": "Sulfur configuration (2); S²⁻ count/configuration (2); principles (1).",
+          "translations": {
+            "ur": {
+              "question": "سلفر اور S²⁻ کی الیکٹران ترتیب لکھیں اور بھرنے کے اصول بتائیں۔",
+              "modelAnswer": "S=[Ne]3s²3p⁴۔ S²⁻ دو الیکٹران حاصل کر کے 18 الیکٹران اور [Ar] ترتیب رکھتا ہے۔ Aufbau کم توانائی پہلے، Pauli دو مخالف اسپن کی حد، Hund پہلے الگ آربیٹلز بھرتا ہے۔",
+              "rubric": "S کی درست ترتیب (2)؛ S²⁻ کے 18 الیکٹران/ترتیب (2)؛ اصول (1)۔"
+            },
+            "sd": {
+              "question": "سلفر ۽ S²⁻ جي اليڪٽران ترتيب لکو ۽ ڀرڻ جا اصول ٻڌايو.",
+              "modelAnswer": "S=[Ne]3s²3p⁴۔ S²⁻ ٻه اليڪٽران حاصل ڪري 18 ۽ [Ar] ترتيب رکي ٿو. Aufbau گهٽ توانائي پهرين، Pauli ٻن ابتڙ اسپن جي حد، Hund پهرين الڳ آربيٽل ڀري ٿو.",
+              "rubric": "S جي صحيح ترتيب (2)؛ S²⁻ جا 18 اليڪٽران/ترتيب (2)؛ اصول (1)."
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "An element has isotopes 69 (60%) and 71 (40%). Calculate Aᵣ and explain the weighted mean.",
+          "modelAnswer": "Aᵣ=(69×60+71×40)/100=69.8. A weighted mean is needed because isotope abundances are unequal.",
+          "rubric": "Formula (1); products (2); division (1); answer and explanation (1).",
+          "translations": {
+            "ur": {
+              "question": "آئسوٹوپس 69 (60%) اور 71 (40%) ہوں تو Aᵣ نکالیں اور weighted mean کی وجہ بتائیں۔",
+              "modelAnswer": "Aᵣ=(69×60+71×40)/100=69.8۔ abundance برابر نہیں، اس لیے weighted mean درکار ہے۔",
+              "rubric": "فارمولا/ضربیں (3)؛ تقسیم (1)؛ جواب اور وجہ (1)۔"
+            },
+            "sd": {
+              "question": "آئسوٽوپ 69 (60%) ۽ 71 (40%) هجن ته Aᵣ ڳڻيو ۽ weighted mean جو سبب ٻڌايو.",
+              "modelAnswer": "Aᵣ=(69×60+71×40)/100=69.8۔ abundance برابر نه آهي، تنهنڪري weighted mean ضروري آهي.",
+              "rubric": "فارمولو/ضربون (3)؛ ورهاست (1)؛ جواب ۽ سبب (1)."
+            }
+          }
         },
         {
           "type": "erq",
           "marks": 10,
-          "question": "Explain chapter 2: atomic structure and discuss one practical or numerical application.",
-          "modelAnswer": "Atomic structure includes a nucleus of protons and neutrons surrounded by electrons. Atomic number identifies an element; mass number counts protons and neutrons. Isotopes have the same proton number but different neutron numbers. Electron arrangement helps explain periodic behaviour. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
-          "rubric": [
-            "Accurate concept (3)",
-            "Application/example (3)",
-            "Reasoning and steps (2)",
-            "Clarity and units (2)"
-          ]
+          "question": "Explain atomic/ionic-radius and first-ionization-energy trends across a period and down a group. Interpret a large jump in successive ionization energies.",
+          "modelAnswer": "Across a period, effective nuclear charge rises while electrons enter the same shell, so atomic radius generally decreases and first ionization energy increases. Down a group, new shells and shielding increase distance, so radius generally increases and first ionization energy decreases. Cations are usually smaller and anions larger than their parent atoms; ionic radii generally increase down a group. In an isoelectronic series, more protons means smaller radius. Successive ionization energies rise; a very large jump marks removal from an inner shell. The number removed before the jump estimates valence electrons and helps infer group/configuration with Z.",
+          "rubric": "Period radius/IE (3); group radius/IE (2); ionic radii (2); shielding/distance (1); jump interpretation (2).",
+          "translations": {
+            "ur": {
+              "question": "دور اور گروپ میں ایٹمی و آئنک رداس اور پہلی آئنائزیشن توانائی کے رجحانات بیان کریں اور بڑے jump کی تشریح کریں۔",
+              "modelAnswer": "دور میں مؤثر چارج بڑھنے سے رداس کم اور پہلی آئنائزیشن توانائی بڑھتی ہے۔ گروپ میں نیچے نئے شیل اور shielding سے رداس بڑھتا اور آئنائزیشن توانائی کم ہوتی ہے۔ مثبت آئن چھوٹا اور منفی بڑا ہوتا ہے؛ یکساں الیکٹرانوں میں زیادہ پروٹون والا چھوٹا ہے۔ مسلسل توانائیاں بڑھتی ہیں؛ بڑا jump اندرونی شیل سے الیکٹران نکلنے کو ظاہر کرتا ہے۔ اس سے پہلے نکالے گئے الیکٹران valence electrons بتاتے ہیں۔",
+              "rubric": "دور کے رجحانات (3)؛ گروپ (2)؛ آئنک رداس (2)؛ shielding (1)؛ jump (2)۔"
+            },
+            "sd": {
+              "question": "دور ۽ گروپ ۾ ايٽمي ۽ آئنڪ ريڊيس ۽ پهرين آئنائيزيشن توانائي جا رجحان بيان ڪريو ۽ وڏي jump جي تشريح ڪريو.",
+              "modelAnswer": "دور ۾ اثرائتي چارج وڌڻ سبب ريڊيس گهٽ ۽ پهرين آئنائيزيشن توانائي وڌي ٿي. گروپ ۾ هيٺ نوان شيل ۽ shielding سبب ريڊيس وڌي ۽ آئنائيزيشن توانائي گهٽجي ٿي. مثبت آئن ننڍو ۽ منفي وڏو؛ ساڳيا اليڪٽران رکندڙن ۾ وڌيڪ پروٽان وارو ننڍو آهي. لڳاتار توانائيون وڌن ٿيون؛ وڏو jump اندروني شيل مان اليڪٽران نڪرڻ ڏيکاري ٿو. ان کان اڳ نڪتل اليڪٽران valence electrons ٻڌائين ٿا.",
+              "rubric": "دور جا رجحان (3)؛ گروپ (2)؛ آئنڪ ريڊيس (2)؛ shielding (1)؛ jump (2)."
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain how mass spectrometry and emission spectra provide evidence about atomic structure. Calculate Aᵣ for masses 35 (75%) and 37 (25%); include the photon equation, a free radical and silicon.",
+          "modelAnswer": "A mass spectrometer ionises and accelerates atoms, separates ions by m/z and detects peaks. Peak positions show m/z; intensities estimate abundance. Assuming singly charged isotopes, Aᵣ=(35×75+37×25)/100=35.5. Electrons occupy quantized states; a downward transition emits a photon with ΔE=hν=hc/λ, producing characteristic lines. Comparing lines with references helps identify an element and infer its electronic structure. A free radical has one or more unpaired electrons. Silicon [Ne]3s²3p² has four valence electrons; its covalent crystal and controllable conductivity make it a semiconductor.",
+          "rubric": "Mass-spectrometer process/mz (2); weighted calculation (2); quantized transition/equation (2); line spectrum (1); radical (1); silicon application (2).",
+          "translations": {
+            "ur": {
+              "question": "بیان کریں کہ mass spectrometry اور emission spectra ایٹمی ساخت کے بارے میں کیا ثبوت دیتے ہیں۔ 35 (75%) اور 37 (25%) سے Aᵣ نکالیں؛ فوٹون مساوات، ریڈیکل اور سلیکان شامل کریں۔",
+              "modelAnswer": "Mass spectrometer آئن بناتا، m/z کے مطابق جدا اور peaks ناپتا ہے۔ شدت abundance بتاتی ہے۔ Aᵣ=(35×75+37×25)/100=35.5۔ الیکٹران کی نچلی توانائی حالت میں منتقلی پر ΔE=hν=hc/λ فوٹون نکلتا ہے اور مخصوص لائنیں بنتی ہیں۔ line pattern عنصر کی شناخت میں مدد دیتا ہے۔ ریڈیکل میں غیر جوڑی الیکٹران ہوتے ہیں۔ سلیکان [Ne]3s²3p² کے چار بیرونی الیکٹران اور سیمی کنڈکٹر استعمال ہیں۔",
+              "rubric": "mass spectrometer/mz (2)؛ حساب (2)؛ توانائي/مساوات (2)؛ لائينون (1)؛ ريڊيڪل (1)؛ سلیکان (2)۔"
+            },
+            "sd": {
+              "question": "بيان ڪريو ته mass spectrometry ۽ emission spectra ايٽمي بناوت بابت ڪهڙو ثبوت ڏين ٿا. 35 (75%) ۽ 37 (25%) مان Aᵣ ڳڻيو؛ photon مساوات، ريڊيڪل ۽ سليڪان شامل ڪريو.",
+              "modelAnswer": "Mass spectrometer آئن ٺاهي، m/z مطابق جدا ۽ peaks ماپي ٿو. شدت abundance ڏيکاري ٿي. Aᵣ=(35×75+37×25)/100=35.5۔ اليڪٽران جي هيٺين توانائي حالت ۾ منتقلي تي ΔE=hν=hc/λ photon نڪري ٿو ۽ خاص لائينون ٺهن ٿيون. line pattern عنصر سڃاڻڻ ۾ مدد ڪري ٿو. ريڊيڪل ۾ اڻجوڙا اليڪٽران آهن. سليڪان [Ne]3s²3p² جا چار ٻاهريان اليڪٽران ۽ semiconductor استعمال آهن.",
+              "rubric": "mass spectrometer/mz (2)؛ حساب (2)؛ توانائي/مساوات (2)؛ لائينون (1)؛ ريڊيڪل (1)؛ سليڪان (2)."
+            }
+          }
         }
       ],
-      "contentTier": "outline"
+      "caseStudy": "A sample has singly charged peaks at m/z 35 and 37 in a 3:1 intensity ratio. Estimate 75% and 25% abundance, calculate Aᵣ=35.5, and check calibration, purity and interfering peaks. A silicon device example connects four valence electrons with semiconductor behaviour.",
+      "contentTier": "exam-ready"
     },
     {
       "title": "Chapter 3: Covalent Bonding and Molecular Shapes",
