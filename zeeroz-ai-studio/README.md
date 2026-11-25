@@ -58,3 +58,12 @@ Urdu voice synthesis and video recording run in the browser. Firebase browser co
 - 16:9 scene exports now use MP4 when reported as supported, otherwise WebM; the downloaded extension and status reflect the selected MIME type. The 9:16 3D path already used native MP4/WebM selection.
 - These checks use browser APIs only; no new package, API key, account, backend, storage service or billing activation was added. A reported MIME type does not guarantee a long encode will finish on a constrained device.
 - References: https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/isTypeSupported_static and https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/captureStream. GitHub Free limits above were checked against current GitHub billing documentation.
+
+
+## Hybrid local-first video production — 2026-11-25
+- The default path remains fully browser-local after the app and voice models are loaded: Academy lesson → storyboard → local neural narration → procedural Three.js science model → talking 3D teacher lip-sync → browser MP4/WebM export.
+- Optional AI B-roll workflow: build a scene-specific educational prompt from the selected storyboard scene, open Google Flow, generate a short MP4/WebM visual, and import it into the Studio. The imported clip is composited into the science-display area during the final 9:16 export; the Zeeroz 3D teacher, local narration, lesson text and export remain in the browser. The AI clip is muted in the composite so it does not replace the lesson narration.
+- AI B-roll is optional. If no clip is imported or the "Use this AI clip" toggle is off, the local animated science engine remains the visual source. Clearing the clip restores the local 3D visual path.
+- Recommended imported clip: 5–8 seconds, MP4 or WebM, under 150 MB. Large clips may exceed mobile browser memory or encoder limits. Preview and verify the scientific accuracy of every AI-generated visual before publishing.
+- No Gemini API key is placed in browser code, local storage, Firestore or Git. Google Flow availability/credits and any API billing are separate from the local renderer. Direct API generation is intentionally not enabled until a secure server-side provider, model availability, Google Cloud project and billing configuration are confirmed.
+- The hybrid UI is an AI-assisted import-and-composite workflow, not a claim that the Studio itself currently generates AI video through an API. Social publishing remains governed by the separate Social Queue provider connection states.
