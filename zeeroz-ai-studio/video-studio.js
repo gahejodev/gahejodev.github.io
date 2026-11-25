@@ -239,7 +239,7 @@ async function initStudioAvatar(){
    runStudioPreflight();
    const file=$("voiceTrack").files?.[0];
    play.disabled=!file;
-   if($("export3DVideo"))$("export3DVideo").disabled=!file;
+   if($("export3DVideo"))$("export3DVideo").disabled=!studioPreflight.full3DExport||!file;
    avatarStatus(file?"3D teacher ready. Play the selected lesson narration.":"3D teacher ready. Upload narration audio above.");
   };
   style.addEventListener("change",create);create();
