@@ -23,3 +23,15 @@
 - Used an inline SVG X mark, accessible label, and safe new-tab link attributes; no external icon library or script added.
 - File changed: `zeeroz-academy/index.html`.
 - Deployment: published through the existing GitHub Pages workflow after commit; verify the run and public mirror before marking live.
+
+ 
+## 2026-11-26 — Zeeroz Career & Test Preparation portal foundation
+
+- Expanded the existing Job Preparation route (catalog.html?level=jobs) into a dedicated Career & Test Preparation hub with nine pathways: IBA, SIBA Testing Services (STS), CBA (identity pending confirmation), SPSC, FPSC, NTS, MDCAT, ECAT and MBBS/BDS admission guidance.
+- Added mobile-responsive search and category filters, verified official-source links where available, shared-skill overview, and an interactive three-question timed demonstration quiz with scoring and explanations. The quiz is explicitly labelled as a generic demonstration and does not claim to represent an official paper or save student marks.
+- Kept the existing Sindh Teaching Licence preparation portal visible as the currently available dedicated preparation programme.
+- Added syllabus/source safeguards: post-specific notices and current prospectuses determine the syllabus, paper structure, negative marking and time limits; ECAT patterns are institution-specific; CBA's intended organisation must be confirmed before publishing an exam-specific course.
+- Updated homepage Career & Test Prep links to the expanded portal.
+- No Firebase rules, authentication, billing, paid API, credentials or student records changed. This is the portal/UI foundation; the course-to-exam mapping, verified content extraction, exam-specific question banks, authenticated test attempts and persistent analytics remain the next implementation stages.
+- Official references checked: https://sts.net.pk/ ; https://nts.org.pk/ ; https://spsc.gov.pk/Syllabus.php ; https://fpsc.gov.pk/ ; https://pmdc.pk/ ; https://www.iba.edu.pk/.
+- Deployment and automated checks must pass before describing the new portal as live.
