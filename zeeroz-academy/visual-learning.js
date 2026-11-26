@@ -187,7 +187,8 @@ export function mountLiquidModel(container,{language="en"}={}){
   const motionWord=celsius<30?t.low:celsius<60?t.moderate:t.high;
   const tendency=thermal*0.68+(3-strength)*0.16;
   const escapeWord=tendency<0.34?t.low:tendency<0.68?t.moderate:t.high;
-  const surfaceWord=celsius<35?t.high:celsius<65?t.moderate:t.low;
+  const surfaceScore=(1-thermal)*0.55+((strength-1)/2)*0.45;
+  const surfaceWord=surfaceScore>=0.65?t.high:surfaceScore>=0.35?t.moderate:t.low;
   const strengthWord=strength===1?t.weak:strength===2?t.medium:t.strong;
   temp.out.textContent=celsius+" °C";attraction.out.textContent=strengthWord;
   motion.querySelector("strong").textContent=motionWord;
