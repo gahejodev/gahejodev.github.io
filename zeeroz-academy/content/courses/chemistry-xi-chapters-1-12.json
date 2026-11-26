@@ -2,7 +2,7 @@
   "id": "chemistry-xi-chapters-1-12",
   "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
   "description": "Supplementary Chemistry XI course with 12 units. Chapters 1–3 are exam-ready against DCAR 2024 Grade XI SLOs; Chapters 4–12 remain outline-stage.",
-  "version": "6",
+  "version": "7",
   "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B: Chapter 1 Stoichiometry SLOs C-11-B-50 to C-11-B-59; Chapter 2 Atomic Structure SLOs C-11-B-01 to C-11-B-27; Chapter 3 Covalent Bonding and Molecular Shapes SLOs C-11-B-32 to C-11-B-39. Molecular polarity cross-link C-11-B-46. Chapters 1–3 are exam-ready; Chapters 4–12 remain outline-stage.",
   "sourceReferences": [
     {
@@ -24,6 +24,11 @@
       "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
       "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
       "note": "Grade XI Chemical Bonding SLOs C-11-B-32 to C-11-B-39, printed page 35; molecular-polarity cross-link C-11-B-46, printed page 36."
+    },
+    {
+      "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+      "note": "Grade XI States and Phases of Matter SLO C-11-B-69 covers physical properties of gases, including compressibility, expandability and pressure (printed p.45). Gas-law SLO C-10-B-04 is Grade X prerequisite enrichment, not a new Grade XI outcome."
     }
   ],
   "chapters": [
@@ -2803,77 +2808,776 @@
     },
     {
       "title": "Chapter 4: States of Matter I — Gases",
-      "description": "Supplementary topic 4: Chapter 4: States of Matter I — Gases.",
+      "description": "Grade XI gas properties expanded to exam-ready depth. DCAR 2024 Grade XI SLO C-11-B-69 covers compressibility, expandability and pressure. Gas-law equations are clearly labelled as Grade X prerequisite enrichment, not new Grade XI outcomes.",
+      "contentTier": "exam-ready",
+      "learningOutcomes": [
+        "Describe gas properties and compare gases with solids and liquids",
+        "Explain random particle motion and how wall collisions produce pressure",
+        "Define pressure as normal force per unit area and use the pascal unit",
+        "Explain compressibility and expansion through large spaces between particles",
+        "Predict qualitative pressure changes with temperature at fixed volume and amount",
+        "Apply the particle model to syringes, tyres and certified compressed-air systems",
+        "Distinguish Grade XI SLO C-11-B-69 from Grade X gas-law enrichment"
+      ],
+      "keyTerms": [
+        "gas",
+        "kinetic particle model",
+        "random motion",
+        "intermolecular spacing",
+        "compressibility",
+        "expandability",
+        "pressure",
+        "pascal",
+        "momentum transfer",
+        "density",
+        "absolute temperature",
+        "ideal-gas model",
+        "gauge pressure",
+        "pressure regulator"
+      ],
       "lessons": [
         {
-          "title": "Chapter 4: States of Matter I — Gases — concepts",
+          "title": "Gas state: particle arrangement and observable properties",
           "type": "text",
-          "content": "## Learning outcomes\nGas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for temperature and consistent units. The ideal gas equation is PV=nRT.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "content": "## Learning outcomes\nDescribe gas properties using particle arrangement and motion.\n\nA gas has **no fixed shape and no fixed volume**. It flows and expands to occupy the available volume of its container. Gas particles are much farther apart, on average, than particles in liquids and solids, and they move in all directions. A gas can spread through a room and mix with other gases.\n\nThe large average spacing helps explain why many gases have relatively low density and high compressibility. Density is mass per unit volume: ρ = m/V. A fixed mass of gas can occupy a large volume, so its density is often much lower than that of the same substance in a condensed state.\n\n**Compare the states:** a solid usually has a fixed shape and volume; a liquid has a nearly fixed volume but takes the shape of its container; a gas has neither a fixed shape nor a fixed volume.\n\n**Revision:** gases flow, spread to fill a container, have relatively low density and are readily compressed because particles are widely separated.",
           "explanations": {
-            "ur": "گیس کے ذرات بے ترتیب حرکت کرتے اور ایک دوسرے سے دور ہوتے ہیں۔ دباؤ برتن کی دیواروں سے ٹکراؤ کے باعث بنتا ہے۔ گیس قوانین دباؤ، حجم، درجہ حرارت اور مقدار کا تعلق بتاتے ہیں؛ درجہ حرارت کیلون میں لیں۔",
-            "sd": "گئس جا ذرڙا بي ترتيب هلن ٿا ۽ هڪ ٻئي کان پري هوندا آهن. دٻاءُ ڀتين سان ٽڪرائن سبب پيدا ٿئي ٿو. گئس جا قانون دٻاءُ، حجم، گرمي پد ۽ مقدار جو لاڳاپو ٻڌائن ٿا؛ گرمي پد ڪيلون ۾ وٺو."
+            "ur": "## سیکھنے کے نتائج\nگیس کی خصوصیات کو ذرات کی ترتیب اور حرکت سے سمجھائیں۔\n\nگیس کی **مقرر شکل اور مقرر حجم نہیں ہوتا**۔ یہ بہتی اور اپنے برتن کی دستیاب جگہ بھر دیتی ہے۔ گیس کے ذرات مائع اور ٹھوس کے ذرات سے اوسطاً بہت دور ہوتے ہیں اور ہر سمت حرکت کرتے ہیں۔ گیس پورے کمرے میں پھیل کر دوسری گیسوں سے مل سکتی ہے۔\n\nذرات کے درمیان بڑی اوسط جگہ کم کثافت اور زیادہ دباؤ پذیری سمجھاتی ہے۔ کثافت فی اکائی حجم کمیت ہے: ρ = m/V۔ گیس کی مقرر کمیت بڑا حجم گھیر سکتی ہے، اس لیے اس کی کثافت عموماً اسی مادے کی مائع یا ٹھوس حالت سے کم ہوتی ہے۔\n\n**موازنہ:** ٹھوس کی شکل اور حجم عموماً مقرر؛ مائع کا حجم تقریباً مقرر مگر شکل برتن کے مطابق؛ گیس کی نہ شکل مقرر نہ حجم۔\n\n**خلاصہ:** گیس بہتی، برتن بھرتی، نسبتاً کم کثافت رکھتی اور ذرات کے درمیان بڑی جگہ کی وجہ سے آسانی سے دبتی ہے۔",
+            "sd": "## سکيا جا مقصد\nگئس جون خاصيتون ذرڙن جي ترتيب ۽ حرڪت سان سمجهايو.\n\nگئس جي **مقرر شڪل ۽ مقرر حجم نه هوندو آهي**. اها وهي ٿي ۽ ٿانوَ جي موجود جاءِ ڀري ٿي. گئس جا ذرڙا مائع ۽ ٺوس جي ذرڙن کان سراسري طور گهڻو پري ۽ هر رخ ۾ حرڪت ڪندڙ هوندا آهن. گئس ڪمري ۾ پکڙجي ٻين گئسن سان ملي سگهي ٿي.\n\nذرڙن وچ وڏي جاءِ گهٽ گهاٽائي ۽ وڌيڪ دٻاءَ پذيري سمجهائي ٿي. گهاٽائي في ايڪي حجم ماس آهي: ρ = m/V. گئس جي مقرر ماس وڏو حجم والاري سگهي ٿي، تنهنڪري ان جي گهاٽائي عام طور ساڳئي مادّي جي مائع يا ٺوس حالت کان گهٽ هوندي آهي.\n\n**ڀيٽ:** ٺوس جي شڪل ۽ حجم عام طور مقرر؛ مائع جو حجم لڳ ڀڳ مقرر پر شڪل ٿانوَ مطابق؛ گئس جي نه مقرر شڪل نه حجم.\n\n**خلاصو:** گئس وهي ٿي، ٿانوَ ڀري ٿي، گهٽ گهاٽائي رکي ٿي ۽ ذرڙن وچ وڏي جاءِ سبب آسانيءَ سان دٻجي ٿي."
           }
         },
         {
-          "title": "Chapter 4: States of Matter I — Gases — applications and problem solving",
+          "title": "Kinetic particle model: random motion and gas pressure",
           "type": "text",
-          "content": "Apply the concepts in chapter 4: states of matter i — gases to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "content": "## Learning outcomes\nExplain random motion, collisions and gas pressure using the kinetic particle model.\n\nGas particles are in continuous, rapid, random motion. A collision with a container wall changes a particle's momentum and exerts a force on the wall. The combined effect of many collisions produces measurable pressure.\n\n**Pressure** is normal force per unit area: P = F/A. Its SI unit is the pascal (Pa), equal to one newton per square metre. Pressure arises from repeated momentum transfer during collisions, not from a gas acting like a rigid solid.\n\nIn the simplified ideal-gas model, particle volume is negligible compared with the container, sustained attractions are neglected and collisions are treated as elastic. Real gases are not perfectly ideal, especially at high pressure or low temperature.\n\nAt fixed amount and volume, raising absolute temperature increases average translational kinetic energy. Particles move faster on average and transfer momentum to the walls more rapidly, so pressure rises.",
           "explanations": {
-            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
-            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+            "ur": "## سیکھنے کے نتائج\nحرکی ذرّاتی نظریے سے بے ترتیب حرکت، ٹکراؤ اور دباؤ سمجھائیں۔\n\nگیس کے ذرات مسلسل، تیز اور بے ترتیب حرکت کرتے ہیں۔ برتن کی دیوار سے ٹکرانے پر ذرّے کا مومنٹم بدلتا اور دیوار پر قوت لگتی ہے۔ بے شمار ٹکراؤ کا مجموعی اثر قابلِ پیمائش دباؤ پیدا کرتا ہے۔\n\n**دباؤ** فی اکائی رقبہ عمودی قوت ہے: P = F/A۔ اس کی SI اکائی پاسکل (Pa)، یعنی ایک نیوٹن فی مربع میٹر ہے۔ دباؤ بار بار مومنٹم منتقل ہونے سے پیدا ہوتا ہے، نہ کہ گیس کے ٹھوس جسم کی طرح دھکا دینے سے۔\n\nسادہ مثالی گیس ماڈل میں ذرات کا حجم برتن کے مقابلے میں نہایت کم، مستقل کشش نظر انداز اور ٹکراؤ لچکدار فرض ہوتے ہیں۔ حقیقی گیسیں مکمل مثالی نہیں، خصوصاً زیادہ دباؤ یا کم درجہ حرارت پر۔\n\nمقرر مقدار اور حجم پر مطلق درجہ حرارت بڑھانے سے اوسط انتقالی حرکی توانائی بڑھتی ہے۔ ذرات تیز حرکت کرتے اور دیواروں کو زیادہ تیزی سے مومنٹم دیتے ہیں، اس لیے دباؤ بڑھتا ہے۔",
+            "sd": "## سکيا جا مقصد\nحرڪي ذرڙن واري نظريي سان بي ترتيب حرڪت، ٽڪر ۽ دٻاءُ سمجهايو.\n\nگئس جا ذرڙا لڳاتار، تيز ۽ بي ترتيب هلن ٿا. ٿانوَ جي ڀت سان ٽڪر وقت ذرڙي جو مومنٽم بدلجي ٿو ۽ ڀت تي قوت لڳي ٿي. ڪيترن ٽڪرن جو گڏيل اثر ماپجڻ جهڙو دٻاءُ پيدا ڪري ٿو.\n\n**دٻاءُ** في ايڪي ايراضي عمودي قوت آهي: P = F/A. ان جي SI ايڪي پاسڪل (Pa)، يعني هڪ نيوٽن في چورس ميٽر آهي. دٻاءُ بار بار مومنٽم منتقل ٿيڻ سان پيدا ٿئي ٿو، نه ته گئس ٺوس جسم وانگر ڌڪو ڏئي ٿي.\n\nسادو مثالي گئس ماڊل ذرڙن جي حجم کي ٿانوَ جي ڀيٽ ۾ تمام گهٽ، مستقل ڇڪ کي نظرانداز ۽ ٽڪرن کي لچڪدار فرض ڪري ٿو. حقيقي گئسون مڪمل مثالي ناهن، خاص ڪري گهڻي دٻاءَ يا گهٽ گرمي پد تي.\n\nمقرر مقدار ۽ حجم تي مطلق گرمي پد وڌائڻ سان سراسري انتقالي حرڪي توانائي وڌي ٿي. ذرڙا تيز هلن ٿا ۽ ڀتين ڏانهن مومنٽم وڌيڪ تيزيءَ سان منتقل ڪن ٿا، تنهنڪري دٻاءُ وڌي ٿو."
+          }
+        },
+        {
+          "title": "Compressibility, expansion and gas density",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain gas compressibility and expansion, and predict density changes for a fixed mass.\n\nGas particles are separated by large spaces. External pressure can bring them closer, so the same mass occupies a smaller volume. The particles themselves do not shrink under ordinary laboratory pressures. This property is **compressibility**.\n\nWhen pressure is reduced or a gas enters a larger space, it expands to occupy the available volume. A gas therefore has no fixed volume. This differs from a liquid, which changes shape but keeps nearly the same volume.\n\nDensity is ρ = m/V. If a closed sample keeps the same mass and its volume is halved, its density doubles. If the same mass expands to twice the volume, density halves. Always state that mass is unchanged.\n\n**Applications:** a closed syringe can compress trapped air; a bicycle pump reduces air volume before it enters a tyre; compressed-air receivers store gas in certified pressure-rated vessels. Never improvise a pressure vessel or heat a sealed container.",
+          "explanations": {
+            "ur": "## سیکھنے کے نتائج\nگیس کی دباؤ پذیری اور پھیلاؤ سمجھائیں اور مقرر کمیت کی کثافت میں تبدیلی کی پیش گوئی کریں۔\n\nگیس کے ذرات کے درمیان بڑی جگہ ہوتی ہے۔ بیرونی دباؤ ذرات کو قریب لا سکتا ہے، اس لیے وہی کمیت کم حجم گھیرتی ہے۔ عام تجربہ گاہی دباؤ پر ذرات خود نہیں سکڑتے۔ اسے **دباؤ پذیری** کہتے ہیں۔\n\nدباؤ کم ہو یا گیس بڑی جگہ میں داخل ہو تو وہ دستیاب حجم بھرنے تک پھیلتی ہے۔ اس لیے گیس کا حجم مقرر نہیں۔ مائع شکل بدلتا ہے مگر حجم تقریباً برقرار رکھتا ہے۔\n\nکثافت ρ = m/V ہے۔ بند نمونے کی کمیت یکساں اور حجم آدھا ہو تو کثافت دوگنی ہوتی ہے۔ اسی کمیت کا حجم دوگنا ہو تو کثافت آدھی ہوتی ہے۔ ہمیشہ واضح کریں کہ کمیت تبدیل نہیں ہوئی۔\n\n**استعمال:** بند سرنج میں پھنسی ہوا دبائی جا سکتی ہے؛ سائیکل پمپ ہوا کا حجم کم کر کے ٹائر میں بھیجتا ہے؛ کمپریسڈ ایئر رسیور منظور شدہ دباؤ برداشت کرنے والے برتن ہوتے ہیں۔ خود ساختہ برتن نہ بنائیں اور بند برتن گرم نہ کریں۔",
+            "sd": "## سکيا جا مقصد\nگئس جي دٻاءَ پذيري ۽ پکڙجڻ سمجهايو ۽ مقرر ماس جي گهاٽائي ۾ تبديلي ٻڌايو.\n\nگئس جي ذرڙن وچ وڏي جاءِ هوندي آهي. ٻاهريون دٻاءُ ذرڙن کي ويجهو آڻي سگهي ٿو، تنهنڪري ساڳيو ماس گهٽ حجم والاري ٿو. عام ليبارٽري دٻاءَ تي ذرڙا پاڻ نٿا سُڪڙن. هن کي **دٻاءَ پذيري** چئبو آهي.\n\nدٻاءُ گهٽجي يا گئس وڏي جاءِ ۾ وڃي ته موجود حجم ڀرڻ تائين پکڙجي ٿي. تنهنڪري گئس جو حجم مقرر ناهي. مائع شڪل بدلائي ٿو پر حجم لڳ ڀڳ ساڳيو رکي ٿو.\n\nگهاٽائي ρ = m/V آهي. بند نموني جو ماس ساڳيو ۽ حجم اڌ هجي ته گهاٽائي ٻيڻي ٿيندي. ساڳئي ماس جو حجم ٻيڻو هجي ته گهاٽائي اڌ ٿيندي. هميشه ٻڌايو ته ماس نه بدليو آهي.\n\n**استعمال:** بند سرنجي ۾ ڦاٿل هوا دٻائي سگهجي ٿي؛ سائيڪل پمپ هوا جو حجم گهٽائي ٽائر ۾ موڪلي ٿو؛ ڪمپريسڊ ايئر رسيور منظور ٿيل دٻاءَ برداشت ڪندڙ ٿانوَ آهن. پاڻ ٺهيل ٿانوَ نه ٺاهيو ۽ بند ٿانوَ کي گرم نه ڪريو."
+          }
+        },
+        {
+          "title": "Temperature, particle speed and pressure in a rigid container",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain qualitatively how temperature affects pressure when gas volume and amount are fixed.\n\nFor an ideal gas, average translational kinetic energy is proportional to absolute temperature. Warming increases average particle speed; cooling decreases it.\n\nIn a rigid sealed container, volume and amount remain fixed. When warmed, particles reach the walls more often and their momentum changes are larger on average. Total force on the walls rises, so pressure increases. Cooling gives the opposite trend.\n\nThe boundary condition matters. A flexible balloon may expand when warmed; its pressure can remain closer to the surrounding pressure while volume changes. Check whether a container can expand before applying the rigid-container explanation.\n\n**Safety:** a sealed aerosol can or gas cylinder can develop dangerously high pressure if heated. Keep pressure vessels away from flames and follow the manufacturer's instructions.",
+          "explanations": {
+            "ur": "## سیکھنے کے نتائج\nمقرر حجم اور مقدار پر درجہ حرارت کے دباؤ پر اثر کی وضاحت کریں۔\n\nمثالی گیس میں اوسط انتقالی حرکی توانائی مطلق درجہ حرارت کے متناسب ہے۔ گرم کرنے سے ذرات کی اوسط رفتار بڑھتی اور ٹھنڈا کرنے سے کم ہوتی ہے۔\n\nسخت بند برتن میں حجم اور مقدار مستقل ہیں۔ گرم کرنے سے ذرات دیواروں تک زیادہ بار پہنچتے اور مومنٹم زیادہ منتقل کرتے ہیں۔ دیواروں پر کل قوت بڑھتی ہے، اس لیے دباؤ بڑھتا ہے۔ ٹھنڈا کرنے سے الٹا ہوتا ہے۔\n\nحد کی شرط اہم ہے۔ لچکدار غبارہ گرم ہونے پر پھیل سکتا ہے؛ حجم بدلنے کے دوران دباؤ اردگرد کے دباؤ کے قریب رہ سکتا ہے۔ سخت برتن کی وضاحت لگانے سے پہلے دیکھیں کہ برتن پھیل سکتا ہے یا نہیں۔\n\n**حفاظت:** بند ایروسول کین یا گیس سلنڈر گرم ہونے پر خطرناک دباؤ پیدا کر سکتا ہے۔ دباؤ والے برتن آگ سے دور رکھیں اور بنانے والے کی ہدایات پر عمل کریں۔",
+            "sd": "## سکيا جا مقصد\nمقرر حجم ۽ مقدار تي گرمي پد جو دٻاءَ تي اثر سمجهايو.\n\nمثالي گئس ۾ سراسري انتقالي حرڪي توانائي مطلق گرمي پد جي متناسب آهي. گرم ڪرڻ سان ذرڙن جي سراسري رفتار وڌي ۽ ٿڌو ڪرڻ سان گهٽجي ٿي.\n\nسخت بند ٿانوَ ۾ حجم ۽ مقدار مقرر رهن ٿا. گرم ڪرڻ سان ذرڙا ڀتين تائين وڌيڪ ڀيرا پهچن ۽ وڌيڪ مومنٽم منتقل ڪن ٿا. ڀتين تي ڪل قوت وڌي ٿي، تنهنڪري دٻاءُ وڌي ٿو. ٿڌو ڪرڻ سان ابتڙ ٿئي ٿو.\n\nحد جي شرط اهم آهي. لچڪدار ڦوڪڻو گرم ٿيڻ سان ڦهلجي سگهي ٿو؛ حجم بدلجڻ وقت دٻاءُ چوڌاري دٻاءَ جي ويجهو رهي سگهي ٿو. سخت ٿانوَ واري وضاحت کان اڳ ڏسو ته ٿانوَ ڦهلجي سگهي ٿو يا نه.\n\n**حفاظت:** بند ايروسول ڪين يا گئس سلنڈر گرم ٿيڻ سان خطرناڪ دٻاءُ پيدا ڪري سگهي ٿو. دٻاءَ وارا ٿانوَ باهه کان پري رکو ۽ ٺاهيندڙ جون هدايتون مڃيو."
+          }
+        },
+        {
+          "title": "Gas applications and a prior-knowledge gas-law bridge",
+          "type": "text",
+          "content": "## Learning outcomes\nApply the particle model to familiar gas systems and distinguish Grade XI outcomes from prior-knowledge enrichment.\n\nA tyre gauge normally displays **gauge pressure**: pressure above the surrounding atmospheric pressure. Tyre pressure also changes with temperature and tyre volume. Check tyres when cool and follow the vehicle manufacturer's recommendation.\n\nA compressor adds gas particles to a rigid receiver. At roughly constant temperature, more particles in the same volume create more wall collisions and greater pressure. A gauge and regulator help monitor the system. Use only certified equipment rated for the intended pressure.\n\n**Prior-knowledge bridge, not a new Grade XI SLO:** DCAR Grade X includes Boyle's, Charles' and Avogadro's gas laws (C-10-B-04). The ideal-gas equation PV = nRT combines these relationships for an idealized gas. Use kelvin and consistent units. These equations are enrichment; the Grade XI target here is the physical properties of gases in C-11-B-69.\n\n**Worked bridge example:** a sealed syringe contains 40 cm³ of air at 100 kPa absolute pressure. If compressed slowly to 20 cm³ at approximately constant temperature, Boyle's-law reasoning predicts about 200 kPa absolute pressure. This idealized result can differ if there are leaks, friction or temperature changes.",
+          "explanations": {
+            "ur": "## سیکھنے کے نتائج\nگیس کے ذرّاتی ماڈل کو روزمرہ نظاموں پر لاگو کریں اور جماعت XI کے نتائج کو سابقہ علم کی توسیع سے الگ رکھیں۔\n\nٹائر گیج عموماً **گیج پریشر** دکھاتا ہے، یعنی اردگرد کے فضائی دباؤ سے زیادہ دباؤ۔ ٹائر کا دباؤ درجہ حرارت اور حجم سے بھی بدلتا ہے۔ ٹائر ٹھنڈے ہونے پر چیک کریں اور گاڑی بنانے والے کی ہدایت پر عمل کریں۔\n\nکمپریسر سخت رسیور میں گیس کے ذرات شامل کرتا ہے۔ تقریباً مستقل درجہ حرارت پر اسی حجم میں مزید ذرات دیواروں سے زیادہ ٹکراتے اور دباؤ بڑھاتے ہیں۔ گیج اور ریگولیٹر نگرانی میں مدد دیتے ہیں۔ صرف تصدیق شدہ اور مطلوبہ دباؤ کے لیے منظور شدہ سامان استعمال کریں۔\n\n**سابقہ علم کی توسیع، نیا Grade XI SLO نہیں:** DCAR جماعت X میں Boyle، Charles اور Avogadro کے گیس قوانین شامل ہیں (C-10-B-04)۔ مثالی گیس مساوات PV = nRT ان تعلقات کو یکجا کرتی ہے۔ کیلون اور یکساں اکائیاں استعمال کریں۔ یہ اضافی مطالعہ ہے؛ یہاں Grade XI ہدف C-11-B-69 میں گیسوں کی طبعی خصوصیات ہیں۔\n\n**مثالی مثال:** بند سرنج میں 100 kPa مطلق دباؤ پر 40 cm³ ہوا ہے۔ تقریباً مستقل درجہ حرارت پر 20 cm³ تک دبانے سے Boyle قانون کے مطابق دباؤ تقریباً 200 kPa ہوگا۔ رساؤ، رگڑ یا درجہ حرارت بدلنے سے حقیقی نتیجہ مختلف ہو سکتا ہے۔",
+            "sd": "## سکيا جا مقصد\nگئس جي ذرڙن واري ماڊل کي روزاني نظامن تي لاڳو ڪريو ۽ ڪلاس XI جي نتيجن کي اڳئين ڄاڻ واري واڌ کان الڳ رکو.\n\nٽائر گيج عام طور **گيج پريشر** ڏيکاري ٿو، يعني چوڌاري فضائي دٻاءَ کان وڌيڪ دٻاءُ. ٽائر جو دٻاءُ گرمي پد ۽ حجم سان به بدلجي ٿو. ٽائر ٿڌا هجن تڏهن چيڪ ڪريو ۽ گاڏي ٺاهيندڙ جي هدايت مڃيو.\n\nڪمپريسر سخت رسيور ۾ گئس جا ذرڙا وڌائي ٿو. لڳ ڀڳ مستقل گرمي پد تي ساڳئي حجم ۾ وڌيڪ ذرڙا ڀتين سان وڌيڪ ٽڪرائين ۽ دٻاءُ وڌائين ٿا. گيج ۽ ريگيوليٽر نگراني ۾ مدد ڪن ٿا. رڳو تصديق ٿيل ۽ گهربل دٻاءَ لاءِ منظور ٿيل سامان استعمال ڪريو.\n\n**اڳئين ڄاڻ جي واڌ، نئون Grade XI SLO نه:** DCAR ڪلاس X ۾ Boyle، Charles ۽ Avogadro جا گئس قانون شامل آهن (C-10-B-04). مثالي گئس مساوات PV = nRT انهن لاڳاپن کي گڏ ڪري ٿي. ڪيلون ۽ هڪجهڙيون ايڪيون استعمال ڪريو. هي اضافي مطالعو آهي؛ هتي Grade XI هدف C-11-B-69 ۾ گئسن جون طبعياتي خاصيتون آهن.\n\n**مثالي مثال:** بند سرنجي ۾ 100 kPa مطلق دٻاءَ تي 40 cm³ هوا آهي. لڳ ڀڳ مستقل گرمي پد تي 20 cm³ ڪرڻ سان Boyle قانون موجب دٻاءُ لڳ ڀڳ 200 kPa ٿيندو. ليڪ، رگڙ يا گرمي پد بدلجڻ سان حقيقي نتيجو مختلف ٿي سگهي ٿو."
           }
         }
       ],
       "questions": [
         {
-          "question": "Which statement best describes chapter 4: states of matter i — gases?",
+          "question": "What best explains why a gas takes the shape of its container?",
           "options": {
-            "A": "Gas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for tempe",
-            "B": "The topic is unrelated to measurable evidence.",
-            "C": "Units and definitions are unnecessary.",
-            "D": "The concept cannot be applied to problems."
+            "A": "Gas particles move freely and spread through available space.",
+            "B": "Particles are fixed in a crystal lattice.",
+            "C": "Only surface particles can move.",
+            "D": "Particles form a rigid framework."
           },
           "correctOption": "A",
-          "explanation": "Gas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for temperature and consistent units. The ideal gas equation is PV=nRT."
+          "explanation": "Gas particles move continuously and randomly, spreading through the available volume.",
+          "translations": {
+            "ur": {
+              "question": "گیس برتن کی شکل کیوں اختیار کرتی ہے؟",
+              "options": {
+                "A": "ذرات آزادانہ حرکت کرتے ہوئے دستیاب جگہ میں پھیل جاتے ہیں۔",
+                "B": "ذرات قلمی جال میں مقرر ہوتے ہیں۔",
+                "C": "صرف سطح کے ذرات حرکت کرتے ہیں۔",
+                "D": "ذرات سخت ڈھانچا بناتے ہیں۔"
+              },
+              "explanation": "گیس کے ذرات مسلسل بے ترتیب حرکت کرتے اور برتن میں پھیل جاتے ہیں۔"
+            },
+            "sd": {
+              "question": "گئس ٿانوَ جي شڪل ڇو اختيار ڪري ٿي؟",
+              "options": {
+                "A": "ذرڙا آزاد نموني هلندي موجود جاءِ ۾ پکڙجن ٿا.",
+                "B": "ذرڙا قلمي ڄار ۾ مقرر هوندا آهن.",
+                "C": "صرف مٿاڇري وارا ذرڙا هلن ٿا.",
+                "D": "ذرڙا سخت ڍانچو ٺاهين ٿا."
+              },
+              "explanation": "گئس جا ذرڙا لڳاتار بي ترتيب حرڪت ڪن ٿا ۽ ٿانوَ ۾ پکڙجن ٿا."
+            }
+          }
         },
         {
-          "question": "How should a student solve a problem in chapter 4: states of matter i — gases?",
+          "question": "Why can a gas usually be compressed much more than a liquid?",
           "options": {
-            "A": "Guess without identifying quantities.",
-            "B": "Apply the relevant principle, show steps and check units.",
-            "C": "Ignore the stated conditions.",
-            "D": "Use an unrelated equation."
+            "A": "Its particles shrink.",
+            "B": "Large spaces exist between its particles.",
+            "C": "Its particles lose mass.",
+            "D": "Its particles become solid."
           },
           "correctOption": "B",
-          "explanation": "Gas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for temperature and consistent units. The ideal gas equation is PV=nRT."
+          "explanation": "Compression mainly reduces the spaces between gas particles, not the particles themselves.",
+          "translations": {
+            "ur": {
+              "question": "گیس کو مائع کے مقابلے میں زیادہ دبایا کیوں جا سکتا ہے؟",
+              "options": {
+                "A": "اس کے ذرات سکڑ جاتے ہیں۔",
+                "B": "ذرات کے درمیان بڑی خالی جگہیں ہوتی ہیں۔",
+                "C": "ذرات کمیت کھو دیتے ہیں۔",
+                "D": "ذرات ٹھوس بن جاتے ہیں۔"
+              },
+              "explanation": "دباؤ سے بنیادی طور پر ذرات کے درمیان خالی جگہ کم ہوتی ہے، ذرات خود نہیں سکڑتے۔"
+            },
+            "sd": {
+              "question": "گئس کي مائع کان وڌيڪ دٻائي ڇو سگهجي ٿو؟",
+              "options": {
+                "A": "ذرڙا پاڻ سُڪڙي وڃن ٿا.",
+                "B": "ذرڙن جي وچ ۾ وڏي خالي جاءِ هوندي آهي.",
+                "C": "ذرڙا ماس وڃائين ٿا.",
+                "D": "ذرڙا ٺوس ٿين ٿا."
+              },
+              "explanation": "دٻاءَ سان ذرڙن وچ واري خالي جاءِ گهٽجي ٿي، ذرڙا پاڻ نٿا سُڪڙن."
+            }
+          }
+        },
+        {
+          "question": "What produces gas pressure on a sealed container wall?",
+          "options": {
+            "A": "Gas colour",
+            "B": "Container weight alone",
+            "C": "Particle collisions that transfer momentum",
+            "D": "Chemical bonds in the wall"
+          },
+          "correctOption": "C",
+          "explanation": "Collisions transfer momentum and exert force; normal force per unit area is pressure.",
+          "translations": {
+            "ur": {
+              "question": "بند برتن کی دیوار پر گیس کا دباؤ کس وجہ سے ہوتا ہے؟",
+              "options": {
+                "A": "گیس کے رنگ سے",
+                "B": "صرف برتن کے وزن سے",
+                "C": "ذرات کے ٹکرانے اور مومنٹم منتقل کرنے سے",
+                "D": "دیوار کے کیمیائی بند سے"
+              },
+              "explanation": "ٹکراؤ مومنٹم منتقل کر کے قوت پیدا کرتے ہیں؛ فی اکائی رقبہ قوت دباؤ ہے۔"
+            },
+            "sd": {
+              "question": "بند ٿانوَ جي ڀت تي گئس جو دٻاءُ ڇا پيدا ڪري ٿو؟",
+              "options": {
+                "A": "گئس جي رنگ سبب",
+                "B": "صرف ٿانوَ جي وزن سبب",
+                "C": "ذرڙن جي ٽڪر ۽ مومنٽم جي منتقلي سبب",
+                "D": "ڀت جي ڪيميائي بند سبب"
+              },
+              "explanation": "ٽڪر مومنٽم منتقل ڪري قوت پيدا ڪن ٿا؛ في ايراضي قوت دٻاءُ آهي."
+            }
+          }
+        },
+        {
+          "question": "What is the SI unit of pressure?",
+          "options": {
+            "A": "Joule",
+            "B": "Watt",
+            "C": "Newton metre",
+            "D": "Pascal"
+          },
+          "correctOption": "D",
+          "explanation": "One pascal equals one newton per square metre: 1 Pa = 1 N m⁻².",
+          "translations": {
+            "ur": {
+              "question": "دباؤ کی SI اکائی کیا ہے؟",
+              "options": {
+                "A": "جول",
+                "B": "واٹ",
+                "C": "نیوٹن میٹر",
+                "D": "پاسکل"
+              },
+              "explanation": "ایک پاسکل ایک نیوٹن فی مربع میٹر ہے۔"
+            },
+            "sd": {
+              "question": "دٻاءَ جي SI ايڪي ڪهڙي آهي؟",
+              "options": {
+                "A": "جول",
+                "B": "واٽ",
+                "C": "نيوٽن ميٽر",
+                "D": "پاسڪل"
+              },
+              "explanation": "هڪ پاسڪل هڪ نيوٽن في چورس ميٽر آهي."
+            }
+          }
+        },
+        {
+          "question": "If the same normal force acts on a smaller area, pressure:",
+          "options": {
+            "A": "decreases",
+            "B": "increases",
+            "C": "becomes zero",
+            "D": "always stays unchanged"
+          },
+          "correctOption": "B",
+          "explanation": "P = F/A; reducing area while force stays the same increases pressure.",
+          "translations": {
+            "ur": {
+              "question": "ایک ہی عمودی قوت کم رقبے پر لگے تو دباؤ:",
+              "options": {
+                "A": "کم ہوگا",
+                "B": "بڑھے گا",
+                "C": "صفر ہوگا",
+                "D": "ہمیشہ یکساں رہے گا"
+              },
+              "explanation": "P = F/A؛ قوت یکساں ہو تو رقبہ کم کرنے سے دباؤ بڑھتا ہے۔"
+            },
+            "sd": {
+              "question": "ساڳي عمودي قوت ننڍي ايراضيءَ تي لڳي ته دٻاءُ:",
+              "options": {
+                "A": "گهٽ ٿيندو",
+                "B": "وڌندو",
+                "C": "صفر ٿيندو",
+                "D": "هميشه ساڳيو رهندو"
+              },
+              "explanation": "P = F/A؛ قوت ساڳي هجي ته ايراضي گهٽائڻ سان دٻاءُ وڌي ٿو."
+            }
+          }
+        },
+        {
+          "question": "When a fixed amount of gas is warmed in a rigid container, its average kinetic energy:",
+          "options": {
+            "A": "decreases",
+            "B": "becomes zero",
+            "C": "increases",
+            "D": "is unrelated to temperature"
+          },
+          "correctOption": "C",
+          "explanation": "Average translational kinetic energy is proportional to absolute temperature.",
+          "translations": {
+            "ur": {
+              "question": "سخت برتن میں گیس گرم کرنے سے اوسط حرکی توانائی:",
+              "options": {
+                "A": "کم ہوتی ہے",
+                "B": "صفر ہوتی ہے",
+                "C": "بڑھتی ہے",
+                "D": "درجہ حرارت سے غیر متعلق ہے"
+              },
+              "explanation": "اوسط انتقالی حرکی توانائی مطلق درجہ حرارت کے متناسب ہے۔"
+            },
+            "sd": {
+              "question": "سخت ٿانوَ ۾ گئس گرم ڪرڻ سان سراسري حرڪي توانائي:",
+              "options": {
+                "A": "گهٽجي ٿي",
+                "B": "صفر ٿئي ٿي",
+                "C": "وڌي ٿي",
+                "D": "گرمي پد سان لاڳاپيل ناهي"
+              },
+              "explanation": "سراسري انتقالي حرڪي توانائي مطلق گرمي پد جي متناسب آهي."
+            }
+          }
+        },
+        {
+          "question": "At fixed volume and amount, warming a gas generally makes its pressure:",
+          "options": {
+            "A": "fall",
+            "B": "become zero",
+            "C": "stay constant",
+            "D": "rise"
+          },
+          "correctOption": "D",
+          "explanation": "Faster particles transfer momentum to the walls more rapidly, increasing pressure.",
+          "translations": {
+            "ur": {
+              "question": "مستقل حجم اور مقدار پر گیس گرم کرنے سے دباؤ عموماً:",
+              "options": {
+                "A": "کم ہوتا ہے",
+                "B": "صفر ہوتا ہے",
+                "C": "مستقل رہتا ہے",
+                "D": "بڑھتا ہے"
+              },
+              "explanation": "تیز ذرات دیواروں کو زیادہ تیزی سے مومنٹم منتقل کرتے ہیں، اس لیے دباؤ بڑھتا ہے۔"
+            },
+            "sd": {
+              "question": "مستقل حجم ۽ مقدار تي گئس گرم ڪرڻ سان دٻاءُ عام طور:",
+              "options": {
+                "A": "گهٽجي ٿو",
+                "B": "صفر ٿئي ٿو",
+                "C": "ساڳيو رهي ٿو",
+                "D": "وڌي ٿو"
+              },
+              "explanation": "تيز ذرڙا ڀتين ڏانهن وڌيڪ تيزيءَ سان مومنٽم منتقل ڪن ٿا، تنهنڪري دٻاءُ وڌي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Which property follows from large spaces between gas particles?",
+          "options": {
+            "A": "High compressibility",
+            "B": "Fixed shape",
+            "C": "Rigid surface",
+            "D": "No motion"
+          },
+          "correctOption": "A",
+          "explanation": "Large spaces can be reduced when pressure is applied.",
+          "translations": {
+            "ur": {
+              "question": "گیس کے ذرات کی بڑی خالی جگہوں کا نتیجہ کیا ہے؟",
+              "options": {
+                "A": "زیادہ دباؤ پذیری",
+                "B": "مقرر شکل",
+                "C": "سخت سطح",
+                "D": "حرکت نہ ہونا"
+              },
+              "explanation": "دباؤ لگانے سے ذرات کے درمیان بڑی خالی جگہ کم کی جا سکتی ہے۔"
+            },
+            "sd": {
+              "question": "گئس جي ذرڙن وچ وڏي جاءِ جو نتيجو ڪهڙو آهي؟",
+              "options": {
+                "A": "وڏي دٻاءَ پذيري",
+                "B": "مقرر شڪل",
+                "C": "سخت مٿاڇري",
+                "D": "حرڪت نه هجڻ"
+              },
+              "explanation": "دٻاءُ ڏيڻ سان ذرڙن وچ واري خالي جاءِ گهٽائي سگهجي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Which expression defines density?",
+          "options": {
+            "A": "volume ÷ mass",
+            "B": "mass ÷ volume",
+            "C": "force ÷ distance",
+            "D": "pressure × area"
+          },
+          "correctOption": "B",
+          "explanation": "Density is mass per unit volume: ρ = m/V.",
+          "translations": {
+            "ur": {
+              "question": "کثافت کی تعریف کیا ہے؟",
+              "options": {
+                "A": "حجم ÷ کمیت",
+                "B": "کمیت ÷ حجم",
+                "C": "قوت ÷ فاصلہ",
+                "D": "دباؤ × رقبہ"
+              },
+              "explanation": "کثافت فی اکائی حجم کمیت ہے: ρ = m/V۔"
+            },
+            "sd": {
+              "question": "گهاٽائي جي وصف ڇا آهي؟",
+              "options": {
+                "A": "حجم ÷ ماس",
+                "B": "ماس ÷ حجم",
+                "C": "قوت ÷ فاصلو",
+                "D": "دٻاءُ × ايراضي"
+              },
+              "explanation": "گهاٽائي في ايڪي حجم ماس آهي: ρ = m/V۔"
+            }
+          }
+        },
+        {
+          "question": "A fixed mass of gas is compressed to half its volume. Its density:",
+          "options": {
+            "A": "halves",
+            "B": "stays the same",
+            "C": "doubles",
+            "D": "becomes zero"
+          },
+          "correctOption": "C",
+          "explanation": "With mass constant, halving volume doubles density because ρ = m/V.",
+          "translations": {
+            "ur": {
+              "question": "گیس کی مقرر کمیت آدھے حجم میں دبائی جائے تو کثافت:",
+              "options": {
+                "A": "آدھی ہوگی",
+                "B": "یکساں رہے گی",
+                "C": "دوگنی ہوگی",
+                "D": "صفر ہوگی"
+              },
+              "explanation": "کمیت مستقل ہو تو حجم آدھا کرنے سے ρ = m/V کے مطابق کثافت دوگنی ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "گئس جي مقرر ماس کي اڌ حجم ۾ دٻايو وڃي ته گهاٽائي:",
+              "options": {
+                "A": "اڌ ٿيندي",
+                "B": "ساڳي رهندي",
+                "C": "ٻيڻي ٿيندي",
+                "D": "صفر ٿيندي"
+              },
+              "explanation": "ماس ساڳيو هجي ته حجم اڌ ڪرڻ سان ρ = m/V موجب گهاٽائي ٻيڻي ٿيندي."
+            }
+          }
+        },
+        {
+          "question": "Which is a useful ideal-gas model assumption?",
+          "options": {
+            "A": "Particles are stationary.",
+            "B": "Particles occupy negligible volume compared with the container.",
+            "C": "Strong attractions act at every distance.",
+            "D": "Collisions destroy kinetic energy."
+          },
+          "correctOption": "B",
+          "explanation": "The simple ideal-gas model neglects particle volume and sustained attractions; collisions are elastic.",
+          "translations": {
+            "ur": {
+              "question": "مثالی گیس ماڈل کا مفید مفروضہ کون سا ہے؟",
+              "options": {
+                "A": "ذرات ساکن ہیں",
+                "B": "برتن کے مقابلے میں ذرات کا حجم قابلِ نظر انداز ہے",
+                "C": "ہر فاصلے پر مضبوط کشش ہے",
+                "D": "ٹکراؤ حرکی توانائی ختم کرتے ہیں"
+              },
+              "explanation": "سادہ مثالی گیس ماڈل میں ذرات کا حجم اور مستقل کشش نظر انداز، جبکہ ٹکراؤ لچکدار فرض ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "مثالي گئس ماڊل جو مناسب مفروضو ڪهڙو آهي؟",
+              "options": {
+                "A": "ذرڙا بيٺل آهن",
+                "B": "ٿانوَ جي ڀيٽ ۾ ذرڙن جو حجم نظرانداز آهي",
+                "C": "هر فاصلي تي مضبوط ڇڪ آهي",
+                "D": "ٽڪر حرڪي توانائي ختم ڪن ٿا"
+              },
+              "explanation": "سادو مثالي گئس ماڊل ذرڙن جو حجم ۽ مستقل ڇڪ نظرانداز ڪري ٿو؛ ٽڪر لچڪدار فرض ٿين ٿا."
+            }
+          }
+        },
+        {
+          "question": "Which statement about gas particles is correct?",
+          "options": {
+            "A": "They are fixed in a lattice.",
+            "B": "They only vibrate in place.",
+            "C": "They have no kinetic energy.",
+            "D": "They move continuously in random directions."
+          },
+          "correctOption": "D",
+          "explanation": "Gas particles have continuous random translational motion.",
+          "translations": {
+            "ur": {
+              "question": "گیس کے ذرات کے بارے میں درست بات کون سی ہے؟",
+              "options": {
+                "A": "وہ جال میں مقرر ہیں",
+                "B": "وہ صرف اپنی جگہ ارتعاش کرتے ہیں",
+                "C": "ان میں حرکی توانائی نہیں",
+                "D": "وہ مسلسل بے ترتیب سمتوں میں حرکت کرتے ہیں"
+              },
+              "explanation": "گیس کے ذرات مسلسل بے ترتیب انتقالی حرکت کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "گئس جي ذرڙن بابت صحيح ڳالهه ڪهڙي آهي؟",
+              "options": {
+                "A": "اهي ڄار ۾ مقرر آهن",
+                "B": "اهي رڳو پنهنجي جاءِ تي ڏڪن ٿا",
+                "C": "انهن وٽ حرڪي توانائي ناهي",
+                "D": "اهي لڳاتار بي ترتيب رخن ۾ هلن ٿا"
+              },
+              "explanation": "گئس جا ذرڙا لڳاتار بي ترتيب انتقالي حرڪت ڪن ٿا."
+            }
+          }
+        },
+        {
+          "question": "A sealed rigid gas container is cooled. What is expected?",
+          "options": {
+            "A": "Average kinetic energy and pressure decrease.",
+            "B": "Both increase.",
+            "C": "Pressure becomes infinite.",
+            "D": "Particle number doubles."
+          },
+          "correctOption": "A",
+          "explanation": "Cooling lowers absolute temperature and average kinetic energy; at fixed volume and amount, pressure falls.",
+          "translations": {
+            "ur": {
+              "question": "بند سخت برتن میں گیس ٹھنڈی کرنے سے کیا متوقع ہے؟",
+              "options": {
+                "A": "اوسط حرکی توانائی اور دباؤ کم ہوتے ہیں",
+                "B": "دونوں بڑھتے ہیں",
+                "C": "دباؤ لامحدود ہوتا ہے",
+                "D": "ذرات دوگنے ہوتے ہیں"
+              },
+              "explanation": "ٹھنڈا کرنے سے مطلق درجہ حرارت اور اوسط حرکی توانائی کم؛ مستقل حجم پر دباؤ بھی کم ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "بند سخت ٿانوَ ۾ گئس ٿڌي ڪرڻ سان ڇا ٿيندو؟",
+              "options": {
+                "A": "سراسري حرڪي توانائي ۽ دٻاءُ گهٽجن ٿا",
+                "B": "ٻئي وڌن ٿا",
+                "C": "دٻاءُ لامحدود ٿئي ٿو",
+                "D": "ذرڙا ٻيڻا ٿين ٿا"
+              },
+              "explanation": "ٿڌو ڪرڻ سان مطلق گرمي پد ۽ سراسري حرڪي توانائي گهٽجن ٿا؛ مستقل حجم تي دٻاءُ به گهٽجي ٿو."
+            }
+          }
+        },
+        {
+          "question": "Why does a gas expand to fill its container?",
+          "options": {
+            "A": "Particles bond to every wall.",
+            "B": "Particles stop moving.",
+            "C": "Random motion spreads particles through available space.",
+            "D": "The container creates particles."
+          },
+          "correctOption": "C",
+          "explanation": "Continuous random motion spreads gas particles throughout the accessible volume.",
+          "translations": {
+            "ur": {
+              "question": "گیس برتن کیوں بھر دیتی ہے؟",
+              "options": {
+                "A": "ذرات ہر دیوار سے بند بناتے ہیں",
+                "B": "ذرات حرکت روک دیتے ہیں",
+                "C": "بے ترتیب حرکت ذرات کو دستیاب جگہ میں پھیلا دیتی ہے",
+                "D": "برتن ذرات بناتا ہے"
+              },
+              "explanation": "مسلسل بے ترتیب حرکت گیس کے ذرات کو دستیاب پورے حجم میں پھیلا دیتی ہے۔"
+            },
+            "sd": {
+              "question": "گئس ٿانوَ ڇو ڀري ٿي؟",
+              "options": {
+                "A": "ذرڙا هر ڀت سان بند ٺاهين ٿا",
+                "B": "ذرڙا هلڻ بند ڪن ٿا",
+                "C": "بي ترتيب حرڪت ذرڙن کي موجود جاءِ ۾ پکڙائي ٿي",
+                "D": "ٿانوَ ذرڙا ٺاهي ٿو"
+              },
+              "explanation": "لڳاتار بي ترتيب حرڪت گئس جي ذرڙن کي موجود سڄي حجم ۾ پکڙائي ٿي."
+            }
+          }
+        },
+        {
+          "question": "At the same temperature and in the same rigid container, adding gas particles generally makes pressure:",
+          "options": {
+            "A": "decrease",
+            "B": "increase",
+            "C": "become zero",
+            "D": "independent of particle number"
+          },
+          "correctOption": "B",
+          "explanation": "More particles create more wall collisions per unit time, increasing total force and pressure.",
+          "translations": {
+            "ur": {
+              "question": "ایک ہی درجہ حرارت اور سخت برتن میں مزید ذرات شامل کرنے سے دباؤ:",
+              "options": {
+                "A": "کم ہوتا ہے",
+                "B": "بڑھتا ہے",
+                "C": "صفر ہوتا ہے",
+                "D": "ذرات کی تعداد سے آزاد ہے"
+              },
+              "explanation": "زیادہ ذرات فی وقت دیوار سے زیادہ ٹکراتے ہیں، اس لیے قوت اور دباؤ بڑھتے ہیں۔"
+            },
+            "sd": {
+              "question": "ساڳئي گرمي پد ۽ سخت ٿانوَ ۾ وڌيڪ ذرڙا وڌائڻ سان دٻاءُ:",
+              "options": {
+                "A": "گهٽجي ٿو",
+                "B": "وڌي ٿو",
+                "C": "صفر ٿئي ٿو",
+                "D": "ذرڙن جي تعداد کان آزاد آهي"
+              },
+              "explanation": "وڌيڪ ذرڙا في وقت ڀت سان وڌيڪ ٽڪرائين ٿا، تنهنڪري قوت ۽ دٻاءُ وڌن ٿا."
+            }
+          }
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 5,
-          "question": "Define two key terms in chapter 4: states of matter i — gases and explain their relationship.",
-          "modelAnswer": "Gas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for temperature and consistent units. The ideal gas equation is PV=nRT.",
+          "question": "Explain how gas particles produce pressure on the walls of a sealed container.",
+          "modelAnswer": "Gas particles move continuously and randomly. When they strike a wall, their momentum changes and a force acts on the wall. The combined normal force from many collisions divided by wall area is gas pressure.",
           "rubric": [
-            "Correct definitions (2)",
-            "Relationship/explanation (2)",
-            "Clear expression (1)"
-          ]
+            "Continuous random motion (1)",
+            "Wall collisions (1)",
+            "Momentum change produces force (2)",
+            "Pressure is force per unit area (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "بند برتن کی دیواروں پر گیس کے ذرات دباؤ کیسے پیدا کرتے ہیں؟",
+              "modelAnswer": "گیس کے ذرات مسلسل اور بے ترتیب حرکت کرتے ہیں۔ دیوار سے ٹکرانے پر ان کا مومنٹم بدلتا اور قوت لگتی ہے۔ بہت سے ٹکراؤ کی عمودی قوت کو دیوار کے رقبے پر تقسیم کرنے سے دباؤ ملتا ہے۔",
+              "rubric": [
+                "مسلسل بے ترتیب حرکت (1)",
+                "دیوار سے ٹکراؤ (1)",
+                "مومنٹم کی تبدیلی سے قوت (2)",
+                "دباؤ فی اکائی رقبہ قوت ہے (1)"
+              ]
+            },
+            "sd": {
+              "question": "بند ٿانوَ جي ڀتين تي گئس جا ذرڙا دٻاءُ ڪيئن پيدا ڪن ٿا؟",
+              "modelAnswer": "گئس جا ذرڙا لڳاتار بي ترتيب هلن ٿا. ڀت سان ٽڪر وقت مومنٽم بدلجي ٿو ۽ قوت لڳي ٿي. ڪيترن ٽڪرن جي عمودي قوت کي ڀت جي ايراضيءَ سان ورهائڻ سان دٻاءُ ملي ٿو.",
+              "rubric": [
+                "لڳاتار بي ترتيب حرڪت (1)",
+                "ڀت سان ٽڪر (1)",
+                "مومنٽم جي تبديلي سان قوت (2)",
+                "دٻاءُ في ايراضي قوت آهي (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A sealed syringe contains air. The plunger is pushed inward. Explain why the air volume decreases and what happens to density if mass stays constant.",
+          "modelAnswer": "Gas particles have large spaces between them. Pushing the plunger reduces the available volume and brings particles closer; the particles themselves do not shrink. With mass constant, ρ=m/V, so density increases.",
+          "rubric": [
+            "Large spaces between particles (1)",
+            "Available volume decreases (1)",
+            "Particles themselves do not shrink (1)",
+            "Uses density = mass/volume (1)",
+            "Density increases (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "بند سرنج میں ہوا ہے۔ پلنجر اندر دبانے سے حجم کیوں کم ہوتا ہے اور کمیت مستقل ہو تو کثافت پر کیا اثر ہوگا؟",
+              "modelAnswer": "گیس کے ذرات کے درمیان بڑی جگہ ہوتی ہے۔ پلنجر دبانے سے دستیاب حجم کم اور ذرات قریب ہوتے ہیں؛ ذرات خود نہیں سکڑتے۔ کمیت مستقل ہو تو ρ=m/V کے مطابق کثافت بڑھتی ہے۔",
+              "rubric": [
+                "ذرات کے درمیان بڑی جگہ (1)",
+                "دستیاب حجم کم ہوتا ہے (1)",
+                "ذرات خود نہیں سکڑتے (1)",
+                "کثافت = کمیت/حجم (1)",
+                "کثافت بڑھتی ہے (1)"
+              ]
+            },
+            "sd": {
+              "question": "بند سرنجي ۾ هوا آهي. پلنجر اندر دٻائڻ سان حجم ڇو گهٽجي ٿو ۽ ماس ساڳيو هجي ته گهاٽائي تي ڪهڙو اثر ٿيندو؟",
+              "modelAnswer": "گئس جي ذرڙن وچ وڏي جاءِ هوندي آهي. پلنجر دٻائڻ سان موجود حجم گهٽجي ۽ ذرڙا ويجها ٿين ٿا؛ ذرڙا پاڻ نٿا سُڪڙن. ماس ساڳيو هجي ته ρ=m/V موجب گهاٽائي وڌندي.",
+              "rubric": [
+                "ذرڙن وچ وڏي جاءِ (1)",
+                "موجود حجم گهٽجي ٿو (1)",
+                "ذرڙا پاڻ نٿا سُڪڙن (1)",
+                "گهاٽائي = ماس/حجم (1)",
+                "گهاٽائي وڌي ٿي (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "A fixed amount of gas is warmed in a rigid sealed container. Explain the pressure change using the kinetic particle model.",
+          "modelAnswer": "Volume and amount remain fixed. Warming raises absolute temperature and average translational kinetic energy. Particles move faster and transfer momentum to the walls more frequently and with larger changes on average. Total wall force and pressure increase.",
+          "rubric": [
+            "Fixed volume and amount (1)",
+            "Higher absolute temperature/kinetic energy (1)",
+            "Faster particle motion (1)",
+            "Greater wall momentum transfer and force (1)",
+            "Pressure increases (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "مقرر مقدار کی گیس کو سخت بند برتن میں گرم کیا جاتا ہے۔ حرکی ذرّاتی نظریے سے دباؤ کی تبدیلی بیان کریں۔",
+              "modelAnswer": "حجم اور مقدار مستقل رہتے ہیں۔ گرم کرنے سے مطلق درجہ حرارت اور اوسط حرکی توانائی بڑھتی ہے۔ ذرات تیز حرکت کرتے اور دیواروں کو زیادہ بار مومنٹم منتقل کرتے ہیں۔ کل قوت اور دباؤ بڑھتا ہے۔",
+              "rubric": [
+                "مقرر حجم اور مقدار (1)",
+                "زیادہ مطلق درجہ حرارت/حرکی توانائی (1)",
+                "ذرات کی تیز حرکت (1)",
+                "دیواروں کو زیادہ مومنٹم اور قوت (1)",
+                "دباؤ بڑھتا ہے (1)"
+              ]
+            },
+            "sd": {
+              "question": "مقرر مقدار واري گئس کي سخت بند ٿانوَ ۾ گرم ڪيو وڃي ٿو. حرڪي ذرڙن واري نظريي سان دٻاءَ جي تبديلي بيان ڪريو.",
+              "modelAnswer": "حجم ۽ مقدار مقرر رهن ٿا. گرم ڪرڻ سان مطلق گرمي پد ۽ سراسري حرڪي توانائي وڌي ٿي. ذرڙا تيز هلن ٿا ۽ ڀتين ڏانهن وڌيڪ مومنٽم منتقل ڪن ٿا. ڪل قوت ۽ دٻاءُ وڌي ٿو.",
+              "rubric": [
+                "مقرر حجم ۽ مقدار (1)",
+                "وڌيڪ مطلق گرمي پد/حرڪي توانائي (1)",
+                "ذرڙن جي تيز حرڪت (1)",
+                "ڀتين ڏانهن وڌيڪ مومنٽم ۽ قوت (1)",
+                "دٻاءُ وڌي ٿو (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
           "marks": 10,
-          "question": "Explain chapter 4: states of matter i — gases and discuss one practical or numerical application.",
-          "modelAnswer": "Gas particles move randomly and are far apart. Pressure results from collisions with container walls. Gas laws relate pressure, volume, temperature and amount; use Kelvin for temperature and consistent units. The ideal gas equation is PV=nRT. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "question": "Compare solids, liquids and gases using the kinetic particle model. Explain how spacing and motion account for shape, volume and compressibility.",
+          "modelAnswer": "In a solid, particles are close together and mainly vibrate about fixed positions; attractions maintain a fixed shape and volume and compressibility is low. In a liquid, particles remain close but move past one another; volume is nearly fixed, shape follows the container and compressibility is slight. In a gas, particles are widely separated and move rapidly in random directions; a gas has no fixed shape or volume, fills its container and is highly compressible because large spaces can be reduced.",
           "rubric": [
-            "Accurate concept (3)",
-            "Application/example (3)",
-            "Reasoning and steps (2)",
-            "Clarity and units (2)"
-          ]
+            "Solid arrangement/motion (2)",
+            "Solid shape, volume and low compressibility (1)",
+            "Liquid spacing/motion and nearly fixed volume (2)",
+            "Liquid shape and slight compressibility (1)",
+            "Gas spacing and random motion (2)",
+            "Gas expansion and high compressibility (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "حرکی ذرّاتی نظریے سے ٹھوس، مائع اور گیس کا موازنہ کریں۔ ذرات کا فاصلہ اور حرکت شکل، حجم اور دباؤ پذیری کو کیسے سمجھاتے ہیں؟",
+              "modelAnswer": "ٹھوس میں ذرات قریب ہوتے اور مقرر جگہوں کے گرد ارتعاش کرتے ہیں؛ کشش شکل و حجم برقرار رکھتی اور دباؤ پذیری کم ہوتی ہے۔ مائع میں ذرات قریب مگر ایک دوسرے کے پاس سے گزر سکتے ہیں؛ حجم تقریباً مقرر، شکل برتن کے مطابق اور دباؤ پذیری معمولی ہے۔ گیس میں ذرات دور اور تیز بے ترتیب حرکت میں ہوتے ہیں؛ گیس کی شکل یا حجم مقرر نہیں، یہ برتن بھر دیتی اور بڑی خالی جگہ کم ہونے سے زیادہ دبائی جا سکتی ہے۔",
+              "rubric": [
+                "ٹھوس کی ترتیب/حرکت (2)",
+                "ٹھوس کی شکل، حجم اور کم دباؤ پذیری (1)",
+                "مائع کا فاصلہ/حرکت اور تقریباً مقرر حجم (2)",
+                "مائع کی شکل اور معمولی دباؤ پذیری (1)",
+                "گیس کے ذرات کا فاصلہ اور بے ترتیب حرکت (2)",
+                "گیس کا پھیلاؤ اور زیادہ دباؤ پذیری (2)"
+              ]
+            },
+            "sd": {
+              "question": "حرڪي ذرڙن واري نظريي سان ٺوس، مائع ۽ گئس جو ڀيٽ ڪريو. ذرڙن جو فاصلو ۽ حرڪت شڪل، حجم ۽ دٻاءَ پذيري ڪيئن سمجهائين ٿا؟",
+              "modelAnswer": "ٺوس ۾ ذرڙا ويجها ۽ مقرر جڳهن چوڌاري ڏڪندا آهن؛ ڇڪ شڪل ۽ حجم برقرار رکي ٿي ۽ دٻاءَ پذيري گهٽ آهي. مائع ۾ ذرڙا ويجها پر هڪ ٻئي ڀرسان گذري سگهن ٿا؛ حجم لڳ ڀڳ مقرر، شڪل ٿانوَ مطابق ۽ دٻاءَ پذيري ٿوري آهي. گئس ۾ ذرڙا پري ۽ تيز بي ترتيب هلن ٿا؛ شڪل يا حجم مقرر ناهي، ٿانوَ ڀري ٿي ۽ وڏي خالي جاءِ گهٽجڻ سبب گهڻي دٻجي ٿي.",
+              "rubric": [
+                "ٺوس جي ترتيب/حرڪت (2)",
+                "ٺوس جي شڪل، حجم ۽ گهٽ دٻاءَ پذيري (1)",
+                "مائع جو فاصلو/حرڪت ۽ لڳ ڀڳ مقرر حجم (2)",
+                "مائع جي شڪل ۽ ٿوري دٻاءَ پذيري (1)",
+                "گئس جو فاصلو ۽ بي ترتيب حرڪت (2)",
+                "گئس جو پکڙجڻ ۽ گهڻي دٻاءَ پذيري (2)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Case study: A school laboratory compressor fills a certified rigid air receiver and the pressure gauge rises. Explain the particle-level cause, the effect of heating at fixed volume, and safe operating practices.",
+          "modelAnswer": "Adding air increases the number of particles in the fixed receiver. At roughly constant temperature and volume, more particles strike the walls each second, increasing momentum transfer, wall force and pressure. Heating the rigid receiver raises average kinetic energy and particle speed, so pressure rises further. Use a certified receiver rated for the pressure, a working gauge and regulator, keep it away from heat, inspect it as specified and never exceed the manufacturer's limit or improvise a pressure vessel.",
+          "rubric": [
+            "More particles in fixed volume (2)",
+            "Wall collisions/momentum transfer produce pressure (2)",
+            "Temperature raises kinetic energy at fixed volume (2)",
+            "Recognizes fixed-volume condition (1)",
+            "Three safe practices (3)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "کیس اسٹڈی: اسکول کی تجربہ گاہ میں کمپریسر منظور شدہ سخت ایئر رسیور بھرتا ہے اور پریشر گیج بڑھتا ہے۔ ذرات کی سطح پر وجہ، مستقل حجم پر گرمی کا اثر اور محفوظ طریقۂ استعمال بیان کریں۔",
+              "modelAnswer": "ہوا شامل کرنے سے مقرر رسیور میں ذرات کی تعداد بڑھتی ہے۔ تقریباً مستقل درجہ حرارت اور حجم پر زیادہ ذرات ہر سیکنڈ دیواروں سے ٹکراتے ہیں، جس سے مومنٹم کی منتقلی، قوت اور دباؤ بڑھتا ہے۔ سخت رسیور گرم کرنے سے اوسط حرکی توانائی اور رفتار بڑھتی ہے، اس لیے دباؤ مزید بڑھتا ہے۔ منظور شدہ رسیور، درست گیج اور ریگولیٹر استعمال کریں، گرمی سے دور رکھیں، معائنہ کریں اور مقررہ حد سے تجاوز یا خود ساختہ برتن سے گریز کریں۔",
+              "rubric": [
+                "مقرر حجم میں زیادہ ذرات (2)",
+                "ٹکراؤ/مومنٹم سے دباؤ (2)",
+                "مقرر حجم پر گرمی سے حرکی توانائی بڑھتی ہے (2)",
+                "مقرر حجم کی شرط (1)",
+                "تین حفاظتی طریقے (3)"
+              ]
+            },
+            "sd": {
+              "question": "Case study: اسڪول ليبارٽري ۾ ڪمپريسر منظور ٿيل سخت ايئر رسيور ڀري ٿو ۽ پريشر گيج وڌي ٿو. ذرڙن جي سطح تي سبب، مقرر حجم تي گرمي جو اثر ۽ محفوظ استعمال بيان ڪريو.",
+              "modelAnswer": "هوا وڌائڻ سان مقرر رسيور ۾ ذرڙن جو تعداد وڌي ٿو. لڳ ڀڳ مستقل گرمي پد ۽ حجم تي وڌيڪ ذرڙا هر سيڪنڊ ڀتين سان ٽڪرائين ٿا، جنهن سان مومنٽم جي منتقلي، قوت ۽ دٻاءُ وڌن ٿا. سخت رسيور گرم ڪرڻ سان سراسري حرڪي توانائي ۽ رفتار وڌن ٿيون، تنهنڪري دٻاءُ وڌيڪ وڌي ٿو. منظور ٿيل رسيور، صحيح گيج ۽ ريگيوليٽر استعمال ڪريو، گرمي کان پري رکو، معائنو ڪريو ۽ حد کان نه وڌو يا پاڻ ٺهيل پريشر ٿانوَ استعمال نه ڪريو.",
+              "rubric": [
+                "مقرر حجم ۾ وڌيڪ ذرڙا (2)",
+                "ٽڪر/مومنٽم سان دٻاءُ (2)",
+                "مقرر حجم تي گرمي سان حرڪي توانائي وڌي ٿي (2)",
+                "مقرر حجم جي شرط (1)",
+                "ٽي حفاظتي طريقا (3)"
+              ]
+            }
+          }
         }
       ],
-      "contentTier": "outline"
+      "caseStudy": "A school laboratory compressor fills a certified rigid air receiver. Students observe the pressure gauge rising as air is added and discuss why the receiver must be kept away from heat. The case links particle number, wall collisions, temperature, pressure measurement and safe handling.",
+      "practicalActivity": "Use a sealed plastic syringe with no needle and a small trapped air volume. Gently push and release the plunger without forcing it; record the volume change and discuss the large spaces between gas particles. Do not heat, puncture or connect the syringe to a pressure source.",
+      "revisionSummary": [
+        "A gas has no fixed shape or volume and expands to fill its container.",
+        "Gas particles are widely separated and move continuously in random directions.",
+        "Wall collisions transfer momentum; the combined force per unit area is gas pressure.",
+        "One pascal equals one newton per square metre.",
+        "Large spaces between particles explain compressibility and expansion.",
+        "At fixed volume and amount, warming increases average kinetic energy and pressure.",
+        "Density is mass per volume; for fixed mass, reducing volume increases density.",
+        "Gas-law equations are Grade X enrichment, not new Grade XI outcomes."
+      ]
     },
     {
       "title": "Chapter 5: States of Matter II — Liquids",

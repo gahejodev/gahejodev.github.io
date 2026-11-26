@@ -62,3 +62,76 @@ export function mountProjectileModel(container,{language="en"}={}){
 const vseprCopy={en:{title:"Explore molecular geometry",intro:"Choose a molecule to compare electron domains, lone pairs, shape, bond angle and hybridization.",molecule:"Choose a molecule",shape:"Molecular shape",angle:"Approximate bond angle",hybrid:"Hybridization model",domains:"Electron domains",bonding:"Bonding pairs",lone:"Lone pairs",polarity:"Polarity",reset:"Reset selection",assumptions:"Teaching model: labelled 2D projection of a 3D arrangement, not to scale; it does not measure the displayed angle. Values are approximate. Hybridization is a bonding model.",desc:"Schematic geometry for "},ur:{title:"سالماتی جیومیٹری دریافت کریں",intro:"سالمہ منتخب کر کے ڈومین، تنہا جوڑے، شکل، زاویہ اور ہائبرڈائزیشن کا موازنہ کریں۔",molecule:"سالمہ منتخب کریں",shape:"سالماتی شکل",angle:"اندازاً زاویہ",hybrid:"ہائبرڈائزیشن",domains:"الیکٹران ڈومین",bonding:"بند جوڑے",lone:"تنہا جوڑے",polarity:"قطبیت",reset:"انتخاب ری سیٹ کریں",assumptions:"تدریسی ماڈل: خاکہ سہ جہتی ترتیب کا 2D منظر ہے، پیمانے کے مطابق نہیں اور زاویہ اسکرین سے نہیں ناپا جاتا۔ اقدار اندازاً ہیں۔",desc:"سالماتی جیومیٹری: "},sd:{title:"سالماتي جاميٽري ڏسو",intro:"ماليڪيول چونڊيو ۽ ڊومين، اڪيلا جوڙا، شڪل، زاويه ۽ هائبرڊائيزيشن ڀيٽيو.",molecule:"ماليڪيول چونڊيو",shape:"سالماتي شڪل",angle:"لڳ ڀڳ زاويه",hybrid:"هائبرڊائيزيشن",domains:"اليڪٽران ڊومين",bonding:"بند جوڙا",lone:"اڪيلائي وارا جوڙا",polarity:"قطبيت",reset:"چونڊ ري سيٽ ڪريو",assumptions:"تدريسي ماڊل: خاڪو ٽي-dimensional ترتيب جو 2D ڏيک آهي، ماپ مطابق ناهي ۽ زاويه اسڪرين تان نٿو ماپجي. قدر لڳ ڀڳ آهن.",desc:"سالماتي جاميٽري: "}};
 const vsepr={CO2:{f:"CO₂",c:"C",t:"O",b:2,l:0,s:{en:"Linear",ur:"خطی",sd:"سڌي ليڪ"},a:"180°",h:"sp",p:{en:"Non-polar; dipoles cancel",ur:"غیر قطبی؛ ڈائی پول ختم",sd:"غير قطبي؛ ڊائپول ختم"},pts:[[58,116],[302,116]],lp:[],n:{en:"Two domains point in opposite directions.",ur:"دو ڈومین مخالف سمتوں میں ہیں۔",sd:"ٻه ڊومين ابتڙ رخن ۾ آهن۔"}},BF3:{f:"BF₃",c:"B",t:"F",b:3,l:0,s:{en:"Trigonal planar",ur:"مثلثی مستوی",sd:"ٽڪنڊي هموار"},a:"120°",h:"sp²",p:{en:"Non-polar; dipoles cancel",ur:"غیر قطبی؛ ڈائی پول ختم",sd:"غير قطبي؛ ڊائپول ختم"},pts:[[180,34],[74,196],[286,196]],lp:[],n:{en:"Three bonding domains lie in one plane.",ur:"تین بند ڈومین ایک مستوی میں ہیں۔",sd:"ٽي بند ڊومين هڪ هموار ۾ آهن۔"}},CH4:{f:"CH₄",c:"C",t:"H",b:4,l:0,s:{en:"Tetrahedral",ur:"چہارسطحی",sd:"ٽيٽراهڊرل"},a:"109.5°",h:"sp³",p:{en:"Non-polar; symmetry cancels dipoles",ur:"غیر قطبی؛ توازن ڈائی پول ختم کرتا ہے",sd:"غير قطبي؛ همواري ڊائپول ختم ڪري ٿي"},pts:[[180,30],[78,165],[282,165],[180,218]],lp:[],n:{en:"Four domains point towards a tetrahedron; this is a 2D projection.",ur:"چار ڈومین چہارسطح کے کونوں کی طرف ہیں؛ یہ 2D منظر ہے۔",sd:"چار ڊومين ٽيٽراهڊرن جي ڪنڊن ڏانهن آهن؛ هي 2D ڏيک آهي۔"}},NH3:{f:"NH₃",c:"N",t:"H",b:3,l:1,s:{en:"Trigonal pyramidal",ur:"مثلثی اہرامی",sd:"ٽڪنڊي هرمي"},a:"≈107°",h:"sp³",p:{en:"Polar",ur:"قطبی",sd:"قطبي"},pts:[[180,43],[84,184],[276,184]],lp:[[180,193]],n:{en:"Three bonds and one lone pair occupy four tetrahedral domains.",ur:"تین بند اور ایک تنہا جوڑا چار ڈومین بناتے ہیں۔",sd:"ٽي بند ۽ هڪ اڪيلو جوڙو چار ڊومين ٺاهين ٿا۔"}},H2O:{f:"H₂O",c:"O",t:"H",b:2,l:2,s:{en:"Bent (V-shaped)",ur:"خمیدہ",sd:"موڙيل"},a:"≈104.5°",h:"sp³",p:{en:"Polar",ur:"قطبی",sd:"قطبي"},pts:[[92,54],[268,54]],lp:[[135,183],[225,183]],n:{en:"Two O–H bonds and two lone pairs give a bent shape.",ur:"دو O–H بند اور دو تنہا جوڑے خمیدہ شکل بناتے ہیں۔",sd:"ٻه O–H بند ۽ ٻه اڪيلا جوڙا موڙيل شڪل ٺاهين ٿا۔"}}};
 export function mountVseprModel(container,{language="en"}={}){if(!container||container.querySelector('[data-visualization="vsepr"]'))return null;const lang=["en","ur","sd"].includes(language)?language:"en",t=vseprCopy[lang],panel=makeNode("section","lesson-visualization vsepr-visualization");panel.dataset.visualization="vsepr";panel.setAttribute("role","region");const h=makeNode("h4","vsepr-heading",t.title);h.id="vseprLessonHeading";panel.setAttribute("aria-labelledby",h.id);panel.append(h,makeNode("p","vsepr-intro",t.intro));const wrap=makeNode("div","vsepr-controls"),lab=makeNode("label","",t.molecule);lab.htmlFor="vseprMoleculeSelect";const select=makeNode("select","vsepr-select");select.id="vseprMoleculeSelect";Object.entries(vsepr).forEach(([k,m])=>{const o=makeNode("option","",m.f);o.value=k;select.append(o)});lab.append(select);wrap.append(lab);panel.append(wrap);const svg=makeSvg("svg",{viewBox:"0 0 360 245",class:"vsepr-plot",role:"img","aria-labelledby":"vseprSvgTitle vseprSvgDesc"}),title=makeSvg("title",{id:"vseprSvgTitle"}),desc=makeSvg("desc",{id:"vseprSvgDesc"}),bonds=makeSvg("g"),lone=makeSvg("g"),atoms=makeSvg("g"),labels=makeSvg("g");svg.append(title,desc,bonds,lone,atoms,labels);panel.append(svg);const stats=makeNode("div","vsepr-stats");stats.setAttribute("aria-live","polite");stats.setAttribute("aria-atomic","true");const fields={};for(const k of ["shape","angle","hybrid","domains","bonding","lone","polarity"]){const card=makeNode("article","vsepr-stat");card.append(makeNode("small","",t[k]));fields[k]=makeNode("strong","","");card.append(fields[k]);stats.append(card)}panel.append(stats);const note=makeNode("p","vsepr-note","");panel.append(note,makeNode("p","vsepr-assumptions",t.assumptions));const render=()=>{const m=vsepr[select.value];bonds.replaceChildren();lone.replaceChildren();atoms.replaceChildren();labels.replaceChildren();title.textContent=t.title+" · "+m.f;desc.textContent=t.desc+m.f+". "+m.s[lang]+". "+m.a+". "+m.n[lang];m.pts.forEach(p=>{bonds.append(makeSvg("line",{x1:180,y1:118,x2:p[0],y2:p[1],stroke:"#3157d5","stroke-width":"5","stroke-linecap":"round"}));atoms.append(makeSvg("circle",{cx:p[0],cy:p[1],r:19,fill:"#e8f1ff",stroke:"#3157d5","stroke-width":"2"}));const a=makeSvg("text",{x:p[0],y:p[1]+5,"text-anchor":"middle",fill:"#17336d","font-size":"15","font-weight":"800"});a.textContent=m.t;labels.append(a)});m.lp.forEach(p=>[[-5,-4],[5,4]].forEach(d=>lone.append(makeSvg("circle",{cx:p[0]+d[0],cy:p[1]+d[1],r:4,fill:"#d08a00"}))));atoms.append(makeSvg("circle",{cx:180,cy:118,r:24,fill:"#fff0cf",stroke:"#c88712","stroke-width":"2.5"}));const c=makeSvg("text",{x:180,y:124,"text-anchor":"middle",fill:"#68440a","font-size":"18","font-weight":"900"});c.textContent=m.c;labels.append(c);fields.shape.textContent=m.s[lang];fields.angle.textContent=m.a;fields.hybrid.textContent=m.h;fields.domains.textContent=String(m.b+m.l);fields.bonding.textContent=String(m.b);fields.lone.textContent=String(m.l);fields.polarity.textContent=m.p[lang];note.textContent=m.n[lang]};select.addEventListener("change",render);const reset=makeNode("button","vsepr-reset",t.reset);reset.type="button";reset.addEventListener("click",()=>{select.value="CO2";render();select.focus()});panel.append(reset);render();container.append(panel);return panel}
+
+
+const gasCopy={
+ en:{title:"Explore gas particles and pressure",intro:"Change particle count or temperature and watch random wall collisions.",count:"Particles",temperature:"Temperature",pressure:"Relative pressure index",speed:"Relative particle speed",play:"Play motion",pause:"Pause motion",step:"Step once",reset:"Reset model",assumptions:"Simplified 2D model: fixed volume and one gas species; wall collisions are elastic; particle-particle collisions and attractions are omitted. At fixed volume the pressure index is proportional to particle count × absolute temperature. It is not a measured pressure in pascals.",description:"Gas particles move randomly in a fixed container and reflect from its walls.",status:"Motion is paused."},
+ ur:{title:"گیس کے ذرات اور دباؤ دریافت کریں",intro:"ذرات کی تعداد یا درجہ حرارت بدلیں اور دیواروں سے بے ترتیب ٹکراؤ دیکھیں۔",count:"ذرات",temperature:"درجہ حرارت",pressure:"نسبتی دباؤ اشاریہ",speed:"ذرات کی نسبتی رفتار",play:"حرکت چلائیں",pause:"حرکت روکیں",step:"ایک قدم بڑھائیں",reset:"ماڈل ری سیٹ کریں",assumptions:"سادہ 2D ماڈل: حجم اور گیس کی قسم مقرر؛ دیوار سے ٹکراؤ لچکدار؛ ذرات کے باہمی ٹکراؤ اور کشش شامل نہیں۔ مقرر حجم پر دباؤ اشاریہ ذرات کی تعداد × مطلق درجہ حرارت کے متناسب ہے؛ یہ پاسکل میں ناپا ہوا دباؤ نہیں۔",description:"گیس کے ذرات مقرر برتن میں بے ترتیب حرکت کرتے اور دیواروں سے پلٹتے ہیں۔",status:"حرکت رکی ہوئی ہے۔"},
+ sd:{title:"گئس جا ذرڙا ۽ دٻاءُ ڏسو",intro:"ذرڙن جو تعداد يا گرمي پد بدلايو ۽ ڀتين سان بي ترتيب ٽڪر ڏسو.",count:"ذرڙا",temperature:"گرمي پد",pressure:"نسبتي دٻاءُ اشارو",speed:"ذرڙن جي نسبتي رفتار",play:"حرڪت هلايو",pause:"حرڪت روڪيو",step:"هڪ قدم وڌايو",reset:"ماڊل ٻيهر سيٽ ڪريو",assumptions:"سادو 2D ماڊل: حجم ۽ گئس جو قسم مقرر؛ ڀت سان ٽڪر لچڪدار؛ پاڻ ۾ ٽڪر ۽ ڇڪ شامل ناهن. مقرر حجم تي دٻاءَ جو اشارو ذرڙن جي تعداد × مطلق گرمي پد جي متناسب آهي؛ هي پاسڪل ۾ ماپيل دٻاءُ ناهي.",description:"گئس جا ذرڙا مقرر ٿانوَ اندر بي ترتيب هلن ٿا ۽ ڀتين تان موٽن ٿا.",status:"حرڪت رڪيل آهي."}
+};
+let gasModelSequence=0;
+export function calculateRelativeGasPressure(particleCount,temperatureK){
+ const n=Number(particleCount),t=Number(temperatureK);
+ if(!Number.isFinite(n)||!Number.isFinite(t)||n<=0||t<=0)return 0;
+ return (n/12)*(t/300);
+}
+export function mountGasParticleModel(container,{language="en"}={}){
+ if(!container||container.querySelector('[data-visualization="gas-particles"]'))return null;
+ const t=gasCopy[language]||gasCopy.en,uid=++gasModelSequence;
+ const panel=makeNode("section","lesson-visualization gas-visualization");
+ panel.dataset.visualization="gas-particles";panel.setAttribute("role","region");
+ const heading=makeNode("h4","gas-heading",t.title);heading.id="gasLessonHeading"+uid;panel.setAttribute("aria-labelledby",heading.id);
+ panel.append(heading,makeNode("p","gas-intro",t.intro));
+ const plot=makeSvg("svg",{viewBox:"0 0 360 215",class:"gas-plot",role:"img","aria-labelledby":"gasSvgTitle"+uid+" gasSvgDesc"+uid});
+ const svgTitle=makeSvg("title",{id:"gasSvgTitle"+uid});svgTitle.textContent=t.title;
+ const svgDesc=makeSvg("desc",{id:"gasSvgDesc"+uid});svgDesc.textContent=t.description;
+ plot.append(svgTitle,svgDesc,makeSvg("rect",{x:22,y:18,width:316,height:174,rx:10,fill:"#f7faff",stroke:"#8292ad","stroke-width":"2"}));
+ const layer=makeSvg("g",{"aria-hidden":"true"});plot.append(layer);panel.append(plot);
+ const controls=makeNode("div","gas-controls");
+ const makeControl=(name,min,max,value,step,unit)=>{
+  const wrap=makeNode("div","gas-control"),id="gasLesson"+uid+name,label=makeNode("label","",t[name.toLowerCase()]);
+  label.htmlFor=id;const output=makeNode("output","",String(value)+unit);output.htmlFor=id;label.append(output);
+  const input=makeNode("input","");input.id=id;input.type="range";input.min=String(min);input.max=String(max);input.step=String(step);input.value=String(value);
+  wrap.append(label,input);controls.append(wrap);return {input,output};
+ };
+ const count=makeControl("Count",6,24,12,2,""),temp=makeControl("Temperature",200,600,300,10," K");panel.append(controls);
+ const readouts=makeNode("div","gas-readouts");readouts.setAttribute("aria-live","polite");readouts.setAttribute("aria-atomic","true");
+ const stat=(label,value)=>{const card=makeNode("article","gas-stat");card.append(makeNode("small","",label));const strong=makeNode("strong","",value);card.append(strong);readouts.append(card);return strong};
+ const pressure=stat(t.pressure,"1.00×"),speed=stat(t.speed,"1.00×"),total=stat(t.count,"12");panel.append(readouts);
+ const actions=makeNode("div","gas-actions"),play=makeNode("button","gas-play",t.play),reset=makeNode("button","gas-reset",t.reset);
+ play.type="button";reset.type="button";actions.append(play,reset);panel.append(actions);
+ const status=makeNode("p","gas-status",t.status);status.setAttribute("role","status");status.setAttribute("aria-live","polite");
+ panel.append(status,makeNode("p","gas-assumptions",t.assumptions));
+ let particles=[],raf=0,last=0,playing=false;
+ const reduced=!!window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+ function build(){
+  layer.replaceChildren();particles=[];
+  for(let i=0;i<Number(count.input.value);i++){
+   const col=i%6,row=Math.floor(i/6),angle=(i+1)*2.399963229728653,x=48+col*51+(row%2)*4,y=43+row*37;
+   const circle=makeSvg("circle",{cx:x,cy:y,r:5,fill:"#3157d5",stroke:"#fff","stroke-width":"1.4"});layer.append(circle);
+   const v=1.05+(i%4)*.16;particles.push({x,y,vx:Math.cos(angle)*v,vy:Math.sin(angle)*v,circle});
+  }
+ }
+ function draw(){
+  const n=Number(count.input.value),k=Number(temp.input.value);
+  count.output.textContent=String(n);temp.output.textContent=k+" K";total.textContent=String(n);
+  pressure.textContent=calculateRelativeGasPressure(n,k).toFixed(2)+"×";speed.textContent=Math.sqrt(k/300).toFixed(2)+"×";
+  svgDesc.textContent=t.description+" "+n+" particles at "+k+" kelvin.";
+  for(const p of particles){p.circle.setAttribute("cx",p.x.toFixed(1));p.circle.setAttribute("cy",p.y.toFixed(1));}
+ }
+ function advance(dt=1){
+  const scale=Math.sqrt(Number(temp.input.value)/300);
+  for(const p of particles){
+   p.x+=p.vx*scale*dt;p.y+=p.vy*scale*dt;
+   if(p.x<32){p.x=32;p.vx=Math.abs(p.vx)}if(p.x>328){p.x=328;p.vx=-Math.abs(p.vx)}
+   if(p.y<28){p.y=28;p.vy=Math.abs(p.vy)}if(p.y>182){p.y=182;p.vy=-Math.abs(p.vy)}
+  }
+  draw();
+ }
+ function stop(){playing=false;if(raf)cancelAnimationFrame(raf);raf=0;last=0;play.textContent=reduced?t.step:t.play;status.textContent=t.status;}
+ function frame(now){if(!playing)return;if(!last)last=now;const dt=Math.min(2,(now-last)/16.67);last=now;advance(dt);raf=requestAnimationFrame(frame);}
+ function toggle(){if(reduced){advance(1);status.textContent=t.step;return}if(playing){stop();return}playing=true;play.textContent=t.pause;status.textContent=t.pause;raf=requestAnimationFrame(frame);}
+ count.input.addEventListener("input",()=>{stop();build();draw()});temp.input.addEventListener("input",draw);
+ play.addEventListener("click",toggle);reset.addEventListener("click",()=>{stop();count.input.value="12";temp.input.value="300";build();draw();reset.focus()});
+ if(reduced)play.textContent=t.step;build();draw();container.append(panel);return panel;
+}
