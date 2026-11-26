@@ -131,6 +131,7 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
 .fluid-pipe-wall{fill:#d9edff;stroke:#4d83b8;stroke-width:3}
 @media(prefers-reduced-motion:reduce){.cell-diagram .organelle{transition:none}}
 
+.liquid-visualization{min-width:0}.liquid-heading{margin:0 0 5px;color:#17336d;font-size:18px}.liquid-intro,.liquid-assumptions{color:#5e6b82;font-size:12px;line-height:1.55;margin:7px 0 12px}.liquid-plot{display:block;width:100%;height:auto;max-height:270px;background:#f7faff;border:1px solid #e6edf7;border-radius:12px;margin:12px 0}.liquid-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:12px 0}.liquid-control{min-width:0;padding:9px 10px;background:#f6f8fc;border:1px solid #e5ebf5;border-radius:11px}.liquid-control label{display:flex;justify-content:space-between;gap:7px;flex-wrap:wrap;color:#253a65;font-size:11px;font-weight:800}.liquid-control input{width:100%;min-height:28px;accent-color:#3157d5}.liquid-readouts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:10px 0}.liquid-stat{min-width:0;padding:8px;background:#f1f5ff;border:1px solid #e0e8f7;border-radius:10px}.liquid-stat small{display:block;color:#65738c;font-size:9px;font-weight:800}.liquid-stat strong{display:block;color:#12356f;font-size:13px;overflow-wrap:anywhere}.liquid-actions{display:flex;gap:8px;flex-wrap:wrap}.liquid-actions button{min-height:40px;border:1px solid #d6e1f2;border-radius:10px;padding:8px 11px;background:#edf3ff;color:#17336d;font-weight:800;cursor:pointer}.liquid-visualization button:focus-visible,.liquid-visualization input:focus-visible{outline:3px solid #e6a700;outline-offset:3px}@media(max-width:640px){.liquid-controls{grid-template-columns:1fr}.liquid-readouts{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){.liquid-visualization *{animation:none!important;transition:none!important}}
 </style>
   <link rel="stylesheet" href="./assets/zeeroz-design-system.css?v=20261119-brand-social-fix-2">
   <link rel="manifest" href="./manifest.webmanifest">
@@ -245,6 +246,11 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
     <div class="visual-actions"><a href="catalog.html?level=IX">Explore Biology courses →</a></div>
    </article>
 
+   <article class="visual-card" id="liquidLearningCard" aria-label="Live Chemistry liquid-particle experiment">
+    <span class="visual-tag">Live Chemistry experiment</span>
+    <div id="liquidHomeDemo"></div>
+    <div class="visual-actions"><a href="catalog.html?level=XI">Explore Class XI Chemistry →</a></div>
+   </article>
    <article class="visual-card" id="cellExplorerCard" aria-labelledby="cellExplorerTitle">
     <span class="visual-tag">Live Biology explorer</span>
     <h3 id="cellExplorerTitle">Explore a Cell</h3>
@@ -640,4 +646,10 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
 })();
 </script>
 
+
+<script type="module">
+import { mountLiquidModel } from "./visual-learning.js";
+const target=document.getElementById("liquidHomeDemo");
+if(target){let language="en";try{language=localStorage.getItem("zeerozCourseLanguage")||"en"}catch(_){}mountLiquidModel(target,{language});}
+</script>
 </body></html>
