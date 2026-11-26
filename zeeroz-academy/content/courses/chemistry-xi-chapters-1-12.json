@@ -2,8 +2,8 @@
   "id": "chemistry-xi-chapters-1-12",
   "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
   "description": "Supplementary Chemistry XI course with 12 units. Chapters 1–3 are exam-ready against DCAR 2024 Grade XI SLOs; Chapters 4–12 remain outline-stage.",
-  "version": "7",
-  "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B: Chapter 1 Stoichiometry SLOs C-11-B-50 to C-11-B-59; Chapter 2 Atomic Structure SLOs C-11-B-01 to C-11-B-27; Chapter 3 Covalent Bonding and Molecular Shapes SLOs C-11-B-32 to C-11-B-39. Molecular polarity cross-link C-11-B-46. Chapters 1–3 are exam-ready; Chapters 4–12 remain outline-stage.",
+  "version": "8",
+  "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B: Chapter 1 Stoichiometry SLOs C-11-B-50 to C-11-B-59; Chapter 2 Atomic Structure C-11-B-01 to C-11-B-27; Chapter 3 Covalent Bonding C-11-B-32 to C-11-B-39 with polarity cross-link C-11-B-46; Chapter 4 Gases C-11-B-69; Chapter 5 Liquids C-11-B-61 to C-11-B-68. Chapters 1–5 are exam-ready; Chapters 6–12 remain outline-stage.",
   "sourceReferences": [
     {
       "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
@@ -29,6 +29,11 @@
       "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
       "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
       "note": "Grade XI States and Phases of Matter SLO C-11-B-69 covers physical properties of gases, including compressibility, expandability and pressure (printed p.45). Gas-law SLO C-10-B-04 is Grade X prerequisite enrichment, not a new Grade XI outcome."
+    },
+    {
+      "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+      "note": "Grade XI Domain B, States and Phases of Matter, SLOs C-11-B-61 to C-11-B-68, printed pages 43–44: liquid particle behaviour, intermolecular forces, liquid properties, water, molar heats of fusion/vaporization and glacier/ice-sheet applications."
     }
   ],
   "chapters": [
@@ -3581,77 +3586,795 @@
     },
     {
       "title": "Chapter 5: States of Matter II — Liquids",
-      "description": "Supplementary topic 5: Chapter 5: States of Matter II — Liquids.",
+      "description": "Exam-ready Grade XI study of liquid particle behaviour, intermolecular attractions, evaporation, vapour pressure, boiling, viscosity, surface tension, water's thermal properties and latent heat, aligned to DCAR Sindh Chemistry 2024.",
+      "contentTier": "exam-ready",
+      "learningOutcomes": [
+        "Use the kinetic particle model to explain liquid diffusion, low compressibility, expansion, particle motion, spacing and kinetic energy.",
+        "Distinguish London dispersion forces, permanent dipole–dipole attractions and hydrogen bonding, with examples.",
+        "Explain evaporation, dynamic equilibrium between evaporation and condensation, and vapour pressure.",
+        "Relate boiling point to equality of vapour pressure and external pressure; predict qualitative effects of temperature and pressure.",
+        "Define viscosity and surface tension and explain how intermolecular cohesion and temperature influence them.",
+        "Explain water's high surface tension, high specific heat capacity, relatively low vapour pressure, high heat of vaporization and high boiling point using hydrogen bonding.",
+        "Define molar heats of fusion and vaporization and apply latent-heat calculations to phase changes and glacier/ice-sheet contexts."
+      ],
+      "keyTerms": [
+        "kinetic particle theory",
+        "diffusion",
+        "intermolecular force",
+        "London dispersion force",
+        "temporary dipole",
+        "induced dipole",
+        "dipole–dipole attraction",
+        "hydrogen bond",
+        "cohesion",
+        "evaporation",
+        "condensation",
+        "dynamic equilibrium",
+        "vapour pressure",
+        "boiling point",
+        "viscosity",
+        "surface tension",
+        "specific heat capacity",
+        "molar heat of fusion",
+        "molar heat of vaporization",
+        "latent heat"
+      ],
       "lessons": [
         {
-          "title": "Chapter 5: States of Matter II — Liquids — concepts",
+          "title": "5.1 Liquid particles: motion, spacing and diffusion",
           "type": "text",
-          "content": "## Learning outcomes\nLiquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions generally raise boiling point and viscosity and reduce vapour pressure at a given temperature.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "content": "## Learning outcomes\nUse the kinetic particle model to explain liquid shape, volume, diffusion, compressibility, expansion and particle energy.\n\nA liquid has a nearly fixed volume but no fixed shape. Its particles remain close together, with no long-range regular lattice, and move continuously. They can slide past neighbouring particles, allowing a liquid to flow and take the shape of its container. The close average spacing leaves little empty space, so liquids are much less compressible than gases.\n\nDiffusion is the net spreading of particles from higher to lower concentration due to random motion. A dye drop slowly spreads through still water. Diffusion occurs in liquids but is generally slower than in gases because liquid particles are closer together and interact more strongly.\n\nHeating a liquid increases average particle kinetic energy. The liquid usually expands because average separation changes slightly; it does not mean every particle moves in one fixed direction. Temperature is related to average kinetic energy, not simply the total energy of the entire sample.\n\nCompare states: solids usually have particles vibrating around fixed positions; liquids have close particles that can move past one another; gases have widely separated particles moving freely.\n\nCheck: Why can a liquid flow while remaining difficult to compress?\n\nRevision: Close, disordered and mobile particles explain liquid flow, nearly fixed volume, low compressibility and slower diffusion than in gases.",
           "explanations": {
-            "ur": "مائع کے ذرات قریب رہتے ہیں مگر ایک دوسرے کے پاس سے گزر سکتے ہیں۔ بین سالماتی قوتیں نقطۂ ابال، لزوجت، سطحی تناؤ اور بخاراتی دباؤ پر اثر ڈالتی ہیں۔",
-            "sd": "مائع جا ذرڙا ويجهو هوندا آهن پر هڪ ٻئي ڀرسان گذري سگهن ٿا. ماليڪيولن وچ جون قوتون ٽهڪڻ جو نقطو، گاڙهاڻ، سطحي ڇڪ ۽ بخاري دٻاءُ تي اثر ڪن ٿيون."
+            "ur": "مائع کا حجم تقریباً مقرر مگر شکل برتن کے مطابق ہوتی ہے۔ ذرات قریب رہتے ہیں مگر بے ترتیب ہوتے ہیں اور ایک دوسرے کے پاس سے گزر سکتے ہیں، اس لیے مائع بہتا ہے۔ خالی جگہ کم ہونے سے اسے دبانا مشکل ہے۔ انتشار زیادہ ارتکاز سے کم ارتکاز کی طرف بے ترتیب پھیلاؤ ہے؛ مائع میں یہ گیس سے آہستہ ہوتا ہے کیونکہ ذرات قریب اور باہمی تعامل میں ہیں۔ گرم کرنے سے اوسط حرکی توانائی بڑھتی ہے اور مائع عموماً پھیلتا ہے۔ ٹھوس میں ذرات مقرر جگہوں کے گرد ارتعاش کرتے ہیں؛ مائع میں ذرات ایک دوسرے کے پاس سے گزرتے ہیں؛ گیس میں ذرات دور اور آزاد ہوتے ہیں۔",
+            "sd": "مائع جو حجم لڳ ڀڳ مقرر پر شڪل ٿانوَ مطابق هوندي آهي. ذرڙا ويجهو پر بي ترتيب هوندا آهن ۽ هڪ ٻئي وٽان لنگهي سگهن ٿا، تنهنڪري مائع وهي ٿو. خالي جاءِ گهٽ هجڻ سبب ان کي دٻائڻ ڏکيو آهي. ڦهلاءُ وڌيڪ ارتڪاز کان گهٽ ارتڪاز ڏانهن بي ترتيب پکڙجڻ آهي؛ مائع ۾ اهو گئس کان آهستي ٿئي ٿو، ڇاڪاڻ ته ذرڙا ويجهو ۽ پاڻ ۾ اثر رکندڙ آهن. گرم ڪرڻ سان سراسري حرڪي توانائي وڌي ٿي ۽ مائع عام طور پکڙجي ٿو. ٺوس ۾ ذرڙا مقرر جڳهن وٽ ارتعاش ڪن ٿا؛ مائع ۾ هڪ ٻئي وٽان لنگهن ٿا؛ گئس ۾ ذرڙا پري ۽ آزاد آهن."
           }
         },
         {
-          "title": "Chapter 5: States of Matter II — Liquids — applications and problem solving",
+          "title": "5.2 Intermolecular attractions: London, dipole–dipole and hydrogen bonding",
           "type": "text",
-          "content": "Apply the concepts in chapter 5: states of matter ii — liquids to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "content": "## Learning outcomes\nIdentify the main intermolecular attractions in molecular substances and relate them to physical behaviour.\n\nLondon dispersion forces arise from momentary changes in electron distribution. A temporary dipole can induce a dipole in a neighbouring particle. These forces occur in all atoms and molecules; in non-polar molecules they are the only intermolecular attraction. Strength generally increases with polarizability and molecular size/contact area, although shape also matters.\n\nPermanent dipole–dipole attractions act between polar molecules: the partially positive end of one attracts the partially negative end of another. These are intermolecular attractions, not covalent bonds.\n\nHydrogen bonding is a particularly strong, directional dipole–dipole attraction. In the usual school model, hydrogen covalently bonded to N, O or F interacts with a lone pair on N, O or F nearby. Water forms a changing network of hydrogen bonds.\n\nMolecular size, shape, polarizability and the number of contact points also affect boiling point and viscosity. Stronger attractions in a comparable series generally make molecules harder to separate.\n\nExamples: methane has London forces; HCl has permanent dipole–dipole plus dispersion; water has hydrogen bonding, dipole–dipole and dispersion.\n\nRevision: London forces occur in all particles; dipole–dipole requires permanent polarity; hydrogen bonding requires H–N/O/F and a suitable lone pair.",
           "explanations": {
-            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
-            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+            "ur": "لندن ڈسپریشن قوتیں الیکٹرانوں کی لمحاتی تبدیلی سے عارضی ڈائی پول بناتی ہیں اور تمام سالمات میں پائی جاتی ہیں؛ غیر قطبی سالمات میں یہی بنیادی کشش ہے۔ مستقل ڈائی پول–ڈائی پول کشش قطبی سالمات کے جزوی مثبت اور منفی سروں کے درمیان ہوتی ہے۔ ہائیڈروجن بند نسبتاً مضبوط سمت دار کشش ہے جس میں N، O یا F سے بندھا H قریبی N، O یا F کے تنہا الیکٹران جوڑے سے تعامل کرتا ہے۔ مثالیں: میتھین، HCl اور پانی۔ سالمے کی جسامت، شکل اور قطب پذیری بھی طبعی خصوصیات پر اثر ڈالتی ہیں۔",
+            "sd": "لنڊن ڊسپرشن قوتون اليڪٽرانن جي لمحي تبديلي سبب عارضي ڊائپول ٺاهين ٿيون ۽ سڀني ماليڪيولن ۾ ٿين ٿيون؛ غير قطبي ماليڪيولن ۾ اها بنيادي ڪشش آهي. مستقل ڊائپول–ڊائپول ڪشش قطبي ماليڪيولن جي جزوي مثبت ۽ منفي پاسن وچ ٿئي ٿي. هائيڊروجن بند نسبتاً مضبوط رخ واري ڪشش آهي، جنهن ۾ N، O يا F سان ٻڌل H ويجهي N، O يا F جي اڪيلي اليڪٽران جوڙي سان اثر ڪري ٿو. مثال: ميٿين، HCl ۽ پاڻي. ماليڪيول جي ماپ، شڪل ۽ قطبيت قبولڻ جي صلاحيت به طبعي خاصيتن تي اثر ڪن ٿيون."
+          }
+        },
+        {
+          "title": "5.3 Liquid particle model: cohesion, surface tension and evaporation",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain evaporation, vapour pressure, viscosity and surface tension using intermolecular cohesion and particle motion.\n\nEvaporation is the escape of higher-energy particles from a liquid surface and can occur below the boiling point. Escaping particles carry energy away, so the remaining liquid may cool. Evaporation is faster at higher temperature; exposed area and air movement also affect the observed rate.\n\nIn a closed container, evaporation and condensation occur. At dynamic equilibrium their rates are equal and the vapour pressure is constant at that temperature. Vapour pressure rises with temperature.\n\nA liquid boils when its vapour pressure equals external pressure, allowing vapour bubbles to form throughout the liquid. Lower external pressure lowers the boiling temperature; a pressure cooker raises it.\n\nViscosity is resistance to flow. Cohesion and molecular shape can increase viscosity; heating many liquids reduces it, but the effect depends on the substance.\n\nSurface tension is the tendency of a liquid surface to minimise area because of cohesive attractions. For most ordinary liquids it decreases as temperature rises. The interactive arrows are qualitative teaching symbols, not measured forces or a molecular-dynamics simulation.\n\nRevision: Evaporation is a surface process; boiling occurs throughout the liquid when vapour pressure equals external pressure. Viscosity resists flow and cohesion contributes to surface tension.",
+          "explanations": {
+            "ur": "تبخیر میں زیادہ توانائی والے ذرات سطح سے نکلتے ہیں اور یہ نقطۂ ابلاؤ سے کم درجۂ حرارت پر بھی ہو سکتی ہے۔ نکلنے والے ذرات توانائی لے جاتے ہیں، اس لیے باقی مائع ٹھنڈا ہو سکتا ہے۔ بند برتن میں تبخیر اور تکاثف کے برابر ہونے پر متحرک توازن قائم ہوتا ہے؛ بخارات کا دباؤ بخاراتی دباؤ ہے۔ درجۂ حرارت بڑھنے سے بخاراتی دباؤ بڑھتا ہے۔ ابلنا اس وقت ہوتا ہے جب بخاراتی دباؤ بیرونی دباؤ کے برابر ہو۔ چپچپاہٹ بہاؤ کی مزاحمت ہے؛ سطحی تناؤ باہمی کشش سے سطح کا رقبہ کم رکھنے کا رجحان ہے۔ ماڈل کے تیر تصوری ہیں، ناپی گئی قوتیں نہیں۔",
+            "sd": "بخارجڻ ۾ وڌيڪ توانائي وارا ذرڙا سطح تان نڪرن ٿا ۽ اهو اُبال جي نقطي کان گهٽ گرمي پد تي به ٿي سگهي ٿو. نڪرندڙ ذرڙا توانائي کڻي وڃن ٿا، تنهنڪري باقي مائع ٿڌو ٿي سگهي ٿو. بند ٿانوَ ۾ بخارجڻ ۽ مائع ٿيڻ جون رفتارون برابر ٿين ته متحرڪ توازن ٿئي ٿو؛ ٻاڦ جو دٻاءُ مقرر رهي ٿو. گرمي پد وڌڻ سان ٻاڦ وارو دٻاءُ وڌي ٿو. اُبالڻ تڏهن ٿئي ٿو جڏهن ٻاڦ جو دٻاءُ ٻاهرين دٻاءَ برابر ٿئي. چپچپاهٽ وهڪري جي مزاحمت آهي؛ سطحي ڇڪ پاڻ ۾ ڪشش سبب سطح جي ايراضي گهٽ رکڻ جو لاڙو آهي. ماڊل جا تير تصوري آهن، ماپيل قوتون ناهن."
+          }
+        },
+        {
+          "title": "5.4 Water, hydrogen bonding and latent heat",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain water's unusual thermal properties and use latent heat in phase-change calculations.\n\nHydrogen bonds help explain water's high surface tension, high specific heat capacity, relatively low vapour pressure compared with many similar-sized molecular liquids, high heat of vaporization and high boiling point. Specific heat concerns temperature change; latent heat concerns a change of state.\n\nMolar heat of fusion is the energy required to melt one mole of a solid at its melting point without a temperature change. Molar heat of vaporization is the energy required to convert one mole of liquid to gas at its boiling point without a temperature change. For mass-specific latent heat, Q = mL; for molar latent heat, Q = nΔHphase.\n\nDuring melting or boiling, energy changes particle arrangement and separation rather than raising average kinetic energy. Temperature therefore remains approximately constant while both phases coexist.\n\nGlacier example: 1,000 kg of ice at 0 °C with Lf = 334 kJ kg⁻¹ requires Q = mLf = 334,000 kJ = 334 MJ to melt at 0 °C. This simplified calculation excludes snowfall, sublimation, runoff, radiation and heat exchange with air, rock and water.\n\nRevision: Hydrogen bonding contributes to water's thermal behaviour. Latent heat changes state without a temperature rise during the phase change.",
+          "explanations": {
+            "ur": "ہائیڈروجن بند پانی کے زیادہ سطحی تناؤ، زیادہ مخصوص حرارت، نسبتاً کم بخاراتی دباؤ، زیادہ حرارتِ تبخیر اور زیادہ نقطۂ ابلاؤ کو سمجھانے میں مدد دیتے ہیں۔ مخصوص حرارت درجۂ حرارت کی تبدیلی سے اور مخفی حرارت حالت کی تبدیلی سے متعلق ہے۔ مولر حرارتِ پگھلاؤ ایک مول ٹھوس کو نقطۂ پگھلاؤ پر بغیر درجۂ حرارت بدلے پگھلانے کی توانائی ہے؛ مولر حرارتِ تبخیر ایک مول مائع کو نقطۂ ابلاؤ پر گیس بنانے کی توانائی ہے۔ Q=mL یا Q=nΔH استعمال کریں۔ پگھلنے یا ابلنے کے دوران درجۂ حرارت تقریباً مستقل رہتا ہے۔ 1,000 kg برف کے لیے Q=1,000×334=334,000 kJ=334 MJ۔ یہ سادہ حساب ہے، مکمل گلیشیئر ماڈل نہیں۔",
+            "sd": "هائيڊروجن بند پاڻي جي وڌيڪ سطحي ڇڪ، وڌيڪ مخصوص گرمي، نسبتاً گهٽ ٻاڦ واري دٻاءَ، وڌيڪ ٻاڦ ٿيڻ جي گرمي ۽ وڌيڪ اُبال نقطي کي سمجهائين ٿا. مخصوص گرمي گرمي پد جي تبديلي سان ۽ مخفي گرمي حالت جي تبديلي سان لاڳاپيل آهي. مولر پگھلڻ جي گرمي هڪ مول ٺوس کي پگھلڻ واري نقطي تي گرمي پد بدلاڻ کان سواءِ پگھلائڻ جي توانائي آهي؛ مولر ٻاڦ ٿيڻ جي گرمي هڪ مول مائع کي اُبال واري نقطي تي گئس ڪرڻ جي توانائي آهي. Q=mL يا Q=nΔH استعمال ڪريو. پگھلڻ يا اُبالڻ دوران گرمي پد لڳ ڀڳ ساڳيو رهي ٿو. 1,000 kg برف لاءِ Q=1,000×334=334,000 kJ=334 MJ. هي سادو حساب آهي، مڪمل گليشيئر ماڊل ناهي۔"
           }
         }
       ],
       "questions": [
         {
-          "question": "Which statement best describes chapter 5: states of matter ii — liquids?",
+          "id": "chem-xi-liq-mcq-01",
+          "question": "Which statement best describes a liquid?",
           "options": {
-            "A": "Liquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions gen",
-            "B": "The topic is unrelated to measurable evidence.",
-            "C": "Units and definitions are unnecessary.",
-            "D": "The concept cannot be applied to problems."
-          },
-          "correctOption": "A",
-          "explanation": "Liquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions generally raise boiling point and viscosity and reduce vapour pressure at a given temperature."
-        },
-        {
-          "question": "How should a student solve a problem in chapter 5: states of matter ii — liquids?",
-          "options": {
-            "A": "Guess without identifying quantities.",
-            "B": "Apply the relevant principle, show steps and check units.",
-            "C": "Ignore the stated conditions.",
-            "D": "Use an unrelated equation."
+            "A": "It has a fixed shape and fixed volume.",
+            "B": "It has a nearly fixed volume but takes the shape of its container.",
+            "C": "It has neither a fixed shape nor a fixed volume.",
+            "D": "Its particles are fixed in a regular lattice."
           },
           "correctOption": "B",
-          "explanation": "Liquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions generally raise boiling point and viscosity and reduce vapour pressure at a given temperature."
+          "explanation": "Liquid particles remain close enough for a nearly fixed volume but can move past one another, so the liquid takes the container's shape.",
+          "translations": {
+            "ur": {
+              "question": "مائع کی درست خصوصیت کیا ہے؟",
+              "options": {
+                "A": "اس کی شکل اور حجم دونوں مقرر ہیں۔",
+                "B": "اس کا حجم تقریباً مقرر مگر شکل برتن کے مطابق ہوتی ہے۔",
+                "C": "اس کی نہ شکل مقرر ہے نہ حجم۔",
+                "D": "اس کے ذرات باقاعدہ جال میں مقرر ہیں۔"
+              },
+              "explanation": "ذرات قریب رہتے ہیں مگر ایک دوسرے کے پاس سے گزر سکتے ہیں؛ اس لیے حجم تقریباً مقرر اور شکل برتن کے مطابق ہوتی ہے۔"
+            },
+            "sd": {
+              "question": "مائع جي صحيح خاصيت ڪهڙي آهي؟",
+              "options": {
+                "A": "ان جي شڪل ۽ حجم ٻئي مقرر آهن.",
+                "B": "ان جو حجم لڳ ڀڳ مقرر پر شڪل ٿانوَ مطابق آهي.",
+                "C": "ان جي نه شڪل مقرر آهي نه حجم.",
+                "D": "ان جا ذرڙا باقاعده جال ۾ مقرر آهن."
+              },
+              "explanation": "ذرڙا ويجهو رهن ٿا پر هڪ ٻئي وٽان لنگهي سگهن ٿا؛ تنهنڪري حجم لڳ ڀڳ مقرر ۽ شڪل ٿانوَ مطابق ٿئي ٿي."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-02",
+          "question": "Why are liquids much less compressible than gases?",
+          "options": {
+            "A": "Liquid particles have no kinetic energy.",
+            "B": "Liquid particles are fixed in a rigid crystal lattice.",
+            "C": "Liquid particles are close together, leaving relatively little empty space.",
+            "D": "Liquid particles are electrically charged."
+          },
+          "correctOption": "C",
+          "explanation": "The small average spacing between liquid particles leaves little room for compression; gases have much larger spaces.",
+          "translations": {
+            "ur": {
+              "question": "مائع گیسوں سے کم دباؤ پذیر کیوں ہوتے ہیں؟",
+              "options": {
+                "A": "مائع کے ذرات میں حرکی توانائی نہیں ہوتی۔",
+                "B": "مائع کے ذرات سخت بلوری جال میں مقرر ہوتے ہیں۔",
+                "C": "مائع کے ذرات قریب ہوتے ہیں اور خالی جگہ کم ہوتی ہے۔",
+                "D": "مائع کے ذرات برقی بار رکھتے ہیں۔"
+              },
+              "explanation": "مائع کے ذرات کے درمیان خالی جگہ کم ہوتی ہے، اس لیے دبانے کی گنجائش کم ہے۔"
+            },
+            "sd": {
+              "question": "مائع گئسن کان گهٽ دٻجڻ لائق ڇو آهن؟",
+              "options": {
+                "A": "مائع جي ذرڙن ۾ حرڪي توانائي ناهي.",
+                "B": "مائع جا ذرڙا سخت بلوري جال ۾ مقرر آهن.",
+                "C": "مائع جا ذرڙا ويجهو آهن ۽ خالي جاءِ گهٽ آهي.",
+                "D": "مائع جا ذرڙا برقي بار رکن ٿا."
+              },
+              "explanation": "مائع جي ذرڙن وچ خالي جاءِ گهٽ آهي، تنهنڪري دٻائڻ جي گنجائش گهٽ آهي."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-03",
+          "question": "Why is diffusion usually slower in a liquid than in a gas?",
+          "options": {
+            "A": "Liquid particles are closer and interact more strongly.",
+            "B": "Liquid particles never move.",
+            "C": "Gas particles have no kinetic energy.",
+            "D": "Diffusion requires charged particles."
+          },
+          "correctOption": "A",
+          "explanation": "Liquid particles move continuously, but close spacing and intermolecular interactions slow mixing compared with gases.",
+          "translations": {
+            "ur": {
+              "question": "مائع میں انتشار گیس سے آہستہ کیوں ہوتا ہے؟",
+              "options": {
+                "A": "مائع کے ذرات قریب اور باہمی تعامل میں ہوتے ہیں۔",
+                "B": "مائع کے ذرات حرکت نہیں کرتے۔",
+                "C": "گیس کے ذرات میں حرکی توانائی نہیں ہوتی۔",
+                "D": "انتشار کے لیے برقی بار ضروری ہے۔"
+              },
+              "explanation": "مائع کے ذرات مسلسل حرکت کرتے ہیں مگر قربت اور کشش اختلاط کو آہستہ کرتی ہے۔"
+            },
+            "sd": {
+              "question": "مائع ۾ ڦهلاءُ گئس کان آهستي ڇو ٿئي ٿو؟",
+              "options": {
+                "A": "مائع جا ذرڙا ويجهو ۽ پاڻ ۾ اثر رکندڙ آهن.",
+                "B": "مائع جا ذرڙا نٿا هلن.",
+                "C": "گئس جي ذرڙن ۾ حرڪي توانائي ناهي.",
+                "D": "ڦهلاءَ لاءِ برقي بار ضروري آهي."
+              },
+              "explanation": "مائع جا ذرڙا مسلسل هلن ٿا، پر ويجهڙائي ۽ ڪشش ملڻ کي آهستو ڪن ٿيون."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-04",
+          "question": "What happens to the average kinetic energy of liquid particles when temperature rises?",
+          "options": {
+            "A": "It becomes zero.",
+            "B": "It remains unchanged.",
+            "C": "It depends only on container colour.",
+            "D": "It increases."
+          },
+          "correctOption": "D",
+          "explanation": "Temperature is related to the average kinetic energy of particles in the kinetic model.",
+          "translations": {
+            "ur": {
+              "question": "مائع کا درجۂ حرارت بڑھنے سے ذرات کی اوسط حرکی توانائی کا کیا ہوتا ہے؟",
+              "options": {
+                "A": "یہ صفر ہو جاتی ہے۔",
+                "B": "یہ تبدیل نہیں ہوتی۔",
+                "C": "یہ صرف برتن کے رنگ پر منحصر ہے۔",
+                "D": "یہ بڑھ جاتی ہے۔"
+              },
+              "explanation": "حرکی ماڈل میں درجۂ حرارت ذرات کی اوسط حرکی توانائی سے متعلق ہے۔"
+            },
+            "sd": {
+              "question": "مائع جو گرمي پد وڌڻ سان ذرڙن جي سراسري حرڪي توانائي ڇا ٿيندي؟",
+              "options": {
+                "A": "اها صفر ٿيندي.",
+                "B": "اها ساڳي رهندي.",
+                "C": "اها رڳو ٿانوَ جي رنگ تي دارومدار رکي ٿي.",
+                "D": "اها وڌندي."
+              },
+              "explanation": "حرڪي ماڊل ۾ گرمي پد ذرڙن جي سراسري حرڪي توانائي سان لاڳاپيل آهي."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-05",
+          "question": "London dispersion forces arise mainly from:",
+          "options": {
+            "A": "Permanent ionic charges.",
+            "B": "Hydrogen bonds only.",
+            "C": "Temporary dipoles that induce dipoles in nearby particles.",
+            "D": "Permanent covalent bonds between separate molecules."
+          },
+          "correctOption": "C",
+          "explanation": "Momentary electron-cloud fluctuations create temporary dipoles that can induce dipoles nearby.",
+          "translations": {
+            "ur": {
+              "question": "لندن ڈسپریشن قوتیں بنیادی طور کس وجہ سے بنتی ہیں؟",
+              "options": {
+                "A": "مستقل آئنک بار سے۔",
+                "B": "صرف ہائیڈروجن بند سے۔",
+                "C": "عارضی ڈائی پول جو قریبی ذرات میں ڈائی پول پیدا کرتے ہیں۔",
+                "D": "الگ سالمات کے درمیان مستقل کوویلنٹ بند سے۔"
+              },
+              "explanation": "الیکٹران بادل کی لمحاتی تبدیلی عارضی ڈائی پول بناتی ہے جو قریبی ذرات میں ڈائی پول پیدا کر سکتی ہے۔"
+            },
+            "sd": {
+              "question": "لنڊن ڊسپرشن قوتون بنيادي طور ڪيئن ٺهن ٿيون؟",
+              "options": {
+                "A": "مستقل آئنڪ بارن مان.",
+                "B": "رڳو هائيڊروجن بندن مان.",
+                "C": "عارضي ڊائپول، جيڪي ويجهن ذرڙن ۾ ڊائپول پيدا ڪن ٿا.",
+                "D": "الڳ ماليڪيولن وچ مستقل ڪوويلنٽ بند مان."
+              },
+              "explanation": "اليڪٽران بادل جي لمحي تبديلي عارضي ڊائپول ٺاهي ٿي، جيڪو ويجهن ذرڙن ۾ ڊائپول پيدا ڪري سگهي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-06",
+          "question": "Permanent dipole–dipole attractions occur between:",
+          "options": {
+            "A": "Polar molecules with permanent dipoles.",
+            "B": "Only noble-gas atoms.",
+            "C": "Ions in a metal lattice.",
+            "D": "Non-polar molecules only."
+          },
+          "correctOption": "A",
+          "explanation": "The partially positive and partially negative ends of polar molecules attract one another.",
+          "translations": {
+            "ur": {
+              "question": "مستقل ڈائی پول–ڈائی پول کشش کن کے درمیان ہوتی ہے؟",
+              "options": {
+                "A": "مستقل ڈائی پول والے قطبی سالمات کے درمیان۔",
+                "B": "صرف نوبل گیس کے ایٹموں کے درمیان۔",
+                "C": "دھاتی جال کے آئنوں کے درمیان۔",
+                "D": "صرف غیر قطبی سالمات کے درمیان۔"
+              },
+              "explanation": "قطبی سالمات کے جزوی مثبت اور جزوی منفی سرے ایک دوسرے کو کھینچتے ہیں۔"
+            },
+            "sd": {
+              "question": "مستقل ڊائپول–ڊائپول ڪشش ڪنهن وچ ٿيندي آهي؟",
+              "options": {
+                "A": "مستقل ڊائپول وارن قطبي ماليڪيولن وچ.",
+                "B": "رڳو نوبل گئس جي ائٽمن وچ.",
+                "C": "ڌاتي جال جي آئنن وچ.",
+                "D": "رڳو غير قطبي ماليڪيولن وچ."
+              },
+              "explanation": "قطبي ماليڪيولن جا جزوي مثبت ۽ منفي پاسا هڪ ٻئي کي ڇڪين ٿا."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-07",
+          "question": "A conventional hydrogen bond is most likely when hydrogen is bonded to:",
+          "options": {
+            "A": "Carbon or silicon.",
+            "B": "Nitrogen, oxygen or fluorine and interacts with a suitable lone pair.",
+            "C": "Any metal atom.",
+            "D": "A noble-gas atom."
+          },
+          "correctOption": "B",
+          "explanation": "In the usual model, H bonded to N, O or F interacts with a lone pair on nearby N, O or F.",
+          "translations": {
+            "ur": {
+              "question": "روایتی ہائیڈروجن بند عموماً کب بنتا ہے؟",
+              "options": {
+                "A": "جب ہائیڈروجن کاربن یا سلیکان سے بند ہو۔",
+                "B": "جب ہائیڈروجن N، O یا F سے بند ہو اور قریبی مناسب تنہا جوڑے سے تعامل کرے۔",
+                "C": "جب ہائیڈروجن کسی دھات سے بند ہو۔",
+                "D": "جب ہائیڈروجن نوبل گیس سے بند ہو۔"
+              },
+              "explanation": "N، O یا F سے بندھا H قریبی N، O یا F کے تنہا الیکٹران جوڑے سے تعامل کرتا ہے۔"
+            },
+            "sd": {
+              "question": "روايتي هائيڊروجن بند ڪڏهن ٺهندو آهي؟",
+              "options": {
+                "A": "جڏهن H ڪاربان يا سليڪان سان بنديل هجي.",
+                "B": "جڏهن H، N، O يا F سان بنديل هجي ۽ ويجهي مناسب اڪيلي جوڙي سان اثر ڪري.",
+                "C": "جڏهن H ڪنهن ڌاتو سان بنديل هجي.",
+                "D": "جڏهن H نوبل گئس سان بنديل هجي."
+              },
+              "explanation": "N، O يا F سان ٻڌل H ويجهي N، O يا F جي اڪيلي اليڪٽران جوڙي سان اثر ڪري ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-08",
+          "question": "Evaporation differs from boiling because evaporation:",
+          "options": {
+            "A": "Occurs only throughout the liquid at its boiling point.",
+            "B": "Occurs only when a liquid freezes.",
+            "C": "Requires absolute zero.",
+            "D": "Occurs at the surface and can happen below the boiling point."
+          },
+          "correctOption": "D",
+          "explanation": "Evaporation is a surface process; boiling occurs throughout the liquid when vapour pressure equals external pressure.",
+          "translations": {
+            "ur": {
+              "question": "تبخیر اور ابلنے میں فرق کیا ہے؟",
+              "options": {
+                "A": "تبخیر صرف ابلنے کے نقطے پر پورے مائع میں ہوتی ہے۔",
+                "B": "تبخیر صرف جمنے پر ہوتی ہے۔",
+                "C": "تبخیر کے لیے مطلق صفر ضروری ہے۔",
+                "D": "تبخیر سطح پر ہوتی ہے اور ابلنے سے کم درجۂ حرارت پر بھی ہو سکتی ہے۔"
+              },
+              "explanation": "تبخیر سطحی عمل ہے؛ ابلنا اس وقت پورے مائع میں ہوتا ہے جب بخاراتی دباؤ بیرونی دباؤ کے برابر ہو۔"
+            },
+            "sd": {
+              "question": "بخارجڻ ۽ اُبالڻ ۾ فرق ڇا آهي؟",
+              "options": {
+                "A": "بخارجڻ رڳو اُبال جي نقطي تي سڄي مائع ۾ ٿئي ٿو.",
+                "B": "بخارجڻ رڳو ڄمڻ وقت ٿئي ٿو.",
+                "C": "بخارجڻ لاءِ مطلق صفر ضروري آهي.",
+                "D": "بخارجڻ سطح تي ٿئي ٿو ۽ اُبال کان گهٽ گرمي پد تي به ٿي سگهي ٿو."
+              },
+              "explanation": "بخارجڻ سطحي عمل آهي؛ اُبالڻ تڏهن سڄي مائع ۾ ٿئي ٿو جڏهن ٻاڦ جو دٻاءُ ٻاهرين دٻاءَ برابر ٿئي."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-09",
+          "question": "In a closed container, what happens to the equilibrium vapour pressure of a pure liquid when temperature increases?",
+          "options": {
+            "A": "It increases.",
+            "B": "It becomes zero.",
+            "C": "It is always one atmosphere.",
+            "D": "It is independent of the liquid."
+          },
+          "correctOption": "A",
+          "explanation": "At higher temperature, a greater fraction of molecules can enter the vapour phase, so equilibrium vapour pressure rises.",
+          "translations": {
+            "ur": {
+              "question": "بند برتن میں درجۂ حرارت بڑھانے سے خالص مائع کا توازنی بخاراتی دباؤ کیا ہوتا ہے؟",
+              "options": {
+                "A": "یہ بڑھتا ہے۔",
+                "B": "یہ صفر ہو جاتا ہے۔",
+                "C": "یہ ہمیشہ ایک فضائی دباؤ ہوتا ہے۔",
+                "D": "یہ مائع کی نوعیت سے آزاد ہوتا ہے۔"
+              },
+              "explanation": "زیادہ درجۂ حرارت پر زیادہ سالمات بخاراتی حالت میں جا سکتے ہیں، اس لیے بخاراتی دباؤ بڑھتا ہے۔"
+            },
+            "sd": {
+              "question": "بند ٿانوَ ۾ گرمي پد وڌائڻ سان خالص مائع جو توازني ٻاڦ وارو دٻاءُ ڇا ٿيندو؟",
+              "options": {
+                "A": "اهو وڌندو.",
+                "B": "اهو صفر ٿيندو.",
+                "C": "اهو هميشه هڪ فضائي دٻاءُ هوندو.",
+                "D": "اهو مائع جي قسم کان آزاد هوندو."
+              },
+              "explanation": "وڌيڪ گرمي پد تي وڌيڪ ماليڪيول ٻاڦ واري حالت ۾ وڃن ٿا، تنهنڪري ٻاڦ وارو دٻاءُ وڌي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-10",
+          "question": "A liquid boils when:",
+          "options": {
+            "A": "Its surface tension becomes zero.",
+            "B": "All molecules have identical kinetic energy.",
+            "C": "Its vapour pressure equals the external pressure.",
+            "D": "Its density equals the gas density."
+          },
+          "correctOption": "C",
+          "explanation": "Boiling occurs when vapour bubbles can form throughout the liquid because vapour pressure matches the surrounding pressure.",
+          "translations": {
+            "ur": {
+              "question": "مائع کب ابلتا ہے؟",
+              "options": {
+                "A": "جب سطحی تناؤ صفر ہو۔",
+                "B": "جب تمام سالمات کی حرکی توانائی برابر ہو۔",
+                "C": "جب بخاراتی دباؤ بیرونی دباؤ کے برابر ہو۔",
+                "D": "جب مائع کی کثافت گیس کے برابر ہو۔"
+              },
+              "explanation": "بخاراتی دباؤ اردگرد کے دباؤ کے برابر ہو تو پورے مائع میں بخارات کے بلبلے بن سکتے ہیں۔"
+            },
+            "sd": {
+              "question": "مائع ڪڏهن اُبالجي ٿو؟",
+              "options": {
+                "A": "جڏهن سطحي ڇڪ صفر ٿئي.",
+                "B": "جڏهن سڀني ماليڪيولن جي حرڪي توانائي ساڳي هجي.",
+                "C": "جڏهن ٻاڦ جو دٻاءُ ٻاهرين دٻاءَ برابر ٿئي.",
+                "D": "جڏهن مائع جي گهاٽائي گئس جي برابر ٿئي."
+              },
+              "explanation": "جڏهن ٻاڦ جو دٻاءُ چوڌاري دٻاءَ برابر ٿئي ٿو ته سڄي مائع ۾ ٻاڦ جا بلبل ٺهي سگهن ٿا."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-11",
+          "question": "Viscosity is:",
+          "options": {
+            "A": "The temperature at which a liquid freezes.",
+            "B": "Resistance of a fluid to flow.",
+            "C": "The mass of one mole of liquid.",
+            "D": "The pressure exerted by vapour only."
+          },
+          "correctOption": "B",
+          "explanation": "Viscosity describes internal resistance to flow; honey is more viscous than water at similar conditions.",
+          "translations": {
+            "ur": {
+              "question": "چپچپاہٹ (viscosity) کیا ہے؟",
+              "options": {
+                "A": "وہ درجۂ حرارت جس پر مائع جمے۔",
+                "B": "بہاؤ کے خلاف سیال کی اندرونی مزاحمت۔",
+                "C": "مائع کے ایک مول کی کمیت۔",
+                "D": "صرف بخارات کا دباؤ۔"
+              },
+              "explanation": "چپچپاہٹ بہاؤ کی اندرونی مزاحمت ہے؛ یکساں حالات میں شہد پانی سے زیادہ چپچپا ہے۔"
+            },
+            "sd": {
+              "question": "چپچپاهٽ (viscosity) ڇا آهي؟",
+              "options": {
+                "A": "اهو گرمي پد جنهن تي مائع ڄمي.",
+                "B": "وهڪري جي خلاف سيال جي اندروني مزاحمت.",
+                "C": "مائع جي هڪ مول جو ماس.",
+                "D": "رڳو ٻاڦ جو دٻاءُ."
+              },
+              "explanation": "چپچپاهٽ وهڪري جي اندروني مزاحمت آهي؛ ساڳين حالتن ۾ ماکي پاڻي کان وڌيڪ چپچپي آهي."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-12",
+          "question": "Surface tension is closely related to:",
+          "options": {
+            "A": "Cohesive attractions among molecules at the liquid surface.",
+            "B": "The number of protons in the liquid.",
+            "C": "The colour of the container.",
+            "D": "Electrical resistance only."
+          },
+          "correctOption": "A",
+          "explanation": "Cohesive forces make the surface resist an increase in area; surface tension is force per unit length or energy per unit area.",
+          "translations": {
+            "ur": {
+              "question": "سطحی تناؤ کس چیز سے متعلق ہے؟",
+              "options": {
+                "A": "مائع کی سطح پر سالمات کی باہمی کشش سے۔",
+                "B": "مائع میں پروٹونوں کی تعداد سے۔",
+                "C": "برتن کے رنگ سے۔",
+                "D": "صرف برقی مزاحمت سے۔"
+              },
+              "explanation": "باہمی کشش سطح کے رقبے میں اضافے کی مزاحمت کرتی ہے؛ سطحی تناؤ قوت فی اکائی لمبائی یا توانائی فی اکائی رقبہ ہے۔"
+            },
+            "sd": {
+              "question": "سطحي ڇڪ ڪهڙي شيءِ سان لاڳاپيل آهي؟",
+              "options": {
+                "A": "مائع جي سطح تي ماليڪيولن جي پاڻ ۾ ڪشش سان.",
+                "B": "مائع ۾ پروٽانن جي تعداد سان.",
+                "C": "ٿانوَ جي رنگ سان.",
+                "D": "رڳو برقي مزاحمت سان."
+              },
+              "explanation": "پاڻ ۾ ڪشش سطح جي ايراضي وڌائڻ جي مزاحمت ڪري ٿي؛ سطحي ڇڪ في ايڪي ڊيگهه قوت يا في ايڪي ايراضي توانائي آهي."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-13",
+          "question": "Water has relatively high surface tension mainly because:",
+          "options": {
+            "A": "Water molecules are non-polar.",
+            "B": "Water has no vapour pressure.",
+            "C": "Water molecules are stationary.",
+            "D": "Hydrogen bonding creates strong cohesion between water molecules."
+          },
+          "correctOption": "D",
+          "explanation": "Hydrogen bonding creates substantial cohesion between neighbouring water molecules, contributing to high surface tension.",
+          "translations": {
+            "ur": {
+              "question": "پانی کا سطحی تناؤ زیادہ ہونے کی بنیادی وجہ کیا ہے؟",
+              "options": {
+                "A": "پانی کے سالمات غیر قطبی ہیں۔",
+                "B": "پانی کا بخاراتی دباؤ نہیں۔",
+                "C": "پانی کے سالمات ساکن ہیں۔",
+                "D": "ہائیڈروجن بند پانی کے سالمات میں مضبوط باہمی کشش پیدا کرتے ہیں۔"
+              },
+              "explanation": "ہائیڈروجن بند پڑوسی پانی کے سالمات میں مضبوط باہمی کشش پیدا کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "پاڻي جي سطحي ڇڪ وڌيڪ هجڻ جو بنيادي سبب ڇا آهي؟",
+              "options": {
+                "A": "پاڻي جا ماليڪيول غير قطبي آهن.",
+                "B": "پاڻي جو ٻاڦ وارو دٻاءُ ناهي.",
+                "C": "پاڻي جا ماليڪيول بيٺل آهن.",
+                "D": "هائيڊروجن بند پاڻي جي ماليڪيولن وچ مضبوط ڪشش پيدا ڪن ٿا."
+              },
+              "explanation": "هائيڊروجن بند پاڙيسري پاڻي جي ماليڪيولن وچ مضبوط ڪشش پيدا ڪن ٿا."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-14",
+          "question": "Molar heat of fusion is the energy required to:",
+          "options": {
+            "A": "Raise one mole by 1 °C.",
+            "B": "Melt one mole of solid at its melting point without a temperature change.",
+            "C": "Vaporise one mole at any temperature.",
+            "D": "Cool one mole to absolute zero."
+          },
+          "correctOption": "B",
+          "explanation": "During melting at the melting point, energy changes the phase; temperature remains constant until melting is complete.",
+          "translations": {
+            "ur": {
+              "question": "مولر حرارتِ پگھلاؤ کیا ہے؟",
+              "options": {
+                "A": "ایک مول کا درجۂ حرارت 1 °C بڑھانے کی توانائی۔",
+                "B": "پگھلنے کے نقطے پر ایک مول ٹھوس کو درجۂ حرارت بدلے بغیر پگھلانے کی توانائی۔",
+                "C": "کسی بھی درجۂ حرارت پر ایک مول کو بخارات بنانے کی توانائی۔",
+                "D": "ایک مول کو مطلق صفر تک ٹھنڈا کرنے کی توانائی۔"
+              },
+              "explanation": "پگھلنے کے دوران توانائی حالت بدلنے میں استعمال ہوتی ہے اور تبدیلی مکمل ہونے تک درجۂ حرارت مستقل رہتا ہے۔"
+            },
+            "sd": {
+              "question": "مولر پگھلڻ جي گرمي ڇا آهي؟",
+              "options": {
+                "A": "هڪ مول جو گرمي پد 1 °C وڌائڻ جي توانائي.",
+                "B": "پگھلڻ واري نقطي تي هڪ مول ٺوس کي گرمي پد بدلاڻ کان سواءِ پگھلائڻ جي توانائي.",
+                "C": "ڪنهن به گرمي پد تي هڪ مول کي ٻاڦ ڪرڻ جي توانائي.",
+                "D": "هڪ مول کي مطلق صفر تائين ٿڌو ڪرڻ جي توانائي."
+              },
+              "explanation": "پگھلڻ دوران توانائي حالت بدلائڻ ۾ خرچ ٿئي ٿي ۽ تبديلي مڪمل ٿيڻ تائين گرمي پد ساڳيو رهي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-15",
+          "question": "A glacier contains 1,000 kg of ice at 0 °C. If Lf = 334 kJ/kg, what energy is needed to melt it at 0 °C?",
+          "options": {
+            "A": "334 kJ",
+            "B": "3,340 kJ",
+            "C": "334,000 kJ",
+            "D": "33,400 kJ"
+          },
+          "correctOption": "C",
+          "explanation": "Q = mLf = 1,000 kg × 334 kJ/kg = 334,000 kJ = 334 MJ.",
+          "translations": {
+            "ur": {
+              "question": "0 °C پر 1,000 kg برف پگھلانے کے لیے کتنی توانائی درکار ہے اگر Lf = 334 kJ/kg ہو؟",
+              "options": {
+                "A": "334 kJ",
+                "B": "3,340 kJ",
+                "C": "334,000 kJ",
+                "D": "33,400 kJ"
+              },
+              "explanation": "Q = mLf = 1,000 × 334 = 334,000 kJ یعنی 334 MJ۔"
+            },
+            "sd": {
+              "question": "0 °C تي 1,000 kg برف پگھلائڻ لاءِ ڪيتري توانائي گهرجي جيڪڏهن Lf = 334 kJ/kg هجي؟",
+              "options": {
+                "A": "334 kJ",
+                "B": "3,340 kJ",
+                "C": "334,000 kJ",
+                "D": "33,400 kJ"
+              },
+              "explanation": "Q = mLf = 1,000 × 334 = 334,000 kJ يعني 334 MJ."
+            }
+          }
         }
       ],
       "writtenQuestions": [
         {
+          "id": "chem-xi-liq-crq-01",
           "type": "crq",
           "marks": 5,
-          "question": "Define two key terms in chapter 5: states of matter ii — liquids and explain their relationship.",
-          "modelAnswer": "Liquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions generally raise boiling point and viscosity and reduce vapour pressure at a given temperature.",
+          "question": "Using the kinetic particle model, compare a liquid with a solid and a gas. Explain why a liquid has a nearly fixed volume but no fixed shape.",
+          "modelAnswer": "In a solid, particles are closely packed in an ordered arrangement and mainly vibrate about fixed positions. In a liquid, particles remain close but are disordered and can move past one another; this gives a nearly fixed volume but allows the liquid to take the container's shape. In a gas, particles are widely separated and move freely, so a gas has neither fixed shape nor fixed volume. Liquids are only slightly compressible because little empty space exists between their particles.",
           "rubric": [
-            "Correct definitions (2)",
-            "Relationship/explanation (2)",
-            "Clear expression (1)"
-          ]
+            "Solid particle arrangement and motion (1)",
+            "Liquid particles close, disordered and able to slide (2)",
+            "Gas particles widely separated and free to move (1)",
+            "Link to nearly fixed volume, container shape and low compressibility (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "حرکی ذرّاتی ماڈل سے مائع کا ٹھوس اور گیس سے موازنہ کریں۔ مائع کا حجم تقریباً مقرر مگر شکل غیر مقرر کیوں ہوتی ہے؟",
+              "modelAnswer": "ٹھوس میں ذرات قریب اور باقاعدہ ترتیب میں ہوتے ہیں اور مقرر جگہوں کے گرد ارتعاش کرتے ہیں۔ مائع میں ذرات قریب مگر بے ترتیب ہوتے ہیں اور ایک دوسرے کے پاس سے گزر سکتے ہیں؛ اس لیے حجم تقریباً مقرر اور شکل برتن کے مطابق ہوتی ہے۔ گیس میں ذرات دور اور آزادانہ حرکت کرتے ہیں، اس لیے شکل اور حجم دونوں مقرر نہیں۔ مائع کم دباؤ پذیر ہے کیونکہ ذرات کے درمیان خالی جگہ کم ہے۔",
+              "rubric": [
+                "ٹھوس ذرات کی ترتیب اور حرکت (1)",
+                "مائع کے ذرات قریب، بے ترتیب اور پھسل سکتے ہیں (2)",
+                "گیس کے ذرات دور اور آزادانہ حرکت کرتے ہیں (1)",
+                "حجم، برتن کی شکل اور کم دباؤ پذیری کا تعلق (1)"
+              ]
+            },
+            "sd": {
+              "question": "حرڪي ذرڙي واري ماڊل سان مائع جو ٺوس ۽ گئس سان ڀيٽ ڪريو. مائع جو حجم لڳ ڀڳ مقرر پر شڪل غير مقرر ڇو هوندي آهي؟",
+              "modelAnswer": "ٺوس ۾ ذرڙا ويجهو ۽ باقاعده ترتيب ۾ هوندا آهن ۽ مقرر جڳهن وٽ ارتعاش ڪندا آهن. مائع ۾ ذرڙا ويجهو پر بي ترتيب هوندا آهن ۽ هڪ ٻئي وٽان لنگهي سگهن ٿا؛ تنهنڪري حجم لڳ ڀڳ مقرر ۽ شڪل ٿانوَ مطابق ٿئي ٿي. گئس ۾ ذرڙا پري ۽ آزاد حرڪت ڪن ٿا، تنهنڪري شڪل ۽ حجم ٻئي مقرر ناهن. مائع گهٽ دٻجي ٿو، ڇاڪاڻ ته ذرڙن وچ خالي جاءِ گهٽ آهي.",
+              "rubric": [
+                "ٺوس ذرڙن جي ترتيب ۽ حرڪت (1)",
+                "مائع جا ذرڙا ويجهو، بي ترتيب ۽ هڪ ٻئي وٽان لنگهن ٿا (2)",
+                "گئس جا ذرڙا پري ۽ آزاد حرڪت ڪن ٿا (1)",
+                "حجم، ٿانوَ جي شڪل ۽ گهٽ دٻجڻ جو تعلق (1)"
+              ]
+            }
+          }
         },
         {
+          "id": "chem-xi-liq-crq-02",
+          "type": "crq",
+          "marks": 5,
+          "question": "Distinguish London dispersion forces, dipole–dipole attractions and hydrogen bonding. Give one suitable example of each.",
+          "modelAnswer": "London dispersion forces arise from temporary and induced dipoles and occur in all atoms and molecules; they are the only intermolecular attraction in non-polar methane. Dipole–dipole attractions act between permanent dipoles in polar molecules, for example HCl. Hydrogen bonding is a particularly strong, directional dipole–dipole attraction when H bonded to N, O or F interacts with a lone pair on N, O or F nearby, for example between water molecules.",
+          "rubric": [
+            "London dispersion: temporary/induced dipoles and example (1)",
+            "Dipole–dipole: permanent polar molecules and example (1)",
+            "Hydrogen bond: H–N/O/F and lone pair on N/O/F (2)",
+            "Clear distinction and examples (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "لندن ڈسپریشن قوت، ڈائی پول–ڈائی پول کشش اور ہائیڈروجن بند میں فرق کریں اور ہر ایک کی مثال دیں۔",
+              "modelAnswer": "لندن قوتیں عارضی اور پیدا شدہ ڈائی پول سے بنتی ہیں اور تمام ایٹموں اور سالمات میں ہوتی ہیں؛ غیر قطبی میتھین میں یہی بنیادی بین السالماتی کشش ہے۔ ڈائی پول–ڈائی پول کشش قطبی سالمات کے مستقل ڈائی پولز کے درمیان ہوتی ہے، مثلاً HCl۔ ہائیڈروجن بند نسبتاً مضبوط سمت دار کشش ہے جس میں N، O یا F سے بندھا H قریبی N، O یا F کے تنہا جوڑے سے تعامل کرتا ہے، مثلاً پانی کے سالمات میں۔",
+              "rubric": [
+                "لندن قوت: عارضی/پیدا شدہ ڈائی پول اور مثال (1)",
+                "ڈائی پول–ڈائی پول: مستقل قطبی سالمات اور مثال (1)",
+                "ہائیڈروجن بند: H–N/O/F اور قریبی تنہا جوڑا (2)",
+                "واضح فرق اور مثالیں (1)"
+              ]
+            },
+            "sd": {
+              "question": "لنڊن ڊسپرشن قوت، ڊائپول–ڊائپول ڪشش ۽ هائيڊروجن بند ۾ فرق ڪريو ۽ هر هڪ جو مثال ڏيو.",
+              "modelAnswer": "لنڊن قوتون عارضي ۽ پيدا ڪيل ڊائپولن مان ٺهن ٿيون ۽ سڀني ائٽمن ۽ ماليڪيولن ۾ ٿين ٿيون؛ غير قطبي ميٿين ۾ اها بنيادي بين الماليڪيولي ڪشش آهي. ڊائپول–ڊائپول ڪشش قطبي ماليڪيولن جي مستقل ڊائپولن وچ ٿئي ٿي، مثال HCl. هائيڊروجن بند نسبتاً مضبوط رخ واري ڪشش آهي، جنهن ۾ N، O يا F سان ٻڌل H ويجهي N، O يا F جي اڪيلي جوڙي سان اثر ڪري ٿو، مثال پاڻي جي ماليڪيولن وچ.",
+              "rubric": [
+                "لنڊن قوت: عارضي/پيدا ڪيل ڊائپول ۽ مثال (1)",
+                "ڊائپول–ڊائپول: مستقل قطبي ماليڪيول ۽ مثال (1)",
+                "هائيڊروجن بند: H–N/O/F ۽ ويجهي اڪيلي جوڙي (2)",
+                "واضح فرق ۽ مثال (1)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-crq-03",
+          "type": "crq",
+          "marks": 5,
+          "question": "Calculate the energy needed to melt 3.0 mol of ice at 0 °C if the molar heat of fusion is 6.01 kJ mol⁻¹. State what happens to the temperature while melting.",
+          "modelAnswer": "Q = nΔHfus = 3.0 mol × 6.01 kJ mol⁻¹ = 18.03 kJ. The energy changes the solid phase into liquid water. While ice and water coexist at the melting point, the temperature remains approximately 0 °C until melting is complete.",
+          "rubric": [
+            "Correct relationship Q = nΔHfus (1)",
+            "Correct substitution and units (1)",
+            "Correct answer 18.03 kJ (1)",
+            "Explains energy is used for phase change (1)",
+            "States temperature remains at melting point (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "اگر مولر حرارتِ پگھلاؤ 6.01 kJ mol⁻¹ ہو تو 0 °C پر 3.0 mol برف پگھلانے کی توانائی معلوم کریں۔ پگھلنے کے دوران درجۂ حرارت کیا ہوتا ہے؟",
+              "modelAnswer": "Q = nΔHfus = 3.0 × 6.01 = 18.03 kJ۔ توانائی ٹھوس حالت کو مائع پانی میں بدلتی ہے۔ جب برف اور پانی پگھلنے کے نقطے پر ساتھ موجود ہوں تو مکمل پگھلنے تک درجۂ حرارت تقریباً 0 °C رہتا ہے۔",
+              "rubric": [
+                "درست تعلق Q = nΔHfus (1)",
+                "درست مقدار اور اکائیاں (1)",
+                "درست جواب 18.03 kJ (1)",
+                "حالت بدلنے میں توانائی کے استعمال کی وضاحت (1)",
+                "پگھلنے کے دوران درجۂ حرارت مستقل رہنے کا بیان (1)"
+              ]
+            },
+            "sd": {
+              "question": "جيڪڏهن مولر پگھلڻ جي گرمي 6.01 kJ mol⁻¹ هجي ته 0 °C تي 3.0 mol برف پگھلائڻ جي توانائي ڳڻيو. پگھلڻ دوران گرمي پد ڇا ٿيندو؟",
+              "modelAnswer": "Q = nΔHfus = 3.0 × 6.01 = 18.03 kJ. توانائي ٺوس حالت کي مائع پاڻي ۾ بدلائي ٿي. جڏهن برف ۽ پاڻي پگھلڻ واري نقطي تي گڏ هجن ته مڪمل پگھلڻ تائين گرمي پد لڳ ڀڳ 0 °C رهي ٿو.",
+              "rubric": [
+                "درست تعلق Q = nΔHfus (1)",
+                "درست مقدارون ۽ يونٽ (1)",
+                "درست جواب 18.03 kJ (1)",
+                "حالت بدلائڻ لاءِ توانائي جي وضاحت (1)",
+                "پگھلڻ دوران گرمي پد ساڳيو رهڻ جو بيان (1)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-erq-01",
           "type": "erq",
           "marks": 10,
-          "question": "Explain chapter 5: states of matter ii — liquids and discuss one practical or numerical application.",
-          "modelAnswer": "Liquid particles remain close but can move past one another. Intermolecular forces influence boiling point, viscosity, surface tension and vapour pressure. Stronger attractions generally raise boiling point and viscosity and reduce vapour pressure at a given temperature. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "question": "Explain evaporation, vapour pressure and boiling. Discuss how temperature and intermolecular attractions affect them, and relate viscosity and surface tension to cohesion.",
+          "modelAnswer": "Evaporation is the escape of higher-energy molecules from a liquid surface and can occur below the boiling point. Escaping molecules carry energy away, so the remaining liquid may cool. In a closed container, evaporation and condensation eventually occur at equal rates; the pressure of the vapour at this dynamic equilibrium is vapour pressure. Vapour pressure rises with temperature. Boiling occurs throughout the liquid when vapour pressure equals external pressure; a lower external pressure lowers the boiling temperature. Stronger intermolecular attractions generally make escape harder, lowering vapour pressure at a given temperature and tending to raise boiling point. Viscosity is resistance to flow and depends on cohesion, molecular shape and temperature. Surface tension is the tendency of a liquid surface to minimise area because of cohesive attractions; it generally decreases as temperature rises. These are general trends, not a universal numerical rule for every liquid.",
           "rubric": [
-            "Accurate concept (3)",
-            "Application/example (3)",
-            "Reasoning and steps (2)",
-            "Clarity and units (2)"
-          ]
+            "Evaporation and surface escape (2)",
+            "Dynamic equilibrium and vapour pressure (2)",
+            "Temperature and intermolecular-force effects (2)",
+            "Boiling criterion and external-pressure effect (1)",
+            "Viscosity and surface tension linked to cohesion (2)",
+            "Clear scientific reasoning (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "تبخیر، بخاراتی دباؤ اور ابلنے کی وضاحت کریں۔ درجۂ حرارت اور بین السالماتی کشش کے اثرات بتائیں اور چپچپاہٹ و سطحی تناؤ کو باہمی کشش سے جوڑیں۔",
+              "modelAnswer": "تبخیر میں زیادہ توانائی والے سالمات مائع کی سطح سے نکلتے ہیں اور یہ نقطۂ ابلاؤ سے کم درجۂ حرارت پر بھی ہو سکتی ہے۔ نکلنے والے سالمات توانائی لے جاتے ہیں، اس لیے باقی مائع ٹھنڈا ہو سکتا ہے۔ بند برتن میں تبخیر اور تکاثف برابر رفتار سے ہوں تو متحرک توازن قائم ہوتا ہے؛ اس وقت بخارات کا دباؤ بخاراتی دباؤ ہے۔ درجۂ حرارت بڑھنے سے بخاراتی دباؤ بڑھتا ہے۔ ابلنا اس وقت پورے مائع میں ہوتا ہے جب بخاراتی دباؤ بیرونی دباؤ کے برابر ہو؛ بیرونی دباؤ کم ہو تو نقطۂ ابلاؤ کم ہوتا ہے۔ مضبوط بین السالماتی کشش سالمات کے نکلنے کو مشکل بناتی ہے، اس لیے مقرر درجۂ حرارت پر بخاراتی دباؤ کم اور نقطۂ ابلاؤ عموماً زیادہ ہوتا ہے۔ چپچپاہٹ بہاؤ کی مزاحمت ہے اور باہمی کشش، سالماتی شکل اور درجۂ حرارت سے متاثر ہوتی ہے۔ سطحی تناؤ سطح کے رقبے کو کم رکھنے کا رجحان ہے جو باہمی کشش سے پیدا ہوتا ہے اور درجۂ حرارت بڑھنے پر عموماً کم ہوتا ہے۔",
+              "rubric": [
+                "تبخیر اور سطح سے سالمات کے نکلنے کی وضاحت (2)",
+                "متحرک توازن اور بخاراتی دباؤ (2)",
+                "درجۂ حرارت اور بین السالماتی قوتوں کے اثرات (2)",
+                "ابلنے کی شرط اور بیرونی دباؤ (1)",
+                "چپچپاہٹ اور سطحی تناؤ کا تعلق (2)",
+                "درست سائنسی استدلال (1)"
+              ]
+            },
+            "sd": {
+              "question": "بخارجڻ، ٻاڦ جي دٻاءَ ۽ اُبالڻ جي وضاحت ڪريو. گرمي پد ۽ بين الماليڪيولي ڪشش جا اثر ٻڌايو ۽ چپچپاهٽ ۽ سطحي ڇڪ کي پاڻ ۾ ڪشش سان ڳنڍيو.",
+              "modelAnswer": "بخارجڻ ۾ وڌيڪ توانائي وارا ماليڪيول مائع جي سطح تان نڪرن ٿا ۽ اهو اُبال جي نقطي کان گهٽ گرمي پد تي به ٿي سگهي ٿو. نڪرندڙ ماليڪيول توانائي کڻي وڃن ٿا، تنهنڪري باقي مائع ٿڌو ٿي سگهي ٿو. بند ٿانوَ ۾ بخارجڻ ۽ ٻاڦ جو مائع ٿيڻ برابر رفتار سان ٿين ته متحرڪ توازن ٿئي ٿو؛ ان وقت ٻاڦ جو دٻاءُ ٻاڦ وارو دٻاءُ آهي. گرمي پد وڌڻ سان ٻاڦ وارو دٻاءُ وڌي ٿو. اُبالڻ تڏهن سڄي مائع ۾ ٿئي ٿو جڏهن ٻاڦ جو دٻاءُ ٻاهرين دٻاءَ برابر ٿئي؛ ٻاهرين دٻاءُ گهٽ هجي ته اُبال جو گرمي پد گهٽجي ٿو. مضبوط بين الماليڪيولي ڪشش ماليڪيولن جي نڪرڻ کي ڏکيو ڪري ٿي، تنهنڪري مقرر گرمي پد تي ٻاڦ وارو دٻاءُ گهٽ ۽ اُبال جو نقطو عام طور وڌي ٿو. چپچپاهٽ وهڪري جي مزاحمت آهي ۽ ڪشش، ماليڪيولي شڪل ۽ گرمي پد سان بدلجي ٿي. سطحي ڇڪ سطح جي ايراضي گهٽ رکڻ جو لاڙو آهي، جيڪو پاڻ ۾ ڪشش سبب پيدا ٿئي ٿو ۽ گرمي پد وڌڻ سان عام طور گهٽجي ٿو.",
+              "rubric": [
+                "بخارجڻ ۽ سطح تان ماليڪيول نڪرڻ (2)",
+                "متحرڪ توازن ۽ ٻاڦ وارو دٻاءُ (2)",
+                "گرمي پد ۽ بين الماليڪيولي ڪشش جا اثر (2)",
+                "اُبالڻ جي شرط ۽ ٻاهرين دٻاءَ (1)",
+                "چپچپاهٽ ۽ سطحي ڇڪ جو تعلق (2)",
+                "صحيح سائنسي دليل (1)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-erq-02",
+          "type": "erq",
+          "marks": 10,
+          "question": "A simplified glacier study estimates that 1,000 kg of ice at 0 °C melts to water at 0 °C. Given Lf = 334 kJ kg⁻¹, calculate the energy required. Explain the constant temperature during melting, discuss two thermal properties of water and state one limitation of the model.",
+          "modelAnswer": "Q = mLf = 1,000 kg × 334 kJ kg⁻¹ = 334,000 kJ = 334 MJ. During melting, energy changes the arrangement of water molecules from the solid ice structure to liquid water; it does not increase average kinetic energy, so temperature remains at the melting point until melting is complete. Water has a relatively high specific heat capacity, so substantial energy is needed to change its temperature. It also has a high heat of vaporization, so substantial energy is needed to convert liquid water to vapour. These properties influence energy exchange in lakes, oceans and the atmosphere. The calculation assumes all energy goes into melting ice at 0 °C; a real glacier also exchanges energy with air, rock and flowing water, and its mass balance depends on accumulation and ablation over time.",
+          "rubric": [
+            "Correct latent-heat equation (1)",
+            "Correct substitution and units (2)",
+            "Correct result 334,000 kJ or 334 MJ (1)",
+            "Explains constant temperature during phase change (2)",
+            "Explains two thermal properties of water (2)",
+            "States a realistic assumption or limitation (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ایک سادہ گلیشیئر مطالعے میں 0 °C پر 1,000 kg برف کے 0 °C پانی میں پگھلنے کا اندازہ ہے۔ Lf = 334 kJ kg⁻¹ دیا گیا ہے۔ توانائی معلوم کریں، پگھلنے کے دوران مستقل درجۂ حرارت کی وجہ اور پانی کی دو حرارتی خصوصیات بیان کریں، اور ماڈل کی ایک حد بتائیں۔",
+              "modelAnswer": "Q = mLf = 1,000 × 334 = 334,000 kJ = 334 MJ۔ پگھلنے کے دوران توانائی برف کی ٹھوس ترتیب کو مائع پانی میں بدلتی ہے؛ اوسط حرکی توانائی نہیں بڑھتی، اس لیے برف مکمل پگھلنے تک درجۂ حرارت نقطۂ پگھلاؤ پر رہتا ہے۔ پانی کی مخصوص حرارت زیادہ ہے، اس لیے اس کا درجۂ حرارت بدلنے کے لیے کافی توانائی درکار ہے۔ اس کی حرارتِ تبخیر بھی زیادہ ہے، اس لیے مائع پانی کو بخارات بنانے کے لیے کافی توانائی چاہیے۔ یہ خصوصیات جھیلوں، سمندروں اور فضا میں توانائی کے تبادلے پر اثر ڈالتی ہیں۔ حساب فرض کرتا ہے کہ تمام توانائی 0 °C پر برف پگھلانے میں لگتی ہے؛ حقیقی گلیشیئر ہوا، چٹان اور بہتے پانی سے بھی حرارت کا تبادلہ کرتا ہے اور اس کی کمیت وقت کے ساتھ برف جمع ہونے اور پگھلنے پر منحصر ہے۔",
+              "rubric": [
+                "درست مخفی حرارت کا مساوات (1)",
+                "درست مقدار اور اکائیاں (2)",
+                "درست نتیجہ 334,000 kJ یا 334 MJ (1)",
+                "حالت بدلنے پر مستقل درجۂ حرارت کی وضاحت (2)",
+                "پانی کی دو حرارتی خصوصیات (2)",
+                "مفروضہ یا حد (2)"
+              ]
+            },
+            "sd": {
+              "question": "هڪ سادي گليشيئر مطالعي ۾ 0 °C تي 1,000 kg برف جي 0 °C پاڻي ۾ پگھلڻ جو اندازو آهي. Lf = 334 kJ kg⁻¹ ڏنل آهي. توانائي ڳڻيو، پگھلڻ دوران گرمي پد ساڳيو رهڻ جو سبب ۽ پاڻي جون ٻه حرارتي خاصيتون بيان ڪريو، ۽ ماڊل جي هڪ حد ٻڌايو.",
+              "modelAnswer": "Q = mLf = 1,000 × 334 = 334,000 kJ = 334 MJ. پگھلڻ دوران توانائي برف جي ٺوس ترتيب کي مائع پاڻي ۾ بدلائي ٿي؛ سراسري حرڪي توانائي نٿي وڌي، تنهنڪري برف مڪمل پگھلڻ تائين گرمي پد پگھلڻ واري نقطي تي رهي ٿو. پاڻي جي مخصوص گرمي وڌيڪ آهي، تنهنڪري ان جو گرمي پد بدلائڻ لاءِ گهڻي توانائي گهرجي. ان جي ٻاڦ ٿيڻ جي گرمي به وڌيڪ آهي، تنهنڪري مائع پاڻي کي ٻاڦ ڪرڻ لاءِ گهڻي توانائي گهرجي. اهي خاصيتون ڍنڍن، سمنڊن ۽ فضا ۾ توانائي جي مٽاسٽا تي اثر ڪن ٿيون. حساب فرض ڪري ٿو ته سموري توانائي 0 °C تي برف پگھلائڻ ۾ وڃي ٿي؛ حقيقي گليشيئر هوا، پٿر ۽ وهندڙ پاڻي سان به گرمي مٽائي ٿو ۽ ان جي ماس وقت سان برف گڏ ٿيڻ ۽ ڳرڻ تي دارومدار رکي ٿي.",
+              "rubric": [
+                "درست مخفي گرمي جو مساوات (1)",
+                "درست مقدارون ۽ يونٽ (2)",
+                "درست نتيجو 334,000 kJ يا 334 MJ (1)",
+                "حالت بدلجڻ دوران گرمي پد ساڳيو رهڻ (2)",
+                "پاڻي جون ٻه حرارتي خاصيتون (2)",
+                "مفروضو يا حد (2)"
+              ]
+            }
+          }
         }
       ],
-      "contentTier": "outline"
+      "caseStudy": "A climate-science class models the melting of 1,000 kg of glacier ice at 0 °C. Given Lf = 334 kJ kg⁻¹, students calculate the energy required and explain why temperature remains at the melting point during the phase change. They discuss how water's high specific heat capacity and high heat of vaporization influence energy exchange in lakes, oceans and the atmosphere. The simplified calculation excludes snowfall, sublimation, runoff, changing sunlight, wind, air/water temperature and heat exchange with rock; it is not a complete glacier mass-balance prediction.",
+      "practicalActivity": "Surface-tension comparison: clean and dry a coin. Add water one drop at a time with a dropper and count how many drops remain before spilling. Repeat with a teacher-prepared dilute soap solution. Compare observations and explain how a surfactant changes cohesion at the surface. Work on a tray, do not taste liquids, keep spills away from electrical equipment and wash hands. Drop size, coin cleanliness and surface condition affect results, so this is qualitative rather than a precise measurement.",
+      "revisionSummary": [
+        "Close, mobile liquid particles explain flow, nearly fixed volume and low compressibility.",
+        "Diffusion occurs in liquids but is generally slower than in gases.",
+        "London forces occur in all particles; dipole–dipole requires permanent polarity; hydrogen bonding requires H–N/O/F and a suitable lone pair.",
+        "Evaporation is a surface process and can cool the remaining liquid.",
+        "At dynamic equilibrium in a closed container, evaporation and condensation rates are equal and vapour pressure is constant at that temperature.",
+        "Boiling occurs when vapour pressure equals external pressure; lower external pressure lowers boiling temperature.",
+        "Viscosity resists flow; cohesion contributes to surface tension.",
+        "Hydrogen bonding contributes to water's high surface tension, specific heat and heat of vaporization.",
+        "During melting or boiling, latent heat changes state while temperature remains constant until the phase change is complete.",
+        "Use Q=mL for specific latent heat and Q=nΔHphase for molar latent heat; include units and assumptions."
+      ]
     },
     {
       "title": "Chapter 6: States of Matter III — Solids",
