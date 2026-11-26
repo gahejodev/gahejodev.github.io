@@ -15,3 +15,11 @@
 - **Checks performed:** Confirmed the shared stylesheet is loaded by the homepage and student dashboard already; added it to catalogue and sign-in pages. CSS selector scopes target known page structures; reduced-motion and visible keyboard focus styles included. Source edits committed to `main`.
 - **Deployment status:** Awaiting existing GitHub Pages deployment workflow and public-page verification. Do not mark live until the workflow and deployed pages are checked.
 - **Next priorities:** Check mobile catalogue filter wrapping and student login form at narrow widths; inspect lesson and admin pages for shared stylesheet coverage; then refine M3 list rows, progress indicators and course navigation only where they improve task completion.
+
+
+## 2026-11-26 — Add official X social profile
+
+- Added the user-provided Zeeroz Academy X profile link (`https://x.com/Zeerozacademy`) to the public homepage footer social icon row.
+- Used an inline SVG X mark, accessible label, and safe new-tab link attributes; no external icon library or script added.
+- File changed: `zeeroz-academy/index.html`.
+- Deployment: published through the existing GitHub Pages workflow after commit; verify the run and public mirror before marking live.
