@@ -1,9 +1,9 @@
 {
   "id": "chemistry-xi-chapters-1-12",
   "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
-  "description": "Supplementary Chemistry XI course with 12 units. Chapters 1 Stoichiometry and 2 Atomic Structure are exam-ready against DCAR 2024 Grade XI SLOs; Chapters 3–12 remain outline-stage and are tracked for sequential expansion.",
-  "version": "5",
-  "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B: Stoichiometry SLOs C-11-B-50 to C-11-B-59; Atomic Structure SLOs C-11-B-01 to C-11-B-27. Chapters 1–2 are exam-ready; Chapters 3–12 remain outline-stage. No unverified textbook chapter-number crosswalk is claimed.",
+  "description": "Supplementary Chemistry XI course with 12 units. Chapters 1–3 are exam-ready against DCAR 2024 Grade XI SLOs; Chapters 4–12 remain outline-stage.",
+  "version": "6",
+  "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B: Chapter 1 Stoichiometry SLOs C-11-B-50 to C-11-B-59; Chapter 2 Atomic Structure SLOs C-11-B-01 to C-11-B-27; Chapter 3 Covalent Bonding and Molecular Shapes SLOs C-11-B-32 to C-11-B-39. Molecular polarity cross-link C-11-B-46. Chapters 1–3 are exam-ready; Chapters 4–12 remain outline-stage.",
   "sourceReferences": [
     {
       "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
@@ -19,6 +19,11 @@
       "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
       "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
       "note": "Grade XI Domain B Atomic Structure SLOs C-11-B-01 to C-11-B-27, printed pages 27–33; Grade IX outcomes are prerequisite review only."
+    },
+    {
+      "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+      "note": "Grade XI Chemical Bonding SLOs C-11-B-32 to C-11-B-39, printed page 35; molecular-polarity cross-link C-11-B-46, printed page 36."
     }
   ],
   "chapters": [
@@ -1666,77 +1671,1135 @@
     },
     {
       "title": "Chapter 3: Covalent Bonding and Molecular Shapes",
-      "description": "Supplementary topic 3: Chapter 3: Covalent Bonding and Molecular Shapes.",
+      "description": "Exam-ready chapter aligned to DCAR Sindh Chemistry Grade XI SLOs C-11-B-32 to C-11-B-39, with a cross-link to C-11-B-46 for molecular polarity.",
+      "contentTier": "exam-ready",
+      "learningOutcomes": [
+        "Explain covalent bonding with VBT; distinguish sigma and pi bonds.",
+        "Define hybridization and apply sp, sp2 and sp3 models.",
+        "Use VSEPR to predict shapes and approximate angles, including lone-pair effects.",
+        "Relate bond length and bond enthalpy to bond strength while recognising other factors in reactivity.",
+        "Predict molecular polarity from bond polarity and 3D geometry.",
+        "Explain molecular shape in drug–target hypotheses and the limits of simplified models."
+      ],
+      "keyTerms": [
+        "covalent bond",
+        "VBT",
+        "orbital overlap",
+        "sigma bond",
+        "pi bond",
+        "hybridization",
+        "sp",
+        "sp2",
+        "sp3",
+        "electron domain",
+        "VSEPR",
+        "bonding pair",
+        "lone pair",
+        "tetrahedral",
+        "trigonal planar",
+        "trigonal pyramidal",
+        "bent",
+        "bond enthalpy",
+        "dipole moment",
+        "molecular polarity"
+      ],
       "lessons": [
         {
-          "title": "Chapter 3: Covalent Bonding and Molecular Shapes — concepts",
+          "title": "3.1 Covalent bonding, Lewis structures and valence-bond theory",
           "type": "text",
-          "content": "## Learning outcomes\nCovalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion helps predict molecular shape, while bond angles and lone pairs influence geometry.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "content": "## Learning outcomes\nExplain covalent bonding, represent shared/lone pairs with Lewis structures, and describe valence-bond theory.\n\nA **covalent bond** is the electrostatic attraction between a shared electron pair and the nuclei of the bonded atoms. Sharing often gives atoms a lower-energy valence arrangement; it is not a transfer of a whole electron.\n\nA **Lewis structure** uses dots or lines for valence electrons. One line is one shared pair; unshared pairs are **lone pairs**. H–H has one shared pair. In H–O–H, oxygen forms two single bonds and keeps two lone pairs. A Lewis structure counts electrons; it does not show exact three-dimensional shape.\n\n## Valence-bond theory (VBT)\nIn the introductory VBT model, suitable atomic orbitals overlap and electrons pair with opposite spins between the nuclei.\n- A **sigma (σ) bond** forms by end-on overlap along the internuclear axis. Every single bond is one σ bond.\n- A **pi (π) bond** forms by sideways overlap of parallel, unhybridized p orbitals; its electron density lies on opposite sides of the axis.\n- A double bond has one σ and one π; a triple bond has one σ and two π.\n\n**Example:** the C=C bond in ethene contains one σ and one π. Rotation around C=C is restricted because it would disrupt sideways π overlap.\n\n## Revision\nCovalent bonding involves a shared electron pair attracted to both nuclei. Lewis structures count valence and lone-pair electrons. VBT explains bonding through orbital overlap; σ is end-on and π is side-on.",
           "explanations": {
-            "ur": "کوویلنٹ بند میں ایٹم الیکٹران کے جوڑے مشترک کرتے ہیں۔ لیوس ساخت ظرفیتی الیکٹران دکھاتی ہے؛ برقی منفیّت کا فرق بند کی قطبیت طے کرتا ہے۔",
-            "sd": "ڪوويلنٽ بند ۾ ايٽم اليڪٽران جا جوڙا گڏيل ڪن ٿا. ليوس جوڙجڪ ظرفيتي اليڪٽران ڏيکاري ٿي؛ برقي منفيت جو فرق بند جي قطبيت طئي ڪري ٿو."
+            "ur": "## سیکھنے کے نتائج\nکوویلنٹ بند، لیوس ساخت اور ویلنسی بانڈ نظریہ سمجھیں۔\n\n**کوویلنٹ بند** مشترک الیکٹران جوڑے اور دونوں بند بنانے والے مرکزوں کے درمیان برقی کشش ہے۔ **لیوس ساخت** ظرفیتی الیکٹران نقطوں یا لکیروں سے دکھاتی ہے؛ ایک لکیر ایک مشترک جوڑا ہے، جبکہ غیر مشترک جوڑے تنہا جوڑے ہیں۔ H–O–H میں آکسیجن دو بند اور دو تنہا جوڑے رکھتا ہے۔\n\nVBT کے مطابق مناسب ایٹمی آربیٹلز کے تداخل اور مخالف اسپن والے الیکٹرانوں کے جوڑا بنانے سے بند بنتا ہے۔ **σ بند** محور کے ساتھ سامنے سے تداخل ہے؛ **π بند** متوازی p آربیٹلز کا پہلو بہ پہلو تداخل ہے۔ دوہرے بند میں ایک σ اور ایک π، سہ گنے میں ایک σ اور دو π ہوتے ہیں۔ ایتھین کے C=C میں ایک ایک σ اور π بند ہے۔\n\n## دہرائی\nمشترک الیکٹران جوڑا دونوں مرکزوں کی طرف کھنچتا ہے۔ σ سامنے سے اور π پہلو سے بنتا ہے۔",
+            "sd": "## سکيا جا مقصد\nڪوويلنٽ بند، ليوس جوڙجڪ ۽ ويلنس بانڊ نظريو سمجهو.\n\n**ڪوويلنٽ بند** گڏيل اليڪٽران جوڙي ۽ ٻنهي مرڪزن جي وچ ۾ برقي ڪشش آهي. **ليوس جوڙجڪ** ظرفيتي اليڪٽران نقطن يا ليڪن سان ڏيکاري ٿي؛ هڪ ليڪ هڪ گڏيل جوڙو آهي ۽ غير گڏيل جوڙا اڪيلا جوڙا آهن. H–O–H ۾ آڪسيجن ٻه بند ۽ ٻه اڪيلا جوڙا رکي ٿو.\n\nVBT موجب مناسب آربيٽلن جي اوورليپ ۽ ابتڙ اسپن وارن اليڪٽرانن جي جوڙي سان بند ٺهي ٿو. **σ بند** محور سان سامهون کان اوورليپ آهي؛ **π بند** متوازي p آربيٽلن جو پاسن کان اوورليپ آهي. ٻيڻي بند ۾ هڪ σ ۽ هڪ π، ٽيڻي ۾ هڪ σ ۽ ٻه π هوندا آهن.\n\n## ورجاءُ\nگڏيل اليڪٽران جوڙو ٻنهي مرڪزن ڏانهن ڇڪجي ٿو. σ سامهون کان ۽ π پاسن کان ٺهي ٿو."
           }
         },
         {
-          "title": "Chapter 3: Covalent Bonding and Molecular Shapes — applications and problem solving",
+          "title": "3.2 Hybridization, sigma/pi overlap and bond characteristics",
           "type": "text",
-          "content": "Apply the concepts in chapter 3: covalent bonding and molecular shapes to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "content": "## Learning outcomes\nDefine hybridization; compare sp, sp2 and sp3; connect orbitals to geometry and multiple bonding; interpret bond length and bond enthalpy.\n\n**Hybridization** is a model in which orbitals on the same atom combine to form directional hybrid orbitals. It helps explain equivalent bonds and geometry; it is not literal mixing like liquids.\n\n| Type | Orbitals combined | Hybrids | Arrangement | Ideal angle |\n|---|---|---:|---|---:|\n| sp | 1 s + 1 p | 2 | linear | 180° |\n| sp2 | 1 s + 2 p | 3 | trigonal planar | 120° |\n| sp3 | 1 s + 3 p | 4 | tetrahedral | 109.5° |\n\nsp leaves two unhybridized p orbitals that can form two π bonds, as in ethyne. sp2 leaves one p orbital for a π bond, as in ethene. sp3 gives four directional orbitals, as in methane.\n\nFor the same atom pair, higher bond order usually gives a shorter, stronger bond: C≡C is generally shorter/stronger than C=C, which is generally shorter/stronger than C–C. This is a trend, not a universal rule across different atom pairs.\n\n**Bond enthalpy** is the enthalpy needed to break one mole of a specified bond in gaseous molecules by homolytic fission. Values are often averages. Breaking bonds absorbs energy; forming bonds releases it. If average C–H bond enthalpy is 413 kJ mol⁻¹, breaking 2 mol requires about 826 kJ. Bond strength influences reactivity but does not alone determine reaction rate; activation energy, solvent, temperature and mechanism also matter.\n\n## Revision\nsp, sp2 and sp3 give linear, trigonal-planar and tetrahedral ideal arrangements. Double = one σ + one π; triple = one σ + two π.",
           "explanations": {
-            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
-            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+            "ur": "## سیکھنے کے نتائج\nہائبرڈائزیشن، sp، sp2 اور sp3، بند کی لمبائی اور انتھالپی سمجھیں۔\n\n**ہائبرڈائزیشن** ایک ماڈل ہے جس میں ایک ہی ایٹم کے آربیٹلز مل کر سمت دار ہائبرڈ آربیٹلز بناتے ہیں۔ sp میں ایک s اور ایک p؛ sp2 میں ایک s اور دو p؛ sp3 میں ایک s اور تین p آربیٹلز ملتے ہیں۔ ان کی مثالی شکلیں خطی، مثلثی مستوی اور چہارسطحی ہیں؛ زاویے 180°، 120° اور 109.5° ہیں۔\n\nایک ہی ایٹمی جوڑے میں زیادہ بند ترتیب عموماً کم لمبائی اور زیادہ مضبوطی دیتی ہے۔ **بند انتھالپی** گیس حالت میں ایک مول مخصوص بند توڑنے کی درکار انتھالپی ہے۔ بند توڑنے میں توانائی جذب اور بنانے میں خارج ہوتی ہے۔ 413 kJ mol⁻¹ کے C–H بند کی دو مول مقدار توڑنے کے لیے تقریباً 826 kJ درکار ہیں۔ تعامل کی رفتار پر activation energy اور دیگر حالات بھی اثر انداز ہوتے ہیں۔",
+            "sd": "## سکيا جا مقصد\nهائبرڊائيزيشن، sp، sp2 ۽ sp3، بند جي ڊيگهه ۽ اينٿالپي سمجهو.\n\n**هائبرڊائيزيشن** هڪ ماڊل آهي جنهن ۾ ساڳئي ايٽم جا آربيٽل گڏجي رخ رکندڙ هائبرڊ آربيٽل ٺاهين ٿا. sp ۾ هڪ s ۽ هڪ p؛ sp2 ۾ هڪ s ۽ ٻه p؛ sp3 ۾ هڪ s ۽ ٽي p گڏ ٿين ٿا. مثالي شڪلون سڌي، ٽڪنڊي هموار ۽ ٽيٽراهڊرل آهن؛ زاويه 180°، 120° ۽ 109.5° آهن.\n\nساڳئي ايٽمي جوڙي ۾ وڌيڪ بند ترتيب عام طور ننڍي ڊيگهه ۽ وڌيڪ مضبوطي ڏئي ٿي. **بند اينٿالپي** گئس حالت ۾ هڪ مول مخصوص بند ٽوڙڻ لاءِ گهربل اينٿالپي آهي. بند ٽوڙڻ سان توانائي جذب ۽ ٺاهڻ سان خارج ٿئي ٿي. 413 kJ mol⁻¹ واري C–H بند جا ٻه مول ٽوڙڻ لاءِ لڳ ڀڳ 826 kJ گهرجن. ردعمل جي رفتار تي activation energy ۽ ٻيا شرط به اثر ڪن ٿا."
+          }
+        },
+        {
+          "title": "3.3 VSEPR molecular geometry and bond angles",
+          "type": "text",
+          "content": "## Learning outcomes\nUse valence-shell electron-pair repulsion (VSEPR) to predict shapes and approximate bond angles; distinguish electron-domain geometry from molecular shape.\n\nElectron domains around a central atom repel and arrange as far apart as possible. Each bonding region counts as **one** domain: single, double and triple bonds each count once. Each lone pair also counts once. Repulsion is usually strongest for lone pair–lone pair, then lone pair–bonding pair, then bonding pair–bonding pair. Lone pairs often compress bond angles.\n\n| Species | Domains | Molecular shape | Approx. angle | Common hybridization model |\n|---|---:|---|---:|---|\n| CO₂ | 2 bonding, 0 lone | linear | 180° | sp |\n| BF₃ | 3 bonding, 0 lone | trigonal planar | 120° | sp2 |\n| CH₄ | 4 bonding, 0 lone | tetrahedral | 109.5° | sp3 |\n| NH₃ | 3 bonding, 1 lone | trigonal pyramidal | 107° | sp3 |\n| H₂O | 2 bonding, 2 lone | bent | 104.5° | sp3 |\n\n**Electron-domain geometry** includes bonding and lone-pair domains. **Molecular shape** describes atom positions only. NH₃ has four domains arranged tetrahedrally, but the molecular shape is trigonal pyramidal. H₂O also has four domains but a bent shape.\n\nCH₄ has four bonding pairs and no lone pairs (109.5°). NH₃ has one lone pair, compressing the angle to about 107°. H₂O has two lone pairs and an angle near 104.5°.\n\n## Interactive VSEPR model\nChoose CO₂, BF₃, CH₄, NH₃ or H₂O below. Compare atoms, lone pairs, domain count, shape, angle and hybridization. The diagram is a labelled 2D teaching projection, not to scale; it does not measure the angle from the screen.\n\n## Revision\nCount domains first. Predict electron-domain geometry, then omit lone pairs when naming molecular shape.",
+          "explanations": {
+            "ur": "## سیکھنے کے نتائج\nVSEPR سے سالماتی شکل اور اندازاً بند زاویے معلوم کریں۔\n\nمرکزی ایٹم کے گرد ہر بند خطہ ایک ڈومین ہے؛ واحد، دوہرا اور سہ گنا بند ہر ایک ایک ڈومین شمار ہوتا ہے۔ ہر تنہا جوڑا بھی ایک ڈومین ہے۔ تنہا جوڑے عموماً زیادہ دفع کرتے اور زاویے کم کرتے ہیں۔\n\nCO₂ خطی 180°، BF₃ مثلثی مستوی 120°، CH₄ چہارسطحی 109.5°، NH₃ مثلثی اہرامی تقریباً 107° اور H₂O خمیدہ تقریباً 104.5° ہے۔ NH₃ میں ایک اور H₂O میں دو تنہا جوڑے ہوتے ہیں۔ الیکٹران ڈومین جیومیٹری میں بند اور تنہا دونوں شامل ہیں، مگر سالماتی شکل صرف ایٹموں کی جگہ بتاتی ہے۔\n\n## انٹرایکٹو ماڈل\nCO₂، BF₃، CH₄، NH₃ یا H₂O منتخب کریں۔ خاکہ 2D تدریسی منظر ہے، پیمانے کے مطابق نہیں اور زاویہ اسکرین سے نہیں ناپا جاتا۔",
+            "sd": "## سکيا جا مقصد\nVSEPR سان سالماتي شڪل ۽ لڳ ڀڳ بند زاويه اڳڪٿي ڪريو.\n\nمرڪزي ايٽم جي چوڌاري هر بند وارو علائقو هڪ ڊومين آهي؛ واحد، ٻيڻو ۽ ٽيڻو بند هر هڪ هڪ ڊومين ڳڻبو. هر اڪيلو جوڙو به هڪ ڊومين آهي. اڪيلا جوڙا عام طور وڌيڪ ڌڪين ٿا ۽ زاويه گهٽائين ٿا.\n\nCO₂ سڌي 180°، BF₃ ٽڪنڊي هموار 120°، CH₄ ٽيٽراهڊرل 109.5°، NH₃ ٽڪنڊي هرمي لڳ ڀڳ 107° ۽ H₂O موڙيل لڳ ڀڳ 104.5° آهي. NH₃ ۾ هڪ ۽ H₂O ۾ ٻه اڪيلا جوڙا آهن. اليڪٽران ڊومين جاميٽري ۾ بند ۽ اڪيلا ٻئي شامل آهن، پر سالماتي شڪل صرف ايٽمن جي جاءِ ڏيکاري ٿي.\n\n## انٽرايڪٽو ماڊل\nCO₂، BF₃، CH₄، NH₃ يا H₂O چونڊيو. خاڪو 2D تدريسي ڏيک آهي، ماپ مطابق ناهي ۽ زاويه اسڪرين تان نٿو ماپجي."
+          }
+        },
+        {
+          "title": "3.4 Molecular polarity, reactivity and drug-design applications",
+          "type": "text",
+          "content": "## Learning outcomes\nUse molecular geometry to reason about polarity; compare bond length and bond enthalpy; explain how molecular shape informs drug-design hypotheses.\n\nDifferent electronegativities cause uneven electron sharing and a **bond dipole**. Molecular polarity depends on the vector sum of all bond dipoles and three-dimensional geometry.\n- **CO₂:** polar C=O bonds, but linear symmetry makes dipoles cancel; non-polar.\n- **BF₃:** polar B–F bonds, but symmetrical trigonal-planar geometry cancels dipoles; non-polar.\n- **H₂O:** polar O–H bonds and bent geometry mean dipoles do not cancel; polar.\n- **CH₃Cl:** tetrahedral but not symmetrical because one substituent differs; polar.\n\nFor a given atom pair, shorter bonds often have greater bond enthalpy. Bond enthalpies are averages; reactivity also depends on bonds formed, activation energy, solvent, temperature and mechanism. Bond length alone does not predict a reaction rate.\n\n## Drug-design connection\nA drug molecule interacts with a biological target such as a receptor or enzyme. Its three-dimensional shape, charge distribution and orientation of functional groups can influence fit and possible hydrogen-bond, ionic, dipole or hydrophobic contacts. VSEPR provides a first approximation of local geometry.\n\n**Limitations:** molecules can rotate, flex, change protonation state and interact with water. VSEPR is not a complete protein-binding model. Molecular modelling, laboratory measurements and clinical evidence are needed before claims about behaviour or safety.\n\n## Case study\nTwo hypothetical ligands have the same formula. Candidate A presents a polar group towards a complementary polar region in a receptor pocket; candidate B points it away. Use Lewis structures and VSEPR to compare local shapes and explain why A may be worth testing first. This is a hypothesis only: flexibility, solvent, the full protein structure and experimental evidence also matter.\n\n## Revision\nBond polarity comes from unequal sharing; molecular polarity depends on the vector sum of bond dipoles. Shape helps formulate drug-binding hypotheses but VSEPR alone cannot prove binding or safety.",
+          "explanations": {
+            "ur": "## سیکھنے کے نتائج\nسالماتی شکل سے قطبیت سمجھیں اور دوا کی تیاری میں اس کی اہمیت بیان کریں۔\n\nمختلف برقی منفیّت سے الیکٹران غیر مساوی تقسیم ہوتے ہیں اور بند ڈائی پول بنتا ہے۔ سالمے کی قطبیت تمام ڈائی پولز کے سمتی مجموعے اور سہ جہتی شکل پر منحصر ہے۔ CO₂ اور BF₃ میں توازن ڈائی پول ختم کرتا ہے، اس لیے غیر قطبی ہیں۔ H₂O خمیدہ اور CH₃Cl غیر متوازن چہارسطحی ہے، اس لیے قطبی ہیں۔\n\nدوا کے سالمے کی شکل اور فعلی گروپوں کی سمت ریسپٹر یا انزائم سے رابطے پر اثر ڈال سکتی ہے۔ VSEPR مقامی جیومیٹری کا ابتدائی اندازہ دیتا ہے، مگر حقیقی بندش اور حفاظت ثابت نہیں کرتا۔ لچک، محلل، پروٹین کی حرکت، تجربات اور طبی شواہد بھی ضروری ہیں۔",
+            "sd": "## سکيا جا مقصد\nسالماتي شڪل سان قطبيت سمجهو ۽ دوا جي ڊيزائن ۾ ان جي اهميت بيان ڪريو.\n\nمختلف برقي منفيت سبب اليڪٽران اڻبرابر ورهائجن ٿا ۽ بند ڊائپول ٺهي ٿو. ماليڪيول جي قطبيت سڀني ڊائپولن جي سمتي مجموعي ۽ ٽي-dimensional شڪل تي دارومدار رکي ٿي. CO₂ ۽ BF₃ ۾ همواري ڊائپول ختم ڪري ٿي، تنهنڪري غير قطبي آهن. H₂O موڙيل ۽ CH₃Cl غير هموار ٽيٽراهڊرل آهي، تنهنڪري قطبي آهن.\n\nدوا جي ماليڪيول جي شڪل ۽ فعلي گروپن جو رخ ريسپٽر يا اينزائم سان رابطي تي اثر وجهي سگهي ٿو. VSEPR مقامي جاميٽري جو شروعاتي اندازو ڏئي ٿو، پر حقيقي بندجڻ يا حفاظت ثابت نٿو ڪري. لچڪ، محلل، پروٽين جي حرڪت، تجربا ۽ طبي ثبوت به ضروري آهن."
           }
         }
       ],
       "questions": [
         {
-          "question": "Which statement best describes chapter 3: covalent bonding and molecular shapes?",
+          "question": "What is a covalent bond?",
           "options": {
-            "A": "Covalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion he",
-            "B": "The topic is unrelated to measurable evidence.",
-            "C": "Units and definitions are unnecessary.",
-            "D": "The concept cannot be applied to problems."
+            "A": "Attraction between a shared electron pair and both bonded nuclei",
+            "B": "Transfer of a proton",
+            "C": "Fusion of nuclei",
+            "D": "Disappearance of electrons"
           },
           "correctOption": "A",
-          "explanation": "Covalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion helps predict molecular shape, while bond angles and lone pairs influence geometry."
+          "explanation": "A covalent bond is attraction between a shared pair and both nuclei.",
+          "translations": {
+            "ur": {
+              "question": "کوویلنٹ بند کیا ہے؟",
+              "options": {
+                "A": "مشترک الیکٹران جوڑے اور دونوں مرکزوں میں کشش",
+                "B": "پروٹون کی منتقلی",
+                "C": "مرکزوں کا انضمام",
+                "D": "الیکٹران غائب ہونا"
+              },
+              "explanation": "مشترک جوڑا دونوں مرکزوں کی طرف کھنچتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪوويلنٽ بند ڇا آهي؟",
+              "options": {
+                "A": "گڏيل اليڪٽران جوڙي ۽ ٻنهي مرڪزن ۾ ڪشش",
+                "B": "پروٽان جي منتقلي",
+                "C": "مرڪزن جو گڏجڻ",
+                "D": "اليڪٽران غائب ٿيڻ"
+              },
+              "explanation": "گڏيل جوڙو ٻنهي مرڪزن ڏانهن ڇڪجي ٿو۔"
+            }
+          }
         },
         {
-          "question": "How should a student solve a problem in chapter 3: covalent bonding and molecular shapes?",
+          "question": "VBT explains a covalent bond mainly through:",
           "options": {
-            "A": "Guess without identifying quantities.",
-            "B": "Apply the relevant principle, show steps and check units.",
-            "C": "Ignore the stated conditions.",
-            "D": "Use an unrelated equation."
+            "A": "Nuclear fusion",
+            "B": "Orbital overlap and electron pairing",
+            "C": "Repulsion of cations",
+            "D": "Loss of valence electrons"
           },
           "correctOption": "B",
-          "explanation": "Covalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion helps predict molecular shape, while bond angles and lone pairs influence geometry."
+          "explanation": "Suitable orbitals overlap and electrons pair between nuclei.",
+          "translations": {
+            "ur": {
+              "question": "VBT کوویلنٹ بند کیسے سمجھاتا ہے؟",
+              "options": {
+                "A": "مرکزی انضمام",
+                "B": "آربیٹل تداخل اور الیکٹران جوڑا",
+                "C": "مثبت آئن کی دفع",
+                "D": "ظرفیتی الیکٹران کا ضیاع"
+              },
+              "explanation": "آربیٹلز کا تداخل اور الیکٹرانوں کا جوڑا بند بناتا ہے۔"
+            },
+            "sd": {
+              "question": "VBT ڪوويلنٽ بند ڪيئن سمجهائي ٿو؟",
+              "options": {
+                "A": "مرڪزن جو گڏجڻ",
+                "B": "آربيٽل اوورليپ ۽ اليڪٽران جوڙو",
+                "C": "مثبت آئن جو ڌڪ",
+                "D": "ظرفيتي اليڪٽران وڃائڻ"
+              },
+              "explanation": "آربيٽلن جو اوورليپ ۽ اليڪٽرانن جو جوڙو بند ٺاهي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "A sigma bond forms by:",
+          "options": {
+            "A": "Sideways p overlap",
+            "B": "Lone-pair repulsion",
+            "C": "End-on overlap along the internuclear axis",
+            "D": "Electron transfer"
+          },
+          "correctOption": "C",
+          "explanation": "Sigma bonding is end-on overlap along the axis joining nuclei.",
+          "translations": {
+            "ur": {
+              "question": "سگما بند کیسے بنتا ہے؟",
+              "options": {
+                "A": "p کا پہلو سے تداخل",
+                "B": "تنہا جوڑے کی دفع",
+                "C": "مرکزوں کے محور پر سامنے سے تداخل",
+                "D": "الیکٹران کی منتقلی"
+              },
+              "explanation": "سگما بند محور کے ساتھ سامنے سے تداخل ہے۔"
+            },
+            "sd": {
+              "question": "سگما بند ڪيئن ٺهي ٿو؟",
+              "options": {
+                "A": "p جو پاسن کان اوورليپ",
+                "B": "اڪيلن جوڙن جو ڌڪ",
+                "C": "مرڪزن جي محور سان سامهون کان اوورليپ",
+                "D": "اليڪٽران جي منتقلي"
+              },
+              "explanation": "سگما بند محور سان سامهون کان اوورليپ آهي۔"
+            }
+          }
+        },
+        {
+          "question": "A pi bond forms by:",
+          "options": {
+            "A": "s orbital end-on overlap",
+            "B": "Ionic attraction",
+            "C": "Nuclear overlap",
+            "D": "Sideways overlap of parallel p orbitals"
+          },
+          "correctOption": "D",
+          "explanation": "Pi bonding is sideways overlap of parallel unhybridized p orbitals.",
+          "translations": {
+            "ur": {
+              "question": "پائی بند کیسے بنتا ہے؟",
+              "options": {
+                "A": "s کا سامنے سے تداخل",
+                "B": "آئنک کشش",
+                "C": "مرکزوں کا تداخل",
+                "D": "متوازی p آربیٹلز کا پہلو سے تداخل"
+              },
+              "explanation": "پائی بند متوازی غیر ہائبرڈائزڈ p آربیٹلز کے پہلو سے بنتا ہے۔"
+            },
+            "sd": {
+              "question": "پائي بند ڪيئن ٺهي ٿو؟",
+              "options": {
+                "A": "s جو سامهون کان اوورليپ",
+                "B": "آئنڪ ڪشش",
+                "C": "مرڪزن جو اوورليپ",
+                "D": "متوازي p آربيٽلن جو پاسن کان اوورليپ"
+              },
+              "explanation": "پائي بند متوازي غير هائبرڊائزڊ p آربيٽلن جي پاسن کان ٺهي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Which orbitals form sp hybrids?",
+          "options": {
+            "A": "One s and one p",
+            "B": "One s and two p",
+            "C": "One s and three p",
+            "D": "Two s and one d"
+          },
+          "correctOption": "A",
+          "explanation": "One s plus one p forms two sp hybrids.",
+          "translations": {
+            "ur": {
+              "question": "sp ہائبرڈ کے لیے کیا ملتا ہے؟",
+              "options": {
+                "A": "ایک s اور ایک p",
+                "B": "ایک s اور دو p",
+                "C": "ایک s اور تین p",
+                "D": "دو s اور ایک d"
+              },
+              "explanation": "ایک s اور ایک p سے دو sp آربیٹلز بنتے ہیں۔"
+            },
+            "sd": {
+              "question": "sp هائبرڊ لاءِ ڇا گڏ ٿئي ٿو؟",
+              "options": {
+                "A": "هڪ s ۽ هڪ p",
+                "B": "هڪ s ۽ ٻه p",
+                "C": "هڪ s ۽ ٽي p",
+                "D": "ٻه s ۽ هڪ d"
+              },
+              "explanation": "هڪ s ۽ هڪ p مان ٻه sp آربيٽل ٺهن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "The ideal geometry of sp2 is:",
+          "options": {
+            "A": "Linear 180°",
+            "B": "Trigonal planar 120°",
+            "C": "Tetrahedral 109.5°",
+            "D": "Bent 90°"
+          },
+          "correctOption": "B",
+          "explanation": "Three sp2 orbitals lie about 120° apart in one plane.",
+          "translations": {
+            "ur": {
+              "question": "sp2 کی مثالی شکل؟",
+              "options": {
+                "A": "خطی 180°",
+                "B": "مثلثی مستوی 120°",
+                "C": "چہارسطحی 109.5°",
+                "D": "خمیدہ 90°"
+              },
+              "explanation": "تین sp2 آربیٹلز ایک مستوی میں تقریباً 120° پر ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "sp2 جي مثالي شڪل؟",
+              "options": {
+                "A": "سڌي 180°",
+                "B": "ٽڪنڊي هموار 120°",
+                "C": "ٽيٽراهڊرل 109.5°",
+                "D": "موڙيل 90°"
+              },
+              "explanation": "ٽي sp2 آربيٽل هڪ هموار ۾ لڳ ڀڳ 120° تي آهن۔"
+            }
+          }
+        },
+        {
+          "question": "sp3 hybridization forms:",
+          "options": {
+            "A": "One hybrid",
+            "B": "Two hybrids",
+            "C": "Four directional hybrids",
+            "D": "Six d hybrids"
+          },
+          "correctOption": "C",
+          "explanation": "One s and three p orbitals form four sp3 hybrids.",
+          "translations": {
+            "ur": {
+              "question": "sp3 سے کیا بنتا ہے؟",
+              "options": {
+                "A": "ایک ہائبرڈ",
+                "B": "دو ہائبرڈ",
+                "C": "چار سمت دار ہائبرڈ",
+                "D": "چھ d ہائبرڈ"
+              },
+              "explanation": "ایک s اور تین p سے چار sp3 بنتے ہیں۔"
+            },
+            "sd": {
+              "question": "sp3 مان ڇا ٺهي ٿو؟",
+              "options": {
+                "A": "هڪ هائبرڊ",
+                "B": "ٻه هائبرڊ",
+                "C": "چار رخ رکندڙ هائبرڊ",
+                "D": "ڇهه d هائبرڊ"
+              },
+              "explanation": "هڪ s ۽ ٽي p مان چار sp3 ٺهن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "The C=C bond in ethene contains:",
+          "options": {
+            "A": "Two sigma",
+            "B": "Two pi",
+            "C": "One pi only",
+            "D": "One sigma and one pi"
+          },
+          "correctOption": "D",
+          "explanation": "A double bond contains one sigma and one pi bond.",
+          "translations": {
+            "ur": {
+              "question": "ایتھین کے C=C میں کیا ہے؟",
+              "options": {
+                "A": "دو سگما",
+                "B": "دو پائی",
+                "C": "صرف ایک پائی",
+                "D": "ایک سگما اور ایک پائی"
+              },
+              "explanation": "دوہرے بند میں ایک سگما اور ایک پائی ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "ايٿين جي C=C ۾ ڇا آهي؟",
+              "options": {
+                "A": "ٻه سگما",
+                "B": "ٻه پائي",
+                "C": "صرف هڪ پائي",
+                "D": "هڪ سگما ۽ هڪ پائي"
+              },
+              "explanation": "ٻيڻي بند ۾ هڪ سگما ۽ هڪ پائي هوندو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "CO2 has which VSEPR shape and angle?",
+          "options": {
+            "A": "Linear 180°",
+            "B": "Bent 104.5°",
+            "C": "Trigonal planar 120°",
+            "D": "Tetrahedral 109.5°"
+          },
+          "correctOption": "A",
+          "explanation": "Two bonding domains and no lone pairs give linear geometry.",
+          "translations": {
+            "ur": {
+              "question": "CO₂ کی شکل اور زاویہ؟",
+              "options": {
+                "A": "خطی 180°",
+                "B": "خمیدہ 104.5°",
+                "C": "مثلثی مستوی 120°",
+                "D": "چہارسطحی 109.5°"
+              },
+              "explanation": "دو بند ڈومین اور کوئی تنہا جوڑا نہ ہونے سے خطی شکل بنتی ہے۔"
+            },
+            "sd": {
+              "question": "CO₂ جي شڪل ۽ زاويه؟",
+              "options": {
+                "A": "سڌي 180°",
+                "B": "موڙيل 104.5°",
+                "C": "ٽڪنڊي هموار 120°",
+                "D": "ٽيٽراهڊرل 109.5°"
+              },
+              "explanation": "ٻه بند ڊومين ۽ ڪو اڪيلو جوڙو نه هجڻ سبب سڌي شڪل آهي۔"
+            }
+          }
+        },
+        {
+          "question": "BF3 is:",
+          "options": {
+            "A": "Tetrahedral",
+            "B": "Trigonal planar",
+            "C": "Trigonal pyramidal",
+            "D": "Bent"
+          },
+          "correctOption": "B",
+          "explanation": "Three bonding domains and no lone pair give trigonal planar geometry.",
+          "translations": {
+            "ur": {
+              "question": "BF₃ کی شکل؟",
+              "options": {
+                "A": "چہارسطحی",
+                "B": "مثلثی مستوی",
+                "C": "مثلثی اہرامی",
+                "D": "خمیدہ"
+              },
+              "explanation": "تین بند ڈومین اور تنہا جوڑا نہ ہونے سے مثلثی مستوی شکل ہے۔"
+            },
+            "sd": {
+              "question": "BF₃ جي شڪل؟",
+              "options": {
+                "A": "ٽيٽراهڊرل",
+                "B": "ٽڪنڊي هموار",
+                "C": "ٽڪنڊي هرمي",
+                "D": "موڙيل"
+              },
+              "explanation": "ٽي بند ڊومين ۽ اڪيلو جوڙو نه هجڻ سبب ٽڪنڊي هموار آهي۔"
+            }
+          }
+        },
+        {
+          "question": "NH3 is trigonal pyramidal because:",
+          "options": {
+            "A": "No valence electrons",
+            "B": "Two central atoms",
+            "C": "One lone pair plus three bonds",
+            "D": "Ionic N–H bonds"
+          },
+          "correctOption": "C",
+          "explanation": "Three bonds and one lone pair occupy four domains; atoms form a pyramid.",
+          "translations": {
+            "ur": {
+              "question": "NH₃ اہرامی کیوں ہے؟",
+              "options": {
+                "A": "ظرفیتی الیکٹران نہیں",
+                "B": "دو مرکزی ایٹم",
+                "C": "ایک تنہا جوڑا اور تین بند",
+                "D": "آئنک N–H"
+              },
+              "explanation": "تین بند اور ایک تنہا جوڑا چار ڈومین بناتے ہیں؛ شکل اہرامی ہے۔"
+            },
+            "sd": {
+              "question": "NH₃ هرمي ڇو آهي؟",
+              "options": {
+                "A": "ظرفيتي اليڪٽران ناهن",
+                "B": "ٻه مرڪزي ايٽم",
+                "C": "هڪ اڪيلو جوڙو ۽ ٽي بند",
+                "D": "آئنڪ N–H"
+              },
+              "explanation": "ٽي بند ۽ هڪ اڪيلو جوڙو چار ڊومين ٺاهين ٿا؛ شڪل هرمي آهي۔"
+            }
+          }
+        },
+        {
+          "question": "The H–O–H angle in water is about:",
+          "options": {
+            "A": "180°",
+            "B": "120°",
+            "C": "109.5°",
+            "D": "104.5°"
+          },
+          "correctOption": "D",
+          "explanation": "Two lone pairs compress the bent angle to about 104.5°.",
+          "translations": {
+            "ur": {
+              "question": "پانی کا H–O–H زاویہ؟",
+              "options": {
+                "A": "180°",
+                "B": "120°",
+                "C": "109.5°",
+                "D": "104.5°"
+              },
+              "explanation": "دو تنہا جوڑے زاویہ تقریباً 104.5° کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "پاڻي جو H–O–H زاويه؟",
+              "options": {
+                "A": "180°",
+                "B": "120°",
+                "C": "109.5°",
+                "D": "104.5°"
+              },
+              "explanation": "ٻه اڪيلا جوڙا زاويه لڳ ڀڳ 104.5° ڪن ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "A double bond counts in basic VSEPR as:",
+          "options": {
+            "A": "One electron domain",
+            "B": "Two domains",
+            "C": "No domain",
+            "D": "A lone pair"
+          },
+          "correctOption": "A",
+          "explanation": "A multiple bond is one region of electron density and counts once.",
+          "translations": {
+            "ur": {
+              "question": "VSEPR میں دوہرا بند کتنے ڈومین ہے؟",
+              "options": {
+                "A": "ایک",
+                "B": "دو",
+                "C": "صفر",
+                "D": "تنہا جوڑا"
+              },
+              "explanation": "متعدد بند ایک کثافت کا خطہ ہے، اس لیے ایک ڈومین ہے۔"
+            },
+            "sd": {
+              "question": "VSEPR ۾ ٻيڻو بند ڪيترا ڊومين آهي؟",
+              "options": {
+                "A": "هڪ",
+                "B": "ٻه",
+                "C": "صفر",
+                "D": "اڪيلو جوڙو"
+              },
+              "explanation": "گهڻن بندن جو ڪثافت وارو علائقو هڪ آهي، تنهنڪري هڪ ڊومين آهي۔"
+            }
+          }
+        },
+        {
+          "question": "Which repulsion is usually strongest?",
+          "options": {
+            "A": "Bond–bond",
+            "B": "Lone–lone",
+            "C": "All equal",
+            "D": "Bond–lone weakest"
+          },
+          "correctOption": "B",
+          "explanation": "Lone pair–lone pair repulsion is generally strongest.",
+          "translations": {
+            "ur": {
+              "question": "سب سے زیادہ دفع؟",
+              "options": {
+                "A": "بند–بند",
+                "B": "تنہا–تنہا",
+                "C": "سب برابر",
+                "D": "بند–تنہا کم"
+              },
+              "explanation": "تنہا جوڑوں کی دفع عموماً سب سے زیادہ ہے۔"
+            },
+            "sd": {
+              "question": "سڀ کان وڌيڪ ڌڪ؟",
+              "options": {
+                "A": "بند–بند",
+                "B": "اڪيلو–اڪيلو",
+                "C": "سڀ برابر",
+                "D": "بند–اڪيلو گهٽ"
+              },
+              "explanation": "اڪيلن جوڙن جو ڌڪ عام طور سڀ کان وڌيڪ آهي۔"
+            }
+          }
+        },
+        {
+          "question": "NH3 has a smaller bond angle than CH4 because:",
+          "options": {
+            "A": "Nitrogen is always larger",
+            "B": "NH3 has double bonds",
+            "C": "A lone pair compresses the angle",
+            "D": "CH4 is ionic"
+          },
+          "correctOption": "C",
+          "explanation": "The lone pair on nitrogen repels bonding pairs and compresses the angle.",
+          "translations": {
+            "ur": {
+              "question": "NH₃ کا زاویہ CH₄ سے کم کیوں ہے؟",
+              "options": {
+                "A": "نائٹروجن ہمیشہ بڑا ہے",
+                "B": "دوہرے بند ہیں",
+                "C": "تنہا جوڑا زاویہ کم کرتا ہے",
+                "D": "CH₄ آئنک ہے"
+              },
+              "explanation": "نائٹروجن کا تنہا جوڑا بند جوڑوں کو دھکیل کر زاویہ کم کرتا ہے۔"
+            },
+            "sd": {
+              "question": "NH₃ جو زاويه CH₄ کان گهٽ ڇو آهي؟",
+              "options": {
+                "A": "نائٽروجن هميشه وڏو آهي",
+                "B": "ٻيڻا بند آهن",
+                "C": "اڪيلو جوڙو زاويه گهٽائي ٿو",
+                "D": "CH₄ آئنڪ آهي"
+              },
+              "explanation": "نائٽروجن جو اڪيلو جوڙو بند جوڙن کي ڌڪي زاويه گهٽائي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "Bond enthalpy is:",
+          "options": {
+            "A": "Nuclear distance",
+            "B": "Energy released on approach",
+            "C": "Molar mass",
+            "D": "Enthalpy to break one mole of specified gaseous bonds"
+          },
+          "correctOption": "D",
+          "explanation": "Bond enthalpy refers to breaking specified bonds in gaseous molecules.",
+          "translations": {
+            "ur": {
+              "question": "بند انتھالپی کیا ہے؟",
+              "options": {
+                "A": "مرکزوں کا فاصلہ",
+                "B": "قریب آنے پر توانائی",
+                "C": "مولر کمیت",
+                "D": "گیس میں مخصوص بند کا ایک مول توڑنے کی انتھالپی"
+              },
+              "explanation": "یہ گیس حالت میں مخصوص بند توڑنے کی انتھالپی ہے۔"
+            },
+            "sd": {
+              "question": "بند اينٿالپي ڇا آهي؟",
+              "options": {
+                "A": "مرڪزن جو فاصلو",
+                "B": "ويجهو اچڻ تي توانائي",
+                "C": "مولر ماس",
+                "D": "گئس ۾ مخصوص بند جو هڪ مول ٽوڙڻ جي اينٿالپي"
+              },
+              "explanation": "اها گئس حالت ۾ مخصوص بند ٽوڙڻ جي اينٿالپي آهي۔"
+            }
+          }
+        },
+        {
+          "question": "For the same atom pair, a shorter bond is often:",
+          "options": {
+            "A": "Stronger",
+            "B": "Always weaker",
+            "C": "Unrelated to strength",
+            "D": "Same enthalpy as all bonds"
+          },
+          "correctOption": "A",
+          "explanation": "Shorter bonds often have greater strength for a given atom pair.",
+          "translations": {
+            "ur": {
+              "question": "ایک ہی جوڑے میں چھوٹا بند؟",
+              "options": {
+                "A": "زیادہ مضبوط",
+                "B": "ہمیشہ کمزور",
+                "C": "مضبوطی سے غیر متعلق",
+                "D": "تمام بندوں جیسی انتھالپی"
+              },
+              "explanation": "ایک ہی ایٹمی جوڑے میں چھوٹا بند اکثر زیادہ مضبوط ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "ساڳئي جوڙي ۾ ننڍو بند؟",
+              "options": {
+                "A": "وڌيڪ مضبوط",
+                "B": "هميشه ڪمزور",
+                "C": "مضبوطي سان لاڳاپو ناهي",
+                "D": "سڀني بندن جهڙي اينٿالپي"
+              },
+              "explanation": "ساڳئي ايٽمي جوڙي ۾ ننڍو بند اڪثر وڌيڪ مضبوط هوندو آهي۔"
+            }
+          }
+        },
+        {
+          "question": "CO2 is non-polar because:",
+          "options": {
+            "A": "C and O have equal electronegativity",
+            "B": "Linear symmetry cancels equal dipoles",
+            "C": "It has no covalent bonds",
+            "D": "Carbon has a lone pair"
+          },
+          "correctOption": "B",
+          "explanation": "The two equal, opposite C=O dipoles cancel in linear CO2.",
+          "translations": {
+            "ur": {
+              "question": "CO₂ غیر قطبی کیوں ہے؟",
+              "options": {
+                "A": "برقی منفیّت برابر ہے",
+                "B": "خطی توازن ڈائی پول ختم کرتا ہے",
+                "C": "کوویلنٹ بند نہیں",
+                "D": "کاربن پر تنہا جوڑا"
+              },
+              "explanation": "خطی CO₂ میں برابر مخالف C=O ڈائی پول ختم ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "CO₂ غير قطبي ڇو آهي؟",
+              "options": {
+                "A": "برقي منفيت برابر آهي",
+                "B": "سڌي همواري ڊائپول ختم ڪري ٿي",
+                "C": "ڪوويلنٽ بند ناهن",
+                "D": "ڪاربان تي اڪيلو جوڙو"
+              },
+              "explanation": "سڌي CO₂ ۾ برابر ابتڙ C=O ڊائپول ختم ٿين ٿا۔"
+            }
+          }
+        },
+        {
+          "question": "Water is polar because:",
+          "options": {
+            "A": "O–H bonds are non-polar",
+            "B": "It is linear",
+            "C": "Bent geometry prevents dipole cancellation",
+            "D": "Oxygen has no lone pairs"
+          },
+          "correctOption": "C",
+          "explanation": "The bent shape prevents polar O–H dipoles cancelling.",
+          "translations": {
+            "ur": {
+              "question": "پانی قطبی کیوں ہے؟",
+              "options": {
+                "A": "O–H غیر قطبی ہیں",
+                "B": "خطی ہے",
+                "C": "خمیدہ شکل ڈائی پول ختم نہیں ہونے دیتی",
+                "D": "آکسیجن کے تنہا جوڑے نہیں"
+              },
+              "explanation": "خمیدہ شکل O–H ڈائی پولز کو ختم نہیں ہونے دیتی۔"
+            },
+            "sd": {
+              "question": "پاڻي قطبي ڇو آهي؟",
+              "options": {
+                "A": "O–H غير قطبي آهن",
+                "B": "سڌو آهي",
+                "C": "موڙيل شڪل ڊائپول ختم ٿيڻ نٿي ڏئي",
+                "D": "آڪسيجن وٽ اڪيلا جوڙا ناهن"
+              },
+              "explanation": "موڙيل شڪل O–H ڊائپول ختم ٿيڻ نٿي ڏئي۔"
+            }
+          }
+        },
+        {
+          "question": "BF3 is non-polar because:",
+          "options": {
+            "A": "B–F bonds are non-polar",
+            "B": "B has lone pairs",
+            "C": "It is tetrahedral",
+            "D": "Symmetrical trigonal-planar dipoles cancel"
+          },
+          "correctOption": "D",
+          "explanation": "Symmetrical trigonal-planar geometry makes the vector sum zero.",
+          "translations": {
+            "ur": {
+              "question": "BF₃ غیر قطبی کیوں ہے؟",
+              "options": {
+                "A": "B–F غیر قطبی ہیں",
+                "B": "بوران پر تنہا جوڑے ہیں",
+                "C": "چہارسطحی ہے",
+                "D": "متوازن مثلثی مستوی ڈائی پول ختم کرتا ہے"
+              },
+              "explanation": "متوازن شکل میں سمتی مجموعہ صفر ہے۔"
+            },
+            "sd": {
+              "question": "BF₃ غير قطبي ڇو آهي؟",
+              "options": {
+                "A": "B–F غير قطبي آهن",
+                "B": "بوران وٽ اڪيلا جوڙا آهن",
+                "C": "ٽيٽراهڊرل آهي",
+                "D": "هموار ٽڪنڊي هموار ڊائپول ختم ڪري ٿي"
+              },
+              "explanation": "هموار شڪل ۾ سمتي مجموعو صفر آهي۔"
+            }
+          }
+        },
+        {
+          "question": "CH3Cl is polar because:",
+          "options": {
+            "A": "One Cl differs from three H substituents",
+            "B": "All bonds are identical",
+            "C": "It has no covalent bonds",
+            "D": "Carbon is an ion"
+          },
+          "correctOption": "A",
+          "explanation": "Its tetrahedral arrangement is not symmetrical; resultant dipole is non-zero.",
+          "translations": {
+            "ur": {
+              "question": "CH₃Cl قطبی کیوں ہے؟",
+              "options": {
+                "A": "ایک Cl تین H سے مختلف ہے",
+                "B": "تمام بند یکساں ہیں",
+                "C": "کوویلنٹ بند نہیں",
+                "D": "کاربن آئن ہے"
+              },
+              "explanation": "غیر متوازن ترتیب سے نتیجہ خیز ڈائی پول صفر نہیں۔"
+            },
+            "sd": {
+              "question": "CH₃Cl قطبي ڇو آهي؟",
+              "options": {
+                "A": "هڪ Cl ٽن H کان مختلف آهي",
+                "B": "سڀ بند ساڳيا آهن",
+                "C": "ڪوويلنٽ بند ناهن",
+                "D": "ڪاربان آئن آهي"
+              },
+              "explanation": "غير هموار ترتيب سبب نتيجي وارو ڊائپول صفر ناهي۔"
+            }
+          }
+        },
+        {
+          "question": "VSEPR helps early drug design by:",
+          "options": {
+            "A": "Proving safety",
+            "B": "Estimating local shape and group orientation",
+            "C": "Replacing all tests",
+            "D": "Calculating exact receptor affinity"
+          },
+          "correctOption": "B",
+          "explanation": "It estimates local geometry; binding and safety need experiments.",
+          "translations": {
+            "ur": {
+              "question": "VSEPR دوا کی تیاری میں کیسے مدد دیتا ہے؟",
+              "options": {
+                "A": "حفاظت ثابت کرتا ہے",
+                "B": "مقامی شکل اور گروپوں کی سمت کا اندازہ",
+                "C": "تمام ٹیسٹ ختم کرتا ہے",
+                "D": "درست affinity نکالتا ہے"
+              },
+              "explanation": "یہ جیومیٹری کا اندازہ ہے؛ بندش اور حفاظت کے لیے تجربات ضروری ہیں۔"
+            },
+            "sd": {
+              "question": "VSEPR دوا جي ڊيزائن ۾ ڪيئن مدد ڪري ٿو؟",
+              "options": {
+                "A": "حفاظت ثابت ڪري ٿو",
+                "B": "مقامي شڪل ۽ گروپن جي رخ جو اندازو",
+                "C": "سڀ ٽيسٽ ختم ڪري ٿو",
+                "D": "صحيح affinity ڳڻي ٿو"
+              },
+              "explanation": "اهو جاميٽري جو اندازو آهي؛ بندجڻ ۽ حفاظت لاءِ تجربا ضروري آهن۔"
+            }
+          }
+        },
+        {
+          "question": "sp2 hybridization:",
+          "options": {
+            "A": "Forms four hybrids",
+            "B": "Leaves no p orbital",
+            "C": "Forms three coplanar hybrids and one p remains for pi",
+            "D": "Always tetrahedral"
+          },
+          "correctOption": "C",
+          "explanation": "One s and two p form three hybrids; one p remains for pi overlap.",
+          "translations": {
+            "ur": {
+              "question": "sp2 کیا کرتا ہے؟",
+              "options": {
+                "A": "چار ہائبرڈ بناتا ہے",
+                "B": "کوئی p نہیں چھوڑتا",
+                "C": "تین مستوی ہائبرڈ اور ایک p π کے لیے چھوڑتا ہے",
+                "D": "ہمیشہ چہارسطحی"
+              },
+              "explanation": "ایک s اور دو p سے تین ہائبرڈ بنتے ہیں؛ ایک p باقی رہتا ہے۔"
+            },
+            "sd": {
+              "question": "sp2 ڇا ڪري ٿو؟",
+              "options": {
+                "A": "چار هائبرڊ ٺاهي ٿو",
+                "B": "ڪو p نٿو ڇڏي",
+                "C": "ٽي هموار هائبرڊ ۽ هڪ p π لاءِ ڇڏي ٿو",
+                "D": "هميشه ٽيٽراهڊرل"
+              },
+              "explanation": "هڪ s ۽ ٻه p مان ٽي هائبرڊ ٺهن ٿا؛ هڪ p بچي ٿو۔"
+            }
+          }
+        },
+        {
+          "question": "If C–H bond enthalpy is 413 kJ mol−1, energy to break 2 mol is:",
+          "options": {
+            "A": "206.5 kJ",
+            "B": "413 kJ",
+            "C": "1,239 kJ",
+            "D": "826 kJ"
+          },
+          "correctOption": "D",
+          "explanation": "2 × 413 = 826 kJ.",
+          "translations": {
+            "ur": {
+              "question": "C–H انتھالپی 413 ہو تو 2 mol توڑنے کی توانائی؟",
+              "options": {
+                "A": "206.5 kJ",
+                "B": "413 kJ",
+                "C": "1,239 kJ",
+                "D": "826 kJ"
+              },
+              "explanation": "2 × 413 = 826 kJ۔"
+            },
+            "sd": {
+              "question": "C–H اينٿالپي 413 هجي ته 2 mol ٽوڙڻ جي توانائي؟",
+              "options": {
+                "A": "206.5 kJ",
+                "B": "413 kJ",
+                "C": "1,239 kJ",
+                "D": "826 kJ"
+              },
+              "explanation": "2 × 413 = 826 kJ۔"
+            }
+          }
         }
       ],
       "writtenQuestions": [
         {
           "type": "crq",
           "marks": 5,
-          "question": "Define two key terms in chapter 3: covalent bonding and molecular shapes and explain their relationship.",
-          "modelAnswer": "Covalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion helps predict molecular shape, while bond angles and lone pairs influence geometry.",
+          "question": "Describe the Lewis structure of water. Identify bonding and lone pairs and explain why it is bent.",
+          "modelAnswer": "H–O–H has two O–H bonding pairs and two lone pairs on oxygen. Four domains are approximately tetrahedral, but the molecular shape is bent. Lone-pair repulsion compresses the angle to about 104.5°.",
           "rubric": [
-            "Correct definitions (2)",
-            "Relationship/explanation (2)",
-            "Clear expression (1)"
-          ]
+            "Correct H–O–H structure (1)",
+            "Two bonding pairs (1)",
+            "Two lone pairs (1)",
+            "Bent shape (1)",
+            "Repulsion and angle (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "پانی کی لیوس ساخت بیان کریں، بند اور تنہا جوڑے شناخت کریں اور خمیدہ شکل کی وجہ بتائیں۔",
+              "modelAnswer": "H–O–H میں دو بند جوڑے اور آکسیجن پر دو تنہا جوڑے ہیں۔ چار ڈومین چہارسطحی ترتیب رکھتے ہیں مگر شکل خمیدہ ہے۔ دفع زاویہ تقریباً 104.5° کرتی ہے۔",
+              "rubric": [
+                "درست ساخت (1)",
+                "دو بند جوڑے (1)",
+                "دو تنہا جوڑے (1)",
+                "خمیدہ شکل (1)",
+                "دفع اور زاویہ (1)"
+              ]
+            },
+            "sd": {
+              "question": "پاڻي جي ليوس جوڙجڪ بيان ڪريو، بند ۽ اڪيلا جوڙا سڃاڻو ۽ موڙيل شڪل جو سبب ٻڌايو.",
+              "modelAnswer": "H–O–H ۾ ٻه بند جوڙا ۽ آڪسيجن وٽ ٻه اڪيلا جوڙا آهن. چار ڊومين ٽيٽراهڊرل آهن پر شڪل موڙيل آهي. ڌڪ زاويه لڳ ڀڳ 104.5° ڪري ٿو.",
+              "rubric": [
+                "صحيح جوڙجڪ (1)",
+                "ٻه بند جوڙا (1)",
+                "ٻه اڪيلا جوڙا (1)",
+                "موڙيل شڪل (1)",
+                "ڌڪ ۽ زاويه (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare sigma and pi bonds by overlap, electron-density location and composition of a double bond.",
+          "modelAnswer": "A sigma bond forms by end-on overlap along the internuclear axis. A pi bond forms by sideways overlap of parallel unhybridized p orbitals, with electron density on opposite sides. A double bond has one sigma and one pi.",
+          "rubric": [
+            "Sigma end-on overlap (1)",
+            "Sigma density around axis (1)",
+            "Pi sideways p overlap (1)",
+            "Pi density on opposite sides (1)",
+            "One sigma + one pi (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "سگما اور پائی بند کا تداخل اور دوہرے بند میں ترکیب کا موازنہ کریں۔",
+              "modelAnswer": "سگما محور کے ساتھ سامنے سے تداخل ہے۔ پائی متوازی غیر ہائبرڈائزڈ p آربیٹلز کا پہلو سے تداخل ہے۔ دوہرے بند میں ایک سگما اور ایک پائی ہوتا ہے۔",
+              "rubric": [
+                "سگما سامنے سے (1)",
+                "سگما کثافت محور کے گرد (1)",
+                "پائی پہلو سے تداخل (1)",
+                "پائی کثافت مخالف اطراف (1)",
+                "ایک سگما + ایک پائی (1)"
+              ]
+            },
+            "sd": {
+              "question": "سگما ۽ پائي بند جو اوورليپ ۽ ٻيڻي بند ۾ جوڙجڪ ڀيٽيو.",
+              "modelAnswer": "سگما محور سان سامهون کان اوورليپ آهي. پائي متوازي غير هائبرڊائزڊ p آربيٽلن جو پاسن کان اوورليپ آهي. ٻيڻي بند ۾ هڪ سگما ۽ هڪ پائي آهي.",
+              "rubric": [
+                "سگما سامهون کان (1)",
+                "سگما ڪثافت محور چوڌاري (1)",
+                "پائي پاسن کان (1)",
+                "پائي ڪثافت ابتڙ پاسن تي (1)",
+                "هڪ سگما + هڪ پائي (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 7,
+          "question": "For CO2, BF3 and CH4, state central-atom domains, molecular shape and ideal angle.",
+          "modelAnswer": "CO2: two bonding domains, no lone pairs; linear, 180°. BF3: three bonding domains, no lone pairs; trigonal planar, 120°. CH4: four bonding domains, no lone pairs; tetrahedral, 109.5°. Without central lone pairs, molecular shape matches electron-domain geometry.",
+          "rubric": [
+            "CO2: 2 domains, linear, 180° (2)",
+            "BF3: 3 domains, trigonal planar, 120° (2)",
+            "CH4: 4 domains, tetrahedral, 109.5° (2)",
+            "Domain/shape link (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "CO₂، BF₃ اور CH₄ کے ڈومین، شکل اور زاویہ بتائیں۔",
+              "modelAnswer": "CO₂ دو بند ڈومین، خطی 180°۔ BF₃ تین بند ڈومین، مثلثی مستوی 120°۔ CH₄ چار بند ڈومین، چہارسطحی 109.5°۔",
+              "rubric": [
+                "CO₂ دو ڈومین، خطی، 180° (2)",
+                "BF₃ تین ڈومین، مثلثی مستوی، 120° (2)",
+                "CH₄ چار ڈومین، چہارسطحی، 109.5° (2)",
+                "ڈومین اور شکل (1)"
+              ]
+            },
+            "sd": {
+              "question": "CO₂، BF₃ ۽ CH₄ جا ڊومين، شڪل ۽ زاويه ٻڌايو.",
+              "modelAnswer": "CO₂ ٻه بند ڊومين، سڌي 180°. BF₃ ٽي بند ڊومين، ٽڪنڊي هموار 120°. CH₄ چار بند ڊومين، ٽيٽراهڊرل 109.5°.",
+              "rubric": [
+                "CO₂ ٻه ڊومين، سڌي، 180° (2)",
+                "BF₃ ٽي ڊومين، ٽڪنڊي هموار، 120° (2)",
+                "CH₄ چار ڊومين، ٽيٽراهڊرل، 109.5° (2)",
+                "ڊومين ۽ شڪل (1)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "crq",
+          "marks": 7,
+          "question": "Explain why bond angles decrease from CH4 to NH3 to H2O. Include bonding and lone pairs.",
+          "modelAnswer": "CH4 has four bonding pairs and no lone pairs: 109.5°. NH3 has three bonding pairs and one lone pair: about 107°. H2O has two bonding pairs and two lone pairs: about 104.5°. Lone-pair repulsion increasingly compresses the angle.",
+          "rubric": [
+            "CH4: 4 bonding, 0 lone; 109.5° (2)",
+            "NH3: 3 bonding, 1 lone; ~107° (2)",
+            "H2O: 2 bonding, 2 lone; ~104.5° (2)",
+            "Repulsion explanation (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "CH₄ سے NH₃ اور H₂O تک زاویہ کیوں کم ہوتا ہے؟ بند اور تنہا جوڑے بتائیں۔",
+              "modelAnswer": "CH₄ میں چار بند، صفر تنہا؛ 109.5°۔ NH₃ میں تین بند، ایک تنہا؛ تقریباً 107°۔ H₂O میں دو بند، دو تنہا؛ تقریباً 104.5°۔",
+              "rubric": [
+                "CH₄ چار/صفر، 109.5° (2)",
+                "NH₃ تین/ایک، 107° (2)",
+                "H₂O دو/دو، 104.5° (2)",
+                "دفع کی وضاحت (1)"
+              ]
+            },
+            "sd": {
+              "question": "CH₄ کان NH₃ ۽ H₂O تائين زاويه ڇو گهٽجي ٿو؟ بند ۽ اڪيلا جوڙا ٻڌايو.",
+              "modelAnswer": "CH₄ ۾ چار بند، صفر اڪيلو؛ 109.5°. NH₃ ۾ ٽي بند، هڪ اڪيلو؛ لڳ ڀڳ 107°. H₂O ۾ ٻه بند، ٻه اڪيلا؛ لڳ ڀڳ 104.5°.",
+              "rubric": [
+                "CH₄ چار/صفر، 109.5° (2)",
+                "NH₃ ٽي/هڪ، 107° (2)",
+                "H₂O ٻه/ٻه، 104.5° (2)",
+                "ڌڪ جي وضاحت (1)"
+              ]
+            }
+          }
         },
         {
           "type": "erq",
           "marks": 10,
-          "question": "Explain chapter 3: covalent bonding and molecular shapes and discuss one practical or numerical application.",
-          "modelAnswer": "Covalent bonds form when atoms share electron pairs. Lewis structures represent valence electrons; bond polarity depends on electronegativity difference. Electron-pair repulsion helps predict molecular shape, while bond angles and lone pairs influence geometry. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "question": "Using VBT and hybridization, explain bonding in ethane, ethene and ethyne. Compare geometry and sigma/pi bonds.",
+          "modelAnswer": "VBT explains bonding through orbital overlap and electron pairing. Ethane: each carbon is sp3; C–C is one sigma and each carbon is tetrahedral (109.5°). Ethene: each carbon is sp2; C=C has one sigma and one pi; each carbon is trigonal planar (~120°) and rotation is restricted. Ethyne: each carbon is sp; C≡C has one sigma and two pi; each carbon is linear (180°).",
           "rubric": [
-            "Accurate concept (3)",
-            "Application/example (3)",
-            "Reasoning and steps (2)",
-            "Clarity and units (2)"
-          ]
+            "VBT/orbital overlap (2)",
+            "Ethane sp3/tetrahedral/one sigma (2)",
+            "Ethene sp2/trigonal planar/sigma+pi (2)",
+            "Ethyne sp/linear/sigma+2pi (2)",
+            "Accurate comparison (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "VBT اور ہائبرڈائزیشن سے ایتھین، ایتھین (ethene) اور ایتھائن میں بند سازی سمجھائیں۔",
+              "modelAnswer": "ایتھین میں کاربن sp3، چہارسطحی 109.5° اور C–C ایک سگما ہے۔ ایتھین میں کاربن sp2، مثلثی مستوی 120° اور C=C ایک سگما و ایک پائی ہے۔ ایتھائن میں کاربن sp، خطی 180° اور C≡C ایک سگما و دو پائی ہیں۔",
+              "rubric": [
+                "VBT/تداخل (2)",
+                "ایتھین sp3/چہارسطحی/سگما (2)",
+                "ایتھین sp2/مثلثی/سگما+پائی (2)",
+                "ایتھائن sp/خطی/سگما+2پائی (2)",
+                "درست موازنہ (2)"
+              ]
+            },
+            "sd": {
+              "question": "VBT ۽ هائبرڊائيزيشن سان ايٿين، ايٿين (ethene) ۽ ايٿائن جا بند سمجهايو.",
+              "modelAnswer": "ايٿين ۾ ڪاربان sp3، ٽيٽراهڊرل 109.5° ۽ C–C هڪ سگما آهي. ايٿين ۾ sp2، ٽڪنڊي هموار 120° ۽ C=C هڪ سگما ۽ هڪ پائي آهي. ايٿائن ۾ sp، سڌي 180° ۽ C≡C هڪ سگما ۽ ٻه پائي آهن.",
+              "rubric": [
+                "VBT/اوورليپ (2)",
+                "ايٿين sp3/ٽيٽراهڊرل/سگما (2)",
+                "ايٿين sp2/ٽڪنڊي/سگما+پائي (2)",
+                "ايٿائن sp/سڌي/سگما+2پائي (2)",
+                "صحيح مقابلو (2)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Apply VSEPR to compare shape, bond angle and polarity of CO2, BF3, CH4, NH3 and H2O. Explain lone-pair effects.",
+          "modelAnswer": "CO2: linear 180°, equal C=O dipoles cancel, non-polar. BF3: trigonal planar 120°, symmetrical B–F dipoles cancel, non-polar. CH4: tetrahedral 109.5°, symmetrical and non-polar. NH3: trigonal pyramidal ~107°, polar. H2O: bent ~104.5°, polar. Lone pairs repel more strongly and compress angles. Molecular polarity is the vector sum of bond dipoles in the actual geometry.",
+          "rubric": [
+            "CO2 shape/angle/cancellation (2)",
+            "BF3 shape/angle/cancellation (2)",
+            "CH4 shape/angle/symmetry (2)",
+            "NH3/H2O shapes/lone pairs/polarity (2)",
+            "VSEPR/vector sum (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "VSEPR سے CO₂، BF₃، CH₄، NH₃ اور H₂O کی شکل، زاویہ اور قطبیت کا موازنہ کریں۔",
+              "modelAnswer": "CO₂ خطی 180°؛ ڈائی پول ختم، غیر قطبی۔ BF₃ مثلثی مستوی 120°؛ ڈائی پول ختم، غیر قطبی۔ CH₄ چہارسطحی 109.5°، غیر قطبی۔ NH₃ اہرامی تقریباً 107°، قطبی۔ H₂O خمیدہ تقریباً 104.5°، قطبی۔ تنہا جوڑے زاویے کم کرتے ہیں۔",
+              "rubric": [
+                "CO₂ شکل/زاویہ (2)",
+                "BF₃ شکل/زاویہ (2)",
+                "CH₄ شکل/زاویہ (2)",
+                "NH₃/H₂O شکل/قطبیت (2)",
+                "VSEPR/سمتی مجموعہ (2)"
+              ]
+            },
+            "sd": {
+              "question": "VSEPR سان CO₂، BF₃، CH₄، NH₃ ۽ H₂O جي شڪل، زاويه ۽ قطبيت ڀيٽيو.",
+              "modelAnswer": "CO₂ سڌي 180°؛ ڊائپول ختم، غير قطبي. BF₃ ٽڪنڊي هموار 120°؛ ڊائپول ختم، غير قطبي. CH₄ ٽيٽراهڊرل 109.5°، غير قطبي. NH₃ هرمي لڳ ڀڳ 107°، قطبي. H₂O موڙيل لڳ ڀڳ 104.5°، قطبي. اڪيلا جوڙا زاويه گهٽائين ٿا.",
+              "rubric": [
+                "CO₂ شڪل/زاويه (2)",
+                "BF₃ شڪل/زاويه (2)",
+                "CH₄ شڪل/زاويه (2)",
+                "NH₃/H₂O شڪل/قطبيت (2)",
+                "VSEPR/سمتي مجموعو (2)"
+              ]
+            }
+          }
+        },
+        {
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain how molecular shape and polarity inform early drug-design hypotheses. Use a hypothetical ligand and evaluate limitations.",
+          "modelAnswer": "A ligand's geometry influences how functional groups face a receptor or enzyme. Correctly oriented polar groups may form hydrogen-bond/dipole contacts; charged groups may form ionic contacts; non-polar surfaces may form hydrophobic contacts. VSEPR estimates local geometry, but binding also depends on flexibility, rotation, protonation, solvent, protein movement and steric/entropic effects. VSEPR does not prove affinity, efficacy or safety; modelling, biochemical assays and clinical evidence are needed.",
+          "rubric": [
+            "Shape/group orientation (2)",
+            "Two possible contacts (2)",
+            "Applies to hypothetical ligand (2)",
+            "Evaluates VSEPR limits (2)",
+            "Experimental/clinical evidence (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "سالماتی شکل اور قطبیت دوا کی ابتدائی تیاری میں کیسے مدد دیتی ہیں؟ فرضی لیگنڈ اور VSEPR کی حدود بیان کریں۔",
+              "modelAnswer": "لیگنڈ کی شکل فعلی گروپوں کی سمت طے کرتی ہے۔ قطبی گروپ ہائیڈروجن بانڈ، چارج شدہ گروپ آئنک اور غیر قطبی سطحیں ہائیڈروفوبک رابطے بنا سکتی ہیں۔ VSEPR مقامی جیومیٹری کا اندازہ دیتا ہے مگر بندش لچک، محلل، پروٹین کی حرکت اور دیگر عوامل پر منحصر ہے۔ یہ افادیت یا حفاظت ثابت نہیں کرتا؛ تجربات اور طبی شواہد ضروری ہیں۔",
+              "rubric": [
+                "شکل اور گروپ کی سمت (2)",
+                "دو ممکنہ رابطے (2)",
+                "فرضی لیگنڈ پر اطلاق (2)",
+                "VSEPR کی حدود (2)",
+                "تجرباتی/طبی شواہد (2)"
+              ]
+            },
+            "sd": {
+              "question": "سالماتي شڪل ۽ قطبيت دوا جي ڊيزائن ۾ ڪيئن مدد ڪن ٿيون؟ فرضي ليگنڊ ۽ VSEPR جون حدون ٻڌايو.",
+              "modelAnswer": "ليگنڊ جي شڪل فعلي گروپن جو رخ طئي ڪري ٿي. قطبي گروپ هائيڊروجن بانڊ، چارج وارا گروپ آئنڪ ۽ غير قطبي سطحون هائيڊروفوبڪ رابطا ٺاهي سگهن ٿا. VSEPR مقامي جاميٽري جو اندازو ڏئي ٿو پر بندجڻ لچڪ، محلل، پروٽين جي حرڪت ۽ ٻين عنصرن تي دارومدار رکي ٿو. اهو اثر يا حفاظت ثابت نٿو ڪري؛ تجربا ۽ طبي ثبوت ضروري آهن.",
+              "rubric": [
+                "شڪل ۽ گروپن جو رخ (2)",
+                "ٻه رابطا (2)",
+                "فرضِي ليگنڊ تي لاڳو ڪرڻ (2)",
+                "VSEPR جون حدون (2)",
+                "تجرباتي/طبي ثبوت (2)"
+              ]
+            }
+          }
         }
       ],
-      "contentTier": "outline"
+      "caseStudy": "Two hypothetical ligands have the same formula. Use Lewis structures and VSEPR to reason about local shape, polar-bond direction and possible complementarity with a receptor pocket. This is a testable hypothesis, not proof of binding or safety.",
+      "practicalActivity": "Build ball-and-stick or paper models of CO2, BF3, CH4, NH3 and H2O. Count bonding/lone-pair domains and compare with the interactive model.",
+      "revisionSummary": [
+        "A covalent bond is attraction between a shared pair and both nuclei.",
+        "VBT explains overlap; sigma is end-on and pi is side-on.",
+        "sp, sp2 and sp3 correspond to linear, trigonal-planar and tetrahedral ideal arrangements.",
+        "VSEPR counts each multiple bond as one domain; lone pairs compress angles.",
+        "Molecular polarity is the vector sum of bond dipoles.",
+        "Molecular shape informs hypotheses but does not prove drug activity or safety."
+      ]
     },
     {
       "title": "Chapter 4: States of Matter I — Gases",
