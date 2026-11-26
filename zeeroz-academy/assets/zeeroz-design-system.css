@@ -299,3 +299,213 @@ body:has(.hero-grid) .foot-social a{
   flex:0 0 44px;padding:0;display:grid;place-items:center;
 }
 body:has(.hero-grid) .foot-social svg{width:20px;height:20px}
+
+
+/* Material 3-inspired web layer — adapted from Google's open design guidance.
+   Native HTML/CSS only: no component runtime, remote font, icon CDN or added dependency. */
+:root{
+  --md-primary:#3157d5;
+  --md-on-primary:#fff;
+  --md-primary-container:#e3eaff;
+  --md-on-primary-container:#10285f;
+  --md-secondary:#53617d;
+  --md-secondary-container:#e8edf7;
+  --md-on-secondary-container:#253450;
+  --md-tertiary:#087d78;
+  --md-tertiary-container:#d5f5ef;
+  --md-on-tertiary-container:#064f4b;
+  --md-surface:#fff;
+  --md-surface-low:#f8f9ff;
+  --md-surface-container:#f0f2f9;
+  --md-surface-high:#e9edf6;
+  --md-outline:#c5ccda;
+  --md-outline-variant:#dfe4ee;
+  --md-on-surface:#17213b;
+  --md-on-surface-variant:#59657d;
+  --md-error:#b3261e;
+  --md-shape-xs:8px;
+  --md-shape-sm:12px;
+  --md-shape-md:16px;
+  --md-shape-lg:20px;
+  --md-shape-xl:28px;
+  --md-elevation-1:0 1px 2px rgba(20,35,70,.10),0 1px 3px rgba(20,35,70,.06);
+  --md-elevation-2:0 2px 6px rgba(20,35,70,.10),0 1px 3px rgba(20,35,70,.06);
+  --md-elevation-3:0 8px 18px rgba(20,35,70,.12),0 2px 5px rgba(20,35,70,.06);
+}
+:where(button,a,input,select,textarea,summary){-webkit-tap-highlight-color:transparent}
+:where(button,a,input,select,textarea,summary):focus-visible{outline:3px solid #e4ad22;outline-offset:3px}
+body:has(.hero-grid) header{
+  background:rgba(255,255,255,.92);
+  border-bottom:1px solid var(--md-outline-variant);
+  box-shadow:var(--md-elevation-1);
+}
+body:has(.hero-grid) .links a{
+  border-radius:999px;
+  padding:9px 12px;
+  transition:background-color .18s,color .18s;
+}
+body:has(.hero-grid) .links a:hover{
+  background:var(--md-secondary-container);
+  color:var(--md-on-secondary-container);
+}
+body:has(.hero-grid) .links a:last-child{
+  background:var(--md-primary);
+  color:var(--md-on-primary);
+  padding:10px 16px;
+  box-shadow:var(--md-elevation-1);
+}
+body:has(.hero-grid) .links a:last-child:hover{background:#2449bd;box-shadow:var(--md-elevation-2)}
+body:has(.hero-grid) .btn{
+  min-height:48px;
+  border-radius:999px;
+  padding:13px 22px;
+  letter-spacing:.1px;
+  transition:background-color .18s,box-shadow .18s,transform .18s;
+}
+body:has(.hero-grid) .btn.primary{
+  background:var(--md-primary);
+  color:var(--md-on-primary);
+  box-shadow:var(--md-elevation-1);
+}
+body:has(.hero-grid) .btn.primary:hover{background:#2449bd;box-shadow:var(--md-elevation-2)}
+body:has(.hero-grid) .btn.secondary{
+  background:rgba(255,255,255,.10);
+  border:1px solid rgba(255,255,255,.58);
+  color:#fff;
+}
+body:has(.hero-grid) .btn.secondary:hover{background:rgba(255,255,255,.18)}
+body:has(.hero-grid) .section-head h2{font-weight:760;letter-spacing:-1.15px}
+body:has(.hero-grid) .card,
+body:has(.hero-grid) .path-card,
+body:has(.hero-grid) .tool-card,
+body:has(.hero-grid) .visual-card{
+  border:1px solid var(--md-outline-variant);
+  border-radius:var(--md-shape-lg);
+  background:var(--md-surface);
+  box-shadow:var(--md-elevation-1);
+}
+body:has(.hero-grid) .card:hover,
+body:has(.hero-grid) .path-card:hover,
+body:has(.hero-grid) .tool-card:hover,
+body:has(.hero-grid) .visual-card:hover{
+  box-shadow:var(--md-elevation-2);
+  border-color:#b9c8eb;
+}
+body:has(.hero-grid) .ico{
+  border-radius:var(--md-shape-md);
+  background:var(--md-primary-container);
+  color:var(--md-on-primary-container);
+}
+body:has(.hero-grid) .status,
+body:has(.hero-grid) .visual-tag,
+body:has(.hero-grid) .kicker{
+  border-radius:999px;
+}
+body:has(.hero-grid) .visual-tag{
+  padding:6px 11px;
+  background:var(--md-tertiary-container);
+  color:var(--md-on-tertiary-container);
+}
+body:has(.hero-grid) .visual-card{padding:24px}
+body:has(.hero-grid) .visual-stage{border-radius:var(--md-shape-md);background:var(--md-surface-low)}
+body:has(.hero-grid) .visual-actions button,
+body:has(.hero-grid) .visual-actions a,
+body:has(.hero-grid) .tool-action{
+  min-height:44px;
+  border-radius:999px;
+  padding:10px 17px;
+  background:var(--md-primary);
+  color:var(--md-on-primary);
+  box-shadow:none;
+  transition:background-color .18s,box-shadow .18s;
+}
+body:has(.hero-grid) .visual-actions button:hover,
+body:has(.hero-grid) .visual-actions a:hover,
+body:has(.hero-grid) .tool-action:hover{background:#2449bd;box-shadow:var(--md-elevation-1)}
+body:has(.hero-grid) .visual-actions .light,
+body:has(.hero-grid) .tool-card button[style*="65718a"]{
+  background:var(--md-secondary-container);
+  color:var(--md-on-secondary-container);
+}
+body:has(.hero-grid) .visual-actions .light:hover{background:#dce3f1}
+body:has(.hero-grid) .site-search,
+body:has(.hero-grid) .tool-card input{
+  min-height:52px;
+  border:1px solid var(--md-outline);
+  border-radius:var(--md-shape-sm);
+  background:var(--md-surface-container);
+  color:var(--md-on-surface);
+  padding:13px 16px;
+  transition:border-color .16s,box-shadow .16s,background .16s;
+}
+body:has(.hero-grid) .site-search:focus,
+body:has(.hero-grid) .tool-card input:focus{
+  background:var(--md-surface);
+  border:2px solid var(--md-primary);
+  outline:0;
+  box-shadow:none;
+}
+body:has(.hero-grid) .path-card:focus-visible,
+body:has(.hero-grid) .card:focus-within,
+body:has(.hero-grid) .visual-card:focus-within{outline-offset:4px}
+body:has(.hero-grid) .feature-panel{border-radius:var(--md-shape-xl)}
+body:has(.hero-grid) .cta{border-radius:var(--md-shape-xl)}
+body:has(.hero-grid) .faq-list details{padding:18px 8px}
+body:has(.hero-grid) .faq-list summary{padding:4px 0;min-height:44px;display:flex;align-items:center}
+body:has(.hero-grid) .faq-list details[open]{background:var(--md-surface-low);padding-inline:14px;border-radius:var(--md-shape-md)}
+/* Course catalogue: filter chips, outlined cards, readable action hierarchy. */
+body:has(.course-grid) .course,
+body:has(.catalog-groups) .grade-group,
+body:has(.catalog-groups) .job-card{
+  border:1px solid var(--md-outline-variant);
+  border-radius:var(--md-shape-lg);
+  box-shadow:var(--md-elevation-1);
+}
+body:has(.course-grid) .filter{
+  min-height:40px;
+  border:1px solid var(--md-outline);
+  border-radius:999px;
+  background:var(--md-surface);
+  color:var(--md-on-surface-variant);
+  padding:9px 16px;
+  transition:background .16s,border-color .16s,color .16s;
+}
+body:has(.course-grid) .filter.active{
+  background:var(--md-secondary-container);
+  color:var(--md-on-secondary-container);
+  border-color:transparent;
+}
+body:has(.course-grid) .search{
+  min-height:48px;
+  border:1px solid var(--md-outline);
+  border-radius:var(--md-shape-sm);
+  background:var(--md-surface-container);
+  padding:12px 15px;
+}
+body:has(.course-grid) .btn{min-height:42px;border-radius:999px;padding:10px 17px}
+body:has(.course-grid) .btn.secondary{background:var(--md-secondary-container);color:var(--md-on-secondary-container)}
+/* Student sign-in: M3 elevated surface, segmented control, filled text fields. */
+body:has(.shell) .shell{border:1px solid var(--md-outline-variant);border-radius:var(--md-shape-xl);box-shadow:var(--md-elevation-3)}
+body:has(.shell) .panel{background:var(--md-surface)}
+body:has(.shell) .tabs{background:var(--md-surface-container);border-radius:999px;padding:5px}
+body:has(.shell) .tabs button{min-height:44px;border-radius:999px}
+body:has(.shell) .tabs button.active{background:var(--md-secondary-container);color:var(--md-on-secondary-container);box-shadow:none}
+body:has(.shell) input{min-height:50px;border:1px solid var(--md-outline);border-radius:var(--md-shape-xs);background:var(--md-surface-container);padding:12px 15px}
+body:has(.shell) input:focus{background:var(--md-surface);border:2px solid var(--md-primary);box-shadow:none}
+body:has(.shell) .action{min-height:48px;border-radius:999px;background:var(--md-primary);box-shadow:var(--md-elevation-1)}
+body:has(.shell) .google-action{min-height:48px;border-radius:999px;background:var(--md-surface);border-color:var(--md-outline)}
+/* Compact layouts retain existing menu behaviour and avoid a second navigation system. */
+@media(max-width:760px){
+ body:has(.hero-grid) .links{border-radius:0 0 var(--md-shape-lg) var(--md-shape-lg);box-shadow:var(--md-elevation-2)}
+ body:has(.hero-grid) .links a{width:100%;min-height:44px;padding:11px 13px}
+ body:has(.hero-grid) .visual-card{padding:17px}
+ body:has(.shell) .shell{border-radius:var(--md-shape-xl)}
+ body:has(.shell) .panel{padding:26px 21px}
+}
+@media(prefers-reduced-motion:reduce){
+ body:has(.hero-grid) .btn,
+ body:has(.hero-grid) .card,
+ body:has(.hero-grid) .path-card,
+ body:has(.hero-grid) .tool-card,
+ body:has(.hero-grid) .visual-actions button{transition:none!important}
+}
