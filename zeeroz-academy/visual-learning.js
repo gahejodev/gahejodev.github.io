@@ -135,3 +135,73 @@ export function mountGasParticleModel(container,{language="en"}={}){
  play.addEventListener("click",toggle);reset.addEventListener("click",()=>{stop();count.input.value="12";temp.input.value="300";build();draw();reset.focus()});
  if(reduced)play.textContent=t.step;build();draw();container.append(panel);return panel;
 }
+
+
+const liquidCopy={
+ en:{title:"Explore liquid particles",intro:"Adjust temperature and intermolecular attraction to compare thermal motion, escape tendency and surface cohesion.",temperature:"Temperature",attraction:"Intermolecular attraction",motion:"Relative thermal motion",escape:"Relative escape tendency",surface:"Surface-tension trend",reset:"Reset model",low:"Lower",moderate:"Moderate",high:"Higher",weak:"Weaker",medium:"Medium",strong:"Stronger",assumptions:"Qualitative model for a generic liquid. Arrows show relative motion and cohesion only; no numerical vapour pressure, viscosity or measured force is predicted. Real values depend on the substance and conditions.",description:"Closely spaced liquid particles, a surface layer and vapour above the liquid."},
+ ur:{title:"مائع کے ذرات دریافت کریں",intro:"درجۂ حرارت اور بین السالماتی کشش بدل کر حرکی حرکت، نکلنے کے رجحان اور سطحی کشش کا موازنہ کریں۔",temperature:"درجۂ حرارت",attraction:"بین السالماتی کشش",motion:"نسبتی حرکی حرکت",escape:"نکلنے کا نسبتی رجحان",surface:"سطحی تناؤ کا رجحان",reset:"ماڈل ری سیٹ کریں",low:"کم",moderate:"درمیانہ",high:"زیادہ",weak:"کمزور",medium:"درمیانی",strong:"مضبوط",assumptions:"عام مائع کا تصوری تدریسی ماڈل۔ تیر صرف نسبتی حرکت اور باہمی کشش دکھاتے ہیں؛ یہ بخاراتی دباؤ، چپچپاہٹ یا ناپی گئی قوت کی عددی پیش گوئی نہیں کرتا۔ حقیقی اقدار مادے اور حالات پر منحصر ہیں۔",description:"مائع کے قریب ذرات، سطحی تہہ اور اس کے اوپر بخارات۔"},
+ sd:{title:"مائع جا ذرڙا ڳوليو",intro:"گرمي پد ۽ بين الماليڪيولي ڪشش بدلايو ۽ حرڪي حرڪت، نڪرڻ جي لاڙي ۽ سطحي ڪشش جو ڀيٽ ڪريو.",temperature:"گرمي پد",attraction:"بين الماليڪيولي ڪشش",motion:"نسبتي حرڪي حرڪت",escape:"نڪرڻ جو نسبتي لاڙو",surface:"سطحي ڇڪ جو لاڙو",reset:"ماڊل ري سيٽ ڪريو",low:"گهٽ",moderate:"وچولو",high:"وڌيڪ",weak:"ڪمزور",medium:"وچولي",strong:"مضبوط",assumptions:"عام مائع جو تصوري تدريسي ماڊل. تير رڳو نسبتي حرڪت ۽ پاڻ ۾ ڪشش ڏيکارين ٿا؛ هي ٻاڦ جي دٻاءَ، چپچپاهٽ يا ماپيل قوت جي عددي اڳڪٿي نٿو ڪري. حقيقي قدر مادي ۽ حالتن تي دارومدار رکن ٿا.",description:"مائع جا ويجها ذرڙا، سطح واري پرت ۽ مٿان ٻاڦ."}
+};
+export function mountLiquidModel(container,{language="en"}={}){
+ if(!container||container.querySelector('[data-visualization="liquid-particles"]'))return null;
+ const t=liquidCopy[language]||liquidCopy.en;
+ const panel=makeNode("section","lesson-visualization liquid-visualization");
+ panel.dataset.visualization="liquid-particles";
+ panel.setAttribute("role","region");
+ const heading=makeNode("h4","liquid-heading",t.title);
+ heading.id="liquidModelHeading";
+ panel.setAttribute("aria-labelledby",heading.id);
+ panel.append(heading,makeNode("p","liquid-intro",t.intro));
+ const plot=makeSvg("svg",{viewBox:"0 0 360 220",class:"liquid-plot",role:"img","aria-labelledby":"liquidSvgTitle liquidSvgDesc"});
+ const svgTitle=makeSvg("title",{id:"liquidSvgTitle"});svgTitle.textContent=t.title;
+ const desc=makeSvg("desc",{id:"liquidSvgDesc"});desc.textContent=t.description;
+ plot.append(svgTitle,desc);
+ plot.append(makeSvg("rect",{x:20,y:70,width:320,height:130,rx:15,fill:"#dcefff",stroke:"#6d93bd","stroke-width":2}));
+ plot.append(makeSvg("path",{d:"M22 105 Q55 99 88 105 T154 105 T220 105 T286 105 T338 105",fill:"none",stroke:"#2c8ec9","stroke-width":3}));
+ const coords=[[48,132],[91,128],[136,145],[183,130],[226,151],[276,128],[316,154],[67,177],[119,178],[169,174],[219,184],[270,178],[307,183],[99,151],[251,143]];
+ coords.forEach(([x,y],i)=>plot.append(makeSvg("circle",{cx:x,cy:y,r:i%4===0?7:6,fill:i%3===0?"#0b77b8":"#2d9bc9",stroke:"#fff","stroke-width":1.5})));
+ const vapour=[[80,48],[145,31],[226,52],[293,35],[185,59]].map(([x,y])=>{const c=makeSvg("circle",{cx:x,cy:y,r:5,fill:"#8bb8e6",stroke:"#fff","stroke-width":1.5});plot.append(c);return c;});
+ const vectors=coords.slice(0,8).map(([x,y],i)=>{const line=makeSvg("path",{d:"M"+x+" "+y+" l4 -3",fill:"none",stroke:"#125b8c","stroke-width":2,"stroke-linecap":"round"});plot.append(line);return {line,x,y,dx:[1,-1,0,1,-1,0,1,-1][i],dy:[-1,0,1,0,-1,1,1,-1][i]};});
+ const cohesion=makeSvg("g",{stroke:"#d18a19","stroke-width":2,"stroke-linecap":"round",fill:"none"});plot.append(cohesion);
+ const liquidLabel=makeSvg("text",{x:28,y:91,fill:"#24557b","font-size":10,"font-weight":700});liquidLabel.textContent=language==="ur"?"مائع":language==="sd"?"مائع":"Liquid";plot.append(liquidLabel);
+ const vapourLabel=makeSvg("text",{x:28,y:23,fill:"#56718d","font-size":10,"font-weight":700});vapourLabel.textContent=language==="ur"?"بخارات":language==="sd"?"ٻاڦ":"Vapour";plot.append(vapourLabel);
+ panel.append(plot);
+ const controls=makeNode("div","liquid-controls");
+ const makeControl=(id,label,min,max,value,step,unit)=>{
+  const wrap=makeNode("div","liquid-control"),lab=makeNode("label","",label),out=makeNode("output","",value+unit),input=makeNode("input","");
+  input.id=id;input.type="range";input.min=String(min);input.max=String(max);input.step=String(step);input.value=String(value);
+  lab.htmlFor=id;out.htmlFor=id;lab.append(out);wrap.append(lab,input);controls.append(wrap);return {input,out};
+ };
+ const temp=makeControl("liquidTemperature",t.temperature,10,90,25,5," °C");
+ const attraction=makeControl("liquidAttraction",t.attraction,1,3,2,1,"");
+ panel.append(controls);
+ const readouts=makeNode("div","liquid-readouts");readouts.setAttribute("aria-live","polite");readouts.setAttribute("aria-atomic","true");
+ const motion=makeNode("article","liquid-stat"),escape=makeNode("article","liquid-stat"),surface=makeNode("article","liquid-stat");
+ motion.append(makeNode("small","",t.motion),makeNode("strong","","—"));
+ escape.append(makeNode("small","",t.escape),makeNode("strong","","—"));
+ surface.append(makeNode("small","",t.surface),makeNode("strong","","—"));
+ readouts.append(motion,escape,surface);panel.append(readouts,makeNode("p","liquid-assumptions",t.assumptions));
+ const actions=makeNode("div","liquid-actions"),reset=makeNode("button","",t.reset);reset.type="button";actions.append(reset);panel.append(actions);
+ const update=()=>{
+  const celsius=Number(temp.input.value),strength=Number(attraction.input.value),thermal=(celsius-10)/80;
+  const motionWord=celsius<30?t.low:celsius<60?t.moderate:t.high;
+  const tendency=thermal*0.68+(3-strength)*0.16;
+  const escapeWord=tendency<0.34?t.low:tendency<0.68?t.moderate:t.high;
+  const surfaceWord=celsius<35?t.high:celsius<65?t.moderate:t.low;
+  const strengthWord=strength===1?t.weak:strength===2?t.medium:t.strong;
+  temp.out.textContent=celsius+" °C";attraction.out.textContent=strengthWord;
+  motion.querySelector("strong").textContent=motionWord;
+  escape.querySelector("strong").textContent=escapeWord;
+  surface.querySelector("strong").textContent=surfaceWord;
+  vectors.forEach(v=>{const len=4+thermal*11;v.line.setAttribute("d","M"+v.x+" "+v.y+" l"+(v.dx*len).toFixed(1)+" "+(v.dy*len).toFixed(1));});
+  const visible=Math.max(1,Math.min(vapour.length,1+Math.round(tendency*4)));
+  vapour.forEach((v,i)=>v.setAttribute("opacity",i<visible?"1":"0.18"));
+  cohesion.replaceChildren();
+  const inward=strength===1?5:strength===2?10:16;
+  [[91,105],[183,105],[276,105]].forEach(([x,y])=>cohesion.append(makeSvg("path",{d:"M"+x+" "+(y+1)+" l0 "+inward+" m-3 -3 l3 3 3 -3"})));
+  desc.textContent=t.description+" Temperature "+celsius+" degrees Celsius; attraction "+strengthWord+". Relative thermal motion "+motionWord+"; escape tendency "+escapeWord+". Qualitative only.";
+ };
+ temp.input.addEventListener("input",update);attraction.input.addEventListener("input",update);
+ reset.addEventListener("click",()=>{temp.input.value="25";attraction.input.value="2";update();});
+ update();container.append(panel);return panel;
+}
