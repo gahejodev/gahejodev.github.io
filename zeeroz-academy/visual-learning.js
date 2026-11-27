@@ -255,3 +255,64 @@ export function mountSolidStructureModel(container,{language="en"}={}){
  amorphousButton.addEventListener("click",()=>render("amorphous"));
  render("crystalline");container.append(panel);return panel;
 }
+
+
+const equilibriumCopy={"en":{"title":"Explore equilibrium shifts","intro":"Choose a disturbance to the Haber equilibrium and see the predicted response.","choose":"Choose a change","none":"At equilibrium (no disturbance)","addN2":"Add nitrogen","removeNH3":"Remove ammonia","compress":"Increase pressure by compression","heat":"Increase temperature","cool":"Decrease temperature","catalyst":"Add a catalyst","reactants":"Reactants","products":"Products","forward":"Forward rate","reverse":"Reverse rate","shift":"Predicted shift","right":"Toward ammonia (right)","left":"Toward nitrogen and hydrogen (left)","noneShift":"No equilibrium-position shift","initial":"Immediate rate response","forwardUp":"Forward rate initially increases","reverseUp":"Reverse rate initially increases","bothUp":"Both rates increase; equal at equilibrium","k":"Equilibrium constant K","same":"Unchanged at the same temperature","down":"Decreases on heating an exothermic forward reaction","up":"Increases on cooling an exothermic forward reaction","reset":"Reset model","assumptions":"Qualitative model for N₂ + 3H₂ ⇌ 2NH₃ + heat. The forward reaction is exothermic and has fewer gas moles on the product side. Pressure response assumes compression at constant temperature. Arrows show a predicted direction, not measured rates or concentrations. A catalyst changes rate, not K or the final equilibrium composition."},"ur":{"title":"توازن کی تبدیلی دریافت کریں","intro":"ہیبر توازن میں تبدیلی منتخب کریں اور متوقع ردِعمل دیکھیں۔","choose":"تبدیلی منتخب کریں","none":"توازن قائم ہے (کوئی تبدیلی نہیں)","addN2":"نائٹروجن بڑھائیں","removeNH3":"امونیا ہٹائیں","compress":"دباؤ بڑھائیں (حجم کم کریں)","heat":"درجۂ حرارت بڑھائیں","cool":"درجۂ حرارت کم کریں","catalyst":"عامل شامل کریں","reactants":"عامل مادے","products":"مصنوعات","forward":"آگے کی رفتار","reverse":"الٹے عمل کی رفتار","shift":"متوقع تبدیلی","right":"امونیا کی طرف (دائیں)","left":"نائٹروجن اور ہائیڈروجن کی طرف (بائیں)","noneShift":"توازن کی جگہ میں تبدیلی نہیں","initial":"ابتدائی رفتار کا ردِعمل","forwardUp":"آگے کی رفتار ابتدا میں بڑھتی ہے","reverseUp":"الٹے عمل کی رفتار ابتدا میں بڑھتی ہے","bothUp":"دونوں رفتاریں بڑھتی ہیں؛ توازن پر برابر","k":"توازن مستقل K","same":"اسی درجۂ حرارت پر تبدیل نہیں ہوتا","down":"حرارت خارج کرنے والے آگے کے عمل میں گرم کرنے سے کم ہوتا ہے","up":"حرارت خارج کرنے والے آگے کے عمل میں ٹھنڈا کرنے سے بڑھتا ہے","reset":"ماڈل ری سیٹ کریں","assumptions":"N₂ + 3H₂ ⇌ 2NH₃ + حرارت کا تصوری ماڈل۔ آگے کا عمل حرارت خارج کرتا ہے اور مصنوعات کی طرف گیسی مول کم ہیں۔ دباؤ کا ردِعمل مستقل درجۂ حرارت پر حجم کم کرنے کے لیے ہے۔ تیر متوقع سمت دکھاتے ہیں، ناپی گئی رفتار یا ارتکاز نہیں۔ عامل رفتار بدلتا ہے، K یا آخری توازنی ترکیب نہیں۔"},"sd":{"title":"توازن جون تبديليون ڏسو","intro":"هيبر توازن ۾ تبديلي چونڊيو ۽ متوقع جواب ڏسو.","choose":"تبديلي چونڊيو","none":"توازن قائم آهي (ڪا تبديلي ناهي)","addN2":"نائٽروجن وڌايو","removeNH3":"امونيا ڪڍو","compress":"دٻاءُ وڌايو (حجم گهٽايو)","heat":"گرمي پد وڌايو","cool":"گرمي پد گهٽايو","catalyst":"ڪيٽالسٽ شامل ڪريو","reactants":"عامل مادا","products":"پيداوارون","forward":"اڳتي جي رفتار","reverse":"پوئتي عمل جي رفتار","shift":"متوقع تبديلي","right":"امونيا ڏانهن (ساڄي)","left":"نائٽروجن ۽ هائيڊروجن ڏانهن (کاٻي)","noneShift":"توازن جي جاءِ ۾ تبديلي ناهي","initial":"شروعاتي رفتار جو جواب","forwardUp":"اڳتي واري رفتار شروعات ۾ وڌي ٿي","reverseUp":"پوئتي واري رفتار شروعات ۾ وڌي ٿي","bothUp":"ٻئي رفتارون وڌن ٿيون؛ توازن تي برابر","k":"توازن جو مستقل K","same":"ساڳئي گرمي پد تي تبديل نٿو ٿئي","down":"گرمي خارج ڪندڙ اڳتي واري عمل ۾ گرم ڪرڻ سان گهٽجي ٿو","up":"گرمي خارج ڪندڙ اڳتي واري عمل ۾ ٿڌو ڪرڻ سان وڌي ٿو","reset":"ماڊل ٻيهر سيٽ ڪريو","assumptions":"N₂ + 3H₂ ⇌ 2NH₃ + گرمي جو تصوري ماڊل. اڳتي وارو عمل گرمي خارج ڪري ٿو ۽ پيداوار واري پاسي گئسي مول گهٽ آهن. دٻاءَ جو جواب مستقل گرمي پد تي حجم گهٽائڻ لاءِ آهي. تير متوقع رخ ڏيکارين ٿا، ماپيل رفتار يا ارتڪاز نه. ڪيٽالسٽ رفتار بدلائي ٿو، K يا آخري توازن واري ملاوٽ نه."}};
+const equilibriumScenarios={"addN2":{"direction":"right","rate":"forwardUp","k":"same","why":{"en":"Adding a reactant makes the system consume some of it by forming more ammonia.","ur":"عامل مادہ بڑھانے سے نظام اس کا کچھ حصہ استعمال کر کے زیادہ امونیا بناتا ہے۔","sd":"عامل مادو وڌائڻ سان نظام ان جو ڪجهه حصو استعمال ڪري وڌيڪ امونيا ٺاهي ٿو."}},"removeNH3":{"direction":"right","rate":"forwardUp","k":"same","why":{"en":"Removing product encourages the forward reaction to replace some of the ammonia.","ur":"مصنوع ہٹانے سے آگے کا عمل کچھ امونیا دوبارہ بنانے کی سمت جاتا ہے۔","sd":"پيداوار ڪڍڻ سان اڳتي وارو عمل ڪجهه امونيا ٻيهر ٺاهڻ ڏانهن وڃي ٿو."}},"compress":{"direction":"right","rate":"forwardUp","k":"same","why":{"en":"Compression favours the side with fewer gas moles: two NH₃ versus four reactant gas moles.","ur":"حجم کم کرنے سے کم گیسی مول والی طرف ترجیح ملتی ہے: دو NH₃ بمقابلہ چار عامل گیسی مول۔","sd":"حجم گهٽائڻ سان گهٽ گئسي مول واري پاسي کي ترجيح ملي ٿي: ٻه NH₃، عامل پاسي چار گئسي مول."}},"heat":{"direction":"left","rate":"reverseUp","k":"down","why":{"en":"Heat is a product of the exothermic forward reaction. Adding heat favours the endothermic reverse direction.","ur":"حرارت خارج کرنے والے آگے کے عمل میں حرارت مصنوع ہے۔ حرارت بڑھانے سے حرارت جذب کرنے والی الٹی سمت پسندیدہ ہوتی ہے۔","sd":"گرمي خارج ڪندڙ اڳتي واري عمل ۾ گرمي پيداوار آهي. گرمي وڌائڻ سان گرمي جذب ڪندڙ پوئتي رخ پسند ٿيندو."}},"cool":{"direction":"right","rate":"forwardUp","k":"up","why":{"en":"Removing heat favours the exothermic forward direction.","ur":"حرارت کم کرنے سے حرارت خارج کرنے والی آگے کی سمت پسندیدہ ہوتی ہے۔","sd":"گرمي گهٽائڻ سان گرمي خارج ڪندڙ اڳتي وارو رخ پسند ٿيندو."}},"catalyst":{"direction":"none","rate":"bothUp","k":"same","why":{"en":"A catalyst speeds both forward and reverse reactions. It helps equilibrium establish sooner but does not change its position.","ur":"عامل آگے اور الٹے دونوں عمل تیز کرتا ہے۔ توازن جلد قائم ہوتا ہے مگر اس کی جگہ نہیں بدلتی۔","sd":"ڪيٽالسٽ اڳتي ۽ پوئتي ٻئي عمل تيز ڪري ٿو. توازن جلد قائم ٿئي ٿو پر ان جي جاءِ نٿي بدلجي."}}};
+export function mountChemicalEquilibriumModel(container,{language="en"}={}){
+ if(!container||container.querySelector('[data-visualization="chemical-equilibrium"]'))return null;
+ const lang=["en","ur","sd"].includes(language)?language:"en",t=equilibriumCopy[lang];
+ const panel=makeNode("section","equilibrium-visualization");
+ panel.dataset.visualization="chemical-equilibrium";panel.setAttribute("role","region");panel.dir=lang==="ur"?"rtl":"ltr";
+ const heading=makeNode("h4","equilibrium-heading",t.title);heading.id="equilibriumHeading";
+ panel.setAttribute("aria-labelledby",heading.id);
+ panel.append(heading,makeNode("p","equilibrium-intro",t.intro));
+ const controls=makeNode("div","equilibrium-controls"),label=makeNode("label","",t.choose),select=makeNode("select","equilibrium-select");
+ select.id="equilibriumChange";
+ const choices=[["none",t.none],["addN2",t.addN2],["removeNH3",t.removeNH3],["compress",t.compress],["heat",t.heat],["cool",t.cool],["catalyst",t.catalyst]];
+ choices.forEach(([value,text])=>{const option=makeNode("option","",text);option.value=value;select.append(option)});
+ label.htmlFor=select.id;label.append(select);controls.append(label);panel.append(controls);
+ const svg=makeSvg("svg",{viewBox:"0 0 360 178",class:"equilibrium-plot",role:"img","aria-labelledby":"equilibriumSvgTitle equilibriumSvgDesc"});
+ const svgTitle=makeSvg("title",{id:"equilibriumSvgTitle"});svgTitle.textContent=t.title;
+ const svgDesc=makeSvg("desc",{id:"equilibriumSvgDesc"});
+ const leftBox=makeSvg("rect",{x:12,y:38,width:116,height:70,rx:12,fill:"#e8f1ff",stroke:"#3157d5","stroke-width":2});
+ const rightBox=makeSvg("rect",{x:232,y:38,width:116,height:70,rx:12,fill:"#e8f7ef",stroke:"#15966b","stroke-width":2});
+ const leftText=makeSvg("text",{x:70,y:68,"text-anchor":"middle",fill:"#17336d","font-size":13,"font-weight":800});
+ const leftSub=makeSvg("text",{x:70,y:88,"text-anchor":"middle",fill:"#526078","font-size":10});
+ const rightText=makeSvg("text",{x:290,y:68,"text-anchor":"middle",fill:"#126443","font-size":14,"font-weight":800});
+ const rightSub=makeSvg("text",{x:290,y:88,"text-anchor":"middle",fill:"#526078","font-size":10});
+ leftText.textContent="N₂ + 3H₂";leftSub.textContent=t.reactants;rightText.textContent="2NH₃";rightSub.textContent=t.products;
+ const forward=makeSvg("line",{x1:137,y1:64,x2:220,y2:64,stroke:"#0757e8","stroke-width":5,"stroke-linecap":"round"});
+ const forwardHead=makeSvg("path",{d:"M211 56 L224 64 L211 72 Z",fill:"#0757e8"});
+ const reverse=makeSvg("line",{x1:220,y1:91,x2:137,y2:91,stroke:"#15966b","stroke-width":5,"stroke-linecap":"round"});
+ const reverseHead=makeSvg("path",{d:"M146 83 L133 91 L146 99 Z",fill:"#15966b"});
+ const fLabel=makeSvg("text",{x:178,y:48,"text-anchor":"middle",fill:"#0757e8","font-size":9,"font-weight":800});
+ const rLabel=makeSvg("text",{x:178,y:116,"text-anchor":"middle",fill:"#15966b","font-size":9,"font-weight":800});
+ fLabel.textContent=t.forward;rLabel.textContent=t.reverse;
+ const equation=makeSvg("text",{x:180,y:151,"text-anchor":"middle",fill:"#253a65","font-size":12,"font-weight":800});
+ equation.textContent="N₂ + 3H₂ ⇌ 2NH₃ + heat";
+ svg.append(svgTitle,svgDesc,leftBox,rightBox,leftText,leftSub,rightText,rightSub,forward,forwardHead,reverse,reverseHead,fLabel,rLabel,equation);
+ panel.append(svg);
+ const stats=makeNode("div","equilibrium-readouts");stats.setAttribute("aria-live","polite");stats.setAttribute("aria-atomic","true");
+ const makeStat=key=>{const card=makeNode("article","equilibrium-stat");card.append(makeNode("small","",t[key]));const value=makeNode("strong","","");card.append(value);stats.append(card);return value};
+ const shift=makeStat("shift"),rate=makeStat("initial"),k=makeStat("k");
+ panel.append(stats);
+ const why=makeNode("p","equilibrium-why","");why.setAttribute("role","status");why.setAttribute("aria-live","polite");
+ const assumptions=makeNode("p","equilibrium-assumptions",t.assumptions);
+ const reset=makeNode("button","equilibrium-reset",t.reset);reset.type="button";
+ panel.append(why,assumptions,reset);
+ const render=()=>{
+  const selected=select.value,scenario=equilibriumScenarios[selected];
+  shift.textContent=selected==="none"?t.noneShift:scenario.direction==="right"?t.right:scenario.direction==="left"?t.left:t.noneShift;
+  rate.textContent=selected==="none"?t.bothUp:t[scenario.rate];
+  k.textContent=selected==="none"||scenario.k==="same"?t.same:t[scenario.k];
+  why.textContent=selected==="none"?t.none:scenario.why[lang];
+  const right=selected!=="none"&&scenario.direction==="right",left=selected!=="none"&&scenario.direction==="left";
+  forward.setAttribute("stroke-width",right?"7":"5");reverse.setAttribute("stroke-width",left?"7":"5");
+  forward.setAttribute("opacity",left?".48":"1");reverse.setAttribute("opacity",right?".48":"1");
+  svgDesc.textContent=shift.textContent+". "+rate.textContent+". "+k.textContent+". "+why.textContent;
+ };
+ select.addEventListener("change",render);
+ reset.addEventListener("click",()=>{select.value="none";render();select.focus()});
+ render();container.append(panel);return panel;
+}
