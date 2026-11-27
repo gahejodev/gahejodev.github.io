@@ -1,7 +1,7 @@
 import { onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import { collection, doc, getDoc, getDocs, query, where } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 import {sortSequence} from "./course-order.mjs";
-import { mountProjectileModel, mountVseprModel, mountGasParticleModel, mountLiquidModel, mountSolidStructureModel } from "./visual-learning.js";
+import { mountProjectileModel, mountVseprModel, mountGasParticleModel, mountLiquidModel, mountSolidStructureModel, mountChemicalEquilibriumModel } from "./visual-learning.js";
 
 const $=id=>document.getElementById(id),db=()=>window.ZeerozFirebase.db;
 const selectedLanguage=localStorage.getItem("zeerozCourseLanguage")||"en";
@@ -110,6 +110,7 @@ onAuthStateChanged(window.ZeerozFirebase.auth,async user=>{
     if(lesson.type!=="video"&&lesson.type!=="pdf"&&/Kinetic particle model: random motion and gas pressure/i.test(lesson.title||""))mountGasParticleModel(item,{language:selectedLanguage});
     if(lesson.type!=="video"&&lesson.type!=="pdf"&&/Liquid particle model: cohesion, surface tension and evaporation/i.test(lesson.title||""))mountLiquidModel(item,{language:selectedLanguage});
     if(lesson.type!=="video"&&lesson.type!=="pdf"&&/Crystalline and amorphous solids: arrangement and properties/i.test(lesson.title||""))mountSolidStructureModel(item,{language:selectedLanguage});
+    if(lesson.type!=="video"&&lesson.type!=="pdf"&&/Le Chatelier.s principle: concentration, pressure and temperature/i.test(lesson.title||""))mountChemicalEquilibriumModel(item,{language:selectedLanguage});
     card.append(item);
    });
    if(written.length){const practice=node("section","written-practice");const crqCount=written.filter(q=>q.type==="crq").length,erqCount=written.filter(q=>q.type==="erq").length;practice.append(node("h3","chapter-title","Written practice — "+crqCount+" CRQs and "+erqCount+" ERQs"));written.forEach((q,qi)=>{const block=node("article","written-question");block.append(node("h4","lesson-title",(q.type||"").toUpperCase()+" "+(qi+1)+" · "+(q.marks||0)+" marks"));const tq=q.translations?.[selectedLanguage]||{};const questionText=selectedLanguage==="en"?(q.question||""):(tq.question||q.question||"");block.append(node("p","lesson-paragraph",questionText));const details=node("details","answer-details");details.append(node("summary","",selectedLanguage==="ur"?"ماڈل جواب اور مارکنگ گائیڈ دیکھیں":selectedLanguage==="sd"?"ماڊل جواب ۽ مارڪنگ گائيڊ ڏسو":"View model answer and marking guide"));const answer=node("div","lesson-content");renderMarkdown(answer,selectedLanguage==="en"?(q.modelAnswer||""):(tq.modelAnswer||q.modelAnswer||""));details.append(answer);const rubricItems=selectedLanguage==="en"?(q.rubric||[]):(tq.rubric||q.rubric||[]);if(Array.isArray(rubricItems)&&rubricItems.length){const rubric=node("ul","lesson-list");rubricItems.forEach(item=>rubric.append(node("li","",item)));details.append(node("h4","lesson-title",selectedLanguage==="ur"?"مارکنگ گائیڈ":selectedLanguage==="sd"?"مارڪنگ گائيڊ":"Marking guide"),rubric)}block.append(details);practice.append(block)});card.append(practice)}
