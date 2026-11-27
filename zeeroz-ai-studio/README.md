@@ -75,3 +75,13 @@ Urdu voice synthesis and video recording run in the browser. Firebase browser co
 - If IndexedDB reports QuotaExceededError, the Studio explains that the video was not added and suggests reviewing old local attachments or keeping the downloaded export elsewhere. The Studio never deletes existing user videos automatically.
 - StorageManager.estimate() and IndexedDB are browser-native; no new package, API key, paid storage, permission request, persistence grant or billing activation is added. Browser quotas and eviction policies vary by device/browser, and an estimate is not a guarantee.
 - Reference: https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate
+
+
+## Low-power and motion-preference rendering — 2026-11-27
+- The procedural Three.js preview now pauses its animation loop when the browser tab is hidden or the 3D stage is outside the viewport. It resumes when the stage becomes visible.
+- Continuous animation is capped at approximately 30 rendered frames per second instead of rendering on every display refresh. Scene changes, reset, resize and manual drag/zoom still request a fresh frame.
+- The engine respects prefers-reduced-motion: reduce: it renders a stable scene without automatic orbit, pulsing or camera drift while retaining manual pointer rotation and zoom.
+- On browsers that expose navigator.deviceMemory, the engine uses its coarse approximate value to choose a conservative pixel-ratio cap (1.0 for reported <=4 GB, 1.25 for <=8 GB, otherwise 1.5). If the API is missing, the existing 1.5 cap is used. This value is approximate, privacy-coarsened, non-standard and not available in every browser; it is only a rendering hint, not a device benchmark.
+- Free resources checked: browser-native IntersectionObserver (widely available), Page Visibility API, matchMedia/reduced-motion preference (widely available), and optional Device Memory API. No package, API key, account, credit card, paid inference, cloud storage or billing requirement was added.
+- References: https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver ; https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40media/prefers-reduced-motion ; https://developer.mozilla.org/en-US/docs/Web/API/Navigator/deviceMemory .
+- Tests: static regression checks and Node module syntax are added to the source validation workflow. A real Android/browser GPU and battery test remains outstanding.
