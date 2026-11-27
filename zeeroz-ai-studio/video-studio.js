@@ -156,7 +156,7 @@ async function initLesson3D(){
   const host=$("lesson3DStage");if(!host)throw new Error("3D stage is missing.");
   const loading=$("lesson3DLoading"),label=$("scene3DLabel");
   if(loading)loading.textContent="Loading the animated Biology model…";
-  const mod=await import("./lesson-3d-engine.js?v=low-power-motion-2026-11-27");
+  const mod=await import("./lesson-3d-engine.js?v=low-power-export-sync-2026-11-27");
   const engine=await mod.createLesson3D(host);
   lesson3D={renderer:{domElement:engine.getCanvas()},setScene:engine.setScene,setProgress:engine.setProgress,reset:engine.reset,dispose:engine.dispose};
   if(loading)loading.style.display="none";
