@@ -1,8 +1,8 @@
 {
   "id": "chemistry-xi-chapters-1-12",
   "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
-  "description": "Supplementary Chemistry XI course with 12 units. Chapters 1–6 are exam-ready against DCAR 2024 Grade XI SLOs; Chapters 7–12 remain outline-stage.",
-  "version": "9",
+  "description": "Supplementary Chemistry XI course with 12 units. Chapters 1–7 are exam-ready against DCAR Sindh Chemistry Curriculum 2024 Grade XI SLOs; Chapters 8–12 remain outline-stage and are clearly tier-labelled.",
+  "version": "10",
   "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B: Chapter 1 Stoichiometry SLOs C-11-B-50 to C-11-B-59; Chapter 2 Atomic Structure C-11-B-01 to C-11-B-27; Chapter 3 Covalent Bonding C-11-B-32 to C-11-B-39 with polarity cross-link C-11-B-46; Chapter 4 Gases C-11-B-69; Chapter 5 Liquids C-11-B-61 to C-11-B-68. Chapters 1–5 are exam-ready; Chapters 6–12 remain outline-stage.",
   "sourceReferences": [
     {
@@ -5376,77 +5376,1122 @@
     },
     {
       "title": "Chapter 7: Chemical Equilibrium",
-      "description": "Supplementary topic 7: Chapter 7: Chemical Equilibrium.",
+      "description": "Exam-ready Grade XI study of reversible reactions, dynamic equilibrium, Kc and Kp, Le Chatelier's principle, Haber and Contact processes, and salt hydrolysis, aligned to DCAR Sindh Chemistry Curriculum 2024.",
       "lessons": [
         {
-          "title": "Chapter 7: Chemical Equilibrium — concepts",
-          "type": "text",
-          "content": "## Learning outcomes\nA reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's principle predicts how a system responds to changes in concentration, pressure or temperature.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "title": "7.1 Reversible reactions and dynamic equilibrium",
+          "content": "## Learning outcomes\nExplain reversible reactions, identify the conditions needed for equilibrium, and distinguish microscopic activity from constant macroscopic properties.\n\nA **reversible reaction** can proceed in both directions under the same conditions. The symbol ⇌ shows that reactants form products and products can reform reactants. For example:\n\n`N₂(g) + 3H₂(g) ⇌ 2NH₃(g) + heat`\n\nThe forward reaction forms ammonia. The reverse reaction decomposes ammonia into nitrogen and hydrogen. A double arrow does not mean that both directions occur at the same rate at every moment.\n\n## How dynamic equilibrium develops\nAt first, a mixture containing nitrogen and hydrogen has a high forward rate and little or no reverse reaction. As ammonia forms, the reverse rate increases. In a closed system at constant temperature, the rates can eventually become equal.\n\nAt **dynamic equilibrium**:\n- the forward and reverse reaction rates are equal;\n- reactant and product concentrations remain constant with time;\n- the concentrations are not necessarily equal;\n- particles continue reacting in both directions.\n\nA sealed container is important because material must not escape or enter and change the composition. Temperature and other external conditions must be controlled while equilibrium is established.\n\n## Microscopic and macroscopic views\nMicroscopically, molecules continue to collide and react. Macroscopically, measurable properties such as concentration, colour or pressure become constant when the system is at equilibrium.\n\nFor example, nitrogen dioxide and dinitrogen tetroxide form a reversible system:\n\n`N₂O₄(g) ⇌ 2NO₂(g)`\n\nNO₂ is brown while N₂O₄ is colourless. In a sealed tube at constant temperature, the colour becomes steady at equilibrium, even though molecules continue interconverting.\n\n## Equilibrium between physical states\nA liquid in a sealed container can evaporate while vapour condenses back into liquid. At equilibrium, the evaporation and condensation rates are equal. The amount of liquid and vapour stays constant, although molecules still move between the phases.\n\n## Revision summary\nDynamic equilibrium is a continuing balance, not a stopped reaction. It requires a reversible process in a closed system under controlled conditions. Equal rates explain constant concentrations; they do not require equal concentrations.",
           "explanations": {
-            "ur": "قابلِ واپسی تعامل میں آگے اور پیچھے کے تعامل کی رفتار برابر ہو جائے تو متحرک توازن قائم ہوتا ہے۔ ارتکاز مستقل رہتے ہیں، ضروری نہیں کہ برابر ہوں۔",
-            "sd": "واپس ٿيندڙ عمل ۾ اڳتي ۽ پوئتي عمل جون رفتارون برابر ٿين ته متحرڪ توازن قائم ٿئي ٿو. ارتڪاز مستقل رهن ٿا، پر لازمي ناهي ته برابر هجن."
+            "ur": "## سیکھنے کے نتائج\nقابلِ واپسی تعامل، توازن کی ضروری شرائط اور خردبینی سرگرمی اور مستقل ظاہری خصوصیات میں فرق سمجھیں۔\n\n**قابلِ واپسی تعامل** دونوں سمتوں میں چل سکتا ہے۔ علامت ⇌ بتاتی ہے کہ عامل مادے مصنوعات بناتے ہیں اور مصنوعات دوبارہ عامل مادوں میں تبدیل ہو سکتی ہیں۔ مثال: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) + حرارت۔ آگے کا عمل امونیا بناتا ہے جبکہ الٹا عمل اسے نائٹروجن اور ہائیڈروجن میں بدلتا ہے۔ دونوں سمتوں کی رفتار ہر وقت برابر نہیں ہوتی۔\n\nابتدا میں نائٹروجن اور ہائیڈروجن کا آگے والا عمل تیز ہوتا ہے۔ امونیا بنتے ہی الٹے عمل کی رفتار بڑھتی ہے۔ بند نظام میں، مستقل درجۂ حرارت پر، دونوں رفتاریں برابر ہو سکتی ہیں۔ **متحرک توازن** پر آگے اور الٹے عمل کی رفتار برابر ہوتی ہے، ارتکاز وقت کے ساتھ مستقل رہتے ہیں، مگر ضروری نہیں کہ دونوں ارتکاز برابر ہوں۔ ذرات دونوں سمتوں میں عمل کرتے رہتے ہیں۔\n\nمادے کے داخل ہونے یا نکلنے سے بچانے کے لیے بند برتن ضروری ہے۔ درجۂ حرارت اور دوسری بیرونی حالتیں قابو میں رکھی جاتی ہیں۔ خردبینی سطح پر سالمات ٹکراتے اور عمل کرتے رہتے ہیں؛ ظاہری سطح پر ارتکاز، رنگ یا دباؤ مستقل دکھائی دیتا ہے۔\n\nمثال: N₂O₄(g) ⇌ 2NO₂(g)۔ NO₂ بھورا جبکہ N₂O₄ بے رنگ ہے۔ بند نلکی میں رنگ ایک وقت کے بعد مستقل ہو جاتا ہے، مگر سالمات کی تبدیلی جاری رہتی ہے۔ بند برتن میں مائع کے بخارات بننے اور بخارات کے واپس مائع بننے کی رفتار بھی توازن پر برابر ہو سکتی ہے۔\n\n**خلاصہ:** متحرک توازن رکا ہوا تعامل نہیں بلکہ دونوں سمتوں کی برابر رفتار ہے۔ اس کے لیے قابلِ واپسی عمل، بند نظام اور قابو شدہ حالات درکار ہیں۔",
+            "sd": "## سکيا جا نتيجا\nواپس ٿيندڙ عمل، توازن جون ضروري شرطون ۽ ننڍي پيماني واري سرگرمي ۽ ظاهري مستقل خاصيتن ۾ فرق سمجهو.\n\n**واپس ٿيندڙ عمل** ٻنهي رخن ۾ هلي سگهي ٿو. علامت ⇌ ڏيکاري ٿي ته عامل مادا پيداوار ٺاهين ٿا ۽ پيداوار ٻيهر عامل مادن ۾ بدلجي سگهي ٿي. مثال: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) + گرمي. اڳتي وارو عمل امونيا ٺاهي ٿو ۽ پوئتي وارو عمل ان کي نائٽروجن ۽ هائيڊروجن ۾ بدلائي ٿو. ٻنهي رخن جون رفتارون هر وقت برابر ناهن هونديون.\n\nشروعات ۾ نائٽروجن ۽ هائيڊروجن جو اڳتي وارو عمل تيز هوندو آهي. امونيا ٺهڻ سان پوئتي واري عمل جي رفتار وڌندي آهي. بند نظام ۾، مستقل گرمي پد تي، ٻئي رفتارون برابر ٿي سگهن ٿيون. **متحرڪ توازن** تي اڳتي ۽ پوئتي عمل جون رفتارون برابر هونديون آهن ۽ عاملن ۽ پيداوارن جا ارتڪاز وقت سان مستقل رهندا آهن، پر ضروري ناهي ته اهي پاڻ ۾ برابر هجن. ذرڙا ٻنهي رخن ۾ عمل ڪندا رهن ٿا.\n\nمادي جي اندر اچڻ يا ٻاهر وڃڻ کان بچائڻ لاءِ بند ٿانوُ ضروري آهي. گرمي پد ۽ ٻيون ٻاهريون حالتون ڪنٽرول ۾ رکجن. ننڍي پيماني تي ماليڪيول ٽڪرائين ۽ عمل ڪندا رهن ٿا؛ ظاهري پيماني تي ارتڪاز، رنگ يا دٻاءُ مستقل نظر اچي ٿو.\n\nمثال: N₂O₄(g) ⇌ 2NO₂(g). NO₂ ڀورو ۽ N₂O₄ بي رنگ آهي. بند ٽيوب ۾ رنگ هڪ وقت کان پوءِ مستقل ٿي وڃي ٿو، پر ماليڪيولن جي تبديلي جاري رهي ٿي. بند ٿانوَ ۾ مائع جي بخارجڻ ۽ بخار جي ٻيهر مائع ٿيڻ جون رفتارون به توازن تي برابر ٿي سگهن ٿيون.\n\n**خلاصو:** متحرڪ توازن رڪيل عمل نه آهي؛ ٻنهي رخن جون برابر رفتارون آهن. ان لاءِ واپس ٿيندڙ عمل، بند نظام ۽ ڪنٽرول ٿيل حالتون ضروري آهن."
           }
         },
         {
-          "title": "Chapter 7: Chemical Equilibrium — applications and problem solving",
-          "type": "text",
-          "content": "Apply the concepts in chapter 7: chemical equilibrium to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "title": "7.2 Law of mass action and the concentration equilibrium constant Kc",
+          "content": "## Learning outcomes\nWrite a homogeneous equilibrium expression from a balanced equation, explain the meaning of Kc, and interpret its magnitude.\n\nFor a general homogeneous reaction:\n\n`aA + bB ⇌ cC + dD`\n\nthe equilibrium constant in terms of concentration is:\n\n`Kc = [C]^c [D]^d / ([A]^a [B]^b)`\n\nSquare brackets mean equilibrium molar concentration in mol dm⁻³. The balanced equation coefficients become powers in the expression. Use equilibrium values, not the initial amounts.\n\n**Example: ammonia synthesis**\n\n`N₂(g) + 3H₂(g) ⇌ 2NH₃(g)`\n\n`Kc = [NH₃]² / ([N₂][H₂]³)`\n\nIf the equilibrium concentrations are [N₂] = 0.50 mol dm⁻³, [H₂] = 1.00 mol dm⁻³ and [NH₃] = 0.25 mol dm⁻³:\n\n`Kc = (0.25)² / (0.50 × 1.00³) = 0.125`\n\nFor this concentration expression, the formal concentration units are dm⁶ mol⁻². In advanced thermodynamics, equilibrium constants are expressed using activities and are dimensionless; at this level, state the units required by the concentration expression used in the question.\n\n## What is included?\nFor a pure solid or pure liquid, its activity is treated as constant and it is omitted from the usual Kc expression. For example:\n\n`CaCO₃(s) ⇌ CaO(s) + CO₂(g)`\n\n`Kc = [CO₂]`\n\nThe expression contains only the gaseous species. Do not omit dissolved ions or gases.\n\n## Interpreting Kc\nA large Kc means products are favoured at equilibrium for the reaction as written. A small Kc means reactants are favoured. Kc does not tell how quickly equilibrium is reached; reaction rate and equilibrium position are different ideas.\n\nThe numerical value of Kc is fixed for a particular balanced equation at a particular temperature. Changing concentration or pressure can change the equilibrium mixture but does not change Kc if temperature stays constant.\n\n## Revision summary\nBalance the equation first, use coefficients as powers, substitute equilibrium concentrations, and omit pure solids and liquids. Interpret Kc as an equilibrium ratio, not a reaction speed.",
           "explanations": {
-            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
-            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+            "ur": "## سیکھنے کے نتائج\nہم جنس توازن کی مساوات سے ارتکاز کا اظہار لکھیں، Kc کا مطلب سمجھیں اور اس کی مقدار کی تشریح کریں۔\n\nعمومی عمل aA + bB ⇌ cC + dD کے لیے:\n\nKc = [C]^c [D]^d / ([A]^a [B]^b)\n\nمربع بریکٹ توازن پر مولر ارتکاز (mol dm⁻³) ظاہر کرتے ہیں۔ متوازن مساوات کے عددی ضارب اظہار میں قوت بن جاتے ہیں۔ ابتدائی مقدار کے بجائے توازن کے ارتکاز استعمال کریں۔\n\nامونیا کی تیاری: N₂(g) + 3H₂(g) ⇌ 2NH₃(g)، اس لیے Kc = [NH₃]² / ([N₂][H₂]³)۔ اگر [N₂] = 0.50، [H₂] = 1.00 اور [NH₃] = 0.25 mol dm⁻³ ہوں تو Kc = (0.25)² / (0.50 × 1.00³) = 0.125۔ اس ارتکازی اظہار کی رسمی اکائی dm⁶ mol⁻² ہے۔ اعلیٰ حرکیات میں سرگرمی کے لحاظ سے مستقل بے بُعد لکھا جاتا ہے؛ اس سطح پر سوال میں استعمال شدہ ارتکازی اظہار کی مطلوبہ اکائی بتائیں۔\n\nخالص ٹھوس اور خالص مائع کو معمول کے Kc اظہار میں شامل نہیں کرتے کیونکہ ان کی سرگرمی مستقل ہوتی ہے۔ مثال: CaCO₃(s) ⇌ CaO(s) + CO₂(g)، اس لیے Kc = [CO₂]۔ گیسیں اور محلول میں موجود آئن شامل رہتے ہیں۔\n\nبڑا Kc بتاتا ہے کہ لکھی ہوئی سمت میں مصنوعات زیادہ پسندیدہ ہیں؛ چھوٹا Kc عامل مادوں کو ترجیح دیتا ہے۔ Kc تعامل کی رفتار نہیں بتاتا۔ مستقل درجۂ حرارت پر ارتکاز یا دباؤ بدلنے سے توازن کی ترکیب بدل سکتی ہے، مگر Kc نہیں بدلتا۔\n\n**خلاصہ:** پہلے مساوات متوازن کریں، عددی ضارب قوت بنائیں، توازن کے ارتکاز رکھیں اور خالص ٹھوس/مائع نکال دیں۔",
+            "sd": "## سکيا جا نتيجا\nهم جنس توازن جي مساوات مان ارتڪاز وارو اظهار لکو، Kc جو مطلب سمجهو ۽ ان جي مقدار جي تشريح ڪريو.\n\nعام عمل aA + bB ⇌ cC + dD لاءِ:\n\nKc = [C]^c [D]^d / ([A]^a [B]^b)\n\nچورس بریکٽ توازن وقت مولر ارتڪاز (mol dm⁻³) ڏيکارين ٿا. متوازن مساوات جا عدد اظهار ۾ قوت بڻجن ٿا. شروعاتي مقدار بدران توازن جا ارتڪاز استعمال ڪريو.\n\nامونيا ٺاهڻ: N₂(g) + 3H₂(g) ⇌ 2NH₃(g)، تنهنڪري Kc = [NH₃]² / ([N₂][H₂]³). جيڪڏهن [N₂] = 0.50، [H₂] = 1.00 ۽ [NH₃] = 0.25 mol dm⁻³ هجن ته Kc = (0.25)² / (0.50 × 1.00³) = 0.125. هن ارتڪازي اظهار جون رسمي ايڪايون dm⁶ mol⁻² آهن. اعليٰ ٿرموڊائنامڪس ۾ سرگرميءَ جي بنياد تي مستقل بي ايڪائي لکبو آهي؛ هن سطح تي سوال واري ارتڪازي اظهار جون ايڪايون لکو.\n\nخالص ٺوس ۽ خالص مائع کي عام Kc اظهار ۾ شامل نٿو ڪجي، ڇاڪاڻ⁠تہ انهن جي سرگرمي مستقل هوندي آهي. مثال: CaCO₃(s) ⇌ CaO(s) + CO₂(g)، تنهنڪري Kc = [CO₂]. گئسون ۽ محلول ۾ حل ٿيل آئن شامل رهن ٿا.\n\nوڏو Kc ٻڌائي ٿو ته لکيل رخ ۾ پيداوارون وڌيڪ پسنديده آهن؛ ننڍو Kc عامل مادن کي پسند ڪري ٿو. Kc عمل جي رفتار نٿو ٻڌائي. مستقل گرمي پد تي ارتڪاز يا دٻاءُ بدلائڻ سان توازن جي ملاوٽ بدلجي سگهي ٿي، پر Kc نه.\n\n**خلاصو:** پهرين مساوات متوازن ڪريو، ضارب قوت بڻايو، توازن جا ارتڪاز رکو ۽ خالص ٺوس/مائع خارج ڪريو."
+          }
+        },
+        {
+          "title": "7.3 Kp, partial pressure, mole fraction and changes to equilibrium constants",
+          "content": "## Learning outcomes\nWrite equilibrium expressions using partial pressures, connect partial pressure with mole fraction, and predict how an equilibrium constant changes when an equation is reversed or multiplied.\n\nFor a gas-phase equilibrium, Kp is written using equilibrium partial pressures. For:\n\n`N₂(g) + 3H₂(g) ⇌ 2NH₃(g)`\n\n`Kp = (pNH₃)² / (pN₂ × (pH₂)³)`\n\nThe partial pressure of a gas in an ideal mixture is:\n\n`pi = xi × Ptotal`\n\nwhere xi is the mole fraction of gas i and Ptotal is the total pressure. Mole fraction is:\n\n`xi = ni / ntotal`\n\nThus, if ammonia has a mole fraction of 0.20 in a mixture at a total pressure of 5.0 bar, its partial pressure is 1.0 bar.\n\n## Relationship between Kp and Kc\nFor an ideal-gas equilibrium:\n\n`Kp = Kc(RT)^Δngas`\n\nΔngas is the sum of gaseous product coefficients minus the sum of gaseous reactant coefficients. R and T must use consistent units, and T is in kelvin. For ammonia synthesis, Δngas = 2 − (1 + 3) = −2.\n\nThis relationship is useful only when the units and equilibrium convention are consistent. Do not insert Celsius directly into the equation.\n\n## Changing the balanced equation\nThe equilibrium constant belongs to the equation as written:\n- Reverse the reaction: the new constant is 1/K.\n- Multiply every coefficient by n: the new constant is Kⁿ.\n- Add two reactions: multiply their equilibrium constants, provided the equations are combined consistently.\n\nThe same reaction at the same temperature has a fixed equilibrium constant. A different temperature can give a different value.\n\n## Revision summary\nKp uses partial pressures; Kc uses concentrations. Convert mole fraction to partial pressure using total pressure. Always check the balanced equation, gas coefficients, kelvin temperature and units before using the Kp–Kc relationship.",
+          "explanations": {
+            "ur": "## سیکھنے کے نتائج\nجزوی دباؤ سے توازن کا اظہار لکھیں، جزوی دباؤ کو مولی کسر سے جوڑیں اور مساوات الٹنے یا ضرب دینے پر مستقل میں تبدیلی معلوم کریں۔\n\nگیسی توازن کے لیے Kp توازن کے جزوی دباؤ استعمال کرتا ہے۔ N₂(g) + 3H₂(g) ⇌ 2NH₃(g) کے لیے Kp = (pNH₃)² / (pN₂ × (pH₂)³)۔\n\nمثالی گیسوں کے آمیزے میں کسی گیس کا جزوی دباؤ pi = xi × Ptotal ہے۔ یہاں xi مولی کسر اور Ptotal کل دباؤ ہے۔ مولی کسر xi = ni / ntotal ہوتی ہے۔ اگر 5.0 bar کے کل دباؤ والے آمیزے میں امونیا کی مولی کسر 0.20 ہو تو اس کا جزوی دباؤ 1.0 bar ہوگا۔\n\nمثالی گیس کے توازن کے لیے Kp = Kc(RT)^Δngas۔ Δngas، گیسی مصنوعات کے عددی ضارب کے مجموعے میں سے گیسی عامل مادوں کے عددی ضارب کا مجموعہ منفی کرنے سے ملتا ہے۔ R اور T کی اکائیاں باہم مطابقت رکھیں اور T کیلون میں ہو۔ امونیا کی تیاری میں Δngas = 2 − (1 + 3) = −2 ہے۔ سیلسیس کو براہِ راست استعمال نہ کریں۔\n\nمساوات الٹنے پر نیا مستقل 1/K ہوتا ہے۔ تمام عددی ضارب n سے ضرب دینے پر نیا مستقل Kⁿ ہوتا ہے۔ دو مساوات جمع کرنے پر متعلقہ مستقل ضرب دیے جاتے ہیں۔ مستقل اسی لکھی ہوئی مساوات اور درجۂ حرارت سے وابستہ ہے۔\n\n**خلاصہ:** Kp جزوی دباؤ اور Kc ارتکاز استعمال کرتا ہے۔ مولی کسر کو کل دباؤ سے ضرب دیں۔ Kp–Kc تعلق میں متوازن مساوات، کیلون اور اکائیوں کی جانچ کریں۔",
+            "sd": "## سکيا جا نتيجا\nجزوي دٻاءَ سان توازن جو اظهار لکو، جزوي دٻاءَ کي مول فريڪشن سان ڳنڍيو ۽ مساوات کي ابتو يا ضرب ڏيڻ سان مستقل ۾ تبديلي ٻڌايو.\n\nگئس واري توازن لاءِ Kp، توازن جا جزوي دٻاءَ استعمال ڪري ٿو. N₂(g) + 3H₂(g) ⇌ 2NH₃(g) لاءِ Kp = (pNH₃)² / (pN₂ × (pH₂)³).\n\nمثالي گئسن جي ملاوٽ ۾ ڪنهن گئس جو جزوي دٻاءُ pi = xi × Ptotal آهي. هتي xi مول فريڪشن ۽ Ptotal ڪل دٻاءُ آهي. مول فريڪشن xi = ni / ntotal آهي. جيڪڏهن 5.0 bar ڪل دٻاءَ واري ملاوٽ ۾ امونيا جو مول فريڪشن 0.20 هجي ته ان جو جزوي دٻاءُ 1.0 bar ٿيندو.\n\nمثالي گئس جي توازن لاءِ Kp = Kc(RT)^Δngas. Δngas، گئسي پيداوارن جي ضاربن جي مجموعي مان گئسي عاملن جي ضاربن جو مجموعو گهٽائڻ سان ملي ٿو. R ۽ T جون ايڪايون هڪ ٻئي سان ٺهڪندڙ هجن ۽ T ڪيلون ۾ هجي. امونيا ٺاهڻ لاءِ Δngas = 2 − (1 + 3) = −2 آهي. سيلسيس سڌو استعمال نه ڪريو.\n\nمساوات ابتو ڪرڻ سان نئون مستقل 1/K ٿيندو. سڀ ضارب n سان ضرب ڪرڻ سان نئون مستقل Kⁿ ٿيندو. ٻه عمل گڏ ڪرڻ سان لاڳاپيل مستقل ضرب ڪبا. مستقل لکيل مساوات ۽ گرمي پد سان لاڳاپيل آهي.\n\n**خلاصو:** Kp جزوي دٻاءَ ۽ Kc ارتڪاز استعمال ڪري ٿو. مول فريڪشن کي ڪل دٻاءَ سان ضرب ڏيو. Kp–Kc لاڳاپي ۾ متوازن مساوات، ڪيلون ۽ ايڪايون چيڪ ڪريو."
+          }
+        },
+        {
+          "title": "7.4 Le Chatelier's principle: concentration, pressure and temperature",
+          "content": "## Learning outcomes\nPredict the direction of an equilibrium shift when concentration, pressure or temperature changes, and explain why a catalyst does not change the equilibrium position.\n\n**Le Chatelier's principle** states that when a system at equilibrium is disturbed, it shifts in the direction that tends to oppose the disturbance. The principle predicts the direction of the response; it does not mean the system removes the disturbance completely.\n\nUse ammonia synthesis as an example:\n\n`N₂(g) + 3H₂(g) ⇌ 2NH₃(g) + heat`\n\nThe forward reaction is exothermic.\n\n## Concentration changes\n- Adding N₂ or H₂ favours the forward direction, using some of the added reactant to form NH₃.\n- Removing NH₃ also favours the forward direction to replace some of the product.\n- Adding NH₃ or removing a reactant favours the reverse direction.\n\nThe system does not necessarily consume all of the added substance. It moves to a new equilibrium.\n\n## Pressure and volume\nFor gaseous equilibria, increasing pressure by reducing volume at constant temperature favours the side with fewer moles of gas. In ammonia synthesis, there are four moles of gaseous reactants and two moles of gaseous product, so compression favours NH₃ formation. If both sides have the same total gaseous coefficients, this pressure change does not favour either side through the mole-count rule.\n\n## Temperature\nTreat heat as a product in an exothermic forward reaction. Increasing temperature favours the endothermic reverse direction; decreasing temperature favours the exothermic forward direction.\n\n**Temperature is the common change that alters Kc and Kp.** For an exothermic forward reaction, increasing temperature decreases the equilibrium constant for the reaction as written. Concentration and pressure changes can shift the mixture but do not change K at the same temperature.\n\n## Catalyst\nA catalyst provides a faster pathway and increases the forward and reverse rates. It helps the system reach equilibrium sooner, but it does not change K or the final equilibrium composition.\n\n## Revision summary\nAsk which side opposes the disturbance: more reactant, less product, fewer gas moles, or the endothermic direction after heating. Then distinguish a shift in composition from a change in the numerical value of K.",
+          "explanations": {
+            "ur": "## سیکھنے کے نتائج\nارتکاز، دباؤ یا درجۂ حرارت بدلنے پر توازن کی سمت معلوم کریں اور سمجھیں کہ عامل توازن کی جگہ کیوں نہیں بدلتا۔\n\n**لی شاٹلیے کا اصول** کہتا ہے کہ توازن میں موجود نظام کو بدلنے سے وہ اس سمت میں منتقل ہوتا ہے جو اس تبدیلی کے اثر کی مخالفت کرے۔ یہ اصول تبدیلی کی سمت بتاتا ہے، یہ نہیں کہ نظام بیرونی تبدیلی کو مکمل ختم کر دے گا۔\n\nامونیا کی تیاری: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) + حرارت۔ آگے کا عمل حرارت خارج کرتا ہے۔\n\n**ارتکاز:** N₂ یا H₂ بڑھانے سے آگے کی سمت پسندیدہ ہوتی ہے۔ NH₃ ہٹانے سے بھی مزید امونیا بنانے کی سمت بڑھتی ہے۔ NH₃ بڑھانے یا عامل مادہ کم کرنے سے الٹی سمت پسندیدہ ہوتی ہے۔ نظام شامل کردہ مادہ لازماً مکمل استعمال نہیں کرتا بلکہ نیا توازن قائم کرتا ہے۔\n\n**دباؤ اور حجم:** مستقل درجۂ حرارت پر حجم کم کر کے دباؤ بڑھانے سے کم گیسی مول والی سمت پسندیدہ ہوتی ہے۔ امونیا کی تیاری میں عامل طرف چار اور مصنوعات طرف دو گیسی مول ہیں، اس لیے دباؤ بڑھانے سے امونیا بننے کی سمت کو ترجیح ملتی ہے۔ اگر دونوں طرف گیسی مول برابر ہوں تو اس اصول کے تحت کسی طرف کو ترجیح نہیں ملتی۔\n\n**درجۂ حرارت:** حرارت خارج کرنے والے آگے کے عمل میں حرارت کو مصنوع سمجھیں۔ درجۂ حرارت بڑھانے سے حرارت جذب کرنے والی الٹی سمت پسندیدہ ہوتی ہے؛ کم کرنے سے حرارت خارج کرنے والی آگے کی سمت۔ درجۂ حرارت وہ عام تبدیلی ہے جو Kc اور Kp بدلتی ہے۔ حرارت خارج کرنے والے آگے کے عمل میں درجۂ حرارت بڑھانے سے لکھی ہوئی مساوات کا K کم ہوتا ہے۔\n\n**عامل:** عامل تیز متبادل راستہ فراہم کرتا ہے اور آگے اور الٹے دونوں عمل کی رفتار بڑھاتا ہے۔ توازن جلد قائم ہوتا ہے مگر K اور آخری ترکیب نہیں بدلتی۔\n\n**خلاصہ:** تبدیلی کی مخالفت کرنے والی سمت منتخب کریں، پھر توازن کی ترکیب میں تبدیلی اور K کی عددی تبدیلی میں فرق رکھیں۔",
+            "sd": "## سکيا جا نتيجا\nارتڪاز، دٻاءُ يا گرمي پد بدلجڻ تي توازن جو رخ اڳڪٿي ڪريو ۽ سمجهو ته ڪيٽالسٽ توازن جي جاءِ ڇو نٿو بدلائي.\n\n**لي شاٽليئر جو اصول** چوي ٿو ته توازن ۾ موجود نظام کي پريشان ڪرڻ سان اهو ان رخ ۾ منتقل ٿئي ٿو جيڪو تبديليءَ جي اثر جي مخالفت ڪري. اصول جواب جي رخ جي اڳڪٿي ڪري ٿو؛ اهو نٿو چوي ته نظام تبديلي کي مڪمل ختم ڪري ڇڏيندو.\n\nامونيا ٺاهڻ: N₂(g) + 3H₂(g) ⇌ 2NH₃(g) + گرمي. اڳتي وارو عمل گرمي خارج ڪري ٿو.\n\n**ارتڪاز:** N₂ يا H₂ وڌائڻ سان اڳتي وارو رخ پسند ٿيندو. NH₃ ڪڍڻ سان به وڌيڪ امونيا ٺاهڻ وارو رخ پسند ٿيندو. NH₃ وڌائڻ يا عامل گهٽائڻ سان پوئتي وارو رخ پسند ٿيندو. نظام شامل ڪيل مادو لازمي طور مڪمل استعمال نٿو ڪري؛ اهو نئون توازن قائم ڪري ٿو.\n\n**دٻاءُ ۽ حجم:** مستقل گرمي پد تي حجم گهٽائي دٻاءُ وڌائڻ سان گهٽ گئسي مول واري پاسي کي ترجيح ملي ٿي. امونيا ٺاهڻ ۾ عامل پاسي چار ۽ پيداوار پاسي ٻه گئسي مول آهن، تنهنڪري دٻاءُ وڌائڻ سان امونيا ٺاهڻ وارو رخ پسند ٿيندو. جيڪڏهن ٻنهي پاسن تي گئسي مول برابر هجن ته هن اصول موجب ڪنهن پاسي کي ترجيح نٿي ملي.\n\n**گرمي پد:** گرمي خارج ڪندڙ اڳتي واري عمل ۾ گرمي کي پيداوار سمجهو. گرمي پد وڌائڻ سان گرمي جذب ڪندڙ پوئتي وارو رخ پسند ٿيندو؛ گهٽائڻ سان گرمي خارج ڪندڙ اڳتي وارو رخ. گرمي پد اها تبديلي آهي جيڪا Kc ۽ Kp کي بدلائي ٿي. گرمي خارج ڪندڙ اڳتي واري عمل ۾ گرمي پد وڌائڻ سان لکيل مساوات جو K گهٽجي ٿو.\n\n**ڪيٽالسٽ:** ڪيٽالسٽ تيز متبادل رستو ڏئي ٿو ۽ اڳتي ۽ پوئتي ٻنهي رفتارون وڌائي ٿو. توازن جلد پهچي ٿو پر K ۽ آخري ملاوٽ نٿي بدلجي.\n\n**خلاصو:** تبديليءَ جي مخالفت ڪندڙ رخ چونڊيو، پوءِ ملاوٽ جي تبديلي ۽ K جي عددي تبديليءَ ۾ فرق رکو."
+          }
+        },
+        {
+          "title": "7.5 Industrial equilibria and hydrolysis of salts",
+          "content": "## Learning outcomes\nApply equilibrium principles to the Haber and Contact processes, explain how industry balances yield and rate, and predict whether selected salt solutions are acidic, basic or approximately neutral.\n\n## Haber process: making ammonia\n`N₂(g) + 3H₂(g) ⇌ 2NH₃(g) + heat`\n\nThe forward reaction is exothermic and reduces the number of gas molecules from four to two.\n- High pressure favours ammonia because the product side has fewer gas moles.\n- A lower temperature favours the exothermic forward direction, but makes the reaction slower.\n- Industry uses a compromise temperature (commonly about 400–450 °C), high pressure and an iron-based catalyst.\n- Unreacted nitrogen and hydrogen are recycled, while ammonia is separated from the mixture. Removing product helps the equilibrium move forward.\n\nThe catalyst increases the rate but does not shift equilibrium. The operating conditions are a compromise between equilibrium yield, reaction rate, equipment cost and safety.\n\n## Contact process: making sulfur trioxide\n`2SO₂(g) + O₂(g) ⇌ 2SO₃(g) + heat`\n\nThe forward reaction is exothermic and reduces three gaseous moles to two. A vanadium(V) oxide (V₂O₅) catalyst is used, commonly around 400–450 °C and near atmospheric pressure. Higher pressure would favour SO₃, but only a modest pressure is normally used because the extra yield may not justify the equipment cost. Sulfur trioxide is absorbed in concentrated sulfuric acid to form oleum, then carefully diluted; it is not simply bubbled into water because that produces a difficult acid mist.\n\n## Hydrolysis of salts\nSome dissolved ions react with water and change the solution pH:\n- A salt from a strong acid and strong base, such as NaCl, is approximately neutral in water.\n- A salt containing the conjugate acid of a weak base, such as NH₄Cl, gives an acidic solution because NH₄⁺ can donate a proton to water.\n- A salt containing the conjugate base of a weak acid, such as CH₃COONa, gives a basic solution because CH₃COO⁻ can accept a proton from water.\n- For a salt from a weak acid and a weak base, compare the relevant acid and base strengths; do not assume the pH without that comparison.\n\nExamples:\n`NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺`\n`CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻`\n\n## Application case study\nA fertilizer plant wants a high ammonia output without excessive energy use. Engineers select a temperature that gives a practical reaction rate, use pressure to favour the side with fewer gas molecules, separate ammonia and recycle unreacted gases. A catalyst improves the rate but cannot replace the pressure or temperature choices. The plant must also manage heat, pressure-vessel safety, emissions and water use.\n\n## Revision summary\nIndustrial equilibrium is an optimization problem, not simply “use the lowest temperature and highest pressure”. Salt hydrolysis depends on whether the dissolved ion is the conjugate acid or conjugate base of a weak electrolyte.",
+          "explanations": {
+            "ur": "## سیکھنے کے نتائج\nہیبر اور کانٹیکٹ عمل میں توازن کے اصول لاگو کریں، صنعتی پیداوار اور رفتار کے سمجھوتے کی وضاحت کریں اور نمک کے محلول کی تیزابی، بنیادی یا تقریباً غیر جانب دار نوعیت معلوم کریں۔\n\n## ہیبر عمل: امونیا کی تیاری\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g) + حرارت۔ آگے کا عمل حرارت خارج کرتا ہے اور گیسی سالمات کی تعداد چار سے دو ہو جاتی ہے۔ زیادہ دباؤ امونیا بننے کو ترجیح دیتا ہے کیونکہ مصنوعات کی طرف گیسی مول کم ہیں۔ کم درجۂ حرارت آگے کے حرارت خارج کرنے والے عمل کو ترجیح دیتا ہے مگر رفتار کم کر دیتا ہے۔ صنعت عموماً تقریباً 400–450 °C کا سمجھوتہ درجۂ حرارت، زیادہ دباؤ اور آہنی عامل استعمال کرتی ہے۔ غیر استعمال شدہ نائٹروجن اور ہائیڈروجن واپس عمل میں بھیجی جاتی ہیں اور امونیا الگ کیا جاتا ہے۔ مصنوعات ہٹانے سے آگے کی سمت کو مدد ملتی ہے۔ عامل رفتار بڑھاتا ہے مگر توازن نہیں بدلتا۔ حالات پیداوار، رفتار، سامان کی لاگت اور حفاظت کے درمیان سمجھوتہ ہیں۔\n\n## کانٹیکٹ عمل: سلفر ٹرائی آکسائیڈ\n2SO₂(g) + O₂(g) ⇌ 2SO₃(g) + حرارت۔ آگے کا عمل حرارت خارج کرتا ہے اور گیسی مول تین سے دو کرتا ہے۔ وینیڈیم(V) آکسائیڈ V₂O₅ عامل استعمال ہوتا ہے؛ درجۂ حرارت عموماً 400–450 °C اور دباؤ فضائی دباؤ کے قریب رکھا جاتا ہے۔ زیادہ دباؤ SO₃ کو ترجیح دے گا مگر اضافی پیداوار عموماً مہنگے سامان کی لاگت کو جائز نہیں بناتی۔ SO₃ کو مرتکز سلفیورک ایسڈ میں جذب کر کے اولیئم بنایا جاتا ہے اور پھر احتیاط سے پانی ملایا جاتا ہے؛ اسے سیدھا پانی میں نہیں گزارتے کیونکہ تیزابی دھند بنتی ہے۔\n\n## نمکیات کا ہائیڈرولائسز\nکچھ حل شدہ آئن پانی سے عمل کر کے pH بدلتے ہیں۔ مضبوط تیزاب اور مضبوط اساس سے بنا NaCl تقریباً غیر جانب دار ہوتا ہے۔ کمزور اساس کے ہمزاد تیزاب والا NH₄Cl تیزابی محلول دیتا ہے کیونکہ NH₄⁺ پانی کو پروٹون دے سکتا ہے۔ کمزور تیزاب کے ہمزاد اساس والا CH₃COONa بنیادی محلول دیتا ہے کیونکہ CH₃COO⁻ پانی سے پروٹون لے سکتا ہے۔ کمزور تیزاب اور کمزور اساس کے نمک میں متعلقہ Ka اور Kb کا موازنہ کریں۔\n\nNH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺\nCH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻\n\n## اطلاقی مطالعہ\nکھاد کا کارخانہ زیادہ امونیا بنانا چاہتا ہے مگر توانائی بھی بچانا چاہتا ہے۔ انجینئر ایسی حرارت منتخب کرتے ہیں جس سے مناسب رفتار ملے، دباؤ کم گیسی مول والی سمت کو ترجیح دے، امونیا الگ کیا جائے اور غیر استعمال شدہ گیسیں دوبارہ چلائی جائیں۔ عامل رفتار بڑھاتا ہے مگر دباؤ یا درجۂ حرارت کے انتخاب کا متبادل نہیں۔ حرارت، دباؤ والے برتنوں کی حفاظت، اخراج اور پانی کا انتظام بھی ضروری ہے۔\n\n**خلاصہ:** صنعتی توازن پیداوار، رفتار، لاگت اور حفاظت کا مسئلہ ہے۔ نمک کا ہائیڈرولائسز اس بات پر منحصر ہے کہ آئن کمزور تیزاب کا ہمزاد اساس ہے یا کمزور اساس کا ہمزاد تیزاب۔",
+            "sd": "## سکيا جا نتيجا\nهيبر ۽ ڪانٽيڪٽ عملن ۾ توازن جا اصول لاڳو ڪريو، صنعتي پيداوار ۽ رفتار جي وچ ۾ سمجهوتو سمجهايو ۽ لوڻ جي محلول کي تيزابي، بنيادي يا لڳ ڀڳ غيرجانبدار سڃاڻو.\n\n## هيبر عمل: امونيا ٺاهڻ\nN₂(g) + 3H₂(g) ⇌ 2NH₃(g) + گرمي. اڳتي وارو عمل گرمي خارج ڪري ٿو ۽ گئسي ماليڪيولن جو تعداد چار مان ٻه ڪري ٿو. وڌيڪ دٻاءُ امونيا ٺاهڻ کي پسند ڪري ٿو، ڇاڪاڻ⁠تہ پيداوار واري پاسي گئسي مول گهٽ آهن. گهٽ گرمي پد اڳتي واري گرمي خارج ڪندڙ رخ کي پسند ڪري ٿو، پر رفتار سست ڪري ٿو. صنعت عام طور 400–450 °C لڳ ڀڳ سمجهوتي وارو گرمي پد، وڌيڪ دٻاءُ ۽ لوهه تي ٻڌل ڪيٽالسٽ استعمال ڪري ٿي. اڻ استعمال ٿيل نائٽروجن ۽ هائيڊروجن ٻيهر عمل ۾ موٽايا وڃن ٿا ۽ امونيا الڳ ڪيو وڃي ٿو. پيداوار ڪڍڻ سان اڳتي وارو رخ وڌي ٿو. ڪيٽالسٽ رفتار وڌائي ٿو پر توازن نٿو بدلائي. حالتون پيداوار، رفتار، سامان جي قيمت ۽ حفاظت جي وچ ۾ سمجهوتو آهن.\n\n## ڪانٽيڪٽ عمل: سلفر ٽرائي آڪسائيڊ\n2SO₂(g) + O₂(g) ⇌ 2SO₃(g) + گرمي. اڳتي وارو عمل گرمي خارج ڪري ٿو ۽ گئسي مول ٽي مان ٻه ڪري ٿو. وينڊيم(V) آڪسائيڊ V₂O₅ ڪيٽالسٽ استعمال ٿئي ٿو؛ گرمي پد عام طور 400–450 °C ۽ دٻاءُ فضائي دٻاءَ جي ويجهو رکيو وڃي ٿو. وڌيڪ دٻاءُ SO₃ کي پسند ڪندو، پر اضافي پيداوار عام طور مهانگي سامان جي قيمت جو جواز نٿي بڻجي. SO₃ کي ڳاٽي سلفيورڪ ايسڊ ۾ جذب ڪري اوليئم ٺاهيو وڃي ٿو ۽ پوءِ احتياط سان پاڻي ملايو وڃي ٿو؛ ان کي سڌو پاڻي ۾ نه ڇڏيو وڃي، ڇو ته تيزابي ڌنڌ ٺهي ٿي.\n\n## لوڻ جو هائيڊرولائسز\nڪجهه حل ٿيل آئن پاڻي سان عمل ڪري pH بدلائين ٿا. مضبوط تيزاب ۽ مضبوط اساس مان ٺهيل NaCl پاڻي ۾ لڳ ڀڳ غيرجانبدار آهي. ڪمزور اساس جي conjugate acid وارو NH₄Cl تيزابي محلول ڏئي ٿو، ڇاڪاڻ⁠تہ NH₄⁺ پاڻي کي پروٽون ڏئي سگهي ٿو. ڪمزور تيزاب جي conjugate base وارو CH₃COONa بنيادي محلول ڏئي ٿو، ڇاڪاڻ⁠تہ CH₃COO⁻ پاڻيءَ کان پروٽون وٺي سگهي ٿو. ڪمزور تيزاب ۽ ڪمزور اساس جي لوڻ لاءِ لاڳاپيل Ka ۽ Kb ڀيٽيو.\n\nNH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺\nCH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻\n\n## اطلاق وارو ڪيس\nڀاڻ جو ڪارخانو وڌيڪ امونيا پيدا ڪرڻ چاهي ٿو پر توانائي به بچائڻ چاهي ٿو. انجنيئر اهڙو گرمي پد چونڊين ٿا جنهن سان مناسب رفتار ملي، دٻاءُ گهٽ گئسي مول واري رخ کي پسند ڪري، امونيا الڳ ڪئي وڃي ۽ اڻ استعمال ٿيل گئسون ٻيهر هلايون وڃن. ڪيٽالسٽ رفتار وڌائي ٿو پر دٻاءَ يا گرمي پد جي چونڊ جو متبادل ناهي. گرمي، دٻاءَ وارن ٿانون جي حفاظت، اخراج ۽ پاڻي جو انتظام به ضروري آهي.\n\n**خلاصو:** صنعتي توازن پيداوار، رفتار، قيمت ۽ حفاظت جو مسئلو آهي. لوڻ جو هائيڊرولائسز ان ڳالهه تي دارومدار رکي ٿو ته آئن ڪمزور تيزاب جو conjugate base آهي يا ڪمزور اساس جو conjugate acid."
           }
         }
       ],
       "questions": [
         {
-          "question": "Which statement best describes chapter 7: chemical equilibrium?",
+          "id": "chem-xi-eq-mcq-01",
+          "question": "Which symbol is commonly used to show a reversible reaction?",
           "options": {
-            "A": "A reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's prin",
-            "B": "The topic is unrelated to measurable evidence.",
-            "C": "Units and definitions are unnecessary.",
-            "D": "The concept cannot be applied to problems."
+            "A": "⇌",
+            "B": "→",
+            "C": "=",
+            "D": "≠"
           },
           "correctOption": "A",
-          "explanation": "A reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's principle predicts how a system responds to changes in concentration, pressure or temperature."
+          "explanation": "The double arrow shows that the reaction can proceed in both directions.",
+          "translations": {
+            "ur": {
+              "question": "قابلِ واپسی تعامل کے لیے کون سی علامت استعمال ہوتی ہے؟",
+              "options": {
+                "A": "⇌",
+                "B": "→",
+                "C": "=",
+                "D": "≠"
+              },
+              "explanation": "دو طرفہ تیر ظاہر کرتا ہے کہ تعامل دونوں سمتوں میں چل سکتا ہے۔"
+            },
+            "sd": {
+              "question": "واپس ٿيندڙ عمل لاءِ ڪهڙي علامت استعمال ٿئي ٿي؟",
+              "options": {
+                "A": "⇌",
+                "B": "→",
+                "C": "=",
+                "D": "≠"
+              },
+              "explanation": "ٻه طرفو تير ڏيکاري ٿو ته عمل ٻنهي رخن ۾ هلي سگهي ٿو."
+            }
+          }
         },
         {
-          "question": "How should a student solve a problem in chapter 7: chemical equilibrium?",
+          "id": "chem-xi-eq-mcq-02",
+          "question": "At dynamic equilibrium in a closed system, which statement is correct?",
           "options": {
-            "A": "Guess without identifying quantities.",
-            "B": "Apply the relevant principle, show steps and check units.",
-            "C": "Ignore the stated conditions.",
-            "D": "Use an unrelated equation."
+            "A": "Forward and reverse rates are equal.",
+            "B": "All reactions stop.",
+            "C": "Reactant and product concentrations must be equal.",
+            "D": "Only the forward reaction continues."
           },
-          "correctOption": "B",
-          "explanation": "A reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's principle predicts how a system responds to changes in concentration, pressure or temperature."
+          "correctOption": "A",
+          "explanation": "Dynamic equilibrium is continuing reaction in both directions at equal rates.",
+          "translations": {
+            "ur": {
+              "question": "بند نظام میں متحرک توازن پر کون سا بیان درست ہے؟",
+              "options": {
+                "A": "آگے اور الٹے عمل کی رفتار برابر ہوتی ہے۔",
+                "B": "تمام تعامل رک جاتے ہیں۔",
+                "C": "عامل اور مصنوعات کے ارتکاز لازماً برابر ہوتے ہیں۔",
+                "D": "صرف آگے کا عمل جاری رہتا ہے۔"
+              },
+              "explanation": "متحرک توازن میں دونوں سمتوں کی رفتار برابر ہوتی ہے اور دونوں عمل جاری رہتے ہیں۔"
+            },
+            "sd": {
+              "question": "بند نظام ۾ متحرڪ توازن تي ڪهڙو بيان درست آهي؟",
+              "options": {
+                "A": "اڳتي ۽ پوئتي عمل جون رفتارون برابر هونديون آهن.",
+                "B": "سڀ عمل رڪجي وڃن ٿا.",
+                "C": "عاملن ۽ پيداوارن جا ارتڪاز لازمي برابر هوندا آهن.",
+                "D": "صرف اڳتي وارو عمل جاري رهي ٿو."
+              },
+              "explanation": "متحرڪ توازن تي ٻنهي رخن جون رفتارون برابر هونديون آهن ۽ ٻئي عمل جاري رهندا آهن."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-03",
+          "question": "At equilibrium, the concentrations of reactants and products are:",
+          "options": {
+            "A": "Constant with time, but not necessarily equal.",
+            "B": "Always equal.",
+            "C": "Always zero.",
+            "D": "Changing continuously at a steady rate."
+          },
+          "correctOption": "A",
+          "explanation": "Equal forward and reverse rates make concentrations constant; their values can differ.",
+          "translations": {
+            "ur": {
+              "question": "توازن پر عامل اور مصنوعات کے ارتکاز کیسے ہوتے ہیں؟",
+              "options": {
+                "A": "وقت کے ساتھ مستقل، مگر ضروری نہیں کہ برابر ہوں۔",
+                "B": "ہمیشہ برابر۔",
+                "C": "ہمیشہ صفر۔",
+                "D": "مسلسل ایک ہی رفتار سے بدلتے رہتے ہیں۔"
+              },
+              "explanation": "برابر رفتاروں کے باعث ارتکاز مستقل رہتے ہیں، مگر ان کی مقدار مختلف ہو سکتی ہے۔"
+            },
+            "sd": {
+              "question": "توازن تي عاملن ۽ پيداوارن جا ارتڪاز ڪيئن هوندا آهن؟",
+              "options": {
+                "A": "وقت سان مستقل، پر ضروري ناهي ته برابر هجن.",
+                "B": "هميشه برابر.",
+                "C": "هميشه صفر.",
+                "D": "مسلسل هڪ رفتار سان بدلجندا رهن ٿا."
+              },
+              "explanation": "برابر رفتار سبب ارتڪاز مستقل رهن ٿا، پر انهن جون مقدارون مختلف ٿي سگهن ٿيون."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-04",
+          "question": "Why is a closed system important when establishing chemical equilibrium?",
+          "options": {
+            "A": "It prevents reactants or products from escaping or entering.",
+            "B": "It removes the need for a reversible reaction.",
+            "C": "It makes the temperature automatically zero.",
+            "D": "It stops molecular collisions."
+          },
+          "correctOption": "A",
+          "explanation": "Loss or gain of material can change composition and prevent the intended equilibrium condition.",
+          "translations": {
+            "ur": {
+              "question": "کیمیائی توازن قائم کرنے کے لیے بند نظام کیوں ضروری ہے؟",
+              "options": {
+                "A": "یہ عامل یا مصنوعات کو باہر نکلنے یا اندر آنے سے روکتا ہے۔",
+                "B": "یہ قابلِ واپسی عمل کی ضرورت ختم کرتا ہے۔",
+                "C": "یہ درجۂ حرارت خود بخود صفر کرتا ہے۔",
+                "D": "یہ سالماتی تصادم روک دیتا ہے۔"
+              },
+              "explanation": "بند نظام مادے کو داخل یا خارج ہونے سے روکتا ہے، اس لیے ترکیب برقرار رہ سکتی ہے۔"
+            },
+            "sd": {
+              "question": "ڪيميائي توازن قائم ڪرڻ لاءِ بند نظام ڇو ضروري آهي؟",
+              "options": {
+                "A": "اهو عاملن يا پيداوارن کي ٻاهر نڪرڻ يا اندر اچڻ کان روڪي ٿو.",
+                "B": "اهو واپس ٿيندڙ عمل جي ضرورت ختم ڪري ٿو.",
+                "C": "اهو گرمي پد پاڻمرادو صفر ڪري ٿو.",
+                "D": "اهو ماليڪيولي ٽڪراءُ روڪي ٿو."
+              },
+              "explanation": "بند نظام مادي کي اندر يا ٻاهر وڃڻ کان روڪي ٿو، تنهنڪري ملاوٽ برقرار رهي سگهي ٿي."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-05",
+          "question": "Which observation is macroscopic evidence that a reversible coloured-gas system has reached equilibrium?",
+          "options": {
+            "A": "Its colour becomes constant with time.",
+            "B": "All molecules stop moving.",
+            "C": "Forward and reverse reactions disappear.",
+            "D": "Every gas concentration becomes equal."
+          },
+          "correctOption": "A",
+          "explanation": "A steady colour is a measurable macroscopic property even though molecular reactions continue.",
+          "translations": {
+            "ur": {
+              "question": "رنگ دار گیس کے قابلِ واپسی نظام میں توازن کی ظاہری علامت کیا ہے؟",
+              "options": {
+                "A": "اس کا رنگ وقت کے ساتھ مستقل ہو جاتا ہے۔",
+                "B": "تمام سالمات حرکت روک دیتے ہیں۔",
+                "C": "آگے اور الٹے تعامل ختم ہو جاتے ہیں۔",
+                "D": "ہر گیس کا ارتکاز برابر ہو جاتا ہے۔"
+              },
+              "explanation": "مستقل رنگ ایک ظاہری مشاہدہ ہے؛ سالمات کے اندرونی عمل جاری رہتے ہیں۔"
+            },
+            "sd": {
+              "question": "رنگين گئس واري واپس ٿيندڙ نظام ۾ توازن جي ظاهري نشاني ڪهڙي آهي؟",
+              "options": {
+                "A": "ان جو رنگ وقت سان مستقل ٿي وڃي ٿو.",
+                "B": "سڀ ماليڪيول هلڻ بند ڪن ٿا.",
+                "C": "اڳتي ۽ پوئتي عمل ختم ٿي وڃن ٿا.",
+                "D": "هر گئس جو ارتڪاز برابر ٿي وڃي ٿو."
+              },
+              "explanation": "مستقل رنگ ظاهري مشاهدو آهي؛ ماليڪيولن جا اندروني عمل جاري رهن ٿا."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-06",
+          "question": "What is the correct Kc expression for N₂(g) + 3H₂(g) ⇌ 2NH₃(g)?",
+          "options": {
+            "A": "[NH₃]² / ([N₂][H₂]³)",
+            "B": "[N₂][H₂]³ / [NH₃]²",
+            "C": "[NH₃] / ([N₂][H₂])",
+            "D": "[NH₃]² / ([N₂]³[H₂])"
+          },
+          "correctOption": "A",
+          "explanation": "The balanced coefficients become powers in the concentration equilibrium expression.",
+          "translations": {
+            "ur": {
+              "question": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g) کے لیے درست Kc اظہار کون سا ہے؟",
+              "options": {
+                "A": "[NH₃]² / ([N₂][H₂]³)",
+                "B": "[N₂][H₂]³ / [NH₃]²",
+                "C": "[NH₃] / ([N₂][H₂])",
+                "D": "[NH₃]² / ([N₂]³[H₂])"
+              },
+              "explanation": "متوازن مساوات کے عددی ضارب ارتکاز کے اظہار میں قوت بن جاتے ہیں۔"
+            },
+            "sd": {
+              "question": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g) لاءِ صحيح Kc اظهار ڪهڙو آهي؟",
+              "options": {
+                "A": "[NH₃]² / ([N₂][H₂]³)",
+                "B": "[N₂][H₂]³ / [NH₃]²",
+                "C": "[NH₃] / ([N₂][H₂])",
+                "D": "[NH₃]² / ([N₂]³[H₂])"
+              },
+              "explanation": "متوازن مساوات جا ضارب ارتڪاز واري اظهار ۾ قوت بڻجن ٿا."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-07",
+          "question": "Which species is omitted from the usual Kc expression for CaCO₃(s) ⇌ CaO(s) + CO₂(g)?",
+          "options": {
+            "A": "Pure CaCO₃(s) and CaO(s).",
+            "B": "CO₂(g).",
+            "C": "Every species in the equation.",
+            "D": "Only the product gas."
+          },
+          "correctOption": "A",
+          "explanation": "Pure solids and pure liquids have constant activity and are omitted from the usual expression.",
+          "translations": {
+            "ur": {
+              "question": "CaCO₃(s) ⇌ CaO(s) + CO₂(g) کے معمول کے Kc اظہار سے کیا خارج ہوگا؟",
+              "options": {
+                "A": "خالص CaCO₃(s) اور CaO(s)۔",
+                "B": "CO₂(g)۔",
+                "C": "مساوات کی ہر نوع۔",
+                "D": "صرف مصنوع گیس۔"
+              },
+              "explanation": "خالص ٹھوس اور خالص مائع کی سرگرمی مستقل ہوتی ہے، اس لیے انہیں معمول کے اظہار میں شامل نہیں کرتے۔"
+            },
+            "sd": {
+              "question": "CaCO₃(s) ⇌ CaO(s) + CO₂(g) جي عام Kc اظهار مان ڇا خارج ٿيندو؟",
+              "options": {
+                "A": "خالص CaCO₃(s) ۽ CaO(s).",
+                "B": "CO₂(g).",
+                "C": "مساوات جا سڀ مادا.",
+                "D": "صرف پيداوار گئس."
+              },
+              "explanation": "خالص ٺوس ۽ خالص مائع جي سرگرمي مستقل هوندي آهي، تنهنڪري عام اظهار ۾ شامل ناهن ڪبا."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-08",
+          "question": "A very large Kc for a reaction as written usually indicates that:",
+          "options": {
+            "A": "Products are favoured at equilibrium.",
+            "B": "Reactants are favoured at equilibrium.",
+            "C": "The reaction must be instantaneous.",
+            "D": "The catalyst has changed Kc."
+          },
+          "correctOption": "A",
+          "explanation": "A large product-to-reactant equilibrium ratio means products are favoured.",
+          "translations": {
+            "ur": {
+              "question": "لکھی ہوئی سمت میں بہت بڑا Kc عموماً کیا ظاہر کرتا ہے؟",
+              "options": {
+                "A": "توازن پر مصنوعات کو ترجیح حاصل ہے۔",
+                "B": "توازن پر عامل مادوں کو ترجیح حاصل ہے۔",
+                "C": "تعامل لازماً فوراً مکمل ہوتا ہے۔",
+                "D": "عامل نے Kc بدل دیا ہے۔"
+              },
+              "explanation": "بڑا Kc مصنوعات اور عامل مادوں کے بڑے توازنی تناسب کو ظاہر کرتا ہے۔"
+            },
+            "sd": {
+              "question": "لکيل رخ ۾ تمام وڏو Kc عام طور ڇا ڏيکاري ٿو؟",
+              "options": {
+                "A": "توازن تي پيداوارون پسنديده آهن.",
+                "B": "توازن تي عامل مادا پسنديده آهن.",
+                "C": "عمل لازمي فوراً مڪمل ٿئي ٿو.",
+                "D": "ڪيٽالسٽ Kc بدلائي ڇڏيو آهي."
+              },
+              "explanation": "وڏو Kc پيداوارن ۽ عاملن جي وڏي توازني نسبت ڏيکاري ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-09",
+          "question": "If a balanced equilibrium equation is reversed, the new equilibrium constant is:",
+          "options": {
+            "A": "1/K",
+            "B": "K²",
+            "C": "2K",
+            "D": "K + 1"
+          },
+          "correctOption": "A",
+          "explanation": "Reversing the reaction interchanges products and reactants in the ratio, giving the reciprocal.",
+          "translations": {
+            "ur": {
+              "question": "اگر متوازن توازن کی مساوات الٹ دی جائے تو نیا مستقل کیا ہوگا؟",
+              "options": {
+                "A": "1/K",
+                "B": "K²",
+                "C": "2K",
+                "D": "K + 1"
+              },
+              "explanation": "مساوات الٹنے سے مصنوعات اور عامل مادوں کی جگہ بدلتی ہے، اس لیے نیا مستقل پرانے کا الٹ ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "جيڪڏهن متوازن توازن جي مساوات ابتِي ڪئي وڃي ته نئون مستقل ڇا ٿيندو؟",
+              "options": {
+                "A": "1/K",
+                "B": "K²",
+                "C": "2K",
+                "D": "K + 1"
+              },
+              "explanation": "مساوات ابتِي ڪرڻ سان پيداوارن ۽ عاملن جون جايون بدلجن ٿيون، تنهنڪري نئون مستقل پراڻي جو ابتو ٿيندو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-10",
+          "question": "If every coefficient in an equilibrium equation is multiplied by 2, the new constant is:",
+          "options": {
+            "A": "K²",
+            "B": "2K",
+            "C": "K/2",
+            "D": "1/K"
+          },
+          "correctOption": "A",
+          "explanation": "Multiplying all coefficients by n raises the equilibrium constant to the power n.",
+          "translations": {
+            "ur": {
+              "question": "اگر توازن کی مساوات کے ہر عددی ضارب کو 2 سے ضرب دیں تو نیا مستقل کیا ہوگا؟",
+              "options": {
+                "A": "K²",
+                "B": "2K",
+                "C": "K/2",
+                "D": "1/K"
+              },
+              "explanation": "مساوات کے تمام عددی ضارب دوگنے کرنے سے توازنی تناسب مربع ہو جاتا ہے۔"
+            },
+            "sd": {
+              "question": "جيڪڏهن توازن جي مساوات جي هر ضارب کي 2 سان ضرب ڏجي ته نئون مستقل ڇا ٿيندو؟",
+              "options": {
+                "A": "K²",
+                "B": "2K",
+                "C": "K/2",
+                "D": "1/K"
+              },
+              "explanation": "مساوات جا سڀ ضارب ٻيڻا ڪرڻ سان توازني نسبت جو چورس ٿيندو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-11",
+          "question": "Kp is written using equilibrium:",
+          "options": {
+            "A": "Partial pressures of gaseous species.",
+            "B": "Molar concentrations of dissolved solids only.",
+            "C": "Reaction times.",
+            "D": "Masses of catalysts."
+          },
+          "correctOption": "A",
+          "explanation": "Kp is the equilibrium constant expressed in terms of gas partial pressures.",
+          "translations": {
+            "ur": {
+              "question": "Kp کس مقدار کی مدد سے لکھا جاتا ہے؟",
+              "options": {
+                "A": "گیسی انواع کے توازن کے جزوی دباؤ۔",
+                "B": "صرف حل شدہ ٹھوس کے مولر ارتکاز۔",
+                "C": "تعامل کے اوقات۔",
+                "D": "عاملوں کے کمیت۔"
+              },
+              "explanation": "Kp گیسی انواع کے جزوی دباؤ استعمال کرتا ہے۔"
+            },
+            "sd": {
+              "question": "Kp ڪهڙي مقدار سان لکيو ويندو آهي؟",
+              "options": {
+                "A": "گئسي مادن جا توازن وارا جزوي دٻاءَ.",
+                "B": "صرف حل ٿيل ٺوسن جا مولر ارتڪاز.",
+                "C": "عمل جا وقت.",
+                "D": "ڪيٽالسٽن جو ماس."
+              },
+              "explanation": "Kp گئسي مادن جا جزوي دٻاءَ استعمال ڪري ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-12",
+          "question": "A gas has mole fraction 0.20 in a mixture at 5.0 bar. What is its partial pressure?",
+          "options": {
+            "A": "1.0 bar",
+            "B": "4.0 bar",
+            "C": "5.2 bar",
+            "D": "25 bar"
+          },
+          "correctOption": "A",
+          "explanation": "Partial pressure equals mole fraction multiplied by total pressure: 0.20 × 5.0 = 1.0 bar.",
+          "translations": {
+            "ur": {
+              "question": "5.0 bar کل دباؤ والے آمیزے میں گیس کی مولی کسر 0.20 ہے۔ جزوی دباؤ کیا ہوگا؟",
+              "options": {
+                "A": "1.0 bar",
+                "B": "4.0 bar",
+                "C": "5.2 bar",
+                "D": "25 bar"
+              },
+              "explanation": "جزوی دباؤ مولی کسر اور کل دباؤ کے حاصلِ ضرب کے برابر ہے۔"
+            },
+            "sd": {
+              "question": "5.0 bar ڪل دٻاءَ واري ملاوٽ ۾ گئس جو مول فريڪشن 0.20 آهي. جزوي دٻاءُ ڪيترو ٿيندو؟",
+              "options": {
+                "A": "1.0 bar",
+                "B": "4.0 bar",
+                "C": "5.2 bar",
+                "D": "25 bar"
+              },
+              "explanation": "جزوي دٻاءُ مول فريڪشن ۽ ڪل دٻاءَ جي ضرب برابر آهي."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-13",
+          "question": "For an ideal-gas equilibrium, the relation between Kp and Kc is:",
+          "options": {
+            "A": "Kp = Kc(RT)^Δngas",
+            "B": "Kp = Kc + RT",
+            "C": "Kp = Kc/Δngas",
+            "D": "Kp = Kc² for every reaction"
+          },
+          "correctOption": "A",
+          "explanation": "The exponent is the gaseous product coefficient sum minus the gaseous reactant coefficient sum.",
+          "translations": {
+            "ur": {
+              "question": "مثالی گیس کے توازن میں Kp اور Kc کا تعلق کیا ہے؟",
+              "options": {
+                "A": "Kp = Kc(RT)^Δngas",
+                "B": "Kp = Kc + RT",
+                "C": "Kp = Kc/Δngas",
+                "D": "ہر عمل کے لیے Kp = Kc²"
+              },
+              "explanation": "Δngas گیسی مصنوعات کے عددی ضاربوں کے مجموعے میں سے گیسی عاملوں کے مجموعے کو منفی کرنے سے ملتا ہے۔"
+            },
+            "sd": {
+              "question": "مثالي گئس جي توازن ۾ Kp ۽ Kc جو لاڳاپو ڪهڙو آهي؟",
+              "options": {
+                "A": "Kp = Kc(RT)^Δngas",
+                "B": "Kp = Kc + RT",
+                "C": "Kp = Kc/Δngas",
+                "D": "هر عمل لاءِ Kp = Kc²"
+              },
+              "explanation": "Δngas گئسي پيداوارن جي ضاربن جي مجموعي مان گئسي عاملن جو مجموعو گهٽائڻ سان ملي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-14",
+          "question": "When N₂ + 3H₂ ⇌ 2NH₃ is compressed at constant temperature, the equilibrium shifts:",
+          "options": {
+            "A": "To the ammonia side.",
+            "B": "To the nitrogen and hydrogen side.",
+            "C": "Neither side can be favoured because there are four gas moles on the product side.",
+            "D": "Only the catalyst changes."
+          },
+          "correctOption": "A",
+          "explanation": "Compression favours the side with fewer gas moles: two on the product side versus four on the reactant side.",
+          "translations": {
+            "ur": {
+              "question": "مستقل درجۂ حرارت پر N₂ + 3H₂ ⇌ 2NH₃ کو دبانے سے توازن کس طرف جائے گا؟",
+              "options": {
+                "A": "امونیا والی طرف۔",
+                "B": "نائٹروجن اور ہائیڈروجن والی طرف۔",
+                "C": "کسی طرف نہیں، کیونکہ مصنوعات کی طرف چار گیسی مول ہیں۔",
+                "D": "صرف عامل بدلتا ہے۔"
+              },
+              "explanation": "دباؤ بڑھانے سے کم گیسی مول والی طرف ترجیح ملتی ہے؛ امونیا کی طرف دو مول ہیں۔"
+            },
+            "sd": {
+              "question": "مستقل گرمي پد تي N₂ + 3H₂ ⇌ 2NH₃ کي دٻائڻ سان توازن ڪهڙي پاسي ويندو؟",
+              "options": {
+                "A": "امونيا واري پاسي.",
+                "B": "نائٽروجن ۽ هائيڊروجن واري پاسي.",
+                "C": "ڪنهن پاسي نه، ڇاڪاڻ⁠تہ پيداوار پاسي چار گئسي مول آهن.",
+                "D": "صرف ڪيٽالسٽ بدلجي ٿو."
+              },
+              "explanation": "دٻاءُ وڌائڻ سان گهٽ گئسي مول واري پاسي کي ترجيح ملي ٿي؛ امونيا واري پاسي ٻه مول آهن."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-15",
+          "question": "Adding nitrogen to an equilibrium mixture of N₂ + 3H₂ ⇌ 2NH₃ at constant temperature initially favours:",
+          "options": {
+            "A": "The forward reaction.",
+            "B": "The reverse reaction.",
+            "C": "No reaction in either direction.",
+            "D": "A change in Kc only."
+          },
+          "correctOption": "A",
+          "explanation": "The system uses some added nitrogen by forming more ammonia.",
+          "translations": {
+            "ur": {
+              "question": "مستقل درجۂ حرارت پر N₂ + 3H₂ ⇌ 2NH₃ کے آمیزے میں نائٹروجن بڑھانے سے ابتدا میں کس سمت کو ترجیح ملے گی؟",
+              "options": {
+                "A": "آگے کے عمل کو۔",
+                "B": "الٹے عمل کو۔",
+                "C": "کسی سمت کو نہیں۔",
+                "D": "صرف Kc کی تبدیلی کو۔"
+              },
+              "explanation": "زیادہ نائٹروجن استعمال کر کے نظام آگے کے عمل سے مزید امونیا بناتا ہے۔"
+            },
+            "sd": {
+              "question": "مستقل گرمي پد تي N₂ + 3H₂ ⇌ 2NH₃ جي ملاوٽ ۾ نائٽروجن وڌائڻ سان شروعات ۾ ڪهڙو رخ پسند ٿيندو؟",
+              "options": {
+                "A": "اڳتي وارو عمل.",
+                "B": "پوئتي وارو عمل.",
+                "C": "ڪنهن به رخ ۾ عمل نه.",
+                "D": "صرف Kc جي تبديلي."
+              },
+              "explanation": "وڌيڪ نائٽروجن استعمال ڪري نظام اڳتي واري عمل سان وڌيڪ امونيا ٺاهي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-16",
+          "question": "For an exothermic forward reaction, increasing temperature generally:",
+          "options": {
+            "A": "Shifts equilibrium in the reverse direction and decreases K for the reaction as written.",
+            "B": "Shifts equilibrium forward and increases K.",
+            "C": "Leaves K unchanged but stops both rates.",
+            "D": "Always makes products form faster and more completely."
+          },
+          "correctOption": "A",
+          "explanation": "Heating favours the endothermic direction; for an exothermic forward equation, K decreases as temperature rises.",
+          "translations": {
+            "ur": {
+              "question": "حرارت خارج کرنے والے آگے کے عمل میں درجۂ حرارت بڑھانے سے عموماً کیا ہوگا؟",
+              "options": {
+                "A": "توازن الٹی سمت جائے گا اور لکھی ہوئی مساوات کا K کم ہوگا۔",
+                "B": "توازن آگے جائے گا اور K بڑھے گا۔",
+                "C": "K مستقل رہے گا مگر دونوں رفتاریں رک جائیں گی۔",
+                "D": "مصنوعات ہمیشہ زیادہ تیزی اور مکمل طور پر بنیں گی۔"
+              },
+              "explanation": "حرارت خارج کرنے والے آگے کے عمل میں گرم کرنے سے حرارت جذب کرنے والی الٹی سمت پسندیدہ ہوتی ہے اور K کم ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "گرمي خارج ڪندڙ اڳتي واري عمل ۾ گرمي پد وڌائڻ سان عام طور ڇا ٿيندو؟",
+              "options": {
+                "A": "توازن پوئتي رخ ۾ ويندو ۽ لکيل مساوات جو K گهٽبو.",
+                "B": "توازن اڳتي ويندو ۽ K وڌندو.",
+                "C": "K ساڳيو رهندو پر ٻئي رفتارون بند ٿينديون.",
+                "D": "پيداوارون هميشه وڌيڪ تيزيءَ سان مڪمل ٺهنديون."
+              },
+              "explanation": "گرمي خارج ڪندڙ اڳتي واري عمل ۾ گرم ڪرڻ سان گرمي جذب ڪندڙ پوئتي رخ پسند ٿيندو ۽ K گهٽبو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-17",
+          "question": "What is the effect of adding a catalyst to a system already at equilibrium?",
+          "options": {
+            "A": "It increases both rates but does not change K or the equilibrium composition.",
+            "B": "It shifts equilibrium completely to products.",
+            "C": "It changes K at constant temperature.",
+            "D": "It removes the need for a closed system."
+          },
+          "correctOption": "A",
+          "explanation": "A catalyst speeds both directions and helps equilibrium be reached sooner without shifting it.",
+          "translations": {
+            "ur": {
+              "question": "پہلے سے توازن میں موجود نظام میں عامل شامل کرنے کا اثر کیا ہے؟",
+              "options": {
+                "A": "یہ دونوں رفتاریں بڑھاتا ہے مگر K یا توازن کی ترکیب نہیں بدلتا۔",
+                "B": "یہ توازن مکمل طور پر مصنوعات کی طرف لے جاتا ہے۔",
+                "C": "یہ مستقل درجۂ حرارت پر K بدل دیتا ہے۔",
+                "D": "یہ بند نظام کی ضرورت ختم کرتا ہے۔"
+              },
+              "explanation": "عامل دونوں سمتوں کے عمل تیز کرتا ہے مگر توازن کی جگہ یا K نہیں بدلتا۔"
+            },
+            "sd": {
+              "question": "اڳ ۾ ئي توازن ۾ موجود نظام ۾ ڪيٽالسٽ شامل ڪرڻ جو اثر ڇا آهي؟",
+              "options": {
+                "A": "اهو ٻئي رفتارون وڌائي ٿو پر K يا توازن جي ملاوٽ نٿو بدلائي.",
+                "B": "اهو توازن مڪمل طور پيداوارن ڏانهن ڪري ٿو.",
+                "C": "اهو مستقل گرمي پد تي K بدلائي ٿو.",
+                "D": "اهو بند نظام جي ضرورت ختم ڪري ٿو."
+              },
+              "explanation": "ڪيٽالسٽ ٻنهي رخن جا عمل تيز ڪري ٿو پر توازن جي جاءِ يا K نٿو بدلائي."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-18",
+          "question": "Which catalyst is commonly used in the Haber process?",
+          "options": {
+            "A": "Iron-based catalyst.",
+            "B": "Vanadium(V) oxide.",
+            "C": "Nickel for hydrogenation only.",
+            "D": "Manganese dioxide."
+          },
+          "correctOption": "A",
+          "explanation": "An iron-based catalyst is used in industrial ammonia synthesis.",
+          "translations": {
+            "ur": {
+              "question": "ہیبر عمل میں عام طور پر کون سا عامل استعمال ہوتا ہے؟",
+              "options": {
+                "A": "لوہے پر مبنی عامل۔",
+                "B": "وینیڈیم(V) آکسائیڈ۔",
+                "C": "صرف ہائیڈروجنیشن کے لیے نکل۔",
+                "D": "مینگنیز ڈائی آکسائیڈ۔"
+              },
+              "explanation": "ہیبر عمل میں صنعتی امونیا بنانے کے لیے آہنی عامل استعمال ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "هيبر عمل ۾ عام طور ڪهڙو ڪيٽالسٽ استعمال ٿئي ٿو؟",
+              "options": {
+                "A": "لوهه تي ٻڌل ڪيٽالسٽ.",
+                "B": "وينڊيم(V) آڪسائيڊ.",
+                "C": "صرف هائيڊروجنيشن لاءِ نڪل.",
+                "D": "مينگنيز ڊاءِ آڪسائيڊ."
+              },
+              "explanation": "هيبر عمل ۾ صنعتي امونيا ٺاهڻ لاءِ لوهه تي ٻڌل ڪيٽالسٽ استعمال ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-19",
+          "question": "Which catalyst is used in the Contact process oxidation of SO₂ to SO₃?",
+          "options": {
+            "A": "Vanadium(V) oxide.",
+            "B": "Iron.",
+            "C": "Platinum only in every modern plant.",
+            "D": "Copper sulfate."
+          },
+          "correctOption": "A",
+          "explanation": "V₂O₅ catalyses the oxidation of sulfur dioxide in the Contact process.",
+          "translations": {
+            "ur": {
+              "question": "کانٹیکٹ عمل میں SO₂ کو SO₃ میں تبدیل کرنے کے لیے کون سا عامل استعمال ہوتا ہے؟",
+              "options": {
+                "A": "وینیڈیم(V) آکسائیڈ۔",
+                "B": "لوہا۔",
+                "C": "ہر جدید کارخانے میں صرف پلاٹینم۔",
+                "D": "کاپر سلفیٹ۔"
+              },
+              "explanation": "کانٹیکٹ عمل میں SO₂ کے آکسیڈیشن کے لیے V₂O₅ عامل استعمال ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪانٽيڪٽ عمل ۾ SO₂ کي SO₃ ۾ بدلائڻ لاءِ ڪهڙو ڪيٽالسٽ استعمال ٿئي ٿو؟",
+              "options": {
+                "A": "وينڊيم(V) آڪسائيڊ.",
+                "B": "لوهه.",
+                "C": "هر جديد ڪارخاني ۾ صرف پلاٽينم.",
+                "D": "ڪاپر سلفيٽ."
+              },
+              "explanation": "ڪانٽيڪٽ عمل ۾ SO₂ جي آڪسائيڊيشن لاءِ V₂O₅ ڪيٽالسٽ استعمال ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-20",
+          "question": "An aqueous solution of ammonium chloride is acidic mainly because:",
+          "options": {
+            "A": "NH₄⁺ donates a proton to water, forming H₃O⁺.",
+            "B": "Cl⁻ produces OH⁻ by accepting a proton.",
+            "C": "NH₄Cl is a strong base.",
+            "D": "All salts are acidic."
+          },
+          "correctOption": "A",
+          "explanation": "The ammonium ion is the conjugate acid of a weak base and hydrolyses to form hydronium.",
+          "translations": {
+            "ur": {
+              "question": "امونیم کلورائیڈ کا آبی محلول تیزابی کیوں ہوتا ہے؟",
+              "options": {
+                "A": "NH₄⁺ پانی کو پروٹون دیتا ہے اور H₃O⁺ بنتا ہے۔",
+                "B": "Cl⁻ پروٹون لے کر OH⁻ بناتا ہے۔",
+                "C": "NH₄Cl ایک مضبوط اساس ہے۔",
+                "D": "تمام نمکیات تیزابی ہوتے ہیں۔"
+              },
+              "explanation": "NH₄⁺ پانی کو پروٹون دے کر H₃O⁺ بناتا ہے، جس سے محلول تیزابی ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "امونيم ڪلورائيڊ جو آبي محلول تيزابي ڇو هوندو آهي؟",
+              "options": {
+                "A": "NH₄⁺ پاڻيءَ کي پروٽون ڏئي H₃O⁺ ٺاهي ٿو.",
+                "B": "Cl⁻ پروٽون وٺي OH⁻ ٺاهي ٿو.",
+                "C": "NH₄Cl مضبوط اساس آهي.",
+                "D": "سڀ لوڻ تيزابي هوندا آهن."
+              },
+              "explanation": "NH₄⁺ پاڻيءَ کي پروٽون ڏئي H₃O⁺ ٺاهي ٿو، جنهن سان محلول تيزابي ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-21",
+          "question": "An aqueous solution of sodium acetate is basic because:",
+          "options": {
+            "A": "CH₃COO⁻ accepts a proton from water, producing OH⁻.",
+            "B": "Na⁺ releases OH⁻ directly.",
+            "C": "CH₃COO⁻ is a strong acid.",
+            "D": "Acetate cannot react with water."
+          },
+          "correctOption": "A",
+          "explanation": "Acetate is the conjugate base of a weak acid and hydrolyses to form hydroxide.",
+          "translations": {
+            "ur": {
+              "question": "سوڈیم ایسیٹیٹ کا آبی محلول بنیادی کیوں ہوتا ہے؟",
+              "options": {
+                "A": "CH₃COO⁻ پانی سے پروٹون لیتا ہے اور OH⁻ بنتا ہے۔",
+                "B": "Na⁺ براہِ راست OH⁻ خارج کرتا ہے۔",
+                "C": "CH₃COO⁻ ایک مضبوط تیزاب ہے۔",
+                "D": "ایسیٹیٹ پانی سے عمل نہیں کر سکتا۔"
+              },
+              "explanation": "ایسیٹیٹ آئن پانی سے پروٹون لے کر OH⁻ بناتا ہے، اس لیے محلول بنیادی ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "سوڊيم ايسيٽيٽ جو آبي محلول بنيادي ڇو هوندو آهي؟",
+              "options": {
+                "A": "CH₃COO⁻ پاڻيءَ کان پروٽون وٺي OH⁻ ٺاهي ٿو.",
+                "B": "Na⁺ سڌو OH⁻ خارج ڪري ٿو.",
+                "C": "CH₃COO⁻ مضبوط تيزاب آهي.",
+                "D": "ايسيٽيٽ پاڻي سان عمل نٿو ڪري سگهي."
+              },
+              "explanation": "ايسيٽيٽ آئن پاڻيءَ کان پروٽون وٺي OH⁻ ٺاهي ٿو، تنهنڪري محلول بنيادي ٿئي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-mcq-22",
+          "question": "A solution of sodium chloride is approximately neutral because it is formed from:",
+          "options": {
+            "A": "A strong acid and a strong base.",
+            "B": "A weak acid and a strong base.",
+            "C": "A strong acid and a weak base.",
+            "D": "Two weak electrolytes of unequal strength."
+          },
+          "correctOption": "A",
+          "explanation": "NaCl ions have negligible hydrolysis in water under ordinary conditions.",
+          "translations": {
+            "ur": {
+              "question": "سوڈیم کلورائیڈ کا محلول تقریباً غیر جانب دار کیوں ہوتا ہے؟",
+              "options": {
+                "A": "یہ مضبوط تیزاب اور مضبوط اساس سے بنتا ہے۔",
+                "B": "یہ کمزور تیزاب اور مضبوط اساس سے بنتا ہے۔",
+                "C": "یہ مضبوط تیزاب اور کمزور اساس سے بنتا ہے۔",
+                "D": "یہ غیر مساوی طاقت کے دو کمزور الیکٹرولائٹس سے بنتا ہے۔"
+              },
+              "explanation": "NaCl مضبوط تیزاب اور مضبوط اساس سے بنتا ہے؛ اس کے آئن پانی میں نہ ہونے کے برابر ہائیڈرولائسز کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "سوڊيم ڪلورائيڊ جو محلول لڳ ڀڳ غيرجانبدار ڇو هوندو آهي؟",
+              "options": {
+                "A": "اهو مضبوط تيزاب ۽ مضبوط اساس مان ٺهي ٿو.",
+                "B": "اهو ڪمزور تيزاب ۽ مضبوط اساس مان ٺهي ٿو.",
+                "C": "اهو مضبوط تيزاب ۽ ڪمزور اساس مان ٺهي ٿو.",
+                "D": "اهو اڻبرابر طاقت وارن ٻن ڪمزور اليڪٽرولائٽن مان ٺهي ٿو."
+              },
+              "explanation": "NaCl مضبوط تيزاب ۽ مضبوط اساس مان ٺهي ٿو؛ ان جا آئن پاڻيءَ ۾ تمام گهٽ هائيڊرولائسز ڪن ٿا."
+            }
+          }
         }
       ],
       "writtenQuestions": [
         {
+          "id": "chem-xi-eq-crq-01",
           "type": "crq",
           "marks": 5,
-          "question": "Define two key terms in chapter 7: chemical equilibrium and explain their relationship.",
-          "modelAnswer": "A reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's principle predicts how a system responds to changes in concentration, pressure or temperature.",
+          "question": "Define dynamic equilibrium for a reversible reaction. State two conditions needed and distinguish microscopic from macroscopic observations.",
+          "modelAnswer": "Dynamic equilibrium is established in a reversible reaction in a closed system when the forward and reverse reaction rates are equal. Reactant and product concentrations then remain constant with time, but are not necessarily equal. The system must be closed to prevent material entering or leaving, and external conditions such as temperature must be controlled. Microscopically, particles continue colliding and reacting in both directions. Macroscopically, measurable properties such as concentration or colour remain constant.",
           "rubric": [
-            "Correct definitions (2)",
-            "Relationship/explanation (2)",
-            "Clear expression (1)"
-          ]
+            "Correct definition: reversible reaction with equal forward/reverse rates (2)",
+            "Closed system and controlled conditions (1)",
+            "Microscopic activity continues (1)",
+            "Macroscopic property remains constant; concentrations need not be equal (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "قابلِ واپسی تعامل میں متحرک توازن کی تعریف کریں۔ دو ضروری شرائط لکھیں اور خردبینی اور ظاہری مشاہدات میں فرق بتائیں۔",
+              "modelAnswer": "قابلِ واپسی تعامل میں بند نظام کے اندر متحرک توازن اس وقت قائم ہوتا ہے جب آگے اور الٹے عمل کی رفتار برابر ہو۔ پھر عامل اور مصنوعات کے ارتکاز وقت کے ساتھ مستقل رہتے ہیں مگر لازماً برابر نہیں ہوتے۔ مادے کے داخل یا خارج ہونے سے بچانے کے لیے نظام بند ہونا چاہیے اور درجۂ حرارت جیسی بیرونی حالتیں قابو میں ہونی چاہئیں۔ خردبینی سطح پر ذرات دونوں سمتوں میں ٹکراتے اور عمل کرتے رہتے ہیں۔ ظاہری سطح پر ارتکاز یا رنگ جیسی قابلِ پیمائش خصوصیات مستقل رہتی ہیں۔",
+              "rubric": [
+                "قابلِ واپسی عمل اور برابر رفتار کی درست تعریف (2)",
+                "بند نظام اور قابو شدہ حالات (1)",
+                "خردبینی سرگرمی جاری رہتی ہے (1)",
+                "ظاہری خاصیت مستقل؛ ارتکاز لازماً برابر نہیں (1)"
+              ]
+            },
+            "sd": {
+              "question": "واپس ٿيندڙ عمل ۾ متحرڪ توازن جي تعريف ڪريو. ٻه ضروري شرطون لکو ۽ ننڍي پيماني ۽ ظاهري مشاهدي ۾ فرق ٻڌايو.",
+              "modelAnswer": "واپس ٿيندڙ عمل ۾ بند نظام اندر متحرڪ توازن تڏهن قائم ٿئي ٿو جڏهن اڳتي ۽ پوئتي عمل جون رفتارون برابر ٿين. پوءِ عاملن ۽ پيداوارن جا ارتڪاز وقت سان مستقل رهن ٿا، پر لازمي ناهي ته برابر هجن. مادو اندر يا ٻاهر وڃڻ کان بچائڻ لاءِ نظام بند هجي ۽ گرمي پد جهڙيون ٻاهريون حالتون ڪنٽرول ۾ هجن. ننڍي پيماني تي ذرڙا ٻنهي رخن ۾ ٽڪرائين ۽ عمل ڪندا رهن ٿا. ظاهري پيماني تي ارتڪاز يا رنگ جهڙيون ماپجڻ واريون خاصيتون مستقل رهن ٿيون.",
+              "rubric": [
+                "واپس ٿيندڙ عمل ۽ برابر رفتار جي صحيح تعريف (2)",
+                "بند نظام ۽ ڪنٽرول ٿيل حالتون (1)",
+                "ننڍي پيماني واري سرگرمي جاري (1)",
+                "ظاهري خاصيت مستقل؛ ارتڪاز لازمي برابر نه (1)"
+              ]
+            }
+          }
         },
         {
+          "id": "chem-xi-eq-crq-02",
+          "type": "crq",
+          "marks": 5,
+          "question": "For N₂(g) + 3H₂(g) ⇌ 2NH₃(g), write Kc and calculate it when [N₂] = 0.50 mol dm⁻³, [H₂] = 1.00 mol dm⁻³ and [NH₃] = 0.25 mol dm⁻³ at equilibrium. Include the formal concentration units.",
+          "modelAnswer": "Kc = [NH₃]² / ([N₂][H₂]³). Substitution gives Kc = (0.25)² / (0.50 × 1.00³) = 0.0625 / 0.50 = 0.125. The formal concentration units are (mol dm⁻³)⁻² = dm⁶ mol⁻² because the overall concentration power difference is 2 − 4 = −2.",
+          "rubric": [
+            "Correct equilibrium expression (2)",
+            "Correct substitution and arithmetic (2)",
+            "Formal units dm⁶ mol⁻² (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g) کے لیے Kc لکھیں اور اس وقت حساب کریں جب توازن پر [N₂] = 0.50، [H₂] = 1.00 اور [NH₃] = 0.25 mol dm⁻³ ہوں۔ رسمی ارتکازی اکائی بھی لکھیں۔",
+              "modelAnswer": "Kc = [NH₃]² / ([N₂][H₂]³)۔ اقدار رکھنے سے Kc = (0.25)² / (0.50 × 1.00³) = 0.0625 / 0.50 = 0.125۔ رسمی ارتکازی اکائی (mol dm⁻³)⁻² = dm⁶ mol⁻² ہے کیونکہ ارتکاز کی قوتوں کا فرق 2 − 4 = −2 ہے۔",
+              "rubric": [
+                "درست توازنی اظہار (2)",
+                "درست اقدار اور حساب (2)",
+                "رسمی اکائی dm⁶ mol⁻² (1)"
+              ]
+            },
+            "sd": {
+              "question": "N₂(g) + 3H₂(g) ⇌ 2NH₃(g) لاءِ Kc لکو ۽ تڏهن حساب ڪريو جڏهن توازن تي [N₂] = 0.50، [H₂] = 1.00 ۽ [NH₃] = 0.25 mol dm⁻³ هجن. رسمي ارتڪازي ايڪائيون به لکو.",
+              "modelAnswer": "Kc = [NH₃]² / ([N₂][H₂]³). قدر وجهڻ سان Kc = (0.25)² / (0.50 × 1.00³) = 0.0625 / 0.50 = 0.125. رسمي ارتڪازي ايڪايون (mol dm⁻³)⁻² = dm⁶ mol⁻² آهن، ڇاڪاڻ⁠تہ ارتڪاز جي قوتن جو فرق 2 − 4 = −2 آهي.",
+              "rubric": [
+                "صحيح توازن وارو اظهار (2)",
+                "صحيح قدر ۽ حساب (2)",
+                "رسمی ايڪائي dm⁶ mol⁻² (1)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-crq-03",
+          "type": "crq",
+          "marks": 5,
+          "question": "A gas mixture has total pressure 5.0 bar and the mole fraction of NH₃ is 0.20. Calculate the NH₃ partial pressure. Then state the meaning of Δngas for the Kp–Kc relationship in ammonia synthesis.",
+          "modelAnswer": "Partial pressure pNH₃ = xNH₃ × Ptotal = 0.20 × 5.0 = 1.0 bar. For N₂ + 3H₂ ⇌ 2NH₃, Δngas is gaseous product coefficients minus gaseous reactant coefficients: 2 − (1 + 3) = −2. For an ideal gas, Kp = Kc(RT)^−2, using consistent units and T in kelvin.",
+          "rubric": [
+            "Correct partial-pressure relation (1)",
+            "Correct calculation: 1.0 bar (1)",
+            "Correct definition of Δngas (1)",
+            "Correct ammonia value −2 and Kp relation (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "گیسی آمیزے کا کل دباؤ 5.0 bar ہے اور NH₃ کی مولی کسر 0.20 ہے۔ NH₃ کا جزوی دباؤ نکالیں۔ پھر امونیا کی تیاری میں Kp–Kc تعلق کے لیے Δngas کا مطلب لکھیں۔",
+              "modelAnswer": "جزوی دباؤ pNH₃ = xNH₃ × Ptotal = 0.20 × 5.0 = 1.0 bar۔ N₂ + 3H₂ ⇌ 2NH₃ کے لیے Δngas گیسی مصنوعات کے عددی ضارب کے مجموعے میں سے گیسی عامل مادوں کے عددی ضارب کا مجموعہ منفی کرنے سے ملتا ہے: 2 − (1 + 3) = −2۔ مثالی گیس کے لیے Kp = Kc(RT)⁻² ہے؛ اکائیاں مطابقت رکھیں اور T کیلون میں ہو۔",
+              "rubric": [
+                "جزوی دباؤ کا درست تعلق (1)",
+                "درست حساب: 1.0 bar (1)",
+                "Δngas کی درست تعریف (1)",
+                "امونیا کے لیے −2 اور Kp تعلق (2)"
+              ]
+            },
+            "sd": {
+              "question": "گئسي ملاوٽ جو ڪل دٻاءُ 5.0 bar آهي ۽ NH₃ جو مول فريڪشن 0.20 آهي. NH₃ جو جزوي دٻاءُ ڪڍو. پوءِ امونيا ٺاهڻ ۾ Kp–Kc لاڳاپي لاءِ Δngas جو مطلب لکو.",
+              "modelAnswer": "جزوي دٻاءُ pNH₃ = xNH₃ × Ptotal = 0.20 × 5.0 = 1.0 bar. N₂ + 3H₂ ⇌ 2NH₃ لاءِ Δngas گئسي پيداوارن جي ضاربن جي مجموعي مان گئسي عاملن جي ضاربن جو مجموعو گهٽائڻ سان ملي ٿو: 2 − (1 + 3) = −2. مثالي گئس لاءِ Kp = Kc(RT)⁻² آهي؛ ايڪايون ٺهڪندڙ هجن ۽ T ڪيلون ۾ هجي.",
+              "rubric": [
+                "جزوي دٻاءَ جو صحيح لاڳاپو (1)",
+                "صحيح حساب: 1.0 bar (1)",
+                "Δngas جي صحيح تعريف (1)",
+                "امونيا لاءِ −2 ۽ Kp لاڳاپو (2)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-crq-04",
+          "type": "crq",
+          "marks": 6,
+          "question": "For the exothermic Haber equilibrium, predict the shift caused by (a) adding nitrogen, (b) increasing pressure at constant temperature, and (c) increasing temperature. State which change alters K.",
+          "modelAnswer": "Adding nitrogen shifts the system forward to consume some of the added reactant and form more ammonia. Increasing pressure by compression shifts it toward ammonia because the product side has two gas moles compared with four on the reactant side. Increasing temperature shifts it in the reverse, endothermic direction. Temperature changes K; for this exothermic forward reaction, a temperature rise decreases K. Nitrogen addition and pressure change do not alter K at the same temperature.",
+          "rubric": [
+            "Adding nitrogen: forward/right (1)",
+            "Increasing pressure: fewer gas moles, forward/right (2)",
+            "Increasing temperature: reverse/left (1)",
+            "Only temperature changes K; K decreases on heating (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "حرارت خارج کرنے والے ہیبر توازن کے لیے پیش گوئی کریں: (الف) نائٹروجن بڑھانا، (ب) مستقل درجۂ حرارت پر دباؤ بڑھانا، (ج) درجۂ حرارت بڑھانا۔ بتائیں کون سی تبدیلی K بدلتی ہے۔",
+              "modelAnswer": "نائٹروجن بڑھانے سے نظام آگے کی سمت جاتا ہے تاکہ شامل شدہ عامل کا کچھ حصہ استعمال کر کے زیادہ امونیا بنائے۔ حجم کم کر کے دباؤ بڑھانے سے امونیا والی طرف توازن جاتا ہے کیونکہ مصنوعات کی طرف دو اور عامل طرف چار گیسی مول ہیں۔ درجۂ حرارت بڑھانے سے الٹی، حرارت جذب کرنے والی سمت پسندیدہ ہوتی ہے۔ K صرف درجۂ حرارت بدلنے سے بدلتا ہے؛ اس حرارت خارج کرنے والے آگے کے عمل میں گرم کرنے سے K کم ہوتا ہے۔ نائٹروجن یا دباؤ کی تبدیلی مستقل درجۂ حرارت پر K نہیں بدلتی۔",
+              "rubric": [
+                "نائٹروجن بڑھانے پر آگے/دائیں سمت (1)",
+                "دباؤ بڑھانے پر کم گیسی مول والی آگے سمت (2)",
+                "درجۂ حرارت بڑھانے پر الٹی/بائیں سمت (1)",
+                "صرف درجۂ حرارت K بدلتا ہے؛ گرم کرنے سے K کم (2)"
+              ]
+            },
+            "sd": {
+              "question": "گرمي خارج ڪندڙ هيبر توازن لاءِ اڳڪٿي ڪريو: (الف) نائٽروجن وڌائڻ، (ب) مستقل گرمي پد تي دٻاءُ وڌائڻ، (ج) گرمي پد وڌائڻ. ٻڌايو ته ڪهڙي تبديلي K بدلائي ٿي.",
+              "modelAnswer": "نائٽروجن وڌائڻ سان نظام اڳتي واري رخ ۾ وڃي ٿو ته جيئن شامل ڪيل عامل جو ڪجهه حصو استعمال ڪري وڌيڪ امونيا ٺاهي. حجم گهٽائي دٻاءُ وڌائڻ سان امونيا واري پاسي توازن وڃي ٿو، ڇاڪاڻ⁠تہ پيداوار پاسي ٻه ۽ عامل پاسي چار گئسي مول آهن. گرمي پد وڌائڻ سان پوئتي، گرمي جذب ڪندڙ رخ پسند ٿيندو. K صرف گرمي پد بدلائڻ سان بدلجي ٿو؛ هن گرمي خارج ڪندڙ اڳتي واري عمل ۾ گرمي پد وڌائڻ سان K گهٽجي ٿو. نائٽروجن يا دٻاءُ بدلائڻ سان مستقل گرمي پد تي K نٿو بدلجي.",
+              "rubric": [
+                "نائٽروجن وڌائڻ سان اڳتي/ساڄي رخ (1)",
+                "دٻاءُ وڌائڻ سان گهٽ گئسي مول وارو اڳتي رخ (2)",
+                "گرمي پد وڌائڻ سان پوئتي/کاٻي رخ (1)",
+                "صرف گرمي پد K بدلائي ٿو؛ گرمي وڌائڻ سان K گهٽ (2)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-erq-01",
           "type": "erq",
           "marks": 10,
-          "question": "Explain chapter 7: chemical equilibrium and discuss one practical or numerical application.",
-          "modelAnswer": "A reversible reaction can reach dynamic equilibrium when forward and reverse reaction rates become equal. Concentrations remain constant, not necessarily equal. Le Chatelier's principle predicts how a system responds to changes in concentration, pressure or temperature. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "question": "Explain dynamic equilibrium and derive the Kc expression for a general homogeneous reaction. Then describe Kp, the mole-fraction/partial-pressure relation and how K changes when an equation is reversed or multiplied.",
+          "modelAnswer": "For aA + bB ⇌ cC + dD, dynamic equilibrium in a closed system is reached when forward and reverse rates are equal. Concentrations remain constant but need not be equal; molecular events continue. The law of mass action gives Kc = [C]^c[D]^d/([A]^a[B]^b), using equilibrium concentrations. Pure solids and liquids are omitted. For gases, Kp uses equilibrium partial pressures with the same coefficient powers. Partial pressure pi = xiPtotal and xi = ni/ntotal. For ideal gases Kp = Kc(RT)^Δngas, where Δngas is gaseous product coefficients minus gaseous reactant coefficients and T is kelvin. Reversing the equation gives 1/K; multiplying all coefficients by n gives Kⁿ. K changes with temperature, not with concentration or pressure at fixed temperature.",
           "rubric": [
-            "Accurate concept (3)",
-            "Application/example (3)",
-            "Reasoning and steps (2)",
-            "Clarity and units (2)"
-          ]
+            "Dynamic equilibrium definition and closed-system condition (2)",
+            "Correct general Kc derivation/expression and pure phase rule (3)",
+            "Kp expression and partial-pressure/mole-fraction relation (2)",
+            "Kp–Kc relationship with Δngas (1)",
+            "Reverse and coefficient-scaling rules (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "متحرک توازن کی وضاحت کریں اور عمومی ہم جنس عمل کے لیے Kc کا اظہار اخذ کریں۔ پھر Kp، مولی کسر/جزوی دباؤ کا تعلق اور مساوات الٹنے یا عددی ضارب بڑھانے سے K میں تبدیلی بیان کریں۔",
+              "modelAnswer": "عمومی عمل aA + bB ⇌ cC + dD میں بند نظام کے اندر متحرک توازن اس وقت قائم ہوتا ہے جب آگے اور الٹے عمل کی رفتار برابر ہو۔ ارتکاز مستقل رہتے ہیں مگر برابر ہونا ضروری نہیں؛ سالماتی عمل جاری رہتا ہے۔ قانونِ عملِ کمیت سے Kc = [C]^c[D]^d/([A]^a[B]^b) حاصل ہوتا ہے، جس میں توازن کے ارتکاز استعمال ہوتے ہیں۔ خالص ٹھوس اور مائع خارج کیے جاتے ہیں۔ گیسوں کے لیے Kp توازن کے جزوی دباؤ اور وہی عددی قوتیں استعمال کرتا ہے۔ جزوی دباؤ pi = xiPtotal اور xi = ni/ntotal ہے۔ مثالی گیس کے لیے Kp = Kc(RT)^Δngas، جہاں Δngas گیسی مصنوعات کے ضاربوں کے مجموعے میں سے گیسی عاملوں کے مجموعے کو منفی کرنے سے ملتا ہے اور T کیلون میں ہوتا ہے۔ مساوات الٹنے سے نیا مستقل 1/K اور تمام ضارب n سے ضرب دینے پر Kⁿ ہوتا ہے۔ مستقل درجۂ حرارت پر ارتکاز یا دباؤ بدلنے سے K نہیں بدلتا؛ درجۂ حرارت بدلنے سے بدلتا ہے۔",
+              "rubric": [
+                "متحرک توازن کی تعریف اور بند نظام (2)",
+                "درست عمومی Kc اظہار اور خالص حالت کا اصول (3)",
+                "Kp اور جزوی دباؤ/مولی کسر کا تعلق (2)",
+                "Δngas کے ساتھ Kp–Kc تعلق (1)",
+                "مساوات الٹنے اور ضارب کی قوت کے اصول (2)"
+              ]
+            },
+            "sd": {
+              "question": "متحرڪ توازن سمجهايو ۽ عام هم جنس عمل لاءِ Kc جو اظهار اخذ ڪريو. پوءِ Kp، مول فريڪشن/جزوي دٻاءَ جو لاڳاپو ۽ مساوات ابتِي يا ضارب وڌائڻ سان K ۾ تبديلي بيان ڪريو.",
+              "modelAnswer": "عام عمل aA + bB ⇌ cC + dD ۾ بند نظام اندر متحرڪ توازن تڏهن قائم ٿئي ٿو جڏهن اڳتي ۽ پوئتي عمل جون رفتارون برابر ٿين. ارتڪاز مستقل رهن ٿا پر ضروري ناهي ته برابر هجن؛ ماليڪيولي عمل جاري رهي ٿو. عمل جي قانون مان Kc = [C]^c[D]^d/([A]^a[B]^b ملي ٿو، جنهن ۾ توازن جا ارتڪاز استعمال ٿين ٿا. خالص ٺوس ۽ مائع خارج ڪبا آهن. گئسن لاءِ Kp توازن جا جزوي دٻاءَ ۽ ساڳيون قوتون استعمال ڪري ٿو. جزوي دٻاءُ pi = xiPtotal ۽ xi = ni/ntotal آهي. مثالي گئس لاءِ Kp = Kc(RT)^Δngas، جتي Δngas گئسي پيداوارن جي ضاربن جي مجموعي مان گئسي عاملن جو مجموعو گهٽائڻ سان ملي ٿو ۽ T ڪيلون ۾ هوندو آهي. مساوات ابتِي ڪرڻ سان نئون مستقل 1/K ۽ سڀ ضارب n سان ضرب ڪرڻ سان Kⁿ ٿيندو. مستقل گرمي پد تي ارتڪاز يا دٻاءُ بدلائڻ سان K نٿو بدلجي؛ گرمي پد بدلائڻ سان بدلجي ٿو.",
+              "rubric": [
+                "متحرڪ توازن جي تعريف ۽ بند نظام (2)",
+                "صحيح عام Kc اظهار ۽ خالص حالت وارو اصول (3)",
+                "Kp ۽ جزوي دٻاءَ/مول فريڪشن جو لاڳاپو (2)",
+                "Δngas سان Kp–Kc لاڳاپو (1)",
+                "مساوات ابتِي ۽ ضارب جي قوت جا اصول (2)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-erq-02",
+          "type": "erq",
+          "marks": 10,
+          "question": "Discuss how Le Chatelier's principle is used in the Haber and Contact processes. Include balanced equations, the effects of pressure and temperature, the role of catalysts, and the industrial compromises.",
+          "modelAnswer": "Haber: N₂ + 3H₂ ⇌ 2NH₃ + heat. The forward reaction is exothermic and reduces gas moles from four to two. High pressure favours ammonia. Lower temperature favours the exothermic direction but slows the rate, so industry uses a compromise temperature around 400–450 °C, high pressure and an iron-based catalyst. Ammonia is separated and unreacted gases recycled. Contact: 2SO₂ + O₂ ⇌ 2SO₃ + heat. It is exothermic and reduces gas moles from three to two. V₂O₅ catalyst is used around 400–450 °C; pressure is near atmospheric because high-pressure equipment cost may outweigh the modest extra yield. A catalyst increases both rates and speeds approach to equilibrium but does not change K or equilibrium composition. Industrial conditions balance yield, rate, cost, safety and environmental impact.",
+          "rubric": [
+            "Correct Haber equation and exothermic/fewer-moles reasoning (3)",
+            "Haber conditions and iron catalyst/recycling (2)",
+            "Correct Contact equation and V₂O₅ catalyst/conditions (2)",
+            "Catalyst does not shift equilibrium or change K (1)",
+            "Yield/rate/cost/safety trade-off (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "ہیبر اور کانٹیکٹ عمل میں لی شاٹلیے کے اصول کے استعمال پر بحث کریں۔ متوازن مساوات، دباؤ اور درجۂ حرارت کے اثرات، عاملوں کا کردار اور صنعتی سمجھوتے شامل کریں۔",
+              "modelAnswer": "ہیبر: N₂ + 3H₂ ⇌ 2NH₃ + حرارت۔ آگے کا عمل حرارت خارج کرتا ہے اور گیسی مول چار سے دو کرتا ہے۔ زیادہ دباؤ امونیا کو ترجیح دیتا ہے۔ کم درجۂ حرارت حرارت خارج کرنے والی سمت کو ترجیح دیتا ہے مگر رفتار کم کرتا ہے؛ اس لیے صنعت تقریباً 400–450 °C کا درمیانی درجۂ حرارت، زیادہ دباؤ اور آہنی عامل استعمال کرتی ہے۔ امونیا الگ کیا جاتا ہے اور غیر استعمال شدہ گیسیں واپس چلائی جاتی ہیں۔ کانٹیکٹ: 2SO₂ + O₂ ⇌ 2SO₃ + حرارت۔ یہ عمل حرارت خارج کرتا ہے اور گیسی مول تین سے دو کرتا ہے۔ V₂O₅ عامل تقریباً 400–450 °C پر استعمال ہوتا ہے؛ دباؤ فضائی دباؤ کے قریب رکھا جاتا ہے کیونکہ زیادہ دباؤ کے سامان کی لاگت اضافی پیداوار سے زیادہ ہو سکتی ہے۔ عامل دونوں رفتاریں بڑھاتا ہے مگر K یا آخری ترکیب نہیں بدلتا۔ صنعتی حالات پیداوار، رفتار، لاگت، حفاظت اور ماحول میں توازن رکھتے ہیں۔",
+              "rubric": [
+                "ہیبر مساوات اور حرارت خارج/کم گیسی مول کی دلیل (3)",
+                "ہیبر حالات، آہنی عامل اور گیسوں کی واپسی (2)",
+                "کانٹیکٹ مساوات، V₂O₅ عامل اور حالات (2)",
+                "عامل توازن یا K نہیں بدلتا (1)",
+                "پیداوار/رفتار/لاگت/حفاظت کا سمجھوتہ (2)"
+              ]
+            },
+            "sd": {
+              "question": "هيبر ۽ ڪانٽيڪٽ عملن ۾ لي شاٽليئر جي اصول جي استعمال تي بحث ڪريو. متوازن مساواتون، دٻاءَ ۽ گرمي پد جا اثر، ڪيٽالسٽن جو ڪردار ۽ صنعتي سمجهوتا شامل ڪريو.",
+              "modelAnswer": "هيبر: N₂ + 3H₂ ⇌ 2NH₃ + گرمي. اڳتي وارو عمل گرمي خارج ڪري ٿو ۽ گئسي مول چار مان ٻه ڪري ٿو. وڌيڪ دٻاءُ امونيا کي پسند ڪري ٿو. گهٽ گرمي پد گرمي خارج ڪندڙ رخ کي پسند ڪري ٿو پر رفتار گهٽائي ٿو؛ تنهنڪري صنعت تقريباً 400–450 °C سمجهوتي وارو گرمي پد، وڌيڪ دٻاءُ ۽ لوهه تي ٻڌل ڪيٽالسٽ استعمال ڪري ٿي. امونيا الڳ ڪئي وڃي ٿي ۽ اڻ استعمال ٿيل گئسون ٻيهر هلايون وڃن ٿيون. ڪانٽيڪٽ: 2SO₂ + O₂ ⇌ 2SO₃ + گرمي. اهو عمل گرمي خارج ڪري ٿو ۽ گئسي مول ٽي مان ٻه ڪري ٿو. V₂O₅ ڪيٽالسٽ تقريباً 400–450 °C تي استعمال ٿئي ٿو؛ دٻاءُ فضائي دٻاءَ جي ويجهو رکجي ٿو، ڇاڪاڻ⁠تہ وڌيڪ دٻاءَ واري سامان جي قيمت ٿوري اضافي پيداوار کان وڌيڪ ٿي سگهي ٿي. ڪيٽالسٽ ٻئي رفتارون وڌائي ٿو پر K يا آخري ملاوٽ نٿو بدلائي. صنعتي حالتون پيداوار، رفتار، قيمت، حفاظت ۽ ماحول ۾ توازن رکن ٿيون.",
+              "rubric": [
+                "هيبر مساوات ۽ گرمي خارج/گهٽ گئسي مول جي دليل (3)",
+                "هيبر حالتون، لوهه ڪيٽالسٽ ۽ گئسن جي واپسي (2)",
+                "ڪانٽيڪٽ مساوات، V₂O₅ ڪيٽالسٽ ۽ حالتون (2)",
+                "ڪيٽالسٽ توازن يا K نٿو بدلائي (1)",
+                "پيداوار/رفتار/قيمت/حفاظت جو سمجهوتو (2)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-eq-erq-03",
+          "type": "erq",
+          "marks": 10,
+          "question": "Explain salt hydrolysis using ammonium chloride, sodium acetate and sodium chloride. Include the relevant ion–water equations and connect equilibrium control with an industrial or environmental application.",
+          "modelAnswer": "NH₄Cl is formed from a strong acid and weak base. NH₄⁺ is the conjugate acid of NH₃ and reacts with water: NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺, making the solution acidic. CH₃COONa contains CH₃COO⁻, the conjugate base of weak ethanoic acid; CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻, making the solution basic. NaCl is formed from a strong acid and strong base, so its ions hydrolyse negligibly and the solution is approximately neutral. For a weak-acid/weak-base salt, compare Ka and Kb. In industrial processes such as fertilizer manufacture, equilibrium conditions are chosen to improve yield while controlling energy use, emissions, corrosion and wastewater pH. A sound answer links the equilibrium concept to measured pH and safe waste treatment.",
+          "rubric": [
+            "NH₄Cl acidic and correct hydrolysis equation (2)",
+            "CH₃COONa basic and correct hydrolysis equation (2)",
+            "NaCl approximately neutral with correct reason (2)",
+            "Weak-acid/weak-base comparison using Ka/Kb (1)",
+            "Relevant industrial/environmental application and safety (3)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "امونیم کلورائیڈ، سوڈیم ایسیٹیٹ اور سوڈیم کلورائیڈ کی مدد سے نمکیات کے ہائیڈرولائسز کی وضاحت کریں۔ متعلقہ آئن-پانی مساواتیں لکھیں اور توازن کے کنٹرول کو صنعتی یا ماحولیاتی اطلاق سے جوڑیں۔",
+              "modelAnswer": "NH₄Cl مضبوط تیزاب اور کمزور اساس سے بنتا ہے۔ NH₄⁺، NH₃ کا ہمزاد تیزاب ہے اور پانی سے عمل کرتا ہے: NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺، اس لیے محلول تیزابی ہوتا ہے۔ CH₃COONa میں CH₃COO⁻ کمزور ایسیٹک/ایتھانوئک تیزاب کا ہمزاد اساس ہے؛ CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻، اس لیے محلول بنیادی ہوتا ہے۔ NaCl مضبوط تیزاب اور مضبوط اساس سے بنتا ہے، اس کے آئن پانی سے نہایت کم عمل کرتے ہیں اور محلول تقریباً غیر جانب دار رہتا ہے۔ کمزور تیزاب اور کمزور اساس کے نمک کے لیے Ka اور Kb کا موازنہ کریں۔ کھاد سازی جیسے صنعتی عمل میں پیداوار بہتر کرنے کے لیے توازن کی حالتیں منتخب کی جاتی ہیں جبکہ توانائی، اخراج، زنگ لگنے اور گندے پانی کے pH کو قابو کیا جاتا ہے۔ درست جواب توازن کو ناپے گئے pH اور محفوظ فضلہ علاج سے جوڑتا ہے۔",
+              "rubric": [
+                "NH₄Cl تیزابی اور درست مساوات (2)",
+                "CH₃COONa بنیادی اور درست مساوات (2)",
+                "NaCl تقریباً غیر جانب دار اور وجہ (2)",
+                "کمزور تیزاب/اساس میں Ka/Kb موازنہ (1)",
+                "صنعتی/ماحولیاتی اطلاق اور حفاظت (3)"
+              ]
+            },
+            "sd": {
+              "question": "امونيم ڪلورائيڊ، سوڊيم ايسيٽيٽ ۽ سوڊيم ڪلورائيڊ سان لوڻن جي هائيڊرولائسز سمجهايو. لاڳاپيل آئن-پاڻي مساواتون لکو ۽ توازن جي ڪنٽرول کي صنعتي يا ماحولياتي استعمال سان ڳنڍيو.",
+              "modelAnswer": "NH₄Cl مضبوط تيزاب ۽ ڪمزور اساس مان ٺهي ٿو. NH₄⁺، NH₃ جو conjugate acid آهي ۽ پاڻي سان عمل ڪري ٿو: NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺، تنهنڪري محلول تيزابي ٿئي ٿو. CH₃COONa ۾ CH₃COO⁻ ڪمزور اٿانوئيڪ تيزاب جو conjugate base آهي؛ CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻، تنهنڪري محلول بنيادي ٿئي ٿو. NaCl مضبوط تيزاب ۽ مضبوط اساس مان ٺهي ٿو، ان جا آئن پاڻي سان تمام گهٽ عمل ڪن ٿا ۽ محلول لڳ ڀڳ غيرجانبدار رهي ٿو. ڪمزور تيزاب ۽ ڪمزور اساس جي لوڻ لاءِ Ka ۽ Kb ڀيٽيو. ڀاڻ ٺاهڻ جهڙن صنعتي عملن ۾ پيداوار بهتر ڪرڻ لاءِ توازن جون حالتون چونڊجن ٿيون، جڏهن ته توانائي، اخراج، زنگ ۽ گندي پاڻي جو pH ڪنٽرول ڪيو وڃي ٿو. صحيح جواب توازن کي ماپيل pH ۽ محفوظ فضلي جي علاج سان ڳنڍي ٿو.",
+              "rubric": [
+                "NH₄Cl تيزابي ۽ صحيح مساوات (2)",
+                "CH₃COONa بنيادي ۽ صحيح مساوات (2)",
+                "NaCl لڳ ڀڳ غيرجانبدار ۽ سبب (2)",
+                "ڪمزور تيزاب/اساس لاءِ Ka/Kb ڀيٽ (1)",
+                "صنعتي/ماحولياتي استعمال ۽ حفاظت (3)"
+              ]
+            }
+          }
         }
       ],
-      "contentTier": "outline"
+      "contentTier": "exam-ready",
+      "learningOutcomes": [
+        "Explain reversible reactions and dynamic equilibrium using equal forward and reverse rates, closed-system conditions and microscopic/macroscopic evidence.",
+        "Distinguish constant equilibrium concentrations from equal concentrations and describe equilibrium between physical states.",
+        "Derive and use Kc expressions for homogeneous reactions, including stoichiometric powers, pure-phase omissions, units and magnitude.",
+        "Write Kp expressions from partial pressures and relate partial pressure to mole fraction and total pressure.",
+        "Use Kp = Kc(RT)^Δngas for ideal-gas equilibria and transform equilibrium constants when equations are reversed or scaled.",
+        "Apply Le Chatelier's principle to concentration, pressure, temperature and catalyst changes, distinguishing a shift from a change in K.",
+        "Explain the equilibrium compromises and catalyst roles in the Haber and Contact processes.",
+        "Predict acidic, basic or approximately neutral salt solutions using conjugate-acid/base hydrolysis."
+      ],
+      "keyTerms": [
+        "reversible reaction",
+        "dynamic equilibrium",
+        "closed system",
+        "forward rate",
+        "reverse rate",
+        "microscopic event",
+        "macroscopic property",
+        "law of mass action",
+        "equilibrium constant",
+        "Kc",
+        "Kp",
+        "partial pressure",
+        "mole fraction",
+        "Δngas",
+        "Le Chatelier's principle",
+        "exothermic reaction",
+        "endothermic reaction",
+        "Haber process",
+        "Contact process",
+        "salt hydrolysis",
+        "conjugate acid",
+        "conjugate base"
+      ],
+      "sources": [
+        {
+          "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
+          "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+          "pages": "52–54",
+          "slos": [
+            "C-11-B-116",
+            "C-11-B-117",
+            "C-11-B-118",
+            "C-11-B-119",
+            "C-11-B-120",
+            "C-11-B-121",
+            "C-11-B-122",
+            "C-11-B-123",
+            "C-11-B-124",
+            "C-11-B-125",
+            "C-11-B-126",
+            "C-11-B-127",
+            "C-11-B-128",
+            "C-11-B-129"
+          ],
+          "notes": "Official Grade XI Equilibria standard and learning outcomes: dynamic equilibrium, physical-state equilibrium, Kc, Kp, mole fraction/partial pressure, equilibrium shifts, Haber and Contact processes, industrial optimization and salt hydrolysis."
+        },
+        {
+          "title": "Government of Sindh HSC Science Group reduced syllabus 2024–25",
+          "url": "https://www.dcar.gos.pk/other_notifications/HSC%20Science%20Group.pdf",
+          "pages": "Annexure-A8, Chemistry XI Chapter 7",
+          "notes": "Official chapter-number cross-check lists Chapter 7 Chemical Equilibrium and Le Chatelier's principle/Haber process; used as a chapter-title crosswalk, not as a replacement for the 2024 DCAR SLOs."
+        },
+        {
+          "title": "Sindh Textbook Board eBooks catalogue",
+          "url": "https://ebooks.stbb.edu.pk/",
+          "notes": "Official catalogue for teacher verification of current textbook edition and medium; chapter numbering must be rechecked if the board issues a revised book."
+        }
+      ]
     },
     {
       "title": "Chapter 8: Acids, Bases and Salts",
