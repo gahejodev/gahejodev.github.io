@@ -105,6 +105,7 @@ export async function createLesson3D(container){
  return {
   setScene(s={}){const next=typeFor(s);if(next!==active){disposeTree(model);root.clear();active=next;model=builders[next]();root.add(model);rotX=rotY=sceneProgress=0;zoom=1}scheduleRender();return active},
   setProgress(p){sceneProgress=Math.max(0,Math.min(1,Number(p)||0));rotY=sceneProgress*Math.PI*.7;zoom=1+.12*Math.sin(sceneProgress*Math.PI);scheduleRender()},
+  renderNow(){if(canRender())renderScene()},
   reset(){rotX=rotY=sceneProgress=0;zoom=1;scheduleRender()},
   getCanvas(){return renderer.domElement},
   dispose(){disposed=true;stopRender();document.removeEventListener("visibilitychange",onVisibilityChange);if(reducedMotionQuery?.removeEventListener)reducedMotionQuery.removeEventListener("change",onMotionChange);else reducedMotionQuery?.removeListener?.(onMotionChange);renderer.domElement.removeEventListener("pointerdown",down);renderer.domElement.removeEventListener("pointermove",move);renderer.domElement.removeEventListener("pointerup",up);renderer.domElement.removeEventListener("pointercancel",up);renderer.domElement.removeEventListener("wheel",wheel);intersectionObserver?.disconnect();resizeObserver?.disconnect();if(!resizeObserver)window.removeEventListener("resize",resize);renderer.dispose();disposeTree(root);disposeTree(particles);container.replaceChildren()}
