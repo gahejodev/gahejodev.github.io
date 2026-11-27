@@ -156,7 +156,9 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
     #zeerozInstallHelp p{color:#526078;font-size:14px;line-height:1.6}
     #zeerozInstallHelp button{border:0;border-radius:11px;padding:12px 17px;background:#0757e8;color:#fff;font-weight:850}
     @media(max-width:480px){#zeerozInstallNotice{left:10px;right:10px;bottom:10px;padding:12px;gap:9px}#zeerozInstallNotice .install-mark{width:38px;height:38px}#zeerozInstallNotice button{padding:9px 10px}}
-  </style>
+  
+.solid-structure-visualization{margin:0}.solid-structure-heading{margin:8px 0;color:#071b49;font-size:18px}.solid-structure-intro,.solid-structure-note,.solid-structure-assumptions{color:#5f6d86;font-size:12px;margin:6px 0 10px}.solid-structure-controls{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.solid-structure-mode{flex:1 1 110px;min-height:40px;border:1px solid #dce5f2;border-radius:10px;padding:9px 11px;background:#edf3ff;color:#1748ad;font-weight:850;cursor:pointer}.solid-structure-mode[aria-pressed="true"]{background:#0757e8;color:#fff;border-color:#0757e8}.solid-structure-mode:focus-visible{outline:3px solid #e6a700;outline-offset:3px}.solid-structure-plot{display:block;width:100%;height:auto;max-height:240px;background:#f7faff;border:1px solid #e0e8f5;border-radius:12px}.solid-structure-readouts{display:grid;grid-template-columns:1fr;gap:7px;margin:10px 0}.solid-structure-stat{padding:8px 10px;background:#f3f7ff;border:1px solid #e2eaf7;border-radius:10px}.solid-structure-stat small{display:block;color:#65718a;font-size:10px;font-weight:750}.solid-structure-stat strong{display:block;color:#071b49;font-size:12px;line-height:1.4}.solid-structure-assumptions{font-size:10px!important;color:#6c7890!important}@media(prefers-reduced-motion:reduce){.solid-structure-visualization *{animation:none!important;transition:none!important}}
+</style>
 <!-- Google Analytics 4: Zeeroz Academy -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4XY9QLGCM"></script>
 <script>
@@ -331,6 +333,11 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
     </div>
     <p class="visual-caption">Assumptions: water density 1000 kg/m³, g = 9.81 m/s², steady incompressible flow and no leakage. Continuity gives A₁v₁ = A₂v₂; pressure is gauge pressure ρgh.</p>
     <div class="visual-actions"><a href="catalog.html?level=XI">Explore Class XI Physics →</a><button class="light" id="resetFluid" type="button">Reset experiment</button></div>
+   </article>
+   <article class="visual-card" id="solidLabCard" aria-label="Live Chemistry crystalline and amorphous solid model">
+    <span class="visual-tag">Live Chemistry model</span>
+    <div id="solidHomeDemo"></div>
+    <div class="visual-actions"><a href="catalog.html?level=XI">Explore Class XI Chemistry →</a></div>
    </article>
   </div>
  </div>
@@ -648,8 +655,10 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
 
 
 <script type="module">
-import { mountLiquidModel } from "./visual-learning.js";
+import { mountLiquidModel, mountSolidStructureModel } from "./visual-learning.js";
 const target=document.getElementById("liquidHomeDemo");
 if(target){let language="en";try{language=localStorage.getItem("zeerozCourseLanguage")||"en"}catch(_){}mountLiquidModel(target,{language});}
+const solidTarget=document.getElementById("solidHomeDemo");
+if(solidTarget){let language="en";try{language=localStorage.getItem("zeerozCourseLanguage")||"en"}catch(_){}mountSolidStructureModel(solidTarget,{language});}
 </script>
 </body></html>

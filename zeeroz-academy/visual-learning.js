@@ -206,3 +206,52 @@ export function mountLiquidModel(container,{language="en"}={}){
  reset.addEventListener("click",()=>{temp.input.value="25";attraction.input.value="2";update();});
  update();container.append(panel);return panel;
 }
+
+let solidModelSequence=0;
+const solidCopy={
+ en:{title:"Explore crystalline and amorphous solids",intro:"Switch the model to compare long-range order with a disordered solid structure.",crystal:"Crystalline",amorphous:"Amorphous",order:"Particle arrangement",melting:"Melting behaviour",cleavage:"Fracture pattern",crystalOrder:"Repeating long-range lattice",amorphousOrder:"No long-range periodic order",crystalMelting:"Relatively sharp melting point",amorphousMelting:"Softens over a temperature range",crystalCleavage:"May split along preferred planes",amorphousCleavage:"No regular lattice cleavage planes",crystalNote:"The repeating lattice creates characteristic planes and symmetry.",amorphousNote:"Local order may exist, but there is no repeating pattern over long distances.",assumptions:"Teaching diagram only, not to scale. Real samples can contain defects, several crystal grains or mixed crystalline and amorphous regions.",description:"A schematic particle arrangement for a crystalline solid."},
+ ur:{title:"قلمی اور بے قلمی ٹھوس دیکھیں",intro:"طویل فاصلے کی ترتیب اور بے ترتیب ٹھوس ساخت کا موازنہ کریں۔",crystal:"قلمی",amorphous:"بے قلمی",order:"ذرات کی ترتیب",melting:"پگھلنے کا رویہ",cleavage:"ٹوٹنے کا انداز",crystalOrder:"طویل فاصلے تک دہرایا جانے والا جال",amorphousOrder:"طویل فاصلے کی باقاعدہ ترتیب نہیں",crystalMelting:"نسبتاً واضح نقطۂ پگھلاؤ",amorphousMelting:"درجۂ حرارت کی حد میں نرم ہوتا ہے",crystalCleavage:"ترجیحی سطحوں کے ساتھ ٹوٹ سکتا ہے",amorphousCleavage:"جالی کی باقاعدہ شکست کی سطحیں نہیں",crystalNote:"دہرایا جانے والا جال مخصوص سطحیں اور توازن بناتا ہے۔",amorphousNote:"مقامی ترتیب ہو سکتی ہے، مگر طویل فاصلے تک دہرایا جانے والا نمونہ نہیں۔",assumptions:"صرف تدریسی خاکہ، پیمانے کے مطابق نہیں۔ حقیقی نمونوں میں نقائص، کئی قلمی دانے یا ملی جلی قلمی اور بے قلمی ساخت ہو سکتی ہے۔",description:"قلمی ٹھوس میں ذرات کی خاکہ نما ترتیب۔"},
+ sd:{title:"قلمی ۽ بي قلمی ٺوس ڏسو",intro:"ڊگهي فاصلي واري ترتيب ۽ بي ترتيب ٺوس بناوت جو ڀيٽ ڪريو.",crystal:"قلمی",amorphous:"بي قلمی",order:"ذرڙن جي ترتيب",melting:"پگھلڻ جو رويو",cleavage:"ٽٽڻ جو نمونو",crystalOrder:"ڊگهي فاصلي تائين ورجائجندڙ جال",amorphousOrder:"ڊگهي فاصلي واري باقاعده ترتيب ناهي",crystalMelting:"نسبتاً واضح پگھلڻ وارو نقطو",amorphousMelting:"گرمي پد جي حد ۾ نرم ٿئي ٿو",crystalCleavage:"ترجيحي سطحن سان ٽٽي سگهي ٿو",amorphousCleavage:"جال جون باقاعده ٽٽڻ واريون سطحون ناهن",crystalNote:"ورجائجندڙ جال خاص سطحون ۽ همواري پيدا ڪري ٿو.",amorphousNote:"مقامي ترتيب ٿي سگهي ٿي، پر ڊگهي فاصلي تائين ورجائجندڙ نمونو ناهي.",assumptions:"رڳو تدريسي خاڪو، ماپ مطابق ناهي. حقيقي نمونن ۾ نقص، ڪيترائي قلمی داڻا يا گڏيل قلمی ۽ بي قلمی حصا ٿي سگهن ٿا.",description:"قلمی ٺوس ۾ ذرڙن جي خاڪي ترتيب."}
+};
+const amorphousPoints=[[45,47],[93,38],[143,56],[195,39],[250,51],[310,40],[61,92],[116,105],[164,88],[219,111],[275,91],[326,111],[36,153],[88,143],[138,166],[188,145],[241,158],[297,148],[68,188],[121,190],[177,185],[230,190],[284,181],[329,185]];
+export function mountSolidStructureModel(container,{language="en"}={}){
+ if(!container||container.querySelector('[data-visualization="solid-structure"]'))return null;
+ const lang=["en","ur","sd"].includes(language)?language:"en",t=solidCopy[lang],uid=++solidModelSequence;
+ const panel=makeNode("section","lesson-visualization solid-structure-visualization");
+ panel.dataset.visualization="solid-structure";panel.setAttribute("role","region");
+ const heading=makeNode("h4","solid-structure-heading",t.title);heading.id="solidStructureHeading"+uid;panel.setAttribute("aria-labelledby",heading.id);
+ panel.append(heading,makeNode("p","solid-structure-intro",t.intro));
+ const controls=makeNode("div","solid-structure-controls");controls.setAttribute("role","group");controls.setAttribute("aria-label",t.title);
+ const crystalButton=makeNode("button","solid-structure-mode",t.crystal),amorphousButton=makeNode("button","solid-structure-mode",t.amorphous);
+ crystalButton.type="button";amorphousButton.type="button";controls.append(crystalButton,amorphousButton);panel.append(controls);
+ const svg=makeSvg("svg",{viewBox:"0 0 360 220",class:"solid-structure-plot",role:"img","aria-labelledby":"solidStructureSvgTitle"+uid+" solidStructureSvgDesc"+uid});
+ const svgTitle=makeSvg("title",{id:"solidStructureSvgTitle"+uid}),svgDesc=makeSvg("desc",{id:"solidStructureSvgDesc"+uid});
+ const background=makeSvg("rect",{x:8,y:8,width:344,height:204,rx:14,fill:"#f7faff",stroke:"#d8e3f2","stroke-width":"1.5"});
+ const structure=makeSvg("g");svg.append(svgTitle,svgDesc,background,structure);panel.append(svg);
+ const stats=makeNode("div","solid-structure-readouts");stats.setAttribute("aria-live","polite");stats.setAttribute("aria-atomic","true");
+ const fields={};
+ for(const key of ["order","melting","cleavage"]){const card=makeNode("article","solid-structure-stat");card.append(makeNode("small","",t[key]));fields[key]=makeNode("strong","","");card.append(fields[key]);stats.append(card)}
+ panel.append(stats);
+ const note=makeNode("p","solid-structure-note","");panel.append(note,makeNode("p","solid-structure-assumptions",t.assumptions));
+ const render=(mode)=>{
+  const crystalline=mode==="crystalline";structure.replaceChildren();
+  crystalButton.setAttribute("aria-pressed",String(crystalline));amorphousButton.setAttribute("aria-pressed",String(!crystalline));
+  if(crystalline){
+   for(let r=0;r<4;r++)for(let c=0;c<6;c++){const x=48+c*53,y=43+r*44;if(c<5)structure.append(makeSvg("line",{x1:x,y1:y,x2:x+53,y2:y,stroke:"#b4c5df","stroke-width":"1.5"}));if(r<3)structure.append(makeSvg("line",{x1:x,y1:y,x2:x,y2:y+44,stroke:"#b4c5df","stroke-width":"1.5"}))}
+   for(let r=0;r<4;r++)for(let c=0;c<6;c++){const x=48+c*53,y=43+r*44;structure.append(makeSvg("circle",{cx:x,cy:y,r:10,fill:(r+c)%2?"#78a9ee":"#3157d5",stroke:"#173d8b","stroke-width":"1.5"}))}
+   const label=makeSvg("text",{x:180,y:204,"text-anchor":"middle",fill:"#31507b","font-size":"10","font-weight":"700"});label.textContent="Repeating lattice";structure.append(label);
+   fields.order.textContent=t.crystalOrder;fields.melting.textContent=t.crystalMelting;fields.cleavage.textContent=t.crystalCleavage;
+   note.textContent=t.crystalNote;svgTitle.textContent=t.crystal;svgDesc.textContent=t.description;
+  }else{
+   const links=[[0,7],[2,9],[4,10],[6,13],[8,15],[11,17],[12,18],[14,20],[16,22]];
+   for(const [a,b] of links){const p=amorphousPoints[a],q=amorphousPoints[b];structure.append(makeSvg("line",{x1:p[0],y1:p[1],x2:q[0],y2:q[1],stroke:"#c3cfdf","stroke-width":"1.2","stroke-dasharray":"3 4"}))}
+   amorphousPoints.forEach((p,i)=>structure.append(makeSvg("circle",{cx:p[0],cy:p[1],r:10,fill:i%2?"#8dbfa8":"#2e9873",stroke:"#176a52","stroke-width":"1.5"})));
+   const label=makeSvg("text",{x:180,y:204,"text-anchor":"middle",fill:"#31507b","font-size":"10","font-weight":"700"});label.textContent="No repeating long-range pattern";structure.append(label);
+   fields.order.textContent=t.amorphousOrder;fields.melting.textContent=t.amorphousMelting;fields.cleavage.textContent=t.amorphousCleavage;
+   note.textContent=t.amorphousNote;svgTitle.textContent=t.amorphous;svgDesc.textContent=t.description+" "+t.amorphousOrder;
+  }
+ };
+ crystalButton.addEventListener("click",()=>render("crystalline"));
+ amorphousButton.addEventListener("click",()=>render("amorphous"));
+ render("crystalline");container.append(panel);return panel;
+}

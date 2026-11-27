@@ -67,3 +67,11 @@ Urdu voice synthesis and video recording run in the browser. Firebase browser co
 - Recommended imported clip: 5–8 seconds, MP4 or WebM, under 150 MB. Large clips may exceed mobile browser memory or encoder limits. Preview and verify the scientific accuracy of every AI-generated visual before publishing.
 - No Gemini API key is placed in browser code, local storage, Firestore or Git. Google Flow availability/credits and any API billing are separate from the local renderer. Direct API generation is intentionally not enabled until a secure server-side provider, model availability, Google Cloud project and billing configuration are confirmed.
 - The hybrid UI is an AI-assisted import-and-composite workflow, not a claim that the Studio itself currently generates AI video through an API. Social publishing remains governed by the separate Social Queue provider connection states.
+
+
+## Local video storage preflight — 2026-11-27
+- The Device readiness panel now calls the browser-native StorageManager.estimate() API when the browser exposes it and reports approximate free space for the local Social Queue.
+- Before IndexedDB handoff, the Studio compares the video size plus a small safety margin with the reported estimate. If space looks low, it asks before continuing; the estimate is approximate and does not reserve quota.
+- If IndexedDB reports QuotaExceededError, the Studio explains that the video was not added and suggests reviewing old local attachments or keeping the downloaded export elsewhere. The Studio never deletes existing user videos automatically.
+- StorageManager.estimate() and IndexedDB are browser-native; no new package, API key, paid storage, permission request, persistence grant or billing activation is added. Browser quotas and eviction policies vary by device/browser, and an estimate is not a guarantee.
+- Reference: https://developer.mozilla.org/en-US/docs/Web/API/StorageManager/estimate

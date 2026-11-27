@@ -56,7 +56,26 @@ let latestExportedVideo=null,cancel3DExport=null;
 let aiVisualClipElement=null,aiVisualClipUrl=null;
 const status=m=>$("status").textContent=m;
 let studioPreflight={sceneExport:false,full3DExport:false,mime:""};
+async function getLocalStorageEstimate(){
+ if(!navigator.storage||typeof navigator.storage.estimate!=="function")return null;
+ try{
+  const estimate=await navigator.storage.estimate();
+  const quotaBytes=Number(estimate?.quota),usageBytes=Number(estimate?.usage);
+  if(!Number.isFinite(quotaBytes)||quotaBytes<=0||!Number.isFinite(usageBytes)||usageBytes<0)return null;
+  return {quotaBytes,usageBytes,availableBytes:Math.max(0,quotaBytes-usageBytes)};
+ }catch(_){return null}
+}
+function localVideoStorageError(error,fallback){
+ if(error?.name==="QuotaExceededError"||/quota/i.test(error?.message||"")){
+  const friendly=new Error("Browser storage quota was reached. The video was not added. Remove older local video attachments only if you no longer need them, or keep this downloaded export elsewhere. Zeeroz Studio does not delete existing videos automatically.");
+  friendly.name="QuotaExceededError";return friendly;
+ }
+ return error||new Error(fallback);
+}
 function runStudioPreflight(){
+ return getLocalStorageEstimate().then(storageEstimate=>runStudioPreflightWithStorage(storageEstimate));
+}
+function runStudioPreflightWithStorage(storageEstimate){
  const recorder=typeof window.MediaRecorder==="function";
  const canvasCapture=typeof HTMLCanvasElement!=="undefined"&&typeof HTMLCanvasElement.prototype.captureStream==="function";
  const audioApi=typeof window.AudioContext==="function"||typeof window.webkitAudioContext==="function";
@@ -67,7 +86,7 @@ function runStudioPreflight(){
  if(recorder)for(const candidate of mimeCandidates){try{if(MediaRecorder.isTypeSupported(candidate)){mime=candidate;break}}catch(_){}}
  const indexedDBAvailable="indexedDB" in window;
  const online=typeof navigator.onLine==="boolean"?navigator.onLine:null;
- studioPreflight={sceneExport:recorder&&canvasCapture&&!!mime,full3DExport:recorder&&canvasCapture&&!!mime&&audioApi&&webgl2&&audioWorklet,mime,webgl2,audioWorklet,audioApi,indexedDBAvailable};
+ studioPreflight={sceneExport:recorder&&canvasCapture&&!!mime,full3DExport:recorder&&canvasCapture&&!!mime&&audioApi&&webgl2&&audioWorklet,mime,webgl2,audioWorklet,audioApi,indexedDBAvailable,storageEstimate};
  const items=[
   {label:"Canvas recording",ok:canvasCapture,detail:canvasCapture?"Canvas captureStream is available.":"This browser cannot capture a canvas stream."},
   {label:"MediaRecorder",ok:recorder,detail:recorder?"Browser recording API is available.":"MediaRecorder is unavailable."},
@@ -76,6 +95,7 @@ function runStudioPreflight(){
   {label:"WebGL 2",ok:webgl2,detail:webgl2?"WebGL 2 API is present for the 3D teacher.":"The 3D teacher requires WebGL 2."},
   {label:"AudioWorklet",ok:audioWorklet,detail:audioWorklet?"AudioWorklet is present for lip-sync processing.":"The 3D lip-sync engine requires AudioWorklet."},
   {label:"Local Social Queue",ok:indexedDBAvailable,detail:indexedDBAvailable?"IndexedDB is available for browser-local video attachments.":"Local video queue storage is unavailable."},
+  {label:"Estimated local space",ok:!storageEstimate||storageEstimate.availableBytes>0,detail:storageEstimate?formatAudioFileSize(storageEstimate.availableBytes)+" estimated free of "+formatAudioFileSize(storageEstimate.quotaBytes)+". Approximate only; not reserved.":"This browser does not expose a storage estimate; the save operation will report actual quota errors."},
   {label:"Network",ok:online!==false,detail:online===false?"Offline: cached models may work; first-time model downloads need a connection.":online===true?"Online: remote model files can be requested when needed.":"Network state is not exposed by this browser."}
  ];
  const list=$("readinessChecks");
@@ -103,8 +123,8 @@ async function storeSocialVideo(key,blob,fileName){
   const tx=database.transaction("videos","readwrite");
   tx.objectStore("videos").put({key,blob,fileName,mimeType:blob.type||"video/webm",sizeBytes:blob.size,createdAt:Date.now()});
   tx.oncomplete=()=>{database.close();resolve()};
-  tx.onerror=()=>{const error=tx.error||new Error("Could not save the video locally.");database.close();reject(error)};
-  tx.onabort=()=>{const error=tx.error||new Error("Local video save was cancelled.");database.close();reject(error)};
+  tx.onerror=()=>{const error=localVideoStorageError(tx.error,"Could not save the video locally.");database.close();reject(error)};
+  tx.onabort=()=>{const error=localVideoStorageError(tx.error,"Local video save was cancelled.");database.close();reject(error)};
  });
 }
 async function removeStoredSocialVideo(key){
@@ -668,6 +688,13 @@ $("saveToSocialQueue")?.addEventListener("click",async()=>{
   localKey="studio-"+crypto.randomUUID();
   const safeTitle=(latestExportedVideo.title||"zeeroz-lesson").replace(/[^a-z0-9-_]+/gi,"-").replace(/^-|-$/g,"")||"zeeroz-lesson";
   const fileName=safeTitle+"-reel."+(latestExportedVideo.extension||((latestExportedVideo.mimeType||"").includes("mp4")?"mp4":"webm"));
+  const storageEstimate=await getLocalStorageEstimate();
+  const videoBytes=latestExportedVideo.blob.size;
+  const requiredBytes=videoBytes+Math.max(4*1024*1024,Math.ceil(videoBytes*.05));
+  if(storageEstimate&&storageEstimate.availableBytes<requiredBytes){
+   const proceed=window.confirm("Browser estimate: "+formatAudioFileSize(storageEstimate.availableBytes)+" available; this video is "+formatAudioFileSize(videoBytes)+". The estimate is approximate and does not reserve space. Continue? Existing local videos will not be deleted.");
+   if(!proceed){note.textContent="Save cancelled. Existing local videos were not changed.";button.disabled=false;return;}
+  }
   await storeSocialVideo(localKey,latestExportedVideo.blob,fileName);
   const publishMode=$("socialPublishMode").value;
   const lesson=window.currentLesson?.lesson;

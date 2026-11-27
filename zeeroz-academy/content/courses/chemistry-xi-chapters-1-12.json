@@ -1,8 +1,8 @@
 {
   "id": "chemistry-xi-chapters-1-12",
   "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
-  "description": "Supplementary Chemistry XI course with 12 units. Chapters 1–3 are exam-ready against DCAR 2024 Grade XI SLOs; Chapters 4–12 remain outline-stage.",
-  "version": "8",
+  "description": "Supplementary Chemistry XI course with 12 units. Chapters 1–6 are exam-ready against DCAR 2024 Grade XI SLOs; Chapters 7–12 remain outline-stage.",
+  "version": "9",
   "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B: Chapter 1 Stoichiometry SLOs C-11-B-50 to C-11-B-59; Chapter 2 Atomic Structure C-11-B-01 to C-11-B-27; Chapter 3 Covalent Bonding C-11-B-32 to C-11-B-39 with polarity cross-link C-11-B-46; Chapter 4 Gases C-11-B-69; Chapter 5 Liquids C-11-B-61 to C-11-B-68. Chapters 1–5 are exam-ready; Chapters 6–12 remain outline-stage.",
   "sourceReferences": [
     {
@@ -3586,7 +3586,7 @@
     },
     {
       "title": "Chapter 5: States of Matter II — Liquids",
-      "description": "Exam-ready Grade XI study of liquid particle behaviour, intermolecular attractions, evaporation, vapour pressure, boiling, viscosity, surface tension, water's thermal properties and latent heat, aligned to DCAR Sindh Chemistry 2024.",
+      "description": "Exam-ready Grade XI study of liquid particle behaviour, intermolecular attractions, evaporation, vapour pressure, viscosity, surface tension, water's thermal properties, latent heat and liquid crystals, aligned to DCAR Sindh Chemistry 2024.",
       "contentTier": "exam-ready",
       "learningOutcomes": [
         "Use the kinetic particle model to explain liquid diffusion, low compressibility, expansion, particle motion, spacing and kinetic energy.",
@@ -3595,7 +3595,8 @@
         "Relate boiling point to equality of vapour pressure and external pressure; predict qualitative effects of temperature and pressure.",
         "Define viscosity and surface tension and explain how intermolecular cohesion and temperature influence them.",
         "Explain water's high surface tension, high specific heat capacity, relatively low vapour pressure, high heat of vaporization and high boiling point using hydrogen bonding.",
-        "Define molar heats of fusion and vaporization and apply latent-heat calculations to phase changes and glacier/ice-sheet contexts."
+        "Define molar heats of fusion and vaporization and apply latent-heat calculations to phase changes and glacier/ice-sheet contexts.",
+        "Describe liquid crystals and give everyday uses; distinguish their partial molecular order and fluidity from ordinary liquids and crystalline solids."
       ],
       "keyTerms": [
         "kinetic particle theory",
@@ -3617,7 +3618,12 @@
         "specific heat capacity",
         "molar heat of fusion",
         "molar heat of vaporization",
-        "latent heat"
+        "latent heat",
+        "liquid crystal",
+        "orientational order",
+        "nematic phase",
+        "smectic phase",
+        "liquid-crystal display"
       ],
       "lessons": [
         {
@@ -3654,6 +3660,15 @@
           "explanations": {
             "ur": "ہائیڈروجن بند پانی کے زیادہ سطحی تناؤ، زیادہ مخصوص حرارت، نسبتاً کم بخاراتی دباؤ، زیادہ حرارتِ تبخیر اور زیادہ نقطۂ ابلاؤ کو سمجھانے میں مدد دیتے ہیں۔ مخصوص حرارت درجۂ حرارت کی تبدیلی سے اور مخفی حرارت حالت کی تبدیلی سے متعلق ہے۔ مولر حرارتِ پگھلاؤ ایک مول ٹھوس کو نقطۂ پگھلاؤ پر بغیر درجۂ حرارت بدلے پگھلانے کی توانائی ہے؛ مولر حرارتِ تبخیر ایک مول مائع کو نقطۂ ابلاؤ پر گیس بنانے کی توانائی ہے۔ Q=mL یا Q=nΔH استعمال کریں۔ پگھلنے یا ابلنے کے دوران درجۂ حرارت تقریباً مستقل رہتا ہے۔ 1,000 kg برف کے لیے Q=1,000×334=334,000 kJ=334 MJ۔ یہ سادہ حساب ہے، مکمل گلیشیئر ماڈل نہیں۔",
             "sd": "هائيڊروجن بند پاڻي جي وڌيڪ سطحي ڇڪ، وڌيڪ مخصوص گرمي، نسبتاً گهٽ ٻاڦ واري دٻاءَ، وڌيڪ ٻاڦ ٿيڻ جي گرمي ۽ وڌيڪ اُبال نقطي کي سمجهائين ٿا. مخصوص گرمي گرمي پد جي تبديلي سان ۽ مخفي گرمي حالت جي تبديلي سان لاڳاپيل آهي. مولر پگھلڻ جي گرمي هڪ مول ٺوس کي پگھلڻ واري نقطي تي گرمي پد بدلاڻ کان سواءِ پگھلائڻ جي توانائي آهي؛ مولر ٻاڦ ٿيڻ جي گرمي هڪ مول مائع کي اُبال واري نقطي تي گئس ڪرڻ جي توانائي آهي. Q=mL يا Q=nΔH استعمال ڪريو. پگھلڻ يا اُبالڻ دوران گرمي پد لڳ ڀڳ ساڳيو رهي ٿو. 1,000 kg برف لاءِ Q=1,000×334=334,000 kJ=334 MJ. هي سادو حساب آهي، مڪمل گليشيئر ماڊل ناهي۔"
+          }
+        },
+        {
+          "title": "5.5 Liquid crystals: partial order in a fluid",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe liquid crystals, identify everyday uses and distinguish their molecular order from that of ordinary liquids and crystalline solids.\n\nA liquid crystal is a state of matter whose molecules can flow as a liquid while retaining some degree of ordered orientation. It is not simply an ordinary liquid and it is not a rigid crystal. In a common nematic phase, elongated molecules tend to point in a similar direction but their centres are not fixed on a repeating three-dimensional lattice. In a smectic phase, molecules also form layers; the detailed arrangements vary between phases.\n\nCompare the three states carefully:\n- An ordinary liquid flows and usually has no long-range positional or orientational order.\n- A liquid crystal flows but has partial order, often a preferred molecular direction.\n- A crystalline solid has a repeating three-dimensional arrangement and does not flow as a bulk liquid under ordinary conditions.\n\nLiquid-crystal molecules respond to temperature, surfaces and electric fields. In a liquid-crystal display (LCD), an applied voltage changes molecular orientation. Together with polarising filters and a light source, this controls how much light reaches each pixel. The liquid crystal does not produce light by itself.\n\n**Applications:** LCD screens in calculators, watches, monitors and instrument panels; temperature-sensitive indicators; optical shutters and some sensor devices.\n\n**Important distinction:** The term liquid crystal describes the material's phase, not the complete electronic display. Not every LCD design uses exactly the same liquid-crystal phase or arrangement.\n\n**Check:** Why is a liquid crystal neither an ordinary liquid nor a conventional crystalline solid?\n\n**Revision:** Liquid crystals combine fluidity with partial molecular order. Their orientation can respond to fields and temperature, which makes them useful in display and sensing technologies.",
+          "explanations": {
+            "ur": "مائع قلمی مادے کی ایسی حالت ہے جس میں سالمات مائع کی طرح بہہ سکتے ہیں مگر ان کی سمت میں کچھ ترتیب باقی رہتی ہے۔ عام مائع میں طویل فاصلے کی سمتی ترتیب نہیں ہوتی؛ مائع قلمی میں سالمات اکثر ایک ترجیحی سمت اختیار کرتے ہیں؛ جبکہ قلمی ٹھوس میں تین جہتی باقاعدہ جال ہوتا ہے اور وہ عام حالات میں بہتا نہیں۔ نیماتک حالت میں لمبے سالمات تقریباً ایک سمت میں ہوتے ہیں مگر ان کے مراکز مقرر جال میں نہیں ہوتے۔ سمیٹک حالت میں سالمات تہیں بھی بناتے ہیں۔ LCD میں برقی وولٹیج سالمات کی سمت بدلتا ہے؛ پولرائزنگ فلٹر اور روشنی کا منبع مل کر پکسل سے گزرنے والی روشنی کو کنٹرول کرتے ہیں۔ مائع قلمی خود روشنی پیدا نہیں کرتا۔ استعمالات میں کیلکولیٹر، گھڑی، مانیٹر، آلات کے پینل، درجۂ حرارت کے اشارے اور آپٹیکل آلات شامل ہیں۔ مائع قلمی مادہ اور مکمل الیکٹرانک ڈسپلے ایک ہی چیز نہیں ہیں۔",
+            "sd": "مائع قلمی مادي جي اهڙي حالت آهي جنهن ۾ ماليڪيول مائع وانگر وهي سگهن ٿا، پر انهن جي رخ ۾ ڪجهه ترتيب باقي رهي ٿي. عام مائع ۾ ڊگهي فاصلي واري رخ جي ترتيب نه هوندي؛ مائع قلمي ۾ ماليڪيول اڪثر هڪ ترجيحي رخ اختيار ڪن ٿا؛ جڏهن ته قلمي ٺوس ۾ ٽي-dimensional باقاعده جال هوندو آهي ۽ عام حالتن ۾ اهو وهي نٿو. نيميٽڪ حالت ۾ ڊگها ماليڪيول لڳ ڀڳ هڪ رخ ۾ هوندا آهن پر انهن جا مرڪز مقرر جال ۾ ناهن. سميٽڪ حالت ۾ ماليڪيول تهه به ٺاهين ٿا. LCD ۾ برقي وولٽيج ماليڪيولن جو رخ بدلائي ٿو؛ پولرائيزنگ فلٽر ۽ روشني جو ذريعو گڏجي پکسل مان گذرندڙ روشني ڪنٽرول ڪن ٿا. مائع قلمي پاڻ روشني پيدا نٿو ڪري. استعمالن ۾ ڪيلڪيوليٽر، گهڙي، مانيٽر، اوزارن جا پينل، گرمي پد جا اشارا ۽ آپٽيڪل اوزار شامل آهن. مائع قلمي مادو ۽ مڪمل اليڪٽرانڪ ڊسپلي ساڳي شيءِ ناهن."
           }
         }
       ],
@@ -4167,6 +4182,142 @@
               "explanation": "Q = mLf = 1,000 × 334 = 334,000 kJ يعني 334 MJ."
             }
           }
+        },
+        {
+          "id": "chem-xi-liq-mcq-16",
+          "question": "Which feature best identifies a liquid-crystal phase?",
+          "options": {
+            "A": "Molecules are fixed at lattice points and cannot flow.",
+            "B": "The material flows while retaining partial molecular orientational order.",
+            "C": "It contains only isolated gas particles.",
+            "D": "It has no response to temperature or electric fields."
+          },
+          "correctOption": "B",
+          "explanation": "Liquid crystals can flow, but their molecules retain partial orientational order; their arrangement is between an ordinary liquid and a crystalline solid.",
+          "translations": {
+            "ur": {
+              "question": "مائع قلمی حالت کی بنیادی پہچان کیا ہے؟",
+              "options": {
+                "A": "سالمات جال کے مقامات پر مقرر ہوتے ہیں اور بہہ نہیں سکتے۔",
+                "B": "مادہ بہتا ہے مگر سالمات کی سمت میں جزوی ترتیب باقی رہتی ہے۔",
+                "C": "اس میں صرف الگ گیس کے ذرات ہوتے ہیں۔",
+                "D": "یہ درجۂ حرارت یا برقی میدان سے متاثر نہیں ہوتا۔"
+              },
+              "explanation": "مائع قلمی بہہ سکتا ہے مگر سالمات کی سمت میں کچھ ترتیب برقرار رہتی ہے؛ یہ عام مائع اور قلمی ٹھوس کے درمیان خصوصیات رکھتا ہے۔"
+            },
+            "sd": {
+              "question": "مائع قلمي حالت جي بنيادي سڃاڻپ ڪهڙي آهي؟",
+              "options": {
+                "A": "ماليڪيول جال جي هنڌن تي مقرر آهن ۽ وهي نٿا سگهن.",
+                "B": "مادو وهي ٿو پر ماليڪيولن جي رخ ۾ جزوي ترتيب رهي ٿي.",
+                "C": "ان ۾ رڳو الڳ گئس جا ذرڙا آهن.",
+                "D": "اهو گرمي پد يا برقي ميدان کان متاثر نٿو ٿئي."
+              },
+              "explanation": "مائع قلمي وهي سگهي ٿو، پر ماليڪيولن جي رخ ۾ ڪجهه ترتيب برقرار رهي ٿي؛ ان جون خاصيتون عام مائع ۽ قلمی ٺوس جي وچ ۾ آهن۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-17",
+          "question": "How does a typical nematic liquid crystal differ from an ordinary liquid?",
+          "options": {
+            "A": "Its molecules tend to share a preferred direction.",
+            "B": "Its molecules are locked into a rigid cubic lattice.",
+            "C": "It has no molecular motion.",
+            "D": "It consists of ions only."
+          },
+          "correctOption": "A",
+          "explanation": "A nematic phase has orientational order: molecules tend to align along a director, although their centres are not fixed in a crystal lattice.",
+          "translations": {
+            "ur": {
+              "question": "عام مائع کے مقابلے میں نیماتک مائع قلمی میں کیا فرق ہوتا ہے؟",
+              "options": {
+                "A": "اس کے سالمات ایک ترجیحی سمت میں رخ اختیار کرتے ہیں۔",
+                "B": "اس کے سالمات سخت مکعبی جال میں بند ہوتے ہیں۔",
+                "C": "اس میں سالماتی حرکت نہیں ہوتی۔",
+                "D": "یہ صرف آئنوں سے بنا ہوتا ہے۔"
+              },
+              "explanation": "نیماتک حالت میں سالمات ایک ترجیحی سمت میں ہوتے ہیں، اگرچہ ان کے مراکز قلمی جال میں مقرر نہیں ہوتے۔"
+            },
+            "sd": {
+              "question": "عام مائع جي ڀيٽ ۾ نيميٽڪ مائع قلمي ۾ ڪهڙو فرق آهي؟",
+              "options": {
+                "A": "ان جا ماليڪيول هڪ ترجيحي رخ ۾ هوندا آهن.",
+                "B": "ان جا ماليڪيول سخت ڪعبي جال ۾ بند هوندا آهن.",
+                "C": "ان ۾ ماليڪيولي حرڪت ناهي.",
+                "D": "اهو رڳو آئنن مان ٺهيل آهي."
+              },
+              "explanation": "نيميٽڪ حالت ۾ ماليڪيول هڪ ترجيحي رخ ۾ هوندا آهن، پر انهن جا مرڪز قلمی جال ۾ مقرر ناهن۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-18",
+          "question": "Which comparison is correct?",
+          "options": {
+            "A": "An ordinary liquid has long-range crystal order; a liquid crystal has none.",
+            "B": "A liquid crystal is always a rigid solid.",
+            "C": "A liquid crystal flows and may retain orientational order, while a crystalline solid has a repeating lattice.",
+            "D": "A crystalline solid and a liquid crystal are identical states."
+          },
+          "correctOption": "C",
+          "explanation": "Liquid crystals retain some order while remaining fluid; crystalline solids have long-range repeating structure and do not flow as a bulk liquid.",
+          "translations": {
+            "ur": {
+              "question": "درست موازنہ کون سا ہے؟",
+              "options": {
+                "A": "عام مائع میں طویل فاصلے کی قلمی ترتیب ہوتی ہے؛ مائع قلمی میں نہیں۔",
+                "B": "مائع قلمی ہمیشہ سخت ٹھوس ہوتا ہے۔",
+                "C": "مائع قلمی بہتا ہے اور سمت کی ترتیب رکھ سکتا ہے، جبکہ قلمی ٹھوس میں دہرایا جانے والا جال ہوتا ہے۔",
+                "D": "قلمی ٹھوس اور مائع قلمی ایک ہی حالت ہیں۔"
+              },
+              "explanation": "مائع قلمی کچھ ترتیب کے ساتھ بہتا ہے؛ قلمی ٹھوس میں طویل فاصلے کا دہرایا جانے والا جال ہوتا ہے اور وہ مائع کی طرح نہیں بہتا۔"
+            },
+            "sd": {
+              "question": "صحيح ڀيٽ ڪهڙي آهي؟",
+              "options": {
+                "A": "عام مائع ۾ ڊگهي فاصلي واري قلمی ترتيب هوندي آهي؛ مائع قلمي ۾ نه.",
+                "B": "مائع قلمي هميشه سخت ٺوس هوندو آهي.",
+                "C": "مائع قلمي وهي ٿو ۽ رخ جي ترتيب رکي سگهي ٿو، جڏهن ته قلمی ٺوس ۾ ورجائجندڙ جال هوندو آهي.",
+                "D": "قلمی ٺوس ۽ مائع قلمي ساڳي حالت آهن."
+              },
+              "explanation": "مائع قلمي ڪجهه ترتيب سان وهي ٿو؛ قلمی ٺوس ۾ ڊگهي فاصلي وارو ورجائجندڙ جال هوندو آهي ۽ اهو مائع وانگر نٿو وهي۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-liq-mcq-19",
+          "question": "In a common liquid-crystal display, what does an applied voltage primarily change?",
+          "options": {
+            "A": "The number of protons in each molecule.",
+            "B": "The orientation of liquid-crystal molecules, changing transmitted light.",
+            "C": "The mass of the display.",
+            "D": "The chemical identity of the glass cover."
+          },
+          "correctOption": "B",
+          "explanation": "An electric field changes molecular orientation; with polarizers and a light source this controls the light transmitted through a pixel.",
+          "translations": {
+            "ur": {
+              "question": "عام مائع قلمی ڈسپلے میں برقی وولٹیج بنیادی طور پر کیا بدلتا ہے؟",
+              "options": {
+                "A": "ہر سالمے میں پروٹون کی تعداد۔",
+                "B": "مائع قلمی سالمات کی سمت، جس سے گزرنے والی روشنی بدلتی ہے۔",
+                "C": "ڈسپلے کی کمیت۔",
+                "D": "شیشے کے کور کی کیمیائی شناخت۔"
+              },
+              "explanation": "برقی میدان سالمات کی سمت بدلتا ہے؛ پولرائزر اور روشنی کے منبع کے ساتھ یہ پکسل سے گزرنے والی روشنی کو کنٹرول کرتا ہے۔"
+            },
+            "sd": {
+              "question": "عام مائع قلمي ڊسپلي ۾ برقي وولٽيج بنيادي طور ڇا بدلائي ٿو؟",
+              "options": {
+                "A": "هر ماليڪيول ۾ پروٽانن جو تعداد.",
+                "B": "مائع قلمي ماليڪيولن جو رخ، جنهن سان گذرندڙ روشني بدلجي ٿي.",
+                "C": "ڊسپلي جو وزن.",
+                "D": "شيشي جي ڍڪ جي ڪيميائي سڃاڻپ."
+              },
+              "explanation": "برقي ميدان ماليڪيولن جو رخ بدلائي ٿو؛ پولرائزر ۽ روشني جي ذريعي سان پکسل مان گذرندڙ روشني ڪنٽرول ٿئي ٿي۔"
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -4359,6 +4510,41 @@
               ]
             }
           }
+        },
+        {
+          "id": "chem-xi-liq-crq-04",
+          "type": "crq",
+          "marks": 5,
+          "question": "Compare an ordinary liquid, a liquid crystal and a crystalline solid in terms of flow and molecular order. Give one use of liquid crystals.",
+          "modelAnswer": "An ordinary liquid flows and normally lacks long-range positional and orientational order. A liquid crystal flows but retains partial molecular orientational order (and some phases also have layered order). A crystalline solid has a repeating long-range lattice and does not flow as a bulk liquid. Liquid crystals are used in LCD screens, where an electric field changes molecular orientation and controls transmitted light.",
+          "rubric": [
+            "Ordinary liquid: flows with no long-range order (1)",
+            "Liquid crystal: flows with partial orientational/layer order (2)",
+            "Crystalline solid: repeating lattice and no bulk flow (1)",
+            "One correct use, such as LCDs (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "عام مائع، مائع قلمی اور قلمی ٹھوس کا بہاؤ اور سالماتی ترتیب کے لحاظ سے موازنہ کریں۔ مائع قلمیوں کا ایک استعمال بتائیں۔",
+              "modelAnswer": "عام مائع بہتا ہے اور عموماً طویل فاصلے کی سمتی یا مکانی ترتیب نہیں رکھتا۔ مائع قلمی بہتا ہے مگر سالمات کی سمت میں جزوی ترتیب برقرار رکھتا ہے؛ بعض حالتوں میں تہہ دار ترتیب بھی ہوتی ہے۔ قلمی ٹھوس میں طویل فاصلے کا دہرایا جانے والا جال ہوتا ہے اور وہ مجموعی طور پر مائع کی طرح نہیں بہتا۔ مائع قلمی LCD اسکرینوں میں استعمال ہوتے ہیں، جہاں برقی میدان سالمات کی سمت بدل کر گزرنے والی روشنی کو کنٹرول کرتا ہے۔",
+              "rubric": [
+                "عام مائع: بہاؤ اور طویل فاصلے کی ترتیب نہیں (1)",
+                "مائع قلمی: بہاؤ کے ساتھ جزوی سمتی/تہہ دار ترتیب (2)",
+                "قلمی ٹھوس: دہرایا جانے والا جال اور مجموعی بہاؤ نہیں (1)",
+                "ایک درست استعمال، مثلاً LCD (1)"
+              ]
+            },
+            "sd": {
+              "question": "عام مائع، مائع قلمي ۽ قلمی ٺوس جو وهڪري ۽ ماليڪيولي ترتيب جي لحاظ کان ڀيٽ ڪريو. مائع قلمين جو هڪ استعمال ٻڌايو.",
+              "modelAnswer": "عام مائع وهي ٿو ۽ عام طور ڊگهي فاصلي واري رخ يا جڳهه جي ترتيب نٿو رکي. مائع قلمي وهي ٿو پر ماليڪيولن جي رخ ۾ جزوي ترتيب رکي ٿو؛ ڪجهه حالتن ۾ تهه واري ترتيب به هوندي آهي. قلمی ٺوس ۾ ڊگهي فاصلي وارو ورجائجندڙ جال هوندو آهي ۽ اهو مجموعي طور مائع وانگر نٿو وهي. مائع قلمي LCD اسڪرينن ۾ استعمال ٿين ٿا، جتي برقي ميدان ماليڪيولن جو رخ بدلائي گذرندڙ روشني ڪنٽرول ڪري ٿو.",
+              "rubric": [
+                "عام مائع: وهي ٿو ۽ ڊگهي فاصلي واري ترتيب ناهي (1)",
+                "مائع قلمي: وهڪري سان جزوي رخ/تهه واري ترتيب (2)",
+                "قلمی ٺوس: ورجائجندڙ جال ۽ مجموعي وهڪرو ناهي (1)",
+                "هڪ صحيح استعمال، مثال LCD (1)"
+              ]
+            }
+          }
         }
       ],
       "caseStudy": "A climate-science class models the melting of 1,000 kg of glacier ice at 0 °C. Given Lf = 334 kJ kg⁻¹, students calculate the energy required and explain why temperature remains at the melting point during the phase change. They discuss how water's high specific heat capacity and high heat of vaporization influence energy exchange in lakes, oceans and the atmosphere. The simplified calculation excludes snowfall, sublimation, runoff, changing sunlight, wind, air/water temperature and heat exchange with rock; it is not a complete glacier mass-balance prediction.",
@@ -4374,81 +4560,819 @@
         "Hydrogen bonding contributes to water's high surface tension, specific heat and heat of vaporization.",
         "During melting or boiling, latent heat changes state while temperature remains constant until the phase change is complete.",
         "Use Q=mL for specific latent heat and Q=nΔHphase for molar latent heat; include units and assumptions."
+      ],
+      "sources": [
+        {
+          "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
+          "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+          "pages": "45",
+          "slos": [
+            "C-11-B-70",
+            "C-11-B-71"
+          ],
+          "notes": "Official Grade XI outcomes: describe liquid crystals and uses; differentiate them from pure liquids and crystalline solids."
+        },
+        {
+          "title": "Sindh Textbook Board eBooks catalogue",
+          "url": "https://ebooks.stbb.edu.pk/",
+          "notes": "Official catalogue for checking the currently listed Chemistry XI textbook and medium; textbook edition/chapter mapping should be confirmed by the teacher."
+        }
       ]
     },
     {
       "title": "Chapter 6: States of Matter III — Solids",
-      "description": "Supplementary topic 6: Chapter 6: States of Matter III — Solids.",
+      "description": "Exam-ready Grade XI study of solid-state particle behaviour, crystalline and amorphous structures, crystal geometry, melting behaviour, cleavage, crystal habit and crystal growth, aligned to DCAR Sindh Chemistry 2024.",
       "lessons": [
         {
-          "title": "Chapter 6: States of Matter III — Solids — concepts",
+          "title": "6.1 Solid particles: kinetic model, compression and expansion",
           "type": "text",
-          "content": "## Learning outcomes\nSolid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help explain hardness, melting behaviour and other physical properties.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "content": "## Learning outcomes\nUse the kinetic particle model to explain the motion, spacing, forces, compressibility and thermal expansion of solids.\n\nIn a solid, particles are packed close together and remain near fixed mean positions. They have kinetic energy and vibrate; they do not normally travel freely through the bulk as liquid or gas particles do. Strong attractive interactions hold the structure together. The exact arrangement depends on the type of solid: many are crystalline, while others are amorphous.\n\n**Why solids resist compression:** particles already have little average space between them. A moderate external pressure cannot reduce this spacing very much. The particles are not perfectly motionless; their vibration continues.\n\n**Heating and expansion:** heating generally increases the average kinetic energy and vibration amplitude of particles. The average separation can increase slightly, so most solids expand. Expansion is not caused by particles moving steadily in one direction. Different materials expand by different amounts.\n\n**Intermolecular forces:** attractions between particles help maintain cohesion and determine how strongly the structure resists deformation. In ionic or metallic solids the relevant attractions are not ordinary intermolecular forces between neutral molecules; use the broader term particle-to-particle bonding or attraction where appropriate.\n\n**Example:** a metal bridge expands in hot weather. Engineers leave expansion joints so that thermal expansion does not create damaging stress.\n\n**Check:** If solid particles vibrate, why does a solid keep its shape?\n\n**Revision:** Close spacing explains low compressibility; vibrations around mean positions explain rigidity; heating usually increases vibration and average separation, causing expansion.",
           "explanations": {
-            "ur": "ٹھوس میں ذرات مقرر جگہوں کے گرد ارتعاش کرتے ہیں۔ قلمی ٹھوس میں باقاعدہ جالی ہوتی ہے؛ بے قلمی ٹھوس میں دور تک ترتیب نہیں ہوتی۔",
-            "sd": "ٺوس ۾ ذرڙا مقرر هنڌن تي ارتعاش ڪن ٿا. قلمی ٺوس ۾ باقاعده جال هوندو آهي؛ بي ترتيب ٺوس ۾ ڊگهي فاصلي جي ترتيب نه هوندي آهي."
+            "ur": "ٹھوس میں ذرات قریب ہوتے ہیں اور اپنی اوسط مقرر جگہوں کے گرد ارتعاش کرتے ہیں۔ ان میں حرکی توانائی ہوتی ہے مگر وہ عموماً مائع یا گیس کی طرح پورے مادے میں آزادانہ سفر نہیں کرتے۔ ذرات کے درمیان کم خالی جگہ ہونے سے ٹھوس کو دبانا مشکل ہے۔ گرم کرنے سے اوسط حرکی توانائی اور ارتعاش کا دائرہ بڑھتا ہے؛ اوسط فاصلہ کچھ بڑھ سکتا ہے، اس لیے زیادہ تر ٹھوس پھیلتے ہیں۔ ذرات ایک سمت میں مسلسل نہیں چلتے۔ دھاتی پلوں میں گرمی کے باعث پھیلاؤ کے لیے جوڑ رکھے جاتے ہیں۔",
+            "sd": "ٺوس ۾ ذرڙا ويجهو هوندا آهن ۽ پنهنجي سراسري مقرر هنڌن وٽ ارتعاش ڪندا آهن. انهن ۾ حرڪي توانائي هوندي آهي پر عام طور مائع يا گئس وانگر سڄي مادي ۾ آزاد سفر ناهن ڪندا. ذرڙن وچ خالي جاءِ گهٽ هجڻ سبب ٺوس کي دٻائڻ ڏکيو آهي. گرم ڪرڻ سان سراسري حرڪي توانائي ۽ ارتعاش جو دائرو وڌي ٿو؛ سراسري فاصلو ٿورو وڌي سگهي ٿو، تنهنڪري گهڻا ٺوس پکڙجن ٿا. ذرڙا هڪ رخ ۾ لڳاتار نٿا هلن. ڌاتوءَ جي پلن ۾ گرميءَ واري پکڙجڻ لاءِ جوڙ رکيا ويندا آهن."
           }
         },
         {
-          "title": "Chapter 6: States of Matter III — Solids — applications and problem solving",
+          "title": "6.2 Crystalline and amorphous solids: arrangement and properties",
           "type": "text",
-          "content": "Apply the concepts in chapter 6: states of matter iii — solids to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "content": "## Learning outcomes\nDifferentiate crystalline and amorphous solids and connect their structures with melting and fracture behaviour.\n\nA **crystalline solid** has a repeating arrangement of particles over long distances. The repeating pattern is a crystal lattice. Examples include sodium chloride crystals, quartz and diamond. A perfect single crystal may have different properties in different directions; this is called anisotropy.\n\nAn **amorphous solid** lacks long-range periodic order. It may still have local or short-range order. Ordinary window glass and many polymers are common examples. Amorphous materials are often approximately isotropic at the bulk scale, meaning their properties are similar in different directions.\n\n**Melting behaviour:** a well-defined crystalline substance at a specified pressure usually melts over a relatively narrow temperature interval. An amorphous material commonly softens over a range because different local environments do not all lose rigidity at one sharply defined temperature. Composition, impurities, defects and heating conditions can affect measured behaviour.\n\n**Cleavage and fracture:** some crystals split along preferred planes where separation is easier. Amorphous solids do not have the same repeating lattice planes, so their fracture is generally less regular.\n\n| Feature | Crystalline | Amorphous |\n|---|---|---|\n| Structure | Long-range periodic order | No long-range periodic order |\n| Melting | Usually relatively sharp for a pure substance | Usually softens over a range |\n| Cleavage | May show preferred planes | No regular lattice cleavage planes |\n| Directional properties | Single crystals may be anisotropic | Often approximately isotropic in bulk |\n\n**Important caveat:** real samples can be polycrystalline, contain defects or combine crystalline and amorphous regions. The table describes common idealised behaviour, not every material.\n\n**Check:** Why is glass not classified as a conventional crystalline solid even though it is rigid?\n\n**Revision:** Long-range order distinguishes crystalline from amorphous solids and helps explain melting and fracture differences.",
           "explanations": {
-            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
-            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+            "ur": "قلمی ٹھوس میں ذرات کی ترتیب طویل فاصلے تک دہرائی جاتی ہے؛ اسے قلمی جال کہتے ہیں۔ مثالیں نمک کے قلم، کوارٹز اور ہیرا ہیں۔ کامل واحد قلم میں بعض خصوصیات سمت کے ساتھ بدل سکتی ہیں، جسے سمتی تفاوت کہتے ہیں۔ بے قلمی ٹھوس میں طویل فاصلے کی باقاعدہ تکرار نہیں ہوتی، اگرچہ مقامی ترتیب ہو سکتی ہے؛ عام شیشہ اور کئی پولیمر مثالیں ہیں۔ خالص قلمی مادہ عموماً نسبتاً محدود درجۂ حرارت پر پگھلتا ہے، جبکہ بے قلمی مادہ ایک حد میں نرم ہوتا ہے۔ بعض قلمی ٹھوس مخصوص سطحوں کے ساتھ ٹوٹتے ہیں؛ بے قلمی مادے میں ایسی باقاعدہ جالی سطحیں نہیں ہوتیں۔ حقیقی نمونوں میں نقائص یا کئی قلمی دانے ہو سکتے ہیں۔",
+            "sd": "قلمی ٺوس ۾ ذرڙن جي ترتيب ڊگهي فاصلي تائين ورجائجي ٿي؛ ان کي قلمی جال چئبو آهي. مثال لوڻ جا قلم، ڪوارٽز ۽ هيرو آهن. مڪمل اڪيلي قلم ۾ ڪجهه خاصيتون رخ سان بدلجي سگهن ٿيون، جنهن کي رخائتو فرق چئبو آهي. بي قلمی ٺوس ۾ ڊگهي فاصلي واري باقاعده ورجاءُ ناهي، جيتوڻيڪ مقامي ترتيب ٿي سگهي ٿي؛ عام شيشو ۽ ڪيترائي پوليمر مثال آهن. خالص قلمی مادو عام طور محدود گرمي پد تي پگھلندو آهي، جڏهن ته بي قلمی مادو هڪ حد ۾ نرم ٿيندو آهي. ڪجهه قلمی ٺوس مخصوص سطحن سان ٽٽندا آهن؛ بي قلمی مادي ۾ اهڙيون باقاعده جالي سطحون ناهن. حقيقي نمونن ۾ نقص يا ڪيترائي قلمی داڻا ٿي سگهن ٿا."
+          }
+        },
+        {
+          "title": "6.3 Crystal shape, melting point, cleavage planes and crystal habit",
+          "type": "text",
+          "content": "## Learning outcomes\nDescribe the observable properties of crystals and explain why their external form can vary.\n\nA crystal may develop flat faces and characteristic angles because its internal lattice has an ordered structure. The geometrical shape is related to symmetry and the arrangement of particles, but a natural or laboratory crystal may not show every ideal face if growth is restricted.\n\nA **melting point** is the temperature at which a solid and liquid phase coexist in equilibrium at a stated pressure. A pure crystalline substance commonly has a relatively sharp melting point. Impurities can lower or broaden the melting interval.\n\nA **cleavage plane** is a preferred plane along which a crystal can split. Cleavage occurs when bonding or structural resistance is weaker in particular directions. It is not the same as any random crack.\n\n**Crystal habit** means the usual external shape or appearance of crystals of a substance, such as cubic, needle-like or plate-like forms. Habit depends on the internal structure and growth conditions, including temperature, concentration, solvent, impurities and the space available.\n\n**Crystal growth** occurs when particles from a melt, vapour or solution join an ordered crystal surface. In a solution, nucleation creates a small stable seed; additional ions or molecules attach in an organised pattern. Slow, controlled growth often gives larger, better-formed crystals than rapid uncontrolled precipitation.\n\n**Check:** Why can the same substance form different-looking crystals under different growth conditions?\n\n**Revision:** Internal symmetry influences crystal geometry; cleavage follows preferred structural planes; growth conditions influence external habit.",
+          "explanations": {
+            "ur": "قلمی کے اندر ذرات کی منظم جالی کی وجہ سے ہموار سطحیں اور مخصوص زاویے بن سکتے ہیں، مگر جگہ یا رفتار کی پابندی سے کامل شکل ظاہر نہ بھی ہو۔ نقطۂ پگھلاؤ مقرر دباؤ پر وہ درجۂ حرارت ہے جہاں ٹھوس اور مائع توازن میں ہوں؛ خالص قلمی مادے کا نقطۂ پگھلاؤ عموماً نسبتاً واضح ہوتا ہے، جبکہ نجاست حد کو وسیع یا کم کر سکتی ہے۔ شکست کی سطح وہ ترجیحی سطح ہے جس کے ساتھ قلم ٹوٹ سکتا ہے۔ قلمی عادت سے مراد قلم کی عام بیرونی شکل ہے، مثلاً مکعب، سوئی یا پلیٹ۔ درجۂ حرارت، ارتکاز، محلل، نجاست اور جگہ اس شکل کو بدل سکتے ہیں۔ محلول میں پہلے مرکزہ بنتا ہے، پھر آئن یا سالمات ترتیب سے جڑتے ہیں۔ آہستہ اور قابو شدہ بڑھوتری سے عموماً بڑے اور بہتر قلم بنتے ہیں۔",
+            "sd": "قلم جي اندر ذرڙن جي منظم جال سبب هموار سطحون ۽ مخصوص زاويه ٺهي سگهن ٿا، پر جاءِ يا رفتار جي پابندي سبب مڪمل شڪل ظاهر نه به ٿئي. پگھلڻ جو نقطو مقرر دٻاءَ تي اهو گرمي پد آهي جتي ٺوس ۽ مائع توازن ۾ هجن؛ خالص قلمی مادو عام طور واضح گرمي پد تي پگھلندو آهي، جڏهن ته نجاست حد کي ويڪرو يا گهٽ ڪري سگهي ٿي. ٽٽڻ جي سطح اها ترجيحي سطح آهي جنهن سان قلم ٽٽي سگهي ٿو. قلمی عادت مان مراد قلم جي عام ٻاهرين شڪل آهي، مثال ڪعبي، سوئي جهڙي يا پليٽ جهڙي. گرمي پد، ارتڪاز، محلل، نجاست ۽ جاءِ اها شڪل بدلائي سگهن ٿا. محلول ۾ پهرين مرڪز ٺهي ٿو، پوءِ آئن يا ماليڪيول ترتيب سان لڳن ٿا. آهستي ۽ ڪنٽرول ٿيل واڌ سان عام طور وڏا ۽ بهتر قلم ٺهن ٿا."
+          }
+        },
+        {
+          "title": "6.4 Case study: growing and identifying crystals",
+          "type": "text",
+          "content": "## Application case study\nA school laboratory prepares a concentrated hot solution of alum or common salt. The solution is filtered, allowed to cool, and left in a clean covered container with a small seed crystal suspended by a thread.\n\nAs the solution cools or some solvent evaporates, it may become supersaturated. Particles then attach to the seed crystal in an ordered pattern. If the solution is disturbed or cools too quickly, many small crystals may form instead of one large crystal. Dust and impurities can alter the habit or become trapped inside the crystal.\n\n**Safe method:** use teacher supervision, clean glassware, suitable protective equipment and a labelled container. Do not taste laboratory chemicals. Follow the specific chemical's safety instructions.\n\n**Observation task:** record the solution temperature, time, crystal dimensions and visible shape each day. Compare slow growth with a rapidly cooled sample. Explain why size and habit may differ.\n\n**Interpretation:** a regular crystal shape is evidence of ordered growth, but appearance alone is not enough to identify an unknown substance. A proper identification requires suitable tests.\n\n**Revision:** nucleation starts a crystal; growth adds particles to its lattice; concentration, temperature, impurities and time affect the final habit.",
+          "explanations": {
+            "ur": "اسکول کی تجربہ گاہ میں پھٹکری یا عام نمک کا گرم مرتکز محلول تیار کیا جاتا ہے، اسے چھان کر ٹھنڈا ہونے دیا جاتا ہے اور صاف ڈھکے برتن میں دھاگے سے بندھے چھوٹے بیج قلم کے ساتھ رکھا جاتا ہے۔ ٹھنڈا ہونے یا پانی کے بخارات بننے سے محلول فوق سیر ہو سکتا ہے۔ پھر آئن یا سالمات بیج قلم کی جالی میں ترتیب سے جڑتے ہیں۔ بہت تیزی سے ٹھنڈا کرنے یا محلول ہلانے سے ایک بڑے قلم کے بجائے کئی چھوٹے قلم بن سکتے ہیں۔ گرد اور نجاست شکل بدل سکتی ہے۔ استاد کی نگرانی، صاف برتن، حفاظتی سامان اور لیبل شدہ برتن استعمال کریں؛ کیمیکل کبھی نہ چکھیں۔ ہر روز درجۂ حرارت، وقت، جسامت اور شکل نوٹ کریں۔ صرف شکل سے نامعلوم مادے کی شناخت یقینی نہیں ہوتی؛ مناسب تجربات ضروری ہیں۔",
+            "sd": "اسڪول جي ليبارٽري ۾ ڦٽڪي يا عام لوڻ جو گرم ڳاٽو محلول تيار ڪيو وڃي ٿو، ان کي ڇاڻيو وڃي ٿو ۽ ٿڌو ٿيڻ ڏنو وڃي ٿو؛ پوءِ صاف ڍڪيل ٿانوَ ۾ ڌاڳي سان ٻڌل ننڍي ٻج قلم سان رکيو وڃي ٿو. ٿڌو ٿيڻ يا پاڻي بخار ٿيڻ سان محلول سپرسيچوريٽ ٿي سگهي ٿو. پوءِ آئن يا ماليڪيول ٻج قلم جي جال ۾ ترتيب سان لڳن ٿا. تمام تيزيءَ سان ٿڌو ڪرڻ يا محلول لوڏڻ سان هڪ وڏي قلم بدران ڪيترائي ننڍا قلم ٺهي سگهن ٿا. مٽي ۽ نجاست شڪل بدلائي سگهن ٿيون. استاد جي نگراني، صاف ٿانوَ، حفاظتي سامان ۽ ليبل ٿيل ٿانوَ استعمال ڪريو؛ ڪيميڪل ڪڏهن نه چکو. هر ڏينهن گرمي پد، وقت، ماپ ۽ شڪل لکو. رڳو شڪل مان اڻڄاتل مادي جي پڪي سڃاڻپ نٿي ٿئي؛ مناسب تجربا ضروري آهن۔"
           }
         }
       ],
       "questions": [
         {
-          "question": "Which statement best describes chapter 6: states of matter iii — solids?",
+          "id": "chem-xi-sol-mcq-01",
+          "question": "In a solid, particles normally:",
           "options": {
-            "A": "Solid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help ",
-            "B": "The topic is unrelated to measurable evidence.",
-            "C": "Units and definitions are unnecessary.",
-            "D": "The concept cannot be applied to problems."
+            "A": "Vibrate about mean positions.",
+            "B": "Move freely through the whole container.",
+            "C": "Have no kinetic energy.",
+            "D": "Remain perfectly motionless."
           },
           "correctOption": "A",
-          "explanation": "Solid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help explain hardness, melting behaviour and other physical properties."
+          "explanation": "Solid particles have kinetic energy and vibrate about mean positions; they do not normally move freely through the bulk.",
+          "translations": {
+            "ur": {
+              "question": "ٹھوس میں ذرات عام طور پر کیا کرتے ہیں؟",
+              "options": {
+                "A": "اوسط مقرر جگہوں کے گرد ارتعاش کرتے ہیں۔",
+                "B": "پورے برتن میں آزادانہ سفر کرتے ہیں۔",
+                "C": "ان میں حرکی توانائی نہیں ہوتی۔",
+                "D": "بالکل ساکن رہتے ہیں۔"
+              },
+              "explanation": "ٹھوس ذرات میں حرکی توانائی ہوتی ہے اور وہ اوسط جگہوں کے گرد ارتعاش کرتے ہیں؛ وہ پورے مادے میں آزادانہ نہیں گھومتے۔"
+            },
+            "sd": {
+              "question": "ٺوس ۾ ذرڙا عام طور ڇا ڪندا آهن؟",
+              "options": {
+                "A": "سراسري مقرر هنڌن وٽ ارتعاش ڪندا آهن.",
+                "B": "سڄي ٿانوَ ۾ آزاد هلندا آهن.",
+                "C": "انهن ۾ حرڪي توانائي ناهي.",
+                "D": "بلڪل ساڪن رهن ٿا."
+              },
+              "explanation": "ٺوس ذرڙن ۾ حرڪي توانائي هوندي آهي ۽ اهي سراسري هنڌن وٽ ارتعاش ڪندا آهن؛ اهي سڄي مادي ۾ آزاد ناهن هلندا۔"
+            }
+          }
         },
         {
-          "question": "How should a student solve a problem in chapter 6: states of matter iii — solids?",
+          "id": "chem-xi-sol-mcq-02",
+          "question": "Why are most solids difficult to compress?",
           "options": {
-            "A": "Guess without identifying quantities.",
-            "B": "Apply the relevant principle, show steps and check units.",
-            "C": "Ignore the stated conditions.",
-            "D": "Use an unrelated equation."
+            "A": "Their particles have no forces between them.",
+            "B": "Their particles are widely separated.",
+            "C": "There is little empty space between closely packed particles.",
+            "D": "Their particles disappear under pressure."
+          },
+          "correctOption": "C",
+          "explanation": "Closely packed particles have little interparticle space, so ordinary pressure produces only a small volume change.",
+          "translations": {
+            "ur": {
+              "question": "زیادہ تر ٹھوس کو دبانا مشکل کیوں ہوتا ہے؟",
+              "options": {
+                "A": "ان کے ذرات میں کوئی قوت نہیں ہوتی۔",
+                "B": "ان کے ذرات بہت دور ہوتے ہیں۔",
+                "C": "قریب ذرات کے درمیان خالی جگہ کم ہوتی ہے۔",
+                "D": "دباؤ سے ذرات غائب ہو جاتے ہیں۔"
+              },
+              "explanation": "قریب ذرات کے درمیان خالی جگہ کم ہوتی ہے، اس لیے عام دباؤ سے حجم میں معمولی تبدیلی آتی ہے۔"
+            },
+            "sd": {
+              "question": "گهڻن ٺوسن کي دٻائڻ ڏکيو ڇو آهي؟",
+              "options": {
+                "A": "انهن جي ذرڙن وچ ڪا قوت ناهي.",
+                "B": "ذرڙا تمام پري آهن.",
+                "C": "ويجهن ذرڙن وچ خالي جاءِ گهٽ آهي.",
+                "D": "دٻاءَ سان ذرڙا غائب ٿي وڃن ٿا."
+              },
+              "explanation": "ويجهن ذرڙن وچ خالي جاءِ گهٽ آهي، تنهنڪري عام دٻاءَ سان حجم ۾ ٿوري تبديلي اچي ٿي۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-03",
+          "question": "When a solid is heated, its particles generally:",
+          "options": {
+            "A": "Lose all kinetic energy.",
+            "B": "Gain average kinetic energy and vibrate more strongly.",
+            "C": "Stop vibrating.",
+            "D": "Become widely separated gas particles immediately."
           },
           "correctOption": "B",
-          "explanation": "Solid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help explain hardness, melting behaviour and other physical properties."
+          "explanation": "Heating generally raises average kinetic energy and vibration amplitude; the solid may expand.",
+          "translations": {
+            "ur": {
+              "question": "ٹھوس کو گرم کرنے پر ذرات عموماً کیا کرتے ہیں؟",
+              "options": {
+                "A": "تمام حرکی توانائی کھو دیتے ہیں۔",
+                "B": "اوسط حرکی توانائی اور ارتعاش بڑھاتے ہیں۔",
+                "C": "ارتعاش روک دیتے ہیں۔",
+                "D": "فوراً دور دور گیس کے ذرات بن جاتے ہیں۔"
+              },
+              "explanation": "گرم کرنے سے اوسط حرکی توانائی اور ارتعاش کا دائرہ عموماً بڑھتا ہے؛ ٹھوس پھیل سکتا ہے۔"
+            },
+            "sd": {
+              "question": "ٺوس کي گرم ڪرڻ سان ذرڙا عام طور ڇا ڪن ٿا؟",
+              "options": {
+                "A": "سڄي حرڪي توانائي وڃائين ٿا.",
+                "B": "سراسري حرڪي توانائي ۽ ارتعاش وڌائين ٿا.",
+                "C": "ارتعاش بند ڪن ٿا.",
+                "D": "فوري طور پري پري گئس جا ذرڙا بڻجن ٿا."
+              },
+              "explanation": "گرم ڪرڻ سان سراسري حرڪي توانائي ۽ ارتعاش جو دائرو عام طور وڌي ٿو؛ ٺوس پکڙجي سگهي ٿو۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-04",
+          "question": "The usual thermal expansion of a solid is mainly associated with:",
+          "options": {
+            "A": "Particles moving continuously in one direction.",
+            "B": "A decrease in all particle motion.",
+            "C": "The solid losing all attractive forces.",
+            "D": "A small increase in average separation between particles."
+          },
+          "correctOption": "D",
+          "explanation": "Greater vibration at higher temperature changes average particle separation slightly, producing expansion.",
+          "translations": {
+            "ur": {
+              "question": "ٹھوس کا عام حرارتی پھیلاؤ بنیادی طور کس وجہ سے ہوتا ہے؟",
+              "options": {
+                "A": "ذرات کا مسلسل ایک سمت میں چلنا۔",
+                "B": "تمام حرکت کم ہونا۔",
+                "C": "تمام کششی قوتوں کا ختم ہونا۔",
+                "D": "ذرات کے اوسط فاصلے میں معمولی اضافہ۔"
+              },
+              "explanation": "زیادہ درجۂ حرارت پر ارتعاش سے ذرات کا اوسط فاصلہ کچھ بڑھتا ہے، جس سے پھیلاؤ ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "ٺوس جو عام حرارتي پکڙجڻ بنيادي طور ڇو ٿئي ٿو؟",
+              "options": {
+                "A": "ذرڙن جو لڳاتار هڪ رخ ۾ هلڻ.",
+                "B": "سڀ حرڪتون گهٽجڻ.",
+                "C": "سڀ ڪششون ختم ٿيڻ.",
+                "D": "ذرڙن جي سراسري فاصلي ۾ ٿورو واڌارو."
+              },
+              "explanation": "وڌيڪ گرمي پد تي ارتعاش سبب ذرڙن جو سراسري فاصلو ٿورو وڌي ٿو، جنهن سان پکڙجڻ ٿئي ٿو۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-05",
+          "question": "A crystalline solid is characterised by:",
+          "options": {
+            "A": "Long-range repeating order.",
+            "B": "No particle arrangement at any scale.",
+            "C": "Only freely moving particles.",
+            "D": "A complete absence of attractive interactions."
+          },
+          "correctOption": "A",
+          "explanation": "Crystalline solids have a repeating lattice extending over long distances.",
+          "translations": {
+            "ur": {
+              "question": "قلمی ٹھوس کی بنیادی پہچان کیا ہے؟",
+              "options": {
+                "A": "طویل فاصلے تک دہرائی جانے والی ترتیب۔",
+                "B": "کسی پیمانے پر ذرات کی ترتیب نہ ہونا۔",
+                "C": "صرف آزاد حرکت کرنے والے ذرات۔",
+                "D": "کششی تعاملات کا مکمل فقدان۔"
+              },
+              "explanation": "قلمی ٹھوس میں طویل فاصلے تک دہرایا جانے والا جال ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "قلمی ٺوس جي بنيادي سڃاڻپ ڪهڙي آهي؟",
+              "options": {
+                "A": "ڊگهي فاصلي تائين ورجائجندڙ ترتيب.",
+                "B": "ڪنهن به پيماني تي ذرڙن جي ترتيب ناهي.",
+                "C": "رڳو آزاد حرڪت ڪندڙ ذرڙا.",
+                "D": "ڪشش جو مڪمل نه هجڻ."
+              },
+              "explanation": "قلمی ٺوس ۾ ڊگهي فاصلي تائين ورجائجندڙ جال هوندو آهي۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-06",
+          "question": "Which statement best describes an amorphous solid?",
+          "options": {
+            "A": "It always has a perfect cubic lattice.",
+            "B": "It has no long-range periodic order, although local order may exist.",
+            "C": "It is necessarily a gas.",
+            "D": "Its particles have no interactions."
+          },
+          "correctOption": "B",
+          "explanation": "Amorphous solids lack long-range periodic order but may contain local short-range arrangements.",
+          "translations": {
+            "ur": {
+              "question": "بے قلمی ٹھوس کی درست وضاحت کیا ہے؟",
+              "options": {
+                "A": "اس میں ہمیشہ کامل مکعبی جال ہوتا ہے۔",
+                "B": "اس میں طویل فاصلے کی باقاعدہ ترتیب نہیں، مگر مقامی ترتیب ہو سکتی ہے۔",
+                "C": "یہ لازماً گیس ہے۔",
+                "D": "اس کے ذرات میں تعامل نہیں ہوتا۔"
+              },
+              "explanation": "بے قلمی ٹھوس میں طویل فاصلے کی باقاعدہ تکرار نہیں ہوتی، لیکن مقامی ترتیب ہو سکتی ہے۔"
+            },
+            "sd": {
+              "question": "بي قلمی ٺوس جي صحيح وضاحت ڪهڙي آهي؟",
+              "options": {
+                "A": "ان ۾ هميشه مڪمل ڪعبي جال هوندو آهي.",
+                "B": "ان ۾ ڊگهي فاصلي واري باقاعده ترتيب ناهي، پر مقامي ترتيب ٿي سگهي ٿي.",
+                "C": "اهو لازمي گئس آهي.",
+                "D": "ان جي ذرڙن ۾ پاڻ ۾ اثر ناهي."
+              },
+              "explanation": "بي قلمی ٺوس ۾ ڊگهي فاصلي واري باقاعده ورجاءُ ناهي، پر مقامي ترتيب ٿي سگهي ٿي۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-07",
+          "question": "Which material is a common example of an amorphous solid?",
+          "options": {
+            "A": "A well-formed quartz crystal.",
+            "B": "A sodium chloride crystal.",
+            "C": "Ordinary window glass.",
+            "D": "A diamond single crystal."
+          },
+          "correctOption": "C",
+          "explanation": "Ordinary window glass is an amorphous solid; quartz, sodium chloride and diamond are crystalline.",
+          "translations": {
+            "ur": {
+              "question": "بے قلمی ٹھوس کی عام مثال کون سی ہے؟",
+              "options": {
+                "A": "کوارٹز کا واضح قلم۔",
+                "B": "سوڈیم کلورائیڈ کا قلم۔",
+                "C": "عام کھڑکی کا شیشہ۔",
+                "D": "ہیرا کا واحد قلم۔"
+              },
+              "explanation": "عام کھڑکی کا شیشہ بے قلمی ٹھوس ہے؛ کوارٹز، سوڈیم کلورائیڈ اور ہیرا قلمی ہیں۔"
+            },
+            "sd": {
+              "question": "بي قلمی ٺوس جو عام مثال ڪهڙو آهي؟",
+              "options": {
+                "A": "ڪوارٽز جو صاف قلم.",
+                "B": "سوڊيم ڪلورائيڊ جو قلم.",
+                "C": "عام دريءَ جو شيشو.",
+                "D": "هيرو جو اڪيلو قلم."
+              },
+              "explanation": "عام دريءَ جو شيشو بي قلمی ٺوس آهي؛ ڪوارٽز، سوڊيم ڪلورائيڊ ۽ هيرو قلمی آهن۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-08",
+          "question": "A pure crystalline substance at a specified pressure commonly has:",
+          "options": {
+            "A": "No melting behaviour.",
+            "B": "A melting interval of several hundred degrees in every case.",
+            "C": "The same melting range as every polymer.",
+            "D": "A relatively sharp melting point."
+          },
+          "correctOption": "D",
+          "explanation": "A pure crystalline substance commonly melts over a relatively narrow interval at a stated pressure; impurities may broaden or shift it.",
+          "translations": {
+            "ur": {
+              "question": "مقرر دباؤ پر خالص قلمی مادے کا عام رویہ کیا ہے؟",
+              "options": {
+                "A": "اس کا پگھلنے کا رویہ نہیں ہوتا۔",
+                "B": "ہر حالت میں سینکڑوں درجوں کی حد ہوتی ہے۔",
+                "C": "ہر پولیمر جیسی حد ہوتی ہے۔",
+                "D": "نسبتاً واضح نقطۂ پگھلاؤ ہوتا ہے۔"
+              },
+              "explanation": "مقرر دباؤ پر خالص قلمی مادہ عموماً نسبتاً محدود حد میں پگھلتا ہے؛ نجاست حد کو بدل یا وسیع کر سکتی ہے۔"
+            },
+            "sd": {
+              "question": "مقرر دٻاءَ تي خالص قلمی مادي جو عام رويو ڪهڙو آهي؟",
+              "options": {
+                "A": "ان جو پگھلڻ وارو رويو ناهي.",
+                "B": "هر حالت ۾ سوين درجن جي حد هوندي.",
+                "C": "هر پوليمر جهڙي حد هوندي.",
+                "D": "نسبتاً واضح پگھلڻ جو نقطو هوندو."
+              },
+              "explanation": "مقرر دٻاءَ تي خالص قلمی مادو عام طور محدود حد ۾ پگھلندو آهي؛ نجاست حد بدلائي يا ويڪري ڪري سگهي ٿي۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-09",
+          "question": "A cleavage plane in a crystal is:",
+          "options": {
+            "A": "A preferred plane along which the crystal may split.",
+            "B": "The temperature at which a gas condenses.",
+            "C": "A random external stain.",
+            "D": "A liquid surface."
+          },
+          "correctOption": "A",
+          "explanation": "Cleavage is splitting along preferred structural planes where separation is easier.",
+          "translations": {
+            "ur": {
+              "question": "قلم میں شکست کی سطح سے کیا مراد ہے؟",
+              "options": {
+                "A": "ترجیحی سطح جس کے ساتھ قلم ٹوٹ سکتا ہے۔",
+                "B": "وہ درجۂ حرارت جہاں گیس مائع بنتی ہے۔",
+                "C": "بیرونی بے ترتیب داغ۔",
+                "D": "مائع کی سطح۔"
+              },
+              "explanation": "شکست کی سطح وہ ترجیحی ساختی سطح ہے جس کے ساتھ قلم آسانی سے الگ ہو سکتا ہے۔"
+            },
+            "sd": {
+              "question": "قلم ۾ ٽٽڻ جي سطح مان ڇا مراد آهي؟",
+              "options": {
+                "A": "ترجيحي سطح جنهن سان قلم ٽٽي سگهي ٿو.",
+                "B": "اهو گرمي پد جتي گئس مائع ٿئي.",
+                "C": "بي ترتيب ٻاهريون داغ.",
+                "D": "مائع جي سطح."
+              },
+              "explanation": "ٽٽڻ جي سطح اها ترجيحي بناوتي سطح آهي جنهن سان قلم آسانيءَ سان جدا ٿي سگهي ٿو۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-10",
+          "question": "Crystal habit refers to:",
+          "options": {
+            "A": "The mass of a crystal only.",
+            "B": "The speed of sound in a gas.",
+            "C": "The usual external shape or appearance of a crystal.",
+            "D": "The number of protons in its atoms."
+          },
+          "correctOption": "C",
+          "explanation": "Crystal habit is the characteristic external form, such as cubic, needle-like or plate-like; growth conditions influence it.",
+          "translations": {
+            "ur": {
+              "question": "قلمی عادت سے کیا مراد ہے؟",
+              "options": {
+                "A": "صرف قلم کی کمیت۔",
+                "B": "گیس میں آواز کی رفتار۔",
+                "C": "قلم کی عام بیرونی شکل یا ظاہری صورت۔",
+                "D": "ایٹموں میں پروٹون کی تعداد۔"
+              },
+              "explanation": "قلمی عادت قلم کی نمایاں بیرونی شکل ہے، مثلاً مکعبی، سوئی جیسی یا پلیٹ جیسی؛ بڑھوتری کے حالات اس پر اثر انداز ہوتے ہیں۔"
+            },
+            "sd": {
+              "question": "قلمی عادت مان ڇا مراد آهي؟",
+              "options": {
+                "A": "رڳو قلم جو وزن.",
+                "B": "گئس ۾ آواز جي رفتار.",
+                "C": "قلم جي عام ٻاهرين شڪل يا صورت.",
+                "D": "ايٽمن ۾ پروٽانن جو تعداد."
+              },
+              "explanation": "قلمی عادت قلم جي خاص ٻاهرين شڪل آهي، مثال ڪعبي، سوئي جهڙي يا پليٽ جهڙي؛ واڌ جا حالتون ان تي اثر ڪن ٿيون۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-11",
+          "question": "During crystal growth from a solution, new particles generally:",
+          "options": {
+            "A": "Destroy the seed lattice.",
+            "B": "Attach to an ordered surface of the growing crystal.",
+            "C": "Turn every crystal into a gas.",
+            "D": "Remove all solvent molecules instantly."
+          },
+          "correctOption": "B",
+          "explanation": "Dissolved particles can attach to suitable sites on a seed crystal and extend its ordered lattice.",
+          "translations": {
+            "ur": {
+              "question": "محلول سے قلم بڑھنے کے دوران نئے ذرات عموماً کیا کرتے ہیں؟",
+              "options": {
+                "A": "بیج قلم کی جالی تباہ کرتے ہیں۔",
+                "B": "بڑھتے ہوئے قلم کی منظم سطح سے جڑتے ہیں۔",
+                "C": "ہر قلم کو گیس بنا دیتے ہیں۔",
+                "D": "تمام محلل فوراً ختم کر دیتے ہیں۔"
+              },
+              "explanation": "محلول کے ذرات بیج قلم کی مناسب جگہوں سے جڑ کر اس کی منظم جالی کو بڑھاتے ہیں۔"
+            },
+            "sd": {
+              "question": "محلول مان قلم وڌڻ دوران نوان ذرڙا عام طور ڇا ڪندا آهن؟",
+              "options": {
+                "A": "ٻج قلم جو جال تباهه ڪن ٿا.",
+                "B": "وڌندڙ قلم جي منظم سطح سان ڳنڍجن ٿا.",
+                "C": "هر قلم کي گئس بڻائين ٿا.",
+                "D": "سڄو محلل فوراً ختم ڪن ٿا."
+              },
+              "explanation": "محلول جا ذرڙا ٻج قلم جي مناسب هنڌن سان ڳنڍجي ان جو منظم جال وڌائين ٿا۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-12",
+          "question": "Anisotropy means that a property of a crystal:",
+          "options": {
+            "A": "Is always zero.",
+            "B": "Cannot be measured.",
+            "C": "Is identical in every direction.",
+            "D": "May depend on the direction in which it is measured."
+          },
+          "correctOption": "D",
+          "explanation": "A single crystal can show directional variation in properties; this is called anisotropy.",
+          "translations": {
+            "ur": {
+              "question": "سمتی تفاوت (anisotropy) کا کیا مطلب ہے؟",
+              "options": {
+                "A": "خاصیت ہمیشہ صفر ہے۔",
+                "B": "خاصیت ناپی نہیں جا سکتی۔",
+                "C": "ہر سمت میں خاصیت یکساں ہے۔",
+                "D": "ناپی گئی سمت کے مطابق خاصیت بدل سکتی ہے۔"
+              },
+              "explanation": "واحد قلم میں بعض خصوصیات ناپنے کی سمت کے ساتھ بدل سکتی ہیں؛ اسے سمتی تفاوت کہتے ہیں۔"
+            },
+            "sd": {
+              "question": "رخائتو فرق (anisotropy) جو مطلب ڇا آهي؟",
+              "options": {
+                "A": "خاصيت هميشه صفر آهي.",
+                "B": "خاصيت ماپي نٿي سگهجي.",
+                "C": "هر رخ ۾ خاصيت ساڳي آهي.",
+                "D": "ماپڻ جي رخ سان خاصيت بدلجي سگهي ٿي."
+              },
+              "explanation": "اڪيلي قلم ۾ ڪجهه خاصيتون ماپڻ جي رخ سان بدلجي سگهن ٿيون؛ ان کي رخائتو فرق چئبو آهي۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-13",
+          "question": "Why does an amorphous material commonly soften over a temperature range?",
+          "options": {
+            "A": "It contains no particles.",
+            "B": "Every particle melts at exactly the same instant.",
+            "C": "It lacks one repeating long-range lattice, so different local regions lose rigidity over a range.",
+            "D": "It has a perfectly regular cleavage plane."
+          },
+          "correctOption": "C",
+          "explanation": "The varied local environments in an amorphous structure do not lose rigidity at one single sharply defined temperature.",
+          "translations": {
+            "ur": {
+              "question": "بے قلمی مادہ عموماً درجۂ حرارت کی حد میں نرم کیوں ہوتا ہے؟",
+              "options": {
+                "A": "اس میں ذرات نہیں ہوتے۔",
+                "B": "ہر ذرہ عین ایک ہی لمحے پگھلتا ہے۔",
+                "C": "اس میں دہرایا جانے والا طویل فاصلے کا جال نہیں، اس لیے مختلف مقامی حصے ایک حد میں نرم ہوتے ہیں۔",
+                "D": "اس میں کامل شکست کی سطح ہوتی ہے۔"
+              },
+              "explanation": "بے قلمی ساخت کے مختلف مقامی ماحول ایک ہی واضح درجۂ حرارت پر سختی نہیں کھوتے، اس لیے مادہ ایک حد میں نرم ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "بي قلمی مادو عام طور گرمي پد جي حد ۾ نرم ڇو ٿئي ٿو؟",
+              "options": {
+                "A": "ان ۾ ذرڙا ناهن.",
+                "B": "هر ذرڙو بلڪل هڪ ئي لمحي پگھلي ٿو.",
+                "C": "ان ۾ ورجائجندڙ ڊگهي فاصلي وارو جال ناهي، تنهنڪري مختلف مقامي حصا هڪ حد ۾ نرم ٿين ٿا.",
+                "D": "ان ۾ مڪمل ٽٽڻ جي سطح آهي."
+              },
+              "explanation": "بي قلمی بناوت جا مختلف مقامي ماحول هڪ ئي واضح گرمي پد تي سختي نٿا وڃائين، تنهنڪري مادو هڪ حد ۾ نرم ٿئي ٿو۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-14",
+          "question": "Which condition often helps a school laboratory grow larger, better-formed crystals?",
+          "options": {
+            "A": "Rapid uncontrolled precipitation with constant shaking.",
+            "B": "Adding dust and many impurities.",
+            "C": "Changing temperature randomly every minute.",
+            "D": "Slow, controlled cooling or evaporation in a clean, undisturbed solution."
+          },
+          "correctOption": "D",
+          "explanation": "Slow controlled growth gives particles time to join the crystal lattice; dust, impurities and disturbance can produce defects or many small crystals.",
+          "translations": {
+            "ur": {
+              "question": "تجربہ گاہ میں بڑے اور بہتر قلم بنانے میں کون سی حالت مدد دیتی ہے؟",
+              "options": {
+                "A": "تیز بے قابو رسوب اور مسلسل ہلانا۔",
+                "B": "گرد اور بہت سی نجاست شامل کرنا۔",
+                "C": "ہر منٹ درجۂ حرارت بے ترتیب بدلنا۔",
+                "D": "صاف اور ساکن محلول میں آہستہ قابو شدہ ٹھنڈک یا تبخیر۔"
+              },
+              "explanation": "آہستہ قابو شدہ بڑھوتری سے ذرات کو جال میں شامل ہونے کا وقت ملتا ہے؛ گرد، نجاست اور ہلچل نقائص یا چھوٹے قلم پیدا کر سکتی ہے۔"
+            },
+            "sd": {
+              "question": "ليبارٽري ۾ وڏا ۽ بهتر قلم ٺاهڻ لاءِ ڪهڙي حالت مدد ڪري ٿي؟",
+              "options": {
+                "A": "تيز بي قابو رسوب ۽ لڳاتار لوڏڻ.",
+                "B": "مٽي ۽ گهڻيون نجاستون شامل ڪرڻ.",
+                "C": "هر منٽ گرمي پد بي ترتيب بدلائڻ.",
+                "D": "صاف ۽ ساڪن محلول ۾ آهستي ڪنٽرول ٿيل ٿڌڪ يا بخارجڻ."
+              },
+              "explanation": "آهستي ڪنٽرول ٿيل واڌ سان ذرڙن کي جال ۾ شامل ٿيڻ جو وقت ملي ٿو؛ مٽي، نجاست ۽ لوڏڻ نقص يا ننڍا قلم پيدا ڪري سگهن ٿا۔"
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-mcq-15",
+          "question": "Which statement is the most accurate comparison?",
+          "options": {
+            "A": "All crystalline solids are perfectly shaped and defect-free.",
+            "B": "Crystalline solids have long-range order; amorphous solids lack long-range periodic order but can have local order.",
+            "C": "Amorphous solids have no particle interactions.",
+            "D": "Every solid is a single crystal."
+          },
+          "correctOption": "B",
+          "explanation": "The key distinction is long-range periodic order; real samples may contain defects, multiple grains or mixed regions.",
+          "translations": {
+            "ur": {
+              "question": "سب سے درست موازنہ کون سا ہے؟",
+              "options": {
+                "A": "تمام قلمی ٹھوس کامل شکل اور نقائص سے پاک ہوتے ہیں۔",
+                "B": "قلمی ٹھوس میں طویل فاصلے کی ترتیب ہوتی ہے؛ بے قلمی میں طویل فاصلے کی باقاعدہ ترتیب نہیں مگر مقامی ترتیب ہو سکتی ہے۔",
+                "C": "بے قلمی ٹھوس میں ذرات کا تعامل نہیں ہوتا۔",
+                "D": "ہر ٹھوس واحد قلم ہوتا ہے۔"
+              },
+              "explanation": "بنیادی فرق طویل فاصلے کی باقاعدہ ترتیب ہے؛ حقیقی نمونوں میں نقائص، کئی دانے یا ملی جلی ساخت ہو سکتی ہے۔"
+            },
+            "sd": {
+              "question": "سڀ کان صحيح ڀيٽ ڪهڙي آهي؟",
+              "options": {
+                "A": "سڀ قلمی ٺوس مڪمل شڪل ۽ نقص کان پاڪ آهن.",
+                "B": "قلمی ٺوس ۾ ڊگهي فاصلي واري ترتيب آهي؛ بي قلمی ۾ ڊگهي فاصلي واري باقاعده ترتيب ناهي پر مقامي ترتيب ٿي سگهي ٿي.",
+                "C": "بي قلمی ٺوس ۾ ذرڙن جا پاڻ ۾ اثر ناهن.",
+                "D": "هر ٺوس هڪ اڪيلو قلم آهي."
+              },
+              "explanation": "بنيادي فرق ڊگهي فاصلي واري باقاعده ترتيب آهي؛ حقيقي نمونن ۾ نقص، ڪيترائي داڻا يا گڏيل بناوت ٿي سگهي ٿي۔"
+            }
+          }
         }
       ],
       "writtenQuestions": [
         {
+          "id": "chem-xi-sol-crq-01",
           "type": "crq",
           "marks": 5,
-          "question": "Define two key terms in chapter 6: states of matter iii — solids and explain their relationship.",
-          "modelAnswer": "Solid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help explain hardness, melting behaviour and other physical properties.",
+          "question": "State two structural differences between crystalline and amorphous solids and relate them to melting behaviour and cleavage.",
+          "modelAnswer": "Crystalline solids have long-range repeating order, while amorphous solids lack long-range periodic order but may have short-range order. A pure crystalline substance commonly has a relatively sharp melting point and may split along preferred cleavage planes. An amorphous solid commonly softens over a range and does not show regular lattice cleavage planes.",
           "rubric": [
-            "Correct definitions (2)",
-            "Relationship/explanation (2)",
-            "Clear expression (1)"
-          ]
+            "Long-range order in crystalline solids (1)",
+            "No long-range periodic order in amorphous solids (1)",
+            "Sharp melting behaviour of a pure crystal (1)",
+            "Softening range of amorphous material (1)",
+            "Cleavage-plane comparison (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "قلمی اور بے قلمی ٹھوس کی ساخت کے دو فرق بیان کریں اور انہیں پگھلنے کے رویے اور شکست سے جوڑیں۔",
+              "modelAnswer": "قلمی ٹھوس میں طویل فاصلے تک دہرائی جانے والی ترتیب ہوتی ہے، جبکہ بے قلمی ٹھوس میں طویل فاصلے کی باقاعدہ ترتیب نہیں ہوتی، اگرچہ مقامی ترتیب ہو سکتی ہے۔ خالص قلمی مادہ عموماً نسبتاً واضح نقطے پر پگھلتا ہے اور ترجیحی شکست کی سطحوں کے ساتھ ٹوٹ سکتا ہے۔ بے قلمی مادہ عموماً ایک حد میں نرم ہوتا ہے اور اس میں جالی کی باقاعدہ شکست کی سطحیں نہیں ہوتیں۔",
+              "rubric": [
+                "قلمی ٹھوس میں طویل فاصلے کی ترتیب (1)",
+                "بے قلمی میں طویل فاصلے کی ترتیب نہیں (1)",
+                "خالص قلم کا نسبتاً واضح نقطۂ پگھلاؤ (1)",
+                "بے قلمی مادے کا نرم ہونے کا درجۂ حرارت کا دائرہ (1)",
+                "شکست کی سطحوں کا موازنہ (1)"
+              ]
+            },
+            "sd": {
+              "question": "قلمی ۽ بي قلمی ٺوس جي بناوت جا ٻه فرق ٻڌايو ۽ انهن کي پگھلڻ ۽ ٽٽڻ جي روَيّي سان ڳنڍيو.",
+              "modelAnswer": "قلمی ٺوس ۾ ڊگهي فاصلي تائين ورجائجندڙ ترتيب هوندي آهي، جڏهن ته بي قلمی ٺوس ۾ ڊگهي فاصلي واري باقاعده ترتيب ناهي، جيتوڻيڪ مقامي ترتيب ٿي سگهي ٿي. خالص قلمی مادو عام طور نسبتاً واضح نقطي تي پگھلندو آهي ۽ ترجيحي ٽٽڻ وارين سطحن سان ٽٽي سگهي ٿو. بي قلمی مادو عام طور هڪ حد ۾ نرم ٿيندو آهي ۽ ان ۾ جال جون باقاعده ٽٽڻ واريون سطحون ناهن.",
+              "rubric": [
+                "قلمی ٺوس ۾ ڊگهي فاصلي واري ترتيب (1)",
+                "بي قلمی ۾ ڊگهي فاصلي واري ترتيب ناهي (1)",
+                "خالص قلم جو نسبتاً واضح پگھلڻ وارو نقطو (1)",
+                "بي قلمی مادي جي نرم ٿيڻ جي حد (1)",
+                "ٽٽڻ وارين سطحن جو ڀيٽ (1)"
+              ]
+            }
+          }
         },
         {
+          "id": "chem-xi-sol-crq-02",
+          "type": "crq",
+          "marks": 5,
+          "question": "Use the kinetic particle model to explain why solids resist compression and usually expand when heated.",
+          "modelAnswer": "Solid particles are closely packed, leaving little interparticle space, so pressure produces only a small reduction in volume. Particles vibrate about mean positions and have kinetic energy. Heating raises average kinetic energy and vibration amplitude; average particle separation usually increases slightly, causing thermal expansion. Particles do not all travel in one direction.",
+          "rubric": [
+            "Close packing and little empty space (2)",
+            "Vibration about mean positions (1)",
+            "Heating increases kinetic energy/vibration (1)",
+            "Small increase in average separation explains expansion (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "حرکی ذرّاتی ماڈل سے سمجھائیں کہ ٹھوس دباؤ کی مزاحمت کیوں کرتے ہیں اور گرم کرنے پر عموماً کیوں پھیلتے ہیں۔",
+              "modelAnswer": "ٹھوس کے ذرات قریب ہوتے ہیں اور ان کے درمیان خالی جگہ کم ہوتی ہے، اس لیے دباؤ سے حجم میں معمولی کمی آتی ہے۔ ذرات اوسط مقرر جگہوں کے گرد ارتعاش کرتے ہیں اور حرکی توانائی رکھتے ہیں۔ گرم کرنے سے اوسط حرکی توانائی اور ارتعاش کا دائرہ بڑھتا ہے؛ ذرات کا اوسط فاصلہ کچھ بڑھتا ہے اور حرارتی پھیلاؤ ہوتا ہے۔ ذرات سب ایک سمت میں سفر نہیں کرتے۔",
+              "rubric": [
+                "قریب ترتیب اور کم خالی جگہ (2)",
+                "اوسط جگہوں کے گرد ارتعاش (1)",
+                "گرم کرنے سے حرکی توانائی/ارتعاش میں اضافہ (1)",
+                "اوسط فاصلے میں معمولی اضافہ اور پھیلاؤ کا تعلق (1)"
+              ]
+            },
+            "sd": {
+              "question": "حرڪي ذرڙي واري ماڊل سان سمجهايو ته ٺوس دٻاءَ جي مزاحمت ڇو ڪن ٿا ۽ گرم ڪرڻ سان عام طور ڇو پکڙجن ٿا.",
+              "modelAnswer": "ٺوس جا ذرڙا ويجهو هوندا آهن ۽ انهن وچ خالي جاءِ گهٽ هوندي آهي، تنهنڪري دٻاءَ سان حجم ۾ ٿوري گهٽتائي اچي ٿي. ذرڙا سراسري مقرر هنڌن وٽ ارتعاش ڪن ٿا ۽ حرڪي توانائي رکن ٿا. گرم ڪرڻ سان سراسري حرڪي توانائي ۽ ارتعاش جو دائرو وڌي ٿو؛ ذرڙن جو سراسري فاصلو ٿورو وڌي ٿو ۽ حرارتي پکڙجڻ ٿئي ٿو. سڀ ذرڙا هڪ رخ ۾ سفر نٿا ڪن.",
+              "rubric": [
+                "ويجهي ترتيب ۽ گهٽ خالي جاءِ (2)",
+                "سراسري هنڌن وٽ ارتعاش (1)",
+                "گرم ڪرڻ سان حرڪي توانائي/ارتعاش وڌڻ (1)",
+                "سراسري فاصلي جي واڌ ۽ پکڙجڻ جو تعلق (1)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-crq-03",
+          "type": "crq",
+          "marks": 5,
+          "question": "Define cleavage plane and crystal habit. Name two conditions that can influence the habit of a growing crystal.",
+          "modelAnswer": "A cleavage plane is a preferred structural plane along which a crystal can split. Crystal habit is the characteristic external shape of a crystal. Habit can be influenced by temperature, concentration or supersaturation, solvent, impurities, evaporation rate and available space. Any two suitable conditions earn the final marks.",
+          "rubric": [
+            "Correct cleavage-plane definition (1)",
+            "Correct crystal-habit definition (1)",
+            "First relevant growth condition (1)",
+            "Second relevant growth condition (1)",
+            "Clear link to external form/growth (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "شکست کی سطح اور قلمی عادت کی تعریف کریں۔ بڑھتے ہوئے قلم کی عادت پر اثر انداز ہونے والی دو حالتیں بتائیں۔",
+              "modelAnswer": "شکست کی سطح وہ ترجیحی ساختی سطح ہے جس کے ساتھ قلم ٹوٹ سکتا ہے۔ قلمی عادت قلم کی نمایاں بیرونی شکل ہے۔ درجۂ حرارت، ارتکاز یا فوق سیر ہونے کی مقدار، محلل، نجاست، تبخیر کی رفتار اور دستیاب جگہ اس شکل کو متاثر کر سکتے ہیں۔",
+              "rubric": [
+                "شکست کی سطح کی درست تعریف (1)",
+                "قلمی عادت کی درست تعریف (1)",
+                "پہلی متعلقہ بڑھوتری کی حالت (1)",
+                "دوسری متعلقہ بڑھوتری کی حالت (1)",
+                "بیرونی شکل/بڑھوتری سے واضح تعلق (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٽٽڻ جي سطح ۽ قلمی عادت جي تعريف ڪريو. وڌندڙ قلم جي عادت تي اثر ڪندڙ ٻه حالتون ٻڌايو.",
+              "modelAnswer": "ٽٽڻ جي سطح اها ترجيحي بناوتي سطح آهي جنهن سان قلم ٽٽي سگهي ٿو. قلمی عادت قلم جي خاص ٻاهرين شڪل آهي. گرمي پد، ارتڪاز يا سپرسيچوريشن، محلل، نجاست، بخارجڻ جي رفتار ۽ موجود جاءِ ان شڪل تي اثر ڪن ٿا.",
+              "rubric": [
+                "ٽٽڻ جي سطح جي صحيح تعريف (1)",
+                "قلمی عادت جي صحيح تعريف (1)",
+                "واڌ جي پهرين لاڳاپيل حالت (1)",
+                "واڌ جي ٻي لاڳاپيل حالت (1)",
+                "ٻاهرين شڪل/واڌ سان واضح تعلق (1)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-erq-01",
           "type": "erq",
           "marks": 10,
-          "question": "Explain chapter 6: states of matter iii — solids and discuss one practical or numerical application.",
-          "modelAnswer": "Solid particles occupy fixed positions and vibrate about them. Crystalline solids have ordered lattices; amorphous solids lack long-range order. Crystal structure and bonding help explain hardness, melting behaviour and other physical properties. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "question": "Describe a safe school-laboratory method for growing a large alum or salt crystal from solution. Explain nucleation, crystal growth and at least three factors that affect the final crystal.",
+          "modelAnswer": "Prepare a hot concentrated solution using the teacher-approved quantity of alum or salt and a suitable solvent. Stir until the required amount dissolves, filter if needed, and allow the solution to cool. Suspend a small clean seed crystal in a clean covered container without touching the sides. As the solution becomes supersaturated, particles attach to the seed lattice. Nucleation is the formation of a stable initial crystal nucleus; growth is the ordered addition of particles to its surfaces. Slow cooling or evaporation, suitable concentration, minimal disturbance, clean apparatus and low impurity levels generally favour larger, better-formed crystals. Rapid cooling, dust or shaking can create many small crystals or defects. Wear appropriate protection, follow the chemical safety instructions and never taste laboratory chemicals.",
           "rubric": [
-            "Accurate concept (3)",
-            "Application/example (3)",
-            "Reasoning and steps (2)",
-            "Clarity and units (2)"
-          ]
+            "Safe preparation and suitable concentrated solution (2)",
+            "Filtering/cooling and use of a clean seed/container (2)",
+            "Accurate nucleation explanation (2)",
+            "Accurate lattice-growth explanation (1)",
+            "Three or more relevant growth factors with reasoning (2)",
+            "Safety and clear scientific communication (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "محلول سے بڑا پھٹکری یا نمک کا قلم بنانے کا محفوظ اسکولی طریقہ بیان کریں۔ مرکزہ بننے، قلمی بڑھوتری اور آخری قلم پر اثر انداز ہونے والی کم از کم تین حالتوں کی وضاحت کریں۔",
+              "modelAnswer": "استاد کی منظور شدہ مقدار میں پھٹکری یا نمک کو مناسب محلل میں گرم کر کے مرتکز محلول بنائیں۔ ہلاتے رہیں یہاں تک کہ مطلوبہ مقدار حل ہو جائے؛ ضرورت ہو تو چھانیں اور محلول ٹھنڈا ہونے دیں۔ صاف ڈھکے برتن میں چھوٹا صاف بیج قلم دھاگے سے لٹکائیں تاکہ وہ دیواروں کو نہ چھوئے۔ محلول فوق سیر ہونے پر ذرات بیج قلم کی جالی سے جڑتے ہیں۔ مرکزہ بننا مستحکم ابتدائی قلمی مرکز کی تشکیل ہے؛ بڑھوتری میں ذرات اس کی سطحوں پر ترتیب سے شامل ہوتے ہیں۔ آہستہ ٹھنڈک یا تبخیر، مناسب ارتکاز، کم ہلچل، صاف برتن اور کم نجاست عموماً بڑے اور بہتر قلم بناتے ہیں۔ تیز ٹھنڈک، گرد یا ہلانے سے کئی چھوٹے قلم یا نقائص بن سکتے ہیں۔ حفاظتی سامان پہنیں، کیمیکل کی ہدایات پر عمل کریں اور کیمیکل کبھی نہ چکھیں۔",
+              "rubric": [
+                "محفوظ تیاری اور مناسب مرتکز محلول (2)",
+                "چھاننا/ٹھنڈا کرنا اور صاف بیج/برتن (2)",
+                "مرکزہ بننے کی درست وضاحت (2)",
+                "جالی میں قلمی بڑھوتری کی درست وضاحت (1)",
+                "تین یا زیادہ متعلقہ عوامل اور وجہ (2)",
+                "حفاظت اور واضح سائنسی اظہار (1)"
+              ]
+            },
+            "sd": {
+              "question": "محلول مان وڏو ڦٽڪي يا لوڻ جو قلم ٺاهڻ جو محفوظ اسڪولي طريقو بيان ڪريو. مرڪز ٺهڻ، قلم جي واڌ ۽ آخري قلم تي اثر ڪندڙ گهٽ ۾ گهٽ ٽي حالتون سمجهايو.",
+              "modelAnswer": "استاد جي منظور ڪيل مقدار ۾ ڦٽڪي يا لوڻ کي مناسب محلل ۾ گرم ڪري ڳاٽو محلول ٺاهيو. هلائيندا رهو جيستائين گهربل مقدار حل ٿئي؛ ضرورت هجي ته ڇاڻيو ۽ محلول ٿڌو ٿيڻ ڏيو. صاف ڍڪيل ٿانوَ ۾ ننڍو صاف ٻج قلم ڌاڳي سان لٽڪايو ته جيئن اهو ڀتين کي نه ڇهي. محلول سپرسيچوريٽ ٿيڻ تي ذرڙا ٻج قلم جي جال سان ڳنڍجن ٿا. مرڪز ٺهڻ مستحڪم شروعاتي قلمی مرڪز جي ٺهڻ آهي؛ واڌ ۾ ذرڙا ان جي سطحن تي ترتيب سان شامل ٿين ٿا. آهستي ٿڌڪ يا بخارجڻ، مناسب ارتڪاز، گهٽ لوڏڻ، صاف اوزار ۽ گهٽ نجاست عام طور وڏا ۽ بهتر قلم ڏين ٿا. تيز ٿڌڪ، مٽي يا لوڏڻ سان ڪيترائي ننڍا قلم يا نقص ٿي سگهن ٿا. حفاظتي سامان پائو، ڪيميڪل جون هدايتون مڃيو ۽ ڪيميڪل ڪڏهن نه چکو.",
+              "rubric": [
+                "محفوظ تياري ۽ مناسب ڳاٽو محلول (2)",
+                "ڇاڻڻ/ٿڌو ڪرڻ ۽ صاف ٻج/ٿانوَ (2)",
+                "مرڪز ٺهڻ جي صحيح وضاحت (2)",
+                "جال ۾ قلم جي واڌ جي صحيح وضاحت (1)",
+                "ٽي يا وڌيڪ لاڳاپيل حالتون ۽ سبب (2)",
+                "حفاظت ۽ واضح سائنسي اظهار (1)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-sol-erq-02",
+          "type": "erq",
+          "marks": 10,
+          "question": "Compare crystalline and amorphous solids and explain how their structures influence melting, cleavage and directional properties. Use suitable examples and include a limitation of the comparison.",
+          "modelAnswer": "Crystalline solids have long-range periodic order, whereas amorphous solids lack long-range periodic order but may retain local short-range order. A pure crystalline substance usually has a relatively sharp melting point at a stated pressure; an amorphous material commonly softens over a temperature range. Some crystals split along cleavage planes because structural resistance differs by direction. A single crystal may be anisotropic, while many amorphous materials are approximately isotropic in bulk. Examples include sodium chloride or quartz for crystalline solids and ordinary glass for an amorphous solid. The comparison is idealised: real samples may contain impurities, defects, several crystal grains or mixed crystalline/amorphous regions.",
+          "rubric": [
+            "Crystalline long-range order and amorphous short-range/no long-range order (2)",
+            "Melting behaviour comparison (2)",
+            "Cleavage explanation (2)",
+            "Directional properties/an-isotropy comparison (2)",
+            "Suitable examples (1)",
+            "Real-material limitation (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "قلمی اور بے قلمی ٹھوس کا موازنہ کریں اور بتائیں کہ ان کی ساخت پگھلنے، شکست اور سمتی خصوصیات پر کیسے اثر ڈالتی ہے۔ مناسب مثالیں اور موازنے کی ایک حد بھی شامل کریں۔",
+              "modelAnswer": "قلمی ٹھوس میں طویل فاصلے تک باقاعدہ دہرائی جانے والی ترتیب ہوتی ہے، جبکہ بے قلمی ٹھوس میں طویل فاصلے کی باقاعدہ ترتیب نہیں مگر مقامی ترتیب ہو سکتی ہے۔ مقرر دباؤ پر خالص قلمی مادہ عموماً نسبتاً واضح نقطے پر پگھلتا ہے؛ بے قلمی مادہ عموماً درجۂ حرارت کی حد میں نرم ہوتا ہے۔ بعض قلم ساختی مزاحمت کے فرق کی وجہ سے مخصوص شکست کی سطحوں کے ساتھ ٹوٹتے ہیں۔ واحد قلم کی خصوصیات سمت کے ساتھ بدل سکتی ہیں، جبکہ کئی بے قلمی مادے مجموعی طور پر تقریباً یکساں ہوتے ہیں۔ نمک یا کوارٹز قلمی ٹھوس اور عام شیشہ بے قلمی ٹھوس کی مثال ہے۔ یہ مثالی موازنہ ہے؛ حقیقی نمونوں میں نجاست، نقائص، کئی قلمی دانے یا ملی جلی قلمی/بے قلمی ساخت ہو سکتی ہے۔",
+              "rubric": [
+                "قلمی میں طویل فاصلے کی ترتیب اور بے قلمی میں اس کی عدم موجودگی/مقامی ترتیب (2)",
+                "پگھلنے کے رویے کا موازنہ (2)",
+                "شکست کی وضاحت (2)",
+                "سمتی خصوصیات کا موازنہ (2)",
+                "مناسب مثالیں (1)",
+                "حقیقی مادوں کی حد/استثنا (1)"
+              ]
+            },
+            "sd": {
+              "question": "قلمی ۽ بي قلمی ٺوس جو ڀيٽ ڪريو ۽ ٻڌايو ته انهن جي بناوت پگھلڻ، ٽٽڻ ۽ رخ وارين خاصيتن تي ڪيئن اثر ڪري ٿي. مناسب مثال ۽ ڀيٽ جي هڪ حد شامل ڪريو.",
+              "modelAnswer": "قلمی ٺوس ۾ ڊگهي فاصلي تائين باقاعده ورجائجندڙ ترتيب هوندي آهي، جڏهن ته بي قلمی ٺوس ۾ ڊگهي فاصلي واري باقاعده ترتيب ناهي پر مقامي ترتيب ٿي سگهي ٿي. مقرر دٻاءَ تي خالص قلمی مادو عام طور نسبتاً واضح نقطي تي پگھلندو آهي؛ بي قلمی مادو عام طور گرمي پد جي حد ۾ نرم ٿيندو آهي. ڪجهه قلم بناوتي مزاحمت جي فرق سبب مخصوص ٽٽڻ وارين سطحن سان ٽٽن ٿا. اڪيلي قلم جون خاصيتون رخ سان بدلجي سگهن ٿيون، جڏهن ته ڪيترائي بي قلمی مادا مجموعي طور لڳ ڀڳ هڪجهڙا هوندا آهن. لوڻ يا ڪوارٽز قلمی ٺوس ۽ عام شيشو بي قلمی ٺوس جا مثال آهن. هي مثالي ڀيٽ آهي؛ حقيقي نمونن ۾ نجاست، نقص، ڪيترائي قلمی داڻا يا گڏيل قلمی/بي قلمی حصا ٿي سگهن ٿا.",
+              "rubric": [
+                "قلمی ۾ ڊگهي فاصلي واري ترتيب ۽ بي قلمی ۾ ان جي غيرموجودگي/مقامي ترتيب (2)",
+                "پگھلڻ واري رويي جو ڀيٽ (2)",
+                "ٽٽڻ جي وضاحت (2)",
+                "رخ وارين خاصيتن جو ڀيٽ (2)",
+                "مناسب مثال (1)",
+                "حقيقي مادن جي حد/استثنا (1)"
+              ]
+            }
+          }
         }
       ],
-      "contentTier": "outline"
+      "contentTier": "exam-ready",
+      "learningOutcomes": [
+        "Use the kinetic molecular model to explain particle vibration, low compressibility, interparticle spacing, intermolecular attraction, kinetic energy and thermal expansion in solids.",
+        "Differentiate crystalline solids from amorphous solids using long-range order, melting behaviour, cleavage and directional properties.",
+        "Describe the geometrical shape, melting point, cleavage planes, crystal habit and growth of crystalline solids.",
+        "Explain how cooling rate, solution concentration, evaporation and impurities can influence crystal growth and external habit.",
+        "Apply structural evidence to identify suitable examples and explain why real materials may contain defects or multiple crystal grains."
+      ],
+      "keyTerms": [
+        "solid state",
+        "kinetic molecular theory",
+        "lattice",
+        "interparticle space",
+        "thermal expansion",
+        "crystalline solid",
+        "amorphous solid",
+        "long-range order",
+        "short-range order",
+        "anisotropy",
+        "isotropy",
+        "melting range",
+        "cleavage plane",
+        "crystal habit",
+        "nucleation",
+        "crystal growth",
+        "supersaturated solution",
+        "unit cell"
+      ],
+      "sources": [
+        {
+          "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
+          "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+          "pages": "45",
+          "slos": [
+            "C-11-B-72",
+            "C-11-B-73",
+            "C-11-B-74"
+          ],
+          "notes": "Official Grade XI outcomes: kinetic molecular properties of solids; crystalline vs amorphous solids; crystal geometry, melting point, cleavage, habit and growth."
+        },
+        {
+          "title": "Sindh Textbook Board eBooks catalogue",
+          "url": "https://ebooks.stbb.edu.pk/",
+          "notes": "Official catalogue for checking the currently listed Chemistry XI textbook and medium; textbook edition/chapter mapping should be confirmed by the teacher."
+        }
+      ]
     },
     {
       "title": "Chapter 7: Chemical Equilibrium",
