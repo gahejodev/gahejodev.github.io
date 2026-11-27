@@ -1,9 +1,9 @@
 {
   "id": "chemistry-xi-chapters-1-12",
   "title": "Chemistry XI — Chapters 1–12 Supplementary Course",
-  "description": "Supplementary Chemistry XI course with 12 units. Chapters 1–7 are exam-ready against DCAR Sindh Chemistry Curriculum 2024 Grade XI SLOs; Chapters 8–12 remain outline-stage and are clearly tier-labelled.",
-  "version": "11",
-  "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B: Chapter 1 Stoichiometry SLOs C-11-B-50 to C-11-B-59; Chapter 2 Atomic Structure C-11-B-01 to C-11-B-27; Chapter 3 Covalent Bonding C-11-B-32 to C-11-B-39 with polarity cross-link C-11-B-46; Chapter 4 Gases C-11-B-69; Chapter 5 Liquids C-11-B-61 to C-11-B-68. Chapters 1–5 are exam-ready; Chapters 6–12 remain outline-stage.",
+  "description": "Chemistry XI supplementary course for Chapters 1–12. Chapter 8 is exam-ready with five trilingual lessons, explained MCQs, model CRQs/ERQs and an interactive buffer model; other chapters retain their individual tiers.",
+  "version": "12",
+  "curriculumAlignment": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024), Grade XI Domain B: Chapter 1 Stoichiometry SLOs C-11-B-50 to C-11-B-59; Chapter 2 Atomic Structure C-11-B-01 to C-11-B-27; Chapter 3 Covalent Bonding C-11-B-32 to C-11-B-39 with polarity cross-link C-11-B-46; Chapter 4 Gases C-11-B-69; Chapter 5 Liquids C-11-B-61 to C-11-B-68. Chapters 1–5 are exam-ready; Chapters 6–12 remain outline-stage. Chapter 8: DCAR 2024 Grade XI SLOs C-11-B-130–142, printed pages 55–56.",
   "sourceReferences": [
     {
       "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
@@ -34,6 +34,11 @@
       "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
       "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
       "note": "Grade XI Domain B, States and Phases of Matter, SLOs C-11-B-61 to C-11-B-68, printed pages 43–44: liquid particle behaviour, intermolecular forces, liquid properties, water, molar heats of fusion/vaporization and glacier/ice-sheet applications."
+    },
+    {
+      "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
+      "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+      "note": "Grade XI SLOs C-11-B-130–142, printed pages 55–56. Existing Chapter 8 label retained; the progression grid does not number this SLO block."
     }
   ],
   "chapters": [
@@ -6495,77 +6500,804 @@
     },
     {
       "title": "Chapter 8: Acids, Bases and Salts",
-      "description": "Supplementary topic 8: Chapter 8: Acids, Bases and Salts.",
+      "description": "Exam-ready Grade XI study of acid–base models, conjugate pairs, Lewis acids/bases, pH and acid strength, buffers, salt hydrolysis, solubility product and the common-ion effect. Aligned to DCAR Sindh Chemistry Curriculum 2024 Grade XI SLOs C-11-B-130–142.",
       "lessons": [
         {
-          "title": "Chapter 8: Acids, Bases and Salts — concepts",
+          "title": "8.1 Acidic, basic and amphiprotic substances",
           "type": "text",
-          "content": "## Learning outcomes\nBrønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH changes when small amounts of acid or base are added.\n\n## Study task\nDefine the key terms, write the relevant relationship or principle, and solve a short example with units.",
+          "content": "## Learning outcomes\nCompare Arrhenius and Brønsted–Lowry definitions; identify acid/base roles and amphiprotic particles.\n\nAn **Arrhenius acid** increases H₃O⁺ in water; an **Arrhenius base** increases OH⁻. A **Brønsted–Lowry acid** donates H⁺; a **base** accepts H⁺.\n\nHCl + H₂O → H₃O⁺ + Cl⁻\nHCl donates H⁺ and is the acid; water accepts H⁺ and is the base.\n\nNH₃ + H₂O ⇌ NH₄⁺ + OH⁻\nNH₃ accepts H⁺ and is the base; water donates H⁺ and is the acid.\n\nWater, HCO₃⁻ and HSO₄⁻ are **amphiprotic**: they can donate and accept H⁺. HCO₃⁻ can accept H⁺ to form H₂CO₃ or donate H⁺ to form CO₃²⁻. An **amphoteric oxide/hydroxide**, such as ZnO or Al₂O₃, reacts with both acids and bases; this is broader behaviour, not specifically proton transfer by a particle.\n\n## Example and revision\nThe conjugate pairs for HCl + H₂O → H₃O⁺ + Cl⁻ are HCl/Cl⁻ and H₂O/H₃O⁺. For NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ they are NH₄⁺/NH₃ and H₂O/OH⁻. Arrhenius focuses on aqueous H₃O⁺/OH⁻; Brønsted–Lowry follows H⁺ transfer. Explain why water changes its role between the two equations.",
           "explanations": {
-            "ur": "برونسٹڈ–لوری نظریے میں تیزاب پروٹون دیتا اور اساس پروٹون قبول کرتا ہے؛ لیوس تیزاب الیکٹران جوڑا قبول اور لیوس اساس عطیہ کرتی ہے۔ بفر محلول pH کی تبدیلی کم کرتا ہے۔",
-            "sd": "برونسٽڊ–لوري موجب تيزاب پروٽان ڏئي ٿو ۽ اساس قبول ڪري ٿي؛ ليوس تيزاب اليڪٽران جوڙو قبول ۽ ليوس اساس ڏئي ٿي. بفر محلول pH جي تبديلي کي گهٽائي ٿو."
+            "ur": "آرہینیئس تیزاب پانی میں H₃O⁺ اور اساس OH⁻ بڑھاتی ہے۔ برونسٹڈ–لوری تیزاب H⁺ دیتا اور اساس قبول کرتی ہے۔ HCl + H₂O → H₃O⁺ + Cl⁻ میں HCl تیزاب اور پانی اساس ہے۔ NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ میں NH₃ اساس اور پانی تیزاب ہے۔ پانی، HCO₃⁻ اور HSO₄⁻ ایمفپروٹک ہیں کیونکہ یہ پروٹون دے اور لے سکتے ہیں۔ ZnO اور Al₂O₃ جیسے ایمفوٹیرک آکسائیڈ تیزاب اور اساس دونوں سے عمل کرتے ہیں۔ HCl کے ہمزاد جوڑے HCl/Cl⁻ اور H₂O/H₃O⁺ ہیں؛ امونیا کے جوڑے NH₄⁺/NH₃ اور H₂O/OH⁻ ہیں۔",
+            "sd": "آرھينيس تيزاب پاڻيءَ ۾ H₃O⁺ ۽ اساس OH⁻ وڌائي ٿي. برونسٽڊ–لوري تيزاب H⁺ ڏئي ۽ اساس قبول ڪري ٿي. HCl + H₂O → H₃O⁺ + Cl⁻ ۾ HCl تيزاب ۽ پاڻي اساس آهي. NH₃ + H₂O ⇌ NH₄⁺ + OH⁻ ۾ NH₃ اساس ۽ پاڻي تيزاب آهي. پاڻي، HCO₃⁻ ۽ HSO₄⁻ ايمفوپروٽڪ آهن، ڇاڪاڻ⁠تہ اهي پروٽان ڏئي ۽ وٺي سگهن ٿا. ZnO ۽ Al₂O₃ جهڙا ايمفوٽيرڪ آڪسائيڊ تيزاب ۽ اساس ٻنهي سان عمل ڪن ٿا. HCl جا جوڙا HCl/Cl⁻ ۽ H₂O/H₃O⁺ آهن؛ امونيا جا NH₄⁺/NH₃ ۽ H₂O/OH⁻ آهن."
           }
         },
         {
-          "title": "Chapter 8: Acids, Bases and Salts — applications and problem solving",
+          "title": "8.2 Conjugate pairs, Lewis acids and coordinate bonds",
           "type": "text",
-          "content": "Apply the concepts in chapter 8: acids, bases and salts to a numerical or conceptual problem. State the known quantities, select the relevant equation or principle, show each step and check whether the answer is physically or chemically reasonable.",
+          "content": "## Learning outcomes\nIdentify conjugate pairs, compare Lewis and Brønsted–Lowry models, and identify an electron-pair donor/acceptor.\n\nWhen a Brønsted–Lowry acid donates H⁺ it becomes its **conjugate base**. When a base accepts H⁺ it becomes its **conjugate acid**. Members differ by one proton and one charge unit.\n\nA **Lewis acid** accepts an electron pair; a **Lewis base** donates one. In BF₃ + :NH₃ → F₃B←NH₃, NH₃ donates its nitrogen lone pair and is the Lewis base; BF₃ accepts it and is the Lewis acid. The arrow points from donor to acceptor.\n\nIn a **coordinate covalent bond**, both shared electrons are supplied by one atom or ion when the bond forms. After formation the bond behaves as a covalent bond. H⁺ accepts a lone pair from water to form H₃O⁺.\n\n## Revision summary\nBrønsted–Lowry reactions require proton transfer. Lewis reactions require electron-pair donation to an acceptor and may occur without proton transfer. Remember: Lewis base donates; Lewis acid accepts.",
           "explanations": {
-            "ur": "تصور کو عددی یا تصوری سوال پر لاگو کریں۔ معلوم مقداریں لکھیں، مناسب اصول منتخب کریں، مراحل دکھائیں اور جواب کی معقولیت جانچیں۔",
-            "sd": "تصورن کي عددي يا تصوري سوال تي لاڳو ڪريو. ڏنل مقدارون لکو، مناسب اصول چونڊيو، مرحلا ڏيکاريو ۽ جواب جي معقوليت پرکو."
+            "ur": "برونسٹڈ–لوری تیزاب H⁺ دے کر ہمزاد اساس اور اساس H⁺ قبول کر کے ہمزاد تیزاب بناتی ہے۔ دونوں میں ایک پروٹون اور ایک چارج کا فرق ہوتا ہے۔ لیوس تیزاب الیکٹران جوڑا قبول اور لیوس اساس عطیہ کرتی ہے۔ BF₃ + :NH₃ → F₃B←NH₃ میں NH₃ جوڑا دیتا ہے اور لیوس اساس ہے؛ BF₃ اسے قبول کر کے لیوس تیزاب بنتا ہے۔ کوآرڈینیٹ کوویلنٹ بند میں مشترک جوڑے کے دونوں الیکٹران ابتدا میں ایک ہی ایٹم یا آئن دیتا ہے۔ برونسٹڈ–لوری میں پروٹون اور لیوس میں الیکٹران جوڑا منتقل ہوتا ہے۔",
+            "sd": "برونسٽڊ–لوري تيزاب H⁺ ڏئي conjugate base ۽ اساس H⁺ قبول ڪري conjugate acid بڻجي ٿي. ٻنهي ۾ هڪ پروٽان ۽ هڪ چارج جو فرق هوندو آهي. ليوس تيزاب اليڪٽران جوڙو قبول ۽ ليوس اساس ڏئي ٿي. BF₃ + :NH₃ → F₃B←NH₃ ۾ NH₃ جوڙو ڏئي ليوس اساس آهي؛ BF₃ قبول ڪري ليوس تيزاب آهي. Coordinate covalent بند ۾ گڏيل جوڙي جا ٻئي اليڪٽران شروعات ۾ هڪ ئي ايٽم يا آئن ڏئي ٿو. برونسٽڊ–لوري ۾ پروٽان ۽ ليوس ۾ اليڪٽران جوڙو منتقل ٿئي ٿو."
+          }
+        },
+        {
+          "title": "8.3 Acid strength, Ka, pKa, Kw and pH",
+          "type": "text",
+          "content": "## Learning outcomes\nDistinguish strength from concentration; define Ka, pKa, Kw and pH; calculate pH from strong/weak acid or alkali data.\n\nA **strong acid** ionises almost completely; a **weak acid** ionises partially. Concentration is amount per volume, so strength and concentration are not interchangeable.\n\nFor HA + H₂O ⇌ H₃O⁺ + A⁻:\nKa = [H₃O⁺][A⁻]/[HA]\npKa = −log₁₀Ka\nLarger Ka and smaller pKa indicate a stronger acid under the same conditions.\n\npH = −log₁₀[H₃O⁺]; Kw = [H₃O⁺][OH⁻]. At 25 °C, Kw = 1.0 × 10⁻¹⁴. Pure water has equal [H₃O⁺] and [OH⁻] of 10⁻⁷ M and pH 7.\n\n**Strong acid:** 1.0 × 10⁻³ M HCl is treated as fully ionised, so pH = 3.\n**Strong alkali:** 1.0 × 10⁻² M NaOH gives [OH⁻] = 10⁻² M; at 25 °C [H₃O⁺] = Kw/[OH⁻] = 10⁻¹² M, so pH = 12.\n**Weak acid:** for 0.10 M ethanoic acid with Ka = 1.8 × 10⁻⁵, x ≈ √(KaC) = 1.34 × 10⁻³ M and pH ≈ 2.87. Since x/C ≈ 1.34%, the small-x approximation is reasonable. If ionisation is not small, solve the full equilibrium expression. For weak alkalis, use supplied equilibrium [OH⁻] data and Kw; do not assume complete ionisation.\n\n## Revision\nState temperature and ionisation assumptions. Use Ka/pKa to compare weak-acid strength, pH for hydronium, and Kw to connect hydronium and hydroxide.",
+          "explanations": {
+            "ur": "مضبوط تیزاب تقریباً مکمل اور کمزور تیزاب جزوی آئنائز ہوتا ہے۔ ارتکاز فی حجم مقدار ہے، اس لیے قوت اور ارتکاز الگ تصورات ہیں۔ HA + H₂O ⇌ H₃O⁺ + A⁻ کے لیے Ka = [H₃O⁺][A⁻]/[HA] اور pKa = −log Ka ہے۔ بڑا Ka اور چھوٹا pKa مضبوط تیزاب ظاہر کرتا ہے۔ pH = −log[H₃O⁺] اور Kw = [H₃O⁺][OH⁻] ہے؛ 25 °C پر Kw = 10⁻¹⁴۔ 10⁻³ M HCl کا pH = 3؛ 10⁻² M NaOH کا pH = 12۔ 0.10 M ایتھانوئیٹ تیزاب، Ka = 1.8 × 10⁻⁵ کے لیے x ≈ √(KaC) = 1.34 × 10⁻³ M اور pH ≈ 2.87۔ کمزور اساس کے لیے دی گئی [OH⁻] معلومات اور Kw استعمال کریں۔",
+            "sd": "مضبوط تيزاب لڳ ڀڳ مڪمل ۽ ڪمزور تيزاب جزوي آئنائيز ٿئي ٿو. ارتڪاز في حجم مقدار آهي، تنهنڪري طاقت ۽ ارتڪاز الڳ آهن. HA + H₂O ⇌ H₃O⁺ + A⁻ لاءِ Ka = [H₃O⁺][A⁻]/[HA] ۽ pKa = −log Ka آهي. وڏو Ka ۽ ننڍو pKa مضبوط تيزاب ڏيکاري ٿو. pH = −log[H₃O⁺] ۽ Kw = [H₃O⁺][OH⁻] آهي؛ 25 °C تي Kw = 10⁻¹⁴۔ 10⁻³ M HCl جو pH = 3؛ 10⁻² M NaOH جو pH = 12۔ 0.10 M اٿانوئيڪ تيزاب، Ka = 1.8 × 10⁻⁵ لاءِ x ≈ √(KaC) = 1.34 × 10⁻³ M ۽ pH ≈ 2.87۔ ڪمزور اساس لاءِ ڏنل [OH⁻] ڊيٽا ۽ Kw استعمال ڪريو."
+          }
+        },
+        {
+          "title": "8.4 Buffer action and pH calculations",
+          "type": "text",
+          "content": "## Learning outcomes\nDefine buffers, explain their response to added acid/base, and calculate buffer pH.\n\nA **buffer** contains a weak acid and its conjugate base, or a weak base and its conjugate acid. It reduces pH change when a small amount of strong acid/base is added; its capacity is finite.\n\nFor ethanoic acid/acetate:\nCH₃COO⁻ + H₃O⁺ → CH₃COOH + H₂O\nCH₃COOH + OH⁻ → CH₃COO⁻ + H₂O\n\nFor a suitable weak-acid buffer:\npH = pKa + log₁₀([A⁻]/[HA])\nEqual component concentrations give pH = pKa. Use mole amounts only when both components share the same final volume. This is an approximation for ordinary dilute solutions.\n\n**Interactive model:** choose HCl or NaOH and adjust 0–4 mmol. It starts with 10 mmol HA and 10 mmol A⁻, pKa = 4.76 at 25 °C, fixed volume; activity, dilution and temperature effects are ignored. It is a teaching model, not a clinical prediction.\n\nBuffers are used in laboratories, fermentation and biological fluids. The bicarbonate system is one part of blood pH regulation; other buffers and physiological systems also contribute.",
+          "explanations": {
+            "ur": "بفر میں کمزور تیزاب اور ہمزاد اساس یا کمزور اساس اور ہمزاد تیزاب ہوتے ہیں۔ یہ تھوڑا تیزاب یا اساس شامل ہونے پر pH کی تبدیلی کم کرتا ہے، مگر گنجائش محدود ہے۔ ایسیٹیٹ H₃O⁺ استعمال کر کے ایتھانوئیٹ تیزاب بناتا ہے؛ ایتھانوئیٹ تیزاب OH⁻ استعمال کر کے ایسیٹیٹ اور پانی بناتا ہے۔ pH = pKa + log([A⁻]/[HA]) ہے؛ دونوں ارتکاز برابر ہوں تو pH = pKa۔ ماڈل میں ابتدا میں دونوں اجزا 10 mmol، pKa = 4.76 اور 25 °C ہے؛ حجم مستقل اور سرگرمی/dilution کے اثرات نظر انداز ہیں۔ بفر تجربہ گاہ، تخمیر اور حیاتیاتی سیالات میں استعمال ہوتے ہیں۔",
+            "sd": "بفر ۾ ڪمزور تيزاب ۽ conjugate base يا ڪمزور اساس ۽ conjugate acid هوندو آهي. اهو ٿورو تيزاب يا اساس شامل ٿيڻ تي pH جي تبديلي گهٽائي ٿو، پر گنجائش محدود آهي. ايسيٽيٽ H₃O⁺ استعمال ڪري اٿانوئيڪ تيزاب ٺاهي ٿو؛ اٿانوئيڪ تيزاب OH⁻ استعمال ڪري ايسيٽيٽ ۽ پاڻي ٺاهي ٿو. pH = pKa + log([A⁻]/[HA]) آهي؛ ٻئي ارتڪاز برابر هجن ته pH = pKa. ماڊل ۾ شروع ۾ ٻئي جزا 10 mmol، pKa = 4.76 ۽ 25 °C آهي؛ حجم مستقل ۽ activity/dilution جا اثر نظرانداز آهن. بفر ليبارٽري، خمير ۽ حياتياتي رطوبتن ۾ استعمال ٿين ٿا."
+          }
+        },
+        {
+          "title": "8.5 Salt hydrolysis, Ksp and common-ion effect",
+          "type": "text",
+          "content": "## Learning outcomes\nExplain acidic/basic salt solutions, write Ksp expressions and apply the common-ion effect.\n\n**Salt hydrolysis:** NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺ makes NH₄Cl solution acidic. CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻ makes sodium ethanoate basic. Na⁺ and Cl⁻ from NaCl hydrolyse negligibly, so the solution is approximately neutral.\n\nFor AgCl(s) ⇌ Ag⁺ + Cl⁻:\nKsp = [Ag⁺][Cl⁻]\nFor CaF₂(s) ⇌ Ca²⁺ + 2F⁻:\nKsp = [Ca²⁺][F⁻]²\nPure solids are omitted; coefficients become powers.\n\nAdding Cl⁻ from NaCl to saturated AgCl shifts dissolution towards solid AgCl and lowers solubility. Always start from the balanced dissolution equation.\n\n## Case study and revision\nA water-quality laboratory selects a buffer with adequate capacity, measures actual pH, and uses the common-ion effect to reduce dissolved Ag⁺ in an AgCl system. Never taste reagents; use goggles, suitable gloves, supervision and reagent-specific safety instructions.",
+          "explanations": {
+            "ur": "NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺ سے NH₄Cl تیزابی اور CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻ سے سوڈیم ایتھانوئیٹ بنیادی ہوتا ہے۔ NaCl کے آئن پانی سے نہ ہونے کے برابر عمل کرتے ہیں۔ AgCl(s) ⇌ Ag⁺ + Cl⁻ کے لیے Ksp = [Ag⁺][Cl⁻]؛ CaF₂(s) ⇌ Ca²⁺ + 2F⁻ کے لیے Ksp = [Ca²⁺][F⁻]²۔ خالص ٹھوس خارج ہوتا ہے اور عددی ضارب قوت بنتے ہیں۔ NaCl سے Cl⁻ بڑھانے پر AgCl کی حل پذیری کم ہوتی ہے۔ پانی کے معیار کی تجربہ گاہ میں بفر گنجائش اور pH ناپیں۔ کیمیکل نہ چکھیں؛ چشمہ، دستانے اور نگرانی ضروری ہیں۔",
+            "sd": "NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺ سبب NH₄Cl تيزابي ۽ CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻ سبب سوڊيم اٿانوئيٽ بنيادي ٿئي ٿو. NaCl جا آئن پاڻيءَ سان تمام گهٽ عمل ڪن ٿا. AgCl(s) ⇌ Ag⁺ + Cl⁻ لاءِ Ksp = [Ag⁺][Cl⁻]؛ CaF₂(s) ⇌ Ca²⁺ + 2F⁻ لاءِ Ksp = [Ca²⁺][F⁻]². خالص ٺوس خارج آهي ۽ ضارب قوت بڻجن ٿا. NaCl مان Cl⁻ وڌائڻ سان AgCl جي حل پذيري گهٽجي ٿي. پاڻيءَ جي معيار واري ليبارٽري ۾ بفر گنجائش ۽ pH ماپيو. ڪيميڪل نه چکو؛ چشمو، دستانا ۽ نگراني ضروري آهن."
           }
         }
       ],
       "questions": [
         {
-          "question": "Which statement best describes chapter 8: acids, bases and salts?",
+          "id": "chem-xi-acid-mcq-01",
+          "question": "In HCl + H₂O → H₃O⁺ + Cl⁻, which species is the Brønsted–Lowry acid?",
           "options": {
-            "A": "Brønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH cha",
-            "B": "The topic is unrelated to measurable evidence.",
-            "C": "Units and definitions are unnecessary.",
-            "D": "The concept cannot be applied to problems."
+            "A": "HCl",
+            "B": "H₂O",
+            "C": "H₃O⁺",
+            "D": "Cl⁻"
           },
           "correctOption": "A",
-          "explanation": "Brønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH changes when small amounts of acid or base are added."
+          "explanation": "HCl donates H⁺ to water.",
+          "translations": {
+            "ur": {
+              "question": "اس مساوات میں برونسٹڈ–لوری تیزاب کون سا ہے؟",
+              "options": {
+                "A": "HCl",
+                "B": "H₂O",
+                "C": "H₃O⁺",
+                "D": "Cl⁻"
+              },
+              "explanation": "HCl پانی کو H⁺ دیتا ہے۔"
+            },
+            "sd": {
+              "question": "هن مساوات ۾ برونسٽڊ–لوري تيزاب ڪهڙو آهي؟",
+              "options": {
+                "A": "HCl",
+                "B": "H₂O",
+                "C": "H₃O⁺",
+                "D": "Cl⁻"
+              },
+              "explanation": "HCl پاڻيءَ کي H⁺ ڏئي ٿو."
+            }
+          }
         },
         {
-          "question": "How should a student solve a problem in chapter 8: acids, bases and salts?",
+          "id": "chem-xi-acid-mcq-02",
+          "question": "In NH₃ + H₂O ⇌ NH₄⁺ + OH⁻, water acts as a:",
           "options": {
-            "A": "Guess without identifying quantities.",
-            "B": "Apply the relevant principle, show steps and check units.",
-            "C": "Ignore the stated conditions.",
-            "D": "Use an unrelated equation."
+            "A": "Brønsted–Lowry acid",
+            "B": "Brønsted–Lowry base",
+            "C": "Lewis acid only",
+            "D": "spectator"
+          },
+          "correctOption": "A",
+          "explanation": "Water donates H⁺ to NH₃.",
+          "translations": {
+            "ur": {
+              "question": "اس تعامل میں پانی کس کردار میں ہے؟",
+              "options": {
+                "A": "برونسٹڈ–لوری تیزاب",
+                "B": "برونسٹڈ–لوری اساس",
+                "C": "صرف لیوس تیزاب",
+                "D": "غیر فعال"
+              },
+              "explanation": "پانی NH₃ کو H⁺ دیتا ہے۔"
+            },
+            "sd": {
+              "question": "هن عمل ۾ پاڻي ڪهڙو ڪردار ادا ڪري ٿو؟",
+              "options": {
+                "A": "برونسٽڊ–لوري تيزاب",
+                "B": "برونسٽڊ–لوري اساس",
+                "C": "رڳو ليوس تيزاب",
+                "D": "غيرفعال"
+              },
+              "explanation": "پاڻي NH₃ کي H⁺ ڏئي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-03",
+          "question": "What is the conjugate acid of NH₃?",
+          "options": {
+            "A": "NH₂⁻",
+            "B": "NH₄⁺",
+            "C": "N₂",
+            "D": "NO₃⁻"
           },
           "correctOption": "B",
-          "explanation": "Brønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH changes when small amounts of acid or base are added."
+          "explanation": "Adding one proton to NH₃ gives NH₄⁺.",
+          "translations": {
+            "ur": {
+              "question": "NH₃ کا ہمزاد تیزاب کون سا ہے؟",
+              "options": {
+                "A": "NH₂⁻",
+                "B": "NH₄⁺",
+                "C": "N₂",
+                "D": "NO₃⁻"
+              },
+              "explanation": "NH₃ میں H⁺ شامل کرنے سے NH₄⁺ بنتا ہے۔"
+            },
+            "sd": {
+              "question": "NH₃ جو conjugate acid ڪهڙو آهي؟",
+              "options": {
+                "A": "NH₂⁻",
+                "B": "NH₄⁺",
+                "C": "N₂",
+                "D": "NO₃⁻"
+              },
+              "explanation": "NH₃ ۾ H⁺ شامل ڪرڻ سان NH₄⁺ ٺهي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-04",
+          "question": "Which ion is amphiprotic?",
+          "options": {
+            "A": "Na⁺",
+            "B": "Cl⁻",
+            "C": "HCO₃⁻",
+            "D": "NO₃⁻"
+          },
+          "correctOption": "C",
+          "explanation": "HCO₃⁻ can accept or donate H⁺.",
+          "translations": {
+            "ur": {
+              "question": "کون سا آئن پروٹون دے اور لے دونوں سکتا ہے؟",
+              "options": {
+                "A": "Na⁺",
+                "B": "Cl⁻",
+                "C": "HCO₃⁻",
+                "D": "NO₃⁻"
+              },
+              "explanation": "HCO₃⁻ پروٹون لے یا دے سکتا ہے۔"
+            },
+            "sd": {
+              "question": "ڪهڙو آئن پروٽان ڏئي ۽ وٺي ٻئي سگهي ٿو؟",
+              "options": {
+                "A": "Na⁺",
+                "B": "Cl⁻",
+                "C": "HCO₃⁻",
+                "D": "NO₃⁻"
+              },
+              "explanation": "HCO₃⁻ پروٽان وٺي يا ڏئي سگهي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-05",
+          "question": "In BF₃ + NH₃ → F₃B←NH₃, which reactant is the Lewis acid?",
+          "options": {
+            "A": "NH₃",
+            "B": "BF₃",
+            "C": "F⁻",
+            "D": "H₂O"
+          },
+          "correctOption": "B",
+          "explanation": "BF₃ accepts the electron pair from NH₃.",
+          "translations": {
+            "ur": {
+              "question": "اس تعامل میں لیوس تیزاب کون سا ہے؟",
+              "options": {
+                "A": "NH₃",
+                "B": "BF₃",
+                "C": "F⁻",
+                "D": "H₂O"
+              },
+              "explanation": "BF₃، NH₃ کا الیکٹران جوڑا قبول کرتا ہے۔"
+            },
+            "sd": {
+              "question": "هن عمل ۾ ليوس تيزاب ڪهڙو آهي؟",
+              "options": {
+                "A": "NH₃",
+                "B": "BF₃",
+                "C": "F⁻",
+                "D": "H₂O"
+              },
+              "explanation": "BF₃، NH₃ جو اليڪٽران جوڙو قبول ڪري ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-06",
+          "question": "In F₃B←NH₃, which species supplies the shared electron pair?",
+          "options": {
+            "A": "BF₃",
+            "B": "NH₃",
+            "C": "F₃B",
+            "D": "Neither"
+          },
+          "correctOption": "B",
+          "explanation": "NH₃ donates its nitrogen lone pair.",
+          "translations": {
+            "ur": {
+              "question": "F₃B←NH₃ میں مشترک الیکٹران جوڑا کون دیتا ہے؟",
+              "options": {
+                "A": "BF₃",
+                "B": "NH₃",
+                "C": "F₃B",
+                "D": "کوئی نہیں"
+              },
+              "explanation": "NH₃ اپنا تنہا جوڑا عطیہ کرتا ہے۔"
+            },
+            "sd": {
+              "question": "F₃B←NH₃ ۾ گڏيل اليڪٽران جوڙو ڪير ڏئي ٿو؟",
+              "options": {
+                "A": "BF₃",
+                "B": "NH₃",
+                "C": "F₃B",
+                "D": "ڪو به نه"
+              },
+              "explanation": "NH₃ پنهنجو اڪيلو جوڙو ڏئي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-07",
+          "question": "What is the pH of 1.0 × 10⁻³ M HCl at 25 °C if fully ionised?",
+          "options": {
+            "A": "1",
+            "B": "2",
+            "C": "3",
+            "D": "11"
+          },
+          "correctOption": "C",
+          "explanation": "[H₃O⁺] = 10⁻³ M, so pH = 3.",
+          "translations": {
+            "ur": {
+              "question": "مکمل آئنائزیشن کے ساتھ 1.0 × 10⁻³ M HCl کا pH کیا ہے؟",
+              "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "11"
+              },
+              "explanation": "[H₃O⁺] = 10⁻³ M، اس لیے pH = 3۔"
+            },
+            "sd": {
+              "question": "مڪمل آئنائيزيشن سان 1.0 × 10⁻³ M HCl جو pH ڪيترو آهي؟",
+              "options": {
+                "A": "1",
+                "B": "2",
+                "C": "3",
+                "D": "11"
+              },
+              "explanation": "[H₃O⁺] = 10⁻³ M، تنهنڪري pH = 3."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-08",
+          "question": "What is the pH of 0.010 M NaOH at 25 °C?",
+          "options": {
+            "A": "2",
+            "B": "7",
+            "C": "10",
+            "D": "12"
+          },
+          "correctOption": "D",
+          "explanation": "pOH = 2, so pH = 14 − 2 = 12.",
+          "translations": {
+            "ur": {
+              "question": "25 °C پر 0.010 M NaOH کا pH کیا ہے؟",
+              "options": {
+                "A": "2",
+                "B": "7",
+                "C": "10",
+                "D": "12"
+              },
+              "explanation": "pOH = 2، اس لیے pH = 12۔"
+            },
+            "sd": {
+              "question": "25 °C تي 0.010 M NaOH جو pH ڪيترو آهي؟",
+              "options": {
+                "A": "2",
+                "B": "7",
+                "C": "10",
+                "D": "12"
+              },
+              "explanation": "pOH = 2، تنهنڪري pH = 12."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-09",
+          "question": "Which is the Ka expression for HA + H₂O ⇌ H₃O⁺ + A⁻?",
+          "options": {
+            "A": "[HA]/([H₃O⁺][A⁻])",
+            "B": "[H₃O⁺][A⁻]/[HA]",
+            "C": "[H₃O⁺]+[A⁻]",
+            "D": "[HA][H₂O]"
+          },
+          "correctOption": "B",
+          "explanation": "Water is omitted from Ka.",
+          "translations": {
+            "ur": {
+              "question": "HA کے لیے Ka کا درست اظہار کون سا ہے؟",
+              "options": {
+                "A": "[HA]/([H₃O⁺][A⁻])",
+                "B": "[H₃O⁺][A⁻]/[HA]",
+                "C": "[H₃O⁺]+[A⁻]",
+                "D": "[HA][H₂O]"
+              },
+              "explanation": "پانی کو اظہار میں شامل نہیں کرتے۔"
+            },
+            "sd": {
+              "question": "HA لاءِ Ka جو صحيح اظهار ڪهڙو آهي؟",
+              "options": {
+                "A": "[HA]/([H₃O⁺][A⁻])",
+                "B": "[H₃O⁺][A⁻]/[HA]",
+                "C": "[H₃O⁺]+[A⁻]",
+                "D": "[HA][H₂O]"
+              },
+              "explanation": "پاڻيءَ کي اظهار ۾ شامل نٿو ڪجي."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-10",
+          "question": "For acids under the same conditions, which indicates greater strength?",
+          "options": {
+            "A": "Larger pKa",
+            "B": "Smaller Ka",
+            "C": "Larger Ka and smaller pKa",
+            "D": "Higher concentration only"
+          },
+          "correctOption": "C",
+          "explanation": "Larger Ka and smaller pKa indicate greater acid strength.",
+          "translations": {
+            "ur": {
+              "question": "ایک جیسی حالت میں زیادہ مضبوط تیزاب کی علامت کیا ہے؟",
+              "options": {
+                "A": "بڑا pKa",
+                "B": "چھوٹا Ka",
+                "C": "بڑا Ka اور چھوٹا pKa",
+                "D": "صرف زیادہ ارتکاز"
+              },
+              "explanation": "زیادہ Ka اور کم pKa زیادہ قوت ظاہر کرتے ہیں۔"
+            },
+            "sd": {
+              "question": "ساڳين حالتن ۾ وڌيڪ مضبوط تيزاب جي نشاني ڪهڙي آهي؟",
+              "options": {
+                "A": "وڏو pKa",
+                "B": "ننڍو Ka",
+                "C": "وڏو Ka ۽ ننڍو pKa",
+                "D": "رڳو وڌيڪ ارتڪاز"
+              },
+              "explanation": "وڏو Ka ۽ ننڍو pKa وڌيڪ طاقت ڏيکارين ٿا."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-11",
+          "question": "For 0.10 M weak acid with Ka = 1.0 × 10⁻⁵, estimate [H₃O⁺] using x ≈ √(KaC).",
+          "options": {
+            "A": "10⁻⁵ M",
+            "B": "10⁻⁴ M",
+            "C": "10⁻³ M",
+            "D": "10⁻¹ M"
+          },
+          "correctOption": "C",
+          "explanation": "√(10⁻⁵ × 0.10) = 10⁻³ M.",
+          "translations": {
+            "ur": {
+              "question": "0.10 M کمزور تیزاب کے لیے [H₃O⁺] کا اندازہ کیا ہوگا؟",
+              "options": {
+                "A": "10⁻⁵ M",
+                "B": "10⁻⁴ M",
+                "C": "10⁻³ M",
+                "D": "10⁻¹ M"
+              },
+              "explanation": "√(10⁻⁵ × 0.10) = 10⁻³ M۔"
+            },
+            "sd": {
+              "question": "0.10 M ڪمزور تيزاب لاءِ [H₃O⁺] جو اندازو ڪيترو ٿيندو؟",
+              "options": {
+                "A": "10⁻⁵ M",
+                "B": "10⁻⁴ M",
+                "C": "10⁻³ M",
+                "D": "10⁻¹ M"
+              },
+              "explanation": "√(10⁻⁵ × 0.10) = 10⁻³ M."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-12",
+          "question": "For a buffer with [A⁻] = [HA], what is pH approximately?",
+          "options": {
+            "A": "0",
+            "B": "7",
+            "C": "pKa",
+            "D": "14"
+          },
+          "correctOption": "C",
+          "explanation": "Henderson–Hasselbalch gives pH = pKa + log(1) = pKa.",
+          "translations": {
+            "ur": {
+              "question": "اگر بفر میں [A⁻] = [HA] ہو تو pH کیا ہوگا؟",
+              "options": {
+                "A": "0",
+                "B": "7",
+                "C": "pKa",
+                "D": "14"
+              },
+              "explanation": "log(1) صفر ہے، اس لیے pH = pKa۔"
+            },
+            "sd": {
+              "question": "بفر ۾ [A⁻] = [HA] هجي ته pH ڪيترو ٿيندو؟",
+              "options": {
+                "A": "0",
+                "B": "7",
+                "C": "pKa",
+                "D": "14"
+              },
+              "explanation": "log(1) صفر آهي، تنهنڪري pH = pKa."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-13",
+          "question": "When HCl is added to acetate buffer, which ion consumes added H₃O⁺?",
+          "options": {
+            "A": "CH₃COO⁻",
+            "B": "Na⁺",
+            "C": "Cl⁻",
+            "D": "OH⁻ only"
+          },
+          "correctOption": "A",
+          "explanation": "Acetate accepts H⁺ and forms ethanoic acid.",
+          "translations": {
+            "ur": {
+              "question": "ایسیٹیٹ بفر میں HCl شامل کرنے پر کون سا آئن H₃O⁺ استعمال کرتا ہے؟",
+              "options": {
+                "A": "CH₃COO⁻",
+                "B": "Na⁺",
+                "C": "Cl⁻",
+                "D": "صرف OH⁻"
+              },
+              "explanation": "ایسیٹیٹ H⁺ قبول کر کے ایتھانوئیٹ تیزاب بناتا ہے۔"
+            },
+            "sd": {
+              "question": "ايسيٽيٽ بفر ۾ HCl وجهڻ تي ڪهڙو آئن H₃O⁺ استعمال ڪري ٿو؟",
+              "options": {
+                "A": "CH₃COO⁻",
+                "B": "Na⁺",
+                "C": "Cl⁻",
+                "D": "رڳو OH⁻"
+              },
+              "explanation": "ايسيٽيٽ H⁺ قبول ڪري اٿانوئيڪ تيزاب ٺاهي ٿو."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-14",
+          "question": "What is Ksp for AgCl(s) ⇌ Ag⁺ + Cl⁻?",
+          "options": {
+            "A": "[AgCl]",
+            "B": "[Ag⁺]+[Cl⁻]",
+            "C": "[Ag⁺][Cl⁻]",
+            "D": "[Ag⁺]²[Cl⁻]"
+          },
+          "correctOption": "C",
+          "explanation": "The pure solid is omitted.",
+          "translations": {
+            "ur": {
+              "question": "AgCl کے لیے Ksp کیا ہے؟",
+              "options": {
+                "A": "[AgCl]",
+                "B": "[Ag⁺]+[Cl⁻]",
+                "C": "[Ag⁺][Cl⁻]",
+                "D": "[Ag⁺]²[Cl⁻]"
+              },
+              "explanation": "خالص ٹھوس خارج ہوتا ہے۔"
+            },
+            "sd": {
+              "question": "AgCl لاءِ Ksp ڇا آهي؟",
+              "options": {
+                "A": "[AgCl]",
+                "B": "[Ag⁺]+[Cl⁻]",
+                "C": "[Ag⁺][Cl⁻]",
+                "D": "[Ag⁺]²[Cl⁻]"
+              },
+              "explanation": "خالص ٺوس خارج آهي."
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-mcq-15",
+          "question": "What happens to AgCl solubility when NaCl is added to saturated AgCl?",
+          "options": {
+            "A": "Increases",
+            "B": "Decreases due to common ion",
+            "C": "Never changes",
+            "D": "AgCl becomes an acid"
+          },
+          "correctOption": "B",
+          "explanation": "Added Cl⁻ shifts dissolution towards solid AgCl.",
+          "translations": {
+            "ur": {
+              "question": "سیر شدہ AgCl میں NaCl ڈالنے سے حل پذیری پر کیا اثر ہوگا؟",
+              "options": {
+                "A": "بڑھے گی",
+                "B": "مشترک آئن سے کم ہوگی",
+                "C": "کبھی نہیں بدلے گی",
+                "D": "AgCl تیزاب بنے گا"
+              },
+              "explanation": "اضافی Cl⁻ توازن کو ٹھوس AgCl کی طرف لے جاتا ہے۔"
+            },
+            "sd": {
+              "question": "سير ٿيل AgCl ۾ NaCl وجهڻ سان حل پذيري تي ڪهڙو اثر ٿيندو؟",
+              "options": {
+                "A": "وڌندي",
+                "B": "گڏيل آئن سبب گهٽبي",
+                "C": "ڪڏهن نه بدلبي",
+                "D": "AgCl تيزاب ٿيندو"
+              },
+              "explanation": "اضافي Cl⁻ توازن کي ٺوس AgCl ڏانهن ڪري ٿو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
         {
+          "id": "chem-xi-acid-crq-01",
           "type": "crq",
-          "marks": 5,
-          "question": "Define two key terms in chapter 8: acids, bases and salts and explain their relationship.",
-          "modelAnswer": "Brønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH changes when small amounts of acid or base are added.",
+          "marks": 6,
+          "question": "For HCl + H₂O → H₃O⁺ + Cl⁻ and NH₃ + H₂O ⇌ NH₄⁺ + OH⁻, identify acid/base roles and conjugate pairs. Explain why water is amphiprotic.",
+          "modelAnswer": "In the first reaction HCl donates H⁺ and water accepts it; pairs are HCl/Cl⁻ and H₂O/H₃O⁺. In the second, NH₃ accepts H⁺ and water donates it; pairs are NH₄⁺/NH₃ and H₂O/OH⁻. Water can both donate and accept H⁺.",
           "rubric": [
-            "Correct definitions (2)",
-            "Relationship/explanation (2)",
-            "Clear expression (1)"
-          ]
+            "HCl roles (2)",
+            "NH₃ roles (2)",
+            "Conjugate pairs (1)",
+            "Amphiprotic explanation (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "دونوں مساوات میں تیزاب/اساس اور ہمزاد جوڑے بتائیں۔ پانی ایمفپروٹک کیوں ہے؟",
+              "modelAnswer": "پہلے تعامل میں HCl پروٹون دیتا اور پانی قبول کرتا ہے؛ جوڑے HCl/Cl⁻ اور H₂O/H₃O⁺ ہیں۔ دوسرے میں NH₃ پروٹون قبول اور پانی دیتا ہے؛ جوڑے NH₄⁺/NH₃ اور H₂O/OH⁻ ہیں۔ پانی پروٹون دے اور لے دونوں سکتا ہے۔",
+              "rubric": [
+                "HCl کردار (2)",
+                "NH₃ کردار (2)",
+                "ہمزاد جوڑے (1)",
+                "ایمفپروٹک وضاحت (1)"
+              ]
+            },
+            "sd": {
+              "question": "ٻنهي مساواتن ۾ تيزاب/اساس ۽ conjugate جوڙا ٻڌايو. پاڻي ايمفوپروٽڪ ڇو آهي؟",
+              "modelAnswer": "پهرين عمل ۾ HCl پروٽان ڏئي ۽ پاڻي قبول ڪري ٿو؛ جوڙا HCl/Cl⁻ ۽ H₂O/H₃O⁺ آهن. ٻئي ۾ NH₃ پروٽان وٺي ۽ پاڻي ڏئي ٿو؛ جوڙا NH₄⁺/NH₃ ۽ H₂O/OH⁻ آهن. پاڻي پروٽان ڏئي ۽ وٺي ٻئي سگهي ٿو.",
+              "rubric": [
+                "HCl ڪردار (2)",
+                "NH₃ ڪردار (2)",
+                "conjugate جوڙا (1)",
+                "ايمفوپروٽڪ وضاحت (1)"
+              ]
+            }
+          }
         },
         {
+          "id": "chem-xi-acid-crq-02",
+          "type": "crq",
+          "marks": 7,
+          "question": "At 25 °C calculate pH for 1.0 × 10⁻³ M HCl and 1.0 × 10⁻² M NaOH. Estimate pH for 0.10 M ethanoic acid with Ka = 1.8 × 10⁻⁵ using the small-x approximation.",
+          "modelAnswer": "HCl is fully ionised: [H₃O⁺] = 10⁻³ M, pH = 3. For NaOH, [OH⁻] = 10⁻² M, pOH = 2 and pH = 12. For weak acid x ≈ √(KaC) = 1.34 × 10⁻³ M, pH ≈ 2.87. x/C ≈ 1.34%, so the approximation is reasonable.",
+          "rubric": [
+            "HCl pH (2)",
+            "NaOH pH (2)",
+            "Weak-acid x and pH (2)",
+            "Approximation check (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "25 °C پر 1.0 × 10⁻³ M HCl اور 1.0 × 10⁻² M NaOH کا pH نکالیں۔ پھر Ka = 1.8 × 10⁻⁵ والے 0.10 M ایتھانوئیٹ تیزاب کا pH چھوٹے-x اندازے سے معلوم کریں۔",
+              "modelAnswer": "HCl کے لیے [H₃O⁺] = 10⁻³ M، pH = 3۔ NaOH کے لیے pOH = 2، pH = 12۔ کمزور تیزاب کے لیے x ≈ √(KaC) = 1.34 × 10⁻³ M، pH ≈ 2.87۔ x/C تقریباً 1.34% ہے۔",
+              "rubric": [
+                "HCl pH (2)",
+                "NaOH pH (2)",
+                "کمزور تیزاب حساب (2)",
+                "اندازہ جانچ (1)"
+              ]
+            },
+            "sd": {
+              "question": "25 °C تي 1.0 × 10⁻³ M HCl ۽ 1.0 × 10⁻² M NaOH جو pH ڳڻيو. پوءِ Ka = 1.8 × 10⁻⁵ واري 0.10 M اٿانوئيڪ تيزاب جو pH ننڍي-x اندازي سان معلوم ڪريو.",
+              "modelAnswer": "HCl لاءِ [H₃O⁺] = 10⁻³ M، pH = 3۔ NaOH لاءِ pOH = 2، pH = 12۔ ڪمزور تيزاب لاءِ x ≈ √(KaC) = 1.34 × 10⁻³ M، pH ≈ 2.87۔ x/C لڳ ڀڳ 1.34% آهي.",
+              "rubric": [
+                "HCl pH (2)",
+                "NaOH pH (2)",
+                "ڪمزور تيزاب حساب (2)",
+                "اندازي جي جاچ (1)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-crq-03",
+          "type": "crq",
+          "marks": 6,
+          "question": "A 1.0 dm³ buffer contains 0.20 mol CH₃COO⁻ and 0.10 mol CH₃COOH. Given pKa = 4.76, calculate initial pH. After adding 0.005 mol HCl, estimate new pH.",
+          "modelAnswer": "Initial pH = 4.76 + log(0.20/0.10) = 5.06. H⁺ converts acetate to acid; new amounts are 0.195 mol A⁻ and 0.105 mol HA. New pH = 4.76 + log(0.195/0.105) = 5.03. The change is small because the buffer consumes most added H⁺.",
+          "rubric": [
+            "Initial pH (2)",
+            "Reaction and new amounts (2)",
+            "New pH (1)",
+            "Buffer explanation (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "1.0 dm³ بفر میں 0.20 mol CH₃COO⁻ اور 0.10 mol CH₃COOH ہیں۔ pKa = 4.76 سے ابتدائی pH اور 0.005 mol HCl شامل کرنے کے بعد نیا pH نکالیں۔",
+              "modelAnswer": "ابتدائی pH = 4.76 + log(2) = 5.06۔ H⁺ ایسیٹیٹ کو تیزاب میں بدلتا ہے؛ نئی مقداریں 0.195 mol A⁻ اور 0.105 mol HA ہیں۔ نیا pH = 4.76 + log(0.195/0.105) = 5.03۔",
+              "rubric": [
+                "ابتدائی pH (2)",
+                "درست تعامل/مقداریں (2)",
+                "نیا pH (1)",
+                "بفر کی وضاحت (1)"
+              ]
+            },
+            "sd": {
+              "question": "1.0 dm³ بفر ۾ 0.20 mol CH₃COO⁻ ۽ 0.10 mol CH₃COOH آهن. pKa = 4.76 مان شروعاتي pH ۽ 0.005 mol HCl شامل ڪرڻ کان پوءِ نئون pH ڳڻيو.",
+              "modelAnswer": "شروعاتي pH = 4.76 + log(2) = 5.06۔ H⁺ ايسيٽيٽ کي تيزاب ۾ بدلائي ٿو؛ نيون مقدارون 0.195 mol A⁻ ۽ 0.105 mol HA آهن. نئون pH = 4.76 + log(0.195/0.105) = 5.03۔",
+              "rubric": [
+                "شروعاتي pH (2)",
+                "صحيح عمل/مقدارون (2)",
+                "نئون pH (1)",
+                "بفر وضاحت (1)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-erq-01",
           "type": "erq",
           "marks": 10,
-          "question": "Explain chapter 8: acids, bases and salts and discuss one practical or numerical application.",
-          "modelAnswer": "Brønsted–Lowry acids donate protons and bases accept them; Lewis acids accept an electron pair and Lewis bases donate one. pH measures acidity. Buffer solutions resist large pH changes when small amounts of acid or base are added. Include a worked or clearly described example, state the principle used and conclude with the meaning of the result.",
+          "question": "Compare Arrhenius, Brønsted–Lowry and Lewis acid–base definitions. Use HCl/H₂O and NH₃/H₂O to identify conjugate pairs and explain amphiprotic water.",
+          "modelAnswer": "Arrhenius acids increase H₃O⁺ in water and bases increase OH⁻. Brønsted–Lowry acids donate H⁺ and bases accept it. Lewis acids accept electron pairs and Lewis bases donate them. HCl/H₂O gives HCl/Cl⁻ and H₂O/H₃O⁺. NH₃/H₂O gives NH₄⁺/NH₃ and H₂O/OH⁻. Water accepts H⁺ from HCl and donates H⁺ to NH₃, so it is amphiprotic. HCO₃⁻ is also amphiprotic; ZnO is amphoteric because it reacts with both acids and bases.",
           "rubric": [
-            "Accurate concept (3)",
-            "Application/example (3)",
-            "Reasoning and steps (2)",
-            "Clarity and units (2)"
-          ]
+            "Arrhenius definition (2)",
+            "Brønsted–Lowry definition (2)",
+            "Lewis definition (2)",
+            "Conjugate pairs (2)",
+            "Amphiprotic explanation (2)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "آرہینیئس، برونسٹڈ–لوری اور لیوس تعریفوں کا موازنہ کریں۔ HCl/H₂O اور NH₃/H₂O سے ہمزاد جوڑے لکھیں اور پانی کے ایمفپروٹک ہونے کی وضاحت کریں۔",
+              "modelAnswer": "آرہینیئس تیزاب H₃O⁺ اور اساس OH⁻ بڑھاتی ہے۔ برونسٹڈ–لوری تیزاب H⁺ دیتا اور اساس قبول کرتی ہے۔ لیوس تیزاب الیکٹران جوڑا قبول اور اساس عطیہ کرتی ہے۔ HCl کے جوڑے HCl/Cl⁻ اور H₂O/H₃O⁺ ہیں؛ NH₃ کے جوڑے NH₄⁺/NH₃ اور H₂O/OH⁻ ہیں۔ پانی پروٹون دے اور لے دونوں سکتا ہے۔",
+              "rubric": [
+                "آرہینیئس (2)",
+                "برونسٹڈ–لوری (2)",
+                "لیوس (2)",
+                "ہمزاد جوڑے (2)",
+                "ایمفپروٹک وضاحت (2)"
+              ]
+            },
+            "sd": {
+              "question": "آرھينيس، برونسٽڊ–لوري ۽ ليوس وصفن جو ڀيٽ ڪريو. HCl/H₂O ۽ NH₃/H₂O مان conjugate جوڙا لکو ۽ پاڻيءَ جي ايمفوپروٽڪ هجڻ سمجهايو.",
+              "modelAnswer": "آرھينيس تيزاب H₃O⁺ ۽ اساس OH⁻ وڌائي ٿي. برونسٽڊ–لوري تيزاب H⁺ ڏئي ۽ اساس قبول ڪري ٿي. ليوس تيزاب اليڪٽران جوڙو قبول ۽ اساس ڏئي ٿي. HCl جا جوڙا HCl/Cl⁻ ۽ H₂O/H₃O⁺ آهن؛ NH₃ جا NH₄⁺/NH₃ ۽ H₂O/OH⁻ آهن. پاڻي پروٽان ڏئي ۽ وٺي ٻئي سگهي ٿو.",
+              "rubric": [
+                "آرھينيس (2)",
+                "برونسٽڊ–لوري (2)",
+                "ليوس (2)",
+                "conjugate جوڙا (2)",
+                "ايمفوپروٽڪ وضاحت (2)"
+              ]
+            }
+          }
+        },
+        {
+          "id": "chem-xi-acid-erq-02",
+          "type": "erq",
+          "marks": 10,
+          "question": "A water-quality laboratory must control pH. Explain buffer action and finite capacity, why NH₄Cl and CH₃COONa solutions are acidic/basic, and how Ksp/common-ion effect can reduce dissolved Ag⁺. Include equations and safe practice.",
+          "modelAnswer": "A buffer contains a weak acid/conjugate base or weak base/conjugate acid. Acetate consumes added H₃O⁺; ethanoic acid consumes added OH⁻. Capacity is finite and depends on component amounts. NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺ makes NH₄Cl acidic; CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻ makes sodium ethanoate basic. For AgCl(s) ⇌ Ag⁺ + Cl⁻, Ksp = [Ag⁺][Cl⁻]. Added Cl⁻ shifts dissolution towards solid AgCl and lowers dissolved Ag⁺. Measure pH and use goggles, suitable gloves, supervision; never taste reagents.",
+          "rubric": [
+            "Buffer action/capacity (3)",
+            "Salt hydrolysis equations (2)",
+            "Ksp expression (2)",
+            "Common-ion effect (2)",
+            "Safety (1)"
+          ],
+          "translations": {
+            "ur": {
+              "question": "بفر کا عمل اور محدود گنجائش، NH₄Cl اور CH₃COONa کے محلول کی نوعیت، اور Ksp/مشترک آئن سے Ag⁺ کم ہونے کی وضاحت کریں۔ مساوات اور حفاظت شامل کریں۔",
+              "modelAnswer": "بفر کمزور تیزاب/ہمزاد اساس پر مشتمل ہے۔ ایسیٹیٹ H₃O⁺ اور ایتھانوئیٹ تیزاب OH⁻ استعمال کرتا ہے؛ گنجائش محدود ہے۔ NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺ سے NH₄Cl تیزابی اور CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻ سے CH₃COONa بنیادی ہے۔ AgCl کے لیے Ksp = [Ag⁺][Cl⁻] ہے؛ اضافی Cl⁻ حل پذیری کم کرتا ہے۔ pH ناپیں، چشمہ/دستانے پہنیں اور کیمیکل نہ چکھیں۔",
+              "rubric": [
+                "بفر (3)",
+                "ہائیڈرولائسز (2)",
+                "Ksp (2)",
+                "مشترک آئن (2)",
+                "حفاظت (1)"
+              ]
+            },
+            "sd": {
+              "question": "بفر جو عمل ۽ محدود گنجائش، NH₄Cl ۽ CH₃COONa محلولن جي طبيعت، ۽ Ksp/common-ion اثر سان Ag⁺ گهٽجڻ سمجهايو. مساواتون ۽ حفاظت شامل ڪريو.",
+              "modelAnswer": "بفر ڪمزور تيزاب/conjugate base تي مشتمل آهي. ايسيٽيٽ H₃O⁺ ۽ اٿانوئيڪ تيزاب OH⁻ استعمال ڪري ٿو؛ گنجائش محدود آهي. NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺ سبب NH₄Cl تيزابي ۽ CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻ سبب CH₃COONa بنيادي آهي. AgCl لاءِ Ksp = [Ag⁺][Cl⁻]؛ اضافي Cl⁻ حل پذيري گهٽائي ٿو. pH ماپيو، چشمو/دستانا پائو ۽ ڪيميڪل نه چکو.",
+              "rubric": [
+                "بفر (3)",
+                "هائيڊرولائسز (2)",
+                "Ksp (2)",
+                "گڏيل آئن (2)",
+                "حفاظت (1)"
+              ]
+            }
+          }
         }
       ],
-      "contentTier": "outline"
+      "contentTier": "exam-ready",
+      "learningOutcomes": [
+        "Compare Arrhenius, Brønsted–Lowry and Lewis acid–base definitions and identify amphiprotic species.",
+        "Identify conjugate acid–base pairs and explain proton transfer.",
+        "Explain Lewis electron-pair donation/acceptance and coordinate covalent bonding.",
+        "Define and use pH, Ka, pKa and Kw; calculate pH from supplied strong/weak acid and alkali data.",
+        "Calculate buffer pH and explain buffer action and finite capacity.",
+        "Write Ksp expressions and explain solubility/common-ion effects and salt hydrolysis."
+      ],
+      "keyTerms": [
+        "Arrhenius acid",
+        "Arrhenius base",
+        "Brønsted–Lowry acid",
+        "Brønsted–Lowry base",
+        "Lewis acid",
+        "Lewis base",
+        "amphiprotic",
+        "amphoteric",
+        "conjugate acid",
+        "conjugate base",
+        "coordinate covalent bond",
+        "Ka",
+        "pKa",
+        "Kw",
+        "pH",
+        "buffer",
+        "buffer capacity",
+        "Henderson–Hasselbalch equation",
+        "salt hydrolysis",
+        "Ksp",
+        "common-ion effect"
+      ],
+      "sources": [
+        {
+          "title": "DCAR Sindh Chemistry Curriculum Grade IX–XII (2024)",
+          "url": "https://dcar.gos.pk/Sindh-Curriculum/Chemistry%20Curriculum%20%20Grade%20IX-XII%2019%20August%202024%20with%20Notification.pdf",
+          "pages": "55–56",
+          "slos": [
+            "C-11-B-130",
+            "C-11-B-131",
+            "C-11-B-132",
+            "C-11-B-133",
+            "C-11-B-134",
+            "C-11-B-135",
+            "C-11-B-136",
+            "C-11-B-137",
+            "C-11-B-138",
+            "C-11-B-139",
+            "C-11-B-140",
+            "C-11-B-141",
+            "C-11-B-142"
+          ],
+          "notes": "Controlling Grade XI outcomes for conjugate pairs, hydrolysis, pH/Ka/pKa/Kw, Lewis definitions, buffer pH, Ksp and common-ion effect. The progression grid does not number this SLO block as a chapter; the existing Chapter 8 label is retained."
+        }
+      ]
     },
     {
       "title": "Chapter 9: Chemical Kinetics",
