@@ -71,6 +71,29 @@ h3.lesson-heading{font-size:18px}h4.lesson-heading{font-size:16px}
 
 .gas-heading{margin:0 0 5px;color:#17336d;font-size:18px}.gas-intro,.gas-assumptions,.gas-status{color:#5e6b82;font-size:13px;margin:7px 0 12px}.gas-plot{display:block;width:100%;height:auto;max-height:280px;background:#f7faff;border:1px solid #e6edf7;border-radius:12px;margin:12px 0}.gas-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0}.gas-control{min-width:0;padding:10px 12px;background:#f6f8fc;border:1px solid #e5ebf5;border-radius:11px}.gas-control label{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;color:#253a65;font-size:13px;font-weight:800}.gas-control input{width:100%;min-height:30px;accent-color:#3157d5}.gas-readouts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}.gas-stat{min-width:0;padding:10px 12px;background:#f1f5ff;border:1px solid #e0e8f7;border-radius:11px}.gas-stat small{display:block;color:#65738c;font-size:10px;font-weight:800}.gas-stat strong{display:block;color:#12356f;font-size:16px;overflow-wrap:anywhere}.gas-actions{display:flex;gap:8px;flex-wrap:wrap}.gas-actions button{min-height:42px;border:1px solid #d6e1f2;border-radius:10px;padding:9px 13px;background:#edf3ff;color:#17336d;font-weight:800;cursor:pointer}.gas-visualization button:focus-visible,.gas-visualization input:focus-visible{outline:3px solid #e6a700;outline-offset:3px}@media(max-width:640px){.gas-controls{grid-template-columns:1fr}.gas-readouts{grid-template-columns:1fr}.gas-stat{padding:9px}}@media(prefers-reduced-motion:reduce){.gas-visualization *{animation:none!important;transition:none!important}}
 .liquid-heading{margin:0 0 5px;color:#17336d;font-size:18px}.liquid-intro,.liquid-assumptions{color:#5e6b82;font-size:13px;margin:7px 0 12px}.liquid-plot{display:block;width:100%;height:auto;max-height:300px;background:#f7faff;border:1px solid #e6edf7;border-radius:12px;margin:12px 0}.liquid-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0}.liquid-control{min-width:0;padding:10px 12px;background:#f6f8fc;border:1px solid #e5ebf5;border-radius:11px}.liquid-control label{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;color:#253a65;font-size:13px;font-weight:800}.liquid-control input{width:100%;min-height:30px;accent-color:#3157d5}.liquid-readouts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}.liquid-stat{min-width:0;padding:10px 12px;background:#f1f5ff;border:1px solid #e0e8f7;border-radius:11px}.liquid-stat small{display:block;color:#65738c;font-size:10px;font-weight:800}.liquid-stat strong{display:block;color:#12356f;font-size:15px;overflow-wrap:anywhere}.liquid-actions{display:flex;gap:8px;flex-wrap:wrap}.liquid-actions button{min-height:42px;border:1px solid #d6e1f2;border-radius:10px;padding:9px 13px;background:#edf3ff;color:#17336d;font-weight:800;cursor:pointer}.liquid-visualization button:focus-visible,.liquid-visualization input:focus-visible{outline:3px solid #e6a700;outline-offset:3px}@media(max-width:640px){.liquid-controls{grid-template-columns:1fr}.liquid-readouts{grid-template-columns:1fr}.liquid-stat{padding:9px}}@media(prefers-reduced-motion:reduce){.liquid-visualization *{animation:none!important;transition:none!important}}
+
+.buffer-visualization{margin:16px 0;padding:16px;background:#f7faff;border:1px solid #dce6f5;border-radius:16px}
+.buffer-heading{margin:0 0 6px;color:#17336d;font-size:18px}
+.buffer-intro,.buffer-status,.buffer-assumptions{color:#5e6b82;font-size:13px;margin:7px 0 12px}
+.buffer-plot{display:block;width:100%;height:auto;max-height:210px;background:#fff;border:1px solid #e6edf7;border-radius:12px;margin:12px 0}
+.buffer-modes{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.buffer-mode,.buffer-reset{min-height:42px;border:1px solid #d6e1f2;border-radius:10px;padding:9px 13px;background:#edf3ff;color:#17336d;font-weight:800;cursor:pointer}
+.buffer-mode[aria-pressed="true"],.buffer-mode.is-active{background:#0757e8;color:#fff;border-color:#0757e8}
+.buffer-control{padding:10px 12px;background:#f6f8fc;border:1px solid #e5ebf5;border-radius:11px}
+.buffer-control label{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;color:#253a65;font-size:13px;font-weight:800}
+.buffer-control output{font-variant-numeric:tabular-nums;color:#0757e8}
+.buffer-control input{width:100%;min-height:30px;accent-color:#0757e8}
+.buffer-readouts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0}
+.buffer-stat{min-width:0;padding:10px;background:#f1f5ff;border:1px solid #e0e8f7;border-radius:10px}
+.buffer-stat small{display:block;color:#65738c;font-size:10px;font-weight:800}
+.buffer-stat strong{display:block;color:#12356f;font-size:16px;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.buffer-status{padding:9px 11px;background:#fff;border-radius:9px}
+.buffer-formula,.buffer-equations{padding:10px 12px;background:#fff;border:1px solid #e6edf7;border-radius:10px;color:#1f447e;font-size:12px;font-weight:750;overflow-wrap:anywhere}
+.buffer-assumptions{font-size:11px!important;color:#68758d!important}
+.buffer-visualization button:focus-visible,.buffer-visualization input:focus-visible{outline:3px solid #e6a700;outline-offset:3px}
+@media(max-width:640px){.buffer-visualization{padding:12px}.buffer-readouts{grid-template-columns:1fr;gap:6px}.buffer-stat{padding:8px}.buffer-mode{flex:1 1 130px}}
+@media(prefers-reduced-motion:reduce){.buffer-visualization *{animation:none!important;transition:none!important}}
+
 </style>
 <!-- Google Analytics 4: Zeeroz Academy -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G4XY9QLGCM"></script>

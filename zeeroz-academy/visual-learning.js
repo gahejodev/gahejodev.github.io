@@ -316,3 +316,58 @@ export function mountChemicalEquilibriumModel(container,{language="en"}={}){
  reset.addEventListener("click",()=>{select.value="none";render();select.focus()});
  render();container.append(panel);return panel;
 }
+
+
+const bufferCopy={
+en:{title:"Buffer action: resist a pH change",intro:"Choose what is added and adjust its amount. Watch the weak acid and conjugate base respond.",acid:"Add strong acid (HCl)",base:"Add strong base (NaOH)",amount:"Amount added",ph:"Estimated pH",ha:"Ethanoic acid (HA)",a:"Acetate (A⁻)",reset:"Reset buffer",acidMode:"Acid added",baseMode:"Base added",formula:"pH = pKa + log₁₀([A⁻]/[HA]) · pKa = 4.76",equations:"H₃O⁺ + CH₃COO⁻ → CH₃COOH + H₂O · OH⁻ + CH₃COOH → CH₃COO⁻ + H₂O",assumptions:"Teaching model: starts with 10 mmol of each component; fixed volume; pKa = 4.76 at 25 °C. Activity, dilution and temperature effects are ignored. Buffer capacity is finite.",description:"Simplified acetate buffer response to a small addition of strong acid or base."},
+ur:{title:"بفر کا عمل: pH کی تبدیلی کم کریں",intro:"شامل ہونے والا تیزاب یا اساس منتخب کریں اور مقدار بدلیں۔ دونوں اجزا کا ردعمل دیکھیں۔",acid:"مضبوط تیزاب شامل کریں (HCl)",base:"مضبوط اساس شامل کریں (NaOH)",amount:"شامل مقدار",ph:"اندازاً pH",ha:"ایتھانوئیٹ تیزاب (HA)",a:"ایسیٹیٹ (A⁻)",reset:"بفر ری سیٹ کریں",acidMode:"تیزاب شامل کیا گیا",baseMode:"اساس شامل کی گئی",formula:"pH = pKa + log₁₀([A⁻]/[HA]) · pKa = 4.76",equations:"H₃O⁺ + CH₃COO⁻ → CH₃COOH + H₂O · OH⁻ + CH₃COOH → CH₃COO⁻ + H₂O",assumptions:"تعلیمی ماڈل: ابتدا میں دونوں اجزا 10 mmol، حجم مستقل اور 25 °C پر pKa = 4.76 ہے۔ سرگرمی، dilution اور درجۂ حرارت نظر انداز ہیں۔ بفر کی گنجائش محدود ہے۔",description:"ایسیٹیٹ بفر میں تھوڑا تیزاب یا اساس شامل کرنے کا سادہ ماڈل۔"},
+sd:{title:"بفر جو عمل: pH جي تبديلي گهٽايو",intro:"شامل ٿيندڙ تيزاب يا اساس چونڊيو ۽ مقدار بدلايو. ٻنهي جزن جو ردعمل ڏسو.",acid:"مضبوط تيزاب شامل ڪريو (HCl)",base:"مضبوط اساس شامل ڪريو (NaOH)",amount:"شامل مقدار",ph:"اندازي وارو pH",ha:"اٿانوئيڪ تيزاب (HA)",a:"ايسيٽيٽ (A⁻)",reset:"بفر ري سيٽ ڪريو",acidMode:"تيزاب شامل ٿيو",baseMode:"اساس شامل ٿي",formula:"pH = pKa + log₁₀([A⁻]/[HA]) · pKa = 4.76",equations:"H₃O⁺ + CH₃COO⁻ → CH₃COOH + H₂O · OH⁻ + CH₃COOH → CH₃COO⁻ + H₂O",assumptions:"تعليمي ماڊل: شروع ۾ ٻئي جزا 10 mmol، حجم مستقل ۽ 25 °C تي pKa = 4.76 آهي. activity، dilution ۽ گرمي پد نظرانداز آهن. بفر جي گنجائش محدود آهي.",description:"ايسيٽيٽ بفر ۾ ٿورو تيزاب يا اساس شامل ڪرڻ جو سادو ماڊل."}
+};
+export function calculateBufferPh(added=0,mode="acid"){
+ const amount=Math.max(0,Math.min(4,Number(added)||0));
+ const acidMode=mode!=="base";
+ const ha=acidMode?10+amount:10-amount;
+ const conjugateBase=acidMode?10-amount:10+amount;
+ return {ha,conjugateBase,ph:4.76+Math.log10(conjugateBase/ha),amount,mode:acidMode?"acid":"base"};
+}
+export function mountBufferModel(container,{language="en"}={}){
+ if(!container||container.querySelector('[data-visualization="buffer"]'))return null;
+ const lang=["en","ur","sd"].includes(language)?language:"en",t=bufferCopy[lang];
+ const panel=makeNode("section","lesson-visualization buffer-visualization");panel.dataset.visualization="buffer";panel.setAttribute("role","region");panel.dir=lang==="en"?"ltr":"rtl";
+ const heading=makeNode("h4","buffer-heading",t.title);heading.id="bufferLessonHeading";panel.setAttribute("aria-labelledby",heading.id);panel.append(heading,makeNode("p","buffer-intro",t.intro));
+ const svg=makeSvg("svg",{viewBox:"0 0 360 176",class:"buffer-plot",role:"img","aria-labelledby":"bufferSvgTitle bufferSvgDesc"});
+ const title=makeSvg("title",{id:"bufferSvgTitle"});title.textContent=t.title;const desc=makeSvg("desc",{id:"bufferSvgDesc"});desc.textContent=t.description;
+ const label1=makeSvg("text",{x:12,y:34,fill:"#8a4a08","font-size":"11","font-weight":"700"}),label2=makeSvg("text",{x:12,y:92,fill:"#174aa8","font-size":"11","font-weight":"700"});
+ const track1=makeSvg("rect",{x:12,y:43,width:260,height:18,rx:8,fill:"#f4e7d5"}),track2=makeSvg("rect",{x:12,y:101,width:260,height:18,rx:8,fill:"#dce8fb"});
+ const bar1=makeSvg("rect",{x:12,y:43,width:185,height:18,rx:8,fill:"#d97706"}),bar2=makeSvg("rect",{x:12,y:101,width:185,height:18,rx:8,fill:"#2563eb"});
+ const value1=makeSvg("text",{x:345,y:57,fill:"#8a4a08","font-size":"12","font-weight":"800","text-anchor":"end"}),value2=makeSvg("text",{x:345,y:115,fill:"#174aa8","font-size":"12","font-weight":"800","text-anchor":"end"});
+ const scale1=makeSvg("text",{x:12,y:148,fill:"#65738c","font-size":"10"}),scale2=makeSvg("text",{x:272,y:148,fill:"#65738c","font-size":"10","text-anchor":"end"});scale1.textContent="0";scale2.textContent="14 mmol";
+ svg.append(title,desc,label1,label2,track1,track2,bar1,bar2,value1,value2,scale1,scale2);panel.append(svg);
+ const modes=makeNode("div","buffer-modes");modes.setAttribute("role","group");modes.setAttribute("aria-label","Choose addition");
+ const acidButton=makeNode("button","buffer-mode",t.acid),baseButton=makeNode("button","buffer-mode",t.base);acidButton.type=baseButton.type="button";modes.append(acidButton,baseButton);panel.append(modes);
+ const control=makeNode("div","buffer-control"),id="bufferAmount";const label=makeNode("label","",t.amount);label.htmlFor=id;
+ const input=makeNode("input","");input.id=id;input.type="range";input.min="0";input.max="4";input.step="0.5";input.value="0";
+ const output=makeNode("output","");output.htmlFor=id;output.textContent="0.0 mmol";label.append(output);control.append(label,input);panel.append(control);
+ const readouts=makeNode("div","buffer-readouts");readouts.setAttribute("aria-live","polite");readouts.setAttribute("aria-atomic","true");
+ const stat=(text)=>{const box=makeNode("article","buffer-stat");box.append(makeNode("small","",text));const value=makeNode("strong","","—");box.append(value);readouts.append(box);return value;};
+ const ph=stat(t.ph),ha=stat(t.ha),a=stat(t.a);panel.append(readouts);
+ const status=makeNode("p","buffer-status");status.setAttribute("aria-live","polite");status.setAttribute("aria-atomic","true");panel.append(status);
+ const formula=makeNode("p","buffer-formula",t.formula);formula.dir="ltr";panel.append(formula);
+ const equations=makeNode("p","buffer-equations",t.equations);equations.dir="ltr";panel.append(equations);
+ panel.append(makeNode("p","buffer-assumptions",t.assumptions));
+ const reset=makeNode("button","buffer-reset",t.reset);reset.type="button";panel.append(reset);
+ let mode="acid";
+ const update=()=>{
+  const r=calculateBufferPh(input.value,mode);label1.textContent=t.ha;label2.textContent=t.a;
+  bar1.setAttribute("width",String(260*r.ha/14));bar2.setAttribute("width",String(260*r.conjugateBase/14));
+  value1.textContent=r.ha.toFixed(1)+" mmol";value2.textContent=r.conjugateBase.toFixed(1)+" mmol";output.textContent=r.amount.toFixed(1)+" mmol";
+  ph.textContent=r.ph.toFixed(2);ha.textContent=r.ha.toFixed(1)+" mmol";a.textContent=r.conjugateBase.toFixed(1)+" mmol";
+  acidButton.setAttribute("aria-pressed",String(mode==="acid"));baseButton.setAttribute("aria-pressed",String(mode==="base"));
+  acidButton.classList.toggle("is-active",mode==="acid");baseButton.classList.toggle("is-active",mode==="base");
+  status.textContent=(mode==="acid"?t.acidMode:t.baseMode)+": "+r.amount.toFixed(1)+" mmol; "+t.ph+" "+r.ph.toFixed(2)+".";
+  desc.textContent=t.description+" "+t.ha+" "+r.ha.toFixed(1)+" mmol; "+t.a+" "+r.conjugateBase.toFixed(1)+" mmol; pH "+r.ph.toFixed(2)+".";
+ };
+ acidButton.addEventListener("click",()=>{mode="acid";update()});baseButton.addEventListener("click",()=>{mode="base";update()});
+ input.addEventListener("input",update);reset.addEventListener("click",()=>{mode="acid";input.value="0";update()});
+ update();container.append(panel);return panel;
+}
