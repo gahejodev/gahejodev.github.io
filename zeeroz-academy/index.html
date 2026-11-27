@@ -167,7 +167,21 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
   gtag('js', new Date());
   gtag('config', 'G-G4XY9QLGCM');
 </script>
-</head>
+<style>
+.equilibrium-visualization{margin:10px 0;padding:12px;background:#f7faff;border:1px solid #dce6f5;border-radius:14px;min-width:0}
+.equilibrium-heading{margin:0 0 6px;color:#17336d;font-size:17px}
+.equilibrium-intro,.equilibrium-why,.equilibrium-assumptions{font-size:12px;line-height:1.5;color:#5e6b82;margin:6px 0 10px}
+.equilibrium-controls label{display:grid;gap:5px;color:#253a65;font-size:11px;font-weight:800}
+.equilibrium-select{width:100%;min-height:42px;border:1px solid #d6e1f2;border-radius:9px;padding:7px;background:#fff;color:#17213b;font:inherit}
+.equilibrium-plot{display:block;width:100%;height:auto;max-height:180px;background:#fff;border:1px solid #e0e8f5;border-radius:10px;margin:10px 0}
+.equilibrium-readouts{display:grid;grid-template-columns:1fr;gap:6px;margin:10px 0}
+.equilibrium-stat{min-width:0;padding:8px;background:#f1f5ff;border:1px solid #e0e8f7;border-radius:9px}
+.equilibrium-stat small{display:block;color:#65738c;font-size:9px;font-weight:800}
+.equilibrium-stat strong{display:block;color:#12356f;font-size:12px;line-height:1.35;overflow-wrap:anywhere}
+.equilibrium-reset{min-height:40px;border:1px solid #d6e1f2;border-radius:9px;padding:8px 11px;background:#edf3ff;color:#17336d;font-weight:800;cursor:pointer}
+.equilibrium-visualization button:focus-visible,.equilibrium-visualization select:focus-visible{outline:3px solid #e6a700;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){.equilibrium-visualization *{animation:none!important;transition:none!important}}
+</style></head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="#home"><span class="mark">Z</span><span>ZEEROZ ACADEMY<small>LEARN • GROW • SUCCEED</small></span></a><button class="menu" aria-label="Open menu" onclick="document.querySelector('.links').classList.toggle('open')">☰</button><nav class="links"><a href="#programs">Learning</a><a href="#pathways">Classes & Jobs</a><a href="curriculum.html">Tech & AI Courses</a><a href="#study-desk">Study Desk</a><a href="#products">Products</a><a href="./student-login.html">Student Login</a><a href="#about">About</a><a href="#contact">Contact</a><a href="#install-app" class="install-nav" id="zeerozInstallNav">Install App</a></nav></div></header>
 <main id="home">
@@ -337,6 +351,11 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
    <article class="visual-card" id="solidLabCard" aria-label="Live Chemistry crystalline and amorphous solid model">
     <span class="visual-tag">Live Chemistry model</span>
     <div id="solidHomeDemo"></div>
+    <div class="visual-actions"><a href="catalog.html?level=XI">Explore Class XI Chemistry →</a></div>
+   </article>
+   <article class="visual-card" id="equilibriumLabCard" aria-label="Live Chemistry chemical equilibrium model">
+    <span class="visual-tag">Live Chemistry experiment</span>
+    <div id="equilibriumHomeDemo"></div>
     <div class="visual-actions"><a href="catalog.html?level=XI">Explore Class XI Chemistry →</a></div>
    </article>
   </div>
@@ -655,10 +674,12 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
 
 
 <script type="module">
-import { mountLiquidModel, mountSolidStructureModel } from "./visual-learning.js";
+import { mountLiquidModel, mountSolidStructureModel, mountChemicalEquilibriumModel } from "./visual-learning.js";
 const target=document.getElementById("liquidHomeDemo");
 if(target){let language="en";try{language=localStorage.getItem("zeerozCourseLanguage")||"en"}catch(_){}mountLiquidModel(target,{language});}
 const solidTarget=document.getElementById("solidHomeDemo");
 if(solidTarget){let language="en";try{language=localStorage.getItem("zeerozCourseLanguage")||"en"}catch(_){}mountSolidStructureModel(solidTarget,{language});}
+const equilibriumTarget=document.getElementById("equilibriumHomeDemo");
+if(equilibriumTarget){let language="en";try{language=localStorage.getItem("zeerozCourseLanguage")||"en"}catch(_){}mountChemicalEquilibriumModel(equilibriumTarget,{language});}
 </script>
 </body></html>
