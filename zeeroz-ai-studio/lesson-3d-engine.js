@@ -4,7 +4,9 @@
 export async function createLesson3D(container){
  const THREE=await import("https://esm.sh/three@0.170.0");
  const renderer=new THREE.WebGLRenderer({antialias:true,alpha:true,preserveDrawingBuffer:true,powerPreference:"low-power"});
- renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,1.5));
+ const deviceMemoryGb=Number(navigator.deviceMemory)||0;
+ const pixelRatioCap=deviceMemoryGb>0&&deviceMemoryGb<=4?1:deviceMemoryGb>0&&deviceMemoryGb<=8?1.25:1.5;
+ renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,pixelRatioCap));
  renderer.setSize(container.clientWidth||640,container.clientHeight||360);
  renderer.outputColorSpace=THREE.SRGBColorSpace;
  renderer.setClearColor(0x101b3d,0);
@@ -38,27 +40,74 @@ export async function createLesson3D(container){
  let active="cell",model=builders.cell(),frame=0,raf=0,disposed=false,drag=false,lastX=0,lastY=0,rotX=0,rotY=0,zoom=1,sceneProgress=0;
  root.add(model);
  const orbiters=[];for(let i=0;i<22;i++){const p=sphere(particles,.028,mat(i%2?0x77dfff:0xffd36f));orbiters.push({mesh:p,phase:i/22*Math.PI*2,r:2.5+(i%4)*.22})}
- const down=e=>{drag=true;lastX=e.clientX;lastY=e.clientY;renderer.domElement.setPointerCapture?.(e.pointerId)},move=e=>{if(drag){rotY+=(e.clientX-lastX)*.008;rotX+=(e.clientY-lastY)*.008;lastX=e.clientX;lastY=e.clientY}},up=()=>drag=false;
- renderer.domElement.addEventListener("pointerdown",down);renderer.domElement.addEventListener("pointermove",move);renderer.domElement.addEventListener("pointerup",up);renderer.domElement.addEventListener("pointercancel",up);
- renderer.domElement.addEventListener("wheel",e=>{zoom=Math.max(.72,Math.min(1.45,zoom+e.deltaY*.001));e.preventDefault()},{passive:false});
- const resize=()=>{const w=container.clientWidth||640,h=container.clientHeight||360;camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h,false)};
- const observer=new ResizeObserver(resize);observer.observe(container);
- const disposeTree=o=>{o.traverse(x=>{x.geometry?.dispose?.();if(Array.isArray(x.material))x.material.forEach(m=>m.dispose?.());else x.material?.dispose?.()})};
- const animate=()=>{if(disposed)return;raf=requestAnimationFrame(animate);frame+=.012;
-  model.rotation.y=rotY+frame*.17;model.rotation.x=rotX+Math.sin(frame*.5)*.05;
-  model.scale.setScalar(zoom*(1+Math.sin(frame*1.5)*.012));
-  model.traverse(o=>{if(o.userData.electrons)o.userData.electrons.forEach((q,i)=>{const a=frame*(1.1+i*.25)+q.angle;q.e.position.set(Math.cos(a)*q.r,Math.sin(a)*q.r*.55,Math.sin(a)*q.r*.45)});if(o.userData.waveGeometry){const attr=o.userData.waveGeometry.attributes.position;for(let i=0;i<attr.count;i++){const x=-2.7+i*5.4/(attr.count-1);attr.setY(i,Math.sin(i/(attr.count-1)*Math.PI*6-frame*2.2)*.72)}attr.needsUpdate=true;o.userData.waveGeometry.computeBoundingSphere()}if(o.userData.bulb){o.userData.bulb.material.emissive?.setHex(Math.sin(frame*3)>-.2?0x665000:0x221900)}if(o.userData.forceBall)o.userData.forceBall.position.x=-1.5+((Math.sin(frame*1.3)+1)*1.45)});
-  orbiters.forEach(p=>{const a=p.phase+frame*.6;p.mesh.position.set(Math.cos(a)*p.r,Math.sin(a*1.4)*1.25,Math.sin(a)*p.r*.42)});
+
+ const reducedMotionQuery=window.matchMedia?.("(prefers-reduced-motion: reduce)");
+ let reducedMotion=!!reducedMotionQuery?.matches;
+ let pageVisible=!document.hidden,inViewport=true,lastFrameTime=0;
+ const canRender=()=>!disposed&&pageVisible&&inViewport;
+ const stopRender=()=>{if(raf){cancelAnimationFrame(raf);raf=0}};
+ const renderScene=()=>{
+  const motionFrame=reducedMotion?0:frame;
+  model.rotation.y=rotY+motionFrame*.17;
+  model.rotation.x=rotX+(reducedMotion?0:Math.sin(frame*.5)*.05);
+  model.scale.setScalar(zoom*(reducedMotion?1:1+Math.sin(frame*1.5)*.012));
+  model.traverse(o=>{
+   if(o.userData.electrons)o.userData.electrons.forEach(q=>{const a=motionFrame*1.1+q.angle;q.e.position.set(Math.cos(a)*q.r,Math.sin(a)*q.r*.55,Math.sin(a)*q.r*.45)});
+   if(o.userData.waveGeometry){const attr=o.userData.waveGeometry.attributes.position;for(let i=0;i<attr.count;i++)attr.setY(i,Math.sin(i/(attr.count-1)*Math.PI*6-motionFrame*2.2)*.72);attr.needsUpdate=true;o.userData.waveGeometry.computeBoundingSphere()}
+   if(o.userData.bulb)o.userData.bulb.material.emissive?.setHex(Math.sin(motionFrame*3)>-.2?0x665000:0x221900);
+   if(o.userData.forceBall)o.userData.forceBall.position.x=-1.5+((Math.sin(motionFrame*1.3)+1)*1.45);
+  });
+  orbiters.forEach(p=>{const a=p.phase+motionFrame*.6;p.mesh.position.set(Math.cos(a)*p.r,Math.sin(a*1.4)*1.25,Math.sin(a)*p.r*.42)});
   const targetX=Math.sin(frame*.23+sceneProgress*2)*.32,targetY=Math.cos(frame*.19+sceneProgress*2)*.18;
-  camera.position.x+=(targetX-camera.position.x)*.018;camera.position.y+=(targetY-camera.position.y)*.018;
-  camera.position.z+=(Math.max(4.8,7.2/zoom)-camera.position.z)*.025;camera.lookAt(0,0,0);
-  renderer.render(scene,camera);
- };animate();
- return {
-  setScene(s={}){const next=typeFor(s);if(next!==active){disposeTree(model);root.clear();active=next;model=builders[next]();root.add(model);rotX=rotY=sceneProgress=0;zoom=1}return active},
-  setProgress(p){sceneProgress=Math.max(0,Math.min(1,Number(p)||0));rotY=sceneProgress*Math.PI*.7;zoom=1+.12*Math.sin(sceneProgress*Math.PI)},
-  reset(){rotX=rotY=sceneProgress=0;zoom=1},
-  getCanvas(){return renderer.domElement},
-  dispose(){disposed=true;cancelAnimationFrame(raf);observer.disconnect();renderer.dispose();disposeTree(root);disposeTree(particles);container.replaceChildren()}
+  if(reducedMotion)camera.position.set(targetX,targetY,Math.max(4.8,7.2/zoom));
+  else{camera.position.x+=(targetX-camera.position.x)*.018;camera.position.y+=(targetY-camera.position.y)*.018;camera.position.z+=(Math.max(4.8,7.2/zoom)-camera.position.z)*.025}
+  camera.lookAt(0,0,0);renderer.render(scene,camera);
  };
+ const renderFrame=(now=0)=>{
+  raf=0;if(!canRender())return;
+  if(!reducedMotion){
+   if(lastFrameTime&&now-lastFrameTime<1000/30){raf=requestAnimationFrame(renderFrame);return}
+   const delta=lastFrameTime?Math.min(2,(now-lastFrameTime)/(1000/60)):1;
+   lastFrameTime=now;frame+=.012*delta;
+  }
+  renderScene();
+  if(!reducedMotion)raf=requestAnimationFrame(renderFrame);
+ };
+ const scheduleRender=()=>{
+  if(!canRender())return;
+  if(reducedMotion){if(!raf)raf=requestAnimationFrame(()=>{raf=0;if(canRender())renderScene()});return}
+  if(!raf)raf=requestAnimationFrame(renderFrame);
+ };
+ const down=e=>{drag=true;lastX=e.clientX;lastY=e.clientY;renderer.domElement.setPointerCapture?.(e.pointerId)};
+ const move=e=>{if(drag){rotY+=(e.clientX-lastX)*.008;rotX+=(e.clientY-lastY)*.008;lastX=e.clientX;lastY=e.clientY;if(reducedMotion)scheduleRender()}};
+ const up=()=>{drag=false};
+ const wheel=e=>{zoom=Math.max(.72,Math.min(1.45,zoom+e.deltaY*.001));e.preventDefault();if(reducedMotion)scheduleRender()};
+ renderer.domElement.addEventListener("pointerdown",down);
+ renderer.domElement.addEventListener("pointermove",move);
+ renderer.domElement.addEventListener("pointerup",up);
+ renderer.domElement.addEventListener("pointercancel",up);
+ renderer.domElement.addEventListener("wheel",wheel,{passive:false});
+ const resize=()=>{const w=container.clientWidth||640,h=container.clientHeight||360;camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h,false);scheduleRender()};
+ const resizeObserver=typeof ResizeObserver==="function"?new ResizeObserver(resize):null;
+ if(resizeObserver)resizeObserver.observe(container);else window.addEventListener("resize",resize);
+ const intersectionObserver=typeof IntersectionObserver==="function"?new IntersectionObserver(entries=>{
+  inViewport=entries.some(entry=>entry.isIntersecting);
+  if(inViewport){lastFrameTime=0;scheduleRender()}else stopRender();
+ },{rootMargin:"100px"}):null;
+ if(intersectionObserver)intersectionObserver.observe(container);
+ const onVisibilityChange=()=>{pageVisible=!document.hidden;if(pageVisible){lastFrameTime=0;scheduleRender()}else stopRender()};
+ document.addEventListener("visibilitychange",onVisibilityChange);
+ const onMotionChange=()=>{reducedMotion=!!reducedMotionQuery?.matches;lastFrameTime=0;if(reducedMotion){stopRender();scheduleRender()}else scheduleRender()};
+ if(reducedMotionQuery?.addEventListener)reducedMotionQuery.addEventListener("change",onMotionChange);
+ else reducedMotionQuery?.addListener?.(onMotionChange);
+ const disposeTree=o=>{o.traverse(x=>{x.geometry?.dispose?.();if(Array.isArray(x.material))x.material.forEach(m=>m.dispose?.());else x.material?.dispose?.()})};
+ scheduleRender();
+ return {
+  setScene(s={}){const next=typeFor(s);if(next!==active){disposeTree(model);root.clear();active=next;model=builders[next]();root.add(model);rotX=rotY=sceneProgress=0;zoom=1}scheduleRender();return active},
+  setProgress(p){sceneProgress=Math.max(0,Math.min(1,Number(p)||0));rotY=sceneProgress*Math.PI*.7;zoom=1+.12*Math.sin(sceneProgress*Math.PI);scheduleRender()},
+  reset(){rotX=rotY=sceneProgress=0;zoom=1;scheduleRender()},
+  getCanvas(){return renderer.domElement},
+  dispose(){disposed=true;stopRender();document.removeEventListener("visibilitychange",onVisibilityChange);if(reducedMotionQuery?.removeEventListener)reducedMotionQuery.removeEventListener("change",onMotionChange);else reducedMotionQuery?.removeListener?.(onMotionChange);renderer.domElement.removeEventListener("pointerdown",down);renderer.domElement.removeEventListener("pointermove",move);renderer.domElement.removeEventListener("pointerup",up);renderer.domElement.removeEventListener("pointercancel",up);renderer.domElement.removeEventListener("wheel",wheel);intersectionObserver?.disconnect();resizeObserver?.disconnect();if(!resizeObserver)window.removeEventListener("resize",resize);renderer.dispose();disposeTree(root);disposeTree(particles);container.replaceChildren()}
+ };
+
 }
