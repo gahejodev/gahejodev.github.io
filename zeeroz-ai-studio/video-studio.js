@@ -563,6 +563,7 @@ async function exportReal3DTeacher(){
    const position=scenePositionAt(audioContext.currentTime-startedAt),sc=position.scene;
    const sceneKey=sc.title+"|"+sc.narration;if(lesson3D&&sceneKey!==lastExport3DScene){lesson3D.setScene(sc);lastExport3DScene=sceneKey}
    lesson3D?.setProgress?.(position.progress);
+   lesson3D?.renderNow?.();
    const w=1080,h=1920,rtl=($("language")?.value||"en")==="ur";
    const bg=ctx.createLinearGradient(0,0,w,h);bg.addColorStop(0,"#0b1530");bg.addColorStop(.48,"#172d59");bg.addColorStop(1,"#081226");
    ctx.fillStyle=bg;ctx.fillRect(0,0,w,h);

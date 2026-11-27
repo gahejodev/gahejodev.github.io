@@ -85,3 +85,5 @@ Urdu voice synthesis and video recording run in the browser. Firebase browser co
 - Free resources checked: browser-native IntersectionObserver (widely available), Page Visibility API, matchMedia/reduced-motion preference (widely available), and optional Device Memory API. No package, API key, account, credit card, paid inference, cloud storage or billing requirement was added.
 - References: https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver ; https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40media/prefers-reduced-motion ; https://developer.mozilla.org/en-US/docs/Web/API/Navigator/deviceMemory .
 - Tests: static regression checks and Node module syntax are added to the source validation workflow. A real Android/browser GPU and battery test remains outstanding.
+
+- The 9:16 export loop now requests an immediate current 3D frame after updating the storyboard progress and before compositing that frame. This keeps the idle-preview 30 fps cap from making the exported science canvas one frame behind; the export remains user-initiated and browser-local.
