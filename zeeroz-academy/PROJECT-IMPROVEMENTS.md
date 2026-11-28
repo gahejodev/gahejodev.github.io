@@ -35,3 +35,12 @@
 - No Firebase rules, authentication, billing, paid API, credentials or student records changed. This is the portal/UI foundation; the course-to-exam mapping, verified content extraction, exam-specific question banks, authenticated test attempts and persistent analytics remain the next implementation stages.
 - Official references checked: https://sts.net.pk/ ; https://nts.org.pk/ ; https://spsc.gov.pk/Syllabus.php ; https://fpsc.gov.pk/ ; https://pmdc.pk/ ; https://www.iba.edu.pk/.
 - Deployment and automated checks must pass before describing the new portal as live.
+
+
+## 2026-11-28 — Biology X circulation lesson visual
+
+- Upgraded Biology X Chapter 13 package to version 2 and explicit exam-ready tier; the existing 5 bilingual lessons, 3 CRQs and 2 ERQs were preserved.
+- Expanded the chapter MCQ bank from 15 to 20 with five distinct questions on pulmonary veins, arterial baroreceptors, the ECG QRS complex, coronary supply and capillary flow velocity. Every new question includes a correct answer, explanation and Urdu/Sindhi translations for the question, options and explanation.
+- Added the browser-native mountCirculationModel visual to the lesson renderer and the homepage Visual Learning Lab. The six-step explorer distinguishes oxygen-poor and oxygen-rich blood, supports previous/next/reset, uses labelled SVG and live step text, and is responsive/keyboard-operable.
+- Scientific assumptions and excluded branches are stated in the visual and lesson. No paid API, external asset, new dependency, Firebase rules or billing change.
+- Automated checks and deployment were pending at commit time; public runtime interaction and real-device tests remain separate verification tasks.

@@ -122,6 +122,27 @@ h3.lesson-heading{font-size:18px}h4.lesson-heading{font-size:16px}
 .equilibrium-visualization button:focus-visible,.equilibrium-visualization select:focus-visible{outline:3px solid #e6a700;outline-offset:3px}
 @media(max-width:640px){.equilibrium-visualization{padding:12px}.equilibrium-readouts{grid-template-columns:1fr}.equilibrium-stat{padding:8px}}
 @media(prefers-reduced-motion:reduce){.equilibrium-visualization *{animation:none!important;transition:none!important}}
+
+.circulation-visualization{margin:16px 0;padding:16px;background:#f7faff;border:1px solid #dce6f5;border-radius:16px;min-width:0}
+.circulation-heading{margin:0 0 6px;color:#17336d;font-size:18px}
+.circulation-intro,.circulation-step-detail,.circulation-assumptions{font-size:13px;color:#5e6b82;line-height:1.55;margin:7px 0 12px}
+.circulation-plot{display:block;width:100%;height:auto;max-height:300px;background:#fff;border:1px solid #e6edf7;border-radius:12px;margin:12px 0}
+.circulation-legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;font-weight:750;color:#42536e}
+.circulation-legend span{display:inline-flex;align-items:center;gap:7px}
+.circulation-legend span:before{content:"";display:inline-block;width:18px;height:4px;border-radius:3px}
+.circulation-low:before{background:#2676bf}
+.circulation-high:before{background:#c84d48}
+.circulation-readout{margin:12px 0;padding:12px;background:#fff;border:1px solid #e2eaf5;border-radius:12px}
+.circulation-step-label{display:block;color:#17336d;font-size:13px;line-height:1.5}
+.circulation-step-detail{margin:5px 0 0}
+.circulation-controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.circulation-controls button{min-height:42px;border:1px solid #d6e1f2;border-radius:10px;padding:9px 13px;background:#edf3ff;color:#17336d;font-weight:800;cursor:pointer}
+.circulation-controls button:disabled{opacity:.45;cursor:not-allowed}
+.circulation-controls button:focus-visible{outline:3px solid #e6a700;outline-offset:3px}
+.circulation-controls .circulation-reset{background:#fff}
+@media(max-width:640px){.circulation-visualization{padding:12px}.circulation-controls button{flex:1 1 115px}.circulation-step-label{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.circulation-visualization *{animation:none!important;transition:none!important}}
+
 </style></head>
 <body>
 <header class="top"><a class="brand" href="./student-dashboard.html" style="color:white;text-decoration:none">ZEEROZ ACADEMY<small>LEARN • GROW • SUCCEED</small></a><a class="btn" href="./student-dashboard.html">My Learning</a></header>

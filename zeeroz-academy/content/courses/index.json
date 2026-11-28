@@ -175,8 +175,9 @@
       "id": "biology-x-chapter-13-circulation",
       "title": "Biology X — Chapter 13: Circulation",
       "path": "zeeroz-academy/content/courses/biology-x-chapter-13-circulation.json",
-      "version": "1",
-      "order": 13
+      "version": "2",
+      "order": 13,
+      "contentTier": "exam-ready"
     },
     {
       "id": "biology-x-chapter-14-excretory-system",

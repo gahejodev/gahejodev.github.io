@@ -92,6 +92,27 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
 .visual-lab{background:linear-gradient(180deg,#f4f8ff 0%,#fff 100%)}
 .visual-lab .section-head{margin-bottom:28px}
 .visual-lab-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;align-items:stretch}
+
+.circulation-visualization{margin:16px 0;padding:16px;background:#f7faff;border:1px solid #dce6f5;border-radius:16px;min-width:0}
+.circulation-heading{margin:0 0 6px;color:#17336d;font-size:18px}
+.circulation-intro,.circulation-step-detail,.circulation-assumptions{font-size:13px;color:#5e6b82;line-height:1.55;margin:7px 0 12px}
+.circulation-plot{display:block;width:100%;height:auto;max-height:300px;background:#fff;border:1px solid #e6edf7;border-radius:12px;margin:12px 0}
+.circulation-legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;font-weight:750;color:#42536e}
+.circulation-legend span{display:inline-flex;align-items:center;gap:7px}
+.circulation-legend span:before{content:"";display:inline-block;width:18px;height:4px;border-radius:3px}
+.circulation-low:before{background:#2676bf}
+.circulation-high:before{background:#c84d48}
+.circulation-readout{margin:12px 0;padding:12px;background:#fff;border:1px solid #e2eaf5;border-radius:12px}
+.circulation-step-label{display:block;color:#17336d;font-size:13px;line-height:1.5}
+.circulation-step-detail{margin:5px 0 0}
+.circulation-controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.circulation-controls button{min-height:42px;border:1px solid #d6e1f2;border-radius:10px;padding:9px 13px;background:#edf3ff;color:#17336d;font-weight:800;cursor:pointer}
+.circulation-controls button:disabled{opacity:.45;cursor:not-allowed}
+.circulation-controls button:focus-visible{outline:3px solid #e6a700;outline-offset:3px}
+.circulation-controls .circulation-reset{background:#fff}
+@media(max-width:640px){.circulation-visualization{padding:12px}.circulation-controls button{flex:1 1 115px}.circulation-step-label{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.circulation-visualization *{animation:none!important;transition:none!important}}
+
 .visual-card{background:#fff;border:1px solid #dfe7f5;border-radius:22px;padding:22px;box-shadow:0 12px 30px #08265d0b;min-width:0}
 .visual-card h3{margin:8px 0;color:#071b49;font-size:21px}
 .visual-card p{color:#5f6d86;font-size:13px;margin:0 0 12px}
@@ -262,7 +283,12 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
     <div class="visual-actions"><a href="catalog.html?level=IX">Explore Biology courses →</a></div>
    </article>
 
-   <article class="visual-card" id="liquidLearningCard" aria-label="Live Chemistry liquid-particle experiment">
+<article class="visual-card" id="circulationLabCard" aria-label="Live Biology double circulation explorer">
+    <span class="visual-tag">Live Biology explorer</span>
+    <div id="circulationHomeDemo"></div>
+    <div class="visual-actions"><a href="catalog.html?level=X">Explore Class X Biology →</a></div>
+   </article>
+      <article class="visual-card" id="liquidLearningCard" aria-label="Live Chemistry liquid-particle experiment">
     <span class="visual-tag">Live Chemistry experiment</span>
     <div id="liquidHomeDemo"></div>
     <div class="visual-actions"><a href="catalog.html?level=XI">Explore Class XI Chemistry →</a></div>
@@ -674,12 +700,14 @@ header{box-shadow:0 5px 22px #071b4910}.brand .mark{background:linear-gradient(1
 
 
 <script type="module">
-import { mountLiquidModel, mountSolidStructureModel, mountChemicalEquilibriumModel } from "./visual-learning.js";
+import { mountLiquidModel, mountSolidStructureModel, mountChemicalEquilibriumModel, mountCirculationModel } from "./visual-learning.js";
 const target=document.getElementById("liquidHomeDemo");
 if(target){let language="en";try{language=localStorage.getItem("zeerozCourseLanguage")||"en"}catch(_){}mountLiquidModel(target,{language});}
 const solidTarget=document.getElementById("solidHomeDemo");
 if(solidTarget){let language="en";try{language=localStorage.getItem("zeerozCourseLanguage")||"en"}catch(_){}mountSolidStructureModel(solidTarget,{language});}
 const equilibriumTarget=document.getElementById("equilibriumHomeDemo");
 if(equilibriumTarget){let language="en";try{language=localStorage.getItem("zeerozCourseLanguage")||"en"}catch(_){}mountChemicalEquilibriumModel(equilibriumTarget,{language});}
+const circulationTarget=document.getElementById("circulationHomeDemo");
+if(circulationTarget){let language="en";try{language=localStorage.getItem("zeerozCourseLanguage")||"en"}catch(_){}mountCirculationModel(circulationTarget,{language});}
 </script>
 </body></html>

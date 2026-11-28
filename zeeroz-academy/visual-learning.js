@@ -371,3 +371,117 @@ export function mountBufferModel(container,{language="en"}={}){
  input.addEventListener("input",update);reset.addEventListener("click",()=>{mode="acid";input.value="0";update()});
  update();container.append(panel);return panel;
 }
+
+
+const circulationCopy = {
+ en: {
+  title:"Double circulation explorer",description:"A simplified pathway from body tissues through the right heart and lungs to the left heart and back to the body.",intro:"Follow the main blood pathway through the heart, lungs and body one step at a time.",
+  rightHeart:"Right heart",leftHeart:"Left heart",lungs:"Lungs",body:"Body tissues",
+  rightAtrium:"Right atrium",rightVentricle:"Right ventricle",leftAtrium:"Left atrium",leftVentricle:"Left ventricle",
+  previous:"Previous step",next:"Next step",reset:"Start again",step:"Step",of:"of",
+  low:"Deoxygenated blood",high:"Oxygenated blood",
+  assumptions:"Simplified main pulmonary and systemic loop; diagram is not to scale. Oxygen exchange occurs in lung and tissue capillaries. Coronary, hepatic portal and renal pathways are not drawn.",
+  steps:[
+   {label:"Body tissues → venae cavae → right atrium",detail:"Blood returning from body tissues has relatively little oxygen and enters the right atrium.",oxygen:"low"},
+   {label:"Right atrium → tricuspid valve → right ventricle",detail:"The tricuspid valve permits one-way flow into the right ventricle and helps prevent backflow.",oxygen:"low"},
+   {label:"Right ventricle → pulmonary artery → lungs",detail:"The right ventricle pumps blood to lung capillaries, where carbon dioxide leaves and oxygen enters.",oxygen:"low"},
+   {label:"Lungs → pulmonary veins → left atrium",detail:"Oxygenated blood returns from the lungs through pulmonary veins to the left atrium.",oxygen:"high"},
+   {label:"Left atrium → mitral valve → left ventricle",detail:"The mitral valve allows blood to enter the left ventricle and helps prevent backflow.",oxygen:"high"},
+   {label:"Left ventricle → aorta → body tissues",detail:"The left ventricle pumps oxygen-rich blood through the aorta to the body; tissue exchange then begins the circuit again.",oxygen:"high"}
+  ]
+ },
+ ur: {
+  title:"دوہری گردشِ خون کا ماڈل",description:"جسم، دائیں دل، پھیپھڑوں، بائیں دل اور جسم کے درمیان خون کے راستے کا سادہ خاکہ۔",intro:"دل، پھیپھڑوں اور جسم کے درمیان خون کا بنیادی راستہ مرحلہ وار دیکھیں۔",
+  rightHeart:"دایاں دل",leftHeart:"بایاں دل",lungs:"پھیپھڑے",body:"جسم کے بافتے",
+  rightAtrium:"دایاں ایٹریم",rightVentricle:"دایاں وینٹریکل",leftAtrium:"بایاں ایٹریم",leftVentricle:"بایاں وینٹریکل",
+  previous:"پچھلا مرحلہ",next:"اگلا مرحلہ",reset:"دوبارہ شروع کریں",step:"مرحلہ",of:"از",
+  low:"آکسیجن سے کم خون",high:"آکسیجن سے بھرپور خون",
+  assumptions:"یہ بنیادی پلمونری اور نظامی گردش کا سادہ خاکہ ہے، پیمانے کے مطابق نہیں۔ آکسیجن کا تبادلہ پھیپھڑوں اور جسم کی کیپلریز میں ہوتا ہے۔ کورونری، ہیپاٹک پورٹل اور گردوں کے راستے اس خاکے میں شامل نہیں۔",
+  steps:[
+   {label:"جسم کے بافتوں سے وریدانِ اجوف کے ذریعے خون دائیں ایٹریم میں داخل ہوتا ہے",detail:"جسم کے بافتوں سے واپس آنے والے خون میں آکسیجن نسبتاً کم ہوتی ہے اور یہ دائیں ایٹریم میں داخل ہوتا ہے۔",oxygen:"low"},
+   {label:"دایاں ایٹریم → ٹرائی کسپیڈ والو → دایاں وینٹریکل",detail:"ٹرائی کسپیڈ والو خون کو دائیں وینٹریکل میں یک طرفہ گزرنے دیتا اور واپسی کے بہاؤ کو روکتا ہے۔",oxygen:"low"},
+   {label:"دایاں وینٹریکل → پلمونری شریان → پھیپھڑے",detail:"دایاں وینٹریکل خون کو پھیپھڑوں کی کیپلریز تک پمپ کرتا ہے جہاں کاربن ڈائی آکسائیڈ خارج اور آکسیجن جذب ہوتی ہے۔",oxygen:"low"},
+   {label:"پھیپھڑوں سے پلمونری وریدوں کے ذریعے خون بائیں ایٹریم میں آتا ہے",detail:"آکسیجن حاصل کرنے کے بعد خون پلمونری وریدوں کے ذریعے بائیں ایٹریم میں واپس آتا ہے۔",oxygen:"high"},
+   {label:"بایاں ایٹریم → مائٹرل والو → بایاں وینٹریکل",detail:"مائٹرل والو خون کو بائیں وینٹریکل میں داخل ہونے دیتا اور واپسی کے بہاؤ کو روکتا ہے۔",oxygen:"high"},
+   {label:"بایاں وینٹریکل → شہ رگ → جسم کے بافتے",detail:"بایاں وینٹریکل آکسیجن سے بھرپور خون شہ رگ کے ذریعے جسم تک پمپ کرتا ہے؛ بافتوں میں تبادلے کے بعد چکر دوبارہ شروع ہوتا ہے۔",oxygen:"high"}
+  ]
+ },
+ sd: {
+  title:"رت جي ٻٽي گردش جو ماڊل",description:"جسم، ساڄي دل، ڦڦڙن، کاٻي دل ۽ جسم جي وچ ۾ رت جي رستي جو سادو خاڪو.",intro:"دل، ڦڦڙن ۽ جسم جي وچ ۾ رت جو بنيادي رستو هڪ هڪ مرحلي سان ڏسو.",
+  rightHeart:"ساڄو دل",leftHeart:"کاٻو دل",lungs:"ڦڦڙ",body:"جسم جون بافتون",
+  rightAtrium:"ساڄو ايٽريم",rightVentricle:"ساڄو وينٽريڪل",leftAtrium:"کاٻو ايٽريم",leftVentricle:"کاٻو وينٽريڪل",
+  previous:"پويون مرحلو",next:"اڳيون مرحلو",reset:"ٻيهر شروع ڪريو",step:"مرحلو",of:"مان",
+  low:"آڪسيجن گهٽ رت",high:"آڪسيجن ڀرپور رت",
+  assumptions:"هي بنيادي pulmonary ۽ systemic گردش جو سادو خاڪو آهي، ماپ مطابق ناهي. آڪسيجن جي مٽاسٽا ڦڦڙن ۽ جسم جي ڪيپليرين ۾ ٿئي ٿي. Coronary، hepatic portal ۽ renal رستا هن خاڪي ۾ شامل ناهن.",
+  steps:[
+   {label:"جسم جي بافتن مان رت venae cavae وسيلي ساڄي ايٽريم ۾ داخل ٿئي ٿو",detail:"جسم جي بافتن مان موٽندڙ رت ۾ آڪسيجن نسبتاً گهٽ هوندي آهي ۽ اهو ساڄي ايٽريم ۾ داخل ٿئي ٿو.",oxygen:"low"},
+   {label:"ساڄو ايٽريم → tricuspid valve → ساڄو وينٽريڪل",detail:"Tricuspid valve رت کي ساڄي وينٽريڪل ۾ هڪ طرفو وڃڻ ڏئي ٿو ۽ پوئتي وهڻ کان روڪي ٿو.",oxygen:"low"},
+   {label:"ساڄو وينٽريڪل → pulmonary artery → ڦڦڙ",detail:"ساڄو وينٽريڪل رت کي ڦڦڙن جي ڪيپليرين تائين پمپ ڪري ٿو، جتي ڪاربان ڊاءِ آڪسائيڊ ٻاهر ۽ آڪسيجن اندر اچي ٿي.",oxygen:"low"},
+   {label:"ڦڦڙن مان رت pulmonary veins وسيلي کاٻي ايٽريم ۾ اچي ٿو",detail:"آڪسيجن حاصل ڪرڻ کان پوءِ رت pulmonary veins وسيلي کاٻي ايٽريم ۾ واپس اچي ٿو.",oxygen:"high"},
+   {label:"کاٻو ايٽريم → mitral valve → کاٻو وينٽريڪل",detail:"Mitral valve رت کي کاٻي وينٽريڪل ۾ داخل ٿيڻ ڏئي ٿو ۽ پوئتي وهڻ کان روڪي ٿو.",oxygen:"high"},
+   {label:"کاٻو وينٽريڪل → aorta → جسم جون بافتون",detail:"کاٻو وينٽريڪل آڪسيجن ڀرپور رت aorta وسيلي سڄي جسم ڏانهن پمپ ڪري ٿو؛ بافتن ۾ مٽاسٽا کان پوءِ چڪر وري شروع ٿئي ٿو.",oxygen:"high"}
+  ]
+ }
+};
+let circulationModelSequence = 0;
+export function mountCirculationModel(container,{language="en"}={}) {
+ if(!container||container.querySelector('[data-visualization="circulation"]'))return null;
+ const lang=["en","ur","sd"].includes(language)?language:"en",t=circulationCopy[lang],uid=++circulationModelSequence;
+ const panel=makeNode("section","lesson-visualization circulation-visualization");
+ panel.dir=lang==="en"?"ltr":"rtl";
+ panel.dataset.visualization="circulation";panel.setAttribute("role","region");
+ const heading=makeNode("h4","circulation-heading",t.title);heading.id="circulationHeading"+uid;
+ panel.setAttribute("aria-labelledby",heading.id);
+ panel.append(heading,makeNode("p","circulation-intro",t.intro));
+ const svgId="circulationSvg"+uid,descId="circulationDesc"+uid,titleId="circulationTitle"+uid;
+ const svg=makeSvg("svg",{id:svgId,viewBox:"0 0 360 270",class:"circulation-plot",role:"img","aria-labelledby":titleId+" "+descId});
+ const svgTitle=makeSvg("title",{id:titleId});svgTitle.textContent=t.title;
+ const svgDesc=makeSvg("desc",{id:descId});svgDesc.textContent=t.description;
+ const defs=makeSvg("defs");
+ const addMarker=(id,color)=>{const marker=makeSvg("marker",{id,viewBox:"0 0 10 10",refX:"8",refY:"5",markerWidth:"6",markerHeight:"6",orient:"auto"});marker.append(makeSvg("path",{d:"M0 0 L10 5 L0 10 z",fill:color}));defs.append(marker);};
+ addMarker("circulationBlueArrow"+uid,"#2676bf");addMarker("circulationRedArrow"+uid,"#c84d48");
+ svg.append(defs,svgTitle,svgDesc,makeSvg("rect",{x:5,y:5,width:350,height:260,rx:14,fill:"#fbfdff",stroke:"#e3ebf6","stroke-width":"1"}));
+ const text=(x,y,value,size=11,weight=700,fill="#294264",anchor="middle")=>{const el=makeSvg("text",{x,y,"font-size":size,"font-weight":weight,fill,"text-anchor":anchor});el.textContent=value;return el;};
+ svg.append(text(90,87,t.rightHeart,10,800,"#3678bd"),text(270,87,t.leftHeart,10,800,"#c35d54"));
+ const route=[
+  {d:"M120 236 C55 236 18 220 18 114",oxygen:"low"},
+  {d:"M90 133 L90 150",oxygen:"low"},
+  {d:"M160 169 C190 169 190 40 120 40",oxygen:"low"},
+  {d:"M240 40 C270 40 270 70 270 95",oxygen:"high"},
+  {d:"M270 133 L270 150",oxygen:"high"},
+  {d:"M200 169 C200 205 240 205 240 236",oxygen:"high"}
+ ];
+ const paths=route.map((item)=>{const p=makeSvg("path",{d:item.d,fill:"none",stroke:"#8ea2bc","stroke-width":"2.8","stroke-linecap":"round","stroke-linejoin":"round",opacity:"0.55","marker-end":"url(#"+(item.oxygen==="low"?"circulationBlueArrow":"circulationRedArrow")+uid+")"});if(item.oxygen==="low")p.setAttribute("stroke-dasharray","7 5");svg.append(p);return p;});
+ const box=(x,y,w,h,label,fill,stroke)=>{svg.append(makeSvg("rect",{x,y,width:w,height:h,rx:10,fill,stroke,"stroke-width":"2"}),text(x+w/2,y+h/2+4,label,10,750,"#233a5f"));};
+ box(120,18,120,44,t.lungs,"#eaf5ff","#5d98c8");
+ box(20,95,140,38,t.rightAtrium,"#e8f3ff","#4a83ba");
+ box(20,150,140,38,t.rightVentricle,"#e8f3ff","#4a83ba");
+ box(200,95,140,38,t.leftAtrium,"#fff0ed","#c76d62");
+ box(200,150,140,38,t.leftVentricle,"#fff0ed","#c76d62");
+ box(120,218,120,36,t.body,"#f1f5f9","#71839b");
+ const legend=makeNode("div","circulation-legend");
+ const lowLegend=makeNode("span","circulation-low",t.low),highLegend=makeNode("span","circulation-high",t.high);
+ legend.setAttribute("aria-label",t.low+"; "+t.high);legend.append(lowLegend,highLegend);panel.append(svg,legend);
+ const readout=makeNode("div","circulation-readout");readout.setAttribute("aria-live","polite");readout.setAttribute("aria-atomic","true");
+ const stepLabel=makeNode("strong","circulation-step-label",""),detail=makeNode("p","circulation-step-detail","");
+ stepLabel.dir=lang==="en"?"ltr":"rtl";detail.dir=lang==="en"?"ltr":"rtl";
+ readout.append(stepLabel,detail);panel.append(readout);
+ const controls=makeNode("div","circulation-controls");
+ const previous=makeNode("button","circulation-button",t.previous),next=makeNode("button","circulation-button",t.next),reset=makeNode("button","circulation-button circulation-reset",t.reset);
+ for(const button of [previous,next,reset])button.type="button";
+ previous.setAttribute("aria-controls",svgId);next.setAttribute("aria-controls",svgId);reset.setAttribute("aria-controls",svgId);
+ controls.append(previous,next,reset);panel.append(controls,makeNode("p","circulation-assumptions",t.assumptions));
+ let active=0;
+ const update=()=>{
+  const step=t.steps[active];
+  paths.forEach((path,index)=>{const selected=index===active;const color=route[index].oxygen==="low"?"#2676bf":"#c84d48";path.setAttribute("stroke",selected?color:"#9aabc0");path.setAttribute("stroke-width",selected?"4":"2.5");path.setAttribute("opacity",selected?"1":"0.45");});
+  stepLabel.textContent=t.step+" "+(active+1)+" "+t.of+" "+t.steps.length+": "+step.label+" · "+(step.oxygen==="low"?t.low:t.high);
+  detail.textContent=step.detail;
+  previous.disabled=active===0;next.disabled=active===t.steps.length-1;
+  svgDesc.textContent=t.title+". "+step.label+". "+step.detail;
+ };
+ previous.addEventListener("click",()=>{active=Math.max(0,active-1);update();});
+ next.addEventListener("click",()=>{active=Math.min(t.steps.length-1,active+1);update();});
+ reset.addEventListener("click",()=>{active=0;update();});
+ update();container.append(panel);return panel;
+}

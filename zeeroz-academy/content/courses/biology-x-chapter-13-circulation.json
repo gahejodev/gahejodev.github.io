@@ -1,8 +1,8 @@
 {
   "id": "biology-x-chapter-13-circulation",
   "title": "Biology X — Chapter 13: Circulation",
-  "description": "Grade X Biology Chapter 13 aligned to the DCAR Sindh Biology Curriculum 2024 (20 periods). Five bilingual lessons cover circulation components, heart and cardiac conduction, vessels and pathways, blood pressure, cardiovascular disorders and the lymphatic system. Includes 15 explained MCQs, 3 CRQs, 2 ERQs, model answers, marking rubrics and applied emergency-response case study.",
-  "version": "1",
+  "description": "Grade X Biology Chapter 13 aligned to the DCAR Sindh Biology Curriculum 2024 (20 periods). Five bilingual lessons cover circulation components, heart and cardiac conduction, vessels and pathways, blood pressure, cardiovascular disorders and the lymphatic system. Includes 20 explained MCQs, 3 CRQs, 2 ERQs, model answers, marking rubrics, an applied emergency-response case study and an interactive double-circulation explorer.",
+  "version": "2",
   "curriculumAlignment": {
     "authority": "Directorate of Curriculum, Assessment and Research (DCAR), Government of Sindh",
     "document": "Curriculum of Biology for Sindh Grades IX–XII (2024), aligned with National Curriculum of Pakistan 2022–23",
@@ -21,7 +21,7 @@
     "primarySource": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf",
     "primarySourceEvidence": "Official DCAR PDF printed page 147; Chapter 13 heading and 20-period allocation; outcomes under sections 13.1–13.6. Note: a second DCAR URL variant returned a different 14-period summary; this package follows the official PDF version linked in the DCAR curriculum directory (20-period detailed chapter).",
     "textbookReference": "Use the currently issued Sindh Textbook Board Biology X text as supplementary reading; curriculum outcomes are controlled by DCAR 2024. Verify textbook edition against STBB portal before citing page numbers.",
-    "sourceChecked": "2026-11-14",
+    "sourceChecked": "2026-11-28",
     "authorshipNote": "Original instructional explanations and assessment items; no textbook passages reproduced."
   },
   "chapters": [
@@ -50,10 +50,10 @@
         {
           "title": "13.3 Blood Vessels and Circulatory Pathways",
           "type": "text",
-          "content": "Arteries carry blood away from the heart; their thick, elastic and muscular walls withstand high pressure. Veins return blood to the heart; they have thinner walls, larger lumens and often valves, especially in limbs. Capillaries have walls one endothelial cell thick, allowing exchange by diffusion and filtration. Arterioles regulate tissue perfusion by vasoconstriction and vasodilation; precapillary sphincters control entry into capillary beds. In systemic circulation, the left ventricle sends blood through the aorta to tissues and veins return it to the right atrium. In pulmonary circulation, the right ventricle sends blood to lungs and pulmonary veins return it to the left atrium. Coronary arteries supply heart muscle. The hepatic portal vein carries nutrient-rich blood from digestive organs to liver. Renal circulation supplies kidneys for filtration. Blood velocity is slowest through capillaries because their total cross-sectional area is greatest. Outcomes: compare vessels; explain resistance and flow regulation; trace pulmonary, systemic, coronary, hepatic portal and renal pathways. Terms: lumen, endothelium, vasoconstriction, vasodilation, portal vein.",
+          "content": "Arteries carry blood away from the heart; their thick, elastic and muscular walls withstand high pressure. Veins return blood to the heart; they have thinner walls, larger lumens and often valves, especially in limbs. Capillaries have walls one endothelial cell thick, allowing exchange by diffusion and filtration. Arterioles regulate tissue perfusion by vasoconstriction and vasodilation; precapillary sphincters control entry into capillary beds. In systemic circulation, the left ventricle sends blood through the aorta to tissues and veins return it to the right atrium. In pulmonary circulation, the right ventricle sends blood to lungs and pulmonary veins return it to the left atrium. Coronary arteries supply heart muscle. The hepatic portal vein carries nutrient-rich blood from digestive organs to liver. Renal circulation supplies kidneys for filtration. Blood velocity is slowest through capillaries because their total cross-sectional area is greatest. Outcomes: compare vessels; explain resistance and flow regulation; trace pulmonary, systemic, coronary, hepatic portal and renal pathways. Terms: lumen, endothelium, vasoconstriction, vasodilation, portal vein.\n\nInteractive model: Use the Double Circulation Explorer below this lesson to follow deoxygenated blood from body tissues to the right heart and lungs, then oxygenated blood to the left heart and body. The diagram focuses on the main pulmonary and systemic route; coronary, hepatic portal and renal circuits are separate branches discussed above.",
           "explanations": {
-            "ur": "شریانیں خون کو دل سے دور لے جاتی ہیں؛ ان کی موٹی، لچک دار اور عضلاتی دیواریں زیادہ دباؤ برداشت کرتی ہیں۔ وریدیں خون کو دل کی طرف واپس لاتی ہیں؛ ان کی دیواریں نسبتاً پتلی، اندرونی راستہ کشادہ اور خصوصاً ٹانگوں میں والوز ہوتے ہیں۔ کیپلریز کی دیوار ایک خلیے جتنی باریک ہوتی ہے، اس لیے مادّوں کا تبادلہ ہو سکتا ہے۔ آرٹیریولز سکڑنے اور پھیلنے سے بافتوں میں خون کا بہاؤ منظم کرتی ہیں۔ نظامی گردش میں بایاں بطین شہ رگ کے ذریعے خون جسم تک بھیجتا ہے۔ پلمونری گردش میں دایاں بطین خون پھیپھڑوں تک بھیجتا ہے۔ کورونری شریانیں دل کے عضلے کو خون دیتی ہیں۔ ہیپاٹک پورٹل ورید آنتوں سے غذائیت سے بھرپور خون جگر تک لے جاتی ہے۔ گردوں کی گردش فلٹریشن کے لیے خون پہنچاتی ہے۔ کیپلریز میں خون کی رفتار مجموعی رقبہ زیادہ ہونے کی وجہ سے سب سے کم ہوتی ہے۔",
-            "sd": "شريانون رت کي دل کان پري کڻي وڃن ٿيون؛ انهن جون ٿلهيون، لچڪدار ۽ عضلاتي ڀتيون وڌيڪ دٻاءُ برداشت ڪن ٿيون. رڳون رت کي دل ڏانهن واپس آڻين ٿيون؛ انهن جون ڀتيون سنهيون، اندريون جاءِ ويڪري ۽ خاص ڪري پيرن ۾ والوز هوندا آهن. ڪيپليرين جون ڀتيون هڪ خلوي تهه جيتريون سنهيون هونديون آهن، تنهنڪري مادّن جي مٽاسٽا ٿي سگهي ٿي. آرٽيريولز سڪڙڻ ۽ ڦهلجڻ سان عضون ڏانهن رت جو وهڪرو ڪنٽرول ڪن ٿيون. Systemic گردش ۾ کاٻو ventricle aorta وسيلي رت جسم ڏانهن موڪلي ٿو. Pulmonary گردش ۾ ساڄو ventricle رت ڦڦڙن ڏانهن موڪلي ٿو. Coronary شريانون دل جي عضلي کي رت ڏين ٿيون. Hepatic portal vein آنڊن مان غذائيت وارو رت جيري ڏانهن کڻي وڃي ٿي. گردن جي گردش فلٽريشن لاءِ رت پهچائي ٿي. ڪيپليرين ۾ رت جي رفتار سندن گڏيل ڪراس سيڪشنل ايراضي وڏي هئڻ سبب گهٽ هوندي آهي."
+            "ur": "شریانیں خون کو دل سے دور لے جاتی ہیں؛ ان کی موٹی، لچک دار اور عضلاتی دیواریں زیادہ دباؤ برداشت کرتی ہیں۔ وریدیں خون کو دل کی طرف واپس لاتی ہیں؛ ان کی دیواریں نسبتاً پتلی، اندرونی راستہ کشادہ اور خصوصاً ٹانگوں میں والوز ہوتے ہیں۔ کیپلریز کی دیوار ایک خلیے جتنی باریک ہوتی ہے، اس لیے مادّوں کا تبادلہ ہو سکتا ہے۔ آرٹیریولز سکڑنے اور پھیلنے سے بافتوں میں خون کا بہاؤ منظم کرتی ہیں۔ نظامی گردش میں بایاں بطین شہ رگ کے ذریعے خون جسم تک بھیجتا ہے۔ پلمونری گردش میں دایاں بطین خون پھیپھڑوں تک بھیجتا ہے۔ کورونری شریانیں دل کے عضلے کو خون دیتی ہیں۔ ہیپاٹک پورٹل ورید آنتوں سے غذائیت سے بھرپور خون جگر تک لے جاتی ہے۔ گردوں کی گردش فلٹریشن کے لیے خون پہنچاتی ہے۔ کیپلریز میں خون کی رفتار مجموعی رقبہ زیادہ ہونے کی وجہ سے سب سے کم ہوتی ہے۔\n\nتفاعلی ماڈل: اس سبق کے نیچے موجود Double Circulation Explorer میں آکسیجن سے کم خون کا جسم سے دائیں دل اور پھیپھڑوں تک، پھر آکسیجن سے بھرپور خون کا بائیں دل سے جسم تک راستہ مرحلہ وار دیکھیں۔ یہ خاکہ بنیادی پلمونری اور نظامی گردش دکھاتا ہے؛ کورونری، ہیپاٹک پورٹل اور گردوں کی گردش الگ شاخیں ہیں۔",
+            "sd": "شريانون رت کي دل کان پري کڻي وڃن ٿيون؛ انهن جون ٿلهيون، لچڪدار ۽ عضلاتي ڀتيون وڌيڪ دٻاءُ برداشت ڪن ٿيون. رڳون رت کي دل ڏانهن واپس آڻين ٿيون؛ انهن جون ڀتيون سنهيون، اندريون جاءِ ويڪري ۽ خاص ڪري پيرن ۾ والوز هوندا آهن. ڪيپليرين جون ڀتيون هڪ خلوي تهه جيتريون سنهيون هونديون آهن، تنهنڪري مادّن جي مٽاسٽا ٿي سگهي ٿي. آرٽيريولز سڪڙڻ ۽ ڦهلجڻ سان عضون ڏانهن رت جو وهڪرو ڪنٽرول ڪن ٿيون. Systemic گردش ۾ کاٻو ventricle aorta وسيلي رت جسم ڏانهن موڪلي ٿو. Pulmonary گردش ۾ ساڄو ventricle رت ڦڦڙن ڏانهن موڪلي ٿو. Coronary شريانون دل جي عضلي کي رت ڏين ٿيون. Hepatic portal vein آنڊن مان غذائيت وارو رت جيري ڏانهن کڻي وڃي ٿي. گردن جي گردش فلٽريشن لاءِ رت پهچائي ٿي. ڪيپليرين ۾ رت جي رفتار سندن گڏيل ڪراس سيڪشنل ايراضي وڏي هئڻ سبب گهٽ هوندي آهي.\n\nتعاملي ماڊل: هن سبق جي هيٺ موجود Double Circulation Explorer ۾ آڪسيجن گهٽ رت جو جسم مان ساڄي دل ۽ ڦڦڙن تائين، پوءِ آڪسيجن ڀرپور رت جو کاٻي دل کان جسم تائين رستو مرحلن ۾ ڏسو. هي خاڪو بنيادي pulmonary ۽ systemic گردش ڏيکاري ٿو؛ coronary، hepatic portal ۽ renal گردش الڳ شاخون آهن."
           }
         },
         {
@@ -570,6 +570,171 @@
               "explanation": "Lymphatic vessels return excess interstitial fluid and also support immunity."
             }
           }
+        },
+        {
+          "question": "Which vessels return oxygen-rich blood from the lungs to the left atrium?",
+          "options": {
+            "A": "Pulmonary veins",
+            "B": "Pulmonary arteries",
+            "C": "Venae cavae",
+            "D": "Coronary veins"
+          },
+          "correctOption": "A",
+          "explanation": "Pulmonary veins return oxygenated blood from lung capillaries to the left atrium. A vein is defined by carrying blood toward the heart, not by having low oxygen.",
+          "translations": {
+            "ur": {
+              "question": "کون سی خون کی نالیاں پھیپھڑوں سے آکسیجن والا خون بائیں ایٹریم تک واپس لاتی ہیں؟",
+              "options": {
+                "A": "پلمونری وریدیں",
+                "B": "پلمونری شریانیں",
+                "C": "وریدانِ اجوف",
+                "D": "کورونری وریدیں"
+              },
+              "explanation": "پلمونری وریدیں پھیپھڑوں کی باریک نالیوں سے آکسیجن والا خون بائیں ایٹریم تک لاتی ہیں۔ ورید کی پہچان خون کو دل کی طرف لے جانا ہے، نہ کہ آکسیجن کی کم مقدار۔"
+            },
+            "sd": {
+              "question": "ڪهڙيون رت جون رڳون ڦڦڙن مان آڪسيجن وارو رت کاٻي ايٽريم تائين واپس آڻين ٿيون؟",
+              "options": {
+                "A": "پلمونري رڳون",
+                "B": "پلمونري شريانون",
+                "C": "وينا ڪيوا",
+                "D": "ڪورونري رڳون"
+              },
+              "explanation": "پلمونري رڳون ڦڦڙن جي ڪيپليرين مان آڪسيجن وارو رت کاٻي ايٽريم تائين آڻين ٿيون. رڳ جي سڃاڻپ رت کي دل ڏانهن کڻي اچڻ آهي، آڪسيجن جي مقدار نه."
+            }
+          }
+        },
+        {
+          "question": "Baroreceptors in the carotid sinus and aortic arch mainly detect changes in:",
+          "options": {
+            "A": "Stretch of arterial walls caused by pressure",
+            "B": "Blood glucose concentration",
+            "C": "Body temperature",
+            "D": "Oxygen carried by haemoglobin"
+          },
+          "correctOption": "A",
+          "explanation": "Baroreceptors are stretch-sensitive pressure receptors. Changes in arterial wall stretch help trigger reflex adjustments in heart activity and blood-vessel tone.",
+          "translations": {
+            "ur": {
+              "question": "کیروٹڈ سائنس اور شہ رگ کے قوس میں موجود بیروریسیپٹر بنیادی طور پر کس تبدیلی کو محسوس کرتے ہیں؟",
+              "options": {
+                "A": "دباؤ سے شریانوں کی دیوار کا کھنچاؤ",
+                "B": "خون میں گلوکوز کی مقدار",
+                "C": "جسم کا درجۂ حرارت",
+                "D": "ہیموگلوبن کے ساتھ آکسیجن"
+              },
+              "explanation": "بیروریسیپٹر کھنچاؤ محسوس کرنے والے دباؤ کے رسیپٹر ہیں۔ شریان کی دیوار کے کھنچاؤ میں تبدیلی دل کی سرگرمی اور خون کی نالیوں کے تناؤ کو منعکس طور پر منظم کرنے میں مدد دیتی ہے۔"
+            },
+            "sd": {
+              "question": "Carotid sinus ۽ aortic arch ۾ موجود baroreceptors بنيادي طور ڪهڙي تبديلي محسوس ڪن ٿا؟",
+              "options": {
+                "A": "دٻاءَ سبب شريانن جي ڀت جو ڇڪجڻ",
+                "B": "رت ۾ گلوڪوز جي مقدار",
+                "C": "جسم جو گرمي پد",
+                "D": "هيموگلوبن سان گڏ آڪسيجن"
+              },
+              "explanation": "Baroreceptors ڇڪجڻ محسوس ڪندڙ pressure receptors آهن. شريان جي ڀت جي ڇڪجڻ ۾ تبديلي دل جي سرگرمي ۽ رت جي نلين جي ڍنگ کي reflex وسيلي ترتيب ڏيڻ ۾ مدد ڪري ٿي."
+            }
+          }
+        },
+        {
+          "question": "The QRS complex of a normal electrocardiogram mainly represents:",
+          "options": {
+            "A": "Atrial depolarization",
+            "B": "Ventricular depolarization",
+            "C": "Ventricular repolarization",
+            "D": "Opening of the heart valves"
+          },
+          "correctOption": "B",
+          "explanation": "The QRS complex represents ventricular depolarization. Atrial repolarization occurs at about the same time and is usually hidden by the larger QRS signal.",
+          "translations": {
+            "ur": {
+              "question": "عام الیکٹروکارڈیوگرام میں QRS کمپلیکس بنیادی طور پر کس عمل کو ظاہر کرتا ہے؟",
+              "options": {
+                "A": "ایٹریا کا ڈی پولرائزیشن",
+                "B": "بطینوں کا ڈی پولرائزیشن",
+                "C": "بطینوں کا ری پولرائزیشن",
+                "D": "دل کے والوز کا کھلنا"
+              },
+              "explanation": "QRS کمپلیکس بطینوں کے ڈی پولرائزیشن کو ظاہر کرتا ہے۔ ایٹریا کا ری پولرائزیشن تقریباً اسی وقت ہوتا ہے اور عموماً بڑے QRS سگنل میں چھپ جاتا ہے۔"
+            },
+            "sd": {
+              "question": "عام electrocardiogram ۾ QRS complex بنيادي طور ڪهڙي عمل کي ظاهر ڪري ٿو؟",
+              "options": {
+                "A": "Atria جو depolarization",
+                "B": "Ventricles جو depolarization",
+                "C": "Ventricles جو repolarization",
+                "D": "دل جي والوز جو کلڻ"
+              },
+              "explanation": "QRS complex ventricles جي depolarization کي ظاهر ڪري ٿو. Atria جي repolarization لڳ ڀڳ ساڳئي وقت ٿئي ٿي ۽ عام طور وڏي QRS سگنل ۾ لڪي وڃي ٿي."
+            }
+          }
+        },
+        {
+          "question": "Coronary arteries are essential because they:",
+          "options": {
+            "A": "Carry blood from the lungs to the left atrium",
+            "B": "Supply oxygenated blood to the heart muscle",
+            "C": "Carry blood from the liver to the kidneys",
+            "D": "Return lymph directly to the lungs"
+          },
+          "correctOption": "B",
+          "explanation": "Coronary arteries branch from the aorta and supply the myocardium with oxygen and nutrients needed for continuous contraction.",
+          "translations": {
+            "ur": {
+              "question": "کورونری شریانیں کیوں ضروری ہیں؟",
+              "options": {
+                "A": "پھیپھڑوں سے خون بائیں ایٹریم تک لاتی ہیں",
+                "B": "دل کے عضلے کو آکسیجن والا خون فراہم کرتی ہیں",
+                "C": "جگر سے خون گردوں تک لے جاتی ہیں",
+                "D": "لمف کو براہِ راست پھیپھڑوں تک واپس لاتی ہیں"
+              },
+              "explanation": "کورونری شریانیں شہ رگ سے نکلتی ہیں اور مایوکارڈیم کو مسلسل سکڑنے کے لیے آکسیجن اور غذائی اجزا فراہم کرتی ہیں۔"
+            },
+            "sd": {
+              "question": "Coronary شريانون ڇو ضروري آهن؟",
+              "options": {
+                "A": "ڦڦڙن مان رت کاٻي ايٽريم تائين آڻين ٿيون",
+                "B": "دل جي عضلي کي آڪسيجن وارو رت ڏين ٿيون",
+                "C": "جيري مان رت گردن تائين کڻن ٿيون",
+                "D": "لمف کي سڌو ڦڦڙن ڏانهن واپس آڻين ٿيون"
+              },
+              "explanation": "Coronary شريانون aorta مان نڪرن ٿيون ۽ myocardium کي مسلسل سڪڙڻ لاءِ آڪسيجن ۽ غذائي مادا فراهم ڪن ٿيون."
+            }
+          }
+        },
+        {
+          "question": "Blood velocity is generally lowest in capillary beds mainly because:",
+          "options": {
+            "A": "Capillary walls are thicker than artery walls",
+            "B": "The combined cross-sectional area of capillaries is very large",
+            "C": "Blood pressure becomes exactly zero there",
+            "D": "Red blood cells stop moving in capillaries"
+          },
+          "correctOption": "B",
+          "explanation": "The many parallel capillaries create a very large total cross-sectional area. Average flow velocity falls, allowing time for exchange between blood and tissues.",
+          "translations": {
+            "ur": {
+              "question": "کیپلری جال میں خون کی رفتار عموماً سب سے کم کیوں ہوتی ہے؟",
+              "options": {
+                "A": "کیپلری کی دیوار شریان سے زیادہ موٹی ہوتی ہے",
+                "B": "تمام کیپلریز کا مجموعی عرضی رقبہ بہت بڑا ہوتا ہے",
+                "C": "وہاں خون کا دباؤ بالکل صفر ہو جاتا ہے",
+                "D": "سرخ خلیے کیپلریز میں رک جاتے ہیں"
+              },
+              "explanation": "بہت سی متوازی کیپلریز مل کر بہت بڑا مجموعی عرضی رقبہ بناتی ہیں۔ اوسط رفتار کم ہو جاتی ہے، جس سے خون اور بافتوں کے درمیان تبادلے کے لیے وقت ملتا ہے۔"
+            },
+            "sd": {
+              "question": "Capillary beds ۾ رت جي رفتار عام طور سڀ کان گهٽ ڇو هوندي آهي؟",
+              "options": {
+                "A": "ڪيپليرين جون ڀتيون شريانن کان وڌيڪ ٿلهيون آهن",
+                "B": "سڀني ڪيپليرين جو گڏيل عرضي رقبو تمام وڏو آهي",
+                "C": "اتي رت جو دٻاءُ بلڪل صفر ٿي وڃي ٿو",
+                "D": "ڳاڙها خليا ڪيپليرين ۾ بيهي وڃن ٿا"
+              },
+              "explanation": "گهڻيون متوازي ڪيپليريون گڏجي تمام وڏو مجموعي عرضي رقبو ٺاهين ٿيون. سراسري وهڪري جي رفتار گهٽجي ٿي، جنهن سان رت ۽ بافتن جي وچ ۾ مادن جي مٽاسٽا لاءِ وقت ملي ٿو."
+            }
+          }
         }
       ],
       "writtenQuestions": [
@@ -740,7 +905,9 @@
             }
           }
         }
-      ]
+      ],
+      "contentTier": "exam-ready"
     }
-  ]
+  ],
+  "contentTier": "exam-ready"
 }
