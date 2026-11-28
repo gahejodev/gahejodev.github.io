@@ -2,7 +2,7 @@
   "id": "biology-x-chapter-13-circulation",
   "title": "Biology X — Chapter 13: Circulation",
   "description": "Grade X Biology Chapter 13 aligned to the DCAR Sindh Biology Curriculum 2024 (20 periods). Five bilingual lessons cover circulation components, heart and cardiac conduction, vessels and pathways, blood pressure, cardiovascular disorders and the lymphatic system. Includes 20 explained MCQs, 3 CRQs, 2 ERQs, model answers, marking rubrics, an applied emergency-response case study and an interactive double-circulation explorer.",
-  "version": "2",
+  "version": "3",
   "curriculumAlignment": {
     "authority": "Directorate of Curriculum, Assessment and Research (DCAR), Government of Sindh",
     "document": "Curriculum of Biology for Sindh Grades IX–XII (2024), aligned with National Curriculum of Pakistan 2022–23",
@@ -909,5 +909,27 @@
       "contentTier": "exam-ready"
     }
   ],
-  "contentTier": "exam-ready"
+  "contentTier": "exam-ready",
+  "visualLearning": {
+    "component": "mountCirculationModel",
+    "lessonTitle": "13.3 Blood Vessels and Circulatory Pathways",
+    "type": "step-controlled-svg",
+    "stages": [
+      "Body tissues to right atrium",
+      "Right atrium to right ventricle",
+      "Right ventricle to lungs",
+      "Lungs to left atrium",
+      "Left atrium to left ventricle",
+      "Left ventricle to body tissues"
+    ],
+    "assumptions": "Simplified, not-to-scale main pulmonary and systemic circuit; coronary, hepatic portal and renal branches are not drawn.",
+    "source": "https://www.dcar.gos.pk/Sindh-Curriculum/Biology_Curriculum_19_August_2024_with_Notification%5B2%5D.pdf",
+    "accessibility": [
+      "Native keyboard-operable previous/next/reset buttons",
+      "SVG title and description",
+      "Polite live stage readout",
+      "Oxygenation legend uses text and colour",
+      "No autoplay; reduced-motion-safe static rendering"
+    ]
+  }
 }
